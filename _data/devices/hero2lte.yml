@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: hero2lte
-cpu: M1 + Cortex-A53
+cpu: Exynos M1 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1

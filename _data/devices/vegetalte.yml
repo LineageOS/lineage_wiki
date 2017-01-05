@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: vegetalte
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz (E5 4G) / 1.4 GHz (E5s)
 current_branch: 14.1

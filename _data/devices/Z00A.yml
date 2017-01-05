@@ -1,4 +1,4 @@
-architecture: x86
+architecture: x86_64
 battery: 3000mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:
@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: Z00A
-cpu: x86_64
+cpu: Intel Atom
 cpu_cores: '4'
 cpu_freq: 2.3/1.8 GHz
 current_branch: 14.1

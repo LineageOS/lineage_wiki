@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: kenzo
-cpu: Cortex A53 & A72
+cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1

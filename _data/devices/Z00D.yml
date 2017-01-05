@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: Z00D
-cpu: x86
+cpu: Intel Atom
 cpu_cores: '2+2'
 cpu_freq: 1.6 GHz
 current_branch: 14.1

@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: flounder
-cpu: Denver (ARMv8 64-bit)
+cpu: Denver
 cpu_cores: '2'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
