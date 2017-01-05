@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: ivy
-cpu: Cortex A53 & A57
+cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1

@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: espresso3g
-cpu: OMAP4
+cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0

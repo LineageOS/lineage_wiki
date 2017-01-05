@@ -7,7 +7,7 @@ cameras:
 carrier: AT&T, T-Mobile
 channels: [weekly]
 codename: shieldtablet
-cpu: Cortex A15
+cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 2.2 GHz
 current_branch: 14.1
