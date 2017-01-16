@@ -140,7 +140,7 @@ problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull i
 
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
-{% include tip.html content="The repo sync command is used to update the latest source code from CyanogenMod and Google. Remember it, as you can
+{% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
 do it every few days to keep your code base fresh and up-to-date." %}
 
 ### Get prebuilt apps (Lineage 11 and below)
