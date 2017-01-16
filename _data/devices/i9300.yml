@@ -1,0 +1,61 @@
+# Access this data from "site.data.devices[page.device]"
+codename: i9300
+image: i9300.png
+name: Galaxy S III (International)
+vendor: Samsung
+release: May 2012
+type: phone
+carrier:
+# connectivity
+cdma:
+gsm: 850 900 1900 2100 MHz UMTS/HSPA+
+lte:
+bluetooth: 4.0
+wifi: 802.11 a/b/g/n
+# camera
+cameras:
+    - size: 8MP
+      flash: true
+      flash_type: LED
+    - size: 1.9MP
+      flash: false
+# peripherals
+peripherals:
+    - accelerometer
+    - gyroscope
+    - proximity sensor
+    - digital compass
+    - GPS
+    - microphone
+    - NFC
+    - barometer
+# device specs
+soc: Samsung Exynos 4412
+ram: 1GB
+cpu: Cortex A9
+cpu_freq: 1.4GHz
+cpu_cores: 4
+gpu: Mali 400
+storage: 16GB/32GB
+sdcard: up to 64GB
+# device size
+height: 136.6mm (5.4in)
+width: 70.6mm (2.8in)
+screen: 122mm (4.8in)
+screen_res: 1280x720
+screen_ppi: 306
+screen_tech: HD Super AMOLED
+# lineage info
+versions:
+    - 14.1
+kernel: android_kernel_samsung_smdk4412
+tree: android_device_samsung_i9300
+maintainers:
+    - forkbomb
+channels:
+    - weekly
+# recovery - "to boot into recovery, {{recovery_boot}}."
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+has_recovery_partition: true
+# fastboot/download mode
+download_boot: Hold **Home**, **Volume Down**, and **Power**
