@@ -3,6 +3,8 @@ codename: i9300
 image: i9300.png
 name: Galaxy S III (International)
 vendor: Samsung
+# name used by device tree (android_device_{{vendor_short}}_{{codename}})
+vendor_short: samsung
 release: May 2012
 type: phone
 carrier:
@@ -47,7 +49,10 @@ screen_ppi: 306
 screen_tech: HD Super AMOLED
 # lineage info
 versions:
+    - 13.0
     - 14.1
+# used for build instructions
+current_branch: 14.1
 kernel: android_kernel_samsung_smdk4412
 tree: android_device_samsung_i9300
 maintainers:
