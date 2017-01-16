@@ -1,0 +1,247 @@
+{% include note.html content="This page is auto-generated for the {{ site.data.devices[page.device].name }}, based on the device's information, located
+[here](https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/{{ site.data.devices[page.device].codename }}.yml). You can find similar
+instructions for every officially-supported device on this wiki." %}
+
+## Introduction
+
+These instructions will hopefully assist you to start with a stock {{ site.data.devices[page.device].name }}, unlock the bootloader (if necessary), and then download
+the required tools as well as the very latest source code for LineageOS (based on Google’s Android operating system) for your device. Using these, you can build both
+LineageOS and LineageOS Recovery image from source code, and then install them both to your device.
+
+It is difficult to say how much experience is necessary to follow these instructions. While this guide is certainly not for the very very very uninitiated,
+these steps shouldn’t require a PhD in software development either. Some readers will have no difficulty and breeze through the steps easily.
+Others may struggle over the most basic operation. Because people’s experiences, backgrounds, and intuitions differ, it may be a good idea to read through
+just to ascertain whether you feel comfortable or are getting over your head.
+
+Remember, you assume all risk of trying this, but you will reap the rewards! It’s pretty satisfying to boot into a fresh operating system you baked at home :).
+And once you’re an Android-building ninja, there will be no more need to wait for “nightly” builds from anyone. You will have at your fingertips the skills to
+build a full operating system from code to a running device, whenever you want. Where you go from there-- maybe you’ll add a feature, fix a bug, add a translation,
+or use what you’ve learned to build a new app or port to a new device-- or maybe you’ll never build again-- it’s all really up to you.
+
+### What you'll need
+
+* A {{ site.data.devices[page.device].name }}
+* A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable ccache
+ or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
+ build times than traditional hard drives.
+* A USB cable compatible with the {{site.data.devices[page.device].name}} (typically micro USB)
+* A decent internet connection & reliable electricity :)
+* Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
+ It may also be useful to know some basic command line concepts such as cd for “change directory”, the concept of directory hierarchies, that in Linux they are separated by /, etc.
+
+{% include tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
+[VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
+Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so I'll leave that to you." %}
+
+Let's begin!
+
+## Build LineageOS and LineageOS Recovery
+
+{% include note.html content="You only need to do these steps once. If you have already prepared your build environment and downloaded the source code,
+skip to [Prepare the device-specific code](#TODO)" %}
+
+### Install the SDK
+
+If you haven't previously installed `adb` and `fastboot`, you can [download them from Google](https://dl.google.com/android/repository/platform-tools-latest-linux.zip).
+Extract it somewhere, and hang tight - we'll use them later on.
+
+### Install the build packages
+
+Several packages are needed to build LineageOS. You can install these using your distribution's package manager.
+
+{% include tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
+(usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the apt-get
+install command directly in the Terminal." %}
+
+You'll need:
+
+<!-- markdown is bad at wrapping code blocks, so split it across two lines -->
+`bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev`  
+`liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`
+
+For Ubuntu 15.10 (wily) and newer, substitute:
+
+* `lib32-readline-gplv2-dev` → `lib32readline6-dev`
+
+For Ubuntu 16.04 (xenial) and newer, substitute:
+
+* `libwxgtk2.8-dev` → `libwxgtk3.0-dev`
+
+#### Java
+
+Different versions of LineageOS require different JDK (Java Development Kit) versions.
+
+* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`) - for Ubuntu 16.04 and newer, you can obtain OpenJDK 1.7 from the [openjdk-r](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa) PPA.
+* LineageOS 14.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
+
+### Create the directories
+
+You'll need to set up some directories in your build environment.
+
+To create them:
+
+```
+$ mkdir -p ~/bin
+$ mkdir -p ~/android/system
+```
+
+### Install the `repo` command
+
+Enter the following to download the `repo` binary and make it executable (runnable):
+
+```
+$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
+```
+
+### Put the `~/bin` directory in your path of execution
+
+In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
+
+```
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+```
+
+Then, run `source ~/.profile` to update your environment.
+
+### Initialise the LineageOS source repository
+
+Enter the following to initialize the repository:
+
+{% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
+
+The {{ site.data.devices[page.device].name }} supports the following branches officially:
+
+{% for version in site.data.devices[page.device].versions %}
+{% if version < 15 %}
+* cm-{{version}}
+{% else %}
+* lineage-{{version}}
+{% endif %}
+{% endfor %}
+
+```
+$ cd ~/android/system
+$ repo init -u https://github.com/LineageOS/android.git -b {% if site.data.devices[page.device].current_branch < 15 %}cm{%else%}lineage{%endif%}-{{ site.data.devices[page.device].current_branch }}
+```
+
+### Download the source code
+
+To start the download of the source code to your computer:
+
+```
+$ repo sync
+```
+
+The Lineage manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
+For reference, our default values are -j 4 and -c. The -j 4 part means that there will be four simultaneous threads/connections. If you experience
+problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull in only the current branch, instead of the entire CM history.
+
+{% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
+
+{% include tip.html content="The repo sync command is used to update the latest source code from CyanogenMod and Google. Remember it, as you can
+do it every few days to keep your code base fresh and up-to-date." %}
+
+### Get prebuilt apps (Lineage 11 and below)
+
+To download the prebuilt apps, run:
+
+```
+$ cd ~/android/system/vendor/cm
+$ ./get-prebuilts
+```
+You won't see any confirmation- just another prompt. But this should cause some prebuilt apps to be loaded and installed into the source code. Once completed, this does not need to be done again.
+
+### Prepare the device-specific code
+
+After the source downloads, ensure you're in the root of the source code (`cd ~/android/system`), then type:
+
+```
+$ source build/envsetup.sh
+$ breakfast {{ site.data.devices[page.device].codename }}
+```
+
+This will download your device's [device specific configuration]({{ site.data.devices[page.device].tree }}) and [kernel]({{ site.data.devices[page.device].kernel }}).
+
+{% include important.html content="Some maintainers require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
+makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeded, and after completing you can rerun
+`breakfast {{ site.data.devices[page.device].codename }}`" %}
+
+### Extract proprietary blobs
+
+Now ensure your {{ site.data.devices[page.device].name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
+`~/android/system/device/{{site.data.devices[page.device].vendor_short}}/{{site.data.devices[page.device].codename}}` folder. Then run the `extract-files.sh` script:
+
+```
+$ ./extract-files.sh
+```
+
+The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
+need to be placed in `~/bin`.
+
+### Turn on caching to speed up build
+
+You can speed up subsequent builds by running
+
+```
+$ export USE_CCACHE=1
+```
+
+and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want [cache](https://ccache.samba.org/) to use
+by typing this from the top of your Android tree:
+
+```
+$ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+```
+
+where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
+(for instance, a typical 1hr build time can be reduced to 20min). If you're only building for one device, 25GB-50GB is fine. If you plan to build
+for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
+into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
+
+{% if site.data.devices[page.device].current_branch >= 14 %}
+### Configure jack
+
+[Jack](http://source.android.com/source/jack.html) is the new Java compiler used from Lineage 14. It is known to run out of memory - a simple fix is to run this command:
+
+```
+$ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
+```
+
+Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory.
+{% endif %}
+
+### Start the build
+
+Time to start building! Now, type:
+
+```
+$ croot
+$ brunch {{site.data.devices[page.device].vendor_short}}
+```
+
+The build should begin.
+
+## Install the build
+
+Assuming the build completed without errors (it will be obvious when it finishes), type:
+
+`$ cd $OUT`
+
+in the terminal window the build ran in. Here you'll find all the files that were created. The two files we're interested in are:
+
+1. `recovery.img`, which contains the LineageOS recovery
+2. `lineage-{{site.data.devices[page.device].current_branch}}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{site.data.devices[page.device].codename}}.zip`, which is the LineageOS
+installer.
+
+### Success! So... what's next?
+
+You've done it! Welcome to the elite club of self-builders. You've built your operating system from scratch, from the ground up. You are the master/mistress of your domain... and
+hopefully you've learned a bit on the way and had some fun too.
+
+## To get assistance
+
+* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode IRC (Internet Relay Chat) network.
