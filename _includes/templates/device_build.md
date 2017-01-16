@@ -162,7 +162,8 @@ $ source build/envsetup.sh
 $ breakfast {{ site.data.devices[page.device].codename }}
 ```
 
-This will download your device's [device specific configuration]({{ site.data.devices[page.device].tree }}) and [kernel]({{ site.data.devices[page.device].kernel }}).
+This will download your device's [device specific configuration](https://github.com/LineageOS/{{ site.data.devices[page.device].tree }}) and
+[kernel](https://github.com/LineageOS/{{ site.data.devices[page.device].kernel }}).
 
 {% include important.html content="Some maintainers require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
 makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeded, and after completing you can [rerun
