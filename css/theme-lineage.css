@@ -14,7 +14,7 @@ h4 {color: #808080; }
 }
 
 .nav > li.active > a {
-    background-color: #347DBE;
+    background-color: #167C80;
 }
 
 .nav > li > a:hover {
@@ -22,7 +22,7 @@ h4 {color: #808080; }
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #347DBE;
+    background-color: #167C80;
 }
 
 .nav li.thirdlevel > a {
@@ -38,7 +38,7 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #347DBE;
+    background-color: #167C80;
     border-color: #015CAE;
 }
 
@@ -58,12 +58,12 @@ a[data-toggle="tooltip"] {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #347DBE;
-    border-color: #347DBE;
+    background-color: #167C80;
+    border-color: #167C80;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #347DBE;
+    background-color: #167C80;
 }
 
 .btn-primary:hover,
@@ -72,7 +72,7 @@ a[data-toggle="tooltip"] {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     background-color: #248ec2;
-    border-color: #347DBE;
+    border-color: #167C80;
 }
 
 .printTitle {
