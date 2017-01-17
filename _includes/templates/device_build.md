@@ -219,7 +219,7 @@ Time to start building! Now, type:
 
 ```
 $ croot
-$ brunch {{site.data.devices[page.device].vendor_short}}
+$ brunch {{site.data.devices[page.device].codename}}
 ```
 
 The build should begin.
