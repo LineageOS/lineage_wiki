@@ -1,0 +1,42 @@
+battery: Li-Ion 2000 / 3000 mAh battery
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 8 / 13 MP}
+- {flash: '', info: 2 / 5 MP}
+carrier: ''
+cdma: "CDMA 800\nCDMA EVDO 800 \nTD-SCDMA B34/39\nWCDMA B1/8"
+channels: [weekly]
+codename: che10
+cpu: Cortex A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 13.0
+download_boot: Volume Down & Power
+gpu: Adreno 306
+gsm: GSM 900 /1800 / 1900
+has_recovery_partition: true
+image: cherry.png
+install_method: TODO
+kernel: android_kernel_huawei_msm8916
+lte: 'TD-LTE B38/39/40/41
+
+  FDD-LTE B1/3'
+maintainers: [dianlujitao]
+name: Honor 4x (China Telecom)
+peripherals: [Accelerometer, proximity, compass]
+ram: 1GB / 2GB
+recovery_boot: Volume Up & Power
+release: ''
+screen: 5.0 / 5.5 in
+screen_ppi: 294 / 267
+screen_res: 1280x720
+screen_tech: IPS + LCD
+sdcard: up to 32GB
+soc: Qualcomm Snapdragon 410 MSM8916
+storage: 8 GB
+tree: android_device_huawei_che10
+type: phablet
+vendor: Huawei
+vendor_short: huawei
+versions: [13.0]
+wifi: 802.11 b/g/n

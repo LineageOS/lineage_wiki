@@ -1,0 +1,46 @@
+battery: Non-removable 1780 mAh
+bluetooth: Bluetooth 4.0 + A2DP
+cameras:
+- {flash: '', info: '13 MP f/2.4, flash: LED'}
+- {flash: '', info: 1.3 MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: mint
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: 10.45 mm
+download_boot: With the device powered down, hold Volume Down and connect the USB
+  cable. The notification light should turn green.
+gpu: Adreno 225
+gsm: 850 / 900 / 1800 / 1900 / 2100 MHz UMTS/HSPA+
+has_recovery_partition: true
+height: 129.4 mm
+image: mint.png
+install_method: TODO
+kernel: android_kernel_sony_msm8x60
+lte: ''
+maintainers: [Adrian DC]
+name: Xperia T
+peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
+  Compass, Gyroscope, Light sensor, Proximity Sensor]
+ram: 1GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lightning up.Second
+  Recovery: To boot the FOTA Recovery, press Volume Up instead.'
+release: 2012 September
+screen: 110.0 mm (4.55 in)
+screen_ppi: '323'
+screen_res: 720x1280
+screen_tech: TFT
+sdcard: officially up to 32GB
+soc: Qualcomm Snapdragon S4 MSM8260A
+storage: 16GB
+tree: android_device_sony_mint
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [13.0, 14.1]
+width: 67.3 mm
+wifi: 802.11 2.4GHz a/b/g/n 5GHz

@@ -1,0 +1,40 @@
+battery: removable Li-Ion 2540 mAh battery
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 8MP}
+- {flash: '', info: 1.3MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: jag3gds
+cpu: Cortex A7
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+download_boot: Plug into PC & Volume UP
+gpu: Adreno 305
+gsm: ''
+has_recovery_partition: true
+image: Jag3gds.png
+install_method: TODO
+kernel: android_kernel_lge_msm8226
+lte: ''
+maintainers: ['']
+name: G3 S
+peripherals: ['']
+ram: 1GB
+recovery_boot: Volume Down & Power
+release: 2014 August
+screen: 127 mm (5.0 in)
+screen_ppi: ~294
+screen_res: 720x1280
+screen_tech: IPS LCD
+sdcard: up to 64GB
+soc: Qualcomm MSM8926 Snapdragon 400
+storage: 8GB
+tree: android_device_lge_jag3gds
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [13.0, 14.1]
+wifi: 802.11 a/b/g/n

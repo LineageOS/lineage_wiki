@@ -1,0 +1,46 @@
+battery: 2300 mAh
+bluetooth: 4.0 LE
+cameras:
+- {flash: LED, info: 8MP}
+- {flash: '', info: 1.3MP}
+carrier: ''
+cdma: 800 1900 MHz
+channels: [weekly]
+codename: hammerhead
+cpu: Snapdragon 800 Krait 400
+cpu_cores: '4'
+cpu_freq: 2.26 GHz
+current_branch: 14.1
+depth: ''
+download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
+  Then press and hold the Power button until a boot menu appears.
+gpu: Adreno 330
+gsm: 800 850 900 1700 1900 2100 MHz UMTS/HSDPA
+has_recovery_partition: true
+height: ''
+image: nexus5.png
+install_method: TODO
+kernel: ''
+lte: 700 800 850 1700 1900 2100 2600 MHz
+maintainers: ['']
+name: Nexus 5
+peripherals: ['']
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
+  Then press and hold the Power button until a boot menu appears. Navigate using the
+  volume keys and select RECOVERY using the Power key.
+release: 2013 October 31
+screen: 127 mm (5.0 in)
+screen_ppi: '445'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard: none
+soc: Qualcomm Snapdragon 800
+storage: 16GB, 32GB
+tree: android_device_lge_hammerhead
+type: phone
+vendor: Google
+vendor_short: lge
+versions: [13.0, 14.1]
+width: ''
+wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac

@@ -1,0 +1,42 @@
+battery: 3000 mAh Li-Po with VOOC Flash Charge (un-removable)
+bluetooth: '4.0'
+cameras:
+- {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: n3
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.3 GHz
+current_branch: 14.1
+depth: 8.7 mm
+download_boot: With the device powered down, hold the Volume Up and Power buttons.
+gpu: Adreno 330
+gsm: ''
+has_recovery_partition: true
+height: 161.2 mm
+image: N3.png
+install_method: TODO
+kernel: ''
+lte: ''
+maintainers: ['']
+name: N3
+peripherals: ['']
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2015 January
+screen: 140 mm (5.5 in)
+screen_ppi: ''
+screen_res: 1920x1080
+screen_tech: ''
+sdcard: up to 128GB
+soc: Qualcomm Snapdragon 801
+storage: 32GB
+tree: android_device_oppo_n3
+type: phone
+vendor: Oppo
+vendor_short: oppo
+versions: [13.0, 14.1]
+width: 77 mm
+wifi: 802.11 a/b/g/n/ac

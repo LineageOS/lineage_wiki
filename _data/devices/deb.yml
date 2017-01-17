@@ -1,0 +1,46 @@
+battery: 3950 mAh
+bluetooth: 4.0 LE
+cameras:
+- {flash: none, info: 5MP}
+- {flash: '', info: 1.2MP}
+carrier: AT&T, T-Mobile, Verizon
+cdma: ''
+channels: [weekly]
+codename: deb
+cpu: Snapdragon S4 Pro Krait 300
+cpu_cores: '4'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: ''
+download_boot: With the device powered down, hold the Volume Down and Power buttons
+  until the bootloader appears, then release the buttons.
+gpu: Adreno 320
+gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
+has_recovery_partition: true
+height: ''
+image: nexus7-2013.png
+install_method: TODO
+kernel: android_kernel_google_msm
+lte: 700 850 1700 1800 1900 2100 MHz
+maintainers: ['']
+name: Nexus 7 (LTE, 2013 version)
+peripherals: ['']
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons
+  until the bootloader appears, then release the buttons. Navigate using the volume
+  keys and select RECOVERY using the Power key.
+release: 2013 September 9
+screen: 178 mm (7.0 in)
+screen_ppi: '323'
+screen_res: 1920x1200
+screen_tech: IPS LCD
+sdcard: none
+soc: Qualcomm Snapdragon S4 Pro
+storage: 32GB
+tree: android_device_asus_deb
+type: tablet
+vendor: Google
+vendor_short: asus
+versions: [13.0, 14.1]
+width: ''
+wifi: Dual-band (2.4/5 GHz) 802.11 a/b/g/n

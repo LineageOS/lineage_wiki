@@ -1,0 +1,40 @@
+battery: 1735 mAh
+bluetooth: v2.1 with A2DP, EDR
+cameras:
+- {flash: LED, info: 8MP}
+- {flash: '', info: VGA}
+carrier: Verizon
+cdma: 800/1900 CDMA2000 1xEV-DO
+channels: [weekly]
+codename: targa
+cpu: Cortex-A9
+cpu_cores: '2'
+cpu_freq: 1 GHz
+current_branch: 13.0
+download_boot: Vol Up & Vol Down & Power
+gpu: PowerVR SGX540
+gsm: ''
+has_recovery_partition: true
+image: targa.png
+install_method: TODO
+kernel: android_kernel_motorola_omap4-common
+lte: 700 MHz Class 13
+maintainers: [Hashcode0f]
+name: Droid Bionic
+peripherals: [Accelerometer, proximity, compass, GPS]
+ram: 1GB
+recovery_boot: Power and at SafeStrap splash screen press Menu key within 10 seconds
+release: 2011 September 8
+screen: 109 mm (4.3 in)
+screen_ppi: '256'
+screen_res: 540 x 960
+screen_tech: TFT capacitive touchscreen
+sdcard: microSD, up to 32 GB, 16 GB included
+soc: TI OMAP4430
+storage: 16GB
+tree: android_device_motorola_targa
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [13.0]
+wifi: Wi-Fi 802.11 b/g/n

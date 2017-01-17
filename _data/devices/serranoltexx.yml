@@ -1,0 +1,43 @@
+battery: 1900 mAh Li-ion, removable
+bluetooth: v4.0 with A2DP, LE, EDR
+cameras:
+- {flash: LED, info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
+- {flash: '', info: 1.9 MP 720p HD Video Recording @ 30fps}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: serranoltexx
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.7 GHz
+current_branch: 13.0
+download_boot: Vol Down & Home & Power
+gpu: Adreno 305
+gsm: EDGE / GPRS Class 33 / GSM Quad Band (850 / 900 / 1,800 / 1,900MHz)3G (850 /
+  900 / 1,900 / 2,100MHz)
+has_recovery_partition: true
+image: serranoltexx.png
+install_method: TODO
+kernel: android_kernel_samsung_msm8930-common
+lte: LTE Band 3 (1,800MHz), Band 7 (2,600MHz), Band 8 (900MHz), Band 20 (800MHz)
+maintainers: [Arne Coucheron]
+name: Galaxy S4 Mini (International LTE)
+peripherals: [Accelerometer, gyroscope, proximity sensor, compass, SNS integration,
+  stereo FM radio with RDS, infrared port, GPS/GLONASS, NFC, microUSB v2.0, Corning
+    Gorilla Glass]
+ram: 1.5GB
+recovery_boot: Vol Up & Home & Power
+release: 2013 July
+screen: 109 mm (4.3 in)
+screen_ppi: '256'
+screen_res: 960x540
+screen_tech: Super AMOLED
+sdcard: up to 64GB
+soc: Qualcomm Snapdragon 400
+storage: 8GB
+tree: android_device_samsung_serranoltexx
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [13.0]
+wifi: 802.11 a/b/g/n, dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot

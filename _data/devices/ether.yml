@@ -1,0 +1,43 @@
+battery: 2680 mAh
+bluetooth: 4.0 LE
+cameras:
+- {flash: dual-tone, info: 13MP}
+- {flash: '', info: 5MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: ether
+cpu: Cortex A53 & A57
+cpu_cores: '6'
+cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
+current_branch: 14.1
+depth: ''
+download_boot: With the device powered down, hold the Volume Up and Power buttons.
+gpu: Adreno 418
+gsm: ''
+has_recovery_partition: true
+height: ''
+image: Ether.png
+install_method: TODO
+kernel: android_kernel_nextbit_msm8992
+lte: ''
+maintainers: ['']
+name: Robin
+peripherals: ['']
+ram: 3GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2015 August
+screen: 132 mm (5.2 in)
+screen_ppi: '424'
+screen_res: 1080x1920
+screen_tech: IPS LCD, Gorilla Glass 4
+sdcard: ''
+soc: Qualcomm Snapdragon 808
+storage: 32GB
+tree: android_device_nextbit_ether
+type: phone
+vendor: Nextbit
+vendor_short: nextbit
+versions: [13.0, 14.1]
+width: ''
+wifi: 802.11 a/b/g/n/ac

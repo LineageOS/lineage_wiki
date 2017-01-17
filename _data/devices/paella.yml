@@ -1,0 +1,40 @@
+battery: 2900 mAh LiPo
+bluetooth: '4.0'
+cameras:
+- {flash: Dual-LED, info: 13MP}
+- {flash: '', info: 5MP w/LED Flash}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: paella
+cpu: Cortex A53
+cpu_cores: '4'
+cpu_freq: 1.4 GHz
+current_branch: 13.0
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 306
+gsm: ''
+has_recovery_partition: true
+image: Paella.png
+install_method: TODO
+kernel: android_kernel_bq_msm8916
+lte: ''
+maintainers: ['']
+name: Aquaris X5
+peripherals: [Dual SIM]
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: ''
+screen: 127 mm (5.0 in)
+screen_ppi: ~294
+screen_res: 720x1280
+screen_tech: IPS LCD
+sdcard: up to 32GB
+soc: Qualcomm Snapdragon 412 MSM8916T
+storage: 16GB
+tree: android_device_bq_paella
+type: phone
+vendor: BQ
+vendor_short: bq
+versions: [13.0]
+wifi: 802.11 a/b/g/n

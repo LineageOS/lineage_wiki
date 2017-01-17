@@ -1,0 +1,41 @@
+battery: 2040 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 5MP}
+- {flash: '', info: 0.3MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: w5
+cpu: Cortex A7
+cpu_cores: '2'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+gpu: Adreno 302
+gsm: ''
+has_recovery_partition: true
+image: W5.png
+install_method: TODO
+kernel: android_kernel_lge_msm8226
+lte: ''
+maintainers: ['']
+name: Optimus L70
+peripherals: ['']
+ram: 1GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+  Release the Power button for a brief second when the LG logo is displayed, then
+  immediately hold it again.
+release: 2014 April
+screen: 114 mm (4.5 in)
+screen_ppi: ~207
+screen_res: 480x800
+screen_tech: IPS LCD
+sdcard: up to 32GB
+soc: Qualcomm MSM8210 Snapdragon 200
+storage: 4GB
+tree: android_device_lge_w5
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [13.0, 14.1]
+wifi: 802.11 b/g/n/i/u

@@ -1,0 +1,40 @@
+battery: 4000 mAh Li-Po Non-removable
+bluetooth: '4.0'
+cameras:
+- {flash: '', info: 5MP/8MP}
+- {flash: '', info: 2MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: P024
+cpu: Cortex A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+download_boot: With the device powered off, hold Volume Up & Power
+gpu: Adreno 306
+gsm: ''
+has_recovery_partition: true
+image: P024.png
+install_method: TODO
+kernel: ''
+lte: ''
+maintainers: [vm03]
+name: ZenPad 8.0 (Z380KL)
+peripherals: ['']
+ram: 1GB/2GB
+recovery_boot: ''
+release: 2015 July
+screen: 203 mm (8.0 in)
+screen_ppi: ~189
+screen_res: 1280x800
+screen_tech: IPS LCD
+sdcard: up to 64GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 8GB/16GB
+tree: android_device_asus_P024
+type: tablet
+vendor: Asus
+vendor_short: asus
+versions: [13.0, 14.1]
+wifi: 802.11 b/g/n

@@ -1,0 +1,46 @@
+battery: Removable 1700 mAh
+bluetooth: Bluetooth 4.0 + A2DP
+cameras:
+- {flash: '', info: '13 MP f/2.4, flash: LED'}
+- {flash: '', info: 1.3 MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: tsubasa
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: 10.7 mm
+download_boot: With the device powered down, hold Volume Down and connect the USB
+  cable. The notification light should turn green.
+gpu: Adreno 225
+gsm: 850 / 900 / 1800 / 1900 / 2100 MHz UMTS/HSPA+
+has_recovery_partition: true
+height: 129.0 mm
+image: tsubasa.png
+install_method: TODO
+kernel: android_kernel_sony_msm8x60
+lte: 850 / 1800 / 2100 / 2600 MHz
+maintainers: [Adrian DC]
+name: Xperia V
+peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
+  Compass, Gyroscope, Light sensor, Proximity Sensor]
+ram: 1GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lightning up.Second
+  Recovery: To boot the FOTA Recovery, press Volume Up instead.'
+release: 2012 September
+screen: 109 mm (4.3 in)
+screen_ppi: '342'
+screen_res: 720x1280
+screen_tech: TFT
+sdcard: officially up to 32GB
+soc: Qualcomm Snapdragon S4 MSM8960
+storage: 8GB
+tree: android_device_sony_tsubasa
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [13.0, 14.1]
+width: 65.0 mm
+wifi: 802.11 2.4GHz a/b/g/n 5GHz

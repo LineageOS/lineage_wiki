@@ -1,0 +1,43 @@
+battery: 2840 mAh
+bluetooth: '4.1'
+cameras:
+- {flash: dual-LED, info: 20MP}
+- {flash: '', info: 4MP}
+carrier: ''
+cdma: 850, 2100 MHz
+channels: [weekly]
+codename: himawl
+cpu: Cortex A53 & A57
+cpu_cores: '8'
+cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
+current_branch: 13.0
+download_boot: With the device powered down, hold the Volume Down and Power buttons
+  until HBOOT appears, then release the buttons.
+gpu: Adreno 430
+gsm: 850, 900, 1800, 1900 MHz
+has_recovery_partition: true
+image: Himaul.png
+install_method: TODO
+kernel: android_kernel_htc_msm8994
+lte: ''
+maintainers: ['']
+name: One M9 (Verizon)
+peripherals: ['']
+ram: 3GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons
+  until HBOOT appears, then release the buttons. Navigate using the volume keys and
+  select RECOVERY using the Power key.
+release: 2015 March
+screen: 127 mm (5.0 in)
+screen_ppi: ~441
+screen_res: 1080x1920
+screen_tech: Super LCD3
+sdcard: up to 2TB
+soc: Qualcomm Snapdragon 810
+storage: 32GB
+tree: android_device_htc_himawl
+type: phone
+vendor: HTC
+vendor_short: htc
+versions: [13.0]
+wifi: 802.11 a/b/g/n/ac (2.4 & 5 GHz)

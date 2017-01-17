@@ -1,0 +1,42 @@
+battery: 2500 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 13 megapixels}
+- {flash: '', info: 5 megapixels}
+carrier: ''
+cdma: 900, 2100 MHz
+channels: [weekly]
+codename: seed
+cpu: Cortex-A53, 64-bit
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+download_boot: With the device powered off, hold Volume Down & Power
+gpu: Adreno 306
+gsm: 850, 900, 1800, 1900 MHz
+has_recovery_partition: true
+image: Seed.png
+install_method: TODO
+kernel: ''
+lte: Bands 20, 3, 7
+maintainers: [Arvin Quilao]
+name: Android One 2nd Gen
+peripherals: [Accelerometer, Compass, Gyroscope, Proximity]
+ram: 2GB / 1GB for IQ II
+recovery_boot: With the device powered off, hold Volume Up & Power
+release: ''
+screen: 5.0 in
+screen_ppi: '294'
+screen_res: 1280x720
+screen_tech: IPS LCD
+sdcard: up to 128GB
+soc: 'Qualcomm MSM8916
+
+  Snapdragon 410'
+storage: 16GB
+tree: android_device_google_seed
+type: phone
+vendor: Google
+vendor_short: google
+versions: [14.1]
+wifi: 802.11 b, g, n

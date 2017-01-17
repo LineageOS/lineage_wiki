@@ -1,0 +1,39 @@
+battery: ''
+bluetooth: v4.1
+cameras:
+- {flash: LED, info: '13 MP, f/2.0, 28mm'}
+- {flash: '', info: '5 MP, f/2.4, 22mm'}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: kiwi
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4x1.2 & 4x1.5 GHz
+current_branch: 13.0
+gpu: Adreno 405
+gsm: ''
+has_recovery_partition: true
+image: Kiwi.png
+install_method: TODO
+kernel: ''
+lte: ''
+maintainers: ['crpalmer,BadDaemon']
+name: Honor 5X
+peripherals: ['']
+ram: 2GB
+recovery_boot: ''
+release: 2015 November
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080 x 1920
+screen_tech: IPS
+sdcard: up to 128GB
+soc: Qualcomm MSM8939v2 Snapdragon 616
+storage: 16GB
+tree: android_device_huawei_kiwi
+type: phone
+vendor: Huawei
+vendor_short: huawei
+versions: [13.0]
+wifi: Wi-Fi 802.11 b/g/n

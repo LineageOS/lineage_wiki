@@ -1,0 +1,45 @@
+battery: Non-removable Li-Po 3220 mAh
+bluetooth: 4.1 LE
+cameras:
+- {flash: Dual LED, info: 13 MP}
+- {flash: '', info: 2.1 MP}
+carrier: ''
+cdma: 800 1900 MHz (North/South American model only)
+channels: [weekly]
+codename: shamu
+cpu: Qualcomm Krait 450
+cpu_cores: '4'
+cpu_freq: 2.7 GHz
+current_branch: 14.1
+depth: (d, cur
+download_boot: Hold down the Volume Down button while booting.
+gpu: Adreno 420
+gsm: 850 900 1800 1900 MHz UTMS HSPA+
+has_recovery_partition: true
+height: ''
+image: Google Nexus 6.png
+install_method: TODO
+kernel: ''
+lte: 'North/South American devices: 700 850 1700 1800 1900 2500 2600 MHzAfro-Eurasian
+  devices: 700 800 850 900 1800 2100 2500 2600 MHz'
+maintainers: ['']
+name: Nexus 6
+peripherals: ['']
+ram: 3GB
+recovery_boot: Hold down the Volume Down button while booting, and use the menu to
+  select Recovery.
+release: 29 October 2014
+screen: 151 mm (5.96 in)
+screen_ppi: '493'
+screen_res: 2560x1440
+screen_tech: Pentile RGBG QHD AMOLED
+sdcard: none
+soc: Qualcomm Snapdragon 805
+storage: 32/64 GB
+tree: android_device_moto_shamu
+type: phablet
+vendor: Google
+vendor_short: moto
+versions: [13.0, 14.1]
+width: ''
+wifi: 802.11a/b/g/n/ac 2x2 (MIMO)

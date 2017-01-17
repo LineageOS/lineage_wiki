@@ -16,11 +16,10 @@ bluetooth: 4.0
 wifi: 802.11 a/b/g/n
 # camera
 cameras:
-    - size: 8MP
-      flash: true
-      flash_type: LED
-    - size: 1.9MP
-      flash: false
+    - info: 8MP
+      flash: LED
+    - info: 1.9MP
+      flash:
 # peripherals
 peripherals:
     - accelerometer

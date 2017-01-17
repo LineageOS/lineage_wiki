@@ -1,0 +1,40 @@
+battery: 2000 mAh (Non-removable)
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 13MP}
+- {flash: '', info: 5MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: r5
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+download_boot: With the device powered down, hold the Volume Up and Power buttons.
+gpu: Adreno 405
+gsm: ''
+has_recovery_partition: true
+image: R5.png
+install_method: TODO
+kernel: android_kernel_oppo_msm8939
+lte: ''
+maintainers: [maniac103]
+name: R5/R5s (International)
+peripherals: ['']
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2014 December
+screen: 132 mm (5.2 in)
+screen_ppi: ~423
+screen_res: 1080x1920
+screen_tech: AMOLED
+sdcard: ''
+soc: Qualcomm Snapdragon 615 MSM8939
+storage: 16GB
+tree: android_device_oppo_r5
+type: phone
+vendor: Oppo
+vendor_short: oppo
+versions: [13.0, 14.1]
+wifi: 802.11 a/b/g/n, dual-band

@@ -1,0 +1,40 @@
+battery: 3000 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: LED, info: 13MP}
+- {flash: '', info: '5MP, 13MP Flash LED (ZD551KL)'}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: Z00T
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.7/1.0 GHz
+current_branch: 14.1
+download_boot: Hold Volume Up & Power simultaneously.
+gpu: Adreno 405
+gsm: 850 / 900 / 1800 / 1900WCDMA 850 / 900 / 1700 / 1900 / 2100
+has_recovery_partition: true
+image: Z00T.png
+install_method: TODO
+kernel: android_kernel_asus_msm8916
+lte: 2100 / 1900 / 1800 / 1700AWS 850 / 2600 / 900 / 700 / 800
+maintainers: [LuK1337, luca020400]
+name: Zenfone 2 Laser/Selfie (1080p)
+peripherals: [Accelerometer, gyroscope, proximity, compass]
+ram: 2/3GB
+recovery_boot: Hold Volume Down & Power simultaneously.
+release: 2015 November
+screen: 5.5/6.0 inches
+screen_ppi: ~401/367
+screen_res: 1080x1920
+screen_tech: IPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 128GB
+soc: Qualcomm Snapdragon 615 MSM8939
+storage: 16GB or 32GB
+tree: android_device_asus_Z00T
+type: phone
+vendor: Asus
+vendor_short: asus
+versions: [13.0, 14.1]
+wifi: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot

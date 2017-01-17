@@ -1,0 +1,42 @@
+battery: ''
+bluetooth: Bluetooth 4.0 + A2DP
+cameras:
+- {flash: '', info: 5 MP}
+- {flash: '', info: VGA}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: nicki
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1 GHz
+current_branch: 14.1
+download_boot: With the device powered down, hold Volume Down and connect the USB
+  cable. The notification light should briefly turn green to indicate you are in flash
+  mode.
+gpu: Adreno 305
+gsm: HSDPA 900 / 2100 - C1905, C2005. HSDPA 850 / 1700 / 1900 / 2100 - C1904, C2004
+has_recovery_partition: true
+image: Nicki.png
+install_method: TODO
+kernel: android_kernel_sony_msm8x27
+lte: ''
+maintainers: [freexperia, Ron Gokhale]
+name: Xperia M
+peripherals: [Accelerometer, proximity, compass]
+ram: 1GB
+recovery_boot: Press Volume Up when the notification light is pink.
+release: 2013 June
+screen: 102 mm (4.0 in)
+screen_ppi: '244.9'
+screen_res: 480x854
+screen_tech: TFT
+sdcard: up to 32GB
+soc: Qualcomm Snapdragon S4 Plus MSM8227
+storage: 4GB
+tree: android_device_sony_nicki
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [13.0, 14.1]
+wifi: 802.11 a/b/g/n
