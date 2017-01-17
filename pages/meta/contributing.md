@@ -83,7 +83,7 @@ After you've done this, you can push your commits to Gerrit:
     git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
     git push gerrit HEAD:refs/for/master
 
-You can add the "wiki" group as reviewers (type "wiki" in the 'Add reviewer' box). Someone will
+You can add the "Wiki Editors" group as reviewers (click on the little person to the right of "reviewers"). Someone will
 either: comment on the patch, asking for clarification or pointing out typos. You can reply to them,
 or [fix any issues they point out](#fixing-mistakes), and then re-run `git push gerrit HEAD:refs/for/master`.
 
