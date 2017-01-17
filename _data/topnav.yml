@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: Contribute
+      url: contributing.html
     - title: Website
       external_url: http://lineageos.org/
     - title: Code Review
