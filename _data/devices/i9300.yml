@@ -43,6 +43,7 @@ sdcard: up to 64GB
 # device size
 height: 136.6mm (5.4in)
 width: 70.6mm (2.8in)
+depth: 8.6mm (0.34in)
 screen: 122mm (4.8in)
 screen_res: 1280x720
 screen_ppi: 306
