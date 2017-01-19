@@ -16,9 +16,4 @@
 
 ## Find help online
 
-You can find assistance with LineageOS on [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat), or on the
-[LineageOS subreddit](https://reddit.com/r/LineageOS)
-
-* [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS)
-
-
+You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
