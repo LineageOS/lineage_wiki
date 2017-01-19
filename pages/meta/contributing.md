@@ -26,7 +26,12 @@ You can install Git using `sudo apt-get install git` or similar. More specific i
 
 ### Configure Git
 
-Run `git config --global user.name "Your Name"`, and `git config --global user.email "youremail@example.com"`
+Run:
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+```
 
 ### Fork the wiki!
 
@@ -34,10 +39,16 @@ Visit [the wiki on GitHub](https://github.com/LineageOS/lineage_wiki), and click
 
 ### Download the wiki
 
-Run `git clone https://github.com/YourUsername/lineage_wiki`. The source of the wiki will be in the "lineage_wiki" folder.
+Run:
+
+```
+git clone https://github.com/YourUsername/lineage_wiki
+```
+
+The source of the wiki will be in the "lineage_wiki" folder.
 
 Then download [this commit hook](http://review.lineageos.org/tools/hooks/commit-msg), and put it in `path/to/wiki/.git/hooks/commit-msg`, creating the folder(s)
-and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html)
+and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
 
 ## Edit the wiki
 
@@ -48,8 +59,14 @@ For more information, consult the [Jekyll documentation](http://jekyllrb.com/doc
 
 ### Commit and preview your changes
 
-1. Run `git add .`
-2. Run `git commit`. An editor will pop up. In the first line, type a short (below 80 character) description of your changes,
+1. Run:
+
+```
+git add .
+git commit
+```
+
+An editor will pop up. In the first line, type a short (below 80 character) description of your changes,
 then put a blank line, and, if you want, a more detailed description of your changes. For example:
 
         Add the contributing page
@@ -57,9 +74,14 @@ then put a blank line, and, if you want, a more detailed description of your cha
         The contributing page will show people how they can edit our wiki, which
         is important, since it wouldn't be much of a wiki without editors.
 
-3. Save the file, and exit the editor.
-4. Upload your changes to github: `git push origin`
-5. Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`
+2. Save the file, and exit the editor.
+3. Upload your changes to github:
+
+```
+git push origin
+```
+
+4. Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
 
 ### Fixing mistakes
 
@@ -68,9 +90,19 @@ You made a typo - or accidentally deleted something. Have no fear! You can fix i
 
 First, fix the mistake[s] you made. Then, to push them to GitHub:
 
-1. Run `git add .`
-2. Run `git commit --amend`. Your commit message should show up in an editor. You can edit it, or just quit the editor.
-3. Run `git push --force origin`.
+1. Run:
+
+```
+git add .
+git commit --amend
+```
+
+Your commit message should show up in an editor. You can edit it, or just quit the editor.
+2. Finally, run
+
+```
+git push --force origin
+```
 
 ## Getting your change live
 
@@ -80,8 +112,10 @@ and [configure an SSH key](https://review.lineageos.org/Documentation/user-uploa
 
 After you've done this, you can push your commits to Gerrit:
 
-    git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
-    git push gerrit HEAD:refs/for/master
+```
+git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
+git push gerrit HEAD:refs/for/master
+```
 
 You can add the "Wiki Editors" group as reviewers (click on the little person to the right of "reviewers"). Someone will
 either: comment on the patch, asking for clarification or pointing out typos. You can reply to them,
@@ -92,4 +126,4 @@ Eventually, when your change looks _perfect_, someone will approve it, and submi
 ## Problems? Questions?
 
 If you've got any problems following the instructions in this article, you can always ask in the [LineageOS subreddit](https://reddit.com/r/LineageOS), or
-in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS)
+in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).

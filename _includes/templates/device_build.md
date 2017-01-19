@@ -183,7 +183,7 @@ need to be placed in `~/bin`.
 
 ### Turn on caching to speed up build
 
-You can speed up subsequent builds by running
+You can speed up subsequent builds by running:
 
 ```
 $ export USE_CCACHE=1
@@ -226,11 +226,13 @@ The build should begin.
 
 ## Install the build
 
-Assuming the build completed without errors (it will be obvious when it finishes), type:
+Assuming the build completed without errors (it will be obvious when it finishes), type the following in the terminal window the build ran in:
 
-`$ cd $OUT`
+```
+$ cd $OUT
+```
 
-in the terminal window the build ran in. Here you'll find all the files that were created. The two files we're interested in are:
+Here you'll find all the files that were created. The two files we're interested in are:
 
 1. `recovery.img`, which contains the LineageOS recovery
 2. `lineage-{{site.data.devices[page.device].current_branch}}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{site.data.devices[page.device].codename}}.zip`, which is the LineageOS
@@ -243,4 +245,4 @@ hopefully you've learned a bit on the way and had some fun too.
 
 ## To get assistance
 
-* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode IRC (Internet Relay Chat) network.
+* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
