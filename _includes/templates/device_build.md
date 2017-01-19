@@ -2,7 +2,7 @@
 
 ## Introduction
 
-These instructions will hopefully assist you to start with a stock {{ site.data.devices[page.device].name }}, unlock the bootloader (if necessary), and then download
+These instructions will hopefully assist you to start with a stock {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}, unlock the bootloader (if necessary), and then download
 the required tools as well as the very latest source code for LineageOS (based on Google’s Android operating system) for your device. Using these, you can build both
 LineageOS and LineageOS Recovery image from source code, and then install them both to your device.
 
@@ -18,11 +18,11 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 
 ### What you'll need
 
-* A {{ site.data.devices[page.device].name }}
+* A {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}
 * A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable ccache
  or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
  build times than traditional hard drives.
-* A USB cable compatible with the {{site.data.devices[page.device].name}} (typically micro USB)
+* A USB cable compatible with the {{ site.data.devices[page.device].vendor }} {{site.data.devices[page.device].name}} (typically micro USB)
 * A decent internet connection & reliable electricity :)
 * Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
  It may also be useful to know some basic command line concepts such as cd for “change directory”, the concept of directory hierarchies, that in Linux they are separated by /, etc.
@@ -111,7 +111,7 @@ Enter the following to initialize the repository:
 
 {% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
 
-The {{ site.data.devices[page.device].name }} supports the following branches officially:
+The {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }} supports the following branches officially:
 
 {% for version in site.data.devices[page.device].versions %}
 {% if version < 15 %}
