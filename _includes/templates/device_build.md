@@ -183,7 +183,7 @@ need to be placed in `~/bin`.
 
 ### Turn on caching to speed up build
 
-You can speed up subsequent builds by running
+You can speed up subsequent builds by running:
 
 ```
 $ export USE_CCACHE=1
@@ -243,4 +243,4 @@ hopefully you've learned a bit on the way and had some fun too.
 
 ## To get assistance
 
-* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode IRC (Internet Relay Chat) network.
+* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.

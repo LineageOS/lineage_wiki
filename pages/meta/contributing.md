@@ -26,7 +26,7 @@ You can install Git using `sudo apt-get install git` or similar. More specific i
 
 ### Configure Git
 
-Run `git config --global user.name "Your Name"`, and `git config --global user.email "youremail@example.com"`
+Run `git config --global user.name "Your Name"`, and `git config --global user.email "youremail@example.com"`.
 
 ### Fork the wiki!
 
@@ -37,7 +37,7 @@ Visit [the wiki on GitHub](https://github.com/LineageOS/lineage_wiki), and click
 Run `git clone https://github.com/YourUsername/lineage_wiki`. The source of the wiki will be in the "lineage_wiki" folder.
 
 Then download [this commit hook](http://review.lineageos.org/tools/hooks/commit-msg), and put it in `path/to/wiki/.git/hooks/commit-msg`, creating the folder(s)
-and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html)
+and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
 
 ## Edit the wiki
 
@@ -59,7 +59,7 @@ then put a blank line, and, if you want, a more detailed description of your cha
 
 3. Save the file, and exit the editor.
 4. Upload your changes to github: `git push origin`
-5. Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`
+5. Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
 
 ### Fixing mistakes
 
@@ -92,4 +92,4 @@ Eventually, when your change looks _perfect_, someone will approve it, and submi
 ## Problems? Questions?
 
 If you've got any problems following the instructions in this article, you can always ask in the [LineageOS subreddit](https://reddit.com/r/LineageOS), or
-in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS)
+in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
