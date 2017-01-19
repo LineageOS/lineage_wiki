@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_a19b81c8",
+        "filename": "pages/meta/contributing.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 120,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-19T09:40:26Z",
+      "side": 1,
+      "message": "By the way, this group is not yet created in Gerrit. :p",
+      "range": {
+        "startLine": 120,
+        "startChar": 17,
+        "endLine": 120,
+        "endChar": 29
+      },
+      "revId": "727df8d4e157d50e59ff6b650f8c2030d34c4697",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
