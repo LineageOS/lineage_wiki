@@ -55,7 +55,8 @@ You'll need:
 
 <!-- markdown is bad at wrapping code blocks, so split it across two lines -->
 `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev`  
-`liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`
+`liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`  
+`imagemagick`
 
 For Ubuntu 15.10 (wily) and newer, substitute:
 
