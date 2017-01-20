@@ -41,7 +41,18 @@ skip to [Prepare the device-specific code](#prepare-the-device-specific-code)" %
 ### Install the SDK
 
 If you haven't previously installed `adb` and `fastboot`, you can [download them from Google](https://dl.google.com/android/repository/platform-tools-latest-linux.zip).
-Extract it somewhere, and hang tight - we'll use them later on.
+Extract it using: `unzip platform-tools-latest-linux.zip -d ~`
+
+Now we have to add `adb` and `fastboot` to our path. Open `~/.profile` and add the following:
+
+```
+# add Android SDK platform tools to path
+if [ -d "$HOME/platform-tools" ] ; then
+    PATH="$HOME/platform-tools:$PATH"
+fi
+```
+
+Then, run `source ~/.profile` to update your environment.
 
 ### Install the build packages
 
