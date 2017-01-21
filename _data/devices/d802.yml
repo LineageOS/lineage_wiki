@@ -10,7 +10,7 @@ codename: d802
 cpu: Qualcomm Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth: ''
 download_boot: With the device powered down, plug in a USB cable while pressing Volume
   Up.
