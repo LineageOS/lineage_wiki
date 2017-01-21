@@ -4,7 +4,7 @@
 [Get the builds here](https://download.lineageos.org/{{site.data.devices[page.device].codename}})
 
 ### Installation
-[How to install LineageOS on the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}](Install_for_{{site.data.devices[page.device].codename}}.html)
+[How to install LineageOS on the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}]({{site.data.devices[page.device].codename}}_Install.html)
 
 ### Build guide
 [How to build LineageOS for the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}](Build_for_{{site.data.devices[page.device].codename}}.html)
