@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for angler
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: Build_for_angler.html
+permalink: angler_build.html
 device: angler
 ---
 {% include templates/device_build.md %}

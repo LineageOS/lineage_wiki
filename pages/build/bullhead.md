@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for bullhead
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: Build_for_bullhead.html
+permalink: bullhead_build.html
 device: bullhead
 ---
 {% include templates/device_build.md %}
