@@ -155,16 +155,6 @@ problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull i
 {% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
 do it every few days to keep your code base fresh and up-to-date." %}
 
-### Get prebuilt apps (Lineage 11 and below)
-
-To download the prebuilt apps, run:
-
-```
-$ cd ~/android/system/vendor/cm
-$ ./get-prebuilts
-```
-You won't see any confirmation- just another prompt. But this should cause some prebuilt apps to be loaded and installed into the source code. Once completed, this does not need to be done again.
-
 ### Prepare the device-specific code
 
 After the source downloads, ensure you're in the root of the source code (`cd ~/android/system`), then type:
