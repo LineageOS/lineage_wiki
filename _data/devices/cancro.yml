@@ -24,7 +24,7 @@ install_method: TODO
 kernel: ''
 lte: ''
 maintainers: ['']
-name: Mi 3, Mi 4
+name: Mi 3 / Mi 4
 peripherals: ['']
 ram: 2GB (Mi 3) / 3GB (Mi 4)
 recovery_boot: Hold Volume Up & the Power button. Continue to hold buttons until the
