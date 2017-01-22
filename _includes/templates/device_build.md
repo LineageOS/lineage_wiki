@@ -69,6 +69,14 @@ You'll need:
 `liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`  
 `imagemagick`
 
+{% if site.data.devices[page.device].versions contains 13.0 %}
+
+To build cm-13.0, you'll also need:
+
+`maven`
+
+{% endif %}
+
 For Ubuntu 15.10 (wily) and newer, substitute:
 
 * `lib32-readline-gplv2-dev` → `lib32readline6-dev`
