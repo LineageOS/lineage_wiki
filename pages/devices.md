@@ -3,6 +3,12 @@ sidebar: home_sidebar
 title: Devices
 permalink: devices.html
 ---
+{% assign devices = "" |split: " " %}
 {% for device in site.data.devices %}
-* [{{ device[1].codename }} &ndash; {{ device[1].vendor }} {{ device[1].name }}](/{{ device[1].codename }}_Info.html)
+{% assign devices = devices | push: device[1] %}
+{% endfor %}
+
+{% assign sorted = devices | sort: 'codename' %}
+{% for device in sorted %}
+* [{{ device.codename }} &ndash; {{ device.vendor }} {{ device.name }}](/{{ device.codename }}_Info.html)
 {% endfor %}
