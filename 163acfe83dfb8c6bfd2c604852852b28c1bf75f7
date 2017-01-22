@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_446e2ccb",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-22T01:20:16Z",
+      "side": 1,
+      "message": "i think you need an extra newline here (put the code block in its own paragraph)",
+      "revId": "163acfe83dfb8c6bfd2c604852852b28c1bf75f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
