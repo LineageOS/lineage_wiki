@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_046824b9",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-22T01:21:18Z",
+      "side": 1,
+      "message": "you need two spaces at the end of a line to force a newline",
+      "revId": "0a3b833515bfd2833dcb88ab7388170a3c10669f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
