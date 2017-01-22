@@ -22,7 +22,13 @@ Install Git using the [Git installer](https://git-scm.com/download/mac).
 
 #### On Linux
 
-You can install Git using `sudo apt-get install git` or similar. More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).
+You can install Git by running:
+
+```
+sudo apt-get install git
+```
+
+More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).
 
 ### Configure Git
 
@@ -45,9 +51,16 @@ Clone the wiki repo:
 git clone https://github.com/YourUsername/lineage_wiki
 ```
 
-The source of the wiki will be in the "lineage_wiki" folder.
-Then download [this commit hook](http://review.lineageos.org/tools/hooks/commit-msg), and put it in `path/to/wiki/.git/hooks/commit-msg`, creating the folder(s)
-and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
+The source of the wiki will be in the `lineage_wiki` folder.
+To make sure that Change-Id is automatically added to all your changes, install the hook:
+
+
+```
+cd lineage_wiki
+gitdir=$(git rev-parse --git-dir); scp -p -P 29418 <yourusername>@review.lineageos.org:hooks/commit-msg ${gitdir}/hooks/
+```
+
+You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
 
 ## Edit the wiki
 
