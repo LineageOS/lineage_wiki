@@ -22,7 +22,13 @@ Install Git using the [Git installer](https://git-scm.com/download/mac).
 
 #### On Linux
 
-You can install Git using `sudo apt-get install git` or similar. More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).
+You can install Git by running:
+
+```
+sudo apt-get install git
+```
+
+More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).
 
 ### Configure Git
 
@@ -36,6 +42,7 @@ git config --global user.email "youremail@example.com"
 ### Fork the wiki!
 
 Visit [the wiki on GitHub](https://github.com/LineageOS/lineage_wiki), and click on the "fork" button in the top-right.
+To ensure that your fork can be online for your own preview go to Settings and set your GitHub Pages publishing source to `master branch`.
 
 ### Download the wiki
 
@@ -45,9 +52,7 @@ Clone the wiki repo:
 git clone https://github.com/YourUsername/lineage_wiki
 ```
 
-The source of the wiki will be in the "lineage_wiki" folder.
-Then download [this commit hook](http://review.lineageos.org/tools/hooks/commit-msg), and put it in `path/to/wiki/.git/hooks/commit-msg`, creating the folder(s)
-and file if necessary. You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
+The source of the wiki will be in the `lineage_wiki` folder.
 
 ## Edit the wiki
 
@@ -55,6 +60,17 @@ Congratulations! You now have a local copy of the wiki. You can find the majorit
 A lot of device-specific pages make use of templates, which can be found in `_includes`. Finally, information about devices is stored in `_data/devices`.
 
 For more information, consult the [Jekyll documentation](http://jekyllrb.com/docs/home/), and the [Jekyll Documentation Theme documentation](http://idratherbewriting.com/documentation-theme-jekyll/index.html).
+
+### Install the hook
+
+To make sure that a Change-Id is automatically added to all your changes, install the hook once:
+
+```
+cd lineage_wiki
+scp -p -P 29418 <yourusername>@review.lineageos.org:hooks/commit-msg .git/hooks/
+```
+
+You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
 
 ### Commit and preview your changes
 
