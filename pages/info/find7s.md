@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: find7s Info
+title: Info about find7s
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: find7s_Info.html
+permalink: info_about_find7s.html
 device: find7s
 ---
 {% include templates/device_info.md %}

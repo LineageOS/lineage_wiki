@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: thea Info
+title: Info about thea
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: thea_Info.html
+permalink: info_about_thea.html
 device: thea
 ---
 {% include templates/device_info.md %}

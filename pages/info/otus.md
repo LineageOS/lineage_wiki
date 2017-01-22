@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: otus Info
+title: Info about otus
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: otus_Info.html
+permalink: info_about_otus.html
 device: otus
 ---
 {% include templates/device_info.md %}

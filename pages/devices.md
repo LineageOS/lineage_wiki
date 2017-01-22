@@ -10,5 +10,5 @@ permalink: devices.html
 
 {% assign sorted = devices | sort: 'codename' %}
 {% for device in sorted %}
-* [{{ device.codename }} &ndash; {{ device.vendor }} {{ device.name }}](/{{ device.codename }}_Info.html)
+* [{{ device.codename }} &ndash; {{ device.vendor }} {{ device.name }}](info_about_{{ device.codename }}.html)
 {% endfor %}

@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: bacon Info
+title: Info about bacon
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: bacon_Info.html
+permalink: info_about_bacon.html
 device: bacon
 ---
 {% include templates/device_info.md %}

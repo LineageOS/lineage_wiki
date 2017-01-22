@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: umts_spyder Info
+title: Info about umts_spyder
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: umts_spyder_Info.html
+permalink: info_about_umts_spyder.html
 device: umts_spyder
 ---
 {% include templates/device_info.md %}

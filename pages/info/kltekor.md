@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: kltekor Info
+title: Info about kltekor
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: kltekor_Info.html
+permalink: info_about_kltekor.html
 device: kltekor
 ---
 {% include templates/device_info.md %}

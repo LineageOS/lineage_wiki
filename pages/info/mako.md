@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: mako Info
+title: Info about mako
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: mako_Info.html
+permalink: info_about_mako.html
 device: mako
 ---
 {% include templates/device_info.md %}

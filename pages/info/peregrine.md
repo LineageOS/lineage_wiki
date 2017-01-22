@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: peregrine Info
+title: Info about peregrine
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: peregrine_Info.html
+permalink: info_about_peregrine.html
 device: peregrine
 ---
 {% include templates/device_info.md %}

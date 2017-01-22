@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: ido Info
+title: Info about ido
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: ido_Info.html
+permalink: info_about_ido.html
 device: ido
 ---
 {% include templates/device_info.md %}

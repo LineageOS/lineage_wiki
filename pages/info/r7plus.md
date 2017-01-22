@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: r7plus Info
+title: Info about r7plus
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: r7plus_Info.html
+permalink: info_about_r7plus.html
 device: r7plus
 ---
 {% include templates/device_info.md %}

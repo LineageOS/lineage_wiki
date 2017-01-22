@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: jagnm Info
+title: Info about jagnm
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: jagnm_Info.html
+permalink: info_about_jagnm.html
 device: jagnm
 ---
 {% include templates/device_info.md %}
