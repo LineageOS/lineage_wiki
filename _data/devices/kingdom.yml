@@ -1,0 +1,46 @@
+battery: 4000 mAh Li-Po, non-removable
+bluetooth: 4.0 BLE
+cameras:
+- {flash: Dual LED, info: '16MP F/2.2, OIS'}
+- {flash: '', info: 5MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: kingdom
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+depth: 7.7 mm
+download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
+  Then plug in an USB cable. A small green android logo appears in the center.
+gpu: Adreno 330
+gsm: 850 900 1800 1900 MHz UMTS
+has_recovery_partition: true
+height: 156 mm
+image: Kingdom.png
+install_method: TODO
+kernel: android_kernel_lenovo_msm8974
+lte: 2100 1800 850 2600 900 800 MHz
+maintainers: [electry]
+name: Vibe Z2 Pro
+peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, NFC, Light sensor,
+  Proximity Sensor, Accelerometer, Gyroscope, Compass]
+ram: 3GB
+recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
+  Then press and hold the Power button until the "Lenovo" logo appears.
+release: 2014 September
+screen: 152.4 mm (6.0 in)
+screen_ppi: '490'
+screen_res: 2560x1440
+screen_tech: LG IPS
+sdcard: none
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 32GB
+tree: android_device_lenovo_kingdom
+type: phone
+vendor: Lenovo
+vendor_short: lenovo
+versions: [14.1]
+width: 81.3 mm
+wifi: '802.11 a/b/g/n/ac, dual band'
