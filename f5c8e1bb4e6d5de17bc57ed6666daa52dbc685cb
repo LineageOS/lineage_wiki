@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_e7c75d63",
+        "filename": "_data/devices/kingdom.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T14:51:58Z",
+      "side": 1,
+      "message": "an USB cable.",
+      "range": {
+        "startLine": 16,
+        "startChar": 15,
+        "endLine": 16,
+        "endChar": 27
+      },
+      "revId": "f5c8e1bb4e6d5de17bc57ed6666daa52dbc685cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
