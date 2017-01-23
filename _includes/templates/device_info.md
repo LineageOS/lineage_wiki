@@ -9,10 +9,10 @@
 {% endif %}
 
 ### Installation
-[How to install LineageOS on the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}]({{site.data.devices[page.device].codename}}_install.html)
+[How to install LineageOS on the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}](/devices/{{ site.data.devices[page.device].codename }}/install)
 
 ### Build guide
-[How to build LineageOS for the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}]({{site.data.devices[page.device].codename}}_build.html)
+[How to build LineageOS for the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}](/devices/{{ site.data.devices[page.device].codename }}/build)
 
 {% if site.data.devices[page.device].note_show and site.data.devices[page.device].note_show == true %}
 {% include templates/device_info_note.md %}
