@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Verifying Build Authenticity
 folder: meta
-permalink: verifying-builds.html
+permalink: /verifying-builds.html
 ---
 
 All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by running: 
