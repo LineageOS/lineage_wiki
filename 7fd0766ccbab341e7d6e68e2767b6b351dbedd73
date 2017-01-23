@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_0c6a861a",
+        "filename": "_data/devices/kingdom.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T09:20:50Z",
+      "side": 1,
+      "message": "Add the . at the end.",
+      "range": {
+        "startLine": 30,
+        "startChar": 57,
+        "endLine": 30,
+        "endChar": 64
+      },
+      "revId": "7fd0766ccbab341e7d6e68e2767b6b351dbedd73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_2c6d4a33",
+        "filename": "_data/devices/kingdom.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T09:20:50Z",
+      "side": 1,
+      "message": "Qualcomm MSM8974AC Snapdragon 801",
+      "range": {
+        "startLine": 37,
+        "startChar": 5,
+        "endLine": 37,
+        "endChar": 28
+      },
+      "revId": "7fd0766ccbab341e7d6e68e2767b6b351dbedd73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
