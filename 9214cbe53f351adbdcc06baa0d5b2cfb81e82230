@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_ec4862ce",
+        "filename": "_data/devices/athene.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T08:54:28Z",
+      "side": 1,
+      "message": "Qualcomm MSM8952 Snapdragon 617",
+      "range": {
+        "startLine": 35,
+        "startChar": 5,
+        "endLine": 35,
+        "endChar": 36
+      },
+      "revId": "9214cbe53f351adbdcc06baa0d5b2cfb81e82230",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
