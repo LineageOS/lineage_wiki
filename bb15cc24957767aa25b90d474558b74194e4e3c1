@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_dd9e6663",
+        "filename": "_data/devices/harpia.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T21:00:17Z",
+      "side": 1,
+      "message": "Qualcomm MSM8916 Snapdragon 410",
+      "range": {
+        "startLine": 41,
+        "startChar": 5,
+        "endLine": 41,
+        "endChar": 28
+      },
+      "revId": "bb15cc24957767aa25b90d474558b74194e4e3c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_bd9ba271",
+        "filename": "_data/devices/merlin.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T21:00:17Z",
+      "side": 1,
+      "message": "Qualcomm MSM8939 Snapdragon 615",
+      "range": {
+        "startLine": 36,
+        "startChar": 5,
+        "endLine": 36,
+        "endChar": 28
+      },
+      "revId": "bb15cc24957767aa25b90d474558b74194e4e3c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
