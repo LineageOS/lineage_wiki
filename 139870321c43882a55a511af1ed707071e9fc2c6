@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_c71c59c4",
+        "filename": "_data/devices/Z00D.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T16:34:43Z",
+      "side": 1,
+      "message": "This is the codename. There\u0027s no other way to differentiate this Zenfone 2 from the others?\n\nWhen searching the device list, this will currently be displayed as: \"Asus Zenfone 2 (Z00D) – Z00D\".",
+      "range": {
+        "startLine": 24,
+        "startChar": 16,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "139870321c43882a55a511af1ed707071e9fc2c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
