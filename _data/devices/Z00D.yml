@@ -1,0 +1,41 @@
+battery: 2500mAh
+bluetooth: v4.0, A2DP, EDR
+cameras:
+- {flash: LED, info: 8MP}
+- {flash: '', info: 2MP}
+carrier: Unlocked
+cdma: ''
+channels: [weekly]
+codename: Z00D
+cpu: x86
+cpu_cores: '2+2'
+cpu_freq: 1.6 GHz
+current_branch: 14.1
+download_boot: Hold Volume Up & Power simultaneously.
+gpu: PowerVR SGX544MP2
+gsm: GSM 850 / 900 / 1800 / 1900
+has_recovery_partition: true
+image: Z00A.png
+install_method: TODO
+kernel: android_kernel_asus_Z00D
+lte: LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700),
+  20(800)
+maintainers: [flex1911]
+name: Zenfone 2 (ZE500CL)
+peripherals: [Accelerometer, proximity, compass]
+ram: 2 GB
+recovery_boot: No direct key combo
+release: March 2015
+screen: 127 mm (5 in)
+screen_ppi: '294'
+screen_res: 720x1280
+screen_tech: IPS capacitive touchscreen, 16M colors
+sdcard: up to 128 GB
+soc: Intel Atom Z2560
+storage: 16 GB
+tree: android_device_asus_Z00D
+type: phone
+vendor: Asus
+vendor_short: asus
+versions: [14.1]
+wifi: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot
