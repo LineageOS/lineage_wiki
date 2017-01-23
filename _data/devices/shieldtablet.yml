@@ -1,0 +1,45 @@
+battery: "5197 mAh (19.75 W\xC2\xB7h)"
+bluetooth: 4.0 LE
+cameras:
+- {flash: '', info: 5MP}
+- {flash: '', info: 5MP}
+carrier: AT&T, T-Mobile
+cdma: ''
+channels: [weekly]
+codename: shieldtablet
+cpu: Cortex A15
+cpu_cores: '4'
+cpu_freq: 2.2 GHz
+current_branch: 13.0
+depth: ''
+download_boot: Hold Volume Down & tap Power, release once menu is displayed.
+gpu: GK20A (Kepler)
+gsm: 850 1700 1900 2100 MHz HSPA+ US, 850 900 1900 2100 HSPA+ International (depending
+  on model)
+has_recovery_partition: true
+height: ''
+image: shieldtablet.png
+install_method: TODO
+kernel: ''
+lte: 700 850 1700 1900 2600 US, 800 1800 2100 2600 International (depending on model)
+maintainers: ['']
+name: Shield Tablet
+peripherals: ['']
+ram: 2GB
+recovery_boot: Hold Volume Down & tap Power, release once menu is displayed. Tap Volume
+  Down until recovery is selected. Press Power to select.
+release: 2014 July 29
+screen: 203 mm (8.0 in)
+screen_ppi: '294'
+screen_res: 1920x1200
+screen_tech: IPS Retinal LCD
+sdcard: up to 128GB
+soc: Nvidia Tegra K1 (T124)
+storage: 16/32GB
+tree: android_device_nvidia_shieldtablet
+type: tablet
+vendor: Nvidia
+vendor_short: nvidia
+versions: [13.0]
+width: ''
+wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
