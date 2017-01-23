@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Install Lineage on merlin
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: merlin_install.html
+permalink: /devices/merlin/install
 device: merlin
 ---
 {% include templates/device_install.md %}
