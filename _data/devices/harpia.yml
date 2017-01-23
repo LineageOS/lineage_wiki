@@ -1,0 +1,48 @@
+battery: 2800 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: LED flash, info: 8MP}
+- {flash: '', info: 5MP}
+carrier: U.S. Cellular, International GSM
+cdma: CDMA 850/1900 MHz
+channels: [weekly]
+codename: harpia
+cpu: Cortex A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+gpu: Adreno 306
+gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz - Retail Europe and Asia,
+  HSDPA 850/900/1700/1900/2100 MHz - Retail US, Canada,
+  HDSPA 850/900/1900/2100 MHz - Retail Latin America, Brazil
+has_recovery_partition: true
+image: Harpia.png
+install_method: TODO
+kernel: android_kernel_motorola_msm8916
+lte: B1 (2100)/B2 (1900)/B3 (1800)/B4 (1700)/B5 (850)/B7 (2600)/B8 (900)/
+  B12 (700)/B13 (700)/B17 (700)/B25 (1900)/B26 (850)/B41 (2500) MHz - Retail US, Canada,
+  B1 (2100)/B3 (1800)/B5 (850)/B7 (2600)/B8 (900)/B20 (800)/B28 (700)/B40 (2300) MHz - Retail Europe,
+  B3 (1800)/B5 (850)/B7 (2600)/B28 (700) MHz - Retail Latin America, Brazil,
+  B2 (1900)/B4 (1700)/B5 (850)/B12 (700)/B13 (700)/B17 (700)/B25 (1900) MHz - U.S. Cellular,
+  B1 (2100)/B3 (1800)/B5 (850)/B7 (2600)/B8 (900)/B20 (800)/B28 (700)/B40 (2300) MHz Retail Asia
+maintainers: ['']
+name: Moto G4 Play
+peripherals: [Accelerometer, proximity, compass]
+ram: 1GB or 2GB
+recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
+  Down to scroll to recovery and then use Power to select.
+release: 2016 May
+screen: 127 mm (5.0 in)
+screen_ppi: ~295
+screen_res: 720x1280
+screen_tech: IPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 128GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 16GB
+tree: android_device_motorola_harpia
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [14.1]
+wifi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot
