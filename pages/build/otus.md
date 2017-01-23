@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for otus
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: otus_build.html
+permalink: otus/build
 device: otus
 ---
 {% include templates/device_build.md %}

@@ -4,7 +4,7 @@ title: Info about hammerhead
 folder: info
 layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: hammerhead_info.html
+permalink: hammerhead/
 device: hammerhead
 ---
 {% include templates/device_info.md %}

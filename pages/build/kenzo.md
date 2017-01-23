@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for kenzo
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: kenzo_build.html
+permalink: kenzo/build
 device: kenzo
 ---
 {% include templates/device_build.md %}

@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for spyder
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: spyder_build.html
+permalink: spyder/build
 device: spyder
 ---
 {% include templates/device_build.md %}

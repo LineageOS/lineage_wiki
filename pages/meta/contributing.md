@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Contributing to the wiki
 folder: meta
-permalink: contributing.html
+permalink: /contributing.html
 ---
 So, you've decided you want to edit the wiki. Awesome! This page will show you how to get started. To get started, you'll need a [GitHub account](https://github.com).
 
