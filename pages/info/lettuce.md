@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: lettuce Info
+title: Info about lettuce
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: lettuce_Info.html
+permalink: lettuce_info.html
 device: lettuce
 ---
 {% include templates/device_info.md %}

@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: tomato Info
+title: Info about tomato
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: tomato_Info.html
+permalink: tomato_info.html
 device: tomato
 ---
 {% include templates/device_info.md %}

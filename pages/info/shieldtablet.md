@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: shieldtablet Info
+title: Info about shieldtablet
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: shieldtablet_Info.html
+permalink: shieldtablet_info.html
 device: shieldtablet
 ---
 {% include templates/device_info.md %}
