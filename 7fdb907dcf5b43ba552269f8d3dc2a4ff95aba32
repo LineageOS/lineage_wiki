@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_2713255e",
+        "filename": "_data/devices/armani.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T12:44:21Z",
+      "side": 1,
+      "message": "Keep in line with the rest of Xiaomi devices: https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/gemini.yml#L16-L17\n\nI guess this is also applicable to aramani. If not, please ignore.",
+      "range": {
+        "startLine": 14,
+        "startChar": 15,
+        "endLine": 14,
+        "endChar": 84
+      },
+      "revId": "7fdb907dcf5b43ba552269f8d3dc2a4ff95aba32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_e71cfd6c",
+        "filename": "_data/devices/armani.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T12:44:21Z",
+      "side": 1,
+      "message": "Add \"MHz\" at the end.",
+      "range": {
+        "startLine": 16,
+        "startChar": 5,
+        "endLine": 16,
+        "endChar": 18
+      },
+      "revId": "7fdb907dcf5b43ba552269f8d3dc2a4ff95aba32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_0710214d",
+        "filename": "_data/devices/armani.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T12:44:21Z",
+      "side": 1,
+      "message": "Keep in line with the rest of Xiaomi devices: https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/gemini.yml#L31-L32\n\nI guess this is also applicable to aramani. If not, please ignore.",
+      "range": {
+        "startLine": 26,
+        "startChar": 15,
+        "endLine": 26,
+        "endChar": 82
+      },
+      "revId": "7fdb907dcf5b43ba552269f8d3dc2a4ff95aba32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
