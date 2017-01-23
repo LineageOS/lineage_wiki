@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: ks01lte Info
+title: Info about ks01lte
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: ks01lte_Info.html
+permalink: ks01lte_info.html
 device: ks01lte
 ---
 {% include templates/device_info.md %}
