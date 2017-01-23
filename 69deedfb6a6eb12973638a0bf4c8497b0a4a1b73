@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_c78c5982",
+        "filename": "_data/devices/d801.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T13:39:03Z",
+      "side": 1,
+      "message": "Keep here all the supported versions, not only the current one.",
+      "range": {
+        "startLine": 44,
+        "startChar": 10,
+        "endLine": 44,
+        "endChar": 16
+      },
+      "revId": "69deedfb6a6eb12973638a0bf4c8497b0a4a1b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_a7e9551c",
+        "filename": "_data/devices/d802.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T13:39:03Z",
+      "side": 1,
+      "message": "Keep here all the supported versions, not only the current one.",
+      "range": {
+        "startLine": 45,
+        "startChar": 10,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "69deedfb6a6eb12973638a0bf4c8497b0a4a1b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_87ee5121",
+        "filename": "_data/devices/d803.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-23T13:39:03Z",
+      "side": 1,
+      "message": "Keep here all the supported versions, not only the current one.",
+      "range": {
+        "startLine": 45,
+        "startChar": 10,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "69deedfb6a6eb12973638a0bf4c8497b0a4a1b73",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
