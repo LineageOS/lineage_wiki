@@ -3,24 +3,24 @@ bluetooth: v4, A2DP, BLE
 cameras:
 - {flash: Dual LED, info: 13MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: crackling
 cpu: 64-bit Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 13.0
-depth: ''
+depth:
 download_boot: With the device powered down, hold the Volume Up and connect USB.
 gpu: Adreno 306
-gsm: ''
+gsm:
 has_recovery_partition: true
-height: ''
-image: Crackling.png
+height:
+image: crackling.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
-lte: ''
+lte:
 maintainers: ['']
 name: Swift
 peripherals: [Dual SIM]
@@ -39,5 +39,5 @@ type: phone
 vendor: Wileyfox
 vendor_short: wileyfox
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11 b/g/n

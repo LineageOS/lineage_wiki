@@ -3,8 +3,8 @@ bluetooth: '4.1'
 cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 8MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: h811
 cpu: Cortex-A53 & Cortex-A57
@@ -16,7 +16,7 @@ gpu: Adreno 418
 gsm: GSM850, GSM900, GSM1800, GSM1900, UMTS850 (B5), UMTS1700/2100 (B4), UMTS1900
   (B2), UMTS2100 (B1)
 has_recovery_partition: true
-image: H811.png
+image: h811.png
 install_method: TODO
 kernel: android_kernel_lge_msm8992
 lte: LTE850 (B5), LTE1700/2100 (B4), LTE2600 (B7), LTE1800 (B3), LTE1900 (B2), LTE700
