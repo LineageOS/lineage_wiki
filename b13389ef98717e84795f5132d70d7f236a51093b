@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_8183dccb",
+        "filename": "_data/devices/seed.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-24T08:18:02Z",
+      "side": 1,
+      "message": "The conventional format is height * width though?",
+      "revId": "b13389ef98717e84795f5132d70d7f236a51093b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
