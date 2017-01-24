@@ -236,6 +236,9 @@ $ brunch {{site.data.devices[page.device].codename}}
 
 The build should begin.
 
+{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html)." %}
+
+
 ## Install the build
 
 Assuming the build completed without errors (it will be obvious when it finishes), type the following in the terminal window the build ran in:
