@@ -13,7 +13,7 @@ cpu_freq: 1 GHz
 current_branch: 13.0
 download_boot: Vol Up & Vol Down & Power
 gpu: PowerVR SGX540
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: targa.png
 install_method: TODO
