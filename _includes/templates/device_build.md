@@ -225,6 +225,8 @@ Adding that command to your `~/.bashrc` file will automatically configure Jack t
 
 ### Start the build
 
+{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html)." %}
+
 Time to start building! Now, type:
 
 ```
