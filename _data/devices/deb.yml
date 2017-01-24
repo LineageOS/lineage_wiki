@@ -4,20 +4,20 @@ cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: 1.2MP}
 carrier: AT&T, T-Mobile, Verizon
-cdma: ''
+cdma:
 channels: [weekly]
 codename: deb
 cpu: Snapdragon S4 Pro Krait 300
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
 has_recovery_partition: true
-height: ''
+height:
 image: nexus7-2013.png
 install_method: TODO
 kernel: android_kernel_google_msm
@@ -42,5 +42,5 @@ type: tablet
 vendor: Google
 vendor_short: asus
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: Dual-band (2.4/5 GHz) 802.11 a/b/g/n

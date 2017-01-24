@@ -3,8 +3,8 @@ bluetooth: '4.1'
 cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 8MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: h811
 cpu: Cortex-A53 & Cortex-A57

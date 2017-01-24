@@ -3,7 +3,7 @@ bluetooth: 4.1 LE
 cameras:
 - {flash: Dual LED, info: 13 MP}
 - {flash: '', info: 2.1 MP}
-carrier: ''
+carrier:
 cdma: 800 1900 MHz (North/South American model only)
 channels: [weekly]
 codename: shamu
@@ -16,10 +16,10 @@ download_boot: Hold down the Volume Down button while booting.
 gpu: Adreno 420
 gsm: 850 900 1800 1900 MHz UTMS HSPA+
 has_recovery_partition: true
-height: ''
+height:
 image: Google Nexus 6.png
 install_method: TODO
-kernel: ''
+kernel:
 lte: 'North/South American devices: 700 850 1700 1800 1900 2500 2600 MHzAfro-Eurasian
   devices: 700 800 850 900 1800 2100 2500 2600 MHz'
 maintainers: ['']
@@ -41,5 +41,5 @@ type: phablet
 vendor: Google
 vendor_short: moto
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: 802.11a/b/g/n/ac 2x2 (MIMO)

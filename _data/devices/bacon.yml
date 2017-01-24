@@ -3,8 +3,8 @@ bluetooth: '4.1'
 cameras:
 - {flash: Dual LED, info: 13MP F/2.0}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: bacon
 cpu: Krait 400

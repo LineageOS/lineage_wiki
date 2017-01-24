@@ -4,7 +4,7 @@ cameras:
 - {flash: LED, info: 13MP Sony IMX135 Exmor RS (Mi 3) / 13MP Sony IMX214 Exmor RS
     (Mi 4)}
 - {flash: '', info: 2.07MP (Mi 3) / 7.99MP (Mi 4)}
-carrier: ''
+carrier:
 cdma: 800 1900 MHz CDMA
 channels: [weekly]
 codename: cancro
@@ -12,17 +12,17 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz (Mi 3) / 2.5 GHz (Mi 4)
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: Hold Volume Down, & the Power button. Continue to hold both until the
   word "FASTBOOT" appears on the screen, then release all buttons.
 gpu: Adreno 330
 gsm: 850 900 1800 1900 MHz GSM850 900 1900 2100 MHz HSDPA
 has_recovery_partition: true
-height: ''
+height:
 image: Cancro.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: ['']
 name: Mi 3 / Mi 4
 peripherals: ['']
@@ -31,7 +31,7 @@ recovery_boot: Hold Volume Up & the Power button. Continue to hold buttons until
   "MI" logo, then release all buttons.
 release: 2013 October (Mi 3) /  2014 August (Mi 4)
 screen: 127 mm (5.0 in)
-screen_ppi: 441 PPI
+screen_ppi: 441
 screen_res: 1080x1920
 screen_tech: IPS (Mi 3) / JDI IPS (Mi 4)
 sdcard: none
@@ -42,5 +42,5 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: 802.11 a/b/g/n/n 5 GHz/ac

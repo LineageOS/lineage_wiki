@@ -3,24 +3,24 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual LED, info: 13MP Sony IMX278}
 - {flash: '', info: 8MP OmniVision OV8858}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: r7plus
 cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 405
-gsm: ''
+gsm:
 has_recovery_partition: true
-height: ''
+height:
 image: R7plus.png
 install_method: TODO
 kernel: android_kernel_oppo_msm8939
-lte: ''
+lte:
 maintainers: ['']
 name: R7 Plus
 peripherals: [Dual SIM, Fingerprint sensor]
@@ -39,5 +39,5 @@ type: phone
 vendor: Oppo
 vendor_short: oppo
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: 802.11 a/b/g/n/ac

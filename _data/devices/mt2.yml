@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 13 MP}
 - {flash: '', info: 5 MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: mt2
 cpu: Cortex A7
@@ -26,7 +26,7 @@ name: Ascend Mate 2 4G
 peripherals: [Accelerometer, gyro, proximity, compass]
 ram: 2GB
 recovery_boot: Volume Up & Power
-release: ''
+release:
 screen: 155 mm (6.1 in)
 screen_ppi: '241'
 screen_res: 1280x720

@@ -3,8 +3,8 @@ bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: '8MP f/2.4, flash: LED'}
 - {flash: '', info: VGA}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: huashan
 cpu: Krait

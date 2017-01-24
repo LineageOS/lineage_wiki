@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual LED, info: 13MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: find7
 cpu: Krait 400

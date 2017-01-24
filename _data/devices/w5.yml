@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 5MP}
 - {flash: '', info: 0.3MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: w5
 cpu: Cortex A7
@@ -12,12 +12,12 @@ cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 gpu: Adreno 302
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: W5.png
 install_method: TODO
 kernel: android_kernel_lge_msm8226
-lte: ''
+lte:
 maintainers: ['']
 name: Optimus L70
 peripherals: ['']

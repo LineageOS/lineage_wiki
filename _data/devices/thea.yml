@@ -3,7 +3,7 @@ bluetooth: v4.0 with A2DP, LE
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
-carrier: ''
+carrier:
 cdma: CDMA 800/1900 MHz, CDMA2000 1xEV-DO
 channels: [weekly]
 codename: thea
