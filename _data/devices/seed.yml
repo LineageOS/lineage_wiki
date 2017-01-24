@@ -25,14 +25,12 @@ peripherals: [Accelerometer, Compass, Gyroscope, Proximity]
 ram: 2GB / 1GB for IQ II
 recovery_boot: With the device powered off, hold Volume Up & Power
 release: ''
-screen: 5.0 in
+screen: 127mm (5.0 in)
 screen_ppi: '294'
-screen_res: 1280x720
+screen_res: 720x1280
 screen_tech: IPS LCD
 sdcard: up to 128GB
-soc: 'Qualcomm MSM8916
-
-  Snapdragon 410'
+soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16GB
 tree: android_device_google_seed
 type: phone
