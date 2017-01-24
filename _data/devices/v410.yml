@@ -1,10 +1,10 @@
 battery: 4000 mAh
-bluetooth: ''
+bluetooth:
 cameras:
 - {flash: '', info: 3.15MP}
 - {flash: '', info: 1.3MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: v410
 cpu: Cortex A7
@@ -12,25 +12,25 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 gpu: Adreno 305
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: V410.png
 install_method: TODO
 kernel: android_kernel_lge_v4xx
-lte: ''
+lte:
 maintainers: ['']
 name: G Pad 7.0 (LTE)
 peripherals: ['']
 ram: 1GB
-recovery_boot: ''
-release: ''
+recovery_boot:
+release:
 screen: 178 mm (7.0 in)
-screen_ppi: ''
+screen_ppi:
 screen_res: 1280x800
 screen_tech: IPS LCD
 sdcard: up to 64GB
 soc: Qualcomm MSM8226 Snapdragon 400
-storage: ''
+storage:
 tree: android_device_lge_v410
 type: tablet
 vendor: LG

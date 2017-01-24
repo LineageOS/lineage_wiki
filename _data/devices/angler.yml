@@ -1,8 +1,8 @@
 battery: 3450 mAh
 bluetooth: 4.2 LE
 cameras: []
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: angler
 cpu: Quad-core Cortex-A53 & Quad-core Cortex-A57
@@ -11,12 +11,12 @@ cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 430
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: Angler.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: ['']
 name: Nexus 6P
 peripherals: ['']

@@ -3,8 +3,8 @@ bluetooth: 4.0 LE
 cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: 1.2MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: flo
 cpu: Snapdragon S4 Pro Krait 300
@@ -14,12 +14,12 @@ current_branch: 14.1
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: nexus7-2013.png
 install_method: TODO
 kernel: android_kernel_google_msm
-lte: ''
+lte:
 maintainers: ['']
 name: Nexus 7 (Wi-Fi, 2013 version)
 peripherals: ['']
@@ -32,7 +32,7 @@ screen: 178 mm (7.0 in)
 screen_ppi: '323'
 screen_res: 1920x1200 pixels
 screen_tech: IPS LCD
-sdcard: ''
+sdcard:
 soc: Qualcomm Snapdragon S4 Pro
 storage: 16GB, 32GB
 tree: android_device_asus_flo

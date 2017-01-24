@@ -1,10 +1,10 @@
-battery: ''
+battery:
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: 5 MP}
 - {flash: '', info: VGA}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: nicki
 cpu: Krait
@@ -20,7 +20,7 @@ has_recovery_partition: true
 image: Nicki.png
 install_method: TODO
 kernel: android_kernel_sony_msm8x27
-lte: ''
+lte:
 maintainers: [freexperia, Ron Gokhale]
 name: Xperia M
 peripherals: [Accelerometer, proximity, compass]

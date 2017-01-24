@@ -3,8 +3,8 @@ bluetooth: v4.1 with A2DP, LE
 cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: '5MP, 13MP Flash LED (ZD551KL)'}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: Z00T
 cpu: Cortex A53

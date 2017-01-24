@@ -20,7 +20,7 @@ has_recovery_partition: true
 image: MotoG.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8226
-lte: ''
+lte:
 maintainers: ['']
 name: Moto G
 peripherals: [Accelerometer, proximity, compass]
