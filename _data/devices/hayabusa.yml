@@ -3,8 +3,8 @@ bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: '13 MP f/2.4, flash: LED'}
 - {flash: '', info: 1.3 MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: hayabusa
 cpu: Krait
@@ -18,10 +18,10 @@ gpu: Adreno 225
 gsm: 850 / 900 / 1800 / 1900 / 2100 MHz UMTS/HSPA+
 has_recovery_partition: true
 height: 131.0 mm
-image: Hayabusa.png
+image: hayabusa.png
 install_method: TODO
 kernel: android_kernel_sony_msm8x60
-lte: ''
+lte:
 maintainers: [Adrian DC]
 name: Xperia TX
 peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,

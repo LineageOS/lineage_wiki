@@ -3,7 +3,7 @@ bluetooth: '4.1'
 cameras:
 - {flash: dual-LED, info: 20MP}
 - {flash: '', info: 4MP}
-carrier: ''
+carrier:
 cdma: 850, 2100 MHz
 channels: [weekly]
 codename: himawl
@@ -16,10 +16,10 @@ download_boot: With the device powered down, hold the Volume Down and Power butt
 gpu: Adreno 430
 gsm: 850, 900, 1800, 1900 MHz
 has_recovery_partition: true
-image: Himaul.png
+image: himaul.png
 install_method: TODO
 kernel: android_kernel_htc_msm8994
-lte: ''
+lte:
 maintainers: ['']
 name: One M9 (Verizon)
 peripherals: ['']

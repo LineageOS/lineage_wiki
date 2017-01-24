@@ -3,22 +3,24 @@ bluetooth: 4.0 LE
 cameras:
 - {flash: dual LED, info: 21MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: lux
 cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
+depth:
 download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 405
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Lux.png
+height:
+image: lux.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8916
-lte: ''
+lte:
 maintainers: ['']
 name: Moto X Play
 peripherals: ['']
@@ -39,4 +41,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]
+width:
 wifi: 802.11a/g/b/n (dual band capable)
