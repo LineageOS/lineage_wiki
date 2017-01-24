@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: Dual 4MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: m8d
 cpu: Krait 400

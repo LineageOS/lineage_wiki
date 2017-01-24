@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: '', info: 8MP}
 - {flash: '', info: 2MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: jalebi
 cpu: Cortex A53
@@ -14,12 +14,12 @@ current_branch: 13.0
 download_boot: Power off the device then hold Volume UP and Power buttons. Select
   "reboot to bootloader".
 gpu: Adreno 306
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Jalebi.png
+image: jalebi.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
-lte: ''
+lte:
 maintainers: ['']
 name: Yunique
 peripherals: [64 bit, dual SIM]

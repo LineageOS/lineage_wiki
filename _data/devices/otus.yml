@@ -3,8 +3,8 @@ bluetooth: v4.0
 cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: VGA}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: otus
 cpu: Cortex A7
@@ -18,21 +18,21 @@ gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz
 has_recovery_partition: true
 image: otus.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: ['']
 name: Moto E 2015
 peripherals: [Accelerometer, proximity]
 ram: 1GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Volume Up to select.
-release: ''
+release:
 screen: 114 mm (4.5 in)
 screen_ppi: ~245
 screen_res: 540 x 960 pixels
 screen_tech: IPS LCD
 sdcard: up to 32GB
-soc: Qualcomm Snapdragon 200 MSM8212
+soc: Qualcomm MSM8212 Snapdragon 200
 storage: 8GB
 tree: android_device_motorola_otus
 type: phone

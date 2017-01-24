@@ -3,8 +3,8 @@ bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: '8MP f/2.4, flash: LED'}
 - {flash: '', info: VGA}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: huashan
 cpu: Krait
@@ -18,7 +18,7 @@ gpu: Adreno 320
 gsm: HSDPA 850 / 900 / 1700 / 1900 / 2100
 has_recovery_partition: true
 height: 133 mm
-image: Huashan.png
+image: huashan.png
 install_method: TODO
 kernel: android_kernel_sony_msm8960t
 lte: LTE 800 / 850 / 900 / 1800 / 2100 / 2600
@@ -35,7 +35,7 @@ screen_ppi: '323'
 screen_res: 720x1280
 screen_tech: TFT
 sdcard: officially up to 32GB
-soc: Qualcomm Snapdragon S4 Pro MSM8960T
+soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 8GB
 tree: android_device_sony_huashan
 type: phone
