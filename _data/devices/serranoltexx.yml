@@ -3,8 +3,8 @@ bluetooth: v4.0 with A2DP, LE, EDR
 cameras:
 - {flash: LED, info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: 1.9 MP 720p HD Video Recording @ 30fps}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: serranoltexx
 cpu: Krait
@@ -33,7 +33,7 @@ screen_ppi: '256'
 screen_res: 960x540
 screen_tech: Super AMOLED
 sdcard: up to 64GB
-soc: Qualcomm Snapdragon 400
+soc: Qualcomm MSM8926 Snapdragon 400
 storage: 8GB
 tree: android_device_samsung_serranoltexx
 type: phone

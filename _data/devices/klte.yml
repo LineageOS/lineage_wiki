@@ -3,8 +3,8 @@ bluetooth: 4.0 BLE
 cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 2MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: klte
 cpu: Krait 400
@@ -13,11 +13,11 @@ cpu_freq: 2.5 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Vol Down & Home & Power.
 gpu: Adreno 330
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Klte.png
+image: klte.png
 install_method: TODO
-kernel: ''
+kernel:
 lte: 800, 850, 900, 1,800, 2,100 and 2,600 MHz
 maintainers: ['']
 name: Galaxy S5
@@ -33,7 +33,7 @@ screen_ppi: '432'
 screen_res: 1920x1080
 screen_tech: Full HD Super AMOLED
 sdcard: up to 128 GB
-soc: Qualcomm Snapdragon 801
+soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB, 32 GB
 tree: android_device_samsung_klte
 type: phone

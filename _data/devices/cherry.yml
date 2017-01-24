@@ -3,7 +3,7 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 8 / 13 MP}
 - {flash: '', info: 2 / 5 MP}
-carrier: ''
+carrier:
 cdma: "CDMA 800\nCDMA EVDO 800 \nTD-SCDMA B34/39\nWCDMA B1/8"
 channels: [weekly]
 codename: cherry
@@ -26,13 +26,13 @@ name: Honor 4/4X (Unified)
 peripherals: [Accelerometer, proximity, compass]
 ram: 1GB / 2GB
 recovery_boot: Volume Up & Power
-release: ''
+release:
 screen: 5.0 / 5.5 in
 screen_ppi: 294 / 267
 screen_res: 1280x720
 screen_tech: IPS + LCD
 sdcard: up to 32GB
-soc: Qualcomm Snapdragon 410 MSM8916
+soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_cherry
 type: phablet

@@ -1,10 +1,10 @@
-battery: ''
+battery:
 bluetooth: 4.0LE
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: mondrianwifi
 cpu: Snapdragon 800 Krait 400
@@ -13,24 +13,24 @@ cpu_freq: 2.26 GHz
 current_branch: 13.0
 download_boot: Hold Volume Down while booting.
 gpu: Adreno 330
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Mondrianwifi.png
+image: mondrianwifi.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: [crpalmer]
 name: Galaxy Tab Pro 8.4
 peripherals: ['']
 ram: 2GB
 recovery_boot: Hold Volume Up while booting.
-release: ''
+release:
 screen: 213 mm (8.4 in)
 screen_ppi: '359'
 screen_res: 1600x2560
-screen_tech: ''
+screen_tech:
 sdcard: up to 128GB
-soc: Qualcomm Snapdragon 800
+soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16GB
 tree: android_device_samsung_mondrianwifi
 type: tablet
