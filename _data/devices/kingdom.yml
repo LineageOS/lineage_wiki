@@ -3,8 +3,8 @@ bluetooth: 4.0 BLE
 cameras:
 - {flash: Dual LED, info: '16MP F/2.2, OIS'}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: kingdom
 cpu: Krait 400

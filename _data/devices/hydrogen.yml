@@ -3,7 +3,7 @@ bluetooth: v4.2, A2DP, LE
 cameras:
 - {flash: dual-tone, info: 16MP}
 - {flash: '', info: 5MP}
-carrier: ''
+carrier:
 cdma: 1900 2000 850 900 1900 2100 MHz
 channels: [weekly]
 codename: hydrogen
@@ -11,13 +11,13 @@ cpu: Cortex A53 & A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 510
 gsm: 850 900 1800 1900 MHz
 has_recovery_partition: true
-height: ''
-image: Hydrogen.png
+height:
+image: hydrogen.png
 install_method: TODO
 kernel: android_kernel_xiaomi_msm8956
 lte: B1 B3 B5 B7 B38 B39 B40 B41
@@ -30,7 +30,7 @@ release: 2016 May
 screen: 163.5 mm (6.44 in)
 screen_ppi: '342'
 screen_res: 1080x1920
-screen_tech: ''
+screen_tech:
 sdcard: up to 256 GB (hybrid sim slot)
 soc: Qualcomm Snapdragon 650 MSM8956
 storage: 32GB/64GB
@@ -39,5 +39,5 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: ''
+width:
 wifi: 802.11 a/b/g/n/ac

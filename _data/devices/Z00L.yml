@@ -3,8 +3,8 @@ bluetooth: v4.1 with A2DP, LE
 cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: Z00L
 cpu: Cortex A53
