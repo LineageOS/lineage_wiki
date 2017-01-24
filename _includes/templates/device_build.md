@@ -64,11 +64,10 @@ install command directly in the Terminal." %}
 
 You'll need:
 
-<!-- markdown is bad at wrapping code blocks, so split it across multiple lines -->
-`bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf`
-`imagemagick lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev`
-`liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils`
-`lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`
+<!-- markdown is bad at wrapping code blocks, so split it across two lines -->
+`bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev`  
+`lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev`  
+`libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`
 
 {% if site.data.devices[page.device].versions contains 13.0 %}
 
@@ -163,16 +162,6 @@ problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull i
 
 {% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
 do it every few days to keep your code base fresh and up-to-date." %}
-
-### Get prebuilt apps (Lineage 11 and below)
-
-To download the prebuilt apps, run:
-
-```
-$ cd ~/android/system/vendor/cm
-$ ./get-prebuilts
-```
-You won't see any confirmation- just another prompt. But this should cause some prebuilt apps to be loaded and installed into the source code. Once completed, this does not need to be done again.
 
 ### Prepare the device-specific code
 

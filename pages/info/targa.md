@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: targa Info
+title: Info about targa
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: targa_Info.html
+permalink: targa_info.html
 device: targa
 ---
 {% include templates/device_info.md %}

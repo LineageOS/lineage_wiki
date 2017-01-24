@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: cherry Info
+title: Info about cherry
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: cherry_Info.html
+permalink: cherry_info.html
 device: cherry
 ---
 {% include templates/device_info.md %}

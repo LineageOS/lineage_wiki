@@ -8,7 +8,7 @@ permalink: devices.html
 {% assign devices = devices | push: device[1] %}
 {% endfor %}
 
-{% assign sorted = devices | sort: 'codename' %}
+{% assign sorted = devices|sort:'name'|sort:'vendor' %}
 {% for device in sorted %}
-* [{{ device.codename }} &ndash; {{ device.vendor }} {{ device.name }}](/{{ device.codename }}_Info.html)
+* [ {{ device.vendor }} {{ device.name }} &ndash; {{ device.codename }}](/{{ device.codename }}_info.html)
 {% endfor %}

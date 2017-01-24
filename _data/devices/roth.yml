@@ -1,0 +1,42 @@
+battery: "7350 mAh (28.8 W\xC2\xB7h)"
+bluetooth: '3.0'
+cameras: []
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: roth
+cpu: Cortex A15
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 13.0
+depth: ''
+download_boot: Hold Back & Home & tap Power, release once menu is displayed.
+gpu: Tegra 4
+gsm: ''
+has_recovery_partition: true
+height: ''
+image: roth.png
+install_method: TODO
+kernel: ''
+lte: ''
+maintainers: ['']
+name: Shield Portable
+peripherals: ['']
+ram: 2GB
+recovery_boot: Hold Back & Home & tap Power, release once menu is displayed. Tap Home
+  until recovery is selected. Press Power to select.
+release: 2013 July 31
+screen: 127 mm (5.0 in)
+screen_ppi: '294'
+screen_res: 1280x720
+screen_tech: IPS LCD
+sdcard: up to 128GB
+soc: Nvidia Tegra 4 (T114)
+storage: 16GB
+tree: android_device_nvidia_roth
+type: Handheld game console
+vendor: Nvidia
+vendor_short: nvidia
+versions: [13.0]
+width: ''
+wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
