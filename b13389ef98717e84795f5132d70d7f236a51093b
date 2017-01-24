@@ -16,6 +16,24 @@
       "revId": "b13389ef98717e84795f5132d70d7f236a51093b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_416df431",
+        "filename": "_data/devices/seed.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-24T08:20:05Z",
+      "side": 1,
+      "message": "A further clean up is needed for all devices. Many have it like this, others it\u0027s the opposite.",
+      "parentUuid": "9a437d4f_8183dccb",
+      "revId": "b13389ef98717e84795f5132d70d7f236a51093b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
