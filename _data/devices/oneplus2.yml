@@ -3,7 +3,7 @@ bluetooth: '4.1'
 cameras:
 - {flash: Dual LED, info: 13MP F/2.0}
 - {flash: '', info: 5MP F/2.4}
-carrier: ''
+carrier:
 cdma: "Europe/Asia - WCDMA: Bands 1/2/5/8China - WCDMA: Bands 1/2/5/8TD-SCDMA\_: Bands\
   \ 34/39North America - WCDMA: Bands 1/2/4/5/8"
 channels: [weekly]

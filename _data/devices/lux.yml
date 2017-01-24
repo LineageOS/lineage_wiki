@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold Volume Down & Power simultaneou
 gpu: Adreno 405
 gsm: ''
 has_recovery_partition: true
-image: Lux.png
+image: lux.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8916
 lte: ''

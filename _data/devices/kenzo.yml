@@ -17,7 +17,7 @@ gpu: Adreno 510
 gsm: 850 900 1800 1900 MHz
 has_recovery_partition: true
 height: ''
-image: Kenzo.png
+image: kenzo.png
 install_method: TODO
 kernel: android_kernel_xiaomi_msm8956
 lte: B1 B3 B5 B7 B8 B38 B39 B40 B41

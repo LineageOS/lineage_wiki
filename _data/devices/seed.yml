@@ -3,7 +3,7 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 13 megapixels}
 - {flash: '', info: 5 megapixels}
-carrier: ''
+carrier:
 cdma: 900, 2100 MHz
 channels: [weekly]
 codename: seed
@@ -15,16 +15,16 @@ download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 306
 gsm: 850, 900, 1800, 1900 MHz
 has_recovery_partition: true
-image: Seed.png
+image: seed.png
 install_method: TODO
-kernel: ''
+kernel:
 lte: Bands 20, 3, 7
 maintainers: [Arvin Quilao]
 name: Android One 2nd Gen
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity]
 ram: 2GB / 1GB for IQ II
 recovery_boot: With the device powered off, hold Volume Up & Power
-release: ''
+release:
 screen: 127mm (5.0 in)
 screen_ppi: '294'
 screen_res: 720x1280

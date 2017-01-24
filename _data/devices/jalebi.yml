@@ -16,7 +16,7 @@ download_boot: Power off the device then hold Volume UP and Power buttons. Selec
 gpu: Adreno 306
 gsm: ''
 has_recovery_partition: true
-image: Jalebi.png
+image: jalebi.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
 lte: ''

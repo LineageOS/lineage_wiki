@@ -15,7 +15,7 @@ download_boot: With power off, hold Home & Volume Down & Power simultaneously.
 gpu: Adreno 330
 gsm: ''
 has_recovery_partition: true
-image: Lt03wifi.png
+image: lt03wifi.png
 install_method: TODO
 kernel: ''
 lte: ''
