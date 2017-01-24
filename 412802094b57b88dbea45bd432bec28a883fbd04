@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_a4870e61",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-24T09:59:43Z",
+      "side": 1,
+      "message": "all the APKs that reside under `/system`\n\nor simply:\n\nall the system APKs",
+      "range": {
+        "startLine": 42,
+        "startChar": 37,
+        "endLine": 42,
+        "endChar": 60
+      },
+      "revId": "412802094b57b88dbea45bd432bec28a883fbd04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
