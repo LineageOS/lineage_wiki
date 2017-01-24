@@ -3,7 +3,7 @@ bluetooth: v4.0 with A2DP, LE
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
-carrier: ''
+carrier:
 cdma: CDMA 800/1900 MHz, CDMA2000 1xEV-DO
 channels: [weekly]
 codename: titan
@@ -17,10 +17,10 @@ gpu: Adreno 305
 gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz - International, HSDPA
   850/1700/1900/2100 MHz- T-Mobile, AT&T
 has_recovery_partition: true
-image: Titan.png
+image: titan.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8226
-lte: ''
+lte:
 maintainers: [LuK1337, luca020400]
 name: Moto G 2014
 peripherals: [Accelerometer, gyroscope, proximity, compass]

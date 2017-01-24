@@ -3,28 +3,28 @@ bluetooth: 4.0 LE
 cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: 1.3MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: v500
 cpu: Qualcomm Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth: ''
+depth:
 gpu: Adreno 320
-gsm: ''
+gsm:
 has_recovery_partition: true
-height: ''
-image: V500.png
+height:
+image: v500.png
 install_method: TODO
 kernel: android_kernel_lge_v500
-lte: ''
-maintainers: [Ricardo Cerqueira]
+lte:
+maintainers: [fefifofum]
 name: G Pad 8.3
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, microphone]
 ram: 2GB
-recovery_boot: ''
+recovery_boot:
 release: 14 October 2013
 screen: 210 mm (8.3 in)
 screen_ppi: '273'
@@ -38,5 +38,5 @@ type: tablet
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: ''
+width:
 wifi: 802.11 a/b/g/n (2.4/5 GHz)

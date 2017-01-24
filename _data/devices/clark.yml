@@ -3,8 +3,8 @@ bluetooth: 4.1 LE
 cameras:
 - {flash: Dual LED, info: 21MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: clark
 cpu: Cortex A57 & A53
@@ -13,12 +13,12 @@ cpu_freq: 2 x 1.8 GHZ, 4 x 1.44
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 418
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Clark.png
+image: clark.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8992
-lte: ''
+lte:
 maintainers: [invisiblek]
 name: Moto X Pure Edition/Style (2015)
 peripherals: ['']

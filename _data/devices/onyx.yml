@@ -3,8 +3,8 @@ bluetooth: 4.0, A2DP
 cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 8MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: onyx
 cpu: Krait 400
@@ -13,12 +13,12 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 330
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Onyx.png
+image: onyx.png
 install_method: TODO
 kernel: ''
-lte: ''
+lte:
 maintainers: ['']
 name: X
 peripherals: ['']
