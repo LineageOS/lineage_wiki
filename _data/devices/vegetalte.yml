@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual LED, info: 13MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: vegetalte
 cpu: Cortex A53
@@ -14,25 +14,25 @@ current_branch: 14.1
 download_boot: Hold Volume Down & Power simultaneously. When the phone vibrates, release
   Power, wait a second, then release Volume Down.
 gpu: Adreno 306
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Vegetalte.png
+image: vegetalte.png
 install_method: TODO
 kernel: android_kernel_bq_msm8939
-lte: ''
+lte:
 maintainers: ['']
 name: Aquaris E5 4G
 peripherals: ['']
 ram: 1/2GB
 recovery_boot: Hold Volume Up & Power simultaneously. When the phone vibrates, release
   Power, wait a second, then release Volume Up.
-release: ''
+release:
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280
 screen_tech: IPS LCD
 sdcard: up to 32GB
-soc: Qualcomm Snapdragon 410 MSM8916
+soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16GB
 tree: android_device_bq_vegetalte
 type: phone

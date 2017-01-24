@@ -1,10 +1,10 @@
-battery: ''
+battery:
 bluetooth: v4.1
 cameras:
 - {flash: LED, info: '13 MP, f/2.0, 28mm'}
 - {flash: '', info: '5 MP, f/2.4, 22mm'}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: kiwi
 cpu: Cortex-A53
@@ -12,17 +12,17 @@ cpu_cores: '8'
 cpu_freq: 4x1.2 & 4x1.5 GHz
 current_branch: 13.0
 gpu: Adreno 405
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Kiwi.png
+image: kiwi.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: ['crpalmer,BadDaemon']
 name: Honor 5X
 peripherals: ['']
 ram: 2GB
-recovery_boot: ''
+recovery_boot:
 release: 2015 November
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'

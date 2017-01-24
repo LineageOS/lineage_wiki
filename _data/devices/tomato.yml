@@ -3,8 +3,8 @@ bluetooth: '4.1'
 cameras:
 - {flash: LED, info: 13MP F/2.2}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: tomato
 cpu: Cortex A53
@@ -17,7 +17,7 @@ gpu: Adreno 405
 gsm: 850 900 1800 1900 MHz UMTS
 has_recovery_partition: true
 height: 152.9 mm
-image: Tomato.png
+image: tomato.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
 lte: 700 1700/2100 1800 2100 2600 FDD 2300 2600 TDD
@@ -33,7 +33,7 @@ screen_ppi: 267  / 401  (Plus)
 screen_res: 1280x720 / 1920x1080 (Plus)
 screen_tech: ' IPS'
 sdcard: Upto 32GB
-soc: Qualcomm Snapdragon 615
+soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16GB
 tree: android_device_yu_tomato
 type: phone

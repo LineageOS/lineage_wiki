@@ -3,8 +3,8 @@ bluetooth: '3.0'
 cameras:
 - {flash: LED, info: 5MP}
 - {flash: '', info: 1.9MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: manta
 cpu: Cortex-A15
@@ -13,12 +13,12 @@ cpu_freq: 1.7 GHz
 current_branch: 13.0
 download_boot: Volume Down & Volume Up & Power
 gpu: Mali T604
-gsm: ''
+gsm:
 has_recovery_partition: true
 image: manta.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: [atinm, Kornyone, gweedo767]
 name: Nexus 10
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnetometer,
@@ -30,7 +30,7 @@ screen: 255 mm (10.0 in)
 screen_ppi: '300'
 screen_res: 2560x1600
 screen_tech: Super PLS
-sdcard: none
+sdcard:
 soc: Samsung Exynos 5
 storage: 16 or 32GB
 tree: android_device_samsung_manta

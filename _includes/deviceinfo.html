@@ -1,0 +1,171 @@
+{% assign device = site.data.devices[page.device] %}
+<style>
+td {
+    text-align: right;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+.header {
+    font-weight: bold;
+    text-align: left;
+}
+
+.header[colspan='2'] {
+    text-align: center;
+}
+</style>
+<table>
+    <colgroup>
+        <col style="width: 30%">
+        <col style="width: 70%">
+    </colgroup>
+    <tr>
+        <td colspan="2" class="header"><strong>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</strong></td>
+    </tr>
+    <tr>
+        <td colspan="2"><img style="width:100%" src="images/devices/{{ device.image }}" /></td>
+    </tr>
+    <tr>
+        <td class="header">Released</td>
+        <td>{{ device.release }}</td>
+    </tr>
+    {% if device.carrier %}
+    <tr>
+        <td class="header">Carrier</td>
+        <td>{{ device.carrier }}</td>
+    </tr>
+    {% endif %}
+    <!-- specs -->
+    <tr>
+        <td class="header" colspan="2">Specifications</td>
+    </tr>
+    <tr>
+        <td class="header">SoC</td>
+        <td>{{ device.soc }}</td>
+    </tr>
+    <tr>
+        <td class="header">RAM</td>
+        <td>{{ device.ram }}</td>
+    </tr>
+    <tr>
+        <td class="header">CPU</td>
+        <td>
+            {% case device.cpu_cores %}
+                {% when '1' %}
+                    Single-core
+                {% when '2' %}
+                    Dual-core
+                {% when '4' %}
+                    Quad-core
+                {% when '6' %}
+                    Hexa-core
+                {% when '8' %}
+                    Octa-core
+                {% else %}
+                    {{ device.cpu_cores }}x
+            {% endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
+        </td>
+    </tr>
+    <tr>
+        <td class="header">GPU</td>
+        <td>{{ device.gpu }}</td>
+    </tr>
+    {% if device.gsm or device.cdma or device.lte %}
+    <tr>
+        <td class="header">Network</td>
+        <td><ul>
+            {% if device.gsm %}
+                <li><strong>GSM:</strong> {{ device.gsm }}</li>
+            {% endif %}
+            {% if device.cdma %}
+                <li><strong>CDMA:</strong> {{ device.cdma }}</li>
+            {% endif %}
+            {% if device.lte %}
+                <li><strong>LTE:</strong> {{ device.lte }}</li>
+            {% endif %}
+		</ul></td>
+    </tr>
+    {% endif %}
+    <tr>
+        <td class="header">Storage</td>
+        <td>{{ device.storage }}</td>
+    </tr>
+    {% if device.sdcard %}
+    <tr>
+        <td class="header">SD card</td>
+        <td>{{ device.sdcard }}</td>
+    </tr>
+    {% endif %}
+    <tr>
+        <td class="header">Screen</td>
+        <td>{{ device.screen_res }} ({{ device.screen_ppi }} PPI) {{ device.screen_tech }}</td>
+    </tr>
+    {% if device.peripherals[0] != '' %}
+    <tr>
+        <td class="header">Peripherals</td>
+        <td>
+            <ul>
+                {% for el in device.peripherals %}
+                <li>{{ el | capitalize }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endif %}
+    <tr>
+        <td class="header">Cameras</td>
+        <td>{{ device.cameras | size }}
+            <ul>
+                {% for el in device.cameras %}
+                    <li>
+                        {{ el.info }},
+                        {% if el.flash != '' %}
+                            {{ el.flash }}
+                        {% else %}
+                            No
+                        {% endif %} flash
+                    </li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% if device.height and device.width and device.depth %}
+    <tr>
+        <td class="header">Dimensions</td>
+        <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
+    </tr>
+    {% endif %}
+    <!-- lineage info -->
+    <tr>
+        <td class="header" colspan="2">Lineage info</td>
+    </tr>
+    <tr>
+        <td class="header">Maintainers</td>
+        <td>
+            <ul>
+                {% for el in device.maintainers %}
+                    {% if el == '' %}
+                        {% if device.maintainers | size == 0 %}
+                            <li>None</li>
+                        {% endif %}
+                        {% continue %}
+                    {% endif %}
+                    <li>{{ el }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td class="header">Supported versions</td>
+        <td>
+            <ul>
+                {% for el in device.versions %}
+                    <li>{{ el }}</li>
+                {% endfor %}
+            </ul>
+        </td>
+    </tr>
+</table>

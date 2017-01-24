@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Info about crackling
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: crackling_info.html
 device: crackling

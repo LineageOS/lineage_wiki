@@ -3,22 +3,22 @@ bluetooth: '4.0'
 cameras:
 - {flash: dual-LED, info: 13 MP}
 - {flash: '', info: 5 MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: piccolo
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: Hold Volume Down & Power simultaneously. When the phone vibrates, release
   Power, wait a second, then release Volume Down.
 gpu: Adreno 405
 gsm: GSM 850/900/1800/1900 MHz, HSDPA 900/2100 MHz
 has_recovery_partition: true
-height: ''
-image: Piccolo.png
+height:
+image: piccolo.png
 install_method: TODO
 kernel: android_kernel_bq_msm8939
 lte: 800/1800/2100/2600 MHz
@@ -35,12 +35,12 @@ screen_ppi: ~441
 screen_res: 1080x1920
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 64GB
-soc: Qualcomm Snapdragon 615
+soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16GB or 32GB
 tree: android_device_bq_piccolo
 type: phone
 vendor: BQ
 vendor_short: bq
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: 802.11 b/g/n
