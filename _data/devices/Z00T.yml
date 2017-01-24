@@ -3,8 +3,8 @@ bluetooth: v4.1 with A2DP, LE
 cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: '5MP, 13MP Flash LED (ZD551KL)'}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: Z00T
 cpu: Cortex A53
@@ -30,7 +30,7 @@ screen_ppi: ~401/367
 screen_res: 1080x1920
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 128GB
-soc: Qualcomm Snapdragon 615 MSM8939
+soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16GB or 32GB
 tree: android_device_asus_Z00T
 type: phone

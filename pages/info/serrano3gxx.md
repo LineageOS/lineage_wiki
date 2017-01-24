@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Info about serrano3gxx
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: serrano3gxx_info.html
 device: serrano3gxx

@@ -3,7 +3,7 @@ bluetooth: 4.1 LE
 cameras:
 - {flash: dual LED, info: 16MP}
 - {flash: '', info: 5MP}
-carrier: ''
+carrier:
 cdma: 1900 MHz
 channels: [weekly]
 codename: athene
@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold Volume Down & Power simultaneou
 gpu: Adreno 405
 gsm: 850 900 1800 1900 MHz GSM, 850 900 1700 1900 2100 MHz UMTS
 has_recovery_partition: true
-image: Athene.png
+image: athene.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8952
 lte: 700 850 1700 1800 1900 2600 MHz

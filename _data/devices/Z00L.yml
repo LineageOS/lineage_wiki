@@ -3,8 +3,8 @@ bluetooth: v4.1 with A2DP, LE
 cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: Z00L
 cpu: Cortex A53
@@ -30,7 +30,7 @@ screen_ppi: ~267/245
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 128GB
-soc: Qualcomm Snapdragon 615 MSM8939/410 MSM8916
+soc: Qualcomm MSM8939 Snapdragon 615 / Qualcomm MSM8916 Snapdragon 410
 storage: 16GB
 tree: android_device_asus_Z00L
 type: phone
