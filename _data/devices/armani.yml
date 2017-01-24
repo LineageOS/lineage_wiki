@@ -3,8 +3,8 @@ bluetooth: 4.0 A2DP, LE
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: armani
 cpu: Cortex A7
@@ -19,7 +19,7 @@ has_recovery_partition: true
 image: armani.png
 install_method: TODO
 kernel: android_kernel_xiaomi_armani
-lte: ''
+lte:
 maintainers: ['fefifofum']
 name: Redmi 1S
 peripherals: [Accelerometer, gyro, proximity, compass]

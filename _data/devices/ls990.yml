@@ -3,24 +3,24 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual flash, info: 13MP}
 - {flash: '', info: 2.1MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: ls990
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 13.0
-depth: ''
-download_boot: '''Plug into PC & Volume UP'
+depth:
+download_boot: Plug into PC & Volume UP
 gpu: Adreno 330
-gsm: ''
+gsm:
 has_recovery_partition: true
-height: ''
-image: D855.png
+height:
+image: d855.png
 install_method: TODO
 kernel: android_kernel_lge_g3
-lte: ''
+lte:
 maintainers: ['']
 name: G3 (Sprint)
 peripherals: ['']
@@ -39,5 +39,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11 a/b/g/n/ac

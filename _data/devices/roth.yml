@@ -1,24 +1,24 @@
 battery: "7350 mAh (28.8 W\xC2\xB7h)"
 bluetooth: '3.0'
 cameras: []
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: roth
 cpu: Cortex A15
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 13.0
-depth: ''
+depth:
 download_boot: Hold Back & Home & tap Power, release once menu is displayed.
 gpu: Tegra 4
-gsm: ''
+gsm:
 has_recovery_partition: true
-height: ''
+height:
 image: roth.png
 install_method: TODO
 kernel: ''
-lte: ''
+lte:
 maintainers: ['']
 name: Shield Portable
 peripherals: ['']
@@ -38,5 +38,5 @@ type: Handheld game console
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

@@ -3,8 +3,8 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 1.3MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: jag3gds
 cpu: Cortex A7
@@ -13,12 +13,12 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: Plug into PC & Volume UP
 gpu: Adreno 305
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Jag3gds.png
+image: jag3gds.png
 install_method: TODO
 kernel: android_kernel_lge_msm8226
-lte: ''
+lte:
 maintainers: ['']
 name: G3 S
 peripherals: ['']

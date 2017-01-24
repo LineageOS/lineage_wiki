@@ -3,8 +3,8 @@ bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: '8MP f/2.4, flash: LED'}
 - {flash: '', info: VGA}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: huashan
 cpu: Krait
@@ -18,7 +18,7 @@ gpu: Adreno 320
 gsm: HSDPA 850 / 900 / 1700 / 1900 / 2100
 has_recovery_partition: true
 height: 133 mm
-image: Huashan.png
+image: huashan.png
 install_method: TODO
 kernel: android_kernel_sony_msm8960t
 lte: LTE 800 / 850 / 900 / 1800 / 2100 / 2600

@@ -3,8 +3,8 @@ bluetooth: 4.2 LE
 cameras:
 - {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: bullhead
 cpu: Quad-core Cortex-A53 & dual-core Cortex-A57
@@ -13,12 +13,12 @@ cpu_freq: 1.44 GHz & 1.82 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 418
-gsm: ''
+gsm:
 has_recovery_partition: true
-image: Bullhead.png
+image: bullhead.png
 install_method: TODO
-kernel: ''
-lte: ''
+kernel:
+lte:
 maintainers: ['']
 name: Nexus 5X
 peripherals: [Fingerprint, accelerometer, gyro, proximity, compass, barometer]
@@ -30,7 +30,7 @@ screen: 132 mm (5.2 in)
 screen_ppi: ~423
 screen_res: 1080x1920
 screen_tech: LCD
-sdcard: none
+sdcard:
 soc: Qualcomm Snapdragon 808
 storage: 16/32
 tree: android_device_lge_bullhead

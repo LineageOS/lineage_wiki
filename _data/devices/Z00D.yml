@@ -4,7 +4,7 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
 carrier: Unlocked
-cdma: ''
+cdma:
 channels: [weekly]
 codename: Z00D
 cpu: x86

@@ -3,8 +3,8 @@ bluetooth: v4.0
 cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: none}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: condor
 cpu: Cortex A7
@@ -19,7 +19,7 @@ has_recovery_partition: true
 image: condor.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8610
-lte: ''
+lte:
 maintainers: ['']
 name: Moto E
 peripherals: [Accelerometer, proximity, compass]
