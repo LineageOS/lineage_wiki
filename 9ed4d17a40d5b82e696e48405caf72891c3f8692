@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_074b7c5a",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-24T18:14:15Z",
+      "side": 1,
+      "message": "Only here so that this cases don\u0027t fail: https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/Z00L.yml#L11",
+      "range": {
+        "startLine": 66,
+        "startChar": 12,
+        "endLine": 67,
+        "endChar": 39
+      },
+      "revId": "9ed4d17a40d5b82e696e48405caf72891c3f8692",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
