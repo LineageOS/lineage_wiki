@@ -10,7 +10,7 @@ codename: Z008
 cpu: x86_64
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
-current_branch: 13.0
+current_branch: 14.1
 download_boot: Hold Volume Up & Power simultaneously.
 gpu: PowerVR G6430
 gsm: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 HSDPA 850 / 900 / 1900 / 2100 SIM
@@ -38,5 +38,5 @@ tree: android_device_asus_Z008
 type: phone
 vendor: Asus
 vendor_short: asus
-versions: [13.0]
+versions: [13.0, 14.1]
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot
