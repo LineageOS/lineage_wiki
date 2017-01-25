@@ -1,0 +1,39 @@
+battery: 4200 mAh
+bluetooth: 4.0 LE
+cameras:
+- {flash: none, info: 5MP}
+- {flash: '', info: 1.3MP}
+carrier: ''
+cdma: ''
+channels: [weekly]
+codename: v480
+cpu: Cortex A7
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+gpu: Adreno 305
+gsm: ''
+has_recovery_partition: true
+image: V480.png
+install_method: TODO
+kernel: android_kernel_lge_v4xx
+lte: ''
+maintainers: [João Paulo Just Peixoto]
+name: G Pad 8.0 (Wi-Fi)
+peripherals: [accelerometer, GPS, magnetometer, microphone, pedometer]
+ram: 1GB
+recovery_boot: ''
+release: July 2014
+screen: 203 mm (8.0 in)
+screen_ppi: '189'
+screen_res: 1280x800
+screen_tech: IPS LCD
+sdcard: up to 64GB
+soc: Qualcomm MSM8226 Snapdragon 400
+storage: 16GB
+tree: android_device_lge_v480
+type: tablet
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+wifi: 802.11 a/b/g/n
