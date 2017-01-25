@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for thea
 folder: info
 # name of the page (/{{permalink}}.html)

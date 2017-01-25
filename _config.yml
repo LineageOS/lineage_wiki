@@ -1,50 +1,36 @@
-
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
-
-topnav_title: LineageOS Wiki
-# this appears on the top navigation bar next to the home button
-
-site_title: LineageOS Wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+site_title: LineageOS Wiki
 
-company_name: The LineageOS Project
 # this appears in the footer
+company_name: The LineageOS Project
 
-github_editme_path:
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+# the description is used in the feed.xml file
+description: The LineageOS Wiki
 
-disqus_shortname: idrbwjekyll
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
+# needed for sitemap.xml file only
+url: http://wiki.lineageos.org
 
-host: 127.0.0.1
 # the preview server used. Leave as is.
+host: 127.0.0.1
 
-port: 4000
 # the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+port: 4000
 
-exclude:
-  - .idea/
-  - .gitignore
 # these are the files and directories that jekyll will exclude from the build
+exclude:
+  - .editorconfig
+  - .gitignore
+  - .gitreview
+  - .idea/
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
 
-feedback_subject_line: Jekyll documentation theme
-
-feedback_email: me@example.com
-# used as a contact email for the Feedback link in the top navigation bar
-
-feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
-
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
-
-highlighter: rouge
 # library used for syntax highlighting
+highlighter: rouge
 
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
 markdown: kramdown
 kramdown:
  input: GFM
@@ -52,50 +38,20 @@ kramdown:
  hard_wrap: false
  syntax_highlighter: rouge
 
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
-collections:
-  tooltips:
-    output: true
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
+# these are defaults used for the frontmatter for these file types
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
       layout: "page"
       comments: true
       search: true
-      sidebar: home_sidebar
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      tooltip: true
 
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
       comments: true
       search: true
-      sidebar: home_sidebar
-
-# these are defaults used for the frontmatter for these file types
-
-sidebars:
-- home_sidebar
-
-description: "The LineageOS Wiki"
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-url: http://wiki.lineageos.org

@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Google apps
 permalink: gapps.html
 ---

@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Install Lineage on maserati
 folder: info
 # name of the page (/{{permalink}}.html)

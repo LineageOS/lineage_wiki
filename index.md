@@ -1,13 +1,11 @@
 ---
 title: Welcome to the LineageOS wiki!
-sidebar: home_sidebar
 permalink: index.html
 ---
 
 Looking for information about your device? You can look for it on our [devices list](devices.html).
 
-This is our shiny new wiki, which uses [Jekyll](https://jekyllrb.com/). You can look at the source [on GitHub](https://github.com/LineageOS/lineage_wiki), or
-even learn how to [contribute!](contributing.html).
+This is our shiny new wiki, which uses [Jekyll](https://jekyllrb.com/). You can look at the source [on GitHub](https://github.com/LineageOS/lineage_wiki), or even learn how to [contribute!](contributing.html).
 
 This wiki is still young, so please bear with us as we transfer information across from the old wiki.
 

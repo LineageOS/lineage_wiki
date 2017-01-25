@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about g2m
 folder: info
 # name of the page (/{{permalink}}.html)

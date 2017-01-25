@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Install Lineage on umts_spyder
 folder: info
 # name of the page (/{{permalink}}.html)

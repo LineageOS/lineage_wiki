@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Install Lineage on d2spr
 folder: info
 # name of the page (/{{permalink}}.html)

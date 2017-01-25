@@ -1,8 +1,8 @@
 ---
-sidebar: home_sidebar
 title: Devices
 permalink: devices.html
 ---
+
 {% assign devices = "" |split: " " %}
 {% for device in site.data.devices %}
 {% assign devices = devices | push: device[1] %}

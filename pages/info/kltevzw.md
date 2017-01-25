@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about kltevzw
 folder: info
 # name of the page (/{{permalink}}.html)

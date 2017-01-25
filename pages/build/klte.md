@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for klte
 folder: info
 # name of the page (/{{permalink}}.html)

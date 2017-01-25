@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Using ADB and fastboot
 permalink: adb_fastboot_guide.html
 ---

@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for umts_spyder
 folder: info
 # name of the page (/{{permalink}}.html)

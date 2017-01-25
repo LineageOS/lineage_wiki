@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for find7s
 folder: info
 # name of the page (/{{permalink}}.html)

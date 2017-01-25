@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> {{site.topnav_title}}</span></a>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> {{site.site_title}}</span></a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
@@ -44,9 +44,6 @@
                 </li>
                 {% endfor %}
                 {% endfor %}
-                {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->

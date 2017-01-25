@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about himawl
 folder: info
 # name of the page (/{{permalink}}.html)

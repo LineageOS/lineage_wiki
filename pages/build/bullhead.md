@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for bullhead
 folder: info
 # name of the page (/{{permalink}}.html)

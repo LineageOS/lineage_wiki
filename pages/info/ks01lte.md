@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about ks01lte
 folder: info
 # name of the page (/{{permalink}}.html)

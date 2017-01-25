@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about kingdom
 folder: info
 # name of the page (/{{permalink}}.html)

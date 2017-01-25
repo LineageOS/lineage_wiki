@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about jagnm
 folder: info
 # name of the page (/{{permalink}}.html)

@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Build for serrano3gxx
 folder: info
 # name of the page (/{{permalink}}.html)

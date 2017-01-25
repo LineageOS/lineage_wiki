@@ -1,5 +1,4 @@
 ---
-sidebar: home_sidebar
 title: Info about titan
 folder: info
 # name of the page (/{{permalink}}.html)
