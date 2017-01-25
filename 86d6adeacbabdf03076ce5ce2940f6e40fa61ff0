@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_aa9a3512",
+        "filename": "_data/devices/v480.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T11:48:38Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 6,
+        "startChar": 8,
+        "endLine": 6,
+        "endChar": 11
+      },
+      "revId": "86d6adeacbabdf03076ce5ce2940f6e40fa61ff0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_8a9f7103",
+        "filename": "_data/devices/v480.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T11:48:38Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 7,
+        "startChar": 5,
+        "endLine": 7,
+        "endChar": 8
+      },
+      "revId": "86d6adeacbabdf03076ce5ce2940f6e40fa61ff0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_6aa44d57",
+        "filename": "_data/devices/v480.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T11:48:38Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 15,
+        "startChar": 4,
+        "endLine": 15,
+        "endChar": 7
+      },
+      "revId": "86d6adeacbabdf03076ce5ce2940f6e40fa61ff0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_4a8989c9",
+        "filename": "_data/devices/v480.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T11:48:38Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 20,
+        "startChar": 4,
+        "endLine": 20,
+        "endChar": 7
+      },
+      "revId": "86d6adeacbabdf03076ce5ce2940f6e40fa61ff0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
