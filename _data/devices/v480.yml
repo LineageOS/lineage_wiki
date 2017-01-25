@@ -20,9 +20,12 @@ kernel: android_kernel_lge_v4xx
 lte: ''
 maintainers: [João Paulo Just Peixoto]
 name: G Pad 8.0 (Wi-Fi)
-peripherals: [accelerometer, GPS, magnetometer, microphone, pedometer]
+peripherals: [accelerometer, digital compass, GPS, gravity, magnetometer, microphone, pedometer]
 ram: 1GB
-recovery_boot: ''
+recovery_boot: With the device powered down, hold POWER+VOL DOWN. When the LG
+  logo appears, release both buttons then hold again. The device will ask if you
+  want to erase all user data, choose 'Yes'. Choose 'Yes' again to confirm.
+  Recovery will boot.
 release: July 2014
 screen: 203 mm (8.0 in)
 screen_ppi: '189'
