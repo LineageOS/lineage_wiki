@@ -1,5 +1,5 @@
-battery: 2300 mAh
-bluetooth:
+battery: 2300 mAh (non-removable)
+bluetooth: v4.0 with AD2P, EDR, LE
 cameras:
 - {flash: dual-LED flash, info: '13 MP, 4128 x 3096 pixels, autofocus'}
 - {flash: '', info: '2 MP, 1080p'}
@@ -7,34 +7,35 @@ carrier:
 cdma:
 channels: [weekly]
 codename: victara
-cpu:
+cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: Volume Down & Power
+download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 330
-gsm:
+gsm: 850 900 1800 1900 MHz GSM, 850 900 1800 1900 2100 MHz UMTS
 has_recovery_partition: true
 image: victara.png
 install_method: TODO
 kernel: android_kernel_motorola_msm8974
-lte:
+lte: Bands 1, 3, 7, 8, 20
 maintainers: [crpalmer]
 name: Moto X 2014
-peripherals: ['']
+peripherals: [Accelerometer, Gyroscope, Proximity, Compass, Barometer, Temperature]
 ram: 2GB
-recovery_boot:
+recovery_boot: With the device powered off, hold Volume Down & Power simultaneously. On the next screen use Volume
+  Down to scroll to Recovery and then use Power to select.
 release: 2014 September 26
 screen: 132 mm (5.2 in)
-screen_ppi:
+screen_ppi: ~424
 screen_res: 1080 x 1920
-screen_tech: AMOLED
+screen_tech: AMOLED capacitive touchscreen, 16M colors
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage:
+storage: 16 GB / 32 GB
 tree: android_device_motorola_victara
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [13.0, 14.1]
-wifi:
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot
