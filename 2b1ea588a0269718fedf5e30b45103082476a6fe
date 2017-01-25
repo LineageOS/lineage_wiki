@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_f51ffeb5",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T18:01:27Z",
+      "side": 1,
+      "message": "Add this info so that build page can have the direct link to the sources.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 7
+      },
+      "revId": "2b1ea588a0269718fedf5e30b45103082476a6fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_750c2e95",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-25T18:01:27Z",
+      "side": 1,
+      "message": "Remove the \u0027\u0027 and leave the entries separated by the comma.",
+      "range": {
+        "startLine": 21,
+        "startChar": 14,
+        "endLine": 21,
+        "endChar": 35
+      },
+      "revId": "2b1ea588a0269718fedf5e30b45103082476a6fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
