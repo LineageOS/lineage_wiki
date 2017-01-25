@@ -10,7 +10,7 @@ codename: g2m
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 13.0
+current_branch: 14.1
 gpu: Adreno 305
 gsm:
 has_recovery_partition: true
@@ -18,7 +18,7 @@ image: g2m.png
 install_method: TODO
 kernel: android_kernel_lge_msm8226
 lte:
-maintainers: ['']
+maintainers: [NikitaProAndroid, MobiusM]
 name: G2 Mini
 peripherals: ['']
 ram: 1GB
@@ -35,5 +35,5 @@ tree: android_device_lge_g2m
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [13.0]
+versions: [13.0, 14.1]
 wifi: 802.11 b/g/n
