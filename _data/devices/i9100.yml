@@ -18,7 +18,7 @@ gsm: 850 900 1800 1900 MHz GPRS/EDGE850 900 1900 2100 MHz UMTS/HSPA+
 has_recovery_partition: true
 height:
 image: i9100.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
 lte:
 maintainers: [Caio Schnepper]

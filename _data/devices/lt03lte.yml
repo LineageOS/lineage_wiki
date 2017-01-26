@@ -16,7 +16,7 @@ gpu: Adreno 330
 gsm:
 has_recovery_partition: true
 image: lt03wifi.png
-install_method: TODO
+install_method: heimdall
 kernel: ''
 lte:
 maintainers: ['']
