@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_edddf215",
+        "filename": "_data/devices/kipper.yml",
+        "patchSetId": 11
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16857
+      },
+      "writtenOn": "2017-01-26T22:32:13Z",
+      "side": 1,
+      "message": "remove quotes",
+      "revId": "12f6d66654c639d0e647f2be9592b26a8074cac5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
