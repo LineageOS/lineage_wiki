@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_b68f3c23",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-26T13:09:56Z",
+      "side": 1,
+      "message": "You don\u0027t need to include the \u0027 \u0027 for the elements.",
+      "range": {
+        "startLine": 24,
+        "startChar": 14,
+        "endLine": 24,
+        "endChar": 94
+      },
+      "revId": "3ec3082d6d21b64d4a81bc5c3187e38ab07c1b04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
