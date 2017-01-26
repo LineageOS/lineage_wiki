@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_96879861",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-26T10:55:05Z",
+      "side": 1,
+      "message": "Fix this info to show more detailed info like other devices.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 13
+      },
+      "revId": "e327f75a4cd0f1b510c5003a1ccac19915517995",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_767c3473",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-26T10:55:05Z",
+      "side": 1,
+      "message": "Include this info.",
+      "revId": "e327f75a4cd0f1b510c5003a1ccac19915517995",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
