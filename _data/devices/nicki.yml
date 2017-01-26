@@ -2,7 +2,7 @@ battery: Removable Li-Po 1750 mAh battery
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: 5 MP}
-- {flash: '', info: VGA}
+- {flash: '', info: 0.3 MP}
 carrier:
 cdma:
 channels: [weekly]
