@@ -1,42 +1,55 @@
 battery: Removable Li-Po 1750 mAh battery
-bluetooth: Bluetooth 4.0 + A2DP
-cameras:
-- {flash: '', info: 5 MP}
-- {flash: '', info: 0.3 MP}
-carrier:
-cdma:
-channels: [weekly]
+# Access this data from "site.data.devices[page.device]"
 codename: nicki
-cpu: Krait
-cpu_cores: '2'
-cpu_freq: 1 GHz
-current_branch: 14.1
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should briefly turn green to indicate you are in flash
-  mode.
-gpu: Adreno 305
-gsm: HSDPA 900 / 2100 - C1905, C2005. HSDPA 850 / 1700 / 1900 / 2100 - C1904, C2004
-has_recovery_partition: true
 image: nicki.png
-install_method: TODO
-kernel: android_kernel_sony_msm8x27
-lte: No
-maintainers: [freexperia, Ron Gokhale]
 name: Xperia M
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB
-recovery_boot: Press Volume Up when the notification light is pink.
+vendor: Sony
+# name used by device tree (android_device_{{vendor_short}}_{{codename}})
+vendor_short: sony
 release: 2013 June
-screen: 102 mm (4.0 in)
+type: phone
+carrier:
+# connectivity
+cdma:
+gsm: HSDPA 900 / 2100 - C1905, C2005. HSDPA 850 / 1700 / 1900 / 2100 - C1904, C2004
+lte:
+bluetooth: Bluetooth 4.0, A2DP
+wifi: 802.11 a/b/g/n
+# camera
+cameras:
+- {flash: LED, info: 5 MP}
+- {flash: '', info: 0.3 MP}
+# peripherals
+peripherals: [Accelerometer, Proximity, digital compass]
+# device specs
+soc: Qualcomm MSM8227 Snapdragon S4 Plus
+ram: 1GB
+cpu: Krait
+cpu_freq: 1.0GHz
+cpu_cores: 2
+gpu: Adreno 305
+storage: 4GB
+sdcard: up to 32GB
+# device size
+screen: 4.00 102 mm (4.0 in)
 screen_ppi: '244.9'
 screen_res: 480x854
 screen_tech: TFT
-sdcard: up to 32GB
-soc: Qualcomm MSM8227 Snapdragon S4 Plus
-storage: 4GB
-tree: android_device_sony_nicki
-type: phone
-vendor: Sony
-vendor_short: sony
+# lineage info
 versions: [13.0, 14.1]
-wifi: 802.11 a/b/g/n
+# used for build instructions
+current_branch: 14.1
+kernel: android_kernel_sony_msm8x27
+tree: android_device_sony_nicki
+maintainers: [freexperia, Ron Gokhale]
+channels: [weekly]
+# recovery - "to boot into recovery, {{recovery_boot}}."
+recovery_boot: Press Volume Up when the notification light is pink.
+has_recovery_partition: true
+# fastboot/download mode
+download_boot: With the device powered down, hold Volume Down and connect the USB
+  cable. The notification light should briefly turn green to indicate you are in flash
+  mode.
+# non-empty => include "recovery_install_{{install_method}}.md"
+# otherwise, nothing included
+install_method: TODO
