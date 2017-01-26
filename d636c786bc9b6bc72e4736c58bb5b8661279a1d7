@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_706d5c04",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-26T00:21:53Z",
+      "side": 1,
+      "message": "Don\u0027t include a carrier if it\u0027s unlocked.",
+      "revId": "d636c786bc9b6bc72e4736c58bb5b8661279a1d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
