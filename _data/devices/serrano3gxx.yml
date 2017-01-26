@@ -17,7 +17,7 @@ gsm: EDGE / GPRS Class 33 / GSM Quad Band (850 / 900 / 1,800 / 1,900MHz)3G (850 
   900 / 1,900 / 2,100MHz)
 has_recovery_partition: true
 image: serranoltexx.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
 lte:
 maintainers: [Arne Coucheron]
