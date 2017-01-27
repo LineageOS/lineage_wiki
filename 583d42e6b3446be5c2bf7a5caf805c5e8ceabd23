@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_5e0ca242",
+        "filename": "pages/meta/contributing_via_repo.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-27T22:38:30Z",
+      "side": 1,
+      "message": "Jekyll documentation theme supports callouts, which are probably better for both these notes: http://idratherbewriting.com/documentation-theme-jekyll/mydoc_alerts.html",
+      "revId": "583d42e6b3446be5c2bf7a5caf805c5e8ceabd23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
