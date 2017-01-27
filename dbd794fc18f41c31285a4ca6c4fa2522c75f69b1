@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_83b517cf",
+        "filename": "_data/devices/pme.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-27T13:07:38Z",
+      "side": 1,
+      "message": "should be your kernel repo name (e.g. android_kernel_htc_pme)",
+      "revId": "dbd794fc18f41c31285a4ca6c4fa2522c75f69b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
