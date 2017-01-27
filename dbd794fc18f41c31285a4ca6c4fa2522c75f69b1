@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a437d4f_43c72f46",
+        "filename": "_data/devices/pme.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-27T13:10:53Z",
+      "side": 1,
+      "message": "Kyro only. Snapdragon 820 is already part of SoC entry.",
+      "range": {
+        "startLine": 10,
+        "startChar": 5,
+        "endLine": 10,
+        "endChar": 24
+      },
+      "revId": "dbd794fc18f41c31285a4ca6c4fa2522c75f69b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a437d4f_83b517cf",
         "filename": "_data/devices/pme.yml",
         "patchSetId": 1
@@ -13,6 +36,29 @@
       "writtenOn": "2017-01-27T13:07:38Z",
       "side": 1,
       "message": "should be your kernel repo name (e.g. android_kernel_htc_pme)",
+      "revId": "dbd794fc18f41c31285a4ca6c4fa2522c75f69b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_23c42b3f",
+        "filename": "_data/devices/pme.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-27T13:10:53Z",
+      "side": 1,
+      "message": "No instructions here?",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 14
+      },
       "revId": "dbd794fc18f41c31285a4ca6c4fa2522c75f69b1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
