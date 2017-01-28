@@ -22,7 +22,7 @@ install_method: TODO
 kernel: android_kernel_lge_msm8226
 lte: "LTE cat 4 band 1/3/7/8/20 - D620LTE cat 4 band 1/3/7/8 - D620K"
 maintainers: [NikitaProAndroid, MobiusM]
-name: 'LG G2 Mini'
+name: 'G2 Mini'
 peripherals: [accelerometer, proximity sensor, digital compass, NFC]
 ram: 1GB
 recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
