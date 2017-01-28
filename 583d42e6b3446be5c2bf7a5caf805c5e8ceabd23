@@ -34,6 +34,24 @@
       "revId": "583d42e6b3446be5c2bf7a5caf805c5e8ceabd23",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_d4d3d336",
+        "filename": "pages/meta/contributing_via_repo.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-28T11:18:24Z",
+      "side": 1,
+      "message": "Looks like you can\u0027t do code blocks, but inline code should work fine:\n\n`touch pages/*/\u003cdevicename\u003e*`",
+      "parentUuid": "9a437d4f_341d7f10",
+      "revId": "583d42e6b3446be5c2bf7a5caf805c5e8ceabd23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
