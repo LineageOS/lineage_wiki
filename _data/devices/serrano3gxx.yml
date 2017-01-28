@@ -3,8 +3,8 @@ bluetooth: v4.0 with A2DP, LE, EDR
 cameras:
 - {flash: LED, info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: 1.9 MP 720p HD Video Recording @ 30fps}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: serrano3gxx
 cpu: Krait
@@ -17,9 +17,9 @@ gsm: EDGE / GPRS Class 33 / GSM Quad Band (850 / 900 / 1,800 / 1,900MHz)3G (850 
   900 / 1,900 / 2,100MHz)
 has_recovery_partition: true
 image: serranoltexx.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
-lte: ''
+lte:
 maintainers: [Arne Coucheron]
 name: Galaxy S4 Mini (International 3G)
 peripherals: [Accelerometer, gyroscope, proximity sensor, compass, SNS integration,
@@ -33,7 +33,7 @@ screen_ppi: '256'
 screen_res: 960x540
 screen_tech: Super AMOLED
 sdcard: up to 64GB
-soc: Qualcomm Snapdragon 400
+soc: Qualcomm MSM8926 Snapdragon 400
 storage: 8GB
 tree: android_device_samsung_serrano3gxx
 type: phone

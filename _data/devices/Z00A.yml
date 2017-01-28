@@ -1,0 +1,42 @@
+battery: 3000mAh
+bluetooth: v4.0, A2DP, EDR
+cameras:
+- {flash: LED, info: 13MP}
+- {flash: '', info: 5MP}
+carrier: Unlocked
+cdma:
+channels: [weekly]
+codename: Z00A
+cpu: x86_64
+cpu_cores: '4'
+cpu_freq: 2.3/1.8 GHz
+current_branch: 14.1
+download_boot: Hold Volume Up & Power simultaneously.
+gpu: PowerVR G6430
+gsm: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 HSDPA 850 / 900 / 1900 / 2100 SIM
+  1 ONLY
+has_recovery_partition: true
+image: Z00A.png
+install_method: TODO
+kernel: android_kernel_asus_moorefield
+lte: LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700),
+  20(800) SIM 1 ONLY
+maintainers: [crpalmer, jrior001]
+name: Zenfone 2 (1080p)
+peripherals: [Accelerometer, gyro, proximity, compass]
+ram: 4/2 GB
+recovery_boot: No direct key combo
+release: March 2015
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080 x 1920
+screen_tech: IPS capacitive touchscreen, 16M colors
+sdcard: up to 128 GB
+soc: Intel Atom Z3580/Z3560
+storage: 16/32/64 GB
+tree: android_device_asus_Z00A
+type: phone
+vendor: Asus
+vendor_short: asus
+versions: [13.0, 14.1]
+wifi: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot

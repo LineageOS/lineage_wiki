@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: falcon Info
+title: Info about falcon
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: falcon_Info.html
+permalink: falcon_info.html
 device: falcon
 ---
 {% include templates/device_info.md %}

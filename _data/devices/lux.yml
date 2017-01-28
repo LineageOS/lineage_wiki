@@ -1,0 +1,45 @@
+battery: 3630 mAh
+bluetooth: 4.0 LE
+cameras:
+- {flash: dual LED, info: 21MP}
+- {flash: '', info: 5MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: lux
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.7 GHz
+current_branch: 14.1
+depth:
+download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+gpu: Adreno 405
+gsm:
+has_recovery_partition: true
+height:
+image: lux.png
+install_method: TODO
+kernel: android_kernel_motorola_msm8916
+lte:
+maintainers: ['']
+name: Moto X Play
+peripherals: ['']
+ram: 2GB
+recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
+  On the next screen use Volume Down to scroll to recovery and then use Volume Up
+  to select.
+release: 2015 August
+screen: 140 mm (5.5 in)
+screen_ppi: ~403
+screen_res: 1080 x 1920
+screen_tech: IPS LCD
+sdcard: up to 128GB
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 16/32GB
+tree: android_device_motorola_lux
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [13.0, 14.1]
+width:
+wifi: 802.11a/g/b/n (dual band capable)

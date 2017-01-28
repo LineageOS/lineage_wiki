@@ -1,0 +1,43 @@
+battery: 2500 mAh
+bluetooth: v4, A2DP, BLE
+cameras:
+- {flash: LED, info: 20MP}
+- {flash: LED, info: 8MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: kipper
+cpu: 64-bit Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: '9.1mm'
+download_boot: With the device powered down, hold the Volume Up and connect USB.
+gpu: Adreno 405
+gsm: 850 900 1800 1900 MHz
+has_recovery_partition: true
+height: '155.6mm'
+image: kipper.png
+install_method: TODO
+kernel: android_kernel_cyanogen_msm8916
+lte: 800 900 1800 2100 2600 MHz
+maintainers: [tdm]
+name: Storm
+peripherals: [Dual SIM, FM, G-Sensor, Gyroscope, Proximity sensor, Compass]
+ram: 3GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2015 November
+screen: 5.5 in
+screen_ppi: '401'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard: up to 32GB
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 32GB
+tree: android_device_wileyfox_kipper
+type: phone
+vendor: Wileyfox
+vendor_short: wileyfox
+versions: [13.0, 14.1]
+width: '76.9mm'
+wifi: 802.11 b/g/n

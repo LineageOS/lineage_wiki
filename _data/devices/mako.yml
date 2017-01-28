@@ -3,25 +3,25 @@ bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 1.3MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: mako
-cpu: Qualcomm Snapdragon S4 Pro
+cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: ''
+depth:
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 gsm: 850 900 1800 1900 MHz GSM/EDGE/GPRS850 900 1700 1900 2100 MHz 3G UMTS/HSPA+/DC-HSPA+
 has_recovery_partition: true
-height: ''
+height:
 image: mako.png
 install_method: TODO
 kernel: android_kernel_google_msm
-lte: ''
+lte:
 maintainers: [arcee]
 name: Nexus 4
 peripherals: [3.5 mm TRRS, GPS, microUSB 2.0, Mobility DisplayPort (MyDP), multi-touch
@@ -35,13 +35,13 @@ screen: 119 mm (4.7 in)
 screen_ppi: '320'
 screen_res: 1280x768
 screen_tech: IPS LCD
-sdcard: none
-soc: Qualcomm APQ8064
+sdcard:
+soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 8 or 16GB
 tree: android_device_lge_mako
 type: phone
 vendor: Google
 vendor_short: lge
 versions: [13.0, 14.1]
-width: ''
+width:
 wifi: 802.11 b/g/n

@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: d2att Info
+title: Info about d2att
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: d2att_Info.html
+permalink: d2att_info.html
 device: d2att
 ---
 {% include templates/device_info.md %}

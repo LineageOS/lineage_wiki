@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: seed Info
+title: Info about seed
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: seed_Info.html
+permalink: seed_info.html
 device: seed
 ---
 {% include templates/device_info.md %}

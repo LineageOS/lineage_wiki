@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: che10 Info
+title: Info about che10
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: che10_Info.html
+permalink: che10_info.html
 device: che10
 ---
 {% include templates/device_info.md %}

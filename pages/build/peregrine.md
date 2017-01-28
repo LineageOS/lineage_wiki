@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: Build for peregrine
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: Build_for_peregrine.html
+permalink: peregrine_build.html
 device: peregrine
 ---
 {% include templates/device_build.md %}

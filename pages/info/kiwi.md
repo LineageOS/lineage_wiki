@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: kiwi Info
+title: Info about kiwi
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: kiwi_Info.html
+permalink: kiwi_info.html
 device: kiwi
 ---
 {% include templates/device_info.md %}

@@ -65,9 +65,17 @@ install command directly in the Terminal." %}
 You'll need:
 
 <!-- markdown is bad at wrapping code blocks, so split it across two lines -->
-`bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev`  
-`liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`  
-`imagemagick`
+`bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev`  
+`lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk2.8-dev`  
+`libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev`
+
+{% if site.data.devices[page.device].versions contains 13.0 %}
+
+To build cm-13.0, you'll also need:
+
+`maven`
+
+{% endif %}
 
 For Ubuntu 15.10 (wily) and newer, substitute:
 
@@ -81,8 +89,10 @@ For Ubuntu 16.04 (xenial) and newer, substitute:
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
-* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`) - for Ubuntu 16.04 and newer, you can obtain OpenJDK 1.7 from the [openjdk-r](https://launchpad.net/~openjdk-r/+archive/ubuntu/ppa) PPA.
+* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 * LineageOS 14.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
+
+\* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See *Ask Ubuntu* question [How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher) Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
 ### Create the directories
 
@@ -154,16 +164,6 @@ problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull i
 
 {% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
 do it every few days to keep your code base fresh and up-to-date." %}
-
-### Get prebuilt apps (Lineage 11 and below)
-
-To download the prebuilt apps, run:
-
-```
-$ cd ~/android/system/vendor/cm
-$ ./get-prebuilts
-```
-You won't see any confirmation- just another prompt. But this should cause some prebuilt apps to be loaded and installed into the source code. Once completed, this does not need to be done again.
 
 ### Prepare the device-specific code
 

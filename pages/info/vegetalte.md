@@ -1,9 +1,10 @@
 ---
 sidebar: home_sidebar
-title: vegetalte Info
+title: Info about vegetalte
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: vegetalte_Info.html
+permalink: vegetalte_info.html
 device: vegetalte
 ---
 {% include templates/device_info.md %}
