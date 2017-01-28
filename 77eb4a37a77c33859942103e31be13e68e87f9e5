@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_2f92ca57",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-28T19:09:38Z",
+      "side": 1,
+      "message": "May be better to remove.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 8
+      },
+      "revId": "77eb4a37a77c33859942103e31be13e68e87f9e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_4f950e3f",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-01-28T19:09:38Z",
+      "side": 1,
+      "message": "I noticed that this change was abandonded: https://review.lineageos.org/#/c/156696/. If that one is also required, we have to set -f flag (repopick -t -f cm-data-migration)",
+      "range": {
+        "startLine": 71,
+        "startChar": 2,
+        "endLine": 71,
+        "endChar": 31
+      },
+      "revId": "77eb4a37a77c33859942103e31be13e68e87f9e5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
