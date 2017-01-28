@@ -4,20 +4,20 @@ cameras:
 - {flash: '', info: 5MP}
 - {flash: '', info: 5MP}
 carrier: AT&T, T-Mobile
-cdma: ''
+cdma:
 channels: [weekly]
 codename: shieldtablet
 cpu: Cortex A15
 cpu_cores: '4'
 cpu_freq: 2.2 GHz
 current_branch: 13.0
-depth: ''
+depth:
 download_boot: Hold Volume Down & tap Power, release once menu is displayed.
 gpu: GK20A (Kepler)
 gsm: 850 1700 1900 2100 MHz HSPA+ US, 850 900 1900 2100 HSPA+ International (depending
   on model)
 has_recovery_partition: true
-height: ''
+height:
 image: shieldtablet.png
 install_method: TODO
 kernel: ''
@@ -41,5 +41,5 @@ type: tablet
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

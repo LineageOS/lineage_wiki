@@ -3,8 +3,8 @@ bluetooth: 4.0 BLE
 cameras:
 - {flash: Dual LED, info: '16MP F/2.2, OIS'}
 - {flash: '', info: 5MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: kingdom
 cpu: Krait 400
@@ -34,7 +34,7 @@ screen: 152.4 mm (6.0 in)
 screen_ppi: '490'
 screen_res: 2560x1440
 screen_tech: LG IPS
-sdcard: none
+sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32GB
 tree: android_device_lenovo_kingdom

@@ -1,6 +1,7 @@
 ---
 title: Info about maserati
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: maserati_info.html
 device: maserati

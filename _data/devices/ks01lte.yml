@@ -3,22 +3,22 @@ bluetooth: '4.0'
 cameras:
 - {flash: '', info: '13 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: 2 MP 1080p HD Video Recording @ 30fps}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: ks01lte
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 13.0
-depth: ''
+depth:
 download_boot: Volume Down & Home & Power
 gpu: Adreno 330
 gsm: HSDPA 850 / 900 / 1900 / 2100
 has_recovery_partition: true
-height: ''
-image: Ks01lte.png
-install_method: TODO
+height:
+image: ks01lte.png
+install_method: heimdall
 kernel: android_kernel_samsung_ks01lte
 lte: LTE 800 / 850 / 900 / 1800 / 2100 / 2600
 maintainers: [solk2]
@@ -30,18 +30,18 @@ peripherals: [DLNA, Miracast, GPS/GLONASS, NFC, Infrared Port, USB 2.0 (Micro-B 
 ram: 2GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
-release: ''
+release:
 screen: 127 mm (5.0 in)
 screen_ppi: '440'
 screen_res: 1920x1080
 screen_tech: Pentile RGBG Full HD Super AMOLED
 sdcard: up to 64GB
-soc: Qualcomm Snapdragon 800
+soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16GB
 tree: android_device_samsung_ks01lte
 type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11a/b/g/n/ac

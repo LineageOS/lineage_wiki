@@ -3,24 +3,24 @@ bluetooth: 3.0+HS
 cameras:
 - {flash: '', info: 8MP w/ LED-flash}
 - {flash: '', info: 1.9MP}
-carrier: ''
-cdma: ''
+carrier:
+cdma:
 channels: [weekly]
 codename: i9100
 cpu: Cortex A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 13.0
-depth: ''
+depth:
 download_boot: Volume Down, Home & Power
 gpu: ARM Mali-400
 gsm: 850 900 1800 1900 MHz GPRS/EDGE850 900 1900 2100 MHz UMTS/HSPA+
 has_recovery_partition: true
-height: ''
+height:
 image: i9100.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-lte: ''
+lte:
 maintainers: [Caio Schnepper]
 name: Galaxy S II
 peripherals: ['']
@@ -28,9 +28,9 @@ ram: 1GB
 recovery_boot: Volume Up, Home, & Power
 release: 2011 February 11
 screen: 109 mm (4.3 in)
-screen_ppi: 222 PPI
+screen_ppi: 222
 screen_res: 800x480
-screen_tech: ''
+screen_tech:
 sdcard: up to 32GB
 soc: Samsung Exynos 4210
 storage: 16/32GB
@@ -39,5 +39,5 @@ type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-width: ''
+width:
 wifi: 802.11 a/b/g/n

@@ -1,6 +1,7 @@
 ---
 title: Info about hydrogen
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: hydrogen_info.html
 device: hydrogen

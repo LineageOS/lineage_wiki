@@ -3,3 +3,6 @@ _site/
 .jekyll-metadata
 .idea/
 .DS_Store
+.ruby-version
+.ruby-gemset
+.ruby-env

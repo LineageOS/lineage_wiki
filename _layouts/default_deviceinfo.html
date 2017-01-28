@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+  {% include head.html %}
+  {% if page.datatable == true %}
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
+    <script src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('table.datatable').DataTable({
+          paging: false,
+          stateSave: true
+        });
+      });
+    </script>
+  {% endif %}
+</head>
+<body>
+  {% include topnav.html %}
+  <!-- Page Content -->
+  <div class="container">
+    <!-- Content Row -->
+    <div class="row">
+      <!-- Content Column -->
+      <div class="col-md-8">
+        {{content}}
+      </div>
+      <!-- device info template -->
+      <div class="col-md-4">
+        {% include deviceinfo.html %}
+      </div>
+      <!-- /.row -->
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        {{ site.data.alerts.hr_shaded }}
+        {% include footer.html %}
+      </div>
+    </div>
+    <!-- /.container -->
+  </div>
+</body>
+{% if site.google_analytics %}
+  {% include google_analytics.html %}
+{% endif %}
+</html>

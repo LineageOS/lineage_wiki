@@ -1,6 +1,7 @@
 ---
 title: Info about bullhead
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: bullhead_info.html
 device: bullhead

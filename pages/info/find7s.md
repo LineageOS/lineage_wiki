@@ -1,6 +1,7 @@
 ---
 title: Info about find7s
 folder: info
+layout: deviceinfo
 # name of the page (/{{permalink}}.html)
 permalink: find7s_info.html
 device: find7s
