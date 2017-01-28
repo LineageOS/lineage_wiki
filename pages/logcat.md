@@ -14,7 +14,7 @@ These instructions will generate a logcat on your sdcard which you can then atta
 
 1. Open the Terminal app (you can turn it on in Developer Options)
 2. Type `su` and confirm root access - you may have to turn on root access for apps in Developer options.
-3. Type `logcat -d -f /sdcard/logcat.log '*:V'`. This will save your log to `/sdcard/logcat.log`.
+3. Type `logcat -d -f /sdcard/logcat.txt '*:V'`. This will save your log to `/sdcard/logcat.log`.
     * Alternatively, the radio buffer can be viewed with `logcat -b radio`.
 
 ### With a computer
@@ -23,6 +23,6 @@ These instructions will generate a logcat on your sdcard which you can then atta
 If you don't have it installed, please do that before continuing." %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS)
-2. Type `adb logcat -d '*:V' > logcat.log`. This will save your log to `logcat.log`.
+2. Type `adb logcat -d '*:V' > logcat.txt`. This will save your log to `logcat.log`.
     * Alternatively, the radio buffer can be viewed with `logcat -b radio`.
 
