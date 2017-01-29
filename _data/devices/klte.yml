@@ -20,6 +20,7 @@ install_method: heimdall
 kernel:
 lte: 800, 850, 900, 1,800, 2,100 and 2,600 MHz
 maintainers: ['']
+models: [SM-G900AZ, SM-G900F, SM-G900M, SM-G900T, SM-G900W8]
 name: Galaxy S5
 peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
