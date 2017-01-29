@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_eee283d4",
+        "filename": "_data/devices/hayabusa.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-01-29T14:03:35Z",
+      "side": 1,
+      "message": "intentional?\n\ns/lightning/lighting",
+      "range": {
+        "startLine": 30,
+        "startChar": 63,
+        "endLine": 30,
+        "endChar": 72
+      },
+      "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
