@@ -9,6 +9,10 @@
 ### Build guide
 [How to build LineageOS for the {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device].name }}]({{site.data.devices[page.device].codename}}_build.html)
 
+{% if site.data.devices[page.device].note_show and site.data.devices[page.device].note_show == true %}
+{% include templates/device_info_note.md %}
+{% endif %}
+
 ## Special boot modes
 
 * **Recovery**: {{ site.data.devices[page.device].recovery_boot }}
