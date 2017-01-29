@@ -22,6 +22,30 @@
       "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_8ed1b7fd",
+        "filename": "_data/devices/hayabusa.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2017-01-29T14:05:45Z",
+      "side": 1,
+      "message": "Good catch, thanks.",
+      "parentUuid": "9a437d4f_eee283d4",
+      "range": {
+        "startLine": 30,
+        "startChar": 63,
+        "endLine": 30,
+        "endChar": 72
+      },
+      "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
