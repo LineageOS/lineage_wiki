@@ -14,6 +14,10 @@
 * **Recovery**: {{ site.data.devices[page.device].recovery_boot }}
 * **Download**: {{ site.data.devices[page.device].download_boot }}
 
+{% if site.data.devices[page.device].note_show and site.data.devices[page.device].note_show == true %}
+{% include templates/device_info_note.md %}
+{% endif %}
+
 ## Find help online
 
 You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
