@@ -27,7 +27,7 @@ name: Xperia SP
 peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
   Compass, Gyroscope, Light sensor, Proximity Sensor]
 ram: 1GB
-recovery_boot: 'On boot, press Volume Down when the LEDs start lightning up.Second
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.Second
   Recovery: To boot the FOTA Recovery, press Volume Up instead.'
 release: 2013 April
 screen: 116.0 mm (4.6 in)
