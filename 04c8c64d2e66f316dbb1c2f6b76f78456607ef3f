@@ -46,6 +46,52 @@
       "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_2ed88b1c",
+        "filename": "_data/devices/mint.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-01-29T14:07:20Z",
+      "side": 1,
+      "message": "s/lightning/lighting",
+      "range": {
+        "startLine": 30,
+        "startChar": 63,
+        "endLine": 30,
+        "endChar": 72
+      },
+      "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_0e05c779",
+        "filename": "_data/devices/tsubasa.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-01-29T14:07:20Z",
+      "side": 1,
+      "message": "s/lightning/lighting",
+      "range": {
+        "startLine": 30,
+        "startChar": 63,
+        "endLine": 30,
+        "endChar": 72
+      },
+      "revId": "04c8c64d2e66f316dbb1c2f6b76f78456607ef3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
