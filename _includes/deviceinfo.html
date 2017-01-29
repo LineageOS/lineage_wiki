@@ -178,6 +178,18 @@ ul, ol {
             </ul>
         </td>
     </tr>
+    {% if device.models %}
+    <tr>
+        <td class="header">Supported models</td>
+        <td>
+            <ul>
+            {% for model in device.models %}
+            <li> {{ model }}
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endif %}
     <tr>
         <td class="header">Supported versions</td>
         <td>
