@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_4b03c1b8",
+        "filename": "_data/devices/m7vzw.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-29T04:20:56Z",
+      "side": 1,
+      "message": "Verizon Wireless",
+      "revId": "b1489fbf61e541797dcc6813b4cfdd394eccd6c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
