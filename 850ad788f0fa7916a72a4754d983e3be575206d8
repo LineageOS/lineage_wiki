@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_cb0fb1e0",
+        "filename": "_data/devices/m7.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-29T04:18:06Z",
+      "side": 1,
+      "message": "should be htc (vendor name used in repo names)",
+      "revId": "850ad788f0fa7916a72a4754d983e3be575206d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_ab146df5",
+        "filename": "_data/devices/m7vzw.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-29T04:18:06Z",
+      "side": 1,
+      "message": "htc",
+      "revId": "850ad788f0fa7916a72a4754d983e3be575206d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
