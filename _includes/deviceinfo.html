@@ -38,6 +38,18 @@ ul, ol {
         <td>{{ device.carrier }}</td>
     </tr>
     {% endif %}
+    {% if device.models %}
+    <tr>
+        <td class="header">Supported models</td>
+        <td>
+            <ul>
+            {% for model in device.models %}
+            <li> {{ model }}
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endif %}
     <!-- specs -->
     <tr>
         <td class="header" colspan="2">Specifications</td>
