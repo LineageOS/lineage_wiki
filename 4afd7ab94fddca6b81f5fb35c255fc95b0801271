@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_11328810",
+        "filename": "_data/devices/fireball.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-29T20:11:29Z",
+      "side": 1,
+      "message": "htc",
+      "revId": "4afd7ab94fddca6b81f5fb35c255fc95b0801271",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
