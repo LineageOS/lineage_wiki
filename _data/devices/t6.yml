@@ -1,0 +1,43 @@
+battery: 3300 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 4UP}
+- {flash: '', info: 2.1MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: t6
+cpu: Krait 300
+cpu_cores: '4'
+cpu_freq: 1.7 GHz
+current_branch: 14.1
+depth: 10.29 mm
+download_boot:
+gpu: Adreno 320
+gsm: 850 900 1800 1900 2100 MHz UMTS/HSPA+
+has_recovery_partition: true
+height: 164.5 mm
+image: t6.png
+install_method: TODO
+kernel: android_kernel_htc_msm8960
+lte: International 800 1800 2600 MHz; North America 700 MHz and AWS Band
+maintainers: [flyhalf205]
+name: One Max (GSM)
+peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnometer, NFC, IR]
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2013 October
+screen: 149.86 mm (5.9 in)
+screen_ppi: '373'
+screen_res: 1080x1920
+screen_tech: S-LCD 3
+sdcard: up to 32GB
+soc: Qualcomm APQ8064T Snapdragon 600
+storage: 32GB or 64GB
+tree: android_device_htc_t6
+type: phone
+vendor: HTC
+vendor_short: htc
+versions: [14.1]
+width: 82.5 mm
+wifi: 802.11 a/b/g/n/ac 2.4/5GHz
