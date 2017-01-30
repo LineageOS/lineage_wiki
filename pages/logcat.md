@@ -10,7 +10,7 @@ permalink: logcat.html
 
 {% include note.html content="This method requires that your device is [rooted](https://download.lineageos.org/extras)" %}
 
-These instructions will generate a logcat on your sdcard which you can then attatch to a bug report on JIRA.
+These instructions will generate a logcat on your sdcard which you can then attach to a bug report on JIRA.
 
 1. Open the Terminal app (you can turn it on in Developer Options)
 2. Type `su` and confirm root access - you may have to turn on root access for apps in Developer options.
