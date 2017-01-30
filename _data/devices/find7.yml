@@ -39,6 +39,6 @@ tree: android_device_oppo_find7
 type: phone
 vendor: Oppo
 vendor_short: oppo
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 75 mm
 wifi: 802.11 b/g/n

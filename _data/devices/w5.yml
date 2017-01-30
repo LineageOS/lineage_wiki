@@ -37,5 +37,5 @@ tree: android_device_lge_w5
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [13.0, 14.1]
+versions: [14.1]
 wifi: 802.11 b/g/n/i/u

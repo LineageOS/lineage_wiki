@@ -40,6 +40,6 @@ tree: android_device_moto_shamu
 type: phablet
 vendor: Google
 vendor_short: moto
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11a/b/g/n/ac 2x2 (MIMO)

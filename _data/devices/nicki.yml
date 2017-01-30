@@ -38,5 +38,5 @@ tree: android_device_sony_nicki
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [13.0, 14.1]
+versions: [14.1]
 wifi: 802.11 a/b/g/n
