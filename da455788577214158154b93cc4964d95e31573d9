@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_9402e63c",
+        "filename": "_data/devices/fireball.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-30T06:36:37Z",
+      "side": 1,
+      "message": "no fastboot mode instructions?",
+      "revId": "da455788577214158154b93cc4964d95e31573d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
