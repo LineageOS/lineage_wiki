@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_5f4ed7c2",
+        "filename": "pages/adding_device.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-30T14:34:03Z",
+      "side": 1,
+      "message": "Let\u0027s link to a generic template that we can keep up to date independent of any device.",
+      "range": {
+        "startLine": 21,
+        "startChar": 53,
+        "endLine": 21,
+        "endChar": 152
+      },
+      "revId": "afc144d32af581f7d292595489c3909fd658eb92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_9f543f55",
+        "filename": "pages/adding_device.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-30T14:34:03Z",
+      "side": 1,
+      "message": "I\u0027d suggest we go ahead and provide code templates for each page here (they\u0027re all quite short). Then, if fields or lines are added, users won\u0027t be referencing outdated versions from other devices.",
+      "range": {
+        "startLine": 40,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 32
+      },
+      "revId": "afc144d32af581f7d292595489c3909fd658eb92",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
