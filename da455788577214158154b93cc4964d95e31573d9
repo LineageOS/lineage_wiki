@@ -16,6 +16,24 @@
       "revId": "da455788577214158154b93cc4964d95e31573d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_f49a5213",
+        "filename": "_data/devices/fireball.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-30T06:41:09Z",
+      "side": 1,
+      "message": "oh, I thought this field was specific to samsung\u0027s and lg\u0027s download mode.",
+      "parentUuid": "9a437d4f_9402e63c",
+      "revId": "da455788577214158154b93cc4964d95e31573d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
