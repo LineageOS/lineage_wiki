@@ -48,9 +48,7 @@ screen_res: 1280x720
 screen_ppi: 306
 screen_tech: HD Super AMOLED
 # lineage info
-versions:
-    - 13.0
-    - 14.1
+versions: [14.1]
 # used for build instructions
 current_branch: 14.1
 kernel: android_kernel_samsung_smdk4412

@@ -10,7 +10,7 @@ codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4x1.2 & 4x1.5 GHz
-current_branch: 13.0
+current_branch: 14.1
 gpu: Adreno 405
 gsm:
 has_recovery_partition: true
@@ -35,5 +35,5 @@ tree: android_device_huawei_kiwi
 type: phone
 vendor: Huawei
 vendor_short: huawei
-versions: [13.0]
+versions: [14.1]
 wifi: Wi-Fi 802.11 b/g/n

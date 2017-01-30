@@ -39,6 +39,6 @@ tree: android_device_lge_g2m
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 66mm (2.6in)
 wifi: '802.11 b/g/n'

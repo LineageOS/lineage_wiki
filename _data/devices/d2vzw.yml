@@ -39,6 +39,6 @@ tree: android_device_samsung_d2vzw
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11 b/g/n

@@ -40,6 +40,6 @@ tree: android_device_xiaomi_kenzo
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11 a/b/g/n/ac

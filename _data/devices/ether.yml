@@ -38,6 +38,6 @@ tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
 vendor_short: nextbit
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11 a/b/g/n/ac
