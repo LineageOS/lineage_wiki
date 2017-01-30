@@ -40,6 +40,6 @@ tree: android_device_motorola_lux
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11a/g/b/n (dual band capable)

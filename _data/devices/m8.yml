@@ -46,6 +46,6 @@ tree: android_device_htc_m8
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11 b/g/n/ac 2.4/5GHz

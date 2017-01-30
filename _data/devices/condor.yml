@@ -38,5 +38,5 @@ tree: android_device_motorola_condor
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [13.0, 14.1]
+versions: [14.1]
 wifi: Wi-Fi 802.11 b/g/n
