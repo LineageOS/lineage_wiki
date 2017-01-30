@@ -10,7 +10,7 @@ codename: crackling
 cpu: 64-bit Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth:
 download_boot: With the device powered down, hold the Volume Up and connect USB.
 gpu: Adreno 306
@@ -38,6 +38,6 @@ tree: android_device_wileyfox_crackling
 type: phone
 vendor: Wileyfox
 vendor_short: wileyfox
-versions: [13.0]
+versions: [14.1]
 width:
 wifi: 802.11 b/g/n

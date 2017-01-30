@@ -39,5 +39,5 @@ tree: android_device_motorola_falcon
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [13.0, 14.1]
+versions: [14.1]
 wifi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot
