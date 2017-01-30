@@ -24,7 +24,7 @@ We use [JIRA](https://jira.lineageos.org) as our bugtracker. Before you submit a
 
 Two types of bugs are currently accepted: 
 
-  - [Regressions](jira.lineageos.org/browse/REGRESSION)
+  - [Regressions](https://jira.lineageos.org/browse/REGRESSION)
     - These are *specifically* new problems between one build and another. 
     - Example: the fingerprint sensor on your device worked on last week's build, and it no longer works.
   - [Nightly/Weekly Bugs](https://jira.lineageos.org/browse/BUGBASH)
