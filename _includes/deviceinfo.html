@@ -163,7 +163,11 @@ ul, ol {
         <td class="header" colspan="2">Lineage info</td>
     </tr>
     <tr>
+        {% if site.data.devices[page.device].channels %}
         <td class="header">Maintainers</td>
+        {% else %}
+        <td class="header">Former maintainers</td>
+        {% endif %}
         <td>
             <ul>
                 {% for el in device.maintainers %}
@@ -180,7 +184,11 @@ ul, ol {
     </tr>
     {% if device.models %}
     <tr>
+        {% if site.data.devices[page.device].channels %}
         <td class="header">Supported models</td>
+        {% else %}
+        <td class="header">Former supported models</td>
+        {% endif %}
         <td>
             <ul>
             {% for model in device.models %}
@@ -191,7 +199,11 @@ ul, ol {
     </tr>
     {% endif %}
     <tr>
+        {% if site.data.devices[page.device].channels %}
         <td class="header">Supported versions</td>
+        {% else %}
+        <td class="header">Former supported versions</td>
+        {% endif %}
         <td>
             <ul>
                 {% for el in device.versions %}
