@@ -41,6 +41,6 @@ tree: android_device_oneplus_oneplus2
 type: phone
 vendor: OnePlus
 vendor_short: oneplus
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 74.9 mm
 wifi: 'Dual-band Wi-Fi: 2.4GHz 802.11b/g/n and 5GHz 802.11a/n/ac'

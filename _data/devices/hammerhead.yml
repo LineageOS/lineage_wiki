@@ -41,6 +41,6 @@ tree: android_device_lge_hammerhead
 type: phone
 vendor: Google
 vendor_short: lge
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac

@@ -41,7 +41,7 @@ tree: android_device_sony_mint
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 67.3 mm
 wifi: 802.11 2.4GHz a/b/g/n 5GHz
 note_show: true

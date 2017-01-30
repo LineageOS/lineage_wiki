@@ -42,6 +42,6 @@ tree: android_device_lge_d800
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [13.0, 14.1]
+versions: [14.1]
 width:
 wifi: 802.11a/b/g/n/ac

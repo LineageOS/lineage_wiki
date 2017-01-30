@@ -37,6 +37,6 @@ tree: android_device_oppo_n3
 type: phone
 vendor: Oppo
 vendor_short: oppo
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 77 mm
 wifi: 802.11 a/b/g/n/ac

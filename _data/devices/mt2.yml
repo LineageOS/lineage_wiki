@@ -10,7 +10,7 @@ codename: mt2
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
-current_branch: 13.0
+current_branch: 14.1
 download_boot: Volume Down & Power
 gpu: Adreno 305
 gsm: 'GSM 850 / 900 / 1800 / 1900
@@ -38,5 +38,5 @@ tree: android_device_huawei_mt2
 type: phablet
 vendor: Huawei
 vendor_short: huawei
-versions: [13.0]
+versions: [14.1]
 wifi: 802.11 b/g/n

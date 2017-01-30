@@ -41,6 +41,6 @@ tree: android_device_sony_huashan
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [13.0, 14.1]
+versions: [14.1]
 width: 68 mm
 wifi: 802.11 2.4GHz b/g/n 5GHz
