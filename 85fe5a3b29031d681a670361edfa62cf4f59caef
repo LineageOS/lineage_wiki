@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_9a7c4d22",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-01-30T19:26:37Z",
+      "side": 1,
+      "message": "lineage 13.0 was never supported on victara, so it should be removed. ref: https://review.lineageos.org/159180",
+      "range": {
+        "startLine": 40,
+        "startChar": 11,
+        "endLine": 40,
+        "endChar": 17
+      },
+      "revId": "85fe5a3b29031d681a670361edfa62cf4f59caef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_ba87110f",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-01-30T19:26:37Z",
+      "side": 1,
+      "message": "This is not needed. The wiki already has \"wi-fi\" in front of these details.",
+      "range": {
+        "startLine": 41,
+        "startChar": 6,
+        "endLine": 41,
+        "endChar": 11
+      },
+      "revId": "85fe5a3b29031d681a670361edfa62cf4f59caef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
