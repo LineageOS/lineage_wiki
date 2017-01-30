@@ -1,0 +1,138 @@
+managers: [BadDaemon, ciwrl, mikeioannina]
+languages:
+    - name: Afrikaans
+      proofreaders: [isimobile, DvTonder]
+    - name: 'Arabic'
+      proofreaders: [zoharchabaud, mfawwaz93, NohaKamal, uomar8, HaniHassaan, ramyhamza]
+    - name: 'Assamese'
+      proofreaders: [gitika]
+    - name: 'Asturian'
+      proofreaders: [malditoastur]
+    - name: 'Azerbaijani'
+      proofreaders: [Khan27, sssemil]
+    - name: 'Basque'
+      proofreaders: [Osoitz]
+    - name: 'Belarusian'
+      proofreaders: [bitlogger, XiveZ]
+    - name: 'Bengali'
+      proofreaders: [testmasterbd]
+    - name: 'Bulgarian'
+      proofreaders: [hristodipchikov, emilstf]
+    - name: 'Catalan'
+      proofreaders: [jmontane, Arnau]
+    - name: 'Chinese Simplified'
+      proofreaders: [zhcn, liuyun97, 775405984]
+    - name: 'Chinese Traditional'
+      proofreaders: [smartryan, HJCHENG, louiswpf, lzmxya, ayackmk, boxajay]
+    - name: 'Chinese Traditional, Hong Kong'
+      proofreaders: [zhcn, smartryan, s1097854603]
+    - name: 'Croatian'
+      proofreaders: [davidboca, MASVA, Rox, apavlesic, markomegla]
+    - name: 'Czech'
+      proofreaders: [Keltek]
+    - name: 'Danish'
+      proofreaders: [Fidoble, Jacob_DK]
+    - name: 'Dutch'
+      proofreaders: [eddywitkamp, therbom]
+    - name: 'English, Australia'
+      proofreaders: [uberlaggydarwin]
+    - name: 'English, India'
+      proofreaders: [mayankmethad]
+    - name: 'English, United Kingdom'
+      proofreaders: [skaveelicious]
+    - name: 'Esperanto'
+      proofreaders: [axel584, emmrichard, robin0van0der0v]
+    - name: 'Estonian'
+      proofreaders: [rtammekivi]
+    - name: 'Finnish'
+      proofreaders: [niko0o]
+    - name: 'French'
+      proofreaders: [Mariesfbr, DelPETER, pierregehenne, M1ck, RadianDC, martina88]
+    - name: 'French, Canada'
+      proofreaders: [fabiolacontreras]
+    - name: 'Frisian'
+      proofreaders: [robin0van0der0v]
+    - name: 'Galician'
+      proofreaders: [xosecalvo, Erithrym, meixome, xguerrap, manuiglesias96]
+    - name: 'German'
+      proofreaders: [maniac103, elektroschmock78, BadDaemon]
+    - name: 'Greek'
+      proofreaders: [mikeioannina]
+    - name: 'Gujarati'
+      proofreaders: [Chhota_Bheem]
+    - name: 'Hebrew'
+      proofreaders: [zoharchabaud, arthurzam, nbruderman]
+    - name: 'Hungarian'
+      proofreaders: [balint, tothtamassyman]
+    - name: 'Indonesian'
+      proofreaders: [Arch9, eggoez, anzhyo, tohenk]
+    - name: 'Italian'
+      proofreaders: [rheeze, francescoforesta, linuxx]
+    - name: 'Japanese'
+      proofreaders: [blackzigong]
+    - name: 'Kannada'
+      proofreaders: [adarshmr1998, sneha_b]
+    - name: 'Korean'
+      proofreaders: [Zeero1778, cpu344, joohaky, kadmiran, icejerry]
+    - name: 'Kurdish'
+      proofreaders: [NeverGone, Dylan2785]
+    - name: 'Latvian'
+      proofreaders: [valdisvi]
+    - name: 'Lithuanian'
+      proofreaders: [plentauskas1992, polizplz]
+    - name: 'Luxembourgish'
+      proofreaders: [soued031, michel_weimerskirch]
+    - name: 'Malay'
+      proofreaders: [Rahayu]
+    - name: 'Malayalam'
+      proofreaders: [sabithmuhammed]
+    - name: 'Marathi'
+      proofreaders: [ankita_g]
+    - name: 'Norwegian Bokmal'
+      proofreaders: [Allram, sssandum]
+    - name: 'Oriya'
+      proofreaders: [Manishdas]
+    - name: 'Persian'
+      proofreaders: [magasgoon, mohammad_a]
+    - name: 'Polish'
+      proofreaders: [jereksel, popielarczyktomasz, godlesplay]
+    - name: 'Portuguese'
+      proofreaders: [joaopluis, sergioborges99]
+    - name: 'Portuguese, Brazilian'
+      proofreaders: [gustavogyn, felipesimon, Pelgatal]
+    - name: 'Romanian'
+      proofreaders: [mihaipi, minealex2244, bboylalu]
+    - name: 'Russian'
+      proofreaders: [NeverGone]
+    - name: 'Serbian (Cyrillic)'
+      proofreaders: [gagy187, WD40]
+    - name: 'Sinhala'
+      proofreaders: [pkavinda, rananga]
+    - name: 'Slovak'
+      proofreaders: [mato, rbarat, pyler]
+    - name: 'Slovenian'
+      proofreaders: [Klofutar, jierro]
+    - name: 'Swedish'
+      proofreaders: [zippin, TedLundwall, backsimon]
+    - name: 'Spanish'
+      proofreaders: [pabrishami, Gilma, Lorenzo_M, jruesga, bricin]
+    - name: 'Spanish, Mexico'
+      proofreaders: [Gilma]
+    - name: 'Spanish, United States'
+      proofreaders: [LAV]
+    - name: 'Tamil'
+      proofreaders: [solomonsunder, thangamani-arun, kishoreinme, gayathri]
+    - name: 'Telugu'
+      proofreaders: [Munikumari]
+    - name: 'Thai'
+      proofreaders: [pureexe, vkrisana]
+    - name: 'Turkish'
+      proofreaders: [zoharchabaud, ArF, okirat, glybaran,]
+    - name: 'Ukrainian'
+      proofreaders: [Aleksander_Belilovets, nazar_sokolovsky]
+    - name: 'Uyghur'
+      proofreaders: [Sahran, ekberjan]
+    - name: 'Uzbek'
+      proofreaders: [uzeconomist]
+    - name: 'Vietnamese'
+      proofreaders: [vn_paradise, Nguyen_Trung_Hau]
