@@ -7,7 +7,7 @@ permalink: faq.html
 ## Installing LineageOS zips in TWRP results in "Error 7"
  - The most common reasons for this error are:
    - You are trying to install a build for a different device. _You need to make sure you download the zip for the correct device *and* variant_
-   - You are atttempting to migrate from an unofficial build to LineageOS. _To do this, you need to flash the migration zip, marked as 'experimental'_
+   - You are attempting to migrate from an unofficial build to LineageOS. _To do this, you need to flash the migration zip, marked as 'experimental'_
    - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install LineageOS again_. This information should be listed on the device's wiki page.
  - If your error still persists after confirming these are not causing your issue, ask someone for help IRC (#lineageos@freenode) or on the [Subreddit](http://reddit.com/r/lineageos) and provide a recovery log
 
@@ -19,10 +19,10 @@ permalink: faq.html
 
 ## My device is _not_ officially supported, but I'd really like to give LineageOS a try. Can you support my device?
  - All devices are maintained by open source contributors - if someone has a device, wants to port lineage to it, and can meet some basic standards, we're more than happy to make it official.
- - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (ie, every peripheral works) and **must** be stable.
+ - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
 
-## A build for my device dissappeared? Where'd it go?
- - Occassionaly a build is broken. If this happens, we remove it until the next build cycle.
+## A build for my device disappeared? Where'd it go?
+ - Occasionally a build is broken. If this happens, we remove it until the next build cycle.
 
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug](http://wiki.lineageos.org/bugreport-howto.html) page before reporting it.
