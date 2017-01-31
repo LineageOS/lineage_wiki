@@ -11,12 +11,12 @@ cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
 current_branch: 14.1
-depth:
+depth: 10.1 mm
 download_boot: Hold down the Volume Down button while booting.
 gpu: Adreno 420
 gsm: 850 900 1800 1900 MHz UTMS HSPA+
 has_recovery_partition: true
-height:
+height: 159.3 mm
 image: shamu.png
 install_method: TODO
 kernel:
@@ -41,5 +41,5 @@ type: phablet
 vendor: Google
 vendor_short: moto
 versions: [13.0, 14.1]
-width:
+width: 83 mm
 wifi: 802.11a/b/g/n/ac 2x2 (MIMO)
