@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_b77cc773",
+        "filename": "_data/devices/shamu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2017-01-31T12:56:18Z",
+      "side": 1,
+      "message": "Accelerometer, gyro, proximity, compass, barometer",
+      "revId": "a3bd497f3dda7b17908fa48fba3f4efcb5fd8648",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
