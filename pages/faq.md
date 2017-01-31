@@ -35,3 +35,6 @@ permalink: faq.html
 
 ## Can you enable signature spoofing?
  - Once again, it isn't our place to lie about security features. No.
+
+## Where does the updater app store the downloaded zip?
+ - `/data/data/org.lineageos.updater/app_updates/`
