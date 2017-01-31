@@ -24,7 +24,7 @@ lte: 'North/South American devices: 700 850 1700 1800 1900 2500 2600 MHzAfro-Eur
   devices: 700 800 850 900 1800 2100 2500 2600 MHz'
 maintainers: ['']
 name: Nexus 6
-peripherals: ['']
+peripherals: [accelerometer, gyro, proximity, compass, barometer, NFC, Wi-Fi Hotspot, Qi wireless charging, dual front speakers, Magnetometer]
 ram: 3GB
 recovery_boot: Hold down the Volume Down button while booting, and use the menu to
   select Recovery.
