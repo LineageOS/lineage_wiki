@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_833aa5cb",
+        "filename": "_includes/templates/recovery_install_fastboot_nexus.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-01-31T23:04:32Z",
+      "side": 1,
+      "message": "apparently this is in basically every device from 2015 onwards, so making this line opt-out might be the better option?",
+      "revId": "b4ad207c1482ff424f05c329266d0fddf25a66f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
