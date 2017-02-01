@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_fd2b492e",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-01T22:22:53Z",
+      "side": 1,
+      "message": "You left out the case example that is on the original wiki page, so \"in the above case\" doesn\u0027t work here. Should probably use a lineage review link too.",
+      "revId": "c2349d19df322c5fbe8b6e113ae3a5d20da940fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
