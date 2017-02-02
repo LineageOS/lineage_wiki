@@ -1,0 +1,40 @@
+battery: 3250 mAh (non-removable)
+bluetooth: '4.2'
+cameras:
+- {flash: dual-LED (dual tone), info: 20MP}
+- {flash: '', info: 8MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: axon7
+cpu: Kyro
+cpu_cores: '4'
+cpu_freq: 2 x 2.2 GHz + 2 x 1.6 GHz
+current_branch: 14.1
+download_boot: When the device is first powered on, use the Volume keys to navigate to fastboot option.
+gpu: Adreno 530
+gsm:
+has_recovery_partition: true
+image: axon7.png
+install_method: TODO
+kernel: android_kernel_zte_msm8996
+lte:
+maintainers: ['c457']
+name: 'Axon7'
+peripherals: ['Fingerprint, accelerometer, gyroscope, proximity, compass, NFC']
+ram: 4GB LPDDR4 (Standard edition) / 6GB LPDDR4 (Exclusive edition)
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016 June
+screen: (5.5 in)
+screen_ppi: '538'
+screen_res: 2560x1440
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
+tree: android_device_zte_axon7
+type: phone
+vendor: ZTE
+vendor_short: zte
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac
