@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_c66556e2",
+        "filename": "_data/translators.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-02T13:55:23Z",
+      "side": 1,
+      "message": "I would just add the names to make this coherent with the rest of the page where is showed as \"Name (nickname)\"",
+      "range": {
+        "startLine": 1,
+        "startChar": 11,
+        "endLine": 1,
+        "endChar": 77
+      },
+      "revId": "99d66bcced4d7e6007cd7f2180afaffe7aebc84b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
