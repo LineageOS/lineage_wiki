@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_80bbb60d",
+        "filename": "_data/devices/axon7.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-02T02:16:20Z",
+      "side": 1,
+      "message": "missing space. Axon 7",
+      "range": {
+        "startLine": 23,
+        "startChar": 7,
+        "endLine": 23,
+        "endChar": 12
+      },
+      "revId": "3fef7cb5bb92d314200b77eaaea0250f7e8ac2a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
