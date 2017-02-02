@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_430a788b",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 228,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-02T12:32:18Z",
+      "side": 1,
+      "message": "It\u0027s better to put this tip at the end.",
+      "range": {
+        "startLine": 228,
+        "startChar": 0,
+        "endLine": 228,
+        "endChar": 129
+      },
+      "revId": "4bca726976557c9e66e1c4256b79e7d16e7d75a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_23ff7469",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-02T12:32:18Z",
+      "side": 1,
+      "message": "Right after this.",
+      "range": {
+        "startLine": 237,
+        "startChar": 0,
+        "endLine": 237,
+        "endChar": 23
+      },
+      "revId": "4bca726976557c9e66e1c4256b79e7d16e7d75a6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
