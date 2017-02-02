@@ -1,0 +1,45 @@
+battery: 3250 mAh (non-removable)
+bluetooth: 4.2 A2DP, LE
+cameras:
+- {flash: dual-LED (dual tone), info: 20MP}
+- {flash: '', info: 8MP}
+carrier: Unlocked
+cdma: 800 1900 MHz CDMA
+channels: [weekly]
+codename: axon7
+cpu: Kyro
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 14.1
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered down, power on the device and when
+  you see the Unlock warning use the Volume keys to navigate to the fastboot option.
+gpu: Adreno 530
+gsm: 850 900 1800 1900 MHz GSM
+has_recovery_partition: true
+height: 151.7 mm (5.97 in)
+image: axon7.png
+install_method: TODO
+kernel: android_kernel_zte_msm8996
+lte: B1 (2100), B2 (1900) B3 (1800) B4 (1700/2100) B5 (850) B7(2600) B12 (700)
+  B13 (700) B17 (700)B20 (800) B25 (1900) B26 (850) B29 (700) B30 (2300) B41 (2500) MHz
+maintainers: [bmc08gt, c457, s0be, tdm]
+name: 'Axon 7'
+peripherals: [Fingerprint, Accelerometer, Gyroscope, Proximity, Compass, NFC]
+ram: 4GB LPDDR4 (Standard edition) / 6GB LPDDR4 (Exclusive edition)
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016 June
+screen: 139.7 mm (5.5 in)
+screen_ppi: '538'
+screen_res: 2560x1440
+screen_tech: AMOLED
+sdcard: up to 256 GB (SIM 2 slot)
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
+tree: android_device_zte_axon7
+type: phone
+vendor: ZTE
+vendor_short: zte
+versions: [14.1]
+width: 75 mm (2.95 in)
+wifi: 802.11 a/b/g/n/ac
