@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_46a166f7",
+        "filename": "pages/contributors.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 79,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-02T13:57:47Z",
+      "side": 1,
+      "message": "This would look better also as a table.",
+      "range": {
+        "startLine": 79,
+        "startChar": 0,
+        "endLine": 79,
+        "endChar": 49
+      },
+      "revId": "d877dfb625e0919e044877682ded46c1a50087b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
