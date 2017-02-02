@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_467f26e1",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-02T16:49:40Z",
+      "side": 1,
+      "message": "This can go. It\u0027s already labeled \u0027Wi-Fi\u0027 in the specs table.",
+      "range": {
+        "startLine": 40,
+        "startChar": 6,
+        "endLine": 40,
+        "endChar": 11
+      },
+      "revId": "92f5bd46aedf7f2533c6ec1e844eaec1e6d92e8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
