@@ -17,7 +17,14 @@ gsm: GSM 850 / 900 / 1800 / 1900 - SIM 1 & SIM 2 HSDPA 850 / 900 / 1900 / 2100 S
   1 ONLY
 has_recovery_partition: true
 image: Z00A.png
-install_method: TODO
+install_method: Lineage is based on Stock Asus Version 4.21.40.xxx Marshmallow. Matching
+ Firmware and Recovery are required. An Assert has been added to verify appropriate
+ Firmware version is installed prior to flashing. If you try to flash CM-14.1 without
+ being on the proper Bootloader/FW versions you will see the "ERROR 7" failure in TWRP.
+ Instructions for easily updating to the appropriate Bootloader/Firmware can be found
+ here https://forum.xda-developers.com/showpost.php?p=70747514&postcount=2 
+ A working TWRP Recovery Specifically for this ROM is also available seperatly at 
+ http://theflamingskull.com/zenfone2.html
 kernel: android_kernel_asus_moorefield
 lte: LTE band 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700),
   20(800) SIM 1 ONLY
