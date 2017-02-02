@@ -22,6 +22,29 @@
       "revId": "3fef7cb5bb92d314200b77eaaea0250f7e8ac2a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_a36244d6",
+        "filename": "_data/devices/axon7.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-02T08:52:49Z",
+      "side": 1,
+      "message": "You should also capitalise first letter and remove quotes.",
+      "range": {
+        "startLine": 24,
+        "startChar": 14,
+        "endLine": 24,
+        "endChar": 78
+      },
+      "revId": "3fef7cb5bb92d314200b77eaaea0250f7e8ac2a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
