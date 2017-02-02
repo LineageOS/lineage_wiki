@@ -22,6 +22,30 @@
       "revId": "1b1d5c115c344a1e9b908705620024193d851580",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_e3ca8c4e",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 256,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-02T11:52:13Z",
+      "side": 1,
+      "message": "The appropriate groups should be set up and publicly viewable here: https://review.lineageos.org/#/admin/groups/\n\nWe should be adding a wiki page soon for the public to more easily view the respective reviewer groups. I think Simon is working on that.",
+      "parentUuid": "9a437d4f_039fd053",
+      "range": {
+        "startLine": 256,
+        "startChar": 365,
+        "endLine": 256,
+        "endChar": 386
+      },
+      "revId": "1b1d5c115c344a1e9b908705620024193d851580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
