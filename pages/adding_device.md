@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: How to add a new device to the wiki
 permalink: addingdevice-howto.html
+tags: how-to
 ---
 
 ## Requirements for adding a device
