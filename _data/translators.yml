@@ -1,6 +1,18 @@
-managers: [Abhisek Devkota (ciwrl), Joey Rizzoli (linuxx), Michael Bestas (mikeioannina),
-Michael W (BadDaemon), Ricardo Cerqueira (arcee), Simon Shields (forkbomb),
-Vladislav Koldobskiy (NeverGone)]
+managers:
+    - name: Abhisek Devkota
+      nick: ciwrl
+    - name: Joey Rizzoli
+      nick: linuxx
+    - name: Michael Bestas
+      nick: mikeioannina
+    - name: Michael W
+      nick: BadDaemon
+    - name: Ricardo Cerqueira
+      nick: arcee
+    - name: Simon Shields
+      nick: forkbomb
+    - name: Vladislav Koldobskiy
+      nick: NeverGone
 languages:
     - name: Bulgarian
       proofreaders: [Hristo Dipchikov (hristodipchikov)]
