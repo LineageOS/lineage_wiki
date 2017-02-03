@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_8c03edb7",
+        "filename": "_data/devices/axon7.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-03T03:05:24Z",
+      "side": 1,
+      "message": "remove quotes here",
+      "revId": "7f247bfa2c5617bf640bed6e4b6e28bf1be2d5f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
