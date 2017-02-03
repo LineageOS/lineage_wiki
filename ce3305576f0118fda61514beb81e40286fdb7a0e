@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_aca0f190",
+        "filename": "_includes/templates/recovery_install_fastboot_nexus.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-03T04:50:43Z",
+      "side": 1,
+      "message": "This really should be by itself in a warning, imo. Something like, \u0027Unlocking the bootloader will erase all data on your device. Before proceeding, ensure the data you would like to retain is backed up to your pc and/or your google account, or equivalent.\"",
+      "range": {
+        "startLine": 3,
+        "startChar": 83,
+        "endLine": 4,
+        "endChar": 39
+      },
+      "revId": "ce3305576f0118fda61514beb81e40286fdb7a0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
