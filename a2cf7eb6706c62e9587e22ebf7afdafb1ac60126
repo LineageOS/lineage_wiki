@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_8e167bf0",
+        "filename": "pages/contributors.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-02-03T06:49:03Z",
+      "side": 1,
+      "message": "nit: device is spelled wrong",
+      "revId": "a2cf7eb6706c62e9587e22ebf7afdafb1ac60126",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
