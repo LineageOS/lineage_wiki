@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f7dcb276",
+        "filename": "_data/devices/s2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T07:00:49Z",
+      "side": 1,
+      "message": "Should be removed since it\u0027s on 13.0 nightlies.",
+      "range": {
+        "startLine": 41,
+        "startChar": 17,
+        "endLine": 41,
+        "endChar": 21
+      },
+      "revId": "8ff47a88456b6beca540d8da83923d71af8f1c4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_d7d9b684",
+        "filename": "_data/devices/s2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T07:00:49Z",
+      "side": 1,
+      "message": "Not needed. These specs are already labeled \"Wi-Fi\" in the table.",
+      "range": {
+        "startLine": 43,
+        "startChar": 6,
+        "endLine": 43,
+        "endChar": 11
+      },
+      "revId": "8ff47a88456b6beca540d8da83923d71af8f1c4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
