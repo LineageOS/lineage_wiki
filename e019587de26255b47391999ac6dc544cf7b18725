@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f7715278",
+        "filename": "pages/contributors.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-04T09:48:21Z",
+      "side": 1,
+      "message": "\"to be backed by\" seems more correct here imo",
+      "range": {
+        "startLine": 18,
+        "startChar": 22,
+        "endLine": 18,
+        "endChar": 35
+      },
+      "revId": "e019587de26255b47391999ac6dc544cf7b18725",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
