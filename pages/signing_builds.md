@@ -32,7 +32,7 @@ run the following:
 
 ```
 $ breakfast <codename>
-$ mka dist
+$ mka target-files-package dist
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
