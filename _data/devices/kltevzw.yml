@@ -4,7 +4,7 @@ cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 2MP}
 carrier:
-cdma:
+cdma:800 and 1900 MHz
 channels: [weekly]
 codename: kltevzw
 cpu: Krait 400
@@ -13,16 +13,16 @@ cpu_freq: 2.5 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Vol Down & Home & Power
 gpu: Adreno 330
-gsm:
+gsm: 850, 900, 1,800, 1,900, 2,100 MHz UMTS/HSPA+
 has_recovery_partition: true
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_klte
-lte:
-maintainers: ['']
+lte: 800 and 1,900 MHz
+maintainers: ['haggertk']
 models: [SM-G900V, SM-S902L]
 name: Galaxy S5 (Verizon)
-peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
+peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor, Accelerometer',
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
 ram: 2GB

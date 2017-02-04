@@ -13,16 +13,16 @@ cpu_freq: 2.5 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Vol Down & Home & Power.
 gpu: Adreno 330
-gsm:
+gsm: 850, 900, 1,800, 1,900, 2,100 MHz UMTS/HSPA+
 has_recovery_partition: true
 image: klte.png
 install_method: heimdall
-kernel:
+kernel: android_kernel_samsung_klte
 lte: 800, 850, 900, 1,800, 2,100 and 2,600 MHz
-maintainers: ['']
+maintainers: ['haggertk, OzzysCmAcc']
 models: [SM-G900AZ, SM-G900F, SM-G900M, SM-G900T, SM-G900W8]
 name: Galaxy S5
-peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
+peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor, Accelerometer',
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
 ram: 2GB
