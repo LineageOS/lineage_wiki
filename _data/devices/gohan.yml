@@ -13,7 +13,7 @@ cpu_freq: 1.4 GHz & 1.8 GHz
 current_branch: 13.0
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 510
-gsm:
+gsm: 850, 900, 1900, 2100 Mhz
 has_recovery_partition: true
 image: gohan.png
 install_method: TODO
