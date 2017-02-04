@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_02c49a90",
+        "filename": "_data/devices/gts210vewifi.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T19:53:50Z",
+      "side": 1,
+      "message": "Should be Wi-Fi, just to stay uniform with how we put it everywhere else.",
+      "range": {
+        "startLine": 27,
+        "startChar": 24,
+        "endLine": 27,
+        "endChar": 28
+      },
+      "revId": "22af55f6d7bd0d5a39fb222bf348e09ecd393467",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_82376ab0",
+        "filename": "_data/devices/gts28vewifi.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T19:53:50Z",
+      "side": 1,
+      "message": "here too",
+      "range": {
+        "startLine": 27,
+        "startChar": 24,
+        "endLine": 27,
+        "endChar": 28
+      },
+      "revId": "22af55f6d7bd0d5a39fb222bf348e09ecd393467",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
