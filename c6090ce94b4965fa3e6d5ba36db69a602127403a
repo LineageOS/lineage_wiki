@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_1703be74",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-04T14:39:06Z",
+      "side": 1,
+      "message": "this can go. doesn\u0027t belong",
+      "range": {
+        "startLine": 31,
+        "startChar": 22,
+        "endLine": 31,
+        "endChar": 23
+      },
+      "revId": "c6090ce94b4965fa3e6d5ba36db69a602127403a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
