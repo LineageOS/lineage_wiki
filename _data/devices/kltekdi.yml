@@ -12,10 +12,15 @@ cpu_freq: 2.5 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Vol Down & Home & Power
 gpu: Adreno 330
+<<<<<<< HEAD
+=======
+gsm: 850, 900, 1,800, 1,900, 2,100 MHz UMTS/HSPA+
+>>>>>>> 569ba0b... devices: update klte family
 has_recovery_partition: true
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_klte
+<<<<<<< HEAD
 maintainers: ['']
 models: [SCL23]
 name: Galaxy S5 (AU)
@@ -24,6 +29,13 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
+=======
+lte: 700, 800, 1,800, 2,100 and 2,500 MHz
+maintainers: [haggertk]
+models: [SCL23]
+name: Galaxy S5 (AU)
+peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
+>>>>>>> 569ba0b... devices: update klte family
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
 ram: 2GB

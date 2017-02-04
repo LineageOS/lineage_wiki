@@ -16,14 +16,14 @@ has_recovery_partition: true
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_klte
-maintainers: ['']
+maintainers: ['haggertk']
 models: [SM-G9006W, SM-G9008W, SM-G9009W]
 name: Galaxy S5 Duos (China)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2000 2100 MHz (SM-G9008W), 800 850 1900 2100 (SM-G9009W)' }
+- {tech: 4G, bands: '38(2600) 39(1900) 40(2300) (SM-G9008W),' }
+peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor,Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
 ram: 2GB
