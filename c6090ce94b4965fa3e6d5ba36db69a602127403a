@@ -22,6 +22,29 @@
       "revId": "c6090ce94b4965fa3e6d5ba36db69a602127403a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f73ef228",
+        "filename": "_data/devices/kltekdi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-04T14:51:39Z",
+      "side": 1,
+      "message": "SCL23 is actually correct",
+      "range": {
+        "startLine": 23,
+        "startChar": 10,
+        "endLine": 23,
+        "endChar": 17
+      },
+      "revId": "c6090ce94b4965fa3e6d5ba36db69a602127403a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
