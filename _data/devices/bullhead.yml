@@ -4,24 +4,31 @@ cameras:
 - {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
 - {flash: '', info: 5MP}
 carrier:
-cdma:
+cdma: 800 / 1900 MHz (American model)
 channels: [weekly]
 codename: bullhead
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
+depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 418
-gsm:
+gsm: GSM 850 / 900 / 1800 / 1900 MHz (All model),
+   HSDPA 850 / 900 / 1700 / 1900 / 2100 MHz (American model),
+   HSDPA 850 / 900 / 1900 / 2100 MHz (Asian model),
+   HSDPA 800 / 850 / 900 / 1700(AWS) / 1800 / 1900 / 2100 MHz (Global model)
 has_recovery_partition: true
+height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: TODO
 kernel:
-lte:
+lte: 700 / 800 / 850 / 1700 / 1800 / 1900 / 2100 / 2600 MHz (American model),
+   850 / 900 / 1700 / 1800 / 2100 / 2300 / 2500 / 2600 MHz (Asian Model),
+   700 / 800 / 850 / 900 / 1700 / 1800 / 1900 / 2100 / 2300 / 2500 / 2600 MHz (Global model)
 maintainers: ['']
 name: Nexus 5X
-peripherals: [Fingerprint, accelerometer, gyro, proximity, compass, barometer]
+peripherals: [Fingerprint, Accelerometer, Gyro, Proximity, Compass, Barometer]
 ram: 2GB
 recovery_boot: With the device powered off, hold Volume Down & Power and choose Recovery
   Mode
@@ -38,4 +45,5 @@ type: phone
 vendor: Google
 vendor_short: lge
 versions: [14.1]
+width: 82.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot
