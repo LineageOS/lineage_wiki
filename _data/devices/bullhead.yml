@@ -1,41 +1,49 @@
-battery: 2700mAh
-bluetooth: 4.2 LE
+battery: 2700 mAh, Li-Po non-removable
+bluetooth: v4.2 with A2DP, LE
 cameras:
 - {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
 - {flash: '', info: 5MP}
 carrier:
-cdma:
+cdma: 800 1900 MHz (American model)
 channels: [weekly]
 codename: bullhead
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold Volume Down & Power buttons.
 gpu: Adreno 418
-gsm:
+gsm: 850 900 1800 1900 MHz GSM (All models),
+   850 900 1700 1900 2100 MHz HSDPA (American model),
+   850 900 1900 2100 MHz HSDPA (Asian model),
+   800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)
 has_recovery_partition: true
+height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: TODO
-kernel:
-lte:
+kernel: android_kernel_lge_bullhead
+lte: 700 800 850 1700 1800 1900 2100 2600 MHz (American model),
+   850 900 1700 1800 2100 2300 2500 2600 MHz (Asian Model),
+   700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz (Global model)
 maintainers: ['']
 name: Nexus 5X
-peripherals: [Fingerprint, accelerometer, gyro, proximity, compass, barometer]
+peripherals: [Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer]
 ram: 2GB
-recovery_boot: With the device powered off, hold Volume Down & Power and choose Recovery
-  Mode
-release: 2015 September 29
+recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery
+  Mode.
+release: 29 September 2015
 screen: 132 mm (5.2 in)
 screen_ppi: ~423
 screen_res: 1080x1920
 screen_tech: LCD
 sdcard:
 soc: Qualcomm MSM8992 Snapdragon 808
-storage: 16/32
+storage: 16/32 GB
 tree: android_device_lge_bullhead
 type: phone
 vendor: Google
 vendor_short: lge
 versions: [14.1]
-wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, hotspot
+width: 82.6 mm (2.86 in)
+wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
