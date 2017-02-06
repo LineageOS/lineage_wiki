@@ -1533,16 +1533,16 @@ input[type="number"]::-webkit-inner-spin-button {
   height: auto;
 }
 .form-control:-moz-placeholder {
-  color: #f9faf9;
+  color: #595959;
 }
 .form-control::-moz-placeholder {
-  color: #f9faf9;
+  color: #595959;
 }
 .form-control:-ms-input-placeholder {
-  color: #f9faf9;
+  color: #595959;
 }
 .form-control::-webkit-input-placeholder {
-  color: #f9faf9;
+  color: #595959;
 }
 .form-control {
   display: block;

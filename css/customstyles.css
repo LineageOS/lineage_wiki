@@ -188,7 +188,6 @@ table tr td {
     hyphens: auto;
 }
 
-
 p.external a {
     text-align:right;
     font-size:12px;
@@ -210,13 +209,22 @@ p.post-meta {font-size: 80%; color: #777;}
     background-color: white;
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 20px;
-    z-index: -1;
-    width:223px;
-    border-left: 1px solid #dedede;
-    box-shadow: 2px 3px 2px #dedede;
+    left: 0px;
+    right: auto;
+    width: 196px;
+    border: 1px solid #cccccc;
 }
 
+#search-demo-container ul#results-container:empty {
+    border: none;
+}
+
+@media (min-width: 1200px) {
+    #search-demo-container ul#results-container {
+        left: auto;
+        right: 56px;
+    }
+}
 
 ul#results-container a {
     background-color: transparent;
@@ -228,17 +236,6 @@ ul#results-container a: hover {
 
 #search-demo-container a:hover {
     color: black;
-}
-
-#search-input {
-    padding: .5em;
-    margin-left:20px;
-    width:20em;
-    font-size: 0.8em;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    margin-top:10px;
 }
 
 @media (min-width: 1200px) {
