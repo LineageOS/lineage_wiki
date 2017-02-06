@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f8649ee6",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G900AZ is band 1 (2100), 2 (1900), 3 (1800), 4 (1700), 5 (850), 7 (2600), 17 (700)\nSM-G900F is band 1 (2100), 2 (1900), 3 (1800), 5 (850), 7 (2600), 8 (900), 20 (800)\nSM-G900M is band 2 (1900), 4 (1700), 5 (850), 7 (2600), 17 (700)\nSM-G900T is band 1 (2100), 2 (1900), 3 (1800), 4 (1700), 5 (850), 7 (2600), 8 (900), 17 (700)\nSM-G900W8 is band 2 (1900), 3 (1800), 4 (1700), 5 (850), 7 (2600), 17 (700)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 46
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_18688ab9",
+        "filename": "_data/devices/kltechn.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G9006V is band 41 (2500)\nSM-G9008V is band 39 (1900), 40 (2300), 41 (2500)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 13
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_387346b3",
+        "filename": "_data/devices/kltechnduo.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G9006W is band 1 (2100), 3 (1800), 7 (2600), 40 (2300), 41 (2500)\nSM-G9008W is band 38 (2600), 39 (1900), 40 (2300)\nSM-G9009W is band 1 (2100), 3 (1800), 41 (2500)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 19
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_586e12cb",
+        "filename": "_data/devices/klteduos.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G900FD is band 1 (2100), 3 (1800), 5 (850), 7 (2600), 8 (900), 20 (800)\nSM-G900MD is band 1 (2100), 2 (1900), 4 (1700), 5 (850), 7 (2600), 17 (700)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 46
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f83dbebc",
+        "filename": "_data/devices/kltekor.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G900K is band 3 (1800), 7 (2600), 8 (900), 17 (700)\nSM-G900L is band 1 (2100), 3 (1800), 5 (850), 7 (2600)\nSM-G900S is band 1 (2100), 3 (1800), 5 (850), 7 (2600)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 34
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_1841aa39",
+        "filename": "_data/devices/klteusc.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G900R4 is band 2 (1900), 4 (1700), 5 (850), 12 (700), 17 (700)\nSM-G900R7 is band 2 (1900), 4 (1700), band 12 (700)",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 29
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_7852ee14",
+        "filename": "_data/devices/kltevzw.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "Only SM-G900V has usable GSM. SM-S902L is not unlockable, so GSM is not applicable.",
+      "range": {
+        "startLine": 16,
+        "startChar": 5,
+        "endLine": 16,
+        "endChar": 49
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_9531e30d",
+        "filename": "_data/devices/kltevzw.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-02-06T16:16:34Z",
+      "side": 1,
+      "message": "SM-G900V and SM-S902L are band 4 and 13, which is \"700MHz\" and \"1700MHz\" respectively.",
+      "range": {
+        "startLine": 21,
+        "startChar": 5,
+        "endLine": 21,
+        "endChar": 22
+      },
+      "revId": "569ba0be7658b96b84d58968cabab8eef6cb642c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
