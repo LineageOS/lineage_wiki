@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_55b01bdd",
+        "filename": "_data/devices/bullhead.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-06T10:34:55Z",
+      "side": 1,
+      "message": "these should all have first letter capitalised",
+      "range": {
+        "startLine": 31,
+        "startChar": 13,
+        "endLine": 31,
+        "endChar": 78
+      },
+      "revId": "d3696b3d2084b8c3258537cfab708b8216669ac0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
