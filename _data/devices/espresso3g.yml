@@ -1,0 +1,44 @@
+battery: 4000 mAh Li-Ion(p3100) / 7000 mAh Li-Po (p5100), non-removable
+bluetooth: 3.0
+cameras:
+- {flash: '', info: 3.15MP}
+- {flash: '', info: 1.3MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: espresso3g
+cpu: OMAP4
+cpu_freq: 1 GHz
+cpu_cores: '2'
+current_branch: 13.0
+depth: 10.5mm / 9.7mm
+download_boot: Hold **Volume Down**, and **Power**
+gpu: PowerVR SGX540 @ 307 Mhz
+gsm: Quad-band 850 900 1800 1900 MHz
+has_recovery_partition: true
+height: 193.7mm / 256.6mm
+image: espresso3g.png
+install_method: heimdall
+kernel: android_kernel_samsung_espresso10
+lte:
+maintainers: [Android-Andi, Ziyan]
+models: [P3100, P5100]
+name: Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)
+peripherals: [proximitysensor, lightsensor, 3-axis accelerometer, additional 3-axis gyroscope, digital compass, GPS]
+ram: 1GB
+recovery_boot: Hold **Volume Up**, and **Power**
+release: 2012
+screen: 7.0 / 10.1 inches
+screen_res: 600x1024 / 800x1280
+screen_ppi: 170 / 149
+screen_tech: PLS LCD / PLS TFT
+sdcard: up to 32GB
+soc: TI OMAP4430
+storage: 8GB/16GB/32GB
+tree: android_device_samsung_espresso3g
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [13.0]
+width: 122.4mm / 175.3mm
+wifi: 802.11 a/b/g/n
