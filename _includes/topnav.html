@@ -50,10 +50,9 @@
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
-                    <div id="search-demo-container">
-                        <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
-                        <ul id="results-container"></ul>
-                    </div>
+                    <div id="search-demo-container" class="navbar-form" role="search">
+                         <input type="text" id="search-input" class="form-control" placeholder="{{site.data.strings.search_placeholder_text}}">
+                         <ul id="results-container"></ul>
                     <script src="{{ "js/jekyll-search.js"}}" type="text/javascript"></script>
                     <script type="text/javascript">
                             SimpleJekyllSearch.init({
