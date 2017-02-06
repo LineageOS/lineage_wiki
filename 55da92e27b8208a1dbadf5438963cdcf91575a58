@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_95b683db",
+        "filename": "_data/devices/s2.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-06T10:32:52Z",
+      "side": 1,
+      "message": "this should go in models:",
+      "range": {
+        "startLine": 25,
+        "startChar": 11,
+        "endLine": 25,
+        "endChar": 28
+      },
+      "revId": "55da92e27b8208a1dbadf5438963cdcf91575a58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
