@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_156df332",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-06T11:45:27Z",
+      "side": 1,
+      "message": "no quotes here (applies to every file)",
+      "revId": "2f1188e2ea8e7e46801e4ababb6987f4a421d7f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_f5694726",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-06T11:45:27Z",
+      "side": 1,
+      "message": "no quotes here either (also applies to every file)",
+      "range": {
+        "startLine": 25,
+        "startChar": 58,
+        "endLine": 25,
+        "endChar": 92
+      },
+      "revId": "2f1188e2ea8e7e46801e4ababb6987f4a421d7f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
