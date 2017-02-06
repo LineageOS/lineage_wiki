@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f5c6e748",
+        "filename": "_data/devices/himawl.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-06T10:37:52Z",
+      "side": 1,
+      "message": "HSDPA goes under GSM (unless there\u0027s a CDMA version of HSDPA I wasn\u0027t aware of?)",
+      "range": {
+        "startLine": 7,
+        "startChar": 20,
+        "endLine": 7,
+        "endChar": 25
+      },
+      "revId": "639c7764f14a1a0d59e1f7eba93fa5326640bb04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
