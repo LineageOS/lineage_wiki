@@ -274,7 +274,7 @@ div#toc ul li ul {
 }
 
 div#toc ul li ul li::before {
-    content: "–  ";
+    content: "\2013  ";
 }
 
 div#toc >ul::before {
