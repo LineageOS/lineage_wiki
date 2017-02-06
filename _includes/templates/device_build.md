@@ -213,6 +213,14 @@ where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere fr
 for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
 into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
 
+You can also enable the optional cache compression. While this may involve a tiny performance slowdown, it increases the number of files that fit in the cache. To enable cache compression, run:
+
+```
+export CCACHE_COMPRESS=1
+```
+
+or add that line to your `~/.bashrc` file.
+
 {% if site.data.devices[page.device].current_branch >= 14 %}
 ### Configure jack
 
