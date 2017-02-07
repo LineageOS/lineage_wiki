@@ -190,6 +190,8 @@ Now ensure your {{ site.data.devices[page.device].name }} is connected to your c
 $ ./extract-files.sh
 ```
 
+{% include note.html content="For this script to function properly, the device should have the latest LineageOS installed, based on the branch you wish to build." %}
+
 The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
 
