@@ -14,7 +14,7 @@ gpu: Adreno 430
 gsm:
 has_recovery_partition: true
 image: angler.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel:
 lte:
 maintainers: ['']

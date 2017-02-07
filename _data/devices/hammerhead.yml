@@ -19,7 +19,7 @@ gsm: 800 850 900 1700 1900 2100 MHz UMTS/HSDPA
 has_recovery_partition: true
 height:
 image: hammerhead.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel:
 lte: 700 800 850 1700 1900 2100 2600 MHz
 maintainers: ['']

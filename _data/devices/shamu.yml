@@ -18,7 +18,7 @@ gsm: 850 900 1800 1900 MHz UTMS HSPA+
 has_recovery_partition: true
 height: 159.3 mm (6.27 in)
 image: shamu.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel:
 lte: 700 850 1700 1800 1900 2500 2600 MHz (North/South American models)<br>
    700 800 850 900 1800 2100 2500 2600 MHz (Afro-Eurasian models)
