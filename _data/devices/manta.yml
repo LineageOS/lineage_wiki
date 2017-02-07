@@ -16,11 +16,12 @@ gpu: Mali T604
 gsm:
 has_recovery_partition: true
 image: manta.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel:
 lte:
 maintainers: [atinm, Kornyone, gweedo767]
 name: Nexus 10
+no_oem_unlock_switch: true
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnetometer,
   barometer, microphone, dual side NFC]
 ram: 2GB
