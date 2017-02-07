@@ -17,11 +17,12 @@ gpu: Adreno 305
 gsm: 900 1800 1900 MHz GSM, 900 2100 MHz UMTS
 has_recovery_partition: true
 image: armani.png
-install_method: TODO
+install_method: fastboot_generic
 kernel: android_kernel_xiaomi_armani
 lte:
 maintainers: [fefifofum]
 name: Redmi 1S
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, gyro, proximity, compass]
 ram: 1 GB
 recovery_boot: Hold Volume Up and the Power button. Continue to hold buttons until

@@ -20,11 +20,12 @@ gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz HSDPA
 has_recovery_partition: true
 height:
 image: cancro.png
-install_method: TODO
+install_method: fastboot_generic
 kernel:
 lte:
 maintainers: ['']
 name: Mi 3 / Mi 4
+no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2GB (Mi 3) / 3GB (Mi 4)
 recovery_boot: Hold Volume Up & the Power button. Continue to hold buttons until the
