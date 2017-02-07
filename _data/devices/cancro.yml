@@ -20,7 +20,7 @@ gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz HSDPA
 has_recovery_partition: true
 height:
 image: cancro.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel:
 lte:
 maintainers: ['']
