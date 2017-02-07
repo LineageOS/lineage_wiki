@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_2b72cee5",
+        "filename": "_data/devices/espresso3g.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-07T06:28:10Z",
+      "side": 1,
+      "message": "first letter capitalised: Proximity sensor, Light sensor, etc",
+      "revId": "f451028a0a4e9eab1741c4401c0169a5954df414",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
