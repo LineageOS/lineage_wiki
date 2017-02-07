@@ -20,7 +20,7 @@ gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz HSPA
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: gemini.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8996
 lte: 850 (B5) 1800 (B3) 2100 (B1) 2600 (B7) MHz FDD,
   1900 (B39) 2300 (B40) 2500 (B41) 2600 (B38) MHz TDD
