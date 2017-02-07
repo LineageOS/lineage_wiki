@@ -1,4 +1,4 @@
-battery: 3000 mAh (non-removable)
+battery: Non-removable Li-Po 3000 mAh
 bluetooth: 4.2 A2DP, LE
 cameras:
 - {flash: dual-LED (dual tone), info: 16MP}
@@ -24,9 +24,9 @@ install_method: TODO
 kernel: android_kernel_xiaomi_msm8996
 lte: 850 (B5) 1800 (B3) 2100 (B1) 2600 (B7) MHz FDD,
   1900 (B39) 2300 (B40) 2500 (B41) 2600 (B38) MHz TDD
-maintainers: [bgcngm]
+maintainers: [bgcngm, defer, h2o64]
 name: Mi 5
-peripherals: [Fingerprint, accelerometer, gyroscope, proximity, compass, NFC, IR]
+peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, NFC, IR]
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
 recovery_boot: Hold Volume Up and the Power button. Continue to hold buttons until
   the "MI" logo appears, then release all buttons.
@@ -45,4 +45,4 @@ vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
 width: 69.2 mm (2.72 in)
-wifi: 802.11 a/b/g/n/ac
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
