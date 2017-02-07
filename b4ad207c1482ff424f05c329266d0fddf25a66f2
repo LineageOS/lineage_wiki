@@ -16,6 +16,24 @@
       "revId": "b4ad207c1482ff424f05c329266d0fddf25a66f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_0eb0408a",
+        "filename": "_includes/templates/recovery_install_fastboot_nexus.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-07T13:34:40Z",
+      "side": 1,
+      "message": "I am reluctant about this being opt-out. Would be better to make it opt-in, IMO. Despite many devices have the OEM unlock toggle, some are not unlock-able that way. For example, Xiaomi devices (and I think Huawei).",
+      "parentUuid": "9a437d4f_833aa5cb",
+      "revId": "b4ad207c1482ff424f05c329266d0fddf25a66f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
