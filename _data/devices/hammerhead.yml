@@ -19,11 +19,12 @@ gsm: 800 850 900 1700 1900 2100 MHz UMTS/HSDPA
 has_recovery_partition: true
 height:
 image: hammerhead.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel:
 lte: 700 800 850 1700 1900 2100 2600 MHz
 maintainers: ['']
 name: Nexus 5
+no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2GB
 recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.

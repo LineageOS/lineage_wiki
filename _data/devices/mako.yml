@@ -19,11 +19,12 @@ gsm: 850 900 1800 1900 MHz GSM/EDGE/GPRS850 900 1700 1900 2100 MHz 3G UMTS/HSPA+
 has_recovery_partition: true
 height:
 image: mako.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_google_msm
 lte:
 maintainers: [arcee]
 name: Nexus 4
+no_oem_unlock_switch: true
 peripherals: [3.5 mm TRRS, GPS, microUSB 2.0, Mobility DisplayPort (MyDP), multi-touch
     capacitive touchscreen, proximity sensor, NFC, Qi wireless charging]
 ram: 2GB
