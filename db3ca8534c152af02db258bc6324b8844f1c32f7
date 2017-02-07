@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_09c15a80",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-07T16:06:24Z",
+      "side": 1,
+      "message": "Someone can tell me why this tip is not appearing when a device yml has no_oem_unlock_switch set to true?",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 127
+      },
+      "revId": "db3ca8534c152af02db258bc6324b8844f1c32f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
