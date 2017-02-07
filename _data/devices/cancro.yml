@@ -13,22 +13,23 @@ cpu_cores: '4'
 cpu_freq: 2.3 GHz (Mi 3) / 2.5 GHz (Mi 4)
 current_branch: 14.1
 depth:
-download_boot: Hold Volume Down, & the Power button. Continue to hold both until the
-  word "FASTBOOT" appears on the screen, then release all buttons.
+download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 330
 gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz HSDPA
 has_recovery_partition: true
 height:
 image: cancro.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel:
 lte:
 maintainers: ['']
 name: Mi 3 / Mi 4
+no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2GB (Mi 3) / 3GB (Mi 4)
-recovery_boot: Hold Volume Up & the Power button. Continue to hold buttons until the
-  "MI" logo, then release all buttons.
+recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: 2013 October (Mi 3) / 2014 August (Mi 4)
 screen: 127 mm (5.0 in)
 screen_ppi: 441
