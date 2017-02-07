@@ -1,6 +1,8 @@
-battery: 3450 mAh
+battery: 3450 mAh Li-ion battery
 bluetooth: 4.2 LE
-cameras: []
+cameras:
+- {flash: Dual LED, info: 12.3MP}
+- {flash: '', info: 8MP}
 carrier:
 cdma:
 channels: [weekly]
@@ -11,7 +13,7 @@ cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 430
-gsm:
+gsm: 850, 900, 1800, 1900 MHz UMTS HSPA+
 has_recovery_partition: true
 image: angler.png
 install_method: TODO
@@ -19,7 +21,6 @@ kernel:
 lte:
 maintainers: ['']
 name: Nexus 6P
-peripherals: ['']
 ram: 3GB
 recovery_boot: With the device powered off, hold Volume Down & Power and choose Recovery
   Mode

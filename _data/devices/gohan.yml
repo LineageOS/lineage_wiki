@@ -1,0 +1,40 @@
+battery: 3100 mAh LiPo, Non-removable
+bluetooth: '4.2'
+cameras:
+- {flash: Dual-LED, info: 16MP}
+- {flash: '', info: 8MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: gohan
+cpu: Cortex A53 & Cortex A72
+cpu_cores: '4'
+cpu_freq: 1.4 GHz & 1.8 GHz
+current_branch: 13.0
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 510
+gsm: 850, 900, 1900, 2100 Mhz
+has_recovery_partition: true
+image: gohan.png
+install_method: TODO
+kernel: 
+lte: 800, 1800, 2100, 2600 MHz
+maintainers: ['']
+name: Aquaris X5 Plus
+peripherals: [Fingerprinter, Brightness sensor, Proximity sensor, Accelerometer, eCompass, Gyroscope, Hall Sensor]
+ram: 2GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release:
+screen: 127 mm (5.0 in)
+screen_ppi: ~294
+screen_res: 192x1080
+screen_tech: IPS LTPS LCD
+sdcard: up to 256GB
+soc: Qualcomm MSM8976 Snapdragon 650
+storage: 16GB
+tree: android_device_bq_gohan
+type: phone
+vendor: BQ
+vendor_short: bq
+versions: [13.0]
+wifi: 802.11 b/g/n/ac (dual band - 2.4 GHz | 5 GHz)
