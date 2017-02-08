@@ -8,6 +8,6 @@ permalink: pages.html
 
 {% for page in sorted_pages %}
 {% if page.title and page.url %}
-- [{{page.title}}]({{page.url}})
+- [{{page.title}}]({{page.url | replace: '/', ''}})
 {% endif %}
 {% endfor %}
