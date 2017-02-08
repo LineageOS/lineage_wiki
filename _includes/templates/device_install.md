@@ -19,12 +19,14 @@
 4. If you aren't already in recovery, boot into recovery:
     * {{ site.data.devices[page.device].recovery_boot }}
 5. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
-6. Select **Wipe** and then **Factory Reset**.
-7. Select **Install**.
-8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-9. Follow the on-screen prompts to install the package.
-10. _(Optional)_: Install any additional packages using the same method.
-11. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+6. Select **Wipe** and then **Advanced Wipe**.
+7. Select *Cache*, *System* and *Data* paritions to be wiped and then **Swipe to Wipe**.
+8. Go back and select **Install**.
+9. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
+10. Follow the on-screen prompts to install the package.
+11. _(Optional)_: Root the device by installing [LineageOS su addon](https://download.lineageos.org/extras) or any other method you prefer.
+12. _(Optional)_: Install any additional packages using the same method.
+13. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
 
