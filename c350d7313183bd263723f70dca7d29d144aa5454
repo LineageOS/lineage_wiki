@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "7a288981_bf8cb880",
+        "filename": "pages/device_requests.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-08T02:34:21Z",
+      "side": 1,
+      "message": "(devices.html)",
+      "parentUuid": "7a288981_1faf4ce5",
+      "range": {
+        "startLine": 17,
+        "startChar": 415,
+        "endLine": 17,
+        "endChar": 428
+      },
+      "revId": "c350d7313183bd263723f70dca7d29d144aa5454",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a288981_3faa08d5",
         "filename": "pages/faq.md",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-02-08T02:09:16Z",
       "side": 1,
       "message": "not sure how this should be properly linked",
+      "range": {
+        "startLine": 21,
+        "startChar": 99,
+        "endLine": 21,
+        "endChar": 118
+      },
+      "revId": "c350d7313183bd263723f70dca7d29d144aa5454",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_df8f8474",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-08T02:34:21Z",
+      "side": 1,
+      "message": "(device_requests.html)",
+      "parentUuid": "7a288981_3faa08d5",
       "range": {
         "startLine": 21,
         "startChar": 99,
