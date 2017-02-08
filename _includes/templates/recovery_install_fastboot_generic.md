@@ -9,7 +9,9 @@
         adb reboot bootloader
 
     {% if site.data.devices[page.device].download_boot %}
-    You can also boot into fastboot mode via a key combination: {{ site.data.devices[page.device].download_boot }}
+    You can also boot into fastboot mode via a key combination:
+    
+    * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 6. Once the device is in fastboot mode, verify your PC finds it by typing `fastboot devices`.
    If you see `no permissions fastboot` or `<waiting for device>`, try running fastboot as root/Administrator.
@@ -17,4 +19,5 @@
 
         fastboot flash recovery your_recovery_img.img
 
-8. Now reboot into recovery to verify the installation: {{ site.data.devices[page.device].recovery_boot }}
+8. Now reboot into recovery to verify the installation:
+* {{ site.data.devices[page.device].recovery_boot }}
