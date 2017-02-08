@@ -15,10 +15,12 @@ Before proceeding, ensure the data you would like to retain is backed up to your
         adb reboot bootloader
 
     {% if site.data.devices[page.device].download_boot %}
-    You can also boot into fastboot mode via a key combination: {{ site.data.devices[page.device].download_boot }}
+    You can also boot into fastboot mode via a key combination:
+    
+    * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 6. Once the device is in fastboot mode, verify your PC finds it by typing `fastboot devices`.
-   If you see `no permissions fastboot` or `<waiting for device>`, try running fastboot as root/Administrator.
+   If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 7. From the same terminal, type the following command to unlock the bootloader:
 
         fastboot oem unlock
