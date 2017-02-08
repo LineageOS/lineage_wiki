@@ -13,8 +13,11 @@
     
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
-6. Once the device is in fastboot mode, verify your PC finds it by typing `fastboot devices`.
-   If you see `no permissions fastboot` or `<waiting for device>`, try running fastboot as root/Administrator.
+6. Once the device is in fastboot mode, verify your PC finds it by typing:
+
+        fastboot devices
+
+   If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 7. Flash recovery onto your device:
 
         fastboot flash recovery your_recovery_img.img
