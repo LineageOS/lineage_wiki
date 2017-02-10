@@ -32,4 +32,8 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 9. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 10. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
+### All variants: S-OFF
+
+All variants of this device can obtain S-OFF via [SunShine](http://theroot.ninja/). Follow the instructions on the webpage.
+
 {% include templates/recovery_install_fastboot_generic.md %}
