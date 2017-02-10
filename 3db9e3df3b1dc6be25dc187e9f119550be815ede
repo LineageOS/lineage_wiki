@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_b3fbe046",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-02-10T22:55:48Z",
+      "side": 1,
+      "message": "This unneeded spacing can be removed",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 4
+      },
+      "revId": "3db9e3df3b1dc6be25dc187e9f119550be815ede",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
