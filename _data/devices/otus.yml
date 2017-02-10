@@ -17,7 +17,7 @@ gpu: Adreno 302
 gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz
 has_recovery_partition: true
 image: otus.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel:
 lte:
 maintainers: ['']
