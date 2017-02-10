@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_4d09b994",
+        "filename": "pages/contributors.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-02-10T10:22:03Z",
+      "side": 1,
+      "message": "This breaks jekyll if you have a device whose name is a number.\n\nvendor: HTC\nname: 10\n\nfor example which causes jekyll to fail with\n\n  Liquid Exception: Liquid error (line 54): comparison of Hash with Hash failed in pages/contributors.md\n\nchanging the name to \"HTC 10\" works around it.",
+      "revId": "9c70f1ae9b6c5aab436207ca6c210c69e40c4ece",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
