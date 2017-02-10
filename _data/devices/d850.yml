@@ -1,0 +1,44 @@
+battery: 3000 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: Dual flash, info: 13MP}
+- {flash: '', info: 2.1MP}
+carrier:
+cdma:
+channels: [weekly]
+codename: d850
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+depth:
+download_boot: Plug into PC & Volume UP
+gpu: Adreno 330
+gsm:
+has_recovery_partition: true
+height:
+image: d855.png
+install_method: TODO
+kernel: android_kernel_lge_g3
+lte:
+maintainers: []
+name: G3 (AT&T)
+peripherals: [Accelerometer, Compass, Gyro, Proximity, FM Radio]
+ram: 2GB/3GB
+recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
+  1 sec and hold it again till recovery comes up
+release: June 2014
+screen: 139.7 mm (5.5 in)
+screen_ppi: '538'
+screen_res: 2560x1440
+screen_tech: True HD-IPS LCD
+sdcard: up to 128 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16GB/32GB
+tree: android_device_lge_d850
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width:
+wifi: 802.11 a/b/g/n/ac
