@@ -20,7 +20,7 @@ install_method: TODO
 kernel:
 lte: Bands 1, 2, 3, 4, 5, 7, 12, 13, 17, 20, 28, 29, 30
 maintainers: [crpalmer]
-name: HTC 10
+name: '10'
 peripherals: [Iceview Cases]
 ram: 4GB
 recovery_boot: Boot into download (hold Volume Down while booting), select ```Reboot to bootloader``` and then in the bootloader select ```Boot to recovery mode```.
