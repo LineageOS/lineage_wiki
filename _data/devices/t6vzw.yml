@@ -19,7 +19,7 @@ gsm: 850 900 1800 1900 MHz GSM/GPRS/EDGE<br>1900 2100MHz UMTS/HSPA
 has_recovery_partition: true
 height: 164.5 mm (6.48 in)
 image: t6.png
-install_method: TODO
+install_method: fastboot_htc
 kernel: android_kernel_htc_msm8960
 lte: 700 MHz (Band 13)
 maintainers: [flyhalf205]
