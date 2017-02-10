@@ -16,7 +16,7 @@ gpu: Adreno 418
 gsm:
 has_recovery_partition: true
 image: clark.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8992
 lte:
 maintainers: [invisiblek]

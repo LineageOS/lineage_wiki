@@ -18,7 +18,7 @@ gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz - Retail Europe and 
   HDSPA 850/900/1900/2100 MHz - Retail Latin America, Brazil
 has_recovery_partition: true
 image: harpia.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
 lte: B1 (2100)/B2 (1900)/B3 (1800)/B4 (1700)/B5 (850)/B7 (2600)/B8 (900)/
   B12 (700)/B13 (700)/B17 (700)/B25 (1900)/B26 (850)/B41 (2500) MHz - Retail US, Canada,

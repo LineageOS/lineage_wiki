@@ -18,7 +18,7 @@ gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz - International, HSD
   850/1700/1900/2100 MHz- T-Mobile, AT&T
 has_recovery_partition: true
 image: titan.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
 lte:
 maintainers: [LuK1337, luca020400]

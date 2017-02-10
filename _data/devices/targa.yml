@@ -16,7 +16,7 @@ gpu: PowerVR SGX540
 gsm:
 has_recovery_partition: true
 image: targa.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
 lte: 700 MHz Class 13
 maintainers: [Hashcode0f]
