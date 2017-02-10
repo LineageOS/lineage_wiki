@@ -16,7 +16,7 @@ gpu: Adreno 330
 gsm: 850 900 1800 1900 MHz GSM, 850 900 1800 1900 2100 MHz UMTS
 has_recovery_partition: true
 image: victara.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8974
 lte: Bands 1, 3, 7, 8, 20
 maintainers: [crpalmer]
