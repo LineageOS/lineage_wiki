@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_d669ba26",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-11T02:35:09Z",
+      "side": 1,
+      "message": "I think all of this should be changed to a note, stating something similar to what was in old wiki. Suggestion: \"If your device is not supported by the HTCDev Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/).",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 123
+      },
+      "revId": "3ae0c4d9b7806c421ddbf42319c4f123376b154d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
