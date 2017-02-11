@@ -1,12 +1,12 @@
-battery: removeable Li-Ion 3000 mAh battery
+battery: removable Li-Ion 3000 mAh battery
 bluetooth: '4.0'
 cameras:
 - {flash: Dual flash, info: 13MP}
 - {flash: '', info: 2.1MP}
-carrier: Sprint
-cdma: 800 1900 MHz
-channels: [weekly]
-codename: ls990
+carrier: AT&T
+cdma:
+channels: ['']
+codename: d850
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
@@ -20,11 +20,11 @@ height: 5.76 inches (146.3 mm)
 image: d855.png
 install_method: TODO
 kernel: android_kernel_lge_g3
-lte: bands 25(1900), 26(850), 41(2500)
-maintainers: ['Dan Pasanen, Kelly Craft, Seth Shelnutt']
-name: G3 (Sprint)
-peripherals: [Accelerometer, Compass, Gyro, Infrared, Proximity, FM Radio]
-ram: 3GB
+lte: Bands 2/4/5/17/29, Roaming 1/3/7
+maintainers: ['']
+name: G3 (ATT)
+peripherals: ['']
+ram: 2GB/3GB
 recovery_boot: Volume Down & Power
 release: 2014 May 28
 screen: 139.7 mm (5.5 in)
@@ -34,7 +34,7 @@ screen_tech: True HD-IPS LCD
 sdcard: up to 128 GB
 soc: Qualcomm MSM8975AC Snapdragon 801
 storage: 16GB/32GB
-tree: android_device_lge_ls990
+tree: android_device_lge_d850
 type: phone
 vendor: LG
 vendor_short: lge
