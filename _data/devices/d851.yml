@@ -3,27 +3,27 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual flash, info: 13MP}
 - {flash: '', info: 2.1MP}
-carrier:
+carrier: T-Mobile
 channels: [weekly]
 codename: d851
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-depth:
-download_boot: Plug into PC & Volume UP
+depth: 0.35 inches (8.9 mm)
+download_boot: Volume UP & Plug into PC
 gpu: Adreno 330
 has_recovery_partition: true
-height:
+height: 5.76 inches (146.3 mm)
 image: d855.png
 install_method: TODO
 kernel: android_kernel_lge_g3
 maintainers: ['']
 name: G3 (T-Mobile)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
+- {tech: 2G, bands: 'GSM 850 900 1800 1900 MHz' }
+- {tech: 3G, bands: 'HSDPA 850 1700 1900 2100 MHz' }
+- {tech: 4G, bands: '2(1900), 4(1700/2100), 7(2600), 17(700)' }
 peripherals: ['']
 ram: 2GB/3GB
 recovery_boot: Volume Down & Power
@@ -40,5 +40,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width:
+width: 2.94 inches (74.7 mm)
 wifi: 802.11 a/b/g/n/ac
