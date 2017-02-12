@@ -19,7 +19,7 @@ gsm: HSDPA 850 / 900 / 1700 / 1900 / 2100
 has_recovery_partition: true
 height: 133 mm
 image: huashan.png
-install_method: TODO
+install_method: fastboot_sony
 kernel: android_kernel_sony_msm8960t
 lte: LTE 800 / 850 / 900 / 1800 / 2100 / 2600
 maintainers: [Adrian DC]
