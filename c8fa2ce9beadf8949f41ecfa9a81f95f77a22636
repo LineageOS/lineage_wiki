@@ -1,0 +1,135 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_b6e3c932",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "M1 + Cortex-A53",
+      "range": {
+        "startLine": 10,
+        "startChar": 5,
+        "endLine": 10,
+        "endChar": 24
+      },
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_763c4194",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "4x2.3GHz + 4x1.6GHz",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_d65415cc",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "no 2G/3G bands?",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_3646b924",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "android_kernel_samsung_universal8890",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_b65189da",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "FDD?",
+      "range": {
+        "startLine": 21,
+        "startChar": 48,
+        "endLine": 21,
+        "endChar": 51
+      },
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_f647111c",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "no quotes here (assuming Motion Coprocessor + Accelerometer are meant to be separate peripherals)",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_5641450a",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-12T09:04:37Z",
+      "side": 1,
+      "message": "Samsung Exynos 8890",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
