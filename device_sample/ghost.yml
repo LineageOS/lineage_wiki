@@ -1,0 +1,45 @@
+battery: 2200 mAh Li-ion battery, non-removable
+bluetooth: 4.0
+cameras:
+- {flash: LED, info: 10MP}
+- {flash: '', info: 2MP}
+carrier: Sprint, Verizon, Republic Wireless, U.S. Cellular, AT&T, GSM unlocked
+cdma: Dual-band CDMA 800 1900 MHz;
+channels: [weekly]
+codename: ghost
+cpu: Krait 200
+cpu_cores: '2'
+cpu_freq: 1.7 GHz
+current_branch: 13.0
+depth: 10.4 mm (0.41 in)
+# download/fastboot mode
+gpu: Adreno 320
+gsm: 850 900 ​1800 ​1900 MHz UMTS/HSPA+ 850 900 1800 ​1900 ​2100 MHz
+has_recovery_partition: true
+height: 129.3 mm (5.09 in)
+image: sample.png
+install_method: 
+kernel: android_kernel_motorola_msm8960dt
+lte: Band 2, 3, 4, 5, 7, 12, 13, 17, 20 (FDD) (depends on model);
+maintainers: [none?]
+models: xt1049, xt1050, xt1052, xt1053, xt1055, xt1056, xt1058, xt1060
+name: Galaxy Note Sample
+peripherals: [Motion Coprocessor, Audio Coprocessor , Accelerometer, Gyroscope, Proximity sensor, Compass,
+  Magnetic sensor, GPS/GLONASS, NFC]
+ram: 2GB
+recovery_boot: With the device powered off, hold Volume Down & Power.
+release: 23 August 2013
+screen: 119.4 mm (4.7 in)
+screen_ppi: 316
+screen_res: 1280x720
+screen_tech: AMOLED
+sdcard: no
+soc: Qualcomm MSM8960dt Snapdragon S4
+storage: 16 GB, 32 GB
+tree: android_device_motorola_ghost
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [	14.1, 15, 9000.4]
+width: 65.3 mm (2.57 in)
+wifi: 802.11 a/b/g/n/ac
