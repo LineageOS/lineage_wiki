@@ -52,7 +52,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 3. Add the following to `~/.profile`:
 
         if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-            export PATH=$HOME/adb-fastboot/platform-tools:$PATH"
+            export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
         fi
 
 4. Log out and back in.
