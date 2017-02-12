@@ -18,7 +18,7 @@ gsm: 850 900 1800 1900 2100 MHz UMTS/HSPA+
 has_recovery_partition: true
 height: 137.4 mm
 image: m7.png
-install_method: TODO
+install_method: fastboot_htc
 kernel: android_kernel_htc_msm8960
 lte: International 800 1800 2600 MHz; North America 700 MHz and AWS Band
 maintainers: [intervigil,mdmower]
