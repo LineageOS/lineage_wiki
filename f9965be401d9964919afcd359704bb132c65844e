@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_964a0d82",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-12T11:41:00Z",
+      "side": 1,
+      "message": "I\u0027d suggest to add this as a separate note and eventually only for select devices, i.e. checking if site.data.devices[page.device].carrier matches \"Verizon Wireless\".",
+      "range": {
+        "startLine": 3,
+        "startChar": 83,
+        "endLine": 3,
+        "endChar": 539
+      },
+      "revId": "f9965be401d9964919afcd359704bb132c65844e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
