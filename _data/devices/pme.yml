@@ -14,7 +14,7 @@ download_boot: Hold Volume Down while booting.
 gpu: Adreno 530
 has_recovery_partition: true
 image: pme.png
-install_method: TODO
+install_method: fastboot_htc
 kernel:
 maintainers: [crpalmer]
 name: '10'
