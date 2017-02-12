@@ -99,6 +99,30 @@
     },
     {
       "key": {
+        "uuid": "5a2585a7_766321b2",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 14934
+      },
+      "writtenOn": "2017-02-12T09:13:06Z",
+      "side": 1,
+      "message": "B38 is TD 2600.",
+      "parentUuid": "5a2585a7_b65189da",
+      "range": {
+        "startLine": 21,
+        "startChar": 48,
+        "endLine": 21,
+        "endChar": 51
+      },
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5a2585a7_f647111c",
         "filename": "_data/devices/hero2lte.yml",
         "patchSetId": 1
@@ -110,6 +134,24 @@
       "writtenOn": "2017-02-12T09:04:37Z",
       "side": 1,
       "message": "no quotes here (assuming Motion Coprocessor + Accelerometer are meant to be separate peripherals)",
+      "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_565825fa",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 14934
+      },
+      "writtenOn": "2017-02-12T09:13:06Z",
+      "side": 1,
+      "message": "Taken from klte(https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/klte.yml). :P",
+      "parentUuid": "5a2585a7_f647111c",
       "revId": "c8fa2ce9beadf8949f41ecfa9a81f95f77a22636",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
