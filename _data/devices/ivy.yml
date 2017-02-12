@@ -1,0 +1,44 @@
+battery: Non-removable Li-Ion 2930 mAh
+bluetooth: v4.1 with A2DP, aptX
+cameras:
+- {flash: 'LED', info: '20.7 MP F/2.0'}
+- {flash: '', info: '5.1 MP F/2.4'}
+carrier:
+channels: [weekly]
+codename: ivy
+cpu: Cortex A53 & A57
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
+current_branch: 14.1
+depth: 6.9 mm (0.27 in)
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+gpu: Adreno 430
+has_recovery_partition: true
+height: 146 mm (5.75 in)
+image: ivy.jpg
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8994
+maintainers: [cdesai, Kali-, olivier97, quarx2k]
+name: Xperia Z3+
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 4 (1700/2100) 5 (850) 7 (2600) 8 (900) 12 (700) 17 (700) 20 (800) 28 (700) 40 (2300) LTE' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Ambient light, GPS]
+ram: 3 GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: June 2015
+screen: 5.2 in
+screen_ppi: '424'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm MSM8994 Snapdragon 810
+storage: 32 GB
+tree: android_device_sony_ivy
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+width: 72 mm (2.83 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
