@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_d69e5563",
+        "filename": "_data/devices/hero2lte.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16857
+      },
+      "writtenOn": "2017-02-12T10:03:35Z",
+      "side": 1,
+      "message": "no quotes here",
+      "revId": "18f13dc588f58676cd23de546d677e1572fe74a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_f6915153",
+        "filename": "_data/devices/herolte.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16857
+      },
+      "writtenOn": "2017-02-12T10:03:35Z",
+      "side": 1,
+      "message": "no quotes here",
+      "revId": "18f13dc588f58676cd23de546d677e1572fe74a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
