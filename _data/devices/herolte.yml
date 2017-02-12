@@ -1,0 +1,44 @@
+battery: 3000 mAh Li-Ion battery, non-removable
+bluetooth: 4.2 with A2DP, LE, apt-X
+cameras:
+- {flash: LED, info: 12MP, f/1.7, 26mm}
+- {flash: '', info: 5MP, f/1.7, 22mm}
+carrier:
+cdma:
+channels: [weekly]
+codename: herolte
+cpu: M1 + Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4x2.3GHz + 4x1.6GHz
+current_branch: 14.1
+download_boot: With the device powered off, hold Vol Down & Home & Power.
+gpu: ARM Mali-T880 MP12
+gsm: 850, 900, 1800, 1900(TD or PCS), 2000(TD), 2100
+has_recovery_partition: true
+image: herolte.png
+install_method: heimdall
+kernel: Linux 3.18
+lte: B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)
+maintainers: ['jesec', 'fevax']
+models: [SM-G930F, SM-G930FD, SM-G930S, SM-G930K, SM-G930L, SM-G930W8]
+name: Galaxy S7
+peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
+  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
+  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
+ram: 4GB
+recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
+  blue text appears, release the buttons.
+release: 18 March 2016
+screen: 5.1 inches
+screen_ppi: '577'
+screen_res: 2560x1440
+screen_tech: 2K Super AMOLED
+sdcard: up to 256 GB
+soc: Samsung Exynos 8890
+storage: 32 GB, 64GB
+tree: android_device_samsung_herolte
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac
