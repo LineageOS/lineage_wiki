@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_4ce8927c",
+        "filename": "_data/devices/ghost.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-12T22:45:08Z",
+      "side": 1,
+      "message": "These are not supported according to the ota_assert.",
+      "range": {
+        "startLine": 25,
+        "startChar": 9,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "952d8ae29418b3cb2fad18d6bc0c67c7fa0fe20d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
