@@ -1,5 +1,5 @@
 battery: Non-removable Li-Po 3000 mAh
-bluetooth: 4.2 A2DP, LE
+bluetooth: v4.2 with A2DP, LE, aptX
 cameras:
 - {flash: dual-LED (dual tone), info: 16MP}
 - {flash: '', info: 4MP}
@@ -26,7 +26,7 @@ lte: 850 (B5) 1800 (B3) 2100 (B1) 2600 (B7) MHz FDD,
   1900 (B39) 2300 (B40) 2500 (B41) 2600 (B38) MHz TDD
 maintainers: [bgcngm, defer, h2o64]
 name: Mi 5
-peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, NFC, IR]
+peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, NFC, IR, GPS]
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
