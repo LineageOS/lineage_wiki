@@ -24,17 +24,18 @@ lte:
 maintainers:
     - deadman96385
     - zakooz
+    - orion116
+    - mosimchah
 models: [SM-P600]
 name: Galaxy Tab 10.1 Wi-Fi (2014)
 peripherals:
     - Accelerometer
     - Compass
-    - Fingerprint
     - GPS
     - Gyroscope
 ram: 3GB
 recovery_boot: Hold **Home**, **Volume Up**, and **Power**
-release: 2014
+release: 2013
 screen: 10.1 inches
 screen_ppi: 299
 screen_res: 2560x1600
