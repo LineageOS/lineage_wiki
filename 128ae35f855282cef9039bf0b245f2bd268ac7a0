@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_2fa41856",
+        "filename": "_data/devices/cancro.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2017-02-13T10:43:48Z",
+      "side": 1,
+      "message": "*jrizzoli",
+      "revId": "128ae35f855282cef9039bf0b245f2bd268ac7a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
