@@ -73,23 +73,25 @@ ul, ol {
         <td class="header">GPU</td>
         <td>{{ device.gpu }}</td>
     </tr>
-    {% if device.gsm or device.cdma or device.lte %}
+	{% if device.network %}
+    {% if device.network[0].bands != '' or device.network[1].bands != '' or device.network[2].bands != '' %}
     <tr>
         <td class="header">Network</td>
         <td>
             <ul>
-                {% if device.gsm %}
-                    <li><strong>GSM:</strong> {{ device.gsm }}</li>
-                {% endif %}
-                {% if device.cdma %}
-                    <li><strong>CDMA:</strong> {{ device.cdma }}</li>
-                {% endif %}
-                {% if device.lte %}
-                    <li><strong>LTE:</strong> {{ device.lte }}</li>
-                {% endif %}
+                {% for el in device.network %}
+                    {% if el.bands != '' %}
+                        <li>
+                        {{ el.tech }} bands: {{ el.bands }}
+                        </li>
+                    {% else %}
+                        {% continue %}
+                    {% endif %}
+                {% endfor %}
             </ul>
         </td>
     </tr>
+    {% endif %}
     {% endif %}
     <tr>
         <td class="header">Storage</td>

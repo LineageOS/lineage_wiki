@@ -4,8 +4,6 @@ cameras:
 - {flash: Dual LED, info: 13MP F/2.0}
 - {flash: '', info: 5MP F/2.4}
 carrier:
-cdma: "Europe/Asia - WCDMA: Bands 1/2/5/8China - WCDMA: Bands 1/2/5/8TD-SCDMA\_: Bands\
-  \ 34/39North America - WCDMA: Bands 1/2/4/5/8"
 channels: [weekly]
 codename: oneplus2
 cpu: Cortex A53 & A57
@@ -15,16 +13,17 @@ current_branch: 14.1
 depth: 9.85 mm
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 430
-gsm: 850, 900, 1800, 1900 MHz
 has_recovery_partition: true
 height: 151.8 mm
 image: oneplus2.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8994
-lte: "Europe/Asia - FDD-LTE: Bands 1/3/5/7/8/20TDD-LTE: Bands 38/40/41China - FDD-LTE\_\
-  : Bands 1/3/7TDD-LTE\_: Bands 38/39/40/41North America - FDD-LTE: Bands 1/2/4/5/7/8/12/17"
 maintainers: [ciwrl, Grarak, raymanfx]
 name: '2'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 MHz HSDPA (Global model)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) 41(2500) (Global model)' }
 peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, Fingerprint, Accelerometer,
   Gyroscope, Proximity and Ambient Light]
 ram: 3GB / 4GB

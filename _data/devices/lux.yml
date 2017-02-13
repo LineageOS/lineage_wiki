@@ -4,7 +4,6 @@ cameras:
 - {flash: dual LED, info: 21MP}
 - {flash: '', info: 5MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: lux
 cpu: Cortex A53
@@ -14,15 +13,17 @@ current_branch: 14.1
 depth:
 download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 405
-gsm:
 has_recovery_partition: true
 height:
 image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-lte:
 maintainers: ['']
 name: Moto X Play
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 2GB
 recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.

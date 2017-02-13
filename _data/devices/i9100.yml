@@ -4,7 +4,6 @@ cameras:
 - {flash: '', info: 8MP w/ LED-flash}
 - {flash: '', info: 1.9MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: i9100
 cpu: Cortex A9
@@ -14,15 +13,17 @@ current_branch: 14.1
 depth:
 download_boot: Volume Down, Home & Power
 gpu: ARM Mali-400
-gsm: 850 900 1800 1900 MHz GPRS/EDGE850 900 1900 2100 MHz UMTS/HSPA+
 has_recovery_partition: true
 height:
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-lte:
 maintainers: [Caio Schnepper]
 name: Galaxy S II
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 1GB
 recovery_boot: Volume Up, Home, & Power

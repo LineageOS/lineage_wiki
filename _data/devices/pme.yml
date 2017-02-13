@@ -4,7 +4,6 @@ cameras:
 - {flash: Dual-LED, info: 12MP, f/1.8, 26mm}
 - {flash: '', info: 5MP, f/1.8, 23mm}
 carrier:
-cdma: 800/1900 with EVDO Rev A
 channels: [weekly]
 codename: pme
 cpu: Kyro
@@ -13,14 +12,16 @@ cpu_freq: 2x2.15 GHz, 2x1.6 GHz
 current_branch: 14.1
 download_boot: Hold Volume Down while booting.
 gpu: Adreno 530
-gsm: 850/900/1800/1900/2100 MHz
 has_recovery_partition: true
 image: pme.png
 install_method: TODO
 kernel:
-lte: Bands 1, 2, 3, 4, 5, 7, 12, 13, 17, 20, 28, 29, 30
 maintainers: [crpalmer]
 name: '10'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA)' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (EMEA), 850 900 1700(AWS) 1900 2100 MHz HSDPA (USA)' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) 41(2500) (EMEA), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 28(700) 29(700) 30(2300) (USA)' }
 peripherals: [Iceview Cases]
 ram: 4GB
 recovery_boot: Boot into download (hold Volume Down while booting), select ```Reboot to bootloader``` and then in the bootloader select ```Boot to recovery mode```.

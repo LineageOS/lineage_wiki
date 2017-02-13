@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: none, info: 2MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: n1awifi
 cpu: Cortex A15 & A7
@@ -14,18 +13,20 @@ current_branch: 14.1
 depth: 7.9mm
 download_boot: Hold **Home**, **Volume Down**, and **Power**
 gpu: ARM Mali-T628MP6
-gsm:
 has_recovery_partition: true
 height: 243.1mm
 image: n1awifi.png
 install_method: TODO
 kernel: android_kernel_samsung_exynos5420
-lte:
 maintainers:
     - deadman96385
     - zakooz
 models: [SM-P600]
 name: Galaxy Tab 10.1 Wi-Fi (2014)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals:
     - Accelerometer
     - Compass

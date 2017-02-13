@@ -4,7 +4,6 @@ cameras:
 - {flash: '', info: 8MP}
 - {flash: '', info: 2MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: jalebi
 cpu: Cortex A53
@@ -14,14 +13,16 @@ current_branch: 13.0
 download_boot: Power off the device then hold Volume UP and Power buttons. Select
   "reboot to bootloader".
 gpu: Adreno 306
-gsm:
 has_recovery_partition: true
 image: jalebi.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-lte:
 maintainers: ['']
 name: Yunique
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: [64 bit, dual SIM]
 ram: 1GB
 recovery_boot: Power off the device then hold Volume UP and Power buttons.
