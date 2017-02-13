@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_4f5ac484",
+        "filename": "_data/devices/ivy.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15143
+      },
+      "writtenOn": "2017-02-13T09:46:47Z",
+      "side": 1,
+      "message": "It\u0027s 32 GB actually",
+      "revId": "1eb41bcd3c6af074b5084c5e2fd1c0d4a6c33e79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
