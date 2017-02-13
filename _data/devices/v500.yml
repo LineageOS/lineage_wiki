@@ -4,7 +4,6 @@ cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: 1.3MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: v500
 cpu: Qualcomm Krait 300
@@ -13,15 +12,17 @@ cpu_freq: 1.7 GHz
 current_branch: 14.1
 depth:
 gpu: Adreno 320
-gsm:
 has_recovery_partition: true
 height:
 image: v500.png
 install_method: TODO
 kernel: android_kernel_lge_v500
-lte:
 maintainers: [fefifofum]
 name: G Pad 8.3
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, microphone]
 ram: 2GB
 recovery_boot:

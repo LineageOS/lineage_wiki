@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 8MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: onyx
 cpu: Krait 400
@@ -13,14 +12,16 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 330
-gsm:
 has_recovery_partition: true
 image: onyx.png
 install_method: fastboot_nexus
 kernel: ''
-lte:
 maintainers: ['']
 name: X
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 3GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.

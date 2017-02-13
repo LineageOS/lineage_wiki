@@ -3,8 +3,7 @@ bluetooth: v2.1 with A2DP, EDR
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: VGA}
-carrier: Verizon
-cdma: 800/1900 CDMA2000 1xEV-DO
+carrier: Verizon Wireless
 channels: [weekly]
 codename: targa
 cpu: Cortex-A9
@@ -13,14 +12,16 @@ cpu_freq: 1 GHz
 current_branch: 13.0
 download_boot: Vol Up & Vol Down & Power
 gpu: PowerVR SGX540
-gsm:
 has_recovery_partition: true
 image: targa.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-lte: 700 MHz Class 13
 maintainers: [Hashcode0f]
 name: Droid Bionic
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '13(700)' }
 peripherals: [Accelerometer, proximity, compass, GPS]
 ram: 1GB
 recovery_boot: Power and at SafeStrap splash screen press Menu key within 10 seconds

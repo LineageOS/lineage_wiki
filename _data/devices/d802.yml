@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 2.1MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: d802
 cpu: Qualcomm Krait 400
@@ -15,15 +14,17 @@ depth:
 download_boot: With the device powered down, plug in a USB cable while pressing Volume
   Up.
 gpu: Adreno 330
-gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz UMTS
 has_recovery_partition: true
 height:
 image: g2.png
 install_method: TODO
 kernel: android_kernel_lge_msm8974
-lte: 800 850 900 1800 2100 2600 MHz
 maintainers: ['']
 name: G2 (International)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz UMTS' }
+- {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz' }
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnometer,
   microphone, NFC]
 ram: 2GB

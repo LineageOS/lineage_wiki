@@ -4,7 +4,6 @@ cameras:
 - {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
 - {flash: '', info: 8MP}
 carrier:
-cdma: 800 1900 MHz (All models)
 channels: [weekly]
 codename: angler
 cpu: Quad-core Cortex-A53 & Quad-core Cortex-A57
@@ -14,18 +13,17 @@ current_branch: 14.1
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold Volume Down & Power buttons.
 gpu: Adreno 430
-gsm: 850 900 1800 1900 MHz GSM (All models),
-   850 900 1700 1900 2100 MHz HSDPA (American model),
-   800 850 900 1700 1800 1900 2100 MHz HSDPA (Global model)
 has_recovery_partition: true
 height: 159.3 mm (6.27 in)
 image: angler.png
 install_method: fastboot_nexus
 kernel: android_kernel_huawei_angler
-lte: 700 850 1700 1800 1900 2100 2300 2500 2600 MHz (American model),
-   700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz (Global model)
 maintainers: ['']
 name: Nexus 6P
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (American model), 800 850 900 1700 1800 1900 2100 MHz HSDPA (Global model)' }
+- {tech: 4G, bands: '700 850 1700 1800 1900 2100 2300 2500 2600 MHz LTE (American model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
 peripherals: [Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer, NFC]
 ram: 3GB
 recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery

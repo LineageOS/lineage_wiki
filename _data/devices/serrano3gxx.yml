@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: 1.9 MP 720p HD Video Recording @ 30fps}
 carrier:
-cdma:
 channels: [weekly]
 codename: serrano3gxx
 cpu: Krait
@@ -13,15 +12,16 @@ cpu_freq: 1.7 GHz
 current_branch: 13.0
 download_boot: Vol Down & Home & Power
 gpu: Adreno 305
-gsm: EDGE / GPRS Class 33 / GSM Quad Band (850 / 900 / 1,800 / 1,900MHz)3G (850 /
-  900 / 1,900 / 2,100MHz)
 has_recovery_partition: true
 image: serranoltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
-lte:
 maintainers: [Arne Coucheron]
 name: Galaxy S4 Mini (International 3G)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
 peripherals: [Accelerometer, gyroscope, proximity sensor, compass, SNS integration,
   stereo FM radio with RDS, infrared port, GPS/GLONASS, microUSB v2.0, Corning Gorilla
     Glass]

@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 5MP}
 - {flash: '', info: 1.9MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: manta
 cpu: Cortex-A15
@@ -13,14 +12,16 @@ cpu_freq: 1.7 GHz
 current_branch: 13.0
 download_boot: Volume Down & Volume Up & Power
 gpu: Mali T604
-gsm:
 has_recovery_partition: true
 image: manta.png
 install_method: fastboot_nexus
 kernel:
-lte:
 maintainers: [atinm, Kornyone, gweedo767]
 name: Nexus 10
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnetometer,
   barometer, microphone, dual side NFC]

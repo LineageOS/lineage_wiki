@@ -4,7 +4,6 @@ cameras:
 - {flash: dual-LED, info: 20MP}
 - {flash: '', info: 4MP}
 carrier: Verizon Wireless
-cdma: 800 1900 MHz CDMA<br>1xEV-DO CDMA2000
 channels: [weekly]
 codename: himawl
 cpu: Cortex A53 & A57
@@ -15,15 +14,17 @@ depth: 9.6 mm (0.38 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until HBOOT appears, then release the buttons.
 gpu: Adreno 430
-gsm: 850 900 1800 1900 MHz GSM<br>850 900 1900 2100 MHz HSDPA
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: TODO
 kernel: android_kernel_htc_msm8994
-lte: 700 1700 2100 MHz
 maintainers: [flyhalf205]
 name: One M9 (Verizon)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA, CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '4(1700/2100), 13(700)' }
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnometer, NFC, IR]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons

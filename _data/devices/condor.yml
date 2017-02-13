@@ -4,7 +4,6 @@ cameras:
 - {flash: none, info: 5MP}
 - {flash: '', info: none}
 carrier:
-cdma:
 channels: [weekly]
 codename: condor
 cpu: Cortex A7
@@ -14,14 +13,16 @@ current_branch: 14.1
 download_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll and Volume Up to select.
 gpu: Adreno 302
-gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz
 has_recovery_partition: true
 image: condor.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
-lte:
 maintainers: ['']
 name: Moto E
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
 peripherals: [Accelerometer, proximity, compass]
 ram: 1GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume

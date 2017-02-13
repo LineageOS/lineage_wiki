@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 1.3MP}
 carrier:
-cdma: 800 1900 MHz
 channels: [weekly]
 codename: hammerhead
 cpu: Snapdragon 800 Krait 400
@@ -15,15 +14,17 @@ depth:
 download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
   Then press and hold the Power button until a boot menu appears.
 gpu: Adreno 330
-gsm: 800 850 900 1700 1900 2100 MHz UMTS/HSDPA
 has_recovery_partition: true
 height:
 image: hammerhead.png
 install_method: fastboot_nexus
 kernel:
-lte: 700 800 850 1700 1900 2100 2600 MHz
 maintainers: ['']
 name: Nexus 5
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (North America model)' }
+- {tech: 3G, bands: '800 850 900 1700 1900 2100 MHz HSDPA (North Amera model), 850 900 1700 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 17(700) 19(800) 25(1900) 26(850) 41(2500) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
 no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2GB
