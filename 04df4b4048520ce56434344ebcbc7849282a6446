@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a2585a7_2f11b8ac",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-13T09:14:22Z",
+      "side": 1,
+      "message": "I would put this in bold instead.",
+      "range": {
+        "startLine": 8,
+        "startChar": 9,
+        "endLine": 8,
+        "endChar": 41
+      },
+      "revId": "04df4b4048520ce56434344ebcbc7849282a6446",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_0f26fc16",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-13T09:14:22Z",
+      "side": 1,
+      "message": "And this inside double quotes.",
+      "range": {
+        "startLine": 8,
+        "startChar": 104,
+        "endLine": 8,
+        "endChar": 136
+      },
+      "revId": "04df4b4048520ce56434344ebcbc7849282a6446",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
