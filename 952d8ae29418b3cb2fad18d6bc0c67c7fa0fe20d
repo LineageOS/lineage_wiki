@@ -22,6 +22,30 @@
       "revId": "952d8ae29418b3cb2fad18d6bc0c67c7fa0fe20d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a2585a7_6fa6a0c3",
+        "filename": "_data/devices/ghost.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 17096
+      },
+      "writtenOn": "2017-02-13T19:18:27Z",
+      "side": 1,
+      "message": "\u003e These are not supported according to the ota_assert.\n\nYeah you\u0027re right.",
+      "parentUuid": "5a2585a7_4ce8927c",
+      "range": {
+        "startLine": 25,
+        "startChar": 9,
+        "endLine": 25,
+        "endChar": 23
+      },
+      "revId": "952d8ae29418b3cb2fad18d6bc0c67c7fa0fe20d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
