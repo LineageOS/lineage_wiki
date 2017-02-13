@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 13MP}
 - {flash: '', info: 5MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: Z00L
 cpu: Cortex A53
@@ -13,14 +12,16 @@ cpu_freq: 1.7/1.0 GHz/1.2 GHz
 current_branch: 14.1
 download_boot: Hold Volume Up & Power simultaneously.
 gpu: Adreno 405/306
-gsm: 850 / 900 / 1800 / 1900WCDMA 850 / 900 / 1700 / 1900 / 2100
 has_recovery_partition: true
 image: Z00T.png
 install_method: TODO
 kernel: android_kernel_asus_msm8916
-lte: 2100 / 1900 / 1800 / 1700AWS 850 / 2600 / 900 / 700 / 800
 maintainers: [LuK1337, luca020400]
 name: Zenfone 2 Laser (720p)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '2100 1900 1800 1700(AWS) 850 2600 900 700 800 MHz' }
 peripherals: [Accelerometer, gyroscope, proximity, compass]
 ram: 2GB
 recovery_boot: Hold Volume Down & Power simultaneously.

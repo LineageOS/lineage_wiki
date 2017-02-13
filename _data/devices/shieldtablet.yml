@@ -4,7 +4,6 @@ cameras:
 - {flash: '', info: 5MP}
 - {flash: '', info: 5MP}
 carrier: AT&T, T-Mobile
-cdma:
 channels: [weekly]
 codename: shieldtablet
 cpu: Cortex A15
@@ -14,16 +13,17 @@ current_branch: 13.0
 depth:
 download_boot: Hold Volume Down & tap Power, release once menu is displayed.
 gpu: GK20A (Kepler)
-gsm: 850 1700 1900 2100 MHz HSPA+ US, 850 900 1900 2100 HSPA+ International (depending
-  on model)
 has_recovery_partition: true
 height:
 image: shieldtablet.png
 install_method: TODO
 kernel: ''
-lte: 700 850 1700 1900 2600 US, 800 1800 2100 2600 International (depending on model)
 maintainers: ['']
 name: Shield Tablet
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 1700 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 HSDPA (International, depending on model)' }
+- {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (North America), 1(2100) 3(1800) 7(2600) 20(800) (International, depending on model)' }
 peripherals: ['']
 ram: 2GB
 recovery_boot: Hold Volume Down & tap Power, release once menu is displayed. Tap Volume

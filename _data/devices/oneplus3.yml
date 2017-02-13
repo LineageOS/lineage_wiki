@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 8MP (3) / 16MP (3T)}
 carrier:
-cdma: CDMA2000 1xEV-DO (China / North America models)
 channels: [weekly]
 codename: oneplus3
 cpu: Kyro
@@ -14,18 +13,17 @@ current_branch: 14.1
 depth: 7.4 mm (0.29 in)
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 530
-gsm: 850 900 1800 1900 MHz GSM (All models),
-  850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model),
-  850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)
 has_recovery_partition: true
 height: 152.7 mm (6.01 in)
 image: oneplus3.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8996
-lte: Band 1(2100), 2(1900), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 17(700), 30(2300) LTE (North America model),
-  Band 1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800), 38(2600), 40(2300) LTE (Europe / Asia models)
 maintainers: [cyanogen, dianlujitao, Grarak]
 name: '3 / 3T'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), CDMA2000 1xEV-DO (China / North America models)' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model), 850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 30(2300) LTE (North America model), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) LTE (Europe / Asia models)' }
 peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, NFC]
 ram: 6GB LPDDR4
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.

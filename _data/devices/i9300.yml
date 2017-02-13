@@ -9,9 +9,10 @@ release: May 2012
 type: phone
 carrier:
 # connectivity
-cdma:
-gsm: 850 900 1900 2100 MHz UMTS/HSPA+
-lte:
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
 bluetooth: 4.0
 wifi: 802.11 a/b/g/n
 # camera
