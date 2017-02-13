@@ -3,7 +3,6 @@ bluetooth: '4.0'
 cameras:
 - {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}
 carrier:
-cdma:
 channels: [weekly]
 codename: n3
 cpu: Krait 400
@@ -13,15 +12,17 @@ current_branch: 14.1
 depth: 8.7 mm
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 330
-gsm:
 has_recovery_partition: true
 height: 161.2 mm
 image: n3.png
 install_method: TODO
 kernel:
-lte:
 maintainers: ['']
 name: N3
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 2GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.

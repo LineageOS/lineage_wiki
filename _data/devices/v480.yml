@@ -20,6 +20,10 @@ install_method: TODO
 kernel: android_kernel_lge_v4xx
 maintainers: [João Paulo Just Peixoto]
 name: G Pad 8.0 (Wi-Fi)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: [accelerometer, digital compass, GPS, gravity, magnetometer, microphone, pedometer]
 ram: 1GB
 recovery_boot: With the device powered off, hold POWER+VOL DOWN buttons. When the LG logo appears,

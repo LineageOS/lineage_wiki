@@ -4,7 +4,6 @@ cameras:
 - {flash: dual LED, info: 16MP}
 - {flash: '', info: 5MP}
 carrier:
-cdma: 1900 MHz
 channels: [weekly]
 codename: athene
 cpu: Cortex A53
@@ -13,14 +12,16 @@ cpu_freq: 1.5 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 405
-gsm: 850 900 1800 1900 MHz GSM, 850 900 1700 1900 2100 MHz UMTS
 has_recovery_partition: true
 image: athene.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8952
-lte: 700 850 1700 1800 1900 2600 MHz
 maintainers: ['']
 name: Moto G4
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz UMTS' }
+- {tech: 4G, bands: '700 850 1700 1800 1900 2600 MHz' }
 peripherals: ['']
 ram: 2/3/4GB
 recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.

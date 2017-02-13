@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8MP F/2.2 BSI 28mm lens}
 - {flash: '', info: 0.3MP}
 carrier: Verizon Wireless
-cdma: 800 1900 MHz
 channels:
 codename: fireball
 cpu: Krait
@@ -14,15 +13,17 @@ current_branch: 14.1
 depth: 12 mm
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 225
-gsm:
 has_recovery_partition: true
 height: 122 mm
 image: fireball.png
 install_method: TODO
 kernel: android_kernel_htc_msm8960
-lte: 700 (band 13)
 maintainers: [mdmower]
 name: DROID Incredible 4G LTE
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '13(700)' }
 peripherals: [Wi-Fi Direct, Wi-Fi Hotspot, GPS, NFC, Light sensor, Proximity Sensor]
 ram: 1GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.

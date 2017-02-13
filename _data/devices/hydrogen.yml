@@ -4,7 +4,6 @@ cameras:
 - {flash: dual-tone, info: 16MP}
 - {flash: '', info: 5MP}
 carrier:
-cdma: 1900 2000 850 900 1900 2100 MHz
 channels: [weekly]
 codename: hydrogen
 cpu: Cortex A53 & A72
@@ -15,15 +14,17 @@ depth: 7.5 mm (0.30 in)
 download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
   Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 510
-gsm: 850 900 1800 1900 MHz
 has_recovery_partition: true
 height: 173.1 (6.81 in)
 image: hydrogen.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8956
-lte: B1 B3 B5 B7 B38 B39 B40 B41
 maintainers: [TheStrix]
 name: Mi Max
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA, CDMA2000 1xEV-DO TD-SCDMA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
 peripherals: [Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, IR, FM Radio]
 ram: 3 GB
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.

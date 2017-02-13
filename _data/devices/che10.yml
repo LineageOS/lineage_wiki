@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8 / 13 MP}
 - {flash: '', info: 2 / 5 MP}
 carrier:
-cdma: "CDMA 800\nCDMA EVDO 800 \nTD-SCDMA B34/39\nWCDMA B1/8"
 channels: [weekly]
 codename: che10
 cpu: Cortex A53
@@ -13,16 +12,16 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: Volume Down & Power
 gpu: Adreno 306
-gsm: GSM 900 /1800 / 1900
 has_recovery_partition: true
 image: cherry.png
 install_method: TODO
 kernel: android_kernel_huawei_msm8916
-lte: 'TD-LTE B38/39/40/41
-
-  FDD-LTE B1/3'
 maintainers: [dianlujitao]
 name: Honor 4x (China Telecom)
+network:
+- {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 MHz CDMA' }
+- {tech: 3G, bands: '1 8 UMTS, 34 39 TD-SCDMA' }
+- {tech: 4G, bands: '38 39 40 41 TDD-LTE, 1 3 FDD-LTE' }
 peripherals: [Accelerometer, proximity, compass]
 ram: 1GB / 2GB
 recovery_boot: Volume Up & Power
