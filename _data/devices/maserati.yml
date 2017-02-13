@@ -3,8 +3,7 @@ bluetooth: ' v4.0 with LE+EDR'
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 1.3MP}
-carrier: Verizon
-cdma: 800/1900 CDMA2000 1xEV-DO
+carrier: Verizon Wireless
 channels: [weekly]
 codename: maserati
 cpu: Cortex-A9
@@ -13,14 +12,16 @@ cpu_freq: 1.2 GHz
 current_branch: 13.0
 download_boot: Vol Up & Vol Down & Power
 gpu: PowerVR SGX540
-gsm: 850/900/1800/1900 HSDPA 850/900/1900/2100
 has_recovery_partition: true
 image: maserati.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-lte: 700 MHz Class 13
 maintainers: [Hashcode0f]
 name: Droid 4
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '13(700)' }
 peripherals: [Accelerometer, proximity, compass, GPS, HDMI, FM Radio (Not officialy
     supported)]
 ram: 1GB

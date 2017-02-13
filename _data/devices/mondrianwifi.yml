@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: mondrianwifi
 cpu: Snapdragon 800 Krait 400
@@ -13,14 +12,16 @@ cpu_freq: 2.26 GHz
 current_branch: 13.0
 download_boot: Hold Volume Down while booting.
 gpu: Adreno 330
-gsm:
 has_recovery_partition: true
 image: mondrianwifi.png
 install_method: heimdall
 kernel:
-lte:
 maintainers: [crpalmer]
 name: Galaxy Tab Pro 8.4
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 2GB
 recovery_boot: Hold Volume Up while booting.

@@ -4,7 +4,6 @@ cameras:
 - {flash: Dual LED, info: 13 MP}
 - {flash: '', info: 2.1 MP}
 carrier:
-cdma: 800 1900 MHz (North/South American model only)
 channels: [weekly]
 codename: shamu
 cpu: Krait 450
@@ -14,16 +13,17 @@ current_branch: 14.1
 depth: 10.1 mm (0.40 in)
 download_boot: Hold down the Volume Down button while booting.
 gpu: Adreno 420
-gsm: 850 900 1800 1900 MHz UTMS HSPA+
 has_recovery_partition: true
 height: 159.3 mm (6.27 in)
 image: shamu.png
 install_method: fastboot_nexus
 kernel:
-lte: 700 850 1700 1800 1900 2500 2600 MHz (North/South American models)<br>
-   700 800 850 900 1800 2100 2500 2600 MHz (Afro-Eurasian models)
 maintainers: ['']
 name: Nexus 6
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American model only)' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (North/South American model only), 800 850 900 1700 1800 1900 2100 MHz HSDPA (Afro-Eurasian models)' }
+- {tech: 4G, bands: '2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900) 26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)' }
 peripherals: [Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer, Magnetometer,
   NFC, Wi-Fi Hotspot, Qi wireless charging, Dual front speakers]
 ram: 3GB

@@ -4,7 +4,6 @@ cameras:
 - {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
 - {flash: '', info: 5MP}
 carrier:
-cdma: 800 1900 MHz (American model)
 channels: [weekly]
 codename: bullhead
 cpu: Cortex-A53 & Cortex-A57
@@ -14,20 +13,17 @@ current_branch: 14.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold Volume Down & Power buttons.
 gpu: Adreno 418
-gsm: 850 900 1800 1900 MHz GSM (All models),
-   850 900 1700 1900 2100 MHz HSDPA (American model),
-   850 900 1900 2100 MHz HSDPA (Asian model),
-   800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)
 has_recovery_partition: true
 height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
-lte: 700 800 850 1700 1800 1900 2100 2600 MHz (American model),
-   850 900 1700 1800 2100 2300 2500 2600 MHz (Asian Model),
-   700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz (Global model)
 maintainers: ['']
 name: Nexus 5X
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (American model), 850 900 1900 2100 MHz HSDPA (Asian model), 800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)' }
+- {tech: 4G, bands: '700 800 850 1700 1800 1900 2100 2600 MHz LTE (American model), 850 900 1700 1800 2100 2300 2500 2600 MHz LTE (Asian Model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
 peripherals: [Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer]
 ram: 2GB
 recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery

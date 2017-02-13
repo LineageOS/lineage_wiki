@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 13 megapixels}
 - {flash: '', info: 5 megapixels}
 carrier:
-cdma: 900, 2100 MHz
 channels: [weekly]
 codename: seed
 cpu: Cortex-A53, 64-bit
@@ -13,14 +12,16 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 306
-gsm: 850, 900, 1800, 1900 MHz
 has_recovery_partition: true
 image: seed.png
 install_method: TODO
 kernel:
-lte: Bands 20, 3, 7
 maintainers: [Arvin Quilao]
 name: Android One 2nd Gen
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 900 2100 MHz CDMA' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '20 3 7' }
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity]
 ram: 2GB / 1GB for IQ II
 recovery_boot: With the device powered off, hold Volume Up & Power

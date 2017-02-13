@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 16MP}
 - {flash: '', info: 2MP}
 carrier: Project Foo
-cdma: Dual-band CDMA 800 1900 MHz; 1xEV-DO 2000MHz
 channels: [weekly]
 codename: sample
 cpu: Krait 400
@@ -15,16 +14,18 @@ depth: 7.3 mm (0.29 in)
 # download/fastboot mode
 download_boot: With the device powered off, hold Vol Down & Home & Power.
 gpu: Adreno 330
-gsm: 2100 3100 9001 MHz UMTS/HSPA+
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: sample.png
 install_method: heimdall
 kernel: android_kernel_lge_msm8974
-lte: Band 1, 3, 7, 8, 28 (FDD); Band 40, 42 (TDD)
 maintainers: [you, another person, a third person]
 models: [A0001, SM-G900F]
 name: Galaxy Note Sample
+network:
+- {tech: 2G, bands: '850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1800 1900 HSDPA, CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '3(1800) 7(2600) 8(900) 20(800) LTE' }
 peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
