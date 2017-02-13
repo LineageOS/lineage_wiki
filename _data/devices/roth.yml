@@ -2,7 +2,6 @@ battery: "7350 mAh (28.8 W\xC2\xB7h)"
 bluetooth: '3.0'
 cameras: []
 carrier:
-cdma:
 channels: [weekly]
 codename: roth
 cpu: Cortex A15
@@ -12,15 +11,17 @@ current_branch: 13.0
 depth:
 download_boot: Hold Back & Home & tap Power, release once menu is displayed.
 gpu: Tegra 4
-gsm:
 has_recovery_partition: true
 height:
 image: roth.png
 install_method: TODO
 kernel: ''
-lte:
 maintainers: ['']
 name: Shield Portable
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 2GB
 recovery_boot: Hold Back & Home & tap Power, release once menu is displayed. Tap Home

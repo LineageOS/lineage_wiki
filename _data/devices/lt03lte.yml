@@ -4,7 +4,6 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2.1MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: lt03lte
 cpu: Krait 400
@@ -13,14 +12,16 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 download_boot: With power off, hold Home & Volume Down & Power simultaneously.
 gpu: Adreno 330
-gsm:
 has_recovery_partition: true
 image: lt03wifi.png
 install_method: heimdall
 kernel: ''
-lte:
 maintainers: ['']
 name: Galaxy Note 10.1 2014 (LTE)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 3GB
 recovery_boot: With power off, hold Home & Volume Up & Power simultaneously.

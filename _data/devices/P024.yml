@@ -4,7 +4,6 @@ cameras:
 - {flash: '', info: 5MP/8MP}
 - {flash: '', info: 2MP}
 carrier:
-cdma:
 channels: [weekly]
 codename: P024
 cpu: Cortex A53
@@ -13,14 +12,16 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold Volume Up & Power
 gpu: Adreno 306
-gsm:
 has_recovery_partition: true
 image: P024.png
 install_method: TODO
 kernel:
-lte:
 maintainers: [vm03]
 name: ZenPad 8.0 (Z380KL)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 1GB/2GB
 recovery_boot:
