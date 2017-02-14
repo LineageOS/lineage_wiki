@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_caf583cc",
+        "filename": "_data/devices/ghost.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-14T10:03:31Z",
+      "side": 1,
+      "message": "The model from this carrier (xt1050) is not supported, so it might not be a good idea to list here. Confuse users",
+      "range": {
+        "startLine": 6,
+        "startChar": 26,
+        "endLine": 6,
+        "endChar": 43
+      },
+      "revId": "23e8ae21102a6d98bd92199a71f86fd1e978ac25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
