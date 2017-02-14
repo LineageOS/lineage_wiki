@@ -1,10 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Info about chagallwifi
+title: Build for chagallwifi
 folder: info
-layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: chagallwifi_info.html
+permalink: chagallwifi_build.html
 device: chagallwifi
 ---
-{% include templates/device_info.md %}
+{% include templates/device_build.md %}
