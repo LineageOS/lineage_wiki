@@ -27,7 +27,7 @@ maintainers:
     - orion116
     - mosimchah
 models: [SM-P600]
-name: Galaxy Tab 10.1 Wi-Fi (2014)
+name: Galaxy Note 10.1 Wi-Fi (2014)
 peripherals:
     - Accelerometer
     - Compass
