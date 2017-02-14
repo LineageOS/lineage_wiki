@@ -1,0 +1,44 @@
+battery: 4070 mAh (non-removable)
+bluetooth: v4.2 with A2DP, BLE
+cameras:
+- {flash: dual-LED (dual tone), info: 16MP}
+- {flash: '', info: 8MP}
+carrier:
+cdma: 800 1900 MHz
+channels: [weekly]
+codename: zl1
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.35 GHz & 2 x 2.0 GHz
+current_branch: 13.0
+depth: 7.5 mm (0.30 in)
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 530
+gsm: 850 900 1800 1900 MHz
+has_recovery_partition: true
+height: 151.4 mm (5.96 in)
+image: zl1.png
+install_method: TODO
+kernel: android_kernel_leeco_msm8996
+lte: 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz
+maintainers: [jrior001, codeworkx]
+models: [LEX720, LEX727]
+name: Le Pro3
+peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass]
+ram: 4GB / 6GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016 September
+screen: 5.5 in
+screen_ppi: ~403
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8996 Snapdragon 821
+storage: 32GB / 64GB
+tree: android_device_leeco_zl1
+type: phone
+vendor: LeEco
+vendor_short: leeco
+versions: [13.0]
+width: 73.9 mm (2.91 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
