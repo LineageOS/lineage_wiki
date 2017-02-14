@@ -1,10 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Info about n1awifi
+title: Build for n1awifi
 folder: info
-layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: n1awifi_info.html
+permalink: n1awifi_build.html
 device: n1awifi
 ---
-{% include templates/device_info.md %}
+{% include templates/device_build.md %}
