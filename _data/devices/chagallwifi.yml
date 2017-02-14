@@ -16,7 +16,7 @@ gpu: ARM Mali-T628MP6
 has_recovery_partition: true
 height: 247.3mm
 image: chagallwifi.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
 maintainers:
     - deadman96385

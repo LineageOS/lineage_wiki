@@ -1,10 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Info about klimtwifi
+title: Build for klimtwifi
 folder: info
-layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: klimtwifi_info.html
+permalink: klimtwifi_build.html
 device: klimtwifi
 ---
-{% include templates/device_info.md %}
+{% include templates/device_build.md %}
