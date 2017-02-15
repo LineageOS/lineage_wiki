@@ -200,6 +200,9 @@ $ ./extract-files.sh
 The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
 
+{% include important.html content="You will need to ensure that root
+access is allowed over ADB, else some files may not be extracted." %}
+
 ### Turn on caching to speed up build
 
 You can speed up subsequent builds by running:
