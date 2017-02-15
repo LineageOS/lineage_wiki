@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_9eed8df2",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-02-15T20:05:41Z",
+      "side": 1,
+      "message": "`repo sync`",
+      "range": {
+        "startLine": 165,
+        "startChar": 33,
+        "endLine": 165,
+        "endChar": 42
+      },
+      "revId": "3e64a3cb0b5e193cb498457af504b4bbfee4db36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
