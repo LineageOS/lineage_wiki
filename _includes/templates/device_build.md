@@ -200,6 +200,10 @@ $ ./extract-files.sh
 The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
 
+You may have to do this for more than one vendor directory (i.e. on a
+Samsung Galaxy S3 i9300 it's needed in both android/system/vendor/i9300
+and android/system/vendor/smdk4412-common).
+
 {% include important.html content="You will need to ensure that root
 access is allowed over ADB, else some files may not be extracted." %}
 
