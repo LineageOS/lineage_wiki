@@ -160,6 +160,11 @@ The Lineage manifests include a sensible default configuration for repo, which w
 For reference, our default values are -j 4 and -c. The -j 4 part means that there will be four simultaneous threads/connections. If you experience
 problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull in only the current branch, instead of the entire CM history.
 
+If you get errors about "error: object <SHA1 hash>:contains zero-padded
+file modes" then check you do NOT have 'fsckObjects = true' set for any
+of the following sections in ~/.gitconfig (or other applicable git
+config files): transfer, fetch, receive.
+
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
 {% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
