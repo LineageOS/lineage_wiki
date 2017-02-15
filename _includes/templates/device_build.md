@@ -157,8 +157,8 @@ $ repo sync
 ```
 
 The Lineage manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
-For reference, our default values are -j 4 and -c. The -j 4 part means that there will be four simultaneous threads/connections. If you experience
-problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull in only the current branch, instead of the entire CM history.
+For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
+problems syncing, you can lower this to `-j 3` or `-j 2`. `-c` will ask repo to pull in only the current branch, instead of the entire Lineage history.
 
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
