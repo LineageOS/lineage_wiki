@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_919b3bc9",
+        "filename": "_data/devices/sumire.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 9783
+      },
+      "writtenOn": "2017-02-16T18:29:15Z",
+      "side": 1,
+      "message": "we should rather try to adapt the ivy_dsds solution instead. This won\u0027t make it to the weekly state anyways.",
+      "revId": "b5796c348592fb2e10a6fd19e7149f77424bbbf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
