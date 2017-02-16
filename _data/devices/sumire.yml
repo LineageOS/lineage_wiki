@@ -1,0 +1,49 @@
+battery: Non-removable 2900 mAh
+bluetooth: v4.1 + A2DP + aptX
+cameras:
+- {flash: 'LED', info: '23 MP f/2.0'}
+- {flash: '', info: '5.1 MP f/2.4'}
+carrier:
+channels: [weekly]
+codename: sumire
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '8'
+cpu_freq: 4 x 1.5 Ghz + 4 x 2.0 Ghz
+current_branch: 14.1
+depth: 7.3 mm
+download_boot: With the device powered down, hold Volume Down and connect the USB
+  cable. The notification light should turn green.
+gpu: Adreno 430
+has_recovery_partition: true
+height: 146.0 mm
+image: sumire.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8994
+maintainers: []
+name: Xperia Z5
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) LTE' }
+peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
+  Compass, Gyroscope, Light sensor, Proximity Sensor, Fingerprint]
+ram: 3 GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2015 September
+screen: 132.08 mm (5.2 in)
+screen_ppi: '424'
+screen_res: 1080x1920
+screen_tech: IPS LCD
+sdcard: microSD, up to 256 GB
+soc: Qualcomm MSM8994 Snapdragon 810
+storage: 32 GB
+tree: android_device_sony_sumire
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+width: 65.0 mm
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+note_show: true
+note_title: Dual SIM variants
+note_content: Make changes to **system.prop** and set **TARGET_KERNEL_CONFIG** := kitakami_sumire_dsds_defconfig
