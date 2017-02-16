@@ -79,7 +79,7 @@ To build cm-13.0, you'll also need:
 
 For Ubuntu 15.10 (wily) and newer, substitute:
 
-* `lib32readline-gplv2-dev` → `lib32readline6-dev`
+* `lib32-readline-gplv2-dev` → `lib32readline6-dev`
 
 For Ubuntu 16.04 (xenial) and newer, substitute:
 
@@ -157,12 +157,12 @@ $ repo sync
 ```
 
 The Lineage manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
-For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
-problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch, instead of the entire Lineage history.
+For reference, our default values are -j 4 and -c. The -j 4 part means that there will be four simultaneous threads/connections. If you experience
+problems syncing, you can lower this to -j 3 or -j 2. -c will ask repo to pull in only the current branch, instead of the entire CM history.
 
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
-{% include tip.html content="The `repo sync` command is used to update the latest source code from LineageOS and Google. Remember it, as you may want to
+{% include tip.html content="The repo sync command is used to update the latest source code from LineageOS and Google. Remember it, as you can
 do it every few days to keep your code base fresh and up-to-date." %}
 
 ### Prepare the device-specific code
@@ -183,14 +183,14 @@ makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs
 
 ### Extract proprietary blobs
 
+{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](extracting_blobs_from_zips.html)" %}
+
 Now ensure your {{ site.data.devices[page.device].name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
 `~/android/system/device/{{site.data.devices[page.device].vendor_short}}/{{site.data.devices[page.device].codename}}` folder. Then run the `extract-files.sh` script:
 
 ```
 $ ./extract-files.sh
 ```
-
-{% include note.html content="For this script to function properly, the device should have the latest LineageOS installed, based on the branch you wish to build." %}
 
 The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
