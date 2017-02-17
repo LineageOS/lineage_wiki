@@ -66,7 +66,7 @@ on all packages at every boot. Install them for as little time as possible." %}
 You can set up your own migration builds by running:
 
 ```
-$ repopick -t cm-data-migration
+$ repopick -f 156047 162144
 ```
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
