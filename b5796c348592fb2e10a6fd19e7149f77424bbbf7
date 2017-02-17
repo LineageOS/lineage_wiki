@@ -16,6 +16,29 @@
       "revId": "b5796c348592fb2e10a6fd19e7149f77424bbbf7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_6787e562",
+        "filename": "_data/devices/sumire.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-02-17T12:39:20Z",
+      "side": 1,
+      "message": "This is definitely something that you can\u0027t ask a regular end user to do. That\u0027s basically telling the users to compile their own builds.",
+      "range": {
+        "startLine": 49,
+        "startChar": 14,
+        "endLine": 49,
+        "endChar": 112
+      },
+      "revId": "b5796c348592fb2e10a6fd19e7149f77424bbbf7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
