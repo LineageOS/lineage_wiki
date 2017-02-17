@@ -67,6 +67,7 @@ You can set up your own migration builds by running:
 
 ```
 $ repopick -t cm-data-migration
+$ repopick -f 162144
 ```
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
