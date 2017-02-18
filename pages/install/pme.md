@@ -25,6 +25,7 @@ ROM to decrypt a userdata partition encrypted with HTC's Nougat (or later) softw
 - If you are installing from N (7.x) HTC stock firmware, you will have to **format userdata**.
   If you want to backup your stock install, you must backup to your external SD because
   any backup storage in the default location (on `/sdcard`) will be lost in the format.
+  Also TWRP currently [requires a more recent (unofficial) build to work with N firmware](https://forum.xda-developers.com/htc-10/development/recovery-twrp-touch-recovery-t3358139/post66347165#post66347165).
 - If you didn't read these instructions and try to install LineageOS on top of N userdata
   after only performing a factory reset then:
   - On boot it will ask you for your password to decrypt data but your password will not
