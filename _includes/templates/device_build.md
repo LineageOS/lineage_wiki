@@ -237,6 +237,8 @@ Adding that command to your `~/.bashrc` file will automatically configure Jack t
 
 ### Start the build
 
+{% include important.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html). In case you intend to install a fresh build on a previously unsigned environment, make sure to generate your keys before you commence to compiling your build. More Importantly in case you change keys with your build (eg, install your build on a Lineage *OFFICIAL* build), follow the corresponding instructions to produce a intermediate [_migration build_](signing_builds.html#changing-keys), so as to avoid potential data loss while ensuring the resulting package will not be rejected during install." %}
+
 Time to start building! Now, type:
 
 ```
@@ -245,9 +247,6 @@ $ brunch {{site.data.devices[page.device].codename}}
 ```
 
 The build should begin.
-
-{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html)." %}
-
 
 ## Install the build
 
