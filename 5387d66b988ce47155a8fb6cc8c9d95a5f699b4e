@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_9ffe966a",
+        "filename": "pages/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-22T18:39:08Z",
+      "side": 0,
+      "message": "This is suppose to be there to access the local jekyll server instead of the actual website",
+      "range": {
+        "startLine": 47,
+        "startChar": 51,
+        "endLine": 47,
+        "endChar": 73
+      },
+      "revId": "5387d66b988ce47155a8fb6cc8c9d95a5f699b4e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
