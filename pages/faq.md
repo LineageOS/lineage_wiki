@@ -25,7 +25,7 @@ permalink: faq.html
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle.
 
 ## I found a bug. What do I do?
- - You can report it! Please _carefully_ read the [How to submit a bug](http://wiki.lineageos.org/bugreport-howto.html) page before reporting it.
+ - You can report it! Please _carefully_ read the [How to submit a bug](bugreport-howto.html) page before reporting it.
 
 ## Can I have _xxx_ feature added?
  - Don't ask.

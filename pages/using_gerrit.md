@@ -292,7 +292,7 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 ## Getting your submission reviewed/merged
 
-All submitted patches go through a code review process prior to merger. In addition to getting reviewed by your peers, selected project members have the capability to merge your code into LineageOS (to make sure they get informed, add one or more responsible reviewers to your change). To see a breakdown of who is responsible for the various areas, please see the list of [LineageOS contributors](http://wiki.lineageos.org/contributors.html).
+All submitted patches go through a code review process prior to merger. In addition to getting reviewed by your peers, selected project members have the capability to merge your code into LineageOS (to make sure they get informed, add one or more responsible reviewers to your change). To see a breakdown of who is responsible for the various areas, please see the list of [LineageOS contributors](contributors.html).
 
 ## Resources
 
