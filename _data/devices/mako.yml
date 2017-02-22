@@ -10,12 +10,12 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth:
+depth: 9.1 mm (0.36 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 has_recovery_partition: true
-height:
+height: 133.9 mm (5.27 in)
 image: mako.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_msm
@@ -45,5 +45,5 @@ type: phone
 vendor: Google
 vendor_short: lge
 versions: [14.1]
-width:
+width: 68.7 mm (2.70 in)
 wifi: 802.11 b/g/n
