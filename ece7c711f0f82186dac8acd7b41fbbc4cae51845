@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_021a496e",
+        "filename": "pages/extracting_proprietary_blobs_from_installable_zips.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-23T03:02:19Z",
+      "side": 1,
+      "message": "\"Extracting blobs from zip installers\" or something maybe?",
+      "revId": "ece7c711f0f82186dac8acd7b41fbbc4cae51845",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_e22615ba",
+        "filename": "pages/extracting_proprietary_blobs_from_installable_zips.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-02-23T03:02:19Z",
+      "side": 1,
+      "message": "extracting_blobs_zips.html maybe?",
+      "revId": "ece7c711f0f82186dac8acd7b41fbbc4cae51845",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
