@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_42ce015c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-02-23T11:50:50Z",
+      "side": 1,
+      "message": "This is not a generic thing, should better use\n\"wiki: mako: Add device dimensions\"",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 23
+      },
+      "revId": "521cd333e728cb284dee0cca41d921adde8f3485",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
