@@ -79,7 +79,7 @@ To build cm-13.0, you'll also need:
 
 For Ubuntu 15.10 (wily) and newer, substitute:
 
-* `lib32-readline-gplv2-dev` → `lib32readline6-dev`
+* `lib32readline-gplv2-dev` → `lib32readline6-dev`
 
 For Ubuntu 16.04 (xenial) and newer, substitute:
 
