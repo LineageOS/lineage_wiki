@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_6e468e25",
+        "filename": "pages/submitting_device.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-02-24T17:06:02Z",
+      "side": 1,
+      "message": "days? :P",
+      "range": {
+        "startLine": 5,
+        "startChar": 54,
+        "endLine": 5,
+        "endChar": 59
+      },
+      "revId": "aadfd6f2bb4ef45420c11bd4c33e3babcafc60b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
