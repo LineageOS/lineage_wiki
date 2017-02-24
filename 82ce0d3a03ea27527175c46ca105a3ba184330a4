@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_ce60da37",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-24T17:28:29Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 186,
+        "startChar": 232,
+        "endLine": 186,
+        "endChar": 246
+      },
+      "revId": "82ce0d3a03ea27527175c46ca105a3ba184330a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_2e6ad61a",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-24T17:28:29Z",
+      "side": 1,
+      "message": "I really dislike this term here. lol. Shouldn\u0027t it be \u0027installable zip\u0027?",
+      "range": {
+        "startLine": 3,
+        "startChar": 41,
+        "endLine": 3,
+        "endChar": 55
+      },
+      "revId": "82ce0d3a03ea27527175c46ca105a3ba184330a4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
