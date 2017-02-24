@@ -222,7 +222,7 @@ p.post-meta {font-size: 80%; color: #777;}
 @media (min-width: 1200px) {
     #search-demo-container ul#results-container {
         left: auto;
-        right: 56px;
+        top: inherit;
     }
 }
 
@@ -304,10 +304,6 @@ li.dropdownActive a {
 
 .post-content .rssfeedLink {
     color: #248EC2;
-}
-
-footer {
-    font-size: smaller;
 }
 
 /* FAQ page */
@@ -436,10 +432,6 @@ ul#mysidebar {
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
-}
-
-.footer {
-    text-align: right;
 }
 
 .footerMeta {

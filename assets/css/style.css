@@ -1,0 +1,158 @@
+body {
+  background-color: #fafafa;
+  padding-top: 70px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+#main {
+  flex: 1;
+  margin-bottom: 24px;
+}
+.jumbotron {
+  background-color: #167c80;
+  color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.jumbotron p {
+  font-size: 18px !important;
+}
+p,
+li {
+  font-size: 16px;
+  line-height: 1.5;
+}
+a:hover {
+  text-decoration: none;
+}
+.heading{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0);
+}
+.card-content-1 p,
+.card-content-1 li {
+  font-size: 16px;
+  line-height: 1.5
+}
+.card-title {
+  font-weight: 400;
+  margin: 0;
+}
+.card-title a {
+  transition: all 0.3s ease-out;
+}
+.card-title a:hover {
+  color: #167c80 !important;
+}
+.card h6 {
+  margin-bottom: 0;
+}
+.container .text-muted {
+  margin: 14px 0;
+  font-size: 14px !important;
+}
+.navbar {
+  transition: box-shadow 0.2s ease-out;
+}
+.navbar-transparent {
+  background: white !important;
+  color: black !important;
+  padding-top: 10px !important;
+}
+.navbar-shadow {
+  box-shadow: 0 1px 8px rgba(0,0,0,.3) !important;
+}
+.nav li {
+  transition: all 0.2s ease-out;
+}
+.nav li a {
+  background-color: transparent !important;
+}
+.nav li:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+}
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.navbar-brand-img img {
+  height: 20px;
+  margin-bottom: 2px;
+}
+.icon-bar {
+  color: #167c80;
+}
+.btn-white {
+  color: #167c80 !important;
+}
+.card {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+  background-color: white;
+  margin-bottom: 24px;
+  word-wrap: break-word;
+}
+.card-content-1 {
+  padding: 24px;
+}
+.card p.index {
+  margin: 0;
+}
+.card-button {
+  padding: 0 8px;
+  border-top: 1px solid rgba(0,0,0,0.12);
+}
+.card-button .btn {
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.footer-icons {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 32px;
+  float: right;
+  height: 100%;
+}
+.fa{
+  transition: .5s;
+}
+.fa:hover {
+  color: black;
+}
+.footer {
+  width: 100%;
+  background-color: #EEEEEE;
+}
+.footer-img {
+  height: 18px;
+  margin-top: 16px;
+}
+.post .jumbotron {
+  padding: 28px 0;
+  box-shadow: none;
+}
+.post h1 {
+  font-size: 3.9em;
+}
+
+@media (max-width: 768px) {
+  
+  .post h1 {
+    font-size: 3.5em;
+  }
+  .footer-icons,
+  .footer {
+    text-align: center;
+    float: none
+  }
+  .container.post{
+    padding: 0;
+  }
+  .container.post .card {
+    border-radius: 0;
+  }
+  .card-content-1 {
+    padding: 24px 16px;
+  }
+  
+}
