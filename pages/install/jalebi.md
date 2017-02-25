@@ -6,4 +6,6 @@ folder: info
 permalink: jalebi_install.html
 device: jalebi
 ---
+
+{% include warning.html content="Before continuing, make sure you're baseband is up to date, by flashing it from [here](http://thatlink.com)" %}
 {% include templates/device_install.md %}
