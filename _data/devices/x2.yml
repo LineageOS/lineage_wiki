@@ -1,0 +1,45 @@
+battery: 3100 mAh (non-removable)
+bluetooth: v4.2 with A2DP, BLE
+cameras:
+- {flash: dual-LED (dual tone), info: 21MP}
+- {flash: '', info: 8MP}
+carrier:
+channels: [weekly]
+codename: x2
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz & 2 x 1.6 GHz
+current_branch: 13.0
+depth: 7,99 mm (0.31 in)
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 530
+has_recovery_partition: true
+height: 156.8 mm (6.17 in)
+image: x2.png
+install_method: TODO
+kernel: android_kernel_leeco_msm8996
+maintainers: [tortel1210, andr68rus, cr3pt]
+models: [LEX820, LEX821, LEX822, LEX829]
+name: Le Max2
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 MHz CDMA2000 1xEV-DO (China / North America models)' }
+- {tech: 3G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 8(900) 34(2000) 39(1900)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) 25(1900) 26(850) 30(2300) 38(2600) 39(1900) 40(2300) 41(2500)' }
+peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass, Ambient light sensor]
+ram: 4GB / 6GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016 April
+screen: 5.7 in
+screen_ppi: ~515
+screen_res: 2560x1440
+screen_tech: LTPS IPS LCD
+sdcard:
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 32GB / 64GB / 128GB
+tree: android_device_leeco_x2
+type: phone
+vendor: LeEco
+vendor_short: leeco
+versions: [13.0]
+width: 77.6 mm (3.06 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
