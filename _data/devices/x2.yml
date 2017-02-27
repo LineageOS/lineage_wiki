@@ -10,7 +10,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz & 2 x 1.6 GHz
 current_branch: 13.0
-depth: 7,99 mm (0.31 in)
+depth: 7.99 mm (0.31 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 530
 has_recovery_partition: true
