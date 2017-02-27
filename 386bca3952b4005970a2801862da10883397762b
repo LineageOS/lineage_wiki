@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_0f326910",
+        "filename": "_data/devices/x2.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-02-27T09:49:42Z",
+      "side": 1,
+      "message": ".",
+      "range": {
+        "startLine": 13,
+        "startChar": 8,
+        "endLine": 13,
+        "endChar": 9
+      },
+      "revId": "386bca3952b4005970a2801862da10883397762b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
