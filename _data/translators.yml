@@ -14,6 +14,12 @@ managers:
     - name: Vladislav Koldobskiy
       nick: NeverGone
 languages:
+    - name: Arpitan
+      proofreaders: [Alexandre Raymond (Alekcxjo), Alexandre Raymond (Alekcxjo)]
+    - name: Asturian
+      proofreaders: [ivarela (malditoastur)]
+    - name: Basque
+      proofreaders: [Osoitz]
     - name: Bulgarian
       proofreaders: [Hristo Dipchikov (hristodipchikov)]
     - name: Catalan
@@ -22,14 +28,18 @@ languages:
       proofreaders: [YFdyh000, 陈少举 (chenshaoju), Yun Liu (liuyun97)]
     - name: Chinese Traditional
       proofreaders: [阿捷 aJay (boxajay)]
+    - name: Croatian
+      proofreaders: [David Boca (davidboca), David Boca (davidboca)]
     - name: Czech
-      proofreaders: [Ondrej Zima (Keltek)]
+      proofreaders: [Ondřej Zima (Keltek), Ondřej Zima (Keltek)]
     - name: Danish
       proofreaders: [Jacob_DK]
     - name: Dutch
       proofreaders: [Eddy Witkamp (eddywitkamp), Peter Buijsman (Dawnes)]
     - name: English, Australia
       proofreaders: [Simon Shields (forkbomb)]
+    - name: English, United Kingdom
+      proofreaders: [Harry Youd (harryyoud), jackb-p]
     - name: Finnish
       proofreaders: [Niko Koivu (niko0o)]
     - name: French
@@ -37,50 +47,51 @@ languages:
     - name: Galician
       proofreaders: [mandruis (manuiglesias96)]
     - name: German
-      proofreaders: [Michael W (baddaemon87), Danny Baumann (maniac103), Kim Le (elektroschmock78)]
-    - name: Greek
-      proofreaders: [Michael Bestas (mikeioannina)]
+      proofreaders: [Danny Baumann (maniac103), Kim Le (elektroschmock78), Michael W (BadDaemon)]
     - name: Hebrew
-      proofreaders: [Nir Bruderman (nbruderman)]
+      proofreaders: [Nir Bruderman (nbruderman), ‫אלקנה בירדוגו‬‎ (ttv200)]
     - name: Hungarian
       proofreaders: [Tamás Tóth (tothtamassyman)]
     - name: Indonesian
-      proofreaders: [nikfrmn]
+      proofreaders: [nikfrmn, Baguz Ach (eggoez), tony®ananta (qjohn)]
     - name: Japanese
-      proofreaders: [Noumi]
+      proofreaders: [AndroPlus (Noumi)]
     - name: Kashubian
       proofreaders: [Krzysztof Mesek (mesiu84)]
-    - name: Italian
-      proofreaders: [Joey Rizzoli (linuxx)]
     - name: Luxembourgish
-      proofreaders: [Michel Weimerskirch (michel_weimerskirch), Edson Souza Morais (soued031)]
+      proofreaders: [Edson Souza Morais (soued031), Edson Souza Morais (soued031)]
     - name: Nepali
       proofreaders: [avseq]
     - name: Norwegian Bokmal
       proofreaders: [Vegard Fladby (Allram), Syver Stensholt (sssandum)]
+    - name: Occitan
+      proofreaders: [sebcxjo]
     - name: Pirate English
       proofreaders: [Paul Keith (javelinanddart)]
     - name: Polish
       proofreaders: [Mateusz (godlesplay)]
     - name: Portuguese
       proofreaders: [Sergio Borges (sergioborges99)]
+    - name: Portuguese, Brazilian
+      proofreaders: [João Paulo Just Peixoto (jpjust), Alexandre Oliveira (rockytvbr)]
     - name: Romanian
       proofreaders: [Pop Alexandru Radu (minealex2244)]
     - name: Russian
       proofreaders: [Vladislav Koldobskiy (NeverGone)]
     - name: Serbian (Cyrillic)
       proofreaders: [Драган (WD40)]
-    - name: Slovak
-      proofreaders: [Róbert Barát (rbarat)]
     - name: Slovenian
       proofreaders: [Zoran (totalyfake666)]
-    - name: Swedish
-      proofreaders: [Simon Bäck (backsimon)]
     - name: Spanish
       proofreaders: [tio_mauri (rodrigomaureiracontreras), Franco (franco999)]
     - name: Spanish, United States
       proofreaders: [tio_mauri (rodrigomaureiracontreras), Franco (franco999)]
+    - name: Swedish
+      proofreaders: [Simon Bäck (backsimon)]
     - name: Turkish
-      proofreaders: [Burak "TheNexus" Dede (TheNexus), Sinan Serbestoğlu (serbestoglusinan)]
+      proofreaders: [Burak Dede (TheNexus), Sinan Serbestoğlu (serbestoglusinan), Sinan
+          Serbestoğlu (serbestoglusinan)]
     - name: Ukrainian
-      proofreaders: [Aleksander Belilovets (Aleksander_Belilovets)]
+      proofreaders: [Aleksander Belilovets (Aleksander_Belilovets), Роман Стащак (stashchak90)]
+    - name: Vietnamese
+      proofreaders: [blueocean2308]
