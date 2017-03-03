@@ -1,0 +1,49 @@
+battery: Removable Li-Ion 1850 mAh
+bluetooth: v4.0 with A2DP
+cameras:
+- {flash: LED, info: 5MP}
+- {flash: '', info: 1.3MP}
+carrier:
+channels: [weekly]
+codename: toro
+cpu: OMAP4
+cpu_freq: 1.2 GHz
+cpu_cores: '2'
+current_branch: 13.0
+depth: 9.5 mm
+download_boot: With the device powered down, hold the Volume Down and Power buttons
+  until the bootloader appears, then release the buttons.
+gpu: PowerVR SGX540 @ 384 Mhz
+has_recovery_partition: true
+height: 135.5 mm
+image: tuna.png
+install_method: fastboot_nexus
+kernel: android_kernel_samsung_tuna
+maintainers: [Ziyan]
+name: Galaxy Nexus LTE (Verizon)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '700 MHz (Band 13)' }
+no_oem_unlock_switch: true
+peripherals: [3.5 mm TRRS, microUSB 2.0, Proximity sensor, Light sensor, NFC,
+  3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS]
+ram: 1 GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons
+  until the bootloader appears, then release the buttons. Navigate using the volume
+  keys and select RECOVERY using the Power key.
+release: 2011 October
+screen: 4.7 inches
+screen_res: 1280x720
+screen_ppi: '316'
+screen_tech: Super AMOLED
+sdcard:
+soc: TI OMAP4460
+storage: 32 GB
+tree: android_device_samsung_toro
+type: phone
+vendor: Google
+vendor_short: samsung
+versions: [13.0]
+width: 67.9 mm
+wifi: 802.11 a/b/g/n, Dual-Band, DLNA, Hotspot
