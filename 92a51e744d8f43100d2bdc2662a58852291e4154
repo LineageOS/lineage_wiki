@@ -1,0 +1,182 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_17e95480",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "Would prefer we link to higher level project: \n\nhttps://crowdin.com/projects/LineageOS",
+      "range": {
+        "startLine": 10,
+        "startChar": 17,
+        "endLine": 10,
+        "endChar": 48
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_97fc2440",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"Proofreaders\"\n\nVoluntary basis text is unneeded.",
+      "range": {
+        "startLine": 14,
+        "startChar": 92,
+        "endLine": 14,
+        "endChar": 130
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_5796acf1",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"the event that you do not see an active review or acceptance of your suggestions\"",
+      "range": {
+        "startLine": 14,
+        "startChar": 253,
+        "endLine": 14,
+        "endChar": 348
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_979304fa",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"test build they get merged to source code and will be part of every new official build\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 232,
+        "endLine": 15,
+        "endChar": 248
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_f7a48058",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"import\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 159,
+        "endLine": 15,
+        "endChar": 163
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_379b381a",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"scripted job\" \n\nNo need to speak of time-frame here",
+      "range": {
+        "startLine": 15,
+        "startChar": 42,
+        "endLine": 15,
+        "endChar": 55
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_b7ff2834",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "\"proofreaders are\"",
+      "range": {
+        "startLine": 17,
+        "startChar": 51,
+        "endLine": 17,
+        "endChar": 65
+      },
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_37c218ea",
+        "filename": "pages/translate.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-03T21:33:46Z",
+      "side": 1,
+      "message": "Needs a section for new language support (brand new locale request) and a section covering the difference between the AOSP and non-AOSP projects",
+      "revId": "92a51e744d8f43100d2bdc2662a58852291e4154",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
