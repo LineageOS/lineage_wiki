@@ -12,6 +12,21 @@ versions: [14.1, 13.0]
 
 ## Maintainers
 
+### Head developers
+
+| Name | Nickname |
+|------|----------|
+| Chirayu Desai | cdesai |
+| Dan Pasanen | invisiblek |
+| Daniel Hillenbrand | codeworkx |
+| Danny Baumann | maniac103 |
+| Diogo Ferreira | defer |
+| Ed Carrigan | senyor |
+| Ethan Chen | intervigil |
+| Marcos Marado | marado |
+| Michael Bestas | mikeioannina |
+| Tom Marshall | tdm |
+
 ### Trusted reviewers
 
 Trusted reviewers are known to provide consistent constructive feedback in line with project rules and guidelines. As a result, 
@@ -38,7 +53,6 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Brinly Taylor | brinlyau |
 | Christopher N. Hesse | raymanfx |
 | Clark Scheff | D34D |
-| Daniel Hillenbrand | codeworkx |
 | Joey Rizzoli | joeyrizzoli |
 | Luca Stefani | luca020400 |
 | Luk1337 | Luk1337 |
