@@ -5,6 +5,8 @@ topnav:
   items:
     - title: Contribute
       url: contributing.html
+    - title: Developers
+      url: developer_information.html
     - title: Website
       external_url: http://lineageos.org/
     - title: Code Review
