@@ -24,7 +24,6 @@ their feedback is held as backed by project leads and recognized as a distinct g
 | Brandon McAnsh | bmc08gt |
 | Christopher R Palmer | crpalmer |
 | Kevin Haggerty | haggertk |
-| Matt Mower | mdmower |
 | Michael W. | BadDaemon |
 | Scott Warner | Tortel |
 | Simon Shields | forkbomb |
