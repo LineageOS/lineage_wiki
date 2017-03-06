@@ -15,12 +15,9 @@ layout: default
             {% endif %}
 
         </p>
-
-
     </header>
 
     <div class="post-content" itemprop="articleBody">
-
         {% if page.summary %}
         <div class="summary">{{page.summary}}</div>
         {% endif %}
@@ -28,14 +25,10 @@ layout: default
         {{ content }}
     </div>
 
-
-
 </article>
 
 {% if site.disqus %}
 {% include disqus.html %}
 {% endif %}
-
-{{site.data.alerts.hr_shaded}}
 
 {% include footer.html %}
