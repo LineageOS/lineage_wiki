@@ -1,5 +1,5 @@
-battery: 2200 mAh (removable)
-bluetooth: 4.0 A2DP, LE
+battery: Removable Li-Po 2200 mAh
+bluetooth: v4.0 with A2DP, LE
 cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 2MP}
@@ -10,32 +10,37 @@ cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-download_boot: With the device powered down, hold the Volume Down and Power buttons.
+depth: 9.4 mm (0.37 in)
+download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 306
 has_recovery_partition: true
+height: 134 mm (5.28 in)
 image: wt88047.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel: android_kernel_wingtech_msm8916
-maintainers: ['']
-name: Redmi 2 / Pro / Prime
+maintainers: [nicknitewolf]
+name: Redmi 2
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
-peripherals: [Accelerometer, gyro, proximity, compass]
+peripherals: [Accelerometer, Gyro, Proximity sensor, Digital compass, Dual SIM, GPS]
 ram: 1/2 GB
-recovery_boot: With the device powered down, hold the Volume Up, Volume Down and Power buttons.
+recovery_boot: Hold **Volume Up**, **Volume Down** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: 2015 January
 screen: 119.4 mm (4.7 in)
 screen_ppi: '312'
 screen_res: 720 x 1280
 screen_tech: IPS LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 8/16GB
+storage: 8/16 GB
 tree: android_device_wingtech_wt88047
 type: phone
 vendor: Wingtech
 vendor_short: wingtech
 versions: [14.1]
-wifi: 802.11 b/g/n
+width: 67.2 mm (2.65 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
