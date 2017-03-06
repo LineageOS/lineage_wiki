@@ -18,10 +18,16 @@
 {% include templates/device_info_note.md %}
 {% endif %}
 
+{% if site.data.devices[page.device].recovery_boot Or site.data.devices[page.device].download_boot %}
 ## Special boot modes
 
+{% if site.data.devices[page.device].recovery_boot %}
 * **Recovery**: {{ site.data.devices[page.device].recovery_boot }}
+{% endif %}
+{% if site.data.devices[page.device].download_boot %}
 * **Download**: {{ site.data.devices[page.device].download_boot }}
+{% endif %}
+{% endif %}
 
 ## Find help online
 
