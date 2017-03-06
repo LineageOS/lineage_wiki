@@ -14,10 +14,10 @@ download_boot: With the device powered down, hold the Volume Down and Power butt
 gpu: Adreno 306
 has_recovery_partition: true
 image: wt88047.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel: android_kernel_wingtech_msm8916
-maintainers: ['']
-name: Redmi 2 / Pro / Prime
+maintainers: [nicknitewolf]
+name: Redmi 2
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
