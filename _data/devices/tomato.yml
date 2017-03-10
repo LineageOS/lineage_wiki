@@ -1,8 +1,8 @@
 battery: 2500 mAh
 bluetooth: '4.1'
 cameras:
-- {flash: LED, info: 13MP F/2.2}
-- {flash: '', info: 5MP}
+- {flash: LED, info: 13MP F/1.8}
+- {flash: '', info: 5MP F/2.8}
 carrier:
 channels: [weekly]
 codename: tomato
