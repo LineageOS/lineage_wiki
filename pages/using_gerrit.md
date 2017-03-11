@@ -129,7 +129,7 @@ That's it! Your change will be reviewed and may be accepted or rejected. See [#E
 
 ### Submitting Patch Sets
 
-In can happen that your submitted patch has issues or errors, which are noted in the code review, so you will want to resolve them. Sometimes it's just tabs instead of spaces or typos in strings and variable names. To avoid some formal mistakes, make sure you're familiar with the Android code style. For Eclipse users, just follow the instructions in `development/ide/eclipse/README.importing-to-eclipse.txt`.
+It can happen that your submitted patch has issues or errors, which are noted in the code review, so you will want to resolve them. Sometimes it's just tabs instead of spaces or typos in strings and variable names. To avoid some formal mistakes, make sure you're familiar with the Android code style. For Eclipse users, just follow the instructions in `development/ide/eclipse/README.importing-to-eclipse.txt`.
 
 Before you edit those files, make sure you are on the correct branch:
 
@@ -301,6 +301,3 @@ All submitted patches go through a code review process prior to merger. In addit
 [Using git and repo](https://source.android.com/source/git-repo.html)
 
 [Gerrit Documentation](https://review.lineageos.org/Documentation/index.html)
-
-
-
