@@ -1,0 +1,75 @@
+# Access this data from "site.data.devices[page.device]"
+codename: jfltexx
+image: jflte.png
+name: Galaxy S4 (International LTE)
+vendor: Samsung
+# name used by device tree (android_device_{{vendor_short}}_{{codename}})
+vendor_short: samsung
+release: April 2013
+type: phone
+carrier:
+# connectivity
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '700 800 1700 1700 1900 2600 MHz' }
+bluetooth: 4.0
+wifi: 802.11a/b/g/n/ac
+# camera
+cameras:
+    - {flash: LED, info: 13MP}
+    - {flash: '', info: 2MP}
+# peripherals
+peripherals:
+    - DLNA
+    - Miracast
+    - GPS/GLONASS
+    - NFC
+    - infrared port
+    - USB 2.0 (Micro-B port, USB charging)
+    - USB On-The-Go 1.3
+    - MHL 2.0
+    - HDMI (TV-out, via MHL A\V link)
+    - accelerometer
+    - barometerç
+    - gesture sensor
+    - gyroscope
+    - Hall effect sensor
+    - hygrometer
+    - magnetometer
+    - proximity sensor
+    - RGB light sensor
+    - thermometer
+# device specs
+soc: Qualcomm Snapdragon 600
+ram: 2GB
+cpu: Krait 300
+cpu_freq: 1.9GHz
+cpu_cores: 4
+gpu: Adreno 320
+storage: 16GB/32GB/64GB
+sdcard: up to 64GB
+# device size
+height: 136.6mm (5.38 in)
+width: 69.8mm (2.75 in)
+depth: 7.6mm (0.31 in)
+screen: 122mm (4.8in)
+screen_res: 1920x1080
+screen_ppi: 440
+screen_tech: Pentile RGBG Full HD Super AMOLED
+# lineage info
+versions: [13, 14.1]
+# used for build instructions
+current_branch: 14.1
+kernel: android_kernel_samsung_jf
+tree: android_device_samsung_jfltexx
+maintainers: []
+channels: [weekly]
+# recovery - "to boot into recovery, {{recovery_boot}}."
+recovery_boot: With the device powered down, hold **Home**, **Volume Up**, and **Power**
+has_recovery_partition: true
+# fastboot/download mode
+download_boot: With the device powered down, hold **Home**, **Volume Down**, and **Power**
+# non-empty => include "recovery_install_{{install_method}}.md"
+# otherwise, nothing included
+install_method: heimdall
