@@ -26,7 +26,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) 2(1900) 4(1700/2100) 5(850) 7(2600) 12(700) 17(700) LTE (USA models), 1(2100) 3(1800) 38(2600) 39(1900) 40(2300) 41(2500) LTE (China models)' }
 peripherals: [Fingerprint, Accelerometer, Proximity, Light, Compass, GPS, Hall-sensor]
 ram: 2GB
-recovery_boot: Hold Volume Down and the Power button. Continue to hold buttons until
+recovery_boot: Hold Volume Up and the Power button. Continue to hold buttons until
   the "Honor" logo appears, then release all buttons.
 release: 2015 November
 screen: 139.7 mm (5.5 in)
