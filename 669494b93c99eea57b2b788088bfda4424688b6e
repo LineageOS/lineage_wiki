@@ -16,6 +16,24 @@
       "revId": "669494b93c99eea57b2b788088bfda4424688b6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_5cbf1dd1",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-03-12T14:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_d191b653",
+      "revId": "669494b93c99eea57b2b788088bfda4424688b6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
