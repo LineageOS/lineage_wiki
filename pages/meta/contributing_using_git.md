@@ -68,6 +68,7 @@ To make sure that a Change-Id is automatically added to all your changes, instal
 ```
 cd lineage_wiki
 curl -Lo .git/hooks/commit-msg http://review.lineageos.org/tools/hooks/commit-msg
+chmod +x .git/hooks/commit-msg
 ```
 
 You can read about what the hook does [in the Gerrit documentation](https://review.lineageos.org/Documentation/user-changeid.html).
