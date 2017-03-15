@@ -4,7 +4,7 @@ cameras:
 - {flash: LED, info: 8MP}
 - {flash: '', info: 1.3MP}
 carrier: Sprint
-channels:
+channels: [weekly]
 codename: xt897
 cpu: Cortex-A9
 cpu_cores: '2'
