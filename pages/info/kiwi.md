@@ -4,7 +4,8 @@ title: Info about kiwi
 folder: info
 layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: kiwi_info.html
+redirect_from: kiwi_info.html
+permalink: /devices/kiwi/
 device: kiwi
 ---
 {% include templates/device_info.md %}

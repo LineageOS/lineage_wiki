@@ -3,7 +3,8 @@ sidebar: home_sidebar
 title: Install Lineage on piccolo
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: piccolo_install.html
+redirect_from: piccolo_install.html
+permalink: /devices/piccolo/install
 device: piccolo
 ---
 {% include templates/device_install.md %}
