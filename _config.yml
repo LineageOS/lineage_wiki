@@ -100,3 +100,6 @@ description: "The LineageOS Wiki"
 
 # needed for sitemap.xml file only
 url: http://wiki.lineageos.org
+
+gems:
+  - jekyll-redirect-from

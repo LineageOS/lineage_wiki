@@ -7,14 +7,15 @@ search: exclude
 [
 {% for page in site.pages %}
 {% unless page.search == "exclude" %}
+{% unless page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
-"url": "{{ page.url | remove: "/"}}",
+"url": "{{ page.url | relative_url }}",
 "summary": "{{page.summary | strip }}"
 }
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
+{% unless forloop.last and site.posts.size < 1 %},{% endunless %}{% endunless %}
 {% endunless %}
 {% endfor %}
 
