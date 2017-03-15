@@ -4,7 +4,8 @@ title: Info about maguro
 folder: info
 layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-permalink: maguro_info.html
+redirect_from: maguro_info.html
+permalink: /devices/maguro/
 device: maguro
 ---
 {% include templates/device_info.md %}

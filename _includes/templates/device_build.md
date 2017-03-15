@@ -246,7 +246,7 @@ $ brunch {{site.data.devices[page.device].codename}}
 
 The build should begin.
 
-{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html)." %}
+{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](/signing_builds.html)." %}
 
 
 ## Install the build
