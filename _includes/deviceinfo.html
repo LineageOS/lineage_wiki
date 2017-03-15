@@ -26,7 +26,7 @@ ul, ol {
         <td colspan="2" class="header"><strong>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</strong></td>
     </tr>
     <tr>
-        <td colspan="2"><img style="width:100%" src="images/devices/{{ device.image }}" /></td>
+        <td colspan="2"><img style="width:100%" src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
     </tr>
     <tr>
         <td class="header">Released</td>

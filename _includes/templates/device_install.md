@@ -5,13 +5,13 @@
 
 ## Installing LineageOS from recovery
 
-1. Make sure your computer has working `adb`. Setup instructions can be found [here](adb_fastboot_guide.html).
+1. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 {% if site.data.devices[page.device].channels %}
-2. Download the [LineageOS install package](https://download.lineageos.org/{{ site.data.devices[page.device].codename }}) that you'd like to install or [build]({{site.data.devices[page.device].codename}}_build.html) the package yourself.
+2. Download the [LineageOS install package](https://download.lineageos.org/{{ site.data.devices[page.device].codename }}) that you'd like to install or [build]({{ "devices/" | append: site.data.devices[page.device].codename | append: "/build" | relative_url }}) the package yourself.
 {% else %}
-2. [Build]({{site.data.devices[page.device].codename}}_build.html) a LineageOS install package.
+2. [Build]({{ "devices/" | append: site.data.devices[page.device].codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
-    * Optionally, download 3rd party application packages like [Google Apps](/gapps.html)
+    * Optionally, download 3rd party application packages like [Google Apps]({{ "gapps.html" | relative_url }})
 3. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing

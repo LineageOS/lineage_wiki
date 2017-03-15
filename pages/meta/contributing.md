@@ -8,8 +8,8 @@ So, you've decided you want to edit the wiki. Awesome! This page will show you h
 
 ## LineageOS developer using `repo`
 
-Adding the wiki to your local_manifests and running a local ruby based web server while modifying the content is the most convenient and familiar workflow. Please read more about [Contributing using repo](/contributing_using_repo.html).
+Adding the wiki to your local_manifests and running a local ruby based web server while modifying the content is the most convenient and familiar workflow. Please read more about [Contributing using repo]({{ "contributing_using_repo.html" | relative_url }}).
 
 ## General contributor using `git`
 
-People that aren't using the AOSP `repo` command will find it easier to work using `git` to control the flow. Please read more about [Contributing using git](/contributing_using_git.html).
+People that aren't using the AOSP `repo` command will find it easier to work using `git` to control the flow. Please read more about [Contributing using git]({{ "contributing_using_git.html" | relative_url }}).
