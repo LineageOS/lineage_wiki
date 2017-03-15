@@ -1,7 +1,8 @@
 ---
 sidebar: home_sidebar
 title: Devices
-permalink: devices.html
+permalink: devices/
+redirect_from: devices.html
 ---
 {% assign devices = "" |split: " " %}
 {% for device in site.data.devices %}
@@ -10,4 +11,4 @@ permalink: devices.html
 
 {% assign sorted = devices|sort:'name'|sort:'vendor' %}
 | **device** | **codename** | **type** |{% for device in sorted %}
-| [ {{ device.vendor }} {{ device.name }} ]({{ device.codename | append: "_info.html" | relative_url }}) |  [{{ device.codename }}]({{ device.codename | append: "_info.html" | relative_url }}) | {{ device.type }} |{% endfor %}
+| [ {{ device.vendor }} {{ device.name }} ]({{ "devices/" | append: device.codename | relative_url }}) |  [{{ device.codename }}]({{ "devices/" | append: device.codename | relative_url }}) | {{ device.type }} |{% endfor %}

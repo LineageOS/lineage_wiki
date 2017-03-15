@@ -3,7 +3,8 @@ sidebar: home_sidebar
 title: Build for kltespr
 folder: info
 # name of the page (/{{permalink}}.html)
-permalink: kltespr_build.html
+redirect_from: kltespr_build.html
+permalink: /devices/kltespr/build
 device: kltespr
 ---
 {% include templates/device_build.md %}
