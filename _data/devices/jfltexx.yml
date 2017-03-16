@@ -58,7 +58,7 @@ screen_res: 1920x1080
 screen_ppi: 440
 screen_tech: Pentile RGBG Full HD Super AMOLED
 # lineage info
-versions: [13, 14.1]
+versions: [14.1]
 # used for build instructions
 current_branch: 14.1
 kernel: android_kernel_samsung_jf
