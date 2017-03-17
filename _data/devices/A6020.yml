@@ -1,0 +1,45 @@
+battery: Removable Li-Ion 2750 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: LED, info: 13MP}
+- {flash: '', info: 5MP}
+carrier:
+channels: [weekly]
+codename: A6020
+cpu: Cortex A53 & A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
+current_branch: 14.1
+depth: 8 mm (0.31 in)
+download_boot: Hold **Volume Down** and **Power**
+gpu: Adreno 405
+has_recovery_partition: true
+height: 142 mm (5.59 in)
+image: A6020.png
+install_method: TODO
+kernel: android_kernel_lenovo_msm8916
+maintainers: [shr3ps, scritch007, danielstuart14]
+models: [A6020a40, A6020a41, A6020a46, A6020l36, A6020l37]
+name: 'Vibe K5 / K5 Plus'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Europe/Asia), 850 900 1700(AWS) 1900 2100 MHz HSDPA (Latin America)' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE (Europe/Asia), 2(1900) 3(1800) 4(1700/2100) 7(2600) 28(700) LTE (Latin America)' }
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, FM Radio]
+ram: 2/3 GB
+recovery_boot: Hold **Volume Up**, **Volume Down** and **Power**
+release: 2016 April
+screen: 127 mm (5.0 in)
+screen_ppi: '294 / 441'
+screen_res: 720x1280 (K5) / 1080x1920 (K5 Plus)
+screen_tech: IPS LCD
+sdcard: up to 32 GB (dedicated slot)
+soc: Qualcomm MSM8929 Snapdragon 415 (K5) / Qualcomm MSM8939v2 Snapdragon 616 (K5 Plus)
+storage: 16 GB
+tree: android_device_lenovo_A6020
+type: phone
+vendor: Lenovo
+vendor_short: lenovo
+versions: [14.1]
+width: 71 mm (2.8 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
