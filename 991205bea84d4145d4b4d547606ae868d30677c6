@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_99311c0e",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15791
+      },
+      "writtenOn": "2017-03-17T05:59:22Z",
+      "side": 1,
+      "message": "Should not be empty",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_593ba4eb",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 15791
+      },
+      "writtenOn": "2017-03-17T05:59:22Z",
+      "side": 1,
+      "message": "Vibe K5/K5 Plus",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_79366805",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 15791
+      },
+      "writtenOn": "2017-03-17T05:59:22Z",
+      "side": 1,
+      "message": "Trailing white space",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_3940f055",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 15791
+      },
+      "writtenOn": "2017-03-17T05:59:22Z",
+      "side": 1,
+      "message": "2016 April?",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
