@@ -121,6 +121,24 @@
       "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_9a634bb1",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-17T17:31:21Z",
+      "side": 1,
+      "message": "Status\tAvailable. Released 2016, April",
+      "parentUuid": "ba57610f_fa5487cb",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
