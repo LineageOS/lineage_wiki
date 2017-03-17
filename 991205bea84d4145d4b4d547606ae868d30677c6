@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_7a41b70a",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13610
+      },
+      "writtenOn": "2017-03-17T17:23:36Z",
+      "side": 1,
+      "message": "It isn\u0027t being build right now.",
+      "parentUuid": "ba57610f_99311c0e",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_593ba4eb",
         "filename": "_data/devices/A6020.yml",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2017-03-17T05:59:22Z",
       "side": 1,
       "message": "Vibe K5/K5 Plus",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_1a487b2c",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13610
+      },
+      "writtenOn": "2017-03-17T17:23:36Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_wingtech_wt88047\nhttps://github.com/LineageOS/android_device_xiaomi_ido\n\nUnlike the Oneplus 3, which is 3 and 3T. Our device has a space between the model and the variant. (As redmi 3/Pro and redmi 2/Pro)",
+      "parentUuid": "ba57610f_593ba4eb",
       "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -64,6 +100,24 @@
       "writtenOn": "2017-03-17T05:59:22Z",
       "side": 1,
       "message": "2016 April?",
+      "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_fa5487cb",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13610
+      },
+      "writtenOn": "2017-03-17T17:23:36Z",
+      "side": 1,
+      "message": "http://www.gsmarena.com/lenovo_vibe_k5-7946.php\nhttp://www.gsmarena.com/lenovo_vibe_k5_plus-7947.php",
+      "parentUuid": "ba57610f_3940f055",
       "revId": "991205bea84d4145d4b4d547606ae868d30677c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
