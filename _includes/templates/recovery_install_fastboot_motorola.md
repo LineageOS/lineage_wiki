@@ -4,8 +4,8 @@
 {% include warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
-1. Make sure your computer has working [fastboot and adb](adb_fastboot_guide.html).
-2. Enable [USB debugging](adb_fastboot_guide.html#setting-up-adb) on your device.
+1. Make sure your computer has working [fastboot and adb]({{ "adb_fastboot_guide.html" | relative_url }}).
+2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 3. Get the current status of your bootloader:
 
     Open a terminal on the PC and boot the device to fastboot mode by typing:

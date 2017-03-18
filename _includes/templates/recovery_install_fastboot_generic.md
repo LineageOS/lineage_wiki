@@ -1,7 +1,7 @@
 ## Installing a custom recovery using `fastboot`
 
-1. Make sure your computer has working [fastboot and adb](adb_fastboot_guide.html).
-2. Enable [USB debugging](adb_fastboot_guide.html#setting-up-adb) on your device.
+1. Make sure your computer has working [fastboot and adb]({{ "adb_fastboot_guide.html" | relative_url }}).
+2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 3. Download recovery - visit [twrp.me](https://twrp.me/Devices/) to obtain the latest version of Team Win Recovery Project for your device.
 4. Connect your device to your PC via USB.
 5. Open a terminal on the PC and boot the device to fastboot mode by typing:

@@ -19,7 +19,7 @@ These instructions will generate a logcat on your sdcard which you can then atta
 
 ### With a computer
 
-{% include note.html content="This method requires that you have [adb installed](adb_fastboot_guide.html#installing-adb-and-fastboot).
+{% include note.html content="This method requires that you have [adb installed](/adb_fastboot_guide.html#installing-adb-and-fastboot).
 If you don't have it installed, please do that before continuing." %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS)
