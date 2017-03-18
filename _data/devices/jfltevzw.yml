@@ -1,18 +1,18 @@
 # Access this data from "site.data.devices[page.device]"
-codename: jfltexx
+codename: jfltevzw
 image: jflte.png
-name: Galaxy S4 (International LTE)
+name: Galaxy S4 (Verizon)
 vendor: Samsung
 # name used by device tree (android_device_{{vendor_short}}_{{codename}})
 vendor_short: samsung
 release: April 2013
 type: phone
-carrier:
+carrier: Verizon
 # connectivity
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '700 800 1700 1700 1900 2600 MHz' }
+- {tech: 2G, bands: '850 900 1800 1900 MHz CDMA ' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz UMTS / HSPA' }
+- {tech: 4G, bands: '750 MHz' }
 bluetooth: 4.0
 wifi: 802.11a/b/g/n/ac
 # camera
@@ -59,12 +59,12 @@ screen_ppi: 440
 screen_tech: Pentile RGBG Full HD Super AMOLED
 # lineage info
 versions: [14.1]
-models: [GT-I9505]
+models: [SCH-I545]
 # used for build instructions
 current_branch: 14.1
 kernel: android_kernel_samsung_jf
-tree: android_device_samsung_jfltexx
-maintainers: []
+tree: android_device_samsung_jfltevzw
+maintainers: [Dan Pasanen]
 channels: [weekly]
 # recovery - "to boot into recovery, {{recovery_boot}}."
 recovery_boot: With the device powered down, hold **Home**, **Volume Up**, and **Power**
