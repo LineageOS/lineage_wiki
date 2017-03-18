@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_9a090b98",
+        "filename": "_data/devices/d2vzw.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-03-18T03:00:46Z",
+      "side": 1,
+      "message": "C",
+      "range": {
+        "startLine": 22,
+        "startChar": 10,
+        "endLine": 22,
+        "endChar": 11
+      },
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
