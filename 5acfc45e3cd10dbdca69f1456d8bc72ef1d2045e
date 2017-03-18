@@ -22,6 +22,40 @@
       "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_1af51b83",
+        "filename": "_data/devices/i9100.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-03-18T03:17:52Z",
+      "side": 1,
+      "message": "GT-I9100T, GT-I9100M should also work",
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_3af8df7b",
+        "filename": "_data/devices/i9300.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-03-18T03:17:52Z",
+      "side": 1,
+      "message": "GT-I9300T is also supported",
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
