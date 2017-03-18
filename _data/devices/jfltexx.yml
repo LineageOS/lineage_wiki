@@ -59,6 +59,7 @@ screen_ppi: 440
 screen_tech: Pentile RGBG Full HD Super AMOLED
 # lineage info
 versions: [14.1]
+models: [GT-I9505]
 # used for build instructions
 current_branch: 14.1
 kernel: android_kernel_samsung_jf
