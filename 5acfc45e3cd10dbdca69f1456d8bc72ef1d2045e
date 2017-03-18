@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_1a3cfb2e",
+        "filename": "_data/devices/d2vzw.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-18T03:33:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_9a090b98",
+      "range": {
+        "startLine": 22,
+        "startChar": 10,
+        "endLine": 22,
+        "endChar": 11
+      },
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_1af51b83",
         "filename": "_data/devices/i9100.yml",
         "patchSetId": 1
@@ -60,6 +84,42 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_da4543b4",
+        "filename": "_data/devices/i9100.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-18T03:33:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_1af51b83",
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_fa4807ce",
+        "filename": "_data/devices/i9100.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-18T03:33:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_7a353745",
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_3af8df7b",
         "filename": "_data/devices/i9300.yml",
         "patchSetId": 1
@@ -71,6 +131,24 @@
       "writtenOn": "2017-03-18T03:17:52Z",
       "side": 1,
       "message": "GT-I9300T is also supported",
+      "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_ba128fb2",
+        "filename": "_data/devices/i9300.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-18T03:33:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_3af8df7b",
       "revId": "5acfc45e3cd10dbdca69f1456d8bc72ef1d2045e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
