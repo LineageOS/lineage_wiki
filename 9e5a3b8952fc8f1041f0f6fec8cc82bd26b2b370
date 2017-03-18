@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_1a23db06",
+        "filename": "_data/devices/serranoltexx.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-03-18T04:51:32Z",
+      "side": 1,
+      "message": "also SGH-I257M \u0026 SHV-E370K",
+      "revId": "9e5a3b8952fc8f1041f0f6fec8cc82bd26b2b370",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
