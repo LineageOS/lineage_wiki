@@ -8,6 +8,6 @@ permalink: how-tos.html
 
 {% for page in sorted_pages %}
 {% if page.title and page.url and page.tags == "how-to" %}
-- [{{page.title}}]({{page.url}})
+- [{{page.title}}]({{ page.url | relative_url }})
 {% endif %}
 {% endfor %}

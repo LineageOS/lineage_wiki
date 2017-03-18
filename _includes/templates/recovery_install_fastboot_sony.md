@@ -6,8 +6,8 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
 1. Dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check "rooting status" - you can only continue if it says `Bootloader unlock allowed: Yes`.
-3. Make sure your computer has working [fastboot and adb](adb_fastboot_guide.html).
-4. Enable [USB debugging](adb_fastboot_guide.html#setting-up-adb) on your device.
+3. Make sure your computer has working [fastboot and adb]({{ "adb_fastboot_guide.html" | relative_url }}).
+4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 5. Get the current status of your bootloader:
 
     Open a terminal on the PC and boot the device to fastboot mode by typing:
