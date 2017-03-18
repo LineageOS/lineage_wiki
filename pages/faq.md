@@ -18,14 +18,14 @@ permalink: faq.html
  - Be patient. Devices are slowly being built throughout the week. Maintainers have busy lives, and sometimes an issue is holding it back. Please do not ask for ETAs.
 
 ## My device is _not_ officially supported, but I'd really like to give LineageOS a try. Can you support my device?
- - All devices are maintained by open source contributors - [sorry, we don't take device requests](device_requests.md). If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
+ - All devices are maintained by open source contributors - [sorry, we don't take device requests]({{ "device_requests.html" | relative_url }}). If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
  - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
 
 ## A build for my device disappeared? Where'd it go?
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle.
 
 ## I found a bug. What do I do?
- - You can report it! Please _carefully_ read the [How to submit a bug](bugreport-howto.html) page before reporting it.
+ - You can report it! Please _carefully_ read the [How to submit a bug]({{ "bugreport-howto.html" | relative_url }}) page before reporting it.
 
 ## Can I have _xxx_ feature added?
  - Don't ask.

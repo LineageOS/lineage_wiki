@@ -10,4 +10,4 @@ permalink: devices.html
 
 {% assign sorted = devices|sort:'name'|sort:'vendor' %}
 | **device** | **codename** | **type** |{% for device in sorted %}
-| [ {{ device.vendor }} {{ device.name }} ]({{ device.codename }}_info.html) |  [{{ device.codename }}]({{ device.codename }}_info.html) | {{ device.type }} |{% endfor %}
+| [ {{ device.vendor }} {{ device.name }} ]({{ device.codename | append: "_info.html" | relative_url }}) |  [{{ device.codename }}]({{ device.codename | append: "_info.html" | relative_url }}) | {{ device.type }} |{% endfor %}
