@@ -30,7 +30,7 @@ libstock.so|sha1sum
 -libstock-source.so:libstock-destination.so|sha1sum
 ```
 
-If the entry begins with a dash (```-```) then the vendor repository will declare a module that provides the blob.  This is needed is the blob is used to build another component in Android.  If the dash does not exist then the blob will simply be copied during the build.
+If the entry begins with a dash (```-```) then the vendor repository will declare a module that provides the blob.  This is needed if the blob is used to build another component in Android.  If the dash does not exist then the blob will simply be copied during the build.
 
 If the entry has a colon (```:```) with ```source``` and ```destination``` names, the extractor will check to see if the destination file exists.  If the destination file exists it will be extracted.  If not, the source filename will be extracted but saved to the destination name.  This allows you to pull either from a stock (unrenamed) dump or a Lineage dump/device while renaming it.
 
