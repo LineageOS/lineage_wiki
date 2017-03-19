@@ -1,0 +1,46 @@
+architecture: arm64
+battery: 2600 mAh (non-removable)
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: [ dual-LED (dual tone), laser autofocus, OIS ], info: 13MP}
+- {flash: LED flash, info: 5MP}
+carrier:
+channels: [weekly]
+codename: griffin
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 14.1
+depth: 5.2 mm (0.20 in)
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 530
+has_recovery_partition: true
+height: 153.3 mm (6.04 in)
+image: griffin.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8996
+maintainers: [vache, shr3ps]
+models: [XT1650-03, XT1650-05]
+name: Moto Z
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model), 850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 30(2300) LTE (North America model), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300)
+peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass]
+ram: 4GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016 September
+screen: 5.5 in
+screen_ppi: ~535
+screen_res: 2560x1440
+screen_tech: AMOLED
+sdcard: up to 2TB
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 64GB
+tree: android_device_motorola_griffin
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [14.1]
+width: 75.3 mm (2.96 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
