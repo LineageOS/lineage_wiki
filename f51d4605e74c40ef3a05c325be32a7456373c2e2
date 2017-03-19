@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_1d099531",
+        "filename": "_data/devices/jfltevzw.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-19T04:13:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_bd184985",
+      "range": {
+        "startLine": 13,
+        "startChar": 65,
+        "endLine": 13,
+        "endChar": 66
+      },
+      "revId": "f51d4605e74c40ef3a05c325be32a7456373c2e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_9d1d8576",
         "filename": "_data/devices/jfltevzw.yml",
         "patchSetId": 2
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_fd05a114",
+        "filename": "_data/devices/jfltevzw.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-19T04:13:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_9d1d8576",
+      "range": {
+        "startLine": 34,
+        "startChar": 15,
+        "endLine": 34,
+        "endChar": 16
+      },
+      "revId": "f51d4605e74c40ef3a05c325be32a7456373c2e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_dd2bfd92",
         "filename": "_data/devices/jfltevzw.yml",
         "patchSetId": 2
@@ -59,6 +107,30 @@
       "writtenOn": "2017-03-19T03:59:52Z",
       "side": 1,
       "message": "missing space",
+      "range": {
+        "startLine": 57,
+        "startChar": 15,
+        "endLine": 57,
+        "endChar": 18
+      },
+      "revId": "f51d4605e74c40ef3a05c325be32a7456373c2e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_dd02dd0a",
+        "filename": "_data/devices/jfltevzw.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-19T04:13:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_dd2bfd92",
       "range": {
         "startLine": 57,
         "startChar": 15,
