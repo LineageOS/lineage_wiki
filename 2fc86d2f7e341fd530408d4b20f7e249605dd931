@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_e94843ce",
+        "filename": "search.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-20T14:35:47Z",
+      "side": 1,
+      "message": "For some reason, this breaks json generation. Didn\u0027t spot it at first because this works just fine on a local jekyll server.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 115
+      },
+      "revId": "2fc86d2f7e341fd530408d4b20f7e249605dd931",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
