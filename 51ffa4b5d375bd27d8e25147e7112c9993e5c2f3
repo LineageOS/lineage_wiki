@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_293f7b27",
+        "filename": "pages/import_to_android_studio.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-20T14:32:41Z",
+      "side": 1,
+      "message": "I\u0027d name this section:\n\nStart working with Android Studio\n\n(it\u0027s not just \"open the project\" anymore)",
+      "range": {
+        "startLine": 67,
+        "startChar": 3,
+        "endLine": 67,
+        "endChar": 37
+      },
+      "revId": "51ffa4b5d375bd27d8e25147e7112c9993e5c2f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
