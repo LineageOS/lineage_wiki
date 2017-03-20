@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_29f9bbc8",
+        "filename": "pages/import_to_android_studio.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-20T11:49:07Z",
+      "side": 1,
+      "message": "Missing \":\" at the end.",
+      "range": {
+        "startLine": 24,
+        "startChar": 64,
+        "endLine": 24,
+        "endChar": 68
+      },
+      "revId": "4e771b3d0ed440db24698176bbfee0e079292215",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
