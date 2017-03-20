@@ -7,7 +7,7 @@ permalink: index.html
 This is our shiny new wiki, which uses [Jekyll](https://jekyllrb.com/). You can look at the source [on GitHub](https://github.com/LineageOS/lineage_wiki), or
 even learn how to [contribute!]({{ "contributing.html" | relative_url }}).
 
-Looking for information about your device? You can look for it on our [devices list]({{ "devices.html" | relative_url }}).
+Looking for information about your device? You can look for it on our [devices list]({{ "devices/" | relative_url }}).
 
 Always eager to learn? Here you can find a nice [list of how-tos]({{ "how-tos.html" | relative_url }}).
 
