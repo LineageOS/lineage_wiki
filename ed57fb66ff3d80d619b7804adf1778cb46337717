@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_69b6938c",
+        "filename": "pages/import_to_android_studio.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-03-20T15:43:36Z",
+      "side": 1,
+      "message": "occurrence",
+      "range": {
+        "startLine": 34,
+        "startChar": 126,
+        "endLine": 34,
+        "endChar": 135
+      },
+      "revId": "ed57fb66ff3d80d619b7804adf1778cb46337717",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
