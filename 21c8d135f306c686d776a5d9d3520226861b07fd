@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_0f6a771a",
+        "filename": "pages/import_to_android_studio.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-21T11:26:09Z",
+      "side": 1,
+      "message": "Add a new line here as well.",
+      "range": {
+        "startLine": 60,
+        "startChar": 200,
+        "endLine": 60,
+        "endChar": 202
+      },
+      "revId": "21c8d135f306c686d776a5d9d3520226861b07fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_2f6d3b33",
+        "filename": "pages/import_to_android_studio.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-21T11:26:09Z",
+      "side": 1,
+      "message": "Add a space between texts and -\u003e to match format above. And remove the empty space before )",
+      "range": {
+        "startLine": 83,
+        "startChar": 133,
+        "endLine": 83,
+        "endChar": 164
+      },
+      "revId": "21c8d135f306c686d776a5d9d3520226861b07fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
