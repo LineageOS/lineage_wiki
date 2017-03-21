@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_01e24b9f",
+        "filename": "pages/logcat.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-03-21T21:25:24Z",
+      "side": 1,
+      "message": "\"These instructions will generate a logcat file which you can then attach to a [bug report on JIRA](/bugreport-howto.html#reporting-a-bug).\"\nI think this should go here, instead of where it is below.",
+      "revId": "79dba73ce902903cba533802cb13698780b953c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
