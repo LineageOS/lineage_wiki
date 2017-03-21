@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_a1e81f7d",
+        "filename": "pages/bugs.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-03-21T21:34:07Z",
+      "side": 1,
+      "message": "...downloaded from [our official download portal](link)",
+      "revId": "df85153fceef1d1b03c8428b048be2d10746025a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
