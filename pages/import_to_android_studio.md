@@ -57,7 +57,8 @@ This will set the initial allocated (`Xms` parameter) and maximum usable (`Xmx` 
 
 ### Increase the file parsing limit
 
-Again, navigate to the `bin` folder and open the file `idea.properties` with a text editor. Look for the line `idea.max.intellisense.filesize=` and change its value to `5000` (or higher, if you wish).  
+Again, navigate to the `bin` folder and open the file `idea.properties` with a text editor. Look for the line `idea.max.intellisense.filesize=` and change its value to `5000` (or higher, if you wish).
+
 This is required so Android Studio can parse very large files to properly provide the auto-complete features (Android Studio calls this `IntelliSense`).
 
 {% include note.html content="If the line is missing (it should already be inside the file with current Android Studio versions), append it to the end of the file." %}
@@ -72,13 +73,15 @@ Then navigate to your Android source directory and open the `.ipr` file.
 
 ### Configure the project
 
-After opening the project, navigate to **File -> Project Structure -> SDKs** (this might be disabled until the indexing has finished) and set up a JDK (version 1.8 for LineageOS 14.1 branch) where you remove _all_ libraries (`.jar` files).  
-Then, on the left side of the settings panel, choose **Project Settings -> Modules** and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]).  
+After opening the project, navigate to **File -> Project Structure -> SDKs** (this might be disabled until the indexing has finished) and set up a JDK (version 1.8 for LineageOS 14.1 branch) where you remove _all_ libraries (`.jar` files).
+
+Then, on the left side of the settings panel, choose **Project Settings -> Modules** and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]).
+
 Press **Apply** and close the settings.
 
 ### Start developing
 
-Now, after all the previous steps are done, you can actually start developing and exploring the sources. The "Find all" function can be a good start to find a file you want to modify. Just search for a known string among all source files and then dive in deeper until you actually found the function you want to modify.
+Now, after all the previous steps are done, you can actually start developing and exploring the sources. The `Find in path` function (**Edit -> Find -> Find in path**) can be a good start to find a file you want to modify. Just search for a known string among all source files and then dive in deeper until you actually found the function you want to modify.
 
 ### Contribute!
 
