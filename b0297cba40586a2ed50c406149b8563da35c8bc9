@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_c13c3396",
+        "filename": "pages/logcat.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-03-21T18:14:24Z",
+      "side": 1,
+      "message": "Should be lower case",
+      "range": {
+        "startLine": 16,
+        "startChar": 82,
+        "endLine": 16,
+        "endChar": 83
+      },
+      "revId": "b0297cba40586a2ed50c406149b8563da35c8bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
