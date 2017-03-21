@@ -182,7 +182,7 @@ makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs
 
 ### Extract proprietary blobs
 
-{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](extracting_blobs_from_zips.html)" %}
+{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](/extracting_blobs_from_zips.html)" %}
 
 Now ensure your {{ site.data.devices[page.device].name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
 `~/android/system/device/{{site.data.devices[page.device].vendor_short}}/{{site.data.devices[page.device].codename}}` folder. Then run the `extract-files.sh` script:
