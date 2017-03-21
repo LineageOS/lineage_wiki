@@ -72,13 +72,15 @@ Then navigate to your Android source directory and open the `.ipr` file.
 
 ### Configure the project
 
-After opening the project, navigate to **File -> Project Structure -> SDKs** (this might be disabled until the indexing has finished) and set up a JDK (version 1.8 for LineageOS 14.1 branch) where you remove _all_ libraries (`.jar` files).  
-Then, on the left side of the settings panel, choose **Project Settings -> Modules** and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]).  
+After opening the project, navigate to **File -> Project Structure -> SDKs** (this might be disabled until the indexing has finished) and set up a JDK (version 1.8 for LineageOS 14.1 branch) where you remove _all_ libraries (`.jar` files).
+
+Then, on the left side of the settings panel, choose **Project Settings -> Modules** and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]).
+
 Press **Apply** and close the settings.
 
 ### Start developing
 
-Now, after all the previous steps are done, you can actually start developing and exploring the sources. The "Find all" function can be a good start to find a file you want to modify. Just search for a known string among all source files and then dive in deeper until you actually found the function you want to modify.
+Now, after all the previous steps are done, you can actually start developing and exploring the sources. The `Find in path` function (**Edit->Find->Find in path** ) can be a good start to find a file you want to modify. Just search for a known string among all source files and then dive in deeper until you actually found the function you want to modify.
 
 ### Contribute!
 
