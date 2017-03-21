@@ -6,12 +6,12 @@ tags: how-to
 ---
 
 ## What not to report
-  - bugs in unofficial builds or anything not from download.lineageos.org
-  - missing builds
-  - problems with the website
-  - asking for installation help
-  - asking for device support
-  - feature requests
+  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.lineageos.org/)
+  - Missing builds
+  - Problems with the website
+  - Asking for installation help
+  - Asking for device support
+  - Feature requests
 
 ## Reporting a bug
 
@@ -26,4 +26,4 @@ Two types of bugs are currently accepted:
     - These are accepted weekly from Midnight UTC on Friday through Midnight UTC on Monday, and can be any problems. Additional attachments and comments can be added at any time to already open bugs.
     - Example: the fingerprint sensor on your device has never worked, and Android shows it as a toaster.
 
-Please be sure to fill out every field with accurate information. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. Logcats *must* be attached for all bugs, and *must* be captured right after reproducing the issue.
+Please be sure to fill out every field with accurate information. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. [Logcats](/logcat.html) *must* be attached for all bugs, and *must* be captured right after reproducing the issue.
