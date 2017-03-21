@@ -101,8 +101,11 @@ To create them:
 
 ```
 $ mkdir -p ~/bin
-$ mkdir -p ~/android/system
+$ mkdir -p ~/lineage
 ```
+
+{% include note.html content="Older build guides use the path `~/android/system/` instead of `~/lineage`. Remember to replace it with the one you actually used in any further references of this wiki." %}
+
 
 ### Install the `repo` command
 
@@ -143,7 +146,7 @@ The {{ site.data.devices[page.device].vendor }} {{ site.data.devices[page.device
 {% endfor %}
 
 ```
-$ cd ~/android/system
+$ cd ~/lineage
 $ repo init -u https://github.com/LineageOS/android.git -b {% if site.data.devices[page.device].current_branch < 15 %}cm{%else%}lineage{%endif%}-{{ site.data.devices[page.device].current_branch }}
 ```
 
@@ -166,7 +169,7 @@ do it every few days to keep your code base fresh and up-to-date." %}
 
 ### Prepare the device-specific code
 
-After the source downloads, ensure you're in the root of the source code (`cd ~/android/system`), then type:
+After the source downloads, ensure you're in the root of the source code (`cd ~/lineage`), then type:
 
 ```
 $ source build/envsetup.sh
@@ -185,13 +188,13 @@ makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs
 {% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](extracting_blobs_from_zips.html)" %}
 
 Now ensure your {{ site.data.devices[page.device].name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
-`~/android/system/device/{{site.data.devices[page.device].vendor_short}}/{{site.data.devices[page.device].codename}}` folder. Then run the `extract-files.sh` script:
+`~/lineage/device/{{site.data.devices[page.device].vendor_short}}/{{site.data.devices[page.device].codename}}` folder. Then run the `extract-files.sh` script:
 
 ```
 $ ./extract-files.sh
 ```
 
-The blobs should be pulled into the `~/android/system/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
+The blobs should be pulled into the `~/lineage/vendor/{{site.data.devices[page.device].vendor_short}}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
 
 ### Turn on caching to speed up build

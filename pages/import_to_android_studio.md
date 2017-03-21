@@ -14,7 +14,7 @@ Unpack the downloaded file to a destination of your choice, then follow the inst
 
 ## Prepare a project file
 
-Open a shell and navigate to the root folder of your Android sources, e.g. `~/android/system`.
+Open a shell and navigate to the root folder of your Android sources, e.g. `~/lineage`.
 In case environment functions and variables are not yet loaded, type:
 
 ```
@@ -22,6 +22,8 @@ source build/envsetup.sh
 ```
 
 {% include tip.html content="You can always check this by executing `croot` (go to your Android root dir) and see if it gives an error. If not, you have already executed the `source` command." %}
+
+{% include note.html content="Older guides use the path `~/android/system/` instead of `~/lineage`. Remember to replace it with the one you used to execute the `repo init` command" %}
 
 Now execute:
 
