@@ -28,7 +28,7 @@ Start by noting down the URL of the proposed commit. In the above example, it's 
 Go to the root of the source code:
 
 ```
-cd ~/android/system
+cd ~/android/lineage
 ```
 
 Setup build environment:
@@ -233,7 +233,7 @@ git commit -m 'Added feature xyz'
 Go to the root of your local source code folder, and issue the upload:
 
 ```
-cd ~/android/system/
+cd ~/android/lineage
 repo upload frameworks/base
 ```
 
@@ -244,9 +244,9 @@ You should be asked a few questions and your commit should then be uploaded to G
 Start the new branch:
 
 ```
-cd ~/android/system/
+cd ~/android/lineage
 repo start mychanges-wpa_supplicant external/wpa_supplicant
-cd ~/android/system/project
+cd ~/android/lineage/project
 ```
 
 Make changes, edit a few files, add new drivers.. etc.
@@ -254,7 +254,7 @@ Make changes, edit a few files, add new drivers.. etc.
 ```
 git add *
 git commit -am 'Added AWEXT drivers'
-cd ~/android/system
+cd ~/android/lineage
 repo upload external/wpa_supplicant
 ```
 
