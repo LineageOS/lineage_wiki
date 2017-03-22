@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_970f99e1",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-22T15:47:34Z",
+      "side": 1,
+      "message": "Missing : at the end.",
+      "range": {
+        "startLine": 29,
+        "startChar": 107,
+        "endLine": 29,
+        "endChar": 113
+      },
+      "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_771425f5",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-22T15:47:34Z",
+      "side": 1,
+      "message": "Change to the folder:",
+      "range": {
+        "startLine": 187,
+        "startChar": 0,
+        "endLine": 187,
+        "endChar": 21
+      },
+      "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_57f921c7",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 226,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-22T15:47:34Z",
+      "side": 1,
+      "message": "This looks better:\n\ncd external/wpa_supplicant\nrepo start mychanges-wpa_supplicant .",
+      "range": {
+        "startLine": 225,
+        "startChar": 0,
+        "endLine": 226,
+        "endChar": 26
+      },
+      "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
