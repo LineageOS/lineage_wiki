@@ -48,6 +48,29 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_1703a9b9",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-22T16:08:28Z",
+      "side": 1,
+      "message": "Actually, this can be simplified to (no need to type croot at all):\n\nrepo upload .",
+      "range": {
+        "startLine": 214,
+        "startChar": 0,
+        "endLine": 215,
+        "endChar": 27
+      },
+      "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_57f921c7",
         "filename": "pages/using_gerrit.md",
         "patchSetId": 2
@@ -64,6 +87,29 @@
         "startChar": 0,
         "endLine": 226,
         "endChar": 26
+      },
+      "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_f7fff5a8",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-22T16:08:28Z",
+      "side": 1,
+      "message": "Same here (without croot):\n\nrepo upload .",
+      "range": {
+        "startLine": 234,
+        "startChar": 0,
+        "endLine": 235,
+        "endChar": 35
       },
       "revId": "5343d99ed1e4e0bad7d7d4b21dfeb133d65320e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
