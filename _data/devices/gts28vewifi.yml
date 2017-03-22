@@ -19,7 +19,6 @@ image: gts210vewifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8976
 maintainers:
-    - syphyr
     - LuK1337
     - luca020400
 models: [SM-T713]
