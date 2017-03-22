@@ -126,7 +126,7 @@ fi
 
 Then, run `source ~/.profile` to update your environment.
 
-### Initialise the LineageOS source repository
+### Initialize the LineageOS source repository
 
 Enter the following to initialize the repository:
 
@@ -177,7 +177,7 @@ This will download your device's [device specific configuration](https://github.
 [kernel](https://github.com/LineageOS/{{ site.data.devices[page.device].kernel }}).
 
 {% include important.html content="Some maintainers require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
-makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeded, and after completing you can [rerun
+makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
 `breakfast`](#prepare-the-device-specific-code)" %}
 
 ### Extract proprietary blobs
