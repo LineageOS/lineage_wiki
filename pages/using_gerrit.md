@@ -12,6 +12,29 @@ Check out LineageOS's review system - [Gerrit](http://review.lineageos.org).
 
 There you can see what has been recently merged into the codebase. More interestingly, you can see what people have been submitting for review. If there's something you want to try, you can actually test it by merging it into your code and building. It's a simple matter.
 
+## Prepare your build environment
+
+Go to the root of the source code:
+
+```
+cd ~/android/lineage
+```
+
+Setup build environment:
+
+```
+source build/envsetup.sh
+```
+
+The rest of this guide will rely on this being done. You can check the proper execution of the commands by typing
+
+```
+croot
+```
+
+Your shell will then navigate to the root of the sources, `~/android/lineage` or give an error.
+
+
 ## Retrieving and building a patch submission already on Gerrit
 
 Let's say you'd like to try and [catch'em all](https://review.lineageos.org/#/c/65062/) (just an example of a proposed commit that isn't merged).
@@ -25,17 +48,6 @@ To add this patch to your local build source code:
 If you type `repopick -h` you'll get a list of supported commands, such as the ability to pick multiple patches or ranges of patches in a single command.
 
 Start by noting down the URL of the proposed commit. In the above example, it's [https://review.lineageos.org/#/c/65062/](https://review.lineageos.org/#/c/65062/). That number, 65062 will come in handy in a second.
-Go to the root of the source code:
-
-```
-cd ~/android/lineage
-```
-
-Setup build environment:
-
-```
-source build/envsetup.sh
-```
 
 The patch should be applied automatically after typing:
 
@@ -162,46 +174,6 @@ Finally, you can submit your patch set to your initial patch by typing:
 repo upload <project name>
 ```
 
-## Bypassing Gerrit
-
-{% include note.html content="The following tips are for those few who have the ability to accept changes into Gerrit's official LineageOS repositories and/or who are able to bypass Gerrit entirely. Only posted here for convenience for these maintainers, in case anyone forgets the steps." %}
-{% include warning.html content="To mass-submit to Gerrit, you will need the *Push* and *Create Reference* permissions. For mass pushes that include commits you didn't create yourself, you may also need *Forge Author* and *Forge Committer* permissions. If you believe you are lacking appropriate permissions, contact a Gerrit admin for assistance." %}
-
-Say you have a bunch of changes and want to skip Gerrit's interface entirely, pushing directly to the repository. For this you will need special privileges.
-
-This is a summary of the user-upload feature, described in detail [here](https://review.lineageos.org/Documentation/user-upload.html).
-
-### Preparation
-
-Start by syncing the repo:
-
-```
-repo sync
-```
-
-Branch the repository to anything. In the new branch, add your commits (or merge from another branch, git pull from AOSP, or whatever gets your changes in).
-Next, enter `cmremote`. This command will add the remote (use `git remote -v` to see it).
-
-### To bypass Gerrit
-
-Assuming `cm-14.1` is the branch to which you are pushing, type:
-
-```
-git push cmremote HEAD:refs/heads/cm-14.1
-````
-
-### To mass-push commits to Gerrit for review
-
-Type the above mentioned command, but use `refs/for/branch` instead of `refs/heads/branch`.
-
-### To create a new remote branch (on GitHub)
-
-You can create a new (remote) branch by typing:
-
-```
-git push -u cmremote HEAD:refs/heads/new-branch-name
-```
-
 ## Example cases {#ExampleCasesTag}
 
 ### Edit `InputDevice.java`
@@ -210,6 +182,12 @@ Let's say you want to make a change in `InputDevice.java` that resides in the `f
 
 ```
 repo start mychanges frameworks/base
+```
+
+Switch to the folder:
+
+```
+cd frameworks/base
 ```
 
 Make the edits to that file. You can check those changes:
@@ -233,7 +211,7 @@ git commit -m 'Added feature xyz'
 Go to the root of your local source code folder, and issue the upload:
 
 ```
-cd ~/android/lineage
+croot
 repo upload frameworks/base
 ```
 
@@ -244,9 +222,8 @@ You should be asked a few questions and your commit should then be uploaded to G
 Start the new branch:
 
 ```
-cd ~/android/lineage
 repo start mychanges-wpa_supplicant external/wpa_supplicant
-cd ~/android/lineage/project
+cd external/wpa_supplicant
 ```
 
 Make changes, edit a few files, add new drivers.. etc.
@@ -254,7 +231,7 @@ Make changes, edit a few files, add new drivers.. etc.
 ```
 git add *
 git commit -am 'Added AWEXT drivers'
-cd ~/android/lineage
+croot
 repo upload external/wpa_supplicant
 ```
 
