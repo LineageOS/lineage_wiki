@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_75d65dc7",
+        "filename": "pages/how-tos.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-23T13:40:41Z",
+      "side": 1,
+      "message": "Use single quotes and add a space at the end:\n\nreplace_first: \u0027How to\u0027, \u0027...\u0027 }}",
+      "range": {
+        "startLine": 12,
+        "startChar": 19,
+        "endLine": 12,
+        "endChar": 49
+      },
+      "revId": "768c40ce210cc1672dbb7e5c536e2955f64ec625",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
