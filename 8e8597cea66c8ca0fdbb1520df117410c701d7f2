@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_9add8045",
+        "filename": "_data/devices/jfltexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-23T01:17:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_1a03d0b9",
+      "revId": "8e8597cea66c8ca0fdbb1520df117410c701d7f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_da2c184d",
         "filename": "_data/devices/jfltexx.yml",
         "patchSetId": 1
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "ba57610f_7ae2cc04",
+        "filename": "_data/devices/jfltexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-23T01:17:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_da2c184d",
+      "revId": "8e8597cea66c8ca0fdbb1520df117410c701d7f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba57610f_faffdca8",
         "filename": "_data/devices/jfltexx.yml",
         "patchSetId": 1
@@ -47,6 +83,24 @@
       "writtenOn": "2017-03-23T01:07:44Z",
       "side": 1,
       "message": "side is the name of the maintainer",
+      "revId": "8e8597cea66c8ca0fdbb1520df117410c701d7f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_5ae70813",
+        "filename": "_data/devices/jfltexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-03-23T01:17:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba57610f_faffdca8",
       "revId": "8e8597cea66c8ca0fdbb1520df117410c701d7f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
