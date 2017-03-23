@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to use Gerrit
 permalink: usinggerrit-howto.html
-tags: how-to
+tags:
+ - how-to
 ---
 
 ## Using Gerrit

@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to submit a bug report
 permalink: bugreport-howto.html
-tags: how-to
+tags:
+ - how-to
 ---
 
 ## What not to report

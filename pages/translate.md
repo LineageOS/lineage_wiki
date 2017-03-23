@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to translate
 permalink: translate-howto.html
-tags: how-to
+tags:
+ - how-to
 ---
 
 ## How to translate

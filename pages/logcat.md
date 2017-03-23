@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to capture logs
 permalink: logcat.html
-tags: how-to
+tags:
+ - how-to
 ---
 
 ## Taking logs for bug reports

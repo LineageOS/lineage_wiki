@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to import the sources to Android Studio / IntelliJ
 permalink: import-android-studio-howto.html
-tags: how-to
+tags:
+ - how-to
 ---
 
 ## Install Android Studio
