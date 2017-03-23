@@ -1,8 +1,10 @@
 ---
 sidebar: home_sidebar
-title: How to bypass Gerrit (Maintainers only)
+title: How to bypass Gerrit
 permalink: bypassing_gerrit.html
 search: exclude
+tags:
+ - internal
 ---
 
 ## Bypassing Gerrit
