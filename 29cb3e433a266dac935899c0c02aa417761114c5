@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_da189886",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-23T09:00:11Z",
+      "side": 1,
+      "message": "In case you are",
+      "range": {
+        "startLine": 139,
+        "startChar": 30,
+        "endLine": 139,
+        "endChar": 46
+      },
+      "revId": "29cb3e433a266dac935899c0c02aa417761114c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

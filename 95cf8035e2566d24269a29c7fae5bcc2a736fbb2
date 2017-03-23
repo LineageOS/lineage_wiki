@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_fa2b5c92",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-23T09:00:11Z",
+      "side": 0,
+      "message": "I would leave this one here so that the following instructions make sense, when we instruct users to use:\n\nrepo upload \u003cproject path\u003e",
+      "range": {
+        "startLine": 117,
+        "startChar": 0,
+        "endLine": 117,
+        "endChar": 5
+      },
+      "revId": "95cf8035e2566d24269a29c7fae5bcc2a736fbb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
