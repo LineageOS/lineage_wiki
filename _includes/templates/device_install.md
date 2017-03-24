@@ -5,6 +5,8 @@
 
 ## Installing LineageOS from recovery
 
+{% include important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
+
 1. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 {% if site.data.devices[page.device].channels %}
 2. Download the [LineageOS install package](https://download.lineageos.org/{{ site.data.devices[page.device].codename }}) that you'd like to install or [build]({{ "devices/" | append: site.data.devices[page.device].codename | append: "/build" | relative_url }}) the package yourself.
@@ -27,6 +29,8 @@
 11. _(Optional)_: Install any additional packages using the same method.
 12. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) or using any other method you prefer.
 13. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+
+{% include note.html content="If you want any Google apps on your device, you have to do follow step 11 **before** the first reboot!" %}
 
 ## Get assistance
 
