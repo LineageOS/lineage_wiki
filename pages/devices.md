@@ -10,5 +10,5 @@ redirect_from: devices.html
 {% endfor %}
 
 {% assign sorted = devices|sort:'name'|sort:'vendor' %}
-| **device** | **codename** | **type** |{% for device in sorted %}
-| [ {{ device.vendor }} {{ device.name }} ]({{ "devices/" | append: device.codename | relative_url }}) |  [{{ device.codename }}]({{ "devices/" | append: device.codename | relative_url }}) | {{ device.type }} |{% endfor %}
+| **Device** | **Codename** | **Type** |{% for device in sorted %}
+| [ {{ device.vendor }} {{ device.name }} ]({{ "devices/" | append: device.codename | relative_url }}) |  [{{ device.codename }}]({{ "devices/" | append: device.codename | relative_url }}) | {{ device.type | capitalize }} |{% endfor %}
