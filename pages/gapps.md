@@ -25,7 +25,7 @@ These packages are DPI-independent, so you only need to match your OS version an
 
 Google apps should be installed via recovery immediately after installing LineageOS. Exact steps vary, but the process is similar to that of installing LineageOS:
 
-{% include note.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them." %}
+{% include important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, else expect crashes." %}
 
 1. Copy the Google apps zipfile to `/sdcard/`
     * Using [adb](adb_fastboot_guide.html): `adb push filename.zip /sdcard/`
