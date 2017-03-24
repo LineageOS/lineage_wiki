@@ -52,4 +52,14 @@ $(function() {
             return $this.find("a[data-toggle=tab]:first, a[data-toggle=pill]:first").tab("show");
         }
     });
+
+    // Add 'external' CSS class to all external links
+    $('a:external').addClass('external');
+
+    // turn target into target=_blank for elements w external class
+    $(".external").attr('target', '_blank');
 });
+
+$.expr[':'].external = function(obj){
+    return !obj.href.match(/^mailto\:/) && (obj.hostname != location.hostname);
+};
