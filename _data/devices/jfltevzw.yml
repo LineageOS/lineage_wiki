@@ -1,3 +1,4 @@
+architecture: ARM
 # Access this data from "site.data.devices[page.device]"
 codename: jfltevzw
 image: jflte.png
@@ -49,6 +50,7 @@ cpu_cores: 4
 gpu: Adreno 320
 storage: 16GB/32GB
 sdcard: up to 64GB
+architecture:
 battery: 2600 mAh Li-ion battery, removable
 # device size
 height: 136.6mm (5.38 in)

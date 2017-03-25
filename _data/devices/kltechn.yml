@@ -1,3 +1,4 @@
+architecture: ARM
 battery: 2800 mAh Li-ion battery, removable
 bluetooth: 4.0 BLE
 cameras:
