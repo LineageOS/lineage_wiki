@@ -1,3 +1,4 @@
+architecture: arm
 battery:
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
@@ -33,7 +34,7 @@ screen_ppi: '244.9'
 screen_res: 480x854
 screen_tech: TFT
 sdcard: up to 32GB
-soc: Qualcomm MSM8227 Snapdragon S4 Plus
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 4GB
 tree: android_device_sony_nicki
 type: phone
