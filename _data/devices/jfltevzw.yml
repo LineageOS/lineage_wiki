@@ -1,3 +1,4 @@
+architecture: arm
 # Access this data from "site.data.devices[page.device]"
 codename: jfltevzw
 image: jflte.png
