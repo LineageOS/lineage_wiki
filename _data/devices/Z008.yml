@@ -1,3 +1,4 @@
+architecture:
 battery: 3000mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:

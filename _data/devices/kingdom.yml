@@ -1,3 +1,4 @@
+architecture:
 battery: 4000 mAh Li-Po, non-removable
 bluetooth: 4.0 BLE
 cameras:

@@ -1,3 +1,4 @@
+architecture:
 battery: 2525 mAh LiPo
 bluetooth: 4.0, A2DP
 cameras:

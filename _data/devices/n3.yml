@@ -1,3 +1,4 @@
+architecture:
 battery: 3000 mAh Li-Po with VOOC Flash Charge (un-removable)
 bluetooth: '4.0'
 cameras:
