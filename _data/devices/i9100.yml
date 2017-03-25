@@ -1,3 +1,4 @@
+architecture: arm
 battery: 1650 mAh
 bluetooth: 3.0+HS
 cameras:
@@ -12,7 +13,7 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth:
 download_boot: Volume Down, Home & Power
-gpu: ARM Mali-400
+gpu: arm Mali-400
 has_recovery_partition: true
 height:
 image: i9100.png

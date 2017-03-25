@@ -1,3 +1,4 @@
+architecture: arm64
 battery: 2500 mAh
 bluetooth: '4.1'
 cameras:
