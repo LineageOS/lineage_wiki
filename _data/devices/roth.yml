@@ -1,3 +1,4 @@
+architecture: arm
 battery: "7350 mAh (28.8 W\xC2\xB7h)"
 bluetooth: '3.0'
 cameras: []
