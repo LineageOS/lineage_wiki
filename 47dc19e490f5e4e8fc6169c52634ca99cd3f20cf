@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_e7ee2022",
+        "filename": "_data/devices/kccat6.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 15402
+      },
+      "writtenOn": "2017-03-25T14:31:22Z",
+      "side": 1,
+      "message": "I took that from klte.yml and I just checked: These single quotes are in all klte*.yml files as well.  Shall I send a matching patch for them?",
+      "revId": "47dc19e490f5e4e8fc6169c52634ca99cd3f20cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
