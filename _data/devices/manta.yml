@@ -1,3 +1,4 @@
+architecture: ARM
 battery: Internal rechargeable non-removable lithium-ion polymer 9000 mAh battery
 bluetooth: '3.0'
 cameras:
