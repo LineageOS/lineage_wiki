@@ -1,3 +1,4 @@
+architecture: ARM
 battery:
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:

@@ -1,3 +1,4 @@
+architecture: ARM
 battery: 2900 mAh LiPo
 bluetooth: '4.0'
 cameras:

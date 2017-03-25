@@ -1,3 +1,4 @@
+architecture: ARM
 battery: 1650 mAh
 bluetooth: 3.0+HS
 cameras:
