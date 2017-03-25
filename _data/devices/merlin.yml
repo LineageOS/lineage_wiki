@@ -1,3 +1,4 @@
+architecture:
 battery: 2470 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:

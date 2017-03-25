@@ -1,3 +1,4 @@
+architecture:
 battery: Li-Ion 4050 mAh battery
 bluetooth: '4.0'
 cameras:
