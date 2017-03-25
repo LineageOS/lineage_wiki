@@ -1,3 +1,4 @@
+architecture: ARM
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.0 with A2DP, LE, aptX
 cameras:

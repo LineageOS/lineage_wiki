@@ -1,3 +1,4 @@
+architecture: ARM
 battery: Removable 2800 mAh Li-Po with Rapid Charge
 bluetooth: '4.0'
 cameras:
