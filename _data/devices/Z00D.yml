@@ -1,3 +1,4 @@
+architecture: x86
 battery: 2500mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:
