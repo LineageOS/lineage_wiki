@@ -25,7 +25,7 @@
 9. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 10. Follow the on-screen prompts to install the package.
 11. _(Optional)_: Install any additional packages using the same method.
-12. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) or using any other method you prefer.
+12. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras){% if site.data.devices[page.device].architecture %} (use the `{{ site.data.devices[page.device].architecture }}` package){% endif %} or using any other method you prefer.
 13. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
