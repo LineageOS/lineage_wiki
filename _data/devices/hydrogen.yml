@@ -1,3 +1,4 @@
+architecture: arm64
 battery: Non-removable Li-Ion 4850 mAh
 bluetooth: v4.2 with A2DP, LE
 cameras:

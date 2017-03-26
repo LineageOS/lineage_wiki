@@ -1,4 +1,5 @@
 # Access this data from "site.data.devices[page.device]"
+architecture: arm
 codename: i9300
 image: i9300.png
 name: Galaxy S III (International)
