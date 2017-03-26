@@ -1,14 +1,14 @@
-battery:
+battery: Removable Li-Po 1750 mAh battery
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
-- {flash: '', info: 5 MP}
-- {flash: '', info: VGA}
+- {flash: LED, info: 5 MP}
+- {flash: '', info: 0.3 MP}
 carrier:
 channels: [weekly]
 codename: nicki
 cpu: Krait
 cpu_cores: '2'
-cpu_freq: 1 GHz
+cpu_freq: 1.0 GHz
 current_branch: 14.1
 download_boot: With the device powered down, hold Volume Down and connect the USB
   cable. The notification light should briefly turn green to indicate you are in flash
