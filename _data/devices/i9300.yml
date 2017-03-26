@@ -61,7 +61,7 @@ maintainers:
 channels:
     - weekly
 # recovery - "to boot into recovery, {{recovery_boot}}."
-recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**; release once spash shows
 has_recovery_partition: true
 # fastboot/download mode
 download_boot: Hold **Home**, **Volume Down**, and **Power**
