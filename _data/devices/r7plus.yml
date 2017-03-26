@@ -38,7 +38,7 @@ soc: Qualcomm MSM8939 Snapdragon 615
 storage: 32GB
 tree: android_device_oppo_r7plus
 type: phone
-vendor: Oppo
+vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
 width:

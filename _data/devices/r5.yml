@@ -36,7 +36,7 @@ soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16GB
 tree: android_device_oppo_r5
 type: phone
-vendor: Oppo
+vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
 wifi: 802.11 a/b/g/n, dual-band
