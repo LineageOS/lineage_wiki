@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_e77e20e4",
+        "filename": "_data/devices/sumire.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-03-26T00:32:50Z",
+      "side": 1,
+      "message": "no maintainers?",
+      "revId": "2d1768d9b29b6c07d4838a6d6c5d985c25176b31",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
