@@ -39,7 +39,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB
 tree: android_device_oppo_find7
 type: phone
-vendor: Oppo
+vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
 width: 75 mm

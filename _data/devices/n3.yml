@@ -37,7 +37,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32GB
 tree: android_device_oppo_n3
 type: phone
-vendor: Oppo
+vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
 width: 77 mm
