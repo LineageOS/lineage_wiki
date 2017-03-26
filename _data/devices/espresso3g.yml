@@ -2,7 +2,7 @@ architecture: arm
 battery: Non-removable Li-Ion 4000 mAh / Li-Po 7000 mAh
 bluetooth: v3.0 with A2DP
 cameras:
-- {flash: '', info: '15 MP '}
+- {flash: '', info: '3.15 MP '}
 - {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
@@ -44,3 +44,8 @@ vendor_short: samsung
 versions: [13.0]
 width: 122.4 mm / 175.3 mm
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
+note_show: true
+note_title: TWRP recoveries
+note_content: The Tab 2 series currently does not have either a working or an up-to-date TWRP recovery for the supported models. As the official TWRP recovery images have problems with them, flashing LineageOS 13.0 and/or Google Apps will fail or give issues. Therefore the only way to flash successfully is to use the unified and unofficial TWRP build made by Android-Andi (one of the maintainers of the device) on the XDA-Developers Forums. This recovery works on all supported models.
+note_link: Link to XDA-Developers forumpost
+note_url: https://forum.xda-developers.com/galaxy-tab-2/galaxy-tab-2-unified/recovery-team-win-recovery-project-twrp-t3464050
