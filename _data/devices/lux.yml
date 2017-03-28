@@ -20,6 +20,7 @@ image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
 maintainers: [sultanqasim]
+models: [XT1562, XT1563]
 name: Moto X Play
 network:
 - {tech: 2G, bands: '' }

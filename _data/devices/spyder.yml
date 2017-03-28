@@ -17,7 +17,8 @@ has_recovery_partition: true
 image: spyder.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-maintainers: [Hashcode0f]
+maintainers: [Hashcode0f, stargo]
+models: [XT912]
 name: Droid RAZR/RAZR MAXX (CDMA)
 network:
 - {tech: 2G, bands: '850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA' }
