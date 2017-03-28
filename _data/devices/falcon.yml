@@ -19,6 +19,7 @@ image: falcon.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
 maintainers: ['']
+models: [XT1031, XT1032, XT1033, XT1034]
 name: Moto G
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
@@ -33,7 +34,7 @@ screen: 114 mm (4.5 in)
 screen_ppi: ~326
 screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
-sdcard:
+sdcard: Not Supported
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8GB or 16GB
 tree: android_device_motorola_falcon
