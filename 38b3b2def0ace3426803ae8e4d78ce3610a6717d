@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_33c5965b",
+        "filename": "_data/devices/falcon.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-03-28T10:52:34Z",
+      "side": 1,
+      "message": "Duplicate",
+      "range": {
+        "startLine": 22,
+        "startChar": 41,
+        "endLine": 22,
+        "endChar": 47
+      },
+      "revId": "38b3b2def0ace3426803ae8e4d78ce3610a6717d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
