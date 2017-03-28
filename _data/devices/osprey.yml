@@ -19,6 +19,7 @@ image: osprey.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
 maintainers: [alberto97]
+models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: Moto G 2015
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800/850/1900 MHz CDMA' }
