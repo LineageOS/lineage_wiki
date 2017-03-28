@@ -19,6 +19,7 @@ image: thea.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
 maintainers: [LuK1337, luca020400]
+models: [XT1072, XT1077, XT1078, XT1079]
 name: Moto G 2014 LTE
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
