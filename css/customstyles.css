@@ -9,81 +9,88 @@ body {
     border-left-width: 5px;
     border-radius: 3px;
 }
+
 .bs-callout h4 {
     margin-top: 0;
     margin-bottom: 5px;
 }
+
 .bs-callout p:last-child {
     margin-bottom: 0;
 }
+
 .bs-callout code {
     border-radius: 3px;
 }
+
 .bs-callout+.bs-callout {
     margin-top: -5px;
 }
+
 .bs-callout-default {
     border-left-color: #777;
 }
+
 .bs-callout-default h4 {
     color: #777;
 }
+
 .bs-callout-primary {
     border-left-color: #428bca;
 }
+
 .bs-callout-primary h4 {
     color: #428bca;
 }
+
 .bs-callout-success {
     border-left-color: #5cb85c;
 }
+
 .bs-callout-success h4 {
     color: #5cb85c;
 }
+
 .bs-callout-danger {
     border-left-color: #d9534f;
 }
+
 .bs-callout-danger h4 {
     color: #d9534f;
 }
+
 .bs-callout-warning {
     border-left-color: #f0ad4e;
 }
+
 .bs-callout-warning h4 {
     color: #f0ad4e;
 }
+
 .bs-callout-info {
     border-left-color: #5bc0de;
 }
+
 .bs-callout-info h4 {
     color: #5bc0de;
 }
-
 
 .gi-2x{font-size: 2em;}
 .gi-3x{font-size: 3em;}
 .gi-4x{font-size: 4em;}
 .gi-5x{font-size: 5em;}
 
-
-
-
-
 .breadcrumb > .active {color: #777 !important;}
 
 /* make room for the nav bar */
-h1[id],
-h2[id],
-h3[id],
-h4[id],
-h5[id],
-h6[id],
-dt[id]{
-padding-top: 60px;
-margin-top: -40px
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id], dt[id]{
+    padding-top: 80px;
+    margin-top: -60px;
 }
 
-body h1 {margin-top:40px;}
+body h1 {
+    margin-top:40px;
+}
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -119,15 +126,18 @@ body h1 {margin-top:40px;}
 table {
     background-color: transparent;
 }
+
 caption {
     padding-top: 8px;
     padding-bottom: 8px;
     color: #777;
     text-align: left;
 }
+
 th {
     text-align: left;
 }
+
 table {
     max-width: 90%;
     margin-bottom: 20px;
@@ -161,9 +171,11 @@ table > colgroup + thead > tr:first-child > td,
 table > thead:first-child > tr:first-child > td {
     border-top: 0;
 }
+
 table > tbody + tbody {
     b
 }
+
 table > tbody > tr:nth-of-type(odd) {
     background-color: #f9f9f9;
 }
@@ -173,6 +185,7 @@ table col[class*="col-"] {
     display: table-column;
     float: none;
 }
+
 table td[class*="col-"],
 table th[class*="col-"] {
     position: static;
@@ -198,9 +211,19 @@ p.external a {
 #definition-box-container div a.active {
     font-weight: bold;
 }
-p.post-meta {font-size: 80%; color: #777;}
 
-.entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
+p.post-meta {
+    font-size: 80%;
+    color: #777;
+}
+
+.entry-date {
+    font-size:14px;
+    font-size:0.875rem;
+    line-height:1.71429;
+    margin-bottom:0;
+    text-transform:uppercase;
+}
 
 /* search area */
 #search-demo-container ul#results-container {
@@ -209,7 +232,7 @@ p.post-meta {font-size: 80%; color: #777;}
     background-color: white;
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
-    left: 0px;
+    left: 15px;
     right: auto;
     width: 196px;
     border: 1px solid #cccccc;
@@ -219,18 +242,11 @@ p.post-meta {font-size: 80%; color: #777;}
     border: none;
 }
 
-@media (min-width: 1200px) {
-    #search-demo-container ul#results-container {
-        left: auto;
-        right: 56px;
-    }
-}
-
 ul#results-container a {
     background-color: transparent;
 }
 
-ul#results-container a: hover {
+ul#results-container a:hover {
     color: black;
 }
 
@@ -257,6 +273,7 @@ div#toc ul li {
     font-size: 90%;
     list-style: square;
 }
+
 div#toc ul {
     background-color: whitesmoke;
     padding: 5px;
@@ -349,9 +366,6 @@ a.accordion-toggle, a.accordion-collapsed {
     color: #333;
     display: block;
     outline: none;
-    /*-webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;*/
     text-decoration: none;
 }
 
@@ -375,7 +389,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav > li.active > a  {
-background-color: #347DBE;
+    background-color: #347DBE;
 }
 
 .nav li a {
@@ -438,10 +452,6 @@ span.projectTitle {
     font-weight: bold;
 }
 
-.footer {
-    text-align: right;
-}
-
 .footerMeta {
     background-color: whitesmoke;
     padding: 10px;
@@ -489,7 +499,6 @@ figcaption {
 .preference {
     color: red;
 }
-
 
 table.dataTable thead {
     background-color: #444;
@@ -587,7 +596,7 @@ a[data-toggle] {
 .summary {
     font-size:120%;
     color: #808080;
-    margin:20px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     border-left: 5px solid #ED1951;
     padding-left: 10px;
 
@@ -603,8 +612,22 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
-h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
+h2  {
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h3 {
+    color: #ED1951;
+    font-weight:normal;
+    font-size:130%;
+}
+
+h4 {
+    color: #808080;
+    font-weight: normal;
+    font-size: 120%;
+    font-style: italic;}
 
 .alert, .callout {
     overflow: hidden;
@@ -630,7 +653,9 @@ div#toc ul li ul li {
     background-color: #FAFAFA;
 }
 
-span.tagTitle {font-weight: 500;}
+span.tagTitle {
+    font-weight: 500;
+}
 
 li.activeSeries {
     font-weight: bold;
@@ -669,10 +694,6 @@ button.cursorNorm {
     cursor: pointer;
 }
 
-h2  {
-    font-size:24px;
-    line-height:29px;
-}
 span.otherProgrammingLanguages {
     font-style: normal;
 }
@@ -742,15 +763,13 @@ ol.series li {
     background-color: #FAFAFA;
 }
 
-/*
-a.dropdown-toggle.otherProgLangs {
-    color: #f7e68f !important;
+span.muted {
+    color: #666;
 }
-*/
 
-span.muted {color: #666;}
-
-table code {background-color: transparent;}
+table code {
+    background-color: transparent;
+}
 
 .highlight .err {
     color: #a61717;
@@ -791,19 +810,21 @@ video {
 
 p.required, p.dataType {display: block; color: #c0c0c0; font-size: 80%; margin-left:4px;}
 
-dd {margin-left:20px;}
+dd {
+    margin-left: 20px
+}
 
 .post-content img.inline {
-    margin:0px;
-    margin-bottom:6px;
+    margin: 0px;
+    margin-bottom: 6px;
 }
 .panel-heading {
     font-weight: bold;
 }
 
 .alert {
-    margin-bottom:10px;
-    margin-top:10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 a.accordion-toggle {
@@ -816,8 +837,8 @@ span.red {
 }
 
 h3.codeExplanation {
-    font-size:18px;
-    font-style:normal;
+    font-size: 18px;
+    font-style: normal;
     color: black;
     line-height: 24px;
 }
@@ -855,6 +876,16 @@ span.soft {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
     }
+
+    .navbar-form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: -5px;
+    }
+
+    #search-demo-container ul#results-container {
+        position: initial;
+    }
 }
 
 @media (max-width: 990px) {
@@ -864,14 +895,12 @@ span.soft {
 }
 
 @media (min-width: 1000px) {
-
     ul#mysidebar {
         width: 225px;
     }
 }
 
 @media (max-width: 900px) {
-
     ul#mysidebar {
         max-width: 100%;
     }
@@ -906,7 +935,7 @@ span.soft {
 
 .videoThumbs img {
     float: left;
-    margin:15px 15px 15px 0px;
+    margin: 15px 15px 15px 0px;
     box-shadow: 2px 2px 1px #f0f0f0;
     border: 1px solid #dedede;
 }
@@ -927,7 +956,7 @@ span.soft {
 .kbCaption {
     color: white;
     background-color: #444;
-    padding:10px;
+    padding: 10px;
 }
 
 .btn-default {
@@ -935,18 +964,20 @@ span.soft {
 }
 
 /* algolia search */
-
 .search {
     text-align: left;
 }
+
 .search input {
     font-size: 20px;
     width: 300px;
 }
+
 .results {
     margin: auto;
     text-align: left;
 }
+
 .results ul {
     list-style-type: none;
     padding: 0;
@@ -1025,7 +1056,6 @@ table thead th code.highlighter-rouge {
     background-color: transparent;
 }
 
-
 .box {
     padding: 10px;
     border: 1px solid #888;
@@ -1053,17 +1083,13 @@ table thead th code.highlighter-rouge {
 
 #userMap .active {
     background-color: #d6f5d6;
-    border:1px solid #555;
+    border: 1px solid #555;
     font-weight: bold;
 }
 
 h2.userMapTitle {
     font-family: Arial;
 }
-
-#userMap a:hover {
-    text-decoration: none;
-  }
 
 div.arrow {
     max-width: 50px;
@@ -1076,18 +1102,44 @@ div.content {
     max-width: 110px
 }
 
+#userMap a:hover {
+    text-decoration: none;
+}
+
 #userMap div.arrow, #userMap div.content {
     float: left;
 }
 
-.clearfix {
-    clear: both;
-}
-
-
 #userMap div.arrow {
     position: relative;
     top: 30px;
+}
+
+#userMap .btn-lg {
+    width: 100px;
+    height: 80px;
+}
+
+#userMap .complexArrow {
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
+#userMap .btn-lg .active {
+    background-color: #d6f5d6;
+}
+
+#userMap .btn-lg  {
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+	font-size: 14px;
+}
+
+.clearfix {
+    clear: both;
 }
 
 .box1 {
@@ -1101,31 +1153,6 @@ button.btn.btn-default.btn-lg.modalButton1 {
 div.box.box1 {
     margin-left: -20px;
 }
-
-#userMap .btn-lg {
-    width: 100px;
-    height: 80px;
-
-}
-
-#userMap .complexArrow {
-    font-size: 22px;
-    margin: 0px 10px;
-}
-
-
-#userMap .btn-lg .active {
-    background-color: #d6f5d6;
-}
-
-#userMap .btn-lg  {
-        white-space: pre-wrap;       /* css-3 */
-        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-        white-space: -pre-wrap;      /* Opera 4-6 */
-        white-space: -o-pre-wrap;    /* Opera 7 */
-        word-wrap: break-word;       /* Internet Explorer 5.5+ */
-        font-size: 14px;
-    }
 
 /*
  * Let's target IE to respect aspect ratios and sizes for img tags containing SVG files
@@ -1147,4 +1174,8 @@ div.box.box1 {
 h4.panel-title {
     padding-top: 0px;
     margin-top: 0px;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 90vH;
 }
