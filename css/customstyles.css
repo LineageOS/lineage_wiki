@@ -219,13 +219,6 @@ p.post-meta {font-size: 80%; color: #777;}
     border: none;
 }
 
-@media (min-width: 1200px) {
-    #search-demo-container ul#results-container {
-        left: auto;
-        right: 56px;
-    }
-}
-
 ul#results-container a {
     background-color: transparent;
 }
@@ -436,10 +429,6 @@ ul#mysidebar {
 span.projectTitle {
     font-family: Helvetica;
     font-weight: bold;
-}
-
-.footer {
-    text-align: right;
 }
 
 .footerMeta {
@@ -855,6 +844,16 @@ span.soft {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
     }
+
+    .navbar-form {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: -5px;
+    }
+
+    #search-demo-container ul#results-container {
+        position: initial;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1147,4 +1146,8 @@ div.box.box1 {
 h4.panel-title {
     padding-top: 0px;
     margin-top: 0px;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: initial;
 }
