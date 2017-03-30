@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+</html>
 <head>
     {% include head.html %}
     <script>
@@ -43,41 +45,34 @@
     <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
     <script>
         $(document).ready(function(){
-
-            $('table.datatable').DataTable( {
-                        paging: false,
-                        stateSave: true
-                    }
-            );
+            $('table.datatable').DataTable({
+                paging: false,
+                stateSave: true
+            });
+        });
     </script>
     {% endif %}
 
 </head>
-<body>
+<body id="page-top">
 {% include topnav.html %}
 <!-- Page Content -->
 <div class="container">
-    <div class="col-lg-12">&nbsp;</div>
-    <!-- Content Row -->
-    <div class="row">
+  <!-- Content Row -->
+  <div class="row">
     <!-- Content Column -->
     <div class="col-md-8">
-        {{content}}
+      {{content}}
     </div>
     <!-- device info template -->
     <div class="col-md-4">
-        {% include deviceinfo.html %}
+      <br />
+      {% include deviceinfo.html %}
     </div>
-    <!-- /.row -->
-</div>
-<div class="row">
-    <div class="col-md-12">
-    {{site.data.alerts.hr_shaded}}
-    {% include footer.html %}
-    </div>
-</div>
-<!-- /.container -->
-    </div>
+  </div><!-- /.row -->
+</div><!-- /.container -->
+
+{% include footer.html %}
 
 </body>
 {% if site.google_analytics %}
