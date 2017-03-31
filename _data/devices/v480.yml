@@ -19,7 +19,7 @@ height: 210.8 mm
 image: v480.png
 install_method: TODO
 kernel: android_kernel_lge_v4xx
-maintainers: [João Paulo Just Peixoto]
+maintainers: [jpjust]
 name: G Pad 8.0 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }
