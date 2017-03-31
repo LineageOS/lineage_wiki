@@ -11,7 +11,7 @@ tags:
 
 ### Get LineageOS!
 
-* You can check if your device is support on our [list of support devices]({{ "devices/" | relative_url }}).
+* You can check if your device is support on our [list of supported devices]({{ "devices/" | relative_url }}).
 * You can look at our information on [requesting a device]({{ "device_requests.html" | relative_url }}).
 
 ### Report bugs!
