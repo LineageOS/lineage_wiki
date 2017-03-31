@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_815d09ec",
+        "filename": "index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-31T07:30:48Z",
+      "side": 1,
+      "message": "Actually this should be removed. There is already an exclamation mark at the end (... guide on contributing!).",
+      "range": {
+        "startLine": 30,
+        "startChar": 107,
+        "endLine": 30,
+        "endChar": 108
+      },
+      "revId": "07d550ab8e3636ff4965f55bb7f5c06cb4f66be0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_6172157e",
+        "filename": "index.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-03-31T07:30:48Z",
+      "side": 1,
+      "message": "Actually this should be removed. There is already an exclamation mark at the end (... guide on submitting to gerrit!).",
+      "range": {
+        "startLine": 47,
+        "startChar": 160,
+        "endLine": 47,
+        "endChar": 161
+      },
+      "revId": "07d550ab8e3636ff4965f55bb7f5c06cb4f66be0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
