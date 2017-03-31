@@ -30,7 +30,7 @@ peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Ac
 ram: 2GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
-release: 21 August 2014;
+release: 21 August 2014
 screen: 130 mm (5.1 in)
 screen_ppi: '432'
 screen_res: 1920x1080
