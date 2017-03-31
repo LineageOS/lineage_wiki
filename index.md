@@ -17,7 +17,7 @@ tags:
 ### Report bugs!
 
 * To grab information needed for a bug report, you can [setup ADB]({{ "adb_fastboot_guide.html#installing-adb-and-fastboot" | relative_url }})
-and then [capture a log]({{ "http://wiki.lineageos.org/logcat.html" | relative_url}}).
+and then [capture a log]({{ "logcat.html" | relative_url}}).
 * Then, learn where to report your bug by reading our [how-to on reporting bugs]({{ "bugreport-howto.html" | relative_url }}).
 
 ## For everyone
