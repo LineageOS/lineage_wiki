@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on shamu
+title: Install LineageOS on shamu
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: shamu_install.html

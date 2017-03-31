@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on lettuce
+title: Install LineageOS on lettuce
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: lettuce_install.html

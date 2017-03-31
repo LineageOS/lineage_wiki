@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on serrano3gxx
+title: Install LineageOS on serrano3gxx
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: serrano3gxx_install.html

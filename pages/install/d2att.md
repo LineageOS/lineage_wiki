@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on d2att
+title: Install LineageOS on d2att
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: d2att_install.html

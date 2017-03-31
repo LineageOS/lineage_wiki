@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on harpia
+title: Install LineageOS on harpia
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: harpia_install.html

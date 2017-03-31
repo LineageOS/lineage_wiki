@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on targa
+title: Install LineageOS on targa
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: targa_install.html

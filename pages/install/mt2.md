@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on mt2
+title: Install LineageOS on mt2
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: mt2_install.html

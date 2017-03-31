@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on maguro
+title: Install LineageOS on maguro
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: maguro_install.html

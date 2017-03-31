@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on mako
+title: Install LineageOS on mako
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: mako_install.html

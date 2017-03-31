@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on espresso3g
+title: Install LineageOS on espresso3g
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: espresso3g_install.html

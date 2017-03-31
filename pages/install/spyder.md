@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on spyder
+title: Install LineageOS on spyder
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: spyder_install.html

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on roth
+title: Install LineageOS on roth
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: roth_install.html

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on vegetalte
+title: Install LineageOS on vegetalte
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: vegetalte_install.html

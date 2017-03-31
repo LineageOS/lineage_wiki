@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on jfltexx
+title: Install LineageOS on jfltexx
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: jfltexx_install.html

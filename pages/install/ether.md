@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on ether
+title: Install LineageOS on ether
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: ether_install.html

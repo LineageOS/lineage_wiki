@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on fireball
+title: Install LineageOS on fireball
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: fireball_install.html

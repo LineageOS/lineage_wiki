@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on thea
+title: Install LineageOS on thea
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: thea_install.html

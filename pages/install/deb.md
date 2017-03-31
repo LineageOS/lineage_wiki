@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on deb
+title: Install LineageOS on deb
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: deb_install.html

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on g2m
+title: Install LineageOS on g2m
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: g2m_install.html

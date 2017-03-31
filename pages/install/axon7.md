@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on axon7
+title: Install LineageOS on axon7
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: axon7_install.html

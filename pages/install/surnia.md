@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on surnia
+title: Install LineageOS on surnia
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: surnia_install.html

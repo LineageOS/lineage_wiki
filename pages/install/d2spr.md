@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on d2spr
+title: Install LineageOS on d2spr
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: d2spr_install.html

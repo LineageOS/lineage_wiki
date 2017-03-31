@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on r7plus
+title: Install LineageOS on r7plus
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: r7plus_install.html

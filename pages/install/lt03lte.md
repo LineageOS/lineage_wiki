@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on lt03lte
+title: Install LineageOS on lt03lte
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: lt03lte_install.html

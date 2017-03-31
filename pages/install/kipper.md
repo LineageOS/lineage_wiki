@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on kipper
+title: Install LineageOS on kipper
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: kipper_install.html

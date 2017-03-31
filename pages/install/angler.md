@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on angler
+title: Install LineageOS on angler
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: angler_install.html

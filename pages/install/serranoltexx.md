@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on serranoltexx
+title: Install LineageOS on serranoltexx
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: serranoltexx_install.html

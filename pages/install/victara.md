@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on victara
+title: Install LineageOS on victara
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: victara_install.html

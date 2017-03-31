@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on otus
+title: Install LineageOS on otus
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: otus_install.html
