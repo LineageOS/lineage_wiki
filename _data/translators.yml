@@ -58,10 +58,6 @@ languages:
       proofreaders: [Tamás Tóth (tothtamassyman)]
     - name: Indonesian
       proofreaders: [nikfrmn, Baguz Ach (eggoez), tony®ananta (qjohn)]
-    - name: Japanese
-      proofreaders: [Noumi]
-    - name: Kashubian
-      proofreaders: [Krzysztof Mesek (mesiu84)]
     - name: Italian
       proofreaders: [Joey Rizzoli (linuxx)]
     - name: Japanese
