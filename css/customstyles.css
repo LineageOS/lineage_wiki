@@ -1179,3 +1179,15 @@ h4.panel-title {
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 90vH;
 }
+
+table.device {
+    min-width: 60%;
+}
+
+table.device td:nth-child(2) {
+	width: 150px;
+}
+
+table.device td:last-child {
+	width: 200px;
+}
