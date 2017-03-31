@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on kltechnduo
+title: Install LineageOS on kltechnduo
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: kltechnduo_install.html

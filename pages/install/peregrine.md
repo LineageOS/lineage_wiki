@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on peregrine
+title: Install LineageOS on peregrine
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: peregrine_install.html

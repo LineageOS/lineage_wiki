@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on kenzo
+title: Install LineageOS on kenzo
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: kenzo_install.html

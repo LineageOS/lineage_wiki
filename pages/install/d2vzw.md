@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on d2vzw
+title: Install LineageOS on d2vzw
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: d2vzw_install.html

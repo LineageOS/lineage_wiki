@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on oneplus2
+title: Install LineageOS on oneplus2
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: oneplus2_install.html

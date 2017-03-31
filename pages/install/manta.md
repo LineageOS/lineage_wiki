@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on manta
+title: Install LineageOS on manta
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: manta_install.html

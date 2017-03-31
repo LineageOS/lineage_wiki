@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on nicki
+title: Install LineageOS on nicki
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: nicki_install.html

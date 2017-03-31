@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on zl1
+title: Install LineageOS on zl1
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: zl1_install.html

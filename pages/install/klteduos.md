@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on klteduos
+title: Install LineageOS on klteduos
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: klteduos_install.html

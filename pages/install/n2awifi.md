@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on n2awifi
+title: Install LineageOS on n2awifi
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: n2awifi_install.html

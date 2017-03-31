@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on osprey
+title: Install LineageOS on osprey
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: osprey_install.html

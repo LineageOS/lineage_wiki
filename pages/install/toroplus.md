@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on toroplus
+title: Install LineageOS on toroplus
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: toroplus_install.html

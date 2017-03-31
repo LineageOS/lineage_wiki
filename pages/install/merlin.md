@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on merlin
+title: Install LineageOS on merlin
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: merlin_install.html

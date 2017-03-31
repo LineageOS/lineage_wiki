@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on hayabusa
+title: Install LineageOS on hayabusa
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: hayabusa_install.html

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on onyx
+title: Install LineageOS on onyx
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: onyx_install.html

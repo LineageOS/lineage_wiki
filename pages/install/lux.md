@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on lux
+title: Install LineageOS on lux
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: lux_install.html

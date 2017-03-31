@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on ks01lte
+title: Install LineageOS on ks01lte
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: ks01lte_install.html

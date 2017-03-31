@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on falcon
+title: Install LineageOS on falcon
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: falcon_install.html

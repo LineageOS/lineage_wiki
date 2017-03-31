@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on athene
+title: Install LineageOS on athene
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: athene_install.html

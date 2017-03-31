@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on maserati
+title: Install LineageOS on maserati
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: maserati_install.html

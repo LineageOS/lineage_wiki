@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on jalebi
+title: Install LineageOS on jalebi
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: jalebi_install.html

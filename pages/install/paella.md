@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on paella
+title: Install LineageOS on paella
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: paella_install.html

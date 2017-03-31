@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on tsubasa
+title: Install LineageOS on tsubasa
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: tsubasa_install.html

@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on cherry
+title: Install LineageOS on cherry
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: cherry_install.html

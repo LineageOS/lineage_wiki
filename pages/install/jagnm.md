@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on jagnm
+title: Install LineageOS on jagnm
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: jagnm_install.html
