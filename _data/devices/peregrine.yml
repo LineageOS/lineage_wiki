@@ -18,7 +18,7 @@ has_recovery_partition: true
 image: peregrine.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: [Somcom3x, Intervigil]
+maintainers: ['Gabriele M']
 name: Moto G 4G
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
