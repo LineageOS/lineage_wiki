@@ -24,7 +24,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals: [Fingerprint recognition, Heart rate sensor, 'Motion Coprocessor,Accelerometer',
+peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
 ram: 2GB
