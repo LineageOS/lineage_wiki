@@ -18,7 +18,7 @@ height: 161.2 mm
 image: n3.png
 install_method: TODO
 kernel:
-maintainers: ['']
+maintainers: [jrior001, mikeioannina]
 name: N3
 network:
 - {tech: 2G, bands: '' }
