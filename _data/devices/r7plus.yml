@@ -19,7 +19,7 @@ height:
 image: r7plus.png
 install_method: TODO
 kernel: android_kernel_oppo_msm8939
-maintainers: ['']
+maintainers: [maniac103]
 name: R7 Plus
 network:
 - {tech: 2G, bands: '' }
