@@ -747,6 +747,7 @@ ol.series li {
 #mysidebar .nav ul {
     background-color: #FAFAFA;
 }
+
 .nav ul.series li {
     list-style: decimal;
     font-size:12px;
@@ -807,8 +808,12 @@ video {
     border: 1px solid #c0c0c0;
 }
 
-
-p.required, p.dataType {display: block; color: #c0c0c0; font-size: 80%; margin-left:4px;}
+p.required, p.dataType {
+    display: block;
+    color: #c0c0c0;
+    font-size: 80%;
+    margin-left:4px;
+}
 
 dd {
     margin-left: 20px
@@ -872,6 +877,26 @@ span.soft {
     background-color: whitesmoke;
 }
 
+table.device {
+    max-width: 100%;
+    width: 100%
+}
+
+table.device a {
+    display: block;
+}
+
+table.device td:first-child,
+table.device td:nth-child(2) {
+    cursor: pointer;
+    width: 50%;
+}
+
+table.device td:last-child {
+    width: 200px;
+    min-width: 200px;
+}
+
 @media (max-width: 767px) {
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
         color: #444;
@@ -885,6 +910,26 @@ span.soft {
 
     #search-demo-container ul#results-container {
         position: initial;
+    }
+
+    table.device td {
+        vertical-align: middle;
+    }
+
+    table.device td:nth-child(1) {
+        width: 100%;
+    }
+
+    table.device td:nth-child(2) {
+        width: 150px;
+        min-width: 150px;
+    }
+
+    table.device td:nth-child(3),
+    table.device th:nth-child(3) {
+        text-align: center;
+        width: 80px;
+        max-width: 80px;
     }
 }
 
@@ -919,11 +964,11 @@ span.soft {
     max-width: 100%;
     max-height: 100%;
 }
+
 .col-md-9 img {
     max-width: 100%;
     max-height: 100%;
 }
-
 
 .post-content img {
     margin: 12px 0px 3px 0px;
@@ -1019,14 +1064,16 @@ span.label.label-default {
 span.label.label-primary {
     background-color: #f0ad4e;
 }
-.col-lg-12 .nav li a {background-color: white}
 
+.col-lg-12 .nav li a {
+    background-color: white;
+}
 
 .nav li.active > a.subfoldersTitle {
     background-color: whitesmoke;
     font-weight: bold;
     color: black;
-    }
+}
 
 a code {
     color: #248EC2;
@@ -1178,16 +1225,4 @@ h4.panel-title {
 
 .navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
     max-height: 90vH;
-}
-
-table.device {
-    min-width: 60%;
-}
-
-table.device td:nth-child(2) {
-	width: 150px;
-}
-
-table.device td:last-child {
-	width: 200px;
 }
