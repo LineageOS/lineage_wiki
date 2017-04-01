@@ -20,6 +20,10 @@ tags:
 and then [capture a log]({{ "logcat.html" | relative_url}}).
 * Then, learn where to report your bug by reading our [how-to on reporting bugs]({{ "bugreport-howto.html" | relative_url }}).
 
+### IRC FAQ
+
+* Take a look at the FAQ from IRC [here]({{ "ircfaq.html" | relative_url }}).
+
 ## For everyone
 
 ### Contribute to the wiki!
