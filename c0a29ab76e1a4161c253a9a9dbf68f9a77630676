@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_fad34a36",
+        "filename": "_data/devices/flounder.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-02T10:42:06Z",
+      "side": 1,
+      "message": "don\u0027t want to fill those?",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 24
+      },
+      "revId": "c0a29ab76e1a4161c253a9a9dbf68f9a77630676",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba57610f_dad88655",
+        "filename": "_data/devices/flounder.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-02T10:42:06Z",
+      "side": 1,
+      "message": "htc or google?",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 17
+      },
+      "revId": "c0a29ab76e1a4161c253a9a9dbf68f9a77630676",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
