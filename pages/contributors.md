@@ -44,6 +44,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 | Kevin Haggerty | haggertk |
 | Michael W. | BadDaemon |
 | Scott Warner | Tortel |
+| Shane Passmore | h8rift |
 | Simon Shields | forkbomb |
 
 ### Committers
