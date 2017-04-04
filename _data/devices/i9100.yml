@@ -2,8 +2,8 @@ architecture: arm
 battery: 1650 mAh
 bluetooth: 3.0+HS
 cameras:
-- {flash: '', info: 8MP w/ LED-flash}
-- {flash: '', info: 1.9MP}
+- {flash: '', info: '8MP w/ LED-flash'}
+- {flash: '', info: '1.9MP'}
 carrier:
 channels: [weekly]
 codename: i9100
@@ -19,13 +19,12 @@ height:
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [Caio Schnepper]
+maintainers: [lysergic_acid]
 models: [GT-I9100, GT-I9100T, GT-I9100M, GT-I9100P, SC-02C]
 name: Galaxy S II
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
-- {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 1GB
 recovery_boot: Volume Up, Home, & Power
