@@ -2,8 +2,8 @@ architecture: arm
 battery: 2100 mAh
 bluetooth: '3.0'
 cameras:
-- {flash: '', info: 8MP w/ LED flash}
-- {flash: '', info: 1.9MP}
+- {flash: '', info: '8 MP w/ LED flash'}
+- {flash: '', info: '1.9 MP'}
 carrier: AT&T, Bell, Rogers, Telus
 channels: [weekly]
 codename: d2att
@@ -19,25 +19,24 @@ height:
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_d2
-maintainers: [Steve Kondik, Andrew Mahone]
+maintainers: [javelinanddart]
 models: [SGH-I747, SGH-I747M]
 name: Galaxy S III (AT&T)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1900 2100 MHz HSPA+' }
-- {tech: 4G, bands: '13(700)' }
-peripherals: [capacitive touchscreen, proximity & light sensors, 3-axis accelerometer,
-  3-axis gyroscope, digital compass, A-GPS, NFC]
-ram: 2GB
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
+- {tech: 3G, bands: '850 1900 2100 MHz HSPA+'}
+- {tech: 4G, bands: '13(700)'}
+peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Digital compass, A-GPS, NFC]
+ram: 2 GB
 recovery_boot: Hold Vol Up, Home & Power.
 release: 2012 June 28 (USA)
 screen: 122 mm (4.8 in)
 screen_ppi:
 screen_res: 1280x720
 screen_tech:
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM8960
-storage: 16GB
+storage: 16 GB
 tree: android_device_samsung_d2att
 type: phone
 vendor: Samsung

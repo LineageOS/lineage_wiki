@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 2000 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.6MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.6 MP'}
 carrier:
 channels: [weekly]
 codename: armani

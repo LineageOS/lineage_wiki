@@ -1,70 +1,45 @@
-# Access this data from "site.data.devices[page.device]"
 architecture: arm
-codename: i9300
-image: i9300.png
-name: Galaxy S III (International)
-vendor: Samsung
-# name used by device tree (android_device_{{vendor_short}}_{{codename}})
-vendor_short: samsung
-release: May 2012
-type: phone
-carrier:
-# connectivity
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
 bluetooth: 4.0
-wifi: 802.11 a/b/g/n
-# camera
 cameras:
-    - info: 8MP
-      flash: LED
-    - info: 1.9MP
-      flash:
-# peripherals
-peripherals:
-    - accelerometer
-    - gyroscope
-    - proximity sensor
-    - digital compass
-    - GPS
-    - microphone
-    - NFC
-    - barometer
-# device specs
-soc: Samsung Exynos 4412
-ram: 1GB
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.9 MP'}
+carrier:
+channels: [weekly]
+codename: i9300
 cpu: Cortex A9
-cpu_freq: 1.4GHz
 cpu_cores: 4
-gpu: Mali 400
-storage: 16GB/32GB
-sdcard: up to 64GB
-# device size
-height: 136.6mm (5.4in)
-width: 70.6mm (2.8in)
-depth: 8.6mm (0.34in)
-screen: 122mm (4.8in)
-screen_res: 1280x720
-screen_ppi: 306
-screen_tech: HD Super AMOLED
-# lineage info
-versions: [14.1]
-models: [GT-I9300, GT-I9300T]
-# used for build instructions
+cpu_freq: 1.4GHz
 current_branch: 14.1
-kernel: android_kernel_samsung_smdk4412
-tree: android_device_samsung_i9300
-maintainers:
-    - forkbomb
-channels:
-    - weekly
-# recovery - "to boot into recovery, {{recovery_boot}}."
-recovery_boot: Hold **Home**, **Volume Up**, and **Power**
-has_recovery_partition: true
-# fastboot/download mode
+depth: 8.6mm (0.34in)
 download_boot: Hold **Home**, **Volume Down**, and **Power**
-# non-empty => include "recovery_install_{{install_method}}.md"
-# otherwise, nothing included
+gpu: Mali 400
+has_recovery_partition: true
+height: 136.6mm (5.4in)
+image: i9300.png
 install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: [forkbomb]
+models: [GT-I9300, GT-I9300T]
+name: Galaxy S III (International)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA'}
+- {tech: 4G, bands: ''}
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, NFC, Barometer]
+ram: 1 GB
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+release: May 2012
+screen: 122mm (4.8in)
+screen_ppi: 306
+screen_res: 1280x720
+screen_tech: HD Super AMOLED
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16/32 GB
+tree: android_device_samsung_i9300
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 70.6mm (2.8in)
+wifi: 802.11 a/b/g/n

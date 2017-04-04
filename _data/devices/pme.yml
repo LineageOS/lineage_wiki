@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 3000 mAh battery
 bluetooth: v4.2, A2DP, aptX
 cameras:
-- {flash: Dual-LED, info: 12MP, f/1.8, 26mm}
-- {flash: '', info: 5MP, f/1.8, 23mm}
+- {flash: 'Dual LED', info: '12 MP , f/1.8, 26mm'}
+- {flash: '', info: '5 MP, f/1.8, 23mm'}
 carrier:
 channels: [weekly]
 codename: pme
@@ -17,23 +17,23 @@ has_recovery_partition: true
 image: pme.png
 install_method: fastboot_htc
 kernel:
-maintainers: [crpalmer]
+maintainers: [crpalmer, raymanfx]
 name: '10'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA)' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (EMEA), 850 900 1700(AWS) 1900 2100 MHz HSDPA (USA)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) 41(2500) (EMEA), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 28(700) 29(700) 30(2300) (USA)' }
 peripherals: [Iceview Cases]
-ram: 4GB
+ram: 4 GB
 recovery_boot: Boot into download (hold Volume Down while booting), select ```Reboot to bootloader``` and then in the bootloader select ```Boot to recovery mode```.
 release: May 2016
 screen: 5.2 inches
 screen_ppi: '565'
 screen_res: 1440x2560
 screen_tech: Super LCD5
-sdcard: up to 256GB
+sdcard: up to 256 GB
 soc: Qualcomm MSM8996 Snapdragon 820
-storage: 32/64GB
+storage: 32/64 GB
 tree: android_device_htc_pme
 type: phone
 vendor: HTC
