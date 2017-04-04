@@ -1,9 +1,9 @@
 architecture: arm
-battery: "5197 mAh (19.75 W\xC2\xB7h)"
+battery: 5197 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: '', info: 5MP}
-- {flash: '', info: 5MP}
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '5 MP'}
 carrier: AT&T, T-Mobile
 channels: [weekly]
 codename: shieldtablet
@@ -19,24 +19,23 @@ height:
 image: shieldtablet.png
 install_method: TODO
 kernel: ''
-maintainers: ['']
+maintainers: [webgeek1234]
 name: Shield Tablet
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1700 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 HSDPA (International, depending on model)' }
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (North America), 1(2100) 3(1800) 7(2600) 20(800) (International, depending on model)' }
 peripherals: ['']
-ram: 2GB
-recovery_boot: Hold Volume Down & tap Power, release once menu is displayed. Tap Volume
-  Down until recovery is selected. Press Power to select.
+ram: 2 GB
+recovery_boot: Hold Volume Down & tap Power, release once menu is displayed. Tap Volume Down until recovery is selected. Press Power to select.
 release: 2014 July 29
 screen: 203 mm (8.0 in)
 screen_ppi: '294'
 screen_res: 1920x1200
 screen_tech: IPS Retinal LCD
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Nvidia Tegra K1 (T124)
-storage: 16/32GB
+storage: 16/32 GB
 tree: android_device_nvidia_shieldtablet
 type: tablet
 vendor: Nvidia

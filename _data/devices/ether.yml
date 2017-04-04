@@ -2,8 +2,8 @@ architecture: arm64
 battery: 2680 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: dual-tone, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED (dual-tone)', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: ether
@@ -19,14 +19,14 @@ height:
 image: ether.png
 install_method: TODO
 kernel: android_kernel_nextbit_msm8992
-maintainers: ['']
+maintainers: [chrmhoffmann, crpalmer, mikeioannina]
 name: Robin
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 3GB
+ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2015 August
 screen: 132 mm (5.2 in)
@@ -35,7 +35,7 @@ screen_res: 1080x1920
 screen_tech: IPS LCD, Gorilla Glass 4
 sdcard:
 soc: Qualcomm MSM8992 Snapdragon 808
-storage: 32GB
+storage: 32 GB
 tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
