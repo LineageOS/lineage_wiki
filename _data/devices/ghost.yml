@@ -2,8 +2,8 @@ architecture: arm
 battery: Non-removable Li-Ion 2200 mAh
 bluetooth: v4.0 with A2DP, EDR, LE
 cameras:
-- {flash: LED, info: 10MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '10 MP'}
+- {flash: '', info: '2 MP'}
 carrier: Sprint, Verizon, U.S. Cellular, AT&T, GSM unlocked
 channels: [weekly]
 codename: ghost
