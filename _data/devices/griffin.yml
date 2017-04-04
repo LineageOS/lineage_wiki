@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 2600 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: [ dual-LED (dual tone), laser autofocus, OIS ], info: 13MP}
-- {flash: LED flash, info: 5MP}
+- {flash: 'Dual LED (dual tone)', info: '13 MP, laser autofocus, OIS'}
+- {flash: 'LED', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: griffin
@@ -19,7 +19,7 @@ height: 153.3 mm (6.04 in)
 image: griffin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
-maintainers: [vache, shr3ps]
+maintainers: [vache, shr3ps, stargo]
 models: [XT1650-03, XT1650-05]
 name: Moto Z
 network:

@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3000 mAh
 bluetooth: '4.1'
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 8MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: h815
@@ -25,7 +25,7 @@ network:
 - {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
 peripherals: [Accelerometer, Gyro, Proximity, Compass, Barometer, Color spectrum,
   FM Radio]
-ram: 3GB
+ram: 3 GB
 recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
   1 sec and hold it again till recovery comes up
 release: June 2015
@@ -35,7 +35,7 @@ screen_res: 2560x1440
 screen_tech: IPS LCD
 sdcard: up to 2TB
 soc: Qualcomm MSM8992
-storage: 32GB
+storage: 32 GB
 tree: android_device_lge_h815
 type: phone
 vendor: LG
