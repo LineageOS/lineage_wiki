@@ -2,8 +2,8 @@ architecture: arm
 battery: 2100 mAh
 bluetooth: '3.0'
 cameras:
-- {flash: '', info: 8MP w/ LED flash}
-- {flash: '', info: 1.9MP}
+- {flash: '', info: '8MP w/ LED flash'}
+- {flash: '', info: '1.9MP'}
 carrier: Sprint
 channels: [weekly]
 codename: d2spr
@@ -19,8 +19,7 @@ height:
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_d2
-lte: 1900MHz
-maintainers: [Shareef Ali]
+maintainers: [javelinanddart]
 models: [SPH-L710]
 name: Galaxy S III (Sprint)
 network:

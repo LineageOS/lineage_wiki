@@ -1,6 +1,6 @@
 architecture: arm
-battery:
-bluetooth: Bluetooth 4.0 + A2DP
+battery: Removable Li-Po 1750 mAh
+bluetooth: v4.0 + A2DP
 cameras:
 - {flash: '', info: 5 MP}
 - {flash: '', info: VGA}
@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '900 2100 MHz HSDPA (C1905 and C2005), 850 1700 1900 2100 MHz HSDPA (C1904 and C2004)' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, proximity, compass]
+peripherals: [Accelerometer, Proximity, Compass]
 ram: 1GB
 recovery_boot: Press Volume Up when the notification light is pink.
 release: 2013 June
@@ -34,7 +34,7 @@ screen_ppi: '244.9'
 screen_res: 480x854
 screen_tech: TFT
 sdcard: up to 32GB
-soc: Qualcomm MSM8960 Snapdragon S4 Plus
+soc: Qualcomm MSM8227 Snapdragon S4 Plus
 storage: 4GB
 tree: android_device_sony_nicki
 type: phone

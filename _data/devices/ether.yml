@@ -19,7 +19,7 @@ height:
 image: ether.png
 install_method: TODO
 kernel: android_kernel_nextbit_msm8992
-maintainers: ['']
+maintainers: [chrmhoffmann, crpalmer, mikeioannina]
 name: Robin
 network:
 - {tech: 2G, bands: '' }
