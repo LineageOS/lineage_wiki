@@ -2,8 +2,8 @@ architecture: arm
 battery: 2100 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: '', info: 8MP w/ LED flash}
-- {flash: '', info: 1.9MP}
+- {flash: '', info: '8MP w/ LED flash'}
+- {flash: '', info: '1.9MP'}
 carrier: Verizon Wireless
 channels: [weekly]
 codename: d2vzw
@@ -19,7 +19,7 @@ height:
 image: i9300.png
 install_method: TODO
 kernel: android_kernel_samsung_d2
-maintainers: [Austen Dicken, Dan Pasanen]
+maintainers: [blek]
 models: [SCH-I535]
 name: Galaxy S III (Verizon)
 network:
