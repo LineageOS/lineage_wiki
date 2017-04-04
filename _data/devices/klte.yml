@@ -18,12 +18,12 @@ image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_klte
 maintainers: [haggertk, ozzyscmacc]
-models: [SM-G900AZ, SM-G900F, SM-G900M, SM-G900T, SM-G900V, SM-G900W8, SM-S902L]
+models: [SM-G900AZ, SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900V, SM-G900W8, SM-S902L]
 name: Galaxy S5
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900MHz 1xRTT (G900V/S902L)' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (G900F/G900V), 850 900 1700 1900 2100 MHz HSDPA (G900M), 850 1700 1900 2100 MHz HSDPA (G900T), 800 1900MHz EVDO (G900V/S902L)' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800) (G900F), 1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (G900M), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) (G900T), 4(1700/2100) 13(700) (G900V/S902L)' }
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900MHz 1xRTT (G900R4/G900R7/G900V/S902L)' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (G900F/G900V), 850 900 1700 1900 2100 MHz HSDPA (G900M), 850 1700 1900 2100 MHz HSDPA (G900T), 800 1900MHz EVDO (G900R4/G900R7/G900V/S902L)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800) (G900F), 1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (G900M), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) (G900T), 2(1900) 4(1700/2100) 5(850) 12(700) 17(700) (G900R4), 2(1900) 4(1700/2100) 12(700) (G900R7), 4(1700/2100) 13(700) (G900V/S902L)' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
