@@ -39,7 +39,7 @@ storage: 8 GB
 tree: android_device_ark_peach
 type: phone
 vendor: ARK
-vendor_short: ARK
+vendor_short: ark
 versions: [14.1]
 width: 73 mm (2.87 in)
 wifi: 802.11 b/g/n
