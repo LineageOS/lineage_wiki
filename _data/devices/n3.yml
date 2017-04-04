@@ -1,5 +1,5 @@
 architecture: arm
-battery: 3000 mAh Li-Po with VOOC Flash Charge (un-removable)
+battery: Non-removable 3000 mAh Li-Po with VOOC Flash Charge
 bluetooth: '4.0'
 cameras:
 - {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}
@@ -18,7 +18,7 @@ height: 161.2 mm
 image: n3.png
 install_method: TODO
 kernel:
-maintainers: ['']
+maintainers: [jrior001, mikeioannina]
 name: N3
 network:
 - {tech: 2G, bands: '' }
