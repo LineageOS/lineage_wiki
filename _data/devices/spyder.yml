@@ -2,8 +2,8 @@ architecture: arm
 battery: 1780 mAh
 bluetooth: ' v4.0 with LE+EDR'
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier: Verizon Wireless
 channels: [weekly]
 codename: spyder
@@ -23,8 +23,8 @@ network:
 - {tech: 2G, bands: '850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1800 1900 HSDPA, CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '13(700)' }
-peripherals: [Accelerometer, proximity, compass, GPS]
-ram: 1GB
+peripherals: [Accelerometer, Proximity, Compass, GPS]
+ram: 1 GB
 recovery_boot: Power and at SafeStrap splash screen press Menu key within 10 seconds
 release: 2011 November 11
 screen: 109 mm (4.3 in)
@@ -33,7 +33,7 @@ screen_res: 540 x 960
 screen_tech: Super AMOLED capacitive touchscreen
 sdcard: microSD, up to 32 GB, 16 GB included
 soc: TI OMAP4430
-storage: 16GB
+storage: 16 GB
 tree: android_device_motorola_spyder
 type: phone
 vendor: Motorola

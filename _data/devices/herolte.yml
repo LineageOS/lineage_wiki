@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 3000 mAh
 bluetooth: 4.2 with A2DP, LE, apt-X
 cameras:
-- {flash: LED, info: 12MP, f/1.7, 26mm}
-- {flash: '', info: 5MP, f/1.7, 22mm}
+- {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
+- {flash: '', info: '5 MP, f/1.7, 22mm'}
 carrier:
 channels: [weekly]
 codename: herolte
@@ -13,7 +13,7 @@ cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold Vol Down & Home & Power.
-gpu: arm Mali-T880 MP12
+gpu: ARM Mali-T880 MP12
 has_recovery_partition: true
 height: 142.4 mm (5.61 in)
 image: herolte.png
