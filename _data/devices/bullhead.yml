@@ -1,9 +1,9 @@
 architecture: arm64
-battery: 2700 mAh, Li-Po non-removable
+battery: Non-removable Li-Po 2700 mAh
 bluetooth: v4.2 with A2DP, LE
 cameras:
-- {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: bullhead
@@ -19,14 +19,14 @@ height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
-maintainers: ['']
+maintainers: [razorloves]
 name: Nexus 5X
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (American model), 850 900 1900 2100 MHz HSDPA (Asian model), 800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)' }
 - {tech: 4G, bands: '700 800 850 1700 1800 1900 2100 2600 MHz LTE (American model), 850 900 1700 1800 2100 2300 2500 2600 MHz LTE (Asian Model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
 peripherals: [Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer]
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery
   Mode.
 release: 29 September 2015

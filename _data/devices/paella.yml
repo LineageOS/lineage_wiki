@@ -2,8 +2,8 @@ architecture: arm
 battery: 2900 mAh LiPo
 bluetooth: '4.0'
 cameras:
-- {flash: Dual-LED, info: 13MP}
-- {flash: '', info: 5MP w/LED Flash}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: paella
@@ -17,23 +17,23 @@ has_recovery_partition: true
 image: paella.png
 install_method: TODO
 kernel: android_kernel_bq_msm8916
-maintainers: ['']
+maintainers: [cmorlok, eloimuns, Kra1o5, stucki, Team aquaris-dev]
 name: Aquaris X5
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: [Dual SIM]
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
 release:
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280
 screen_tech: IPS LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916T Snapdragon 412
-storage: 16GB
+storage: 16 GB
 tree: android_device_bq_paella
 type: phone
 vendor: BQ
