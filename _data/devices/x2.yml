@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3100 mAh (non-removable)
 bluetooth: v4.2 with A2DP, BLE
 cameras:
-- {flash: dual-LED (dual tone), info: 21MP}
-- {flash: '', info: 8MP}
+- {flash: 'Dual LED (dual tone)', info: '21 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: x2

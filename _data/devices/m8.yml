@@ -2,8 +2,8 @@ architecture: arm
 battery: 2600 mAh (non-removable)
 bluetooth: v4.0 with A2DP, aptX
 cameras:
-- {flash: dual-LED, info: Dual 4MP}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: 'Dual 4 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: m8
@@ -26,9 +26,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSDPA (Sprint), 850 1900 2100 MHz HSDPA (AT&T), 850 1700 1900 2100 MHz (T-Mobile), 850 900 1900 2100 MHz HSDPA (Verizon Wireless, EMEA, Asia), CDMA2000 1xEV-DO (Sprint, Verizon Wireless)' }
 - {tech: 4G, bands: '3(1800) 7(2600) 8(900) 20(800) LTE (EMEA), 1(2100) 3(1800) 7(2600) 8(900) 28(700) LTE (Asia), 4(1700/2100) 17(700) LTE (T-Mobile), 2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) LTE (AT&T), 2(1900) 7(2600) 20(800) LTE (Sprint), 1(2100) 3(1800) 7(2600) 28(700) 4(1700) LTE (Verizon Wireless)' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital
-    compass, GPS, Magnometer, Microphone, NFC, IR]
-ram: 2GB
+peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnometer, NFC, IR]
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons
   until HBOOT appears, then release the buttons. Navigate using the volume keys and
   select RECOVERY using the Power key.
@@ -37,9 +36,9 @@ screen: 127 mm (5.0 in)
 screen_ppi: '441'
 screen_res: 1080x1920
 screen_tech: Super-LCD 3
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8974AB Snapdragon 801
-storage: 16GB or 32GB
+storage: 16/32 GB
 tree: android_device_htc_m8
 type: phone
 vendor: HTC
