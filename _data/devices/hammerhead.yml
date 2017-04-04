@@ -2,8 +2,8 @@ architecture: arm
 battery: 2300 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: hammerhead
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 17(700) 19(800) 25(1900) 26(850) 41(2500) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
 no_oem_unlock_switch: true
 peripherals: ['']
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
   Then press and hold the Power button until a boot menu appears. Navigate using the
   volume keys and select RECOVERY using the Power key.
@@ -39,7 +39,7 @@ screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm MSM8974 Snapdragon 800
-storage: 16GB, 32GB
+storage: 16/32 GB
 tree: android_device_lge_hammerhead
 type: phone
 vendor: Google
