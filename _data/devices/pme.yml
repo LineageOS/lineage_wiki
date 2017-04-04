@@ -17,7 +17,7 @@ has_recovery_partition: true
 image: pme.png
 install_method: fastboot_htc
 kernel:
-maintainers: [crpalmer]
+maintainers: [crpalmer, raymanfx]
 name: '10'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA)' }
