@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3000 mAh
 bluetooth: 4.1 LE
 cameras:
-- {flash: Dual LED, info: 21MP}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: '21 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: clark
@@ -24,7 +24,7 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 3GB
+ram: 3 GB
 recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
   On the next screen use Volume Down to scroll to recovery and then use Volume Up
   to select.
@@ -33,9 +33,9 @@ screen: 145 mm (5.7 in)
 screen_ppi: '520'
 screen_res: 1440x2560
 screen_tech: IPS TFT LCD
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8992 Snapdragon 808
-storage: 16/32/64GB
+storage: 16/32/64 GB
 tree: android_device_motorola_clark
 type: phone
 vendor: Motorola

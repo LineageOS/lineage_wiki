@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 2100 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: Dual LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'Dual LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: peach
@@ -39,7 +39,7 @@ storage: 8 GB
 tree: android_device_ark_peach
 type: phone
 vendor: ARK
-vendor_short: ARK
+vendor_short: ark
 versions: [14.1]
 width: 73 mm (2.87 in)
 wifi: 802.11 b/g/n
