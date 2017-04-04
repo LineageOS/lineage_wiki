@@ -2,8 +2,8 @@ architecture: arm
 battery: Non-removable Li-Ion 7900 mAh battery
 bluetooth: 4.0 A2DP
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: none, info: 2.1MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
 channels: [weekly]
 codename: chagallwifi
@@ -28,13 +28,8 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals:
-    - Accelerometer
-    - Compass
-    - Fingerprint Sensor is not supported
-    - GPS
-    - Gyroscope
-ram: 3GB
+peripherals: [Accelerometer, Compass, Fingerprint Sensor is not supported, GPS, Gyroscope]
+ram: 3 GB
 recovery_boot: Hold **Home**, **Volume Up**, and **Power**
 release: 2014
 screen: 10.5 inches
