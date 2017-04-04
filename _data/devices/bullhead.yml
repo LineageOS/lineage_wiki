@@ -19,7 +19,7 @@ height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
-maintainers: ['']
+maintainers: [razorloves]
 name: Nexus 5X
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
