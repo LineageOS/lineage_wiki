@@ -2,8 +2,8 @@ architecture: arm
 battery: Non-removable Li-Ion 8220 mAh
 bluetooth: v4.0 with A2DP
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: none, info: 2.1MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
 channels: [weekly]
 codename: n2awifi
@@ -19,20 +19,14 @@ height: 247.3mm
 image: n2awifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers:
-    - deadman96385
-    - LaCruz
+maintainers: [deadman96385, LaCruz]
 models: [SM-T520]
 name: Galaxy Tab PRO 10.1
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals:
-    - Accelerometer
-    - Compass
-    - GPS
-    - Gyroscope
+peripherals: [Accelerometer, Compass, GPS, Gyroscope]
 ram: 3 GB
 recovery_boot: Hold **Home**, **Volume Up**, and **Power**
 release: 2014

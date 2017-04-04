@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.0 with A2DP, LE, aptX
 cameras:
-- {flash: Dual flash, info: 13MP}
-- {flash: '', info: 2.1MP}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier: AT&T
 channels: ['']
 codename: d850
