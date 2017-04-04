@@ -2,8 +2,8 @@ architecture: arm64
 battery: 4070 mAh (non-removable)
 bluetooth: v4.2 with A2DP, BLE
 cameras:
-- {flash: dual-LED (dual tone), info: 16MP}
-- {flash: '', info: 8MP}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: zl1
@@ -27,7 +27,7 @@ network:
 - {tech: 3G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 8(900) 34(2000) 39(1900)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 39(1900) 40(2300) 41(2500)' }
 peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass]
-ram: 4GB / 6GB
+ram: 4/6 GB
 recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
 release: 2016 September
 screen: 5.5 in
@@ -36,7 +36,7 @@ screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm MSM8996 Snapdragon 821
-storage: 32GB / 64GB
+storage: 32/64 GB
 tree: android_device_leeco_zl1
 type: phone
 vendor: LeEco

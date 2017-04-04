@@ -2,8 +2,8 @@ architecture: arm
 battery: 2100 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: '', info: 8MP w/ LED flash}
-- {flash: '', info: 1.9MP}
+- {flash: '', info: '8 MP w/ LED flash'}
+- {flash: '', info: '1.9 MP'}
 carrier: Verizon Wireless
 channels: [weekly]
 codename: d2vzw
@@ -19,25 +19,24 @@ height:
 image: i9300.png
 install_method: TODO
 kernel: android_kernel_samsung_d2
-maintainers: [Austen Dicken, Dan Pasanen]
+maintainers: [invisiblek]
 models: [SCH-I535]
 name: Galaxy S III (Verizon)
 network:
 - {tech: 2G, bands: '800 1900 MHz CDMA' }
 - {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '13(700)' }
-peripherals: [capacitive touchscreen, proximity & light sensors, 3-axis accelerometer,
-  3-axis gyroscope, digital compass, A-GPS, NFC]
-ram: 2GB
+peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Digital compass, A-GPS, NFC]
+ram: 2 GB
 recovery_boot: Hold Vol Up, Home & Power.
 release: 2012 June 28 (USA)
 screen: 122 mm (4.8 in)
 screen_ppi:
 screen_res: 1280x720
 screen_tech:
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM8960
-storage: 16GB
+storage: 16 GB
 tree: android_device_samsung_d2vzw
 type: phone
 vendor: Samsung
