@@ -1,9 +1,9 @@
 architecture: arm
-battery: 3220 mAh, Li-Po non-removable
+battery: Non-removable Li-Po 3220 mAh
 bluetooth: 4.1 LE
 cameras:
-- {flash: Dual LED, info: 13 MP}
-- {flash: '', info: 2.1 MP}
+- {flash: 'Dual LED', info: '3 MP'}
+- {flash: '', info: '2.1 MP '}
 carrier:
 channels: [weekly]
 codename: shamu
@@ -19,7 +19,7 @@ height: 159.3 mm (6.27 in)
 image: shamu.png
 install_method: fastboot_nexus
 kernel:
-maintainers: ['']
+maintainers: [Elektroschmock, razorloves]
 name: Nexus 6
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American model only)' }
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900) 26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)' }
 peripherals: [Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer, Magnetometer,
   NFC, Wi-Fi Hotspot, Qi wireless charging, Dual front speakers]
-ram: 3GB
+ram: 3 GB
 recovery_boot: Hold down the Volume Down button while booting, and use the menu to
   select Recovery.
 release: 29 October 2014

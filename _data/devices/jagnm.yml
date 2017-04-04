@@ -2,8 +2,8 @@ architecture: arm
 battery: removable Li-Ion 2540 mAh battery
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: jagnm
@@ -24,16 +24,16 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 1GB
+ram: 1 GB
 recovery_boot: Volume Down & Power
 release: 2014 August
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280
 screen_tech: IPS LCD
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM8926 Snapdragon 400
-storage: 8GB
+storage: 8 GB
 tree: android_device_lge_jagnm
 type: phone
 vendor: LG

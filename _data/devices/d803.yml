@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Pol 3,000 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 2.1MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
 channels: [weekly]
 codename: d803
@@ -26,9 +26,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz UMTS' }
 - {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz LTE' }
-peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnometer,
-  microphone, NFC]
-ram: 2GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnetometer, NFC]
+ram: 2 GB
 recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
   logo appears release the buttons and then press them again. Then, press the Power
   button three times!
@@ -39,7 +38,7 @@ screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm MSM8974 Snapdragon 800
-storage: 16GB or 32GB
+storage: 16/32 GB
 tree: android_device_lge_d803
 type: phone
 vendor: LG

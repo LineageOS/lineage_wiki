@@ -1,9 +1,9 @@
 architecture: arm
-battery: 2800 mAh Li-ion battery, removable
+battery: Removable Li-Ion 2800 mAh
 bluetooth: 4.0 BLE
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
 carrier: Project Foo
 channels: [weekly]
 codename: sample
@@ -12,7 +12,6 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 depth: 7.3 mm (0.29 in)
-# download/fastboot mode
 download_boot: With the device powered off, hold Vol Down & Home & Power.
 gpu: Adreno 330
 has_recovery_partition: true
@@ -30,7 +29,7 @@ network:
 peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
 release: 11 April 2014
@@ -40,7 +39,7 @@ screen_res: 1920x1080
 screen_tech: Full HD Super AMOLED
 sdcard: up to 128 GB
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16 GB, 32 GB
+storage: 16/32 GB
 tree: android_device_lge_sample
 type: phone
 vendor: LG
