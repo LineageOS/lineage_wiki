@@ -2,8 +2,8 @@ architecture: arm
 battery: 2470 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: dual LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, Virgin Mobile, International GSM
 channels: [weekly]
 codename: osprey
@@ -18,14 +18,14 @@ has_recovery_partition: true
 image: osprey.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: ['']
+maintainers: [alberto97]
 name: Moto G 2015
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800/850/1900 MHz CDMA' }
 - {tech: 3G, bands: '900 2100 MHz HSDPA (Europe and Asia), 850 1700(AWS) 1900 2100 MHz HSDPA (US, Canada), 850 900 1700 1900 2100 MHz HSDPA (Latin America, Brazil), 850 1700 1900 MHz HSDPA (U.S. Cellular, Virgin Mobile), CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '2(1900) 4(1700) 5(850) 7(2600) 17(700) LTE (US, Canada), 1(2100) 3(1800) 7(2600) 8(900) 20(800) LTE (Europe), 4(1700) 7(2600) 28(700) LTE (Latin America, Brazil), 2(1900) 4(1700) 5(850) 12(700) 17(700) 25(1900) 26 (850) LTE (U.S. Cellular, Virgin Mobile), 1(2100) 3 (1800) 7 (2600) 8(900) 28(700) LTE (Asia)' }
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB or 2GB
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1/2 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Power to select.
 release: 2015 July
@@ -33,12 +33,12 @@ screen: 127 mm (5.0 in)
 screen_ppi: ~295
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 8GB or 16GB
+storage: 8/16 GB
 tree: android_device_motorola_osprey
 type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot
+wifi: 802.11 b/g/n, Hotspot
