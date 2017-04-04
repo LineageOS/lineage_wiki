@@ -1,5 +1,5 @@
 architecture: arm
-battery: 3000 mAh Li-Po with VOOC Flash Charge (un-removable)
+battery: Non-removable 3000 mAh Li-Po with VOOC Flash Charge
 bluetooth: '4.0'
 cameras:
 - {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}
@@ -18,23 +18,23 @@ height: 161.2 mm
 image: n3.png
 install_method: TODO
 kernel:
-maintainers: ['']
+maintainers: [jrior001, mikeioannina]
 name: N3
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2015 January
 screen: 140 mm (5.5 in)
 screen_ppi:
 screen_res: 1920x1080
 screen_tech:
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 32GB
+storage: 32 GB
 tree: android_device_oppo_n3
 type: phone
 vendor: OPPO

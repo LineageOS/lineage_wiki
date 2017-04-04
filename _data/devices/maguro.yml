@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 1750 mAh
 bluetooth: v4.0 with A2DP
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: maguro
@@ -27,8 +27,7 @@ network:
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals: [3.5 mm TRRS, microUSB 2.0, Proximity sensor, Light sensor, NFC,
-  3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS]
+peripherals: [3.5 mm TRRS, Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Digital compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons. Navigate using the volume

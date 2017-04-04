@@ -2,8 +2,8 @@ architecture: arm
 battery: 2000 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: '', info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: jalebi
@@ -18,23 +18,23 @@ has_recovery_partition: true
 image: jalebi.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: ['']
+maintainers: [ashwinr64, mikeioannina, h2o64]
 name: Yunique
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: [64 bit, dual SIM]
-ram: 1GB
+ram: 1 GB
 recovery_boot: Power off the device then hold Volume UP and Power buttons.
 release: 2015 September
 screen: 119 mm (4.7 in)
 screen_ppi: '312'
 screen_res: 720x1280
 screen_tech: IPS LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 8GB
+storage: 8 GB
 tree: android_device_yu_jalebi
 type: phone
 vendor: YU
