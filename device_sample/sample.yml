@@ -1,9 +1,9 @@
 architecture: arm
-battery: 2800 mAh Li-ion battery, removable
+battery: Removable Li-Ion 2800 mAh
 bluetooth: 4.0 BLE
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 2MP}
+- {flash: LED, info: '16MP'}
+- {flash: '', info: '2MP'}
 carrier: Project Foo
 channels: [weekly]
 codename: sample
@@ -12,7 +12,6 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 depth: 7.3 mm (0.29 in)
-# download/fastboot mode
 download_boot: With the device powered off, hold Vol Down & Home & Power.
 gpu: Adreno 330
 has_recovery_partition: true
