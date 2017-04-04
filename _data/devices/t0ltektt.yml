@@ -1,5 +1,5 @@
 architecture: arm
-battery: Li-Ion 3100 mAh, removable
+battery: Removable Li-Ion 3100 mAh
 bluetooth: '4.0'
 cameras:
 - {flash: LED, info: 8 MP}
@@ -23,20 +23,11 @@ maintainers: [filiprrs, PoisonNinja]
 models: [SHV-E250K]
 name: Galaxy Note 2 (Korea Telecom)
 network:
-    - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-    - {tech: 3G, bands: '1900 2100 MHz HSDPA' }
-    - {tech: 4G, bands: '900 1800 MHz LTE' }
-peripherals:
-    - Accelerometer
-    - Barometer
-    - Compass
-    - GPS
-    - Gyroscope
-    - Microphone
-    - NFC
-    - Proximity Sensor
-    - RGB ambient light
-ram: 2GB
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '900 1800 MHz LTE' }
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
+ram: 2 GB
 recovery_boot: With the device powered off, hold **Home**, **Volume Up**, and **Power**
 release: September 2012
 screen: 140 mm (5.5 in)
