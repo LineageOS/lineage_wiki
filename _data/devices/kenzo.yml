@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Po 4050 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: dual-tone, info: 16MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED (dual-tone)', info: '16 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: kenzo

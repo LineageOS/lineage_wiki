@@ -1,5 +1,5 @@
 architecture: arm
-battery: "7350 mAh (28.8 W\xC2\xB7h)"
+battery: 7350 mAh
 bluetooth: '3.0'
 cameras: []
 carrier:
@@ -17,14 +17,14 @@ height:
 image: roth.png
 install_method: TODO
 kernel: ''
-maintainers: ['']
+maintainers: [webgeek1234]
 name: Shield Portable
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 2GB
+ram: 2 GB
 recovery_boot: Hold Back & Home & tap Power, release once menu is displayed. Tap Home
   until recovery is selected. Press Power to select.
 release: 2013 July 31
@@ -32,9 +32,9 @@ screen: 127 mm (5.0 in)
 screen_ppi: '294'
 screen_res: 1280x720
 screen_tech: IPS LCD
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Nvidia Tegra 4 (T114)
-storage: 16GB
+storage: 16 GB
 tree: android_device_nvidia_roth
 type: Handheld game console
 vendor: Nvidia
