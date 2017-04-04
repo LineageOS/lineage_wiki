@@ -17,7 +17,7 @@ has_recovery_partition: true
 image: serranoltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
-maintainers: [Arne Coucheron]
+maintainers: [arco]
 models: [GT-I9190]
 name: Galaxy S4 Mini (International 3G)
 network:

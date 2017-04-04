@@ -19,7 +19,7 @@ height:
 image: crackling.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
-maintainers: ['']
+maintainers: [marado]
 name: Swift
 network:
 - {tech: 2G, bands: '' }
