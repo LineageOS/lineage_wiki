@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 4100 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: ido

@@ -2,8 +2,8 @@ architecture: arm
 battery: 3.8 V 2100 mAh, 8 Wh rechargable Lithium polymer non-removable battery
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: mako
@@ -29,7 +29,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [3.5 mm TRRS, GPS, microUSB 2.0, Mobility DisplayPort (MyDP), multi-touch
     capacitive touchscreen, proximity sensor, NFC, Qi wireless charging]
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons. Navigate using the volume
   keys and select RECOVERY using the Power key.
@@ -40,7 +40,7 @@ screen_res: 1280x768
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
-storage: 8 or 16GB
+storage: 8 or 16 GB
 tree: android_device_lge_mako
 type: phone
 vendor: Google

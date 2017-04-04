@@ -2,8 +2,8 @@ architecture: x86
 battery: 3000mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: Z00A

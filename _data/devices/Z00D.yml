@@ -2,8 +2,8 @@ architecture: x86
 battery: 2500mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: Z00D

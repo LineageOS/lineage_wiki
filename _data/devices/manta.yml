@@ -2,8 +2,8 @@ architecture: arm
 battery: Internal rechargeable non-removable lithium-ion polymer 9000 mAh battery
 bluetooth: '3.0'
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.9MP}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.9 MP'}
 carrier:
 channels: [weekly]
 codename: manta
@@ -26,7 +26,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnetometer,
   barometer, microphone, dual side NFC]
-ram: 2GB
+ram: 2 GB
 recovery_boot: Volume Down & Power
 release: 2012 November 13
 screen: 255 mm (10.0 in)
@@ -35,7 +35,7 @@ screen_res: 2560x1600
 screen_tech: Super PLS
 sdcard:
 soc: Samsung Exynos 5
-storage: 16 or 32GB
+storage: 16 or 32 GB
 tree: android_device_samsung_manta
 type: tablet
 vendor: Google
