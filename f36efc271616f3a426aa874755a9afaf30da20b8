@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_a6e4c6ac",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-05T11:21:30Z",
+      "side": 1,
+      "message": "I would move this to the bottom. In my opinion, it makes more sense to be side-by-side with \"Getting your submission reviewed/merged\" section.",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 20
+      },
+      "revId": "f36efc271616f3a426aa874755a9afaf30da20b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_26d1f6cd",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-05T11:21:30Z",
+      "side": 1,
+      "message": "Did you want to add a new line here?",
+      "range": {
+        "startLine": 30,
+        "startChar": 113,
+        "endLine": 30,
+        "endChar": 116
+      },
+      "revId": "f36efc271616f3a426aa874755a9afaf30da20b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_06d6fac5",
+        "filename": "pages/using_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-05T11:21:30Z",
+      "side": 1,
+      "message": "And here also?",
+      "range": {
+        "startLine": 33,
+        "startChar": 284,
+        "endLine": 33,
+        "endChar": 286
+      },
+      "revId": "f36efc271616f3a426aa874755a9afaf30da20b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
