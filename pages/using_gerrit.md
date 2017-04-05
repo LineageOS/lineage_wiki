@@ -7,11 +7,33 @@ tags:
 ---
 
 ## Using Gerrit
+
 [Gerrit](https://code.google.com/p/gerrit/) is a source code review system developed by Google for use with Android (though it can be applied to any type of project). You must use Gerrit to submit code changes, in case you find an error in the source code, you want to contribute with good new features or even if you believe you have a better way of implementing a certain feature.
 
 Check out LineageOS's review system - [Gerrit](http://review.lineageos.org).
 
 There you can see what has been recently merged into the codebase. More interestingly, you can see what people have been submitting for review. If there's something you want to try, you can actually test it by merging it into your code and building. It's a simple matter.
+
+## Reviewing a patch
+
+A review system is defined by the ability to approve or disapprove changes and to verify them before they become part of the codebase. There are several possible ways to interact with the system, some are limited to specific users.
+Anyone with an account can reply to a patch and add a label:
+
+| Label | Definition | Meaning |
+|-------|------------|---------|
+| -2 | Do not submit | This patch can't be submitted without the removal of the vote |
+| -1 | I would prefer that you didn't submit this | The code or the idea don't match the project's standards |
+| 0 | No score | I just have some generic info I'd like to share via the reply message |
+| +1 | Looks good to me, but someone else must approve | The code and idea meets the standards of the project |
+| +2 | Looks good to me, approved | After verification of the content this patch can be submitted |
+
+The labels **+2** and **-2** are limited to the maintainers of the project or the device a patch is meant for. You can see, who is able to do this [here]({{ "contributors.html#maintainers" | relative_url }})  
+A patch can be submitted after verification (has own labels -1/0/+1) and is then part of the code used for builds.
+
+### What not to do
+
+The several possible votes are **not** meant to be used as a "Facebook-Like". Giving a **+1** means you have read the commit message and the content of the patch and made sure they meet the project's standards in terms of coding and idea.
+The possibility of adding a comment doesn't mean you should add your opinion on patches randomly.
 
 ## Prepare your build environment
 
