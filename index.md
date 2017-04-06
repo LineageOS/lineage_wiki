@@ -44,7 +44,7 @@ We even have a nice [list of how-tos]({{ "how-tos.html" | relative_url }}), for 
 * To contribute, you'll need to be able to produce builds for your device. Pick your device from our [list of supported devices]({{ "devices/" | relative_url}}) to get started.
 * Once you're successfully running your own build, you can begin to make your changes. All the apps included in LineageOS can be found in `packages/apps`, and core parts of the system can be found
 in `frameworks/base`.
-* Once you've finished making your change, simply follow our guide on [submitting to gerrit]({{ "usinggerrit-howto.html#submitting-to-gerrit" | relative_url}}).
+* Once you've finished making your change, simply follow our guide on [submitting to Gerrit]({{ "submitting-patch-howto.html" | relative_url}}).
 
 ### Submit your port!
 

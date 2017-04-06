@@ -84,5 +84,5 @@ Now, after all the previous steps are done, you can actually start developing an
 
 ### Contribute!
 
-After you have modified the sources and tested your change, you can contribute to LineageOS by [submitting your work](http://wiki.lineageos.org/usinggerrit-howto.html#submitting-to-gerrit).
+After you have modified the sources and tested your change, you can contribute to LineageOS by [submitting your work]({{ "submitting-patch-howto.html" | relative_url}}).
 
