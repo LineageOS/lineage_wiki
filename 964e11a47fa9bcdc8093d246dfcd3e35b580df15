@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_ec95ff88",
+        "filename": "pages/gapps.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-06T11:50:25Z",
+      "side": 1,
+      "message": "-2 while on XDA, too many options, too much info for the average user",
+      "revId": "964e11a47fa9bcdc8093d246dfcd3e35b580df15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_0c817b4a",
+        "filename": "pages/gapps.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-06T11:50:25Z",
+      "side": 1,
+      "message": "while on it could make this url a proper one: {{ \"adb_fastboot_guide.html\" | relative_url }}",
+      "revId": "964e11a47fa9bcdc8093d246dfcd3e35b580df15",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
