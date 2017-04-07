@@ -1,0 +1,51 @@
+architecture: arm
+battery: Removable Li-Ion 3100 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: LED, info: 8 MP}
+- {flash: '', info: 1.9 MP}
+carrier:
+channels: [weekly]
+codename: t0ltekor
+cpu: Cortex A9
+cpu_cores: '4'
+cpu_freq: 1.6 GHz
+current_branch: 14.1
+depth: 9.40 mm (0.37 in)
+download_boot: With the device powered off, hold **Home**, **Volume Down**, and **Power**
+gpu: Mali-400MP4
+has_recovery_partition: true
+height: 151.10 mm (5.95 in)
+image: t0lte.png
+install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: [filiprrs, PoisonNinja]
+models: [SHV-E250S, SHV-E250K, SHV-E250L]
+name: Galaxy Note 2 (Korea)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '850 1800 MHz LTE' }
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
+ram: 2 GB
+recovery_boot: With the device powered off, hold **Home**, **Volume Up**, and **Power**
+release: September 2012
+screen: 140 mm (5.5 in)
+screen_ppi: 265
+screen_res: 1280x720
+screen_tech: HD Super AMOLED
+sdcard: Up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16/32/64 GB
+tree: android_device_samsung_t0ltekor
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 80.50 mm (3.17 in)
+wifi: 802.11 a/b/g/n
+note_show: true
+note_title: TWRP recovery
+note_content: TWRP recoveries for Korean Note 2 and N7105 are now unified. Install latest TWRP for t0lte prior to flashing.
+note_link: Link to recovery page
+note_url: https://eu.dl.twrp.me/t0lte/
