@@ -20,8 +20,8 @@ image: t0lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
 maintainers: [filiprrs, PoisonNinja]
-models: [SHV-E250S]
-name: Galaxy Note 2 (SK Telecom)
+models: [SHV-E250S, SHV-E250K, SHV-E250L]
+name: Galaxy Note 2 (Korea)
 network:
     - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
     - {tech: 3G, bands: '1900 2100 MHz HSDPA' }
