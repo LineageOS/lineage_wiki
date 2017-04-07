@@ -25,7 +25,7 @@ name: Nexus 4
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
+- {tech: 4G, bands: '1700 2100 MHz Band 4 LTE' }
 no_oem_unlock_switch: true
 peripherals: [3.5 mm TRRS, GPS, microUSB 2.0, Mobility DisplayPort (MyDP), multi-touch
     capacitive touchscreen, proximity sensor, NFC, Qi wireless charging]
