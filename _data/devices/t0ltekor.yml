@@ -6,7 +6,7 @@ cameras:
 - {flash: '', info: '1.9 MP'}
 carrier:
 channels: [weekly]
-codename: t0lteskt
+codename: t0ltekor
 cpu: Cortex A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
@@ -20,8 +20,8 @@ image: t0lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
 maintainers: [filiprrs, PoisonNinja]
-models: [SHV-E250S]
-name: Galaxy Note 2 (SK Telecom)
+models: [SHV-E250S, SHV-E250K, SHV-E250L]
+name: Galaxy Note 2 (Korea)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '1900 2100 MHz HSDPA' }
@@ -37,10 +37,15 @@ screen_tech: HD Super AMOLED
 sdcard: Up to 64 GB
 soc: Samsung Exynos 4412
 storage: 16/32/64 GB
-tree: android_device_samsung_t0lteskt
+tree: android_device_samsung_t0ltekor
 type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
 width: 80.50 mm (3.17 in)
 wifi: 802.11 a/b/g/n
+note_show: true
+note_title: TWRP recovery
+note_content: TWRP recoveries for Korean Note 2 and N7105 are now unified. Install latest TWRP for t0lte prior to flashing.
+note_link: Link to recovery page
+note_url: https://eu.dl.twrp.me/t0lte/
