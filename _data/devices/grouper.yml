@@ -1,0 +1,41 @@
+architecture: arm
+battery: 4325 mAh, Li-Po non-removable
+bluetooth: 3.0 with A2DP, LE
+cameras:
+- {info: '1.2MP front-facing'}
+carrier:
+channels: [weekly]
+codename: grouper
+cpu: Quad-core Cortex-A9
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+depth: 10.56 mm (0.42 in)
+download_boot: With the device powered off, hold Volume Down & Power buttons
+gpu: Nvidia GeForce ULP
+has_recovery_partition: true
+height: 198.5 mm (7.81 in)
+image: grouper.png
+install_method: fastboot_nexus
+kernel: android_kernel_asus_grouper
+maintainers: ['harryyoud']
+name: Nexus 7 (2012)
+network:
+peripherals: [Accelerometer, Gyro, Proximity sensor, NFC]
+ram: 1GB
+recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery Mode
+release: 13 July 2012
+screen: 145 mm (5.7 in)
+screen_ppi: ~216
+screen_res: 1280x800
+screen_tech: IPS LCD
+sdcard:
+soc: Nvidia Tegra 3 T30L
+storage: 8/16/32 GB
+tree: android_device_asus_grouper
+type: tablet
+vendor: Google
+vendor_short: asus
+versions: [14.1]
+width: 120 mm (4.72 in)
+wifi: 802.11 b/g/n, DLNA
