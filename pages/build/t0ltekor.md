@@ -1,10 +1,10 @@
 ---
 sidebar: home_sidebar
-title: Build for t0ltektt
+title: Build for t0ltekor
 folder: info
 # name of the page (/{{permalink}}.html)
-redirect_from: t0ltektt_build.html
-permalink: /devices/t0ltektt/build
-device: t0ltektt
+redirect_from: t0ltekor_build.html
+permalink: /devices/t0ltekor/build
+device: t0ltekor
 ---
 {% include templates/device_build.md %}
