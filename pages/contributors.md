@@ -109,3 +109,33 @@ pathways that connect to potential contributors to teams that have contribution 
 {% for lang in site.data.translators.languages %}
 * __{{ lang.name }}__: {{ lang.proofreaders | join: ', ' }}
 {% endfor %}
+
+## Other projects
+
+### Mirror manifest
+The mirror manifest can be found [here][https://www.github.com/LineageOS/mirror].
+
+| Name           | Nickname  |
+|----------------|-----------|
+| Tim Schumacher | TimSchumi |
+
+### Website
+The website can be found [here][https://www.github.com/LineageOS/www].
+
+| Name            | Nickname   |
+|-----------------|------------|
+| Abhisek Devkota | ciwrl      |
+| Dan Pasanen     | invisiblek |
+| Harry Youd      | harryyoud  |
+| Tom Powell      | zifnab     |
+
+### Wiki
+The wiki can be found [here][https://www.github.com/LineageOS/lineage_wiki].
+
+| Name           | Nickname   |
+|----------------|------------|
+| Bruno Martins  | bgcngm     |
+| Evan Widger    | psychoi3oy |
+| Michael W      | baddaemon  |
+| Simon Shields  | fourkbomb  |
+| razorloves     | razorloves |
