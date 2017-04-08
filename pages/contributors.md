@@ -93,16 +93,14 @@ pathways that connect to potential contributors to teams that have contribution 
 
 ### Translations managers
 
-<table>
-<thead>
-<tr><th>Name</th><th>Nickname</th></tr>
-</thead>
-<tbody>
-{% for el in site.data.translators.managers %}
-<tr><td>{{ el.name }}</td><td>{{ el.nick }}</td></tr>
+| Name | Nickname |
+|------|----------|
+{% for el in site.data.translators.managers %}| {{ el.name }} | {{ el.nick }} |
 {% endfor %}
-</tbody>
-</table>
+
+| Name | Nickname |
+|------|----------|{% for el in site.data.translators.managers %}
+| {{ el.name }} | {{ el.nick }} |{% endfor %}
 
 ### Translations proofreaders
 
