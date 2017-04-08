@@ -109,3 +109,21 @@ pathways that connect to potential contributors to teams that have contribution 
 {% for lang in site.data.translators.languages %}
 * __{{ lang.name }}__: {{ lang.proofreaders | join: ', ' }}
 {% endfor %}
+
+## Other projects
+
+### Mirror manifest
+
+| Project | Name | Nickname |
+|---------|------|----------|
+| mirror | Tim Schumacher | TimSchumi |
+
+### Wiki
+
+| Name           | Nickname   |
+|----------------|------------|
+| Bruno Martins  | bgcngm     |
+| Evan Widger    | psychoi3oy |
+| Michael W      | baddaemon  |
+| Simon Shields  | fourkbomb  |
+| razorloves     | razorloves |
