@@ -17,7 +17,8 @@ has_recovery_partition: true
 image: paella.png
 install_method: TODO
 kernel: android_kernel_bq_msm8916
-maintainers: ['']
+maintainers: [Christian Morlok (cmorlok), Eloi Carracedo (eloimuns), Alejandro Lopez
+    (Kra1o5), Michael Stucki (stucki) / Team aquaris-dev]
 name: Aquaris X5
 network:
 - {tech: 2G, bands: '' }
