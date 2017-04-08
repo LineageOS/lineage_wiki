@@ -116,3 +116,37 @@ pathways that connect to potential contributors to teams that have contribution 
 {% for lang in site.data.translators.languages %}
 * __{{ lang.name }}__: {{ lang.proofreaders | join: ', ' }}
 {% endfor %}
+
+## Other projects
+
+### Mirror manifest
+
+The mirror manifest can be found [here](https://www.github.com/LineageOS/mirror).
+
+| Name           | Nickname  |
+|----------------|-----------|
+| Tim Schumacher | TimSchumi |
+
+### Website
+
+These persons are responsible for the content of [our website](https://www.lineageos.org/):
+
+| Name            | Nickname   |
+|-----------------|------------|
+| Abhisek Devkota | ciwrl      |
+| Dan Pasanen     | invisiblek |
+| Harry Youd      | harryyoud  |
+| Tom Powell      | zifnab     |
+
+### Wiki
+
+If you want to contribute to the wiki yourself, you can find instructions on how to do so [here]({{ "contributing.html" | relative_url }}).
+The following people are responsible for the verification of the contents and the general maintenance of the wiki:
+
+| Name           | Nickname   |
+|----------------|------------|
+| Bruno Martins  | bgcngm     |
+| Evan Widger    | psychoi3oy |
+| Michael W      | baddaemon  |
+| Simon Shields  | fourkbomb  |
+| razorloves     | razorloves |
