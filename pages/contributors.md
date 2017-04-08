@@ -109,3 +109,9 @@ pathways that connect to potential contributors to teams that have contribution 
 {% for lang in site.data.translators.languages %}
 * __{{ lang.name }}__: {{ lang.proofreaders | join: ', ' }}
 {% endfor %}
+
+## Miscellaneous projects
+
+| Project | Name | Nickname |
+|---------|------|----------|
+| mirror | Tim Schumacher | TimSchumi |
