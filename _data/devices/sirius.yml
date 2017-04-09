@@ -1,0 +1,48 @@
+architecture: arm
+battery: 3200 mAh
+bluetooth: 4.0
+cameras:
+- {flash: LED, info: '20.7 MP, f/2.0, 25mm, autofocus, 2160p@30fps, 1080p@60fps, 720p@120fps, HDR'}
+- {flash: '', info: '2.2 MP, f/2.8, 1080p@30fps'}
+carrier:
+channels: [weekly]
+codename: sirius
+cpu: Snapdragon 801 (MSM8974AB) Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+depth:
+download_boot: "With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn sirius."
+gpu: Adreno 330
+has_recovery_partition: true
+height: 146.8 mm / 5.78 in
+width: 73.3 mm / 2.89 in
+image: sirius.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8974
+maintainers: [tomascus, rcstar6696, nailyk]
+name: Xperia Z2
+network:
+- {tech: 2G, bands: '850 / 900 / 1800 / 1900 GSM'}
+- {tech: 3G, bands: '850 / 900 / 1700 / 1900 / 2100 HSDPA'}
+- {tech: 4G, bands: 'D6503: 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 13(700), 17(700), 20(800) LTE'}
+- {tech: 4G, bands: 'D6543: 1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900) LTE'}
+no_oem_unlock_switch: true
+peripherals: ['FM radio, Proximity sensor, Light sensor, 3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS, Barometer']
+ram: 3 GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+release: 2014 February 1
+screen: 132 mm (5.2 in)
+screen_ppi: '424'
+screen_res: 1920x1080
+screen_tech: Triluminos LCD
+sdcard: microSD, upto 256 GB
+soc: Qualcomm MSM8974AB Snapdragon 801
+storage: 16 GB
+tree: android_device_sony_sirius
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac
