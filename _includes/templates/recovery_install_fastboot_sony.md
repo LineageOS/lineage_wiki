@@ -2,7 +2,8 @@
 
 {% include note.html content="The steps below only need to be run once per device." %}
 {% include warning.html content="Unlocking the bootloader will erase all data on your device!
-Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
+Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent.
+On some devices unlocking bootloader will erase your DRM keys, contained into TA partition. You can find multiples howtos, on internet, to backup your TA partition." %}
 
 1. Dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check "rooting status" - you can only continue if it says `Bootloader unlock allowed: Yes`.
