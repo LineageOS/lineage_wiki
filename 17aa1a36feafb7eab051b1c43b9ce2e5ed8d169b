@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_bb197b24",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "family?",
+      "range": {
+        "startLine": 7,
+        "startChar": 33,
+        "endLine": 7,
+        "endChar": 38
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_9b16bff0",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "hold volume down pressed?",
+      "range": {
+        "startLine": 14,
+        "startChar": 51,
+        "endLine": 14,
+        "endChar": 71
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_7bd30339",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "Not necessary - if you want to keep that sentence though, you should reword it",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 38
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_5bd84753",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "Z",
+      "range": {
+        "startLine": 24,
+        "startChar": 18,
+        "endLine": 24,
+        "endChar": 19
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_dbe31704",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "all?",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 7
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_bbf05bca",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "stored in the",
+      "range": {
+        "startLine": 6,
+        "startChar": 63,
+        "endLine": 6,
+        "endChar": 77
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_3bb46bf1",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "guides/tutorials (?) on how [...]",
+      "range": {
+        "startLine": 6,
+        "startChar": 115,
+        "endLine": 6,
+        "endChar": 135
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_3bdd8b43",
+        "filename": "pages/build/castor_windy.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "Z2 Tablet (WiFi-only)",
+      "range": {
+        "startLine": 3,
+        "startChar": 17,
+        "endLine": 3,
+        "endChar": 33
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_1be2cf03",
+        "filename": "pages/info/castor_windy.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "Z2 Tablet",
+      "range": {
+        "startLine": 3,
+        "startChar": 18,
+        "endLine": 3,
+        "endChar": 27
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_fbe6d315",
+        "filename": "pages/install/castor_windy.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2017-04-09T15:59:43Z",
+      "side": 1,
+      "message": "Z2 Tablet (WiFi-only)",
+      "range": {
+        "startLine": 3,
+        "startChar": 28,
+        "endLine": 3,
+        "endChar": 44
+      },
+      "revId": "17aa1a36feafb7eab051b1c43b9ce2e5ed8d169b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
