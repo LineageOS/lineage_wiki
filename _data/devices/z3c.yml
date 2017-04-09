@@ -1,0 +1,52 @@
+architecture: arm
+battery: 2600 mAh
+bluetooth: 4.0
+cameras:
+- {flash: LED, info: '20.7 MP, f/2.0, 25mm, autofocus, 2160p@30fps, 1080p@60fps, 720p@120fps, HDR'}
+- {flash: '', info: '2.2 MP, f/2.8, 1080p@30fps'}
+carrier:
+channels: [weekly]
+codename: z3c
+cpu: Snapdragon 801 (MSM8974AC) Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+depth:
+download_boot: Turn off device withouth USB cable, hold volume down pressed while plugging USB cable into computer. The blue notification led confirm fastboot mode. 
+gpu: Adreno 330
+has_recovery_partition: true
+height: 127 mm / 5.00 in
+width: 64.9 mm / 2.56 in
+image: z3c.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8974
+maintainers: [tomascus, rcstar6696, nailyk]
+name: Xperia Z3 compact
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: 'LTE 700/800/850/900/1700/1800/1900/2100/2600
+(1/2/3/4/5/7/8/13/17/20) - D6603
+LTE 700/800/850/900/1700/1800/1900/2100/2600
+(1/2/3/4/5/7/8/17/20) - D6643
+LTE 700 / 850 / 900 / 1800 / 2100 / 2600 - D6653
+LTE 700 / 1700 / 1900 / 2100 - D6616' }
+no_oem_unlock_switch: true
+peripherals: ['FM radio, Proximity sensor, Light sensor, 3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS, Barometer']
+ram: 2GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+release: 2014 September 3
+screen: 117 mm (4.6 in)
+screen_ppi: '319'
+screen_res: 720x1280
+screen_tech: IPS LCD
+sdcard: microSD, upto 128 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16GB, 32GB
+tree: android_device_sony_z3c
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac
