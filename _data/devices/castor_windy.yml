@@ -1,0 +1,43 @@
+architecture: arm
+battery: 6000 mAh
+bluetooth: 4.0
+cameras:
+- {flash: LED, info: '8.1 MP, 1080p@30fps, 720p@30fps (HDR), stereo sound rec.'}
+- {flash: '', info: '2.2 MP, f/2.8, 1080p@30fps'}
+channels: [weekly]
+codename: castor_windy
+cpu: Snapdragon 801 (MSM8974AB) Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+depth:
+download_boot: Turn off device withouth USB cable, maintain volume down while plugging USB cable into computer.
+  Screen keep black, light become blue.
+gpu: Adreno 330
+has_recovery_partition: true
+height: 266 mm / 10.47 in
+width: 172 mm / 6.77 in
+image: castor_windy.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8974
+maintainers: [tomascus, rcstar6696, nailyk]
+name: Sony Xperia z2 tablet (wifi)
+no_oem_unlock_switch: true
+peripherals: ['FM radio, Proximity sensor, Light sensor, 3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS, Barometer']
+ram: 3GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+release: 2014 February 1
+screen: 257 mm (10.1 in)
+screen_ppi: '224'
+screen_res: 1200x1920
+screen_tech: Triluminos LCD
+sdcard: microSD, upto 64 GB
+soc: Qualcomm MSM8974AB Snapdragon 801
+storage: 16GB, 32GB
+tree: android_device_sony_castor_windy
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac
