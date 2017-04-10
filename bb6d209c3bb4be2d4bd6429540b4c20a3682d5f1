@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_cd4d9ac6",
+        "filename": "_data/devices/t0ltekor.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-10T13:43:54Z",
+      "side": 1,
+      "message": "1800 MHz CDMA (E250L)",
+      "range": {
+        "startLine": 26,
+        "startChar": 47,
+        "endLine": 26,
+        "endChar": 69
+      },
+      "revId": "bb6d209c3bb4be2d4bd6429540b4c20a3682d5f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
