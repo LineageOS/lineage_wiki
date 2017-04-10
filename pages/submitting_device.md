@@ -1,5 +1,5 @@
 ---
-title: Submitting a Port
+title: Submitting a port
 permalink: submitting_device.html
 ---
 Congratulations! After weeks (months?) of hard work, LineageOS is running well on your device!
@@ -17,11 +17,6 @@ Make sure your device meets the following requirements:
 * **Enforcing SELinux** - The device must work while SELinux is enforcing (which is the default).
 * **No non-PIE blobs** - If your device requires executables which aren't position-independent, it will not be accepted.
 
-Additional considerations:
-
-* **Continued support** - LineageOS is not a "submit it and forget it" home. You need to be willing
-to continue maintenance of the device (bugfixes, security updates, and performance improvements).
-
 ## Submitting your device
 
 Send an email to <devrel@lineageos.org>. The email should contain:
@@ -34,3 +29,14 @@ Please be patient once you've sent your email. It takes time to review your sour
 If changes are deemed necessary, you'll receive notice and suggestions for improvement. It will be up
 to you to implement the changes before resubmitting your work for approval. Keep in mind that not all
 device port requests are accepted. Developer relations will do their best to inform you of the rationale for their decision, though.
+
+## Making your device official
+
+{% include note.html content="Once you have successfully submitted your device, you will be given access to our internal tools to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
+
+The following steps are necessary to finally make your device an official one:
+
+* Ask yourself: *"Do I want to provide continuous support?"* - LineageOS is *not* a "submit it and forget it" home. You need to be willing to continue maintenance of the device (bugfixes, security updates (see next point), and performance improvements).
+* Patch it: Make sure the kernel is patched against all [CVEs](https://cve.invisiblek.org).
+* Prepare all the info: [Add your device to the wiki]({{ "addingdevice-howto.html" | relative_url }}).
+* Make it build: Create a patch for the `hudson` project on our GitHub org and add your device to the `lineage_build_targets` file.
