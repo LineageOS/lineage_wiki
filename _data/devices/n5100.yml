@@ -1,0 +1,46 @@
+architecture: arm
+battery: Non-removable Li-Ion 4600 mAh
+bluetooth: v4.0 with A2DP
+cameras:
+- {flash: '', info: '5 MP (2592\xD1\N1944), autofocus'}
+- {flash: '', info: '1.3 MP'}
+carrier:
+channels: [weekly]
+codename: n5100
+cpu: Cortex A9
+cpu_cores: 4
+cpu_freq: 1.6 GHz
+current_branch: [14.1]
+depth: 8.0 mm (0.31 in)
+download_boot: **Volume Down** and **Power**
+gpu: Mali-400
+has_recovery_partition: true
+height: 210.8 mm (8.30 in)
+image: n5100.png
+install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: [sbrissen]
+models: []
+name: Galaxy Note 8.0 (GSM)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
+peripherals: [Accelerometer, Gyro, Proximity sensor, Compass, GPS]
+ram: 2 GB
+recovery_boot: **Volume Up** and **Power**. Hold all Buttons until the screen flashes twice, then release both.
+release: 2013, April
+screen: 203 mm (8.0 in)
+screen_ppi: '189'
+screen_res: 1280x800
+screen_tech: TFT LCD
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16/32 GB
+tree: android_device_samsung_n5100
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 135.9 mm (5.35 in)
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, Hotspot, DLNA
