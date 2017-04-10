@@ -196,6 +196,18 @@ ul, ol {
         </td>
     </tr>
     {% endif %}
+    {% if device.issues %}
+    <tr>
+        <td class="header">Known issues</td>
+        <td>
+            <ul>
+            {% for issue in device.issues %}
+            <li> {{ issue }}
+            {% endfor %}
+            </ul>
+        </td>
+    </tr>
+    {% endif %}
     <tr>
         <td class="header">Supported versions</td>
         <td>
