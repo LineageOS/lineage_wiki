@@ -2,8 +2,8 @@ architecture: arm64
 battery: 2840 mAh (non-removable)
 bluetooth: v4.1 with A2DP, aptX
 cameras:
-- {flash: dual-LED, info: 20MP}
-- {flash: '', info: 4MP}
+- {flash: 'Dual LED', info: '20 MP'}
+- {flash: '', info: '4 MP'}
 carrier: Verizon Wireless
 channels: [weekly]
 codename: himawl
@@ -20,7 +20,7 @@ height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8994
-maintainers: [flyhalf205]
+maintainers: [raymanfx, rashed]
 name: One M9 (Verizon)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }

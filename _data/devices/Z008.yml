@@ -2,8 +2,8 @@ architecture: x86
 battery: 3000mAh
 bluetooth: v4.0, A2DP, EDR
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: Z008
@@ -23,7 +23,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM - SIM 1 & SIM 2' }
 - {tech: 3G, bands: '850 900 1900 2100 MHZ HSDPA - SIM 1 only' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) 20(800) SIM 1 only' }
-peripherals: [Accelerometer, proximity, compass]
+peripherals: [Accelerometer, Proximity, Compass]
 ram: 2 GB
 recovery_boot: No direct key combo
 release: March 2015
