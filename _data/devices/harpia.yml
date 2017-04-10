@@ -2,8 +2,8 @@ architecture: arm
 battery: 2800 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: LED flash, info: 8MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, International GSM
 channels: [weekly]
 codename: harpia
@@ -23,8 +23,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800/850/1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Europe and Asia), 850 900 1700(AWS) 1900 2100 MHz HSDPA (US, Canada), 850 900 1700 1900 2100 MHz HSDPA (Latin America, Brazil), CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 12(700) 13(700) 17(700) 25(1900) 26(850) 41(2500) LTE (US, Canada), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 40(2300) LTE (Europe), 3(1800) 5(850) 7(2600) 28(700) LTE (Latin America, Brazil), 2(1900) 4(1700) 5(850) 12(700) 13(700) 17(700) 25(1900) LTE (U.S. Cellular), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 40(2300) LTE (Asia)' }
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB or 2GB
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1/2 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Power to select.
 release: 2016 May
@@ -32,9 +32,9 @@ screen: 127 mm (5.0 in)
 screen_ppi: ~295
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 16GB
+storage: 16 GB
 tree: android_device_motorola_harpia
 type: phone
 vendor: Motorola

@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.0 with A2DP, LE, aptX
 cameras:
-- {flash: Dual flash, info: 13MP}
-- {flash: '', info: 2.1MP}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
 channels: ['']
 codename: d852
@@ -19,7 +19,7 @@ height: 5.76 inches (146.3 mm)
 image: d855.png
 install_method: TODO
 kernel: android_kernel_lge_g3
-maintainers: ['']
+maintainers: [finnq, shred00]
 name: G3 (Canada)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

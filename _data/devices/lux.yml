@@ -2,8 +2,8 @@ architecture: arm
 battery: 3630 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: dual LED, info: 21MP}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: '21 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: lux
@@ -19,14 +19,14 @@ height:
 image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: ['']
+maintainers: [sultanqasim]
 name: Moto X Play
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 2GB
+ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
   On the next screen use Volume Down to scroll to recovery and then use Volume Up
   to select.
@@ -35,9 +35,9 @@ screen: 140 mm (5.5 in)
 screen_ppi: ~403
 screen_res: 1080 x 1920
 screen_tech: IPS LCD
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16/32GB
+storage: 16/32 GB
 tree: android_device_motorola_lux
 type: phone
 vendor: Motorola
