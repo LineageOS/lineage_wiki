@@ -34,3 +34,12 @@ Please be patient once you've sent your email. It takes time to review your sour
 If changes are deemed necessary, you'll receive notice and suggestions for improvement. It will be up
 to you to implement the changes before resubmitting your work for approval. Keep in mind that not all
 device port requests are accepted. Developer relations will do their best to inform you of the rationale for their decision, though.
+
+
+## Making your device official
+
+The following steps are necessary to finally make your device an official one:
+
+* Patch it: Make sure the kernel is patched against all CVEs (and make sure you are willing to repeat this every month!)
+* Prepare all the info: Add your device to the [wiki]({{ "addingdevice-howto.html" | relative_url }})
+* Make it build: Create a patch for the `hudson` project on our GitHub org and add your device to the `lineage_build_targets` file
