@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_cd191a24",
+        "filename": "pages/submitting_device.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-10T10:12:04Z",
+      "side": 1,
+      "message": "I\u0027d move this down now.",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 97
+      },
+      "revId": "6a2fffbb6bd6015e450f1d625f058fb4c6e319cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
