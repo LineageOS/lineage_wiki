@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3450 mAh, Li-Po non-removable
 bluetooth: 4.2 with A2DP, LE
 cameras:
-- {flash: dual-LED (dual tone), info: '12.3MP, laser autofocus'}
-- {flash: '', info: 8MP}
+- {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: angler
@@ -19,16 +19,15 @@ height: 159.3 mm (6.27 in)
 image: angler.png
 install_method: fastboot_nexus
 kernel: android_kernel_huawei_angler
-maintainers: ['']
+maintainers: [razorloves, sam3000]
 name: Nexus 6P
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (American model), 800 850 900 1700 1800 1900 2100 MHz HSDPA (Global model)' }
 - {tech: 4G, bands: '700 850 1700 1800 1900 2100 2300 2500 2600 MHz LTE (American model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
 peripherals: [Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer, NFC]
-ram: 3GB
-recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery
-  Mode.
+ram: 3 GB
+recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery Mode.
 release: 29 September 2015
 screen: 145 mm (5.7 in)
 screen_ppi: ~518

@@ -2,8 +2,8 @@ architecture: arm
 battery: 2070 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier: AT&T,TMobile,Boost, International GSM
 channels: [weekly]
 codename: falcon
@@ -18,14 +18,14 @@ has_recovery_partition: true
 image: falcon.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: ['']
+maintainers: [gmrt]
 name: Moto G
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA (T-Mobile, AT&T), CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Volume Up to select.
 release: 2013 November
@@ -35,7 +35,7 @@ screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard:
 soc: Qualcomm MSM8226 Snapdragon 400
-storage: 8GB or 16GB
+storage: 8/16 GB
 tree: android_device_motorola_falcon
 type: phone
 vendor: Motorola
