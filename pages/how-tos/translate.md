@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to translate
+folder: how-tos
 permalink: translate-howto.html
 tags:
  - how-to

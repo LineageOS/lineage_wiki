@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to submit a patch
+folder: how-tos
 permalink: submitting-patch-howto.html
 tags:
  - how-to

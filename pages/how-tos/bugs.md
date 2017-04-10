@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to submit a bug report
+folder: how-tos
 permalink: bugreport-howto.html
 tags:
  - how-to

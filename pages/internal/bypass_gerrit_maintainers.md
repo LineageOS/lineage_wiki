@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to bypass Gerrit
+folder: internal
 permalink: bypassing_gerrit.html
 search: exclude
 tags:

@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to capture logs
+folder: how-tos
 permalink: logcat.html
 tags:
  - how-to
