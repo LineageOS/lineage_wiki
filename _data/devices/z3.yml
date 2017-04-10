@@ -17,6 +17,7 @@ gpu: Adreno 330
 has_recovery_partition: true
 height: 146mm / 5.75in
 width: 72mm / 2.83 in
+issues: ['NFC partially working','Full disk encryption breaks RIL','OTG','Video at 4k','Video at 120fps']
 image: z3.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8974

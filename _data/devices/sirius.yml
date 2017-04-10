@@ -19,6 +19,7 @@ height: 146.8 mm / 5.78 in
 width: 73.3 mm / 2.89 in
 image: sirius.png
 install_method: fastboot_sony
+issues: ['NFC partially working','Full disk encryption breaks RIL','OTG','Video at 4k','Video at 120fps']
 kernel: android_kernel_sony_msm8974
 maintainers: [tomascus, rcstar6696, nailyk]
 name: Xperia Z2
