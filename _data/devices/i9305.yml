@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 2100 mAh
+bluetooth: v4.0 with A2DP, EDR
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.9 MP'}
+carrier:
+channels: [weekly]
+codename: i9305
+cpu: Cortex A9
+cpu_cores: '4'
+cpu_freq: 1.4 GHz
+current_branch: [14.1]
+depth: 8.6 mm (0.339 in)
+download_boot: Power off device and hold **Home**, **Volume Down** and **Power** buttons.
+gpu: Mali-400
+has_recovery_partition: true
+height: 137 mm (5.4 in)
+image: i9300.png
+install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: [rgib]
+models: [GT-I9305, GT-I9305T, GT-I9305N]
+name: Galaxy S III (LTE / International)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
+- {tech: 3G, bands: '850 900 2100 MHz UMTS/HSPA+'}
+- {tech: 4G, bands: '800 1800 2600 MHz (GT-I9305), 900 1800 2600 MHz (GT-I9305N), 1800 2600 MHz (GT-I9305T)'}
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, NFC]
+ram: 2 GB
+recovery_boot: Power off device and hold **Home**, **Volume Up** and **Power** buttons.
+release: October 2012
+screen: 122 mm (4.8 in)
+screen_ppi: '320'
+screen_res: 1280x720
+screen_tech: Super AMOLED
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16 GB
+tree: android_device_samsung_i9305
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 71 mm (2.8 in)
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, DLNA, Hotspot
