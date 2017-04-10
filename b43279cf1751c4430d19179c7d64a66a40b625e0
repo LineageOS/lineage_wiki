@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_0d13b25d",
+        "filename": "_data/devices/t0ltekor.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-10T06:37:23Z",
+      "side": 1,
+      "message": "- {flash: \u0027LED\u0027, info: \u00278 MP\u0027}",
+      "revId": "b43279cf1751c4430d19179c7d64a66a40b625e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_ed0f362d",
+        "filename": "_data/devices/t0ltekor.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-10T06:37:23Z",
+      "side": 1,
+      "message": "info: \u00271.9 MP\u0027",
+      "revId": "b43279cf1751c4430d19179c7d64a66a40b625e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_cd1c7a6d",
+        "filename": "_data/devices/t0ltekor.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-10T06:37:23Z",
+      "side": 1,
+      "message": "Install the latest [...]",
+      "revId": "b43279cf1751c4430d19179c7d64a66a40b625e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
