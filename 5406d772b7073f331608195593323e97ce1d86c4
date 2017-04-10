@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_7b31c30a",
+        "filename": "_data/devices/shamu.yml",
+        "patchSetId": 40
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2017-04-10T05:09:51Z",
+      "side": 1,
+      "message": "Should be 13 MP afaik.",
+      "revId": "5406d772b7073f331608195593323e97ce1d86c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
