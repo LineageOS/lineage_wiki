@@ -1,0 +1,49 @@
+architecture: TODO
+battery: 4000 mAh
+bluetooth: '4.1'
+cameras:
+- {flash: Dual LED, info: 13MP F/2.2}
+- {flash: '', info: 8MP}
+carrier: ''
+channels: [weekly]
+codename: ham
+cpu: Krait 400
+cpu_cores: 4
+cpu_freq: 2.5 GHz
+current_branch: [14.1]
+depth: TODO - see "height"
+download_boot: With the device powered down, plug in the cable while holding the <b>Volume
+  Down</b> and <b>Volume Up</b> buttons.
+gpu: Adreno 330
+has_recovery_partition: true
+height: 155.7 mm (h)<br/> 77.3 mm (w)<br/> 8.9 mm (d)
+image: ham.png
+install_method: TODO
+kernel: android_kernel_cyanogen_msm8974
+maintainers: [CyanogenMod]
+models: []
+name: Z1
+network:
+- {bands: 1800 2100 2600 FDD 1900 2300 2500 2600 TDD, tech: 4G}
+- {bands: '850 900 1800 1900 MHz UMTS ', tech: 3G}
+- {bands: FIXME, tech: 2G}
+peripherals: Fingerprint Reader, Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS,
+  Light sensor, Proximity Sensor
+ram: 3GB
+recovery_boot: With the device powered down, hold the <b>Volume Down</b>, <b>Volume
+  Up</b> and <b>Power</b> buttons.
+release: 2015 October 14
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1920x1080
+screen_tech: JDI IPS
+sdcard: none
+soc: Qualcomm Snapdragon 801
+storage: 64GB
+tree: android_device_zuk_ham
+type: phone
+vendor: ZUK
+vendor_short: zuk
+versions: [14.1]
+width: TODO - see "height"
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac

@@ -1,0 +1,49 @@
+architecture: TODO
+battery: ''
+bluetooth: '4.0'
+cameras:
+- {flash: 'yes, LED', info: 8MP}
+- {flash: '', info: 1.9MP}
+carrier: ''
+channels: [weekly]
+codename: i9305
+cpu: Cortex A9
+cpu_cores: 4
+cpu_freq: 1.4 GHz
+current_branch: [14.1]
+depth: TODO - see "height"
+download_boot: Power off device and hold <b>Home</b> &amp; <b>Volume Down</b> &amp;
+  <b>Power</b>.
+gpu: Mali-400
+has_recovery_partition: true
+height: 137 mm (5.4 in) (h)<br/>71 mm (2.8 in) (w)<br/>8.6 mm (0.339 in) (d)
+image: i9300.png
+install_method: TODO
+kernel: android_kernel_samsung_smdk4412
+maintainers: [Mark Campbell-Smith, ' Daniel Hillenbrand']
+models: []
+name: Galaxy S III (LTE / International)
+network:
+- {bands: 800 2600, tech: 4G}
+- {bands: '850 900 1800 1900 2100 MHz UMTS/HSPA+ ', tech: 3G}
+- {bands: FIXME, tech: 2G}
+peripherals: accelerometer, gyroscope, proximity sensor, digital compass, GPS, microphone,
+  NFC
+ram: 2GB
+recovery_boot: Power off device and hold <b>Home</b> &amp; <b>Volume Up</b> &amp;
+  <b>Power</b>.
+release: ' October 2012'
+screen: 122 mm (4.8 in)
+screen_ppi: '320'
+screen_res: 1280x720
+screen_tech: Super AMOLED
+sdcard: up to 64GB
+soc: Samsung Exynos 4412
+storage: 16GB
+tree: android_device_samsung_i9305
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: TODO - see "height"
+wifi: 802.11 a/b/g/n

@@ -1,0 +1,47 @@
+architecture: TODO
+battery: 4600mAh
+bluetooth: '4.0'
+cameras:
+- {flash: '', info: "5Mp (2592\xD1\N1944), autofocus"}
+- {flash: '', info: 1.3Mp}
+carrier: ''
+channels: [weekly]
+codename: n5100
+cpu: Cortex A9
+cpu_cores: 4
+cpu_freq: 1.6 GHz
+current_branch: [14.1]
+depth: TODO - see "height"
+download_boot: <b>Volume Down</b> &amp; <b>Power</b>
+gpu: Mali-400
+has_recovery_partition: true
+height: 210.8 mm (h)<br/>135.9 mm  (w)<br/>8.0 mm (d)
+image: n5100.png
+install_method: TODO
+kernel: android_kernel_samsung_smdk4412
+maintainers: [sbrissen]
+models: []
+name: Galaxy Note 8.0 (GSM)
+network:
+- {bands: '', tech: 4G}
+- {bands: '850 900 1800 1900 2100 MHz UMTS/HSPA+ ', tech: 3G}
+- {bands: FIXME, tech: 2G}
+peripherals: ''
+ram: 2GB
+recovery_boot: <b>Volume Up</b> &amp; <b>Power</b>. Hold all Buttons until the screen
+  flashes twice, then release both.
+release: ''
+screen: 203 mm (8.0 in)
+screen_ppi: '189'
+screen_res: 1280x800
+screen_tech: TFT LCD
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16, 32 GB
+tree: android_device_samsung_n5100
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: TODO - see "height"
+wifi: 802.11 a/b/g/n 2.4 and 5GHz
