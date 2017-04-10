@@ -1,0 +1,46 @@
+architecture: arm
+battery: Non-removable Li-Ion 5870 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '2.1 MP'}
+carrier:
+channels: [weekly]
+codename: gts210wifi
+cpu: Cortex A57/A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.9 GHz, 4 x 1.3 GHz
+current_branch: [14.1]
+depth: 5.6 mm (0.22 in)
+download_boot: With power off, hold **Home**, **Volume Down** and **Power** buttons simultaneously.
+gpu: Mali-T760 MP6
+has_recovery_partition: true
+height: 237.3 mm (9.34 in)
+image: gts210.png
+install_method: heimdall
+kernel: android_kernel_samsung_gts2
+maintainers: [raymanfx, T_I]
+models:
+name: Galaxy Tab S2 9.7 (Wi-Fi)
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Compass, GPS]
+ram: 3 GB
+recovery_boot: With power off, hold **Home**, **Volume Up** and **Power** buttons simultaneously.
+release: 2015 September
+screen: 246 mm (9.7 in)
+screen_ppi: ~264
+screen_res: 1536x2048
+screen_tech: Super AMOLED
+sdcard: up to 128 GB
+soc: Samsung Exynos 5433
+storage: 32/64 GB
+tree: android_device_samsung_gts210wifi
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 169 mm (6.65 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

@@ -1,0 +1,45 @@
+architecture: arm
+battery: Non-removable Li-Po 4100 mAh
+bluetooth: v4.1
+cameras:
+- {flash: 'Dual LED', info: '13 MP F/2.2'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: ham
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: [14.1]
+depth: 8.9 mm (0.35 in)
+download_boot: With the device powered down, plug in the cable while holding the **Volume Down** and **Volume Up** buttons.
+gpu: Adreno 330
+has_recovery_partition: true
+height: 155.7 mm (6.13 in)
+image: ham.png
+install_method: fastboot_nexus
+kernel: android_kernel_cyanogen_msm8974
+maintainers: [ashwinr64]
+name: Z1
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500) LTE' }
+peripherals: [Fingerprint reader, GPS, Accelerometer, Gyroscope, Compass, Light sensor, Proximity sensor]
+ram: 3 GB
+recovery_boot: With the device powered down, hold the **Volume Down**, **Volume Up** and **Power** buttons.
+release: 2015 October 14
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1920x1080
+screen_tech: JDI IPS
+sdcard: none
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 64 GB
+tree: android_device_zuk_ham
+type: phone
+vendor: ZUK
+vendor_short: zuk
+versions: [14.1]
+width: 77.3 mm (3.04 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot
