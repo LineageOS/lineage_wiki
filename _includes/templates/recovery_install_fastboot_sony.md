@@ -2,7 +2,9 @@
 
 {% include note.html content="The steps below only need to be run once per device." %}
 {% include warning.html content="Unlocking the bootloader will erase all data on your device!
-Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
+This also includes your DRM keys, which are stored in the Trim Area partition (also called TA).
+Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent.
+If you wish to backup the TA partition first, you can find tutorials related to your device on the internet." %}
 
 1. Dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check "rooting status" - you can only continue if it says `Bootloader unlock allowed: Yes`.
