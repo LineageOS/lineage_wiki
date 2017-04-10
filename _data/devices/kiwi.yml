@@ -2,7 +2,7 @@ architecture: arm64
 battery: 3000 mAh (non-removable)
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: LED, info: '13 MP, f/2.0, 28mm'}
+- {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
 - {flash: '', info: '5 MP, f/2.4, 22mm'}
 carrier:
 channels: [weekly]
@@ -20,13 +20,14 @@ image: kiwi.png
 install_method: TODO
 kernel: android_kernel_huawei_kiwi
 maintainers: [crpalmer, BadDaemon]
+models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
 name: Honor 5X
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1700 (AWS) 1900 2100 MHz HSDPA (USA models), 850 900 1900 2100 MHz HSDPA (China models)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) 2(1900) 4(1700/2100) 5(850) 7(2600) 12(700) 17(700) LTE (USA models), 1(2100) 3(1800) 38(2600) 39(1900) 40(2300) 41(2500) LTE (China models)' }
-peripherals: [Fingerprint, Accelerometer, Proximity, Light, Compass, GPS, Hall-sensor]
-ram: 2GB
+peripherals: [Fingerprint, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall-sensor]
+ram: 2 GB
 recovery_boot: Hold Volume Up and the Power button. Continue to hold buttons until
   the "Honor" logo appears, then release all buttons.
 release: 2015 November
@@ -34,9 +35,9 @@ screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
 screen_res: 1080 x 1920
 screen_tech: IPS
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8939v2 Snapdragon 616
-storage: 16GB
+storage: 16 GB
 tree: android_device_huawei_kiwi
 type: phone
 vendor: Huawei

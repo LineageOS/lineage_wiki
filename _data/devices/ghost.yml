@@ -2,8 +2,8 @@ architecture: arm
 battery: Non-removable Li-Ion 2200 mAh
 bluetooth: v4.0 with A2DP, EDR, LE
 cameras:
-- {flash: LED, info: 10MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '10 MP'}
+- {flash: '', info: '2 MP'}
 carrier: Sprint, Verizon, U.S. Cellular, AT&T, GSM unlocked
 channels: [weekly]
 codename: ghost
@@ -26,8 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1800 1900 2100 MHz HSDPA (EU and AT&T), 850 900 1700 1900 2100 MHz HSDPA (T-Mobile)' }
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 17(700) LTE (AT&T), 2(1900) 4(1700/2100) 17(700) LTE (T-Mobile), 3(1800) 7(2600) 20(800) LTE (EU)' }
-peripherals: [Motion Coprocessor, Audio Coprocessor , Accelerometer, Gyroscope, Proximity sensor, Compass,
-  Magnetic sensor, GPS, NFC]
+peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Magnetic sensor, GPS, NFC]
 ram: 2 GB
 recovery_boot: From fastboot mode select recovery.
 release: 23 August 2013
