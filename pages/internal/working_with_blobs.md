@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Working with proprietary blobs
-folder: meta
+folder: internal
 permalink: proprietary_blobs.html
 search: exclude
 tags:

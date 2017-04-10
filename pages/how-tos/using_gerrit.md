@@ -1,6 +1,7 @@
 ---
 sidebar: home_sidebar
 title: How to use Gerrit
+folder: how-tos
 permalink: usinggerrit-howto.html
 tags:
  - how-to
