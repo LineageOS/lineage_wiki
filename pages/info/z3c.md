@@ -9,5 +9,6 @@ permalink: /devices/z3c/
 device: z3c
 ---
 {% include templates/device_info.md %}
-
 <p>Sony specific IRC channel: <a href="https://webchat.freenode.net/?channels=freexperia">#sonyxperia on freenode</a>.</p>
+
+{% include custom/device_shinano.md %}
