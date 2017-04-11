@@ -1,9 +1,9 @@
 architecture: arm
-battery: Li-Ion 4050 mAh battery
+battery: Non-removable Li-Ion 4050 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 13 MP}
-- {flash: '', info: 5 MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels:
 codename: mt2
@@ -23,15 +23,15 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 17(700)' }
-peripherals: [Accelerometer, gyro, proximity, compass]
-ram: 2GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 2 GB
 recovery_boot: Volume Up & Power
 release:
 screen: 155 mm (6.1 in)
 screen_ppi: '241'
 screen_res: 1280x720
 screen_tech: IPS+ LCD
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM 8928
 storage: 16 GB
 tree: android_device_huawei_mt2
@@ -39,4 +39,4 @@ type: phablet
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]
-wifi: 802.11 b/g/n
+wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot

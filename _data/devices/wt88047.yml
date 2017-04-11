@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Po 2200 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: wt88047
@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
-peripherals: [Accelerometer, Gyro, Proximity sensor, Digital compass, Dual SIM, GPS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Dual SIM, GPS]
 ram: 1/2 GB
 recovery_boot: Hold **Volume Up**, **Volume Down** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
