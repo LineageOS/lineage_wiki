@@ -2,15 +2,15 @@ architecture: arm64
 battery: 4070 mAh (non-removable)
 bluetooth: v4.2 with A2DP, BLE
 cameras:
-- {flash: dual-LED (dual tone), info: 16MP}
-- {flash: '', info: 8MP}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: zl1
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz & 2 x 2.0 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth: 7.5 mm (0.30 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 530
@@ -27,7 +27,7 @@ network:
 - {tech: 3G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 8(900) 34(2000) 39(1900)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 39(1900) 40(2300) 41(2500)' }
 peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass]
-ram: 4GB / 6GB
+ram: 4/6 GB
 recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
 release: 2016 September
 screen: 5.5 in
@@ -36,11 +36,11 @@ screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm MSM8996 Snapdragon 821
-storage: 32GB / 64GB
+storage: 32/64 GB
 tree: android_device_leeco_zl1
 type: phone
 vendor: LeEco
 vendor_short: leeco
-versions: [13.0]
+versions: [13.0, 14.1]
 width: 73.9 mm (2.91 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

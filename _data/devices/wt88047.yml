@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Po 2200 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: wt88047
