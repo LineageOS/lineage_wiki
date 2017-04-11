@@ -80,13 +80,20 @@ pathways that connect to potential contributors to teams that have contribution 
 
 #### LineageOS {{ version }}
 
+<table>
+<thead>
+<tr><th>Device</th><th>Maintainer(s)</th></tr>
+</thead>
+<tbody>
 {% for device in sorted %}
-{% if device.current_branch != version or device.channels contains '' %}
+{% assign length = device.channels | size %}
+{% if device.current_branch != version or length == 0 %}
 {% continue %}
 {% endif %}
-* [__{{ device.vendor }} {{ device.name }} ({{ device.codename }})__](/devices/{{ device.codename }}): {{ device.maintainers | join: ', ' }}
+<tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
 {% endfor %}
-
+</tbody>
+</table>
 {% endfor %}
 
 ## Translations
