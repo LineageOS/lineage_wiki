@@ -2,8 +2,8 @@ architecture: arm
 battery: 1785 mAh
 bluetooth: ' v4.0 with LE+EDR'
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier: Sprint
 channels: [weekly]
 codename: xt897
@@ -26,16 +26,16 @@ network:
 - {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '25(1900)' }
 peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor, Proximity sensor]
-ram: 1GB
+ram: 1 GB
 recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
 release: 2012 August 19
 screen: 110 mm (4.3 in)
 screen_ppi: 256
 screen_res: 540x960
 screen_tech: TFT capacitive touchscreen
-sdcard: microSD, up to 32GB
+sdcard: microSD, up to 32 GB
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
-storage: 8GB
+storage: 8 GB
 tree: android_device_motorola_xt897
 type: phone (slider)
 vendor: Motorola

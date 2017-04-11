@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable 1700 mAh
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
-- {flash: '', info: '13 MP f/2.4, flash: LED'}
-- {flash: '', info: 1.3 MP}
+- {flash: 'LED', info: '13 MP f/2.4'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: tsubasa
@@ -28,17 +28,16 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 20(800) LTE' }
 peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
   Compass, Gyroscope, Light sensor, Proximity Sensor]
-ram: 1GB
-recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
-<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+ram: 1 GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />**Second Recovery:** To boot the FOTA Recovery, press Volume Up instead.'
 release: 2012 September
 screen: 109 mm (4.3 in)
 screen_ppi: '342'
 screen_res: 720x1280
 screen_tech: TFT
-sdcard: officially up to 32GB
+sdcard: officially up to 32 GB
 soc: Qualcomm MSM8960 Snapdragon S4
-storage: 8GB
+storage: 8 GB
 tree: android_device_sony_tsubasa
 type: phone
 vendor: Sony
