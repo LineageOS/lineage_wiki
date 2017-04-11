@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3000 mAh
 bluetooth: '4.1'
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 8MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: h811
@@ -24,9 +24,9 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz' }
 - {tech: 3G, bands: '850 1700/2100 1900 2100 MHz UMTS' }
 - {tech: 4G, bands: '5(850) 4(1700/2100) 7(2600) 3(1800) 2(1900) 12(700)' }
-peripherals: [Accelerometer, Gyro, Proximity, Compass, Barometer, Color spectrum,
+peripherals: [Accelerometer, Gyro, Proximity sensor, Compass, Barometer, Color spectrum,
   FM Radio]
-ram: 3GB
+ram: 3 GB
 recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
   1 sec and hold it again till recovery comes up
 release: June 2015
@@ -36,7 +36,7 @@ screen_res: 2560x1440
 screen_tech: IPS LCD
 sdcard: up to 2TB
 soc: Qualcomm MSM8992
-storage: 32GB
+storage: 32 GB
 tree: android_device_lge_h811
 type: phone
 vendor: LG
