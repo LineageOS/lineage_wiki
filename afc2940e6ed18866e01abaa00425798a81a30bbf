@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_c319e923",
+        "filename": "_data/devices/ido.yml",
+        "patchSetId": 60
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13825
+      },
+      "writtenOn": "2017-04-11T10:11:40Z",
+      "side": 1,
+      "message": "This is on Redmi 3 Prime variant only",
+      "range": {
+        "startLine": 29,
+        "startChar": 24,
+        "endLine": 29,
+        "endChar": 35
+      },
+      "revId": "afc2940e6ed18866e01abaa00425798a81a30bbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
