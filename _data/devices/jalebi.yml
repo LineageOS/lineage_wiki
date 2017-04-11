@@ -10,7 +10,7 @@ codename: jalebi
 cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 Ghz
-current_branch: 13.0
+current_branch: 14.1
 download_boot: Power off the device then hold Volume UP and Power buttons. Select
   "reboot to bootloader".
 gpu: Adreno 306
@@ -39,5 +39,5 @@ tree: android_device_yu_jalebi
 type: phone
 vendor: YU
 vendor_short: yu
-versions: [13.0]
+versions: [14.1]
 wifi: 802.11 b/g/n
