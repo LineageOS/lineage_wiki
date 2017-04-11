@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 1850 mAh
 bluetooth: v4.0 with A2DP
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: toroplus
@@ -27,8 +27,7 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '1900 MHz (Band 25)' }
 no_oem_unlock_switch: true
-peripherals: [3.5 mm TRRS, microUSB 2.0, Proximity sensor, Light sensor, NFC,
-  3-axis accelerometer, Additional 3-axis gyroscope, Digital compass, GPS]
+peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons
   until the bootloader appears, then release the buttons. Navigate using the volume
@@ -47,4 +46,4 @@ vendor: Google
 vendor_short: samsung
 versions: [13.0]
 width: 67.9 mm
-wifi: 802.11 a/b/g/n, Dual-Band, DLNA, Hotspot
+wifi: 802.11 a/b/g/n, Dual-band, DLNA, Hotspot
