@@ -1,9 +1,9 @@
 architecture: arm64
-battery: Non-removable Li-Ion 4000 mAh battery
-bluetooth: 4.1 A2DP, LE
+battery: Non-removable Li-Ion 4000 mAh
+bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: none, info: 8MP}
-- {flash: none, info: 2.1MP}
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
 channels: [weekly]
 codename: gts28vewifi
@@ -19,23 +19,15 @@ height: 198.6mm
 image: gts210vewifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8976
-maintainers:
-    - LuK1337
-    - luca020400
+maintainers: [LuK1337, luca020400]
 models: [SM-T713]
 name: Galaxy Tab S2 8.0 Wi-Fi (2016)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals:
-    - Accelerometer
-    - Compass
-    - Fingerprint
-    - GPS
-    - Gyroscope
-    - Proximity
-ram: 3GB
+peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+ram: 3 GB
 recovery_boot: Hold **Home**, **Volume Up**, and **Power**
 release: 2016
 screen: 246 mm (8.0 in)

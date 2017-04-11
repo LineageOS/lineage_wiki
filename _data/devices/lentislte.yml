@@ -2,8 +2,8 @@ architecture: arm
 battery: 2800 mAh Li-ion battery, removable
 bluetooth: 4.0 BLE
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: lentislte
@@ -24,10 +24,8 @@ network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 17(700)' }
-peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
-ram: 3GB
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, Magnetometer, RGB ambient light, IR blaster]
+ram: 3 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
 release: 15 July 2014

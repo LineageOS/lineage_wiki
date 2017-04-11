@@ -1,9 +1,9 @@
 architecture: arm
 battery:
-bluetooth: 4.0LE
+bluetooth: v4.0 LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: mondrianwifi
@@ -16,7 +16,7 @@ gpu: Adreno 330
 has_recovery_partition: true
 image: mondrianwifi.png
 install_method: heimdall
-kernel:
+kernel: android_kernel_samsung_mondrianwifi
 maintainers: [crpalmer]
 name: Galaxy Tab Pro 8.4
 network:
@@ -24,16 +24,16 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 2GB
+ram: 2 GB
 recovery_boot: Hold Volume Up while booting.
 release:
 screen: 213 mm (8.4 in)
 screen_ppi: '359'
 screen_res: 1600x2560
 screen_tech:
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8974 Snapdragon 800
-storage: 16GB
+storage: 16 GB
 tree: android_device_samsung_mondrianwifi
 type: tablet
 vendor: Samsung

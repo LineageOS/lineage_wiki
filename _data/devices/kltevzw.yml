@@ -2,8 +2,8 @@ architecture: arm
 battery: 2800 mAh Li-ion battery, removable
 bluetooth: 4.0 BLE
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: '', info: 2MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
 carrier:
 channels: [weekly]
 codename: kltevzw
@@ -17,17 +17,15 @@ has_recovery_partition: true
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_klte
-maintainers: ['']
+maintainers: [haggertk]
 models: [SM-G900V, SM-S902L]
 name: Galaxy S5 (Verizon)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
-ram: 2GB
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, Magnetometer, RGB ambient light, Infrared sensor]
+ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
 release:
@@ -35,9 +33,9 @@ screen: 130 mm (5.1 in)
 screen_ppi: '432'
 screen_res: 1920x1080
 screen_tech: Full HD Super AMOLED
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 32GB
+storage: 32 GB
 tree: android_device_samsung_kltevzw
 type: phone
 vendor: Samsung

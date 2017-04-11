@@ -2,8 +2,8 @@ architecture: arm
 battery: Non-removable Li-Pol 3,000 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 2.1MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier: T-Mobile
 channels: [weekly]
 codename: d801
@@ -12,23 +12,21 @@ cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered down, plug in a USB cable while pressing Volume
-  Up.
+download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
 gpu: Adreno 330
 has_recovery_partition: true
 height:
 image: g2.png
 install_method: TODO
 kernel: android_kernel_lge_msm8974
-maintainers: ['']
+maintainers: [rashed]
 name: G2 (T-Mobile)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '2(1900), 4(1700/2100), 7(2600)' }
-peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnometer,
-  microphone, NFC]
-ram: 2GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Magnetometer, NFC]
+ram: 2 GB
 recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
   logo appears release the buttons and then hold them down again.
 release: 2013 September 12
@@ -38,7 +36,7 @@ screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm MSM8974 Snapdragon 800
-storage: 16GB or 32GB
+storage: 16/32 GB
 tree: android_device_lge_d801
 type: phone
 vendor: LG

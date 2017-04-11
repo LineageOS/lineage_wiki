@@ -2,8 +2,8 @@ architecture: arm
 battery: Removable Li-Ion 2000 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.6MP}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.6 MP'}
 carrier:
 channels: [weekly]
 codename: armani
@@ -27,7 +27,7 @@ network:
 - {tech: 3G, bands: '900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 1 GB
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.

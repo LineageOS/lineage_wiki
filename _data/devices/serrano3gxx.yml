@@ -1,9 +1,9 @@
 architecture: arm
-battery: 1900 mAh Li-ion, removable
+battery: Removable Li-Ion 1900 mAh
 bluetooth: v4.0 with A2DP, LE, EDR
 cameras:
-- {flash: LED, info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
-- {flash: '', info: 1.9 MP 720p HD Video Recording @ 30fps}
+- {flash: 'LED', info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
+- {flash: '', info: '1.9 MP, 720p HD Video Recording @ 30fps'}
 carrier:
 channels: [weekly]
 codename: serrano3gxx
@@ -17,26 +17,24 @@ has_recovery_partition: true
 image: serranoltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
-maintainers: [Arne Coucheron]
+maintainers: [arco]
 models: [GT-I9190]
 name: Galaxy S4 Mini (International 3G)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, gyroscope, proximity sensor, compass, SNS integration,
-  stereo FM radio with RDS, infrared port, GPS/GLONASS, microUSB v2.0, Corning Gorilla
-    Glass]
-ram: 1.5GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integration, FM Radio, Infrared sensor, GPS, GLONASS, Corning Gorilla Glass]
+ram: 1.5 GB
 recovery_boot: Vol Up & Home & Power
 release: 2013 July
 screen: 109 mm (4.3 in)
 screen_ppi: '256'
-screen_res: 960x540
+screen_res: 540x960
 screen_tech: Super AMOLED
-sdcard: up to 64GB
-soc: Qualcomm MSM8926 Snapdragon 400
-storage: 8GB
+sdcard: up to 64 GB
+soc: Qualcomm MSM8930AB Snapdragon 400
+storage: 8 GB
 tree: android_device_samsung_serrano3gxx
 type: phone
 vendor: Samsung

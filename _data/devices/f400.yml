@@ -2,10 +2,10 @@ architecture: arm
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.0 with A2DP, LE, aptX
 cameras:
-- {flash: Dual flash, info: 13MP}
-- {flash: '', info: 2.1MP}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
 carrier:
-channels: ['']
+channels:
 codename: f400
 cpu: Krait 400
 cpu_cores: '4'
@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Compass, Gyro, Infrared, Proximity]
+peripherals: [Accelerometer, Compass, Gyroscope, Infrared sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: Volume Down & Power
 release: 2014 May 28
