@@ -1,0 +1,45 @@
+architecture: arm
+battery: Non-removable Li-Ion 4000 mAh
+bluetooth: v4.0 with A2DP, LE
+cameras:
+- {flash: '', info: '3 MP'}
+- {flash: '', info: '1.3 MP'}
+carrier: Sprint
+channels: [weekly]
+codename: lt02ltespr
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 2 x 1.7 GHz
+current_branch: 14.1
+depth: 9.9 mm (0.39 in)
+gpu: Adreno 305
+has_recovery_partition: true
+height: 188 mm (7.4 in)
+image: lt02ltespr.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8930-common
+maintainers: [deadman96385]
+models: [SM-T217S]
+name: Galaxy Tab 3 7.0 LTE
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO CDMA2000 1xRTT' }
+- {tech: 4G, bands: '1900 MHz LTE' }
+peripherals: [IR blaster, Accelerometer, Light sensor, Compass]
+ram: 1.5 GB
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+release: 2016 September
+screen: 178 mm (7.0 in)
+screen_ppi: ~535
+screen_res: 1024x600
+screen_tech: TFT
+sdcard: up to 2 TB
+soc: Qualcomm MSM8930AB Snapdragon 400
+storage: 16 GB
+tree: android_device_samsung_lt02ltespr
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 111.1 mm (4.37 in)
+wifi: 802.11 a/b/g/n, Dual-band, WiFi Direct, Hotspot
