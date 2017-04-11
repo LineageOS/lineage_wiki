@@ -10,7 +10,7 @@ codename: himaul
 cpu: Cortex A53 & A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
-current_branch: 13.0
+current_branch: 14.1
 depth: 9.6 mm (0.38 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until HBOOT appears, then release the buttons.
@@ -43,6 +43,6 @@ tree: android_device_htc_himaul
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [13.0]
+versions: [13.0, 14.1]
 width: 69.7 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac (2.4 & 5 GHz)
