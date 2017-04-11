@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_6636c305",
+        "filename": "_data/devices/lt02ltespr.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-04-11T22:38:46Z",
+      "side": 1,
+      "message": "should be uppercase, right?",
+      "range": {
+        "startLine": 22,
+        "startChar": 9,
+        "endLine": 22,
+        "endChar": 11
+      },
+      "revId": "a603f63211196174394094ba21439ccbdb62e53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_8631bf0d",
+        "filename": "_data/devices/lt02ltespr.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-04-11T22:38:46Z",
+      "side": 1,
+      "message": "178 mm (7.0 in)",
+      "range": {
+        "startLine": 32,
+        "startChar": 8,
+        "endLine": 32,
+        "endChar": 14
+      },
+      "revId": "a603f63211196174394094ba21439ccbdb62e53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_e62193b5",
+        "filename": "_data/devices/lt02ltespr.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-04-11T22:38:46Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be tablet?  i thought phablet was a phone with tablet like large screen.",
+      "range": {
+        "startLine": 40,
+        "startChar": 6,
+        "endLine": 40,
+        "endChar": 13
+      },
+      "revId": "a603f63211196174394094ba21439ccbdb62e53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_463bc7eb",
+        "filename": "_data/devices/lt02ltespr.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-04-11T22:38:46Z",
+      "side": 1,
+      "message": "lower case",
+      "range": {
+        "startLine": 42,
+        "startChar": 14,
+        "endLine": 42,
+        "endChar": 15
+      },
+      "revId": "a603f63211196174394094ba21439ccbdb62e53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
