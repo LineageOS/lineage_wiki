@@ -2,8 +2,8 @@ architecture: arm
 battery: 4000 mAh Li-Po, non-removable
 bluetooth: 4.0 BLE
 cameras:
-- {flash: Dual LED, info: '16MP F/2.2, OIS'}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: '16 MP F/2.2, OIS'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: kingdom
@@ -26,9 +26,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, NFC, Light sensor,
-  Proximity Sensor, Accelerometer, Gyroscope, Compass]
-ram: 3GB
+peripherals: [GPS, NFC, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass]
+ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
   Then press and hold the Power button until the "Lenovo" logo appears.
 release: 2014 September
@@ -38,11 +37,11 @@ screen_res: 2560x1440
 screen_tech: LG IPS
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 32GB
+storage: 32 GB
 tree: android_device_lenovo_kingdom
 type: phone
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
 width: 81.3 mm
-wifi: '802.11 a/b/g/n/ac, dual band'
+wifi: 802.11 a/b/g/n/ac dual band, Wi-Fi Direct, Wi-Fi Display, Hotspot

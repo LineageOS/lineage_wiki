@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Po 3000 mAh
 bluetooth: v4.2 with A2DP, LE, aptX
 cameras:
-- {flash: dual-LED (dual tone), info: 16MP}
-- {flash: '', info: 4MP}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: '', info: '4 MP'}
 carrier:
 channels: [weekly]
 codename: gemini
@@ -27,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1800 1900 MHz HSPA, 1900 2000 MHz TD-CDMA' }
 - {tech: 4G, bands: '850(B5) 1800(B3) 2100(B1) 2600(B7) MHz FDD-LTE, 1900(B39) 2300(B40) 2500(B41) 2600(B38) MHz TDD-LTE' }
-peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, NFC, IR, GPS]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
@@ -46,4 +46,4 @@ vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
 width: 69.2 mm (2.72 in)
-wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 4100 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: ido
@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
-peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, IR, FM Radio]
+peripherals: [Dual SIM, Fingerprint reader (Prime only), Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM Radio, GPS]
 ram: 2/3 GB
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.

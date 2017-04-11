@@ -2,7 +2,7 @@ architecture: arm
 battery: 2300 mAh (non-removable)
 bluetooth: v4.0 with AD2P, EDR, LE
 cameras:
-- {flash: dual-LED flash, info: '13 MP, 4128 x 3096 pixels, autofocus'}
+- {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
 - {flash: '', info: '2 MP, 1080p'}
 carrier:
 channels: [weekly]
@@ -23,8 +23,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1800 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800)' }
-peripherals: [Accelerometer, Gyroscope, Proximity, Compass, Barometer, Temperature]
-ram: 2GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
+ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to Recovery and then use Power to select.
 release: 2014 September 26
@@ -34,7 +34,7 @@ screen_res: 1080 x 1920
 screen_tech: AMOLED capacitive touchscreen, 16M colors
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16 GB / 32 GB
+storage: 16/32 GB
 tree: android_device_motorola_victara
 type: phone
 vendor: Motorola

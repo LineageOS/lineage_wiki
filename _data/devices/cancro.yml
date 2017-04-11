@@ -2,9 +2,8 @@ architecture: arm
 battery: Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)
 bluetooth: v4.0 with A2DP
 cameras:
-- {flash: LED, info: 13MP Sony IMX135 Exmor RS (Mi 3) / 13MP Sony IMX214 Exmor RS
-    (Mi 4)}
-- {flash: '', info: 2.07MP (Mi 3) / 7.99MP (Mi 4)}
+- {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
+- {flash: '', info: '2.07 MP  (Mi 3) / 7.99 MP (Mi 4)'}
 carrier:
 channels: [weekly]
 codename: cancro
@@ -28,7 +27,7 @@ network:
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, Barometer, GPS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
 ram: 2 GB (Mi 3) / 3 GB (Mi 4)
 recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.

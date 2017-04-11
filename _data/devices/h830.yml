@@ -2,9 +2,9 @@ architecture: arm64
 battery: 2800 mAh
 bluetooth: v4.2 with A2DP, LE, aptX HD
 cameras:
-- {flash: LED, info: 16MP}
-- {flash: LED, info: 8MP}
-- {flash: '', info: 8MP}
+- {flash: 'LED', info: '16 MP'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '8 MP'}
 carrier: T-Mobile
 channels: [weekly]
 codename: h830
@@ -24,8 +24,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
-peripherals: [Fingerprint (rear-mounted), Accelerometer, Gyro, Proximity, Compass, Barometer, Color spectrum]
-ram: 4GB
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum]
+ram: 4 GB
 recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
   1 sec and hold it again till recovery comes up
 release: February 2016
@@ -35,7 +35,7 @@ screen_res: 2560x1440
 screen_tech: IPS LCD
 sdcard: up to 2TB
 soc: Qualcomm MSM8996
-storage: 32GB
+storage: 32 GB
 tree: android_device_lge_h830
 type: phone
 vendor: LG
