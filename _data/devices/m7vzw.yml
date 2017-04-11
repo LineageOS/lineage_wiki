@@ -2,8 +2,8 @@ architecture: arm
 battery: 2300 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: LED, info: 4UP}
-- {flash: '', info: 2.1MP}
+- {flash: 'LED', info: '4 UP'}
+- {flash: '', info: '2.1 MP'}
 carrier: Verizon Wireless
 channels:
 codename: m7vzw
@@ -25,17 +25,17 @@ network:
 - {tech: 2G, bands: '800 1900 MHz CDMA' }
 - {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '13(700)' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnometer, NFC, IR]
-ram: 2GB
+peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2013 March
 screen: 119 mm (4.7 in)
 screen_ppi: '469'
 screen_res: 1080x1920
 screen_tech: S-LCD 3
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm APQ8064T Snapdragon 600
-storage: 32GB or 64GB
+storage: 32/64 GB
 tree: android_device_htc_m7vzw
 type: phone
 vendor: HTC

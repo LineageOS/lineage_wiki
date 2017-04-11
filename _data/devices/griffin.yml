@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 2600 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: [ dual-LED (dual tone), laser autofocus, OIS ], info: 13MP}
-- {flash: LED flash, info: 5MP}
+- {flash: 'Dual LED (dual tone)', info: '13 MP, laser autofocus, OIS'}
+- {flash: 'LED', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: griffin
@@ -19,14 +19,14 @@ height: 153.3 mm (6.04 in)
 image: griffin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
-maintainers: [vache, shr3ps]
+maintainers: [vache, shr3ps, stargo]
 models: [XT1650-03, XT1650-05]
 name: Moto Z
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model), 850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 30(2300) LTE (North America model), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) LTE (Europe / Asia / China models)' }
-peripherals: [Dual SIM, Fingerprint, G-Sensor, Gyroscope, Proximity sensor, Compass]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 4 GB
 recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
 release: 2016 September

@@ -2,8 +2,8 @@ architecture: arm64
 battery: Removable Li-Ion 2750 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: A6020
@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Europe/Asia), 850 900 1700(AWS) 1900 2100 MHz HSDPA (Latin America)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE (Europe/Asia), 2(1900) 3(1800) 4(1700/2100) 7(2600) 28(700) LTE (Latin America)' }
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, FM Radio]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM Radio]
 ram: 2/3 GB
 recovery_boot: Hold **Volume Up**, **Volume Down** and **Power**
 release: 2016 April
