@@ -2,8 +2,8 @@ architecture: arm64
 battery: Non-removable Li-Ion 3600 mAh
 bluetooth: 4.2 with A2DP, LE, apt-X
 cameras:
-- {flash: LED, info: 12MP, f/1.7, 26mm}
-- {flash: '', info: 5MP, f/1.7, 22mm}
+- {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
+- {flash: '', info: '5 MP, f/1.7, 22mm'}
 carrier:
 channels: [weekly]
 codename: hero2lte
@@ -13,7 +13,7 @@ cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1
 depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold Vol Down & Home & Power.
-gpu: arm Mali-T880 MP12
+gpu: ARM Mali-T880 MP12
 has_recovery_partition: true
 height: 150.9 mm (5.94 in)
 image: hero2lte.png
@@ -26,9 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: 'B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)' }
-peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light]
 ram: 4 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
