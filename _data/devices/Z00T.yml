@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3000 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: '5MP, 13MP Flash LED (ZD551KL)'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP, 13 MP Flash LED (ZD551KL)'}
 carrier:
 channels: [weekly]
 codename: Z00T
@@ -23,17 +23,17 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '2100 1900 1800 1700(AWS) 850 2600 900 700 800 MHz' }
-peripherals: [Accelerometer, gyroscope, proximity, compass]
-ram: 2/3GB
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+ram: 2/3 GB
 recovery_boot: Hold Volume Down & Power simultaneously.
 release: 2015 November
 screen: 5.5/6.0 inches
 screen_ppi: ~401/367
 screen_res: 1080x1920
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16GB or 32GB
+storage: 16/32 GB
 tree: android_device_asus_Z00T
 type: phone
 vendor: Asus

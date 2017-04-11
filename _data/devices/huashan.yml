@@ -3,7 +3,7 @@ battery: Non-removable 2370 mAh
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: '', info: '8MP f/2.4, flash: LED'}
-- {flash: '', info: VGA}
+- {flash: '', info: 'VGA'}
 carrier:
 channels: [weekly]
 codename: huashan
@@ -26,9 +26,8 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE' }
 maintainers: [Adrian DC]
 name: Xperia SP
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
-  Compass, Gyroscope, Light sensor, Proximity Sensor]
-ram: 1GB
+peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
+ram: 1 GB
 recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
 <b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
 release: 2013 April
@@ -36,13 +35,13 @@ screen: 116.0 mm (4.6 in)
 screen_ppi: '323'
 screen_res: 720x1280
 screen_tech: TFT
-sdcard: officially up to 32GB
+sdcard: officially up to 32 GB
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
-storage: 8GB
+storage: 8 GB
 tree: android_device_sony_huashan
 type: phone
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
 width: 68 mm
-wifi: 802.11 2.4GHz b/g/n 5GHz
+wifi: 802.11 2.4GHz b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

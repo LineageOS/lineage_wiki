@@ -1,9 +1,9 @@
 architecture: arm64
 battery: 2500 mAh
-bluetooth: '4.1'
+bluetooth: v4.1
 cameras:
-- {flash: LED, info: 13MP F/2.2}
-- {flash: '', info: 5MP}
+- {flash: 'LED', info: '13 MP F/2.2'}
+- {flash: '', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: tomato
@@ -19,29 +19,28 @@ height: 152.9 mm
 image: tomato.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [CyanogenMod]
+maintainers: [Meninblack007, mikeioannina, h2o64]
 name: Yureka / Yureka Plus
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '700 1700/2100 1800 2100 2600 FDD, 2300 2600 TDD' }
 no_oem_unlock_switch: true
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, Light sensor, Proximity
-    Sensor]
-ram: 2GB
+peripherals: [GPS, Light sensor, Proximity sensor]
+ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2014 December 18 / 2015 July 24 (Plus)
 screen: 139.7 mm (5.5 in)
 screen_ppi: 267  / 401  (Plus)
 screen_res: 1280x720 / 1920x1080 (Plus)
-screen_tech: ' IPS'
-sdcard: Upto 32GB
+screen_tech: 'IPS'
+sdcard: up to 32 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16GB
+storage: 16 GB
 tree: android_device_yu_tomato
 type: phone
 vendor: YU
 vendor_short: yu
 versions: [13.0, 14.1]
 width: 75.9 mm
-wifi: 802.11 2.4GHz b/g/n 5GHz n/ac
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

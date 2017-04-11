@@ -2,8 +2,8 @@ architecture: arm
 battery: 4000 mAh
 bluetooth:
 cameras:
-- {flash: '', info: 3.15MP}
-- {flash: '', info: 1.3MP}
+- {flash: '', info: '3.15 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: v410
@@ -16,21 +16,21 @@ has_recovery_partition: true
 image: v410.png
 install_method: TODO
 kernel: android_kernel_lge_v4xx
-maintainers: ['']
+maintainers: [invisiblek]
 name: G Pad 7.0 (LTE)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 peripherals: ['']
-ram: 1GB
+ram: 1 GB
 recovery_boot:
 release:
 screen: 178 mm (7.0 in)
 screen_ppi:
 screen_res: 1280x800
 screen_tech: IPS LCD
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM8226 Snapdragon 400
 storage:
 tree: android_device_lge_v410
