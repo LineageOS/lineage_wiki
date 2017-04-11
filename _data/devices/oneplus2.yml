@@ -2,8 +2,8 @@ architecture: arm64
 battery: 3300 mAh
 bluetooth: '4.1'
 cameras:
-- {flash: Dual LED, info: 13MP F/2.0}
-- {flash: '', info: 5MP F/2.4}
+- {flash: 'Dual LED', info: '13 MP  F/2.0'}
+- {flash: '', info: '5 MP F/2.4'}
 carrier:
 channels: [weekly]
 codename: oneplus2
@@ -25,9 +25,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 MHz HSDPA (Global model)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) 41(2500) (Global model)' }
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, Fingerprint, Accelerometer,
-  Gyroscope, Proximity and Ambient Light]
-ram: 3GB / 4GB
+peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Light sensor]
+ram: 3/4 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2015 August 28
 screen: 139.7 mm (5.5 in)
@@ -36,11 +35,11 @@ screen_res: 1920x1080
 screen_tech: LTPS IPS LCD
 sdcard:
 soc: Qualcomm MSM8994 Snapdragon 810
-storage: 16GB, 64GB
+storage: 16/64 GB
 tree: android_device_oneplus_oneplus2
 type: phone
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1]
 width: 74.9 mm
-wifi: 'Dual-band Wi-Fi: 2.4GHz 802.11b/g/n and 5GHz 802.11a/n/ac'
+wifi: 2.4GHz 802.11 b/g/n and 5GHz 802.11 a/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
