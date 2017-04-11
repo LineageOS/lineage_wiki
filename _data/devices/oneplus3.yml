@@ -2,7 +2,7 @@ architecture: arm64
 battery: Non-removable Li-Ion 3000 mAh (3) / 3400 mA (3T)
 bluetooth: v4.2 with A2DP, LE
 cameras:
-- {flash: LED, info: 16MP}
+- {flash: 'LED', info: '16 MP'}
 - {flash: '', info: 8MP (3) / 16MP (3T)}
 carrier:
 channels: [weekly]
@@ -25,8 +25,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), CDMA2000 1xEV-DO (China / North America models)' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model), 850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 30(2300) LTE (North America model), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) LTE (Europe / Asia models)' }
-peripherals: [Dual SIM, Fingerprint, Accelerometer, Gyro, Proximity sensor, Digital compass, NFC]
-ram: 6GB LPDDR4
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
+ram: 6 GB LPDDR4
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2016 June (3) / 2016 November (3T)
 screen: 139.7 mm (5.5 in)

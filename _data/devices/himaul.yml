@@ -2,8 +2,8 @@ architecture: arm64
 battery: 2840 mAh (non-removable)
 bluetooth: v4.1 with A2DP, aptX
 cameras:
-- {flash: dual-LED, info: 20MP}
-- {flash: '', info: 4MP}
+- {flash: 'Dual LED', info: '20 MP'}
+- {flash: '', info: '4 MP'}
 carrier:
 channels: [weekly]
 codename: himaul
@@ -20,13 +20,13 @@ height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8994
-maintainers: ['']
+maintainers: [raymanfx, rashed]
 name: One M9 (GSM)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '8850 1900 2100 MHz HSDPA (AT&T),850 1700(AWS) 1900 2100 MHz HSDPA (T-Mobile)' }
 - {tech: 4G, bands: '700 1700 1800 1900 2600 MHz (AT&T), 700 850 1800 1900 2100 2600 MHz (T-Mobile)' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, Magnometer, NFC, IR]
+peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Magnetometer, NFC, Infrared sensor]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons
   until HBOOT appears, then release the buttons. Navigate using the volume keys and
