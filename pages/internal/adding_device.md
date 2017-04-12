@@ -30,7 +30,7 @@ See [contributing using repo](contributing_using_repo.html) for detailed instruc
 {% assign all = " " | split: " " %}
 {% for device in devices %}
 {% for peripheral in device.peripherals %}
-{% unless peripheral == "" or peripheral contains "not supported" or peripherals contains "only" %}
+{% unless peripheral == "" or peripheral contains "not supported" or peripheral contains "only" %}
 {% assign all = all | push: peripheral %}
 {% endunless %}
 {% endfor %}
