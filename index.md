@@ -24,7 +24,7 @@ and then [capture a log]({{ "logcat.html" | relative_url}}).
 
 ### Contribute to the wiki!
 
-This wiki is powered by [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/).
+This wiki is powered by [Jekyll](https://jekyllrb.com/).
 
 * You can look at the source [on GitHub](https://github.com/LineageOS/lineage_wiki).
 * And of course, we have a comprehensive guide on [contributing]({{ "contributing.html" | relative_url }}).

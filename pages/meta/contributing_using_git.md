@@ -8,7 +8,7 @@ To get started, you'll need a [GitHub account](https://github.com).
 
 ## Getting set up
 
-This wiki uses [GitHub pages](https://pages.github.com). In order to get ready to make your changes, you'll need to set up a few things:
+This wiki uses [Jekyll](https://jekyllrb.com/). In order to get ready to make your changes, you'll need to set up a few things:
 
 ### Install Git
 
