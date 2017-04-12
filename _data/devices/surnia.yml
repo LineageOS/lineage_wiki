@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Proximity sensor]
+peripherals: [Accelerometer, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Volume Up to select.
