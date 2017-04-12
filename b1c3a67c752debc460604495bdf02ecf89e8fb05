@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_dc9e6a63",
+        "filename": "_data/devices/addison.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-12T14:26:50Z",
+      "side": 1,
+      "message": "Remove if the device is not locked to a specific carrier.",
+      "range": {
+        "startLine": 7,
+        "startChar": 8,
+        "endLine": 7,
+        "endChar": 26
+      },
+      "revId": "b1c3a67c752debc460604495bdf02ecf89e8fb05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_7c8d3631",
+        "filename": "_data/devices/addison.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-12T14:26:50Z",
+      "side": 1,
+      "message": "Ambient light sensor, Fingerprint reader, Gyroscope, Proximity sensor",
+      "range": {
+        "startLine": 27,
+        "startChar": 29,
+        "endLine": 27,
+        "endChar": 72
+      },
+      "revId": "b1c3a67c752debc460604495bdf02ecf89e8fb05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
