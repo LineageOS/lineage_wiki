@@ -1,0 +1,45 @@
+architecture: arm
+battery: 2540 mAh
+bluetooth: '4.0'
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
+carrier:
+channels: [weekly]
+codename: w7
+cpu: Cortex A7
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+depth: 9.7mm (0.38in)
+download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
+gpu: Adreno 305
+has_recovery_partition: true
+height: 131.6mm (5.18in)
+image: w7.png
+install_method: TODO
+kernel: android_kernel_lge_msm8226
+maintainers: [MobiusM]
+name: 'L90'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '900 1900 2100 MHz HSDPA+' }
+peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
+ram: 1 GB
+recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
+  logo appears release the buttons and then hold them down again. Choose 'Yes' twice to confirm.
+release: 2014, February
+screen: 122mm (4.8in)
+screen_ppi: '234'
+screen_res: 540x960
+screen_tech: IPS LCD
+sdcard: up to 32 GB
+soc: Qualcomm MSM8226 Snapdragon 400
+storage: 8 GB
+tree: android_device_lge_w7
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width: 66mm (2.6in)
+wifi: '802.11 b/g/n'
