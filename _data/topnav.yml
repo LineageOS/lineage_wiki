@@ -3,16 +3,12 @@
 topnav:
 - title: Topnav
   items:
+    - title: Devices
+      url: devices/
     - title: Contribute
       url: contributing.html
     - title: Developers
       url: developer_information.html
     - title: Website
-      external_url: http://lineageos.org/
-    - title: Code Review
-      external_url: https://review.lineageos.org/
-    - title: Status
-      external_url: https://status.lineageos.org/
-    - title: Downloads
-      external_url: https://download.lineageos.org/
+      external_url: http://www.lineageos.org/
 
