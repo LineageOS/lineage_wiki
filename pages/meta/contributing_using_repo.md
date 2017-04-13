@@ -3,7 +3,9 @@ sidebar: home_sidebar
 title: Contributing to the wiki using repo
 folder: meta
 permalink: contributing_using_repo.html
+search: exclude
 ---
+
 ## Getting set up
 
 You will need to sync the repo, install `rvm` (a tool for managing `ruby` installations) and then configure `ruby` for the wiki. This will only need to be done once to get the environment setup.

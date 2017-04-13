@@ -3,7 +3,9 @@ sidebar: home_sidebar
 title: Contributing to the wiki using git
 folder: meta
 permalink: contributing_using_git.html
+search: exclude
 ---
+
 To get started, you'll need a [GitHub account](https://github.com).
 
 ## Getting set up
