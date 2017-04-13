@@ -22,6 +22,30 @@
       "revId": "3f2a65cb5710e2cff1f3c75867c8c27d26066f85",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a51691d_3225a5ab",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16409
+      },
+      "writtenOn": "2017-04-13T10:56:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a51691d_3749178c",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 48
+      },
+      "revId": "3f2a65cb5710e2cff1f3c75867c8c27d26066f85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
