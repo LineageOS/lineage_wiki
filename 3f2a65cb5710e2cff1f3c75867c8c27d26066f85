@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_3749178c",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-04-13T10:11:02Z",
+      "side": 1,
+      "message": "should put these in numerical order",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 48
+      },
+      "revId": "3f2a65cb5710e2cff1f3c75867c8c27d26066f85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
