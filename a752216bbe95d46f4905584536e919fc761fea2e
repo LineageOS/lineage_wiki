@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a51691d_f2694d26",
+        "filename": "_data/devices/w7.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-04-13T15:51:24Z",
+      "side": 1,
+      "message": "120 mm (4.7 in)",
+      "range": {
+        "startLine": 32,
+        "startChar": 8,
+        "endLine": 32,
+        "endChar": 21
+      },
+      "revId": "a752216bbe95d46f4905584536e919fc761fea2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
