@@ -1,21 +1,21 @@
 architecture: arm64
 battery: 2500 mAh
-bluetooth: v4, A2DP, BLE
+bluetooth: v4 with A2DP, BLE
 cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: kipper
-cpu: 64-bit Cortex A53
+cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: '9.1mm'
+depth: 9.2 mm (0.36 in)
 download_boot: With the device powered down, hold the Volume Up and connect USB.
 gpu: Adreno 405
 has_recovery_partition: true
-height: '155.6mm'
+height: 155.6 mm (6.12 in)
 image: kipper.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
@@ -29,7 +29,7 @@ peripherals: [Dual SIM, FM Radio, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2015 November
-screen: 5.5 in
+screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
 screen_res: 1920x1080
 screen_tech: IPS LCD
@@ -41,5 +41,5 @@ type: phone
 vendor: Wileyfox
 vendor_short: wileyfox
 versions: [13.0, 14.1]
-width: '76.9mm'
+width: 77.3 mm (3.04 in)
 wifi: 802.11 b/g/n
