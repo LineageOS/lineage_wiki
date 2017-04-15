@@ -1,8 +1,8 @@
 architecture: arm
 battery: 4000 mAh
-bluetooth:
+bluetooth: v4.0
 cameras:
-- {flash: '', info: '3.15 MP'}
+- {flash: '', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
@@ -11,8 +11,10 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+depth: 9.9 mm (0.39 in)
 gpu: Adreno 305
 has_recovery_partition: true
+height: 189.2 mm (7.45 in)
 image: v410.png
 install_method: TODO
 kernel: android_kernel_lge_v4xx
@@ -27,7 +29,7 @@ ram: 1 GB
 recovery_boot:
 release:
 screen: 178 mm (7.0 in)
-screen_ppi:
+screen_ppi: 216
 screen_res: 1280x800
 screen_tech: IPS LCD
 sdcard: up to 64 GB
@@ -38,4 +40,5 @@ type: tablet
 vendor: LG
 vendor_short: lge
 versions: [14.1]
+width: 113.8 mm (4.48 in)
 wifi: 802.11 a/b/g/n
