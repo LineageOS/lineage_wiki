@@ -3,7 +3,7 @@ battery: Removable 1750 mAh
 bluetooth: Bluetooth 4.0 + A2DP
 cameras:
 - {flash: 'LED', info: '13 MP f/2.4'}
-- {flash: '', info: '1.3  MP'}
+- {flash: '', info: '1.3 MP'}
 carrier:
 channels: [weekly]
 codename: hayabusa
