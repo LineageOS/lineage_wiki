@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_1414e2f3",
+        "filename": "_data/devices/flounder.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-18T06:46:37Z",
+      "side": 1,
+      "message": "Light sensor instead of \"Ambient light sensor\"",
+      "revId": "9873d90f34ca98f835f8e63db4d2e61bf0117ae2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_f4f826c6",
+        "filename": "_data/devices/flounder.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-18T06:46:37Z",
+      "side": 1,
+      "message": "is it Google or is it HTC?",
+      "range": {
+        "startLine": 41,
+        "startChar": 0,
+        "endLine": 42,
+        "endChar": 17
+      },
+      "revId": "9873d90f34ca98f835f8e63db4d2e61bf0117ae2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
