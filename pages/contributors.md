@@ -146,7 +146,6 @@ The following people are responsible for the verification of the contents and th
 | Name           | Nickname   |
 |----------------|------------|
 | Bruno Martins  | bgcngm     |
-| Evan Widger    | psychoi3oy |
 | Michael W      | baddaemon  |
 | Simon Shields  | fourkbomb  |
 | razorloves     | razorloves |
