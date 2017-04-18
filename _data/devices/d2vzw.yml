@@ -19,7 +19,7 @@ height:
 image: i9300.png
 install_method: TODO
 kernel: android_kernel_samsung_d2
-maintainers:
+maintainers: [invisiblek, javelinanddart]
 models: [SCH-I535]
 name: Galaxy S III (Verizon)
 network:
