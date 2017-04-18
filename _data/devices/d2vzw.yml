@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}
 carrier: Verizon Wireless
-channels:
+channels: [weekly]
 codename: d2vzw
 cpu: Qualcomm MSM8260A Snapdragon S4
 cpu_cores: '2'
