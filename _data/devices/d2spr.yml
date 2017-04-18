@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}
 carrier: Sprint
-channels:
+channels: [weekly]
 codename: d2spr
 cpu: Qualcomm MSM8260A Snapdragon S4
 cpu_cores: '2'
@@ -19,7 +19,7 @@ height:
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_d2
-maintainers:
+maintainers: [javelinanddart]
 models: [SPH-L710]
 name: Galaxy S III (Sprint)
 network:

@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}
 carrier: T-Mobile, Mobilcity, Wind, Videotron
-channels:
+channels: [weekly]
 codename: d2tmo
 cpu: Qualcomm MSM8260A Snapdragon S4
 cpu_cores: '2'
@@ -19,7 +19,7 @@ height:
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_d2
-maintainers:
+maintainers: [javelinanddart]
 models: [SGH-T999]
 name: Galaxy S III (T-Mobile)
 network:
