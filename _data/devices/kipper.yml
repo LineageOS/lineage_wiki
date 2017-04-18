@@ -19,7 +19,7 @@ height: 155.6 mm (6.12 in)
 image: kipper.png
 install_method: TODO
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [tdm]
+maintainers: [raymanfx, tdm]
 name: Storm
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
