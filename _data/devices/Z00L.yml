@@ -15,7 +15,7 @@ download_boot: Hold Volume Up & Power simultaneously.
 gpu: Adreno 405/306
 has_recovery_partition: true
 image: Z00T.png
-install_method: TODO
+install_method: fastboot_zenfone
 kernel: android_kernel_asus_msm8916
 maintainers: [LuK1337, luca020400]
 name: Zenfone 2 Laser (720p)
@@ -25,7 +25,8 @@ network:
 - {tech: 4G, bands: '2100 1900 1800 1700(AWS) 850 2600 900 700 800 MHz' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2 GB
-recovery_boot: Hold Volume Down & Power simultaneously.
+recovery_boot: With the device powered off, hold Volume Up & Power simultaneously. On the next screen (fastboot mode) use Volume
+ Down to scroll to RECOVERY and then use Power to select.
 release: 2015 November
 screen: 5.5/6.0 inches
 screen_ppi: ~267/245
