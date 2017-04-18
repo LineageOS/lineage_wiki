@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold Volume Up & Power
 gpu: Adreno 306
 has_recovery_partition: true
 image: P024.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_asus_P024
 maintainers: [vm03]
 name: ZenPad 8.0 (Z380KL)
