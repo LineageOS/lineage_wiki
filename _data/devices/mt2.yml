@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels:
+channels: [discontinued]
 codename: mt2
 cpu: Cortex A7
 cpu_cores: '4'

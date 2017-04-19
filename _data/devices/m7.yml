@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '4 UP'}
 - {flash: '', info: '2.1 MP'}
 carrier:
-channels:
+channels: [discontinued]
 codename: m7
 cpu: Krait 300
 cpu_cores: '4'
