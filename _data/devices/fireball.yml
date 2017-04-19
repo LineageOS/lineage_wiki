@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP F/2.2 BSI 28mm lens'}
 - {flash: '', info: '0.3 MP'}
 carrier: Verizon Wireless
-channels:
+channels: [unofficial]
 codename: fireball
 cpu: Krait
 cpu_cores: '2'
