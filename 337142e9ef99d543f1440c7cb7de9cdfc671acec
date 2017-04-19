@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_baacd58d",
+        "filename": "pages/install/Z00L.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-19T15:03:19Z",
+      "side": 1,
+      "message": "Move this note to the install instructions markdown.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 131
+      },
+      "revId": "337142e9ef99d543f1440c7cb7de9cdfc671acec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
