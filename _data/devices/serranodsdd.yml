@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 1900 mAh
+bluetooth: v4.0 with A2DP, LE, EDR
+cameras:
+- {flash: 'LED', info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
+- {flash: '', info: '1.9 MP, 720p HD Video Recording @ 30fps'}
+carrier:
+channels: [weekly]
+codename: serranodsdd
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.7 GHz
+current_branch: 14.1
+depth: 8.9 mm (0.35 in)
+download_boot: Vol Down & Home & Power
+gpu: Adreno 305
+has_recovery_partition: true
+height: 124.6 mm (4.91 in)
+image: serranoltexx.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8930-common
+maintainers: [arco]
+models: [GT-I9192]
+name: Galaxy S4 Mini (International Dual SIM)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '' }
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integration, FM Radio, Infrared sensor, GPS, GLONASS]
+ram: 1.5 GB
+recovery_boot: Vol Up & Home & Power
+release: 2013 July
+screen: 109 mm (4.3 in)
+screen_ppi: '256'
+screen_res: 540x960
+screen_tech: Super AMOLED
+sdcard: up to 64 GB
+soc: Qualcomm MSM8930AB Snapdragon 400
+storage: 8 GB
+tree: android_device_samsung_serranodsdd
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 61.3 mm (2.41 in)
+wifi: 802.11 a/b/g/n, Dual-band, DLNA, Wi-Fi Direct, Hotspot
