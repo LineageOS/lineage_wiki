@@ -10,10 +10,12 @@ codename: serranoltexx
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
-current_branch: 13.0
+current_branch: 14.1
+depth: 8.9 mm (0.35 in)
 download_boot: Vol Down & Home & Power
 gpu: Adreno 305
 has_recovery_partition: true
+height: 124.6 mm (4.91 in)
 image: serranoltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8930-common
@@ -39,5 +41,6 @@ tree: android_device_samsung_serranoltexx
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [13.0]
+versions: [13.0, 14.1]
+width: 61.3 mm (2.41 in)
 wifi: 802.11 a/b/g/n, Dual-band, DLNA, Wi-Fi Direct, Hotspot
