@@ -165,6 +165,7 @@ ul, ol {
     </tr>
     {% endif %}
     <!-- lineage info -->
+    {% if device.maintainers %}
     <tr>
         <td class="header" colspan="2">LineageOS info</td>
     </tr>
@@ -206,4 +207,5 @@ ul, ol {
             </ul>
         </td>
     </tr>
+    {% endif %}
 </table>
