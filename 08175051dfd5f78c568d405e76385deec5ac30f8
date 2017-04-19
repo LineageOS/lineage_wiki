@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_faf7ed8a",
+        "filename": "_includes/templates/recovery_install_fastboot_zenfone.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-04-19T15:14:08Z",
+      "side": 1,
+      "message": "You could have added the note on step 3. Also you can filter it based on the device because there\u0027s no point showing it for all models.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 131
+      },
+      "revId": "08175051dfd5f78c568d405e76385deec5ac30f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
