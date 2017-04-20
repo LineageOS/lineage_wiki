@@ -41,7 +41,7 @@ $ sudo mount system.img system/
 
 After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 ```
-$ ./extract-files.sh -d ~/android/system_dump/
+$ ./extract-files.sh ~/android/system_dump
 ```
 This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
 
@@ -67,7 +67,7 @@ where `path/to/` is the path to the installable zip.
 
 After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 ```
-$ ./extract-files.sh -d ~/android/system_dump/
+$ ./extract-files.sh ~/android/system_dump
 ```
 This will tell `extract-files.sh` to get the files from the extracted system dump rather than from a connected device.
 
