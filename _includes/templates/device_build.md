@@ -129,11 +129,11 @@ Then, run `source ~/.profile` to update your environment.
 
 ### Initialize the LineageOS source repository
 
-Enter the following to initialize the repository:
-
-{% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
-
-The {{ device.vendor }} {{ device.name }} supports the following branches officially:
+{% if device.maintainers %}
+The following branches are officially supported for the {{ device.vendor }} {{ device.name }}:
+{% else %}
+The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
+{% endif %}
 
 {% for version in device.versions %}
 {% if version < 15 %}
@@ -142,6 +142,10 @@ The {{ device.vendor }} {{ device.name }} supports the following branches offici
 * lineage-{{version}}
 {% endif %}
 {% endfor %}
+
+Enter the following to initialize the repository:
+
+{% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
 
 ```
 $ cd ~/android/lineage
