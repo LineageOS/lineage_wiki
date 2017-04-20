@@ -63,18 +63,14 @@ Several packages are needed to build LineageOS. You can install these using your
 (usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the apt-get
 install command directly in the Terminal." %}
 
-You'll need:
+To build LineageOS, you'll need:
 
-```
-bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
-```
+* `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
+To build LineageOS 13.0, you'll also need:
 
-To build cm-13.0, you'll also need:
-
-`maven`
-
+* `maven`
 {% endif %}
 
 For Ubuntu 15.10 (wily) and newer, substitute:
@@ -101,8 +97,8 @@ You'll need to set up some directories in your build environment.
 To create them:
 
 ```
-$ mkdir -p ~/bin
-$ mkdir -p ~/android/lineage
+mkdir -p ~/bin
+mkdir -p ~/android/lineage
 ```
 
 ### Install the `repo` command
@@ -110,8 +106,8 @@ $ mkdir -p ~/android/lineage
 Enter the following to download the `repo` binary and make it executable (runnable):
 
 ```
-$ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$ chmod a+x ~/bin/repo
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
 ```
 
 ### Put the `~/bin` directory in your path of execution
@@ -148,8 +144,8 @@ Enter the following to initialize the repository:
 {% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
 
 ```
-$ cd ~/android/lineage
-$ repo init -u https://github.com/LineageOS/android.git -b {% if device.current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ device.current_branch }}
+cd ~/android/lineage
+repo init -u https://github.com/LineageOS/android.git -b {% if device.current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ device.current_branch }}
 ```
 
 ### Download the source code
@@ -157,12 +153,12 @@ $ repo init -u https://github.com/LineageOS/android.git -b {% if device.current_
 To start the download of the source code to your computer:
 
 ```
-$ repo sync
+repo sync
 ```
 
 The LineageOS manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
 For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
-problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch, instead of the entire Lineage history.
+problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch, instead of the entire LineageOS history.
 
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
@@ -174,8 +170,8 @@ do it every few days to keep your code base fresh and up-to-date." %}
 After the source downloads, ensure you're in the root of the source code (`cd ~/android/lineage`), then type:
 
 ```
-$ source build/envsetup.sh
-$ breakfast {{ device.codename }}
+source build/envsetup.sh
+breakfast {{ device.codename }}
 ```
 
 This will download your device's [device specific configuration](https://github.com/LineageOS/{{ device.tree }}) and
@@ -193,7 +189,7 @@ Now ensure your {{ device.name }} is connected to your computer via the USB cabl
 `~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder. Then run the `extract-files.sh` script:
 
 ```
-$ ./extract-files.sh
+./extract-files.sh
 ```
 
 The blobs should be pulled into the `~/android/lineage/vendor/{{ device.vendor_short }}` folder. If you see "command not found" errors, `adb` may
@@ -204,14 +200,14 @@ need to be placed in `~/bin`.
 You can speed up subsequent builds by running:
 
 ```
-$ export USE_CCACHE=1
+export USE_CCACHE=1
 ```
 
 and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want [cache](https://ccache.samba.org/) to use
 by typing this from the top of your Android tree:
 
 ```
-$ prebuilts/misc/linux-x86/ccache/ccache -M 50G
+prebuilts/misc/linux-x86/ccache/ccache -M 50G
 ```
 
 where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
@@ -230,10 +226,10 @@ or add that line to your `~/.bashrc` file.
 {% if device.current_branch >= 14 %}
 ### Configure jack
 
-[Jack](http://source.android.com/source/jack.html) is the new Java compiler used from Lineage 14. It is known to run out of memory - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) is the new Java compiler used from LineageOS 14.1. It is known to run out of memory - a simple fix is to run this command:
 
 ```
-$ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 ```
 
 Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory.
@@ -244,8 +240,8 @@ Adding that command to your `~/.bashrc` file will automatically configure Jack t
 Time to start building! Now, type:
 
 ```
-$ croot
-$ brunch {{device.codename}}
+croot
+brunch {{device.codename}}
 ```
 
 The build should begin.
@@ -258,7 +254,7 @@ The build should begin.
 Assuming the build completed without errors (it will be obvious when it finishes), type the following in the terminal window the build ran in:
 
 ```
-$ cd $OUT
+cd $OUT
 ```
 
 There you'll find all the files that were created. The two files we're interested in are:
