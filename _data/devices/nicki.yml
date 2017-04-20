@@ -11,9 +11,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should briefly turn green to indicate you are in flash
-  mode.
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 305
 has_recovery_partition: true
 image: nicki.png

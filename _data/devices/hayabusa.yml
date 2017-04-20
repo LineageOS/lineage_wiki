@@ -12,8 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 8.6 mm
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should turn green.
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
 has_recovery_partition: true
 height: 131.0 mm

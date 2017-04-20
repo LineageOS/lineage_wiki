@@ -12,8 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 depth: 10.6 mm
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should turn green.
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 133 mm
