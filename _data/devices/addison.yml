@@ -24,7 +24,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA, 850 900 1700(AWS) 1900 2100 MHz HSDPA (US, Canada)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(850) 20(800) 28(700) 38(2600) 40(2300) 41(2500) LTE' }
-peripherals: [Accelerometer, Ambient light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
+peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
 ram: 3 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Power to select.

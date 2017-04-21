@@ -1,6 +1,6 @@
 architecture: arm
 battery: 1780 mAh
-bluetooth: ' v4.0 with LE+EDR'
+bluetooth: v4.0 with LE+EDR
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}

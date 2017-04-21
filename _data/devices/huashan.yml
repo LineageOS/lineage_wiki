@@ -1,8 +1,8 @@
 architecture: arm
 battery: Non-removable 2370 mAh
-bluetooth: Bluetooth 4.0 + A2DP
+bluetooth: v4.0 with A2DP
 cameras:
-- {flash: '', info: '8MP f/2.4, flash: LED'}
+- {flash: 'LED', info: '8MP f/2.4'}
 - {flash: '', info: 'VGA'}
 carrier:
 channels: [weekly]
