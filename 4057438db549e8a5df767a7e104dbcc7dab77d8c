@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_6257cf03",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-21T13:10:07Z",
+      "side": 1,
+      "message": "Maintainers*",
+      "revId": "4057438db549e8a5df767a7e104dbcc7dab77d8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_425cd325",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-04-21T13:10:07Z",
+      "side": 1,
+      "message": "\"crpalmer is not working on this device anymore\" doesnt sound like he completely left ;)\nAlso please add a newline between title and message",
+      "revId": "4057438db549e8a5df767a7e104dbcc7dab77d8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
