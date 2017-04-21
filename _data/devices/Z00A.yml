@@ -15,9 +15,9 @@ download_boot: Hold Volume Up & Power simultaneously.
 gpu: PowerVR G6430
 has_recovery_partition: true
 image: Z00A.png
-install_method: TODO
+install_method: fastboot_zenfone
 kernel: android_kernel_asus_moorefield
-maintainers: [crpalmer, jrior001]
+maintainers: [jrior001, sayeed99]
 name: Zenfone 2 (1080p)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM - SIM 1 & SIM 2' }
@@ -25,7 +25,8 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) 20(800) - SIM 1 only' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2/4 GB
-recovery_boot: No direct key combo
+recovery_boot: With the device powered off, hold Volume Up & Power simultaneously. On the next screen (fastboot mode) use Volume
+ Down to scroll to RECOVERY and then use Power to select.
 release: March 2015
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
