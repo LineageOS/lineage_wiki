@@ -14,7 +14,7 @@ current_branch: 14.1
 download_boot: Hold Volume Down & Power simultaneously.
 gpu: Adreno 506
 has_recovery_partition: true
-image: addsion.png
+image: addison.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
 maintainers: [Alberto97]
