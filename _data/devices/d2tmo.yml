@@ -7,7 +7,7 @@ cameras:
 carrier: T-Mobile, Mobilcity, Wind, Videotron
 channels: [weekly]
 codename: d2tmo
-cpu: Qualcomm MSM8260A Snapdragon S4
+cpu: Qualcomm Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
@@ -35,7 +35,7 @@ screen_ppi:
 screen_res: 1280x720
 screen_tech:
 sdcard: up to 64 GB
-soc: Qualcomm MSM8960
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2tmo
 type: phone
