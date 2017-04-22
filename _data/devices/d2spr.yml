@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz HSPA+' }
 - {tech: 4G, bands: '1900 MHz' }
-peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, A-GPS, NFC, Barometer]
+peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, A-GPS, NFC]
 ram: 2 GB
 recovery_boot: Hold Vol Up, Home & Power.
 release: 2012 June 28 (USA)
@@ -35,7 +35,7 @@ screen_ppi: 306
 screen_res: 1280x720
 screen_tech: Super AMOLED
 sdcard: up to 64 GB
-soc: Qualcomm MSM8960
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2spr
 type: phone
