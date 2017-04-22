@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a4e6583_7868a0f5",
+        "filename": "_data/devices/d2vzw.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-04-22T17:47:19Z",
+      "side": 1,
+      "message": "d2vzw \u003d 4.0, d2spr \u003d 3.0 ??",
+      "range": {
+        "startLine": 3,
+        "startChar": 12,
+        "endLine": 3,
+        "endChar": 15
+      },
+      "revId": "5272470f6758edc129f7cc8d7e02290abe172e22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a4e6583_98635c1a",
+        "filename": "_data/devices/d2vzw.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-04-22T17:47:19Z",
+      "side": 1,
+      "message": "Should this be heimdall like the others?",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 20
+      },
+      "revId": "5272470f6758edc129f7cc8d7e02290abe172e22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
