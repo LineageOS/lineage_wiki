@@ -7,7 +7,7 @@ cameras:
 carrier: T-Mobile, Mobilcity, Wind, Videotron
 channels: [weekly]
 codename: d2tmo
-cpu: Qualcomm MSM8260A Snapdragon S4
+cpu: Qualcomm MSM8960 Snapdragon S4 Plus
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
