@@ -20,7 +20,7 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 ### What you'll need
 
 * A {{ device.vendor }} {{ device.name }}
-* A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable ccache
+* A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable `[ccache](https://ccache.samba.org/)`
  or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
  build times than traditional hard drives.
 * A USB cable compatible with the {{ device.vendor }} {{device.name}} (typically micro USB)
@@ -30,7 +30,7 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 
 {% include tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
-Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so I'll leave that to you." %}
+Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so we'll leave that to you." %}
 
 Let's begin!
 
@@ -65,7 +65,7 @@ install command directly in the Terminal." %}
 
 To build LineageOS, you'll need:
 
-* `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-gplv2-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk2.8-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev`
+* `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline6-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
 To build LineageOS 13.0, you'll also need:
@@ -73,20 +73,20 @@ To build LineageOS 13.0, you'll also need:
 * `maven`
 {% endif %}
 
-For Ubuntu 15.10 (wily) and newer, substitute:
+For Ubuntu versions older than 15.10 (wily), substitute:
 
-* `lib32readline-gplv2-dev` → `lib32readline6-dev`
+* `lib32readline6-dev` → `lib32readline-gplv2-dev`
 
-For Ubuntu 16.04 (xenial) and newer, substitute:
+For Ubuntu versions older than 16.04 (xenial), substitute:
 
-* `libwxgtk2.8-dev` → `libwxgtk3.0-dev`
+* `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
 
 #### Java
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
-* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 * LineageOS 14.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
+* LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 
 \* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See *Ask Ubuntu* question [How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher) Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
@@ -133,9 +133,9 @@ The following branches can be used to build for the {{ device.vendor }} {{ devic
 
 {% for version in device.versions %}
 {% if version < 15 %}
-* cm-{{version}}
+* cm-{{ version }}
 {% else %}
-* lineage-{{version}}
+* lineage-{{ version }}
 {% endif %}
 {% endfor %}
 
@@ -203,8 +203,7 @@ You can speed up subsequent builds by running:
 export USE_CCACHE=1
 ```
 
-and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want [cache](https://ccache.samba.org/) to use
-by typing this from the top of your Android tree:
+and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this from the top of your Android tree:
 
 ```
 prebuilts/misc/linux-x86/ccache/ccache -M 50G
@@ -215,7 +214,7 @@ where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere fr
 for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
 into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
 
-You can also enable the optional cache compression. While this may involve a tiny performance slowdown, it increases the number of files that fit in the cache. To enable cache compression, run:
+You can also enable the optional `ccache` compression. While this may involve a tiny performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
 
 ```
 export CCACHE_COMPRESS=1
