@@ -17,7 +17,7 @@ gpu: Adreno 225
 has_recovery_partition: true
 height:
 image: i9300.png
-install_method: TODO
+install_method: heimdall
 kernel: android_kernel_samsung_d2
 maintainers: [invisiblek, javelinanddart]
 models: [SCH-I535]
@@ -35,7 +35,7 @@ screen_ppi: 306
 screen_res: 1280x720
 screen_tech: Super AMOLED
 sdcard: up to 64 GB
-soc: Qualcomm MSM8960
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2vzw
 type: phone
