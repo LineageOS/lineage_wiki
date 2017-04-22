@@ -1,6 +1,6 @@
 architecture: arm
 battery: 2100 mAh
-bluetooth: '3.0'
+bluetooth: '4.0'
 cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}

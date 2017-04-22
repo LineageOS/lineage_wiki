@@ -35,7 +35,7 @@ screen_ppi: 306
 screen_res: 1280x720
 screen_tech: Super AMOLED
 sdcard: up to 64 GB
-soc: Qualcomm MSM8960
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2vzw
 type: phone
