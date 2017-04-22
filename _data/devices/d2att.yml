@@ -7,7 +7,7 @@ cameras:
 carrier: AT&T, Bell, Rogers, Telus
 channels: [weekly]
 codename: d2att
-cpu: Qualcomm MSM8260A Snapdragon S4
+cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
@@ -31,11 +31,11 @@ ram: 2 GB
 recovery_boot: Hold Vol Up, Home & Power.
 release: 2012 June 28 (USA)
 screen: 122 mm (4.8 in)
-screen_ppi:
+screen_ppi: 306
 screen_res: 1280x720
-screen_tech:
+screen_tech: Super AMOLED
 sdcard: up to 64 GB
-soc: Qualcomm MSM8960
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2att
 type: phone
