@@ -19,7 +19,7 @@ height: 131.6 mm (5.18 in)
 image: w7.png
 install_method: TODO
 kernel: android_kernel_lge_msm8226
-maintainers: [mosimchah, MobiusM]
+maintainers: [mosimchah, GrinningFerret, neverdies, MobiusM]
 models: [D410, D410hn, D405, D405n, D415]
 name: L90
 network:
