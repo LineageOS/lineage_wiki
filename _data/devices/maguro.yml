@@ -29,7 +29,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
+recovery_boot: With the device powered down, hold both Volume buttons and the Power button
   until the bootloader appears, then release the buttons. Navigate using the volume
   keys and select RECOVERY using the Power key.
 release: 2011 October
