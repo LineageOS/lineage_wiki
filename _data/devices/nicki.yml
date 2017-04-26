@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: 'VGA'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: nicki
 cpu: Krait
 cpu_cores: '2'
@@ -17,7 +17,7 @@ has_recovery_partition: true
 image: nicki.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8x27
-maintainers: [freexperia, Ron Gokhale]
+maintainers:
 name: Xperia M
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
