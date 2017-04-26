@@ -17,7 +17,6 @@ has_recovery_partition: true
 image: h811.png
 install_method: TODO
 kernel: android_kernel_lge_msm8992
-lte: LTE
 maintainers: [codeworkx, genesixxbf3]
 name: G4 (T-Mobile)
 network:

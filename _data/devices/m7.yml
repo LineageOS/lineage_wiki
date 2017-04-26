@@ -19,7 +19,6 @@ height: 137.4 mm
 image: m7.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8960
-lte: International 800 1800 2600 MHz; North America 700 MHz and AWS Band
 maintainers:
 name: One (GSM)
 network:
