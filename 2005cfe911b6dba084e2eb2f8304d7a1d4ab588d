@@ -1,0 +1,195 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_9ded93f2",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "\"labeled\": American English\nor\n\"labelled\": British English\n\n\"LineageOS Org on GitHub\" -\u003e \"LineageOS GitHub Page\"?\n\nAt least the \"Org\" looks weird which I woukd replace with \"Organization\"",
+      "parentUuid": "",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7dbad7e2",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "Maybe add a note that a assigned SSH Key is needed for that",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5dbf1bd1",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "\"YourGithubRepo\" -\u003e \"YourGithubUsername\"\n\nAlso in Line 50",
+      "parentUuid": "",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3db45ff1",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "The SSH fetch URL can also be copied from the Web UI if there is a SSH Key connected, not sure which one is easier though",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1db9a3e9",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "The \"the\" after the \":\" should be capital, right?",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_ddcaeb6d",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "Maybe change to\n\"Of course you also can name the branch `merge` differently\"",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9dffd3aa",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "\"usefull\" -\u003e \"useful\"\n\n\"device\" -\u003e \"kernel\"?",
+      "parentUuid": "",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_9dc47360",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "(Assuming the vendor specific changes didn\u0027t block applying a commit or parts of it)",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_7da1b7a8",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "Maybe move this directly below the (first) merge command?",
+      "parentUuid": "",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_3dab3f8b",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "What should that \"increment\" mean?",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_1db083f3",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 163,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T14:39:14Z",
+      "side": 1,
+      "message": "Is there a warning.html?\nThis should be more appropriate, as there is the possibility of losing data",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
