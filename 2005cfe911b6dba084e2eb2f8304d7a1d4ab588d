@@ -20,6 +20,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_9d547322",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T19:00:43Z",
+      "side": 1,
+      "message": "I would go with \u0027labeled\u0027",
+      "parentUuid": "1a486d77_9ded93f2",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_7dbad7e2",
         "filename": "pages/internal/merging_upstream_kernel.md",
         "patchSetId": 4
@@ -106,6 +124,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_1d49a38b",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T19:00:43Z",
+      "side": 1,
+      "message": "Remove the \u0027also\u0027 in my suggestion",
+      "parentUuid": "1a486d77_ddcaeb6d",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_9dffd3aa",
         "filename": "pages/internal/merging_upstream_kernel.md",
         "patchSetId": 4
@@ -124,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_fd0b6729",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T19:00:43Z",
+      "side": 1,
+      "message": "Also, the last sentence should be rephrased. At least the \u0027Still\u0027 at the beginning makes no sense",
+      "parentUuid": "1a486d77_9dffd3aa",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_9dc47360",
         "filename": "pages/internal/merging_upstream_kernel.md",
         "patchSetId": 4
@@ -135,6 +189,24 @@
       "writtenOn": "2017-04-27T14:39:14Z",
       "side": 1,
       "message": "(Assuming the vendor specific changes didn\u0027t block applying a commit or parts of it)",
+      "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_bd804f8c",
+        "filename": "pages/internal/merging_upstream_kernel.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-04-27T19:00:43Z",
+      "side": 1,
+      "message": "Oops, scratch that.\nI forgot that we had --strategy\u003dours",
+      "parentUuid": "",
       "revId": "2005cfe911b6dba084e2eb2f8304d7a1d4ab588d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
