@@ -1,7 +1,8 @@
 ---
 sidebar: home_sidebar
 title: Current LineageOS Costs
-permalink: costs.html
+permalink: costs/
+redirect_from: costs.html
 ---
 
 LineageOS is a commmunity-funded, open source project. Below are our current monthly costs.
