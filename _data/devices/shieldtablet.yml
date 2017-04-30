@@ -43,3 +43,4 @@ vendor_short: nvidia
 versions: [13.0]
 width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
+requiredbootloader: [4.00.2016.04-8b2413b7]

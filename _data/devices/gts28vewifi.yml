@@ -44,3 +44,4 @@ vendor_short: samsung
 versions: [14.1]
 width: 134.8mm
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
+requiredbootloader: [T713XXU2BQCO]

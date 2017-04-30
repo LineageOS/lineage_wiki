@@ -43,3 +43,4 @@ vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
 wifi: Wi-Fi 802.11 b/g/n, Hotspot
+requiredbootloader: [0x411A]

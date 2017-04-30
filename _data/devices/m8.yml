@@ -46,3 +46,4 @@ vendor_short: htc
 versions: [14.1]
 width: 70.6 mm (2.78 in)
 wifi: 802.11 b/g/n/ac 2.4/5GHz
+requiredbootloader: [3.19.0.0000]

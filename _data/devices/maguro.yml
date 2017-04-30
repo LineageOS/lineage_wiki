@@ -47,3 +47,4 @@ vendor_short: samsung
 versions: [13.0]
 width: 67.9 mm
 wifi: 802.11 a/b/g/n, Dual-band, DLNA, Hotspot
+requiredbootloader: [PRIMELA03, PRIMELC03]
