@@ -33,6 +33,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
   blue text appears, release the buttons.
 release: 11 April 2014
+requiredbootloader: [T713XXU2BQCO]
 screen: 130 mm (5.1 in)
 screen_ppi: 432
 screen_res: 1920x1080
