@@ -6,6 +6,16 @@
 1. Make sure your computer has working `adb`{% unless device.install_method != 'heimdall' or device.install_method != 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 
+{% if device.required_bootloader %}
+## Special requirements
+
+{% capture bootloader %}
+Your device must be on bootloader version {% for el in device.required_bootloader %} {% if forloop.last %} `{{ el }}` {% else %} `{{ el }}` or {% endif %} {% endfor %}, otherwise this will not work.
+Its version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb shell` from a command prompt or terminal window.
+{% endcapture %}
+{% include warning.html content=bootloader %}
+{% endif %}
+
 {% if device.install_method != "" %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
