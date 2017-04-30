@@ -29,6 +29,7 @@ network:
 peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, HDMI (TV-out via MHL A\V link), Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall sensor, Hygrometer, Proximity sensor, RGB light sensor, Thermometer]
 ram: 2 GB
 recovery_boot: With the device powered down, hold **Home**, **Volume Up**, and **Power**
+requiredbootloader: ['VRUAMDK']
 release: April 2013
 screen: 127mm (5 in)
 screen_ppi: 440

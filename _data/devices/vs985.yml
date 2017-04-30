@@ -28,6 +28,7 @@ network:
 peripherals: [Accelerometer, Compass, Gyroscope, Infrared sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: Volume Down & Power
+requiredbootloader: ['VS98510B', 'VS98512B']
 release: July 2014
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'

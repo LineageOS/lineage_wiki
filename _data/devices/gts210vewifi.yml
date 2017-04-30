@@ -30,6 +30,7 @@ peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 ram: 3 GB
 recovery_boot: Hold **Home**, **Volume Up**, and **Power**
 release: 2016
+requiredbootloader: ['T813XXU2BQD1']
 screen: 203 mm (9.7 in)
 screen_ppi: 264
 screen_res: 1536x2048
