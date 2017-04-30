@@ -1,4 +1,12 @@
 {% assign device = site.data.devices[page.device] %}
+
+{% if device.requiredbootloader %}
+{% capture bootloader %}
+Your device must be on bootloader version {% for el in device.requiredbootloader %}`{{ el }}` or {% endfor %}this will not work. You can check what bootloader your device is on by running the command `getprop ro.bootloader` in `adb shell` or a terminal app.
+{% endcapture %}
+{% include note.html content=bootloader %}
+{% endif %}
+
 {% if device.install_method != "" %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
