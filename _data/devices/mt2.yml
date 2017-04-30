@@ -27,6 +27,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: Volume Up & Power
 release:
+requiredbootloader: ['MSM8226C00B322_BOOT']
 screen: 155 mm (6.1 in)
 screen_ppi: '241'
 screen_res: 1280x720

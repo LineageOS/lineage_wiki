@@ -33,6 +33,7 @@ recovery_boot: With the device powered down, hold both Volume buttons and the Po
   until the bootloader appears, then release the buttons. Navigate using the volume
   keys and select RECOVERY using the Power key.
 release: 2011 October
+requiredbootloader: ['PRIMELA03', 'PRIMELC03']
 screen: 4.7 inches
 screen_res: 1280x720
 screen_ppi: '316'
