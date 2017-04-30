@@ -30,6 +30,7 @@ peripherals: ['']
 ram: 1 GB
 recovery_boot: Volume Up, Home, & Power
 release: 2011 February 11
+requiredbootloader: [I9100XXLPH]
 screen: 109 mm (4.3 in)
 screen_ppi: 222
 screen_res: 800x480

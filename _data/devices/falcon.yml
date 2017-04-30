@@ -30,6 +30,7 @@ ram: 1 GB
 recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll to recovery and then use Volume Up to select.
 release: 2013 November
+requiredbootloader: [0x4118, 0x4119, 0x411A]
 screen: 114 mm (4.5 in)
 screen_ppi: ~326
 screen_res: 720 x 1280 pixels
