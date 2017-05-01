@@ -17,7 +17,7 @@ gpu: Adreno 418
 has_recovery_partition: true
 height:
 image: ether.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
 maintainers: [chrmhoffmann, crpalmer, mikeioannina]
 name: Robin

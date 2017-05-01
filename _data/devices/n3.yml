@@ -16,7 +16,7 @@ gpu: Adreno 330
 has_recovery_partition: true
 height: 161.2 mm
 image: n3.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_oppo_n3
 maintainers: [jrior001, mikeioannina]
 name: N3
@@ -24,6 +24,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
