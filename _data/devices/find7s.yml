@@ -17,7 +17,7 @@ gpu: Adreno 330
 has_recovery_partition: true
 height: 152.6 mm
 image: find7.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8974
 maintainers: [mikeioannina]
 name: Find 7s
@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz UMTS/HSPA+' }
 - {tech: 4G, bands: '700 1700 2100 Mhz FDD' }
+no_oem_unlock_switch: true
 peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
