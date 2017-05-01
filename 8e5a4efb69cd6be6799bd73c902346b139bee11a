@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_293ad7cd",
+        "filename": "_data/devices/hiaeul.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-05-01T16:36:32Z",
+      "side": 1,
+      "message": "capital D",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 12
+      },
+      "revId": "8e5a4efb69cd6be6799bd73c902346b139bee11a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_492513aa",
+        "filename": "_data/devices/hiaeul.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-05-01T16:36:32Z",
+      "side": 1,
+      "message": "Sure this isnt a light sensor?",
+      "range": {
+        "startLine": 30,
+        "startChar": 28,
+        "endLine": 30,
+        "endChar": 45
+      },
+      "revId": "8e5a4efb69cd6be6799bd73c902346b139bee11a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
