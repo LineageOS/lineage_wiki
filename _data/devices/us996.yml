@@ -7,7 +7,7 @@ cameras:
 - {flash: '', info: '8 MP'}
 carrier: GSM Unlocked
 channels: [weekly]
-codename: us995
+codename: us996
 cpu: Kyro
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
