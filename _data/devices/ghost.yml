@@ -18,7 +18,7 @@ has_recovery_partition: true
 height: 129.3 mm (5.09 in)
 image: ghost.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_msm8960dt
+kernel: android_kernel_motorola_ghost
 maintainers: [VitaTaf]
 models: [xt1052, xt1053, xt1055, xt1056, xt1058, xt1060]
 name: Moto X
