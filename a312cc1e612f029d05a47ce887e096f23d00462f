@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_b463b7b0",
+        "filename": "_data/devices/m8d.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-02T16:07:12Z",
+      "side": 1,
+      "message": "Restore the new line.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 30
+      },
+      "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_54f923c7",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-02T16:07:12Z",
+      "side": 1,
+      "message": "This what?\n\nThe note here is a bit out of place, in my opinion. I think your intention is to inform users about the required BLversion for LineageOS to work. However, appearing before BL unlocking instructions, it almost seems that it\u0027s a requirement for the unlock itself.",
+      "range": {
+        "startLine": 5,
+        "startChar": 109,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
