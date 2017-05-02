@@ -19,7 +19,7 @@ has_recovery_partition: true
 height: 133.9 mm (5.27 in)
 image: mako.png
 install_method: fastboot_nexus
-kernel: android_kernel_google_msm
+kernel: lge-kernel-mako
 maintainers: [arcee]
 name: Nexus 4
 network:

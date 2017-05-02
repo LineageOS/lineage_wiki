@@ -18,7 +18,7 @@ has_recovery_partition: true
 height:
 image: shieldtablet.png
 install_method: TODO
-kernel: android_kernel_nvidia_shieldtablet
+kernel: android_kernel_nvidia_shield
 maintainers: [webgeek1234]
 name: Shield Tablet
 network:
