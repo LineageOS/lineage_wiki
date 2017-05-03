@@ -69,6 +69,30 @@
       "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_f216dff0",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-03T12:59:51Z",
+      "side": 1,
+      "message": "If the note goes here, it\u0027s not clear if it\u0027s a requirement for BL unlock or LineageOS install. If a device has any special BL unlocking requirement, then it should be stated in its specific install template.",
+      "parentUuid": "1a486d77_321d9710",
+      "range": {
+        "startLine": 5,
+        "startChar": 109,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
