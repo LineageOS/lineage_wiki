@@ -45,6 +45,30 @@
       "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_321d9710",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-05-03T12:49:48Z",
+      "side": 1,
+      "message": "Some devices like oppo r5 need a special bootloader to be able to unlock it. So this looks like a good place to put the info",
+      "parentUuid": "1a486d77_54f923c7",
+      "range": {
+        "startLine": 5,
+        "startChar": 109,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "a312cc1e612f029d05a47ce887e096f23d00462f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
