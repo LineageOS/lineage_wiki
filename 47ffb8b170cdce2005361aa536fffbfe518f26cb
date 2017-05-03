@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_8d5aee81",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-05-03T22:33:43Z",
+      "side": 1,
+      "message": "\"by executing\"",
+      "range": {
+        "startLine": 45,
+        "startChar": 11,
+        "endLine": 45,
+        "endChar": 18
+      },
+      "revId": "47ffb8b170cdce2005361aa536fffbfe518f26cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
