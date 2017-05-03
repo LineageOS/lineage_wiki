@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_570c8542",
+        "filename": "_data/devices/shieldtablet.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2017-05-03T09:15:49Z",
+      "side": 1,
+      "message": "i dont know why this change is here, i rebased the patch and now its here... strange",
+      "range": {
+        "startLine": 21,
+        "startChar": 0,
+        "endLine": 21,
+        "endChar": 36
+      },
+      "revId": "c2401adde863ae44803e0462b8e272798ddd4e06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
