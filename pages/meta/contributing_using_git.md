@@ -69,7 +69,7 @@ To make sure that a Change-Id is automatically added to all your changes, instal
 
 ```
 cd lineage_wiki
-curl -Lo .git/hooks/commit-msg http://review.lineageos.org/tools/hooks/commit-msg
+curl -Lo .git/hooks/commit-msg https://review.lineageos.org/tools/hooks/commit-msg
 chmod +x .git/hooks/commit-msg
 ```
 

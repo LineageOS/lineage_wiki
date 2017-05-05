@@ -11,7 +11,7 @@ tags:
 ## Bypassing Gerrit
 
 {% include note.html content="The following tips are for those few who have the ability to accept changes into Gerrit's official LineageOS repositories and/or who are able to bypass Gerrit entirely. Only posted here for convenience for these maintainers, in case anyone forgets the steps." %}
-{% include warning.html content="To mass-submit to Gerrit, you will need the *Push* and *Create Reference* permissions. For mass pushes that include commits you didn't create yourself, you may also need *Forge Author* and *Forge Committer* permissions. If you believe you are lacking appropriate permissions, file a `DEVREL` ticket on [Jira](http://jira.lineageos.org/)." %}
+{% include warning.html content="To mass-submit to Gerrit, you will need the *Push* and *Create Reference* permissions. For mass pushes that include commits you didn't create yourself, you may also need *Forge Author* and *Forge Committer* permissions. If you believe you are lacking appropriate permissions, file a `DEVREL` ticket on [Jira](https://jira.lineageos.org/)." %}
 
 Say you have a bunch of changes and want to skip Gerrit's interface entirely, pushing directly to the repository. For this you will need special privileges.
 
