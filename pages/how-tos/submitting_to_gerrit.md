@@ -12,7 +12,7 @@ tags:
 
 If you haven't yet successfully downloaded the source and generated a build of LineageOS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
 
-Setup an account on [Gerrit](http://review.lineageos.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
+Setup an account on [Gerrit](https://review.lineageos.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 Then, make sure your local git username matches with your Gerrit username::
 
 ```
