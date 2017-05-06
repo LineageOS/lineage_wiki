@@ -85,6 +85,10 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 * `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
 
+For Ubuntu versions newer than 16.04 (xenial), substitute:
+
+* `lib32readline6-dev` → `lib32readline-dev`
+
 #### Java
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
