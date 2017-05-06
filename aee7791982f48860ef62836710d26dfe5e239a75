@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_96ce7682",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 17644
+      },
+      "writtenOn": "2017-05-06T12:59:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a486d77_d6262e68",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 230
+      },
+      "revId": "aee7791982f48860ef62836710d26dfe5e239a75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_f6312aa3",
         "filename": "_includes/templates/device_build.md",
         "patchSetId": 2
@@ -36,6 +60,30 @@
       "writtenOn": "2017-05-06T12:33:09Z",
       "side": 1,
       "message": "Remove",
+      "range": {
+        "startLine": 84,
+        "startChar": 0,
+        "endLine": 84,
+        "endChar": 0
+      },
+      "revId": "aee7791982f48860ef62836710d26dfe5e239a75",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_76cbfa72",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 17644
+      },
+      "writtenOn": "2017-05-06T12:59:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a486d77_f6312aa3",
       "range": {
         "startLine": 84,
         "startChar": 0,
