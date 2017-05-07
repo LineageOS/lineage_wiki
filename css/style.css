@@ -97,3 +97,6 @@ li {
   }
 
 }
+
+.alert.alert-warning a {
+  color: #000; }
