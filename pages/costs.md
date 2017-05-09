@@ -16,7 +16,8 @@ LineageOS is a commmunity-funded, open source project. Below are our current mon
 | $  5.00        | Linode   | 1G       | Wiki, Website                        |
 | $  5.00        | Linode   | 1G       | Jenkins Master                       |
 | $  5.00        | Linode   | 1G       | Download Service                     |
-| $164.99        | Total    |          |                                      |
+| $ 19.95        | Sendgrid | Email    | SMTP server                          |
+| $184.94        | Total    |          |                                      |
 
 
 You can help the project pay for these either via Bitcoin ([12aDckQC6YHEn75zReQWxXFCivBBNXfRjM](bitcoin:12aDckQC6YHEn75zReQWxXFCivBBNXfRjM)), or [PayPal](https://paypal.me/LineageOS).
