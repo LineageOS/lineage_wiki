@@ -16,7 +16,7 @@ gpu: Adreno 305
 has_recovery_partition: true
 height: 189.2 mm (7.45 in)
 image: v410.png
-install_method: TODO
+install_method: fastboot
 kernel: android_kernel_lge_v4xx
 maintainers: [invisiblek]
 name: G Pad 7.0 (LTE)
