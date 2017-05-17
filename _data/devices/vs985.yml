@@ -15,9 +15,12 @@ depth: 0.35 inches (8.9 mm)
 download_boot: Volume UP & Plug into PC
 gpu: Adreno 330
 has_recovery_partition: true
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+required_bootloader: ['VS98510B', 'VS98512B']
+root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 height: 5.76 inches (146.3 mm)
 image: d855.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_g3
 maintainers: [invisiblek]
 name: G3 (Verizon)
