@@ -10,7 +10,7 @@ codename: xt897
 cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth: 13.7 mm (0.54 in)
 download_boot: With the device powered down, hold the Volume Up, Down and Power buttons.  Quickly highlight 'AP fastboot' from the menu using the Volume Down button, and push the Volume Up button.
 gpu: Adreno 225
@@ -41,6 +41,6 @@ tree: android_device_motorola_xt897
 type: phone (slider)
 vendor: Motorola
 vendor_short: motorola
-versions: [13.0]
+versions: [13.0, 14.1]
 width: 66 mm (2.6 in)
 wifi: 802.11 2.4GHz b/g/n
