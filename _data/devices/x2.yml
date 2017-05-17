@@ -10,14 +10,14 @@ codename: x2
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz & 2 x 1.6 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth: 7.99 mm (0.31 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons.
 gpu: Adreno 530
 has_recovery_partition: true
 height: 156.8 mm (6.17 in)
 image: x2.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_leeco_msm8996
 maintainers: [tortel, andr68rus, cr3pt]
 models: [LEX820, LEX821, LEX822, LEX829]
@@ -41,6 +41,6 @@ tree: android_device_leeco_x2
 type: phone
 vendor: LeEco
 vendor_short: leeco
-versions: [13.0]
+versions: [13.0, 14.1]
 width: 77.6 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
