@@ -24,7 +24,11 @@ Before proceeding, ensure the data you would like to retain is backed up to your
     If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 5. From the same terminal, type the following command to unlock the bootloader:
 
+{% if site.data.devices[page.device].custom_unlock_cmd %}
+        {{ site.data.devices[page.device].custom_unlock_cmd }}
+{% else %}
         fastboot oem unlock
+{% endif %}
 
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
