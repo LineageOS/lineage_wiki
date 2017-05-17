@@ -17,7 +17,8 @@ gpu: Adreno 510
 has_recovery_partition: true
 height: 151.1 mm (5.95 in)
 image: s2.png
-install_method: TODO
+install_method: fastboot_nexus
+fastboot_unlock_oem_cmd: unlock-go
 kernel: android_kernel_leeco_msm8976
 maintainers: [codeworkx]
 models: [X520, X522, X526, X527]

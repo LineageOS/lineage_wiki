@@ -17,7 +17,8 @@ gpu: Adreno 530
 has_recovery_partition: true
 height: 151.4 mm (5.96 in)
 image: zl1.png
-install_method: TODO
+install_method: fastboot_nexus
+fastboot_unlock_oem_cmd: unlock-go
 kernel: android_kernel_leeco_msm8996
 maintainers: [jrior001, codeworkx]
 models: [LEX720, LEX727]
