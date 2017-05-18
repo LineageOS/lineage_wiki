@@ -1,0 +1,45 @@
+architecture: arm
+battery: Non-removable Li-Po 3050 mAh
+bluetooth: v4.0
+cameras:
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: tenshi
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.4 GHz
+current_branch: 14.1
+depth: 8.7 mm (0.34 in)
+download_boot: With the device powered down, hold the Volume Down and Power buttons.
+gpu: Adreno 505
+has_recovery_partition: true
+height: 143 mm (5.64 in)
+image: tenshi.png
+install_method: TODO
+kernel: android_kernel_bq_msm8937
+maintainers: [brinlyau,  eloimuns, Kra1o5, Team aquaris-dev]
+name: Aquaris U Plus
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '800 1800 2100 2600 MHz LTE' }
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall sensor, GPS, FM Radio, USB OTG]
+ram: 2/3 GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2016
+screen: 127 mm (5.0 in)
+screen_ppi: ~294
+screen_res: 1280x720
+screen_tech: IPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 32 GB
+soc: Qualcomm MSM8937 Snapdragon 430
+storage: 16/32 GB
+tree: android_device_bq_tenshi
+type: phone
+vendor: BQ
+vendor_short: bq
+versions: [14.1]
+width: 72.2 mm (2.84 in)
+wifi: 802.11 b/g/n, Hotspot
