@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold Volume Down & Power
 gpu: Adreno 306
 has_recovery_partition: true
 image: seed.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_google_seed
 maintainers: [arvinquilao]
 name: Android One 2nd Gen
