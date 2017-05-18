@@ -12,6 +12,8 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 9.9 mm (0.39 in)
+download_boot: With the device powered off, hold VOL UP button and connect it to the computer.
+  Keep holding VOL UP button until the firmware update screen appears.
 gpu: Adreno 305
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
@@ -28,7 +30,9 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 1 GB
-recovery_boot:
+recovery_boot: With the device powered off, hold POWER+VOL DOWN buttons. When the LG logo appears,
+  release both buttons and then hold again. When prompted to erase all user data, choose 'Yes'.
+  Once again choose 'Yes' to confirm and then device will boot to recovery.
 release:
 screen: 178 mm (7.0 in)
 screen_ppi: 216
