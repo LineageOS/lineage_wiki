@@ -15,9 +15,11 @@ download_boot: With the device powered off, hold VOL UP button and connect it to
   Keep holding VOL UP button until the firmware update screen appears.
 gpu: Adreno 305
 has_recovery_partition: true
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+root_method: [kingroot]
 height: 210.8 mm
 image: v480.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_v4xx
 maintainers: [jpjust]
 name: G Pad 8.0 (Wi-Fi)
