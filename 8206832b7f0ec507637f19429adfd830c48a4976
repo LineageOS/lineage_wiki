@@ -16,6 +16,24 @@
       "revId": "8206832b7f0ec507637f19429adfd830c48a4976",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e7127f61",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T10:27:25Z",
+      "side": 1,
+      "message": "Ohh, in that case we can filter the message if vendor is LG.",
+      "parentUuid": "1a486d77_2719b788",
+      "revId": "8206832b7f0ec507637f19429adfd830c48a4976",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
