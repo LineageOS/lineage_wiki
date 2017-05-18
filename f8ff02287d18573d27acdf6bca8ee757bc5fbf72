@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_d17cdcb7",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-18T20:38:42Z",
+      "side": 1,
+      "message": "weirdos",
+      "range": {
+        "startLine": 29,
+        "startChar": 21,
+        "endLine": 29,
+        "endChar": 30
+      },
+      "revId": "f8ff02287d18573d27acdf6bca8ee757bc5fbf72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_117394e8",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-18T20:38:42Z",
+      "side": 1,
+      "message": "tabs?",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 2
+      },
+      "revId": "f8ff02287d18573d27acdf6bca8ee757bc5fbf72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_f1811890",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-18T20:38:42Z",
+      "side": 1,
+      "message": "tabs?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "f8ff02287d18573d27acdf6bca8ee757bc5fbf72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
