@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_2b3bc1d2",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T11:22:04Z",
+      "side": 1,
+      "message": "Why is this needed if A6020a40 is already on the list?",
+      "range": {
+        "startLine": 23,
+        "startChar": 19,
+        "endLine": 23,
+        "endChar": 37
+      },
+      "revId": "962cffcf1c6c544023ff1439370379fb1ccc3128",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
