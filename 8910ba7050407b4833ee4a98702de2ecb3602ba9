@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_4703930f",
+        "filename": "pages/install/v480.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T10:44:13Z",
+      "side": 1,
+      "message": "Let\u0027s move all this to a specific root template and \ninclude it from device_install.md",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 91
+      },
+      "revId": "8910ba7050407b4833ee4a98702de2ecb3602ba9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
