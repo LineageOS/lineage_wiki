@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_2b14e142",
+        "filename": "pages/install/vs985.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T10:47:50Z",
+      "side": 1,
+      "message": "Let\u0027s adopt https://review.lineageos.org/#/c/170867/.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 255
+      },
+      "revId": "a22dd6e09a3d6dadf1c44cbf3a7f20767ced970b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_4b0ddd36",
+        "filename": "pages/install/vs985.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T10:47:50Z",
+      "side": 1,
+      "message": "And then move all this to a specific root template and \ninclude it from device_install.md",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 142
+      },
+      "revId": "a22dd6e09a3d6dadf1c44cbf3a7f20767ced970b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
