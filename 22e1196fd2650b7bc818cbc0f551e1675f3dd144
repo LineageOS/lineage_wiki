@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_d41baac8",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T23:37:30Z",
+      "side": 1,
+      "message": "This got moved into \"Basic requirements\" which now appears on top of install instructions page for all devices.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 104
+      },
+      "revId": "22e1196fd2650b7bc818cbc0f551e1675f3dd144",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5487bad7",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T23:37:30Z",
+      "side": 1,
+      "message": "So... you\u0027re basically overriding recovery_install_fastboot_generic.md with this.\n\nI would pick that template and add a new section here: \"Installing a custom recovery using fastboot\"",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 24
+      },
+      "revId": "22e1196fd2650b7bc818cbc0f551e1675f3dd144",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
