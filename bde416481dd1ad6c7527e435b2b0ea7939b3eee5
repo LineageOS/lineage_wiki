@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_67932ffb",
+        "filename": "_data/devices/gohan.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-18T09:40:16Z",
+      "side": 1,
+      "message": "This template will be removed soon, and as such your device will be removed from the rota at the same time",
+      "revId": "bde416481dd1ad6c7527e435b2b0ea7939b3eee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_479033ec",
+        "filename": "_data/devices/tenshi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-18T09:40:16Z",
+      "side": 1,
+      "message": "Same story",
+      "revId": "bde416481dd1ad6c7527e435b2b0ea7939b3eee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
