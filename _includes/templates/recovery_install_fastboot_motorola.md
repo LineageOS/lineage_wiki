@@ -4,9 +4,7 @@
 {% include warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
-1. Make sure your computer has working [fastboot and adb]({{ "adb_fastboot_guide.html" | relative_url }}).
-2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
-3. Get the current status of your bootloader:
+1. Get the current status of your bootloader:
 
     Open a terminal on the PC and boot the device to fastboot mode by typing:
 
@@ -22,13 +20,13 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
         fastboot devices
 
-   If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
+    If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 
-   From the same terminal, type the following command to get the bootloader status:
+    From the same terminal, type the following command to get the bootloader status:
 
         fastboot oem device-info
 
-4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
+2. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
 
     {% include note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
 

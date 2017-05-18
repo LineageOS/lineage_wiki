@@ -8,9 +8,7 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 
 1. Dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check "rooting status" - you can only continue if it says `Bootloader unlock allowed: Yes`.
-3. Make sure your computer has working [fastboot and adb]({{ "adb_fastboot_guide.html" | relative_url }}).
-4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
-5. Get the current status of your bootloader:
+3. Get the current status of your bootloader:
 
     Open a terminal on the PC and boot the device to fastboot mode by typing:
 
@@ -26,8 +24,8 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 
         fastboot devices
 
-   If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
+    If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 
-6. Follow the instructions on [developer.sonymobile.com](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to unlock your bootloader.
+4. Follow the instructions on [developer.sonymobile.com](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to unlock your bootloader.
 
 {% include templates/recovery_install_fastboot_generic.md %}
