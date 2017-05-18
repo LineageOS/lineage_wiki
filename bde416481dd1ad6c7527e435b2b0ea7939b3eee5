@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "1a486d77_e744bf75",
+        "filename": "_data/devices/gohan.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 5404
+      },
+      "writtenOn": "2017-05-18T09:59:48Z",
+      "side": 1,
+      "message": "gohan supports 802.11 b/g/n/ac",
+      "range": {
+        "startLine": 45,
+        "startChar": 6,
+        "endLine": 45,
+        "endChar": 19
+      },
+      "revId": "bde416481dd1ad6c7527e435b2b0ea7939b3eee5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a486d77_479033ec",
         "filename": "_data/devices/tenshi.yml",
         "patchSetId": 1
