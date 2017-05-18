@@ -1,3 +1,19 @@
+## Rooting your device
+
+{% include important.html content="The device must be rooted before proceeding any further." %}
+
+{% case site.data.devices[page.device].root_method[0] %}
+{% when 'custom' %}
+1. Root your device by following [this]({{ site.data.devices[page.device].root_method[1] }}) guide.
+{% when 'kingroot' %}
+1. Download KingRoot from [here](https://kingroot.net/).
+   1. Install and run the apk to achieve root. Ensure you have a working Internet connection.
+{% when 'towelroot' %}
+1. Download TowelRoot from [here](https://towelroot.com/).
+   1. Click the large lambda symbol to download the apk.
+   2. Install and run the apk to achieve root.
+{% endcase %}
+
 ## Installing a custom recovery using `dd`
 
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/), simply search for your device on that page and download the corresponding
