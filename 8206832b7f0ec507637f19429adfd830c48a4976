@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_2719b788",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-18T10:26:20Z",
+      "side": 1,
+      "message": "this only applies to LG devices",
+      "revId": "8206832b7f0ec507637f19429adfd830c48a4976",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
