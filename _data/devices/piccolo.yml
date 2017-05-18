@@ -18,7 +18,7 @@ gpu: Adreno 405
 has_recovery_partition: true
 height: 143 mm (5.63 in)
 image: piccolo.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
 maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki, Team aquaris-dev]
 name: Aquaris M5
