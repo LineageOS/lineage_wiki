@@ -45,6 +45,30 @@
       "revId": "22e1196fd2650b7bc818cbc0f551e1675f3dd144",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_f477c600",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-18T23:43:41Z",
+      "side": 1,
+      "message": "Anyway, is there any reason why not to use recovery_install_fastboot_generic.md?",
+      "parentUuid": "1a486d77_5487bad7",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 24
+      },
+      "revId": "22e1196fd2650b7bc818cbc0f551e1675f3dd144",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
