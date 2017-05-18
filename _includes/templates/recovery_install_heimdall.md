@@ -26,5 +26,5 @@ The preferred method of installing a custom recovery is through this boot mode -
 7. A blue transfer bar will appear on the device showing the recovery being transferred.
 8. Unplug the USB cable from your device.
     {% include note.html content="Be sure to reboot into recovery immediately after having installed the custom recovery. Otherwise the custom recovery will be overwritten and the device will reboot (appearing as though your custom recovery failed to install)." %}
-9. Manually reboot into recovery: {{ site.data.devices[page.device].recovery_boot }}
-10. Congratulations! Your {{ site.data.devices[page.device].name }} now has a custom recovery installed. Continue on to the next section.
+9. Manually reboot into recovery:
+    * {{ site.data.devices[page.device].recovery_boot }}
