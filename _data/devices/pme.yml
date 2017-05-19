@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: pme
-cpu: Kyro
+cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2x2.15 GHz, 2x1.6 GHz
 current_branch: 14.1
