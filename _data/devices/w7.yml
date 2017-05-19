@@ -15,9 +15,11 @@ depth: 9.7 mm (0.38 in)
 download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
 gpu: Adreno 305
 has_recovery_partition: true
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+root_method: [custom, 'https://forum.xda-developers.com/android/development/guide-root-method-lg-devices-t3049772']
 height: 131.6 mm (5.18 in)
 image: w7.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_msm8226
 maintainers: [mosimchah, GrinningFerret, neverdies, MobiusM]
 models: [D410, D410hn, D405, D405n, D415]
