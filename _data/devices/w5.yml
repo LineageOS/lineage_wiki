@@ -13,8 +13,10 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 gpu: Adreno 302
 has_recovery_partition: true
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+root_method: [custom, 'https://forum.xda-developers.com/showthread.php?t=2732311']
 image: w5.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_msm8226
 maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
 name: Optimus L70
