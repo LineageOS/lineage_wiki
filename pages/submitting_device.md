@@ -45,6 +45,6 @@ device port requests are accepted. Developer relations will do their best to inf
 
 The following steps are necessary to finally make your device an official one:
 
-* Patch it: Make sure the kernel is patched against all applicable [CVEs](https://cve.invisiblek.org).
+* Patch it: Make sure the kernel is patched against all applicable [CVEs](https://cve.lineageos.org).
 * Prepare all the info: [Add your device to the wiki]({{ "addingdevice-howto.html" | relative_url }}).
 * Make it build: Create a patch for the `hudson` project on our GitHub org and add your device to the `lineage_build_targets` file.
