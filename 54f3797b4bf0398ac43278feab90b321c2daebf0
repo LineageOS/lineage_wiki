@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_3a40a5a4",
+        "filename": "pages/install/jfltevzw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-19T15:57:28Z",
+      "side": 1,
+      "message": "Is this needed? The drivers are supposed to be installed already at this stage as seen in \"Preparing for installation\" section.",
+      "range": {
+        "startLine": 39,
+        "startChar": 3,
+        "endLine": 39,
+        "endChar": 57
+      },
+      "revId": "54f3797b4bf0398ac43278feab90b321c2daebf0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_fa77ad00",
+        "filename": "pages/install/jfltevzw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-19T15:57:28Z",
+      "side": 1,
+      "message": "Already part of \"Basic requirements\" section.",
+      "range": {
+        "startLine": 40,
+        "startChar": 3,
+        "endLine": 40,
+        "endChar": 23
+      },
+      "revId": "54f3797b4bf0398ac43278feab90b321c2daebf0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
