@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_bad49520",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-19T15:06:33Z",
+      "side": 1,
+      "message": "err, i didn\u0027t notice this or the one below...hmm",
+      "range": {
+        "startLine": 5,
+        "startChar": 79,
+        "endLine": 5,
+        "endChar": 139
+      },
+      "revId": "e97135d7c806c81b81ca66186e8ab39ffd219657",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
