@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_da7cf1b7",
+        "filename": "_includes/templates/recovery_install_fastboot_leeco.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-19T16:24:48Z",
+      "side": 1,
+      "message": "This seems to be the only difference to fastboot_nexus instructions. I don\u0027t think it is needed to create a new template just for this. Instead, you could create a custom YML entry (something like custom_unlock_cmd) and adapt fastboot_nexus instructions. Similarly to what we have for no_oem_unlock_switch.",
+      "range": {
+        "startLine": 27,
+        "startChar": 8,
+        "endLine": 27,
+        "endChar": 30
+      },
+      "revId": "99f7311021f3b5ce43761dbe1e889f7bea1fe690",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
