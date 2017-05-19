@@ -15,7 +15,7 @@ download_boot: Plug into PC & Volume UP
 gpu: Adreno 305
 has_recovery_partition: true
 image: jag3gds.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_msm8226
 maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
 name: G3 Beat
