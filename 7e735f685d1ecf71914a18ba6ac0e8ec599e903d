@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_7f9a8f64",
+        "filename": "_data/devices/lithium.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-19T08:39:19Z",
+      "side": 1,
+      "message": "\u0027Kyro\u0027 or \u0027Kryo\u0027?",
+      "revId": "7e735f685d1ecf71914a18ba6ac0e8ec599e903d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
