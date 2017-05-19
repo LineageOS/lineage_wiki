@@ -22,7 +22,7 @@ height: 5.76 inches (146.3 mm)
 image: d855.png
 install_method: dd
 kernel: android_kernel_lge_g3
-maintainers: [invisiblek]
+maintainers: [invisiblek, nardholio]
 name: G3 (Verizon)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM; 800 1900 MHz CDMA' }

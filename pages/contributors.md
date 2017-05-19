@@ -27,6 +27,7 @@ the project and are committed to improving it.
 | Diogo Ferreira | defer |
 | Ed Carrigan | senyor |
 | Ethan Chen | intervigil |
+| Jorge Ruesga | jruesga |
 | Marcos Marado | marado |
 | Michael Bestas | mikeioannina |
 | Tom Marshall | tdm |
@@ -54,9 +55,11 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
+| Arne Coucheron | arco |
 | Brinly Taylor | brinlyau |
 | Christopher N. Hesse | raymanfx |
 | Clark Scheff | D34D |
+| Harry Youd | harryyoud |
 | Joey Rizzoli | joeyrizzoli |
 | Luca Stefani | luca020400 |
 | Luk1337 | Luk1337 |
@@ -72,6 +75,7 @@ pathways that connect to potential contributors to teams that have contribution 
 | Name | Nickname |
 |------|----------|
 | Abhisek Devkota | ciwrl |
+| Dan Pasanen | invisiblek |
 | Tom Powell | zifnab |
 
 ### Device maintainers
