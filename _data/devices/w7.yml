@@ -17,7 +17,7 @@ gpu: Adreno 305
 has_recovery_partition: true
 height: 131.6 mm (5.18 in)
 image: w7.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_msm8226
 maintainers: [mosimchah, GrinningFerret, neverdies, MobiusM]
 models: [D410, D410hn, D405, D405n, D415]
