@@ -11,22 +11,23 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-depth: 7.7 mm
+depth: 7.7 mm (0.30 in)
 download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
   Then plug in an USB cable. A small green Android logo appears at the center of the screen.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 156 mm
+height: 156 mm (6.14 in)
 image: kingdom.png
-install_method: TODO
+install_method: fastboot_generic
 kernel: android_kernel_lenovo_msm8974
-maintainers: [electry]
+maintainers: [Electry]
+models: [kingdom_row (ROW), kingdomt (CN)]
 name: Vibe Z2 Pro
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
-peripherals: [GPS, NFC, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass]
+peripherals: [GPS, NFC, FM Radio, Hall sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
   Then press and hold the Power button until the "Lenovo" logo appears.
@@ -39,9 +40,10 @@ sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB
 tree: android_device_lenovo_kingdom
+twrp_site: "[XDA-developers](https://forum.xda-developers.com/k920/development/recovery-team-win-recovery-project-3-0-t3454739)"
 type: phone
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
-width: 81.3 mm
-wifi: 802.11 a/b/g/n/ac dual band, Wi-Fi Direct, Wi-Fi Display, Hotspot
+width: 81.3 mm (3.20 in)
+wifi: 802.11 a/b/g/n/ac dual band, Hotspot
