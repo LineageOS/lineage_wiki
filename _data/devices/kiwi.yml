@@ -17,7 +17,7 @@ gpu: Adreno 405
 has_recovery_partition: true
 height: 151.3 mm (5.96 in)
 image: kiwi.png
-install_method: TODO
+install_method: fastboot_huawei
 kernel: android_kernel_huawei_kiwi
 maintainers: [crpalmer, BadDaemon]
 models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
