@@ -1,0 +1,46 @@
+architecture: arm64
+battery: Non-removable Li-Ion 3080 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '13 MP, phase detection autofocus'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: libra
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '6'
+cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
+current_branch: 14.1
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold Volume Down & Power buttons.
+gpu: Adreno 418
+has_recovery_partition: true
+height: 138.1 mm (5.44 in)
+image: libra.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_msm8992
+maintainers: [Demon000]
+name: Mi 4C
+network:
+- {tech: 2G, bands: '850 900 1800 1900 GSM' }
+- {tech: 3G, bands: '850 900 1800 2100 HSDPA' }
+- {tech: 4G, bands: '1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
+peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
+ram: 2/3 GB
+recovery_boot: Hold Volume Up and Power buttons simultaneously. Continue to hold both buttons until the "MI" logo appears on the screen, then release.
+release: September, 2015
+required_bootloader:
+screen: 127 mm (5.0 in)
+screen_ppi: 441
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8992 Snapdragon 808
+storage: 16/32 GB
+tree: android_device_xiaomi_libra
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [14.1]
+width: 69.6 mm (2.74 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
