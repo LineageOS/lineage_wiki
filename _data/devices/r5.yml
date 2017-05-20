@@ -15,7 +15,7 @@ download_boot: With the device powered down, hold the Volume Up and Power button
 gpu: Adreno 405
 has_recovery_partition: true
 image: r5.png
-install_method: TODO
+install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
 maintainers: [maniac103]
 name: R5/R5s (International)
@@ -23,10 +23,13 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: ['']
+project_spectrum: "http://community.oppo.com/en/forum.php?mod=viewthread&tid=44621"
 ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2014 December
+required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
 screen: 132 mm (5.2 in)
 screen_ppi: ~423
 screen_res: 1080x1920
