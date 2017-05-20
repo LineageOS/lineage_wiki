@@ -11,6 +11,7 @@ cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
 download_boot: Volume Down & Power
 gpu: Adreno 306
 gsm: GSM 900 /1800 / 1900
