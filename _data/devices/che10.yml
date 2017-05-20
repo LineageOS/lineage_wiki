@@ -35,6 +35,7 @@ sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_che10
+twrp_site: "[XDA-developers](https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504)"
 type: phablet
 vendor: Huawei
 vendor_short: huawei
