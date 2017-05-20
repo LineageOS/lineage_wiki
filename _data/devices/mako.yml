@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier:
-channels: [discontinued]
+channels: [weekly]
 codename: mako
 cpu: Krait
 cpu_cores: '4'
@@ -20,7 +20,7 @@ height: 133.9 mm (5.27 in)
 image: mako.png
 install_method: fastboot_nexus
 kernel: lge-kernel-mako
-maintainers:
+maintainers: [rmccask]
 name: Nexus 4
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
