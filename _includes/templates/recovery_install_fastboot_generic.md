@@ -1,6 +1,6 @@
 ## Installing a custom recovery using `fastboot`
 
-1. Download recovery - visit [twrp.me](https://twrp.me/Devices/) to obtain the latest version of Team Win Recovery Project for your device.
+1. Download recovery - visit {% if site.data.devices[page.device].twrp_site %}{{ site.data.devices[page.device].twrp_site }}{% else %}[twrp.me](https://twrp.me/Devices/){% endif %} to obtain the latest version of Team Win Recovery Project for your device.
 2. Connect your device to your PC via USB.
 3. Open a terminal on the PC and boot the device to fastboot mode by typing:
 
