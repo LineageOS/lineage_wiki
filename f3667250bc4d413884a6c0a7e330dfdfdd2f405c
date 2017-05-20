@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_adcb3c1d",
+        "filename": "_data/devices/libra.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-20T22:15:52Z",
+      "side": 1,
+      "message": "This is intended to be for numeric models of the device, eg if there are multiple variants IIRC",
+      "range": {
+        "startLine": 24,
+        "startChar": 9,
+        "endLine": 24,
+        "endChar": 14
+      },
+      "revId": "f3667250bc4d413884a6c0a7e330dfdfdd2f405c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
