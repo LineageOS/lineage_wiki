@@ -15,9 +15,9 @@ download_boot: Volume Down & Power
 gpu: Adreno 306
 has_recovery_partition: true
 image: cherry.png
-install_method: TODO
+install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8916
-maintainers: [dianlujitao]
+maintainers: [Blefish, dianlujitao]
 name: Honor 4x (China Telecom)
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 MHz CDMA' }
