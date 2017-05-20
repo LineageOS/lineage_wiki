@@ -17,7 +17,7 @@ gpu: Adreno 405
 has_recovery_partition: true
 height:
 image: r7plus.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8939
 maintainers: [maniac103]
 name: R7 Plus
