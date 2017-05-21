@@ -1,0 +1,48 @@
+architecture: arm64
+battery: Non-removable Li-Ion 3120 mAh battery
+bluetooth: v4.1, A2DP
+cameras:
+- {flash: 'dual-LED', info: '13 MP, f/2.0, HDR'}
+- {flash: '', info: '5 MP, f/1.8'}
+carrier:
+channels: [weekly]
+codename: ferrari
+cpu: Snapdragon 615
+cpu_cores: '8'
+cpu_freq: 1.7 GHz
+current_branch: 14.1
+depth: 7.8 mm (0.31 in)
+download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 405
+has_recovery_partition: true
+height: 138.1 mm (5.44 in)
+image: ferrari.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_ferrari
+maintainers: [H4rryp0tt3r]
+name: Mi 4i
+network:
+- {tech: 2G, bands: '850 / 900 / 1800 / 1900MHz GSM' }
+- {tech: 3G, bands: '1900 / 2000MHz, 850 / 900 / 1900 / 2100MHz' }
+- {tech: 4G, bands: 'B3 / B7 / B38 / B39 / B40 / B41 TD-LTE' }
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gravity sensor, Gyroscope, Proximity sensor, Hall sensor, Compass, GPS, GLONASS, Light sensor]
+ram: 2 GB
+recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
+  Continue to hold both buttons until the "MI" logo appears on the screen, then release.
+release: 2015 April
+screen: 126 mm (5.0 in)
+screen_ppi: 441
+screen_res: 1080x1920
+screen_tech: JDI IPS LCD
+sdcard:
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 16/32 GB
+tree: android_device_xiaomi_ferrari
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [14.1]
+width: 69.6 mm (2.74 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
