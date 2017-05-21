@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_68c5328d",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2017-05-21T04:16:22Z",
+      "side": 1,
+      "message": "This line is copied from recovery_install_fastboot_generic.md, if you change it here, you\u0027d better change recovery_install_fastboot_generic.md as well to keep consistency.",
+      "range": {
+        "startLine": 10,
+        "startChar": 3,
+        "endLine": 10,
+        "endChar": 43
+      },
+      "revId": "61224f4c290ea7ea109852b58591cb68749b862b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
