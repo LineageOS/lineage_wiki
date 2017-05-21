@@ -1,0 +1,45 @@
+architecture: arm
+battery: Removable 1750 mAh
+bluetooth: v4.0 with A2DP
+cameras:
+- {flash: 'LED', info: '8MP f/2.4'}
+- {flash: '', info: 'VGA'}
+carrier:
+channels: [weekly]
+codename: taoshan
+cpu: Krait
+cpu_cores: '2'
+cpu_freq: 1.0 GHz
+current_branch: 14.1
+depth: 9.7 mm
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+gpu: Adreno 305
+has_recovery_partition: true
+height: 128.7 mm
+image: taoshan.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8930
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 2100 MHz HSPA' }
+maintainers: [corphish]
+name: Xperia L
+peripherals: [GPS, NFC, Accelerometer, Compass, Light sensor, Proximity sensor]
+ram: 1 GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+release: 2013 May
+screen: 109.22 mm (4.3 in)
+screen_ppi: '228'
+screen_res: 480x854
+screen_tech: TFT
+sdcard: officially up to 32 GB
+soc: Qualcomm MSM8230 Snapdragon 400
+storage: 8 GB
+tree: android_device_sony_taoshan
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+width: 65 mm
+wifi: 802.11 2.4GHz b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot
