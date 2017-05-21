@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_436499e4",
+        "filename": "_data/devices/ferrari.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-21T14:31:30Z",
+      "side": 1,
+      "message": "You don\u0027t look to be doing much maintaining...",
+      "revId": "d86d4c565f435e0c39c809b394c23aa70ed32d51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
