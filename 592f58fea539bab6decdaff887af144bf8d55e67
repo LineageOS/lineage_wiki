@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_c0c87a76",
+        "filename": "pages/faq.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-22T17:31:56Z",
+      "side": 1,
+      "message": "It might be worth saying the same about attempting to install over another ROM (eg people not factory resetting before flashing Lineage over stock or CyanogenMod or \u003cinsert ROM here\u003e)",
+      "parentUuid": "",
+      "revId": "592f58fea539bab6decdaff887af144bf8d55e67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
