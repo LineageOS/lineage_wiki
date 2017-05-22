@@ -16,6 +16,24 @@
       "revId": "d86d4c565f435e0c39c809b394c23aa70ed32d51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_5e26accf",
+        "filename": "_data/devices/ferrari.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 17705
+      },
+      "writtenOn": "2017-05-22T07:29:14Z",
+      "side": 1,
+      "message": "Hello Harry! Thank you very much for reviewing. It\u0027s so nice to see people reviewing the code real quick. I know I haven\u0027t done much and I shouldn\u0027t have put my name there, but I don\u0027t know what to put in there. Can you elaborate on how I can be a maintainer? :)\n\nLooking forward to contribute as much as I can :)",
+      "parentUuid": "1a486d77_436499e4",
+      "revId": "d86d4c565f435e0c39c809b394c23aa70ed32d51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
