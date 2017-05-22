@@ -7,12 +7,9 @@ permalink: faq.html
 ## Installing LineageOS zips in TWRP results in "Error 7"
  - The most common reasons for this error are:
    - You are trying to install a build for a different device. _You need to make sure you download the zip for the correct device *and* variant_
-   - You are attempting to migrate from an unofficial build to LineageOS. _To do this, you need to flash the migration zip, marked as 'experimental'_
+   - You are attempting to migrate from an unofficial build to official LineageOS.
    - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install LineageOS again_. This information should be listed on the device's wiki page.
  - If your error still persists after confirming these are not causing your issue, ask someone for help IRC (#lineageos@freenode) or on the [Subreddit](http://reddit.com/r/lineageos) and provide a recovery log
-
-## There are watermarks saying "cm to lineage migration" on every screen
- - You have flashed the migration build (marked as 'experimental'). This build resets all package keys at boot, and **SHOULD NOT** be used outside of performing a migration. Please update to the latest build for your device.
 
 ## My device _is_ officially supported, but there's no zips for it on the download page. Where are they?
  - Be patient. Devices are slowly being built throughout the week. Maintainers have busy lives, and sometimes an issue is holding it back. Please do not ask for ETAs.
