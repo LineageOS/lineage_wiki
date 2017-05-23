@@ -22,6 +22,30 @@
       "revId": "61224f4c290ea7ea109852b58591cb68749b862b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_02c7ca46",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T11:26:21Z",
+      "side": 1,
+      "message": "Yes, I know. I will fix that in a different commit.",
+      "parentUuid": "1a486d77_68c5328d",
+      "range": {
+        "startLine": 10,
+        "startChar": 3,
+        "endLine": 10,
+        "endChar": 43
+      },
+      "revId": "61224f4c290ea7ea109852b58591cb68749b862b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
