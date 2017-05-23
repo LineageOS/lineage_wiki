@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_053cb42e",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "Non-removable Li-Po 9240 mAh",
+      "range": {
+        "startLine": 2,
+        "startChar": 9,
+        "endLine": 2,
+        "endChar": 38
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_a54868cd",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "v4.1 with A2DP",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 24
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_25353846",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "This doesn\u0027t go here.",
+      "range": {
+        "startLine": 10,
+        "startChar": 5,
+        "endLine": 10,
+        "endChar": 15
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_e53e7029",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "Isn\u0027t it \"4 x 1.9 GHz\"?",
+      "range": {
+        "startLine": 12,
+        "startChar": 10,
+        "endLine": 12,
+        "endChar": 29
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_c5456cb4",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "NVIDIA Maxwell 256-core",
+      "range": {
+        "startLine": 16,
+        "startChar": 5,
+        "endLine": 16,
+        "endChar": 19
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa82b9bf_651260b6",
+        "filename": "_data/devices/dragon.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-05-23T23:06:05Z",
+      "side": 1,
+      "message": "Hotspot",
+      "range": {
+        "startLine": 45,
+        "startChar": 50,
+        "endLine": 45,
+        "endChar": 57
+      },
+      "revId": "9a7e7d3d37c3aaac0f7e105f6cc4800e803f704d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
