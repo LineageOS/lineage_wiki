@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 3200 mAh
+bluetooth: v4.0 with A2DP, LE, EDR
+cameras:
+- {flash: 'LED', info: '13 MP, 2160p@30fps, 1080p@60fps'}
+- {flash: '', info: '2 MP, 1080p@30fps'}
+carrier:
+channels: [weekly]
+codename: hltetmo
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.3 GHz
+current_branch: 14.1
+depth: 8.3 mm (0.33 in)
+download_boot: With the device powered off, hold Vol Down & Home & Power.
+gpu: Adreno 330
+has_recovery_partition: true
+height: 151.2 mm (5.95 in)
+image: hlte.png
+install_method: heimdall
+kernel: android_kernel_samsung_hlte
+maintainers: [haggertk, trader418]
+models: [SM-N900T]
+name: Galaxy Note 3 (T-Mobile)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '4(1700/2100) 17(700)' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Temperature, Humidity, NFC, GPS, GLONASS]
+ram: 3 GB
+recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
+release: Sept 2013
+screen: 144.78 mm (5.7 in)
+screen_ppi: '386'
+screen_res: 1080x1920
+screen_tech: Full Super AMOLED
+sdcard: up to 64 GB
+soc: Qualcomm MSM8974AB Snapdragon 800
+storage: 16/32/64 GB
+tree: android_device_samsung_hlte
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 79.2 mm (3.12 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Hotspot
