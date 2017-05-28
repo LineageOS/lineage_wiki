@@ -15,7 +15,7 @@ gpu: Tegra 4
 has_recovery_partition: true
 height:
 image: roth.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_nvidia_roth
 maintainers: [webgeek1234]
 name: Shield Portable
@@ -23,6 +23,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2 GB
 recovery_boot: Hold Back & Home & tap Power, release once menu is displayed. Tap Home
