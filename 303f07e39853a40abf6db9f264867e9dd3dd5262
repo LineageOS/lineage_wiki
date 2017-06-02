@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_3509e82c",
+        "filename": "pages/upgrading.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-02T12:56:57Z",
+      "side": 1,
+      "message": "I prefer this as note, like we have before. To be put under step 8.",
+      "range": {
+        "startLine": 13,
+        "startChar": 132,
+        "endLine": 13,
+        "endChar": 384
+      },
+      "revId": "303f07e39853a40abf6db9f264867e9dd3dd5262",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
