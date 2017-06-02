@@ -1,0 +1,65 @@
+# Access this data from "site.data.devices[page.device]"
+codename: J200BT
+image: j200bt.png
+name: Galaxy J2
+vendor: Samsung
+# name used by device tree (android_device_{{vendor_short}}_{{codename}})
+vendor_short: samsung
+release: September 2015
+type: phone
+carrier:
+# connectivity
+cdma:
+gsm: 850 900 1900 2100 MHz UMTS/HSPA+
+lte: Cat4 850/1700/1800/1900/2100/2600 (Bands 1,2,3,4,5,7)
+bluetooth: 4.1
+wifi: 802.11 /b/g/n
+# camera
+cameras:
+    - info: 5MP
+      flash: LED
+    - info: 2MP
+      flash:
+# peripherals
+peripherals:
+    - accelerometer
+    - proximity sensor
+    - GPS
+    - microphone
+# device specs
+soc: Exynos 3475
+ram: 1GB
+cpu: Cortex A9
+cpu_freq: 1.3GHz
+cpu_cores: 4
+gpu: Mali-T720
+storage: 8GB
+sdcard: up to 128GB
+# device size
+height: 136.5mm (5.37in)
+width: 69mm (2.72in)
+depth: 8.4mm (0.33in)
+screen: 122mm (4.8in)
+screen_res: 540x960
+screen_ppi: 234
+screen_tech: Super AMOLED
+# lineage info
+versions:
+    - 13.0
+    - 14.1
+# used for build instructions
+current_branch: 14.1
+kernel: android_kernel_samsung_j2lte
+tree: android_device_samsung_j2lte
+maintainers:
+    - forkbomb
+channels:
+    - weekly
+# recovery - "to boot into recovery, {{recovery_boot}}."
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+has_recovery_partition: true
+# fastboot/download mode
+download_boot: Hold **Home**, **Volume Down**, and **Power**
+# non-empty => include "recovery_install_{{install_method}}.md"
+# otherwise, nothing included
+install_method: heimdall
