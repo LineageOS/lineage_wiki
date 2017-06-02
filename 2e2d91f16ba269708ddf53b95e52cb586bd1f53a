@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_27353e46",
+        "filename": "pages/updating.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-02T07:09:39Z",
+      "side": 1,
+      "message": "Remove space.",
+      "range": {
+        "startLine": 10,
+        "startChar": 160,
+        "endLine": 10,
+        "endChar": 161
+      },
+      "revId": "2e2d91f16ba269708ddf53b95e52cb586bd1f53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_874f6a92",
+        "filename": "pages/updating.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-02T07:09:39Z",
+      "side": 1,
+      "message": "As we discussed in slack, this is not a requirement.",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 81
+      },
+      "revId": "2e2d91f16ba269708ddf53b95e52cb586bd1f53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_c77d72b3",
+        "filename": "pages/updating.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-02T07:09:39Z",
+      "side": 1,
+      "message": "Must be changed to something like:\n\nIf you previously had any Google Apps on your device, you must follow this step **before** the first reboot! In case you now want to have Google Apps, you must wipe *Data* partition in addition.",
+      "range": {
+        "startLine": 25,
+        "startChar": 34,
+        "endLine": 25,
+        "endChar": 132
+      },
+      "revId": "2e2d91f16ba269708ddf53b95e52cb586bd1f53a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
