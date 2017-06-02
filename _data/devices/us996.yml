@@ -16,7 +16,7 @@ download_boot: Volume Up & Power
 gpu: Adreno 530
 has_recovery_partition: true
 image: v20.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_msm8996
 maintainers: [rashed Albinoman887]
 name: V20 (GSM Unlocked)
