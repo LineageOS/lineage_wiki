@@ -28,12 +28,12 @@ The current bootloader version can be checked by running the command `getprop ro
 {% else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
-    * Optionally, download 3rd party application packages like [Google Apps]({{ "gapps.html" | relative_url }})
+    * Optionally, download 3rd party application packages such as [Google Apps]({{ "gapps.html" | relative_url }})
 2. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
-3. If you aren't already in recovery, boot into recovery:
+3. If you aren't already in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 4. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
 5. Select **Wipe** and then **Advanced Wipe**.
@@ -48,5 +48,5 @@ The current bootloader version can be checked by running the command `getprop ro
 
 ## Get assistance
 
-If you have any questions, or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS), or in
+If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
