@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_95eeb421",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-02T13:36:25Z",
+      "side": 1,
+      "message": "What do you think of adding the word \"unofficial\" here?",
+      "range": {
+        "startLine": 3,
+        "startChar": 195,
+        "endLine": 3,
+        "endChar": 238
+      },
+      "revId": "a8856601833eda42dc14a5f05e37c5f77bcb26dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
