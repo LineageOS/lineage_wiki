@@ -48,5 +48,5 @@ The current bootloader version can be checked by running the command `getprop ro
 
 ## Get assistance
 
-If you have any questions, or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS), or in
+If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS), or in
 [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
