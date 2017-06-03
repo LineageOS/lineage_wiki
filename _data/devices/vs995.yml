@@ -18,7 +18,7 @@ has_recovery_partition: true
 image: v20.png
 install_method: TODO
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed Albinoman887]
+maintainers: [rashed, Albinoman887]
 name: V20 (Verizon)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
