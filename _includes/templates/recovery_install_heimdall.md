@@ -41,8 +41,8 @@ The preferred method of installing a custom recovery is through this boot mode{%
 {% if custom_twrp_download %}
 {{ custom_twrp_download }}
 {% else %}
-1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/), simply search for your device on that page and download the corresponding
-    recovery file, named something like `twrp-3.0.0-{{ site.data.devices[page.device].codename }}.img`.
+1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
+   and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
 {% endif %}
 2. Power off the your device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
@@ -52,9 +52,9 @@ The preferred method of installing a custom recovery is through this boot mode{%
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
 
-        heimdall flash --RECOVERY recovery.img --no-reboot
+        heimdall flash --RECOVERY twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img --no-reboot
 
-    {% include tip.html content="The file may not be named identically to what's in this command. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
+    {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. Unplug the USB cable from your device.
 7. Manually reboot into recovery:
