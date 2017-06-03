@@ -42,7 +42,7 @@ The preferred method of installing a custom recovery is through this boot mode{%
 {{ custom_twrp_download }}
 {% else %}
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/), simply search for your device on that page and download the corresponding
-    recovery file, named something like `twrp-3.0.0-{{ site.data.devices[page.device].codename }}.img`.
+    recovery file, named something like `twrp-3.1.1-{{ site.data.devices[page.device].codename }}.img`.
 {% endif %}
 2. Power off the your device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
