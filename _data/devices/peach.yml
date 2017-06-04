@@ -17,7 +17,7 @@ gpu: Adreno 306
 has_recovery_partition: true
 height: 145.5 mm (5.72 in)
 image: peach.png
-install_method: TODO
+install_method: fastboot_generic
 kernel: android_kernel_ark_msm8916
 maintainers: [lolmaxlik]
 name: Benefit A3
