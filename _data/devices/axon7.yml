@@ -18,7 +18,7 @@ gpu: Adreno 530
 has_recovery_partition: true
 height: 151.7 mm (5.97 in)
 image: axon7.png
-install_method: TODO
+install_method: fastboot_generic
 kernel: android_kernel_zte_msm8996
 maintainers: [bmc08gt, c457, tdm]
 name: 'Axon 7'
@@ -39,6 +39,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
 tree: android_device_zte_axon7
 type: phone
+unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7/how-to/guide-how-to-unlock-bootloader-stay-t3461165'
 vendor: ZTE
 vendor_short: zte
 versions: [14.1]
