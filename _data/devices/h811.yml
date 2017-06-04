@@ -15,7 +15,7 @@ download_boot: Volume Up & Power
 gpu: Adreno 418
 has_recovery_partition: true
 image: h811.png
-install_method: TODO
+install_method: fastboot_generic
 kernel: android_kernel_lge_msm8992
 maintainers: [codeworkx, genesixxbf3]
 name: G4 (T-Mobile)
@@ -38,6 +38,7 @@ soc: Qualcomm MSM8992
 storage: 32 GB
 tree: android_device_lge_h811
 type: phone
+unlock_bootloader_guide: 'https://developer.lge.com/resource/mobile/RetrieveBootloader.dev?categoryTypeCode=ANRS'
 vendor: LG
 vendor_short: lge
 versions: [14.1]
