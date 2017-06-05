@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_3e86a0ba",
+        "filename": "_includes/templates/recovery_install_fastboot_unlocked.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-05T12:39:32Z",
+      "side": 1,
+      "message": "It may sound strange, but why not leave just this in the template? We don\u0027t actually need to put some note and it serves the purpose: switch A6020 to this basic template instead of using fastboot_generic.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 60
+      },
+      "revId": "e6d6948f88e2ed2ed539071deeec0a10fa1ffd19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
