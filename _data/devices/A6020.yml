@@ -17,7 +17,7 @@ gpu: Adreno 405
 has_recovery_partition: true
 height: 142 mm (5.59 in)
 image: A6020.png
-install_method: fastboot_generic
+install_method: fastboot_unlocked
 kernel: android_kernel_lenovo_msm8916
 maintainers: [shr3ps, scritch007, danielstuart14]
 models: [A6020a40, A6020a41, A6020a46, A6020l36, A6020l37]
