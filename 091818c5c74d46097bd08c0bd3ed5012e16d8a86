@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_4fdacb79",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-06T15:10:39Z",
+      "side": 1,
+      "message": "This is not exactly the reason why official build were dropped.",
+      "range": {
+        "startLine": 9,
+        "startChar": 3,
+        "endLine": 10,
+        "endChar": 29
+      },
+      "revId": "091818c5c74d46097bd08c0bd3ed5012e16d8a86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
