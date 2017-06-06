@@ -1,5 +1,5 @@
 architecture: arm
-battery: 4000 mAh
+battery: Non-removable Li-Ion 4000 mAh
 bluetooth: v4.0
 cameras:
 - {flash: '', info: '5 MP'}
@@ -47,4 +47,4 @@ vendor: LG
 vendor_short: lge
 versions: [14.1]
 width: 113.8 mm (4.48 in)
-wifi: 802.11 a/b/g/n
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, DLNA, Hotspot
