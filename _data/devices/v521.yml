@@ -11,6 +11,7 @@ cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
+depth: 
 download_boot: Volume Up & Power
 gpu: Adreno 405
 has_recovery_partition: true
