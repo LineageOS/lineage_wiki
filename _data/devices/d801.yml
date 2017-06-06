@@ -1,6 +1,6 @@
 architecture: arm
-battery: Non-removable Li-Pol 3,000 mAh
-bluetooth: '4.0'
+battery: Non-removable Li-Po 3000 mAh
+bluetooth: v4.0 with A2DP, LE, aptX
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP'}
@@ -11,13 +11,13 @@ cpu: Qualcomm Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
-depth: 0.35 inches (8.9 mm)
+depth: 8.9 mm (0.35 in)
 download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
 gpu: Adreno 330
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 root_method: [custom, 'https://forum.xda-developers.com/android/development/guide-root-method-lg-devices-t3049772']
-height: 5.45 inches (138.5 mm)
+height: 138.5 mm (5.45 in)
 image: g2.png
 install_method: dd
 kernel: android_kernel_lge_msm8974
@@ -44,5 +44,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 2.79 inches (70.9 mm)
-wifi: 802.11 a/b/g/n/ac
+width: 70.9 mm (2.79 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

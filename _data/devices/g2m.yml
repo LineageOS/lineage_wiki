@@ -1,6 +1,6 @@
 architecture: arm
-battery: 2440 mAh
-bluetooth: '4.0'
+battery: Removable Li-Ion 2440 mAh
+bluetooth: v4.0
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.3 MP'}
@@ -11,13 +11,13 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth: 9.8mm (0.39in)
+depth: 9.8 mm (0.39 in)
 download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
 gpu: Adreno 305
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 root_method: [custom, 'https://forum.xda-developers.com/g2-mini/development/root-root-g2-mini-lollipop-t3123652']
-height: 129.6mm (5.1in)
+height: 129.6 mm (5.1 in)
 image: g2m.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
@@ -32,7 +32,7 @@ ram: 1 GB
 recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
   logo appears release the buttons and then hold them down again. Choose 'Yes' twice to confirm.
 release: 2014, April
-screen: 122mm (4.8in)
+screen: 122 mm (4.8 in)
 screen_ppi: '234'
 screen_res: 540x960
 screen_tech: IPS LCD
@@ -44,5 +44,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 66mm (2.6in)
-wifi: '802.11 b/g/n'
+width: 66 mm (2.6 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot

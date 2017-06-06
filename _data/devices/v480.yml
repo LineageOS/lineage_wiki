@@ -1,6 +1,6 @@
 architecture: arm
-battery: 4200 mAh
-bluetooth: 4.0 LE
+battery: Non-removable Li-Ion 4200 mAh
+bluetooth: v4.0, LE
 cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
@@ -10,14 +10,14 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth: 9.9 mm
+depth: 9.9 mm (0.39 in)
 download_boot: With the device powered off, hold VOL UP button and connect it to the computer.
   Keep holding VOL UP button until the firmware update screen appears.
 gpu: Adreno 305
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 root_method: [kingroot]
-height: 210.8 mm
+height: 210.8 mm (8.30 in)
 image: v480.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
@@ -45,5 +45,5 @@ type: tablet
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 124.2 mm
-wifi: 802.11 a/b/g/n
+width: 124.2 mm (4.89 in)
+wifi: 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot

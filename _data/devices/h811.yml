@@ -1,6 +1,6 @@
 architecture: arm64
-battery: 3000 mAh
-bluetooth: '4.1'
+battery: Removable Li-Ion 3000 mAh
+bluetooth: v4.1 with A2DP, LE, aptX
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '8 MP'}
@@ -9,11 +9,13 @@ channels: [weekly]
 codename: h811
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
-cpu_freq: 1.44 GHz &  1.82 GHz
+cpu_freq: 4 x 1.44 GHz + 2 x 1.82 GHz
 current_branch: 14.1
+depth: 9.8mm (0.39 in)
 download_boot: Volume Up & Power
 gpu: Adreno 418
 has_recovery_partition: true
+height: 148.9 mm (5.86 in)
 image: h811.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8992
@@ -34,11 +36,12 @@ screen_ppi: '538'
 screen_res: 2560x1440
 screen_tech: IPS LCD
 sdcard: up to 2TB
-soc: Qualcomm MSM8992
+soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB
 tree: android_device_lge_h811
 type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-wifi: 802.11 a/b/g/n/ac
+width: 76.1 mm (3.00 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
