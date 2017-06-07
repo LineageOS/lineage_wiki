@@ -124,7 +124,7 @@ pathways that connect to potential contributors to teams that have contribution 
 
 ### Mirror manifest
 
-The mirror manifest can be found [here](https://www.github.com/LineageOS/mirror).
+These people are responsible for [our mirror manifest](https://www.github.com/LineageOS/mirror).
 
 | Name           | Nickname  |
 |----------------|-----------|
@@ -132,7 +132,7 @@ The mirror manifest can be found [here](https://www.github.com/LineageOS/mirror)
 
 ### Website
 
-These persons are responsible for the content of [our website](https://www.lineageos.org/):
+These people are responsible for the content of [our website](https://www.lineageos.org/):
 
 | Name            | Nickname   |
 |-----------------|------------|
