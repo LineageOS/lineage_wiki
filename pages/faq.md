@@ -28,7 +28,7 @@ permalink: faq.html
  - Don't ask.
 
 ## My device doesn't pass SafetyNet!
- - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features.
+ - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. We also wrote a [blog post](https://www.lineageos.org/Safetynet/) about this topic, which explains our reasons further.
 
 ## Can you enable signature spoofing?
  - Once again, it isn't our place to lie about security features. No.
