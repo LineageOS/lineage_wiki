@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_72445874",
+        "filename": "pages/contributors.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-07T10:44:32Z",
+      "side": 1,
+      "message": "These people",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_127e2caf",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-07T10:44:32Z",
+      "side": 1,
+      "message": "Personally, I think `git add -A` is a little clearer",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_d24f6491",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-07T10:44:32Z",
+      "side": 1,
+      "message": "Let\u0027s be consistent and use the same as the line above (either `git add -A` or `git add .`, whichever we go with)",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
