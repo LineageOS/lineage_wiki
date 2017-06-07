@@ -9,7 +9,7 @@ tags:
 
 ## How to translate
 
-We use [Crowdin](https://crowdin.com/projects/LineageOS) as our translation system. To contribute with translations, create an account there, click the desired language and apply as translator. Once you are accepted, you can click through the various files and suggest translations.
+We use [Crowdin](https://crowdin.com/projects/LineageOS) as our translation system. To submit translations, create an account there, click the desired language and apply as translator. Once you are accepted, you can click through the various files and suggest translations.
 
 ### Difference between LineageOS and LineageOS AOSP
 

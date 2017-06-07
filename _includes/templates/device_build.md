@@ -23,14 +23,14 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 * A relatively recent 64-bit computer (Linux, OS X, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable `ccache`
  or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
  build times than traditional hard drives.
-* A USB cable compatible with the {{ device.vendor }} {{device.name}} (typically micro USB)
+* A USB cable compatible with the {{ device.vendor }} {{device.name}}
 * A decent internet connection & reliable electricity :)
 * Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
  It may also be useful to know some basic command line concepts such as `cd` for “change directory”, the concept of directory hierarchies, that in Linux they are separated by /, etc.
 
 {% include tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
-Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so we'll leave that to you." %}
+Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you." %}
 
 Let's begin!
 
@@ -88,7 +88,7 @@ Different versions of LineageOS require different JDK (Java Development Kit) ver
 * LineageOS 14.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
 * LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 
-\* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See *Ask Ubuntu* question [How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher) Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
+\* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
 ### Create the directories
 
@@ -100,6 +100,9 @@ To create them:
 mkdir -p ~/bin
 mkdir -p ~/android/lineage
 ```
+
+The `~/bin` directory will contain the git-repo tool (commonly named "repo").  
+The `~/android/lineage` directory will contain the source code of LineageOS.
 
 ### Install the `repo` command
 
@@ -150,7 +153,7 @@ repo init -u https://github.com/LineageOS/android.git -b {% if device.current_br
 
 ### Download the source code
 
-To start the download of the source code to your computer:
+To start the download of the source code to your computer, type the following:
 
 ```
 repo sync
@@ -158,7 +161,7 @@ repo sync
 
 The LineageOS manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
 For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
-problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch, instead of the entire LineageOS history.
+problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch instead of all different LineageOS versions this repo contains.
 
 {% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
 
@@ -177,7 +180,7 @@ breakfast {{ device.codename }}
 This will download your device's [device specific configuration](https://github.com/LineageOS/{{ device.tree }}) and
 [kernel](https://github.com/LineageOS/{{ device.kernel }}).
 
-{% include important.html content="Some maintainers require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
+{% include important.html content="Some devices require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
 makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
 `breakfast`](#prepare-the-device-specific-code)" %}
 
@@ -225,13 +228,13 @@ or add that line to your `~/.bashrc` file.
 {% if device.current_branch >= 14 %}
 ### Configure jack
 
-[Jack](http://source.android.com/source/jack.html) is the new Java compiler used when building LineageOS 14.1. It is known to run out of memory - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) is the new Java compiler used when building LineageOS 14.1. It is known to run out of memory very often if not configured correctly - a simple fix is to run this command:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 ```
 
-Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory.
+Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory (In this case, 4GB).
 {% endif %}
 
 ### Start the build

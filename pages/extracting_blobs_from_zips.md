@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Extracting proprietary blobs from installable zip
+title: Extracting proprietary blobs from LineageOS zip files
 permalink: extracting_blobs_from_zips.html
 ---
 ## Introduction
