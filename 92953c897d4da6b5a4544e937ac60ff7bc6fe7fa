@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_122cecaa",
+        "filename": "pages/contributors.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 128,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-06-07T11:02:53Z",
+      "side": 1,
+      "message": "Done\n(Also changed in the paragraph below)",
+      "parentUuid": "da87b5cf_72445874",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_127e2caf",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 2
@@ -36,6 +54,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_b218a085",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-06-07T11:02:53Z",
+      "side": 1,
+      "message": "I think `git add .` is better because it\u0027s most commonly used in guides",
+      "parentUuid": "da87b5cf_127e2caf",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_d24f6491",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 2
@@ -47,6 +83,24 @@
       "writtenOn": "2017-06-07T10:44:32Z",
       "side": 1,
       "message": "Let\u0027s be consistent and use the same as the line above (either `git add -A` or `git add .`, whichever we go with)",
+      "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_d21d2475",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 193,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-06-07T11:02:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da87b5cf_d24f6491",
       "revId": "92953c897d4da6b5a4544e937ac60ff7bc6fe7fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
