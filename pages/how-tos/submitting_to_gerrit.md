@@ -19,21 +19,23 @@ Then, make sure your local git username matches with your Gerrit username::
 git config --global review.review.lineageos.org.username "gerrit username"
 ```
 
-If you already have SSH keys set up (e.g. for GitHub), skip the following steps.
+If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
-Generate SSH keys,<sup>[[1]](#TroubleshootingTag)</sup> and copy/paste to your Gerrit account under **Settings -> SSH Public Keys**:
+Generate the SSH keys,<sup>[[1]](#TroubleshootingTag)</sup>:
 
 ```
 ssh-keygen -t rsa -C "your@email.com"
 ```
 
-Make sure your keys are added to your ssh agent:
+Add the keys to the ssh-agent:
 
 ```
 eval `ssh-agent -s`
 ssh-add ~/.ssh/id_rsa
 ssh-add
 ```
+
+After that, copy/paste the content of `~/.ssh/id_rsa.pub` to your Gerrit SSH Settings under **Settings -> SSH Public Keys**.
 
 The steps above have to be performed only once.
 
@@ -65,7 +67,7 @@ Your shell will then navigate to the root of the sources, `~/android/lineage` or
 
 ### Uploading your changes
 
-First, you need to start a topic branch. This 'branch' holds the changes you make to the files on your computer that you will ultimately send to the LineageOS's Gerrit instance for review. Create your topic branch:
+First, you need to start a topic branch. This branch holds the changes you make to the files on your computer that you will ultimately send to the LineageOS's Gerrit instance for review. Create your topic branch:
 
 ```
 repo start <branch name> <project path>
@@ -81,7 +83,7 @@ cd path/to/project
 
 Do all the changes you need.
 
-{% include warning.html content="Make sure you do not edit any files before you run `repo start`, otherwise your changes will happen on a different branch and will not be tracked correctly." %}
+{% include warning.html content="Make sure you do not commit any files before you run `repo start`, otherwise your changes will happen on a different branch and will not be tracked correctly." %}
 
 After you make your changes, you can commit them just as you normally would:
 
@@ -89,8 +91,9 @@ After you make your changes, you can commit them just as you normally would:
 git add <file you edited>
 git commit
 ```
+Alternatively you can run `git add .` to stage all changes
 
-{% include tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars." %}
+{% include tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars." %}
 
 Now you can upload your changes to Gerrit:
 
@@ -126,7 +129,7 @@ Make sure you add the files that you've modified by using `git add`. Once you're
 git commit --amend
 ```
 
-This will open an editor with your initial commit message. You can change the commit message if you want to, but make sure the last two lines stay as are as it contains the initial change ID and a blank line. With this id, Gerrit will detect your upload as a patch set and not as a new patch.
+This will open an editor with your initial commit message. You can change the commit message if you want to, but make sure the line starting with Change-Id remains unchanged as it contains the initial change ID. With this id, Gerrit will detect your upload as a patch set and not as a new patch.
 
 {% include note.html content="The default editor is vi. This can be changed by the EDITOR environment variable to any editor you like." %}
 
@@ -149,7 +152,7 @@ cd frameworks/base
 repo start mychanges .
 ```
 
-Make the edits to that file. You can check those changes:
+Make the edits to that file. You can check those changes (The `-n` tells that no changes should be made to the staging area, git will only show if the files are OK to be staged):
 
 ```
 git add InputDevice.java -n
@@ -187,8 +190,8 @@ repo start mychanges-wpa_supplicant .
 Make changes, edit a few files, add new drivers.. etc.
 
 ```
-git add *
-git commit -am 'Added AWEXT drivers'
+git add .
+git commit -m 'Added AWEXT drivers'
 repo upload .
 ```
 
@@ -197,12 +200,12 @@ repo upload .
 <sup>[1]</sup> If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using a DSA key instead of RSA.
 
 ```
-ssh-keygen -t dsa -C "<email>@<server>.<domain>"
+ssh-keygen -t dsa -C "your@email.com"
 ```
 
 ## Getting your submission reviewed/merged
 
-All submitted patches go through a code review process prior to merger. In addition to getting reviewed by your peers, selected project members have the capability to merge your code into LineageOS (to make sure they get informed, add one or more responsible reviewers to your change). To see a breakdown of who is responsible for the various areas, please see the list of [LineageOS contributors](contributors.html).
+All submitted patches go through a code review process prior to being merged. In addition to getting reviewed by your peers, selected project members have the capability to merge your code into LineageOS (to make sure they get informed, add one or more responsible reviewers to your change). To see a breakdown of who is responsible for the various areas, please see the list of [LineageOS contributors](contributors.html).
 
 ## Common commands
 
