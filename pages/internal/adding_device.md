@@ -69,7 +69,7 @@ device's codename. Each of these files should go in `pages/<build|info|install>/
 
 ## Testing it works
 
-Start the wiki on your local Jekyll server, and navigate to [the devices list](http://localhost:4000/devices.html). Your device should be there.
+Start the wiki on your local Jekyll server, and navigate to [the devices list](/devices/). Your device should be there.
 Click on it, and check that the info/install/build pages all seem correct.
 
 ## Submitting your device
