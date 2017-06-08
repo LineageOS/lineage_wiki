@@ -1,0 +1,42 @@
+battery: TODO
+bluetooth: 3.0
+cameras:
+- {flash: '', info: 1.3MP}
+carrier: ''
+cdma: ''
+channels: [none]
+codename: lifetab_s9512
+cpu: Cortex A9
+cpu_cores: '2'
+cpu_freq: 1.0 GHz
+current_branch: 9.0
+depth: ''
+download_boot: TODO
+gpu: Imagination Technologies PowerVR SGX 540
+gsm: TODO 850 900 1800 1900 MHz GPRS/EDGE850 900 1900 2100 MHz UMTS/HSPA+
+has_recovery_partition: false
+height: '247 x 185 x 8,9'
+image: i9100.png
+install_method: TODO
+kernel: android_kernel_lenovo_ideatab_s109
+lte: ''
+maintainers: [Marvin Schmidt]
+name: MEDION Lifetab S9512
+peripherals: ['']
+ram: 1GB
+recovery_boot: Volume Up, Home, & Power
+release: TODO
+screen: 246 mm (9.7 in)
+screen_ppi: TODO
+screen_res: 1024x720
+screen_tech: ''
+sdcard: up to 32GB
+soc: OMAP TI 4300
+storage: 16GB
+tree: android_device_lenovo_lifetab_s9512
+type: tablet
+vendor: Lenovo
+vendor_short: lenovo
+versions: [9.0]
+width: ''
+wifi: 802.11 a/b/g/n
