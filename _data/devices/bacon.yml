@@ -28,7 +28,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [GPS, NFC, Light sensor, Proximity sensor]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: Power down the device by holding down the power button. Then hold the Volume Down and Power buttons.
 release: 2014 June 6
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
