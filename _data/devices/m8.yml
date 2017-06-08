@@ -13,7 +13,8 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 depth: 9.35 mm (0.37 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons
-  until HBOOT appears, then release the buttons.
+  until HBOOT appears, then release the buttons. Navigate using the volume keys and
+  select FASTBOOT using the Power key.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 146.36 mm (5.76 in)
