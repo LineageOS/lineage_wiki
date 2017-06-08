@@ -1,0 +1,44 @@
+battery: Removable 2500 mAh
+bluetooth: v4, A2DP, BLE
+cameras:
+- {flash: Dual LED, info: 16MP}
+- {flash: '', info: 8MP}
+carrier:
+channels: [weekly]
+codename: crackling
+cpu: 64-bit Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.4 GHz
+current_branch: 14.1
+depth:
+download_boot: With the device powered down, hold the Volume Up and connect USB.
+gpu: Adreno 505
+has_recovery_partition: true
+height:
+image: TODO
+install_method: TODO
+kernel: TODO
+maintainers: ['']
+name: Swift 2 Plus
+network:
+- {tech: 2G, bands: '' }
+- {tech: 3G, bands: '' }
+- {tech: 4G, bands: '' }
+peripherals: [Dual SIM]
+ram: 3GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2016 November
+screen: 127 mm (5.0 in)
+screen_ppi: '296'
+screen_res: 1280x720
+screen_tech: IPS LCD
+sdcard: up to 32GB
+soc: Qualcomm MSM8937 Snapdragon 430
+storage: 32GB
+tree: TODO
+type: phone
+vendor: Wileyfox
+vendor_short: wileyfox
+versions: [14.1]
+width:
+wifi: 802.11 b/g/n
