@@ -37,7 +37,7 @@ screen_ppi: '312'
 screen_res: 720 x 1280
 screen_tech: IPS LCD
 sdcard: up to 64 GB
-soc: Qualcomm MSM8226 Snapdragon 400
+soc: Qualcomm MSM8228 Snapdragon 400
 storage: 8 GB
 tree: android_device_xiaomi_armani
 type: phone
