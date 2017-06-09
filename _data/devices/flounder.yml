@@ -20,7 +20,7 @@ image: flounder.png
 install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
 maintainers: [hashbang173, razorloves]
-name: Nexus 9
+name: Nexus 9 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
