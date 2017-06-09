@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_feeeefb3",
+        "filename": "_data/devices/flamingo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-09T12:26:39Z",
+      "side": 1,
+      "message": "Errrrr... what?",
+      "revId": "f290786d97b58307177f382c424fad6b67b50441",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_9e8fa323",
         "filename": "_data/devices/flamingo.yml",
         "patchSetId": 1
