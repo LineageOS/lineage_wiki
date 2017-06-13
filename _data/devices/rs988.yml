@@ -1,0 +1,46 @@
+architecture: arm64
+battery: Removable Li-Ion 2800 mAh
+bluetooth: v4.2 with A2DP, LE, aptX HD
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: rs988
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 14.1
+depth: 7.7 mm (0.30 in)
+download_boot: Volume Up & Power
+gpu: Adreno 530
+has_recovery_partition: true
+height: 149.4 mm (5.88 in)
+image: g5.png
+install_method: fastboot_lg
+kernel: android_kernel_lge_msm8996
+maintainers: [rashed]
+name: G5 (GSM Unlocked)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum, FM Radio]
+ram: 4 GB
+recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for 1 sec and hold it again till recovery comes up
+release: February 2016
+screen: 134.62 mm (5.3 in)
+screen_ppi: '554'
+screen_res: 2560x1440
+screen_tech: IPS LCD
+sdcard: up to 2TB
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 32 GB
+tree: android_device_lge_h850
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width: 73.9 mm (2.91 in)
+wifi: 802.11 a/b/g/n/ac
