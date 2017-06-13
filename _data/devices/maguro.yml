@@ -12,8 +12,8 @@ cpu_freq: 1.2 GHz
 cpu_cores: '2'
 current_branch: 13.0
 depth: 8.9 mm
-download_boot: With the device powered down, hold the Volume Down and Power buttons
-  until the bootloader appears, then release the buttons.
+download_boot: With the device powered down, hold the Volume Down and Volume Up
+  buttons. Then press and hold the Power button until the bootloader appears.
 gpu: PowerVR SGX540 @ 384 Mhz
 has_recovery_partition: true
 height: 135.5 mm
