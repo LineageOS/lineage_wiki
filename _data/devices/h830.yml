@@ -18,7 +18,7 @@ gpu: Adreno 530
 has_recovery_partition: true
 height: 149.4 mm (5.88 in)
 image: g5.png
-install_method: TODO
+install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
 maintainers: [rashed]
 name: G5 (T-Mobile)
@@ -40,6 +40,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_h830
 type: phone
+unlock_bootloader_guide: 'https://forum.xda-developers.com/v20/development/h918-recowvery-unlock-v20-root-shell-t3490594'
 vendor: LG
 vendor_short: lge
 versions: [14.1]
