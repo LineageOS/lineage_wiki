@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_ecb5d7cd",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-16T20:07:29Z",
+      "side": 1,
+      "message": "Eh... Can you come up with a better commit message?\n\nMaybe \"Add warning for specific OS for unlocking\"? or something similar?",
+      "revId": "b1013a5a3ec6dd8c470afd01ffaf6cb04c5d3374",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_8cca0b4e",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-16T20:07:29Z",
+      "side": 1,
+      "message": "There are also some [...]",
+      "revId": "b1013a5a3ec6dd8c470afd01ffaf6cb04c5d3374",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_acc7cf44",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-16T20:07:29Z",
+      "side": 1,
+      "message": "Is Miui not normally all in caps? Like MIUI?",
+      "revId": "b1013a5a3ec6dd8c470afd01ffaf6cb04c5d3374",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
