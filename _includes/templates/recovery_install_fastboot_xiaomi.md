@@ -4,6 +4,9 @@
 {% include note.html content="The steps below only need to be run once per device." %}
 {% include warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
+{% include warning.html content="To unlock this device, you will need a specific OS (Windows). 
+Also there are some users with bad experiences: Miui Unlock Tool is not working right now, due a «Network Error»
+For more info, see: http://en.miui.com/thread-651257-1-1.html" %}
 
 1. Visit [Xiaomi's official unlocking website](http://en.miui.com/unlock/).
 2. Apply for unlocking permissions.
