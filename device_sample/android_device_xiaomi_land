@@ -1,0 +1,46 @@
+architecture: arm64
+battery: Non-removable Li-Ion 4100 mAh 
+bluetooth: 4.1 A2DP
+cameras:
+- Primary - 13 MP
+- secondary - 5 MP
+carrier: international
+channels: [weekly]
+codename: land
+cpu: Cortex-A53
+cpu_cores: 8
+cpu_freq: 1.4 GHz
+miui version: 8.2.5
+android version:6.0.1
+custom_unlock_cmd: mi unlock (need permission from xiaomi)
+depth: 7.3 mm (0.29 in)
+download_boot: With the device powered off, hold Vol Down & Home & Power.
+gpu: Adreno 505
+has_recovery_partition: true
+height:  139.3 mm
+image: http://static.digit.in/product/f160e6c2017e9a34b730ba6fc505d7246f9d2401.jpeg
+install_method: mi flash
+kernel: android_kernel_xiaomi_msm8937
+maintainers: Haran govindan
+models:  redmi 3s,redmi 3s prime 
+name: redmi 3s
+network:4G	FDD-LTE TDD-LTE	B3/B5 B40
+peripherals: Accelerometer, gyro, proximity, compass and fingerprint recognition
+ram: 3 GB
+recovery_boot: With the device powered off, hold Volume up, Power. Then askes you for recovery or bootloader. Select recovery.
+release: june 2016
+required_bootloader: 
+screen: 5 in
+screen_ppi: 294
+screen_res: 1280 x 720
+screen_tech: LCD
+sdcard: up to 128 GB
+soc: Qualcomm MSM8937 Snapdragon 430
+storage: 16/32 GB
+tree: android_device_xiaomi_land
+type: redmi 
+vendor: Xiaomi 
+vendor_short: Mi
+versions: 5 in
+width: 69.6 m 
+wifi: 802.11 b/g/n
