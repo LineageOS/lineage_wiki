@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_70dbd5ed",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-21T14:49:45Z",
+      "side": 1,
+      "message": "I think this should read \"The message [...]\"",
+      "revId": "f0728904e871f12588dc3ae571cc879fc59f0071",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_90d8d9f0",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-21T14:49:45Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "f0728904e871f12588dc3ae571cc879fc59f0071",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
