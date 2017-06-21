@@ -12,10 +12,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% endif %}
 
 {% unless site.data.devices[page.device].no_oem_unlock_switch %}
-3. Enable OEM unlock in the Developer options settings on the device, if present.
+3. Enable OEM unlock in the Developer options under device Settings, if present.
 {% endunless %}
 4. Connect the device to your PC via USB.
-5. Open a terminal on the PC and boot the device to fastboot mode by typing:
+5. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 
         adb reboot bootloader
 
@@ -28,8 +28,8 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
         fastboot devices
 
-    If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
-7. From the same terminal, type the following command to unlock the bootloader:
+    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+7. Now type the following command to unlock the bootloader:
 
 {% if site.data.devices[page.device].custom_unlock_cmd %}
         {{ site.data.devices[page.device].custom_unlock_cmd }}
