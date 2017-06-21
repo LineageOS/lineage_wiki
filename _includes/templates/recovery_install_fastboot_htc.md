@@ -8,7 +8,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 1. Enable OEM unlock in the Developer options settings on the device, if present.
 {% endunless %}
 2. Connect the device to your PC via USB.
-3. Open a terminal on the PC and boot the device to fastboot mode by typing:
+3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 
         adb reboot bootloader
 
@@ -21,8 +21,8 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
         fastboot devices
 
-    If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
-5. From the same terminal, type the following command to obtain your bootloader unlock token:
+    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+5. Now type the following command to obtain your bootloader unlock token:
 
         fastboot oem get_identifier_token
 
