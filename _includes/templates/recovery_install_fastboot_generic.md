@@ -3,13 +3,13 @@
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
    and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
 2. Connect your device to your PC via USB.
-3. Open a terminal on the PC and boot the device to fastboot mode by typing:
+3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 
         adb reboot bootloader
 
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
-    
+
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
