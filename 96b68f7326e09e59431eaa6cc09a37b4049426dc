@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_6e7a118a",
+        "filename": "_data/devices/gtelwifiue.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-22T20:54:27Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "revId": "96b68f7326e09e59431eaa6cc09a37b4049426dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
