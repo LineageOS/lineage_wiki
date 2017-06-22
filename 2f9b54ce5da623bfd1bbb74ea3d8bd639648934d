@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_ae48195c",
+        "filename": "_data/devices/gtesqltespr.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-22T20:53:51Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "revId": "2f9b54ce5da623bfd1bbb74ea3d8bd639648934d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
