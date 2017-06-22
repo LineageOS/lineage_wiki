@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_2e5de921",
+        "filename": "_data/devices/gprimelte.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-22T20:52:58Z",
+      "side": 1,
+      "message": "Trailing whitespace",
+      "revId": "e93e73d1b2d8cba331fc30bd19ac152207eece5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_ce41dd3a",
+        "filename": "_data/devices/gprimeltespr.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-22T20:52:58Z",
+      "side": 1,
+      "message": "and here",
+      "revId": "e93e73d1b2d8cba331fc30bd19ac152207eece5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_ee3e21b8",
+        "filename": "_data/devices/gprimeltexx.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-06-22T20:52:58Z",
+      "side": 1,
+      "message": "and here",
+      "revId": "e93e73d1b2d8cba331fc30bd19ac152207eece5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
