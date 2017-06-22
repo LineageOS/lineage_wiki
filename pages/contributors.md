@@ -59,10 +59,11 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Brinly Taylor | brinlyau |
 | Christopher N. Hesse | raymanfx |
 | Clark Scheff | D34D |
+| Gabriele M | gmrt |
 | Harry Youd | harryyoud |
 | Joey Rizzoli | joeyrizzoli |
+| LuK1337 | LuK1337 |
 | Luca Stefani | luca020400 |
-| Luk1337 | Luk1337 |
 | Rashed Abdel-Tawab | rashed |
 | Zhao Wei Liew | zwliew |
 
