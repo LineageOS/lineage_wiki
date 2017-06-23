@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 5000 mAh
+bluetooth: 4.1 with A2DP
+cameras:
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '2 MP'}
+carrier: Sprint
+channels: [weekly]
+codename: gtesqltespr
+cpu: Cortex A53
+cpu_cores: 4
+cpu_freq: 1.2GHz
+current_branch: 14.1
+depth: 8.9mm (0.35 in)
+download_boot: Hold **Home**, **Volume Down**, and **Power**
+gpu: Adreno 306
+has_recovery_partition: true
+height: 212.1mm (8.35 in)
+image: gtesqltespr.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8916
+maintainers: [vince2678, deadman96385]
+models: [SM-T377P]
+name: Galaxy Tab E 8.0 LTE (Sprint)
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO CDMA2000 1xRTT' }
+- {tech: 4G, bands: '800 1900 2500 MHz LTE' }
+peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
+ram: 1.5 GB
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+release: January 2016
+screen: 203mm (8in)
+screen_ppi: 189
+screen_res: 800x1280
+screen_tech: TFT 
+sdcard: up to 128 GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 16 GB
+tree: android_device_samsung_gtesqltespr
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 126.1mm (4.96 in)
+wifi: 802.11 a/b/g/n
