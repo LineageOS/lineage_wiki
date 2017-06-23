@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 2600 mAh
+bluetooth: 4.0 with A2DP
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '5 MP'}
+carrier: Sprint
+channels: [weekly]
+codename: gprimeltespr
+cpu: Cortex A53
+cpu_cores: 4
+cpu_freq: 1.2GHz
+current_branch: 14.1
+depth: 8.6mm (0.34 in)
+download_boot: Hold **Home**, **Volume Down**, and **Power**
+gpu: Adreno 306
+has_recovery_partition: true
+height: 144.8mm (5.70 in)
+image: grandprime.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8916
+maintainers: [vince2678]
+models: [SM-G530P]
+name: Galaxy GRAND Prime (LTE) (Sprint)
+network:
+- {tech: 2G, bands: '800 1900 MHz CDMA' }
+- {tech: 3G, bands: 'CDMA2000 1xEV-DO CDMA2000 1xRTT' }
+- {tech: 4G, bands: '4(AWS) 13(700) MHz LTE' }
+peripherals: [GPS, GLONASS, NFC, USB OTG, Accelerometer, Compass, Proximity sensor]
+ram: 1.5 GB
+recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+release: October 2014
+screen: 126.4mm (5in)
+screen_ppi: 220
+screen_res: 540x960
+screen_tech: TFT 
+sdcard: up to 64 GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 8 GB
+tree: android_device_samsung_gprimeltespr
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 72.1mm (2.84 in)
+wifi: 802.11 b/g/n
