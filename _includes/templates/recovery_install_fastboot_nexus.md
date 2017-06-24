@@ -14,7 +14,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
-    
+
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
@@ -27,7 +27,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% if site.data.devices[page.device].custom_unlock_cmd %}
         {{ site.data.devices[page.device].custom_unlock_cmd }}
 {% else %}
-        fastboot oem unlock
+       fastboot flashing unlock
 {% endif %}
 
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
