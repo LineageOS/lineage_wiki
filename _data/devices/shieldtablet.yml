@@ -10,7 +10,7 @@ codename: shieldtablet
 cpu: Cortex A15
 cpu_cores: '4'
 cpu_freq: 2.2 GHz
-current_branch: 13.0
+current_branch: 14.1
 depth:
 download_boot: Hold Volume Down & tap Power, release once menu is displayed.
 gpu: GK20A (Kepler)
@@ -41,6 +41,6 @@ tree: android_device_nvidia_shieldtablet
 type: tablet
 vendor: Nvidia
 vendor_short: nvidia
-versions: [13.0]
+versions: [13.0, 14.1]
 width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
