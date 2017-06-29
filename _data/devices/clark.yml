@@ -3,7 +3,7 @@ battery: 3000 mAh
 bluetooth: 4.1 LE
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'LED', info: '5 MP'}
 carrier:
 channels: [weekly]
 codename: clark
