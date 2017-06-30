@@ -21,7 +21,7 @@ height: 129.6 mm (5.1 in)
 image: g2m.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
-maintainers: [NikitaProAndroid, MobiusM]
+maintainers: [MobiusM]
 name: 'G2 Mini'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

@@ -20,7 +20,7 @@ height: 143.15 mm (5.64 in)
 image: vegetalte.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
-maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki, Team aquaris-dev]
+maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki]
 name: Aquaris E5 4G / Aquaris E5s
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
