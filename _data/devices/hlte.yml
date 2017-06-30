@@ -19,7 +19,7 @@ height: 151.2 mm (5.95 in)
 image: hlte.png
 install_method: heimdall
 kernel: android_kernel_samsung_hlte
-maintainers: [haggertk, trader418]
+maintainers: [haggertk]
 models: [SM-N9005]
 name: Galaxy Note 3 (International LTE)
 network:

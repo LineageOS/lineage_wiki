@@ -18,7 +18,7 @@ root_method: [custom, 'https://forum.xda-developers.com/showthread.php?t=2732311
 image: w5.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
-maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
+maintainers: [vm03, Quarx2k, MobiusM]
 name: Optimus L70
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }

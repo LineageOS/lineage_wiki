@@ -19,7 +19,7 @@ height: 247.3mm
 image: n2awifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers: [deadman96385, LaCruz]
+maintainers: [deadman96385]
 models: [SM-T520]
 name: Galaxy Tab PRO 10.1
 network:
