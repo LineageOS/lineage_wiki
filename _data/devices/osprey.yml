@@ -18,7 +18,7 @@ has_recovery_partition: true
 image: osprey.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [alberto97]
+maintainers: [Alberto97]
 models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: Moto G 2015
 network:

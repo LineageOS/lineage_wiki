@@ -21,7 +21,7 @@ root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root
 image: jag3gds.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
-maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
+maintainers: [vm03, MobiusM]
 name: G3 Beat
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
