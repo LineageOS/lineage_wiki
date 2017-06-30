@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_a2133cb7",
+        "filename": "_data/translators.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-06-30T20:40:19Z",
+      "side": 1,
+      "message": "This is [Gerrit name (nickname)], so it was correct.",
+      "range": {
+        "startLine": 48,
+        "startChar": 21,
+        "endLine": 48,
+        "endChar": 40
+      },
+      "revId": "e7f5c91a9fa21eb681341663a6f0eff1da11511c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
