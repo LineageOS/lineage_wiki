@@ -21,7 +21,7 @@ height: 144.6 mm (5.69 in)
 image: gemini.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8996
-maintainers: [bgcngm, defer, h2o64]
+maintainers: [bgcngm, h2o64]
 name: Mi 5
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }

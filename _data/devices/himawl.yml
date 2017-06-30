@@ -20,7 +20,7 @@ height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8994
-maintainers: [flyhalf205, raymanfx, rashed]
+maintainers: [raymanfx, rashed]
 name: One M9 (Verizon)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }

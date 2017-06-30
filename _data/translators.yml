@@ -45,7 +45,7 @@ languages:
     - name: Finnish
       proofreaders: [Niko Koivu (niko0o)]
     - name: French
-      proofreaders: [Adrian DC (RadianDC)]
+      proofreaders: [AdrianDC (RadianDC)]
     - name: Galician
       proofreaders: [mandruis (manuiglesias96)]
     - name: German

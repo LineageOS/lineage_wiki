@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: v500
 cpu: Qualcomm Krait 300
 cpu_cores: '4'
@@ -21,7 +21,7 @@ height: 216.8 mm (8.54 in)
 image: v500.png
 install_method: dd
 kernel: android_kernel_lge_v500
-maintainers: [fefifofum]
+maintainers:
 name: G Pad 8.3
 network:
 - {tech: 2G, bands: '' }

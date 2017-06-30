@@ -20,7 +20,7 @@ height: 151.7 mm (5.97 in)
 image: axon7.png
 install_method: fastboot_custom
 kernel: android_kernel_zte_msm8996
-maintainers: [bmc08gt, c457, tdm]
+maintainers: [bmc08gt, unjustified dev, tdm]
 name: 'Axon 7'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA model)' }
