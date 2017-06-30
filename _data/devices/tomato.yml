@@ -19,7 +19,7 @@ height: 152.9 mm
 image: tomato.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [Meninblack007, mikeioannina, h2o64]
+maintainers: [Men_in_black007, mikeioannina, h2o64]
 name: Yureka / Yureka Plus
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }

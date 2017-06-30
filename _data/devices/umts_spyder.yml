@@ -17,7 +17,7 @@ has_recovery_partition: true
 image: umts_spyder.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-maintainers: [Hashcode0f, dhacker29, stargo]
+maintainers: [hashcode, stargo]
 models: [XT910]
 name: RAZR/RAZR MAXX (GSM)
 network:

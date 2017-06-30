@@ -19,7 +19,7 @@ height:
 image: ks01lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_ks01lte
-maintainers: [solk2]
+maintainers: [solk]
 models: [GT-I9506]
 name: Galaxy S4 LTE-A (GT-I9506)
 network:
