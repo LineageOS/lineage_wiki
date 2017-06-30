@@ -18,7 +18,7 @@ has_recovery_partition: true
 image: jalebi.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [ashwinr64, mikeioannina, h2o64]
+maintainers: [ashwin007, mikeioannina, h2o64]
 name: Yunique
 network:
 - {tech: 2G, bands: '' }
