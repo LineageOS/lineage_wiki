@@ -22,6 +22,30 @@
       "revId": "e7f5c91a9fa21eb681341663a6f0eff1da11511c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_82bab86c",
+        "filename": "_data/translators.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-30T23:27:25Z",
+      "side": 1,
+      "message": "Thanks, fixed",
+      "parentUuid": "da87b5cf_a2133cb7",
+      "range": {
+        "startLine": 48,
+        "startChar": 21,
+        "endLine": 48,
+        "endChar": 40
+      },
+      "revId": "e7f5c91a9fa21eb681341663a6f0eff1da11511c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
