@@ -19,7 +19,7 @@ height: 153.3 mm (6.04 in)
 image: griffin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
-maintainers: [vache, shr3ps, stargo]
+maintainers: [Vache, shr3ps, stargo]
 models: [XT1650-03, XT1650-05]
 name: Moto Z
 network:

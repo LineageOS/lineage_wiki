@@ -17,7 +17,7 @@ has_recovery_partition: true
 image: merlin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [FireLord1]
+maintainers: [FireLord]
 models: [XT1556, XT1557]
 name: Moto G3 Turbo
 network:
