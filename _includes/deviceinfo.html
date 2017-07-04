@@ -137,6 +137,9 @@ ul, ol {
     {% endif %}
     <tr>
         <td class="header">Cameras</td>
+        {% if device.cameras | size == 0 %}
+        <td>None</td>
+        {% else %}
         <td>{{ device.cameras | size }}
             <ul>
                 {% for el in device.cameras %}
@@ -151,6 +154,7 @@ ul, ol {
                 {% endfor %}
             </ul>
         </td>
+        {% endif %}
     </tr>
     {% if device.height and device.width and device.depth %}
     <tr>
