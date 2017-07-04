@@ -107,10 +107,12 @@ ul, ol {
         <td>{{ device.sdcard }}</td>
     </tr>
     {% endif %}
+    {% if device.screen %}
     <tr>
         <td class="header">Screen</td>
         <td>{{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>{{ device.screen_tech }}</td>
     </tr>
+    {% endif %}
     {% if device.bluetooth %}
     <tr>
         <td class="header">Bluetooth</td>
@@ -135,6 +137,7 @@ ul, ol {
         </td>
     </tr>
     {% endif %}
+    {% if device.cameras and device.cameras.size > 0 %}
     <tr>
         <td class="header">Cameras</td>
         <td>{{ device.cameras | size }}
@@ -152,6 +155,7 @@ ul, ol {
             </ul>
         </td>
     </tr>
+    {% endif %}
     {% if device.height and device.width and device.depth %}
     <tr>
         <td class="header">Dimensions</td>
