@@ -137,20 +137,24 @@ ul, ol {
     {% endif %}
     <tr>
         <td class="header">Cameras</td>
-        <td>{{ device.cameras | size }}
-            <ul>
-                {% for el in device.cameras %}
-                    <li>
-                        {{ el.info }},
-                        {% if el.flash != '' %}
-                            {{ el.flash }}
-                        {% else %}
-                            No
-                        {% endif %} flash
-                    </li>
-                {% endfor %}
-            </ul>
-        </td>
+        {% if device.cameras | size == 0 or !device.cameras %}
+            <td>None</td>
+        {% else %}
+            <td>{{ device.cameras | size }}
+                <ul>
+                    {% for el in device.cameras %}
+                        <li>
+                            {{ el.info }},
+                            {% if el.flash != '' %}
+                                {{ el.flash }}
+                            {% else %}
+                                No
+                            {% endif %} flash
+                        </li>
+                    {% endfor %}
+                </ul>
+            </td>
+        {% endif %}
     </tr>
     {% if device.height and device.width and device.depth %}
     <tr>
