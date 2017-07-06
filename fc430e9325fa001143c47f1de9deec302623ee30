@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_a79d815b",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-06T08:32:50Z",
+      "side": 1,
+      "message": "This doesn\u0027t belong to this change. Although what you say is true (that you don\u0027t need to specify the destination filename), the rest of the instructions expect the filename to be twrp-{{ site.data.devices[page.device].codename }}.img. See step 3.",
+      "parentUuid": "da87b5cf_87acfda1",
+      "range": {
+        "startLine": 22,
+        "startChar": 97,
+        "endLine": 22,
+        "endChar": 152
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_e78ce937",
         "filename": "_includes/templates/recovery_install_fastboot_htc.md",
         "patchSetId": 10
@@ -83,6 +107,24 @@
       "writtenOn": "2017-07-06T07:48:04Z",
       "side": 1,
       "message": "Does this page need a similar message to the others about updating to the newest stock firmware?",
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_47a4b5a5",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-06T08:32:50Z",
+      "side": 1,
+      "message": "No.",
+      "parentUuid": "da87b5cf_e78ce937",
       "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -221,6 +263,24 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_67f45987",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-06T08:32:50Z",
+      "side": 1,
+      "message": "No need.",
+      "parentUuid": "da87b5cf_87839d03",
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_a786e111",
         "filename": "_includes/templates/recovery_install_fastboot_nexus.md",
         "patchSetId": 10
@@ -255,6 +315,30 @@
       "writtenOn": "2017-07-06T07:48:04Z",
       "side": 1,
       "message": "Does markdown handle the numbering automatically? Just double checking (as I\u0027m not entirely sure)",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 2
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_07f30d9f",
+        "filename": "_includes/templates/recovery_install_fastboot_oppo.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-06T08:32:50Z",
+      "side": 1,
+      "message": "Yes.",
+      "parentUuid": "da87b5cf_477d951b",
       "range": {
         "startLine": 15,
         "startChar": 0,
@@ -370,6 +454,30 @@
       "writtenOn": "2017-07-06T07:48:04Z",
       "side": 1,
       "message": "Does it actually say \"unlock successfully\" and not \"unlock successful\"?",
+      "range": {
+        "startLine": 28,
+        "startChar": 80,
+        "endLine": 28,
+        "endChar": 99
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_27ee51b5",
+        "filename": "_includes/templates/recovery_install_fastboot_zenfone.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-06T08:32:50Z",
+      "side": 1,
+      "message": "#JustOEMthings",
+      "parentUuid": "da87b5cf_c790c545",
       "range": {
         "startLine": 28,
         "startChar": 80,
