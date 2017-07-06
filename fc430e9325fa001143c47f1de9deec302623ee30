@@ -1,0 +1,360 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_e7a5c9b5",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Really nitpicking here, but this doesn\u0027t need to be capitalised",
+      "range": {
+        "startLine": 10,
+        "startChar": 73,
+        "endLine": 10,
+        "endChar": 81
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_87acfda1",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Is this bit really needed? I can push stuff fine without having to specify the destination file name. Something like:\nadb push twrp.img /sdcard/",
+      "range": {
+        "startLine": 22,
+        "startChar": 97,
+        "endLine": 22,
+        "endChar": 152
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_e78ce937",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Does this page need a similar message to the others about updating to the newest stock firmware?",
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_a7afc193",
+        "filename": "_includes/templates/recovery_install_fastboot_htc.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "in Developer options in the Settings app\n\nMaybe? \"Developer options settings\" sounds a bit unnatural",
+      "range": {
+        "startLine": 8,
+        "startChar": 21,
+        "endLine": 8,
+        "endChar": 68
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_6791b951",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "lock status, reboot",
+      "range": {
+        "startLine": 32,
+        "startChar": 27,
+        "endLine": 32,
+        "endChar": 45
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_07a0ed9d",
+        "filename": "_includes/templates/recovery_install_fastboot_huawei.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Why is this at the bottom of the page? Is it not better at the top, before the unlock?",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 154
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_279bb173",
+        "filename": "_includes/templates/recovery_install_fastboot_lg.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "I can\u0027t quite place what, but this sentence doesn\u0027t quite sound right. Maybe:\n\nVisit LG\u0027s official unlocking website, where you\u0027ll be asked to login\n\nor\n\nVisit LG\u0027s official unlocking website. You\u0027ll need to login first",
+      "range": {
+        "startLine": 7,
+        "startChar": 2,
+        "endLine": 7,
+        "endChar": 140
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_c789a527",
+        "filename": "_includes/templates/recovery_install_fastboot_lg.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Again, is this better near the top?",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 158
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_87839d03",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Latest stock firmware?",
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_a786e111",
+        "filename": "_includes/templates/recovery_install_fastboot_nexus.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Note: We may have to review this at a later date, as I think Google are transitioning to a new command:\n\nfastboot flashing unlock",
+      "range": {
+        "startLine": 30,
+        "startChar": 8,
+        "endLine": 30,
+        "endChar": 27
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_477d951b",
+        "filename": "_includes/templates/recovery_install_fastboot_oppo.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Does markdown handle the numbering automatically? Just double checking (as I\u0027m not entirely sure)",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 2
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_6778d92b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Is the inconsistent quoting here intentional?",
+      "range": {
+        "startLine": 10,
+        "startChar": 9,
+        "endLine": 10,
+        "endChar": 136
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_07778d3b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Do we want to use a similar text to the others? \"Sony\u0027s official unlocking site\"",
+      "range": {
+        "startLine": 26,
+        "startChar": 31,
+        "endLine": 26,
+        "endChar": 55
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_e793894d",
+        "filename": "_includes/templates/recovery_install_fastboot_zenfone.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "\"agree to the terms\" sounds a little more fluent\n\nYou agree with a person and agree to the terms",
+      "range": {
+        "startLine": 25,
+        "startChar": 44,
+        "endLine": 25,
+        "endChar": 64
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_2772d149",
+        "filename": "_includes/templates/recovery_install_fastboot_zenfone.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "ASUS vs Asus?",
+      "range": {
+        "startLine": 25,
+        "startChar": 465,
+        "endLine": 25,
+        "endChar": 469
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_c790c545",
+        "filename": "_includes/templates/recovery_install_fastboot_zenfone.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-06T07:48:04Z",
+      "side": 1,
+      "message": "Does it actually say \"unlock successfully\" and not \"unlock successful\"?",
+      "range": {
+        "startLine": 28,
+        "startChar": 80,
+        "endLine": 28,
+        "endChar": 99
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
