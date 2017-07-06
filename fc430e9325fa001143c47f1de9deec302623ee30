@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "da87b5cf_679f7951",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 17688
+      },
+      "writtenOn": "2017-07-06T08:10:52Z",
+      "side": 1,
+      "message": "The forward slash at the end is important though, otherwise adb will complain about trying to overwrite a directory with a file.",
+      "parentUuid": "da87b5cf_87acfda1",
+      "range": {
+        "startLine": 22,
+        "startChar": 97,
+        "endLine": 22,
+        "endChar": 152
+      },
+      "revId": "fc430e9325fa001143c47f1de9deec302623ee30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "da87b5cf_e78ce937",
         "filename": "_includes/templates/recovery_install_fastboot_htc.md",
         "patchSetId": 10
