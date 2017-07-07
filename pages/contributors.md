@@ -7,7 +7,9 @@ versions: [14.1, 13.0]
 
 {% assign devices = "" | split: " " %}
 {% for device in site.data.devices %}
+{% unless site.data.devices[ {{device}} ].maintainers %}
 {% assign devices = devices | push: device[1] %}
+{% endunless %}
 {% endfor %}
 {% assign sorted = devices | sort: 'name' | sort: 'vendor' %}
 
