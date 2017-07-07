@@ -6,8 +6,11 @@ versions: [14.1, 13.0]
 ---
 
 {% assign devices = "" | split: " " %}
-{% for device in site.data.devices %}
-{% assign devices = devices | push: device[1] %}
+{% for i in site.data.devices %}
+{% assign device = i[1] %}
+{% if device.maintainers %}
+{% assign devices = devices | push: device %}
+{% endif %}
 {% endfor %}
 {% assign sorted = devices | sort: 'name' | sort: 'vendor' %}
 
@@ -17,6 +20,11 @@ versions: [14.1, 13.0]
 
 Head developers have extensive knowledge of the OS, and are project leads. These people have responsibility over the direction of
 the project and are committed to improving it.
+
+{% for fuck in site.data.devices %}
+{% assign cdthing = fuck[1] %}
+{{ cdthing.codename }}
+{% endfor %}
 
 | Name | Nickname |
 |------|----------|
