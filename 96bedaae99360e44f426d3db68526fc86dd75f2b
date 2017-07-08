@@ -16,6 +16,24 @@
       "revId": "96bedaae99360e44f426d3db68526fc86dd75f2b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_7b1cf177",
+        "filename": "pages/contributors.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-08T06:58:10Z",
+      "side": 1,
+      "message": "So replace the check against channel here with the check I did above?",
+      "parentUuid": "da87b5cf_fbf3219d",
+      "revId": "96bedaae99360e44f426d3db68526fc86dd75f2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
