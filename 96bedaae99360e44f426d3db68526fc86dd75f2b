@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_fbf3219d",
+        "filename": "pages/contributors.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-07-08T02:10:09Z",
+      "side": 1,
+      "message": "remove the channels check and replace it with a check for the number of maintainers",
+      "revId": "96bedaae99360e44f426d3db68526fc86dd75f2b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
