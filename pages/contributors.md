@@ -91,8 +91,8 @@ pathways that connect to potential contributors to teams that have contribution 
 </thead>
 <tbody>
 {% for device in sorted %}
-{% assign length = device.channels | size %}
-{% if device.current_branch != version or length == 0 %}
+{% assign numMaintainers = device.maintainers | size %}
+{% if device.current_branch != version or numMaintainers == 0 %}
 {% continue %}
 {% endif %}
 <tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
