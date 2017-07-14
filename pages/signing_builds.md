@@ -60,6 +60,8 @@ Then, install the zip in recovery as you normally would.
 
 ## Changing keys
 
+### Using a migration build
+
 {% include warning.html content="Builds with these patches are insecure - they reset the keys
 on all packages at every boot. Install them for as little time as possible." %}
 
@@ -71,7 +73,7 @@ repopick -f 156047 162144
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
 
-### Going back
+#### Going back
 
 After installing the migration build, you can switch back to building normal builds:
 
@@ -82,3 +84,61 @@ croot
 cd frameworks/base
 git reset --hard github/cm-14.1
 ```
+
+### Using a script
+
+You can also use a script or small flashable zip designed to be run once, before installing
+a build with the new keys. The script is available under
+`./lineage/scripts/key-migration/script.sh`
+
+The script can also be made into a zip, by inserting it into a zip similar to
+[this](https://blunden.se/migration). This zip has the script placed in 
+`META-INF/com/google/android/update-binary` with some additions to print status messages to
+the recovery.
+
+#### Test-keys to official or vice versa
+
+If you are moving from a test-keys build (eg an "unsigned" unofficial build) to an official
+LineageOS build, you can push the script to your device and run it from Android:
+
+```
+adb root # This requires an userdebug/eng build and ADB root access to be enabled
+adb shell stop
+adb push ./lineage/scripts/key-migration/migrate.sh /data/local/tmp/migrate.sh
+adb shell chmod +x /data/local/tmp/migrate.sh
+adb shell sh /data/local/tmp/migrate.sh official
+adb reboot recovery
+# Now install the official LineageOS install zip
+```
+
+Or run it from recovery:
+
+```
+# Ensure both /data and /system are mounted, then continue
+adb push ./lineage/scripts/key-migration/migrate.sh /data/local/tmp/migrate.sh
+adb shell chmod +x /data/local/tmp/migrate.sh
+adb shell /data/local/tmp/migrate.sh official
+```
+
+If you are migrating from an official build to your own "unsigned" builds, you can run the
+script in the same way, but instead using the argument "unofficial" instead of "official".
+
+#### Test-keys to your own release-keys or vice versa
+
+If you are moving from test-keys to your own signed builds, you can add your own keys to the
+script. First, export your keys to the required format, by running the script in
+`./lineage/scripts/key-migration/export-keys.sh`.
+
+{% include note.html content="You may need to modify this script to change the location of
+your certificate directory if you are not using the default certificate directory." %}
+
+This will print the keys and certs to the terminal in the format required. Next, edit the
+script to use your keys. You will need to comment out (by prepending a `#`), or remove the
+existing definitions of the "release" keys and certs. Now, copy and paste your output from
+above into the script where the previous lines were. Make sure to leave the "test" keys and
+certs definitions untouched.
+
+Your script is ready to go! Push it to the device and run it, in the same way as described
+above, then install your own signed zip. If you ever need to run this in reverse, simply
+use the "unofficial" argument instead of "official", and your keys will be replaced with
+the official keys.
