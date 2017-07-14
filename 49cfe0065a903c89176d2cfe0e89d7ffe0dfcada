@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1227a3a_e14727b7",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 95,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-14T13:17:38Z",
+      "side": 1,
+      "message": "Not sure about linking to stuff outside of our site. Maybe we could copy this somewhere else?",
+      "range": {
+        "startLine": 95,
+        "startChar": 0,
+        "endLine": 95,
+        "endChar": 36
+      },
+      "revId": "49cfe0065a903c89176d2cfe0e89d7ffe0dfcada",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
