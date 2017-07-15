@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "007e8c68_f282e49f",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-07-15T19:14:57Z",
+      "side": 1,
+      "message": "IMO \u0027adb shell sh ...\u0027 is better since it doesn\u0027t rely on the shebang (which in recovery can be /sbin/sh).",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 45
+      },
+      "revId": "b3931e99da7f13dfc1c587e45a516b45fd2faeb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
