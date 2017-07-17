@@ -1,0 +1,45 @@
+architecture: arm64
+battery: 2900 mAh
+bluetooth: v4.1
+cameras:
+- {flash: 'LED', info: '15.9 MP'}
+- {flash: 'LED', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: nx512j
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered down, Volume Down and Power buttons.
+gpu: Adreno 405
+has_recovery_partition: true
+height: 154.8 mm (6.09 in)
+image: nx512j.png
+install_method: fastboot_nubia
+kernel: android_kernel_nubia_msm8939
+maintainers: [Bauuuuu]
+name: Z9 Max
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: 'B1(2100) B3(1800) B3(2600) B38(TDD 2600) B39(TDD 19000) B40(TDD 2300) B41(TDD 2500)MHz' }
+peripherals: [Dual SIM, FM Radio, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor]
+ram: 2 GB
+recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+release: 2015 June
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard: up to 128 GB
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 16 GB
+tree: android_device_nubia_nx512j
+type: phone
+vendor: Nubia
+vendor_short: nubia
+versions: [14.1]
+width: 76.6 mm (3.02 in)
+wifi: 802.11 b/g/n/ac
