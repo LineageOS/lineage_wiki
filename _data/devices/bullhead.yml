@@ -11,6 +11,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
+custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold Volume Down & Power buttons.
 gpu: Adreno 418

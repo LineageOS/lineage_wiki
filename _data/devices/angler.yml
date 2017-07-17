@@ -11,6 +11,7 @@ cpu: Quad-core Cortex-A53 & Quad-core Cortex-A57
 cpu_cores: '8'
 cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 14.1
+custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold Volume Down & Power buttons.
 gpu: Adreno 430
