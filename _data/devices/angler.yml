@@ -43,3 +43,4 @@ vendor_short: huawei
 versions: [14.1]
 width: 77.8 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+custom_unlock_cmd: fastboot flashing unlock

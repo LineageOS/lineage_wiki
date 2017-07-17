@@ -1,7 +1,12 @@
 ## Installing a custom recovery using `fastboot`
 
+{% if site.data.devices[page.device].codename == "crackling" %}
+####   Some users have reported issues installing TWRP.  They have been able to use [this](https://forum.xda-developers.com/showpost.php?p=72335942&postcount=83) to resolve the issue.
+{% endif %}
+
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
    and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
+    
 2. Connect your device to your PC via USB.
 3. Open a terminal on the PC and boot the device to fastboot mode by typing:
 
