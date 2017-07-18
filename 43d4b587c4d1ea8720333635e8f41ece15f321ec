@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f2e9464_621df598",
+        "filename": "_data/devices/angler.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-18T04:35:55Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "43d4b587c4d1ea8720333635e8f41ece15f321ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "33c5237a_5c67e57b",
+        "filename": "_data/devices/bullhead.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-18T04:35:55Z",
+      "side": 1,
+      "message": "Why have you moved this in patch set 3? I\u0027d prefer it to be alphabetical",
+      "revId": "43d4b587c4d1ea8720333635e8f41ece15f321ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e5d87a60_ce3e2457",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-18T04:35:55Z",
+      "side": 1,
+      "message": "This isn\u0027t related to your change",
+      "revId": "43d4b587c4d1ea8720333635e8f41ece15f321ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0f874271_a5554eec",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-18T04:35:55Z",
+      "side": 1,
+      "message": "Why?",
+      "revId": "43d4b587c4d1ea8720333635e8f41ece15f321ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
