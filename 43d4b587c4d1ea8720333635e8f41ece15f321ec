@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "e33bfc9f_ce795da1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-18T08:07:13Z",
+      "side": 1,
+      "message": "This is not a proper commit message.\n1st line: Some title for the change\n2nd line: empty\n3rd line: extended description (if required)\n\nApart from that the message is incomplete when you talk about 5X here but change 5X and 6P",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 36
+      },
+      "revId": "43d4b587c4d1ea8720333635e8f41ece15f321ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4f2e9464_621df598",
         "filename": "_data/devices/angler.yml",
         "patchSetId": 3
