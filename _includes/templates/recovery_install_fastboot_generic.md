@@ -1,7 +1,7 @@
 ## Installing a custom recovery using `fastboot`
 
 {% if site.data.devices[page.device].codename == "crackling" %}
-####   Some users have reported issues installing TWRP.  They have been able to use [this](https://forum.xda-developers.com/showpost.php?p=72335942&postcount=83) to resolve the issue.
+###   Some users have reported [issues](https://www.reddit.com/r/LineageOS/comments/5yy4ex/stuck_on_boot_logo_when_booting_into_recovery/) installing TWRP.  They have been able to use [this](https://forum.xda-developers.com/showpost.php?p=72335942&postcount=83) to resolve the issue.
 {% endif %}
 
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
