@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6aca0805_2a37f0ff",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-20T08:17:55Z",
+      "side": 1,
+      "message": "Why 200?",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 20
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3acc3e18_ff9a805b",
+        "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-20T08:17:55Z",
+      "side": 1,
+      "message": "From what I can tell this is the only difference from \"normal\" aka Nexus fastboot template.",
+      "range": {
+        "startLine": 22,
+        "startChar": 17,
+        "endLine": 22,
+        "endChar": 26
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2598d838_0f695d3a",
+        "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-20T08:17:55Z",
+      "side": 1,
+      "message": "Same here?",
+      "range": {
+        "startLine": 52,
+        "startChar": 17,
+        "endLine": 52,
+        "endChar": 26
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "50b1cc91_af7b34e2",
+        "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-20T08:17:55Z",
+      "side": 1,
+      "message": "And here?",
+      "range": {
+        "startLine": 57,
+        "startChar": 17,
+        "endLine": 57,
+        "endChar": 26
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
