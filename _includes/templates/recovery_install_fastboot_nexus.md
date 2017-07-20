@@ -19,7 +19,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 
-        fastboot devices
+        fastboot{{ site.data.devices[page.device].declare_vendor_id }} devices
 
     If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 5. From the same terminal, type the following command to unlock the bootloader:
@@ -27,7 +27,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% if site.data.devices[page.device].custom_unlock_cmd %}
         {{ site.data.devices[page.device].custom_unlock_cmd }}
 {% else %}
-        fastboot oem unlock
+        fastboot{{ site.data.devices[page.device].declare_vendor_id }} oem unlock
 {% endif %}
 
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.

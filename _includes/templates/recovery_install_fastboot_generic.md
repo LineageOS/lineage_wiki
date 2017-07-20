@@ -14,12 +14,12 @@
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 
-        fastboot devices
+        fastboot{{ site.data.devices[page.device].declare_vendor_id }} devices
 
     If you see `no permissions fastboot` or `<waiting for device>`, try running `fastboot` as root/Administrator.
 5. Flash recovery onto your device:
 
-        fastboot flash recovery twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img
+        fastboot{{ site.data.devices[page.device].declare_vendor_id }} flash recovery twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img
 
     {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly." %}
 
