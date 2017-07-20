@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "b978263b_829bc998",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-20T08:34:33Z",
+      "side": 1,
+      "message": "\u003e http://www.nubia.com/en/phones/Z9Max/specs.html\n \u003e i know its strange but somehow its official\n\nmy bad i was looking at other side... its 128 .. corrected",
+      "parentUuid": "a91f4cd0_8ab444c5",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 20
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3acc3e18_ff9a805b",
         "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
         "patchSetId": 3
