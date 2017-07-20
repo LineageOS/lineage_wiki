@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "a91f4cd0_8ab444c5",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-20T08:27:06Z",
+      "side": 1,
+      "message": "http://www.nubia.com/en/phones/Z9Max/specs.html\ni know its strange but somehow its official",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 20
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3acc3e18_ff9a805b",
         "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
         "patchSetId": 3
@@ -36,6 +59,29 @@
       "writtenOn": "2017-07-20T08:17:55Z",
       "side": 1,
       "message": "From what I can tell this is the only difference from \"normal\" aka Nexus fastboot template.",
+      "range": {
+        "startLine": 22,
+        "startChar": 17,
+        "endLine": 22,
+        "endChar": 26
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "96e2c7d7_d86c99d9",
+        "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-20T08:27:06Z",
+      "side": 1,
+      "message": "yes, you are right but the vendor id is required for nubia, without that does not work. any suggestions ? may be i use the nexus template with a note that vendor id \"-i 0x19d2\" is required to add after fastboot command with an example !",
       "range": {
         "startLine": 22,
         "startChar": 17,
