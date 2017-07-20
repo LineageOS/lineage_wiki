@@ -166,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "a31da9bf_825ee404",
+        "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-20T08:35:48Z",
+      "side": 1,
+      "message": "Please add the support for declaring vendor_id on a different change and rebase this one after.",
+      "parentUuid": "80c2618a_1d03da05",
+      "range": {
+        "startLine": 22,
+        "startChar": 17,
+        "endLine": 22,
+        "endChar": 26
+      },
+      "revId": "e21c3d96d6ec4d7eb04eecbc90a41b1ac0dd2d01",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2598d838_0f695d3a",
         "filename": "_includes/templates/recovery_install_fastboot_nubia.md",
         "patchSetId": 3
