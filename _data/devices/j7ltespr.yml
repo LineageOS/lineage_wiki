@@ -1,0 +1,46 @@
+architecture: arm
+battery: Removable Li-Ion 3000 mAh
+bluetooth: v4.1 with A2DP
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: j7ltespr
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.4 GHz
+current_branch: 14.1
+depth: 7.6 mm (0.30 in)
+download_boot: With the device powered off, hold Vol Down & Home & Power.
+gpu: Adreno 405
+has_recovery_partition: true
+height: 152.1 mm (5.99 in)
+image: j7lte.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8916
+maintainers: [minz1]
+models: [SM-J700P]
+name: Galaxy J7 (Sprint)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
+peripherals: [Accelerometer, Proximity sensor, NFC, GPS]
+ram: 1.5 GB
+recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
+release: June 2015
+screen: 139.7 mm (5.5 in)
+screen_ppi: '267'
+screen_res: 1280x720
+screen_tech: Super AMOLED
+sdcard: up to 64 GB
+soc: Qualcomm MSM8929 Snapdragon 415
+storage: 16 GB
+tree: android_device_samsung_j7ltespr
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 78.7 mm (3.10 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
