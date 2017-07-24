@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "46154a37_0e3609e6",
+        "filename": "pages/build/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 15697
+      },
+      "writtenOn": "2017-07-24T10:29:25Z",
+      "side": 1,
+      "message": "\u003e This is not part of the device_sample, please remove this and the\n \u003e next line\n\nThat is present in every other device. Should I remove anyway?",
+      "parentUuid": "5484a6d2_137b63c9",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "23cf5847_e39291ea",
         "filename": "pages/build/sirius.md",
         "patchSetId": 11
@@ -127,6 +145,24 @@
     },
     {
       "key": {
+        "uuid": "0aba6ef8_fe35449b",
+        "filename": "pages/info/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 15697
+      },
+      "writtenOn": "2017-07-24T10:29:25Z",
+      "side": 1,
+      "message": "\u003e This is not part of the device_sample, please remove this and the\n \u003e next line\nSame here, present into other devices. Should I remove anyway?",
+      "parentUuid": "f9f33645_e0e5206e",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ed028004_b26137c3",
         "filename": "pages/info/castor_windy.md",
         "patchSetId": 11
@@ -138,6 +174,24 @@
       "writtenOn": "2017-07-24T08:30:22Z",
       "side": 1,
       "message": "We have our own IRC, don\u0027t link someone else\u0027s",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e6c152be_b8b8684e",
+        "filename": "pages/info/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 15697
+      },
+      "writtenOn": "2017-07-24T10:29:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed028004_b26137c3",
       "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
