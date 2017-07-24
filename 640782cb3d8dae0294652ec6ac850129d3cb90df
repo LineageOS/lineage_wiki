@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e99139f2_a32157d9",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T12:07:08Z",
+      "side": 1,
+      "message": "looks like the maintainer isn\u0027t actually the maintainer for all these devices",
+      "revId": "640782cb3d8dae0294652ec6ac850129d3cb90df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0097a5ff_7b8d8c03",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T12:07:08Z",
+      "side": 1,
+      "message": "missing some commas, aren\u0027t you?",
+      "revId": "640782cb3d8dae0294652ec6ac850129d3cb90df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "570f7d9e_a92a342e",
+        "filename": "_data/devices/sirius.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T12:07:08Z",
+      "side": 1,
+      "message": "Please only use the ones from the example list here (in case its not a completely new peripheral ofc): https://wiki.lineageos.org/addingdevice-howto.html",
+      "range": {
+        "startLine": 29,
+        "startChar": 79,
+        "endLine": 29,
+        "endChar": 106
+      },
+      "revId": "640782cb3d8dae0294652ec6ac850129d3cb90df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
