@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Temperature, Humidity, NFC, GPS, GLONASS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
 ram: 3 GB
 recovery_boot: Vol Up & Home & Power
 release: 2013 Sept
