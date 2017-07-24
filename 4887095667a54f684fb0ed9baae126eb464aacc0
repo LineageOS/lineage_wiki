@@ -1,0 +1,367 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "43a12152_beee4392",
+        "filename": "_includes/custom/device_shinano.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "We don\u0027t add \"known issues\" for any devices.\nApart from that I am unsure if a device with disk encryption breaking RIL can be an official device, better ask first...",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 17
+      },
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5484a6d2_137b63c9",
+        "filename": "pages/build/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "23cf5847_e39291ea",
+        "filename": "pages/build/sirius.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd366fcb_16c15ec1",
+        "filename": "pages/build/z3.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7557fe7e_86df33fe",
+        "filename": "pages/build/z3c.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e72ee734_be4fdedc",
+        "filename": "pages/build/z3dual.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f9f33645_e0e5206e",
+        "filename": "pages/info/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ed028004_b26137c3",
+        "filename": "pages/info/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "We have our own IRC, don\u0027t link someone else\u0027s",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4cec4f08_d5450f36",
+        "filename": "pages/info/sirius.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d2b20755_621afc33",
+        "filename": "pages/info/sirius.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "Dito",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ece0779a_47268578",
+        "filename": "pages/info/z3.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0eea0d93_39e3ff48",
+        "filename": "pages/info/z3.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "Dito",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c1a6d10_8114a641",
+        "filename": "pages/info/z3c.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1c122a73_06af8847",
+        "filename": "pages/info/z3c.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "Dito",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d50a7e34_cc62158d",
+        "filename": "pages/info/z3dual.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "86e5185c_d1e32b6a",
+        "filename": "pages/info/z3dual.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "Dito",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "69bc2ffc_45bcb2f4",
+        "filename": "pages/install/castor_windy.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ba60734_ce80bc07",
+        "filename": "pages/install/sirius.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6378a311_47ba9d11",
+        "filename": "pages/install/z3.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d07335d3_ae045b69",
+        "filename": "pages/install/z3c.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "07c49a39_35c4c0f1",
+        "filename": "pages/install/z3dual.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-24T08:30:22Z",
+      "side": 1,
+      "message": "This is not part of the device_sample, please remove this and the next line",
+      "revId": "4887095667a54f684fb0ed9baae126eb464aacc0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
