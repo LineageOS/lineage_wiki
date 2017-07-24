@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d8cf61a1_b7727d79",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "Non-removable Li-Po 6000 mAh",
+      "range": {
+        "startLine": 2,
+        "startChar": 9,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44a412b9_7bdde1c8",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "v4.0 with A2DP",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 14
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "55ad17d1_1220e54c",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "Do you really need to mention this?",
+      "range": {
+        "startLine": 5,
+        "startChar": 30,
+        "endLine": 5,
+        "endChar": 78
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "295c8283_ad18f474",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "Missing info.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 6
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ec99c6a_c31c9e10",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "xxx mm (xy in), just like you have in \"screen\" entry.",
+      "range": {
+        "startLine": 17,
+        "startChar": 8,
+        "endLine": 17,
+        "endChar": 25
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5b98a998_9c1a2f71",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "xxx mm (xy in), just like you have in \"screen\" entry.",
+      "range": {
+        "startLine": 18,
+        "startChar": 7,
+        "endLine": 18,
+        "endChar": 23
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b97cf92e_379fb134",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "Out of order. Should be at the bottom, alphabetically sorted.",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 5
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "29146fb7_33b27556",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "upto?",
+      "range": {
+        "startLine": 34,
+        "startChar": 17,
+        "endLine": 34,
+        "endChar": 21
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0fa9f1bc_f6b533e1",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "16/32 GB",
+      "range": {
+        "startLine": 36,
+        "startChar": 9,
+        "endLine": 36,
+        "endChar": 21
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9d871b52_b0537ea9",
+        "filename": "_data/devices/castor_windy.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-24T09:09:14Z",
+      "side": 1,
+      "message": "Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot",
+      "range": {
+        "startLine": 42,
+        "startChar": 6,
+        "endLine": 42,
+        "endChar": 52
+      },
+      "revId": "94444ca27581649f8e72418b1ed6668b813d685e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
