@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa62a67d_ea962b6d",
+        "filename": "pages/build/j7ltespr.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-25T06:02:04Z",
+      "side": 1,
+      "message": "Remove this and the next line, see device_sample",
+      "revId": "57cddfc29bbbb8b22b9635f6d00bf1b14175a8bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75818a38_b38964df",
+        "filename": "pages/info/j7ltespr.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-25T06:02:04Z",
+      "side": 1,
+      "message": "Remove this and the next line, see device_sample",
+      "revId": "57cddfc29bbbb8b22b9635f6d00bf1b14175a8bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e666190b_6ab9f9a9",
+        "filename": "pages/install/j7ltespr.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-07-25T06:02:04Z",
+      "side": 1,
+      "message": "Remove this and the next line, see device_sample",
+      "revId": "57cddfc29bbbb8b22b9635f6d00bf1b14175a8bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
