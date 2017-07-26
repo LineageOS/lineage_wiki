@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8fe121bc_4b71b3dd",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-26T12:45:37Z",
+      "side": 1,
+      "message": "Non-removable Li-Ion 2900 mAh",
+      "range": {
+        "startLine": 2,
+        "startChar": 9,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e5d7ed7_cf63216f",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-26T12:45:37Z",
+      "side": 1,
+      "message": "v4.1 with A2DP",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 15
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01fdb694_e4ff26f4",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-26T12:45:37Z",
+      "side": 1,
+      "message": "Isn\u0027t it 3? It is, at least according to gsmarena.",
+      "range": {
+        "startLine": 29,
+        "startChar": 5,
+        "endLine": 29,
+        "endChar": 6
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5d474b4d_5a502621",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-26T12:45:37Z",
+      "side": 1,
+      "message": "256 according to gsmarena.",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 17
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b18e419a_5ef46f4a",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-07-26T12:45:37Z",
+      "side": 1,
+      "message": "From gsmarena:\n\n802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot",
+      "range": {
+        "startLine": 45,
+        "startChar": 6,
+        "endLine": 45,
+        "endChar": 21
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
