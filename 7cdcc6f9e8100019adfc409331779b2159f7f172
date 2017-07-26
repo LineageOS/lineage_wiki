@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "536f8791_a8d57ece",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-26T13:05:09Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "8fe121bc_4b71b3dd",
+      "range": {
+        "startLine": 2,
+        "startChar": 9,
+        "endLine": 2,
+        "endChar": 17
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6e5d7ed7_cf63216f",
         "filename": "_data/devices/nx512j.yml",
         "patchSetId": 8
@@ -36,6 +60,30 @@
       "writtenOn": "2017-07-26T12:45:37Z",
       "side": 1,
       "message": "v4.1 with A2DP",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 15
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "38cf3457_efeb79d3",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-26T13:05:09Z",
+      "side": 1,
+      "message": "infact v4.0 according to vendor no mention of A2DP-\u003e corrected \nhttp://www.nubia.com/en/phones/Z9Max/specs.html",
+      "parentUuid": "6e5d7ed7_cf63216f",
       "range": {
         "startLine": 3,
         "startChar": 11,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "810cfb4c_adc048ec",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-26T13:05:09Z",
+      "side": 1,
+      "message": "Z9 max has two variants, the other being NX510J(Snapdragon 810), gsmarena shows specs of NX510J",
+      "parentUuid": "01fdb694_e4ff26f4",
+      "range": {
+        "startLine": 29,
+        "startChar": 5,
+        "endLine": 29,
+        "endChar": 6
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5d474b4d_5a502621",
         "filename": "_data/devices/nx512j.yml",
         "patchSetId": 8
@@ -94,6 +166,30 @@
     },
     {
       "key": {
+        "uuid": "5115e76b_aaa5e75b",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-26T13:05:09Z",
+      "side": 1,
+      "message": "as above",
+      "parentUuid": "5d474b4d_5a502621",
+      "range": {
+        "startLine": 36,
+        "startChar": 14,
+        "endLine": 36,
+        "endChar": 17
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b18e419a_5ef46f4a",
         "filename": "_data/devices/nx512j.yml",
         "patchSetId": 8
@@ -105,6 +201,30 @@
       "writtenOn": "2017-07-26T12:45:37Z",
       "side": 1,
       "message": "From gsmarena:\n\n802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot",
+      "range": {
+        "startLine": 45,
+        "startChar": 6,
+        "endLine": 45,
+        "endChar": 21
+      },
+      "revId": "7cdcc6f9e8100019adfc409331779b2159f7f172",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ac490ab_a7de8a4a",
+        "filename": "_data/devices/nx512j.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 15780
+      },
+      "writtenOn": "2017-07-26T13:05:09Z",
+      "side": 1,
+      "message": "corrected as per vendor specs\nhttp://www.nubia.com/en/phones/Z9Max/specs.html",
+      "parentUuid": "b18e419a_5ef46f4a",
       "range": {
         "startLine": 45,
         "startChar": 6,
