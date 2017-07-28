@@ -15,7 +15,7 @@ download_boot: Volume Down & Power
 gpu: Adreno 305
 has_recovery_partition: true
 image: mt2.png
-install_method: TODO
+install_method:
 kernel: android_kernel_huawei_msm8928
 maintainers:
 name: Ascend Mate 2 4G

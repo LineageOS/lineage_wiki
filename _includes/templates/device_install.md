@@ -16,9 +16,13 @@ The current bootloader version can be checked by running the command `getprop ro
 {% include warning.html content=bootloader %}
 {% endif %}
 
-{% if device.install_method != "" %}
+{% if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
+{% else %}
+## Unlocking the bootloader / Installing a custom recovery
+
+There are no recovery install instructions for this unofficial device.
 {% endif %}
 
 ## Installing LineageOS from recovery

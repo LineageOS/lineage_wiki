@@ -17,7 +17,7 @@ gpu: Adreno 225
 has_recovery_partition: true
 height: 122 mm
 image: fireball.png
-install_method: TODO
+install_method:
 kernel: android_kernel_htc_msm8960
 maintainers:
 name: DROID Incredible 4G LTE
