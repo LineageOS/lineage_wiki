@@ -39,8 +39,6 @@ These steps will configure and install the latest version of ruby MRI via `rvm`.
 cd lineage_wiki/
 echo ruby > .ruby-version
 echo lineage_wiki > .ruby-gemset
-echo JEKYLL_GITHUB_TOKEN=<insert a github personal access token here> > .ruby-env
-echo PAGES_REPO_NWO=LineageOS/lineage_wiki >> .ruby-env
 rvm install ruby
 cd ../lineage_wiki/
 gem install bundler rails
