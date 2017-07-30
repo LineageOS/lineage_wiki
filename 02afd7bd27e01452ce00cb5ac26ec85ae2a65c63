@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8a8c5d40_b55433e0",
+        "filename": "_data/devices/ferrari.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-30T16:36:39Z",
+      "side": 1,
+      "message": "maybe \"hold Volume Down [...]\"?\n\nOr copy paste `recovery_boot` but with VolDown instead of VolUp?",
+      "range": {
+        "startLine": 15,
+        "startChar": 15,
+        "endLine": 15,
+        "endChar": 75
+      },
+      "revId": "02afd7bd27e01452ce00cb5ac26ec85ae2a65c63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "48bb6b45_061063a1",
+        "filename": "_data/devices/ferrari.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-07-30T16:36:39Z",
+      "side": 1,
+      "message": "Following the sample device yml, this should be in the form:\nDD Mon YYYY",
+      "range": {
+        "startLine": 32,
+        "startChar": 9,
+        "endLine": 32,
+        "endChar": 19
+      },
+      "revId": "02afd7bd27e01452ce00cb5ac26ec85ae2a65c63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
