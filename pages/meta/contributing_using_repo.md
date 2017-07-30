@@ -10,16 +10,6 @@ search: exclude
 
 You will need to sync the repo, install `rvm` (a tool for managing `ruby` installations) and then configure `ruby` for the wiki. This will only need to be done once to get the environment setup.
 
-### Sync the repo
-
-Add the following line to your local manifests:
-
-```
-<project path="lineage_wiki" name="LineageOS/lineage_wiki" remote="github" revision="master" />
-```
-
-Then run ```repo sync lineage_wiki``` to actually sync the repo.
-
 ### Install `rvm`
 
 `rvm` is a great tool to isolate different usages of ruby from each other. During this setup, you will install `ruby` and a set of ruby modules (gems) which will be isolated from any other ruby use on the machine (now and in the future).
@@ -36,13 +26,12 @@ curl -sSL https://get.rvm.io | bash -s stable
 These steps will configure and install the latest version of ruby MRI via `rvm`. All gems (modules) are stored in the namespace `lineage_wiki` and the environment will be configured to allow remote access to GitHub. Once configured, `ruby` will be installed and the required gems downloaded:
 
 ```
-cd lineage_wiki/
+cd lineage/wiki/
 echo ruby > .ruby-version
 echo lineage_wiki > .ruby-gemset
 echo JEKYLL_GITHUB_TOKEN=<insert a github personal access token here> > .ruby-env
 echo PAGES_REPO_NWO=LineageOS/lineage_wiki >> .ruby-env
 rvm install ruby
-cd ../lineage_wiki/
 gem install bundler rails
 bundle install
 ```
@@ -53,7 +42,7 @@ Each time that you want to edit the wiki, you will need to start a local web ser
 
 ```
 source ~/.rvm/scripts/rvm
-cd $LINEAGE_SRC/lineage_wiki/
+cd $LINEAGE_SRC/lineage/wiki/
 bundle exec jekyll serve --incremental
 ```
 
