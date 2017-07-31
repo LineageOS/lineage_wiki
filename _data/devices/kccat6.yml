@@ -11,7 +11,7 @@ cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Vol Down & Home & Power.
+download_boot: With the device powered off, hold Volume Down & Home & Power. In order to exit download mode and reboot, hold Volume Down & Power for about 7 seconds.
 gpu: Adreno 420
 has_recovery_partition: true
 image: klte.png
