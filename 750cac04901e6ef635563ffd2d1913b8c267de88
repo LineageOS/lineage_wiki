@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fe87b067_06a31370",
+        "filename": "_data/devices/kccat6.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 15402
+      },
+      "writtenOn": "2017-07-31T09:25:21Z",
+      "side": 1,
+      "message": "You have to hold down the keys for quite some time, about 7 secs from what I can tell.  It may be worth to mention this, too, so users don\u0027t give up too early.",
+      "range": {
+        "startLine": 14,
+        "startChar": 116,
+        "endLine": 14,
+        "endChar": 137
+      },
+      "revId": "750cac04901e6ef635563ffd2d1913b8c267de88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
