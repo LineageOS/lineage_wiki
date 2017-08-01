@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c1684edb_fafd1edd",
+        "filename": "_data/devices/kccat6.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-01T16:04:04Z",
+      "side": 1,
+      "message": "\"reboot, hold\"",
+      "revId": "9c6421ee2fe130a21c27a436042196402bffaf64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6ac58258_27a6fc40",
+        "filename": "_data/devices/lentislte.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-01T16:04:04Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "9c6421ee2fe130a21c27a436042196402bffaf64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
