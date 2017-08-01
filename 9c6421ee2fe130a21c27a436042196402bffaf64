@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a772cdd1_12dae322",
+        "filename": "_data/devices/kccat6.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 18013
+      },
+      "writtenOn": "2017-08-01T16:39:21Z",
+      "side": 1,
+      "message": "I\u0027m not a native English speaker and most of the time I intuitively want to set more commas than are correct. Therefore I got into the habit of omitting commas whenever possible. But you seem to be right. Although the comma is not required, it\u0027s a [good practice](https://english.stackexchange.com/questions/80825/is-a-comma-in-this-sentence-required). I\u0027ve added it :)",
+      "parentUuid": "c1684edb_fafd1edd",
+      "revId": "9c6421ee2fe130a21c27a436042196402bffaf64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6ac58258_27a6fc40",
         "filename": "_data/devices/lentislte.yml",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2017-08-01T16:04:04Z",
       "side": 1,
       "message": "Same here",
+      "revId": "9c6421ee2fe130a21c27a436042196402bffaf64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a83258e5_3dcdee4c",
+        "filename": "_data/devices/lentislte.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 18013
+      },
+      "writtenOn": "2017-08-01T16:39:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ac58258_27a6fc40",
       "revId": "9c6421ee2fe130a21c27a436042196402bffaf64",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
