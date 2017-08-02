@@ -38,8 +38,8 @@ The preferred method of installing a custom recovery is through this boot mode{%
 
 ## Installing a custom recovery using `heimdall`
 
-{% if custom_twrp_download %}
-{{ custom_twrp_download }}
+{% if site.data.devices[page.device].custom_twrp_link %}
+1. Download a custom recovery - you can download [TWRP]({{ site.data.devices[page.device].custom_twrp_link }}).
 {% else %}
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
    and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
