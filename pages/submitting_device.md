@@ -18,6 +18,7 @@ Make sure your device meets the following requirements:
 * **No overclocking/overvolting** - Don't alter clocks/voltages outside of the manufacturer's default ranges.
 * **Enforcing SELinux** - The device must work while SELinux is enforcing (which is the default).
 * **No non-PIE blobs** - If your device requires executables which aren't position-independent, it will not be accepted.
+* **TWRP Support** - We prefer your device to have official [TWRP](https://twrp.me/Devices/) support. While we recognize that is not always possible, you must at least provide a fully working unofficial port for installation.
 
 ### Maintainer
 
