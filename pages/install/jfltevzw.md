@@ -42,8 +42,4 @@ In order to root your device you must first install this kernel via Heimdall.
 4. You now have root, proceed to next section.
 {% endcapture %}
 
-{% capture custom_twrp_download %}
-1. Download a custom recovery - you can download [TWRP](https://www.androidfilehost.com/?fid=889764386195900221).
-{% endcapture %}
-
 {% include templates/device_install.md %}
