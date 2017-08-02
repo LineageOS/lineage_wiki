@@ -16,7 +16,11 @@
 
 ## Installing a custom recovery using `dd`
 
+{% if site.data.devices[page.device].custom_twrp_link %}
+1. Download a custom recovery - you can download [TWRP]({{ site.data.devices[page.device].custom_twrp_link }}). Simply search for your device on that page
+{% else %}
 1. Download a custom recovery - you can download [TWRP](https://twrp.me/Devices/). Simply search for your device on that page
+{% endif %}
    and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
 2. Place the recovery image file on the root of `/sdcard`:
    * Using adb: `adb push twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img /sdcard/twrp-{{ site.data.devices[page.device].codename }}.img`
