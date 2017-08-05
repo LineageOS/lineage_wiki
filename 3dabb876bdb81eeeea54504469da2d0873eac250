@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "daabdd9f_727bb3ce",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-05T10:52:18Z",
+      "side": 1,
+      "message": "(In this case, 4GB)",
+      "revId": "3dabb876bdb81eeeea54504469da2d0873eac250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4124f6a3_f145157e",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-05T10:52:18Z",
+      "side": 1,
+      "message": "I\u0027m not sure this is worth changing",
+      "revId": "3dabb876bdb81eeeea54504469da2d0873eac250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

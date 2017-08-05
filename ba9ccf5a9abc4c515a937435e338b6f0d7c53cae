@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0b8bdc2f_784dab1f",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-05T10:52:18Z",
+      "side": 0,
+      "message": "Oxford comma can stay",
+      "revId": "ba9ccf5a9abc4c515a937435e338b6f0d7c53cae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
