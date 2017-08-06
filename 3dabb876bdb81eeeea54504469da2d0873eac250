@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "8bee3d3f_655c5aa5",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-08-06T19:00:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "daabdd9f_727bb3ce",
+      "revId": "3dabb876bdb81eeeea54504469da2d0873eac250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4124f6a3_f145157e",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 8
@@ -30,6 +48,24 @@
       "writtenOn": "2017-08-05T10:52:18Z",
       "side": 1,
       "message": "I\u0027m not sure this is worth changing",
+      "revId": "3dabb876bdb81eeeea54504469da2d0873eac250",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be7e2c1f_a1eb4d4a",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-08-06T19:00:05Z",
+      "side": 1,
+      "message": "imo it makes a difference if we say \"Don\u0027t edit anything\" or \"Don\u0027t commit anything\". If someone made changes (without committing them yet) and he notices that he is on the wrong branch, he is able to make a new branch without having to backup the folder and start over.",
+      "parentUuid": "4124f6a3_f145157e",
       "revId": "3dabb876bdb81eeeea54504469da2d0873eac250",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
