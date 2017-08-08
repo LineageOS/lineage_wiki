@@ -22,7 +22,7 @@ The current bootloader version can be checked by running the command `getprop ro
 {% else %}
 ## Unlocking the bootloader / Installing a custom recovery
 
-There are no recovery install instructions for this unofficial device.
+There are no recovery install instructions for this discontinued device.
 {% endif %}
 
 ## Installing LineageOS from recovery

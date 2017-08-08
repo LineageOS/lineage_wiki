@@ -3,8 +3,6 @@
 {% unless device.maintainers %}
 {% if device.channels contains "discontinued" %}
 {% include warning_discontinued_device.html %}
-{% elsif device.channels contains "unofficial" %}
-{% include warning_unofficial_device.html %}
 {% endif %}
 {% endunless %}
 
