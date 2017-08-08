@@ -39,16 +39,22 @@ There are no recovery install instructions for this unofficial device.
         USB debugging is enabled.
 3. If you aren't already in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-4. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
-5. Select **Wipe** and then **Advanced Wipe**.
-6. Select *Cache*, *System* and *Data* partitions to be wiped and then **Swipe to Wipe**.
-7. Go back to return to main menu, then select **Install**.
-8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-9. Follow the on-screen prompts to install the package.
-10. _(Optional)_: Install any additional packages using the same method.
+4. _(Optional, but recommended)_: Select the **Settings** button to change the following:
+    * In the first tab with the gear icon, uncheck `Prompt to install TWRP app if not installed` as this proprietary app is not needed.
+    * In the first tab with the gear icon, if applicable, check `Use 24-hours clock`.
+    * In the second tab with the clock icon, if needed, choose the proper time zone in `Select Time Zone` and then **Set Time Zone**.
+    * Return to the main menu with the back button.
+    {% include note.html content="The TRWP app is not open-source and has undesirable anti-features. If this app is installed anyway, it can be easily uninstalled manually." %}
+5. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
+6. Select **Wipe** and then **Advanced Wipe**.
+7. Select *Cache*, *System* and *Data* partitions to be wiped and then **Swipe to Wipe**.
+8. Go back to return to main menu, then select **Install**.
+9. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
+10. Follow the on-screen prompts to install the package.
+11. _(Optional)_: Install any additional packages using the same method.
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first reboot!" %}
-11. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras){% if device.architecture %} (use the `{{ device.architecture }}` package){% endif %} or using any other method you prefer.
-12. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+12. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras){% if device.architecture %} (use the `{{ device.architecture }}` package){% endif %} or using any other method you prefer.
+13. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
 
