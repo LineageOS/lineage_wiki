@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2773cbf5_6cbd7219",
+        "filename": "_data/devices/h910.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-08-08T19:55:46Z",
+      "side": 1,
+      "message": "This is wrong. The device can\u0027t be unlocked via official method. That\u0027s why you linked a custom method above.",
+      "range": {
+        "startLine": 22,
+        "startChar": 16,
+        "endLine": 22,
+        "endChar": 27
+      },
+      "revId": "173761e0a13655f330264e1a0865ab296f3fda2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
