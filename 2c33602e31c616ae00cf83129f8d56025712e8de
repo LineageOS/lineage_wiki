@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "869b8ac8_7ffaa400",
+        "filename": "_data/devices/v1awifi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-08T05:58:48Z",
+      "side": 1,
+      "message": "lies",
+      "range": {
+        "startLine": 40,
+        "startChar": 6,
+        "endLine": 40,
+        "endChar": 36
+      },
+      "revId": "2c33602e31c616ae00cf83129f8d56025712e8de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4368df31_b1721003",
+        "filename": "_data/devices/v1awifi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-08-08T05:58:48Z",
+      "side": 1,
+      "message": "\"Hotspot\"",
+      "range": {
+        "startLine": 46,
+        "startChar": 50,
+        "endLine": 46,
+        "endChar": 57
+      },
+      "revId": "2c33602e31c616ae00cf83129f8d56025712e8de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
