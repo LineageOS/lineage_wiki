@@ -29,3 +29,7 @@ Two types of bugs are currently accepted:
     - Example: the fingerprint sensor on your device has never worked, and Android shows it as a toaster.
 
 Please be sure to fill out every field with accurate information. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. [Logcats](/logcat.html) *must* be attached for all bugs, and *must* be captured right after reproducing the issue.
+
+## Discussion
+
+In case it is not clear if an issue is a bug or a feature request, ask in `#lineageOS` on freenode. This channel can also be reached via a [webinterface](https://webchat.freenode.net/?channels=lineageOS).
