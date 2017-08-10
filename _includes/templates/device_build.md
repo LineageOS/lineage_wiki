@@ -71,6 +71,12 @@ To build LineageOS, you'll need:
 
 * `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev`
 
+{% if device.architecture contains 'x86' %}
+To build LineageOS for x86 targets, you'll also need:
+
+* `yasm`
+{% endif %}
+
 {% if device.versions contains 13.0 %}
 To build LineageOS 13.0, you'll also need:
 
