@@ -1,0 +1,47 @@
+architecture: arm64
+battery: Removable Li-Ion 3300 mAh
+bluetooth: v4.2 with A2DP, LE, aptX HD
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+carrier: Unlocked (EU)
+channels: [weekly]
+codename: h870
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.4 GHz + 2 x 2.1 GHz
+current_branch: 14.1
+depth: 7.9 mm (0.31 in)
+download_boot: Volume Up & Power
+gpu: Adreno 530
+has_recovery_partition: true
+height: 148.9 mm (5.86 in)
+image: g6.png
+install_method: fastboot_lg
+kernel: android_kernel_lge_msm8996
+maintainers: [rashed]
+name: G6 (EU Unlocked)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
+peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum]
+ram: 4 GB
+recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
+  1 sec and hold it again till recovery comes up
+release: February 2017
+screen: 144.8 mm (5.7 in)
+screen_ppi: '556'
+screen_res: 2880x1440
+screen_tech: IPS LCD
+sdcard: up to 2 TB
+soc: Qualcomm MSM8996pro Snapdragon 821
+storage: 32 GB
+tree: android_device_lge_h870
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width: 71.9 mm (2.83 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
