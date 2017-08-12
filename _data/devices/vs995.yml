@@ -18,7 +18,7 @@ gpu: Adreno 530
 has_recovery_partition: true
 height: 159.7 mm (6.29 in)
 image: v20.png
-install_method:
+install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
 maintainers: [rashed, Albinoman887]
 name: V20 (Verizon)
@@ -40,6 +40,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
 tree: android_device_lge_vs995
 type: phone
+unlock_bootloader_guide: https://forum.xda-developers.com/v20/development/ls997vs995h910-dirtysanta-bootloader-t3519410
 vendor: LG
 vendor_short: lge
 versions: [14.1]
