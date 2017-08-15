@@ -16,7 +16,7 @@ both those requirements, follow the instructions below to get your device set up
 
 ## Setting up the wiki locally
 
-See [contributing using repo](contributing_using_repo.html) for detailed instructions on setting up the wiki locally.
+See [contributing using repo](contributing.html#using-repo) for detailed instructions on setting up the wiki locally.
 
 ## Adding your device
 
