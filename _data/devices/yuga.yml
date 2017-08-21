@@ -1,0 +1,46 @@
+architecture: arm
+battery: Non-removable 2330 mAh
+bluetooth: v4.0 with A2DP
+cameras:
+- {flash: 'LED', info: '13.1MP f/2.4'}
+- {flash: '', info: '2MP'}
+carrier:
+channels: [weekly]
+codename: yuga
+cpu: Krait
+cpu_cores: '4'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+depth: 7.9 mm
+download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+gpu: Adreno 320
+has_recovery_partition: true
+height: 139 mm
+image: yuga.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_apq8064
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE' }
+maintainers: [MardonHH, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
+name: Xperia Z
+peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
+ram: 2 GB
+recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+release: 2013 February
+screen: 127.0 mm (5.0 in)
+screen_ppi: '441'
+screen_res: 1080x1920
+screen_tech: TFT
+sdcard: officially up to 32 GB
+soc: Qualcomm APQ8064 Snapdragon S4 Pro
+storage: 16 GB
+tree: android_device_sony_yuga
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [14.1]
+width: 71 mm
+wifi: 802.11 2.4GHz a/b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot
