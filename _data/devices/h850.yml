@@ -38,6 +38,7 @@ sdcard: up to 2TB
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_h850
+troubleshooting: Boot Loop to TWRP after OTA update: Execute command "dd if=/dev/zero of=/dev/block/plattform/soc/624000.ufshc/by-name/misc count=1 bs=32" in TWRP terminal (menu: "Advanced"->"Terminal").
 type: phone
 vendor: LG
 vendor_short: lge
