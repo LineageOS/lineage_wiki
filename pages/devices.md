@@ -31,8 +31,8 @@ redirect_from: devices.html
   {% endif %}
   {% assign url = "devices/" | append: device.codename | relative_url %}
   <tr>
-    <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></td>
-    <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
+    <td onClick="if (!event.ctrlKey) {location.href='{{ url }}'}"><a href="{{ url }}">{{ deviceName }}</a></td>
+    <td onClick="if (!event.ctrlKey) {location.href='{{ url }}'}"><a href="{{ url }}">{{ device.codename }}</a></td>
     <td>{{ device.type | capitalize }}</td>
   </tr>
 {% unless forloop.last %}
