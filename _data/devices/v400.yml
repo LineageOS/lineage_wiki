@@ -1,0 +1,46 @@
+architecture: arm
+battery: Non-removable Li-Ion 4000 mAh
+bluetooth: v4.0
+cameras:
+- {flash: '', info: '3.15 MP'}
+- {flash: '', info: '1.3 MP'}
+carrier:
+channels: [weekly]
+codename: v410
+cpu: Cortex A7
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+depth: 9.9 mm (0.39 in)
+download_boot: With the device powered off, hold VOL UP button and connect it to the computer.
+  Keep holding VOL UP button until the firmware update screen appears.
+gpu: Adreno 305
+has_recovery_partition: true
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+root_method: [towelroot]
+height: 189.2 mm (7.45 in)
+image: v400.png
+install_method: dd
+kernel: android_kernel_lge_v4xx
+maintainers: [mycax]
+name: G Pad 7.0 WiFi
+peripherals: ['']
+ram: 1 GB
+recovery_boot: With the device powered off, hold POWER+VOL DOWN buttons. When the LG logo appears,
+  release both buttons and then hold again. When prompted to erase all user data, choose 'Yes'.
+  Once again choose 'Yes' to confirm and then device will boot to recovery.
+release: July 2014
+screen: 178 mm (7.0 in)
+screen_ppi: 216
+screen_res: 1280x800
+screen_tech: IPS LCD
+sdcard: up to 64 GB
+soc: Qualcomm MSM8226 Snapdragon 400
+storage:
+tree: android_device_lge_v400
+type: tablet
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width: 113.8 mm (4.48 in)
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, DLNA
