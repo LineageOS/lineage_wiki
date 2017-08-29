@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5365ba3b_855aa1ed",
+        "filename": "_data/devices/v400.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-08-29T02:57:37Z",
+      "side": 1,
+      "message": "no info on eMMC sizes?",
+      "revId": "beda2aca083acbc0c22c9c6f67eb7a5edae50789",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
