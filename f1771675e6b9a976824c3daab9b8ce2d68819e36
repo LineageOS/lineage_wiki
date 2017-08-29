@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00f50ace_87d4b702",
+        "filename": "pages/info/v1awifi.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-08-29T00:23:28Z",
+      "side": 1,
+      "message": "the comment should be on a new line",
+      "revId": "f1771675e6b9a976824c3daab9b8ce2d68819e36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
