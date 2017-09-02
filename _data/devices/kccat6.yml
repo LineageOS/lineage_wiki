@@ -26,8 +26,8 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
-  blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold Volume Up & Home & Power. When the blue text appears, release the buttons.
+recovery_boot_from_download: With the device in download mode, hold Volume Down & Power for about 7 seconds to make the device reboot. Then immediately press Volume Up & Home to directly boot into recovery.
 release: 21 August 2014
 screen: 130 mm (5.1 in)
 screen_ppi: '432'

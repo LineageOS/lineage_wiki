@@ -57,7 +57,12 @@ The preferred method of installing a custom recovery is through this boot mode{%
     {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. Unplug the USB cable from your device.
-7. Manually reboot into recovery:
+7. Manually reboot into recovery{% if site.data.devices[page.device].recovery_boot_from_download != null %}, either:
+    * {{ site.data.devices[page.device].recovery_boot_from_download }}
+
+      or
+{% else %}:
+{% endif %}
     * {{ site.data.devices[page.device].recovery_boot }}
 
     {% include note.html content="Be sure to reboot into recovery immediately after having installed the custom recovery. Otherwise the custom recovery will be overwritten and the device will reboot (appearing as though your custom recovery failed to install)." %}
