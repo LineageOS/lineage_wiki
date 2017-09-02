@@ -125,12 +125,14 @@ sudo apt update
 sudo apt install docker-ce
 ```
 
-Add your user to the docker group in order to use docker commands without prefixing `sudo`:
+Add your user account to the _docker_ group in order to use docker commands without prefixing `sudo`:
 
 ```
 sudo gpasswd -a $USER docker
 newgrp docker
 ```
+
+Then log out of your user account and log back in or reboot to make the group membership changes take effect.
 
 #### Build the docker image
 
