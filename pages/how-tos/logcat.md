@@ -30,4 +30,4 @@ If you don't have it installed, please do that before continuing." %}
 2. Type `su` and confirm root access - you may have to turn on root access for apps in **Developer options**.
 3. Type `logcat -d -f /sdcard/logcat.txt`. This will save the log to `/sdcard/logcat.txt`.
 
-   Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `adb logcat -db radio -f /sdcard/radio.txt` to save it to `/sdcard/radio.txt`.
+   Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `logcat -db radio -f /sdcard/radio.txt` to save it to `/sdcard/radio.txt`.
