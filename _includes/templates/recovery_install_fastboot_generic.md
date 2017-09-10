@@ -25,3 +25,5 @@
 
 6. Now reboot into recovery to verify the installation:
     * {{ site.data.devices[page.device].recovery_boot }}
+
+    {% include warning.html content="From flashing recovery you should reboot straight into recovery (do not boot into the ROM) Certain ROMs may rewrite recovery when booted. If this happens you would need to redo the process of flashing twrp" %}
