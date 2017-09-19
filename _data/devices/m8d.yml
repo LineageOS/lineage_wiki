@@ -11,6 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
+custom_twrp_codename: m8
 depth: 9.35 mm (0.37 in)
 download_boot: With the device powered down, hold the Volume Down and Power buttons
   until HBOOT appears, then release the buttons.
