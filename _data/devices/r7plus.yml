@@ -11,6 +11,7 @@ cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
+custom_twrp_codename: r7plusf
 depth:
 download_boot: With the device powered down, hold the Volume Up and Power buttons.
 gpu: Adreno 405

@@ -11,6 +11,7 @@ cpu: Denver (ARMv8 64-bit)
 cpu_cores: '2'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
+custom_twrp_codename: flounder
 depth: 7.95 mm (0.31 in)
 download_boot: With the device powered off, hold Volume Down & Power, then use the menu to select Fastboot.
 gpu: NVIDIA Kepler DX1 192-core

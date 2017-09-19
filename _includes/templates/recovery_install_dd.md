@@ -23,13 +23,13 @@
    and download the latest recovery file, named something like `twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img`.
 {% endif %}
 2. Place the recovery image file on the root of `/sdcard`:
-   * Using adb: `adb push twrp-x.x.x-x-{{ site.data.devices[page.device].codename }}.img /sdcard/twrp-{{ site.data.devices[page.device].codename }}.img`
+   * Using adb: `adb push twrp-x.x.x-x-{% if site.data.devices[page.device].custom_twrp_codename %}{{ site.data.devices[page.device].custom_twrp_codename }}{% else %}{{ site.data.devices[page.device].codename }}{% endif $}.img /sdcard/twrp-{% if site.data.devices[page.device].custom_twrp_codename %}{{ site.data.devices[page.device].custom_twrp_codename }}{% else %}{{ site.data.devices[page.device].codename }}{% endif $}.img`
     {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly." %}
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
 
         su
-        dd if=/sdcard/twrp-{{ site.data.devices[page.device].codename }}.img of={{ site.data.devices[page.device].recovery_partition }}
+        dd if=/sdcard/twrp-{% if site.data.devices[page.device].custom_twrp_codename %}{{ site.data.devices[page.device].custom_twrp_codename }}{% else %}{{ site.data.devices[page.device].codename }}{% endif $}.img of={{ site.data.devices[page.device].recovery_partition }}
 
 4. Manually reboot into recovery:
     * {{ site.data.devices[page.device].recovery_boot }}
