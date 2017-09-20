@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ef89579f_30b18c6f",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-09-20T13:27:59Z",
+      "side": 1,
+      "message": "better adjust here and use a more generic term in the rest of the text",
+      "range": {
+        "startLine": 23,
+        "startChar": 63,
+        "endLine": 23,
+        "endChar": 128
+      },
+      "revId": "090e3ffb55217af5cd0100a8cb3db80e96f8d76b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
