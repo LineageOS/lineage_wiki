@@ -15,7 +15,7 @@ download_boot: With the device powered down, hold Volume Up and connect the USB 
 gpu: Adreno 430
 has_recovery_partition: true
 height: 146 mm (5.75 in)
-image: ivy.jpg
+image: ivy.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
 maintainers: [cdesai, Kali-, olivier97, quarx2k]
