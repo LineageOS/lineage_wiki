@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
-carrier: GSM Unlocked
+carrier: Unlocked (US)
 channels: [weekly]
 codename: us996
 cpu: Kryo
@@ -21,7 +21,7 @@ image: v20.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8996
 maintainers: [rashed, Albinoman887]
-name: V20 (GSM Unlocked)
+name: V20 (US Unlocked)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
