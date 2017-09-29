@@ -20,7 +20,7 @@ image: jflte.png
 install_method: heimdall
 required_bootloader: ['I545VRUAMDK']
 kernel: android_kernel_samsung_jf
-maintainers: [invisiblek]
+maintainers: [npjohnson]
 models: [SCH-I545]
 name: Galaxy S4 (Verizon)
 network:
