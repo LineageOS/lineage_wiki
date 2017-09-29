@@ -21,7 +21,6 @@ the project and are committed to improving it.
 | Name | Nickname |
 |------|----------|
 | Chirayu Desai | cdesai |
-| Dan Pasanen | invisiblek |
 | Daniel Hillenbrand | codeworkx |
 | Danny Baumann | maniac103 |
 | Diogo Ferreira | defer |
@@ -76,7 +75,6 @@ pathways that connect to potential contributors to teams that have contribution 
 | Name | Nickname |
 |------|----------|
 | Abhisek Devkota | ciwrl |
-| Dan Pasanen | invisiblek |
 | Tom Powell | zifnab |
 
 ### Device maintainers
@@ -139,7 +137,6 @@ These persons are responsible for the content of [our website](https://www.linea
 | Name            | Nickname   |
 |-----------------|------------|
 | Abhisek Devkota | ciwrl      |
-| Dan Pasanen     | invisiblek |
 | Harry Youd      | harryyoud  |
 | Tom Powell      | zifnab     |
 

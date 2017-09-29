@@ -22,7 +22,7 @@ height: 189.2 mm (7.45 in)
 image: v410.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
-maintainers: [invisiblek]
+maintainers:
 name: G Pad 7.0 (LTE)
 network:
 - {tech: 2G, bands: '' }
