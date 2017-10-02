@@ -11,6 +11,7 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3084849
 download_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
   Down to scroll and Volume Up to select.
 gpu: Adreno 302
