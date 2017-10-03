@@ -57,6 +57,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 
 4. Log out and back in.
 5. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
+6. If you have Ubuntu, you can skip steps 1 to 3 and just type `sudo apt-get install android-tools-fastboot android-tools-adb` in your terminal. Steps 4 & 5 are still valid.
 
 ## Setting up `adb`
 
