@@ -11,6 +11,7 @@ cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3495629
 download_boot: Hold Volume Down & Power simultaneously.
 gpu: Adreno 506
 has_recovery_partition: true
