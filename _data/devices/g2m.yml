@@ -11,6 +11,7 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/g2-mini/development/unified-twrp-recovery-3-0-0-lg-g2-mini-t3311316
 depth: 9.8 mm (0.39 in)
 download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
 gpu: Adreno 305
