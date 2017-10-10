@@ -89,6 +89,7 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
+* LineageOS 15.0: OpenJDK 1.8 (install `openjdk-8-jdk`)
 * LineageOS 14.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
 * LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 
@@ -229,7 +230,7 @@ or add that line to your `~/.bashrc` file.
 {% if device.current_branch >= 14 %}
 ### Configure jack
 
-[Jack](http://source.android.com/source/jack.html) is the new Java compiler used when building LineageOS 14.1. It is known to run out of memory - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) is the new Java compiler used when building LineageOS 14.1 and 15.0. It is known to run out of memory - a simple fix is to run this command:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
