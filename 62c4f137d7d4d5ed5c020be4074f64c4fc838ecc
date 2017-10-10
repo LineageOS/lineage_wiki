@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "26f70a22_d6106da1",
+        "filename": "pages/internal/bypass_gerrit_maintainers.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-10T19:23:42Z",
+      "side": 1,
+      "message": "It\u0027s lineage.",
+      "range": {
+        "startLine": 36,
+        "startChar": 9,
+        "endLine": 36,
+        "endChar": 22
+      },
+      "revId": "62c4f137d7d4d5ed5c020be4074f64c4fc838ecc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b2ad0d15_24a4c70d",
+        "filename": "pages/internal/bypass_gerrit_maintainers.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-10T19:23:42Z",
+      "side": 1,
+      "message": "Same here.",
+      "range": {
+        "startLine": 48,
+        "startChar": 12,
+        "endLine": 48,
+        "endChar": 25
+      },
+      "revId": "62c4f137d7d4d5ed5c020be4074f64c4fc838ecc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
