@@ -30,7 +30,7 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 
 {% include tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
-Any recent 64-bit version should work great, but the latest is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so we'll leave that to you." %}
+Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting VirtualBox up with Ubuntu, so we'll leave that to you." %}
 
 Let's begin!
 
