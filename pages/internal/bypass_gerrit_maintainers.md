@@ -26,14 +26,14 @@ repo sync
 ```
 
 Branch the repository to anything. In the new branch, add your commits (or merge from another branch, git pull from AOSP, or whatever gets your changes in).
-Next, enter `cmremote`. This command will add the remote (use `git remote -v` to see it).
+Next, enter `lineageremote`. This command will add the remote (use `git remote -v` to see it).
 
 ### To bypass Gerrit
 
-Assuming `cm-14.1` is the branch to which you are pushing, type:
+Assuming `lineage-15.0` is the branch to which you are pushing, type:
 
 ```
-git push cmremote HEAD:refs/heads/cm-14.1
+git push lineageremote HEAD:refs/heads/lineage-15.0
 ````
 
 ### To mass-push commits to Gerrit for review
@@ -45,5 +45,5 @@ Type the above mentioned command, but use `refs/for/branch` instead of `refs/hea
 You can create a new (remote) branch by typing:
 
 ```
-git push -u cmremote HEAD:refs/heads/new-branch-name
+git push -u lineageremote HEAD:refs/heads/new-branch-name
 ```
