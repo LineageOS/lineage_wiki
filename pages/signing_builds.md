@@ -68,7 +68,7 @@ on all packages at every boot. Install them for as little time as possible." %}
 You can set up your own migration builds by running:
 
 ```
-repopick -f 156047 162144
+repopick -f 192655 192656
 ```
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
@@ -78,11 +78,11 @@ Then, follow the [instructions to generate an install package](#generating-an-in
 After installing the migration build, you can switch back to building normal builds:
 
 ```
-cd vendor/cm
-git reset --hard github/cm-14.1
+cd vendor/lineage
+git reset --hard github/lineage-15.0
 croot
 cd frameworks/base
-git reset --hard github/cm-14.1
+git reset --hard github/lineage-15.0
 ```
 
 ### Using a script
