@@ -11,6 +11,7 @@ cpu: Cortex A53 & A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/vibe-k5/development/recovery-twrp-3-0-2-0-lenovo-vibe-k5-t3391100/
 depth: 8 mm (0.31 in)
 download_boot: Hold **Volume Down** and **Power**
 gpu: Adreno 405
