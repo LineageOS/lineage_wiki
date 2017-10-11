@@ -25,7 +25,8 @@ network:
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
 peripherals: ['']
-project_spectrum: "http://community.oppo.com/en/forum.php?mod=viewthread&tid=44621"
+project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
+project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
 ram: 2 GB
 recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
 release: 2014 December
