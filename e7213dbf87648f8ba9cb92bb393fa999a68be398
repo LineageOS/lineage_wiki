@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be4c8098_e0f984a4",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 164,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-11T06:56:57Z",
+      "side": 1,
+      "message": "It\u0027s not a repo.",
+      "range": {
+        "startLine": 164,
+        "startChar": 175,
+        "endLine": 164,
+        "endChar": 184
+      },
+      "revId": "e7213dbf87648f8ba9cb92bb393fa999a68be398",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f47cf762_dadf1fb4",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-11T06:56:57Z",
+      "side": 1,
+      "message": "Don\u0027t capitalise.",
+      "range": {
+        "startLine": 237,
+        "startChar": 122,
+        "endLine": 237,
+        "endChar": 124
+      },
+      "revId": "e7213dbf87648f8ba9cb92bb393fa999a68be398",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a30904c_91d37938",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-11T06:56:57Z",
+      "side": 1,
+      "message": "Missing . at the end of sentence.",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 58
+      },
+      "revId": "e7213dbf87648f8ba9cb92bb393fa999a68be398",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d5364130_4e99d744",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-11T06:56:57Z",
+      "side": 1,
+      "message": "I think this could be omitted. Let\u0027s keep it short and simple for a first-time reader.",
+      "range": {
+        "startLine": 155,
+        "startChar": 56,
+        "endLine": 155,
+        "endChar": 177
+      },
+      "revId": "e7213dbf87648f8ba9cb92bb393fa999a68be398",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
