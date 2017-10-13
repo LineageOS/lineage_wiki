@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a75e52a4_73bdac38",
+        "filename": "_data/strings.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-13T08:19:45Z",
+      "side": 1,
+      "message": "To be honest, I thing it\u0027s better with the ... at the end.",
+      "range": {
+        "startLine": 4,
+        "startChar": 25,
+        "endLine": 4,
+        "endChar": 31
+      },
+      "revId": "89ab7e966450082846ddbd2094c0984641aa6eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b8f16ab6_d6ad8f2f",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-13T08:19:45Z",
+      "side": 1,
+      "message": "and",
+      "range": {
+        "startLine": 27,
+        "startChar": 31,
+        "endLine": 27,
+        "endChar": 32
+      },
+      "revId": "89ab7e966450082846ddbd2094c0984641aa6eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c91b42c_8cc37177",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-13T08:19:45Z",
+      "side": 1,
+      "message": "which stands for",
+      "range": {
+        "startLine": 29,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 80
+      },
+      "revId": "89ab7e966450082846ddbd2094c0984641aa6eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2e086c1b_36f86fe4",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-13T08:19:45Z",
+      "side": 1,
+      "message": "Is this really necessary?",
+      "range": {
+        "startLine": 108,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 76
+      },
+      "revId": "89ab7e966450082846ddbd2094c0984641aa6eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b899ff91_ee201744",
+        "filename": "pages/faq.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-13T08:19:45Z",
+      "side": 1,
+      "message": "There\u0027s also a",
+      "range": {
+        "startLine": 31,
+        "startChar": 199,
+        "endLine": 31,
+        "endChar": 214
+      },
+      "revId": "89ab7e966450082846ddbd2094c0984641aa6eb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
