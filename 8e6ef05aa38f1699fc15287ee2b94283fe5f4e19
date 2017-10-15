@@ -48,6 +48,54 @@
     },
     {
       "key": {
+        "uuid": "6c7a7e7f_5b9d80ea",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-15T08:40:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f491ca4_7651dfb8",
+      "range": {
+        "startLine": 235,
+        "startChar": 144,
+        "endLine": 235,
+        "endChar": 154
+      },
+      "revId": "8e6ef05aa38f1699fc15287ee2b94283fe5f4e19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7b0765ba_9b1ab293",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-15T08:40:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a30a8a2d_20efa827",
+      "range": {
+        "startLine": 235,
+        "startChar": 58,
+        "endLine": 235,
+        "endChar": 61
+      },
+      "revId": "8e6ef05aa38f1699fc15287ee2b94283fe5f4e19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7e3aa487_4c833071",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 11
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "10bbe393_b39fc40e",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-15T08:40:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7e3aa487_4c833071",
+      "range": {
+        "startLine": 208,
+        "startChar": 125,
+        "endLine": 208,
+        "endChar": 133
+      },
+      "revId": "8e6ef05aa38f1699fc15287ee2b94283fe5f4e19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "95f057ae_2cc1d270",
         "filename": "pages/how-tos/translate.md",
         "patchSetId": 11
@@ -82,6 +154,30 @@
       "writtenOn": "2017-10-14T19:19:47Z",
       "side": 1,
       "message": "create an [account](https://crowdin.com/join),",
+      "range": {
+        "startLine": 12,
+        "startChar": 108,
+        "endLine": 12,
+        "endChar": 132
+      },
+      "revId": "8e6ef05aa38f1699fc15287ee2b94283fe5f4e19",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "43250396_a8d36075",
+        "filename": "pages/how-tos/translate.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-15T08:40:20Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "95f057ae_2cc1d270",
       "range": {
         "startLine": 12,
         "startChar": 108,
