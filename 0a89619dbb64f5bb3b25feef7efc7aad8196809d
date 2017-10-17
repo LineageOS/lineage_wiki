@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "26b99075_28b268d4",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-17T14:10:22Z",
+      "side": 1,
+      "message": "I now went with \u0027a\u0027as just ommitting it sounded kind of weird to me.",
+      "parentUuid": "d2939515_b0e70c84",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "12829b39_8ba48dbe",
         "filename": "_includes/templates/device_build.md",
         "patchSetId": 13
@@ -48,6 +66,24 @@
       "writtenOn": "2017-10-17T07:28:54Z",
       "side": 1,
       "message": ", and that in Linux",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee288113_c0cea3d6",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-17T14:10:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12829b39_8ba48dbe",
       "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -89,6 +125,24 @@
     },
     {
       "key": {
+        "uuid": "354e0c78_2a2605a2",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-17T14:10:22Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6d8d90e2_6bb3019b",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fe358a00_85010844",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 13
@@ -118,6 +172,24 @@
       "side": 1,
       "message": "To be honest, I wouldn\u0027t change this part, \"edit\" was just fine.",
       "parentUuid": "fe358a00_85010844",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf7c4549_9f3fb603",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2017-10-17T14:10:22Z",
+      "side": 1,
+      "message": "imo it makes a big difference if you\u0027re just not allowed to commit your changes before starting a branch or you aren\u0027t allowed to change files at all.\nHonestly, I would be pretty pissed if I undid my changes because I forgot to start a branch and later saw that I didn\u0027t actually need to undo them.",
+      "parentUuid": "c3f12af4_05133ac3",
       "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
