@@ -22,6 +22,24 @@
       "revId": "7800a155e9b364ff9cc0fba697a4087f5a2b4a2a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b98c54c4_a63d769e",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-10-17T15:02:02Z",
+      "side": 1,
+      "message": "But you don\u0027t lose it forever? `git reflog` will fix you up",
+      "parentUuid": "b13f6119_b4a5482e",
+      "revId": "7800a155e9b364ff9cc0fba697a4087f5a2b4a2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
