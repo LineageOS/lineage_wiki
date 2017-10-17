@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b13f6119_b4a5482e",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-17T14:44:17Z",
+      "side": 1,
+      "message": "While you\u0027re at it, you could even mention that if you\u0027re on a detached head, you\u0027ll even loose the changes like forever.",
+      "range": {
+        "startLine": 86,
+        "startChar": 102,
+        "endLine": 86,
+        "endChar": 193
+      },
+      "revId": "7800a155e9b364ff9cc0fba697a4087f5a2b4a2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
