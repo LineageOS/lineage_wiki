@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "d2939515_b0e70c84",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-17T07:37:10Z",
+      "side": 1,
+      "message": "What about omitting \u0027a\u0027 or \u0027the\u0027. It looks fine:\n\nA USB cable compatible with Xiaomi Mi 5.",
+      "parentUuid": "98cfa4d9_f31740ba",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "12829b39_8ba48dbe",
         "filename": "_includes/templates/device_build.md",
         "patchSetId": 13
@@ -53,6 +71,24 @@
     },
     {
       "key": {
+        "uuid": "d9e56cb3_4b79f3bc",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-17T07:37:10Z",
+      "side": 1,
+      "message": "Nice catch.",
+      "parentUuid": "6d8d90e2_6bb3019b",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fe358a00_85010844",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 13
@@ -64,6 +100,24 @@
       "writtenOn": "2017-10-17T07:28:54Z",
       "side": 1,
       "message": "Don\u0027t you commit \"changes\" as opposed to \"files\"?",
+      "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c3f12af4_05133ac3",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-17T07:37:10Z",
+      "side": 1,
+      "message": "To be honest, I wouldn\u0027t change this part, \"edit\" was just fine.",
+      "parentUuid": "fe358a00_85010844",
       "revId": "0a89619dbb64f5bb3b25feef7efc7aad8196809d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
