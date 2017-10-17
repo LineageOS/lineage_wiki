@@ -40,6 +40,24 @@
       "revId": "7800a155e9b364ff9cc0fba697a4087f5a2b4a2a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f7d462c1_266990b0",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-17T15:04:18Z",
+      "side": 1,
+      "message": "Ohh, that\u0027s nice. Always learning. ;)",
+      "parentUuid": "b98c54c4_a63d769e",
+      "revId": "7800a155e9b364ff9cc0fba697a4087f5a2b4a2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
