@@ -11,9 +11,11 @@ cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+depth: 9.9 mm (0.39 in)
 download_boot: With the device powered off, hold Volume Down & Power simultaneously.
 gpu: Adreno 306
 has_recovery_partition: true
+height: 144.4 mm (5.69 in)
 image: harpia.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
@@ -41,4 +43,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
+width: 72 mm (2.83 in)
 wifi: Wi-Fi 802.11 b/g/n, Hotspot
