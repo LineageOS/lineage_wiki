@@ -1,0 +1,48 @@
+architecture: arm
+battery: Removable Li-Ion 2300 mAh
+bluetooth: v4.1 with A2DP, LE
+cameras:
+- {flash: 'LED', info: '13 MP(LTE) or 8 MP(3G)'}
+- {flash: '', info: '5 MP or 8 MP'}
+carrier:
+channels: [weekly]
+codename: m216
+cpu: Cortex A53
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold Vol Down & Power.
+gpu: Adreno 306
+has_recovery_partition: true
+height: 144.6 mm (5.69 in)
+image: m216.png
+recovery_partition: /dev/block/bootdevice/by-name/recovery
+root_method: [custom, 'https://forum.xda-developers.com/lg-k10/how-to/guide-unlock-bt-install-twrp-download-t3574701']
+install_method: dd
+kernel: android_kernel_lge_msm8916
+maintainers: [erfanoabdi, dom133]
+models: [K10, K420N, K420DS]
+name: LG K10
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 1900 2100 MHz UMTS' }
+- {tech: 4G, bands: 'B5(850) B3(1800 +) B40(TD 2300) LTE' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Magnetic sensor, Digital compass, GPS, NFC, FM Radio, RGB ambient light, Hall sensor]
+ram: 1.5 GB / 2 GB
+recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for 1 sec and hold it again till recovery comes up
+release: January 2016
+screen: 134 mm (5.3 in)
+screen_ppi: 277
+screen_res: 720x1280
+screen_tech: IPS LCD
+sdcard: up to 32 GB
+soc: Qualcomm MSM8916 Snapdragon 410
+storage: 16 GB
+tree: android_device_lge_m216
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [14.1]
+width: 74.8 mm (2.94 in)
+wifi: 802.11 a/b/g/n
