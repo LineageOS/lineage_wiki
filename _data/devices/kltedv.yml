@@ -18,8 +18,8 @@ image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974
 maintainers: [haggertk, javelinanddart]
-models: [SM-G900I]
-name: Galaxy S5 (Vodafone)
+models: [SM-G900I/P]
+name: Galaxy S5 (Vodafone/Sprint)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
