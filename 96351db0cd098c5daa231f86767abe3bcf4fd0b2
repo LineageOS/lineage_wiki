@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "45895c43_a03072ca",
+        "filename": "_data/devices/m216.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-21T11:18:34Z",
+      "side": 1,
+      "message": "Nitpicking... v4.1 with A2DP, LE",
+      "range": {
+        "startLine": 3,
+        "startChar": 11,
+        "endLine": 3,
+        "endChar": 24
+      },
+      "revId": "96351db0cd098c5daa231f86767abe3bcf4fd0b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e56f3b83_763a03e8",
+        "filename": "_data/devices/m216.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-21T11:18:34Z",
+      "side": 1,
+      "message": "If I remember correctly, this requires a root method to be specified.",
+      "range": {
+        "startLine": 20,
+        "startChar": 16,
+        "endLine": 20,
+        "endChar": 18
+      },
+      "revId": "96351db0cd098c5daa231f86767abe3bcf4fd0b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
