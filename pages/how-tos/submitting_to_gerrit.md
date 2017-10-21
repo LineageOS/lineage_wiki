@@ -19,6 +19,9 @@ Then, make sure your local git username matches with your Gerrit username::
 git config --global review.review.lineageos.org.username "gerrit username"
 ```
 
+{% include note.html content="Gerrit ensures users have completed a valid [Contributor Agreements](https://review.lineageos.org/#/settings/agreements) prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent.
+Please refer to [Gerrit Documentation](https://review.lineageos.org/Documentation/user-upload.html#_gritty_details) for additional details." %}
+
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
 Generate the SSH keys,<sup>[[1]](#TroubleshootingTag)</sup>:
