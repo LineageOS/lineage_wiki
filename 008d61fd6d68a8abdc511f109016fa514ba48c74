@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "37eafbf6_63d6a749",
+        "filename": "_data/devices/m216.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-10-21T15:14:53Z",
+      "side": 1,
+      "message": "I don\u0027t think this goes here, unless there actually is a variant of the lg k10 with a model # of k10. It\u0027s only for specific model # variants. Please correct me if I\u0027m wrong.",
+      "range": {
+        "startLine": 25,
+        "startChar": 9,
+        "endLine": 25,
+        "endChar": 12
+      },
+      "revId": "008d61fd6d68a8abdc511f109016fa514ba48c74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e22475a1_89f8bfb3",
+        "filename": "pages/install/m216.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2017-10-21T15:14:53Z",
+      "side": 1,
+      "message": "We use codename here. Same on build and info pages.",
+      "range": {
+        "startLine": 3,
+        "startChar": 28,
+        "endLine": 3,
+        "endChar": 34
+      },
+      "revId": "008d61fd6d68a8abdc511f109016fa514ba48c74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
