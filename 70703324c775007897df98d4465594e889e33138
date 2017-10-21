@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3659d8ea_4ff427f0",
+        "filename": "_data/devices/kltedv.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-10-21T02:10:58Z",
+      "side": 1,
+      "message": "SM-G900I, SM-G900P\n\nTo allow for the bulleted list of models.",
+      "range": {
+        "startLine": 21,
+        "startChar": 8,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "70703324c775007897df98d4465594e889e33138",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6985330f_48e9e07a",
+        "filename": "_data/devices/kltedv.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-10-21T02:10:58Z",
+      "side": 1,
+      "message": "G900I/P\n\nBring into alignment with hlte, as well as stop confusing users in regards to device vs. carrier.",
+      "range": {
+        "startLine": 22,
+        "startChar": 17,
+        "endLine": 22,
+        "endChar": 32
+      },
+      "revId": "70703324c775007897df98d4465594e889e33138",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
