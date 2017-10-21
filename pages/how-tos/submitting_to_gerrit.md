@@ -237,6 +237,6 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 [Git Immersion](http://gitimmersion.com/)
 
-[Using git and repo](https://source.android.com/source/git-repo.html)
+[Git and repo overview](https://source.android.com/source/developing)
 
 [Gerrit Documentation](https://review.lineageos.org/Documentation/index.html)
