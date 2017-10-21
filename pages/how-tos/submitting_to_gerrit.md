@@ -12,12 +12,15 @@ tags:
 
 If you haven't yet successfully downloaded the source and generated a build of LineageOS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
 
-Setup an account on [Gerrit](https://review.lineageos.org) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
+Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributor Agreement](https://review.lineageos.org/#/settings/agreements) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 Then, make sure your local git username matches with your Gerrit username::
 
 ```
 git config --global review.review.lineageos.org.username "gerrit username"
 ```
+
+{% include important.html content="Gerrit ensures users have completed a valid [Contributor Agreement](https://review.lineageos.org/#/settings/agreements) prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent.
+Please refer to [Gerrit Documentation](https://review.lineageos.org/Documentation/user-upload.html#_gritty_details) for additional details." %}
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
