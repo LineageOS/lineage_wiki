@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "228ef306_f12d8dfe",
+        "filename": "_data/devices/m216.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2017-10-21T06:05:54Z",
+      "side": 1,
+      "message": "\"goto recovery\" is sort of vague. Is there a menu or something involved?",
+      "range": {
+        "startLine": 31,
+        "startChar": 49,
+        "endLine": 31,
+        "endChar": 82
+      },
+      "revId": "307bce68992ad3f3d25af70f80ad7400f6be6c93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
