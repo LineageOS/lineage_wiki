@@ -20,16 +20,12 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
-| Chirayu Desai | cdesai |
-| Daniel Hillenbrand | codeworkx |
-| Danny Baumann | maniac103 |
-| Diogo Ferreira | defer |
-| Ed Carrigan | senyor |
-| Ethan Chen | intervigil |
-| Jorge Ruesga | jruesga |
-| Marcos Marado | marado |
+| LuK1337 | LuK1337 |
+| Luca Stefani | luca020400 |
 | Michael Bestas | mikeioannina |
-| Tom Marshall | tdm |
+| Rashed Abdel-Tawab | rashed |
+| Simon Shields | forkbomb |
+| razorloves | razorloves |
 
 ### Trusted reviewers
 
@@ -38,15 +34,11 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 | Name | Nickname |
 |------|----------|
-| Arne Coucheron | arco |
 | Björn Lundén | blunden |
 | Brandon McAnsh | bmc08gt |
-| Christopher R Palmer | crpalmer |
-| Kevin Haggerty | haggertk |
 | Michael W. | BadDaemon |
 | Scott Warner | Tortel |
 | Shane Passmore | h8rift |
-| Simon Shields | forkbomb |
 
 ### Committers
 
@@ -54,16 +46,29 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
+| Adrian DC | adriandc |
 | Arne Coucheron | arco |
 | Brinly Taylor | brinlyau |
+| Bruno Martins | bgcngm |
+| Chirayu Desai | cdesai |
 | Christopher N. Hesse | raymanfx |
+| Christopher R. Palmer | crpalmer |
 | Clark Scheff | D34D |
+| Dan Pasanen | invisiblek |
+| Daniel Hillenbrand | codeworkx |
+| Danny Baumann | maniac103 |
+| Diogo Ferreira | defer |
+| Ed Carrigan | senyor |
+| Ethan Chen | intervigil |
 | Gabriele M | gmrt |
 | Harry Youd | harryyoud |
 | Joey Rizzoli | joeyrizzoli |
-| LuK1337 | LuK1337 |
-| Luca Stefani | luca020400 |
-| Rashed Abdel-Tawab | rashed |
+| Jorge Ruesga | jruesga |
+| Kevin F. Haggerty | haggertk |
+| Marcos Marado | marado |
+| Olivier Karasangabo | olivier97 |
+| Sam Mortimer | sam3000 |
+| Tom Marshall | tdm |
 | Zhao Wei Liew | zwliew |
 
 ### Developer relations managers
