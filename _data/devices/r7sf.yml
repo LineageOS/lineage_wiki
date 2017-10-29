@@ -1,0 +1,43 @@
+architecturearchitectur
+battery: Non-removable Li-Po 3070 mAh
+bluetooth: 
+cameras:
+- {fla:info: }
+- {flash: '', infP}
+carrier:
+channels: 
+codename: 
+cpupu_cores: 
+cpu_freq: 1.5 GHz and 1.0 GHz
+current_branch: 
+download_boot: With the device powered down, hold the Volume Up and Power buttons.
+gpu: 
+has_recovery_partition: fales
+image: 
+install_method: fastboot_oppo
+kernel: android_kernel_oppo_msm8939
+maintainers: [Celoxocis]
+name: R7s/R7 sf (International)
+network:
+- {tech: 2G, ' }
+- {tech: 3G, bands+' }
+- {tech: 4G, ba(1(800) XE(Cat. 4)' }
+no_oem_unlock_switch: true
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, USB OTG]
+project_spectroidfilehost.com/
+ram: 4 GB
+recovery_bhe device powered down, hold the Volume Down and Power buttons.
+release
+screen: 139.7 mm (5.5 in)
+screen_ppi: 
+screen_res: 1080x1920
+screen_tech
+sdcard: up to 128 GB
+soc:
+storage: 32 GB
+tree: android_device_oppo_r7sf
+type: phone
+vendor: 
+vendor_short: 
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band
