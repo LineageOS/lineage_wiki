@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "adbf87b4_3a43dbb0",
+        "filename": "_data/devices/r7sf.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-29T14:27:16Z",
+      "side": 1,
+      "message": "Remove sensors info. No one is putting this info here.",
+      "range": {
+        "startLine": 5,
+        "startChar": 29,
+        "endLine": 5,
+        "endChar": 52
+      },
+      "revId": "28706d6bb8b74559956a06378ff6760317b6d442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8e58d964_a343eaf5",
+        "filename": "_data/devices/r7sf.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-29T14:27:16Z",
+      "side": 1,
+      "message": "Same.",
+      "range": {
+        "startLine": 6,
+        "startChar": 25,
+        "endLine": 6,
+        "endChar": 43
+      },
+      "revId": "28706d6bb8b74559956a06378ff6760317b6d442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7175900e_e45ca421",
+        "filename": "_data/devices/r7sf.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-10-29T14:27:16Z",
+      "side": 1,
+      "message": "Only?",
+      "range": {
+        "startLine": 27,
+        "startChar": 15,
+        "endLine": 27,
+        "endChar": 23
+      },
+      "revId": "28706d6bb8b74559956a06378ff6760317b6d442",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
