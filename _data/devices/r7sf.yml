@@ -1,0 +1,46 @@
+architecture: arm64
+battery: 3070 mAh Li-Po (Non-removable)
+bluetooth: '4.0'
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: r7sf
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz and 1.0 GHz
+current_branch: 14.1
+download_boot: With the device powered down, hold the Volume Up and Power buttons.
+gpu: Adreno 405
+has_recovery_partition: true
+image: r7sf.png
+install_method: fastboot_oppo
+kernel: android_kernel_oppo_msm8939
+maintainers: [Celoxocis]
+name: R7s/R7 sf (International)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) XL(2300) LTE' }
+no_oem_unlock_switch: false
+peripherals: ['A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gesture sensor, Glonass, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, USB OTG']
+project_spectrum: "https://androidfilehost.com/?fid=673791459329053792"
+project_spectrum_recovery: ""
+ram: 4 GB
+recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+release: 2015 November
+required_bootloader_link: ""
+screen: 139.7 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080x1920
+screen_tech: AMOLED (Samsung s6e3fa3)
+sdcard: up to 128 GB
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 32 GB
+tree: android_device_oppo_r7sf
+type: phone
+vendor: OPPO
+vendor_short: oppo
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band
