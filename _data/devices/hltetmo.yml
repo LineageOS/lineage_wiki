@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (N900T/V/W8), 800 1900 MHz CDMA (N900V)' }
 - {tech: 4G, bands: '4(1700/2100) 17(700) (N900T), 4(1700/2100) 13(700) (N900V), 2(1900) 4(1700/2100) 17(700) (N900W8)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Temperature, Humidity, NFC, GPS, GLONASS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
 release: Sept 2013
