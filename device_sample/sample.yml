@@ -27,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1800 1900 HSDPA, CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '3(1800) 7(2600) 8(900) 20(800) LTE' }
-peripherals: [Fingerprint recognition, Heart rate sensor, Motion Coprocessor, Accelerometer,
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
 ram: 2 GB
