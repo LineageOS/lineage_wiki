@@ -23,7 +23,7 @@ install_method: dd
 kernel: android_kernel_lge_msm8916
 maintainers: [erfanoabdi, dom133]
 models: [K420N, K420DS]
-name: LG K10
+name: K10
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz UMTS' }
