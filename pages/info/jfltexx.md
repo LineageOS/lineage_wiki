@@ -4,7 +4,10 @@ title: Info about jfltexx
 folder: info
 layout: deviceinfo
 # name of the page (/{{permalink}}.html)
-redirect_from: jfltexx_info.html
+redirect_from:
+   - jfltexx_info.html
+   - jfltetmo_info.html
+   - /devices/jfltetmo/
 permalink: /devices/jfltexx/
 device: jfltexx
 ---
