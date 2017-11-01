@@ -22,7 +22,7 @@ install_method: fastboot_unlocked
 kernel: android_kernel_fairphone_msm8974
 maintainers: [chrmhoffmann]
 models: [FP2]
-name: Fairphone 2
+name: FP2
 network:
 - {tech: 2G, bands: '850 900 1800 1900' }
 - {tech: 3G, bands: '8(900) 2(1900) 1(2100) ' }
@@ -31,7 +31,6 @@ peripherals: [3-axis Compass, 3D Accelerometer, 3D Gyroscope, Ambient light, Dua
 ram: 2 GB
 recovery_boot: With the device powered off, hold Volume Up & Power. Release when boot logo appears.
 release: December 2015
-required_bootloader: []
 screen: 130 mm (5.1 in)
 screen_ppi: 446
 screen_res: 1920x1080
@@ -42,7 +41,7 @@ storage: 32 GB
 tree: android_device_fairphone_FP2
 type: phone
 vendor: Fairphone
-vendor_short: Fairphone
+vendor_short: fairphone
 versions: [14.1]
 width: 73 mm (2.9 in)
 wifi: 802.11 b/g/n/ac
