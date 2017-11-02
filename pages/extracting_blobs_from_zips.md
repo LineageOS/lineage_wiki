@@ -18,14 +18,16 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat` from the installable LineageOS zip:
+Extract `system.transfer.list`, `system.new.dat` and `boot.img` from the installable LineageOS zip:
 
 ```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat
+unzip path/to/lineage-*.zip system.transfer.list system.new.dat boot.img
 ```
 where `path/to/` is the path to the installable zip.
 
-You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
+### Prepare the system partition files
+
+You now need to get a copy of `sdat2img`. This script can convert the contents of block-based OTA system images into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
 
 ```
 git clone https://github.com/xpirt/sdat2img
@@ -44,12 +46,54 @@ mkdir system/
 sudo mount system.img system/
 ```
 
-After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+### Prepare the boot partition files
+
+Now, we have to take care of the `boot.img` file. It includes both the kernel and ramdisk, as you can see when running 
+```
+file boot.img
+```
+
+First, we have to split it into these two parts. We use the program `abootimg` for that, so please install it from your package manager: 
+```
+sudo apt install abootimg
+```
+You can also get it from e.g. [ggrandou on Github](https://github.com/ggrandou/abootimg ) and build it yourself (How to build abootimg is out of scope of this tutorial). 
+
+Now, split `boot.img` into two parts: 
+```
+abootimg -x boot.img
+```
+
+`initrd.img` is actually a gzip-compressed init-RAM-disk. 
+So we first have to make gunzip recognize it as gzip-compressed file by adding the file extension `.gz`. 
+
+```
+mv initrd.img initrd.img.gz
+```
+
+Now, gunzip won't complain and we can unzip it: 
+```
+gunzip initrd.img.gz
+```
+We get `initrd.img` (**this** time **not** gzip-compressed). 
+
+
+Now, you can extract the files from the cpio-init-RAM-disk file initrd.img by running: 
+```
+cpio -i < initrd.img 
+```
+
+
+### Copy the needed system and ramdisk image files 
+
+After you have mounted the system image and extracted the ramdisk files, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
+
+For some older device configurations, you might have to add the option `-d ` or `--path` before `~/android/system_dump/`; otherwise "extract_files.sh" will still look for an adb device. 
 
 Once you've extracted all the proprietary files, unmount the system dump and delete the no longer needed files:
 
