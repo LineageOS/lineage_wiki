@@ -18,14 +18,26 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat` from the installable LineageOS zip:
+Run the ``extract-files.sh`` script inside the /device/$VENDOR/$DEVICE_CODENAME folder once with **wrong** parameters (we will execute it again with right parameters later); to get a list of needed files: 
 
 ```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat
+./extract-files.sh ~/some-non-existent-folder 
+```
+This will return a list of files that we need to find. 
+
+- If **all** of these file paths start with system (or /system), you don't have to extract the boot partition; so you can *skip the section "Prepare the boot partition files"* and you don't have to extract boot.img from the zip in the following. 
+- If any of these file paths does **not** start with system (or /system), you have to extract the boot partition. 
+
+Extract `system.transfer.list`, `system.new.dat` and `boot.img` from the installable LineageOS zip:
+
+```
+unzip path/to/lineage-*.zip system.transfer.list system.new.dat boot.img
 ```
 where `path/to/` is the path to the installable zip.
 
-You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
+### Prepare the system partition files
+
+You now need to get a copy of `sdat2img`. This script can convert the contents of block-based OTA system images into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
 
 ```
 git clone https://github.com/xpirt/sdat2img
@@ -44,12 +56,54 @@ mkdir system/
 sudo mount system.img system/
 ```
 
-After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+### Prepare the boot partition files
+
+Now, we have to take care of the `boot.img` file. It should include both the kernel and ramdisk, as you can see when running 
+```
+file boot.img
+```
+
+If the file is in some other format, please find a solution for the steps afterwards by yourself. 
+
+First, we have to split it into these two parts. 
+We can use the python script ``unpackbootimg`` at ``/system/core/mkbootimg/unpackbootimg``: 
+```
+unpackbootimg -i boot.img -o . 
+```
+(Don't leave away the dot)
+This will unpack the contents of boot.img into the current directory. 
+We should now have the RAM disk, compressed with 
+- GZIP (.gz, .gzip) # or
+- BZIP2 (.bzip2, .bz) # or
+- LZMA (.lzma, .lzma2) # or
+- XZ (.xz)
+
+Let's decompress it: 
+```
+gunzip  boot.img-ramdisk.gz # or
+bunzip2 boot.img-ramdisk.bz # or
+lzma -d boot.img-ramdisk.lzma # or
+xz -d   boot.img-ramdisk.xz
+```
+
+We get `boot.img-ramdisk`. This is the initrd. 
+
+Now, you can extract the files from the cpio-init-RAM-disk file by running: 
+```
+cpio -i < boot.img-ramdisk
+```
+
+
+### Copy the needed system and ramdisk image files 
+
+After you have mounted the system image and extracted the ramdisk files, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
+
+For some older device configurations, you might have to add the option `-d ` or `--path` before `~/android/system_dump/`; otherwise "extract_files.sh" will still look for an adb device. 
 
 Once you've extracted all the proprietary files, unmount the system dump and delete the no longer needed files:
 
