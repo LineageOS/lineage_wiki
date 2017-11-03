@@ -11,52 +11,14 @@ Before beginning, it is required to know the difference between block-based OTAs
 
 ## Extracting proprietary blobs from block-based OTAs
 
-Create a temporary directory and move there:
 
+Just run the ./extract_files.sh script with your zip file as first argument: 
 ```
-mkdir ~/android/system_dump/
-cd ~/android/system_dump/
+$LINEAGEOS_ROOT/device/$VENDOR/$DEVICE/extract_files.sh $ZIP_FILE
 ```
+- If anything fails, have a look in the source code of this bash script and inside the function extract of ``$LINEAGEOS_ROOT/vendor/cm/build/tools/extract_utils.sh ``. 
+- If the script does not exist (might be the case for older devices), have a look in the extract_files.sh script of other devices and create the script by yourself.
 
-Extract `system.transfer.list` and `system.new.dat` from the installable LineageOS zip:
-
-```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat
-```
-where `path/to/` is the path to the installable zip.
-
-You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
-
-```
-git clone https://github.com/xpirt/sdat2img
-```
-
-Once you have obtained `sdat2img`, use it to extract the system image:
-
-```
-python sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
-```
-
-You should now have a file named `system.img` that you can mount as follows:
-
-```
-mkdir system/
-sudo mount system.img system/
-```
-
-After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
-
-```
-./extract-files.sh ~/android/system_dump/
-```
-This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
-
-Once you've extracted all the proprietary files, unmount the system dump and delete the no longer needed files:
-
-```
-sudo umount ~/android/system_dump/system
-rm -rf ~/android/system_dump/
-```
 
 ## Extracting proprietary blobs from file-based OTAs
 
