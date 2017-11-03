@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6fedd298_c3fd386b",
+        "filename": "_data/devices/kccat6.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18013
+      },
+      "writtenOn": "2017-11-03T13:12:43Z",
+      "side": 1,
+      "message": "I was just harmonizing the way the buttons are listed. Right now it\u0027s the first time with comma (Recovery) and secodn time with \"\u0026\" only (Download), see https://wiki.lineageos.org/devices/kccat6",
+      "parentUuid": "9d5e1ac7_77fe4456",
+      "range": {
+        "startLine": 29,
+        "startChar": 58,
+        "endLine": 29,
+        "endChar": 61
+      },
+      "revId": "75b21e7efd6353f4eb8f1d6b6a022a92a16c475c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "482373f4_2ce3d2c4",
         "filename": "_data/devices/lentislte.yml",
         "patchSetId": 1
@@ -59,6 +83,30 @@
       "writtenOn": "2017-11-03T12:46:16Z",
       "side": 1,
       "message": "Don\u0027t you need a new line after this?",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 8
+      },
+      "revId": "75b21e7efd6353f4eb8f1d6b6a022a92a16c475c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "82c2af1c_860eeade",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 18013
+      },
+      "writtenOn": "2017-11-03T13:12:43Z",
+      "side": 1,
+      "message": "why? if you actually tested the code, you\u0027d see how it looks :)",
+      "parentUuid": "b619f56d_18399b55",
       "range": {
         "startLine": 63,
         "startChar": 0,
