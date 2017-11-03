@@ -18,6 +18,16 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
+Run the ``extract-files.sh`` script inside the /device/$VENDOR/$DEVICE_CODENAME folder once with **wrong** parameters (we will execute it again with right parameters later); to get a list of needed files: 
+
+```
+./extract-files.sh ~/some-non-existent-folder 
+```
+This will return a list of files that we need to find. 
+
+- If **all** of these file paths start with system (or /system), you don't have to extract the boot partition; so you can *skip the section "Prepare the boot partition files"* and you don't have to extract boot.img from the zip in the following. 
+- If any of these file paths does **not** start with system (or /system), you have to extract the boot partition. 
+
 Extract `system.transfer.list`, `system.new.dat` and `boot.img` from the installable LineageOS zip:
 
 ```
@@ -48,39 +58,39 @@ sudo mount system.img system/
 
 ### Prepare the boot partition files
 
-Now, we have to take care of the `boot.img` file. It includes both the kernel and ramdisk, as you can see when running 
+Now, we have to take care of the `boot.img` file. It should include both the kernel and ramdisk, as you can see when running 
 ```
 file boot.img
 ```
 
-First, we have to split it into these two parts. We use the program `abootimg` for that, so please install it from your package manager: 
-```
-sudo apt install abootimg
-```
-You can also get it from e.g. [ggrandou on Github](https://github.com/ggrandou/abootimg ) and build it yourself (How to build abootimg is out of scope of this tutorial). 
+If the file is in some other format, please find a solution for the steps afterwards by yourself. 
 
-Now, split `boot.img` into two parts: 
+First, we have to split it into these two parts. 
+We can use the python script ``unpackbootimg`` at ``/system/core/mkbootimg/unpackbootimg``: 
 ```
-abootimg -x boot.img
+unpackbootimg -i boot.img -o . 
+```
+(Don't leave away the dot)
+This will unpack the contents of boot.img into the current directory. 
+We should now have the RAM disk, compressed with 
+- GZIP (.gz, .gzip) # or
+- BZIP2 (.bzip2, .bz) # or
+- LZMA (.lzma, .lzma2) # or
+- XZ (.xz)
+
+Let's decompress it: 
+```
+gunzip  boot.img-ramdisk.gz # or
+bunzip2 boot.img-ramdisk.bz # or
+lzma -d boot.img-ramdisk.lzma # or
+xz -d   boot.img-ramdisk.xz
 ```
 
-`initrd.img` is actually a gzip-compressed init-RAM-disk. 
-So we first have to make gunzip recognize it as gzip-compressed file by adding the file extension `.gz`. 
+We get `boot.img-ramdisk`. This is the initrd. 
 
+Now, you can extract the files from the cpio-init-RAM-disk file by running: 
 ```
-mv initrd.img initrd.img.gz
-```
-
-Now, gunzip won't complain and we can unzip it: 
-```
-gunzip initrd.img.gz
-```
-We get `initrd.img` (**this** time **not** gzip-compressed). 
-
-
-Now, you can extract the files from the cpio-init-RAM-disk file initrd.img by running: 
-```
-cpio -i < initrd.img 
+cpio -i < boot.img-ramdisk
 ```
 
 
