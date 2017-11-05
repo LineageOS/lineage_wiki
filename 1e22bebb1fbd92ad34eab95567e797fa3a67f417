@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "24636fd8_4e227983",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-11-05T10:42:37Z",
+      "side": 1,
+      "message": "I don\u0027t really like this.",
+      "range": {
+        "startLine": 21,
+        "startChar": 92,
+        "endLine": 21,
+        "endChar": 117
+      },
+      "revId": "1e22bebb1fbd92ad34eab95567e797fa3a67f417",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
