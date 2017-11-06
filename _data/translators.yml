@@ -74,8 +74,6 @@ languages:
       proofreaders: [Vegard Fladby (Allram), Syver Stensholt (sssandum)]
     - name: Occitan
       proofreaders: [sebcxjo]
-    - name: Pirate English
-      proofreaders: [Paul Keith (javelinanddart)]
     - name: Polish
       proofreaders: [Mateusz (godlesplay)]
     - name: Portuguese
