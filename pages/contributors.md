@@ -20,11 +20,14 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
+| Abhisek Devkota | ciwrl |
 | LuK1337 | LuK1337 |
 | Luca Stefani | luca020400 |
 | Michael Bestas | mikeioannina |
 | Rashed Abdel-Tawab | rashed |
+| Sam Mortimer | sam3000 |
 | Simon Shields | forkbomb |
+| Tom Powell | zifnab |
 | razorloves | razorloves |
 
 ### Trusted reviewers
@@ -67,7 +70,6 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Kevin F. Haggerty | haggertk |
 | Marcos Marado | marado |
 | Olivier Karasangabo | olivier97 |
-| Sam Mortimer | sam3000 |
 | Tom Marshall | tdm |
 | Zhao Wei Liew | zwliew |
 
