@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
 depth: 10.4 mm (0.41 in)
-download_boot: With the device powered off, hold Volume Down & Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 129.3 mm (5.09 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 17(700) LTE (AT&T), 2(1900) 4(1700/2100) 17(700) LTE (T-Mobile), 3(1800) 7(2600) 20(800) LTE (EU)' }
 peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor, GPS, NFC]
 ram: 2 GB
-recovery_boot: From fastboot mode select recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
 release: 23 August 2013
 screen: 119.4 mm (4.7 in)
 screen_ppi: 316

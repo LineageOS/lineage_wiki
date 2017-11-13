@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 8.8 mm (0.35 in)
-download_boot: With the device powered off, hold Vol Down & Power.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
@@ -30,7 +30,7 @@ network:
 - {tech: 4G, bands: 'B5(850) B3(1800 +) B40(TD 2300) LTE' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Magnetic sensor, Digital compass, GPS, NFC, FM Radio, RGB ambient light, Hall sensor]
 ram: 1.5 GB / 2 GB
-recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for 1 sec and hold it again till recovery comes up
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 release: January 2016
 screen: 134 mm (5.3 in)
 screen_ppi: 277

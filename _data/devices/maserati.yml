@@ -11,7 +11,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-download_boot: Vol Up & Vol Down & Power
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 has_recovery_partition: true
 image: maserati.png
@@ -26,7 +26,7 @@ network:
 - {tech: 4G, bands: '13(700)' }
 peripherals: [Accelerometer, Proximity sensor, Compass, GPS, HDMI, FM Radio]
 ram: 1 GB
-recovery_boot: Power and at SafeStrap splash screen press Menu key within 10 seconds
+recovery_boot: With the device powered off, press <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 release: 2012 February 10
 screen: 102 mm (4.0 in)
 screen_ppi: '275'

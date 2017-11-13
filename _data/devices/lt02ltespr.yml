@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 2 x 1.7 GHz
 current_branch: 14.1
 depth: 9.9 mm (0.39 in)
-download_boot: With the device powered off, hold **Home**, **Volume Down**, and **Power**
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 188 mm (7.4 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1900 MHz LTE' }
 peripherals: [IR blaster, Accelerometer, Light sensor, Compass]
 ram: 1.5 GB
-recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016 September
 screen: 178 mm (7.0 in)
 screen_ppi: ~535

@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 9.8 mm (0.39 in)
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 height: 153 mm (6.02 in)
@@ -28,9 +28,8 @@ network:
 - {tech: 4G, bands: '700 850 1700 1800 1900 2600 MHz' }
 peripherals: ['']
 ram: 2/3/4 GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
-  On the next screen use Volume Down to scroll to recovery and then use Volume Up
-  to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2016 May
 screen: 140 mm (5.5 in)
 screen_ppi: ~401

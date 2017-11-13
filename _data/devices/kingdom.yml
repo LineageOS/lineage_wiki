@@ -12,8 +12,8 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 depth: 7.7 mm (0.30 in)
-download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
-  Then plug in an USB cable. A small green Android logo appears at the center of the screen.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
+  A small green Android logo appears at the center of the screen.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 156 mm (6.14 in)
@@ -29,8 +29,8 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
 peripherals: [GPS, NFC, FM Radio, Hall sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
-  Then press and hold the Power button until the "Lenovo" logo appears.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
+  Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
 release: 2014 September
 screen: 152.4 mm (6.0 in)
 screen_ppi: '490'

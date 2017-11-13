@@ -11,7 +11,7 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-download_boot: Volume Down & Power
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 gpu: Adreno 305
 has_recovery_partition: true
 image: mt2.png
@@ -25,7 +25,7 @@ network:
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 17(700)' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
-recovery_boot: Volume Up & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release:
 screen: 155 mm (6.1 in)
 screen_ppi: '241'
