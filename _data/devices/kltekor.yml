@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Vol Down & Home & Power
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 image: klte.png
@@ -26,7 +26,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release:
 screen: 130 mm (5.1 in)
 screen_ppi: '432'

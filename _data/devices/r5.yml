@@ -11,7 +11,7 @@ cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 image: r5.png
@@ -28,7 +28,7 @@ peripherals: ['']
 project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
 project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014 December
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
 screen: 132 mm (5.2 in)

@@ -11,7 +11,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
-download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 305
 has_recovery_partition: true
 image: nicki.png
@@ -25,7 +25,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
-recovery_boot: Press Volume Up when the notification light is pink.
+recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
 release: 2013 June
 screen: 102 mm (4.0 in)
 screen_ppi: '244.9'
