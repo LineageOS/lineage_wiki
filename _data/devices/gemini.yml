@@ -13,7 +13,7 @@ cpu_freq: 2 x 1.8 GHz + 2 x 1.36 GHz (Standard edition) / 2 x 2.15 GHz + 2 x 1.6
   (Pro and Exclusive editions)
 current_branch: 14.1
 depth: 7.3 mm (0.29 in)
-download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 530
 has_recovery_partition: true
@@ -29,7 +29,7 @@ network:
 - {tech: 4G, bands: '850(B5) 1800(B3) 2100(B1) 2600(B7) MHz FDD-LTE, 1900(B39) 2300(B40) 2500(B41) 2600(B38) MHz TDD-LTE' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
-recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: 2016 April
 screen: 130.81 mm (5.15 in)

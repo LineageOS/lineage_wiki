@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 10.7 mm
-download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
 has_recovery_partition: true
 height: 129.0 mm
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 20(800) LTE' }
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 1 GB
-recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />**Second Recovery:** To boot the FOTA Recovery, press Volume Up instead.'
+recovery_boot: 'On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br />**Second Recovery:** To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.'
 release: 2012 September
 screen: 109 mm (4.3 in)
 screen_ppi: '342'

@@ -12,8 +12,8 @@ cpu_freq: 1 GHz
 cpu_cores: '2'
 current_branch: 13.0
 depth: 10.5 mm / 9.7 mm
-download_boot: Hold **Volume Down** and **Power** buttons.
-gpu: PowerVR SGX540 @ 307 Mhz
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: <kbd>Power</kbd>VR SGX540 @ 307 Mhz
 has_recovery_partition: true
 height: 193.7 mm / 256.6 mm
 image: espresso3g.png
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
-recovery_boot: Hold **Volume Up** and **Power** buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012 May
 screen: 7.0 / 10.1 inches
 screen_res: 600x1024 / 800x1280

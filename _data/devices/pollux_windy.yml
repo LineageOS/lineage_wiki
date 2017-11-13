@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 6.9 mm (0.27 in)
-download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 172 mm (6.77 in)
@@ -24,8 +24,8 @@ maintainers: [CaHbKaUp, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
 name: Xperia Tablet Z Wi-Fi
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB LPDDR2
-recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
-<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
+recovery_boot: 'On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br />
+<b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.'
 release: 2013 February
 screen: 256.54 mm (10.1 in)
 screen_ppi: '224'

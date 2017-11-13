@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
 depth: 9.9  mm (0.39 in)
-download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 305
 has_recovery_partition: true
@@ -29,7 +29,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 1 GB
-recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: 2014 May
 screen: 119.4 mm (4.7 in)

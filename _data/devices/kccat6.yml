@@ -11,7 +11,8 @@ cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Home & Power. In order to exit download mode and reboot, hold Volume Down & Power for about 7 seconds.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+ In order to exit download mode and reboot, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> for about 7 seconds.
 gpu: Adreno 420
 has_recovery_partition: true
 image: klte.png
@@ -26,8 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
-  blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 21 August 2014
 screen: 130 mm (5.1 in)
 screen_ppi: '432'

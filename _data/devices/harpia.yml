@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 9.9 mm (0.39 in)
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 144.4 mm (5.69 in)
@@ -28,8 +28,8 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 12(700) 13(700) 17(700) 25(1900) 26(850) 41(2500) LTE (US, Canada), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 40(2300) LTE (Europe), 3(1800) 5(850) 7(2600) 28(700) LTE (Latin America, Brazil), 2(1900) 4(1700) 5(850) 12(700) 13(700) 17(700) 25(1900) LTE (U.S. Cellular), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 40(2300) LTE (Asia)' }
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB
-recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to recovery and then use Power to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+ On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then use <kbd>Power</kbd> to select.
 release: 2016 May
 screen: 127 mm (5.0 in)
 screen_ppi: ~295

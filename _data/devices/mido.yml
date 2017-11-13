@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 14.1
 depth: 8.5 mm (0.35 in)
-download_boot: Hold **Volume Down** and **Power** buttons simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 506
 has_recovery_partition: true
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300), 3(1800) 5(850) 40(2300) (India)' }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM Radio]
 ram: 2/3/4 GB
-recovery_boot: Hold **Volume Up** and **Power** buttons simultaneously.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: 2017 January
 screen: 139.7 mm (5.5 in)

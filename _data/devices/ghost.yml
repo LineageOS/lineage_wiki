@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
 depth: 10.4 mm (0.41 in)
-download_boot: With the device powered off, hold Volume Down & Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 129.3 mm (5.09 in)

@@ -12,7 +12,7 @@ cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
 depth: 7.8 mm (0.31 in)
-download_boot: With the device powered off, hold Volume Down & Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 gpu: Adreno 418
 has_recovery_partition: true
 height: 138.1 mm (5.44 in)
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
 peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 2/3 GB
-recovery_boot: Hold Volume Up and Power buttons simultaneously. Continue to hold both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Continue to hold both buttons until the "MI" logo appears on the screen, then release.
 release: September, 2015
 required_bootloader:
 screen: 127 mm (5.0 in)

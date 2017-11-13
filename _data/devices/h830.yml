@@ -13,7 +13,7 @@ cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 14.1
 depth: 7.7 mm (0.30 in)
-download_boot: Volume Up & Power
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
 has_recovery_partition: true
 height: 149.4 mm (5.88 in)
@@ -28,8 +28,8 @@ network:
 - {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum]
 ram: 4 GB
-recovery_boot: Hold Volume Down & Power till LG logo appears, then release Power for
-  1 sec and hold it again till recovery comes up
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for
+ 1 sec and hold it again until the recovery comes up.
 release: February 2016
 screen: 134.62 mm (5.3 in)
 screen_ppi: '554'

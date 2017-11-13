@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 depth: 10.29 mm (0.41 in)
-download_boot: With the device powered down, hold the Volume Down and Power buttons
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   until HBOOT appears, then release the buttons.
 gpu: Adreno 320
 has_recovery_partition: true
@@ -28,9 +28,9 @@ network:
 - {tech: 4G, bands: '4(1700/2100) 13(700) LTE' }
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
-  until HBOOT appears, then release the buttons. Navigate using the volume keys and
-  select RECOVERY using the Power key.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  until HBOOT appears, then release the buttons. Navigate to recovery using the volume
+  keys and then press <kbd>Power</kbd>.
 release: 2013 October
 screen: 149.86 mm (5.9 in)
 screen_ppi: '373'

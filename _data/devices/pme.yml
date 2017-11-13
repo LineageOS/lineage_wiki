@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2x2.15 GHz, 2x1.6 GHz
 current_branch: 14.1
 depth: 9 mm (0.35 in)
-download_boot: Hold Volume Down while booting.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 530
 has_recovery_partition: true
 height: 145.9 mm (5.74 in)
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) 41(2500) (EMEA), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 28(700) 29(700) 30(2300) (USA)' }
 peripherals: [Iceview Cases, Hall sensor]
 ram: 4 GB
-recovery_boot: Boot into download (hold Volume Down while booting), select ```Reboot to bootloader``` and then in the bootloader select ```Boot to recovery mode```.
+recovery_boot: Boot into download (hold <kbd>Volume Down</kbd> while booting), select ```Reboot to bootloader``` and then in the bootloader select ```Boot to recovery mode```.
 release: May 2016
 screen: 5.2 inches
 screen_ppi: '565'

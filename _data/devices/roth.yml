@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 13.0
 depth:
-download_boot: Hold Back & Home & tap Power, release once menu is displayed.
+download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>. Release the keys once a menu is displayed.
 gpu: Tegra 4
 has_recovery_partition: true
 height:
@@ -26,8 +26,8 @@ network:
 no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2 GB
-recovery_boot: Hold Back & Home & tap Power, release once menu is displayed. Tap Home
-  until recovery is selected. Press Power to select.
+recovery_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>. Release the keys once a menu is displayed.
+  Tap <kbd>Home</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 release: 2013 July 31
 screen: 127 mm (5.0 in)
 screen_ppi: '294'

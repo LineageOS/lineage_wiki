@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3295098
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 image: merlin.png
@@ -27,8 +27,8 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 28(700) (Asia), 4(1700) 7(2600) 28 (700) (Latin America, Brazil)' }
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 2 GB
-recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to recovery and then use Power to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+ On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then use <kbd>Power</kbd> to select.
 release: 2015 November
 screen: 127 mm (5.0 in)
 screen_ppi: ~295

@@ -12,7 +12,7 @@ cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 8.9 mm (0.35 in)
-download_boot: Hold **Home**, **Volume Down**, and **Power**
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 212.1 mm (8.35 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '800 1900 2500 MHz LTE' }
 peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
-recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: January 2016
 screen: 203 mm (8in)
 screen_ppi: 189
