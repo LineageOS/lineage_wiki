@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
 depth: 9.2mm
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 152.6 mm
@@ -28,7 +28,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014 March 19
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'

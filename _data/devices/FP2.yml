@@ -13,7 +13,7 @@ cpu_freq: 2.26 GHz
 current_branch: 14.1
 custom_unlock_cmd: ''
 depth: 11 mm (0.43 in)
-download_boot: With the device powered off, hold Vol Down & Power. Release when boot logo appears.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 143 mm (5.63 in)
@@ -29,7 +29,7 @@ network:
 - {tech: 4G, bands: '3(1800) 7(2600) 20(800)' }
 peripherals: [3-axis Compass, 3D Accelerometer, 3D Gyroscope, Ambient light, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Up & Power. Release when boot logo appears.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 release: December 2015
 screen: 130 mm (5.1 in)
 screen_ppi: 446

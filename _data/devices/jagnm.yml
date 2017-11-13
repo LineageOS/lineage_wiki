@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 10.3 mm (0.41 in)
-download_boot: Plug into PC & Volume UP
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 137.7 mm (5.42 in)
@@ -29,7 +29,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) LTE' }
 peripherals: [NFC, GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
 ram: 1 GB
-recovery_boot: Volume Down & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014 August
 screen: 127 mm (5.0 in)
 screen_ppi: ~294

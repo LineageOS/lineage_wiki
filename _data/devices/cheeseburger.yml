@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 14.1
 depth: 7.25 mm (0.28 in)
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
 has_recovery_partition: true
 height: 154.2 mm (6.07 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1 2 4 5 7 8 12 17 18 19 20 25 26 28 29 30 34 38 39 40 41 66' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall sensor, Sensor hub, Ambient light sensor]
 ram: 6/8 GB LPDDR4X
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017 June
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'

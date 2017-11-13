@@ -26,8 +26,8 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
 ram: 1 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
-  Release the Power button for a brief second when the LG logo is displayed, then
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed, then
   immediately hold it again.
 release: 2014 April
 screen: 114 mm (4.5 in)

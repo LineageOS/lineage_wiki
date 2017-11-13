@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: [14.1]
 depth: 8.6 mm (0.339 in)
-download_boot: Power off device and hold **Home**, **Volume Down** and **Power** buttons.
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Mali-400
 has_recovery_partition: true
 height: 137 mm (5.4 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '800 1800 2600 MHz (GT-I9305), 900 1800 2600 MHz (GT-I9305N), 1800 2600 MHz (GT-I9305T)'}
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, NFC]
 ram: 2 GB
-recovery_boot: Power off device and hold **Home**, **Volume Up** and **Power** buttons.
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: October 2012
 screen: 122 mm (4.8 in)
 screen_ppi: '320'

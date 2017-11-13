@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 14.1
 depth: 5.6mm
-download_boot: Hold **Home**, **Volume Down**, and **Power**
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
 has_recovery_partition: true
 height: 237.3mm
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 ram: 3 GB
-recovery_boot: Hold **Home**, **Volume Up**, and **Power**
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
 screen: 203 mm (9.7 in)
 screen_ppi: 264

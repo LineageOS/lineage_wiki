@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 14.1
 depth:
-download_boot: Tap Power, then hold power, release once menu is displayed.
+download_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
 gpu: GM20B (Maxwell)
 has_recovery_partition: true
 height:
@@ -26,8 +26,8 @@ network:
 no_oem_unlock_switch: true
 peripherals: ['']
 ram: 3 GB
-recovery_boot: Tap Power, then hold Power, release once menu is displayed. Tap Power
-  until recovery is selected. Press Power for two seconds to select.
+recovery_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
+  Tap <kbd>Power</kbd> until recovery is selected. Press <kbd>Power</kbd> for two seconds to select.
 release: 2015 May 28
 screen:
 screen_ppi:

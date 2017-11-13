@@ -13,7 +13,8 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 custom_twrp_codename: flounder
 depth: 7.95 mm (0.31 in)
-download_boot: With the device powered off, hold Volume Down & Power, then use the menu to select Fastboot.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until HBOOT appears, then release the buttons.
+  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: NVIDIA Kepler DX1 192-core
 has_recovery_partition: true
 height: 228.25 mm (8.99 in)
@@ -28,7 +29,8 @@ network:
 - {tech: 4G, bands: 'B1 B2 B3 B4 B5 B7 B8 B20 LTE' }
 peripherals: [Accelerometer, Light sensor, Gyroscope, Hall sensor, GPS]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Down & Power, then use the menu to select Recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until HBOOT appears, then release the buttons.
+  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 3 November 2014
 screen: 226 mm (8.9 in)
 screen_ppi: '281'

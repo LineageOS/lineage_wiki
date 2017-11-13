@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1
 depth: 7.7 mm (0.30 in)
-download_boot: With the device powered off, hold Vol Down & Home & Power.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T880 MP12
 has_recovery_partition: true
 height: 150.9 mm (5.94 in)
@@ -28,8 +28,7 @@ network:
 - {tech: 4G, bands: 'B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light]
 ram: 4 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
-  blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 18 March 2016
 screen: 5.5 inches
 screen_ppi: '534'

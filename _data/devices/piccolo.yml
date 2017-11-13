@@ -12,8 +12,8 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
 depth: 8.4 mm (0.33 in)
-download_boot: Hold Volume Down & Power simultaneously. When the phone vibrates, release
-  Power, wait a second, then release Volume Down.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 height: 143 mm (5.63 in)
@@ -28,8 +28,8 @@ network:
 - {tech: 4G, bands: '800 1800 2100 2600 MHz LTE' }
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall sensor, GPS, FM Radio, NFC, USB OTG]
 ram: 2/3 GB
-recovery_boot: Hold Volume Up & Power simultaneously. When the phone vibrates, release
-  Power, wait a second, then release Volume Up.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 release: 2015 August
 screen: 127 mm (5.0 in)
 screen_ppi: ~441

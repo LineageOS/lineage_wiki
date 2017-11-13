@@ -13,7 +13,7 @@ cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
 custom_twrp_codename: r7plusf
 depth:
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 height:
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Dual SIM, Fingerprint reader]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015 May
 screen: 152 mm (6.0 in)
 screen_ppi: '367'
