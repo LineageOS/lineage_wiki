@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
 depth: 8.9 mm (0.35 in)
-download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
+download_boot: With the device powered off, plug in a USB cable while pressing <kbd>Volume Up</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
@@ -29,9 +29,8 @@ network:
 - {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz LTE' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 2 GB
-recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
-  logo appears release the buttons and then press them again. Then, press the Power
-  button three times!
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the LG logo appears, release both buttons and then hold them again. Then press <kbd>Power</kbd> three times.
 release: 2013 September 12
 screen: 132 mm (5.2 in)
 screen_ppi: '424'

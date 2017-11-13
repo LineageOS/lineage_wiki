@@ -12,7 +12,8 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 13.7 mm (0.54 in)
-download_boot: With the device powered down, hold the Volume Up, Down and Power buttons.  Quickly highlight 'AP fastboot' from the menu using the Volume Down button, and push the Volume Up button.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
 gpu: Adreno 225
 has_recovery_partition: true
 height: 126.5 mm (4.98 in)
@@ -28,7 +29,7 @@ network:
 - {tech: 4G, bands: '25(1900)' }
 peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor, Proximity sensor]
 ram: 1 GB
-recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012 August 19
 screen: 110 mm (4.3 in)
 screen_ppi: 256

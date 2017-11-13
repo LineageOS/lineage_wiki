@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 depth: 8.9 mm (0.35 in)
-download_boot: Vol Down & Home & Power
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 124.6 mm (4.91 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integration, FM Radio, Infrared sensor, GPS, GLONASS]
 ram: 1.5 GB
-recovery_boot: Vol Up & Home & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2013 July
 screen: 109 mm (4.3 in)
 screen_ppi: '256'

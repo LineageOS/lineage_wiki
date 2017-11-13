@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 depth: 8.9 mm (0.35 in)
-download_boot: Volume UP & Plug into PC
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect to the computer.
 gpu: Adreno 330
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
@@ -29,7 +29,7 @@ network:
 - {tech: 4G, bands: '29(700) 5(850) 2(1900) 4(1700) 7(2600) LTE' }
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 2/3 GB
-recovery_boot: Volume Down & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: June 2014
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'

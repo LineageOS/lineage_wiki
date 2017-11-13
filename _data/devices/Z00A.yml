@@ -11,7 +11,7 @@ cpu: x86_64
 cpu_cores: '4'
 cpu_freq: 2.3/1.8 GHz
 current_branch: 14.1
-download_boot: Hold Volume Up & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR G6430
 has_recovery_partition: true
 image: Z00A.png
@@ -25,8 +25,8 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) 20(800) - SIM 1 only' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2/4 GB
-recovery_boot: With the device powered off, hold Volume Up & Power simultaneously. On the next screen (fastboot mode) use Volume
- Down to scroll to RECOVERY and then use Power to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 release: March 2015
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
