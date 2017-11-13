@@ -11,7 +11,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 depth: 6.9 mm (0.27 in)
-download_boot: With the device powered down, hold Volume Up and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
 has_recovery_partition: true
 height: 146 mm (5.75 in)
@@ -26,7 +26,7 @@ network:
 - {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 4 (1700/2100) 5 (850) 7 (2600) 8 (900) 12 (700) 17 (700) 20 (800) 28 (700) 40 (2300) LTE' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Ambient light, GPS]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: June 2015
 screen: 5.2 in
 screen_ppi: '424'

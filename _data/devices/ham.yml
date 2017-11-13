@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: [14.1]
 depth: 8.9 mm (0.35 in)
-download_boot: With the device powered down, plug in the cable while holding the **Volume Down** and **Volume Up** buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 155.7 mm (6.13 in)
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500) LTE' }
 peripherals: [Fingerprint reader, GPS, Accelerometer, Gyroscope, Compass, Light sensor, Proximity sensor]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the **Volume Down**, **Volume Up** and **Power** buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015 October 14
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'

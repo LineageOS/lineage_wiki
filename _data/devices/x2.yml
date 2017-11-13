@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz & 2 x 1.6 GHz
 current_branch: 14.1
 depth: 7.99 mm (0.31 in)
-download_boot: With the device powered down, hold the Volume Down and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
 has_recovery_partition: true
 height: 156.8 mm (6.17 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) 25(1900) 26(850) 30(2300) 38(2600) 39(1900) 40(2300) 41(2500)' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor]
 ram: 4/6 GB
-recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016 April
 screen: 5.7 in
 screen_ppi: ~515
