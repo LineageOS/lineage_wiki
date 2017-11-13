@@ -12,7 +12,7 @@ cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth:
-download_boot: Volume Down, Home & Power
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400
 has_recovery_partition: true
 height:
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: ''}
 peripherals: ['']
 ram: 1 GB
-recovery_boot: Volume Up, Home, & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2011 February 11
 screen: 109 mm (4.3 in)
 screen_ppi: 222

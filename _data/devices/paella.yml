@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
 depth: 7.5 mm (0.3 in)
-download_boot: With the device powered down, hold the Volume Down and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 144.4 mm (5.69 in)
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '800 1800 2100 2600 MHz LTE' }
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall sensor, GPS, FM Radio, USB OTG]
 ram: 2/3 GB
-recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015
 screen: 127 mm (5.0 in)
 screen_ppi: ~294

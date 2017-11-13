@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '13(700)' }
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2013 March
 screen: 119 mm (4.7 in)
 screen_ppi: '469'

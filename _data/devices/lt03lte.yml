@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
-download_boot: With power off, hold Home & Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 image: lt03wifi.png
@@ -25,7 +25,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 3 GB
-recovery_boot: With power off, hold Home & Volume Up & Power simultaneously.
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013 October
 screen: 257 mm (10.1 in)
 screen_ppi: ~299

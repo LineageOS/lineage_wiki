@@ -11,8 +11,8 @@ cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 Ghz
 current_branch: 14.1
-download_boot: Power off the device then hold Volume UP and Power buttons. Select
-  "reboot to bootloader".
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+ Then select "reboot to bootloader".
 gpu: Adreno 306
 has_recovery_partition: true
 image: jalebi.png
@@ -26,7 +26,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Dual SIM]
 ram: 1 GB
-recovery_boot: Power off the device then hold Volume UP and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015 September
 screen: 119 mm (4.7 in)
 screen_ppi: '312'

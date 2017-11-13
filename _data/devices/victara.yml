@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 image: victara.png
@@ -26,8 +26,8 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800)' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to Recovery and then use Power to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+ On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Power</kbd> to select.
 release: 2014 September 26
 screen: 132 mm (5.2 in)
 screen_ppi: ~424
