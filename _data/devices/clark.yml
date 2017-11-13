@@ -11,7 +11,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
 has_recovery_partition: true
 image: clark.png
@@ -26,9 +26,8 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: ['']
 ram: 3 GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
-  On the next screen use Volume Down to scroll to recovery and then use Volume Up
-  to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2015 September
 screen: 145 mm (5.7 in)
 screen_ppi: '520'

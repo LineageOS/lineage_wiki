@@ -13,7 +13,7 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/g2-mini/development/unified-twrp-recovery-3-0-0-lg-g2-mini-t3311316
 depth: 9.8 mm (0.39 in)
-download_boot: With the device powered down, plug in a USB cable while pressing Volume Up.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
 has_recovery_partition: true
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
@@ -30,8 +30,8 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) (D620), 1(2100) 3(1800) 7(2600) 8(900) (D620K)' }
 peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
 ram: 1 GB
-recovery_boot: With the device powered down, hold Volume Down & Power. When the LG
-  logo appears release the buttons and then hold them down again. Choose 'Yes' twice to confirm.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the LG logo appears release the buttons and then hold them down again. Choose 'Yes' twice to confirm.
 release: 2014, April
 screen: 122 mm (4.8 in)
 screen_ppi: '234'

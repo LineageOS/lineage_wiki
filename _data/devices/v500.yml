@@ -29,9 +29,9 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
-recovery_boot: With the device powered off, hold POWER+VOL DOWN buttons. When the LG logo appears,
-  release both buttons and then hold POWER+VOL UP+VOL DOWN buttons. When prompted to erase all user
-  data, press POWER to continue, and once again to confirm. Then the device will boot to recovery.
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears,
+  release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>. When prompted to erase all user
+  data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
 release: 14 October 2013
 screen: 210 mm (8.3 in)
 screen_ppi: '~273'

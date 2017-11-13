@@ -13,7 +13,7 @@ cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 14.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.3 mm (0.29 in)
-download_boot: With the device powered off, hold Volume Down & Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 430
 has_recovery_partition: true
 height: 159.3 mm (6.27 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '700 850 1700 1800 1900 2100 2300 2500 2600 MHz LTE (American model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, NFC]
 ram: 3 GB
-recovery_boot: With the device powered off, hold Volume Down & Power buttons and choose Recovery Mode.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> buttons and choose Recovery Mode.
 release: 29 September 2015
 screen: 145 mm (5.7 in)
 screen_ppi: ~518

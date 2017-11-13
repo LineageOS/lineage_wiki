@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.7 GHz
 current_branch: 14.1
 depth: 10.1 mm (0.40 in)
-download_boot: Hold down the Volume Down button while booting.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 420
 has_recovery_partition: true
 height: 159.3 mm (6.27 in)
@@ -27,8 +27,7 @@ network:
 - {tech: 4G, bands: '2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900) 26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, NFC, Qi wireless charging, Dual front speakers]
 ram: 3 GB
-recovery_boot: Hold down the Volume Down button while booting, and use the menu to
-  select Recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
 release: 29 October 2014
 screen: 151 mm (5.96 in)
 screen_ppi: '493'

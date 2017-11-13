@@ -11,7 +11,7 @@ cpu: Cortex-A53, 64-bit
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 image: seed.png
@@ -25,7 +25,7 @@ network:
 - {tech: 4G, bands: '20 3 7' }
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 2 GB / 1 GB for IQ II
-recovery_boot: With the device powered off, hold Volume Up & Power
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release:
 screen: 127mm (5.0 in)
 screen_ppi: '294'

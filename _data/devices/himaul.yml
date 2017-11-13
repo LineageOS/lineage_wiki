@@ -12,8 +12,8 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
 current_branch: 14.1
 depth: 9.6 mm (0.38 in)
-download_boot: With the device powered down, hold the Volume Down and Power buttons
-  until HBOOT appears, then release the buttons.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until HBOOT appears, then release the buttons.
+  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 430
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
@@ -28,9 +28,8 @@ network:
 - {tech: 4G, bands: '700 1700 1800 1900 2600 MHz (AT&T), 700 850 1800 1900 2100 2600 MHz (T-Mobile)' }
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
 ram: 3 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
-  until HBOOT appears, then release the buttons. Navigate using the volume keys and
-  select RECOVERY using the Power key.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until HBOOT appears, then release the buttons.
+  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015 March
 screen: 127 mm (5.0 in)
 screen_ppi: ~441

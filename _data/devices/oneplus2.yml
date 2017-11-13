@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 1.8 Ghz
 current_branch: 14.1
 depth: 9.85 mm
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 430
 has_recovery_partition: true
 height: 151.8 mm
@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) 41(2500) (Global model)' }
 peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Light sensor]
 ram: 3/4 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015 August 28
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'

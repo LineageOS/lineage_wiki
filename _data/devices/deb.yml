@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered down, hold the Volume Down and Power buttons
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
@@ -30,9 +30,9 @@ network:
 no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
   until the bootloader appears, then release the buttons. Navigate using the volume
-  keys and select RECOVERY using the Power key.
+  buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 release: 2013 September 9
 screen: 178 mm (7.0 in)
 screen_ppi: '323'

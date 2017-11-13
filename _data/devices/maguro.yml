@@ -12,9 +12,9 @@ cpu_freq: 1.2 GHz
 cpu_cores: '2'
 current_branch: 13.0
 depth: 8.9 mm
-download_boot: With the device powered down, hold the Volume Down and Volume Up
-  buttons. Then press and hold the Power button until the bootloader appears.
-gpu: PowerVR SGX540 @ 384 Mhz
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons.
+gpu: <kbd>Power</kbd>VR SGX540 @ 384 Mhz
 has_recovery_partition: true
 height: 135.5 mm
 image: tuna.png
@@ -29,9 +29,9 @@ network:
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
-recovery_boot: With the device powered down, hold both Volume buttons and the Power button
-  until the bootloader appears, then release the buttons. Navigate using the volume
-  keys and select RECOVERY using the Power key.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Voldume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Navigate to recovery using the volume
+  buttons and press <kbd>Power</kbd>.
 release: 2011 October
 screen: 4.7 inches
 screen_res: 1280x720

@@ -13,7 +13,7 @@ cpu_freq: 2.5 GHz
 current_branch: 14.1
 custom_unlock_cmd: 'fastboot oem let-me-free'
 depth: 7.3 mm (0.29 in)
-download_boot: With the device powered off, hold Vol Down & Home & Power.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
@@ -31,7 +31,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
 ram: 2 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the
   blue text appears, release the buttons.
 release: 11 April 2014
 required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']

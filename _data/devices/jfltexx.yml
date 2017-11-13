@@ -12,7 +12,7 @@ cpu_cores: 4
 cpu_freq: 1.9GHz
 current_branch: 14.1
 depth: 7.9mm (0.31 in)
-download_boot: With the device powered down, hold **Home**, **Volume Down**, and **Power**
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 136.6mm (5.38 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz LTE' }
 peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, HDMI (TV-out via MHL A\V link), Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall sensor, Hygrometer, Proximity sensor, RGB light sensor, Thermometer]
 ram: 2 GB
-recovery_boot: With the device powered down, hold **Home**, **Volume Up**, and **Power**
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: April 2013
 screen: 127mm (5in)
 screen_ppi: 440

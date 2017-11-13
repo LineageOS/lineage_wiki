@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 9.1 mm (0.36 in)
-download_boot: With the device powered down, hold the Volume Down and Power buttons
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
   until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 has_recovery_partition: true
@@ -29,9 +29,9 @@ network:
 no_oem_unlock_switch: true
 peripherals: [GPS, Mobility DisplayPort (MyDP), Proximity sensor, NFC, Qi wireless charging]
 ram: 2 GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
-  until the bootloader appears, then release the buttons. Navigate using the volume
-  keys and select RECOVERY using the Power key.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Navigate to recovery using the volume
+  buttons and press <kbd>Power</kbd>.
 release: November 13, 2012
 screen: 119 mm (4.7 in)
 screen_ppi: '320'

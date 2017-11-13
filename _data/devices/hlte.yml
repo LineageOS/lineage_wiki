@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
 depth: 8.3 mm (0.33 in)
-download_boot: With the device powered off, hold Vol Down & Home & Power.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 151.2 mm (5.95 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) (N9005), 25(1900) (N900P)' }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
 ram: 3 GB
-recovery_boot: With the device powered off, hold Volume Up, Home & Power. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: Sept 2013
 screen: 144.78 mm (5.7 in)
 screen_ppi: '386'
