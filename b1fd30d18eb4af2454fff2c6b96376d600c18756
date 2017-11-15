@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "50a19432_61eeaf19",
+        "filename": "_includes/templates/recovery_install_fastboot_lenovo.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-11-15T17:47:43Z",
+      "side": 1,
+      "message": "These are the custom steps compared to fastboot_nexus",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 121
+      },
+      "revId": "b1fd30d18eb4af2454fff2c6b96376d600c18756",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
