@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 5100, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1 + LE', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: kuntao
+cpu: Cortex A53
+cpu_cores: '8'
+cpu_freq: 2.0 GHz
+current_branch: 14.1
+custom_twrp_link: https://androidfilehost.com/?fid=890129502657588434
+depth: 8.3 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 506
+has_recovery_partition: true
+height: 153 mm (6.02 in)
+image: kuntao.png
+install_method: fastboot_lenovo
+kernel: android_kernel_lenovo_msm8953
+maintainers: [mikeioannina, FireLord1, highwaystar, Celoxocis]
+models: [P2a42]
+name: P2
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) LTE' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM Radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, RGB ambient light, USB OTG, Wi-Fi Display]
+ram: 3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2016-11
+screen: 140 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080x1920
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Qualcomm MSM8953 Snapdragon 625
+storage: 32/64 GB
+tree: android_device_lenovo_kuntao
+type: phone
+vendor: Lenovo
+vendor_short: lenovo
+versions: [14.1]
+width: 76 mm (2.99 in)
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
