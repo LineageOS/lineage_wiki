@@ -259,6 +259,7 @@ properties:
     - fastboot_generic
     - fastboot_huawei
     - fastboot_htc
+    - fastboot_lenovo
     - fastboot_lg
     - fastboot_motorola
     - fastboot_nexus
