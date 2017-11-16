@@ -6,14 +6,25 @@
 1. Make sure your computer has working `adb`{% unless device.install_method != 'heimdall' or device.install_method != 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 
-{% if device.required_bootloader %}
+{% if device.required_bootloader or device.required_min_stock_firmware %}
 ## Special requirements
 
+{% if device.required_min_stock_firmware %}
+### Upgrade stock firmware
+You need to install a recent vendor stock firmware before installing LineageOS.
+{% if custom_stock_firmware_upgrade %}
+{{ custom_stock_firmware_upgrade }}
+{% endif %}
+{% endif %}
+
+{% if device.required_bootloader %}
 {% capture bootloader %}
+### Bootloader
 Your device must be on bootloader version {% for el in device.required_bootloader %} {% if forloop.last %} `{{ el }}` {% else %} `{{ el }}` / {% endif %} {% endfor %}, otherwise the instructions found in this page will not work.
 The current bootloader version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window.
 {% endcapture %}
 {% include warning.html content=bootloader %}
+{% endif %}
 {% endif %}
 
 {% if device.install_method %}
