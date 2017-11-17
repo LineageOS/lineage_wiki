@@ -40,7 +40,7 @@ permalink: faq.html
  - This question isn't new. To list a few reasons:
    - A majority of builds are downloaded on mobile devices via our updater. Mobile devices have limited bandwidth and monthly quotas.
    - Bandwidth is plentiful for open source projects. We have roughly 100gbit available to us.
-   - We occsassionally need to remove a build becasue of a device-breaking bug. This is much harder, or impossible, to accomplish with torrents.
+   - We occasionally need to remove a build because of a device-breaking bug. This is much harder, or impossible, to accomplish with torrents.
    - We currently keep the last 4 builds per device. Older builds do not have the latest security patches.
    - The top 5 devices account for 50% of our users. 95% of our builds do not have enough users to justify torrents.
-   - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a declious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
+   - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a delicious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
