@@ -1,0 +1,47 @@
+architecture: arm64
+battery: 330mAh
+bluetooth: v5.0 with A2DP, EDR, LE
+cameras:
+- {flash: 'dual-LED (dual tone)', info: 'Dual 12 MP (f/1.8, 25mm, PDAF, OIS) + 8 MP, 12mm, autofocus'}
+- {flash: '', info: '8 MP, f/2.0, 24mm, 1080p, HDR, panorama'}
+carrier:
+channels: 
+codename: Z01KD
+cpu: 
+  - { info: 'Qualcomm Snapdragon 630'}
+  - { info: 'Qualcomm MSM8956 Plus Snapdragon 660'}
+cpu_cores:
+  - { info: 'Octa-core (4x2.2 GHz Cortex-A53 & 4x1.8 GHz Cortex A53)'}
+  - { info: 'Octa-core (4x2.2 GHz Kryo 260 & 4x1.8 GHz Kryo 260)'}
+cpu_freq: 2.2 GHz, 1.8 GHz
+current_branch: -
+download_boot: Hold Volume Up & Power simultaneously.
+gpu: Adreno 508, Adreno 512
+has_recovery_partition: -
+image: Z01KD.png
+install_method: 
+kernel: 
+maintainers: []
+name: Zenfone 4 (ZE554KL)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700 1800 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) 20(800) 28(700) 40(2300)' }
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 4 GB, 6 GB
+recovery_boot: With the device powered off, Press and hold Volume Down key and then press and hold Power Key for a while.
+ Release all key when ASUS ZenFone logo appears on the screen, Down to scroll to RECOVERY and then use Power to select.
+release: October 2017
+screen: 155 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080x1920
+screen_tech: IPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 256 GB
+soc: Qualcomm MSM8956
+storage: 64 GB
+tree: android_device_asus_Z01KD
+type: phone
+vendor: Asus
+vendor_short: asus
+versions: []
+wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot
