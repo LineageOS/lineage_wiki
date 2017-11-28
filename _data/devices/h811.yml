@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: h811
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -19,7 +19,7 @@ height: 148.9 mm (5.86 in)
 image: h811.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8992
-maintainers: [codeworkx, genesixxbf3]
+maintainers:
 name: G4 (T-Mobile)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz' }

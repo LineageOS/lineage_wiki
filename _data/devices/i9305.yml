@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: i9305
 cpu: Cortex A9
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 137 mm (5.4 in)
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [rgib]
+maintainers:
 models: [GT-I9305, GT-I9305T, GT-I9305N]
 name: Galaxy S III (LTE / International)
 network:
