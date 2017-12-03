@@ -65,4 +65,9 @@ The preferred method of installing a custom recovery is through this boot mode{%
 7. Manually reboot into recovery:
     * {{ site.data.devices[page.device].recovery_boot }}
 
+    {% if site.data.devices[page.device].download_off %}
+    {% capture download_off %}{{ site.data.devices[page.device].download_off }}{% endcapture %}
+    {% include note.html content=download_off %}
+    {% endif %}
+
     {% include note.html content="Be sure to reboot into recovery immediately after having installed the custom recovery. Otherwise the custom recovery will be overwritten and the device will reboot (appearing as though your custom recovery failed to install)." %}
