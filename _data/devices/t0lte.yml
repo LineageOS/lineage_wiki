@@ -19,13 +19,13 @@ height: 151.10 mm (5.95 in)
 image: t0lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [PoisonNinja]
-models: [GT-N7105, SGH-I317, SGH-I317M, SGH-T889]
+maintainers: [filiprrs]
+models: [GT-N7105, GT-N7105T, SGH-I317, SGH-I317M, SGH-T889, SGH-T889V, SHV-E250S, SHV-E250K, SHV-E250L]
 name: Galaxy Note 2 (LTE)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '800 900 1800 2600 MHz LTE' }
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 1800 Mhz CDMA (E250L)' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (N7105/T), 850 1900 2100 MHz HSDPA (i317/M,T889/V), 1900 2100 Mhz HSDPA (E250S/K/L)' }
+- {tech: 4G, bands: '800 1800 2600 MHz (N7105), 1800 2600 MHz (N7105T), 700 850 1900 (i317/M), 700 (T889/V), 850 1800 Mhz (E250S), 900 1800 MHz (E250K), 850 2100 MHz (E250L)' }
 peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
