@@ -4,6 +4,6 @@ title: Info about kltesprsports
 folder: info
 layout: deviceinfo
 permalink: /devices/kltesprsports/
-device: kltedv
+device: kltesprsports
 ---
 {% include templates/device_info.md %}
