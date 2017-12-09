@@ -3,7 +3,7 @@
 
 {% include important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
-1. Make sure your computer has working `adb`{% unless device.install_method != 'heimdall' or device.install_method != 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+1. Make sure your computer has working `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 
 {% if device.required_bootloader %}
