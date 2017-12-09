@@ -5,6 +5,8 @@
 1. Download the bootloader unlock app for your device:
 {% if page.device == "Z00L" %}
     {% include note.html content="ZE550KL doesn't have its own unlock app. If you have ZE550KL then use the unlock app for ZE551KL." %}
+{% elsif page.device == "Z00A" %}
+    {% include note.html content="ZE551ML doesn't have its own unlock app. If you have ZE551ML then use the unlock app for ZE550ML." %}
 {% endif %}
     * Navigate to [ASUS' support site](https://www.asus.com/support) and go to your device's page by entering its model number.
     * Click **Driver & Tools**.
