@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3eb67439_e03eb975",
+        "filename": "pages/build/jfltexx.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:08:45Z",
+      "side": 1,
+      "message": "I don\u0027t see why these would be needed, we don\u0027t have jfltetmo in our device list",
+      "range": {
+        "startLine": 8,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 28
+      },
+      "revId": "32ebe87891d3ce2b791de76fff1d5620ff0bd72b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "71af5197_960d52e6",
+        "filename": "pages/info/jfltexx.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:08:45Z",
+      "side": 1,
+      "message": "Same",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 10,
+        "endChar": 23
+      },
+      "revId": "32ebe87891d3ce2b791de76fff1d5620ff0bd72b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
