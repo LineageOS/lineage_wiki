@@ -1,0 +1,44 @@
+architecture: arm
+battery: 2800 mAh Li-ion battery, removable
+bluetooth: 4.0 BLE
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
+carrier: Sprint
+channels: [weekly]
+codename: kltesprsports
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 14.1
+custom_twrp_link: https://www.androidfilehost.com/?fid=745849072291697503
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 330
+has_recovery_partition: true
+image: kltesprsports.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8974
+maintainers: [javelinanddart]
+models: [SM-G860P]
+name: Galaxy S5 Sport
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz UMTS, 800 1900 MHz EvDO' }
+- {tech: 4G, bands: '25(1900) 26(850) 41(2500) LTE' }
+peripherals: [Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, RGB ambient light, Infrared sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+release: 23 June 2014
+screen: 130 mm (5.1 in)
+screen_ppi: '432'
+screen_res: 1920x1080
+screen_tech: Full HD Super AMOLED
+sdcard: up to 128 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16 GB
+tree: android_device_samsung_kltesprsports
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac
