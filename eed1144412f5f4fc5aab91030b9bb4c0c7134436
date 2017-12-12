@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "03ee779d_550eb7f0",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-12T22:35:47Z",
+      "side": 1,
+      "message": "\u0027800 900 1800 1900 MHz GSM, 800 1900 MHz CDMA\u0027",
+      "revId": "eed1144412f5f4fc5aab91030b9bb4c0c7134436",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4317a75_c83ca4ac",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-12T22:35:47Z",
+      "side": 1,
+      "message": "\u0027850 900 1900 2100 MHz UMTS, 800 1900 MHz EvDO\u0027",
+      "revId": "eed1144412f5f4fc5aab91030b9bb4c0c7134436",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "920df49d_52a49bc6",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-12T22:35:47Z",
+      "side": 1,
+      "message": "\u002725(1900) 26(850) 41(2500) LTE\u0027",
+      "revId": "eed1144412f5f4fc5aab91030b9bb4c0c7134436",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "546f544f_2281f18f",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-12T22:35:47Z",
+      "side": 1,
+      "message": "We still don\u0027t have a hall sensor",
+      "range": {
+        "startLine": 27,
+        "startChar": 133,
+        "endLine": 27,
+        "endChar": 144
+      },
+      "revId": "eed1144412f5f4fc5aab91030b9bb4c0c7134436",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
