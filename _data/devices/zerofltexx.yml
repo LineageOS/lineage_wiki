@@ -1,0 +1,51 @@
+architecture: arm64
+battery: Non-removable Li-Ion 2550 mAh
+bluetooth: 4.1 LE
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: zerofltexx
+cpu: Cortex A57 + Cortex A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
+current_branch: 14.1
+custom_unlock_cmd:
+depth: 6.8 mm (0.27 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali T760 MP8
+has_recovery_partition: true
+height: 143.4 mm (5.65 in)
+image: zerofltexx.png
+install_method: heimdall
+kernel: android_kernel_samsung_exynos7420
+maintainers: [Usaamah99, forkbomb]
+models: [SM-G920F]
+name: Galaxy S6
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1800 1900 HSDPA' }
+- {tech: 4G, bands: 'B1-B8, B12, B17-B20, B26' }
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
+  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
+  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  When the blue text appears, release the buttons.
+release: April 2015
+required_bootloader: [G920FXXU5EQI8]
+screen: 5.1" 
+screen_ppi: 577
+screen_res: 2560x1440
+screen_tech: Quad HD Super AMOLED
+sdcard: 
+soc: Samsung Exynos 7420
+storage: 32/64/128 GB
+tree: android_device_samsung_zerofltexx
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 70.5 mm (2.78 in)
+wifi: 802.11 a/b/g/n/ac, Dual Band, Wi-Fi Direct, Hotspot
