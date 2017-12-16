@@ -1,9 +1,9 @@
 architecture: arm64
-battery: 4100 mAh Li-Po
+battery: Non-removable Li-Po 4100 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: 'Dual LED', info: '13 MP Sony IMX278'}
-- {flash: '', info: '8 MP OmniVision OV8858'}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '8 MP'}
 carrier:
 channels: [weekly]
 codename: r7plus
@@ -11,23 +11,24 @@ cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
-custom_twrp_codename: r7plusf
-depth:
+custom_twrp_link: https://androidfilehost.com/?fid=673791459329067727
+depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
-height:
+height: 158 mm (6.22 in)
 image: r7plus.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8939
 maintainers: [maniac103]
-name: R7 Plus
+models: [R7plusf]
+name: R7 Plus (International)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Dual SIM, Fingerprint reader]
-ram: 3 GB
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 40(2300) LTE(Cat. 4)' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, USB OTG, Fingerprint reader]
+ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015 May
 screen: 152 mm (6.0 in)
@@ -36,11 +37,11 @@ screen_res: 1080x1920
 screen_tech: AMOLED
 sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 32 GB
+storage: 32/64 GB
 tree: android_device_oppo_r7plus
 type: phone
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n/ac
+width: 82 mm (3.23 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band
