@@ -1,5 +1,0 @@
-[gerrit]
-host=review.lineageos.org
-port=29418
-project=LineageOS/lineage_wiki
-defaultbranch=master
