@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "558a55ef_4affabe7",
+        "filename": "_data/devices/fugu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:30:18Z",
+      "side": 1,
+      "message": "Is this a button that\u0027s placed in the bottom of the device? If so, I\u0027d remove \u003ckbd\u003e tag. Regardless, the word \"the\" must be placed outside the tag.",
+      "range": {
+        "startLine": 13,
+        "startChar": 75,
+        "endLine": 13,
+        "endChar": 103
+      },
+      "revId": "348aac7f69c37664fa45b3779194e82be27864a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ec0d3432_db976fe9",
+        "filename": "_data/devices/fugu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:30:18Z",
+      "side": 1,
+      "message": "unplugged or powered off?",
+      "range": {
+        "startLine": 13,
+        "startChar": 31,
+        "endLine": 13,
+        "endChar": 40
+      },
+      "revId": "348aac7f69c37664fa45b3779194e82be27864a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee7c9444_cbcf02b2",
+        "filename": "_data/devices/fugu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:30:18Z",
+      "side": 1,
+      "message": "Same comment here.",
+      "range": {
+        "startLine": 29,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 105
+      },
+      "revId": "348aac7f69c37664fa45b3779194e82be27864a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bd0e60f7_8367450b",
+        "filename": "_data/devices/fugu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:30:18Z",
+      "side": 1,
+      "message": "And here.",
+      "range": {
+        "startLine": 30,
+        "startChar": 69,
+        "endLine": 30,
+        "endChar": 97
+      },
+      "revId": "348aac7f69c37664fa45b3779194e82be27864a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb3938ba_6ba20283",
+        "filename": "_data/devices/fugu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:30:18Z",
+      "side": 1,
+      "message": "Missing entry.",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 5
+      },
+      "revId": "348aac7f69c37664fa45b3779194e82be27864a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
