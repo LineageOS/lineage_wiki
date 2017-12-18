@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee68ceb3_f6ec11d8",
+        "filename": "_data/devices/molly.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:34:21Z",
+      "side": 1,
+      "message": "derp",
+      "range": {
+        "startLine": 13,
+        "startChar": 75,
+        "endLine": 13,
+        "endChar": 76
+      },
+      "revId": "a30ca82c539206f3e35c3594c02cc3bf274028f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "27527291_ba1726eb",
+        "filename": "_data/devices/molly.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:34:21Z",
+      "side": 1,
+      "message": "Is this a button that\u0027s placed in the rear of the device? If so, I\u0027d remove \u003ckbd\u003e tag and write simply \"holding the rear buttons\". Regardless, the word \"the\" must be placed outside the tag.",
+      "range": {
+        "startLine": 13,
+        "startChar": 77,
+        "endLine": 13,
+        "endChar": 103
+      },
+      "revId": "a30ca82c539206f3e35c3594c02cc3bf274028f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae9e805_4902f113",
+        "filename": "_data/devices/molly.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:34:21Z",
+      "side": 1,
+      "message": "unplugged or powered off?",
+      "range": {
+        "startLine": 13,
+        "startChar": 31,
+        "endLine": 13,
+        "endChar": 40
+      },
+      "revId": "a30ca82c539206f3e35c3594c02cc3bf274028f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "76abb5cd_6540839f",
+        "filename": "_data/devices/molly.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:34:21Z",
+      "side": 1,
+      "message": "Same comment as above.",
+      "range": {
+        "startLine": 29,
+        "startChar": 77,
+        "endLine": 29,
+        "endChar": 103
+      },
+      "revId": "a30ca82c539206f3e35c3594c02cc3bf274028f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4771e73e_1fb78a8a",
+        "filename": "_data/devices/molly.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-18T19:34:21Z",
+      "side": 1,
+      "message": "Also here.",
+      "range": {
+        "startLine": 30,
+        "startChar": 67,
+        "endLine": 30,
+        "endChar": 93
+      },
+      "revId": "a30ca82c539206f3e35c3594c02cc3bf274028f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
