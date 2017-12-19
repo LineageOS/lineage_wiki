@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
 peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum]
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up. You will need to select Yes with <kbd>Volume Down</kbd> when the smartphone ask if you want to reset data and click several times quickly <kbd>Power</kbd> button. 
 release: February 2017
 screen: 144.8 mm (5.7 in)
 screen_ppi: '556'
