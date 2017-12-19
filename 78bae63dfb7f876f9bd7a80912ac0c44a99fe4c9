@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "ebeccd4d_df9f312f",
+        "filename": "pages/gapps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-19T10:23:02Z",
+      "side": 1,
+      "message": "No official 8.1 gapps available yet.",
+      "parentUuid": "072679c4_bbebf260",
+      "range": {
+        "startLine": 21,
+        "startChar": 23,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "78bae63dfb7f876f9bd7a80912ac0c44a99fe4c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a90a875d_9ed34deb",
         "filename": "pages/signing_builds.md",
         "patchSetId": 4
@@ -59,6 +83,30 @@
       "writtenOn": "2017-12-16T14:32:42Z",
       "side": 1,
       "message": "should think of making this branch a var, so next time we increase it\u0027s not necessary to touch all these files?",
+      "range": {
+        "startLine": 83,
+        "startChar": 24,
+        "endLine": 83,
+        "endChar": 36
+      },
+      "revId": "78bae63dfb7f876f9bd7a80912ac0c44a99fe4c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e9407d7b_3e36e191",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-19T10:23:02Z",
+      "side": 1,
+      "message": "Yea, it\u0027s a good idea.",
+      "parentUuid": "a90a875d_9ed34deb",
       "range": {
         "startLine": 83,
         "startChar": 24,
