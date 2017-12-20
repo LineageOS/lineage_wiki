@@ -1,8 +1,13 @@
 $('#mysidebar').height($(".nav").height());
 
 $( document ).ready(function() {
+    $("h2,h3,h4,h5,h6").each(function(_, headers) {
+        if (headers.firstChild.nodeType == Node.TEXT_NODE) {
+            headers.innerHTML = "<font class='clickable-header'>" + headers.innerHTML + "</font>";
+        }
+    });
      // AnchorJS
-    anchors.add('h2,h3,h4,h5');
+    anchors.add('.clickable-header');
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
