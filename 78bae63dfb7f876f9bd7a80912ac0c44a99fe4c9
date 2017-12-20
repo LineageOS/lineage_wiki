@@ -72,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "06fa255c_d2e62f84",
+        "filename": "pages/gapps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-20T18:48:20Z",
+      "side": 1,
+      "message": "Still this column shows the LineageOS and its\u0027 underlying android version, so if gapps are not available this should be added as a note below",
+      "parentUuid": "ebeccd4d_df9f312f",
+      "range": {
+        "startLine": 21,
+        "startChar": 23,
+        "endLine": 21,
+        "endChar": 26
+      },
+      "revId": "78bae63dfb7f876f9bd7a80912ac0c44a99fe4c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a90a875d_9ed34deb",
         "filename": "pages/signing_builds.md",
         "patchSetId": 4
