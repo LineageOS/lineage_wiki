@@ -42,13 +42,13 @@
     var level = get_level(headers[0]),
       this_level,
       html = settings.title + " <"+settings.listType+">";
-    headers.on('click', function() {
-      if (!settings.noBackToTopLinks) {
-        window.location.hash = this.id;
-      }
-    })
-    .addClass('clickable-header')
-    .each(function(_, header) {
+    headers.each(function(_, header) {
+      var child = header.firstChild;
+      $(child).on('click', function() {
+        if (!settings.noBackToTopLinks) {
+          window.location.hash = header.id;
+        }
+      });
       this_level = get_level(header);
       if (!settings.noBackToTopLinks && this_level === highest_level) {
         $(header).addClass('top-level-header').after(return_to_top);
