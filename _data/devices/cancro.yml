@@ -31,6 +31,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GP
 ram: 2 GB (Mi 3) / 3 GB (Mi 4)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_install: TWRP version 3.0.2-0 needs to be installed before installing the latest version 3.1.1-0 as described [here](http://en.miui.com/thread-265092-1-1.html)
 release: 2013 October (Mi 3) / 2014 August (Mi 4)
 screen: 127 mm (5.0 in)
 screen_ppi: 441
