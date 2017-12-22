@@ -69,7 +69,7 @@ command directly in the Terminal." %}
 
 To build LineageOS, you'll need:
 
-* `bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
+* `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev
    libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync
    schedtool squashfs-tools xsltproc {% if device.architecture contains 'x86' %}yasm {% endif %}
@@ -209,10 +209,10 @@ Make use of [`ccache`](https://ccache.samba.org/) if you want to speed up subseq
 export USE_CCACHE=1
 ```
 
-and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this from the top of your Android tree:
+and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this:
 
 ```
-prebuilts/misc/linux-x86/ccache/ccache -M 50G
+ccache -M 50G
 ```
 
 where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
@@ -220,7 +220,7 @@ where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere fr
 for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
 into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
 
-You can also enable the optional `ccache` compression. While this may involve a tiny performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
+You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
 
 ```
 export CCACHE_COMPRESS=1
@@ -228,10 +228,13 @@ export CCACHE_COMPRESS=1
 
 or add that line to your `~/.bashrc` file.
 
+{% include note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
+
+
 {% if device.current_branch >= 14 %}
 ### Configure jack
 
-[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and up. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
