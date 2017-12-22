@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84cd37dc_f6d9a792",
+        "filename": "pages/install/tv_molly.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-22T06:22:01Z",
+      "side": 1,
+      "message": "remove all these redirect_from, these are only for devices which we had when we still used the old link style",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 36
+      },
+      "revId": "4d1cc2cc9f66bd63f11610273b8cd34b9fd7bd55",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
