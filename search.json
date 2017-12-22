@@ -8,7 +8,7 @@ search: exclude
 
 {% for page in site.pages %}
 {% unless page.search == "exclude" or page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" or page.url contains "devices.html" or page.url contains ".css" %}
-{% if forloop.index0 > 1 %}, {% endif %}
+{% unless page.url contains "/devices" and page.url contains "/build" or page.url contains "/devices" and page.url contains "/install" %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
@@ -16,6 +16,8 @@ search: exclude
 "url": "{{ page.url | relative_url }}",
 "summary": "{{page.summary | strip }}"
 }
+{% if forloop.last == false %}, {% endif %}
+{% endunless %}
 {% endunless %}
 {% endfor %}
 
