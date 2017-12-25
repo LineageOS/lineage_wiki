@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "443ded64_46c37d4c",
+        "filename": "_data/devices/h870.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 1690
+      },
+      "writtenOn": "2017-12-25T14:38:58Z",
+      "side": 1,
+      "message": "recovery_boot: With the device powered off, hold \u003ckbd\u003eVolume Down\u003c/kbd\u003e + \u003ckbd\u003ePower\u003c/kbd\u003e until the LG logo flickers (approximately 7 seconds), then release until recovery boots. Select Yes, when asked if you want to reset data and quickly click \u003ckbd\u003ePower\u003c/kbd\u003e several times.",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 371
+      },
+      "revId": "5f35d303e378670b78e5162a5293c2066cdd2c7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
