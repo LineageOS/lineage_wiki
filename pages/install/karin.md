@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on karin
+title: Install LineageOS on karin
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: karin_install.html

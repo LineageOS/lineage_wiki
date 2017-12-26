@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on suzuran
+title: Install LineageOS on suzuran
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: suzuran_install.html

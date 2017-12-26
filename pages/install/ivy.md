@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on ivy
+title: Install LineageOS on ivy
 folder: info
 # name of the page (/{{permalink}}.html)
 redirect_from: ivy_install.html
