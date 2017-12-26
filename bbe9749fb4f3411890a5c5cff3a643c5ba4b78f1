@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b320ddd7_5dfbd408",
+        "filename": "_data/devices/sumire.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-26T19:00:36Z",
+      "side": 1,
+      "message": "Update this to match other Sony devices, specially taking into account the new tag used for buttons.",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 50
+      },
+      "revId": "bbe9749fb4f3411890a5c5cff3a643c5ba4b78f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e11f8dbc_8c034d33",
+        "filename": "_data/devices/sumire.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-12-26T19:00:36Z",
+      "side": 1,
+      "message": "Same here.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 84
+      },
+      "revId": "bbe9749fb4f3411890a5c5cff3a643c5ba4b78f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
