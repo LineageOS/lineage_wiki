@@ -27,7 +27,7 @@ and then [capture a log]({{ "logcat.html" | relative_url}}).
 This wiki is powered by [Jekyll](https://jekyllrb.com/).
 
 * You can look at the source [on GitHub](https://github.com/LineageOS/lineage_wiki).
-* And of course, we have a comprehensive guide on [contributing]({{ "contributing.html" | relative_url }}).
+* And of course, we have a comprehensive guide on [contributing]({{ "contributing_wiki.html" | relative_url }}).
 
 ### Build for your device!
 
