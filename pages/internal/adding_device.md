@@ -20,6 +20,17 @@ See [contributing using repo](contributing.html#using-repo) for detailed instruc
 
 ## Adding your device
 
+### Prepare the required files
+
+There are a few files which need to be there to have a device on the wiki.
+In order to get them, navigate to `$LINEAGE_SRC/lineage/wiki/` and run:
+
+```
+./scripts/generate_device.sh your_device
+```
+
+Obviously replace `your_device` with the codename of your device
+
 ### Populating the YAML
 
 {% assign devices = "" | split: " " %}
@@ -37,8 +48,8 @@ See [contributing using repo](contributing.html#using-repo) for detailed instruc
 {% endfor %}
 {% assign sorted = all | uniq | sort %}
 
-You can use the [sample template](https://github.com/LineageOS/lineage_wiki/blob/master/device_sample/sample.yml) as a starting point, and
-update the values to match your device. An explanation of poorly-named/confusing options is below:
+The sample template has been copied to `$LINEAGE_SRC/lineage/wiki/_data/devices/your_device.yml`.
+Update the values to match your device. An explanation of poorly-named/confusing options is below:
 
 * `architecture`: The CPU architecture of the device - for example, `arm` or `arm64`.
 * `carrier`: If the device was released for a specific carrier, the name of that carrier. Otherwise, leave the line blank.
@@ -61,11 +72,6 @@ update the values to match your device. An explanation of poorly-named/confusing
 
 Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename should match the
 entry in your YAML file.
-
-### Adding device-specific pages
-
-Copy each of the sample Markdown files found [here](https://github.com/LineageOS/lineage_wiki/tree/master/device_sample), replacing `sample` with your
-device's codename. Each of these files should go in `pages/<build|info|install>/<codename>.md`.
 
 ## Testing it works
 
