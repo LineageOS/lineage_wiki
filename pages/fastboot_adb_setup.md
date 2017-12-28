@@ -47,6 +47,17 @@ fi
 4. Log out and back in.
 
 ### On Linux
+
+#### Ubuntu
+
+1. Run the following command:
+```
+sudo apt-get install android-tools-adb android-tools-fastboot
+```
+2. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
+
+#### Other distributions
+
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.profile`:
