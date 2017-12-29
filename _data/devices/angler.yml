@@ -1,6 +1,6 @@
 architecture: arm64
-battery: 3450 mAh, Li-Po non-removable
-bluetooth: 4.2 with A2DP, LE
+battery: Non-removable Li-Po 3450 mAh
+bluetooth: v4.2 with A2DP, LE
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
 - {flash: '', info: '8 MP'}

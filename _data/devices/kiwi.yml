@@ -1,5 +1,5 @@
 architecture: arm64
-battery: 3000 mAh (non-removable)
+battery: Non-removable Li-Ion 3000 mAh
 bluetooth: v4.1 with A2DP
 cameras:
 - {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
@@ -12,7 +12,8 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
 current_branch: 14.1
 depth: 8.2 mm (0.32 in)
-download_boot:
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding buttons until the "Honor" logo appears, then release all buttons.
 gpu: Adreno 405
 has_recovery_partition: true
 height: 151.3 mm (5.96 in)

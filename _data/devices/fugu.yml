@@ -1,6 +1,6 @@
 architecture: x86_64
 battery:
-bluetooth: v4.1, LE
+bluetooth: v4.1 LE
 cameras: []
 carrier:
 channels: [weekly]

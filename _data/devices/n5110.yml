@@ -10,7 +10,7 @@ codename: n5110
 cpu: Cortex A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
-current_branch: [14.1]
+current_branch: 14.1
 depth: 8.0 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Mali-400
