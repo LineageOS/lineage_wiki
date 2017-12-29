@@ -1,4 +1,4 @@
-FROM ruby:2.1
+FROM ruby:2.4
 
 WORKDIR /src
 ADD Gemfile /src
