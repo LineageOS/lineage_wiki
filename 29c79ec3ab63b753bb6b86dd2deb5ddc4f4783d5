@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "cf92f229_66043043",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-29T19:33:48Z",
+      "side": 1,
+      "message": "no, this matches the other klte variants, and in fact also matches t0lte - a device you yourself merged a fix for the other day.",
+      "parentUuid": "409a007e_ed670507",
+      "revId": "29c79ec3ab63b753bb6b86dd2deb5ddc4f4783d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "8db6367f_cba92d23",
         "filename": "_data/devices/kltesprsports.yml",
         "patchSetId": 7
@@ -30,6 +48,24 @@
       "writtenOn": "2017-12-29T19:19:19Z",
       "side": 1,
       "message": "shouldnt be empty",
+      "revId": "29c79ec3ab63b753bb6b86dd2deb5ddc4f4783d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c78d92ef_3f1955b7",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-12-29T19:33:48Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "8db6367f_cba92d23",
       "revId": "29c79ec3ab63b753bb6b86dd2deb5ddc4f4783d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
