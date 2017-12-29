@@ -1,5 +1,5 @@
 architecture: arm64
-battery: 2680 mAh
+battery: Non-removable Li-Ion 2680 mAh
 bluetooth: 4.0 LE
 cameras:
 - {flash: 'LED (dual-tone)', info: '13 MP'}
@@ -11,24 +11,24 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
-depth:
+depth: 7 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
 has_recovery_partition: true
-height:
+height: 149 mm (5.87 in)
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
 maintainers: [chrmhoffmann, crpalmer, mikeioannina]
 name: Robin
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: ['']
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1800 1900 2100 MHz HSPA+' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(850) 20(800) 28(700) LTE(Cat. 4)' }
+peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2015 August
+release: 2016 February
 screen: 132 mm (5.2 in)
 screen_ppi: '424'
 screen_res: 1080x1920
@@ -41,5 +41,5 @@ type: phone
 vendor: Nextbit
 vendor_short: nextbit
 versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n/ac
+width: 72 mm (2.83 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band

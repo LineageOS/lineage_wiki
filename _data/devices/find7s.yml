@@ -12,11 +12,11 @@ cpu_cores: '4'
 cpu_freq: 2.45 GHz
 current_branch: 14.1
 custom_twrp_codename: find7
-depth: 9.2mm
+depth: 9.2 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 152.6 mm
+height: 152.6 mm (6.01 in)
 image: find7.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8974
@@ -43,5 +43,5 @@ type: phone
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
-width: 75 mm
+width: 75 mm (2.95 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display
