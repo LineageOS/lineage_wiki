@@ -15,8 +15,6 @@ depth: 9.7 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
 has_recovery_partition: true
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-root_method: [custom, 'https://forum.xda-developers.com/android/development/guide-root-method-lg-devices-t3049772']
 height: 131.6 mm (5.18 in)
 image: w7.png
 install_method: dd
@@ -31,7 +29,9 @@ network:
 peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the LG logo appears release the buttons and then hold them again. Choose 'Yes' twice to confirm.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014, February
+root_method: [custom, 'https://forum.xda-developers.com/android/development/guide-root-method-lg-devices-t3049772']
 screen: 120mm (4.7in)
 screen_ppi: 234
 screen_res: 540x960

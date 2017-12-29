@@ -16,8 +16,6 @@ depth: 9.8 mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
 has_recovery_partition: true
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-root_method: [custom, 'https://forum.xda-developers.com/g2-mini/development/root-root-g2-mini-lollipop-t3123652']
 height: 129.6 mm (5.1 in)
 image: g2m.png
 install_method: dd
@@ -32,7 +30,9 @@ peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and then hold them again. Choose 'Yes' twice to confirm.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014, April
+root_method: [custom, 'https://forum.xda-developers.com/g2-mini/development/root-root-g2-mini-lollipop-t3123652']
 screen: 122 mm (4.8 in)
 screen_ppi: '234'
 screen_res: 540x960

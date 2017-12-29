@@ -16,8 +16,6 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connec
   Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
 gpu: Adreno 305
 has_recovery_partition: true
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-root_method: [towelroot]
 height: 189.2 mm (7.45 in)
 image: v400.png
 install_method: dd
@@ -28,7 +26,9 @@ peripherals: ['']
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again.
   When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: July 2014
+root_method: [towelroot]
 screen: 178 mm (7.0 in)
 screen_ppi: 216
 screen_res: 1280x800

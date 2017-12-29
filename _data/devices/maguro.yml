@@ -8,8 +8,8 @@ carrier:
 channels: [weekly]
 codename: maguro
 cpu: OMAP4
-cpu_freq: 1.2 GHz
 cpu_cores: '2'
+cpu_freq: 1.2 GHz
 current_branch: 13.0
 depth: 8.9 mm
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
@@ -32,8 +32,8 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2011 October
 screen: 4.7 inches
-screen_res: 1280x720
 screen_ppi: '316'
+screen_res: 1280x720
 screen_tech: Super AMOLED
 sdcard:
 soc: TI OMAP4460

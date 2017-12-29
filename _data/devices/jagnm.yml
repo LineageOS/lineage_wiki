@@ -16,8 +16,6 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connec
 gpu: Adreno 305
 has_recovery_partition: true
 height: 137.7 mm (5.42 in)
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 image: jag3gds.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
@@ -30,7 +28,9 @@ network:
 peripherals: [NFC, GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014 August
+root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280

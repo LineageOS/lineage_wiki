@@ -15,8 +15,6 @@ depth: 8.3 mm (0.33 in)
 download_boot:
 gpu: Adreno 320
 has_recovery_partition: true
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-root_method: [custom, 'https://forum.xda-developers.com/lg-g-pad-83/general/guide-root-twrp-customrom-kot49i-v50020d-t2894277']
 height: 216.8 mm (8.54 in)
 image: v500.png
 install_method: dd
@@ -31,7 +29,9 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
   When prompted to erase all user data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 14 October 2013
+root_method: [custom, 'https://forum.xda-developers.com/lg-g-pad-83/general/guide-root-twrp-customrom-kot49i-v50020d-t2894277']
 screen: 210 mm (8.3 in)
 screen_ppi: '~273'
 screen_res: 1920x1200
