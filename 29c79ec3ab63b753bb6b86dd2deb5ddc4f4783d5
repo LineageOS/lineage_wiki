@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "409a007e_ed670507",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-29T19:19:19Z",
+      "side": 1,
+      "message": "v4.0 BLE",
+      "revId": "29c79ec3ab63b753bb6b86dd2deb5ddc4f4783d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8db6367f_cba92d23",
+        "filename": "_data/devices/kltesprsports.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-29T19:19:19Z",
+      "side": 1,
+      "message": "shouldnt be empty",
+      "revId": "29c79ec3ab63b753bb6b86dd2deb5ddc4f4783d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
