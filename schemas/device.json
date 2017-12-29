@@ -1,0 +1,171 @@
+{
+    "title": "device object",
+    "type": "object",
+    "properties": {
+        "architecture": {
+            "type": "string"
+        },
+        "battery": {
+            "type": "string"
+        },
+        "bluetooth": {
+            "type": "string"
+        },
+        "camera": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "flash": {
+                        "type": "string"
+                    },
+                    "info": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "carrier": {
+            "type": ["string", "null"]
+        },
+        "channels": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "cpu": {
+            "type": "string"
+        },
+        "cpu_cores": {
+            "type": "string"
+        },
+        "cpu_freq": {
+            "type": "string"
+        },
+        "current_branch": {
+            "type": "number"
+        },
+        "custom_unlock_command": {
+            "type": ["string", "null"]
+        },
+        "depth": {
+            "type": ["string", "null"]
+        },
+        "download_boot": {
+            "type": ["string"]
+        },
+        "gpu": {
+            "type": "string"
+        },
+        "gpu": {
+            "type": "string"
+        },
+        "has_recovery_partition": {
+            "type": "boolean"
+        },
+        "height": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "install_method": {
+            "type": "string"
+        },
+        "kernel": {
+            "type": "string"
+        },
+        "maintainers": {
+            "type": ["array", "null"],
+            "items": {
+                "type": "string"
+            }
+        },
+        "name": {
+            "type": "string"
+        },
+        "network": {
+            "type": ["array", "null"],
+            "items": {
+                "type": "object",
+                "properties": {
+                    "tech": {
+                        "type": "string",
+                        "pattern": "^\\dG$"
+                    },
+                    "bands": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "no_oem_unlock_switch": {
+            "type": "boolean"
+        },
+        "peripherals": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "ram": {
+            "type": "string"
+        },
+        "recovery_boot": {
+            "type": "string"
+        },
+        "release": {
+            "type": ["string", "number"],
+            "pattern": "\\d{4}(-\\d{2})?(-\\d{2})?"
+        },
+        "sdcard": {
+            "type": ["string", "null"]
+        },
+        "screen": {
+            "type": "string"
+        },
+        "screen_ppi": {
+            "type": ["string", "number"]
+        },
+        "screen_res": {
+            "type": "string"
+        },
+        "screen_tech": {
+            "type": "string"
+        },
+        "scdard": {
+            "type": "string"
+        },
+        "soc": {
+            "type": "string"
+        },
+        "storage": {
+            "type": "string"
+        },
+        "tree": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        },
+        "vendor": {
+            "type": "string"
+        },
+        "vendor_short": {
+            "type": "string"
+        },
+        "versions": {
+            "type": "array",
+            "items": {
+                "type": "number"
+            }
+        },
+        "width": {
+            "type": ["string", "null"]
+        },
+        "wifi": {
+            "type": "string"
+        }
+    }
+}
