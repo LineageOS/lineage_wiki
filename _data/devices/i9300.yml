@@ -1,5 +1,5 @@
 architecture: arm
-bluetooth: 4.0
+bluetooth: v4.0
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}

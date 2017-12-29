@@ -1,6 +1,6 @@
 architecture: arm
 battery: Removable Li-Ion 2600 mAh
-bluetooth: 4.0
+bluetooth: v4.0
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}

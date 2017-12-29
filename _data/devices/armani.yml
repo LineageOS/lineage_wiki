@@ -11,7 +11,7 @@ cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-depth: 9.9  mm (0.39 in)
+depth: 9.9 mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 305

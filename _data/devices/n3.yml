@@ -1,6 +1,6 @@
 architecture: arm
 battery: Non-removable 3000 mAh Li-Po with VOOC Flash Charge
-bluetooth: '4.0'
+bluetooth: v4.0
 cameras:
 - {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}
 carrier:

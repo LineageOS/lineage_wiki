@@ -1,6 +1,6 @@
 architecture: arm
 battery: 3000 mAh
-bluetooth: 4.1 LE
+bluetooth: v4.1 LE
 cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: '', info: '5 MP'}
