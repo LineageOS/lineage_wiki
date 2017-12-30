@@ -1,12 +1,17 @@
+---
 architecture: arm64
 battery: Removable Li-Ion 3300 mAh
 bluetooth: v4.2 with A2DP, LE, aptX HD
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: LED
+  info: 13 MP
+- flash: LED
+  info: 13 MP
 carrier: Unlocked (US)
-channels: [weekly]
+channels:
+- weekly
 codename: us997
 cpu: Kryo
 cpu_cores: '4'
@@ -20,15 +25,30 @@ height: 148.9 mm (5.86 in)
 image: g6.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed]
+maintainers:
+- rashed
 name: G6 (US Unlocked)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
-peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum]
+- bands: 1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800)
+    28(700)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Barometer
+- Barometer
+- Color spectrum
+- Compass
+- Fingerprint reader
+- Gyroscope
+- Proximity sensor
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it
+  again until the recovery comes up.
 release: February 2017
 screen: 144.8 mm (5.7 in)
 screen_ppi: '556'
@@ -41,6 +61,7 @@ tree: android_device_lge_us997
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 71.9 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

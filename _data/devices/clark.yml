@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: 3000 mAh
 bluetooth: 4.1 LE
 cameras:
-- {flash: 'Dual LED', info: '21 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED
+  info: 21 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: clark
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -17,17 +21,26 @@ has_recovery_partition: true
 image: clark.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8992
-maintainers: [hashbang173]
-models: [XT1570, XT1572, XT1575]
+maintainers:
+- hashbang173
+models:
+- XT1570
+- XT1572
+- XT1575
 name: Moto X Pure Edition/Style (2015)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: ['']
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- ''
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Volume Up</kbd> to select.
 release: 2015 September
 screen: 145 mm (5.7 in)
 screen_ppi: '520'
@@ -40,5 +53,6 @@ tree: android_device_motorola_clark
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 a/g/b/n/ac + MIMO

@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Non-removable Li-Po 2850 mAh
 bluetooth: v4.0
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: vegetalte
 cpu: Cortex A53
 cpu_cores: '4'
@@ -13,26 +17,46 @@ cpu_freq: 1.2 GHz (E5 4G) / 1.4 GHz (E5s)
 current_branch: 14.1
 depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
+  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release
+  <kbd>Volume Down</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 143.15 mm (5.64 in)
 image: vegetalte.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
-maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki, Team aquaris-dev]
+maintainers:
+- Kra1o5
+- Team aquaris-dev
+- brinlyau
+- cmorlok
+- eloimuns
+- stucki
 name: Aquaris E5 4G / Aquaris E5s
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '800 1800 2600 MHz LTE' }
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, FM Radio, USB OTG]
+- bands: 800 1800 2600 MHz LTE
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Dual SIM
+- FM Radio
+- GPS
+- Gyroscope
+- Light sensor
+- Proximity sensor
+- USB OTG
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
+  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release
+  <kbd>Volume Up</kbd>.
 release: 2014 (E5 4G) / 2015 (E5s)
 screen: 127 mm (5.0 in)
-screen_ppi: ~294
+screen_ppi: "~294"
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 32 GB
@@ -42,6 +66,7 @@ tree: android_device_bq_vegetalte
 type: phone
 vendor: BQ
 vendor_short: bq
-versions: [14.1]
+versions:
+- 14.1
 width: 72.15 mm (2.84 in)
 wifi: 802.11 b/g/n, Hotspot

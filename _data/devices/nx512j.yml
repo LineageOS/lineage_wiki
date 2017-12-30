@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 2900 mAh
 bluetooth: v4.0
 cameras:
-- {flash: 'LED', info: '15.9 MP'}
-- {flash: 'LED', info: '8 MP'}
+- flash: LED
+  info: 15.9 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: nx512j
 cpu: Cortex A53
 cpu_cores: '8'
@@ -19,13 +23,25 @@ height: 154.8 mm (6.09 in)
 image: nx512j.png
 install_method: fastboot_nexus
 kernel: android_kernel_nubia_msm8939
-maintainers: [Bauuuuu]
+maintainers:
+- Bauuuuu
 name: Z9 Max
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: 'B1(2100) B3(1800) B3(2600) B38(TDD 2600) B39(TDD 19000) B40(TDD 2300) B41(TDD 2500)MHz' }
-peripherals: [Dual SIM, FM Radio, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor]
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: B1(2100) B3(1800) B3(2600) B38(TDD 2600) B39(TDD 19000) B40(TDD 2300) B41(TDD
+    2500)MHz
+  tech: 4G
+peripherals:
+- Accelerometer
+- Compass
+- Dual SIM
+- FM Radio
+- Gyroscope
+- Hall sensor
+- Proximity sensor
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015 June
@@ -40,6 +56,7 @@ tree: android_device_nubia_nx512j
 type: phone
 vendor: Nubia
 vendor_short: nubia
-versions: [14.1]
+versions:
+- 14.1
 width: 76.6 mm (3.02 in)
 wifi: 802.11 b/g/n/ac Dual-band, Wi-Fi Direct, DLNA, Hotspot

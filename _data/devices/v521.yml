@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 4650 mAh
 bluetooth: v4.2 with A2DP, LE, aptX HD
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: ''
+  info: 5 MP
 carrier: T-Mobile
-channels: [weekly]
+channels:
+- weekly
 codename: v521
 cpu: Cortex A53
 cpu_cores: '8'
@@ -19,15 +23,23 @@ height: 210.8 mm (8.30 in)
 image: v521.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_msm8952
-maintainers: [rashed]
+maintainers:
+- rashed
 name: G Pad X (T-Mobile)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '2(1900) 3(1800) 4(1700) 7(2600) 12(700)' }
-peripherals: [Gyroscope, Compass]
+- bands: 2(1900) 3(1800) 4(1700) 7(2600) 12(700)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Compass
+- Gyroscope
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it
+  again until the recovery comes up.
 release: June 2016
 screen: 203.2 mm (8.0 in)
 screen_ppi: '283'
@@ -40,6 +52,7 @@ tree: android_device_lge_v521
 type: tablet
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 121.9 mm (4.80 in)
 wifi: 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot

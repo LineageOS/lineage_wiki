@@ -1,19 +1,24 @@
+---
 architecture: arm
 battery: Non-removable 3300 mAh
 bluetooth: v4.0 with A2DP, aptX
 cameras:
-- {flash: 'LED', info: '4 UP'}
-- {flash: '', info: '2.1 MP'}
+- flash: ''
+  info: 2.1 MP
+- flash: LED
+  info: 4 UP
 carrier: Verizon Wireless
-channels: [discontinued]
+channels:
+- discontinued
 codename: t6vzw
 cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 depth: 10.29 mm (0.41 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 320
 has_recovery_partition: true
 height: 164.5 mm (6.48 in)
@@ -23,13 +28,26 @@ kernel: android_kernel_htc_msm8960
 maintainers:
 name: One Max (Verizon)
 network:
-- {tech: 2G, bands: '800 1900 MHz CDMA' }
-- {tech: 3G, bands: '1900 2100MHz HSPA' }
-- {tech: 4G, bands: '4(1700/2100) 13(700) LTE' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
+- bands: 1900 2100MHz HSPA
+  tech: 3G
+- bands: 4(1700/2100) 13(700) LTE
+  tech: 4G
+- bands: 800 1900 MHz CDMA
+  tech: 2G
+peripherals:
+- Accelerometer
+- Compass
+- Dual front speakers
+- GPS
+- Gyroscope
+- Hall sensor
+- IR blaster
+- NFC
+- Proximity sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2013 October
 screen: 149.86 mm (5.9 in)
 screen_ppi: '373'
@@ -42,6 +60,7 @@ tree: android_device_htc_t6vzw
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [14.1]
+versions:
+- 14.1
 width: 82.5 mm (3.25 in)
 wifi: 802.11 a/b/g/n/ac 2.4/5GHz

@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Non-removable Li-Po 3100 mAh
 bluetooth: v4.0
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
-- {flash: '', info: '8 MP'}
+- flash: ''
+  info: 8 MP
+- flash: Dual LED
+  info: 16 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: gohan
 cpu: Cortex A72
 cpu_cores: '8'
@@ -19,18 +23,38 @@ height: 145 mm (5.69 in)
 image: gohan.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8976
-maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki, cyclon1978, Team aquaris-dev]
+maintainers:
+- Kra1o5
+- Team aquaris-dev
+- brinlyau
+- cmorlok
+- cyclon1978
+- eloimuns
+- stucki
 name: Aquaris X5 Plus
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '800 1800 2100 2600 MHz LTE' }
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall sensor, GPS, FM Radio, USB OTG]
+- bands: 800 1800 2100 2600 MHz LTE
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Dual SIM
+- FM Radio
+- GPS
+- Gyroscope
+- Hall sensor
+- Light sensor
+- Proximity sensor
+- USB OTG
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
 screen: 127 mm (5.0 in)
-screen_ppi: ~441
+screen_ppi: "~441"
 screen_res: 1920x1080
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 32 GB
@@ -40,6 +64,7 @@ tree: android_device_bq_gohan
 type: phone
 vendor: BQ
 vendor_short: bq
-versions: [14.1]
+versions:
+- 14.1
 width: 70 mm (2.78 in)
 wifi: 802.11 b/g/n/ac, Hotspot

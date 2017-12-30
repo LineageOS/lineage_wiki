@@ -1,35 +1,51 @@
+---
 architecture: arm64
 battery: Non-removable Li-Po 6700 mAh
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.6 MP'}
+- flash: ''
+  info: 1.6 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: flounder
 cpu: Denver (ARMv8 64-bit)
 cpu_cores: '2'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
 depth: 7.95 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: NVIDIA Kepler DX1 192-core
 has_recovery_partition: true
 height: 228.25 mm (8.99 in)
 image: flounder.png
 install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
-maintainers: [hashbang173, razorloves]
+maintainers:
+- hashbang173
+- razorloves
 name: Nexus 9 (Wi-Fi)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Light sensor, Gyroscope, Hall sensor, GPS]
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- Accelerometer
+- GPS
+- Gyroscope
+- Hall sensor
+- Light sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 3 November 2014
 screen: 226 mm (8.9 in)
 screen_ppi: '281'
@@ -42,6 +58,7 @@ tree: android_device_htc_flounder
 type: tablet
 vendor: Google
 vendor_short: htc
-versions: [14.1]
+versions:
+- 14.1
 width: 153.68 mm (6.05 in)
 wifi: 802.11a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

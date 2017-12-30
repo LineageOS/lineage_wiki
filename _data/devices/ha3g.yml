@@ -1,34 +1,56 @@
+---
 architecture: arm
 battery: Removable Li-Ion 3200 mAh
 bluetooth: v4.0 with A2DP, LE, EDR
 cameras:
-- {flash: 'LED', info: '13 MP, 1080p Full HD Video Recording @ 60fps'}
-- {flash: '', info: '2 MP, 1080p HD Video Recording @ 30fps'}
+- flash: ''
+  info: 2 MP, 1080p HD Video Recording @ 30fps
+- flash: LED
+  info: 13 MP, 1080p Full HD Video Recording @ 60fps
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: ha3g
 cpu: Cortex A15 & A7
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
 depth: 8.3 mm (0.33 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>.
 gpu: ARM Mali-T628MP6
 has_recovery_partition: true
 height: 151.2 mm (5.95 in)
 image: ha3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers: [tincho5588, deadman96385]
-models: [SM-N9000]
+maintainers:
+- deadman96385
+- tincho5588
+models:
+- SM-N9000
 name: Galaxy Note 3 (International 3G)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
+- bands: ''
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- GLONASS
+- GPS
+- Gyroscope
+- Hygrometer
+- NFC
+- Proximity sensor
+- Thermometer
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>.
 release: 2013 Sept
 screen: 144.78 mm (5.7 in)
 screen_ppi: '386'
@@ -41,6 +63,7 @@ tree: android_device_samsung_ha3g
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions:
+- 14.1
 width: 79.2 mm (3.12 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Hotspot

@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: 2680 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: 'LED (dual-tone)', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: LED (dual-tone)
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -19,13 +23,20 @@ height:
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
-maintainers: [chrmhoffmann, crpalmer, mikeioannina]
+maintainers:
+- chrmhoffmann
+- crpalmer
+- mikeioannina
 name: Robin
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: ['']
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- ''
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015 August
@@ -40,6 +51,7 @@ tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
 vendor_short: nextbit
-versions: [14.1]
+versions:
+- 14.1
 width:
 wifi: 802.11 a/b/g/n/ac

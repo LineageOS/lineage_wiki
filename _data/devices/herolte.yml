@@ -1,36 +1,64 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 3000 mAh
 bluetooth: 4.2 with A2DP, LE, apt-X
 cameras:
-- {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
-- {flash: '', info: '5 MP, f/1.7, 22mm'}
+- flash: ''
+  info: 5 MP, f/1.7, 22mm
+- flash: LED
+  info: 12 MP , f/1.7, 26mm
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: herolte
 cpu: M1 + Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1
 depth: 7.9 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>.
 gpu: ARM Mali-T880 MP12
 has_recovery_partition: true
 height: 142.4 mm (5.61 in)
 image: herolte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal8890
-maintainers: [jesec, fevax]
-models: [SM-G930F, SM-G930FD, SM-G930S, SM-G930K, SM-G930L, SM-G930W8]
+maintainers:
+- fevax
+- jesec
+models:
+- SM-G930F
+- SM-G930FD
+- SM-G930K
+- SM-G930L
+- SM-G930S
+- SM-G930W8
 name: Galaxy S7
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: 'B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)' }
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor,
-  Hall sensor, RGB ambient light, Infrared sensor]
+- bands: 850 900 1700(AWS) 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)
+  tech: 4G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Fingerprint reader
+- Gesture sensor
+- Gyroscope
+- Hall sensor
+- Hall sensor
+- Heart rate sensor
+- Infrared sensor
+- Motion Coprocessor
+- Proximity sensor
+- RGB ambient light
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 18 March 2016
 screen: 5.1 inches
 screen_ppi: '577'
@@ -43,6 +71,7 @@ tree: android_device_samsung_herolte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions:
+- 14.1
 width: 69.6 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 4100 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: ido
 cpu: Cortex A53 & A53
 cpu_cores: '8'
@@ -13,20 +17,34 @@ cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 405
 has_recovery_partition: true
 height: 139.3 mm (5.48 in)
 image: ido.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8916
-maintainers: [Anik1199]
+maintainers:
+- Anik1199
 name: Redmi 3/Prime
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
-peripherals: [Dual SIM, Fingerprint reader (Prime only), Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM Radio, GPS]
+- bands: 1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)
+  tech: 4G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 900 1800 1900 MHz GSM, 800 1900 MHz CDMA
+  tech: 2G
+peripherals:
+- Accelerometer
+- Compass
+- Dual SIM
+- FM Radio
+- Fingerprint reader (Prime only)
+- GPS
+- Gyroscope
+- IR blaster
+- Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -42,6 +60,7 @@ tree: android_device_xiaomi_ido
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1]
+versions:
+- 14.1
 width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

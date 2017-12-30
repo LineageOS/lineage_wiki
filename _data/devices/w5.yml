@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 2040 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '0.3 MP'}
+- flash: ''
+  info: 0.3 MP
+- flash: LED
+  info: 5 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: w5
 cpu: Cortex A7
 cpu_cores: '2'
@@ -16,22 +20,36 @@ has_recovery_partition: true
 image: w5.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
-maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
+maintainers:
+- mobiusm
+- nikitaproandroid
+- quarx2k
+- vm03
 name: Optimus L70
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
-peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
+- bands: ''
+  tech: 4G
+- bands: 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- FM Radio
+- GPS
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed, then
-  immediately hold it again.
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+  Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed,
+  then immediately hold it again.
+recovery_partition: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 release: 2014 April
-root_method: [custom, 'https://forum.xda-developers.com/showthread.php?t=2732311']
+root_method:
+- custom
+- https://forum.xda-developers.com/showthread.php?t=2732311
 screen: 114 mm (4.5 in)
-screen_ppi: ~207
+screen_ppi: "~207"
 screen_res: 480x800
 screen_tech: IPS LCD
 sdcard: up to 32 GB
@@ -41,5 +59,6 @@ tree: android_device_lge_w5
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 b/g/n

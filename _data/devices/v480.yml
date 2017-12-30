@@ -1,37 +1,53 @@
+---
 architecture: arm
 battery: Non-removable Li-Ion 4200 mAh
 bluetooth: v4.0, LE
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '1.3 MP'}
-channels: [weekly]
+- flash: ''
+  info: 1.3 MP
+- flash: ''
+  info: 5 MP
+channels:
+- weekly
 codename: v480
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 9.9 mm (0.39 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer.
-  Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  it to the computer. Keep holding <kbd>Volume Up</kbd> until the firmware update
+  screen appears.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 210.8 mm (8.30 in)
 image: v480.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
-maintainers: [jpjust]
+maintainers:
+- jpjust
 name: G Pad 8.0 (Wi-Fi)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Compass, GPS, Pedometer]
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- Accelerometer
+- Compass
+- GPS
+- Pedometer
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again.
-  When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>.
+  When the LG logo appears, release both buttons and then hold them again. When prompted
+  to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then
+  device will boot to recovery.
+recovery_partition: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 release: July 2014
-root_method: [kingroot]
+root_method:
+- kingroot
 screen: 203 mm (8.0 in)
 screen_ppi: '189'
 screen_res: 1280x800
@@ -43,6 +59,7 @@ tree: android_device_lge_v480
 type: tablet
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 124.2 mm (4.89 in)
 wifi: 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot

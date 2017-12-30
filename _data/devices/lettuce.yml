@@ -1,39 +1,54 @@
+---
 architecture: arm64
 battery: 2230 mAh
 bluetooth: '4.0'
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: lettuce
 cpu: Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 8.2 mm
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 142.4 mm
 image: lettuce.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [mikeioannina, TheStrix, h2o64]
+maintainers:
+- TheStrix
+- h2o64
+- mikeioannina
 name: Yuphoria
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '700 1700/2100 1800 2100 2600 FDD, 2300 2600 TDD' }
+- bands: 700 1700/2100 1800 2100 2600 FDD, 2300 2600 TDD
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
 no_oem_unlock_switch: true
-peripherals: [GPS, Light sensor, Proximity sensor]
+peripherals:
+- GPS
+- Light sensor
+- Proximity sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
 release: 2015 May 12
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
 screen_res: 1280x720
-screen_tech: ' IPS'
+screen_tech: " IPS"
 sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
@@ -41,6 +56,8 @@ tree: android_device_yu_lettuce
 type: phone
 vendor: YU
 vendor_short: yu
-versions: [13.0, 14.1]
+versions:
+- 13.0
+- 14.1
 width: 73 mm
 wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

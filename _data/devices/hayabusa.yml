@@ -1,40 +1,70 @@
+---
 architecture: arm
 battery: Removable 1750 mAh
 bluetooth: v4.0 with A2DP
 cameras:
-- {flash: 'LED', info: '13 MP f/2.4'}
-- {flash: '', info: '1.3 MP'}
+- flash: ''
+  info: 1.3 MP
+- flash: LED
+  info: 13 MP f/2.4
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: hayabusa
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 depth: 8.6 mm
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable. The notification light should turn blue.
 gpu: Adreno 225
 has_recovery_partition: true
 height: 131.0 mm
 image: hayabusa.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8x60
-maintainers: [Adrian DC]
+maintainers:
+- Adrian DC
 name: Xperia TX
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
-note_content: '**unify_userdata.zip**: The internal physical SDCard partition and the apps data partition of the device have been merged into a common UserData partition. The Unification process will require you to empty the SDCard partition, flash the *unify_userdata* zip and follow the instructions. Every time your files could get lost (Data, internal SDCard, ...), a warning will be shown to explain the issue and the flash will be aborted. You will then be able to flash the zip once again to accept the previously aborted process and unify the UserData. Then flash the ROM as usual.<br /><br />
-**restore_sdcard.zip**: In order to revert the UserData partition unification, and be able to flash an older ROM, you will need to flash the *restore_sdcard* zip. A factory reset will be needed to reverse the process, all data will be lost. Follow the instructions given by the zip and reflash the zip to accept warnings you might get.<br /><br />
-**recovery image**: An older stable version of the recovery is also available if you encounter issues during the process.'
+- bands: ''
+  tech: 4G
+- bands: 850 900 1700 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+note_content: "**unify_userdata.zip**: The internal physical SDCard partition and
+  the apps data partition of the device have been merged into a common UserData partition.
+  The Unification process will require you to empty the SDCard partition, flash the
+  *unify_userdata* zip and follow the instructions. Every time your files could get
+  lost (Data, internal SDCard, ...), a warning will be shown to explain the issue
+  and the flash will be aborted. You will then be able to flash the zip once again
+  to accept the previously aborted process and unify the UserData. Then flash the
+  ROM as usual.<br /><br /> **restore_sdcard.zip**: In order to revert the UserData
+  partition unification, and be able to flash an older ROM, you will need to flash
+  the *restore_sdcard* zip. A factory reset will be needed to reverse the process,
+  all data will be lost. Follow the instructions given by the zip and reflash the
+  zip to accept warnings you might get.<br /><br /> **recovery image**: An older stable
+  version of the recovery is also available if you encounter issues during the process."
 note_link: Download the UserData Unification packages
 note_show: true
 note_title: UserData partitions unification starting from CM-13.0
 note_url: https://mega.nz/#F!mttySaCY!IcRH1F_xeBdK_i1gpTOjqg
-peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
+peripherals:
+- Accelerometer
+- Compass
+- GPS
+- Gyroscope
+- HDMI
+- Light sensor
+- MHL
+- NFC
+- Proximity sensor
 ram: 1 GB
-recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br/><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
+recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting
+  up.<br/><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd>
+  instead.
 release: 2012 August
 screen: 110.0 mm (4.55 in)
 screen_ppi: '323'
@@ -47,6 +77,7 @@ tree: android_device_sony_hayabusa
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [14.1]
+versions:
+- 14.1
 width: 68.6 mm
 wifi: 802.11 2.4GHz a/b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -1,17 +1,22 @@
+---
 architecture: arm
 battery: Removable Li-Po 1750 mAh
 bluetooth: v4.0 + A2DP
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: 'VGA'}
+- flash: ''
+  info: 5 MP
+- flash: ''
+  info: VGA
 carrier:
-channels: [discontinued]
+channels:
+- discontinued
 codename: nicki
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable. The notification light should turn blue.
 gpu: Adreno 305
 has_recovery_partition: true
 image: nicki.png
@@ -20,12 +25,20 @@ kernel: android_kernel_sony_msm8x27
 maintainers:
 name: Xperia M
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA (C1905 and C2005), 850 1700 1900 2100 MHz HSDPA (C1904 and C2004)' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Proximity sensor, Compass]
+- bands: ''
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA (C1905 and C2005), 850 1700 1900 2100 MHz HSDPA (C1904
+    and C2004)
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Proximity sensor
 ram: 1 GB
-recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
+recovery_boot: With the device powered off, boot the device and press <kbd>Volume
+  Up</kbd> when the notification light is pink.
 release: 2013 June
 screen: 102 mm (4.0 in)
 screen_ppi: '244.9'
@@ -38,5 +51,6 @@ tree: android_device_sony_nicki
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 a/b/g/n

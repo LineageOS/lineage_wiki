@@ -1,37 +1,57 @@
+---
 architecture: arm
 battery: 2070 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '1.3 MP'}
+- flash: ''
+  info: 1.3 MP
+- flash: LED
+  info: 5 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: peregrine
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume
+  Up</kbd> to select.
 gpu: Adreno 305
 has_recovery_partition: true
 image: peregrine.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: [gmrt]
-models: [XT1039, XT1040, XT1042, XT1045]
+maintainers:
+- gmrt
+models:
+- XT1039
+- XT1040
+- XT1042
+- XT1045
 name: Moto G 4G
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA (T-Mobile, AT&T), CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '2(1900) 4(1700) 5(850) 17(700) (USA models), 1(800) 3(900) 7(1800) 8(2100) 20(2600) (International)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+- bands: 2(1900) 4(1700) 5(850) 17(700) (USA models), 1(800) 3(900) 7(1800) 8(2100)
+    20(2600) (International)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA
+    (T-Mobile, AT&T), CDMA2000 1xEV-DO
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Gyroscope
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Volume Up</kbd> to select.
 release: 2014 June
 screen: 114 mm (4.5 in)
-screen_ppi: ~326
+screen_ppi: "~326"
 screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 32 GB
@@ -41,5 +61,6 @@ tree: android_device_motorola_peregrine
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: Wi-Fi 802.11 b/g/n, Hotspot

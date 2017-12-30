@@ -1,37 +1,57 @@
+---
 architecture: arm
 battery: 2070 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '2 MP'}
+- flash: ''
+  info: 2 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: titan
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume
+  Up</kbd> to select.
 gpu: Adreno 305
 has_recovery_partition: true
 image: titan.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: [LuK1337, luca020400]
-models: [XT1063, XT1064, XT1068, XT1069]
+maintainers:
+- LuK1337
+- luca020400
+models:
+- XT1063
+- XT1064
+- XT1068
+- XT1069
 name: Moto G 2014
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA (T-Mobile, AT&T), CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+- bands: ''
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA
+    (T-Mobile, AT&T), CDMA2000 1xEV-DO
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Gyroscope
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Volume Up</kbd> to select.
 release: 2014 June
 screen: 127 mm (5.0 in)
-screen_ppi: ~294
+screen_ppi: "~294"
 screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 32 GB
@@ -41,5 +61,6 @@ tree: android_device_motorola_titan
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: Wi-Fi 802.11 b/g/n, Hotspot

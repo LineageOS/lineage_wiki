@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 3000 mAh
 bluetooth: 4.1 LE
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED
+  info: 16 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: athene
 cpu: Cortex A53
 cpu_cores: '8'
@@ -19,20 +23,37 @@ height: 153 mm (6.02 in)
 image: athene.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8952
-maintainers: [vache, shr3ps, rahulsnair]
-models: [XT1622, XT1624, XT1625, XT1626, XT1640, XT1641, XT1642, XT1643, XT1644]
+maintainers:
+- rahulsnair
+- shr3ps
+- vache
+models:
+- XT1622
+- XT1624
+- XT1625
+- XT1626
+- XT1640
+- XT1641
+- XT1642
+- XT1643
+- XT1644
 name: Moto G4
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz UMTS' }
-- {tech: 4G, bands: '700 850 1700 1800 1900 2600 MHz' }
-peripherals: ['']
+- bands: 700 850 1700 1800 1900 2600 MHz
+  tech: 4G
+- bands: 850 900 1700 1900 2100 MHz UMTS
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM, 1900 MHz CDMA
+  tech: 2G
+peripherals:
+- ''
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Volume Up</kbd> to select.
 release: 2016 May
 screen: 140 mm (5.5 in)
-screen_ppi: ~401
+screen_ppi: "~401"
 screen_res: 1080 x 1920
 screen_tech: IPS LCD
 sdcard: up to 256 GB
@@ -42,6 +63,7 @@ tree: android_device_motorola_athene
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 width: 76.6 mm (3.02 in)
 wifi: 802.11 a/g/b/n (dual band capable)

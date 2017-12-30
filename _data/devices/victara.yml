@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 2300 mAh (non-removable)
 bluetooth: v4.0 with AD2P, EDR, LE
 cameras:
-- {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
-- {flash: '', info: '2 MP, 1080p'}
+- flash: ''
+  info: 2 MP, 1080p
+- flash: Dual LED
+  info: 13 MP, 4128 x 3096 pixels, autofocus
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: victara
 cpu: Krait 400
 cpu_cores: '4'
@@ -17,20 +21,37 @@ has_recovery_partition: true
 image: victara.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8974
-maintainers: [crpalmer, tortel]
-models: [XT1092, XT1093, XT1095, XT1096, XT1097]
+maintainers:
+- crpalmer
+- tortel
+models:
+- XT1092
+- XT1093
+- XT1095
+- XT1096
+- XT1097
 name: Moto X 2014
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1800 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
+- bands: 1(2100) 3(1800) 7(2600) 8(900) 20(800)
+  tech: 4G
+- bands: 850 900 1800 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Gyroscope
+- Proximity sensor
+- Thermometer
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
- On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Power</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press
+  <kbd>Power</kbd> to select.
 release: 2014 September 26
 screen: 132 mm (5.2 in)
-screen_ppi: ~424
+screen_ppi: "~424"
 screen_res: 1080 x 1920
 screen_tech: AMOLED capacitive touchscreen, 16M colors
 sdcard:
@@ -40,5 +61,6 @@ tree: android_device_motorola_victara
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot
