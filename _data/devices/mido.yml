@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Po 4100 mAh
 bluetooth: v4.1 with A2DP, LE
 cameras:
-- {flash: 'LED (dual-tone)', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: LED (dual-tone)
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: mido
 cpu: Cortex A53
 cpu_cores: '8'
@@ -13,20 +17,34 @@ cpu_freq: 2.0 GHz
 current_branch: 14.1
 depth: 8.5 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 506
 has_recovery_partition: true
 height: 151 mm (5.94 in)
 image: mido.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8953
-maintainers: [TheScarastic]
+maintainers:
+- TheScarastic
 name: Redmi Note 4
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300), 3(1800) 5(850) 40(2300) (India)' }
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM Radio]
+- bands: 1(2100) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300),
+    3(1800) 5(850) 40(2300) (India)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- FM Radio
+- Fingerprint reader
+- GPS
+- Gyroscope
+- Infrared sensor
+- Proximity sensor
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -42,6 +60,7 @@ tree: android_device_xiaomi_mido
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1]
+versions:
+- 14.1
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac

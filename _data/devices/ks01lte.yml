@@ -1,34 +1,61 @@
+---
 architecture: arm
 battery: 2600 mAh Li-ion, removable
 bluetooth: '4.0'
 cameras:
-- {flash: '', info: '13 MP, 1080p Full HD Video Recording @ 30fps'}
-- {flash: '', info: '2 MP, 1080p HD Video Recording @ 30fps'}
+- flash: ''
+  info: 13 MP, 1080p Full HD Video Recording @ 30fps
+- flash: ''
+  info: 2 MP, 1080p HD Video Recording @ 30fps
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: ks01lte
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 13.0
 depth:
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
 height:
 image: ks01lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_ks01lte
-maintainers: [solk2]
-models: [GT-I9506]
+maintainers:
+- solk2
+models:
+- GT-I9506
 name: Galaxy S4 LTE-A (GT-I9506)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE' }
-peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, HDMI (TV-out via MHL A\V link), Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall sensor, Hygrometer, Proximity sensor, RGB light sensor, Thermometer]
+- bands: 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Barometer
+- GLONASS
+- GPS
+- Gesture sensor
+- Gyroscope
+- HDMI (TV-out via MHL A\V link)
+- Hall sensor
+- Hygrometer
+- Infrared sensor
+- MHL 2.0
+- NFC
+- Proximity sensor
+- RGB light sensor
+- Thermometer
+- USB OTG
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release:
 screen: 127 mm (5.0 in)
 screen_ppi: '440'
@@ -41,6 +68,7 @@ tree: android_device_samsung_ks01lte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [13.0]
+versions:
+- 13.0
 width:
 wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display

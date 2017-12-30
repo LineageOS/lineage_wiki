@@ -1,0 +1,95 @@
+---
+"$schema": http://json-schema.org/draft-06/schema#
+definitions: {}
+properties:
+  architecture:
+    "$id": "/properties/architecture"
+    enum:
+    - arm
+    - arm64
+    - x86
+    - x86_64
+  channels:
+    "$id": "/properties/channels"
+    items:
+      "$id": "/properties/channels/items"
+      enum:
+      - discontinued
+      - weekly
+    type: array
+  codename:
+    "$id": "/properties/codename"
+    type: string
+  type:
+    "$id": "/properties/type"
+    enum:
+    - Handheld game console
+    - Set top box
+    - phablet
+    - phone
+    - phone (slider)
+    - tablet
+  vendor:
+    "$id": "/properties/vendor"
+    enum:
+    - ARK
+    - Asus
+    - BQ
+    - Fairphone
+    - Google
+    - HTC
+    - Huawei
+    - LG
+    - LeEco
+    - Lenovo
+    - Motorola
+    - Nextbit
+    - Nubia
+    - Nvidia
+    - OPPO
+    - OnePlus
+    - Samsung
+    - Sony
+    - Wileyfox
+    - Wingtech
+    - Xiaomi
+    - YU
+    - ZTE
+    - ZUK
+  vendor_short:
+    "$id": "/properties/vendor_short"
+    enum:
+    - ark
+    - asus
+    - bq
+    - fairphone
+    - google
+    - htc
+    - huawei
+    - leeco
+    - lenovo
+    - lge
+    - moto
+    - motorola
+    - nextbit
+    - nubia
+    - nvidia
+    - oneplus
+    - oppo
+    - samsung
+    - sony
+    - wileyfox
+    - wingtech
+    - xiaomi
+    - yu
+    - zte
+    - zuk
+required:
+- architecture
+- channels
+- codename
+- type
+- vendor
+- vendor_short
+title: phone
+type: object

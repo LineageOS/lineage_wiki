@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Non-removable Li-Po 3220 mAh
 bluetooth: v4.1 LE
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '2.1 MP '}
+- flash: ''
+  info: '2.1 MP '
+- flash: Dual LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
@@ -19,15 +23,34 @@ height: 159.3 mm (6.27 in)
 image: shamu.png
 install_method: fastboot_nexus
 kernel: android_kernel_moto_shamu
-maintainers: [Elektroschmock, razorloves]
+maintainers:
+- Elektroschmock
+- razorloves
 name: Nexus 6
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American model only)' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (North/South American model only), 800 850 900 1700 1800 1900 2100 MHz HSDPA (Afro-Eurasian models)' }
-- {tech: 4G, bands: '2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900) 26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, NFC, Qi wireless charging, Dual front speakers]
+- bands: 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900)
+    26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850)
+    7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)
+  tech: 4G
+- bands: 850 900 1700 1900 2100 MHz HSDPA (North/South American model only), 800 850
+    900 1700 1800 1900 2100 MHz HSDPA (Afro-Eurasian models)
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American
+    model only)
+  tech: 2G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Dual front speakers
+- Gyroscope
+- Hall sensor
+- NFC
+- Proximity sensor
+- Qi wireless charging
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
+  Then use the menu to select Recovery.
 release: 29 October 2014
 screen: 151 mm (5.96 in)
 screen_ppi: '493'
@@ -40,6 +63,7 @@ tree: android_device_moto_shamu
 type: phablet
 vendor: Google
 vendor_short: moto
-versions: [14.1]
+versions:
+- 14.1
 width: 83 mm (3.27 in)
 wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot

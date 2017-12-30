@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Removable Li-Ion 2300 mAh
 bluetooth: 4.1
 cameras:
-- {flash: 'LED', info: '13 MP(LTE) or 8 MP(3G)'}
-- {flash: '', info: '5 MP or 8 MP'}
+- flash: ''
+  info: 5 MP or 8 MP
+- flash: LED
+  info: 13 MP(LTE) or 8 MP(3G)
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: m216
 cpu: Cortex A53
 cpu_cores: '4'
@@ -19,19 +23,40 @@ height: 144.6 mm (5.69 in)
 image: m216.png
 install_method: dd
 kernel: android_kernel_lge_msm8916
-maintainers: [erfanoabdi, dom133]
-models: [K420N, K420DS]
+maintainers:
+- dom133
+- erfanoabdi
+models:
+- K420DS
+- K420N
 name: K10
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1900 2100 MHz UMTS' }
-- {tech: 4G, bands: 'B5(850) B3(1800 +) B40(TD 2300) LTE' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Magnetic sensor, Digital compass, GPS, NFC, FM Radio, RGB ambient light, Hall sensor]
+- bands: 850 1900 2100 MHz UMTS
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: B5(850) B3(1800 +) B40(TD 2300) LTE
+  tech: 4G
+peripherals:
+- Accelerometer
+- Digital compass
+- FM Radio
+- GPS
+- Gyroscope
+- Hall sensor
+- Magnetic sensor
+- NFC
+- Proximity sensor
+- RGB ambient light
 ram: 1.5 GB / 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
-recovery_partition: /dev/block/bootdevice/by-name/recovery
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it
+  again until the recovery comes up.
+recovery_partition: "/dev/block/bootdevice/by-name/recovery"
 release: January 2016
-root_method: [custom, 'https://forum.xda-developers.com/lg-k10/how-to/root-lg-k10-420ds-t3479902']
+root_method:
+- custom
+- https://forum.xda-developers.com/lg-k10/how-to/root-lg-k10-420ds-t3479902
 screen: 134 mm (5.3 in)
 screen_ppi: 277
 screen_res: 720x1280
@@ -43,6 +68,7 @@ tree: android_device_lge_m216
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 74.8 mm (2.94 in)
 wifi: 802.11 a/b/g/n

@@ -1,36 +1,52 @@
+---
 architecture: arm
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.0 with A2DP, LE, aptX
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '2.1 MP'}
+- flash: ''
+  info: 2.1 MP
+- flash: Dual LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: d852
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 depth: 8.9 mm (0.35 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 146.3 mm (5.76 in)
 image: g3.png
 install_method: dd
 kernel: android_kernel_lge_g3
-maintainers: [finnq, shred00]
+maintainers:
+- finnq
+- shred00
 name: G3 (Canada)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '29(700) 5(850) 2(1900) 4(1700) 7(2600) LTE' }
-peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
+- bands: 29(700) 5(850) 2(1900) 4(1700) 7(2600) LTE
+  tech: 4G
+- bands: 850 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- Accelerometer
+- Compass
+- Gyroscope
+- Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 release: June 2014
-root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
+root_method:
+- custom
+- http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'
 screen_res: 2560x1440
@@ -42,6 +58,7 @@ tree: android_device_lge_d852
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 74.7 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

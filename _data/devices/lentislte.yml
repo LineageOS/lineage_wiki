@@ -1,33 +1,58 @@
+---
 architecture: arm
 battery: 2800 mAh Li-ion battery, removable
 bluetooth: 4.0 BLE
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '2 MP'}
+- flash: ''
+  info: 2 MP
+- flash: LED
+  info: 16 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: lentislte
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-  In order to exit download mode and reboot, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> for about 7 seconds.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>. In order to exit download mode and reboot, hold <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd> for about 7 seconds.
 gpu: Adreno 420
 has_recovery_partition: true
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_apq8084
-maintainers: [cvxda]
-models: [SM-G906S, SM-G906K, SM-G906L]
+maintainers:
+- cvxda
+models:
+- SM-G906K
+- SM-G906L
+- SM-G906S
 name: Galaxy S5 LTE-A
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 17(700)' }
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, RGB ambient light, IR blaster]
+- bands: 1(2100) 3(1800) 5(850) 7(2600) 17(700)
+  tech: 4G
+- bands: 850 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Fingerprint reader
+- Gesture sensor
+- Gyroscope
+- Hall sensor
+- Heart rate sensor
+- IR blaster
+- Motion Coprocessor
+- Proximity sensor
+- RGB ambient light
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 15 July 2014
 screen: 130 mm (5.1 in)
 screen_ppi: '560'
@@ -40,5 +65,6 @@ tree: android_device_samsung_lentislte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 a/b/g/n/ac

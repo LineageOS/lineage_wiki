@@ -1,33 +1,42 @@
+---
 architecture: arm64
 battery:
 bluetooth: v4.1, LE
 cameras: []
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: foster
 cpu: Cortex A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
+download_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd>
+  until a menu is displayed.
 gpu: GM20B (Maxwell)
 has_recovery_partition: true
 height:
 image: foster.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_shield
-maintainers: [webgeek1234]
+maintainers:
+- webgeek1234
 name: Shield Android TV
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals:
+- ''
 ram: 3 GB
-recovery_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
-  Tap <kbd>Power</kbd> until recovery is selected. Press <kbd>Power</kbd> for two seconds to select.
+recovery_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd>
+  until a menu is displayed. Tap <kbd>Power</kbd> until recovery is selected. Press
+  <kbd>Power</kbd> for two seconds to select.
 release: 2015 May 28
 screen:
 screen_ppi:
@@ -40,6 +49,7 @@ tree: android_device_nvidia_foster
 type: Set top box
 vendor: Nvidia
 vendor_short: nvidia
-versions: [14.1]
+versions:
+- 14.1
 width:
 wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz

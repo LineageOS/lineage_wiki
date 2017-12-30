@@ -1,35 +1,55 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 2150 mAh
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: 'Dual-LED', info: '13 MP'}
-- {flash: '', info: '4 MP'}
+- flash: ''
+  info: 4 MP
+- flash: Dual-LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: hiaeul
 cpu: Cortex A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
 depth: 7.3 mm (0.29 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd>
+  + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
 height: 145.8 mm (5.74 in)
 image: hiae.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8952
-maintainers: [intervigil]
-models: [2PQ9120]
+maintainers:
+- intervigil
+models:
+- 2PQ9120
 name: One A9 (GSM US)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1700(AWS) 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '2(1900) 3(1800) 4(1700) 5(850) 7(2600) 12(700) 13(700) 17(700) 19(850) MHz LTE' }
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Magnetic sensor, GPS, NFC]
+- bands: 2(1900) 3(1800) 4(1700) 5(850) 7(2600) 12(700) 13(700) 17(700) 19(850) MHz
+    LTE
+  tech: 4G
+- bands: 850 1700(AWS) 1900 2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- Accelerometer
+- Compass
+- Fingerprint reader
+- GPS
+- Gyroscope
+- Magnetic sensor
+- NFC
+- Proximity sensor
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 20 October 2015
 screen: 130 mm (5.0 in)
 screen_ppi: 440
@@ -42,6 +62,7 @@ tree: android_device_htc_hiaeul
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [14.1]
+versions:
+- 14.1
 width: 70.8 mm (2.79 in)
 wifi: 802.11 a/b/g/n/ac

@@ -1,37 +1,48 @@
+---
 architecture: arm
 battery: 2300 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.3 MP'}
+- flash: ''
+  info: 1.3 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: hammerhead
 cpu: Snapdragon 800 Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
-  Then press and hold <kbd>Power</kbd> until a boot menu appears.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd>. Then press and hold <kbd>Power</kbd> until a boot menu appears.
 gpu: Adreno 330
 has_recovery_partition: true
 height:
 image: hammerhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_hammerhead
-maintainers: [razorloves]
+maintainers:
+- razorloves
 name: Nexus 5
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (North America model)' }
-- {tech: 3G, bands: '800 850 900 1700 1900 2100 MHz HSDPA (North Amera model), 850 900 1700 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 17(700) 19(800) 25(1900) 26(850) 41(2500) (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
+- bands: 1(2100) 2(1900) 4(1700/2100) 5(850) 17(700) 19(800) 25(1900) 26(850) 41(2500)
+    (North America), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)
+  tech: 4G
+- bands: 800 850 900 1700 1900 2100 MHz HSDPA (North Amera model), 850 900 1700 1900
+    2100 MHz HSDPA
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (North America model)
+  tech: 2G
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals:
+- ''
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
-  Then press and hold <kbd>Power</kbd> until a boot menu appears.
-  Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd>. Then press and hold <kbd>Power</kbd> until a boot menu appears. Navigate
+  using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 release: 2013 October 31
 screen: 127 mm (5.0 in)
 screen_ppi: '445'
@@ -44,6 +55,7 @@ tree: android_device_lge_hammerhead
 type: phone
 vendor: Google
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width:
 wifi: Dual-band Wi-Fi (2.4G/5 GHz) 802.11 a/b/g/n/ac

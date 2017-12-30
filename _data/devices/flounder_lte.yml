@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Po 6700 mAh
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.6 MP'}
+- flash: ''
+  info: 1.6 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: flounder_lte
 cpu: Denver (ARMv8 64-bit)
 cpu_cores: '2'
@@ -13,24 +17,36 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 custom_twrp_codename: flounder
 depth: 7.95 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: NVIDIA Kepler DX1 192-core
 has_recovery_partition: true
 height: 228.25 mm (8.99 in)
 image: flounder.png
 install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
-maintainers: [hashbang173, razorloves]
+maintainers:
+- hashbang173
+- razorloves
 name: Nexus 9 (LTE)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 AWS 1900 2100 MHz HSPA+' }
-- {tech: 4G, bands: 'B1 B2 B3 B4 B5 B7 B8 B20 LTE' }
-peripherals: [Accelerometer, Light sensor, Gyroscope, Hall sensor, GPS]
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 AWS 1900 2100 MHz HSPA+
+  tech: 3G
+- bands: B1 B2 B3 B4 B5 B7 B8 B20 LTE
+  tech: 4G
+peripherals:
+- Accelerometer
+- GPS
+- Gyroscope
+- Hall sensor
+- Light sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 3 November 2014
 screen: 226 mm (8.9 in)
 screen_ppi: '281'
@@ -43,6 +59,7 @@ tree: android_device_htc_flounder_lte
 type: tablet
 vendor: Google
 vendor_short: htc
-versions: [14.1]
+versions:
+- 14.1
 width: 153.68 mm (6.05 in)
 wifi: 802.11a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
