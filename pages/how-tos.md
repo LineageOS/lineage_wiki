@@ -5,7 +5,7 @@ permalink: how-tos.html
 tags:
 ---
 
-{% assign sorted_pages = (site.pages | sort: 'title') %}
+{% assign sorted_pages = site.pages | sort: 'title' %}
 
 {% for page in sorted_pages %}
 {% if page.title and page.url and page.tags contains "how-to" %}
