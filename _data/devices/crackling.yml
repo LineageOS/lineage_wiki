@@ -1,31 +1,41 @@
+---
 architecture: arm64
 battery: Removable 2500 mAh
 bluetooth: v4, A2DP, BLE
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: crackling
 cpu: 64-bit Cortex A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable.
 gpu: Adreno 306
 has_recovery_partition: true
 height:
 image: crackling.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [marado]
+maintainers:
+- marado
 name: Swift
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Dual SIM]
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- Dual SIM
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015 October
@@ -40,6 +50,7 @@ tree: android_device_wileyfox_crackling
 type: phone
 vendor: Wileyfox
 vendor_short: wileyfox
-versions: [14.1]
+versions:
+- 14.1
 width:
 wifi: 802.11 b/g/n

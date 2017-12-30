@@ -1,12 +1,17 @@
+---
 architecture: arm64
 battery: Removable Li-Ion 3200 mAh
 bluetooth: v4.2 with A2DP, LE, aptX HD
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '8 MP'}
+- flash: ''
+  info: 8 MP
+- flash: LED
+  info: 16 MP
+- flash: LED
+  info: 8 MP
 carrier: AT&T
-channels: [weekly]
+channels:
+- weekly
 codename: h910
 cpu: Kryo
 cpu_cores: '4'
@@ -20,15 +25,37 @@ height: 159.7 mm (6.29 in)
 image: v20.png
 install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed, Albinoman887]
+maintainers:
+- Albinoman887
+- rashed
 name: V20 (AT&T)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800) 28(700)' }
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum, Ambient light sensor, GPS, IR blaster, Infrared sensor, Mobility DisplayPort (MyDP), NFC, USB OTG]
+- bands: 1(2100) 17(700) 5(850) 4(1700/2100) 3(1800) 7(2600) 2(1900) 8(900) 20(800)
+    28(700)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Ambient light sensor
+- Barometer
+- Color spectrum
+- Compass
+- Fingerprint reader
+- GPS
+- Gyroscope
+- IR blaster
+- Infrared sensor
+- Mobility DisplayPort (MyDP)
+- NFC
+- Proximity sensor
+- USB OTG
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it
+  again until the recovery comes up.
 release: October 2016
 screen: 144.78 mm (5.7 in)
 screen_ppi: '513'
@@ -42,6 +69,7 @@ type: phone
 unlock_bootloader_guide: https://forum.xda-developers.com/v20/development/ls997vs995h910-dirtysanta-bootloader-t3519410
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 78.1 mm (3.07 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

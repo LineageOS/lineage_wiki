@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Removable Li-Ion 3000 mAh
 bluetooth: v4.1 with A2DP, LE, aptX
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '8 MP'}
+- flash: ''
+  info: 8 MP
+- flash: LED
+  info: 16 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: h811
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -19,16 +23,29 @@ height: 148.9 mm (5.86 in)
 image: h811.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8992
-maintainers: [codeworkx, genesixxbf3]
+maintainers:
+- codeworkx
+- genesixxbf3
 name: G4 (T-Mobile)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz' }
-- {tech: 3G, bands: '850 1700/2100 1900 2100 MHz UMTS' }
-- {tech: 4G, bands: '5(850) 4(1700/2100) 7(2600) 3(1800) 2(1900) 12(700)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum,
-  FM Radio]
+- bands: 5(850) 4(1700/2100) 7(2600) 3(1800) 2(1900) 12(700)
+  tech: 4G
+- bands: 850 1700/2100 1900 2100 MHz UMTS
+  tech: 3G
+- bands: 850 900 1800 1900 MHz
+  tech: 2G
+peripherals:
+- Accelerometer
+- Barometer
+- Color spectrum
+- Compass
+- FM Radio
+- Gyroscope
+- Proximity sensor
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it
+  again until the recovery comes up.
 release: June 2015
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'
@@ -41,6 +58,7 @@ tree: android_device_lge_h811
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 76.1 mm (3.00 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

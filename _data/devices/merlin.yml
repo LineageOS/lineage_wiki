@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 2470 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED
+  info: 13 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: merlin
 cpu: Cortex A53
 cpu_cores: '8'
@@ -18,20 +22,32 @@ has_recovery_partition: true
 image: merlin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [FireLord1]
-models: [XT1556, XT1557]
+maintainers:
+- FireLord1
+models:
+- XT1556
+- XT1557
 name: Moto G3 Turbo
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 2100 MHz HSDPA (Asia), 850 900 1700 1900 2100 MHz HSDPA (Latin America, Brazil)' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 28(700) (Asia), 4(1700) 7(2600) 28 (700) (Latin America, Brazil)' }
-peripherals: [Accelerometer, Proximity sensor, Compass]
+- bands: 1(2100) 3(1800) 7(2600) 8(900) 28(700) (Asia), 4(1700) 7(2600) 28 (700) (Latin
+    America, Brazil)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 2100 MHz HSDPA (Asia), 850 900 1700 1900 2100 MHz HSDPA (Latin America,
+    Brazil)
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Proximity sensor
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Power</kbd> to select.
 release: 2015 November
 screen: 127 mm (5.0 in)
-screen_ppi: ~295
+screen_ppi: "~295"
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 32 GB
@@ -41,5 +57,6 @@ tree: android_device_motorola_merlin
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 b/g/n, Hotspot

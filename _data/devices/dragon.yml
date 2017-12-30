@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Po 9240 mAh
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: '', info: '8 MP, f/2.4'}
-- {flash: '', info: '2 MP'}
+- flash: ''
+  info: 2 MP
+- flash: ''
+  info: 8 MP, f/2.4
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'
@@ -19,18 +23,28 @@ height: 242.0 mm (9.53 in)
 image: dragon.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_dragon
-maintainers: [followmsi]
+maintainers:
+- followmsi
 name: Pixel C
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer]
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Gyroscope
+- Proximity sensor
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen choose Recovery Mode.
 release: 8 December 2015
 screen: 260 mm (10.2 in)
-screen_ppi: ~308
+screen_ppi: "~308"
 screen_res: 2560x1800
 screen_tech: LTPS IPS LCD
 sdcard:
@@ -40,6 +54,7 @@ tree: android_device_google_dragon
 type: tablet
 vendor: Google
 vendor_short: google
-versions: [14.1]
+versions:
+- 14.1
 width: 179.0 mm (7.05 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

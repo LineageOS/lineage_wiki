@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Removable Li-Ion 2420 mAh
 bluetooth: 4.0 BLE
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: '', info: '5 MP'}
-carrier: 
-channels: [weekly]
+- flash: ''
+  info: 5 MP
+- flash: LED
+  info: 12 MP
+carrier:
+channels:
+- weekly
 codename: FP2
 cpu: Krait 400
 cpu_cores: '4'
@@ -13,23 +17,39 @@ cpu_freq: 2.26 GHz
 current_branch: 14.1
 custom_unlock_cmd: ''
 depth: 11 mm (0.43 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Release when boot logo appears.
 gpu: Adreno 330
 has_recovery_partition: true
 height: 143 mm (5.63 in)
 image: FP2.png
 install_method: fastboot_unlocked
 kernel: android_kernel_fairphone_msm8974
-maintainers: [chrmhoffmann]
-models: [FP2]
+maintainers:
+- chrmhoffmann
+models:
+- FP2
 name: FP2
 network:
-- {tech: 2G, bands: '850 900 1800 1900' }
-- {tech: 3G, bands: '8(900) 2(1900) 1(2100) ' }
-- {tech: 4G, bands: '3(1800) 7(2600) 20(800)' }
-peripherals: [3-axis Compass, 3D Accelerometer, 3D Gyroscope, Ambient light, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
+- bands: 3(1800) 7(2600) 20(800)
+  tech: 4G
+- bands: '8(900) 2(1900) 1(2100) '
+  tech: 3G
+- bands: 850 900 1800 1900
+  tech: 2G
+peripherals:
+- 3-axis Compass
+- 3D Accelerometer
+- 3D Gyroscope
+- Ambient light
+- Dual SIM
+- FM radio
+- GLONASS
+- GPS
+- Proximity sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Release when boot logo appears.
 release: December 2015
 screen: 130 mm (5.1 in)
 screen_ppi: 446
@@ -42,6 +62,7 @@ tree: android_device_fairphone_FP2
 type: phone
 vendor: Fairphone
 vendor_short: fairphone
-versions: [14.1]
+versions:
+- 14.1
 width: 73 mm (2.9 in)
 wifi: 802.11 b/g/n/ac

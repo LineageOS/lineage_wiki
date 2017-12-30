@@ -1,34 +1,51 @@
+---
 architecture: arm
 battery: Removable Li-Ion 7300 mAh
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '2 MP'}
+- flash: ''
+  info: 2 MP
+- flash: ''
+  info: 5 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: gtelwifiue
 cpu: Cortex A53
 cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 8.5 mm (0.33 in)
-download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd>
+  + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
 height: 241.9 mm (9.52 in)
 image: gtelwifiue.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8916
-maintainers: [vince2678, deadman96385]
-models: [SM-T560NU]
+maintainers:
+- deadman96385
+- vince2678
+models:
+- SM-T560NU
 name: Galaxy Tab E 9.6 (WiFi)
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
-peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
+peripherals:
+- Accelerometer
+- Compass
+- GLONASS
+- GPS
+- USB OTG
 ram: 1.5 GB
-recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd>
+  + <kbd>Power</kbd>.
 release: July 2015
 screen: 243.4 mm (9.6in)
 screen_ppi: 157
@@ -41,6 +58,7 @@ tree: android_device_samsung_gtelwifiue
 type: tablet
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions:
+- 14.1
 width: 149.5 mm (5.89 in)
 wifi: 802.11 a/b/g/n

@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 5197 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: ''
+  info: 5 MP
 carrier: AT&T, T-Mobile
-channels: [weekly]
+channels:
+- weekly
 codename: shieldtablet
 cpu: Cortex A15
 cpu_cores: '4'
@@ -20,17 +24,25 @@ height:
 image: shieldtablet.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_shield
-maintainers: [webgeek1234]
+maintainers:
+- webgeek1234
 name: Shield Tablet
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1700 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 HSDPA (International, depending on model)' }
-- {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (North America), 1(2100) 3(1800) 7(2600) 20(800) (International, depending on model)' }
+- bands: 2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (North America), 1(2100) 3(1800)
+    7(2600) 20(800) (International, depending on model)
+  tech: 4G
+- bands: 850 1700 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 HSDPA (International,
+    depending on model)
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals:
+- ''
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
-  then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
+  then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is
+  selected. Press <kbd>Power</kbd> to select.
 release: 2014 July 29
 screen: 203 mm (8.0 in)
 screen_ppi: '294'
@@ -43,6 +55,8 @@ tree: android_device_nvidia_shieldtablet
 type: tablet
 vendor: Nvidia
 vendor_short: nvidia
-versions: [13.0, 14.1]
+versions:
+- 13.0
+- 14.1
 width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

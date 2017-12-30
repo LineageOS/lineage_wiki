@@ -1,38 +1,59 @@
+---
 architecture: arm64
 battery: 2840 mAh (non-removable)
 bluetooth: v4.1 with A2DP, aptX
 cameras:
-- {flash: 'Dual LED', info: '20 MP'}
-- {flash: '', info: '4 MP'}
+- flash: ''
+  info: 4 MP
+- flash: Dual LED
+  info: 20 MP
 carrier: Verizon Wireless
-channels: [weekly]
+channels:
+- weekly
 codename: himawl
 cpu: Cortex A53 & A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
 current_branch: 14.1
 depth: 9.6 mm (0.38 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 430
 has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8994
-maintainers: [flyhalf205, raymanfx, rashed]
+maintainers:
+- flyhalf205
+- rashed
+- raymanfx
 name: One M9 (Verizon)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA, CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '4(1700/2100), 13(700)' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
+- bands: 4(1700/2100), 13(700)
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA, CDMA2000 1xEV-DO
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- Dual front speakers
+- GPS
+- Gyroscope
+- Hall sensor
+- IR blaster
+- NFC
+- Proximity sensor
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
+  until the bootloader appears, then release the buttons. Use the volume buttons to
+  scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015 March
 screen: 127 mm (5.0 in)
-screen_ppi: ~441
+screen_ppi: "~441"
 screen_res: 1080x1920
 screen_tech: Super LCD3
 sdcard: up to 2 TB
@@ -42,6 +63,8 @@ tree: android_device_htc_himawl
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [13.0, 14.1]
+versions:
+- 13.0
+- 14.1
 width: 69.7 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac (2.4 & 5 GHz)

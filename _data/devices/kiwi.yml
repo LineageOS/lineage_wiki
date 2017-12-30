@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: 3000 mAh (non-removable)
 bluetooth: v4.1 with A2DP
 cameras:
-- {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
-- {flash: '', info: '5 MP, f/2.4, 22mm'}
+- flash: ''
+  info: 5 MP, f/2.4, 22mm
+- flash: LED
+  info: 13 MP, f/2.0, 28mm
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -19,14 +23,42 @@ height: 151.3 mm (5.96 in)
 image: kiwi.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_kiwi
-maintainers: [crpalmer, BadDaemon]
-models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
+maintainers:
+- BadDaemon
+- crpalmer
+models:
+- KII-L05
+- KII-L21
+- KII-L22
+- KIW-AL10
+- KIW-AL20
+- KIW-CL00
+- KIW-L21
+- KIW-L22
+- KIW-L23
+- KIW-L24
+- KIW-TL00
+- KIW-TL00H
+- KIW-UL00
 name: Honor 5X
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 1700 (AWS) 1900 2100 MHz HSDPA (USA models), 850 900 1900 2100 MHz HSDPA (China models)' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) 2(1900) 4(1700/2100) 5(850) 7(2600) 12(700) 17(700) LTE (USA models), 1(2100) 3(1800) 38(2600) 39(1900) 40(2300) 41(2500) LTE (China models)' }
-peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall sensor]
+- bands: 1(2100) 3(1800) 7(2600) 8(900) 20(800) 2(1900) 4(1700/2100) 5(850) 7(2600)
+    12(700) 17(700) LTE (USA models), 1(2100) 3(1800) 38(2600) 39(1900) 40(2300) 41(2500)
+    LTE (China models)
+  tech: 4G
+- bands: 850 1700 (AWS) 1900 2100 MHz HSDPA (USA models), 850 900 1900 2100 MHz HSDPA
+    (China models)
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- Accelerometer
+- Compass
+- Fingerprint reader
+- GPS
+- Hall sensor
+- Light sensor
+- Proximity sensor
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding buttons until the "Honor" logo appears, then release all buttons.
@@ -42,6 +74,7 @@ tree: android_device_huawei_kiwi
 type: phone
 vendor: Huawei
 vendor_short: huawei
-versions: [14.1]
+versions:
+- 14.1
 width: 76.3 mm (3.00 in)
 wifi: 802.11 b/g/n

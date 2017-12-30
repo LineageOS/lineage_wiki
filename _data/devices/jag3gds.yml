@@ -1,38 +1,57 @@
+---
 architecture: arm
 battery: Removable Li-Ion 2540 mAh
 bluetooth: v4.0
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.3 MP'}
+- flash: ''
+  info: 1.3 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: jag3gds
 cpu: Cortex A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 depth: 10.3 mm (0.41 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect
+  the USB cable.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 137.7 mm (5.42 in)
 image: jag3gds.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
-maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
+maintainers:
+- mobiusm
+- nikitaproandroid
+- quarx2k
+- vm03
 name: G3 S
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
-peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
+- bands: ''
+  tech: 4G
+- bands: 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Compass
+- FM Radio
+- GPS
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition: "/dev/block/platform/msm_sdcc.1/by-name/recovery"
 release: 2014 August
-root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
+root_method:
+- custom
+- https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951
 screen: 127 mm (5.0 in)
-screen_ppi: ~294
+screen_ppi: "~294"
 screen_res: 720x1280
 screen_tech: IPS LCD
 sdcard: up to 64 GB
@@ -42,6 +61,7 @@ tree: android_device_lge_jag3gds
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot

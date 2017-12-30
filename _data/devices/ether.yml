@@ -1,11 +1,15 @@
+---
 architecture: arm64
 battery: Non-removable Li-Ion 2680 mAh
 bluetooth: 4.0 LE
 cameras:
-- {flash: 'LED (dual-tone)', info: '13 MP'}
-- {flash: '', info: '5 MP'}
-carrier:
-channels: [weekly]
+- flash: ''
+  info: 5 MP
+- flash: LED (dual-tone)
+  info: 13 MP
+carrier: 
+channels:
+- weekly
 codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -19,13 +23,30 @@ height: 149 mm (5.87 in)
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
-maintainers: [chrmhoffmann, crpalmer, mikeioannina]
+maintainers:
+- chrmhoffmann
+- crpalmer
+- mikeioannina
 name: Robin
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700(AWS) 1800 1900 2100 MHz HSPA+' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(850) 20(800) 28(700) LTE(Cat. 4)' }
-peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, Fingerprint reader, NFC]
+- bands: 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700)
+    19(850) 20(800) 28(700) LTE(Cat. 4)
+  tech: 4G
+- bands: 850 900 1700(AWS) 1800 1900 2100 MHz HSPA+
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+peripherals:
+- A-GPS
+- Accelerometer
+- Compass
+- Fingerprint reader
+- GPS
+- Gyroscope
+- Light sensor
+- Magnetic sensor
+- NFC
+- Proximity sensor
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016 February
@@ -33,13 +54,14 @@ screen: 132 mm (5.2 in)
 screen_ppi: '424'
 screen_res: 1080x1920
 screen_tech: IPS LCD, Gorilla Glass 4
-sdcard:
+sdcard: 
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB
 tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
 vendor_short: nextbit
-versions: [14.1]
+versions:
+- 14.1
 width: 72 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band

@@ -1,30 +1,49 @@
+---
 architecture: arm
 battery: Non-removable Li-Po 9000 mAh
 bluetooth: v3.0 with A2DP
 cameras:
-- {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '1.9 MP'}
+- flash: ''
+  info: 1.9 MP
+- flash: LED
+  info: 5 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: manta
 cpu: Cortex-A15
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume
+  Up</kbd> + <kbd>Power</kbd>.
 gpu: Mali T604
 has_recovery_partition: true
 image: manta.png
 install_method: fastboot_nexus
 kernel: android_kernel_samsung_manta
-maintainers: [atinm, Kornyone, gweedo767]
+maintainers:
+- Kornyone
+- atinm
+- gweedo767
 name: Nexus 10
 network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
+- bands: ''
+  tech: 2G
+- bands: ''
+  tech: 3G
+- bands: ''
+  tech: 4G
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, Barometer, Dual side NFC]
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Dual side NFC
+- GPS
+- Gyroscope
+- Hall sensor
+- Proximity sensor
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012 November 13
@@ -39,5 +58,6 @@ tree: android_device_samsung_manta
 type: tablet
 vendor: Google
 vendor_short: samsung
-versions: [13.0]
+versions:
+- 13.0
 wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA

@@ -1,17 +1,21 @@
+---
 architecture: arm64
 battery: Non-removable Li-Po 2700 mAh
 bluetooth: v4.2 with A2DP, LE
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
-- {flash: '', info: '5 MP'}
+- flash: ''
+  info: 5 MP
+- flash: Dual LED (dual tone)
+  info: 12.3 MP, laser autofocus
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: bullhead
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
-custom_unlock_cmd: 'fastboot flashing unlock'
+custom_unlock_cmd: fastboot flashing unlock
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
@@ -20,18 +24,32 @@ height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
-maintainers: [razorloves]
+maintainers:
+- razorloves
 name: Nexus 5X
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (American model), 850 900 1900 2100 MHz HSDPA (Asian model), 800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)' }
-- {tech: 4G, bands: '700 800 850 1700 1800 1900 2100 2600 MHz LTE (American model), 850 900 1700 1800 2100 2300 2500 2600 MHz LTE (Asian Model), 700 800 850 900 1700 1800 1900 2100 2300 2500 2600 MHz LTE (Global model)' }
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer]
+- bands: 700 800 850 1700 1800 1900 2100 2600 MHz LTE (American model), 850 900 1700
+    1800 2100 2300 2500 2600 MHz LTE (Asian Model), 700 800 850 900 1700 1800 1900
+    2100 2300 2500 2600 MHz LTE (Global model)
+  tech: 4G
+- bands: 850 900 1700 1900 2100 MHz HSDPA (American model), 850 900 1900 2100 MHz
+    HSDPA (Asian model), 800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA (Global model)
+  tech: 3G
+- bands: 850 900 1800 1900 MHz GSM (All models), 800 1900 MHz (All models)
+  tech: 2G
+peripherals:
+- Accelerometer
+- Barometer
+- Compass
+- Fingerprint reader
+- Gyroscope
+- Proximity sensor
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen choose Recovery Mode.
 release: 29 September 2015
 screen: 132 mm (5.2 in)
-screen_ppi: ~423
+screen_ppi: "~423"
 screen_res: 1080x1920
 screen_tech: LCD
 sdcard:
@@ -41,6 +59,7 @@ tree: android_device_lge_bullhead
 type: phone
 vendor: Google
 vendor_short: lge
-versions: [14.1]
+versions:
+- 14.1
 width: 72.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

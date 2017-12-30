@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: Removable Li-Ion 2000 mAh
 bluetooth: v4.0 with A2DP, LE
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.6 MP'}
+- flash: ''
+  info: 1.6 MP
+- flash: LED
+  info: 8 MP
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: armani
 cpu: Cortex A7
 cpu_cores: '4'
@@ -13,21 +17,32 @@ cpu_freq: 1.6 GHz
 current_branch: 14.1
 depth: 9.9  mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then
+  release.
 gpu: Adreno 305
 has_recovery_partition: true
 height: 137 mm (5.39 in)
 image: armani.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_armani
-maintainers: [fefifofum]
+maintainers:
+- fefifofum
 name: Redmi 1S
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
+- bands: ''
+  tech: 4G
+- bands: 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 900 2100 MHz HSDPA
+  tech: 3G
 no_oem_unlock_switch: true
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+peripherals:
+- Accelerometer
+- Compass
+- Dual SIM
+- GPS
+- Gyroscope
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -43,6 +58,7 @@ tree: android_device_xiaomi_armani
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1]
+versions:
+- 14.1
 width: 69 mm (2.72 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

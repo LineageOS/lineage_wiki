@@ -1,11 +1,15 @@
+---
 architecture: arm
 battery: 2390 mAh
 bluetooth: v4.0
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: 'VGA'}
+- flash: ''
+  info: 5 MP
+- flash: ''
+  info: VGA
 carrier:
-channels: [weekly]
+channels:
+- weekly
 codename: otus
 cpu: Cortex A7
 cpu_cores: '4'
@@ -13,26 +17,37 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3084849
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume
+  Up</kbd> to select.
 gpu: Adreno 302
 has_recovery_partition: true
 image: otus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
-maintainers: [sultanqasim]
-models: [XT1505, XT1506, XT1511]
+maintainers:
+- sultanqasim
+models:
+- XT1505
+- XT1506
+- XT1511
 name: Moto E 2015
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Proximity sensor]
+- bands: ''
+  tech: 4G
+- bands: 850 900 1800 1900 MHz GSM
+  tech: 2G
+- bands: 850 900 1900 2100 MHz HSDPA
+  tech: 3G
+peripherals:
+- Accelerometer
+- Proximity sensor
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press
+  <kbd>Volume Up</kbd> to select.
 release:
 screen: 114 mm (4.5 in)
-screen_ppi: ~245
+screen_ppi: "~245"
 screen_res: 540 x 960 pixels
 screen_tech: IPS LCD
 sdcard: up to 32 GB
@@ -42,5 +57,6 @@ tree: android_device_motorola_otus
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions:
+- 14.1
 wifi: 802.11 b/g/n, Hotspot
