@@ -95,37 +95,54 @@ pathways that connect to potential contributors to teams that have contribution 
 <tr><th>Device</th><th>Maintainer(s)</th></tr>
 </thead>
 <tbody>
-{% for device in sorted %}
-{% assign numMaintainers = device.maintainers | size %}
-{% if device.current_branch != version or numMaintainers == 0 %}
-{% continue %}
-{% endif %}
+{%- for device in sorted %}
+{%- assign numMaintainers = device.maintainers | size %}
+{%- if device.current_branch != version or numMaintainers == 0 %}
+{%- continue %}
+{%- endif %}
 <tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
-{% endfor %}
+{%- endfor %}
 </tbody>
 </table>
-{% endfor %}
+{%- endfor %}
 
 ## Translations
 
 ### Translations managers
+
+Translation managers are responsible for the general project. They approve new memberships and are responsible for keeping LineageOS and the translations in sync.
 
 <table>
 <thead>
 <tr><th>Name</th><th>Nickname</th></tr>
 </thead>
 <tbody>
-{% for el in site.data.translators.managers %}
+{%- for el in site.data.translators.managers %}
 <tr><td>{{ el.name }}</td><td>{{ el.nick }}</td></tr>
-{% endfor %}
+{%- endfor %}
+</tbody>
+</table>
+
+### Global proofreaders
+
+Global proofreaders can help out across all languages.
+
+<table>
+<thead>
+<tr><th>Name</th><th>Nickname</th></tr>
+</thead>
+<tbody>
+{%- for el in site.data.translators.global_proofreaders %}
+<tr><td>{{ el.name }}</td><td>{{ el.nick }}</td></tr>
+{%- endfor %}
 </tbody>
 </table>
 
 ### Translations proofreaders
 
-{% for lang in site.data.translators.languages %}
+{%- for lang in site.data.translators.languages %}
 * __{{ lang.name }}__: {{ lang.proofreaders | join: ', ' }}
-{% endfor %}
+{%- endfor %}
 
 ## Other projects
 
