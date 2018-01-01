@@ -4,6 +4,9 @@ source "https://rubygems.org"
 gem "jekyll", "3.6.2"
 gem "therubyracer", "0.12.3"
 
+group :test do
+   gem 'json-schema', '= 2.8.0'
+end
 
 group :jekyll_plugins do
    gem 'activesupport', '= 4.2.9'
