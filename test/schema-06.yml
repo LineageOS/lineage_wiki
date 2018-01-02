@@ -22,6 +22,41 @@ properties:
     - arm64
     - x86
     - x86_64
+  bluetooth:
+    "$id": "/properties/bluetooth"
+    properties:
+      profiles:
+        items:
+          description: Bluetooth profile
+          enum:
+          - A2DP
+          - A2DP + aptX
+          - A2DP + aptX HD
+          type: string
+        minItems: 1
+        type: array
+      spec:
+        description: Bluetooth specification
+        enum:
+        - '1.0'
+        - '1.0B'
+        - '1.1'
+        - '1.2'
+        - '2.0'
+        - '2.0 + EDR'
+        - '2.1'
+        - '2.1 + EDR'
+        - '3.0'
+        - '3.0 + HS'
+        - '4.0'
+        - '4.0 + LE'
+        - '4.1'
+        - '4.2'
+        - '5'
+        type: string
+    required:
+    - spec
+    type: object
   channels:
     "$id": "/properties/channels"
     items:
@@ -114,6 +149,7 @@ properties:
     - zuk
 required:
 - architecture
+- bluetooth
 - channels
 - codename
 - release
