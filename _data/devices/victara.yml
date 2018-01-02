@@ -1,6 +1,6 @@
 architecture: arm
 battery: 2300 mAh (non-removable)
-bluetooth: v4.0 with AD2P, EDR, LE
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
 - {flash: '', info: '2 MP, 1080p'}

@@ -1,6 +1,6 @@
 architecture: arm
 battery: Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)
-bluetooth: v4.0 with A2DP
+bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
 - {flash: '', info: '2.07 MP  (Mi 3) / 7.99 MP (Mi 4)'}

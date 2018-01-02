@@ -1,6 +1,6 @@
 architecture: arm
 battery: Removable 2800 mAh Li-Po with Rapid Charge
-bluetooth: '4.0'
+bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}

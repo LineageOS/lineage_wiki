@@ -1,6 +1,6 @@
 architecture: arm64
 battery: Non-removable Li-Ion 2900 mAh
-bluetooth: v4.0
+bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '15.9 MP'}
 - {flash: 'LED', info: '8 MP'}
