@@ -1,6 +1,6 @@
 architecture: arm
 battery: 1735 mAh
-bluetooth: v2.1 with A2DP, EDR
+bluetooth: {spec: 2.1 + EDR, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: 'VGA'}

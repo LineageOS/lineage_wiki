@@ -1,6 +1,6 @@
 architecture: arm64
 battery: 2500 mAh
-bluetooth: v4 with A2DP, BLE
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '8 MP'}

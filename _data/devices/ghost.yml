@@ -1,6 +1,6 @@
 architecture: arm
 battery: Non-removable Li-Ion 2200 mAh
-bluetooth: v4.0 with A2DP, EDR, LE
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '10 MP'}
 - {flash: '', info: '2 MP'}

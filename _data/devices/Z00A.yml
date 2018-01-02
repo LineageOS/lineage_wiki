@@ -1,6 +1,6 @@
 architecture: x86_64
 battery: 3000mAh
-bluetooth: v4.0, A2DP, EDR
+bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}

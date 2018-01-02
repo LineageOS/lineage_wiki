@@ -1,6 +1,6 @@
 architecture: arm64
 battery: Removable Li-Ion 2750 mAh
-bluetooth: v4.1 with A2DP, LE
+bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
