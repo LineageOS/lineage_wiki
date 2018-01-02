@@ -1,6 +1,6 @@
 architecture: arm
 battery: Non-removable Li-Po 3000 mAh
-bluetooth: v4.0 with A2DP, LE, aptX
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP, aptX]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP'}
