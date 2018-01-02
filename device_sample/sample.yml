@@ -33,7 +33,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
-release: 11 April 2014
+release: 2014-04-11
 required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']
 screen: 130 mm (5.1 in)
 screen_ppi: 432

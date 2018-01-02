@@ -28,7 +28,7 @@ network:
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, NFC, Qi wireless charging, Dual front speakers]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
-release: 29 October 2014
+release: 2014-10-29
 screen: 151 mm (5.96 in)
 screen_ppi: '493'
 screen_res: 2560x1440

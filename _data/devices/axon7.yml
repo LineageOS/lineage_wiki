@@ -28,7 +28,7 @@ network:
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
 ram: 4 GB LPDDR4 (Standard edition) / 6 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: 2016 June
+release: 2016-06
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'
 screen_res: 2560x1440

@@ -28,7 +28,7 @@ network:
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2013 March
+release: 2013-03
 screen: 119 mm (4.7 in)
 screen_ppi: '469'
 screen_res: 1080x1920

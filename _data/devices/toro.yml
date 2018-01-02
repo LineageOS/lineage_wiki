@@ -30,6 +30,7 @@ peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Com
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+release: 2011-12-15
 screen: 4.7 inches
 screen_ppi: '316'
 screen_res: 1280x720

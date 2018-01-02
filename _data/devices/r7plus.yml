@@ -30,7 +30,7 @@ network:
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, USB OTG, Fingerprint reader]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2015 May
+release: 2015-05
 screen: 152 mm (6.0 in)
 screen_ppi: '367'
 screen_res: 1080x1920

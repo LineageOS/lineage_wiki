@@ -31,7 +31,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, 
 project_spectrum: "https://androidfilehost.com/?fid=673791459329053792"
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2015 November
+release: 2015-11
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
 screen_res: 1080x1920

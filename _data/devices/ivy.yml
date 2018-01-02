@@ -28,7 +28,7 @@ network:
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Ambient light, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: June 2015
+release: 2015-06
 screen: 5.2 in
 screen_ppi: '424'
 screen_res: 1920x1080

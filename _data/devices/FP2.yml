@@ -30,7 +30,7 @@ network:
 peripherals: [3-axis Compass, 3D Accelerometer, 3D Gyroscope, Ambient light, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
-release: December 2015
+release: 2015-12
 screen: 130 mm (5.1 in)
 screen_ppi: 446
 screen_res: 1920x1080

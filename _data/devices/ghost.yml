@@ -29,7 +29,7 @@ network:
 peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
-release: 23 August 2013
+release: 2013-08-23
 screen: 119.4 mm (4.7 in)
 screen_ppi: 316
 screen_res: 1280x720

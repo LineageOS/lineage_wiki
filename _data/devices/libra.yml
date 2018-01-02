@@ -30,7 +30,7 @@ peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall sens
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release: September, 2015
+release: 2015-09
 required_bootloader:
 screen: 127 mm (5.0 in)
 screen_ppi: 441

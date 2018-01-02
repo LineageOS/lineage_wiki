@@ -26,7 +26,7 @@ network:
 peripherals: ['']
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> while booting.
-release:
+release: 2014-01
 screen: 213 mm (8.4 in)
 screen_ppi: '359'
 screen_res: 1600x2560

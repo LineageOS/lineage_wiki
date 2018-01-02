@@ -28,7 +28,7 @@ no_oem_unlock_switch: true
 peripherals: ['']
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2015 January
+release: 2015-01
 screen: 140 mm (5.5 in)
 screen_ppi:
 screen_res: 1920x1080

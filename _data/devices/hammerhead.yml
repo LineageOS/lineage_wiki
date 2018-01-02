@@ -32,7 +32,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
   Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
-release: 2013 October 31
+release: 2013-10-31
 screen: 127 mm (5.0 in)
 screen_ppi: '445'
 screen_res: 1920x1080

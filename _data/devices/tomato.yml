@@ -20,6 +20,9 @@ image: tomato.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
 maintainers: [Meninblack007, mikeioannina, h2o64]
+models:
+- AO5510
+- YU5510
 name: Yureka / Yureka Plus
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
@@ -29,7 +32,9 @@ no_oem_unlock_switch: true
 peripherals: [GPS, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2014 December 18 / 2015 July 24 (Plus)
+release:
+- AO5510: 2014-12-18
+- YU5510: 2015-07-24
 screen: 139.7 mm (5.5 in)
 screen_ppi: 267  / 401  (Plus)
 screen_res: 1280x720 / 1920x1080 (Plus)

@@ -29,7 +29,7 @@ network:
 peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: July 2015
+release: 2015-07
 screen: 243.4 mm (9.6in)
 screen_ppi: 157
 screen_res: 800x1280

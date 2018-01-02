@@ -31,7 +31,7 @@ peripherals: ['']
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
-release: 2015 August
+release: 2015-08
 screen: 140 mm (5.5 in)
 screen_ppi: ~403
 screen_res: 1080 x 1920
