@@ -30,7 +30,18 @@ ul, ol {
     </tr>
     <tr>
         <td class="header">Released</td>
-        <td>{{ device.release }}</td>
+        <td>
+            {% if device.release.first -%}
+                {% for model in device.release -%}
+                    {{ model.first[0] }} : {{ model.first[1] }}
+                    {%- unless forloop.last -%}
+                    <br/>
+                    {% endunless %}
+                {%- endfor %}
+            {%- else %}
+                {{ device.release }}
+            {%- endif %}
+        </td>
     </tr>
     {% if device.carrier %}
     <tr>
