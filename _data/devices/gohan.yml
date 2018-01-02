@@ -1,6 +1,6 @@
 architecture: arm
 battery: Non-removable Li-Po 3100 mAh
-bluetooth: v4.0
+bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: '', info: '8 MP'}

@@ -1,6 +1,6 @@
 architecture: arm
 battery:
-bluetooth: v4.0 LE
+bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
