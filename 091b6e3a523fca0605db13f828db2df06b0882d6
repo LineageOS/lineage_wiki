@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25414dca_857daacc",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-02T18:49:06Z",
+      "side": 1,
+      "message": "I don\u0027t see anything in the site code referencing \"has_recovery_partition\". Remove it from the yamls and schema? or is the var composed somehow?\n\nThere are site references to \"recovery_partition\".",
+      "revId": "091b6e3a523fca0605db13f828db2df06b0882d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
