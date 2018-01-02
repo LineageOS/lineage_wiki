@@ -1,6 +1,6 @@
 architecture: arm
 battery: 7350 mAh
-bluetooth: '3.0'
+bluetooth: {spec: "3.0"}
 cameras: []
 carrier:
 channels: [weekly]

@@ -22,6 +22,41 @@ properties:
     - arm64
     - x86
     - x86_64
+  bluetooth:
+    "$id": "/properties/bluetooth"
+    properties:
+      profiles:
+        items:
+          description: Bluetooth profile
+          enum:
+          - A2DP
+          - A2DP + aptX
+          - A2DP + aptX HD
+          type: string
+        minItems: 1
+        type: array
+      spec:
+        description: Bluetooth specification
+        enum:
+        - "1.0"
+        - 1.0B
+        - "1.1"
+        - "1.2"
+        - "2.0"
+        - 2.0 + EDR
+        - "2.1"
+        - 2.1 + EDR
+        - "3.0"
+        - 3.0 + HS
+        - "4.0"
+        - 4.0 + LE
+        - "4.1"
+        - "4.2"
+        - "5"
+        type: string
+    required:
+    - spec
+    type: object
   channels:
     "$id": "/properties/channels"
     items:
@@ -29,6 +64,7 @@ properties:
       enum:
       - discontinued
       - weekly
+    minItems: 1
     type: array
   codename:
     "$id": "/properties/codename"
@@ -38,7 +74,7 @@ properties:
     description: Date device released to public in ISO8601 reduced precision format
     oneOf:
     - "$ref": "#/definitions/iso8601_reduced_precision_date"
-    - descripion: Array of maps of model numbers to release dates
+    - description: Array of maps of model numbers to release dates
       examples:
       - SM-9000A: 2015-10-02
       - SM-9000B: 2015-11-02
@@ -47,6 +83,7 @@ properties:
           "$ref": "#/definitions/iso8601_reduced_precision_date"
         description: Map of model number to release date
         type: object
+      minItems: 1
       type: array
   type:
     "$id": "/properties/type"
@@ -114,6 +151,7 @@ properties:
     - zuk
 required:
 - architecture
+- bluetooth
 - channels
 - codename
 - release

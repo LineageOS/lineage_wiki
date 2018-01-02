@@ -127,7 +127,13 @@ ul, ol {
     {% if device.bluetooth %}
     <tr>
         <td class="header">Bluetooth</td>
-        <td>{{ device.bluetooth }}</td>
+        <td>
+            {% if device.bluetooth.profiles -%}
+                {{ device.bluetooth.spec }} with {{ device.bluetooth.profiles | join(', ') }}
+            {% else -%}
+                {{ device.bluetooth.spec }}
+            {% endif -%}
+        </td>
     </tr>
     {% endif %}
     {% if device.wifi %}
