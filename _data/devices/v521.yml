@@ -28,7 +28,7 @@ network:
 peripherals: [Gyroscope, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
-release: June 2016
+release: 2016-06
 screen: 203.2 mm (8.0 in)
 screen_ppi: '283'
 screen_res: 1200x1920

@@ -1,9 +1,22 @@
 ---
 "$schema": http://json-schema.org/draft-06/schema#
-definitions: {}
+definitions:
+  iso8601_reduced_precision_date:
+    description: Date in ISO8601 reduced precision format
+    examples:
+    - YYYY
+    - YYYY-MM
+    - YYYY-MM-DD
+    maximum: 2030
+    minimum: 1990
+    pattern: ^\d{4}((-\d{2})?-\d{2})?$
+    type:
+    - integer
+    - string
 properties:
   architecture:
     "$id": "/properties/architecture"
+    description: The CPU architecture of the device.
     enum:
     - arm
     - arm64
@@ -20,6 +33,21 @@ properties:
   codename:
     "$id": "/properties/codename"
     type: string
+  release:
+    "$id": "/properties/release"
+    description: Date device released to public in ISO8601 reduced precision format
+    oneOf:
+    - "$ref": "#/definitions/iso8601_reduced_precision_date"
+    - descripion: Array of maps of model numbers to release dates
+      examples:
+      - SM-9000A: 2015-10-02
+      - SM-9000B: 2015-11-02
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/iso8601_reduced_precision_date"
+        description: Map of model number to release date
+        type: object
+      type: array
   type:
     "$id": "/properties/type"
     enum:
@@ -88,8 +116,9 @@ required:
 - architecture
 - channels
 - codename
+- release
 - type
 - vendor
 - vendor_short
-title: phone
+title: device
 type: object

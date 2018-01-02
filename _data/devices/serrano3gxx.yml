@@ -30,7 +30,7 @@ network:
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integration, FM Radio, Infrared sensor, GPS, GLONASS]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-release: 2013 July
+release: 2013-07
 screen: 109 mm (4.3 in)
 screen_ppi: '256'
 screen_res: 540x960

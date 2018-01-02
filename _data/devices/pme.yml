@@ -29,7 +29,7 @@ peripherals: [Iceview Cases, Hall sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
   Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
-release: May 2016
+release: 2016-05
 screen: 5.2 inches
 screen_ppi: '565'
 screen_res: 1440x2560

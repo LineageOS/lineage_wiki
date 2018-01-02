@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor,
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding buttons until the "Honor" logo appears, then release all buttons.
-release: 2015 November
+release: 2015-11
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401'
 screen_res: 1080 x 1920

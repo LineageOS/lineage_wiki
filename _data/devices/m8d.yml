@@ -31,7 +31,7 @@ peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, C
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
-release: 2014 June
+release: 2014-06
 screen: 119 mm (4.7 in)
 screen_ppi: '441'
 screen_res: 1080x1920

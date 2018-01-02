@@ -29,7 +29,7 @@ network:
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Digital compass, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: October 2012
+release: 2012-10
 screen: 122 mm (4.8 in)
 screen_ppi: '320'
 screen_res: 1280x720

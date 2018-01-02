@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release: 2016 February
+release: 2016-02
 screen: 139.7 mm (5.5 in)
 screen_ppi: '403'
 screen_res: 1080x1920

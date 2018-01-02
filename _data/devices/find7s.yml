@@ -30,7 +30,7 @@ no_oem_unlock_switch: true
 peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2014 May 19
+release: 2014-05-19
 screen: 139.7 mm (5.5 in)
 screen_ppi: '534'
 screen_res: 1440x2560

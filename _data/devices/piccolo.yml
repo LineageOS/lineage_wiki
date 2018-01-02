@@ -30,7 +30,7 @@ peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
-release: 2015 August
+release: 2015-08
 screen: 127 mm (5.0 in)
 screen_ppi: ~441
 screen_res: 1080x1920
