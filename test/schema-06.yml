@@ -85,6 +85,40 @@ properties:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
     type: string
+  gpu:
+    "$id": "/properties/gpu"
+    enum:
+    - Adreno 225
+    - Adreno 302
+    - Adreno 305
+    - Adreno 306
+    - Adreno 320
+    - Adreno 330
+    - Adreno 405
+    - Adreno 405/306
+    - Adreno 418
+    - Adreno 420
+    - Adreno 430
+    - Adreno 505
+    - Adreno 506
+    - Adreno 510
+    - Adreno 530
+    - Adreno 540
+    - ARM Mali-400 MP
+    - ARM Mali-400 MP4
+    - ARM Mali-T604
+    - ARM Mali-T628 MP6
+    - ARM Mali-T760 MP6
+    - ARM Mali-T880 MP12
+    - GK20A (Kepler)
+    - GM20B (Maxwell)
+    - NVIDIA Kepler DX1 192-core
+    - NVIDIA Maxwell 256-core
+    - PowerVR G6430
+    - PowerVR Series 6
+    - PowerVR SGX540
+    - PowerVR SGX544MP2
+    - Tegra 4
   install_method:
     "$id": "/properties/install_method"
     enum:
@@ -216,6 +250,7 @@ required:
 - cpu_cores
 - cpu_freq
 - current_branch
+- gpu
 - install_method
 - image
 - kernel
