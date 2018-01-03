@@ -10,7 +10,7 @@ codename: i9305
 cpu: Cortex A9
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
-current_branch: [14.1]
+current_branch: 14.1
 depth: 8.6 mm (0.339 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Mali-400
@@ -19,7 +19,7 @@ height: 137 mm (5.4 in)
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers:
+maintainers: []
 models: [GT-I9305, GT-I9305T, GT-I9305N]
 name: Galaxy S III (LTE / International)
 network:
