@@ -13,7 +13,7 @@ cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
 depth: 6.6mm
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: ARM Mali-T628MP6
+gpu: ARM Mali-T628 MP6
 has_recovery_partition: true
 height: 247.3mm
 image: n2awifi.png
