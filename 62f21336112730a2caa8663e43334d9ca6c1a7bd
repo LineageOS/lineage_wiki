@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1cbe2e47_20c8603c",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T19:39:18Z",
+      "side": 1,
+      "message": "This should move up to live with the definition",
+      "range": {
+        "startLine": 57,
+        "startChar": 4,
+        "endLine": 57,
+        "endChar": 16
+      },
+      "revId": "62f21336112730a2caa8663e43334d9ca6c1a7bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
