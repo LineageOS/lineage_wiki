@@ -6,7 +6,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: i9300
-cpu: Cortex A9
+cpu: Cortex-A9
 cpu_cores: 4
 cpu_freq: 1.4GHz
 current_branch: 14.1

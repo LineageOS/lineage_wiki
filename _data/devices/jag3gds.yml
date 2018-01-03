@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: jag3gds
-cpu: Cortex A7
+cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1

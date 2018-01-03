@@ -7,7 +7,7 @@ cameras:
 carrier: T-Mobile
 channels: [weekly]
 codename: v521
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
 current_branch: 14.1
