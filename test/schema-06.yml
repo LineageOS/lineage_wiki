@@ -32,6 +32,36 @@ properties:
     type: array
   codename:
     "$id": "/properties/codename"
+    minLength: 1
+    type: string
+  install_method:
+    "$id": "/properties/install_method"
+    enum:
+    - dd
+    - fastboot_custom
+    - fastboot_generic
+    - fastboot_huawei
+    - fastboot_htc
+    - fastboot_lg
+    - fastboot_motorola
+    - fastboot_nexus
+    - fastboot_oppo
+    - fastboot_sony
+    - fastboot_unlocked
+    - fastboot_xiaomi
+    - fastboot_zenfone
+    - heimdall
+  image:
+    "$id": "/properties/image"
+    pattern: ^\w*\d*\.(png|jpg)$
+    type: string
+  maintainers:
+    "$id": "/properties/maintainers"
+    minItems: 0
+    type: array
+  name:
+    "$id": "/properties/name"
+    minLength: 1
     type: string
   release:
     "$id": "/properties/release"
@@ -116,6 +146,10 @@ required:
 - architecture
 - channels
 - codename
+- install_method
+- image
+- maintainers
+- name
 - release
 - type
 - vendor
