@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f91b559_e81284f5",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-03T09:11:59Z",
+      "side": 1,
+      "message": "single quotes?",
+      "range": {
+        "startLine": 3,
+        "startChar": 18,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "d848a39505f6a50a5e8e60dd7333fcd55f0286dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

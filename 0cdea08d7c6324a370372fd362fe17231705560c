@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "760cf5b2_83fe12c2",
+        "filename": "_data/devices/A6020.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-03T09:11:59Z",
+      "side": 0,
+      "message": "LE \u003d BLE, you dropped it",
+      "range": {
+        "startLine": 3,
+        "startChar": 27,
+        "endLine": 3,
+        "endChar": 29
+      },
+      "revId": "0cdea08d7c6324a370372fd362fe17231705560c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a833f7fa_ccce8e9d",
+        "filename": "_data/devices/Z00D.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-03T09:11:59Z",
+      "side": 0,
+      "message": "Enhanced Data Rate, you dropped it",
+      "range": {
+        "startLine": 3,
+        "startChar": 27,
+        "endLine": 3,
+        "endChar": 30
+      },
+      "revId": "0cdea08d7c6324a370372fd362fe17231705560c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
