@@ -10,7 +10,7 @@ codename: ham
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: [14.1]
+current_branch: 14.1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330

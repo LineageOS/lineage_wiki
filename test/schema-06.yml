@@ -13,6 +13,12 @@ definitions:
     type:
     - integer
     - string
+  valid_branches:
+    description: Valid branches a device can be on
+    enum:
+    - 13.0
+    - 14.1
+    - 15.1
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -32,6 +38,63 @@ properties:
     type: array
   codename:
     "$id": "/properties/codename"
+    minLength: 1
+    type: string
+  cpu_cores:
+    "$id": "/properties/cpu_cores"
+    minimum: 1
+    minLength: 1
+    type:
+    - string
+    - integer
+  cpu_freq:
+    "$id": "/properties/cpu_freq"
+    minLength: 3
+    type: string
+  current_branch:
+    "$id": "/properties/current_branch"
+    "$ref": "#/definitions/valid_branches"
+    type: number
+  custom_unlock_cmd:
+    "$id": "/properties/custom_unlock_cmd"
+    minLength: 10
+    type: string
+  gpu:
+    "$id": "/properties/gpu"
+    minLength: 5
+    type: string
+  install_method:
+    "$id": "/properties/install_method"
+    enum:
+    - dd
+    - fastboot_custom
+    - fastboot_generic
+    - fastboot_huawei
+    - fastboot_htc
+    - fastboot_lg
+    - fastboot_motorola
+    - fastboot_nexus
+    - fastboot_oppo
+    - fastboot_sony
+    - fastboot_unlocked
+    - fastboot_xiaomi
+    - fastboot_zenfone
+    - heimdall
+  image:
+    "$id": "/properties/image"
+    pattern: ^\w*\.(png|jpg)$
+    type: string
+  kernel:
+    "$id": "/properties/kernel"
+    pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
+    type: string
+  maintainers:
+    "$id": "/properties/maintainers"
+    minItems: 0
+    type: array
+  name:
+    "$id": "/properties/name"
+    minLength: 1
     type: string
   release:
     "$id": "/properties/release"
@@ -112,13 +175,30 @@ properties:
     - yu
     - zte
     - zuk
+  versions:
+    "$id": "/properties/versions"
+    items:
+      "$id": "/properties/versions/items"
+      "$ref": "#/definitions/valid_branches"
+    minItems: 1
+    type: array
 required:
 - architecture
 - channels
 - codename
+- cpu_cores
+- cpu_freq
+- current_branch
+- gpu
+- install_method
+- image
+- kernel
+- maintainers
+- name
 - release
 - type
 - vendor
 - vendor_short
+- versions
 title: device
 type: object

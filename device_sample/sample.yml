@@ -46,6 +46,6 @@ tree: android_device_lge_sample
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1, 15, 9000.4]
+versions: [13.0, 14.1, 15.1]
 width: 69.2 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac
