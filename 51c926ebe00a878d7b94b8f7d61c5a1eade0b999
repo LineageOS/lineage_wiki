@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9cb3244_08254bdb",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T20:00:09Z",
+      "side": 1,
+      "message": "is this different from Cortex-A53 \u0026 Cortex-A57 ?",
+      "range": {
+        "startLine": 53,
+        "startChar": 6,
+        "endLine": 53,
+        "endChar": 29
+      },
+      "revId": "51c926ebe00a878d7b94b8f7d61c5a1eade0b999",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "279f7e8a_46b3e4df",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T20:00:09Z",
+      "side": 1,
+      "message": "architecture is a separate property.",
+      "range": {
+        "startLine": 57,
+        "startChar": 13,
+        "endLine": 57,
+        "endChar": 27
+      },
+      "revId": "51c926ebe00a878d7b94b8f7d61c5a1eade0b999",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "01fe6f41_b008ae2f",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T20:00:09Z",
+      "side": 1,
+      "message": "OMAP4 is the soc, its cpu is Cortex-A9",
+      "range": {
+        "startLine": 66,
+        "startChar": 6,
+        "endLine": 66,
+        "endChar": 11
+      },
+      "revId": "51c926ebe00a878d7b94b8f7d61c5a1eade0b999",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be50dc73_6c59d487",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T20:00:09Z",
+      "side": 1,
+      "message": "These are architectures.",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 12
+      },
+      "revId": "51c926ebe00a878d7b94b8f7d61c5a1eade0b999",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
