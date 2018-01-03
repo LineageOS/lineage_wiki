@@ -15,7 +15,6 @@ custom_twrp_link: https://forum.xda-developers.com/crossdevice-dev/sony/twrp-3-1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
-has_recovery_partition: true
 height: 127 mm (5.0 in)
 image: suzuran.png
 install_method: fastboot_sony

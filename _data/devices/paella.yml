@@ -15,7 +15,6 @@ custom_twrp_codename: piccolometal
 depth: 7.5 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
-has_recovery_partition: true
 height: 144.4 mm (5.69 in)
 image: paella.png
 install_method: fastboot_nexus

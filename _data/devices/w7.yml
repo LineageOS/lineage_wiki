@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 9.7 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
-has_recovery_partition: true
 height: 131.6 mm (5.18 in)
 image: w7.png
 install_method: dd

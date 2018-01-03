@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 10.7 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
-has_recovery_partition: true
 height: 129.0 mm
 image: tsubasa.png
 install_method: fastboot_sony

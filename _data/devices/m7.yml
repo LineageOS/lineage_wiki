@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 9.3 mm
 download_boot:
 gpu: Adreno 320
-has_recovery_partition: true
 height: 137.4 mm
 image: m7.png
 install_method: fastboot_htc

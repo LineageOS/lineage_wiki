@@ -14,7 +14,6 @@ current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3295098
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 image: merlin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916

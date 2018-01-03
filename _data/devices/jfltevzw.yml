@@ -15,7 +15,6 @@ custom_twrp_link: https://www.androidfilehost.com/?fid=889764386195900221
 depth: 7.9mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
-has_recovery_partition: true
 height: 136.6mm (5.38 in)
 image: jflte.png
 install_method: heimdall

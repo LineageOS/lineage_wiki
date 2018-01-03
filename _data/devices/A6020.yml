@@ -15,7 +15,6 @@ custom_twrp_link: https://forum.xda-developers.com/vibe-k5/development/recovery-
 depth: 8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 142 mm (5.59 in)
 image: A6020.png
 install_method: fastboot_unlocked

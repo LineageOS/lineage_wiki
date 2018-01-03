@@ -15,7 +15,6 @@ depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Adreno 306
-has_recovery_partition: true
 height: 143.15 mm (5.64 in)
 image: vegetalte.png
 install_method: fastboot_nexus

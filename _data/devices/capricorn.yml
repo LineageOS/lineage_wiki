@@ -15,7 +15,6 @@ depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 530
-has_recovery_partition: true
 height: 145.6 mm (5.73 in)
 image: capricorn.png
 install_method: fastboot_xiaomi
