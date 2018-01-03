@@ -40,6 +40,32 @@ properties:
     "$id": "/properties/codename"
     minLength: 1
     type: string
+  cpu:
+    "$id": "/properties/cpu"
+    enum:
+    - Cortex-A15
+    - Cortex-A15 & Cortex-A7
+    - Cortex-A53
+    - Cortex-A53 & Cortex-A53
+    - Cortex-A53 & Cortex-A57
+    - Cortex-A53 & Cortex-A72
+    - Cortex-A57
+    - Cortex-A57 & Cortex-A53
+    - Cortex-A7
+    - Cortex-A72
+    - Cortex-A9
+    - Denver (ARMv8 64-bit)
+    - Intel Atom
+    - Krait
+    - Krait 200
+    - Krait 300
+    - Krait 400
+    - Krait 450
+    - Kryo
+    - M1 + Cortex-A53
+    - OMAP4
+    - x86
+    - x86_64
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minimum: 1
@@ -186,6 +212,7 @@ required:
 - architecture
 - channels
 - codename
+- cpu
 - cpu_cores
 - cpu_freq
 - current_branch

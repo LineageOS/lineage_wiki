@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: v1awifi
-cpu: Cortex A15 & A7
+cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
