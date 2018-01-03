@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb3450a5_f7fd1e09",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T09:58:46Z",
+      "side": 1,
+      "message": "I\u0027m debating on turning cpu: into an exhaustive list, but that can always happen later.\n02:51 $ grep cpu: _data/devices/* | cut -d: -f3 | sort | uniq -c | sort -n\n      1  64-bit Cortex A53\n      1  Cortex-A15\n      1  Cortex-A53\n      1  Cortex-A53, 64-bit\n      1  Cortex-A53 \u0026 Cortex-A72\n      1  Cortex A57\n      1  Cortex-A57\n      1  Cortex A72\n      1  Intel Atom\n      1  Krait 200\n      1  Quad-core Cortex-A53 \u0026 Quad-core Cortex-A57\n      1  Qualcomm Krait 300\n      1  x86\n      2  Cortex A15\n      2  Cortex A53 \u0026 A53\n      2  Cortex A57/A53\n      2  Denver (ARMv8 64-bit)\n      2  M1 + Cortex-A53\n      2  Snapdragon 800 Krait 400\n      2  x86_64\n      3  Krait 450\n      4  Cortex A53 \u0026 A72\n      4  Qualcomm Krait 400\n      5  Cortex-A9\n      5  OMAP4\n      6  Cortex-A53 \u0026 Cortex-A57\n      7  Cortex A15 \u0026 A7\n      7  Cortex A53 \u0026 A57\n      7  Cortex A9\n      8  Krait 300\n     16  Cortex A7\n     20  Krait\n     20  Kryo\n     31  Krait 400\n     33  Cortex A53",
+      "revId": "780e9061baa7a93c9694d7db0404d0a9814d1b86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "652192e1_1db8f45a",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T09:58:46Z",
+      "side": 1,
+      "message": "current branch and versions should probably use the same definition for the enum",
+      "revId": "780e9061baa7a93c9694d7db0404d0a9814d1b86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
