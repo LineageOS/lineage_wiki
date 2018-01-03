@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7bce0549_db4212ef",
+        "filename": "_data/devices/Z008.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-03T09:54:46Z",
+      "side": 1,
+      "message": "Any reason you removed LE now on all these 4.0 instances?\n\nAs for the quotes: we use single quotes in the whole file, this one would be different. I\u0027d prefer keeping the single quotes, I didn\u0027t face any issues yet w/ them, so the validator seems to be able to handle them just fine :)",
+      "range": {
+        "startLine": 3,
+        "startChar": 18,
+        "endLine": 3,
+        "endChar": 23
+      },
+      "revId": "0cc53d72dc2be187c3eb513ae5976b8f67f72457",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
