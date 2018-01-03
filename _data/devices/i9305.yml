@@ -13,7 +13,7 @@ cpu_freq: 1.4 GHz
 current_branch: 14.1
 depth: 8.6 mm (0.339 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Mali-400
+gpu: ARM Mali-400 MP4
 has_recovery_partition: true
 height: 137 mm (5.4 in)
 image: i9300.png
