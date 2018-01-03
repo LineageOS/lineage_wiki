@@ -15,7 +15,6 @@ custom_twrp_link: https://forum.xda-developers.com/g2-mini/development/unified-t
 depth: 9.8 mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
-has_recovery_partition: true
 height: 129.6 mm (5.1 in)
 image: g2m.png
 install_method: dd

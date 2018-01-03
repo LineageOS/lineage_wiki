@@ -13,7 +13,6 @@ depth:
 download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: Tegra 4
-has_recovery_partition: true
 height:
 image: roth.png
 install_method: fastboot_nexus

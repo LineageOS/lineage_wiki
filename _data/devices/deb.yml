@@ -15,7 +15,6 @@ depth:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
-has_recovery_partition: true
 height:
 image: flo.png
 install_method: fastboot_nexus

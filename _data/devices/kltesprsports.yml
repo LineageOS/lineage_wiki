@@ -14,7 +14,6 @@ current_branch: 14.1
 custom_twrp_link: https://www.androidfilehost.com/?fid=745849072291697503
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
-has_recovery_partition: true
 image: kltesprsports.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974

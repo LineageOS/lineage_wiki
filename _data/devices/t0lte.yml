@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 9.40 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Mali-400MP4
-has_recovery_partition: true
 height: 151.10 mm (5.95 in)
 image: t0lte.png
 install_method: heimdall

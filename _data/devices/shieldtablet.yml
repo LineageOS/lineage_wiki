@@ -15,7 +15,6 @@ depth:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: GK20A (Kepler)
-has_recovery_partition: true
 height:
 image: shieldtablet.png
 install_method: fastboot_nexus

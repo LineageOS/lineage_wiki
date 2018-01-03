@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 6.6 mm
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628MP6
-has_recovery_partition: true
 height: 247.3 mm
 image: chagallwifi.png
 install_method: heimdall

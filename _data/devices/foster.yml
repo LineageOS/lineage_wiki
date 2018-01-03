@@ -12,7 +12,6 @@ current_branch: 14.1
 depth:
 download_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
 gpu: GM20B (Maxwell)
-has_recovery_partition: true
 height:
 image: foster.png
 install_method: fastboot_nexus

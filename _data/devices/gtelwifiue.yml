@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
-has_recovery_partition: true
 height: 241.9 mm (9.52 in)
 image: gtelwifiue.png
 install_method: heimdall

@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 9.8mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
-has_recovery_partition: true
 height: 148.9 mm (5.86 in)
 image: h811.png
 install_method: fastboot_lg

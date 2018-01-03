@@ -15,7 +15,6 @@ custom_twrp_link: https://androidfilehost.com/?w=files&flid=93037
 depth: 6.1 mm (0.24 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
-has_recovery_partition: true
 height: 167 mm (6.57 in)
 image: karin.png
 install_method: fastboot_sony

@@ -15,7 +15,6 @@ current_branch: 14.1
 depth: 7.25 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
-has_recovery_partition: true
 height: 154.2 mm (6.07 in)
 image: cheeseburger.png
 install_method: fastboot_nexus

@@ -15,7 +15,6 @@ depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 139.3 mm (5.48 in)
 image: ido.png
 install_method: fastboot_xiaomi

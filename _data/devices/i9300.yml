@@ -13,7 +13,6 @@ current_branch: 14.1
 depth: 8.6mm (0.34in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Mali 400
-has_recovery_partition: true
 height: 136.6mm (5.4in)
 image: i9300.png
 install_method: heimdall

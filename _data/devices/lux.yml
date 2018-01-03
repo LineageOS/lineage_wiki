@@ -15,7 +15,6 @@ custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3194656
 depth:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 height:
 image: lux.png
 install_method: fastboot_motorola

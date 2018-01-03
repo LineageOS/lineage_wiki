@@ -15,7 +15,6 @@ custom_unlock_cmd: 'fastboot oem unlock-go'
 depth: 7.5 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
-has_recovery_partition: true
 height: 151.1 mm (5.95 in)
 image: s2.png
 install_method: fastboot_nexus

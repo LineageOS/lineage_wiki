@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628MP6
-has_recovery_partition: true
 height: 151.2 mm (5.95 in)
 image: ha3g.png
 install_method: heimdall
