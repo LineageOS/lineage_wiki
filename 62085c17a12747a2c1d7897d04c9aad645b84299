@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "efc2ad23_c4c26b54",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-03T07:14:43Z",
+      "side": 1,
+      "message": "pattern missing closing \"$\"",
+      "revId": "62085c17a12747a2c1d7897d04c9aad645b84299",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
