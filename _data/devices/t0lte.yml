@@ -20,12 +20,12 @@ image: t0lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
 maintainers: [filiprrs]
-models: [GT-N7105/N7105T, SGH-I317/I317M, SGH-T889/T889V, SHV-E250S/E250K/E250L]
+models: [GT-N7105/N7105T, SGH-I317/I317M, SGH-T889/T889V, SHV-E250S/E250K/E250L, SC-02E (SGH-N025)]
 name: Galaxy Note 2 (LTE)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 1800 Mhz CDMA (E250L)' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (N7105/T), 850 1900 2100 MHz HSDPA (i317/M,T889/V), 1900 2100 Mhz HSDPA (E250S/K/L)' }
-- {tech: 4G, bands: '800 1800 2600 MHz (N7105), 1800 2600 MHz (N7105T), 700 850 1900 (i317/M), 700 (T889/V), 850 1800 Mhz (E250S), 900 1800 MHz (E250K), 850 2100 MHz (E250L)' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (N7105/T), 850 1900 2100 MHz HSDPA (i317/M,T889/V), 1900 2100 Mhz HSDPA (E250S/K/L), 800 850 2100 Mhz HSDPA (SC-02E)' }
+- {tech: 4G, bands: '800 1800 2600 MHz (N7105), 1800 2600 MHz (N7105T), 700 850 1900 (i317/M), 700 (T889/V), 850 1800 Mhz (E250S), 900 1800 MHz (E250K), 850 2100 MHz (E250L), 1500 2100 Mhz (SC-02E)' }
 peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
