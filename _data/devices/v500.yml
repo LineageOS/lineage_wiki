@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: v500
-cpu: Qualcomm Krait 300
+cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1

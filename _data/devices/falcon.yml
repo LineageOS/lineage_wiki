@@ -7,7 +7,7 @@ cameras:
 carrier: AT&T,TMobile,Boost, International GSM
 channels: [weekly]
 codename: falcon
-cpu: Cortex A7
+cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1

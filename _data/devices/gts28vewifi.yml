@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: gts28vewifi
-cpu: Cortex A53 & A72
+cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 14.1

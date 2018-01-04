@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: angler
-cpu: Quad-core Cortex-A53 & Quad-core Cortex-A57
+cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 14.1
