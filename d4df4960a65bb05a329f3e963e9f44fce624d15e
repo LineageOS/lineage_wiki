@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3b19a3d0_4b3c129f",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-05T00:39:40Z",
+      "side": 1,
+      "message": "The socs are different, but wikipedia lists both snapdragon and exynos with \u0027Cortex-A57 \u0026 Cortex-A53\u0027. Which means this \u0027Cortex-A53 \u0026 Cortex-A57\u0027 is a a dupe that should be removed.\n\n_data/devices/h811.yml:cpu: Cortex-A53 \u0026 Cortex-A57\n_data/devices/h811.yml:soc: Qualcomm MSM8992 Snapdragon 808\nhttps://en.wikipedia.org/wiki/List_of_Qualcomm_Snapdragon_systems-on-chip#Snapdragon_808_and_810\n\n_data/devices/gts210wifi.yml:cpu: Cortex A57/A53\n_data/devices/gts210wifi.yml:soc: Samsung Exynos 5433\nhttps://en.wikipedia.org/wiki/Exynos#List_of_ARMv8_Exynos_SoCs",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 50,
+        "endChar": 29
+      },
+      "revId": "d4df4960a65bb05a329f3e963e9f44fce624d15e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
