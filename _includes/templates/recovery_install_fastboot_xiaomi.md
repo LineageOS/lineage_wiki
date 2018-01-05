@@ -10,7 +10,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 3. Download the Mi Unlock app (Windows is required to run the app).
 4. Wait patiently until you get the approval, which may take some days.
 5. Once you get the approval, run the Mi Unlock app and follow the instructions provided by the app.
-6. After device and Mi account are sucessfuly verified, the bootloader should be unlocked.
+6. After device and Mi account are successfully verified, the bootloader should be unlocked.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% include tip.html content="A Mi account is required to apply for permissions. You don't need to re-apply for permissions to unlock new devices,
