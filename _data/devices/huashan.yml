@@ -14,7 +14,7 @@ current_branch: 14.1
 depth: 10.6 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
-has_recovery_partition: true
+has_recovery_partition: false
 height: 133 mm
 image: huashan.png
 install_method: fastboot_sony
