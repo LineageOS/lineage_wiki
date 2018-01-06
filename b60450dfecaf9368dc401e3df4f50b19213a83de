@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ecfb8573_6ff488b4",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T17:06:57Z",
+      "side": 1,
+      "message": "bluetooth is still showing up in this patch...",
+      "range": {
+        "startLine": 32,
+        "startChar": 1,
+        "endLine": 32,
+        "endChar": 12
+      },
+      "revId": "b60450dfecaf9368dc401e3df4f50b19213a83de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
