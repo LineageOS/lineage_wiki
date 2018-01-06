@@ -15,9 +15,9 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 305
 has_recovery_partition: true
 image: mt2.png
-install_method:
+install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8928
-maintainers:
+maintainers: []
 name: Ascend Mate 2 4G
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
