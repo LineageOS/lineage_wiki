@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: athene
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1

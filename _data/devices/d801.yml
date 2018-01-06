@@ -7,7 +7,7 @@ cameras:
 carrier: T-Mobile
 channels: [weekly]
 codename: d801
-cpu: Qualcomm Krait 400
+cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1

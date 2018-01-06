@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [discontinued]
 codename: i9305
-cpu: Cortex A9
+cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
