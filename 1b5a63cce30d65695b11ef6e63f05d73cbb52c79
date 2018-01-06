@@ -48,6 +48,53 @@
     },
     {
       "key": {
+        "uuid": "30338336_0dc945fd",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-06T11:09:06Z",
+      "side": 1,
+      "message": "having some quoted and some not triggers me, I know hat stuff with non-numbers is auto interpreted as string but I am all in favor of having them look the same",
+      "parentUuid": "1a768534_54196ea3",
+      "range": {
+        "startLine": 47,
+        "startChar": 10,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2466c23_1fb624ab",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-06T11:09:06Z",
+      "side": 1,
+      "message": "The minItems ones accidentially slipped in, must have missed them",
+      "range": {
+        "startLine": 72,
+        "startChar": 3,
+        "endLine": 72,
+        "endChar": 15
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3e831765_b3ba6c6f",
         "filename": "test/schema-06.yml",
         "patchSetId": 4
@@ -59,6 +106,30 @@
       "writtenOn": "2018-01-06T03:20:19Z",
       "side": 1,
       "message": "Combining everything into one ongoing and continually growing patch feels pretty unmanageable. Can we keep this patch focused on bluetooth?",
+      "range": {
+        "startLine": 78,
+        "startChar": 1,
+        "endLine": 78,
+        "endChar": 6
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c49c57a2_eb5d3158",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-06T11:09:06Z",
+      "side": 1,
+      "message": "Thats not a combination, the cpu is just in there because its in my commit list before that one.",
+      "parentUuid": "3e831765_b3ba6c6f",
       "range": {
         "startLine": 78,
         "startChar": 1,
