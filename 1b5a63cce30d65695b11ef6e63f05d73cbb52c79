@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a768534_54196ea3",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T03:20:19Z",
+      "side": 1,
+      "message": "These are already strings, the only quoting needed is on numbers that we want to read as strings.",
+      "range": {
+        "startLine": 47,
+        "startChar": 10,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3e831765_b3ba6c6f",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T03:20:19Z",
+      "side": 1,
+      "message": "Combining everything into one ongoing and continually growing patch feels pretty unmanageable. Can we keep this patch focused on bluetooth?",
+      "range": {
+        "startLine": 78,
+        "startChar": 1,
+        "endLine": 78,
+        "endChar": 6
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
