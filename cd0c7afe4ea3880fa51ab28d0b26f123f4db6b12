@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "340ab46b_ddc24405",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 244,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T17:10:12Z",
+      "side": 1,
+      "message": "bluetooth still in this patch too",
+      "range": {
+        "startLine": 244,
+        "startChar": 0,
+        "endLine": 244,
+        "endChar": 11
+      },
+      "revId": "cd0c7afe4ea3880fa51ab28d0b26f123f4db6b12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
