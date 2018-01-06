@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "8f365f41_cd14a32a",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T06:07:09Z",
+      "side": 1,
+      "message": "aptX isn\u0027t a profile. It\u0027s a (DRM) audio codec. It can optionally be used with the A2DP profile.\n\nhttps://en.wikipedia.org/wiki/AptX\n\"... the aptX codec can be used instead of SBC, the sub-band coding scheme for lossy stereo/mono audio streaming mandated by the Bluetooth SIG for the Advanced Audio Distribution Profile (A2DP) of Bluetooth...\"\n\nBecause aptX is not a profile, I lean towards a codecs array if we don\u0027t do \u0027A2DP + aptX\u0027 format.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 40,
+        "endChar": 19
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1a768534_54196ea3",
         "filename": "test/schema-06.yml",
         "patchSetId": 4
