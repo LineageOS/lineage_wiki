@@ -72,6 +72,54 @@
     },
     {
       "key": {
+        "uuid": "32e6f23f_3010d883",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T17:23:21Z",
+      "side": 1,
+      "message": "fair enough. Nothing wrong with being explicit.",
+      "parentUuid": "30338336_0dc945fd",
+      "range": {
+        "startLine": 47,
+        "startChar": 10,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5421ccc1_7b1102b7",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-06T17:23:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a768534_54196ea3",
+      "range": {
+        "startLine": 47,
+        "startChar": 10,
+        "endLine": 47,
+        "endChar": 16
+      },
+      "revId": "1b5a63cce30d65695b11ef6e63f05d73cbb52c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a2466c23_1fb624ab",
         "filename": "test/schema-06.yml",
         "patchSetId": 4
