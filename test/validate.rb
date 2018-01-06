@@ -23,6 +23,7 @@ begin
   JSON::Validator.validate!(schema, sample, :validate_schema => true)
 rescue JSON::Schema::ValidationError => e
   puts sample_path + ': ' + e.message
+  at_exit { exit false }
 end
 
 device_dir = File.expand_path('../_data/devices/', __dir__) + '/'
@@ -35,6 +36,7 @@ Dir.entries(device_dir).each do |filename|
       JSON::Validator.validate!(schema, device, :validate_schema => true)
     rescue JSON::Schema::ValidationError => e
       puts device_path + ': ' + e.message
+      at_exit { exit false }
     end
   end
 end
