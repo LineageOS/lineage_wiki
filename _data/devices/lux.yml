@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: lux
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 14.1

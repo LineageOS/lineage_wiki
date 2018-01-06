@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [weekly]
 codename: gohan
-cpu: Cortex A72
+cpu: Cortex-A72
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 14.1
