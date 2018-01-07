@@ -1,0 +1,140 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "472bc3ea_485a224f",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "I do not like the _z1 naming, it should be made more generic instead. Pollux and Pollux_windy for instance are not from the Z1 family (MSM8974) but from the Z family (MSM8960).",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3683b60d_dddd62d7",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "If it is considered, I\u0027d prefer the comment inside the if instead of outside.",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5e691214_4af8d8ff",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "Double spaces style doesn\u0027t match the style below.",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7c75e1f2_ea0b741b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "*Click on",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c698f2b8_5e55b038",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "*above the navigation bar, then release.\n* may take a few attempts",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a87a09e6_fcf0f252",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "*dialer",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c5c5d6c1_d19ffff5",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "I dislike the inline addition of this section which doesn\u0027t match the original file. It should be split just like the _generic way and be included here to reduce the massive differences while comparing files and improve clustering.",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e47a1856_27b5b337",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2018-01-07T13:25:17Z",
+      "side": 1,
+      "message": "*to what is\n*following commands as well",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
