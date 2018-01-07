@@ -18,7 +18,7 @@ has_recovery_partition: true
 height: 172 mm (6.77 in)
 image: pollux.png
 install_method: fastboot_sony
-install_variant: sony_unlock_contacts
+install_variant: sony_unlock_contacts sony_init_fota
 kernel: android_kernel_sony_apq8064
 maintainers: [CaHbKaUp, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
 name: Xperia Tablet Z LTE
