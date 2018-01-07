@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "73d9b2be_98f87f6b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3683b60d_dddd62d7",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5e691214_4af8d8ff",
         "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
         "patchSetId": 2
@@ -47,6 +65,24 @@
       "writtenOn": "2018-01-07T13:25:17Z",
       "side": 1,
       "message": "Double spaces style doesn\u0027t match the style below.",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "921f4218_6965889f",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e691214_4af8d8ff",
       "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -70,6 +106,24 @@
     },
     {
       "key": {
+        "uuid": "31030640_adfc297b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7c75e1f2_ea0b741b",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c698f2b8_5e55b038",
         "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
         "patchSetId": 2
@@ -81,6 +135,24 @@
       "writtenOn": "2018-01-07T13:25:17Z",
       "side": 1,
       "message": "*above the navigation bar, then release.\n* may take a few attempts",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ae07d0d_1a65c1e6",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c698f2b8_5e55b038",
       "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -104,6 +176,24 @@
     },
     {
       "key": {
+        "uuid": "bb2211e3_873ff21b",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a87a09e6_fcf0f252",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "c5c5d6c1_d19ffff5",
         "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
         "patchSetId": 2
@@ -121,6 +211,24 @@
     },
     {
       "key": {
+        "uuid": "7bfc881c_20301f23",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Should I move this section to the header of the file?",
+      "parentUuid": "c5c5d6c1_d19ffff5",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e47a1856_27b5b337",
         "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
         "patchSetId": 2
@@ -132,6 +240,24 @@
       "writtenOn": "2018-01-07T13:25:17Z",
       "side": 1,
       "message": "*to what is\n*following commands as well",
+      "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6e5d53dc_816155c3",
+        "filename": "_includes/templates/recovery_install_fastboot_sony_z1.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 18651
+      },
+      "writtenOn": "2018-01-07T18:45:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e47a1856_27b5b337",
       "revId": "63b61d1d8a772941a50d862929ea45418f70d405",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
