@@ -7,11 +7,12 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
 1. Visit [Xiaomi's official unlocking website](http://en.miui.com/unlock/).
 2. Apply for unlocking permissions.
-3. Download the Mi Unlock app (Windows is required to run the app).
-4. Wait patiently until you get the approval, which may take some days.
-5. Once you get the approval, run the Mi Unlock app and follow the instructions provided by the app.
-6. After device and Mi account are successfully verified, the bootloader should be unlocked.
-7. Since the device resets completely, you will need to re-enable USB debugging to continue.
+3. Wait patiently until you get the approval, which may take some days.
+4. Once you get the approval, visit the website again and you will be redirected to the Mi Unlock app download page.
+5. Download the Mi Unlock app. (Windows is required to run the app).
+6. Run the Mi Unlock app and follow the instructions provided by the app.
+7. After device and Mi account are successfully verified, the bootloader should be unlocked.
+8. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% include tip.html content="A Mi account is required to apply for permissions. You don't need to re-apply for permissions to unlock new devices,
 but beware that one account is only allowed to unlock one unique device every 30 days." %}
