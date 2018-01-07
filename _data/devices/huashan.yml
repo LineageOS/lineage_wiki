@@ -17,7 +17,7 @@ gpu: Adreno 320
 has_recovery_partition: true
 height: 133 mm
 image: huashan.png
-install_method: fastboot_sony
+install_method: fastboot_sony_pre_shinano
 kernel: android_kernel_sony_msm8960t
 maintainers: [Adrian DC]
 name: Xperia SP

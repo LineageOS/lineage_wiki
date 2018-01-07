@@ -17,7 +17,7 @@ gpu: Adreno 320
 has_recovery_partition: true
 height: 139 mm (5.47 in)
 image: yuga.png
-install_method: fastboot_sony
+install_method: fastboot_sony_pre_shinano
 kernel: android_kernel_sony_apq8064
 maintainers: [Daedroza, CyberWalkMaN, MardonHH, Chippa_a, Adrian DC]
 name: Xperia Z
