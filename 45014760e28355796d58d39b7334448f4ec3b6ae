@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "79c96096_1998b8c0",
+        "filename": "pages/build/sumire.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-10T09:57:13Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 32
+      },
+      "revId": "45014760e28355796d58d39b7334448f4ec3b6ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5633192d_6523cc9a",
+        "filename": "pages/info/sumire.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-10T09:57:13Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "45014760e28355796d58d39b7334448f4ec3b6ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9cb2223d_5ab260a5",
+        "filename": "pages/install/sumire.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-10T09:57:13Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 34
+      },
+      "revId": "45014760e28355796d58d39b7334448f4ec3b6ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
