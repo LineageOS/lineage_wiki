@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=889964283620772636
+custom_twrp_link: https://androidfilehost.com/?fid=673791459329072194
 depth: 4.9 mm (0.19 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
