@@ -1,4 +1,5 @@
 architecture: arm
+battery: ''
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
