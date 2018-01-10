@@ -1,5 +1,5 @@
 architecture: x86_64
-battery:
+battery: ''
 bluetooth: {spec: '4.1'}
 cameras: []
 carrier:

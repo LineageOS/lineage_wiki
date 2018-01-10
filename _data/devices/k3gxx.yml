@@ -1,5 +1,5 @@
 architecture: arm
-battery: Removable Li-Ion 2800 mAh
+battery: {removable: True, size: 2800, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP, 1080p Full HD Video Recording @ 60fps'}

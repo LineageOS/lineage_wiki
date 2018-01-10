@@ -1,5 +1,5 @@
 architecture: arm64
-battery: 2500 mAh
+battery: {removable: False, size: 2500}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}

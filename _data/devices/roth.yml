@@ -1,5 +1,5 @@
 architecture: arm
-battery: 7350 mAh
+battery: {removable: False, size: 7350}
 bluetooth: {spec: '3.0'}
 cameras: []
 carrier:

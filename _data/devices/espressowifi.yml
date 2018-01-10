@@ -1,5 +1,7 @@
 architecture: arm
-battery: Non-removable Li-Ion 4000 mAh / Li-Po 7000 mAh
+battery:
+- Galaxy Tab 2 7.0: {removable: False, size: 4000, tech: 'Li-Ion'}
+- Galaxy Tab 2 10.1: {removable: False, size: 7000, tech: 'Li-Po'}
 bluetooth: {spec: '3.0', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '15 MP '}

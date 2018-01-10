@@ -1,5 +1,5 @@
 architecture: arm
-battery: Removable 3000 mAh Li-Po with Rapid Charge
+battery: {removable: True, size: 3000, tech: 'Li-Po', fastcharge: True}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}

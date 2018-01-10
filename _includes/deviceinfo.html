@@ -179,12 +179,47 @@ ul, ol {
         <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
     </tr>
     {% endif %}
-    {% if device.battery %}
+    {%- if device.battery and device.battery != '' %}
     <tr>
         <td class="header">Battery</td>
-        <td>{{ device.battery }}</td>
+        <td>
+            {% if device.battery.first.size == 1 -%}
+            {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
+                {% for model in device.battery -%}
+                    {{ model.first[0] }}:&nbsp;
+                    {%- if model.first[1].removable -%}
+                    Removable
+                    {%- else -%}
+                    Non-removable
+                    {%- endif -%}&nbsp;
+                    {%- if model.first[1].tech -%}
+                        {{ model.first[1].tech }}&nbsp;
+                    {%- endif -%}
+                    {{ model.first[1].size }} mAh
+                    {%- if model.first[1].fastcharge %}
+                    &nbsp;with fast charging
+                    {%- endif %}
+                    {%- unless forloop.last -%}
+                    <br/>
+                    {%- endunless %}
+                {% endfor -%}
+            {%- else %}
+                {%- if device.battery.removable %}
+                Removable
+                {%- else %}
+                Non-removable
+                {%- endif %}&nbsp;
+                {%- if device.battery.tech %}
+                {{ device.battery.tech }}&nbsp;
+                {%- endif %}
+                {{ device.battery.size }} mAh
+                {%- if device.battery.fastcharge %}
+                &nbsp;with fast charging
+                {%- endif %}
+            {%- endif -%}
+        </td>
     </tr>
-    {% endif %}
+    {%- endif %}
     <!-- lineage info -->
     {% if device.maintainers %}
     <tr>

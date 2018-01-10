@@ -1,5 +1,7 @@
 architecture: arm
-battery: Li-Ion 2000 / 3000 mAh
+battery:
+- Honor 4: {removable: False, size: 2000, tech: 'Li-Ion'}
+- Honor 4X (Unified): {removable: False, size: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 / 13 MP'}

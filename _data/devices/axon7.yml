@@ -1,5 +1,5 @@
 architecture: arm64
-battery: Non-removable Li-Ion 3250 mAh
+battery: {removable: False, size: 3250, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '20 MP'}

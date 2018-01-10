@@ -1,5 +1,5 @@
 architecture: arm
-battery: Non-removable Li-Ion 4050 mAh
+battery: {removable: False, size: 4050, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}

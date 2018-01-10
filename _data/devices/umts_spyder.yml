@@ -1,5 +1,7 @@
 architecture: arm
-battery: 1780 mAh / 3300 mAh (MAXX)
+battery:
+- RAZR: {removable: False, size: 1780}
+- RAZR MAXX: {removable: False, size: 3300}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}

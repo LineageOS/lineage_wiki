@@ -1,5 +1,5 @@
 architecture: arm
-battery: 2100 mAh
+battery: {removable: False, size: 2100}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '8 MP w/ LED flash'}

@@ -1,5 +1,5 @@
 architecture: arm
-battery: Non-removable Li-Po 4000 mAh
+battery: {removable: False, size: 4000, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: '', info: '5 / 8 MP'}

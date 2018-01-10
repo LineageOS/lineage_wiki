@@ -1,5 +1,5 @@
 architecture: arm64
-battery: Non-removable Li-Po 3070 mAh
+battery: {removable: False, size: 3070, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}

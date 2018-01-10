@@ -1,5 +1,5 @@
 architecture: arm
-battery: 3.8 V 2100 mAh, 8 Wh rechargable Lithium polymer non-removable battery
+battery: {removable: False, size: 2100, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
