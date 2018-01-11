@@ -20,6 +20,27 @@ definitions:
     - 14.1
     - 15.1
     type: number
+  battery_data:
+    description: The format required for battery
+    properties:
+      capacity:
+        description: The size of the battery in [mAh]
+        type: number
+      removable:
+        description: Defines whether the battery is removable
+        type: boolean
+      tech:
+        description: The battery technology
+        enum:
+        - Li-Ion
+        - Li-Po
+      fastcharge:
+        description: If the device is capable of fast charging
+        type: boolean
+    required:
+    - capacity
+    - removable
+    type: object
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -29,6 +50,22 @@ properties:
     - arm64
     - x86
     - x86_64
+  battery:
+    "$id": "/properties/battery"
+    oneOf:
+    - "$ref": "#/definitions/battery_data"
+    - descripion: Array of maps of model numbers to battery data
+      examples:
+      - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
+      - SM-9000B:  {removable: False, size: 3500, tech: 'Li-Po'}
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/battery_data"
+        description: Map of model number to battery_data
+        type: object
+      type: array
+    - enum:
+      - None
   bluetooth:
     "$id": "/properties/bluetooth"
     properties:
@@ -275,6 +312,7 @@ properties:
     type: array
 required:
 - architecture
+- battery
 - bluetooth
 - channels
 - codename
