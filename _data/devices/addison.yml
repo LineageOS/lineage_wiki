@@ -20,7 +20,7 @@ height: 156.4 mm (6.16 in)
 image: addison.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
-maintainers: []
+maintainers: [mccreary]
 models: [XT1635-02]
 name: Moto Z Play
 network:
