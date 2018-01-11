@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "70425b7f_d10bcb04",
+        "filename": "_data/devices/che10.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "hmm, I guess this is the best way to deal with extended batteries.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 58
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d17160ed_26e4d5cc",
+        "filename": "_data/devices/cherry.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "i think this parens in the name refers to the 4 and 4x having been unified into one yaml here.",
+      "range": {
+        "startLine": 4,
+        "startChar": 11,
+        "endLine": 4,
+        "endChar": 20
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1d6beb95_b41baaa1",
+        "filename": "_data/devices/umts_spyder.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "i really, really, really wanted this key to always be model number, but motorola gave them the same model number. This is why we can\u0027t have nice things :(",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 43
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16da7376_a559051d",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "there\u0027s gotta be if type array in jinja that\u0027s better than this.",
+      "range": {
+        "startLine": 186,
+        "startChar": 12,
+        "endLine": 186,
+        "endChar": 52
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bee21e4d_d5ef9cc5",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "i\u0027d prefer this be \u0027mah\u0027. size is generic and could be mistaken for a dimension. or capacity ;)",
+      "range": {
+        "startLine": 29,
+        "startChar": 6,
+        "endLine": 29,
+        "endChar": 10
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fbce1b13_8004378c",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "https://en.wikipedia.org/wiki/Quick_Charge\nthere\u0027s several standards, and within that versions. Do we roll with this as is or get super detailed about fastcharge? third option, leave it for now and see if it\u0027s something wanted later?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 21
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3de0dab_2b1e2cce",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "The oneOf item should work for this case, meaning i think this line can be safely removed.",
+      "range": {
+        "startLine": 54,
+        "startChar": 0,
+        "endLine": 54,
+        "endChar": 40
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9626bb63_b0c6b506",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "this should live with the definition",
+      "range": {
+        "startLine": 57,
+        "startChar": 6,
+        "endLine": 57,
+        "endChar": 18
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "79aeb454_15e2371e",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "add a `type: object` at the same indent as this description block.",
+      "range": {
+        "startLine": 65,
+        "startChar": 8,
+        "endLine": 65,
+        "endChar": 56
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4be44018_4b3ba81f",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:01:41Z",
+      "side": 1,
+      "message": "Are there devices without a battery?\nIf so, I\u0027d prefer that it be an explicit battery exists (or something) bool (the ability to set a default value will probably be useful here) so we we can distinguish between missing data and no battery.\nIf not, I see this as an opportunity to improve the data ;)",
+      "range": {
+        "startLine": 67,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 18
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
