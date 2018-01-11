@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4779663f_191cb2ba",
+        "filename": "_data/devices/addison.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-01-11T15:57:05Z",
+      "side": 1,
+      "message": "You need to \"re-active\" it too.",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 23
+      },
+      "revId": "89d7a64f69e11459583a27f32de6807beb41f9ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
