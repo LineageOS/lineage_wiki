@@ -1,5 +1,5 @@
 architecture: arm
-battery: Non-removable 6000 mAh
+battery: {removable: False, capacity: 6000}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8.1MP f/2.4'}
