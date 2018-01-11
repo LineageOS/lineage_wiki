@@ -94,6 +94,30 @@
     },
     {
       "key": {
+        "uuid": "e121d38d_eb622243",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-11T08:12:22Z",
+      "side": 1,
+      "message": "oh, i see what you\u0027re doing now. if array is size 1. I got mixed up with battery.size, my default thinking is `.length`",
+      "parentUuid": "16da7376_a559051d",
+      "range": {
+        "startLine": 186,
+        "startChar": 12,
+        "endLine": 186,
+        "endChar": 52
+      },
+      "revId": "e0e845c9720c07d264028a28ae86e7029a226fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bee21e4d_d5ef9cc5",
         "filename": "test/schema-06.yml",
         "patchSetId": 1
