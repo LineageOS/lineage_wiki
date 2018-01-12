@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2dd392c_6bc162b3",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-12T00:17:53Z",
+      "side": 1,
+      "message": "this case should have caused tests to fail, so shouldn\u0027t be needed.",
+      "range": {
+        "startLine": 182,
+        "startChar": 25,
+        "endLine": 182,
+        "endChar": 50
+      },
+      "revId": "49f907bd8715520651244a93c7af78255ef426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75ccc364_90eec632",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-12T00:17:53Z",
+      "side": 1,
+      "message": "reading this for a third time... when it\u0027s not 2am my time\n\nyou\u0027re trying to find out if it\u0027s an array or not\n`{%- if device.battery is iterable and device.battery is not string %}` is a clearer way to determine if it\u0027s an array without having to make a comment to explain hackiness. :)",
+      "range": {
+        "startLine": 186,
+        "startChar": 12,
+        "endLine": 186,
+        "endChar": 52
+      },
+      "revId": "49f907bd8715520651244a93c7af78255ef426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
