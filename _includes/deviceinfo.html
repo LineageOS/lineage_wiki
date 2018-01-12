@@ -80,12 +80,17 @@ ul, ol {
             {% endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
         </td>
     </tr>
-    {% if device.architecture %}
     <tr>
         <td class="header">Architecture</td>
-        <td>{{ device.architecture }}</td>
+        <td>
+            {%- if device.architecture.cpu -%}
+            CPU: {{ device.architecture.cpu }}<br/>
+            Android: {{ device.architecture.userspace }}
+            {%- else -%}
+            {{ device.architecture }}
+            {%- endif -%}
+        </td>
     </tr>
-    {% endif %}
     <tr>
         <td class="header">GPU</td>
         <td>{{ device.gpu }}</td>
