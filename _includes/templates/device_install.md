@@ -27,12 +27,20 @@ There are no recovery install instructions for this discontinued device.
 
 ## Installing LineageOS from recovery
 
+{%- capture userspace_architecture -%}
+{%- if device.architecture.userspace -%}
+{{ device.architecture.userspace }}
+{%- else -%}
+{{ device.architecture }}
+{%- endif -%}
+{%- endcapture -%}
+
 {% if device.maintainers %}
 1. Download the [LineageOS install package](https://download.lineageos.org/{{ device.codename }}) that you'd like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 {% else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
-    * Optionally, download 3rd party application packages such as [Google Apps]({{ "gapps.html" | relative_url }})
+    * Optionally, download 3rd party application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 2. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
@@ -47,7 +55,7 @@ There are no recovery install instructions for this discontinued device.
 9. Follow the on-screen prompts to install the package.
 10. _(Optional)_: Install any additional packages using the same method.
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first reboot!" %}
-11. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras){% if device.architecture %} (use the `{{ device.architecture }}` package){% endif %} or using any other method you prefer.
+11. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 12. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
