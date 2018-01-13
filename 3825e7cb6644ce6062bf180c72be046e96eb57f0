@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30eafd10_0f31d5a0",
+        "filename": "device_sample/sample.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-13T00:43:26Z",
+      "side": 1,
+      "message": "how is this possible?",
+      "range": {
+        "startLine": 1,
+        "startChar": 14,
+        "endLine": 1,
+        "endChar": 42
+      },
+      "revId": "3825e7cb6644ce6062bf180c72be046e96eb57f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
