@@ -1,4 +1,4 @@
-architecture: arm
+architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: Removable Li-Ion 2800 mAh
 bluetooth: {spec: 4.0 + LE}
 cameras:

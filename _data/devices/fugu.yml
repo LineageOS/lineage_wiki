@@ -1,4 +1,4 @@
-architecture: x86_64
+architecture: {cpu: 'x86_64', userspace: 'x86'}
 battery:
 bluetooth: {spec: '4.1'}
 cameras: []

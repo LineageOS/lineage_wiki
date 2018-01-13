@@ -20,15 +20,32 @@ definitions:
     - 14.1
     - 15.1
     type: number
-properties:
-  architecture:
-    "$id": "/properties/architecture"
-    description: The CPU architecture of the device.
+  valid_architectures:
     enum:
     - arm
     - arm64
     - x86
     - x86_64
+    type: string
+  architecture_data:
+    properties:
+      cpus:
+        "$ref": "#/definitions/valid_architectures"
+      userspace:
+        "$ref": "#/definitions/valid_architectures"
+    required:
+    - cpu
+    - userspace
+    type: object
+properties:
+  architecture:
+    "$id": "/properties/architecture"
+    description: The CPU architecture of the device.
+    oneOf:
+    - description: A string defining the architecture of cpu AND userspace
+      "$ref": "#/definitions/valid_architectures"
+    - description: An object to provide different architectures for cpu and userspace
+      "$ref": "#/definitions/architecture_data"
   bluetooth:
     "$id": "/properties/bluetooth"
     properties:

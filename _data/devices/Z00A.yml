@@ -1,4 +1,4 @@
-architecture: x86_64
+architecture: {cpu: 'x86_64', userspace: 'x86'}
 battery: 3000mAh
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
