@@ -1,5 +1,7 @@
 architecture: arm
-battery: Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)
+battery:
+- Mi 3: {removable: False, capacity: 3050, tech: 'Li-Ion'}
+- Mi 4: {removable: False, capacity: 3080, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
