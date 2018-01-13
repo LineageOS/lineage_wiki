@@ -1,5 +1,5 @@
 architecture: arm64
-battery: Non-removable Li-Ion 3080 mAh
+battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '13 MP, phase detection autofocus'}
