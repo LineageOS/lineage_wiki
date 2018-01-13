@@ -45,6 +45,30 @@
       "revId": "49f907bd8715520651244a93c7af78255ef426b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7819b3fd_01808828",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-13T14:06:55Z",
+      "side": 1,
+      "message": "Your suggestion fails to compile",
+      "parentUuid": "75ccc364_90eec632",
+      "range": {
+        "startLine": 186,
+        "startChar": 12,
+        "endLine": 186,
+        "endChar": 52
+      },
+      "revId": "49f907bd8715520651244a93c7af78255ef426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
