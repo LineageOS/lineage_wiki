@@ -1,5 +1,5 @@
 architecture: arm
-battery: Removable Li-Ion 3100 mAh
+battery: {removable: True, capacity: 3100, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}

@@ -1,5 +1,5 @@
 architecture: arm
-battery: Non-removable Li-Po 3120 mAh
+battery: {removable: False, capacity: 3120, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}

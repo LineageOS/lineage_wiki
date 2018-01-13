@@ -1,5 +1,5 @@
 architecture: arm64
-battery: 2230 mAh
+battery: {removable: False, capacity: 2230}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
