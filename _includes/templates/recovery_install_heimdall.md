@@ -59,7 +59,7 @@ The preferred method of installing a custom recovery is through this boot mode{%
 
         heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img --no-reboot
 
-    {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
+    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. Unplug the USB cable from your device.
 7. Manually reboot into recovery:
