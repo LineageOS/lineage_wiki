@@ -29,7 +29,7 @@
 {% endif %}
 2. Place the recovery image file on the root of `/sdcard`:
    * Using adb: `adb push twrp-x.x.x-x-{{ twrp_codename }}.img /sdcard/twrp-{{ twrp_codename }}.img`
-    {% include tip.html content="The file may not be named identically to what's in this command, so adjust accordingly." %}
+    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
 
