@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dc84a036_6d50ccef",
+        "filename": "_data/devices/zerofltexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-01-16T09:30:55Z",
+      "side": 1,
+      "message": "i don\u0027t even own a zero, don\u0027t list me as a maintainer",
+      "revId": "8aa489bcf315356a44ad883c953ad21288aea0e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
