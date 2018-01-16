@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "6940e620_8dafc7c5",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 182,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-16T05:50:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e2dd392c_6bc162b3",
+      "range": {
+        "startLine": 182,
+        "startChar": 25,
+        "endLine": 182,
+        "endChar": 50
+      },
+      "revId": "49f907bd8715520651244a93c7af78255ef426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "75ccc364_90eec632",
         "filename": "_includes/deviceinfo.html",
         "patchSetId": 5
@@ -60,6 +84,30 @@
       "side": 1,
       "message": "Your suggestion fails to compile",
       "parentUuid": "75ccc364_90eec632",
+      "range": {
+        "startLine": 186,
+        "startChar": 12,
+        "endLine": 186,
+        "endChar": 52
+      },
+      "revId": "49f907bd8715520651244a93c7af78255ef426b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8d1559f_f625d4f4",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 186,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-16T05:50:17Z",
+      "side": 1,
+      "message": "yep, i was using the wrong template language.\n\nyou should be able to use:\n`{% if device.battery.first -%}`\nand since that\u0027s the standard test for an array (or map) you should be able remove the comment.\n\nhttps://stackoverflow.com/questions/38917552/check-if-variable-is-type-of-string-or-array-in-liquid",
+      "parentUuid": "7819b3fd_01808828",
       "range": {
         "startLine": 186,
         "startChar": 12,
