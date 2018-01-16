@@ -67,12 +67,20 @@ Several packages are needed to build LineageOS. You can install these using your
 (usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt-get install`
 command directly in the Terminal." %}
 
+{% if device.architecture.cpu and device.architecture.cpu contains 'x86' %}
+{% assign needyasm = true %}
+{% elsif device.architecture contains 'x86' %}
+{% assign needyasm = true %}
+{% else %}
+{% assign needyasm = false %}
+{% endif %}
+
 To build LineageOS, you'll need:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev
    libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync
-   schedtool squashfs-tools xsltproc {% if device.architecture contains 'x86' %}yasm {% endif %}
+   schedtool squashfs-tools xsltproc {% if needyasm %}yasm {% endif %}
    zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
