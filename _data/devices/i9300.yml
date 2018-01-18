@@ -6,22 +6,7 @@ cameras:
 - {flash: '', info: '1.9 MP'}
 carrier:
 channels: [weekly]
-codename: i9300
-cpu: Cortex-A9
-cpu_cores: 4
-cpu_freq: 1.4GHz
-current_branch: 14.1
-depth: 8.6mm (0.34in)
-download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: ARM Mali-400 MP4
-has_recovery_partition: true
-height: 136.6mm (5.4in)
-image: i9300.png
-install_method: heimdall
-kernel: android_kernel_samsung_smdk4412
-maintainers: [forkbomb]
-models: [GT-I9300, GT-I9300T]
-name: Galaxy S III (International)
+
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA'}
