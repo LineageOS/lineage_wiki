@@ -22,6 +22,30 @@
       "revId": "19a5c2d9f6caa2d4606bd9a7f82d834735abfff3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3233a4ab_5c2b8218",
+        "filename": "_data/devices/land.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 17057
+      },
+      "writtenOn": "2018-01-18T06:56:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5baa771b_aaf78213",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 38
+      },
+      "revId": "19a5c2d9f6caa2d4606bd9a7f82d834735abfff3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
