@@ -2,8 +2,6 @@
 sidebar: home_sidebar
 title: Install LineageOS on toro
 folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: toro_install.html
 permalink: /devices/toro/install
 device: toro
 ---
