@@ -26,7 +26,11 @@ ul, ol {
         <td colspan="2" class="header"><strong>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</strong></td>
     </tr>
     <tr>
+        {% if jekyll.environment == "development" or jekyll.environment == "production" %}
         <td colspan="2"><img style="width:100%" src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
+        {% else %}
+        <td colspan="2"><img style="width:100%" src="{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image }}"/></td>
+        {% endif %}
     </tr>
     <tr>
         <td class="header">Released</td>
