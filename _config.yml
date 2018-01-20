@@ -11,12 +11,6 @@ title: LineageOS Wiki
 company_name: The LineageOS Project
 # this appears in the footer
 
-github_editme_path:
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-disqus_shortname: idrbwjekyll
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
-
 host: 127.0.0.1
 # the preview server used. Leave as is.
 
@@ -29,20 +23,6 @@ exclude:
   - device_sample/
   - scripts
 # these are the files and directories that jekyll will exclude from the build
-
-feedback_subject_line: Jekyll documentation theme
-
-feedback_email: me@example.com
-# used as a contact email for the Feedback link in the top navigation bar
-
-feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
-
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
 # library used for syntax highlighting
