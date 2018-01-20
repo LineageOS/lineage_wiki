@@ -2,8 +2,6 @@
 sidebar: home_sidebar
 title: Install LineageOS on pme
 folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: pme_install.html
 permalink: /devices/pme/install
 device: pme
 ---

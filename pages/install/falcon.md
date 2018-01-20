@@ -2,8 +2,6 @@
 sidebar: home_sidebar
 title: Install LineageOS on falcon
 folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: falcon_install.html
 permalink: /devices/falcon/install
 device: falcon
 ---

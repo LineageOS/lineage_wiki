@@ -2,8 +2,6 @@
 sidebar: home_sidebar
 title: Install LineageOS on nicki
 folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: nicki_install.html
 permalink: /devices/nicki/install
 device: nicki
 ---

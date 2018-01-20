@@ -2,8 +2,6 @@
 sidebar: home_sidebar
 title: Install LineageOS on tenshi
 folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: tenshi_install.html
 permalink: /devices/tenshi/install
 device: tenshi
 ---
