@@ -38,18 +38,6 @@
       $('[data-toggle="tooltip"]').tooltip()
   })
   </script>
-  {% if page.datatable == true %}
-  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.5/css/jquery.dataTables.css">
-  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.5/js/jquery.dataTables.js"></script>
-  <script>
-  $(document).ready(function(){
-      $('table.datatable').DataTable( {
-          paging: false,
-          stateSave: true
-      });
-  });
-  </script>
-  {% endif %}
 </head>
 <body id="page-top">
 {% include topnav.html %}
@@ -59,10 +47,6 @@
 </div>
 
 {% include footer.html %}
-
-{% if site.google_analytics %}
-{% include google_analytics.html %}
-{% endif %}
 
 </body>
 </html>
