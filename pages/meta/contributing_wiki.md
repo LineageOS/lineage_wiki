@@ -66,6 +66,20 @@ git reset --hard HEAD
 
 This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that.
 
+#### Prepare your repository and sources
+
+1. Go to [https://github.com/LineageOS/lineage_wiki](https://github.com/LineageOS/lineage_wiki).
+2. On the top right, click `Fork` and specify the target repository, then agree and proceed.
+You will be redirected to the target reposity when it's done.
+3. On the new repository, click the `Settings` tab.
+4. Scroll down to `Github Pages` and select the branch `master` - Now you will be able to see the wiki preview on your own instance of GitHub pages.
+5. Finally, on your PC, navigate to the desired source directory (must be empty) and clone the repository:
+
+```
+git clone https://github.com/<YourUsername>/lineage_wiki.git
+```
+
+
 #### Commit and preview your changes
 
 Run:
@@ -90,6 +104,8 @@ git push origin
 ```
 
 Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+
+{% include note.html content="Compiling the static pages from the content may take a while. You can see, when it's done by looking at the `Commits` tab of your repository" %}
 
 #### Fixing mistakes
 
