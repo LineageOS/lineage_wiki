@@ -23,7 +23,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals: ['']
+peripherals: []
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> while booting.
 release: 2014-01

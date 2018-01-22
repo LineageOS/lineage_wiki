@@ -27,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
-peripherals: [GPS, NFC, FM Radio, Hall sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
+peripherals: [GPS, NFC, FM radio, Hall sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
   Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.

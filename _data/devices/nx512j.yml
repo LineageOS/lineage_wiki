@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: 'B1(2100) B3(1800) B3(2600) B38(TDD 2600) B39(TDD 19000) B40(TDD 2300) B41(TDD 2500)MHz' }
-peripherals: [Dual SIM, FM Radio, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor]
+peripherals: [Dual SIM, FM radio, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-06

@@ -27,8 +27,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) LTE' }
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
-  Compass, Gyroscope, Light sensor, Proximity Sensor, Fingerprint]
+peripherals: [Wi-Fi Display, MHL HDMI, GPS, NFC, Accelerometer,
+  Compass, Gyroscope, Light sensor, Proximity Sensor, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and <kbd>Power</kbd> buttons.
 release: 2015-09

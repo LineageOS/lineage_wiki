@@ -238,6 +238,53 @@ properties:
     "$id": "/properties/name"
     minLength: 1
     type: string
+  peripherals:
+    "$id": /properties/peripherals
+    items:
+      enum:
+      - A-GPS
+      - Accelerometer
+      - Audio Coprocessor
+      - Barometer
+      - Color spectrum
+      - Compass
+      - Dual SIM
+      - Dual front speakers
+      - Dual side NFC
+      - FM radio
+      - Fingerprint reader
+      - GLONASS
+      - GPS
+      - Gesture sensor
+      - Gyroscope
+      - HDMI
+      - HDMI (TV-out via MHL A\V link)
+      - Hall sensor
+      - Hardware keyboard
+      - Heart rate sensor
+      - Humidity
+      - Hygrometer
+      - IR blaster
+      - Iceview Cases
+      - Infrared sensor
+      - Light sensor
+      - MHL
+      - MHL 2.0
+      - MHL HDMI
+      - Magnetic sensor
+      - Mobility DisplayPort (MyDP)
+      - Motion Coprocessor
+      - NFC
+      - Pedometer
+      - Proximity sensor
+      - Qi wireless charging
+      - RGB ambient light
+      - SNS integration
+      - Sensor hub
+      - Thermometer
+      - USB OTG
+      - Wi-Fi Display
+    type: array
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
@@ -344,6 +391,7 @@ required:
 - kernel
 - maintainers
 - name
+- peripherals
 - release
 - type
 - vendor
