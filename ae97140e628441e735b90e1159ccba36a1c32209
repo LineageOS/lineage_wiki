@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9524a1a4_7b00af9d",
+        "filename": "_data/devices/zeroltexx.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-22T18:05:03Z",
+      "side": 1,
+      "message": "diidnt follow the sample here",
+      "revId": "ae97140e628441e735b90e1159ccba36a1c32209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "001b6d28_4913cf23",
+        "filename": "_data/devices/zeroltexx.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-22T18:05:03Z",
+      "side": 1,
+      "message": "Cortex-A53 \u0026 Cortex-A57",
+      "revId": "ae97140e628441e735b90e1159ccba36a1c32209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2b6066_3feec24c",
+        "filename": "_data/devices/zeroltexx.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-22T18:05:03Z",
+      "side": 1,
+      "message": "remove",
+      "revId": "ae97140e628441e735b90e1159ccba36a1c32209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "62db3566_d5286d8f",
+        "filename": "_data/devices/zeroltexx.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-22T18:05:03Z",
+      "side": 1,
+      "message": "didnt follow the sample here",
+      "revId": "ae97140e628441e735b90e1159ccba36a1c32209",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
