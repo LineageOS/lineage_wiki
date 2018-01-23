@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1700 (AWS) 1900 2100 MHz HSDPA (USA models), 850 900 1900 2100 MHz HSDPA (China models)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) 2(1900) 4(1700/2100) 5(850) 7(2600) 12(700) 17(700) LTE (USA models), 1(2100) 3(1800) 38(2600) 39(1900) 40(2300) 41(2500) LTE (China models)' }
-peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall sensor]
+peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall effect sensor, Reed switch]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding buttons until the "Honor" logo appears, then release all buttons.

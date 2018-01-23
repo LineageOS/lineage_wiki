@@ -22,7 +22,7 @@ network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '' }
-peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM Radio]
+peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM radio]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed, then
