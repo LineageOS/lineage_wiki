@@ -71,7 +71,7 @@ properties:
     "$id": "/properties/battery"
     oneOf:
     - "$ref": "#/definitions/battery_data"
-    - descripion: Array of maps of model numbers to battery data
+    - description: Array of maps of model numbers to battery data
       examples:
       - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
       - SM-9000B:  {removable: False, size: 3500, tech: 'Li-Po'}
@@ -243,7 +243,7 @@ properties:
     description: Date device released to public in ISO8601 reduced precision format
     oneOf:
     - "$ref": "#/definitions/iso8601_reduced_precision_date"
-    - descripion: Array of maps of model numbers to release dates
+    - description: Array of maps of model numbers to release dates
       examples:
       - SM-9000A: 2015-10-02
       - SM-9000B: 2015-11-02
