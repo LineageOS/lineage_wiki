@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900' }
 - {tech: 3G, bands: '8(900) 2(1900) 1(2100) ' }
 - {tech: 4G, bands: '3(1800) 7(2600) 20(800)' }
-peripherals: [3-axis Compass, 3D Accelerometer, 3D Gyroscope, Ambient light, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
+peripherals: [Compass, Accelerometer, Gyroscope, Light sensor, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 release: 2015-12
