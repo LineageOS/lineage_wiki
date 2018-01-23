@@ -6,7 +6,7 @@ permalink: device_comparison
 {% assign devices = site.data.devices | normalize_device_list %}
 {% assign sorted = devices | sort: 'name' | sort: 'vendor' %}
 
-<script type="text/javascript" src="/js/mergesort.js"></script>
+<script type="text/javascript" src="{{ "js/mergesort.js" | relative_url }}"></script>
 <script>
 var tableJson = {{ sorted | jsonify }};
 var keys      = ["codename", "vendor", "name"];
