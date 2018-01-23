@@ -26,7 +26,9 @@ network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 38(2600) 39(1900) 40(2300) 41(2500)' }
-peripherals: [Dual SIM, Fingerprint reader (Prime only), Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM Radio, GPS]
+peripherals:
+- All: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+- Prime: [Fingerprint reader]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.

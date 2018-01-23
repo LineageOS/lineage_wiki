@@ -26,7 +26,8 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
 - {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz LTE' }
-peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, HDMI (TV-out via MHL A\V link), Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall sensor, Hygrometer, Proximity sensor, RGB light sensor, Thermometer]
+peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
+  Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013-04

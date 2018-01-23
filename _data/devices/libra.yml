@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 GSM' }
 - {tech: 3G, bands: '850 900 1800 2100 HSDPA' }
 - {tech: 4G, bands: '1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
-peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
