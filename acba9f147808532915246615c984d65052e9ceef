@@ -1,0 +1,165 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4b461891_2e58b34c",
+        "filename": "_data/devices/ido.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "This should be broken out to a model \u003d\u003e peripheral array.\n\nAlso, if this passed your validation tests, something is wrong, since `Fingerprint reader (Prime only)` isn\u0027t in your enumerated list...",
+      "range": {
+        "startLine": 29,
+        "startChar": 43,
+        "endLine": 29,
+        "endChar": 55
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a3f7ce7_a6638904",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Should be `Color spectrum sensor`",
+      "range": {
+        "startLine": 249,
+        "startChar": 8,
+        "endLine": 249,
+        "endChar": 22
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "57bfa56f_e4daae27",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 261,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Is this the same as `MHL HDMI`?",
+      "range": {
+        "startLine": 261,
+        "startChar": 8,
+        "endLine": 261,
+        "endChar": 38
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "48865169_abfbb4d6",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Should be `Hall effect sensor`",
+      "range": {
+        "startLine": 262,
+        "startChar": 8,
+        "endLine": 262,
+        "endChar": 19
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ce0f68b3_042dc516",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 266,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Technical name for `Humidity sensor` is `Hygrometer`",
+      "range": {
+        "startLine": 265,
+        "startChar": 7,
+        "endLine": 266,
+        "endChar": 18
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a79caee_812db44b",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 274,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Might be a dupe of `Hall effect sensor` or `Compass`?",
+      "range": {
+        "startLine": 274,
+        "startChar": 8,
+        "endLine": 274,
+        "endChar": 23
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0c79422b_b6a0eaec",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-23T03:02:26Z",
+      "side": 1,
+      "message": "Should this be separated into `Miracast` and `Google cast`?",
+      "range": {
+        "startLine": 286,
+        "startChar": 8,
+        "endLine": 286,
+        "endChar": 21
+      },
+      "revId": "acba9f147808532915246615c984d65052e9ceef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
