@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 1900 2100 MHz UMTS' }
 - {tech: 4G, bands: 'B5(850) B3(1800 +) B40(TD 2300) LTE' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Magnetic sensor, Digital compass, GPS, NFC, FM Radio, RGB ambient light, Hall sensor]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Hall effect sensor, Compass, GPS, NFC, FM radio, RGB ambient light, Hall effect sensor]
 ram: 1.5 GB / 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition: /dev/block/bootdevice/by-name/recovery

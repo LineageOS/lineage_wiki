@@ -23,7 +23,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Europe), 850 900 1700(AWS) 1900 2100 MHz (USA)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) LTE (Europe), 1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) LTE (USA)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Dual SIM, GPS, FM Radio]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Dual SIM, GPS, FM radio]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-11

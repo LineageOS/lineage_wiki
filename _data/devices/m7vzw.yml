@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '800 1900 MHz CDMA' }
 - {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '13(700)' }
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sensor, NFC, IR blaster]
+peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, NFC, IR blaster]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2013-03
