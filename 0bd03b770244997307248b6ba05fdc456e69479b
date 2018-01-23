@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a26fe65a_8d7c5154",
+        "filename": "_plugins/device_normalizer.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 18724
+      },
+      "writtenOn": "2018-01-23T12:48:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76689d47_14f902ec",
+      "revId": "0bd03b770244997307248b6ba05fdc456e69479b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "38364ac7_91f702af",
         "filename": "pages/device_comparison.md",
         "patchSetId": 1
@@ -30,6 +48,30 @@
       "writtenOn": "2018-01-23T11:24:01Z",
       "side": 1,
       "message": "this should be a relative path. I think you can just use src\u003d\"{{ \"js/mergesort.js\" | relative_url }}\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 36,
+        "endLine": 9,
+        "endChar": 37
+      },
+      "revId": "0bd03b770244997307248b6ba05fdc456e69479b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32779727_66014e0c",
+        "filename": "pages/device_comparison.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 18724
+      },
+      "writtenOn": "2018-01-23T12:48:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38364ac7_91f702af",
       "range": {
         "startLine": 9,
         "startChar": 36,
