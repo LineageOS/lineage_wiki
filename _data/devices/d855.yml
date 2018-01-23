@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '700 800 900 1800 2100 2300 2600 MHz LTE' }
-peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor, FM Radio]
+peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor, FM radio]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery

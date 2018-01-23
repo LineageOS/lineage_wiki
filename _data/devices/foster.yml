@@ -24,7 +24,7 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals: []
 ram: 3 GB
 recovery_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
   Tap <kbd>Power</kbd> until recovery is selected. Press <kbd>Power</kbd> for two seconds to select.

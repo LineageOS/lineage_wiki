@@ -25,7 +25,7 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals: []
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-01
