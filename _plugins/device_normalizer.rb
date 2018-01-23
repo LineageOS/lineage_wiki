@@ -8,7 +8,7 @@ module Jekyll
             norm = {}
 
             norm['Battery Capacity [mAh]'] = battery_capacity(dev['battery'])
-            
+
             norm['Max. Cam Resolution [MP]'] = dev['cameras'].map { |i| i['info'].split()[0].to_f }.max
 
             norm['#CPU Cores'] = dev['cpu_cores'].to_i
