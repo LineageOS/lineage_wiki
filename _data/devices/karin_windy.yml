@@ -26,7 +26,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Ambient light sensor, GPS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Light sensor, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10

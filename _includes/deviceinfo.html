@@ -147,15 +147,23 @@ ul, ol {
         <td>{{ device.wifi }}</td>
     </tr>
     {% endif %}
-    {% if device.peripherals[0] != '' %}
+    {% if device.peripherals != 'None' %}
     <tr>
         <td class="header">Peripherals</td>
         <td>
-            <ul>
-                {% for el in device.peripherals %}
-                <li>{{ el }}</li>
-                {% endfor %}
-            </ul>
+            {%- if device.peripherals.first.size == 1 %}
+                {%- for model in device.peripherals %}
+                <ul>
+                    <li>{{ model.first[0] }}
+                        {% assign peripherals = model.first[1] %}
+                        {% include snippets/peripherals.html %}
+                    </li>
+                </ul>
+                {%- endfor %}
+            {%- else %}
+                {%- assign peripherals = device.peripherals %}
+                {%- include snippets/peripherals.html %}
+            {%- endif %}
         </td>
     </tr>
     {% endif %}

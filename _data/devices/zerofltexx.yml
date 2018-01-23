@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: 'B1-B8, B12, B17-B20, B26' }
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  Magnetic sensor, RGB ambient light, Infrared (IR) LED sensor, GPS, NFC]
+  RGB ambient light, Infrared sensor, GPS, NFC]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.

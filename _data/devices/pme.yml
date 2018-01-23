@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA)' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (EMEA), 850 900 1700(AWS) 1900 2100 MHz HSDPA (USA)' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) 41(2500) (EMEA), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 28(700) 29(700) 30(2300) (USA)' }
-peripherals: [Iceview Cases, Hall sensor]
+peripherals: [Iceview Cases, Hall effect sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
   Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
