@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "47ea0a9c_6124d275",
+        "filename": "_data/devices/h870.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "not unique",
+      "range": {
+        "startLine": 29,
+        "startChar": 49,
+        "endLine": 29,
+        "endChar": 107
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e5538492_1249f611",
+        "filename": "_data/devices/herolte.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "not unique",
+      "range": {
+        "startLine": 30,
+        "startChar": 67,
+        "endLine": 31,
+        "endChar": 20
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "758b0206_dcfb11db",
+        "filename": "_data/devices/m216.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "not unique",
+      "range": {
+        "startLine": 29,
+        "startChar": 58,
+        "endLine": 29,
+        "endChar": 145
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d11f4aed_de5be61d",
+        "filename": "_data/devices/us997.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "not unique",
+      "range": {
+        "startLine": 29,
+        "startChar": 49,
+        "endLine": 29,
+        "endChar": 107
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "52dfdbeb_13895bb7",
+        "filename": "_data/devices/zerofltexx.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "not unique",
+      "range": {
+        "startLine": 30,
+        "startChar": 67,
+        "endLine": 31,
+        "endChar": 20
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2ac4aca6_5fb0c17c",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-24T04:40:04Z",
+      "side": 1,
+      "message": "Should be `uniqueItems: True`\n\n```\n~/git/lineage_wiki [:0f2aec2|? 1…7? 13] \n21:32 $ git diff\ndiff --git a/test/schema-06.yml b/test/schema-06.yml\nindex aff2904..e53cc83 100644\n--- a/test/schema-06.yml\n+++ b/test/schema-06.yml\n@@ -103,7 +103,7 @@ definitions:\n       - Wi-Fi Display\n       type: string\n     type: array\n-    unique: True\n+    uniqueItems: True\n properties:\n   architecture:\n     \"$id\": \"/properties/architecture\"\n~/git/lineage_wiki [:0f2aec2|? 1…7? 13] \n21:32 $ ./test/validate.rb \n/home/mike/git/lineage_wiki/_data/devices/m216.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas\n/home/mike/git/lineage_wiki/_data/devices/h870.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas\n/home/mike/git/lineage_wiki/_data/devices/herolte.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas\n/home/mike/git/lineage_wiki/_data/devices/us997.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas\n/home/mike/git/lineage_wiki/_data/devices/zerofltexx.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas\n~/git/lineage_wiki [:0f2aec2|? 1…7? 13] \n21:32 $ \n```\n\nCrap message it gives though.",
+      "range": {
+        "startLine": 106,
+        "startChar": 4,
+        "endLine": 106,
+        "endChar": 16
+      },
+      "revId": "0f2aec22fee5efcf43cef2dbac55a48f4132718c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
