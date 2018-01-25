@@ -12,11 +12,11 @@ cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
 custom_twrp_link: https://androidfilehost.com/?fid=817906626617957398
-depth: 7 mm (0.28 in)
+depth: 7
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
 has_recovery_partition: true
-height: 149 mm (5.87 in)
+height: 149
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
@@ -30,7 +30,7 @@ peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Magne
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-02
-screen: 132 mm (5.2 in)
+screen: 132
 screen_ppi: '424'
 screen_res: 1080x1920
 screen_tech: IPS LCD, Gorilla Glass 4
@@ -42,5 +42,5 @@ type: phone
 vendor: Nextbit
 vendor_short: nextbit
 versions: [14.1]
-width: 72 mm (2.83 in)
+width: 72
 wifi: 802.11 a/b/g/n/ac, Dual-band

@@ -12,11 +12,11 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/crossdevice-dev/sony/twrp-3-1-0-z5-z5c-z5p-t3571050
-depth: 8.9 mm (0.35 in)
+depth: 8.9
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
 has_recovery_partition: true
-height: 127 mm (5.0 in)
+height: 127
 image: suzuran.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
@@ -31,7 +31,7 @@ peripherals: [Accelerometer, Fingerprint reader, Gyroscope, Proximity sensor, Am
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
-screen: 5.2 in
+screen: 132.08
 screen_ppi: '323'
 screen_res: 1280x720
 screen_tech: IPS LCD
@@ -43,5 +43,5 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 65 mm (2.56 in)
+width: 65
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

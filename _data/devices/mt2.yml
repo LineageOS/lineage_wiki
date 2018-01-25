@@ -11,9 +11,11 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
+depth: 9.5
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 gpu: Adreno 305
 has_recovery_partition: true
+height: 161
 image: mt2.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8928
@@ -27,7 +29,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014-01
-screen: 155 mm (6.1 in)
+screen: 155
 screen_ppi: '241'
 screen_res: 1280x720
 screen_tech: IPS+ LCD
@@ -39,4 +41,5 @@ type: phablet
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]
+width: 84.7
 wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot

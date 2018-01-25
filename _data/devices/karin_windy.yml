@@ -12,11 +12,11 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 custom_twrp_link: https://androidfilehost.com/?w=files&flid=67717
-depth: 6.1 mm (0.24 in)
+depth: 6.1
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
 has_recovery_partition: true
-height: 167 mm (6.57 in)
+height: 167
 image: karin.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
@@ -30,7 +30,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Ambient light sensor, 
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
-screen: 10.1 in
+screen: 256.54
 screen_ppi: '299'
 screen_res: 2560x1600
 screen_tech: IPS LCD
@@ -42,5 +42,5 @@ type: tablet
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 254 mm (10.0 in)
+width: 254
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

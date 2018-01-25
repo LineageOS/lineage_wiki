@@ -11,11 +11,11 @@ cpu: Cortex-A9
 cpu_cores: 4
 cpu_freq: 1.4GHz
 current_branch: 14.1
-depth: 8.6mm (0.34in)
+depth: 8.6
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 has_recovery_partition: true
-height: 136.6mm (5.4in)
+height: 136.6
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
@@ -30,7 +30,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, Bar
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-05
-screen: 122mm (4.8in)
+screen: 122
 screen_ppi: 306
 screen_res: 1280x720
 screen_tech: HD Super AMOLED
@@ -42,5 +42,5 @@ type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 70.6mm (2.8in)
+width: 70.6
 wifi: 802.11 a/b/g/n

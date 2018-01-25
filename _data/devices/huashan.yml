@@ -11,11 +11,11 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth: 10.6 mm
+depth: 10.6
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
 has_recovery_partition: true
-height: 133 mm
+height: 133
 image: huashan.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
@@ -30,7 +30,7 @@ peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sens
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 release: 2013-04
-screen: 116.0 mm (4.6 in)
+screen: 116.0
 screen_ppi: '323'
 screen_res: 720x1280
 screen_tech: TFT
@@ -42,5 +42,5 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 68 mm
+width: 68
 wifi: 802.11 2.4GHz b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

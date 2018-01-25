@@ -13,12 +13,16 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz (Mi 3) / 2.5 GHz (Mi 4)
 current_branch: 14.1
-depth: 8.1 mm (0.32 in) (Mi 3) / 8.9 mm (0.35 in) (Mi 4)
+depth:
+- MI3: 8.1
+- MI4: 8.9
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 144 mm (5.67 in) (Mi 3) / 139.2 (5.48 in) (Mi 4)
+height:
+- MI3: 144
+- MI4: 139.2
 image: cancro.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_cancro
@@ -39,10 +43,12 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release:
 - MI3: 2013-10
 - MI4: 2014-08
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: 441
 screen_res: 1080x1920
-screen_tech: IPS (Mi 3) / JDI IPS (Mi 4)
+screen_tech:
+- MI3: IPS
+- MI4: JDI IPS
 sdcard:
 soc: Qualcomm MSM8974 Snapdragon 800 (Mi 3) / Qualcomm MSM8974AC Snapdragon 801 (Mi 4)
 storage: 16/64 GB
@@ -51,5 +57,7 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: 73.6 mm (2.90 in) (Mi 3) / 68.5 mm (2.70 in) (Mi 4)
+width:
+- MI3: 73.6
+- MI4: 68.5
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

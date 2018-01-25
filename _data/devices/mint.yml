@@ -11,11 +11,11 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: 10.45 mm
+depth: 10.45
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
 has_recovery_partition: true
-height: 129.4 mm
+height: 129.4
 image: mint.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
@@ -37,7 +37,7 @@ peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sens
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 release: 2012-09
-screen: 110.0 mm (4.55 in)
+screen: 110.0
 screen_ppi: '323'
 screen_res: 720x1280
 screen_tech: TFT
@@ -49,5 +49,5 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 67.3 mm
+width: 67.3
 wifi: 802.11 2.4GHz a/b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

@@ -10,11 +10,11 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
-depth: 8.7 mm
+depth: 8.7
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 161.2 mm
+height: 161.2
 image: n3.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8974
@@ -29,7 +29,7 @@ peripherals: ['']
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-01
-screen: 140 mm (5.5 in)
+screen: 140
 screen_ppi:
 screen_res: 1920x1080
 screen_tech:
@@ -41,5 +41,5 @@ type: phone
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
-width: 77 mm
+width: 77
 wifi: 802.11 a/b/g/n/ac

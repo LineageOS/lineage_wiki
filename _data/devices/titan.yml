@@ -11,10 +11,12 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+depth: 11
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 305
 has_recovery_partition: true
+height: 141.5
 image: titan.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
@@ -30,7 +32,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2014-06
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: ~294
 screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
@@ -42,4 +44,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
+width: 70.7
 wifi: Wi-Fi 802.11 b/g/n, Hotspot

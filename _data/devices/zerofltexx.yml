@@ -11,11 +11,11 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
 current_branch: 14.1
-depth: 6.8 mm (0.27 in)
+depth: 6.8
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP8
 has_recovery_partition: true
-height: 143.4 mm (5.65 in)
+height: 143.4
 image: zerofltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos7420
@@ -34,7 +34,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
   When the blue text appears, release the buttons.
 release: 2015-04
 required_bootloader: [G920FXXU5EQI8]
-screen: 129.5 mm (5.1 in)
+screen: 129.5
 screen_ppi: 577
 screen_res: 2560x1440
 screen_tech: Quad HD Super AMOLED
@@ -46,5 +46,5 @@ type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 70.5 mm (2.78 in)
+width: 70.5
 wifi: 802.11 a/b/g/n/ac, Dual Band, Wi-Fi Direct, Hotspot

@@ -12,11 +12,11 @@ cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
 custom_twrp_codename: piccolometal
-depth: 7.5 mm (0.3 in)
+depth: 7.5
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
-height: 144.4 mm (5.69 in)
+height: 144.4
 image: paella.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
@@ -30,7 +30,7 @@ peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: ~294
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
@@ -42,5 +42,5 @@ type: phone
 vendor: BQ
 vendor_short: bq
 versions: [13.0, 14.1]
-width: 70.5 mm (2.78 in)
+width: 70.5
 wifi: 802.11 b/g/n, Hotspot

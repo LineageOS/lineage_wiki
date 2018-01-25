@@ -12,11 +12,11 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 14.1
 custom_twrp_link: https://androidfilehost.com/?fid=889964283620772636
-depth: 4.9 mm (0.19 in)
+depth: 4.9
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
-height: 148.9 mm (5.86 in)
+height: 148.9
 image: r5.png
 install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
@@ -37,7 +37,7 @@ release:
 - R8106: 2014-12
 - R8106s: 2015-08
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
-screen: 132 mm (5.2 in)
+screen: 132
 screen_ppi: '~423'
 screen_res: 1080x1920
 screen_tech: AMOLED
@@ -49,5 +49,5 @@ type: phone
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1]
-width: 74.5 mm (2.93 in)
+width: 74.5
 wifi: 802.11 a/b/g/n, Dual-band

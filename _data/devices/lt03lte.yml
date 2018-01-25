@@ -11,9 +11,11 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
+depth: 7.9
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
+height: 243.1
 image: lt03wifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_lt03lte
@@ -27,7 +29,7 @@ peripherals: ['']
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013-10
-screen: 257 mm (10.1 in)
+screen: 257
 screen_ppi: ~299
 screen_res: 1600x2560 (WQXGA)
 screen_tech: TFT LCD
@@ -39,4 +41,5 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
+width: 171.4
 wifi: 802.11 a/b/g/n/ac

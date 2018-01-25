@@ -11,12 +11,12 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
-depth: 8.4 mm (0.33 in)
+depth: 8.4
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
-height: 143 mm (5.63 in)
+height: 143
 image: piccolo.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
@@ -31,7 +31,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 release: 2015-08
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: ~441
 screen_res: 1080x1920
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
@@ -43,5 +43,5 @@ type: phone
 vendor: BQ
 vendor_short: bq
 versions: [14.1]
-width: 69.4 mm (2.73 in)
+width: 69.4
 wifi: 802.11 b/g/n, Hotspot

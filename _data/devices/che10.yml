@@ -14,9 +14,11 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
+depth: 8.7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
+height: 152.9
 image: cherry.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8916
@@ -30,8 +32,8 @@ peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014-10
-screen: 5.0 / 5.5 in
-screen_ppi: 294 / 267
+screen: 139.7
+screen_ppi: 267
 screen_res: 1280x720
 screen_tech: IPS + LCD
 sdcard: up to 32 GB
@@ -42,4 +44,5 @@ type: phablet
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]
+width: 77.2
 wifi: 802.11 b/g/n

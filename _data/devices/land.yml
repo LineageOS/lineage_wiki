@@ -11,12 +11,12 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 current_branch: 14.1
-depth: 8.5 mm (0.33 in)
+depth: 8.5
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 505
 has_recovery_partition: true
-height: 139.3 mm (5.48 in)
+height: 139.3
 image: land.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8937
@@ -30,7 +30,7 @@ peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-06
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: '294'
 screen_res: 720x1280
 screen_tech: IPS LCD
@@ -42,5 +42,5 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: 69.6 mm (2.74 in)
+width: 69.6
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

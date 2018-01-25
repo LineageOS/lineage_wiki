@@ -13,16 +13,22 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0
-depth: 10.5 mm / 9.7 mm
+depth:
+- P3100: 10.5
+- P5100: 9.7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 has_recovery_partition: true
-height: 193.7 mm / 256.6 mm
+height:
+- P3100: 193.7
+- P5100: 256.6
 image: espresso3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_espresso10
 maintainers: [Android-Andi, Ziyan]
-models: [P3100, P5100]
+models:
+- P3100
+- P5100
 name: Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz' }
@@ -32,10 +38,18 @@ peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass,
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-04
-screen: 7.0 / 10.1 inches
-screen_ppi: 170 / 149
-screen_res: 600x1024 / 800x1280
-screen_tech: PLS LCD / PLS TFT
+screen:
+- P3100: 177.8
+- P5100: 256.6
+screen_ppi:
+- P3100: 170
+- P5100: 149
+screen_res:
+- P3100: 600x1024
+- P5100: 800x1280
+screen_tech:
+- P3100: PLS LCD
+- P5100: PLS TFT
 sdcard: up to 32 GB
 soc: TI OMAP4430
 storage: 8/16/32 GB
@@ -44,5 +58,7 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-width: 122.4 mm / 175.3 mm
+width:
+- P3100: 122.4
+- P5100: 175.3
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot

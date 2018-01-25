@@ -14,11 +14,11 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
 custom_unlock_cmd: 'fastboot oem let-me-free'
-depth: 7.3 mm (0.29 in)
+depth: 7.3
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 144.6 mm (5.69 in)
+height: 144.6
 image: sample.png
 install_method: heimdall
 kernel: android_kernel_lge_msm8974
@@ -37,7 +37,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
   When the blue text appears, release the buttons.
 release: 2014-04-11
 required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']
-screen: 130 mm (5.1 in)
+screen: 130
 screen_ppi: 432
 screen_res: 1920x1080
 screen_tech: Full HD Super AMOLED
@@ -49,5 +49,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [13.0, 14.1, 15.1]
-width: 69.2 mm (2.72 in)
+width: 69.2
 wifi: 802.11 a/b/g/n/ac

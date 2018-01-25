@@ -12,10 +12,12 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3084849
+depth: 12.3
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 302
 has_recovery_partition: true
+height: 129.9
 image: otus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
@@ -31,7 +33,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2015-02-25
-screen: 114 mm (4.5 in)
+screen: 114
 screen_ppi: ~245
 screen_res: 540 x 960 pixels
 screen_tech: IPS LCD
@@ -43,4 +45,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
+width: 66.8
 wifi: 802.11 b/g/n, Hotspot

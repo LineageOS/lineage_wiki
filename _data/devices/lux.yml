@@ -12,11 +12,11 @@ cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/showthread.php?t=3194656
-depth:
+depth: 10.9
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
-height:
+height: 148
 image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
@@ -32,7 +32,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2015-08
-screen: 140 mm (5.5 in)
+screen: 140
 screen_ppi: ~403
 screen_res: 1080 x 1920
 screen_tech: IPS LCD
@@ -44,5 +44,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-width:
+width: 75
 wifi: 802.11 a/g/b/n, Dual-band

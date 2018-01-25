@@ -11,11 +11,11 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: 9.1 mm (0.36 in)
+depth: 9.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 has_recovery_partition: true
-height: 133.9 mm (5.27 in)
+height: 133.9
 image: mako.png
 install_method: fastboot_nexus
 kernel: lge-kernel-mako
@@ -31,7 +31,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2012-11-13
-screen: 119 mm (4.7 in)
+screen: 119
 screen_ppi: '320'
 screen_res: 1280x768
 screen_tech: IPS LCD
@@ -43,5 +43,5 @@ type: phone
 vendor: Google
 vendor_short: lge
 versions: [14.1]
-width: 68.7 mm (2.70 in)
+width: 68.7
 wifi: 802.11 b/g/n

@@ -1,6 +1,6 @@
 architecture: arm
 battery:
-- Honor 4: {removable: False, capacity: 2000, tech: 'Li-Ion'}
+- Honor 4 Play: {removable: False, capacity: 2000, tech: 'Li-Ion'}
 - Honor 4X: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
@@ -14,15 +14,21 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
+depth:
+- Honor 4 Play: 8.5
+- Honor 4X: 8.7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 gsm: GSM 900 /1800 / 1900
 has_recovery_partition: true
+height:
+- Honor 4 Play: 142.9
+- Honor 4X: 152.9
 image: cherry.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8916
 maintainers: [Blefish, dianlujitao]
-name: Honor 4/4X (Unified)
+name: Honor 4 Play/4X (Unified)
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 MHz CDMA' }
 - {tech: 3G, bands: '1 8 UMTS, 34 39 TD-SCDMA' }
@@ -31,8 +37,12 @@ peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014-10
-screen: 5.0 / 5.5 in
-screen_ppi: 294 / 267
+screen:
+- Honor 4 Play: 127
+- Honor 4X: 139.7
+screen_ppi:
+- Honor 4 Play: 294
+- Honor 4X: 267
 screen_res: 1280x720
 screen_tech: IPS + LCD
 sdcard: up to 32 GB
@@ -43,4 +53,7 @@ type: phablet
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]
+width:
+- Honor 4 Play: 72.1
+- Honor 4X: 77.2
 wifi: 802.11 b/g/n

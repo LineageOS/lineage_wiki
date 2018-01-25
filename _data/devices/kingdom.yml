@@ -11,12 +11,12 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-depth: 7.7 mm (0.30 in)
+depth: 7.7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
   A small green Android logo appears at the center of the screen.
 gpu: Adreno 330
 has_recovery_partition: true
-height: 156 mm (6.14 in)
+height: 156
 image: kingdom.png
 install_method: fastboot_custom
 kernel: android_kernel_lenovo_msm8974
@@ -32,7 +32,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
   Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
 release: 2014-09
-screen: 152.4 mm (6.0 in)
+screen: 152.4
 screen_ppi: '490'
 screen_res: 2560x1440
 screen_tech: LG IPS
@@ -45,5 +45,5 @@ unlock_bootloader_guide: 'https://forum.xda-developers.com/k920/how-to/guide-unl
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
-width: 81.3 mm (3.20 in)
+width: 81.3
 wifi: 802.11 a/b/g/n/ac dual band, Hotspot

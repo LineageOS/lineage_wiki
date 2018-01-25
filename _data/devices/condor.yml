@@ -10,10 +10,12 @@ cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+depth: 12.3
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 302
 has_recovery_partition: true
+height: 124.8
 image: condor.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
@@ -29,7 +31,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2014-05-13
-screen: 109 mm (4.3 in)
+screen: 109
 screen_ppi: ~256
 screen_res: 540 x 960 pixels
 screen_tech: IPS LCD
@@ -41,4 +43,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
+width: 64.8
 wifi: 802.11 b/g/n, Hotspot

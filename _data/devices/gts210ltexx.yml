@@ -11,11 +11,11 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz, 4 x 1.3 GHz
 current_branch: 14.1
-depth: 5.6 mm (0.22 in)
+depth: 5.6
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP6
 has_recovery_partition: true
-height: 237.3 (9.34 in)
+height: 237.3
 image: gts210.png
 install_method: heimdall
 kernel: android_kernel_samsung_gts2
@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Compass, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-09
-screen: 246 mm (9.7 in)
+screen: 246
 screen_ppi: ~264
 screen_res: 1536x2048
 screen_tech: Super AMOLED
@@ -42,5 +42,5 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 169 mm (6.65 in)
+width: 169
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

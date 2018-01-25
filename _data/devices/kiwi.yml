@@ -11,11 +11,11 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
 current_branch: 14.1
-depth: 8.2 mm (0.32 in)
+depth: 8.2
 download_boot:
 gpu: Adreno 405
 has_recovery_partition: true
-height: 151.3 mm (5.96 in)
+height: 151.3
 image: kiwi.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_kiwi
@@ -31,7 +31,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding buttons until the "Honor" logo appears, then release all buttons.
 release: 2015-11
-screen: 139.7 mm (5.5 in)
+screen: 139.7
 screen_ppi: '401'
 screen_res: 1080 x 1920
 screen_tech: IPS
@@ -43,5 +43,5 @@ type: phone
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]
-width: 76.3 mm (3.00 in)
+width: 76.3
 wifi: 802.11 b/g/n

@@ -11,11 +11,11 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 14.1
-depth: 5.6mm
+depth: 5.6
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
 has_recovery_partition: true
-height: 198.6mm
+height: 198.6
 image: gts210vewifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8976
@@ -30,7 +30,7 @@ peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proxim
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
-screen: 246 mm (8.0 in)
+screen: 246
 screen_ppi: 320
 screen_res: 1536x2048
 screen_tech: HD Super AMOLED
@@ -42,5 +42,5 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 134.8mm
+width: 134.8
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot

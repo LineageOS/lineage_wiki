@@ -11,13 +11,22 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7/1.0 GHz
 current_branch: 14.1
+depth:
+- ZE551KL: 10.9
+- ZD551KL: 10.8
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 has_recovery_partition: true
+height:
+- ZE551KL: 152.4
+- ZD551KL: 156.5
 image: Z00T.png
 install_method: fastboot_zenfone
 kernel: android_kernel_asus_msm8916
 maintainers: [LuK1337, luca020400]
+models:
+- ZE551KL
+- ZD551KL
 name: Zenfone 2 Laser/Selfie (1080p)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -28,9 +37,13 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 release: 2015-11
-screen: 5.5/6.0 inches
-screen_ppi: ~401/367
-screen_res: 1080x1920
+screen:
+- ZE551KL: 139.7
+- ZD551KL: 152.4
+screen_ppi:
+- ZE551KL: 401
+- ZD551KL: 367
+screen_res: 1920x1080
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
@@ -40,4 +53,5 @@ type: phone
 vendor: Asus
 vendor_short: asus
 versions: [14.1]
+width: 77.2
 wifi: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot

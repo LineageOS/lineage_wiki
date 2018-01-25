@@ -9,12 +9,12 @@ cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 13.0
-depth:
+depth: 57
 download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: Tegra 4
 has_recovery_partition: true
-height:
+height: 158
 image: roth.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_roth
@@ -30,7 +30,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed. Tap <kbd>Home</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 release: 2013-07-31
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: '294'
 screen_res: 1280x720
 screen_tech: IPS LCD
@@ -42,5 +42,5 @@ type: Handheld game console
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0]
-width:
+width: 135
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

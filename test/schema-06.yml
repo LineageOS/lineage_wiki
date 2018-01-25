@@ -32,6 +32,19 @@ definitions:
     - capacity
     - removable
     type: object
+  dimension:
+    oneOf:
+    - "$ref": "#/definitions/mm"
+    - description: Array of maps of model numbers (or names) to dimensions
+      examples:
+      - SM-9000A: 120
+      - SM-9000B: 130
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/mm"
+        description: Map of model number (or name) to dimension
+        type: object
+      type: array
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -44,6 +57,12 @@ definitions:
     type:
     - integer
     - string
+  mm:
+    description: Dimension in millimeters
+    examples:
+    - 77
+    - 152.5
+    type: number
   valid_architectures:
     enum:
     - arm
@@ -170,6 +189,10 @@ properties:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
     type: string
+  depth:
+    "$id": "/properties/depth"
+    "$ref": "#/definitions/dimension"
+    description: The depth measurement of the device.
   gpu:
     "$id": "/properties/gpu"
     enum:
@@ -205,6 +228,10 @@ properties:
     - PowerVR SGX544MP2
     - PowerVR Series 6
     - Tegra 4
+  height:
+    "$id": "/properties/height"
+    "$ref": "#/definitions/dimension"
+    description: The height measurement of the device.
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -257,6 +284,13 @@ properties:
     "$id": "/properties/required_bootloader"
     minItems: 1
     type: array
+  screen:
+    "$id": "/properties/screen"
+    description: The screen measurement of the device.
+    oneOf:
+    - "$ref": "#/definitions/dimension"
+    - enum:
+      - None
   type:
     "$id": "/properties/type"
     enum:
@@ -328,6 +362,10 @@ properties:
       "$ref": "#/definitions/valid_branches"
     minItems: 1
     type: array
+  width:
+    "$id": "/properties/width"
+    "$ref": "#/definitions/dimension"
+    description: The width measurement of the device.
 required:
 - architecture
 - battery
@@ -338,16 +376,20 @@ required:
 - cpu_cores
 - cpu_freq
 - current_branch
+- depth
 - gpu
+- height
 - image
 - install_method
 - kernel
 - maintainers
 - name
 - release
+- screen
 - type
 - vendor
 - vendor_short
 - versions
+- width
 title: device
 type: object

@@ -11,9 +11,11 @@ cpu: Cortex-A15
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
+depth: 8.9
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T604
 has_recovery_partition: true
+height: 263.9
 image: manta.png
 install_method: fastboot_nexus
 kernel: android_kernel_samsung_manta
@@ -28,7 +30,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall sen
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012-11-13
-screen: 255 mm (10.0 in)
+screen: 255
 screen_ppi: '300'
 screen_res: 2560x1600
 screen_tech: Super PLS
@@ -40,4 +42,5 @@ type: tablet
 vendor: Google
 vendor_short: samsung
 versions: [13.0]
+width: 177.6
 wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA

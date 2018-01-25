@@ -11,12 +11,12 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-depth: 9.9  mm (0.39 in)
+depth: 9.9
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 305
 has_recovery_partition: true
-height: 137 mm (5.39 in)
+height: 137
 image: armani.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_armani
@@ -32,7 +32,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2014-05
-screen: 119.4 mm (4.7 in)
+screen: 119.4
 screen_ppi: '312'
 screen_res: 720 x 1280
 screen_tech: IPS LCD
@@ -44,5 +44,5 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: 69 mm (2.72 in)
+width: 69
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

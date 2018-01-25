@@ -11,11 +11,11 @@ cpu: Cortex-A53
 cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth: 8.9 mm (0.35 in)
+depth: 8.9
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 has_recovery_partition: true
-height: 212.1 mm (8.35 in)
+height: 212.1
 image: gtesqltespr.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8916
@@ -30,7 +30,7 @@ peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-01
-screen: 203 mm (8in)
+screen: 203
 screen_ppi: 189
 screen_res: 800x1280
 screen_tech: TFT
@@ -42,5 +42,5 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 126.1 mm (4.96 in)
+width: 126.1
 wifi: 802.11 a/b/g/n

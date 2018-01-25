@@ -11,12 +11,12 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
 current_branch: 14.1
-depth: 9.6 mm (0.38 in)
+depth: 9.6
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 430
 has_recovery_partition: true
-height: 144.6 mm (5.69 in)
+height: 144.6
 image: himaul.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8994
@@ -31,7 +31,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015-03
-screen: 127 mm (5.0 in)
+screen: 127
 screen_ppi: ~441
 screen_res: 1080x1920
 screen_tech: Super LCD3
@@ -43,5 +43,5 @@ type: phone
 vendor: HTC
 vendor_short: htc
 versions: [13.0, 14.1]
-width: 69.7 mm (2.74 in)
+width: 69.7
 wifi: 802.11 a/b/g/n/ac (2.4 & 5 GHz)

@@ -12,11 +12,12 @@ cpu_cores: '4'
 cpu_freq: 2.2 GHz
 current_branch: 14.1
 depth:
+depth: 9.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: GK20A (Kepler)
 has_recovery_partition: true
-height:
+height: 223.5
 image: shieldtablet.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_shield
@@ -32,7 +33,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 release: 2014-07-29
-screen: 203 mm (8.0 in)
+screen: 203
 screen_ppi: '294'
 screen_res: 1920x1200
 screen_tech: IPS Retinal LCD
@@ -44,5 +45,5 @@ type: tablet
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0, 14.1]
-width:
+width: 127
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

@@ -13,16 +13,24 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0
-depth: 10.5 mm / 9.7 mm
+depth:
+- Galaxy Tab 2 7.0: 10.5
+- Galaxy Tab 2 10.1: 9.7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 has_recovery_partition: true
-height: 193.7 mm / 256.6 mm
+height:
+- Galaxy Tab 2 7.0: 193.7
+- Galaxy Tab 2 10.1: 256.6
 image: espresso3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_espresso10
 maintainers: [Android-Andi, Ziyan]
-models: [P3110, P3113, P5110, P5113]
+models:
+- GT-P3110
+- GT-P3113
+- GT-P5110
+- GT-P5113
 name: Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)
 network:
 - {tech: 2G, bands: '' }
@@ -32,10 +40,18 @@ peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass,
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-05
-screen: 7.0 / 10.1 inches
-screen_ppi: 170 / 149
-screen_res: 600x1024 / 800x1280
-screen_tech: PLS LCD / PLS TFT
+screen:
+- Galaxy Tab 2 7.0: 177.8
+- Galaxy Tab 2 10.1: 256.6
+screen_ppi:
+- Galaxy Tab 2 7.0: 170
+- Galaxy Tab 2 10.1: 149
+screen_res:
+- Galaxy Tab 2 7.0: 600x1024
+- Galaxy Tab 2 10.1: 800x1280
+screen_tech:
+- Galaxy Tab 2 7.0: PLS LCD
+- Galaxy Tab 2 10.1: PLS TFT
 sdcard: up to 32 GB
 soc: TI OMAP4430
 storage: 8/16/32 GB
@@ -44,5 +60,7 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-width: 122.4 mm / 175.3 mm
+width:
+- Galaxy Tab 2 7.0: 122.4
+- Galaxy Tab 2 10.1: 175.3
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
