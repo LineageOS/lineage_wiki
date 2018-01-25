@@ -1,32 +1,6 @@
 ---
 "$schema": http://json-schema.org/draft-06/schema#
 definitions:
-  iso8601_reduced_precision_date:
-    description: Date in ISO8601 reduced precision format
-    examples:
-    - YYYY
-    - YYYY-MM
-    - YYYY-MM-DD
-    maximum: 2030
-    minimum: 1990
-    pattern: ^\d{4}((-\d{2})?-\d{2})?$
-    type:
-    - integer
-    - string
-  valid_branches:
-    description: Valid branches a device can be on
-    enum:
-    - 13.0
-    - 14.1
-    - 15.1
-    type: number
-  valid_architectures:
-    enum:
-    - arm
-    - arm64
-    - x86
-    - x86_64
-    type: string
   architecture_data:
     properties:
       cpus:
@@ -43,6 +17,9 @@ definitions:
       capacity:
         description: The size of the battery in [mAh]
         type: number
+      fastcharge:
+        description: If the device is capable of fast charging
+        type: boolean
       removable:
         description: Defines whether the battery is removable
         type: boolean
@@ -51,13 +28,36 @@ definitions:
         enum:
         - Li-Ion
         - Li-Po
-      fastcharge:
-        description: If the device is capable of fast charging
-        type: boolean
     required:
     - capacity
     - removable
     type: object
+  iso8601_reduced_precision_date:
+    description: Date in ISO8601 reduced precision format
+    examples:
+    - YYYY
+    - YYYY-MM
+    - YYYY-MM-DD
+    maximum: 2030
+    minimum: 1990
+    pattern: ^\d{4}((-\d{2})?-\d{2})?$
+    type:
+    - integer
+    - string
+  valid_architectures:
+    enum:
+    - arm
+    - arm64
+    - x86
+    - x86_64
+    type: string
+  valid_branches:
+    description: Valid branches a device can be on
+    enum:
+    - 13.0
+    - 14.1
+    - 15.1
+    type: number
   valid_peripherals:
     description: All valid peripherals a device can have
     items:
@@ -109,10 +109,10 @@ properties:
     "$id": "/properties/architecture"
     description: The CPU architecture of the device.
     oneOf:
-    - description: A string defining the architecture of cpu AND userspace
-      "$ref": "#/definitions/valid_architectures"
-    - description: An object to provide different architectures for cpu and userspace
-      "$ref": "#/definitions/architecture_data"
+    - "$ref": "#/definitions/architecture_data"
+      description: An object to provide different architectures for cpu and userspace
+    - "$ref": "#/definitions/valid_architectures"
+      description: A string defining the architecture of cpu AND userspace
   battery:
     "$id": "/properties/battery"
     oneOf:
@@ -179,8 +179,6 @@ properties:
   cpu:
     "$id": "/properties/cpu"
     enum:
-    - Cortex-A7
-    - Cortex-A9
     - Cortex-A15
     - Cortex-A15 & Cortex-A7
     - Cortex-A53
@@ -188,7 +186,9 @@ properties:
     - Cortex-A53 & Cortex-A57
     - Cortex-A53 & Cortex-A72
     - Cortex-A57
+    - Cortex-A7
     - Cortex-A72
+    - Cortex-A9
     - Denver
     - Exynos M1 & Cortex-A53
     - Intel Atom
@@ -200,11 +200,11 @@ properties:
     - Kryo
   cpu_cores:
     "$id": "/properties/cpu_cores"
-    minimum: 1
     minLength: 1
+    minimum: 1
     type:
-    - string
     - integer
+    - string
   cpu_freq:
     "$id": "/properties/cpu_freq"
     minLength: 3
@@ -219,6 +219,13 @@ properties:
   gpu:
     "$id": "/properties/gpu"
     enum:
+    - ARM Mali-400 MP
+    - ARM Mali-400 MP4
+    - ARM Mali-T604
+    - ARM Mali-T628 MP6
+    - ARM Mali-T760 MP6
+    - ARM Mali-T760 MP8
+    - ARM Mali-T880 MP12
     - Adreno 225
     - Adreno 302
     - Adreno 305
@@ -235,30 +242,27 @@ properties:
     - Adreno 510
     - Adreno 530
     - Adreno 540
-    - ARM Mali-400 MP
-    - ARM Mali-400 MP4
-    - ARM Mali-T604
-    - ARM Mali-T628 MP6
-    - ARM Mali-T760 MP6
-    - ARM Mali-T760 MP8
-    - ARM Mali-T880 MP12
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
     - NVIDIA Maxwell 256-core
     - PowerVR G6430
-    - PowerVR Series 6
     - PowerVR SGX540
     - PowerVR SGX544MP2
+    - PowerVR Series 6
     - Tegra 4
+  image:
+    "$id": "/properties/image"
+    pattern: ^\w*\.(png|jpg)$
+    type: string
   install_method:
     "$id": "/properties/install_method"
     enum:
     - dd
     - fastboot_custom
     - fastboot_generic
-    - fastboot_huawei
     - fastboot_htc
+    - fastboot_huawei
     - fastboot_lenovo
     - fastboot_lg
     - fastboot_motorola
@@ -269,10 +273,6 @@ properties:
     - fastboot_xiaomi
     - fastboot_zenfone
     - heimdall
-  image:
-    "$id": "/properties/image"
-    pattern: ^\w*\.(png|jpg)$
-    type: string
   kernel:
     "$id": "/properties/kernel"
     pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
@@ -398,8 +398,8 @@ required:
 - cpu_freq
 - current_branch
 - gpu
-- install_method
 - image
+- install_method
 - kernel
 - maintainers
 - name
