@@ -13,21 +13,21 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <!-- entries without drop-downs appear here -->
-                {% for entry in site.data.topnav.topnav %}
-                {% for item in entry.items %}
-                {% if item.external_url %}
+                {%- for entry in site.data.topnav.topnav %}
+                {%- for item in entry.items %}
+                {% if item.external_url -%}
                 <li><a href="{{item.external_url}}" target="_blank">{{item.title}}</a></li>
-                {% elsif page.url contains item.url %}
+                {%- elsif page.url contains item.url %}
                 <li class="active"><a href="{{ item.url | relative_url }}">{{item.title}}</a></li>
-                {% else %}
+                {%- else %}
                 <li><a href="{{ item.url | relative_url }}">{{item.title}}</a></li>
-                {% endif %}
-                {% endfor %}
-                {% endfor %}
+                {%- endif %}
+                {%- endfor %}
+                {%- endfor %}
                 <!-- entries with drop-downs appear here -->
                 <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
-                {% for entry in site.data.topnav.topnav_dropdowns %}
-                {% for folder in entry.folders %}
+                {% for entry in site.data.topnav.topnav_dropdowns -%}
+                {%- for folder in entry.folders %}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">{{ folder.title }}<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -44,9 +44,6 @@
                 </li>
                 {% endfor %}
                 {% endfor %}
-                {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
 
                 <li>
                     <form id="search-demo-container" class="navbar-form navbar-right" role="search">
