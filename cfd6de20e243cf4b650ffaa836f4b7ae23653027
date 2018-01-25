@@ -71,6 +71,29 @@
     },
     {
       "key": {
+        "uuid": "c48441cc_77c2e25f",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T17:07:35Z",
+      "side": 1,
+      "message": "Light sensor",
+      "range": {
+        "startLine": 29,
+        "startChar": 114,
+        "endLine": 29,
+        "endChar": 134
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6f4be9ff_7b2a3ef9",
         "filename": "pages/build/h990.md",
         "patchSetId": 7
