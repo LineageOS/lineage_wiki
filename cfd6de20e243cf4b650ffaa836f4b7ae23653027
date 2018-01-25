@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "671880a2_4dd858f8",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "Keep empty if this is no specific carrier variant",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 25
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6b578053_b14dd396",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "FM radio",
+      "range": {
+        "startLine": 29,
+        "startChar": 213,
+        "endLine": 29,
+        "endChar": 221
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8ac8f50f_0f7a3242",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "Color spectrum sensor",
+      "range": {
+        "startLine": 29,
+        "startChar": 98,
+        "endLine": 29,
+        "endChar": 112
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6f4be9ff_7b2a3ef9",
+        "filename": "pages/build/h990.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 30
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "eea5fac3_531c793b",
+        "filename": "pages/info/h990.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 29
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "56a93762_be75f64f",
+        "filename": "pages/install/h990.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-25T10:32:47Z",
+      "side": 1,
+      "message": "Remove",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 32
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
