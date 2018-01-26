@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7388726e_b542f55c",
+        "filename": "_data/devices/herolte.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-26T01:10:42Z",
+      "side": 1,
+      "message": "I cannot find reed switch listed for Galaxy S7 anywhere. Though I did find `SpO2`\n\nI think it\u0027s wrong to add what you think it must have rather than what it\u0027s listed to have.",
+      "range": {
+        "startLine": 31,
+        "startChar": 2,
+        "endLine": 31,
+        "endChar": 13
+      },
+      "revId": "fc7abf5eed12342281cd2086b8e5565a463339af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "20040b0a_63c414a3",
+        "filename": "_data/devices/hiaeuhl.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-26T01:10:42Z",
+      "side": 1,
+      "message": "Reed switch not listed\n\nhttp://www.htc.com/us/smartphones/htc-one-a9/\nSensors\nAmbient light sensor, Proximity sensor, Motion G sensor, Compass sensor, Gyro sensor, Magnetic sensor, Sensor Hub, Fingerprint sensor",
+      "range": {
+        "startLine": 29,
+        "startChar": 87,
+        "endLine": 29,
+        "endChar": 98
+      },
+      "revId": "fc7abf5eed12342281cd2086b8e5565a463339af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1cec1272_551dd80d",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-26T01:10:42Z",
+      "side": 1,
+      "message": "I stopped reviewing after the first 2 devices had zero google hits for \"reed switch\" associated with them.",
+      "range": {
+        "startLine": 98,
+        "startChar": 8,
+        "endLine": 98,
+        "endChar": 19
+      },
+      "revId": "fc7abf5eed12342281cd2086b8e5565a463339af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
