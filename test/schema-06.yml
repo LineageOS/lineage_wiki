@@ -22,8 +22,6 @@ definitions:
     type: number
   valid_architectures:
     enum:
-    - arm
-    - arm64
     - x86
     - x86_64
     type: string
@@ -133,16 +131,6 @@ properties:
   cpu:
     "$id": "/properties/cpu"
     enum:
-    - Cortex-A7
-    - Cortex-A9
-    - Cortex-A15
-    - Cortex-A15 & Cortex-A7
-    - Cortex-A53
-    - Cortex-A53 & Cortex-A53
-    - Cortex-A53 & Cortex-A57
-    - Cortex-A53 & Cortex-A72
-    - Cortex-A57
-    - Cortex-A72
     - Denver
     - Exynos M1 & Cortex-A53
     - Intel Atom
