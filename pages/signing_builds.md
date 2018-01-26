@@ -104,9 +104,9 @@ LineageOS build, you can push the script to your device and run it from Android:
 ```
 adb root # This requires an userdebug/eng build and ADB root access to be enabled
 adb shell stop
-adb push ./lineage/scripts/key-migration/migrate.sh /data/local/tmp/migrate.sh
-adb shell chmod +x /data/local/tmp/migrate.sh
-adb shell sh /data/local/tmp/migrate.sh official
+adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.sh
+adb shell chmod +x /data/local/tmp/migration.sh
+adb shell sh /data/local/tmp/migration.sh official
 adb reboot recovery
 # Now install the official LineageOS install zip
 ```
@@ -115,9 +115,9 @@ Or run it from recovery:
 
 ```
 # Ensure both /data and /system are mounted, then continue
-adb push ./lineage/scripts/key-migration/migrate.sh /data/local/tmp/migrate.sh
-adb shell chmod +x /data/local/tmp/migrate.sh
-adb shell /data/local/tmp/migrate.sh official
+adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.sh
+adb shell chmod +x /data/local/tmp/migration.sh
+adb shell /data/local/tmp/migration.sh official
 ```
 
 If you are migrating from an official build to your own "unsigned" builds, you can run the
