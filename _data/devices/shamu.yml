@@ -25,7 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American model only)' }
 - {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA (North/South American model only), 800 850 900 1700 1800 1900 2100 MHz HSDPA (Afro-Eurasian models)' }
 - {tech: 4G, bands: '2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 25(1900) 26(850) 29(700) 41(2500) (North/South American models), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 9(1800) 19(800) 20(800) 28(700) 41(2500) MHz (Afro-Eurasian models)' }
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall sensor, NFC, Qi wireless charging, Dual front speakers]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, NFC, Qi wireless charging, Dual front speakers]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
 release: 2014-10-29

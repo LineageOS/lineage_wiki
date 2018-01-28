@@ -27,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 AWS 1900 2100 MHz HSPA+' }
 - {tech: 4G, bands: 'B1 B2 B3 B4 B5 B7 B8 B20 LTE' }
-peripherals: [Accelerometer, Light sensor, Gyroscope, Hall sensor, GPS]
+peripherals: [Accelerometer, Light sensor, Gyroscope, Hall effect sensor, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
