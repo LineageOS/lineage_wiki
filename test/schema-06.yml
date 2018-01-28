@@ -58,6 +58,52 @@ definitions:
     - capacity
     - removable
     type: object
+  valid_peripherals:
+    description: All valid peripherals a device can have
+    items:
+      enum:
+      - A-GPS
+      - Accelerometer
+      - Audio Coprocessor
+      - Barometer
+      - Color spectrum sensor
+      - Compass
+      - Dual SIM
+      - Dual front speakers
+      - Dual side NFC
+      - FM radio
+      - Fingerprint reader
+      - GLONASS
+      - GPS
+      - Gesture sensor
+      - Gyroscope
+      - HDMI
+      - Hall effect sensor
+      - Hardware keyboard
+      - Heart rate sensor
+      - Hygrometer
+      - IR blaster
+      - Iceview Cases
+      - Infrared sensor
+      - Light sensor
+      - MHL
+      - MHL 2.0
+      - MHL HDMI
+      - Mobility DisplayPort (MyDP)
+      - Motion Coprocessor
+      - NFC
+      - Pedometer
+      - Proximity sensor
+      - Qi wireless charging
+      - RGB ambient light
+      - SNS integration
+      - Sensor hub
+      - Thermometer
+      - USB OTG
+      - Wi-Fi Display
+      type: string
+    type: array
+    uniqueItems: True
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -238,6 +284,18 @@ properties:
     "$id": "/properties/name"
     minLength: 1
     type: string
+  peripherals:
+    "$id": /properties/peripherals
+    oneOf:
+    - "$ref": "#/definitions/valid_peripherals"
+    - items:
+        additionalProperties:
+          "$ref": "#/definitions/valid_peripherals"
+        description: Map of model number to valid peripherals
+        type: object
+      type: array
+    - enum:
+      - None
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
@@ -344,6 +402,7 @@ required:
 - kernel
 - maintainers
 - name
+- peripherals
 - release
 - type
 - vendor

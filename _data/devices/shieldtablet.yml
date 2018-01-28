@@ -27,7 +27,7 @@ network:
 - {tech: 3G, bands: '850 1700 1900 2100 MHz HSDPA (North America), 850 900 1900 2100 HSDPA (International, depending on model)' }
 - {tech: 4G, bands: '2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (North America), 1(2100) 3(1800) 7(2600) 20(800) (International, depending on model)' }
 no_oem_unlock_switch: true
-peripherals: ['']
+peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
