@@ -27,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 40(2300) LTE(Cat. 4)' }
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Magnetic sensor, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 project_spectrum: "https://androidfilehost.com/?fid=673791459329053792"
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
