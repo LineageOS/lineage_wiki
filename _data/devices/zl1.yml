@@ -21,8 +21,8 @@ image: zl1.png
 install_method: fastboot_nexus
 kernel: android_kernel_leeco_msm8996
 maintainers: [jrior001, codeworkx]
-models: [LEX720, LEX727]
-name: Le Pro3
+models: [LEX720, LEX722, LEX727]
+name: Le Pro3 (Elite)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 MHz CDMA ' }
 - {tech: 3G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 8(900) 34(2000) 39(1900)' }
@@ -36,7 +36,7 @@ screen_ppi: ~403
 screen_res: 1920x1080
 screen_tech: IPS LCD
 sdcard:
-soc: Qualcomm MSM8996 Snapdragon 821
+soc: Qualcomm MSM8996 Snapdragon 820/821
 storage: 32/64 GB
 tree: android_device_leeco_zl1
 type: phone
