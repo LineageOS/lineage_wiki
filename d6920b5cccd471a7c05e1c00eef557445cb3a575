@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "877097fd_f2da942a",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 9
+      },
+      "lineNbr": 150,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-01-29T20:50:52Z",
+      "side": 1,
+      "message": "I have a change open that changes this to \"if device.peripherals !\u003d empty\", perhaps you could incorporate that here to prevent conflicts?\n\n\u0027empty\u0027 is a special var in liquid that checks for empty arrays",
+      "range": {
+        "startLine": 150,
+        "startChar": 0,
+        "endLine": 150,
+        "endChar": 41
+      },
+      "revId": "d6920b5cccd471a7c05e1c00eef557445cb3a575",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
