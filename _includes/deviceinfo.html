@@ -216,7 +216,7 @@ ul, ol {
             <ul>
                 {% for el in device.maintainers %}
                     {% if el == '' %}
-                        {% if device.maintainers | size == 0 %}
+                        {% if device.maintainers == empty %}
                             <li>None</li>
                         {% endif %}
                         {% continue %}
