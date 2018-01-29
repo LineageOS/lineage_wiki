@@ -20,7 +20,7 @@ image: ha3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
 maintainers: [tincho5588, deadman96385]
-models: [SM-N9000]
+models: [SM-N900]
 name: Galaxy Note 3 (International 3G)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
