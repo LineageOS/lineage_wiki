@@ -214,7 +214,7 @@ ul, ol {
     </tr>
     {%- endif %}
     <!-- lineage info -->
-    {% if device.maintainers %}
+    {% if device.maintainers != empty %}
     <tr>
         <td class="header" colspan="2">LineageOS info</td>
     </tr>
@@ -223,12 +223,6 @@ ul, ol {
         <td>
             <ul>
                 {% for el in device.maintainers %}
-                    {% if el == '' %}
-                        {% if device.maintainers | size == 0 %}
-                            <li>None</li>
-                        {% endif %}
-                        {% continue %}
-                    {% endif %}
                     <li>{{ el }}</li>
                 {% endfor %}
             </ul>
