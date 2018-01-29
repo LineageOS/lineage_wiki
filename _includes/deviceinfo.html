@@ -214,11 +214,11 @@ ul, ol {
         <td class="header">Maintainers</td>
         <td>
             <ul>
+                {% if device.maintainers == empty %}
+                    <li>None</li>
+                {% endif %}
                 {% for el in device.maintainers %}
                     {% if el == '' %}
-                        {% if device.maintainers | size == 0 %}
-                            <li>None</li>
-                        {% endif %}
                         {% continue %}
                     {% endif %}
                     <li>{{ el }}</li>
