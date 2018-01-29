@@ -196,7 +196,7 @@ table.boldFirstColumn td:first-child {
 }
 
 table tr td {
-    hyphens: auto;
+    hyphens: none;
 }
 
 p.external a {
