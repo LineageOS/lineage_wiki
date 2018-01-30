@@ -22,6 +22,29 @@
       "revId": "d6920b5cccd471a7c05e1c00eef557445cb3a575",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dad111a8_3445ec7e",
+        "filename": "device_sample/sample.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-01-30T01:17:53Z",
+      "side": 1,
+      "message": "It snuck into sample",
+      "range": {
+        "startLine": 34,
+        "startChar": 2,
+        "endLine": 34,
+        "endChar": 13
+      },
+      "revId": "d6920b5cccd471a7c05e1c00eef557445cb3a575",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
