@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f3dc971_98868f5b",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-02-02T15:38:26Z",
+      "side": 1,
+      "message": "\"Android\" should be capitalised",
+      "revId": "48c7e06c34a6ae8226711fc9a118d3fedefbc6e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "228ac05f_686643a6",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-02-02T15:38:26Z",
+      "side": 1,
+      "message": "in case you do, they are documented below",
+      "revId": "48c7e06c34a6ae8226711fc9a118d3fedefbc6e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aa6abe6c_d58879e7",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-02-02T15:38:26Z",
+      "side": 1,
+      "message": "but TWRP uses a different codename",
+      "revId": "48c7e06c34a6ae8226711fc9a118d3fedefbc6e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a64f471b_7103d345",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-02-02T15:38:26Z",
+      "side": 1,
+      "message": "Otherwise,",
+      "revId": "48c7e06c34a6ae8226711fc9a118d3fedefbc6e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
