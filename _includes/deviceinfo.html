@@ -31,15 +31,17 @@ ul, ol {
     <tr>
         <td class="header">Released</td>
         <td>
-            {% if device.release.first -%}
-                {% for model in device.release -%}
-                    {{ model.first[0] }} : {{ model.first[1] }}
+            {%- if device.release.first -%}
+                {%- for model in device.release -%}
+                    {%- assign release = model.first[1] | split: '-' -%}
+                    {{ model.first[0] }}: {% include snippets/release.html -%}
                     {%- unless forloop.last -%}
                     <br/>
                     {% endunless %}
                 {%- endfor %}
             {%- else %}
-                {{ device.release }}
+                {% assign release = device.release | split: '-' -%}
+                {% include snippets/release.html %}
             {%- endif %}
         </td>
     </tr>
