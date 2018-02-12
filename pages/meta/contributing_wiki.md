@@ -149,12 +149,10 @@ Each time that you want to edit the wiki, you will need to start a local web ser
 
 ```
 cd $LINEAGE_SRC/lineage/wiki
-docker run -p 4000:4000 -v $(pwd):/src lineageos/wiki --incremental
+docker run -p 4000:4000 -v $(pwd):/src -it lineageos/wiki
 ```
 
 At this point you should be able to view the [local Jekyll server](http://127.0.0.1:4000).
-
-{% include tip.html content="The incremental flag will cause Jekyll to only reprocess each page as you change it (without the incremental flag, it would reprocess the entire site which takes 10-30+ seconds depending on your hardware). This works very well when editing meta pages but is a little annoying when editing the data/device/name.yml files. When editing those files you will need to save the data and then touch the `.md` file of the page that you are viewing in the browser. An easy way to do that is: `touch pages/*/<devicename>*`." %}
 
 ### Preview locally using rvm and jekyll
 
