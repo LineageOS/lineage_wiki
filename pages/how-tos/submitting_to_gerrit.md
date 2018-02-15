@@ -235,6 +235,20 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 *  `git status` to see the status of a project.
 
+### `git subcommands`
+
+*  `--date="DATE"` to specify the date of change if necessary. DATE has to be in RFC 2822, ISO 8601 or git internal time format.
+
+   Examples:
+
+     *  RFC 2822: Wed, 17 Jan 2018 17:39:48 +0100
+
+     *  ISO 8601: 2018-01-17T17:39:48+0100
+
+     *  git internal format: 1516210788 +0100
+
+
+* `--author="NAME <EMAIL>"` to name the author if you did not write the patch yourself.
 
 ## Resources
 
