@@ -250,6 +250,8 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 * `--author="NAME <EMAIL>"` to name the author if you did not write the patch yourself.
 
+* `--amend` to modify the last commit.
+
 ## Resources
 
 [Git Immersion](http://gitimmersion.com/)
