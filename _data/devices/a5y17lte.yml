@@ -1,0 +1,49 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '16 MP'}
+carrier:
+channels: [weekly]
+codename: a5y17lte
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.9 GHz
+current_branch: 14.1
+custom_twrp_link: https://lineageos.fun/a5y17lte/
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T830 MP3
+has_recovery_partition: true
+height: 146.1 mm (5.75 in)
+image: a5y17lte.png
+install_method: heimdall
+kernel: android_kernel_samsung_universal7880
+maintainers: [raymanfx]
+models: [SM-A520F, SM-A520F/DS]
+name: Galaxy A5 (2017)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 HSDPA' }
+- {tech: 4G, bands: '1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700), 20(800), 28(700), 38(2600), 40(2300), 41(2500) LTE' }
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS,
+    GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light,
+    Sensor hub, USB OTG, Wi-Fi Display]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+release: 2017-01-02
+screen: 132 mm (5.2 in)
+screen_ppi: 424
+screen_res: 1920x1080
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Samsung Exynos 7880
+storage: 32/64 GB
+tree: android_device_samsung_a5y17lte
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 71.4 mm (2.81 in)
+wifi: 802.11 a/b/g/n/ac
