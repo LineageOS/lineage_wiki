@@ -10,7 +10,7 @@ codename: angler
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 1.55 GHz & 2.0 GHz
-current_branch: 14.1
+current_branch: 15.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -41,6 +41,6 @@ tree: android_device_huawei_angler
 type: phablet
 vendor: Google
 vendor_short: huawei
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 77.8 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
