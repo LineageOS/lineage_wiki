@@ -8,7 +8,7 @@ codename: foster
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth:
 download_boot: With the device powered off, tap <kbd>Power</kbd>, then hold <kbd>Power</kbd> until a menu is displayed.
 gpu: GM20B (Maxwell)
@@ -40,6 +40,6 @@ tree: android_device_nvidia_foster
 type: Set top box
 vendor: Nvidia
 vendor_short: nvidia
-versions: [14.1]
+versions: [14.1, 15.1]
 width:
 wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
