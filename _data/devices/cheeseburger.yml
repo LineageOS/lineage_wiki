@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1 2 4 5 7 8 12 17 18 19 20 25 26 28 29 30 34 38 39 40 41 66' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor]
-ram: 6/8 GB LPDDR4X
+ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-06
 screen: 139.7 mm (5.5 in)
