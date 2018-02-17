@@ -229,6 +229,8 @@ See [Git Immersion](http://gitimmersion.com/) for more information.
 
 *  `git commit -m "comment"` to commit a change.
 
+*  `git commit --amend` to modify the last commit.
+
 *  `git reset HEAD <file name>` to unstage a file.
 
 *  `git revert HEAD` to undo the last commit.
