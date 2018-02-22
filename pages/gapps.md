@@ -16,10 +16,16 @@ The Open GApps Project and the Google apps packages are **not supported** in any
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview](devices.html)).
 
-|Version                   |Link                                                   |
-|--------------------------|-------------------------------------------------------|
-|Lineage 14.1 (Android 7.1)|[OpenGApps](http://opengapps.org/?api=7.1&variant=nano)|
-|Lineage 13.0 (Android 6.0)|[OpenGApps](http://opengapps.org/?api=6.0&variant=nano)|
+|Version                   |Architecture|Link                                                               |
+|--------------------------|------------|-------------------------------------------------------------------|
+|Lineage 14.1 (Android 7.1)|arm         |[OpenGApps](http://opengapps.org/?arch=arm&api=7.1&variant=nano)   |
+|                          |arm64       |[OpenGApps](http://opengapps.org/?arch=arm64&api=7.1&variant=nano) |
+|                          |x86         |[OpenGApps](http://opengapps.org/?arch=x86&api=7.1&variant=nano)   |
+|                          |x86_64      |[OpenGApps](http://opengapps.org/?arch=x86_64&api=7.1&variant=nano)|
+|Lineage 13.0 (Android 6.0)|arm         |[OpenGApps](http://opengapps.org/?arch=arm&api=6.0&variant=nano)   |
+|                          |arm64       |[OpenGApps](http://opengapps.org/?arch=arm64&api=6.0&variant=nano) |
+|                          |x86         |[OpenGApps](http://opengapps.org/?arch=x86&api=6.0&variant=nano)   |
+|                          |x86_64      |[OpenGApps](http://opengapps.org/?arch=x86_64&api=6.0&variant=nano)|
 
 ## Installation
 
@@ -29,5 +35,6 @@ Google apps should be installed via recovery **immediately** after installing Li
 
 1. Copy the Google apps zipfile to `/sdcard/`
     * Using [adb](adb_fastboot_guide.html): `adb push filename.zip /sdcard/`
+    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 2. After installing LineageOS, choose "install zip" or "Apply update" in recovery, and navigate to the zipfile loaded earlier.
 3. Reboot to system (i.e. LineageOS).
