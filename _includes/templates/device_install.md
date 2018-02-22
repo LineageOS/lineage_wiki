@@ -42,6 +42,7 @@ There are no recovery install instructions for this discontinued device.
 {% endif %}
     * Optionally, download 3rd party application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 2. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
+    * Plug the USB cable into your device and into your computer.
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
