@@ -35,6 +35,5 @@ Google apps should be installed via recovery **immediately** after installing Li
 
 1. Copy the Google apps zipfile to `/sdcard/`
     * Using [adb](adb_fastboot_guide.html): `adb push filename.zip /sdcard/`
-    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 2. After installing LineageOS, choose "install zip" or "Apply update" in recovery, and navigate to the zipfile loaded earlier.
 3. Reboot to system (i.e. LineageOS).
