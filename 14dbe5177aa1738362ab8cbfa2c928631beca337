@@ -22,6 +22,30 @@
       "revId": "14dbe5177aa1738362ab8cbfa2c928631beca337",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bf2a2e49_10b2211a",
+        "filename": "pages/gapps.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-02-23T19:33:49Z",
+      "side": 1,
+      "message": "Yeap, that\u0027s the reason why it\u0027s not ready yet.",
+      "parentUuid": "20064316_d4ad2583",
+      "range": {
+        "startLine": 21,
+        "startChar": 28,
+        "endLine": 21,
+        "endChar": 83
+      },
+      "revId": "14dbe5177aa1738362ab8cbfa2c928631beca337",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
