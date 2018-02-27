@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about zl1
 folder: info
 layout: deviceinfo
-redirect_from: zl1_info.html
 permalink: /devices/zl1/
 device: zl1
 ---

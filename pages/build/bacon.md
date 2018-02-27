@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for bacon
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: bacon_build.html
+folder: build
 permalink: /devices/bacon/build
 device: bacon
 ---

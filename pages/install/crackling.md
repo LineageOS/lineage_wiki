@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on crackling
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: crackling_install.html
+folder: install
 permalink: /devices/crackling/install
 device: crackling
 ---

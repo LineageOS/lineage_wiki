@@ -7,4 +7,3 @@ permalink: /devices/zeroltexx/
 device: zeroltexx
 ---
 {% include templates/device_info.md %}
-

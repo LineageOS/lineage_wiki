@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about merlin
 folder: info
 layout: deviceinfo
-redirect_from: merlin_info.html
 permalink: /devices/merlin/
 device: merlin
 ---

@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on land
-folder: info
+folder: install
 permalink: /devices/land/install
 device: land
 ---

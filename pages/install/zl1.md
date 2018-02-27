@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on zl1
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: zl1_install.html
+folder: install
 permalink: /devices/zl1/install
 device: zl1
 ---

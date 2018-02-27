@@ -1,8 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for flounder
-folder: info
-# name of the page (/{{permalink}}.html)
+folder: build
 permalink: /devices/flounder/build
 device: flounder
 ---

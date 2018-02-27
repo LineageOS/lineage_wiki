@@ -6,4 +6,3 @@ permalink: /devices/zeroltexx/install
 device: zeroltexx
 ---
 {% include templates/device_install.md %}
-

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for capricorn
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: capricorn_build.html
+folder: build
 permalink: /devices/capricorn/build
 device: capricorn
 ---

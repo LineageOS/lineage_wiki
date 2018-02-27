@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for serranodsdd
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: serranodsdd_build.html
+folder: build
 permalink: /devices/serranodsdd/build
 device: serranodsdd
 ---

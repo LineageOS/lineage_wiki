@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on himawl
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: himawl_install.html
+folder: install
 permalink: /devices/himawl/install
 device: himawl
 ---

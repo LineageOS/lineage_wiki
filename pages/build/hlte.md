@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for hlte
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: hlte_build.html
+folder: build
 permalink: /devices/hlte/build
 device: hlte
 ---

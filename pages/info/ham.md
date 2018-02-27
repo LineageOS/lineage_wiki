@@ -1,5 +1,4 @@
 ---
-# pages/info/ham.md
 sidebar: home_sidebar
 title: Info about ham
 folder: info

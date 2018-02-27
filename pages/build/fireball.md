@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for fireball
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: fireball_build.html
+folder: build
 permalink: /devices/fireball/build
 device: fireball
 ---

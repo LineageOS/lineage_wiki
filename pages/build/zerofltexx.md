@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for zerofltexx
-folder: info
+folder: build
 permalink: /devices/zerofltexx/build
 device: zerofltexx
 ---

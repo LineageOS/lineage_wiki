@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for maguro
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: maguro_build.html
+folder: build
 permalink: /devices/maguro/build
 device: maguro
 ---

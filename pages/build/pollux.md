@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for pollux
-folder: info
+folder: build
 permalink: /devices/pollux/build
 device: pollux
 ---

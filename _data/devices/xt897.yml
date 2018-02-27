@@ -1,5 +1,6 @@
 architecture: arm
 battery: {removable: False, capacity: 1785}
+before_install: before_install_xt897
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}

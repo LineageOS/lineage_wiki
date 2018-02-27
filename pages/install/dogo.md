@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on dogo
-folder: info
+folder: install
 permalink: /devices/dogo/install
 device: dogo
 ---

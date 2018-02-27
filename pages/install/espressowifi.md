@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on espressowifi
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: espressowifi_install.html
+folder: install
 permalink: /devices/espressowifi/install
 device: espressowifi
 ---
