@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for tenshi
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: tenshi_build.html
+folder: build
 permalink: /devices/tenshi/build
 device: tenshi
 ---

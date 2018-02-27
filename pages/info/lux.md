@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about lux
 folder: info
 layout: deviceinfo
-redirect_from: lux_info.html
 permalink: /devices/lux/
 device: lux
 ---

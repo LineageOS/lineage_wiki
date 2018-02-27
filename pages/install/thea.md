@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on thea
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: thea_install.html
+folder: install
 permalink: /devices/thea/install
 device: thea
 ---

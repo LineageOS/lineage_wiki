@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on hiaeuhl
-folder: info
+folder: install
 permalink: /devices/hiaeuhl/install
 device: hiaeuhl
 ---

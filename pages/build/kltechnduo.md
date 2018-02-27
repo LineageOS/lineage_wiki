@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for kltechnduo
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: kltechnduo_build.html
+folder: build
 permalink: /devices/kltechnduo/build
 device: kltechnduo
 ---

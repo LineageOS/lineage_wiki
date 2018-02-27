@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for gtesqltespr
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: gtesqltespr_build.html
+folder: build
 permalink: /devices/gtesqltespr/build
 device: gtesqltespr
 ---

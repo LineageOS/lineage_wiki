@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about peach
 folder: info
 layout: deviceinfo
-redirect_from: peach_info.html
 permalink: /devices/peach/
 device: peach
 ---

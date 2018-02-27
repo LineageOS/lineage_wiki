@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on chiron
-folder: info
+folder: install
 permalink: /devices/chiron/install
 device: chiron
 ---

@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for hiaeul
-folder: info
+folder: build
 permalink: /devices/hiaeul/build
 device: hiaeul
 ---

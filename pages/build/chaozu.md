@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for chaozu
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: chaozu_build.html
+folder: build
 permalink: /devices/chaozu/build
 device: chaozu
 ---

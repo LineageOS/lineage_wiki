@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for ether
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: ether_build.html
+folder: build
 permalink: /devices/ether/build
 device: ether
 ---

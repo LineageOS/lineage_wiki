@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for vegetalte
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: vegetalte_build.html
+folder: build
 permalink: /devices/vegetalte/build
 device: vegetalte
 ---

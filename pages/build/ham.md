@@ -1,8 +1,7 @@
 ---
-# pages/build/ham.md
 sidebar: home_sidebar
 title: Build for ham
-folder: info
+folder: build
 permalink: /devices/ham/build
 device: ham
 ---

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for d2tmo
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: d2tmo_build.html
+folder: build
 permalink: /devices/d2tmo/build
 device: d2tmo
 ---

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for peregrine
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: peregrine_build.html
+folder: build
 permalink: /devices/peregrine/build
 device: peregrine
 ---

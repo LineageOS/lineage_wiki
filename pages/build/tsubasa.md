@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for tsubasa
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: tsubasa_build.html
+folder: build
 permalink: /devices/tsubasa/build
 device: tsubasa
 ---

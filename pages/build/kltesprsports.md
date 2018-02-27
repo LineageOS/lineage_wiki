@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for kltesprsports
-folder: info
+folder: build
 permalink: /devices/kltesprsports/build
 device: kltesprsports
 ---

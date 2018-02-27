@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for thea
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: thea_build.html
+folder: build
 permalink: /devices/thea/build
 device: thea
 ---

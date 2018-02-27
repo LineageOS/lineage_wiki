@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for himaul
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: himaul_build.html
+folder: build
 permalink: /devices/himaul/build
 device: himaul
 ---

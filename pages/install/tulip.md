@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on tulip
-folder: info
+folder: install
 permalink: /devices/tulip/install
 device: tulip
 ---
