@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on kccat6
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: kccat6_install.html
+folder: install
 permalink: /devices/kccat6/install
 device: kccat6
 ---

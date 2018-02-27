@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for tomato
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: tomato_build.html
+folder: build
 permalink: /devices/tomato/build
 device: tomato
 ---

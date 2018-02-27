@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on griffin
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: griffin_install.html
+folder: install
 permalink: /devices/griffin/install
 device: griffin
 ---

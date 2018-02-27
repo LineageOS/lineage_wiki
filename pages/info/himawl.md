@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about himawl
 folder: info
 layout: deviceinfo
-redirect_from: himawl_info.html
 permalink: /devices/himawl/
 device: himawl
 ---

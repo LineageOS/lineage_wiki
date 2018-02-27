@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for chiron
-folder: info
+folder: build
 permalink: /devices/chiron/build
 device: chiron
 ---

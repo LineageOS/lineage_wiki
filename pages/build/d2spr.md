@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for d2spr
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: d2spr_build.html
+folder: build
 permalink: /devices/d2spr/build
 device: d2spr
 ---

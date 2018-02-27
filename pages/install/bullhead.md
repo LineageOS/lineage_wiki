@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on bullhead
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: bullhead_install.html
+folder: install
 permalink: /devices/bullhead/install
 device: bullhead
 ---

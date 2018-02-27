@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for suzuran
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: suzuran_build.html
+folder: build
 permalink: /devices/suzuran/build
 device: suzuran
 ---

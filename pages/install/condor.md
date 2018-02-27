@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on condor
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: condor_install.html
+folder: install
 permalink: /devices/condor/install
 device: condor
 ---

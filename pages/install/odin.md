@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on odin
-folder: info
+folder: install
 permalink: /devices/odin/install
 device: odin
 ---

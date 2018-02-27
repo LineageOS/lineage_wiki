@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on tsubasa
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: tsubasa_install.html
+folder: install
 permalink: /devices/tsubasa/install
 device: tsubasa
 ---

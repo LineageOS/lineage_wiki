@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on sagit
-folder: info
+folder: install
 permalink: /devices/sagit/install
 device: sagit
 ---

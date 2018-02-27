@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for spyder
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: spyder_build.html
+folder: build
 permalink: /devices/spyder/build
 device: spyder
 ---

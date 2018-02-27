@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on pollux
-folder: info
+folder: install
 permalink: /devices/pollux/install
 device: pollux
 ---

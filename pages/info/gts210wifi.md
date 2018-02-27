@@ -1,5 +1,4 @@
 ---
-# pages/info/gts210wifi.md
 sidebar: home_sidebar
 title: Info about gts210wifi
 folder: info

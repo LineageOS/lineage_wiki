@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on flo
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: flo_install.html
+folder: install
 permalink: /devices/flo/install
 device: flo
 ---

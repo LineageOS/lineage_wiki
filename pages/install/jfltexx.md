@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on jfltexx
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: jfltexx_install.html
+folder: install
 permalink: /devices/jfltexx/install
 device: jfltexx
 ---

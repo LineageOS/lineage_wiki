@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for kccat6
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: kccat6_build.html
+folder: build
 permalink: /devices/kccat6/build
 device: kccat6
 ---

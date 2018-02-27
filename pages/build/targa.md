@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for targa
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: targa_build.html
+folder: build
 permalink: /devices/targa/build
 device: targa
 ---

@@ -1,5 +1,4 @@
 ---
-# pages/info/gts210ltexx.md
 sidebar: home_sidebar
 title: Info about gts210ltexx
 folder: info

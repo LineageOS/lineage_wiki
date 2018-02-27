@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for tulip
-folder: info
+folder: build
 permalink: /devices/tulip/build
 device: tulip
 ---

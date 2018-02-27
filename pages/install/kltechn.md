@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on kltechn
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: kltechn_install.html
+folder: install
 permalink: /devices/kltechn/install
 device: kltechn
 ---
