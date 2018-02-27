@@ -1,8 +1,7 @@
 ---
-# pages/install/FP2.md
 sidebar: home_sidebar
 title: Install LineageOS on FP2
-folder: info
+folder: install
 permalink: /devices/FP2/install
 device: FP2
 ---

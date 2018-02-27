@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for sagit
-folder: info
+folder: build
 permalink: /devices/sagit/build
 device: sagit
 ---

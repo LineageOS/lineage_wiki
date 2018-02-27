@@ -1,8 +1,7 @@
 ---
-# pages/build/FP2.md
 sidebar: home_sidebar
 title: Build for FP2
-folder: info
+folder: build
 permalink: /devices/FP2/build
 device: FP2
 ---

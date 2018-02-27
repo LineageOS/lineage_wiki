@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for land
-folder: info
+folder: build
 permalink: /devices/land/build
 device: land
 ---

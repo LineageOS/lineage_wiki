@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on hayabusa
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: hayabusa_install.html
+folder: install
 permalink: /devices/hayabusa/install
 device: hayabusa
 ---

@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about spyder
 folder: info
 layout: deviceinfo
-redirect_from: spyder_info.html
 permalink: /devices/spyder/
 device: spyder
 ---

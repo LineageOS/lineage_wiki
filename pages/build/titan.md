@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for titan
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: titan_build.html
+folder: build
 permalink: /devices/titan/build
 device: titan
 ---

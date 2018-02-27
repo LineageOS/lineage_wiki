@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for sumire
-folder: info
+folder: build
 permalink: /devices/sumire/build
 device: sumire
 ---

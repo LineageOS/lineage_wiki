@@ -1,5 +1,4 @@
 ---
-# pages/info/FP2.md
 sidebar: home_sidebar
 title: Info about FP2
 folder: info

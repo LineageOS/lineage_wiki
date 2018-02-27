@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on klimtwifi
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: klimtwifi_install.html
+folder: install
 permalink: /devices/klimtwifi/install
 device: klimtwifi
 ---

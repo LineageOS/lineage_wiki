@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on chaozu
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: chaozu_install.html
+folder: install
 permalink: /devices/chaozu/install
 device: chaozu
 ---

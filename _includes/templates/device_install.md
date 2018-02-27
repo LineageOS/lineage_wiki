@@ -1,4 +1,10 @@
 {% assign device = site.data.devices[page.device] %}
+
+{% if device.before_install %}
+{% capture path %}templates/device_specific/{{ device.before_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 ## Basic requirements
 
 {% include important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on jagnm
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: jagnm_install.html
+folder: install
 permalink: /devices/jagnm/install
 device: jagnm
 ---

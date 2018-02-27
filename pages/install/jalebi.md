@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on jalebi
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: jalebi_install.html
+folder: install
 permalink: /devices/jalebi/install
 device: jalebi
 ---

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on otus
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: otus_install.html
+folder: install
 permalink: /devices/otus/install
 device: otus
 ---

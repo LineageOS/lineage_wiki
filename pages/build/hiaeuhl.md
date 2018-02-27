@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for hiaeuhl
-folder: info
+folder: build
 permalink: /devices/hiaeuhl/build
 device: hiaeuhl
 ---

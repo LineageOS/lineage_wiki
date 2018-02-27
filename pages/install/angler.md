@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on angler
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: angler_install.html
+folder: install
 permalink: /devices/angler/install
 device: angler
 ---

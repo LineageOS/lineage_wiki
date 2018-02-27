@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for mako
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: mako_build.html
+folder: build
 permalink: /devices/mako/build
 device: mako
 ---

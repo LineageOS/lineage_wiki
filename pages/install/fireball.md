@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on fireball
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: fireball_install.html
+folder: install
 permalink: /devices/fireball/install
 device: fireball
 ---

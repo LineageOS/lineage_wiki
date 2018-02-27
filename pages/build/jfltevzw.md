@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for jfltevzw
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: jfltevzw_build.html
+folder: build
 permalink: /devices/jfltevzw/build
 device: jfltevzw
 ---

@@ -3,7 +3,6 @@ sidebar: home_sidebar
 title: Info about onyx
 folder: info
 layout: deviceinfo
-redirect_from: onyx_info.html
 permalink: /devices/onyx/
 device: onyx
 ---

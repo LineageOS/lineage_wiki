@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for yuga
-folder: info
+folder: build
 permalink: /devices/yuga/build
 device: yuga
 ---

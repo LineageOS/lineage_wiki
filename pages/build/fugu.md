@@ -1,8 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for fugu
-folder: info
-# name of the page (/{{permalink}}.html)
+folder: build
 permalink: /devices/fugu/build
 device: fugu
 ---

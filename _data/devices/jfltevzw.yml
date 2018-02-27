@@ -1,5 +1,6 @@
 architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+before_install: before_install_jfltevzw
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}

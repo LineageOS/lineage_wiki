@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for hammerhead
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: hammerhead_build.html
+folder: build
 permalink: /devices/hammerhead/build
 device: hammerhead
 ---

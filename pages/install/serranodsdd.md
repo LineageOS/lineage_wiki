@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on serranodsdd
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: serranodsdd_install.html
+folder: install
 permalink: /devices/serranodsdd/install
 device: serranodsdd
 ---

@@ -1,5 +1,4 @@
 ---
-# pages/info/v1awifi.md
 sidebar: home_sidebar
 title: Info about v1awifi
 folder: info

@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for lux
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: lux_build.html
+folder: build
 permalink: /devices/lux/build
 device: lux
 ---

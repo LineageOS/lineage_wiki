@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for klimtwifi
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: klimtwifi_build.html
+folder: build
 permalink: /devices/klimtwifi/build
 device: klimtwifi
 ---

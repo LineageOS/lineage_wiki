@@ -1,8 +1,7 @@
 ---
-# pages/install/ham.md
 sidebar: home_sidebar
 title: Install LineageOS on ham
-folder: info
+folder: install
 permalink: /devices/ham/install
 device: ham
 ---

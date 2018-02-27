@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for m7vzw
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: m7vzw_build.html
+folder: build
 permalink: /devices/m7vzw/build
 device: m7vzw
 ---

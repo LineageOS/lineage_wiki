@@ -1,9 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Install LineageOS on g2m
-folder: info
-# name of the page (/{{permalink}}.html)
-redirect_from: g2m_install.html
+folder: install
 permalink: /devices/g2m/install
 device: g2m
 ---

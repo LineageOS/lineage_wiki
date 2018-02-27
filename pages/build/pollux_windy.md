@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Build for pollux_windy
-folder: info
+folder: build
 permalink: /devices/pollux_windy/build
 device: pollux_windy
 ---
