@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b212a4b6_76fdb662",
+        "filename": "test/validate.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-02-28T00:57:43Z",
+      "side": 1,
+      "message": "is there a reason you are doing this line by line?\nas is, I\u0027m pretty sure it works identical to\n```\nreturn File.open(filename, \"r\")\n```\nWhich is a bit redundant.",
+      "range": {
+        "startLine": 17,
+        "startChar": 2,
+        "endLine": 22,
+        "endChar": 13
+      },
+      "revId": "3bf9b925b904f069fd51d19c4bdad1fd2d0c14a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "808a59d9_ab6d1a56",
+        "filename": "test/validate.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-02-28T00:57:43Z",
+      "side": 1,
+      "message": "I think this should be named validate_template since it\u0027s unable to validate other files.",
+      "range": {
+        "startLine": 40,
+        "startChar": 4,
+        "endLine": 40,
+        "endChar": 18
+      },
+      "revId": "3bf9b925b904f069fd51d19c4bdad1fd2d0c14a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4d7baa8b_77d427c7",
+        "filename": "test/validate.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 18620
+      },
+      "writtenOn": "2018-02-28T00:57:43Z",
+      "side": 1,
+      "message": "this begin/end block is part of a rescue block you moved into validate_json. It can be removed, since it\u0027s not doing anything anymore.",
+      "range": {
+        "startLine": 77,
+        "startChar": 3,
+        "endLine": 77,
+        "endChar": 9
+      },
+      "revId": "3bf9b925b904f069fd51d19c4bdad1fd2d0c14a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
