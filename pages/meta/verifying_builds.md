@@ -5,13 +5,9 @@ folder: meta
 permalink: verifying-builds.html
 ---
 
-All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by running: 
+All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by using [this tool](https://github.com/LineageOS/scripts/tree/master/key-verifier).
 
-```
-keytool -list -printcert -jarfile lineage-build-signed.zip
-```
-
-The resulting fingerprints are listed as follows: 
+The resulting fingerprints are listed as follows:
 
 ```
 Certificate fingerprints:
