@@ -1,0 +1,188 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "61f44409_f6147c30",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "doesn\u0027t need to be so tentative",
+      "range": {
+        "startLine": 14,
+        "startChar": 37,
+        "endLine": 14,
+        "endChar": 40
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8380e46d_b26ba28b",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "Google",
+      "range": {
+        "startLine": 14,
+        "startChar": 12,
+        "endLine": 14,
+        "endChar": 18
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b7d74a1b_4aa6ced2",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "Android",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 7
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a1fbbe97_c527b92a",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "LineageOS",
+      "range": {
+        "startLine": 17,
+        "startChar": 3,
+        "endLine": 17,
+        "endChar": 10
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b52bca31_72db55d4",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "the LineageOS install zip",
+      "range": {
+        "startLine": 17,
+        "startChar": 43,
+        "endLine": 17,
+        "endChar": 50
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1ada8542_cce1343b",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "vendor.img",
+      "range": {
+        "startLine": 18,
+        "startChar": 34,
+        "endLine": 18,
+        "endChar": 40
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cccfa6e3_4f00904a",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "what\u0027s the point? we overwrite it anyway",
+      "range": {
+        "startLine": 18,
+        "startChar": 21,
+        "endLine": 18,
+        "endChar": 29
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2a7e1568_f2908a09",
+        "filename": "pages/install/bullhead.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-03-02T19:09:44Z",
+      "side": 1,
+      "message": "Where is this defined?",
+      "range": {
+        "startLine": 20,
+        "startChar": 32,
+        "endLine": 20,
+        "endChar": 45
+      },
+      "revId": "0ffd06d288b41fb1ee6d76ead997928f741306f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
