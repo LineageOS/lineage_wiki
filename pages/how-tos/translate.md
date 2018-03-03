@@ -11,6 +11,8 @@ tags:
 
 We use [Crowdin](https://crowdin.com/projects/LineageOS) as our translation system. To submit translations, create an [account](https://crowdin.com/join), click the desired language and apply as translator. Once you are accepted, you can click through the various files and suggest translations.
 
+A general rule of thumb is: `Quality, not quantity`! If you are unsure about the context of a string or about what it could mean, leave it untouched. It's much better to have the correct English string there instead of having a wrong translation which doesn't make sense to the user.
+
 ### Difference between LineageOS and LineageOS AOSP
 
 On [Crowdin](https://crowdin.com/projects/LineageOS) you will notice two different projects:
@@ -40,3 +42,19 @@ Sometimes you will notice translated strings which seem to be slightly different
 ### Original strings
 
 There is no guarantee the original strings you want to translate are perfect. If you notice an issue there, use the side bar and mark the field "issue", then type some info on what you think is wrong. If the mistake is only minor, correct this error in your translation, and submit it.
+
+## What not to translate
+
+Having the source code and crowdin strings in sync is not an easy job and stuff can slip through.
+Generally you need to pay attention to a few things:
+
+1. Strings starting with `@` (very often used in strings like `@string/<something>`) - these are marked as translatable when they shouldn't be. Please use the `issue` checkbox on the right of the screen to notify us.
+2. Strings with `xliff` tags, e.g. `<xliff:g id="name" example="Help improve LineageOS">%1$s</xliff:g>`: Keep the whole thing untouched and embed it into your translation at an appropriate place.
+   The example is just there to tell you what can be inserted instead of %1$s in the OS so you know where to place it in your translation. There is no need to touch this either.
+
+## Proofreading
+
+Every string requires to be validated by a proofreader. In case your language doesn't have an active proofreader, you can apply for it.
+As a proofreader you also have to make sure that the submitted strings match the context.
+
+{% include note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
