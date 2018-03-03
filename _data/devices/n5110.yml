@@ -19,7 +19,7 @@ image: n5100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
 maintainers: [rgib]
-models:
+models: []
 name: Galaxy Note 8.0 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }
