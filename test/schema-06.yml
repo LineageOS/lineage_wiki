@@ -212,9 +212,16 @@ properties:
   current_branch:
     "$id": "/properties/current_branch"
     "$ref": "#/definitions/valid_branches"
+  custom_twrp_link:
+    "$id": "/properties/custom_twrp_link"
+    type: string
+    pattern: ^https?:\/\/(.*)
   custom_unlock_cmd:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
+    type: string
+  download_boot:
+    "$id": "/properties/download_boot"
     type: string
   gpu:
     "$id": "/properties/gpu"
@@ -281,6 +288,9 @@ properties:
     "$id": "/properties/maintainers"
     minItems: 0
     type: array
+  models:
+    "$id": "/properties/models"
+    type: array
   name:
     "$id": "/properties/name"
     minLength: 1
@@ -297,6 +307,9 @@ properties:
       type: array
     - enum:
       - None
+  recovery_boot:
+    "$id": "/properties/recovery_boot"
+    type: string
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
@@ -316,6 +329,10 @@ properties:
     "$id": "/properties/required_bootloader"
     minItems: 1
     type: array
+  tree:
+    "$id": "/properties/tree"
+    pattern: ^android_device_(.*)$
+    type: string
   type:
     "$id": "/properties/type"
     enum:
@@ -405,6 +422,7 @@ required:
 - name
 - peripherals
 - release
+- tree
 - type
 - vendor
 - vendor_short
