@@ -15,7 +15,6 @@ custom_twrp_link: https://androidfilehost.com/?fid=673791459329072194
 depth: 4.9 mm (0.19 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 148.9 mm (5.86 in)
 image: r5.png
 install_method: fastboot_oppo

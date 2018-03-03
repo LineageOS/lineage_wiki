@@ -15,7 +15,6 @@ custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
-has_recovery_partition: true
 height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus

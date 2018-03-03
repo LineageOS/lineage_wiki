@@ -15,7 +15,6 @@ custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 430
-has_recovery_partition: true
 height: 159.3 mm (6.27 in)
 image: angler.png
 install_method: fastboot_nexus

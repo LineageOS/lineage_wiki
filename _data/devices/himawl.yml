@@ -15,7 +15,6 @@ depth: 9.6 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 430
-has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: himaul.png
 install_method: fastboot_htc

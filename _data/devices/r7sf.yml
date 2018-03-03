@@ -15,7 +15,6 @@ custom_twrp_link: https://androidfilehost.com/?fid=745849072291699731
 depth: 7 mm (0.21 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 151.8 mm (5.98 in)
 image: r7sf.png
 install_method: fastboot_oppo
