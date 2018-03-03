@@ -16,7 +16,6 @@ depth: 13.7 mm (0.54 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
 gpu: Adreno 225
-has_recovery_partition: true
 height: 126.5 mm (4.98 in)
 image: xt897.png
 install_method: fastboot_motorola

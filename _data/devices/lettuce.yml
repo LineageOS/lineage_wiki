@@ -15,7 +15,6 @@ custom_twrp_link: https://androidfilehost.com/?fid=962157660013070611
 depth: 8.2 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 306
-has_recovery_partition: true
 height: 142.4 mm (5.6 in)
 image: lettuce.png
 install_method: fastboot_nexus

@@ -14,7 +14,6 @@ current_branch: 13.0
 depth: 10.4 mm (0.41 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
-has_recovery_partition: true
 height: 129.3 mm (5.09 in)
 image: ghost.png
 install_method: fastboot_motorola

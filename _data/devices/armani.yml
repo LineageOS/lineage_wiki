@@ -15,7 +15,6 @@ depth: 9.9  mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 305
-has_recovery_partition: true
 height: 137 mm (5.39 in)
 image: armani.png
 install_method: fastboot_xiaomi

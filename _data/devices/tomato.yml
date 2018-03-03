@@ -15,7 +15,6 @@ custom_twrp_link: https://androidfilehost.com/?fid=889964283620777297
 depth: 8.9 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 152.9 mm
 image: tomato.png
 install_method: fastboot_nexus
