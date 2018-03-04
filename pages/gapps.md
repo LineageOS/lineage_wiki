@@ -18,7 +18,8 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Lineage 15.1 (Android 8.1)|[MindTheGapps (AFH)](https://androidfilehost.com/?w=files&flid=170282), [MindTheGapps (Codefire)](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)|
+|Lineage 15.1 (Android 8.1)|[OpenGApps](http://opengapps.org/?api=8.1&variant=nano), [MindTheGapps (AFH)](https://androidfilehost.com/?w=files&flid=170282), [MindTheGapps (Codefire)](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)|
+|Lineage 15.0 (Android 8.0)|[OpenGApps](http://opengapps.org/?api=8.0&variant=nano)|
 |Lineage 14.1 (Android 7.1)|[OpenGApps](http://opengapps.org/?api=7.1&variant=nano)|
 |Lineage 13.0 (Android 6.0)|[OpenGApps](http://opengapps.org/?api=6.0&variant=nano)|
 
