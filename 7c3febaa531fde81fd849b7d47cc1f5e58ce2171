@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a0b28460_3408ba80",
+        "filename": "pages/gapps.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-06T13:06:47Z",
+      "side": 1,
+      "message": "Could be just \"mirror\" to make it shorter.",
+      "range": {
+        "startLine": 21,
+        "startChar": 152,
+        "endLine": 21,
+        "endChar": 170
+      },
+      "revId": "7c3febaa531fde81fd849b7d47cc1f5e58ce2171",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
