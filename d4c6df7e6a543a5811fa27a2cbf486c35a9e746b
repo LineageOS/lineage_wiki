@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1c7488f6_f4eaba49",
+        "filename": "_data/devices/kuntao.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-06T07:26:31Z",
+      "side": 1,
+      "message": "just 4.1",
+      "range": {
+        "startLine": 3,
+        "startChar": 19,
+        "endLine": 3,
+        "endChar": 27
+      },
+      "revId": "d4c6df7e6a543a5811fa27a2cbf486c35a9e746b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "44d417aa_bd36ed67",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 161,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-06T07:26:31Z",
+      "side": 1,
+      "message": "4.1 doesnt need LE separately specified",
+      "range": {
+        "startLine": 161,
+        "startChar": 8,
+        "endLine": 161,
+        "endChar": 20
+      },
+      "revId": "d4c6df7e6a543a5811fa27a2cbf486c35a9e746b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
