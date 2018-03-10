@@ -51,4 +51,10 @@ in `frameworks/base`.
 * If you unofficially maintain a device, and think it's good enough to go live, follow our instructions on [submitting a port]({{ "submitting_device.html" | relative_url }}). One of our developer relations
 staff will reach out to you, and we'll work to get the ball rolling on official builds for your device.
 
+### LineageSDK
+
+Enhance your apps with new Lineage-specific APIs using the [LineageOS platform SDK]({{ "sdk" | relative_url}}).
+
+## Wiki contents
+
 You can view all current pages [here]({{ "pages.html" | relative_url }}).

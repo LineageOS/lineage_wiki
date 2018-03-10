@@ -7,7 +7,7 @@ tags:
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
-{% assign ignore_tags = "noindex|how-to" | split: "|" %}
+{% assign ignore_tags = "noindex|how-to|sdk" | split: "|" %}
 
 {% for page in sorted_pages %}
 {% assign ignore = false %}
