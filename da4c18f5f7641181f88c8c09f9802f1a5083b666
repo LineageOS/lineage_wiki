@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c5c0e4fd_eaa8ae61",
+        "filename": "pages/sdk/styles_api.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-03-11T13:05:07Z",
+      "side": 1,
+      "message": "context.packageName",
+      "range": {
+        "startLine": 114,
+        "startChar": 12,
+        "endLine": 114,
+        "endChar": 36
+      },
+      "revId": "da4c18f5f7641181f88c8c09f9802f1a5083b666",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
