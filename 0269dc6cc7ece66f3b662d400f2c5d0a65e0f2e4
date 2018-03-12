@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "945d939a_f33070b7",
+        "filename": "pages/lineage_sdk.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-12T13:44:09Z",
+      "side": 1,
+      "message": "sdk/",
+      "range": {
+        "startLine": 4,
+        "startChar": 11,
+        "endLine": 4,
+        "endChar": 27
+      },
+      "revId": "0269dc6cc7ece66f3b662d400f2c5d0a65e0f2e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
