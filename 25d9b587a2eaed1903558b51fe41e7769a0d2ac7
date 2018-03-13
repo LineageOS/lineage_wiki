@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94ecd72b_198a2ad2",
+        "filename": "pages/sdk/add_to_your_app.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-13T12:40:13Z",
+      "side": 1,
+      "message": "remove space, add \":\"",
+      "range": {
+        "startLine": 44,
+        "startChar": 55,
+        "endLine": 44,
+        "endChar": 56
+      },
+      "revId": "25d9b587a2eaed1903558b51fe41e7769a0d2ac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dd6b0762_cc131fab",
+        "filename": "pages/sdk/api-versions.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-13T12:40:13Z",
+      "side": 1,
+      "message": "sdk/api/versions.html",
+      "range": {
+        "startLine": 5,
+        "startChar": 11,
+        "endLine": 5,
+        "endChar": 32
+      },
+      "revId": "25d9b587a2eaed1903558b51fe41e7769a0d2ac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0ab0bb42_f5cd3f59",
+        "filename": "pages/sdk/profiles_api.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-03-13T12:40:13Z",
+      "side": 1,
+      "message": "could add a new line here (just after the dot. the result will stay the same, the code will get a line break)",
+      "revId": "25d9b587a2eaed1903558b51fe41e7769a0d2ac7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
