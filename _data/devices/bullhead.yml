@@ -20,6 +20,7 @@ height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
+kernel_version: 3.10.73
 maintainers: [razorloves]
 name: Nexus 5X
 network:

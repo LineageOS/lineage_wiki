@@ -20,6 +20,7 @@ height:
 image: shieldtablet.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_shield
+kernel_version: 3.10.96
 maintainers: [webgeek1234]
 name: Shield Tablet
 network:

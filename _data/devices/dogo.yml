@@ -20,6 +20,7 @@ image: dogo.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
 kernel: android_kernel_sony_apq8064
+kernel_version: 3.4.113
 maintainers: [Daedroza, Chippa_a, CyberWalkMaN, Adrian DC]
 name: Xperia ZR
 network:

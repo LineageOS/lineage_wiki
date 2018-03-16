@@ -20,6 +20,7 @@ image: huashan.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
 kernel: android_kernel_sony_msm8960t
+kernel_version: 3.4.113
 maintainers: [Adrian DC]
 name: Xperia SP
 network:

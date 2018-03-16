@@ -19,6 +19,7 @@ height: 137.7 mm (5.42 in)
 image: jag3gds.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
+kernel_version: 3.4.0
 maintainers: [vm03, quarx2k, nikitaproandroid, mobiusm]
 name: G3 Beat
 network:

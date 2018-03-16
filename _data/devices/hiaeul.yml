@@ -19,6 +19,7 @@ height: 145.8 mm (5.74 in)
 image: hiae.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8952
+kernel_version: 3.10.84
 maintainers: [intervigil]
 models: [2PQ9120]
 name: One A9 (GSM US)

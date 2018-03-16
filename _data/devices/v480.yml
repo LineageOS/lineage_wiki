@@ -19,6 +19,7 @@ height: 210.8 mm (8.30 in)
 image: v480.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
+kernel_version: 3.4.0
 maintainers: [jpjust]
 name: G Pad 8.0 (Wi-Fi)
 network:

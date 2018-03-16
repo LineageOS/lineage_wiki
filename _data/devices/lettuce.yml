@@ -20,6 +20,7 @@ height: 142.4 mm (5.6 in)
 image: lettuce.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
+kernel_version: 3.10.108
 maintainers: [mikeioannina, TheStrix, h2o64]
 name: Yuphoria
 network:

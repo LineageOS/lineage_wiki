@@ -20,6 +20,7 @@ height: 151.8 mm (5.98 in)
 image: r7sf.png
 install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
+kernel_version: 3.10.105
 maintainers: [Celoxocis]
 models: [R7sf]
 name: R7s (International)
