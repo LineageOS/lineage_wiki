@@ -20,6 +20,7 @@ image: yuga.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
 kernel: android_kernel_sony_apq8064
+kernel_version: 3.4.113
 maintainers: [Daedroza, CyberWalkMaN, MardonHH, Chippa_a, Adrian DC]
 name: Xperia Z
 network:

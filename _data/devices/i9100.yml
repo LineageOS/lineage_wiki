@@ -19,6 +19,7 @@ height:
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
+kernel_version: 3.0.101
 maintainers: [lysergic_acid]
 models: [GT-I9100, GT-I9100T, GT-I9100M, GT-I9100P, SC-02C]
 name: Galaxy S II

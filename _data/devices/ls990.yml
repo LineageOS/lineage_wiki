@@ -19,6 +19,7 @@ height: 146.3 mm (5.76 in)
 image: g3.png
 install_method: dd
 kernel: android_kernel_lge_g3
+kernel_version: 3.4.113
 maintainers: [Kasual, shelnutt]
 name: G3 (Sprint)
 network:

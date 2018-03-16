@@ -17,6 +17,7 @@ height:
 image: fugu.png
 install_method: fastboot_nexus
 kernel: android_kernel_asus_fugu
+kernel_version: 3.10.20
 maintainers: [npjohnson]
 name: Nexus Player
 network:

@@ -20,6 +20,7 @@ height:
 image: hammerhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_hammerhead
+kernel_version: 3.4.0
 maintainers: [razorloves]
 name: Nexus 5
 network:

@@ -19,6 +19,7 @@ height: 154.8 mm (6.09 in)
 image: nx512j.png
 install_method: fastboot_nexus
 kernel: android_kernel_nubia_msm8939
+kernel_version: 3.10.107
 maintainers: [Bauuuuu]
 name: Z9 Max
 network:

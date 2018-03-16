@@ -20,6 +20,7 @@ height: 159.3 mm (6.27 in)
 image: angler.png
 install_method: fastboot_nexus
 kernel: android_kernel_huawei_angler
+kernel_version: 3.10.73
 maintainers: [razorloves, sam3000]
 name: Nexus 6P
 network:

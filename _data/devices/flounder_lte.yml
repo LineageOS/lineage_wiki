@@ -21,6 +21,7 @@ height: 228.25 mm (8.99 in)
 image: flounder.png
 install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
+kernel_version: 3.10.103
 maintainers: [hashbang173, razorloves]
 name: Nexus 9 (LTE)
 network:
