@@ -20,6 +20,7 @@ height: 156.1 mm (6.15 in)
 image: dumpling.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8998
+kernel_version: 4.4.100
 maintainers: [amartinz, codeworkx]
 name: '5T'
 network:

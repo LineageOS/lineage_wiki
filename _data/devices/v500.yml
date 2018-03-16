@@ -19,6 +19,7 @@ height: 216.8 mm (8.54 in)
 image: v500.png
 install_method: dd
 kernel: android_kernel_lge_v500
+kernel_version: 3.4.0
 maintainers: [fefifofum]
 name: G Pad 8.3
 network:

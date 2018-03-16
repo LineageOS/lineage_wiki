@@ -19,6 +19,7 @@ height: 159.3 mm (6.27 in)
 image: shamu.png
 install_method: fastboot_nexus
 kernel: android_kernel_moto_shamu
+kernel_version: 3.10.108
 maintainers: [Elektroschmock, razorloves]
 name: Nexus 6
 network:

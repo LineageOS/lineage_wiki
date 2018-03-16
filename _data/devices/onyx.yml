@@ -17,6 +17,7 @@ has_recovery_partition: true
 image: onyx.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_onyx
+kernel_version: 3.4.0
 maintainers: [ashwinr64]
 name: X
 network:

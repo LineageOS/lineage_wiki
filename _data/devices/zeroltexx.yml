@@ -19,6 +19,7 @@ height: 143.4 mm (5.65 in)
 image: zeroltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos7420
+kernel_version: 3.10.61
 maintainers: [Usaamah99]
 models: [SM-G925F]
 name: Galaxy S6 Edge

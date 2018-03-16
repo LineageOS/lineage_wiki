@@ -20,6 +20,7 @@ height: 158 mm (6.22 in)
 image: r7plus.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8939
+kernel_version: 3.10.105
 maintainers: [maniac103, mikeioannina]
 models: [R7plusf]
 name: R7 Plus (International)

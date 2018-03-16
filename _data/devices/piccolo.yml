@@ -20,6 +20,7 @@ height: 143 mm (5.63 in)
 image: piccolo.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
+kernel_version: 3.10.49
 maintainers: [brinlyau, cmorlok, eloimuns, Kra1o5, stucki, Team aquaris-dev]
 name: Aquaris M5
 network:

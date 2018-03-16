@@ -19,6 +19,7 @@ height: 136.6mm (5.4in)
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
+kernel_version: 3.0.101
 maintainers: [forkbomb]
 models: [GT-I9300, GT-I9300T]
 name: Galaxy S III (International)

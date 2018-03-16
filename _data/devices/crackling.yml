@@ -20,6 +20,7 @@ height:
 image: crackling.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
+kernel_version: 3.10.108
 maintainers: [marado]
 name: Swift
 network:
