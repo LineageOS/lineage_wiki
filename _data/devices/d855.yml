@@ -28,6 +28,7 @@ network:
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor, FM radio]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Release and press <kbd>Power</kbd> again as soon as the LG logo appears.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-05
 root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
