@@ -40,5 +40,5 @@
     * {{ site.data.devices[page.device].recovery_boot }}
 
 {% if site.data.devices[page.device].vendor == "LG" %}
-{% include note.html content="Ignore the screen asking about a factory reset. If you have done everything correctly, accepting a factory reset will not actually reset your device." %}
+{% include note.html content="Accept the factory reset with your hardware buttons. If you have done everything correctly, this will not actually reset your device but instead will install your custom recovery." %}
 {% endif %}
