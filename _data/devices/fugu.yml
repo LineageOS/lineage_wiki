@@ -8,7 +8,7 @@ codename: fugu
 cpu: Intel Atom
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth:
 download_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
 gpu: PowerVR Series 6
@@ -40,6 +40,6 @@ tree: android_device_asus_fugu
 type: Set top box
 vendor: Google
 vendor_short: asus
-versions: [14.1]
+versions: [14.1, 15.1]
 width:
 wifi: 802.11ac 2x2 Broadcom 2.4 GHz and 5 GHz
