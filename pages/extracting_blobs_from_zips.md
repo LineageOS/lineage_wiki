@@ -18,12 +18,18 @@ mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat` from the installable LineageOS zip:
+Extract `system.transfer.list` and `system.new.dat` or `system.new.dat.br` from the installable LineageOS zip:
 
 ```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat
+unzip path/to/lineage-*.zip system.transfer.list system.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
+
+Especially if your installable zip provides an Android Oreo (8.x) image, the command above probably unzipped `system.new.dat.br` (notice file ending `.br`). In that case you will need to decompress it using the `brotli` utility:
+
+```
+brotli --decompress --input system.new.dat.br --output system.new.dat
+```
 
 You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
 
