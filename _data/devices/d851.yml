@@ -27,6 +27,7 @@ network:
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Release and press <kbd>Power</kbd> again as soon as the LG logo appears.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-06
 root_method: [kingroot]
