@@ -22,6 +22,30 @@
       "revId": "1edbe903aca422e9bfc3097975fd75cb34b9bad9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dec41acb_aa86c57d",
+        "filename": "_data/devices/kltedv.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-21T10:23:59Z",
+      "side": 1,
+      "message": "Replying to myself, yes it does. SM-G900P is the Sprint variant, judging by https://github.com/LineageOS/lineage_wiki/commit/2773b6aac1ebba53178d95ee677032f70ee1c8f3.",
+      "parentUuid": "bd245c43_d102ed64",
+      "range": {
+        "startLine": 21,
+        "startChar": 9,
+        "endLine": 21,
+        "endChar": 27
+      },
+      "revId": "1edbe903aca422e9bfc3097975fd75cb34b9bad9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
