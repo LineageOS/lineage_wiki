@@ -94,6 +94,78 @@
     },
     {
       "key": {
+        "uuid": "ffaa882f_66090a1a",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18177
+      },
+      "writtenOn": "2018-03-21T14:52:16Z",
+      "side": 1,
+      "message": "This is mostly a copy from the H910/H918/VS995/US996/LS997, so it has \"Color spectrum\" just like the other variants.  The order is funky, but that is present.",
+      "parentUuid": "8ac8f50f_0f7a3242",
+      "range": {
+        "startLine": 29,
+        "startChar": 98,
+        "endLine": 29,
+        "endChar": 112
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c8edf654_5482e26a",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18177
+      },
+      "writtenOn": "2018-03-21T14:52:16Z",
+      "side": 1,
+      "message": "One of two items not present on every LG V20 variant.  Listed second to last so all extras are at end (I suspect H918 and US996 might also have the hardware available, but I lack anywhere to cite).",
+      "parentUuid": "6b578053_b14dd396",
+      "range": {
+        "startLine": 29,
+        "startChar": 213,
+        "endLine": 29,
+        "endChar": 221
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "82078a6d_62618d89",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 18177
+      },
+      "writtenOn": "2018-03-21T14:52:16Z",
+      "side": 1,
+      "message": "Includes \"Ambient light sensor\" like the other V20 variants.",
+      "parentUuid": "c48441cc_77c2e25f",
+      "range": {
+        "startLine": 29,
+        "startChar": 114,
+        "endLine": 29,
+        "endChar": 134
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6f4be9ff_7b2a3ef9",
         "filename": "pages/build/h990.md",
         "patchSetId": 7
@@ -105,6 +177,30 @@
       "writtenOn": "2018-01-25T10:32:47Z",
       "side": 1,
       "message": "Remove",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 30
+      },
+      "revId": "cfd6de20e243cf4b650ffaa836f4b7ae23653027",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "966290b7_9b6fad64",
+        "filename": "pages/build/h990.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 18177
+      },
+      "writtenOn": "2018-03-21T14:52:16Z",
+      "side": 1,
+      "message": "Done.  Also changed to \"folder: build\" to match other V20 variants.",
+      "parentUuid": "6f4be9ff_7b2a3ef9",
       "range": {
         "startLine": 5,
         "startChar": 0,
