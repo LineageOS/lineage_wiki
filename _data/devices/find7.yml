@@ -1,5 +1,7 @@
 architecture: arm
-battery: {removable: True, capacity: 2800, tech: 'Li-Po', fastcharge: True}
+battery:
+- Find 7a: {removable: True, capacity: 2800, tech: 'Li-Po', fastcharge: True}
+- Find 7s: {removable: True, capacity: 3000, tech: 'Li-Po', fastcharge: True}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
@@ -9,8 +11,8 @@ channels: [weekly]
 codename: find7
 cpu: Krait 400
 cpu_cores: '4'
-cpu_freq: 2.26 GHz
-current_branch: 14.1
+cpu_freq: 2.3 GHz/2.5 GHz
+current_branch: 15.1
 depth: 9.2 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
@@ -20,27 +22,30 @@ image: find7.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8974
 maintainers: [mikeioannina]
-name: Find 7a
+models: [Find 7a, Find 7s]
+name: Find 7a/s
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz UMTS/HSPA+' }
-- {tech: 4G, bands: '700 1700 2100 Mhz FDD' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Intl), 850 900 1700 1900 2100 MHz HSDPA (Mexico & US)' }
+- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 20(800) LTE (Intl), 700 1700 2100 MHz LTE (Mexico & US)' }
 no_oem_unlock_switch: true
 peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
-ram: 2 GB
+ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release: 2014-03-19
+release:
+- Find 7a: 2014-03-19
+- Find 7s: 2014-05-19
 screen: 139.7 mm (5.5 in)
-screen_ppi: '401'
-screen_res: 1920x1080
+screen_ppi: '401/534'
+screen_res: 1920x1080/1440x2560
 screen_tech: JDI IPS
 sdcard: up to 128 GB
-soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16 GB
+soc: Qualcomm MSM8974AB/MSM8974AC Snapdragon 801
+storage: 16/32 GB
 tree: android_device_oppo_find7
 type: phone
 vendor: OPPO
 vendor_short: oppo
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 75 mm (2.95 in)
-wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
