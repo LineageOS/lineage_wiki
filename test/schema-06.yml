@@ -32,6 +32,9 @@ definitions:
     - capacity
     - removable
     type: object
+  cpu_frequency_format:
+    pattern: ^(\d(\.\d+)? GHz)|(\d x \d(\.\d+)? GHz \+ \d x \d(\.\d+)? GHz)|(\d x \d(\.\d+)? GHz)$
+    type: string
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -207,8 +210,19 @@ properties:
     - string
   cpu_freq:
     "$id": "/properties/cpu_freq"
-    minLength: 3
-    type: string
+    oneOf:
+    - "$ref": "#/definitions/cpu_frequency_format"
+    - description: Array of maps of model numbers to cpu frequencies
+      examples:
+      - SM-9000A: 1 GHz
+      - SM-9000B: 4 x 1.44 GHz
+      - SM-9000C: 4 x 1.44 GHz + 2 x 1.2 GHz
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/cpu_frequency_format"
+        description: Map of model number to cpu frequencies
+        type: object
+      type: array
   current_branch:
     "$id": "/properties/current_branch"
     "$ref": "#/definitions/valid_branches"

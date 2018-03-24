@@ -9,7 +9,7 @@ channels: [weekly]
 codename: i9300
 cpu: Cortex-A9
 cpu_cores: 4
-cpu_freq: 1.4GHz
+cpu_freq: 1.4 GHz
 current_branch: 14.1
 depth: 8.6mm (0.34in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

@@ -9,7 +9,7 @@ channels: [weekly]
 codename: oneplus2
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
-cpu_freq: 4 x 1.5 Ghz + 4 x 1.8 Ghz
+cpu_freq: 4 x 1.5 GHz + 4 x 1.8 GHz
 current_branch: 15.1
 depth: 9.85 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

@@ -9,7 +9,7 @@ channels: [weekly]
 codename: ivy
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
-cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
+cpu_freq: 4 x 2.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
 depth: 6.9 mm (0.27 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.

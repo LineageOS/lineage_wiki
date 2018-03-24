@@ -9,7 +9,11 @@ channels: [discontinued]
 codename: Z00A
 cpu: Intel Atom
 cpu_cores: '4'
-cpu_freq: 2.3/1.8 GHz
+cpu_freq:
+- ZE500CL: 1.6 GHz
+- ZE550ML: 1.8 GHz
+- ZE551ML: 2.3 GHz
+- ZE551ML: 1.8 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR G6430
