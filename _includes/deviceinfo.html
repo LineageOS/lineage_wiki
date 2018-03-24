@@ -79,7 +79,21 @@ ul, ol {
                     Octa-core
                 {% else %}
                     {{ device.cpu_cores }}x
-            {% endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
+            {% endcase %} {{ device.cpu }}<br/>
+            {%- if device.cpu_freq.first %}
+            <table style="max-width: 100%; margin-bottom: 0px; margin-left: auto; margin-right: 0px;">
+            {%- for model in device.cpu_freq %}
+            <tr>
+                <td style="text-align: left;">{{ model.first[0] }}</td>
+                <td>
+                    {{ model.first[1] | replace: "+ ", "+<br/>" }}
+                </td>
+            </tr>
+            {% endfor %}
+            </table>
+            {%- else -%}
+            {{ device.cpu_freq }}<br/>
+            {%- endif %}
         </td>
     </tr>
     <tr>

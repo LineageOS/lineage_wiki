@@ -9,7 +9,7 @@ channels: [weekly]
 codename: sumire
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
-cpu_freq: 4 x 1.5 Ghz + 4 x 2.0 Ghz
+cpu_freq: 4 x 1.5 GHz + 4 x 2.0 GHz
 current_branch: 14.1
 custom_twrp_link: https://forum.xda-developers.com/devdb/project/dl/?id=26670
 depth: 7.3 mm

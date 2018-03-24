@@ -9,7 +9,7 @@ channels: [weekly]
 codename: karin
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
-cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
+cpu_freq: 4 x 2.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
 custom_twrp_link: https://androidfilehost.com/?w=files&flid=93037
 depth: 6.1 mm (0.24 in)

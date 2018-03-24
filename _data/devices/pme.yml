@@ -10,7 +10,7 @@ channels: [weekly]
 codename: pme
 cpu: Kryo
 cpu_cores: '4'
-cpu_freq: 2x2.15 GHz, 2x1.6 GHz
+cpu_freq: 2 x  2.15 GHz + 2 x 1.6 GHz
 current_branch: 14.1
 depth: 9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
