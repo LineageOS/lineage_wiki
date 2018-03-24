@@ -17,7 +17,6 @@ custom_unlock_cmd: 'fastboot oem let-me-free'
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
-has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: sample.png
 install_method: heimdall

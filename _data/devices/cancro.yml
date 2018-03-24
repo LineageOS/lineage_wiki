@@ -17,7 +17,6 @@ depth: 8.1 mm (0.32 in) (Mi 3) / 8.9 mm (0.35 in) (Mi 4)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 330
-has_recovery_partition: true
 height: 144 mm (5.67 in) (Mi 3) / 139.2 (5.48 in) (Mi 4)
 image: cancro.png
 install_method: fastboot_xiaomi

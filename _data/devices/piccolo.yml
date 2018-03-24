@@ -15,7 +15,6 @@ depth: 8.4 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Adreno 405
-has_recovery_partition: true
 height: 143 mm (5.63 in)
 image: piccolo.png
 install_method: fastboot_nexus

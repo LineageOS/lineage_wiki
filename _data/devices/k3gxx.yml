@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
-has_recovery_partition: true
 height: 142 mm (5.59 in)
 image: k3gxx.png
 install_method: heimdall

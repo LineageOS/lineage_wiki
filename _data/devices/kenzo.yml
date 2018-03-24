@@ -15,7 +15,6 @@ depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 510
-has_recovery_partition: true
 height: 150 mm (5.91 in)
 image: kenzo.png
 install_method: fastboot_xiaomi

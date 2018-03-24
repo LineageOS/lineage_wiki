@@ -14,7 +14,6 @@ current_branch: 14.1
 depth: 7.9mm
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
-has_recovery_partition: true
 height: 243.1mm
 image: n1awifi.png
 install_method: heimdall
