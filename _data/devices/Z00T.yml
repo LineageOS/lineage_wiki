@@ -9,7 +9,9 @@ channels: [weekly]
 codename: Z00T
 cpu: Cortex-A53
 cpu_cores: '8'
-cpu_freq: 1.7/1.0 GHz
+cpu_freq:
+- Laser: 1.7 GHz
+- Selfie: 1.0 GHz
 current_branch: 14.1
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405

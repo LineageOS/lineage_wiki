@@ -9,7 +9,7 @@ channels: [weekly]
 codename: himaul
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
-cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
+cpu_freq: 4 x 1.5 GHz + 4 x 2 GHz
 current_branch: 14.1
 depth: 9.6 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.

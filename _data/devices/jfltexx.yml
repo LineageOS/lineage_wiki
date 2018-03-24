@@ -9,7 +9,7 @@ channels: [weekly]
 codename: jfltexx
 cpu: Krait 300
 cpu_cores: 4
-cpu_freq: 1.9GHz
+cpu_freq: 1.9 GHz
 current_branch: 14.1
 custom_twrp_link: https://www.androidfilehost.com/?fid=962187416754463329
 depth: 7.9mm (0.31 in)
