@@ -15,7 +15,6 @@ custom_twrp_link: https://forum.xda-developers.com/devdb/project/dl/?id=26670
 depth: 7.3 mm
 download_boot: With the device powered down, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
-has_recovery_partition: true
 height: 146.0 mm
 image: sumire.png
 install_method: fastboot_sony

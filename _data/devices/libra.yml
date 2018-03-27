@@ -15,7 +15,6 @@ depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 418
-has_recovery_partition: true
 height: 138.1 mm (5.44 in)
 image: libra.png
 install_method: fastboot_xiaomi

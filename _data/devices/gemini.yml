@@ -16,7 +16,6 @@ depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 530
-has_recovery_partition: true
 height: 144.6 mm (5.69 in)
 image: gemini.png
 install_method: fastboot_xiaomi

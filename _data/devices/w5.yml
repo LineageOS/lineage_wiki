@@ -12,7 +12,6 @@ cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 gpu: Adreno 302
-has_recovery_partition: true
 image: w5.png
 install_method: dd
 kernel: android_kernel_lge_msm8226

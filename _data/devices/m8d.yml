@@ -16,7 +16,6 @@ depth: 9.35 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 320
-has_recovery_partition: true
 height: 146.36 mm (5.76 in)
 image: m8.png
 install_method: fastboot_htc

@@ -12,7 +12,6 @@ current_branch: 15.1
 depth:
 download_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
 gpu: PowerVR Series 6
-has_recovery_partition: true
 height:
 image: fugu.png
 install_method: fastboot_nexus

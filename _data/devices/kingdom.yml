@@ -15,7 +15,6 @@ depth: 7.7 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
   A small green Android logo appears at the center of the screen.
 gpu: Adreno 330
-has_recovery_partition: true
 height: 156 mm (6.14 in)
 image: kingdom.png
 install_method: fastboot_custom
