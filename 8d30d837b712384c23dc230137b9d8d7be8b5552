@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "36161d17_4ca4f3ca",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-27T17:30:45Z",
+      "side": 1,
+      "message": "templates: Make LG recovery install note clearer",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 24
+      },
+      "revId": "8d30d837b712384c23dc230137b9d8d7be8b5552",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "877650bf_cee86f48",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-27T17:30:45Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 43,
+        "startChar": 68,
+        "endLine": 43,
+        "endChar": 72
+      },
+      "revId": "8d30d837b712384c23dc230137b9d8d7be8b5552",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3deb755c_62bbc0fe",
+        "filename": "_includes/templates/recovery_install_dd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-03-27T17:30:45Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 43,
+        "startChar": 196,
+        "endLine": 43,
+        "endChar": 200
+      },
+      "revId": "8d30d837b712384c23dc230137b9d8d7be8b5552",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
