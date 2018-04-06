@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
 depth:
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
 gpu: Adreno 330
 height:
@@ -28,7 +28,7 @@ network:
 no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
   Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 release: 2013-10-31
