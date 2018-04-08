@@ -8,7 +8,7 @@ permalink: verifying-builds.html
 All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by running: 
 
 ```
-keytool -list -printcert -jarfile lineage-build-signed.zip
+keytool -J-Duser.language=en -list -printcert -jarfile lineage-build-signed.zip
 ```
 
 The resulting fingerprints are listed as follows: 
