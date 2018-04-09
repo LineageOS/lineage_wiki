@@ -6,6 +6,8 @@
 
 ## Preparing for installation
 
+{% include warning.html content="You must unlock your device's bootloader before installing LineageOS. On modern Samsung devices, you can unlock the bootloader in the Settings app by enabling (Developer options) -> (OEM unlock).  Note: This will void your warranty!" %}
+
 Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
 [Heimdall](http://www.glassechidna.com.au/products/heimdall/) is a cross-platform, open-source tool for interfacing with Download mode on Samsung devices.
 The preferred method of installing a custom recovery is through this boot mode{% unless custom_root_instructions %} -- rooting the stock firmware is neither necessary nor required{% endunless %}.
