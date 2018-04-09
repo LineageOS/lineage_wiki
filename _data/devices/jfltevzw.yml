@@ -27,6 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+ / UMTS, CDMA2000 1xEV-DO' }
 - {tech: 4G, bands: '1700/2100 700 MHz LTE' }
+no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
   Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 ram: 2 GB

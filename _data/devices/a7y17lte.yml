@@ -27,6 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 HSDPA' }
 - {tech: 4G, bands: '1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 17(700), 20(800), 28(700), 38(2600), 40(2300), 41(2500) LTE' }
+no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS,
     GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light,
     Sensor hub, USB OTG, Wi-Fi Display]

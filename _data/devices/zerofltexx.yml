@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1800 1900 HSDPA' }
 - {tech: 4G, bands: 'B1-B8, B12, B17-B20, B26' }
+no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   RGB ambient light, Infrared sensor, GPS, NFC]

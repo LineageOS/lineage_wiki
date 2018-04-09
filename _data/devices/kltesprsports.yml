@@ -26,6 +26,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz UMTS, 800 1900 MHz EvDO' }
 - {tech: 4G, bands: '25(1900) 26(850) 41(2500) LTE' }
+no_oem_unlock_switch: true
 peripherals: [Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, RGB ambient light, Infrared sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
