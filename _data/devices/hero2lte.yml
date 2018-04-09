@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: 'B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)' }
+no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
 ram: 4 GB

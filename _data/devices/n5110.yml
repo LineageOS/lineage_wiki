@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.

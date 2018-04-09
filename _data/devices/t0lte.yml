@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 1800 Mhz CDMA (E250L)' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (N7105/T), 850 1900 2100 MHz HSDPA (i317/M,T889/V), 1900 2100 Mhz HSDPA (E250S/K/L)' }
 - {tech: 4G, bands: '800 1800 2600 MHz (N7105), 1800 2600 MHz (N7105T), 700 850 1900 (i317/M), 700 (T889/V), 850 1800 Mhz (E250S), 900 1800 MHz (E250K), 850 2100 MHz (E250L)' }
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
