@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals:
 - SM-T700: [Accelerometer, Compass, GPS, Gyroscope]
 - Unsupported: [Fingerprint reader]
