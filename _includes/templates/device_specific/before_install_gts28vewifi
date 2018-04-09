@@ -1,0 +1,1 @@
+{% include warning.html content="Please ensure your tablet's bootloader is unlocked before installing LineageOS. In Settings, make sure Developer options -> OEM unlock is enabled." %}
