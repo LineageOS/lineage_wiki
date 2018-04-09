@@ -26,6 +26,7 @@ network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
