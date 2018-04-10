@@ -62,3 +62,6 @@ The preferred method of installing a custom recovery is through this boot mode{%
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. The device will reboot into recovery.
+
+    {% include tip.html content="If the command fails and transfer never ends, you should try to flash only one partition on each heimdall command : <br>1. Boot into download mode, and flash BOOT partition as describe above, <br>2. When device reboot, you must force download mode, as soon as screen light-off, <br>3. Flash RECOVERY partition and leave device reboot into recovery." %}
+
