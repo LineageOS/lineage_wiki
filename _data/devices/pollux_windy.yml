@@ -23,7 +23,7 @@ maintainers: [CaHbKaUp, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
 name: Xperia Tablet Z Wi-Fi
 network: None
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
-ram: 2 GB LPDDR2
+ram: 2 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 release: 2013-02
 screen: 256.54 mm (10.1 in)

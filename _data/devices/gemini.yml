@@ -27,7 +27,10 @@ network:
 - {tech: 3G, bands: '850 900 1800 1900 MHz HSPA, 1900 2000 MHz TD-CDMA' }
 - {tech: 4G, bands: '850(B5) 1800(B3) 2100(B1) 2600(B7) MHz FDD-LTE, 1900(B39) 2300(B40) 2500(B41) 2600(B38) MHz TDD-LTE' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
-ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
+ram:
+- Standard edition: 3 GB
+- Pro edition: 3 GB
+- Exclusive edition: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2016-04

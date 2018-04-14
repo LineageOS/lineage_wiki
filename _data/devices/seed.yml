@@ -23,7 +23,9 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '20 3 7' }
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
-ram: 2 GB / 1 GB for IQ II
+ram:
+- Default: 2 GB
+- IQ II: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-07
 screen: 127mm (5.0 in)

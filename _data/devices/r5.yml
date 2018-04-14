@@ -30,7 +30,9 @@ no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Compass, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
 project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
-ram: 2 GB (R5), 3 GB (R5s)
+ram:
+- R5: 2 GB
+- R5s: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release:
 - R8106: 2014-12
