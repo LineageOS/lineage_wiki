@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fb3113bb_ca8c3da2",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-04-14T18:16:10Z",
+      "side": 1,
+      "message": "Should be \"Light sensor\"",
+      "range": {
+        "startLine": 29,
+        "startChar": 114,
+        "endLine": 29,
+        "endChar": 134
+      },
+      "revId": "aa827fb08a7a15b308de4d5bb4ce562699759af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "28c6a284_e184e47c",
+        "filename": "_data/devices/h990.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-04-14T18:16:10Z",
+      "side": 1,
+      "message": "Should be \"Color spectrum sensor\"",
+      "range": {
+        "startLine": 29,
+        "startChar": 98,
+        "endLine": 29,
+        "endChar": 112
+      },
+      "revId": "aa827fb08a7a15b308de4d5bb4ce562699759af6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
