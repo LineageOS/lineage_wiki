@@ -47,6 +47,9 @@ definitions:
     type:
     - integer
     - string
+  ram_format:
+    pattern: ^\d+(\.\d+)*(\/\d+(\.\d+)*)* GB$
+    type: string
   valid_architectures:
     enum:
     - arm
@@ -325,6 +328,15 @@ properties:
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string
+  ram:
+    "$id": "/properties/ram"
+    oneOf:
+    - "$ref": "#/definitions/ram_format"
+    - items:
+        additionalProperties:
+          "$ref": "#/definitions/ram_format"
+        type: object
+      type: array
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
