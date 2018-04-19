@@ -61,4 +61,6 @@ The preferred method of installing a custom recovery is through this boot mode{%
 
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
-6. The device will reboot into recovery.
+6. The device will reboot into TWRP.
+
+    {% include warning.html content="From now on you won't be able to boot into system until you install LineageOS or you restore your stock ROM" %}
