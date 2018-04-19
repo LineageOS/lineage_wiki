@@ -57,8 +57,8 @@ The preferred method of installing a custom recovery is through this boot mode{%
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
 
-        heimdall flash --BOOT twrp-x.x.x-x-{{ twrp_codename }}.img --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img
+        heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img
 
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
-6. The device will reboot into recovery.
+6. As soon as Odin finishes flashing TWRP hold your device recovery boot keys to boot in recovery mode.
