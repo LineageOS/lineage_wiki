@@ -191,6 +191,7 @@ properties:
     - Cortex-A9
     - Denver
     - Exynos M1 & Cortex-A53
+    - Exynos M3 & Cortex-A55
     - Intel Atom
     - Krait
     - Krait 200
@@ -228,6 +229,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G72 MP18
     - ARM Mali-T604
     - ARM Mali-T628 MP6
     - ARM Mali-T760 MP6

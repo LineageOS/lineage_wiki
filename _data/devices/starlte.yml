@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP , f/1.5/2.4'}
+- {flash: '', info: '8 MP, f/1.7'}
+carrier:
+channels: [weekly]
+codename: starlte
+cpu: Exynos M3 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
+current_branch: 15.1
+depth: 8.5 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G72 MP18
+height: 147.7 mm (5.81 in)
+image: starlte.png
+install_method: heimdall
+kernel: android_kernel_samsung_universal9810
+maintainers: [jesec]
+models: [SM-G960F, SM-G960F/DS, SM-G960N]
+name: Galaxy S9
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: 'B1-B8, B12-B13, B17-B20, B25-B26, B28, B38(TDD), B39-41(TDD)' }
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
+  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+release: 2018-03-11
+screen: 5.8 inches
+screen_ppi: '570'
+screen_res: 2960x1440
+screen_tech: Quad HD+ Super AMOLED
+sdcard: up to 400 GB
+soc: Samsung Exynos 9810
+storage: 64 GB
+tree: android_device_samsung_starlte
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [15.1]
+width: 68.7 mm (2.7 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
