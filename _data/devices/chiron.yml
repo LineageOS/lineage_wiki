@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 3400, tech: 'Li-Ion'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: chiron
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 15.1
+depth: 7.7 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 540
+height: 151.8 mm (5.98 in)
+image: chiron.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_msm8998
+maintainers: [mikeioannina]
+name: 'Mi MIX 2'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA & TD-SCDMA' }
+- {tech: 3G, bands: '800 850 900 1700(AWS) 1800 1900 2100 MHz HSDPA & CDMA2000 1xEV-DO' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 13(700) 17(700) 18(800) 19(800) 20(800) 25(1900) 26(850) 27(800) 28(700) 29(700) 30(2300) 34(2000) 38(2600) 39(1900) 40(2300) 41(2500)' }
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2017-09
+screen: 152.1 mm (5.99 in)
+screen_ppi: '403'
+screen_res: 2160x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128/256 GB
+tree: android_device_xiaomi_chiron
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [15.1]
+width: 75.5 mm (2.97 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
