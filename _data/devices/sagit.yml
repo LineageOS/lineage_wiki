@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3350, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: sagit
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 15.1
+depth: 7.5 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 540
+height: 145.2 mm (5.72 in)
+image: sagit.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_msm8998
+maintainers: [demon000]
+name: 'Mi 6'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 38(2600) 39(1900) 40(2300) 41(2500)' }
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2017-04
+screen: 130.8 mm (5.15 in)
+screen_ppi: '428'
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB
+tree: android_device_xiaomi_sagit
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [15.1]
+width: 70.5 mm (2.78 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
