@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a16b154f_cace30e8",
+        "filename": "_data/devices/griffin.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-04-24T09:07:39Z",
+      "side": 1,
+      "message": "I think we\u0027re putting these in alphabetical order.",
+      "range": {
+        "startLine": 21,
+        "startChar": 14,
+        "endLine": 21,
+        "endChar": 47
+      },
+      "revId": "e09c97e0fad53e1868f4532563767ff2efb2a0bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
