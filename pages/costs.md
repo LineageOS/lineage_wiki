@@ -20,4 +20,4 @@ LineageOS is a commmunity-funded, open source project. Below are our current mon
 | $194.94        | Total    |          |                                      |
 
 
-You can help the project pay for these either via Bitcoin ([12aDckQC6YHEn75zReQWxXFCivBBNXfRjM](bitcoin:12aDckQC6YHEn75zReQWxXFCivBBNXfRjM)), or [PayPal](https://paypal.me/LineageOS).
+You can help the project pay for these via [PayPal](https://paypal.me/LineageOS).
