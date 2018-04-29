@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9d15a6d9_7f214f13",
+        "filename": "_data/devices/klteactivexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2018-04-29T22:31:30Z",
+      "side": 1,
+      "message": "Is this intentional? (the whitespace)",
+      "range": {
+        "startLine": 7,
+        "startChar": 8,
+        "endLine": 7,
+        "endChar": 10
+      },
+      "revId": "32b99b1afe632c95cc828b9c2dff4c35d18eae03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "73fa6467_fd56b1ec",
+        "filename": "_data/devices/klteactivexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2018-04-29T22:31:30Z",
+      "side": 1,
+      "message": "Can we get a day?",
+      "revId": "32b99b1afe632c95cc828b9c2dff4c35d18eae03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
