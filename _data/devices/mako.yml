@@ -10,15 +10,15 @@ codename: mako
 cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 9.1 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: Adreno 320
 height: 133.9 mm (5.27 in)
 image: mako.png
 install_method: fastboot_nexus
-kernel: lge-kernel-mako
-maintainers: [rmccask]
+kernel: android_kernel_lge_mako
+maintainers: [rmccask, voron00]
 name: Nexus 4
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -41,6 +41,6 @@ tree: android_device_lge_mako
 type: phone
 vendor: Google
 vendor_short: lge
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 68.7 mm (2.70 in)
 wifi: 802.11 b/g/n
