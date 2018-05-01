@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5c267f25_c055135c",
+        "filename": "_data/devices/bacon.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2018-05-01T11:37:30Z",
+      "side": 1,
+      "message": "Leave me there, I\u0027ll give an hand with manteniance tasks whenever I\u0027ll be able to",
+      "revId": "07d22f454d30fdeed0865acb668e34353da0e64a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
