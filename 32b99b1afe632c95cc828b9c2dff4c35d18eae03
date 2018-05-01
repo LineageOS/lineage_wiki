@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "0329c021_c7b3e9f4",
+        "filename": "_data/devices/klteactivexx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2018-05-01T19:38:08Z",
+      "side": 1,
+      "message": "I already mentioned that a TWRP is WIP. I just haven\u0027t gotten around to making one yet.",
+      "parentUuid": "d090b5ca_edd838e2",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 20
+      },
+      "revId": "32b99b1afe632c95cc828b9c2dff4c35d18eae03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "a9f6076b_3948c8c7",
         "filename": "_data/devices/klteactivexx.yml",
         "patchSetId": 1
