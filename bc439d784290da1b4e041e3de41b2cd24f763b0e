@@ -22,6 +22,30 @@
       "revId": "bc439d784290da1b4e041e3de41b2cd24f763b0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6f4d4f58_b1b22883",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-05-02T21:14:11Z",
+      "side": 1,
+      "message": "I know, but we never \"supported\" anything other than Ubuntu.",
+      "parentUuid": "dcfe67a9_0111cef3",
+      "range": {
+        "startLine": 258,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 58
+      },
+      "revId": "bc439d784290da1b4e041e3de41b2cd24f763b0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
