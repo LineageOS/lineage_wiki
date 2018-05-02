@@ -251,6 +251,18 @@ export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G
 Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory (in this case, 4GB).
 {% endif %}
 
+### Forcebly use host tools
+
+In some cases, in order to avoid compilation errors, the host tools must be used instead of the prebuilts provided in the source code.
+
+For Ubuntu version 18.04 (bionic), host flex must be used. You can run:
+
+```
+export USE_HOST_FLEX=yes
+```
+
+or simply add that line to your `~/.bashrc` file.
+
 ### Start the build
 
 Time to start building! Now, type:
