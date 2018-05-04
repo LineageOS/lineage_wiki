@@ -5,18 +5,18 @@ cameras:
 - {flash: 'LED', info: '5 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: manta
 cpu: Cortex-A15
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
-current_branch: 13.0
+current_branch:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T604
 image: manta.png
 install_method: fastboot_nexus
 kernel: android_kernel_samsung_manta
-maintainers: [atinm, Kornyone, gweedo767]
+maintainers:
 name: Nexus 10
 network:
 - {tech: 2G, bands: '' }

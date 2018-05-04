@@ -5,18 +5,18 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: mondrianwifi
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 13.0
+current_branch:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 330
 image: mondrianwifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_mondrianwifi
-maintainers: [crpalmer]
+maintainers:
 name: Galaxy Tab Pro 8.4
 network:
 - {tech: 2G, bands: '' }

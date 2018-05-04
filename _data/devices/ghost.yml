@@ -10,7 +10,7 @@ codename: ghost
 cpu: Krait 200
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
-current_branch: 13.0
+current_branch:
 depth: 10.4 mm (0.41 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
@@ -18,7 +18,7 @@ height: 129.3 mm (5.09 in)
 image: ghost.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_ghost
-maintainers: []
+maintainers:
 models: [xt1052, xt1053, xt1055, xt1056, xt1058, xt1060]
 name: Moto X
 network:

@@ -3,12 +3,12 @@ battery: {removable: False, capacity: 7350}
 bluetooth: {spec: '3.0'}
 cameras: []
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: roth
 cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 13.0
+current_branch:
 depth:
 download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
@@ -17,7 +17,7 @@ height:
 image: roth.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_roth
-maintainers: [webgeek1234]
+maintainers:
 name: Shield Portable
 network:
 - {tech: 2G, bands: '' }
