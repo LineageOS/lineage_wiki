@@ -41,7 +41,7 @@ There are no recovery install instructions for this discontinued device.
 {%- endif -%}
 {%- endcapture -%}
 
-{% if device.maintainers %}
+{% if device.maintainers != empty %}
 1. Download the [LineageOS install package](https://download.lineageos.org/{{ device.codename }}) that you'd like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 {% else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.

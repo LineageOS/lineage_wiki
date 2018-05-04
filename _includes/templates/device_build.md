@@ -139,7 +139,7 @@ Then, run `source ~/.profile` to update your environment.
 
 ### Initialize the LineageOS source repository
 
-{% if device.maintainers %}
+{% if device.maintainers != empty %}
 The following branches are officially supported for the {{ device.vendor }} {{ device.name }}:
 {% else %}
 The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
