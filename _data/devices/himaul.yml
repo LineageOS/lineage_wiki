@@ -41,6 +41,6 @@ tree: android_device_htc_himaul
 type: phone
 vendor: HTC
 vendor_short: htc
-versions: [13.0, 14.1]
+versions: []
 width: 69.7 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac (2.4 & 5 GHz)
