@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install LineageOS on hiaeul
+title: Install LineageOS on hiae
 folder: install
-permalink: /devices/hiaeul/install
-device: hiaeul
+permalink: /devices/hiae/install
+device: hiae
 ---
 {% include templates/device_install.md %}

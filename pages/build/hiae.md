@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Build for hiaeuhl
+title: Build for hiae
 folder: build
-permalink: /devices/hiaeuhl/build
-device: hiaeuhl
+permalink: /devices/hiae/build
+device: hiae
 ---
 {% include templates/device_build.md %}
