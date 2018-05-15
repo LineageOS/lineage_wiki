@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "922f95f6_c4d8c981",
+        "filename": "_data/devices/hiae.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-05-15T05:54:38Z",
+      "side": 1,
+      "message": "just 15.1",
+      "revId": "01d4d6ac8cb4f2b40b0934f6c4ff88e41ff51819",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
