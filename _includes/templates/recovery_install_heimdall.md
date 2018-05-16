@@ -30,8 +30,9 @@ The preferred method of installing a custom recovery is through this boot mode{%
     4. Click **Replace Driver** (having to select **Install Driver** from the drop down list built into the button).
     5. If you are prompted with a warning that the installer is unable to verify the publisher of the driver, select **Install this driver anyway**. You may receive two more prompts about security. Select the options that allow you to carry on.
 5. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-
-        heimdall print-pit
+```
+heimdall print-pit
+```
 6. If the device reboots, Heimdall is installed and working properly.
 
 {% if custom_downgrade_instructions %}
@@ -56,9 +57,9 @@ The preferred method of installing a custom recovery is through this boot mode{%
 
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
-
-        heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img --no-reboot
-
+```
+heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img --no-reboot
+```
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. Unplug the USB cable from your device.

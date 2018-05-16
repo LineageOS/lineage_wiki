@@ -18,18 +18,18 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes`.
 3. Connect the device to your PC via USB.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-
-        adb reboot bootloader
-
+```
+adb reboot bootloader
+```
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
 
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 5. Once the device is in fastboot mode, verify your PC finds it by typing:
-
-        fastboot devices
-
+```
+fastboot devices
+```
     {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 6. Follow the instructions on [Sony's official unlocking website](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to unlock your bootloader.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
@@ -51,40 +51,44 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-
-        adb reboot bootloader
-
+```
+adb reboot bootloader
+```
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
 
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
-
-        fastboot devices
-
+```
+fastboot devices
+```
     {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Temporarily flash TWRP to `boot`:
-
-        fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
-
+```
+fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
+```
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. Remember to adjust the filename in the following commands as well." %}
 6. Reboot to the TWRP recovery:
-
-        fastboot reboot
+```
+fastboot reboot
+```
 7. Push the TWRP image to your device:
-
-        adb push twrp-x.x.x-x-{{ twrp_codename }}.img /sdcard
+```
+adb push twrp-x.x.x-x-{{ twrp_codename }}.img /sdcard
+```
 8. Enter shell on the device:
-
-        adb shell
+```
+adb shell
+```
 9. Flash TWRP to `recovery` permanently:
-
-        dd if=/sdcard/twrp-x.x.x-x-{{ twrp_codename }}.img of=/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+```
+dd if=/sdcard/twrp-x.x.x-x-{{ twrp_codename }}.img of=/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
+```
 10. Exit the adb shell:
-
-        exit
-
+```
+exit
+```
 {% else %}
 
 {% include templates/recovery_install_fastboot_generic.md %}
