@@ -8,28 +8,28 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 2. Follow the instructions and get your unlock file.
 3. Connect your device to your PC via USB.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-
-        adb reboot bootloader
-
+```
+adb reboot bootloader
+```
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
 
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 5. Once the device is in fastboot mode, verify your PC finds it by typing:
-
-        fastboot devices
-
+```
+fastboot devices
+```
     {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Now type the following command to unlock the bootloader:
-
-        fastboot flash unlock unlock.bin
-
+```
+fastboot flash unlock unlock.bin
+```
     Where `unlock.bin` is the bootloader unlock file you received in the email.
 7. Wait for the bootloader unlocking process to complete. Once finished, you can check if bootloader is successfully unlocked by typing:
-
-        fastboot getvar unlocked
-
+```
+fastboot getvar unlocked
+```
     Verify that the response is `unlocked: yes`. In that case, you can now install third-party firmware.
 8. Since the device resets completely, you will need to re-enable USB debugging to continue.
 

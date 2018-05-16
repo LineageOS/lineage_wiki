@@ -11,9 +11,9 @@ In order to root your device you must first install this kernel via Heimdall.
 
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
-
-        heimdall flash --BOOT boot.img
-
+```
+heimdall flash --BOOT boot.img
+```
     {% include tip.html content="The file may not be named identically to what's in this command. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the kernel being transferred, then your device will reboot.
 6. Allow it to boot and proceed with the rooting steps.
