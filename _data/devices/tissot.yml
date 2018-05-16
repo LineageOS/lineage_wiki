@@ -18,7 +18,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 155.4 mm (6.12 in)
 image: tissot.png
-install_method: fastboot_xiaomi
+install_method: fastboot_nexus
+is_ab_device: true
 kernel: android_kernel_xiaomi_msm8953
 maintainers: [TheScarastic]
 name: Mi A1
@@ -26,7 +27,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300), 3(1800) 5(850) 40(2300) (India)' }
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, IR blaster, Light sensor, FM radio, Dual SIM]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -37,7 +38,7 @@ screen_res: 1080x1920
 screen_tech: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 625
-storage: 64 GB
+storage: 32/64 GB
 tree: android_device_xiaomi_tissot
 type: phone
 vendor: Xiaomi
