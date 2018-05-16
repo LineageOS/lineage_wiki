@@ -111,6 +111,7 @@ Additionally there are some optional properties which you might not need, but in
 * `custom_twrp_link`: A custom TWRP link in case the official recovery doesn't exist for the specific device or doesn't work properly. Remove this if not used!
 * `custom_twrp_codename`: If an official TWRP exists for the device, but TWRP uses a different codename, specify the used one here. Remove this if not used!
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`. Remove this if not used!
+* `is_ab_device`: Used if device supports a/b partitions to flash custom recovery. Remove this if not used!
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
 
   ```

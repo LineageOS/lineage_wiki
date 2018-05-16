@@ -18,7 +18,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Adreno 506
 height: 155.4 mm (6.12 in)
 image: tissot.png
-install_method: fastboot_xiaomi
+install_method: fastboot_nexus
+is_ab_device: true
 kernel: android_kernel_xiaomi_msm8953
 maintainers: [TheScarastic]
 name: Mi A1
