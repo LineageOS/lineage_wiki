@@ -77,12 +77,12 @@ git commit
 
 An editor will pop up. In the first line, type a short (below 80 character) description of your changes,
 then put a blank line, and, if you want, a more detailed description of your changes. For example:
+```
+Add the contributing page
 
-        Add the contributing page
-
-        The contributing page will show people how they can edit our wiki, which
-        is important, since it wouldn't be much of a wiki without editors.
-
+The contributing page will show people how they can edit our wiki, which
+is important, since it wouldn't be much of a wiki without editors.
+```
 Save the file and exit the editor. Now upload your changes to GitHub:
 
 ```

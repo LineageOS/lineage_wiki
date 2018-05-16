@@ -39,22 +39,22 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 1. Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.bash_profile`:
-
-        if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-            export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
-        fi
-
+```bash
+if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
+    export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
+fi
+```
 4. Log out and back in.
 
 ### On Linux
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.profile`:
-
-        if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-            export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
-        fi
-
+```bash
+if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
+    export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
+fi
+```
 4. Log out and back in.
 5. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
 

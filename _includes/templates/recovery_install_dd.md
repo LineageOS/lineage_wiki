@@ -32,10 +32,10 @@
     {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
-
-        su
-        dd if=/sdcard/twrp-{{ twrp_codename }}.img of={{ site.data.devices[page.device].recovery_partition }}
-
+```
+su
+dd if=/sdcard/twrp-{{ twrp_codename }}.img of={{ site.data.devices[page.device].recovery_partition }}
+```
 4. Manually reboot into recovery:
     * {{ site.data.devices[page.device].recovery_boot }}
 

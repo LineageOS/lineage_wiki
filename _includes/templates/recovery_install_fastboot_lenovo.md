@@ -13,25 +13,27 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% endunless %}
 6. Connect the device to your PC via USB.
 7. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-
-        adb reboot bootloader
-
+```
+adb reboot bootloader
+```
     {% if site.data.devices[page.device].download_boot %}
     You can also boot into fastboot mode via a key combination:
 
     * {{ site.data.devices[page.device].download_boot }}
     {% endif %}
 8. Once the device is in fastboot mode, verify your PC finds it by typing:
-
-        fastboot devices
-
+```
+fastboot devices
+```
     {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 9. Now type the following command to unlock the bootloader:
 
 {% if site.data.devices[page.device].custom_unlock_cmd %}
         {{ site.data.devices[page.device].custom_unlock_cmd }}
 {% else %}
-        fastboot oem unlock
+```
+fastboot oem unlock
+```
 {% endif %}
 
 10. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
