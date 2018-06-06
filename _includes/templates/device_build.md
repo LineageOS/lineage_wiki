@@ -93,6 +93,10 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 * `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
 
+For Ubuntu versions older than 18.04 (bionic), remove:
+
+* `libesd0-dev`
+
 #### Java
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
