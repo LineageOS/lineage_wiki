@@ -25,6 +25,29 @@
     },
     {
       "key": {
+        "uuid": "cddc2aa2_f5559c50",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-06T13:18:16Z",
+      "side": 1,
+      "message": "Remove from this list.",
+      "range": {
+        "startLine": 81,
+        "startChar": 51,
+        "endLine": 81,
+        "endChar": 62
+      },
+      "revId": "b1e4585ba5a610416d7e702741ede043fbb59147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3ae2f17d_a984a18e",
         "filename": "_includes/templates/device_build.md",
         "patchSetId": 1
@@ -45,6 +68,29 @@
       "revId": "b1e4585ba5a610416d7e702741ede043fbb59147",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37e495f9_3f0a434a",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-06T13:18:16Z",
+      "side": 1,
+      "message": "Same logic as above:\n\nFor Ubuntu versions older than 18.04 (bionic), you\u0027ll also need:",
+      "range": {
+        "startLine": 96,
+        "startChar": 0,
+        "endLine": 96,
+        "endChar": 54
+      },
+      "revId": "b1e4585ba5a610416d7e702741ede043fbb59147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
