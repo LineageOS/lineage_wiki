@@ -22,6 +22,30 @@
       "revId": "e358b5d6297c24b7bd765f51acf077e269db7f89",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1b18e076_3a0bb372",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 18568
+      },
+      "writtenOn": "2018-06-06T16:37:46Z",
+      "side": 1,
+      "message": "Tested on 16.04 and still works",
+      "parentUuid": "bf6203d6_34f59cba",
+      "range": {
+        "startLine": 9,
+        "startChar": 43,
+        "endLine": 9,
+        "endChar": 82
+      },
+      "revId": "e358b5d6297c24b7bd765f51acf077e269db7f89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
