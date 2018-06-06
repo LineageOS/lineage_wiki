@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8399070c_4eb50fc0",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-06-06T13:17:55Z",
+      "side": 1,
+      "message": "remove this",
+      "range": {
+        "startLine": 81,
+        "startChar": 50,
+        "endLine": 81,
+        "endChar": 62
+      },
+      "revId": "b1e4585ba5a610416d7e702741ede043fbb59147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3ae2f17d_a984a18e",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-06-06T13:17:55Z",
+      "side": 1,
+      "message": "i guess you meant \"add\" here?",
+      "range": {
+        "startLine": 96,
+        "startChar": 47,
+        "endLine": 96,
+        "endChar": 53
+      },
+      "revId": "b1e4585ba5a610416d7e702741ede043fbb59147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
