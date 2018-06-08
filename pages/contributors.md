@@ -20,7 +20,7 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
-| Abhisek Devkota | ciwrl |
+| Kevin F. Haggerty | haggertk |
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
@@ -67,9 +67,9 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Harry Youd | harryyoud |
 | Joey Rizzoli | joeyrizzoli |
 | Jorge Ruesga | jruesga |
-| Kevin F. Haggerty | haggertk |
 | Marcos Marado | marado |
 | Olivier Karasangabo | olivier97 |
+| Roman Birg | roman |
 | Tom Marshall | tdm |
 | Zhao Wei Liew | zwliew |
 
@@ -81,7 +81,6 @@ pathways that connect to potential contributors to teams that have contribution 
 
 | Name | Nickname |
 |------|----------|
-| Abhisek Devkota | ciwrl |
 | Tom Powell | zifnab |
 
 ### Device maintainers
@@ -148,32 +147,41 @@ Global proofreaders can help out across all languages.
 
 ## Other projects
 
+### Legacy branch reviewers
+
+These people are responsible for reviewing changes on branches that no longer receive official builds (cm-11.0 and cm-13.0).
+
+| Name | Nickname |
+|------|----------|
+| Andreas Blaesius | android-andi |
+| Niks | niks255 |
+| Tim Schumacher | timschumi |
+
 ### Mirror manifest
 
 These people are responsible for [our mirror manifest](https://www.github.com/LineageOS/mirror).
 
-| Name           | Nickname  |
-|----------------|-----------|
-| Tim Schumacher | TimSchumi |
+| Name | Nickname |
+|------|----------|
+| Harry Youd | harryyoud |
 
 ### Website
 
 These people are responsible for the content of [our website](https://www.lineageos.org/):
 
-| Name            | Nickname   |
-|-----------------|------------|
-| Abhisek Devkota | ciwrl      |
-| Harry Youd      | harryyoud  |
-| Tom Powell      | zifnab     |
+| Name | Nickname |
+|------|----------|
+| Harry Youd | harryyoud |
+| Tom Powell | zifnab |
 
 ### Wiki
 
 If you want to contribute to the wiki yourself, you can find instructions on how to do so [here]({{ "contributing.html" | relative_url }}).
 The following people are responsible for the verification of the contents and the general maintenance of the wiki:
 
-| Name           | Nickname   |
-|----------------|------------|
-| Bruno Martins  | bgcngm     |
-| Michael W      | baddaemon  |
-| Simon Shields  | fourkbomb  |
-| razorloves     | razorloves |
+| Name | Nickname |
+|------|----------|
+| Bruno Martins | bgcngm |
+| Michael W | baddaemon |
+| Simon Shields | fourkbomb |
+| razorloves | razorloves |
