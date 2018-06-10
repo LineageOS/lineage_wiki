@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "5cfd8f0b_0cf89ae4",
+        "filename": "_includes/templates/recovery_install_fastboot_ab.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 15967
+      },
+      "writtenOn": "2018-06-10T13:27:25Z",
+      "side": 1,
+      "message": "Maybe \"boot into\"",
+      "parentUuid": "96e98ce4_a5d9bf91",
+      "range": {
+        "startLine": 29,
+        "startChar": 3,
+        "endLine": 29,
+        "endChar": 35
+      },
+      "revId": "18e1bbc1454e59ad65b28659c7c733634991f737",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b6c7f7ba_7de836b7",
         "filename": "_includes/templates/recovery_install_fastboot_ab.md",
         "patchSetId": 1
