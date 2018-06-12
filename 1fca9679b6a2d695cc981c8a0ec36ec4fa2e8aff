@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e66ed6ac_16ca6181",
+        "filename": "_data/devices/klte.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-06-12T09:02:21Z",
+      "side": 1,
+      "message": "missing (",
+      "range": {
+        "startLine": 45,
+        "startChar": 15,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "1fca9679b6a2d695cc981c8a0ec36ec4fa2e8aff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
