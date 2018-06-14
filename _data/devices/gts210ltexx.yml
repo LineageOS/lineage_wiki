@@ -14,7 +14,7 @@ current_branch: 14.1
 depth: 5.6 mm (0.22 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP6
-height: 237.3 (9.34 in)
+height: 237.3 mm (9.34 in)
 image: gts210.png
 install_method: heimdall
 kernel: android_kernel_samsung_gts2
