@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "159ef107_a86e7c9b",
+        "filename": "_data/devices/rs988.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 19507
+      },
+      "writtenOn": "2018-06-15T02:18:28Z",
+      "side": 1,
+      "message": "There is a bit of missing information here. This is according to LG\u0027s official page for RS988:\n\n- {tech: 2G, bands: \u0027850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA\u0027 }\n- {tech: 3G, bands: \u00271(2100) 2(1900) 4(1700) 5(850) 8(900) MHz HSDPA\u0027 }\n- {tech: 4G, bands: \u00272(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 25(1900)\u0027 }",
+      "revId": "76ee3ca1fa2533395ecad7397f01f221b034c0f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
