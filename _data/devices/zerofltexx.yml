@@ -19,7 +19,7 @@ image: zerofltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos7420
 maintainers: [Usaamah99]
-models: [SM-G920F]
+models: [SM-G920F, SM-G920T]
 name: Galaxy S6
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
