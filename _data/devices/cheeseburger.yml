@@ -25,6 +25,11 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, BC0 CDMA EVDO' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1 2 4 5 7 8 12 17 18 19 20 25 26 28 29 30 34 38 39 40 41 66' }
+GNSS:
+- GPS
+- GLONASS
+- Galileo
+- BeiDou
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor]
 ram: 6/8 GB
