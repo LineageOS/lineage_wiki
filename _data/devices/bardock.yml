@@ -33,7 +33,7 @@ screen_ppi: 423
 screen_res: 1920x1080
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard: up to 256 GB (hybrid SIM slot)
-soc: Qualcomm MSM8953 Snapdragon 625
+soc: Qualcomm MSM8953 Snapdragon 626
 storage: 32 GB
 tree: android_device_bq_bardock
 type: phone
@@ -41,4 +41,4 @@ vendor: BQ
 vendor_short: bq
 versions: [15.1]
 width: 72.7 mm (2.86 in)
-wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
