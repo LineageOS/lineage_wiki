@@ -36,7 +36,7 @@ screen_ppi: '362'
 screen_res: 1080x2040
 screen_tech: IPS LCD
 sdcard:
-soc: Qualcomm MSM8996 Snapdragon 821
+soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 128/256 GB UFS2.0
 tree: android_device_xiaomi_lithium
 type: phone

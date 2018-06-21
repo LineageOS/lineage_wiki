@@ -10,7 +10,7 @@ channels: [weekly]
 codename: natrium
 cpu: Kryo
 cpu_cores: '4'
-cpu_freq: 2 x 2.35 GHz + 2 x 1.6 GHz
+cpu_freq: 2 x 2.35 GHz + 2 x 2.19 GHz
 current_branch: 15.1
 depth: 8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -27,7 +27,7 @@ network:
 - {tech: 3G, bands: '850 900 1800 1900 MHz HSPA, 1900 2000 MHz TD-CDMA' }
 - {tech: 4G, bands: '850(B5) 1800(B3) 2100(B1) 2600(B7) MHz FDD-LTE, 1900(B39) 2300(B40) 2500(B41) 2600(B38) MHz TDD-LTE' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
-ram: 4 GB LPDDR4 / 6 GB LPDDR4
+ram: 4/6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2016-10
@@ -36,8 +36,8 @@ screen_ppi: '386'
 screen_res: 1080x1920
 screen_tech: IPS LCD
 sdcard:
-soc: Qualcomm MSM8996 Snapdragon 821
-storage: 64 GB UFS2.0 / 128 GB UFS2.0
+soc: Qualcomm MSM8996 Pro Snapdragon 821
+storage: 64/128 GB UFS2.0
 tree: android_device_xiaomi_natrium
 type: phone
 vendor: Xiaomi
