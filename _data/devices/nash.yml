@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: nash
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 15.1
+depth: 6.1 mm (0.24 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 540
+height: 155.8 mm (6.13 in)
+image: nash.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_motorola_msm8998
+maintainers: [erfanoabdi, npjohnson]
+name: 'Moto Z2 Force'
+network:
+- {tech: 2G, bands: '850, 900, 1800, 1900 MHz MHz GSM, BC0 CDMA EVDO' }
+- {tech: 3G, bands: '850 900 1700/2100(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: ' 1 2 3 4 5 7 8 12 17 20 25 26 28 29 30 38 39 40 41 LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2017-07
+screen: 83.4 cm (5.5 in)
+screen_ppi: '534'
+screen_res: 1440x2560
+screen_tech: Optic AMOLED
+sdcard: Up to 256 GB
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB UFS 2.1 2-LANE
+tree: android_device_motorola_nash
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [15.1]
+width: 76 mm (2.99 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, DLNA, Hotspot
