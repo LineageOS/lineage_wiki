@@ -22,6 +22,30 @@
       "revId": "48a1c93e305a63c6c34ab20a531ab6ebda42f535",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2247bfba_b476b2c9",
+        "filename": "pages/contributors.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2018-06-21T17:52:34Z",
+      "side": 1,
+      "message": "I updated all sections in this file according to gerrit groups permissions. He still has perms so he should be listed here",
+      "parentUuid": "f38a4466_79d98d94",
+      "range": {
+        "startLine": 157,
+        "startChar": 1,
+        "endLine": 157,
+        "endChar": 18
+      },
+      "revId": "48a1c93e305a63c6c34ab20a531ab6ebda42f535",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
