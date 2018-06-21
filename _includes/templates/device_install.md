@@ -59,7 +59,7 @@ There are no recovery install instructions for this discontinued device.
 7. Go back to return to main menu, then select **Install**.
 8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 9. Follow the on-screen prompts to install the package.
-10. _(Optional)_: Install any additional packages using the same method.
+10. _(Optional)_: Install any additional packages using the same method. If your device is A/B, you'll need to reboot before flashing additional packages.
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first reboot!" %}
 11. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 12. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
