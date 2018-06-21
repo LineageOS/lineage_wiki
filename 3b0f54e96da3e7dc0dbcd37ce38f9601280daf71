@@ -34,6 +34,24 @@
       "revId": "3b0f54e96da3e7dc0dbcd37ce38f9601280daf71",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "75f49121_fae42091",
+        "filename": "_includes/templates/recovery_install_fastboot_ab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2018-06-21T12:15:39Z",
+      "side": 1,
+      "message": "Fair point. Will roll the Lineage recovery note into the install page.",
+      "parentUuid": "a8556aef_11bf4684",
+      "revId": "3b0f54e96da3e7dc0dbcd37ce38f9601280daf71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
