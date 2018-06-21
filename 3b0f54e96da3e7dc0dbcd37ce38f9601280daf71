@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "114ea103_96d959fe",
+        "filename": "_includes/templates/recovery_install_fastboot_ab.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2018-06-21T04:06:34Z",
+      "side": 1,
+      "message": "\"6. Now, if you wish to make TWRP persistent, flash the Installer, though Lineage Recovery is pre-installed and will cover most users use-cases.\"?",
+      "revId": "3b0f54e96da3e7dc0dbcd37ce38f9601280daf71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
