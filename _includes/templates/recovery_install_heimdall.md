@@ -10,14 +10,14 @@ Samsung devices come with a unique boot mode called "Download mode", which is ve
 [Heimdall](http://www.glassechidna.com.au/products/heimdall/) is a cross-platform, open-source tool for interfacing with Download mode on Samsung devices.
 The preferred method of installing a custom recovery is through this boot mode{% unless custom_root_instructions %} -- rooting the stock firmware is neither necessary nor required{% endunless %}. 
 
-{% include tip.html content="We would recommend that you compile the latest version of Heimdall from [source] (https://gitlab.com/BenjaminDobell/Heimdall) to ensure more modern devices are supported." %}
+{% include tip.html content="We would recommend that you compile the latest version of Heimdall from [source](https://gitlab.com/BenjaminDobell/Heimdall) to ensure more modern devices are supported." %}
 
 1. Download and install the [Heimdall suite](http://glassechidna.com.au/heimdall/#downloads):
     * **Windows**: Extract the Heimdall suite and take note of the directory containing `heimdall.exe`. You can verify Heimdall is working by opening a command
     prompt in that directory and typing `heimdall version`. If you receive an error, make sure you have the 
     [Microsoft Visual C++ 2012 Redistributable Package (x86)](https://www.microsoft.com/en-us/download/details.aspx?id=30679) installed on your computer.
     * **Linux**: Pick the appropriate package to install for your distribution. The `-frontend` packages aren't needed for this guide. After installation,
-    verify Heimdall is installed by running `heimdall version` in the terminal and the version number is 1.4.2 or greater.
+    verify Heimdall is installed by running `heimdall version` in the terminal.
     * **macOS**: Install the `dmg` package. After installation, Heimdall should be available from the terminal - type `heimdall version` to double-check.
 2. Power off the device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
