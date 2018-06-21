@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c714480c_9b1a7307",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-06-21T01:53:42Z",
+      "side": 1,
+      "message": "This doesn\u0027t make sense. Following the steps above, you will not end up with 1.4.2 or greater.\nI know 1.4.2 is needed for newer samsungs, so we should convey that. The heimdall version available for download at the link above only works on older samsungs. On newer samsungs you get a print pit error, in which case you have to compile heimdall from source https://github.com/Benjamin-Dobell/Heimdall/wiki/Build-instructions-(Linux).",
+      "range": {
+        "startLine": 18,
+        "startChar": 105,
+        "endLine": 18,
+        "endChar": 121
+      },
+      "revId": "1c19f461f0ce99b886f9249c7c489ab664a275dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
