@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4a2cca1_37e6c3f1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-22T14:45:49Z",
+      "side": 1,
+      "message": "Conditionally show this based on the is_ab_device flag that should be set to true in A/B device\u0027s yml.\n\n\n{% if device.is_ab_device %}\n...\n{% else %}\n...\n{% endif %}",
+      "range": {
+        "startLine": 62,
+        "startChar": 73,
+        "endLine": 62,
+        "endChar": 154
+      },
+      "revId": "9fcf3a3c4dd94c6d7ce89de2c2bed258ad17d46e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
