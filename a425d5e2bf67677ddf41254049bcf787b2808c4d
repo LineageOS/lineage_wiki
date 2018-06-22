@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ed89ab4b_89a56833",
+        "filename": "_includes/templates/device_install_ab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-22T14:36:06Z",
+      "side": 1,
+      "message": "Being this the only difference over the template for non-A/B devices, it seems that creating a new dedicated template is overkill.",
+      "range": {
+        "startLine": 62,
+        "startChar": 18,
+        "endLine": 62,
+        "endChar": 180
+      },
+      "revId": "a425d5e2bf67677ddf41254049bcf787b2808c4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
