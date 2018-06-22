@@ -22,6 +22,30 @@
       "revId": "1d9423c1de03c1e77ebc941c3baada1184ee471d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7850d023_c6d59f93",
+        "filename": "_data/devices/tissot.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 19256
+      },
+      "writtenOn": "2018-06-22T15:33:30Z",
+      "side": 1,
+      "message": "The patch which is needed for A/B partition has been merged :p",
+      "parentUuid": "f0472e32_755e69ae",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 12
+      },
+      "revId": "1d9423c1de03c1e77ebc941c3baada1184ee471d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
