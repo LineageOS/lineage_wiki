@@ -10,7 +10,7 @@ codename: lettuce
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 14.1
+current_branch: 15.1
 custom_twrp_link: https://androidfilehost.com/?fid=962157660013070611
 depth: 8.2 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
@@ -19,7 +19,7 @@ height: 142.4 mm (5.6 in)
 image: lettuce.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [mikeioannina, TheStrix, h2o64]
+maintainers: [mikeioannina]
 name: Yuphoria
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -41,6 +41,6 @@ tree: android_device_yu_lettuce
 type: phone
 vendor: YU
 vendor_short: yu
-versions: [13.0, 14.1]
+versions: [13.0, 14.1, 15.1]
 width: 73 mm (2.87 in)
 wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

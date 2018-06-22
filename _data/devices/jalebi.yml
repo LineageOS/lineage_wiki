@@ -10,7 +10,7 @@ codename: jalebi
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 Ghz
-current_branch: 14.1
+current_branch: 15.1
 custom_twrp_link: https://androidfilehost.com/?fid=889964283620777296
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Then select "reboot to bootloader".
@@ -18,7 +18,7 @@ gpu: Adreno 306
 image: jalebi.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [ashwinr64, mikeioannina, h2o64]
+maintainers: [mikeioannina]
 name: Yunique
 network:
 - {tech: 2G, bands: '' }
@@ -39,5 +39,5 @@ tree: android_device_yu_jalebi
 type: phone
 vendor: YU
 vendor_short: yu
-versions: [13.0, 14.1]
+versions: [13.0, 14.1, 15.1]
 wifi: 802.11 b/g/n
