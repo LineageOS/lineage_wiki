@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "94971b9e_4c7a179c",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-06-23T09:52:35Z",
+      "side": 1,
+      "message": "Think it should be Moto Z2 Force",
+      "range": {
+        "startLine": 24,
+        "startChar": 7,
+        "endLine": 24,
+        "endChar": 15
+      },
+      "revId": "219cf2ed961be3b64e50648cdeeb80aeb5bb605d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
