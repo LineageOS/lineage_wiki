@@ -91,6 +91,10 @@ exit
 ```
 {% else %}
 
+{% if device.is_ab_device %}
+{% include templates/recovery_install_fastboot_ab.md %}
+{% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
+{% endif %}
 
 {% endif %}
