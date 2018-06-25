@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4801bb80_37fd3704",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:41:55Z",
+      "side": 1,
+      "message": "Wrong...",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "10150ca1_e24c3754",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:41:55Z",
+      "side": 1,
+      "message": "units missing",
+      "range": {
+        "startLine": 18,
+        "startChar": 8,
+        "endLine": 18,
+        "endChar": 20
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "aa16adbd_6f7f255f",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:41:55Z",
+      "side": 1,
+      "message": "Do we really need to enumerate this?",
+      "range": {
+        "startLine": 30,
+        "startChar": 48,
+        "endLine": 30,
+        "endChar": 57
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "232cddc3_89fcf935",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:41:55Z",
+      "side": 1,
+      "message": "derp",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 13
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3bb1523f_13bc170d",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:41:55Z",
+      "side": 1,
+      "message": "Dual band",
+      "range": {
+        "startLine": 47,
+        "startChar": 25,
+        "endLine": 47,
+        "endChar": 32
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
