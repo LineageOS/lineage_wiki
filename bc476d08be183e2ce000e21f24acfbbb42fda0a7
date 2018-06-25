@@ -22,6 +22,30 @@
       "revId": "bc476d08be183e2ce000e21f24acfbbb42fda0a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d5cae005_7ea213d6",
+        "filename": "_data/devices/mata.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:39:02Z",
+      "side": 1,
+      "message": "Change it to khaggert and you\u0027re done. Hehe :)",
+      "parentUuid": "2e79c8a5_a908e84c",
+      "range": {
+        "startLine": 23,
+        "startChar": 14,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "bc476d08be183e2ce000e21f24acfbbb42fda0a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
