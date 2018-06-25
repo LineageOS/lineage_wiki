@@ -72,6 +72,7 @@ definitions:
       - Dual SIM
       - Dual front speakers
       - Dual side NFC
+      - Essential Accessories
       - FM radio
       - Fingerprint reader
       - GLONASS
@@ -372,6 +373,7 @@ properties:
     - ARK
     - Asus
     - BQ
+    - Essential
     - Fairphone
     - Google
     - HTC
@@ -399,6 +401,7 @@ properties:
     - ark
     - asus
     - bq
+    - essential
     - fairphone
     - google
     - htc
