@@ -95,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "23013200_47960049",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T22:01:37Z",
+      "side": 1,
+      "message": "What is a moto mod anyway?",
+      "parentUuid": "9dae665d_9af46f45",
+      "range": {
+        "startLine": 30,
+        "startChar": 48,
+        "endLine": 30,
+        "endChar": 57
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "232cddc3_89fcf935",
         "filename": "_data/devices/nash.yml",
         "patchSetId": 12
@@ -106,6 +130,30 @@
       "writtenOn": "2018-06-25T21:41:55Z",
       "side": 1,
       "message": "derp",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 13
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3f3f507_14fe2900",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T22:01:37Z",
+      "side": 1,
+      "message": "screen",
+      "parentUuid": "232cddc3_89fcf935",
       "range": {
         "startLine": 34,
         "startChar": 0,
