@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55fa056f_b742c4f1",
+        "filename": "_data/devices/h830.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-06-25T11:55:56Z",
+      "side": 0,
+      "message": "you also need to update the current_branch of all devices",
+      "range": {
+        "startLine": 14,
+        "startChar": 16,
+        "endLine": 14,
+        "endChar": 20
+      },
+      "revId": "f755c13fad57adf259640e46298aafcf68449350",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
