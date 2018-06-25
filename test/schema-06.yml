@@ -73,6 +73,7 @@ definitions:
       - Dual front speakers
       - Dual side NFC
       - Dual-frequency GNSS
+      - Essential Accessories
       - FM radio
       - Fingerprint reader
       - GLONASS
@@ -373,6 +374,7 @@ properties:
     - ARK
     - Asus
     - BQ
+    - Essential
     - Fairphone
     - Google
     - HTC
@@ -400,6 +402,7 @@ properties:
     - ark
     - asus
     - bq
+    - essential
     - fairphone
     - google
     - htc
