@@ -119,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "f07f117c_70e6acff",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2018-06-25T22:06:15Z",
+      "side": 1,
+      "message": "cool moto stuffs :p\nhttps://www.motorola.com/us/moto-mods",
+      "parentUuid": "23013200_47960049",
+      "range": {
+        "startLine": 30,
+        "startChar": 48,
+        "endLine": 30,
+        "endChar": 57
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "232cddc3_89fcf935",
         "filename": "_data/devices/nash.yml",
         "patchSetId": 12
@@ -154,6 +178,30 @@
       "side": 1,
       "message": "screen",
       "parentUuid": "232cddc3_89fcf935",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 13
+      },
+      "revId": "b012434a40a57763c32ba85a52855fc4008cf97f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a4683555_3a8b1538",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 17793
+      },
+      "writtenOn": "2018-06-25T22:06:15Z",
+      "side": 1,
+      "message": "oops",
+      "parentUuid": "b3f3f507_14fe2900",
       "range": {
         "startLine": 34,
         "startChar": 0,
