@@ -46,6 +46,29 @@
       "revId": "bc476d08be183e2ce000e21f24acfbbb42fda0a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "29ff3537_9d9fa6c2",
+        "filename": "_data/devices/mata.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-25T21:42:31Z",
+      "side": 1,
+      "message": "Do we really need to enumerate this?",
+      "range": {
+        "startLine": 30,
+        "startChar": 48,
+        "endLine": 30,
+        "endChar": 69
+      },
+      "revId": "bc476d08be183e2ce000e21f24acfbbb42fda0a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
