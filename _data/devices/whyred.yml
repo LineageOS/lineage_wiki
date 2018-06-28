@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: 'Dual LED', info: '5 MP'}
+- {flash: 'LED', info: '20 MP'}
+carrier:
+channels: [weekly]
+codename: whyred
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1.8 GHz
+current_branch: 15.1
+depth: 8.1 mm (0.32 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 509
+height: 158.6 mm (6.24 in)
+image: whyred.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm660
+maintainers: [vasishath, Shahan_mik3]
+name: Redmi Note 5 Pro
+network:
+- {tech: 2G, bands: '850 900 1900 2100 MHz GSM' }
+- {tech: 3G, bands: '850 900 1800 1900 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 40(2300) 41(2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2018-02
+screen: 152.1 mm (5.99 in)
+screen_ppi: 403
+screen_res: 2160x1080
+screen_tech: IPS LCD
+sdcard: up to 256 GB (hybrid SIM slot)
+soc: Qualcomm SDM636 Snapdragon 636
+storage: 64 GB
+tree: android_device_xiaomi_whyred
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [15.1]
+width: 75.4 mm (2.97 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
