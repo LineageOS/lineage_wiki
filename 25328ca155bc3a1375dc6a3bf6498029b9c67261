@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c8848f30_df9e819d",
+        "filename": "_data/devices/pioneer.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-28T10:42:59Z",
+      "side": 1,
+      "message": "This thing needs to support \"is_ab_device\" as well. So far, we only did it for nexus template.",
+      "range": {
+        "startLine": 19,
+        "startChar": 16,
+        "endLine": 19,
+        "endChar": 29
+      },
+      "revId": "25328ca155bc3a1375dc6a3bf6498029b9c67261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
