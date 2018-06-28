@@ -16,6 +16,24 @@
       "revId": "a5677c867dc803aaeb6e9eb79a6c6cb8aad3fd67",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2191d001_e0b1fa1d",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-28T14:44:10Z",
+      "side": 1,
+      "message": "I actually thought about that, but having it all in the same line is a needed compromise. Following your proposal, we shoul \"tag\" step 11 and 12 as Optional (since the user might not want to install anything else besides Lineage), but at the same time step 11 is a must for step 12.",
+      "parentUuid": "a1a90d50_f768c523",
+      "revId": "a5677c867dc803aaeb6e9eb79a6c6cb8aad3fd67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
