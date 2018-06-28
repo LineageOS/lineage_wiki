@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a1a90d50_f768c523",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2018-06-28T14:29:24Z",
+      "side": 1,
+      "message": "This could be split into 2 steps to make it clearer.\n\ni.e.\n\nIf you want to install any additional packages:\n11. Reboot to recovery\n12. Install package using the same method",
+      "revId": "a5677c867dc803aaeb6e9eb79a6c6cb8aad3fd67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
