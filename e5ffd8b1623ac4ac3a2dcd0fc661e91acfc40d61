@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b445e1e_410f1d9d",
+        "filename": "_data/devices/pioneer.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-06-30T13:49:28Z",
+      "side": 1,
+      "message": "Don\u0027t you want to add: \", Wi-Fi Direct, Hotspot\"?",
+      "range": {
+        "startLine": 46,
+        "startChar": 6,
+        "endLine": 46,
+        "endChar": 20
+      },
+      "revId": "e5ffd8b1623ac4ac3a2dcd0fc661e91acfc40d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
