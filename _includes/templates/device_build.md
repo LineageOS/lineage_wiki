@@ -102,6 +102,15 @@ Different versions of LineageOS require different JDK (Java Development Kit) ver
 
 \* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
+### Setup Ubuntu 18.04
+
+Ubuntu 18.04 needs a flag to be set in the ~/.bashrc file to enable the build to complete successfully. Run this command to set the flag:
+
+```
+export LC_ALL
+```
+and add it to your ~/.bashrc file so it is automatically applied on reboots
+
 ### Create the directories
 
 You'll need to set up some directories in your build environment.
