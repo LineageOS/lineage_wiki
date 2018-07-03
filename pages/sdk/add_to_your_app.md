@@ -22,11 +22,11 @@ Once you have downloaded the jar file, insert in the module-level `build.gradle`
 
 {% highlight gradle %}
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['lineageos-sdk.jar'])
+    implementation fileTree(dir: 'libs', include: ['lineage-sdk.jar'])
 }
 {% endhighlight %}
 
-And put the `lineageos-sdk.jar` file in your app's module `libs` folder (usually `app/libs`) and refresh the gradle dependencies.
+And put the `lineage-sdk.jar` file in your app's module `libs` folder (usually `app/libs`) and refresh the gradle dependencies.
 
 ### Compiling the library from source
 
