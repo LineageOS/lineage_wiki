@@ -19,7 +19,7 @@ image: tulip.png
 install_method: fastboot_custom
 kernel: android_kernel_zte_msm8952
 maintainers: [tdm]
-name: 'Axon 7 Mini'
+name: 'Axon 7 Mini (USA)'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA model)' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
