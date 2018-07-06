@@ -272,6 +272,7 @@ properties:
     "$id": "/properties/install_method"
     enum:
     - dd
+    - edl_custom
     - fastboot_custom
     - fastboot_generic
     - fastboot_htc
