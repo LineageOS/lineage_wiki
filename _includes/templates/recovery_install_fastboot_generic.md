@@ -34,3 +34,10 @@ fastboot flash recovery twrp-x.x.x-x-{{ twrp_codename }}.img
 
 6. Now reboot into recovery to verify the installation:
     * {{ site.data.devices[page.device].recovery_boot }}
+    {% unless site.data.devices[page.device].no_fastboot_boot %}
+    　  
+    Alternatively, you can use fastboot to boot directly into the freshly flashed or any other desired recovery:
+```
+fastboot boot twrp-x.x.x-x-{{ twrp_codename }}.img
+```
+    {% endunless %}
