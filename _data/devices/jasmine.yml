@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 4600, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '5 MP'}
+carrier: AT&T
+channels: [weekly]
+codename: jasmine
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
+current_branch: 14.1
+custom_twrp_link: 'http://files.nwwn.com/android/k88/jasmine-twrp-7.1-r3.img'
+depth: 8.9 mm (0.35 in)
+edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 405
+height: 215.0 mm (8.46 in)
+image: jasmine.png
+install_method: edl_custom
+install_recovery_guide: 'http://files.nwwn.com/android/k88/recovery_install.html'
+kernel: android_kernel_zte_msm8952
+maintainers: [tdm]
+name: 'AT&T Trek 2 HD'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 19(800) 20(800) 28(700) 38(2600) 40(2300) 41(2500)' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2016-08
+screen: 203.2 mm (8.0 in)
+screen_ppi: '189'
+screen_res: 1280x800
+screen_tech: TFT
+sdcard: up to 256 GB
+soc: Qualcomm MSM8952 Snapdragon 617
+storage: 16 GB
+tree: android_device_zte_jasmine
+type: tablet
+vendor: ZTE
+vendor_short: zte
+versions: [14.1]
+width: 125 mm (4.92 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
