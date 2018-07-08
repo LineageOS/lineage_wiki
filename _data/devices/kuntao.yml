@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 15.1
-custom_twrp_link: https://androidfilehost.com/?fid=890129502657588434
+custom_twrp_link: https://androidfilehost.com/?fid=5862345805528044659
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
