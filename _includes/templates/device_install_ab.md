@@ -51,19 +51,17 @@ There are no recovery install instructions for this discontinued device.
     * {{ device.recovery_boot }}
 3. Select **Wipe**, then **Format Data** and continue with the formatting process. This will remove encryption and also delete all files on internal storage.
 4. _(Optional, but recommended)_: Select the **Backup** button to create a backup. This will not backup apps and data as data has been formatted.
-5. Select **Wipe** and then **Advanced Wipe**.
-6. Select the *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
-7. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
+5. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
-8. Go back to return to main menu, then select **Install**.
-9. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-10. Follow the on-screen prompts to install the package.
-11. _(Optional)_: Install any additional packages using the same method.
+6. Go back to return to main menu, then select **Install**.
+7. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
+8. Follow the on-screen prompts to install the package.
+9. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
-12. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
-13. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+10. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+11. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
 
