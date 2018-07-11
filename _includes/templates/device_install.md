@@ -60,7 +60,7 @@ There are no recovery install instructions for this discontinued device.
 8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 9. Follow the on-screen prompts to install the package.
 {% if device.is_ab_device %}
-10. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
+10. _(Optional)_: Reboot to TWRP recovery using the steps above and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
 10. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
