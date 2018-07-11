@@ -61,6 +61,7 @@ There are no recovery install instructions for this discontinued device.
 9. Follow the on-screen prompts to install the package.
 {% if device.is_ab_device %}
 10. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
+{% include note.html content="If your internal storage is encryted, Lineage recovery will not be able to install a zip from the sd card. In this scenario, either sideload the zips from a computer using `adb sideload extra.zip` or boot into TWRP recovery again using the steps above." %}
 {% else %}
 10. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
