@@ -47,26 +47,32 @@ There are no recovery install instructions for this discontinued device.
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
     * Optionally, download 3rd party application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
-2. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
+2. If you aren't already in recovery, reboot into recovery:
+    * {{ device.recovery_boot }}
+3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup. Make sure to {% if device.sdcard != blank %}create the backup in the external sdcard or copy it{% else %}copy the backup{% endif %} into your computer, since the internal storage will be formatted.
+4. Go back to return to main menu, then tap **Wipe**.
+5. Now tap **Format Data** and continue with the formatting process. This will remove encryption and also delete all files stored in the internal storage.
+6. Return to the previous menu and tap **Advanced Wipe**.
+{% if device.is_ab_device %}
+7. Select *System* partition to be wiped and then **Swipe to Wipe**.
+{% else %}
+7. Select *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
+{% endif %}
+8. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
-3. If you aren't already in recovery, reboot into recovery:
-    * {{ device.recovery_boot }}
-4. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
-5. Select **Wipe** and then **Advanced Wipe**.
-6. Select *Cache*, *System* and *Data* partitions to be wiped and then **Swipe to Wipe**.
-7. Go back to return to main menu, then select **Install**.
-8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-9. Follow the on-screen prompts to install the package.
+9. Go back to return to main menu, then tap **Install**.
+10. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
+11. Follow the on-screen prompts to install the package.
 {% if device.is_ab_device %}
-10. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
+12. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
-10. _(Optional)_: Install any additional packages using the same method.
+13. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
-11. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
-12. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+14. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+15. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
 
 ## Get assistance
 
