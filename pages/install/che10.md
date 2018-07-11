@@ -5,4 +5,9 @@ folder: install
 permalink: /devices/che10/install
 device: che10
 ---
+{% assign device = site.data.devices[page.device] %}
+{% if device.is_ab_device %}
+{% include templates/device_install_ab.md %}
+{% else %}
 {% include templates/device_install.md %}
+{% endif %}
