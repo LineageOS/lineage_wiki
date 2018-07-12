@@ -12,6 +12,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 15.1
+custom_twrp_link: https://github.com/CosmicDan-Android/android_device_xiaomi_tissot/releases/download/2.3/TWRP-fastboot_boot_only-3.2.1-with-Tissot-Manager-2.3.zip
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
