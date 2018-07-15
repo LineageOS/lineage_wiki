@@ -5,7 +5,32 @@ folder: meta
 permalink: verifying-builds.html
 ---
 
-All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by running: 
+All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by following those steps:
+
+### Android Oreo (15.1)
+
+Make sure that git, cmake and Go are installed:
+```
+sudo apt-get install git cmake golang
+```
+
+Download the source for the verifier and build it:
+
+```
+git clone https://github.com/LineageOS/update_verifier
+cd update_verifier
+./build.sh
+```
+
+Check the signature of the downloaded ZIP file:
+
+```
+./build/verifier /path/to/zip lineageos-key
+```
+
+If the program reports `whole-file signature verified`, the ZIP file is valid.
+
+### Android Nougat (14.1) or older 
 
 ```
 keytool -J-Duser.language=en -list -printcert -jarfile lineage-build-signed.zip
