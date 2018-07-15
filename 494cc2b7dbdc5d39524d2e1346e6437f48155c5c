@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "11d75e9d_4655177f",
+        "filename": "pages/meta/verifying_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-07-15T13:05:33Z",
+      "side": 1,
+      "message": "Android 8.1 Oreo (LineageOS 15.1) and newer",
+      "range": {
+        "startLine": 10,
+        "startChar": 4,
+        "endLine": 10,
+        "endChar": 23
+      },
+      "revId": "494cc2b7dbdc5d39524d2e1346e6437f48155c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "186a97ca_a7fac904",
+        "filename": "pages/meta/verifying_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-07-15T13:05:33Z",
+      "side": 1,
+      "message": "ZIP file signature",
+      "range": {
+        "startLine": 31,
+        "startChar": 60,
+        "endLine": 31,
+        "endChar": 68
+      },
+      "revId": "494cc2b7dbdc5d39524d2e1346e6437f48155c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a1df2f82_619f0632",
+        "filename": "pages/meta/verifying_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2018-07-15T13:05:33Z",
+      "side": 1,
+      "message": "Android 7.1 Nougat (LineageOS 14.1) or older",
+      "range": {
+        "startLine": 33,
+        "startChar": 4,
+        "endLine": 33,
+        "endChar": 25
+      },
+      "revId": "494cc2b7dbdc5d39524d2e1346e6437f48155c5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
