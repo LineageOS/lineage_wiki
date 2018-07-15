@@ -78,7 +78,7 @@ command directly in the Terminal." %}
 To build LineageOS, you'll need:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
-   lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev
+   lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4 liblz4-tool libncurses5-dev
    libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync
    schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
    zip zlib1g-dev`
