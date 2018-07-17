@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "85ec79c3_781749fa",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-07-17T10:52:26Z",
+      "side": 1,
+      "message": "And now the backup went boom. :)",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 53,
+        "endChar": 157
+      },
+      "revId": "af6ac99d43aa539d61659ad4c918c18ae322e873",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
