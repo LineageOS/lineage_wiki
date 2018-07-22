@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a0b4e0ed_e39d00e4",
+        "filename": "scripts/templates/install.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2018-07-22T08:31:13Z",
+      "side": 1,
+      "message": "I am actually not sure why you added an extra check here.\nWould rather have devices explicitly choosing the a/b installation template in their own installation page rather than this...",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 28
+      },
+      "revId": "3696d8108beb4c4c00f92299634adca591c016d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
