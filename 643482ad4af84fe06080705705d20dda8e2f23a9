@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8f51a64c_ead9d9e1",
+        "filename": "pages/meta/verifying_builds.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2018-07-22T08:34:30Z",
+      "side": 1,
+      "message": "its",
+      "range": {
+        "startLine": 12,
+        "startChar": 34,
+        "endLine": 12,
+        "endChar": 38
+      },
+      "revId": "643482ad4af84fe06080705705d20dda8e2f23a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "37a0708a_6699cba7",
+        "filename": "pages/meta/verifying_builds.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2018-07-22T08:34:30Z",
+      "side": 1,
+      "message": "update_verifier",
+      "range": {
+        "startLine": 16,
+        "startChar": 3,
+        "endLine": 16,
+        "endChar": 25
+      },
+      "revId": "643482ad4af84fe06080705705d20dda8e2f23a9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
