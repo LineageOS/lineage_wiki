@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "e36e1272_6b29cb5a",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 18275
+      },
+      "writtenOn": "2018-07-23T14:32:52Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "ddb0e71d_db8a466e",
+      "range": {
+        "startLine": 54,
+        "startChar": 132,
+        "endLine": 54,
+        "endChar": 134
+      },
+      "revId": "85ced549ac9ca8b69734e51e088759412ca305b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4a2c9e89_5047cdc1",
         "filename": "_includes/templates/device_install.md",
         "patchSetId": 16
@@ -36,6 +60,30 @@
       "writtenOn": "2018-07-23T14:26:44Z",
       "side": 1,
       "message": "Why?",
+      "range": {
+        "startLine": 57,
+        "startChar": 10,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "85ced549ac9ca8b69734e51e088759412ca305b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "92078e2d_725b0214",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 18275
+      },
+      "writtenOn": "2018-07-23T14:32:52Z",
+      "side": 1,
+      "message": "imo it feels like more correct english - it feels more forced without it, but thats only my opinion",
+      "parentUuid": "4a2c9e89_5047cdc1",
       "range": {
         "startLine": 57,
         "startChar": 10,
