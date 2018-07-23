@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ddb0e71d_db8a466e",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-07-23T14:26:44Z",
+      "side": 1,
+      "message": "\"in\" or \"on\", I feel like \"the\" is missing in any case.",
+      "range": {
+        "startLine": 54,
+        "startChar": 132,
+        "endLine": 54,
+        "endChar": 134
+      },
+      "revId": "85ced549ac9ca8b69734e51e088759412ca305b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4a2c9e89_5047cdc1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-07-23T14:26:44Z",
+      "side": 1,
+      "message": "Why?",
+      "range": {
+        "startLine": 57,
+        "startChar": 10,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "85ced549ac9ca8b69734e51e088759412ca305b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
