@@ -5,8 +5,8 @@ cameras:
 - {flash: 'Dual-LED', info: '13 MP'}
 - {flash: '', info: '4 MP'}
 carrier:
-channels: [weekly]
-codename: hiaeul
+channels: [discontinued]
+codename: hiae
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
@@ -18,7 +18,7 @@ height: 145.8 mm (5.74 in)
 image: hiae.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8952
-maintainers: [intervigil]
+maintainers: []
 models: [2PQ9120, 2PQ9100]
 name: One A9
 network:
