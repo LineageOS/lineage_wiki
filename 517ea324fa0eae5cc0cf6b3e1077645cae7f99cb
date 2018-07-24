@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2a25dce_f7ec4ee9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-07-24T09:11:25Z",
+      "side": 1,
+      "message": "Can\u0027t you simply takeover? The number of custom TWRP links is increasing and we want to avoid that.",
+      "range": {
+        "startLine": 9,
+        "startChar": 2,
+        "endLine": 9,
+        "endChar": 77
+      },
+      "revId": "517ea324fa0eae5cc0cf6b3e1077645cae7f99cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
