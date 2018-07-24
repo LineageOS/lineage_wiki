@@ -22,6 +22,29 @@
       "revId": "517ea324fa0eae5cc0cf6b3e1077645cae7f99cb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ec5defc4_6579a172",
+        "filename": "_data/devices/d802.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2018-07-24T11:45:50Z",
+      "side": 1,
+      "message": "This should probably be updated too.\nIt\u0027s Vol Down -\u003e Power -\u003e Vol Down -\u003e Power",
+      "range": {
+        "startLine": 31,
+        "startChar": 75,
+        "endLine": 31,
+        "endChar": 115
+      },
+      "revId": "517ea324fa0eae5cc0cf6b3e1077645cae7f99cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
