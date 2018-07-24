@@ -34,6 +34,24 @@
       "revId": "d929319e5d8425152039c21debc0785cc27c4e0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "194ec44f_151381f4",
+        "filename": "_data/devices/d800.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2018-07-24T15:04:35Z",
+      "side": 1,
+      "message": "oh, actually, it already says how to select https://imgur.com/kNZWjoV",
+      "parentUuid": "dffd82b3_03f071b7",
+      "revId": "d929319e5d8425152039c21debc0785cc27c4e0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
