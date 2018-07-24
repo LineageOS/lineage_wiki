@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dffd82b3_03f071b7",
+        "filename": "_data/devices/d800.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2018-07-24T14:48:48Z",
+      "side": 1,
+      "message": "I think you should specify that you change selection with Volume buttons and confirm it with Power.\nIt\u0027s quite intuitive, but omitting it kindof defeats the purpuse of having a \"guide\"",
+      "revId": "d929319e5d8425152039c21debc0785cc27c4e0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
