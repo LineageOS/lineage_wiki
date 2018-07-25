@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3165b551_3313ed62",
+        "filename": "_data/devices/hiae.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2018-07-25T05:44:43Z",
+      "side": 1,
+      "message": "I guess I shouldn\u0027t complain about being de-listed here, I\u0027ve not really been able to figure out what the calling issue is on 15.1.",
+      "revId": "2a1fbe836f9b304fdd4c92afa0c76c6837aa21cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
