@@ -16,6 +16,24 @@
       "revId": "2a1fbe836f9b304fdd4c92afa0c76c6837aa21cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3f92c8f8_9fafcff9",
+        "filename": "_data/devices/hiae.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-07-25T07:21:06Z",
+      "side": 1,
+      "message": "It\u0027s just the way the wiki is setup/maintained. Whenever nightlies are stopped the maintainers are removed from that field and channels is set to discontinued.",
+      "parentUuid": "3165b551_3313ed62",
+      "revId": "2a1fbe836f9b304fdd4c92afa0c76c6837aa21cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
