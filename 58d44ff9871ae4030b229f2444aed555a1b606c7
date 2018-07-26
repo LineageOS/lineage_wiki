@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3413882c_81c650a9",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-07-26T05:31:07Z",
+      "side": 0,
+      "message": "Not wiping system means that any addon.d stuff from a previous ROM (or old gapps, etc) sticks around. That\u0027s why we tell people to wipe system here.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 59,
+        "endChar": 85
+      },
+      "revId": "58d44ff9871ae4030b229f2444aed555a1b606c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8f51baa6_5655e094",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-07-26T05:31:07Z",
+      "side": 0,
+      "message": "this should be removed",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 11
+      },
+      "revId": "58d44ff9871ae4030b229f2444aed555a1b606c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
