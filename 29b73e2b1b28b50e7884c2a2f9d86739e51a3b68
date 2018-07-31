@@ -22,6 +22,30 @@
       "revId": "29b73e2b1b28b50e7884c2a2f9d86739e51a3b68",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff1467fb_87073809",
+        "filename": "_includes/snippets/release.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-07-31T10:35:44Z",
+      "side": 1,
+      "message": "I was just looking for a better way to do this. Thanks. It didn\u0027t work though.  Resulted in the month not showing at all. \"minus: 1\" works. Think that\u0027s better?",
+      "parentUuid": "7401075b_824d0fcf",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 48
+      },
+      "revId": "29b73e2b1b28b50e7884c2a2f9d86739e51a3b68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
