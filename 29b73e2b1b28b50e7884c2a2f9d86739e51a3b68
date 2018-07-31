@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7401075b_824d0fcf",
+        "filename": "_includes/snippets/release.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-07-31T10:01:37Z",
+      "side": 1,
+      "message": "shouldn\u0027t `{%- assign cur_month \u003d release[1] - 1 -%}` work as well? would be better than adding a negative value imo",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 48
+      },
+      "revId": "29b73e2b1b28b50e7884c2a2f9d86739e51a3b68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
