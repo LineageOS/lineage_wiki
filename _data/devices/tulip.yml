@@ -11,17 +11,19 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
+custom_twrp_link: 'http://files.nwwn.com/android/axon7mini/tulip-twrp-7.1-r1.img'
 depth: 7.8 mm (0.31 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
 height: 147.5 mm (5.81 in)
 image: tulip.png
-install_method: fastboot_custom
+install_method: edl_custom
+install_recovery_guide: 'https://forum.xda-developers.com/axon-7-mini/development/unlock-tuliptool-unlock-twrp-custom-boot-t3682781'
 kernel: android_kernel_zte_msm8952
 maintainers: [tdm]
 name: 'Axon 7 Mini'
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA model)' }
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 19(800) 20(800) 28(700) 38(2600) 40(2300) 41(2500) (Global), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 12(700) 13(700) 17(700) 20(800) 25(1900) 26(850) 29(700) 30(2300) 41(2500) (USA model)' }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
@@ -37,7 +39,6 @@ soc: Qualcomm MSM8952 Snapdragon 617
 storage: 32 GB
 tree: android_device_zte_tulip
 type: phone
-unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7-mini/development/unlock-official-bootloader-unlock-t3690496'
 vendor: ZTE
 vendor_short: zte
 versions: [14.1]
