@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP(LTE) or 8 MP(3G)'}
 - {flash: '', info: '5 MP or 8 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: m216
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -18,7 +18,7 @@ height: 144.6 mm (5.69 in)
 image: m216.png
 install_method: dd
 kernel: android_kernel_lge_msm8916
-maintainers: [erfanoabdi, dom133]
+maintainers: []
 models: [K420N, K420DS]
 name: K10
 network:
