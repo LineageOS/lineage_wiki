@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '23 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: pioneer
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -20,7 +20,7 @@ image: pioneer.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm660
-maintainers: [LuK1337, cdesai]
+maintainers: []
 models: [H3113, H3133, H3123]
 name: Xperia XA2
 network:
