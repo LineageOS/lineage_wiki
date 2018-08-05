@@ -10,7 +10,7 @@ codename: FP2
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 11 mm (0.43 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 gpu: Adreno 330
