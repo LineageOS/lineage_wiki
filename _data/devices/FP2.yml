@@ -4,13 +4,13 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: '', info: '5 MP'}
-carrier: 
+carrier:
 channels: [weekly]
 codename: FP2
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 11 mm (0.43 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 gpu: Adreno 330
@@ -40,6 +40,6 @@ tree: android_device_fairphone_FP2
 type: phone
 vendor: Fairphone
 vendor_short: fairphone
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 73 mm (2.9 in)
 wifi: 802.11 b/g/n/ac
