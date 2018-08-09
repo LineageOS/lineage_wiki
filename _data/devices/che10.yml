@@ -12,14 +12,14 @@ codename: che10
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 14.1
+current_branch: 15.1
 custom_twrp_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 image: cherry.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_msm8916
-maintainers: [Blefish, dianlujitao]
+maintainers: [dianlujitao]
 name: Honor 4x (China Telecom)
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 MHz CDMA' }
@@ -40,5 +40,5 @@ tree: android_device_huawei_che10
 type: phablet
 vendor: Huawei
 vendor_short: huawei
-versions: [14.1]
+versions: [14.1, 15.1]
 wifi: 802.11 b/g/n
