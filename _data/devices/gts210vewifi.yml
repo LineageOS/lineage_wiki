@@ -27,7 +27,7 @@ network:
 - {tech: 4G, bands: '' }
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>. In order to quit download mode, it might be necessary to  reboot the system, holding <kbd>Volume Down</kbd> + <kbd>Power</kbd>. As soon as the screen turns off, hold the combination for recovery mode, otherwise it will reboot normally. 
 release: 2016
 screen: 203 mm (9.7 in)
 screen_ppi: 264
