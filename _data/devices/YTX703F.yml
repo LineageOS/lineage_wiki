@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: False, capacity: 9600, tech: 'Li-Ion', fastcharge: True}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: '', info: 'Sunny DW9761B (back, 13 MP)'}
+- {flash: '', info: 'QTech OV5695 (front, 5 MP)'}
+carrier:
+channels: [weekly]
+codename: YTX703F
+cpu: Cortex-A53 & Cortex-A72
+cpu_cores: '8'
+cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
+current_branch: 15.1
+depth: 5.6mm
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 510
+height: 198.6mm
+image: YTX703.png
+install_method: fastboot_lenovo
+custom_unlock_cmd: 'fastboot oem unlock-go'
+kernel: android_kernel_lenovo_msm8976
+maintainers: [Quallenauge, Christian Ciach, Vladimir Oltean]
+models: [YTX703F]
+name: Yoga Tab 3 Plus Wi-Fi
+network:
+peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, Light sensor, Sensor hub, Dual front speakers, Wi-Fi Display]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2016-12
+screen: 247 x 179 mm (10.1 in)
+screen_ppi: 299
+screen_res: 2560x1600
+screen_tech: IPS
+sdcard: up to 256 GB
+soc: Qualcomm APQ8076 Snapdragon 652
+storage: 32 GB
+tree: android_device_lenovo_YTX703-common
+type: tablet
+vendor: Lenovo
+vendor_short: lenovo
+versions: [15.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
