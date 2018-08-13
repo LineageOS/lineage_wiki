@@ -10,7 +10,7 @@ codename: hayabusa
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 8.6 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
@@ -47,6 +47,6 @@ tree: android_device_sony_hayabusa
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 68.6 mm
 wifi: 802.11 2.4GHz a/b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot
