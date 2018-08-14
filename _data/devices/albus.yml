@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP, laser autofocus'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: albus
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 8 x 2.21 GHz
+current_branch: 15.1
+custom_twrp_link: https://androidfilehost.com/?fid=1322778262904003640
+depth: 6 mm (0.24 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 506
+height: 156.2 mm (6.15 in)
+image: albus.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8996
+maintainers: [rahulsnair]
+models: [XT1710-07, XT11710-08, XT11710-09, XT11710-10, XT11710-11, XT11710-01, XT11710-02]
+name: Moto Z2 Play
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA (North America model), 850 900 1900 2100 MHz HSDPA (Europe / Asia / China models)' }
+- {tech: 4G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 30(2300) LTE (North America model), 1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 40(2300) LTE (Europe / Asia / China models)' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2017-06
+screen: 5.5 in
+screen_ppi: ~401
+screen_res: 1920x1080
+screen_tech: Super AMOLED
+sdcard: up to 2 TB
+soc: Qualcomm MSM8953-Pro Snapdragon 626
+storage: 32/64 GB
+tree: android_device_motorola_albus
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [15.1]
+width: 76.2 mm (3.00 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
