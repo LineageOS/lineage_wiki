@@ -10,7 +10,7 @@ codename: pollux
 cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 6.9 mm (0.27 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
@@ -40,6 +40,6 @@ tree: android_device_sony_pollux
 type: tablet
 vendor: Sony
 vendor_short: sony
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 266 mm (10.47 in)
 wifi: 802.11 a/b/g/n, 2.4GHz/5GHz, Wi-Fi Direct, DLNA, Hotspot
