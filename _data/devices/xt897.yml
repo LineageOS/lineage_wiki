@@ -45,3 +45,5 @@ vendor_short: motorola
 versions: [13.0, 14.1]
 width: 66 mm (2.6 in)
 wifi: 802.11 2.4GHz b/g/n
+custom_twrp_codename: asanti
+
