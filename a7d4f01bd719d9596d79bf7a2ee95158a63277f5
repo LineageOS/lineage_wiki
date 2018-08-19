@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8e4d352a_2eaf6331",
+        "filename": "_data/devices/klimtwifi.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-08-19T15:42:53Z",
+      "side": 1,
+      "message": "You can get rid of this now (if there is only one supported model). Example:  https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/gemini.yml#L29",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 30,
+        "endChar": 10
+      },
+      "revId": "a7d4f01bd719d9596d79bf7a2ee95158a63277f5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
