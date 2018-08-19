@@ -26,9 +26,7 @@ network:
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
-peripherals:
-- SM-T800: [Accelerometer, Compass, GPS, Gyroscope]
-- Unsupported: [Fingerprint reader]
+peripherals: [Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014
