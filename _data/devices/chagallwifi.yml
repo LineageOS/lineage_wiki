@@ -18,7 +18,7 @@ height: 247.3 mm
 image: chagallwifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers: [deadman96385, DarkExistence]
+maintainers: [Sean Hoyt (deadman96385), Darragh McGee (DarkExistence)]
 models: [SM-T800]
 name: Galaxy Tab S 10.5 Wi-Fi
 network:
@@ -27,8 +27,7 @@ network:
 - {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
 peripherals:
-- SM-T800: [Accelerometer, Compass, GPS, Gyroscope]
-- Unsupported: [Fingerprint reader]
+- SM-T800: [Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014
