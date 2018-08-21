@@ -1,8 +1,8 @@
 architecture: arm
-battery: {removable: True, capacity: 1650}
-bluetooth: {spec: 3.0 + HS}
+battery: {removable: True, capacity: 1650, tech: 'Li-Ion'}
+bluetooth: {spec: 3.0 + HS, profiles: [A2DP]}
 cameras:
-- {flash: '', info: '8 MP w/ LED-flash'}
+- {flash: 'LED', info: '8 MP, 1080p@30fps'}
 - {flash: '', info: '1.9 MP'}
 carrier:
 channels: [weekly]
@@ -11,10 +11,10 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth:
+depth: 8.49 mm (0.334 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP
-height:
+height: 125.3 mm (4.93 in)
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
@@ -26,21 +26,21 @@ network:
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+'}
 - {tech: 4G, bands: ''}
 no_oem_unlock_switch: true
-peripherals: None
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-release: 2011-02-11
+release: 2011-05
 screen: 109 mm (4.3 in)
-screen_ppi: 222
-screen_res: 800x480
-screen_tech:
-sdcard: up to 32 GB
-soc: Samsung Exynos 4210
+screen_ppi: '217'
+screen_res: 480x800
+screen_tech: Super AMOLED Plus
+sdcard: up to 64 GB
+soc: Samsung Exynos 4210 Dual
 storage: 16/32 GB
 tree: android_device_samsung_i9100
 type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n
+width: 66.1 mm (2.60 in)
+wifi: 802.11 a/b/g/n, Dual-band, DLNA, Wi-Fi Direct, Hotspot
