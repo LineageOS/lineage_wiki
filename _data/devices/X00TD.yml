@@ -12,6 +12,7 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 15.1
+custom_twrp_link: https://androidfilehost.com/?fid=3700668719832241089
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
