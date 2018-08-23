@@ -2,7 +2,7 @@ architecture: arm
 battery: {removable: True, capacity: 1650}
 bluetooth: {spec: 3.0 + HS}
 cameras:
-- {flash: '', info: '8 MP w/ LED-flash'}
+- {flash: 'yes', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
 channels: [weekly]
