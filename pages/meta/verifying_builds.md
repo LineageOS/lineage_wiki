@@ -4,6 +4,17 @@ title: Verifying Build Authenticity
 folder: meta
 permalink: verifying-builds.html
 ---
+**CHANGE** The following is a new way, which replaced the *old* signature format in spring 2018
+
+```
+https://github.com/LineageOS/update_verifier.git
+cd update_verifier
+pip3 install -r requirements.txt
+python3 update_verifier.py lineageos_pubkey /path/to/zip
+```
+See: [source information] (https://github.com/LineageOS/update_verifier)
+
+#### *The old way*
 
 All official builds from LineageOS are signed with our private keys. You can verify a build has been signed with our keys by running: 
 
