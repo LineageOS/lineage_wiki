@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'Dual Tone LED', info: '16 MP, f/2.0'}
+- {flash: 'LED', info: '8 MP, f/2.0'}
+carrier:
+channels: [weekly]
+codename: bardock
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+current_branch: 15.1
+depth: 7.9 mm (0.3 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 506
+height: 146.5 mm (5.76 in)
+image: bardock.png
+install_method: fastboot_nexus
+kernel: android_kernel_bq_msm8953
+maintainers: [brinlyau, eloimuns, Team aquaris-dev]
+name: Aquaris X
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '800 1800 2100 2600 MHz LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall effect sensor, GPS, FM radio, NFC, USB OTG]
+ram: 3/4 GB LPDDR3
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2017-06
+screen: 130 mm (5.2 in)
+screen_ppi: 423
+screen_res: 1920x1080
+screen_tech: IPS LTPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 256 GB (hybrid SIM slot)
+soc: Qualcomm MSM8953 Pro Snapdragon 626
+storage: 32/64 GB
+tree: android_device_bq_bardock
+type: phone
+vendor: BQ
+vendor_short: bq
+versions: [15.1]
+width: 72.7 mm (2.86 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
