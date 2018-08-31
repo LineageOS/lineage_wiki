@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '8 MP'}
+carrier:
+channels: [weekly]
+codename: payton
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+current_branch: 15.1
+depth: 8.0 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 508
+height: 148.4 mm (5.84 in)
+image: payton.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_motorola_msm8998
+maintainers: [erfanoabdi]
+name: 'Moto X4'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 5 (850) 7 (2600) 8 (900) 20 (800) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+ram: 3/4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2017-10
+screen: 84.5 cm (5.2 in)
+screen_ppi: '424'
+screen_res: 1080x1920
+screen_tech: LTPS IPS LCD
+sdcard: Up to 256 GB
+soc: Qualcomm SDM630 Snapdragon 630
+storage: 32/64/128 GB
+tree: android_device_motorola_payton
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [15.1]
+width: 73.4 mm (2.89 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
