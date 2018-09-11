@@ -1,0 +1,487 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa430a66_1e0bce60",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "more? unnecessary? needs changing?",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 61
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b38f3304_87092fec",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as template",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 134
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "710d2931_c13d29b0",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "formatting ok?",
+      "range": {
+        "startLine": 26,
+        "startChar": 2,
+        "endLine": 26,
+        "endChar": 78
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0adcb1e5_7c812d5c",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "haven\u0027t tried with anything lower. it is important to note that it is using more RAM than native but likely a fair bit less than a VM.",
+      "range": {
+        "startLine": 27,
+        "startChar": 2,
+        "endLine": 27,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "6db39cb6_c1519f72",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as template",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 12
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "521356f6_c6eb70aa",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "format as warnings? change wording?",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 41,
+        "endChar": 187
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7d9dcfa2_57c623d6",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "feel lazy and thought we can use this link for the very initial setup",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 22
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "97eb2326_71ff39cc",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "recommended? desktop environments are not officially supported by wsl",
+      "range": {
+        "startLine": 47,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 57
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "16d67584_054e4f67",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "for the sdk, I have not tried this way. that\u0027s why I commented it out for now since I cannot confirm it works. i see no reason why it wouldn\u0027t though. just untested.\nI use android-sdk-platform-tools package",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 73,
+        "endChar": 61
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "0abbdce6_56de1a7a",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as template. but removed bison and flex since the prebuilts are 32-bit",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fbd5ff44_ffe79725",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "see below",
+      "range": {
+        "startLine": 112,
+        "startChar": 0,
+        "endLine": 112,
+        "endChar": 23
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bfd7605f_69c08eb7",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as before, I have not tried this way. therefore cannot confirm it works on wsl, but again I don\u0027t see why it wouldn\u0027t. I use the repo package.",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 138,
+        "endChar": 61
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "615414e6_d6b4b5b8",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "since this page is not for devices this is unnecessary",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 154,
+        "endChar": 12
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "20b43c33_a4395231",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 162,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "at the moment only 15.1 has the workarounds for building. I\u0027m working on 16.0",
+      "range": {
+        "startLine": 162,
+        "startChar": 0,
+        "endLine": 162,
+        "endChar": 150
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b3558d3f_f15e23a9",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 212,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "since wsl cannot officially be put on a different drive/partition than C:, maybe make sure to mention that it should be taken into consideration before running this?",
+      "range": {
+        "startLine": 212,
+        "startChar": 4,
+        "endLine": 212,
+        "endChar": 37
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "914198d0_4a324f89",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 243,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "should be unnecessary if the user has 16GB",
+      "range": {
+        "startLine": 243,
+        "startChar": 4,
+        "endLine": 243,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad3bacf3_5179c705",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 254,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "this is the main thing for wsl",
+      "range": {
+        "startLine": 254,
+        "startChar": 4,
+        "endLine": 254,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "2fe9d2b4_0c32d2f5",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 258,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "mention it needs running every time the out folder is cleared?",
+      "range": {
+        "startLine": 257,
+        "startChar": 0,
+        "endLine": 258,
+        "endChar": 9
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "20eca5f9_49c8bac2",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 293,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as template",
+      "range": {
+        "startLine": 267,
+        "startChar": 0,
+        "endLine": 293,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "03e04efd_c9720d7b",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 298,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "same as template",
+      "range": {
+        "startLine": 295,
+        "startChar": 0,
+        "endLine": 298,
+        "endChar": 63
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e0a67be0_9bd4b748",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 300,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-11T18:57:25Z",
+      "side": 1,
+      "message": "do we want people asking about this? I\u0027m ok with \"maintaining\" wsl so to speak. but since we should label this unofficial and experimental I think any jira reports or stuff like that should be dismissed. can post XDA if they really want to :P",
+      "range": {
+        "startLine": 300,
+        "startChar": 3,
+        "endLine": 300,
+        "endChar": 20
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
