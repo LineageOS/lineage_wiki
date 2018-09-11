@@ -239,10 +239,10 @@ or add that line to your `~/.bashrc` file.
 {% include note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
 
 
-{% if device.current_branch >= 14 %}
+{% if device.current_branch >= 14 and device.current_branch < 16 %}
 ### Configure jack
 
-[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and up. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
+[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and 15.1. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
 
 ```
 export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
