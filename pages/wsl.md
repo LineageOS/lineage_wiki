@@ -1,0 +1,302 @@
+---
+sidebar: home_sidebar
+title: Setting up a Setting up a Windows Subsystem for Linux (WSL) build environment
+permalink: wsl.html
+---
+WSL is the propriatery Microsoft linux subsystem that is available on Windows 10. 
+
+This environment is independent of LineageOS, and this guide has been provided for your convenience only.
+
+WSL support for LineageOS is **experimental** in any way by LineageOS.
+
+## Introduction
+
+It is difficult to say how much experience is necessary to follow these instructions. While this guide is certainly not for the very very very uninitiated,
+these steps shouldn’t require a PhD in software development either. Some readers will have no difficulty and breeze through the steps easily.
+Others may struggle over the most basic operation. Because people’s experiences, backgrounds, and intuitions differ, it may be a good idea to read through
+just to ascertain whether you feel comfortable or are getting over your head.
+
+Remember, you assume all risk of trying this, but you will reap the rewards! It’s pretty satisfying to boot into a fresh operating system you baked at home :).
+And once you’re an Android-building ninja, there will be no more need to wait for “nightly” builds from anyone. You will have at your fingertips the skills to
+build a full operating system from code to a running device, whenever you want. Where you go from there-- maybe you’ll add a feature, fix a bug, add a translation,
+or use what you’ve learned to build a new app or port to a new device-- or maybe you’ll never build again-- it’s all really up to you.
+
+### What you'll need
+
+* Windows 10 (64-bit) installed on a drive (256GB or bigger) (SSD recommended)
+* 16GB RAM or more
+* A decent internet connection and reliable electricity :)
+* Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
+ It may also be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
+
+{% include tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
+[VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
+Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you." %}
+
+Let's begin!
+
+##### Warnings
+
+* Do NOT add/edit your Linux files from Windows. The files will most likely be broken in bash. Instead, add/edit the files from within the Linux subsystem
+* Using mnt to download the source code to other drives and then attempting to follow this guide will probably result in failures. Download the source to folders only within the subsystem
+
+<!-- Enable WSL and choose distro app
+https://docs.microsoft.com/en-us/windows/wsl/install-win10 
+Ubuntu recommended -->
+
+<!-- [Optional] Install a desktop environment
+https://solarianprogrammer.com/2017/...-linux-xfce-4/ -->
+
+## Build LineageOS and LineageOS Recovery
+
+{% include note.html content="You only need to do these steps once. If you have already prepared your build environment and downloaded the source code,
+skip to [Prepare the device-specific code](#prepare-the-device-specific-code)" %}
+
+<!-- ### Install the SDK
+
+If you haven't previously installed `adb` and `fastboot`, you can [download them from Google](https://dl.google.com/android/repository/platform-tools-latest-linux.zip).
+Extract it running:
+
+```
+unzip platform-tools-latest-linux.zip -d ~
+```
+
+Now you have to add `adb` and `fastboot` to your PATH. Open `~/.profile` and add the following:
+
+```
+# add Android SDK platform tools to path
+if [ -d "$HOME/platform-tools" ] ; then
+    PATH="$HOME/platform-tools:$PATH"
+fi
+```
+
+Then, run `source ~/.profile` to update your environment. -->
+
+### Install the build packages
+
+Several packages are needed to build LineageOS. You can install these using your distribution's package manager.
+
+{% include tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
+(usually originating from the Internet) on your computer. With Ubuntu, you can use the `apt-get install`
+command directly in the terminal." %}
+
+{%- capture cpu_architecture %}
+{%- if device.architecture.cpu -%}
+   {{ device.architecture.cpu }}
+{%- else -%}
+   {{ device.architecture }}
+{%- endif -%}
+{%- endcapture -%}
+
+To build LineageOS, you'll need:
+
+* `bc build-essential ccache curl g++-multilib gcc-multilib git gnupg gperf imagemagick
+   lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev
+   libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync
+   schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
+   zip zlib1g-dev`
+
+#### Java
+
+Different versions of LineageOS require different JDK (Java Development Kit) versions.
+
+* LineageOS 15.1-16.0: OpenJDK 1.8 (install `openjdk-8-jdk`)
+
+### Create the directories
+
+You'll need to set up some directories in your build environment.
+
+To create them:
+
+```
+<!-- mkdir -p ~/bin -->
+mkdir -p ~/android/lineage
+```
+
+<!-- The `~/bin` directory will contain the git-repo tool (commonly named "repo") and the `~/android/lineage` directory will contain the source code of LineageOS.
+ -->
+<!-- ### Install the `repo` command
+
+Enter the following to download the `repo` binary and make it executable (runnable):
+
+```
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+x ~/bin/repo
+``` -->
+
+<!-- ### Put the `~/bin` directory in your path of execution
+
+In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
+
+```
+# set PATH so it includes user's private bin if it exists
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+```
+
+Then, run `source ~/.profile` to update your environment. -->
+
+### Initialize the LineageOS source repository
+
+{% if device.maintainers != empty %}
+The following branches are officially supported for the {{ device.vendor }} {{ device.name }}:
+{% else %}
+The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
+{% endif %}
+
+{% for version in device.versions %}
+{% if version < 15 %}
+* cm-{{ version }}
+{% else %}
+* lineage-{{ version }}
+{% endif %}
+{% endfor %}
+
+Enter the following to initialize the repository:
+
+{% include note.html content="Make sure the branch you enter here is the one you wish to build!" %}
+
+```
+cd ~/android/lineage
+repo init -u https://github.com/LineageOS/android.git -b {% if device.current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ device.current_branch }}
+```
+
+### Download the source code
+
+To start the download of the source code to your computer, type the following:
+
+```
+repo sync
+```
+
+The LineageOS manifests include a sensible default configuration for repo, which we strongly suggest you use (i.e. don't add any options to sync).
+For reference, our default values are `-j 4` and `-c`. The `-j 4` part means that there will be four simultaneous threads/connections. If you experience
+problems syncing, you can lower this to `-j 3` or `-j 2`. On the other hand, `-c` will ask repo to pull in only the current branch instead of all branches that are available on GitHub.
+
+{% include note.html content="This may take a while, depending on your internet speed. Go and have a beer/coffee/tea/nap in the meantime!" %}
+
+{% include tip.html content="The `repo sync` command is used to update the latest source code from LineageOS and Google. Remember it, as you may want to
+do it every few days to keep your code base fresh and up-to-date." %}
+
+### Prepare the device-specific code
+
+After the source downloads, ensure you're in the root of the source code (`cd ~/android/lineage`), then type:
+
+```
+source build/envsetup.sh
+breakfast {{ device.codename }}
+```
+
+This will download your device's [device specific configuration](https://github.com/LineageOS/{{ device.tree }}) and
+[kernel](https://github.com/LineageOS/{{ device.kernel }}).
+
+{% include important.html content="Some devices require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
+makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
+`breakfast`](#prepare-the-device-specific-code)" %}
+
+### Extract proprietary blobs
+
+{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](/extracting_blobs_from_zips.html)." %}
+
+Now ensure your {{ device.name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
+`~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder. Then run the `extract-files.sh` script:
+
+```
+./extract-files.sh
+```
+
+The blobs should be pulled into the `~/android/lineage/vendor/{{ device.vendor_short }}` folder. If you see "command not found" errors, `adb` may
+need to be placed in `~/bin`.
+
+### Turn on caching to speed up build
+
+Make use of [`ccache`](https://ccache.samba.org/) if you want to speed up subsequent builds by running:
+
+```
+export USE_CCACHE=1
+```
+
+and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this:
+
+```
+ccache -M 50G
+```
+
+where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
+(for instance, a typical 1hr build time can be reduced to 20min). If you're only building for one device, 25GB-50GB is fine. If you plan to build
+for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
+into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
+
+You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
+
+```
+export CCACHE_COMPRESS=1
+```
+
+or add that line to your `~/.bashrc` file.
+
+{% include note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
+
+
+{% if device.current_branch >= 14 %}
+### Configure jack
+
+[Jack](http://source.android.com/source/jack.html) is the currently used Java toolchain for building LineageOS 14.1 and up. It is known to run out of memory often if not configured correctly - a simple fix is to run this command:
+
+```
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
+```
+
+Adding that command to your `~/.bashrc` file will automatically configure Jack to allocate a sufficient amount of memory (in this case, 4GB).
+{% endif %}
+
+### Bison and Ijar
+At this time, WSL can only run 64-bit binaries. The prebuilt bison and ijar binaries are not. Therefore you will need to build them from source. This can be achieved by running the following commands:
+```
+make bison
+make ijar
+```
+Then, set BISON_EXEC to run the newly built bison and ijar IJAR_EXEC to run the adapted ijar:
+```
+export BISON_EXEC=~/android/lineage/out/host/linux-x86/bin/bison
+export IJAR_EXEC=~/android/lineage/out/host/linux-x86/bin/ijar
+```
+Adding these commands to your `~/.bashrc` file will automatically set the build environment to point to the bison and ijar executables that were built from source.
+
+### Start the build
+
+Time to start building! Now, type:
+
+```
+croot
+brunch {{device.codename}}
+```
+
+The build should begin.
+
+{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](/signing_builds.html)." %}
+
+
+## Install the build
+
+Assuming the build completed without errors (it will be obvious when it finishes), type the following in the terminal window the build ran in:
+
+```
+cd $OUT
+```
+
+There you'll find all the files that were created. The two files of more interest are:
+
+1. `recovery.img`, which is the LineageOS recovery image.
+2. `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, which is the LineageOS
+installer package.
+
+### Success! So... what's next?
+
+You've done it! Welcome to the elite club of self-builders. You've built your operating system from scratch, from the ground up. You are the master/mistress of your domain... and
+hopefully you've learned a bit on the way and had some fun too.
+
+## To get assistance
+
+* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
