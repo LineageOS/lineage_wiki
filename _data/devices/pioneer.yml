@@ -11,7 +11,6 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 15.1
-custom_twrp_link: https://www.androidfilehost.com/?fid=3700668719832241508
 depth: 9.7 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 508
