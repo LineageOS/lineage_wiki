@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 15.1
 depth: 8.1 mm (0.32 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 509
 height: 158.6 mm (6.24 in)
@@ -28,7 +28,7 @@ network:
 - {tech: 4G, bands: '1(2100) 3(1800) 5(850) 40(2300) 41(2500) LTE' }
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
 ram: 4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-02
 screen: 152.1 mm (5.99 in)
