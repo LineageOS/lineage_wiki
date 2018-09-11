@@ -12,7 +12,6 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 15.1
-custom_twrp_link: https://androidfilehost.com/?fid=3700668719832238233
 depth: 6.1 mm (0.24 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
