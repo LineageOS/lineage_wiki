@@ -51,12 +51,14 @@ There are no recovery install instructions for this discontinued device.
     * {{ device.recovery_boot }}
 3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup. Make sure {% if device.sdcard != blank %}the backup is created in the external sdcard or copy it{% else %}the backup is copied{% endif %} onto your computer as the internal storage will be formatted.
 4. Go back to return to main menu, then tap **Wipe**.
+{% if device.is_ab_device %}
 5. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
 6. Return to the previous menu and tap **Advanced Wipe**.
-{% if device.is_ab_device %}
 7. Select the *System* partition to be wiped and then **Swipe to Wipe**.
 {% else %}
-7. Select the *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
+5. Tap on **Advanced Wipe**.
+6. Select the *Cache*, *Data* and *System* partitions to be wiped
+7. Then **Swipe to Wipe**.
 {% endif %}
 8. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
