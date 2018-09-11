@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fbed04cd_4d5e8ae8",
+        "filename": "_data/devices/payton.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2018-09-11T01:27:06Z",
+      "side": 1,
+      "message": "recovery and download boot instructions are identical?",
+      "revId": "3338300b2e27718063fe0d18c765b2a41b6e8cec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
