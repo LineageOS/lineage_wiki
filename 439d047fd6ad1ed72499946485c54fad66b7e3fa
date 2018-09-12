@@ -232,6 +232,30 @@
     },
     {
       "key": {
+        "uuid": "d1b3f564_ce3576cc",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-12T16:05:48Z",
+      "side": 1,
+      "message": "meant to say the binaries from the packages are 32-bit last time I checked (prebuilts too)",
+      "parentUuid": "0abbdce6_56de1a7a",
+      "range": {
+        "startLine": 75,
+        "startChar": 0,
+        "endLine": 97,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fbd5ff44_ffe79725",
         "filename": "pages/wsl.md",
         "patchSetId": 2
