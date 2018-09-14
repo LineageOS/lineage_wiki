@@ -209,6 +209,52 @@
     },
     {
       "key": {
+        "uuid": "119460ab_47219ff9",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 89,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "remove",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 89,
+        "endChar": 18
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "32f5c9fd_102d7574",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "remove the if + endif",
+      "range": {
+        "startLine": 96,
+        "startChar": 36,
+        "endLine": 96,
+        "endChar": 77
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0abbdce6_56de1a7a",
         "filename": "pages/wsl.md",
         "patchSetId": 2
@@ -302,6 +348,30 @@
     },
     {
       "key": {
+        "uuid": "80ab989f_663dd552",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "then propose how to install that and dont leave commented stuff in",
+      "parentUuid": "bfd7605f_69c08eb7",
+      "range": {
+        "startLine": 116,
+        "startChar": 0,
+        "endLine": 138,
+        "endChar": 61
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "615414e6_d6b4b5b8",
         "filename": "pages/wsl.md",
         "patchSetId": 2
@@ -313,6 +383,30 @@
       "writtenOn": "2018-09-11T18:57:25Z",
       "side": 1,
       "message": "since this page is not for devices this is unnecessary",
+      "range": {
+        "startLine": 142,
+        "startChar": 0,
+        "endLine": 154,
+        "endChar": 12
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "514ff828_b0d38caa",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "yep, remove",
+      "parentUuid": "615414e6_d6b4b5b8",
       "range": {
         "startLine": 142,
         "startChar": 0,
@@ -348,6 +442,29 @@
     },
     {
       "key": {
+        "uuid": "a6752e71_f80e370c",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 188,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "wont work",
+      "range": {
+        "startLine": 188,
+        "startChar": 10,
+        "endLine": 188,
+        "endChar": 31
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "b3558d3f_f15e23a9",
         "filename": "pages/wsl.md",
         "patchSetId": 2
@@ -364,6 +481,29 @@
         "startChar": 4,
         "endLine": 212,
         "endChar": 37
+      },
+      "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d75fcac2_cd53501d",
+        "filename": "pages/wsl.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 242,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-09-14T17:43:55Z",
+      "side": 1,
+      "message": "...",
+      "range": {
+        "startLine": 242,
+        "startChar": 0,
+        "endLine": 242,
+        "endChar": 36
       },
       "revId": "439d047fd6ad1ed72499946485c54fad66b7e3fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
