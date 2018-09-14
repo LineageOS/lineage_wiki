@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "de8a053c_60b5b03b",
+        "filename": "pages/wsl.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 15060
+      },
+      "writtenOn": "2018-09-14T18:08:50Z",
+      "side": 1,
+      "message": "I don\u0027t have this installed but for some devices it might be necessary? guessing it does not cause harm if it is not required?",
+      "range": {
+        "startLine": 68,
+        "startChar": 27,
+        "endLine": 68,
+        "endChar": 31
+      },
+      "revId": "ef1de07f2cc1ddd86de5dc96d816784bb578c959",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
