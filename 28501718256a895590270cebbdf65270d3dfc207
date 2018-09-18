@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "faae1b75_b8908392",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 18220
+      },
+      "writtenOn": "2018-09-18T14:15:00Z",
+      "side": 1,
+      "message": "Lol, It must be kingdom and not ham?",
+      "revId": "28501718256a895590270cebbdf65270d3dfc207",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
