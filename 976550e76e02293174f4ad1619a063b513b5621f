@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2d712ea_f66e1045",
+        "filename": "_data/devices/ham.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16208
+      },
+      "writtenOn": "2018-09-18T03:21:33Z",
+      "side": 1,
+      "message": "You could remove others I think...",
+      "revId": "976550e76e02293174f4ad1619a063b513b5621f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "facd3c31_c1da5991",
+        "filename": "_data/devices/ham.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 16208
+      },
+      "writtenOn": "2018-09-18T03:21:33Z",
+      "side": 1,
+      "message": "Keep 14.1 here to indicate it is still valid",
+      "revId": "976550e76e02293174f4ad1619a063b513b5621f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
