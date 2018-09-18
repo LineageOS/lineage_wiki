@@ -18,6 +18,6 @@ As not all Redmi 2 variants received the update, these variants are on the lates
        should download the firmware labeled `wt88047`
       - Devices with model numbers 2014813, 2014112 should download the firmware labeled
        `wt86047`
-  - Aftewards, download the latest compatible firmware [here](http://bit.ly/wt88047-firmware/).
+  - Aftewards, download the latest compatible firmware [here](https://drive.google.com/drive/folders/1OvXOmgk5G_ex_NK8rKxALwSx04E-HvrX).
   - In the later steps after flashing the LineageOS `.zip` package, select the firmware `.zip`
     to update to the latest compatible firmware.
