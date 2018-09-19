@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 15.1
 depth: 8.5 mm (0.33 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
 height: 158.1 mm (6.22 in)
 image: star2lte.png
@@ -29,7 +29,7 @@ network:
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
 ram: 6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-03-11
 screen: 6.2 inches
 screen_ppi: '529'
