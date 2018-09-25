@@ -20,7 +20,7 @@ image: albus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
 maintainers: [rahulsnair]
-models: [XT1710-07, XT11710-08, XT11710-09, XT11710-10, XT11710-11, XT11710-01, XT11710-02]
+models: [XT1710-01, XT1710-02, XT1710-07, XT1710-08, XT1710-09, XT1710-10, XT1710-11]
 name: Moto Z2 Play
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 MHz CDMA' }
