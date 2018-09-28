@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Sprint
-channels: [weekly]
+channels: [discontinued]
 codename: gtesqltespr
 cpu: Cortex-A53
 cpu_cores: 4
@@ -18,7 +18,7 @@ height: 212.1 mm (8.35 in)
 image: gtesqltespr.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8916
-maintainers: [vince2678, deadman96385]
+maintainers: []
 models: [SM-T377P]
 name: Galaxy Tab E 8.0 LTE (Sprint)
 network:
