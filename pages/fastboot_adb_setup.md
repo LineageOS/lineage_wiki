@@ -47,6 +47,7 @@ fi
 4. Log out and back in.
 
 ### On Linux
+0. `apt install adb; apt install fastboot`; If successful, skip to step 5.
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.profile`:
