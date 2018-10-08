@@ -22,6 +22,30 @@
       "revId": "ef1de07f2cc1ddd86de5dc96d816784bb578c959",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7dfb43de_81524fc1",
+        "filename": "pages/wsl.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2018-10-08T18:08:59Z",
+      "side": 1,
+      "message": "I think the last version where yasm was required is 13.0.",
+      "parentUuid": "de8a053c_60b5b03b",
+      "range": {
+        "startLine": 68,
+        "startChar": 27,
+        "endLine": 68,
+        "endChar": 31
+      },
+      "revId": "ef1de07f2cc1ddd86de5dc96d816784bb578c959",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
