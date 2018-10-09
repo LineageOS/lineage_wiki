@@ -19,6 +19,29 @@
     },
     {
       "key": {
+        "uuid": "79516455_136624a9",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 18275
+      },
+      "writtenOn": "2018-10-09T15:12:37Z",
+      "side": 1,
+      "message": "I feel this step should probably be a note, and possibly merged with the note below it about flashing before rebooting to Android.\nIt could also specify that the user can now boot into system, but this is superfluous and already implied.",
+      "range": {
+        "startLine": 60,
+        "startChar": 0,
+        "endLine": 60,
+        "endChar": 164
+      },
+      "revId": "0bc8163a76594cc61648324918cd2089531d7511",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1dd28fc4_45f72b24",
         "filename": "_includes/templates/device_install.md",
         "patchSetId": 3
