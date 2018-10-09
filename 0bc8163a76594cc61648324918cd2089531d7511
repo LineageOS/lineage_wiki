@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "55c4ff3d_9c699618",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-10-09T02:02:09Z",
+      "side": 1,
+      "message": "New users will probably have trouble here.  Should specify which zip.",
+      "revId": "0bc8163a76594cc61648324918cd2089531d7511",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1dd28fc4_45f72b24",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-10-09T02:02:09Z",
+      "side": 1,
+      "message": "Think we need wipe system step here for non a/b devices.",
+      "revId": "0bc8163a76594cc61648324918cd2089531d7511",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
