@@ -11,6 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
+custom_twrp_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
@@ -27,21 +28,22 @@ network:
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor, FM radio]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Release all buttons and press <kbd>Power</kbd> again as soon as the LG logo appears.
+  When the LG logo appears, release both buttons and then hold them again.
+  Then answer YES to erase all user data & restore default settings (If you have TWRP installed it will not delete anything).
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
-release: 2014-05
+release: 2014-06
 root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'
 screen_res: 2560x1440
 screen_tech: True HD-IPS LCD
-sdcard: up to 128 GB
-soc: Qualcomm MSM8975AC Snapdragon 801
+sdcard: up to 256 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_lge_d855
 type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 74.7 mm (2.94 in)
+width: 74.6 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
