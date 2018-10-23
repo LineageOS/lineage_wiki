@@ -93,6 +93,10 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 * `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
 
+For Ubuntu versions newer than 18.10 (cosmic), substitute:
+
+* `python` → `python-minimal`
+
 #### Java
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
@@ -123,6 +127,10 @@ Enter the following to download the `repo` binary and make it executable (runnab
 curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
+
+### Force `repo` to use python2.7 to remove errors
+
+In recent versions of Ubuntu, python3 is default. Go to `~/bin/repo` then open repo with text editor and edit `#!/usr/bin/env python` to `#!/usr/bin/env python2.7` to avoid errors.
 
 ### Put the `~/bin` directory in your path of execution
 
