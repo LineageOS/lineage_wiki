@@ -23,6 +23,7 @@ redirect_from: devices.html
     <th><b>Device</b></th>
     <th><b>Codename</b></th>
     <th><b>Type</b></th>
+    <th><b>Released</b></th>
   </tr>
   </thead>
 {% endif %}
@@ -34,6 +35,7 @@ redirect_from: devices.html
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></td>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
     <td>{{ device.type | capitalize }}</td>
+    <td>{{ device.release }}</td>
   </tr>
 {% unless forloop.last %}
   {% if sorted[forloop.index].vendor != lastVendor %}
