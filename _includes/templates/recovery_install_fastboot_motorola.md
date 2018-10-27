@@ -29,4 +29,8 @@ fastboot oem device-info
 
 6. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
-{% include templates/recovery_install_fastboot_generic.md %}
+{% if site.data.devices[page.device].is_ab_device %}
+    {% include templates/recovery_install_fastboot_ab.md %}
+{% else %}
+    {% include templates/recovery_install_fastboot_generic.md %}
+{% endif %}
