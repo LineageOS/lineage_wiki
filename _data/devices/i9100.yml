@@ -1,5 +1,6 @@
 architecture: arm
 battery: {removable: True, capacity: 1650}
+before_install: before_install_i9100
 bluetooth: {spec: 3.0 + HS}
 cameras:
 - {flash: '', info: '8 MP w/ LED-flash'}
