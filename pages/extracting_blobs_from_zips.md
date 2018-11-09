@@ -44,7 +44,7 @@ mkdir system/
 sudo mount system.img system/
 ```
 
-After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+After you have mounted the image, move to the root directory of the sources of your device (e.g. ~/android/lineage/device/\<VENDOR\>/\<DEVICE\>) and run `extract-files.sh` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
