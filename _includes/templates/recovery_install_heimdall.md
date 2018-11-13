@@ -25,7 +25,7 @@ The preferred method of installing a custom recovery is through this boot mode{%
 
     * {{ site.data.devices[page.device].download_boot }}
 
-    Accept the disclaimer, then insert the USB cable into the device.
+    Accept the disclaimer (volume up), then insert the USB cable into the device.
 5. **Windows only**: install the drivers. A more complete set of instructions can be found in the [ZAdiag user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
     1. Run `zadiag.exe` from the **Drivers** folder of the Heimdall suite.
     2. Choose **Options** &raquo; **List all devices** from the menu.
