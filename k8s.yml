@@ -1,0 +1,54 @@
+---
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: wiki
+  namespace: wiki
+  labels:
+    app: wiki
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: wiki
+  template:
+    metadata:
+      labels:
+        app: wiki
+        name: wiki
+    spec:
+      terminationGracePeriodSeconds: 60
+      containers:
+      - image: registry.gitlab.com/lineageos/infra/wiki:VERSION
+        name: wiki
+        ports:
+        - name: http
+          containerPort: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: wiki
+  namespace: wiki
+spec:
+  selector:
+    app: wiki
+  ports:
+    - protocol: TCP
+      port: 80
+      name: http
+  type: ClusterIP
+---
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: wiki
+  namespace: wiki
+spec:
+  rules:
+  - host: wiki.lineageos.org
+    http:
+      paths:
+      - backend:
+          serviceName: wiki
+          servicePort: http
