@@ -27,7 +27,7 @@ deploy:
     - echo $KUBE_CONFIG | base64 -d > $KUBECONFIG
     - kubectl config view
     - kubectl config set-credentials gitlab --token=$KUBE_TOKEN
-    - cat k8s.yml | sed "s/VERSION/${CI_PIPELINE_IID}/" | kubectl apply -n www -f -
+    - cat k8s.yml | sed "s/VERSION/${CI_PIPELINE_IID}/" | kubectl apply -n wiki -f -
   only:
     refs:
       - master
