@@ -25,9 +25,9 @@ deploy:
     - chmod +x /usr/local/bin/kubectl
     - mkdir ~/.kube/
     - echo $KUBE_CONFIG | base64 -d > $KUBECONFIG
-    - kubectl config view
     - kubectl config set-credentials gitlab --token=$KUBE_TOKEN
-    - cat k8s.yml | sed "s/VERSION/${CI_PIPELINE_IID}/" | kubectl apply -n wiki -f -
+    - kubectl -n wiki set image deployment/NAME wiki=$CI_REGISTRY_IMAGE:$CI_PIPELINE_IID
+    - kubectl -n wiki rollout status --timeout 60s deployment/wiki || (kubectl -n wiki rollout undo deployment/wiki && false)
   only:
     refs:
       - master
