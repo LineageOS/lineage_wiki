@@ -1,6 +1,5 @@
 stages:
   - build
-  - scan
   - deploy
 
 build:
@@ -26,7 +25,7 @@ deploy:
     - mkdir ~/.kube/
     - echo $KUBE_CONFIG | base64 -d > $KUBECONFIG
     - kubectl config set-credentials gitlab --token=$KUBE_TOKEN
-    - kubectl -n wiki set image deployment/NAME wiki=$CI_REGISTRY_IMAGE:$CI_PIPELINE_IID
+    - kubectl -n wiki set image deployment/wiki wiki=$CI_REGISTRY_IMAGE:$CI_PIPELINE_IID
     - kubectl -n wiki rollout status --timeout 60s deployment/wiki || (kubectl -n wiki rollout undo deployment/wiki && false)
   only:
     refs:
@@ -35,7 +34,7 @@ deploy:
 # EVERYTHING BELOW HERE CAN BE IGNORED
 # DO NOT TOUCH ANYTHING BELOW THIS LINE
 dependency_scanning:
-  stage: scan
+  stage: build
   image: docker:stable
   variables:
     DOCKER_DRIVER: overlay2
