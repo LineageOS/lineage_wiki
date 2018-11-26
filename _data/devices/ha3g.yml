@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP, 1080p Full HD Video Recording @ 60fps'}
 - {flash: '', info: '2 MP, 1080p HD Video Recording @ 30fps'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: ha3g
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
@@ -18,7 +18,7 @@ height: 151.2 mm (5.95 in)
 image: ha3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers: [tincho5588, deadman96385]
+maintainers: []
 models: [SM-N9000]
 name: Galaxy Note 3 (International 3G)
 network:

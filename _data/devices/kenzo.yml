@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED (dual-tone)', info: '16 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: kenzo
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
@@ -19,7 +19,7 @@ height: 150 mm (5.91 in)
 image: kenzo.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8956
-maintainers: [TheStrix]
+maintainers: []
 name: Redmi Note 3
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

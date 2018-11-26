@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '21 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: clark
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
@@ -16,7 +16,7 @@ gpu: Adreno 418
 image: clark.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8992
-maintainers: [hashbang173]
+maintainers: []
 models: [XT1570, XT1572, XT1575]
 name: Moto X Pure Edition/Style (2015)
 network:

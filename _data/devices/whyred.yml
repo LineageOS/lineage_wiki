@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '5 MP'}
 - {flash: 'LED', info: '20 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: whyred
 cpu: Kryo
 cpu_cores: '8'
@@ -20,7 +20,7 @@ height: 158.6 mm (6.24 in)
 image: whyred.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sdm660
-maintainers: [vasishath, Shahan_mik3]
+maintainers: []
 name: Redmi Note 5 Pro
 network:
 - {tech: 2G, bands: '850 900 1900 2100 MHz GSM' }

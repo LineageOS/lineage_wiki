@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP , f/1.8, 26mm'}
 - {flash: '', info: '5 MP, f/1.8, 23mm'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: pme
 cpu: Kryo
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 145.9 mm (5.74 in)
 image: pme.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8996
-maintainers: [crpalmer, raymanfx]
+maintainers: []
 name: '10'
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA (USA)' }
