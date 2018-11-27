@@ -74,6 +74,11 @@ There are no recovery install instructions for this discontinued device.
 14. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 15. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
 
+{% if device.vendor == "Xiaomi" %}
+{% capture install_note %}templates/install_note_{{ device.vendor | downcase }}.md{% endcapture %}
+{% include warning.html content=install_note %}
+{% endif %}
+
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
