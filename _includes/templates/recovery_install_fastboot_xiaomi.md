@@ -20,6 +20,36 @@ but beware that one account is only allowed to unlock one unique device every 30
 {% endunless %}
 
 {% include templates/recovery_install_fastboot_generic.md %}
+
+Note:
+
+Some Xiaomi devices contain an anti-rollback-protection. In this case, instead of
+flashing the recovery:
+
+- Check anti-rollback-protection:
+  ```
+  fastboot getvar anti
+  ```
+  3: no anti-rollback-protection, 4: anti-rollback-protection active
+  
+- Flash recovery onto your device would fail:
+  ```
+  fastboot flash recovery twrp-x.x.x-x-{{ twrp_codename }}.img
+  ...
+  FAILED (remote: Anti-rollback check failed)
+  ```
+
+- To solve this, either flash a dummy image first, or boot TWRP and flash recovery from within TWRP:
+  ```
+  fastboot boot twrp-x.x.x-x-{{ twrp_codename }}.img
+  adb push twrp-x.x.x-x-{{ twrp_codename }}.img /sdcard/twrp-x.x.x-x-{{ twrp_codename }}.img
+  ```
+  Then, flash TWRP in TWRP on the phone and reboot:
+  ```
+  Install -> Install image -> select /sdcard/twrp-x.x.x-x-{{ twrp_codename }}.img -> Recovery
+  Home -> Reboot -> Recovery -> Do Not Install
+  ```
+
 {% if site.data.devices[page.device].no_oem_unlock_switch %}
 {% include tip.html content="It is highly recommended to have the latest official MIUI dev package installed on the device, before installing a custom recovery." %}
 {% endif %}
