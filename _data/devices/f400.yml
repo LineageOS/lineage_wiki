@@ -5,12 +5,12 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP'}
 carrier:
-channels: [discontinued]
+channels: [weekly]
 codename: f400
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 14.1
+current_branch: 15.1
 custom_twrp_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
@@ -19,7 +19,7 @@ height: 146.3 mm (5.76 in)
 image: g3.png
 install_method: dd
 kernel: android_kernel_lge_g3
-maintainers: []
+maintainers: [HardStyl3r, firebird11]
 name: G3 (Korea)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -44,6 +44,6 @@ tree: android_device_lge_f400
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 74.6 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
