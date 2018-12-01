@@ -10,14 +10,7 @@ ask that you meet some important prerequisites and then get in touch with our de
 
 ### Device
 
-Make sure your device meets the following requirements:
-
-* **Full hardware support** - Everything that is supported by stock _must_ be supported in LineageOS.
-    {% include note.html content="We are willing to make exceptions to this rule, however, any exceptions will be per device, and issues must be detailed in full." %}
-* **Stability** - Nothing should crash. LineageOS has a reputation for stability and your port must be rock-solid.
-* **No overclocking/overvolting** - Don't alter clocks/voltages outside of the manufacturer's default ranges.
-* **Enforcing SELinux** - The device must work while SELinux is enforcing (which is the default).
-* **No non-PIE blobs** - If your device requires executables which aren't position-independent, it will not be accepted.
+**Your device MUST meet the requirements of our charter** - Presented in [device support requirements](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md).
 
 ### Maintainer
 
