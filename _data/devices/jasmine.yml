@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '5 MP'}
 carrier: AT&T
-channels: [weekly]
+channels: [monthly]
 codename: jasmine
 cpu: Cortex-A53
 cpu_cores: '8'

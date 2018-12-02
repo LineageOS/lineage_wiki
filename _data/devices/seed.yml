@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: seed
 cpu: Cortex-A53
 cpu_cores: '4'

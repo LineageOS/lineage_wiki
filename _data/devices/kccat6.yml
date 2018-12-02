@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: kccat6
 cpu: Krait 450
 cpu_cores: '4'

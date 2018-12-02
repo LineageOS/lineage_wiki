@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: 'Monochromatic 16 MP'}
 - {flash: '', info: '4 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: natrium
 cpu: Kryo
 cpu_cores: '4'

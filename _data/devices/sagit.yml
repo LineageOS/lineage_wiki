@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: sagit
 cpu: Kryo
 cpu_cores: '8'

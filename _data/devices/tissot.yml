@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: tissot
 cpu: Cortex-A53
 cpu_cores: '8'

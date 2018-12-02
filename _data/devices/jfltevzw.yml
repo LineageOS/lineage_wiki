@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Verizon
-channels: [weekly]
+channels: [monthly]
 codename: jfltevzw
 cpu: Krait 300
 cpu_cores: 4

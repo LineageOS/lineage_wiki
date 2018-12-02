@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: nash
 cpu: Kryo
 cpu_cores: '8'

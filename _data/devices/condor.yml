@@ -4,7 +4,7 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: condor
 cpu: Cortex-A7
 cpu_cores: '2'

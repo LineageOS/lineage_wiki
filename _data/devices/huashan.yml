@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8MP f/2.4'}
 - {flash: '', info: 'VGA'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: huashan
 cpu: Krait
 cpu_cores: '2'

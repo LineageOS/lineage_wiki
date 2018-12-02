@@ -7,7 +7,7 @@ cameras:
 - {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
 - {flash: '', info: '2.07 MP  (Mi 3) / 7.99 MP (Mi 4)'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: cancro
 cpu: Krait 400
 cpu_cores: '4'

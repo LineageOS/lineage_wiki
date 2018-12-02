@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: 'VGA'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: otus
 cpu: Cortex-A7
 cpu_cores: '4'

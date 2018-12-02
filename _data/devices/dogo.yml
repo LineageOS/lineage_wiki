@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13.1MP f/2.4'}
 - {flash: '', info: 'VGA'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: dogo
 cpu: Krait
 cpu_cores: '4'

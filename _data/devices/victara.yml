@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
 - {flash: '', info: '2 MP, 1080p'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: victara
 cpu: Krait 400
 cpu_cores: '4'

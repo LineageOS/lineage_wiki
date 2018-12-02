@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '23 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: pioneer
 cpu: Cortex-A53
 cpu_cores: '8'

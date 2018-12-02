@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [weekly]
+channels: [monthly]
 codename: n1awifi
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'

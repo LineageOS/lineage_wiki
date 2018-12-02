@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: T-Mobile
-channels: [weekly]
+channels: [monthly]
 codename: h918
 cpu: Kryo
 cpu_cores: '4'
