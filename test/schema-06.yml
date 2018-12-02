@@ -171,6 +171,8 @@ properties:
       "$id": "/properties/channels/items"
       enum:
       - discontinued
+      - monthly
+      - nightly
       - weekly
     type: array
   codename:
