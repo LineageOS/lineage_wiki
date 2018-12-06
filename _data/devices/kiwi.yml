@@ -5,12 +5,12 @@ cameras:
 - {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
 - {flash: '', info: '5 MP, f/2.4, 22mm'}
 carrier:
-channels: [monthly]
+channels: [nightly]
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth: 8.2 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding buttons until the "Honor" logo appears, then release all buttons.
@@ -19,7 +19,7 @@ height: 151.3 mm (5.96 in)
 image: kiwi.png
 install_method: fastboot_huawei
 kernel: android_kernel_huawei_kiwi
-maintainers: [crpalmer, BadDaemon]
+maintainers: [BadDaemon, dobo]
 models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
 name: Honor 5X
 network:
@@ -42,6 +42,6 @@ tree: android_device_huawei_kiwi
 type: phone
 vendor: Huawei
 vendor_short: huawei
-versions: [14.1]
+versions: [14.1, 15.1]
 width: 76.3 mm (3.00 in)
 wifi: 802.11 b/g/n
