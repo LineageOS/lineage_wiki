@@ -73,9 +73,9 @@ Then navigate to your Android source directory and open the `.ipr` file.
 
 ### Configure the project
 
-After opening the project, navigate to **File -> Project Structure -> SDKs** (this might be disabled until the indexing has finished) and set up a JDK (version 1.8 for LineageOS 14.1 branch) where you remove _all_ libraries (`.jar` files).
+After opening the project, navigate to the **File -> Project Structure** or press [ALT]+[CTRL]+[SHIFT]+[S] (this might be disabled until the indexing has finished). On the left side of the settings panel choose **System Settings -> SDKs** and set up a JDK (version 1.8 for LineageOS 15.1 branch). Then choose **Project Settings -> Modules** and select the `android` module to remove _all_ libraries (`.jar` files) under the **Dependencies** tab.
 
-Then, on the left side of the settings panel, choose **Project Settings -> Modules** and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]).
+Switch to the **Sources** tab and mark the folder `out/target/common/R` as `Sources` (you can also select it and press [ALT]+[S]). The folder is empty when you have not build for your device yet ([build guides]({{ "build_guides.html" | relative_url}})).
 
 Press **Apply** and close the settings.
 
