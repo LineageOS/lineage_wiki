@@ -58,21 +58,21 @@ There are no recovery install instructions for this discontinued device.
 {% else %}
 7. Select the *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
 {% endif %}
-8. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
-    * Using adb: `adb push filename.zip /sdcard/`
-    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
-        USB debugging is enabled.
-9. Go back to return to main menu, then tap **Install**.
-10. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-11. Follow the on-screen prompts to install the package.
+8. Sideload the LineageOS `.zip` package:
+    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% if device.is_ab_device %}
-12. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
+9. _(Optional)_: Reboot to recovery and install any additional packages using the same method. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
-13. _(Optional)_: Install any additional packages using the same method.
+9. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
     {% include note.html content="If you want any Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
-14. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
-15. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
+10. _(Optional)_: Root the device by installing the [LineageOS SU Addon](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+{% if device.is_ab_device %}
+11. Once installation has finished, return to the main menu, tap **Reboot**.
+{% else %}
+11. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
+{% endif %}
 
 ## Get assistance
 
