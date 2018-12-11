@@ -22,6 +22,30 @@
       "revId": "2f37233e0aec4fb633c3310b56f531b81ebd8d82",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "86f1181d_cf1eb2ee",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-12-11T23:35:22Z",
+      "side": 1,
+      "message": "I also want to have this clarified.",
+      "parentUuid": "8ecbed00_8c0e6c61",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 74,
+        "endChar": 97
+      },
+      "revId": "2f37233e0aec4fb633c3310b56f531b81ebd8d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
