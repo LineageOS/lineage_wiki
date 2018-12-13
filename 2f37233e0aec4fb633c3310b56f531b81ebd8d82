@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "c08d3f01_dcc90f71",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-12-13T05:48:33Z",
+      "side": 1,
+      "message": "I think this step needs a little work. The previous step sideload instructions are for twrp, so \"using the same method\" in this step doesn\u0027t work since user is now in lineage recovery.",
+      "range": {
+        "startLine": 65,
+        "startChar": 17,
+        "endLine": 65,
+        "endChar": 94
+      },
+      "revId": "2f37233e0aec4fb633c3310b56f531b81ebd8d82",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "8ecbed00_8c0e6c61",
         "filename": "_includes/templates/device_install.md",
         "patchSetId": 6
