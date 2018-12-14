@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "12fc2d5b_858757da",
+        "filename": "pages/submitting_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-12-14T23:32:02Z",
+      "side": 1,
+      "message": "All this can be removed because it\u0027s part of the charter.",
+      "range": {
+        "startLine": 16,
+        "startChar": 1,
+        "endLine": 19,
+        "endChar": 120
+      },
+      "revId": "9f793597c0d53be373d0966cd6df5bcdbcf3aea1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
