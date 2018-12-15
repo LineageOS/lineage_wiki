@@ -296,6 +296,9 @@ properties:
     - fastboot_xiaomi
     - fastboot_zenfone
     - heimdall
+  is_unlockable:
+    "$id": "/properties/is_unlockable"
+    type: boolean
   kernel:
     "$id": "/properties/kernel"
     pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
