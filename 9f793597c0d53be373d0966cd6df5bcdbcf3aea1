@@ -22,6 +22,30 @@
       "revId": "9f793597c0d53be373d0966cd6df5bcdbcf3aea1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a4a43b30_d3d87200",
+        "filename": "pages/submitting_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2018-12-15T02:22:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "12fc2d5b_858757da",
+      "range": {
+        "startLine": 16,
+        "startChar": 1,
+        "endLine": 19,
+        "endChar": 120
+      },
+      "revId": "9f793597c0d53be373d0966cd6df5bcdbcf3aea1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
