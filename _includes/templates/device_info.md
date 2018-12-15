@@ -3,6 +3,9 @@
 {% if device.maintainers == empty and device.channels contains "discontinued" %}
 {% include alerts/warning_discontinued_device.html %}
 {% endif %}
+{% if device.is_unlockable == false %}
+{% include warning_bootloader_not_unlockable.html %}
+{% endif %}
 
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 {% if device.maintainers != empty %}

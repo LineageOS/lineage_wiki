@@ -19,6 +19,7 @@ gpu: Adreno 306
 gsm: GSM 900 /1800 / 1900
 image: cherry.png
 install_method: fastboot_huawei
+is_unlockable: false
 kernel: android_kernel_huawei_msm8916
 maintainers: [dianlujitao]
 name: Honor 4/4X (Unified)
