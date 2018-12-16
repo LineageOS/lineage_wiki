@@ -18,7 +18,7 @@ tags:
   There is a correlation between low storage space and this happening.
   
 ## How to fix it (requires enabled adb)
-  For now the best way I've found to make this work is to use adb:
+  The best way is to use adb:
   - plug in your phone and allow usb debugging
   - open a terminal
   - type in `adb shell`
