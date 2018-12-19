@@ -119,7 +119,7 @@ Additionally there are some optional properties which you might not need, but in
   required_bootloader: [Version1, Version2]
   ```
 
-{% include note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
+{% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
 
 ### Adding the device's image
 
