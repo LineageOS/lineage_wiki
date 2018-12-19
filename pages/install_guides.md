@@ -2,6 +2,7 @@
 title: Install guides
 sidebar: home_sidebar
 permalink: install_guides.html
+toc: false
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}

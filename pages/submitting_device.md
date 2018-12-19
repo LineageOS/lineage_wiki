@@ -13,7 +13,7 @@ ask that you meet some important prerequisites and then get in touch with our de
 Make sure your device meets the following requirements:
 
 * **Full hardware support** - Everything that is supported by stock _must_ be supported in LineageOS.
-    {% include note.html content="We are willing to make exceptions to this rule, however, any exceptions will be per device, and issues must be detailed in full." %}
+    {% include alerts/note.html content="We are willing to make exceptions to this rule, however, any exceptions will be per device, and issues must be detailed in full." %}
 * **Stability** - Nothing should crash. LineageOS has a reputation for stability and your port must be rock-solid.
 * **No overclocking/overvolting** - Don't alter clocks/voltages outside of the manufacturer's default ranges.
 * **Enforcing SELinux** - The device must work while SELinux is enforcing (which is the default).
@@ -41,7 +41,7 @@ device port requests are accepted. Developer relations will do their best to inf
 
 ## Making your device official
 
-{% include note.html content="Once you have successfully submitted your device, you will be given access to our internal tools (e.g. team chat, cve tracker, ...) to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
+{% include alerts/note.html content="Once you have successfully submitted your device, you will be given access to our internal tools (e.g. team chat, cve tracker, ...) to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
 
 The following steps are necessary to finally make your device an official one:
 
