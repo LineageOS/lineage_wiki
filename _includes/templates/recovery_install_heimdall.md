@@ -63,10 +63,10 @@ heimdall print-pit
 ```
 heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img --no-reboot
 ```
-    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
 6. Unplug the USB cable from your device.
 7. Manually reboot into recovery:
     * {{ site.data.devices[page.device].recovery_boot }}
 
-    {% include note.html content="Be sure to reboot into recovery immediately after having installed the custom recovery. Otherwise the custom recovery will be overwritten and the device will reboot (appearing as though your custom recovery failed to install)." %}
+    {% include alerts/note.html content="Be sure to reboot into recovery immediately after having installed the custom recovery. Otherwise the custom recovery will be overwritten and the device will reboot (appearing as though your custom recovery failed to install)." %}

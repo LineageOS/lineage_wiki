@@ -1,52 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  {% include head.html %}
-  <script>
-  $(document).ready(function() {
-      // Initialize navgoco with default options
-      $("#mysidebar").navgoco({
-          caretHtml: '',
-          accordion: true,
-          openClass: 'active', // open
-          save: false, // leave false or nav highlighting doesn't work right
-          cookie: {
-              name: 'navgoco',
-              expires: false,
-              path: '/'
-          },
-          slide: {
-              duration: 400,
-              easing: 'swing'
-          }
-      });
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-      $("#collapseAll").click(function(e) {
-        e.preventDefault();
-        $("#mysidebar").navgoco('toggle', false);
-      });
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-      $("#expandAll").click(function(e) {
-          e.preventDefault();
-          $("#mysidebar").navgoco('toggle', true);
-      });
+    <link href="{{ site.baseurl }}/assets/css/material-kit.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
 
-  });
-  </script>
-  <script>
-  $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-  })
-  </script>
-</head>
-<body id="page-top">
-{% include topnav.html %}
-<!-- Page Content -->
-<div class="container" id="main">
-  {{content}}
-</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js" integrity="sha256-WofcoLT8gToeaSmVRe28qpnlFxdBJH1n4K6Bk3YowvU=" crossorigin="anonymous"></script>
 
-{% include footer.html %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-touch-icon.png" | relative_url }}">
+    <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-32x32.png" | relative_url }}" sizes="32x32">
+    <link rel="icon" type="image/png" href="{{ "images/favicons/favicon-16x16.png" | relative_url }}" sizes="16x16">
+    <link rel="manifest" href="{{ "images/favicons/manifest.json" | relative_url }}">
+    <link rel="mask-icon" href="{{ "images/favicons/safari-pinned-tab.svg" | relative_url }}" color="#167c80">
+    <link rel="shortcut icon" href="{{ "images/favicons/favicon.ico" | relative_url }}">
+    <meta name="msapplication-config" content="{{ "images/favicons/browserconfig.xml" | relative_url }}">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
 
-</body>
+    {% include layout/navbar.html %}
+
+    <div class="main-content">
+
+      {{ content }}
+
+    </div>
+
+    {% include layout/footer.html %}
+
+    {% unless page.disable_anchor %}<script>anchors.add().remove('h1');</script>{% endunless %}
+
+  </body>
 </html>

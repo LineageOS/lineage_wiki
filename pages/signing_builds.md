@@ -5,7 +5,7 @@ permalink: signing_builds.html
 ---
 ## Generating the keys
 
-{% include note.html content="You only need to run this once. If you ever rerun these, you'll need to
+{% include alerts/note.html content="You only need to run this once. If you ever rerun these, you'll need to
 migrate between builds - see [Changing keys](#changing-keys)" %}
 
 From the root of your Android tree, run these commands, altering the `subject` line to reflect your information:
@@ -22,7 +22,7 @@ You should keep these keys safe, and store the passphrase in a secure location.
 
 ## Generating an install package
 
-{% include tip.html content="If you wish to preserve your data coming from a Lineage build you
+{% include alerts/tip.html content="If you wish to preserve your data coming from a Lineage build you
 didn't build, see [Changing keys](#changing-keys)." %}
 
 ### Generating and signing target files
@@ -62,7 +62,7 @@ Then, install the zip in recovery as you normally would.
 
 ### Using a migration build
 
-{% include warning.html content="Builds with these patches are insecure - they reset the keys
+{% include alerts/warning.html content="Builds with these patches are insecure - they reset the keys
 on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
@@ -146,7 +146,7 @@ If you are moving from test-keys to your own signed builds, you can add your own
 script. First, export your keys to the required format, by running the script in
 `./lineage/scripts/key-migration/export-keys.sh`.
 
-{% include note.html content="You may need to modify this script to change the location of
+{% include alerts/note.html content="You may need to modify this script to change the location of
 your certificate directory if you are not using the default certificate directory." %}
 
 This will print the keys and certs to the terminal in the format required. Next, edit the
