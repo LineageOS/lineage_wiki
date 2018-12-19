@@ -3,7 +3,7 @@
 In order to root your device you must first install this kernel via Heimdall.
 
 1. Download the [kernel](https://www.androidfilehost.com/?fid=745425885120732538)
-    {% include tip.html content="If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
+    {% include alerts/tip.html content="If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
 2. Power off the your device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
 
@@ -14,7 +14,7 @@ In order to root your device you must first install this kernel via Heimdall.
 ```
 heimdall flash --BOOT boot.img
 ```
-    {% include tip.html content="The file may not be named identically to what's in this command. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
+    {% include alerts/tip.html content="The file may not be named identically to what's in this command. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall isn't going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the kernel being transferred, then your device will reboot.
 6. Allow it to boot and proceed with the rooting steps.
 {% endcapture %}

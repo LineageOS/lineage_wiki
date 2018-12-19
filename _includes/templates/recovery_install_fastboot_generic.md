@@ -25,12 +25,12 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Flash recovery onto your device:
 ```
 fastboot flash recovery twrp-x.x.x-x-{{ twrp_codename }}.img
 ```
-    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 
 6. Now reboot into recovery to verify the installation:
     * {{ site.data.devices[page.device].recovery_boot }}

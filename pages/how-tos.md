@@ -3,6 +3,7 @@ title: How-to ...
 sidebar: home_sidebar
 permalink: how-tos.html
 tags:
+toc: false
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}

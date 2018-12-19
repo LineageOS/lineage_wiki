@@ -2,6 +2,7 @@
 title: All Content
 sidebar: home_sidebar
 permalink: pages.html
+toc: false
 tags:
  - noindex
 ---

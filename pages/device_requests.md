@@ -1,7 +1,7 @@
 ---
-sidebar: home_sidebar
 title: Requesting LineageOS for your device
 permalink: device_requests.html
+toc: false
 ---
 
 _LineageOS, please support my new device! Pretty please with cherries on top!_
