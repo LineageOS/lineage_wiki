@@ -5,10 +5,10 @@ permalink: upgrading.html
 tags:
 ---
 
-{% include important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
+{% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
 {% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ "devices/" | relative_url }}) instructions for installing LineageOS the first time.{% endcapture %}
-{% include warning.html content=upgrade_only %}
+{% include alerts/warning.html content=upgrade_only %}
 
 ## Manually upgrading LineageOS
 
@@ -25,7 +25,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 6. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 7. Follow the on-screen prompts to install the package.
 8. _(Optional)_: Install any additional packages using the same method.
-    {% include note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first reboot! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them now." %}
+    {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first reboot! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them now." %}
 9. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) or using any other method you prefer.
 10. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
