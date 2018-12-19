@@ -1,7 +1,7 @@
 ## Unlocking the bootloader
 
-{% include note.html content="The steps below only need to be run once per device." %}
-{% include warning.html content="Unlocking the bootloader will erase all data on your device!
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
+{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
 {% if site.data.devices[page.device].project_spectrum_recovery %}
@@ -48,7 +48,7 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 14. Now type the following command to unlock the bootloader:
 
 {% if site.data.devices[page.device].custom_unlock_cmd %}
