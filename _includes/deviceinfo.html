@@ -1,74 +1,59 @@
 {% assign device = site.data.devices[page.device] %}
-<style>
-td {
-    text-align: right;
-}
+<table class="deviceinfo table">
+  <tbody>
 
-ul, ol {
-    text-align: left;
-}
+    <tr>
+      <th colspan="2">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</th>
+    </tr>
 
-.header {
-    font-weight: bold;
-    text-align: left;
-}
+    <tr class="image">
+      {% if jekyll.environment == "development" or jekyll.environment == "production" %}
+      <td colspan="2"><img src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
+      {% else %}
+      <td colspan="2"><img src="{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image }}"/></td>
+      {% endif %}
+    </tr>
 
-.header[colspan='2'] {
-    text-align: center;
-}
-</style>
-<table>
-    <colgroup>
-        <col style="width: 30%">
-        <col style="width: 70%">
-    </colgroup>
     <tr>
-        <td colspan="2" class="header"><strong>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</strong></td>
+      <th scope="row">Released</th>
+      <td>
+        {%- if device.release.first -%}
+          {%- for model in device.release -%}
+            {%- assign release = model.first[1] | split: '-' -%}
+            {{ model.first[0] }}: {% include snippets/release.html -%}
+            {%- unless forloop.last -%}
+            <br/>
+            {% endunless %}
+          {%- endfor %}
+        {%- else %}
+          {% assign release = device.release | split: '-' -%}
+          {% include snippets/release.html %}
+        {%- endif %}
+      </td>
     </tr>
+
     <tr>
-        {% if jekyll.environment == "development" or jekyll.environment == "production" %}
-        <td colspan="2"><img style="width:100%" src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
-        {% else %}
-        <td colspan="2"><img style="width:100%" src="{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image }}"/></td>
-        {% endif %}
-    </tr>
-    <tr>
-        <td class="header">Released</td>
-        <td>
-            {%- if device.release.first -%}
-                {%- for model in device.release -%}
-                    {%- assign release = model.first[1] | split: '-' -%}
-                    {{ model.first[0] }}: {% include snippets/release.html -%}
-                    {%- unless forloop.last -%}
-                    <br/>
-                    {% endunless %}
-                {%- endfor %}
-            {%- else %}
-                {% assign release = device.release | split: '-' -%}
-                {% include snippets/release.html %}
-            {%- endif %}
-        </td>
-    </tr>
     {% if device.carrier %}
     <tr>
-        <td class="header">Carrier</td>
-        <td>{{ device.carrier }}</td>
+      <th scope="col"">Carrier</td>
+      <td>{{ device.carrier }}</td>
     </tr>
     {% endif %}
-    <!-- specs -->
+    </tr>
+
     <tr>
-        <td class="header" colspan="2">Specifications</td>
+        <th scope="row" colspan="2">Specifications</td>
     </tr>
     <tr>
-        <td class="header">SoC</td>
+        <th scope="row">SoC</td>
         <td>{{ device.soc }}</td>
     </tr>
     <tr>
-        <td class="header">RAM</td>
+        <th scope="row">RAM</td>
         <td>{{ device.ram }}</td>
     </tr>
     <tr>
-        <td class="header">CPU</td>
+        <th scope="row">CPU</td>
         <td>
             {% case device.cpu_cores %}
                 {% when '1' %}
@@ -87,7 +72,7 @@ ul, ol {
         </td>
     </tr>
     <tr>
-        <td class="header">Architecture</td>
+        <th scope="row">Architecture</td>
         <td>
             {%- if device.architecture.cpu -%}
             CPU: {{ device.architecture.cpu }}<br/>
@@ -98,13 +83,13 @@ ul, ol {
         </td>
     </tr>
     <tr>
-        <td class="header">GPU</td>
+        <th scope="row">GPU</td>
         <td>{{ device.gpu }}</td>
     </tr>
     {% if device.network %}
     {% if device.network[0].bands != '' or device.network[1].bands != '' or device.network[2].bands != '' %}
     <tr>
-        <td class="header">Network</td>
+        <th scope="row">Network</td>
         <td>
             <ul>
                 {% for el in device.network %}
@@ -120,24 +105,24 @@ ul, ol {
     {% endif %}
     {% endif %}
     <tr>
-        <td class="header">Storage</td>
+        <th scope="row">Storage</td>
         <td>{{ device.storage }}</td>
     </tr>
     {% if device.sdcard %}
     <tr>
-        <td class="header">SD card</td>
+        <th scope="row">SD card</td>
         <td>{{ device.sdcard }}</td>
     </tr>
     {% endif %}
     {% if device.screen %}
     <tr>
-        <td class="header">Screen</td>
+        <th scope="row">Screen</td>
         <td>{{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>{{ device.screen_tech }}</td>
     </tr>
     {% endif %}
     {% if device.bluetooth %}
     <tr>
-        <td class="header">Bluetooth</td>
+        <th scope="row">Bluetooth</td>
         <td>
             {% if device.bluetooth.profiles -%}
                 {{ device.bluetooth.spec }} with {{ device.bluetooth.profiles | join: ', ' }}
@@ -149,13 +134,13 @@ ul, ol {
     {% endif %}
     {% if device.wifi %}
     <tr>
-        <td class="header">Wi-Fi</td>
+        <th scope="row">Wi-Fi</td>
         <td>{{ device.wifi }}</td>
     </tr>
     {% endif %}
     {% if device.peripherals != 'None' %}
     <tr>
-        <td class="header">Peripherals</td>
+        <th scope="row">Peripherals</td>
         <td>
             {%- if device.peripherals.first.size == 1 %}
                 {%- for model in device.peripherals %}
@@ -175,7 +160,7 @@ ul, ol {
     {% endif %}
     {% if device.cameras and device.cameras.size > 0 %}
     <tr>
-        <td class="header">Cameras</td>
+        <th scope="row">Cameras</td>
         <td>{{ device.cameras | size }}
             <ul>
                 {% for el in device.cameras %}
@@ -194,13 +179,13 @@ ul, ol {
     {% endif %}
     {% if device.height and device.width and device.depth %}
     <tr>
-        <td class="header">Dimensions</td>
+        <th scope="row">Dimensions</td>
         <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
     </tr>
     {% endif %}
     {%- if device.battery != 'None' %}
     <tr>
-        <td class="header">Battery</td>
+        <th scope="row">Battery</td>
         <td>
             {% if device.battery.first.size == 1 -%}
             {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
@@ -222,10 +207,10 @@ ul, ol {
     <!-- lineage info -->
     {% if device.maintainers != empty %}
     <tr>
-        <td class="header" colspan="2">LineageOS info</td>
+        <th scope="row" colspan="2">LineageOS info</td>
     </tr>
     <tr>
-        <td class="header">Maintainers</td>
+        <th scope="row">Maintainers</td>
         <td>
             <ul>
                 {% for el in device.maintainers %}
@@ -236,7 +221,7 @@ ul, ol {
     </tr>
     {% if device.models %}
     <tr>
-        <td class="header">Supported models</td>
+        <th scope="row">Supported models</td>
         <td>
             <ul>
             {% for model in device.models %}
@@ -247,7 +232,7 @@ ul, ol {
     </tr>
     {% endif %}
     <tr>
-        <td class="header">Supported versions</td>
+        <th scope="row">Supported versions</td>
         <td>
             <ul>
                 {% for el in device.versions %}
@@ -257,4 +242,6 @@ ul, ol {
         </td>
     </tr>
     {% endif %}
+
+  </tbody>
 </table>
