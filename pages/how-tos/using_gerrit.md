@@ -20,6 +20,7 @@ There you can see what has been recently merged into the codebase. More interest
 A review system is defined by the ability to approve or disapprove changes and to verify them before they become part of the codebase. There are several possible ways to interact with the system, some are limited to specific users.
 Anyone with an account can reply to a patch and add a label:
 
+{:.table}
 | Label | Definition | Meaning |
 |-------|------------|---------|
 | **-2** | Do not submit | This patch can't be submitted without the removal of the vote |
@@ -32,7 +33,7 @@ The labels **+2** and **-2** are limited to the maintainers of the project or of
 
 A patch can be submitted after verification ("does it build? does it still boot? does it not break anything?") which has its own labels (-1 / 0 / +1) and is then part of the code used for builds.
 
-{% include important.html content="The several possible votes are **not** meant to be used as a 'Facebook-Like'. Giving a **+1** means you have read the commit message and the content of the patch and made sure they meet the project's standards in terms of coding, ideas and policies.  
+{% include alerts/important.html content="The several possible votes are **not** meant to be used as a 'Facebook-Like'. Giving a **+1** means you have read the commit message and the content of the patch and made sure they meet the project's standards in terms of coding, ideas and policies.  
 The possibility of adding a comment doesn't mean you should add your opinion on patches randomly." %}
 
 ## Testing a patch
