@@ -21,7 +21,7 @@ search: exclude
 "url": "{{ page.url | relative_url }}",
 "summary": "{{page.summary | strip }}"
 }
-{%- if forloop.last == false %}, {% endif %}
+{%- unless forloop.last %}, {% endunless %}
 {%- endunless %}
 {%- endunless %}
 {%- endfor %}

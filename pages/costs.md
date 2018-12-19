@@ -3,11 +3,12 @@ sidebar: home_sidebar
 title: Current LineageOS Costs
 permalink: costs/
 redirect_from: costs.html
+toc: false
 ---
 
 LineageOS is a commmunity-funded, open source project. Below are our current monthly costs.
 
-
+{:.table}
 | Monthly Cost   | Provider | What     | Purpose                              |
 | -------------- | -------- | -------- | ------------------------------------ |
 | $129.99        | OVH      | SP-64    | Gerrit, Mirror                       |
