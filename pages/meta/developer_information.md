@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Information for Lineage Developers
 folder: meta
+toc: false
 permalink: developer_information.html
 ---
 So, you've decided you want to contribute to the Lineage software. Awesome! This page provides reference material that may be useful to help you.

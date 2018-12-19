@@ -2,9 +2,6 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: LineageOS Wiki
-# this appears on the top navigation bar next to the home button
-
 title: LineageOS Wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
@@ -48,33 +45,14 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
       search: true
-      sidebar: home_sidebar
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: home_sidebar
 
 # these are defaults used for the frontmatter for these file types
 
-sidebars:
-- home_sidebar
+
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+  sourcemap: true
 
 description: "The LineageOS Wiki"
 # the description is used in the feed.xml file

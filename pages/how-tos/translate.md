@@ -29,7 +29,7 @@ You seem to speak a language which nobody else does... or there has just been th
 There is (or should be) at least one proofreader for each language (you can apply, if not). Proofreaders will look through the strings and validate those which they think are fitting the context and are of a high-enough quality. In the event that you do not see an active review or acceptance of your (or alternative) suggestions, you can contact one of the proofreaders via the sidebar on the right. To do so, simply type "@" followed by the name and then add the message (e.g. "@NameHere: Please look through my translations on this file").  
 After the strings have been validated, a scripted job is run (by one of the [Managers](http://wiki.lineageos.org/contributors.html#translations-managers) to import the strings to [Gerrit](https://review.lineageos.org). After a successful test build they get merged to source code and will be part of every new official build.
 
-{% include tip.html content="You can check who the proofreader is for your language on the [Contributors](http://wiki.lineageos.org/contributors.html#translations-proofreaders) page." %}
+{% include alerts/tip.html content="You can check who the proofreader is for your language on the [Contributors](http://wiki.lineageos.org/contributors.html#translations-proofreaders) page." %}
 
 ## Correcting wrong strings
 
@@ -37,7 +37,7 @@ After the strings have been validated, a scripted job is run (by one of the [Man
 
 Sometimes you will notice translated strings which seem to be slightly different from what you'd expect or simply wrong. There are various reasons to how this can happen, but still, the only relevant thing is how to improve the translation. Just suggest your translation like you would do for any untranslated string. After saving it you will have the possibility to "Notify the proofreader".
 
-{% include note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [Managers](http://wiki.lineageos.org/contributors.html#translations-managers) about it." %}
+{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [Managers](http://wiki.lineageos.org/contributors.html#translations-managers) about it." %}
 
 ### Original strings
 
@@ -57,4 +57,4 @@ Generally you need to pay attention to a few things:
 Every string requires to be validated by a proofreader. In case your language doesn't have an active proofreader, you can apply for it.
 As a proofreader, you also have to make sure that the submitted strings match the context.
 
-{% include note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
+{% include alerts/note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
