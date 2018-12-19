@@ -1,7 +1,7 @@
 ## Unlocking the bootloader
 
-{% include note.html content="The steps below only need to be run once per device." %}
-{% include warning.html content="Unlocking the bootloader will erase all data on your device!
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
+{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
 {% unless site.data.devices[page.device].no_oem_unlock_switch %}
@@ -21,14 +21,14 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Now type the following command to obtain your bootloader unlock token:
 ```
 fastboot oem get_identifier_token
 ```
 6. Visit the [HTCDev Bootloader Unlock](http://www.htcdev.com/bootloader/) website and follow the instructions there to obtain your unlock key and unlock your bootloader. If your device does not appear in the drop-down list, select **All Other Supported Models**.
 
-    {% include note.html content="If your device is not supported by the HTCDev Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
+    {% include alerts/note.html content="If your device is not supported by the HTCDev Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
 
 7. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 8. Since the device resets completely, you will need to re-enable USB debugging to continue.
