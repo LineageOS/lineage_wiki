@@ -7,7 +7,7 @@
 
 ## Basic requirements
 
-{% include important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
+{% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
 1. Make sure your computer has working `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
@@ -19,7 +19,7 @@
 Your device must be on bootloader version {% for el in device.required_bootloader %} {% if forloop.last %} `{{ el }}` {% else %} `{{ el }}` / {% endif %} {% endfor %}, otherwise the instructions found in this page will not work.
 The current bootloader version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window.
 {% endcapture %}
-{% include warning.html content=bootloader %}
+{% include alerts/warning.html content=bootloader %}
 {% endif %}
 
 {% if device.install_method %}
@@ -66,7 +66,7 @@ There are no recovery install instructions for this discontinued device.
 {% else %}
 9. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
-    {% include note.html content="If you want Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
+    {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
 10. _(Optional)_: Root the device by installing the [LineageOS SU Addon](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 {% if device.is_ab_device %}
 11. Once installation has finished, return to the main menu, tap **Reboot**.
