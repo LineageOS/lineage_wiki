@@ -14,7 +14,7 @@ If you haven't yet successfully downloaded the source and generated a build of L
 
 Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributor Agreement](https://review.lineageos.org/#/settings/agreements) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
-{% include important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
+{% include alerts/important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
 
 Now make sure your local git username matches with your Gerrit username:
 
@@ -76,7 +76,7 @@ First, you need to start a topic branch. This branch holds the changes you make 
 repo start <branch name> <project path>
 ```
 
-{% include note.html content="This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead." %}
+{% include alerts/note.html content="This starts a new branch called `<branch name>` in the `<project path>` project. Replace `<project path>` with the path of your target repository instead." %}
 
 Change to the project (directory) that contains the file(s) you want to edit:
 
@@ -86,7 +86,7 @@ cd path/to/project
 
 Do all the changes you need.
 
-{% include warning.html content="Make sure you do not commit any changes before you run `repo start`, otherwise your changes will happen on a different branch and will not be tracked correctly." %}
+{% include alerts/warning.html content="Make sure you do not commit any changes before you run `repo start`, otherwise your changes will happen on a different branch and will not be tracked correctly." %}
 
 After you make your changes, you can commit them just as you normally would:
 
@@ -96,7 +96,7 @@ git commit
 ```
 Alternatively you can run `git add .` to stage all changes.
 
-{% include tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars." %}
+{% include alerts/tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars." %}
 
 Now you can upload your changes to Gerrit:
 
@@ -104,7 +104,7 @@ Now you can upload your changes to Gerrit:
 repo upload .
 ```
 
-{% include note.html content="In case you are in the root of the source code, you can type: `repo upload <project path>`." %}
+{% include alerts/note.html content="In case you are in the root of the source code, you can type: `repo upload <project path>`." %}
 
 That's it! Your change will be reviewed and may be accepted or rejected. See [#Example_cases](#ExampleCasesTag) below for an example.
 
@@ -134,7 +134,7 @@ git commit --amend
 
 This will open an editor with your initial commit message. You can change the commit message if you want to, but make sure the line starting with Change-Id remains unchanged as it contains the initial change ID. With this id, Gerrit will detect your upload as a patch set and not as a new patch.
 
-{% include note.html content="The default editor is vi. This can be changed by the EDITOR environment variable to any editor you like." %}
+{% include alerts/note.html content="The default editor is vi. This can be changed by the EDITOR environment variable to any editor you like." %}
 
 You can do `git log` and `git status` again. Notice how git handles your initial commit and the amended commit as one single patch. As for `git show`, it shows you all the changes made on that commit.
 
