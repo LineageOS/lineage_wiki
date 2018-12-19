@@ -23,7 +23,7 @@ In case environment functions and variables are not yet loaded, type:
 source build/envsetup.sh
 ```
 
-{% include tip.html content="You can always check this by executing `croot` (go to your Android root dir) and see if it gives an error. If not, you have already executed the `source` command." %}
+{% include alerts/tip.html content="You can always check this by executing `croot` (go to your Android root dir) and see if it gives an error. If not, you have already executed the `source` command." %}
 
 Now execute:
 
@@ -31,7 +31,7 @@ Now execute:
 make idegen && development/tools/idegen/idegen.sh
 ```
 
-{% include note.html content="This can take some time while it goes through your tree and generates an Android Studio project based on it." %}
+{% include alerts/note.html content="This can take some time while it goes through your tree and generates an Android Studio project based on it." %}
 
 In case you are developing on multiple branches or plan to do so (otherwise skip the next step), do the following (replace every occurrence of `lineage` with your desired naming scheme):
 
@@ -61,7 +61,7 @@ Again, navigate to the `bin` folder and open the file `idea.properties` with a t
 
 This is required so Android Studio can parse very large files to properly provide the auto-complete features (Android Studio calls this `IntelliSense`).
 
-{% include note.html content="If the line is missing (it should already be inside the file with current Android Studio versions), append it to the end of the file." %}
+{% include alerts/note.html content="If the line is missing (it should already be inside the file with current Android Studio versions), append it to the end of the file." %}
 
 ## Start working with Android Studio
 
@@ -69,7 +69,7 @@ Open Android Studio and click on **Open existing project**.
 
 Then navigate to your Android source directory and open the `.ipr` file.
 
-{% include note.html content="Opening the project the first time or after a fresh sync can take a while. You should wait until any indexing of files is done to be sure that every IDE feature is ready to use." %}
+{% include alerts/note.html content="Opening the project the first time or after a fresh sync can take a while. You should wait until any indexing of files is done to be sure that every IDE feature is ready to use." %}
 
 ### Configure the project
 

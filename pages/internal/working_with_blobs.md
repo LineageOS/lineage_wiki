@@ -38,11 +38,11 @@ If the entry has a colon (```:```) with ```source``` and ```destination``` names
 
 The ```sha1sum```, is the checksum of the version of the blob that we want to "pin".  If the copy of that blob in the existing vendor tree does not match the ```sha1sum``` then it is ignored and extraction proceeds normally.  If it does match then it will be kept regardless of the contents of the device/dump you are pulling from.
 
-{% include tip.html content="
+{% include alerts/tip.html content="
 The sha1sum is very useful if you are going to update your blobs from a stock image when you have kanged blobs from other devices.  If you list the sha1sums of any kanged or hexedited (aka non-stock) blobs, then you can always update the stock blobs without fear of losing your customizations.
 " %}
 
-{% include tip.html content="
+{% include alerts/tip.html content="
 If you hexedit a blob or pull kang it from another device, you will need to update the ```proprietary-files.txt``` list to update the ```sha1sum```.  Please take the time to document the source of the kang or steps to reproduce the hexediting.
 " %}
 
