@@ -1,7 +1,7 @@
 ## Unlocking the bootloader
 
-{% include note.html content="The steps below only need to be run once per device." %}
-{% include warning.html content="Unlocking the bootloader will erase all data on your device!
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
+{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
 1. Visit [Huawei's official unlocking website](http://emui.huawei.com/en/plugin/unlock/index), you'll be asked to login first.
@@ -20,7 +20,7 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 6. Now type the following command to unlock the bootloader:
 ```
 fastboot oem unlock ****************
@@ -36,6 +36,6 @@ fastboot oem get-bootinfo
     The message `Bootloader Lock State: LOCKED` indicates that the bootloader is still locked. Perform the unlocking procedure again and check that the password was entered correctly.
     On the other hand, the message `Bootloader Lock State: UNLOCKED` indicates that the bootloader has been unlocked. You can now install third-party firmware.
 
-{% include tip.html content="It is highly recommended to have the latest official EMUI package installed on the device, before proceeding with unlock." %}
+{% include alerts/tip.html content="It is highly recommended to have the latest official EMUI package installed on the device, before proceeding with unlock." %}
 
 {% include templates/recovery_install_fastboot_generic.md %}
