@@ -1,7 +1,7 @@
 ## Unlocking the bootloader
 
-{% include note.html content="The steps below only need to be run once per device." %}
-{% include warning.html content="Unlocking the bootloader will erase all data on your device!
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
+{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 This also includes your DRM keys, which are stored in the Trim Area partition (also called TA).
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent.
 If you wish to backup the TA partition first, you can find tutorials related to your device on the internet." %}
@@ -30,7 +30,7 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 6. Follow the instructions on [Sony's official unlocking website](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to unlock your bootloader.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
@@ -63,12 +63,12 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Temporarily flash TWRP to `boot`:
 ```
 fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
 ```
-    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. Remember to adjust the filename in the following commands as well." %}
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. Remember to adjust the filename in the following commands as well." %}
 6. Reboot to the TWRP recovery:
 ```
 fastboot reboot

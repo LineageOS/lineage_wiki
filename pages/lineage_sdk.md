@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: LineageSDK
 permalink: sdk/
+toc: false
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
