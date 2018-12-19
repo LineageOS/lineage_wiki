@@ -1,0 +1,98 @@
+.pagination{
+    > .page-item > .page-link,
+    > .page-item > span{
+        border: 0;
+        border-radius: 30px !important;
+        transition: all .3s;
+        padding: 0px 11px;
+        margin: 0 3px;
+        min-width: 30px;
+        height: 30px;
+        line-height: 30px;
+        color: $gray-color;
+        font-weight: $font-weight-default;
+        font-size: $mdb-btn-font-size-base;
+        text-transform: uppercase;
+        background: transparent;
+        text-align: center;
+
+        &:hover,
+        &:focus{
+            color: $gray-color;
+        }
+    }
+
+    > .page-item.active > a,
+    > .page-item.active > span{
+        color: $gray-color;
+
+        &,
+        &:focus,
+        &:hover{
+            background-color: $brand-primary;
+            border-color: $brand-primary;
+            color: $white-color;
+            @include shadow-4dp-color($brand-primary);
+        }
+
+    }
+
+    // Colors
+    &.pagination-info{
+        > .page-item.active > a,
+        > .page-item.active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-info;
+                border-color: $brand-info;
+                @include shadow-4dp-color($brand-info);
+            }
+        }
+    }
+
+    &.pagination-success{
+        > .page-item.active > a,
+        > .page-item.active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-success;
+                border-color: $brand-success;
+                @include shadow-4dp-color($brand-success);
+            }
+        }
+    }
+
+    &.pagination-warning{
+        > .page-item.active > a,
+        > .page-item.active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-warning;
+                border-color: $brand-warning;
+                @include shadow-4dp-color($brand-warning);
+            }
+        }
+    }
+
+    &.pagination-danger{
+        > .page-item.active > a,
+        > .page-item.active > span{
+            &,
+            &:focus,
+            &:hover{
+                background-color: $brand-danger;
+                border-color: $brand-danger;
+                @include shadow-4dp-color($brand-danger);
+            }
+        }
+    }
+}
+
+.pagination {
+  .page-item .page-link:focus {
+    box-shadow: none;
+  }
+}
