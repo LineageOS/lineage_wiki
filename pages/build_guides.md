@@ -2,6 +2,7 @@
 title: Build guides
 sidebar: home_sidebar
 permalink: build_guides.html
+toc: false
 ---
 
 {% assign sorted_pages = site.pages | sort: 'title' %}
