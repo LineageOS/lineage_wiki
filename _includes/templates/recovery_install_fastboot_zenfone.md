@@ -1,10 +1,10 @@
 ## Unlocking the bootloader
 
-{% include note.html content="The steps below only need to be run once per device." %}
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
 
 1. Download the bootloader unlock app for your device:
 {% if page.device == "Z00L" %}
-    {% include note.html content="ZE550KL doesn't have its own unlock app. If you have ZE550KL then use the unlock app for ZE551KL." %}
+    {% include alerts/note.html content="ZE550KL doesn't have its own unlock app. If you have ZE550KL then use the unlock app for ZE551KL." %}
 {% endif %}
     * Navigate to [ASUS' support site](https://www.asus.com/support) and go to your device's page by entering its model number.
     * Click **Driver & Tools**.
@@ -22,7 +22,7 @@ adb install Name_of_unlock_app.apk
 
 5. Run the application **Unlock Device Tool** from the device and agree to the terms.
 
-    {% include note.html content="After you agree to the terms, the ASUS unlock app might ask you to login with your Google account. If your password does not work, then you need to enable temporary access for less secure apps [here](https://www.google.com/settings/security/lesssecureapps). If you have two-factor authentication enabled on your Google account, you will have to generate an individual app password on the Google accounts settings website, as the unlock app does not natively support two-factor." %}
+    {% include alerts/note.html content="After you agree to the terms, the ASUS unlock app might ask you to login with your Google account. If your password does not work, then you need to enable temporary access for less secure apps [here](https://www.google.com/settings/security/lesssecureapps). If you have two-factor authentication enabled on your Google account, you will have to generate an individual app password on the Google accounts settings website, as the unlock app does not natively support two-factor." %}
 
 6. Press the button to unlock your device.
 7. The device should automatically reboot into bootloader mode and the message `unlock successfully...reboot after 5 seconds` should be displayed. The device will then reboot and load Android.
