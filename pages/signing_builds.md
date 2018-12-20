@@ -32,7 +32,7 @@ run the following:
 
 ```
 breakfast <codename>
-mka target-files-package dist otatools
+mka target-files-package otatools
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
@@ -41,7 +41,7 @@ it's finished, you just need to sign all the APKs:
 ```
 croot
 ./build/tools/releasetools/sign_target_files_apks -o -d ~/.android-certs \
-    out/dist/*-target_files-*.zip \
+    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
     signed-target_files.zip
 ```
 
