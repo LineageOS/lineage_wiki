@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {removable: True, capacity: 3300, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
