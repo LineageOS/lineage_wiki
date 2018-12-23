@@ -202,6 +202,7 @@ properties:
     - Krait 400
     - Krait 450
     - Kryo
+    - Kryo 385
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -258,6 +259,7 @@ properties:
     - Adreno 512
     - Adreno 530
     - Adreno 540
+    - Adreno 630
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
