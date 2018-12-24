@@ -57,6 +57,7 @@ definitions:
     - 13.0
     - 14.1
     - 15.1
+    - 16.0
     type: number
   valid_peripherals:
     description: All valid peripherals a device can have
