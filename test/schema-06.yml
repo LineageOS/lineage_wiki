@@ -202,6 +202,8 @@ properties:
     - Krait 400
     - Krait 450
     - Kryo
+    - Kryo 260
+    - Kryo 280
     - Kryo 360
     - Kryo 385
   cpu_cores:
