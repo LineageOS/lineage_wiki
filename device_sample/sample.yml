@@ -12,7 +12,7 @@ codename: sample
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 15.1
+current_branch: 16.0
 custom_unlock_cmd: 'fastboot oem let-me-free'
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
@@ -47,6 +47,6 @@ tree: android_device_lge_sample
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [13.0, 14.1, 15.1]
+versions: [13.0, 14.1, 15.1, 16.0]
 width: 69.2 mm (2.72 in)
 wifi: 802.11 a/b/g/n/ac
