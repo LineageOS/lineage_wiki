@@ -8,7 +8,7 @@ cameras:
 carrier:
 channels: [nightly]
 codename: jason
-cpu: Kryo
+cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 15.1

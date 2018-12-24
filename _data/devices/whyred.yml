@@ -8,7 +8,7 @@ cameras:
 carrier:
 channels: [discontinued]
 codename: whyred
-cpu: Kryo
+cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 15.1
