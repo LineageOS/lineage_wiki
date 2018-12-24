@@ -4,11 +4,11 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '16 MP'}
-- {flash: '', info: 16MP}
+- {flash: '', info: '16MP'}
 carrier:
 channels: [nightly]
 codename: dumpling
-cpu: Kryo
+cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 15.1

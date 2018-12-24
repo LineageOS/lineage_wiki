@@ -7,7 +7,7 @@ cameras:
 carrier:
 channels: [nightly]
 codename: chiron
-cpu: Kryo
+cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 15.1
