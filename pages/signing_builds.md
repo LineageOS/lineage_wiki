@@ -67,6 +67,11 @@ on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
 
+LineageOS 16.0:
+```
+repopick 239520
+```
+
 LineageOS 15.1:
 ```
 repopick -f 192655 -P vendor/lineage
@@ -83,6 +88,12 @@ Then, follow the [instructions to generate an install package](#generating-an-in
 #### Going back
 
 After installing the migration build, you can switch back to building normal builds:
+
+LineageOS 16.0:
+```
+cd frameworks/base
+git reset --hard github/lineage-16.0
+```
 
 LineageOS 15.1:
 ```
