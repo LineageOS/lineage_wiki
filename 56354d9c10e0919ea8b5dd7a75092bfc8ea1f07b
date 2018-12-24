@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7c000489_6a3e9425",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-12-24T22:13:12Z",
+      "side": 1,
+      "message": "In 16.0 it\u0027s prebuilt, maybe add another item?",
+      "range": {
+        "startLine": 100,
+        "startChar": 17,
+        "endLine": 100,
+        "endChar": 21
+      },
+      "revId": "56354d9c10e0919ea8b5dd7a75092bfc8ea1f07b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
