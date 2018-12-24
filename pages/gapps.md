@@ -18,6 +18,7 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
+|Lineage 16.0 (Android 9)  |[OpenGApps](http://opengapps.org/?api=9&variant=nano)|
 |Lineage 15.1 (Android 8.1)|[MindTheGapps](http://downloads.codefi.re/jdcteam/javelinanddart/gapps) [(mirror)](https://androidfilehost.com/?w=files&flid=170282), [OpenGApps](http://opengapps.org/?api=8.1&variant=nano)|
 |Lineage 14.1 (Android 7.1)|[OpenGApps](http://opengapps.org/?api=7.1&variant=nano)|
 |Lineage 13.0 (Android 6.0)|[OpenGApps](http://opengapps.org/?api=6.0&variant=nano)|
