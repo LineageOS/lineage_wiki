@@ -97,7 +97,7 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
-* LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
+* LineageOS 14.1-16.0: OpenJDK 1.8 (install `openjdk-8-jdk`)
 * LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 
 \* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
