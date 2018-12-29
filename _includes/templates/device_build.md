@@ -93,6 +93,14 @@ For Ubuntu versions older than 16.04 (xenial), substitute:
 
 * `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
 
+For Debian 8 (aka Jessie) or newer use:
+
+* `lib32ncurses5-dev` → `libncurses5-dev:i386`
+* `lib32readline-dev` → `libreadline-dev:i386`
+* `lib32z1-dev` → `zlib1g-dev:i386`
+
+(after adding i386 as a new architecture using `dpkg --add-architecture i386; apt update`).
+
 #### Java
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
