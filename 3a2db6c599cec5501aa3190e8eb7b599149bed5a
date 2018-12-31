@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b99cd062_996bdec1",
+        "filename": "_includes/warning_bootloader_not_unlockable.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2018-12-31T06:27:13Z",
+      "side": 1,
+      "message": "I\u0027m not too fond of the way this is worded. It kinda comes across like there\u0027s absolutely no way to unlock, but from my understanding, there are some unofficial methods out there. Maybe we could say something like this, \"Although the official method of unlocking the bootloader is no longer available, there may be some unofficial methods available. Unofficial methods are not recommended or supported by LineageOS, so use them at your own risk.\"",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 231
+      },
+      "revId": "3a2db6c599cec5501aa3190e8eb7b599149bed5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
