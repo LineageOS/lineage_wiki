@@ -22,6 +22,30 @@
       "revId": "3a2db6c599cec5501aa3190e8eb7b599149bed5a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cdcb6c51_2a5b5da3",
+        "filename": "_includes/warning_bootloader_not_unlockable.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2018-12-31T07:40:15Z",
+      "side": 1,
+      "message": "I agree and I see no problems doing that. After all we already do similar to that in case of HTC.",
+      "parentUuid": "b99cd062_996bdec1",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 231
+      },
+      "revId": "3a2db6c599cec5501aa3190e8eb7b599149bed5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
