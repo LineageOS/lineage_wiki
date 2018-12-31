@@ -5,4 +5,4 @@ folder: build
 permalink: /devices/athene/build
 device: athene
 ---
-{% include templates/device_build.md %}
+{% include templates/device_specific/device_build_athene.md %}
