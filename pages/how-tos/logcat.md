@@ -9,12 +9,12 @@ tags:
 
 ## Taking logs for bug reports
 
-These instructions will generate a `logcat` file which you can then attach to a [bug report on JIRA](/bugreport-howto.html#reporting-a-bug).
+These instructions will generate a `logcat` file which you can then attach to a [bug report on JIRA](bugreport-howto.html#reporting-a-bug).
 That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 ### With a computer
 
-{% include note.html content="This method requires that you have [`adb` installed](/adb_fastboot_guide.html#installing-adb-and-fastboot).
+{% include note.html content="This method requires that you have [`adb` installed](adb_fastboot_guide.html#installing-adb-and-fastboot).
 If you don't have it installed, please do that before continuing." %}
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS).

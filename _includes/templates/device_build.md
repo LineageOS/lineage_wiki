@@ -197,7 +197,7 @@ makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs
 
 ### Extract proprietary blobs
 
-{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](/extracting_blobs_from_zips.html)." %}
+{% include note.html content="This step requires to have a device already running the latest LineageOS, based on the branch you wish to build for. If you don't have access to such device, refer to [Extracting proprietary blobs from installable zip](extracting_blobs_from_zips.html)." %}
 
 Now ensure your {{ device.name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
 `~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder. Then run the `extract-files.sh` script:
@@ -262,7 +262,7 @@ brunch {{device.codename}}
 
 The build should begin.
 
-{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](/signing_builds.html)." %}
+{% include tip.html content="Want to learn how to sign your own builds? Take a look at [Signing builds](signing_builds.html)." %}
 
 
 ## Install the build
