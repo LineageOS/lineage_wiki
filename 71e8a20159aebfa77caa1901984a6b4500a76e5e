@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a64ae263_195b7924",
+        "filename": "pages/devices.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-01-03T06:37:22Z",
+      "side": 1,
+      "message": "I think you\u0027d rather want current_branch here, right?  current_branch would show which version is currently getting built.",
+      "range": {
+        "startLine": 39,
+        "startChar": 18,
+        "endLine": 39,
+        "endChar": 26
+      },
+      "revId": "71e8a20159aebfa77caa1901984a6b4500a76e5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
