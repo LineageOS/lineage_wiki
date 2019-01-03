@@ -107,7 +107,7 @@ pathways that connect to potential contributors to teams that have contribution 
 
 ## Translations
 
-We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here](/translate-howto.html)
+We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here](translate-howto.html)
 
 ### Translations managers
 

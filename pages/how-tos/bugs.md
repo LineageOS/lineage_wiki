@@ -34,4 +34,4 @@ We accept bugs on the following:
       - There's a dead link on the website.
       - An API returns something unexpected.
 
-Please be sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. [Logcats](/logcat.html) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue.
+Please be sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. [Logcats](logcat.html) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue.
