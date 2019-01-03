@@ -9,7 +9,7 @@ tags:
 
 ## Taking logs for bug reports
 
-These instructions will generate a `logcat` file which you can then attach to a [bug report on JIRA](/bugreport-howto.html#reporting-a-bug).
+These instructions will generate a `logcat` file which you can then attach to a [bug report](/bugreport-howto.html#reporting-a-bug).
 That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 ### With a computer
