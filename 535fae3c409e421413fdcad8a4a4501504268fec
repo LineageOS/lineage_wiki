@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1b386b67_5309fa00",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-01-04T20:10:47Z",
+      "side": 1,
+      "message": "Not needed\n* LineageOS 16.0: OpenJDK 1.9 (included by default)\n* LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)\nMaybe?",
+      "range": {
+        "startLine": 100,
+        "startChar": 0,
+        "endLine": 100,
+        "endChar": 60
+      },
+      "revId": "535fae3c409e421413fdcad8a4a4501504268fec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
