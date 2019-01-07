@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '40 MP + 20 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [nightly]
+codename: charlotte
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
+current_branch: 16.0
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G72 MP12
+height: 155 mm (6.1 in)
+image: charlotte.png
+install_method: fastboot_huawei
+is_unlockable: false
+kernel: android_kernel_huawei_kirin970
+maintainers: [LuK1337]
+models: [CLT-AL00, CLT-AL01, CLT-L04, CLT-L09, CLT-L29, CLT-TL00, CLT-TL01]
+name: P20 Pro
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 9(1800) 12(700) 17(700) 19(800) 20(800) 34(2000) 38(2600) 39(1900) 40(2300) 41(2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2018-04
+screen: 154 mm (6.1 in)
+screen_ppi: '408'
+screen_res: 1080x2240
+screen_tech: AMOLED
+sdcard:
+soc: HiSilicon Kirin 970
+storage: 128/256 GB
+tree: android_device_huawei_charlotte
+type: phone
+vendor: Huawei
+vendor_short: huawei
+versions: [16.0]
+width: 73.9 mm (2.91 in)
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
