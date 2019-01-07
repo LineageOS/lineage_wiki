@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 3750, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '12 MP + 12 MP'}
+- {flash: '', info: '13 MP'}
+carrier:
+channels: [nightly]
+codename: berkeley
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
+current_branch: 16.0
+depth: 7 mm (0.28 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G72 MP12
+height: 157 mm (6.18 in)
+image: berkeley.png
+install_method: fastboot_huawei
+is_unlockable: false
+kernel: android_kernel_huawei_kirin970
+maintainers: [LuK1337]
+models: [BKL-AL00, BKL-AL10, BKL-AL20, BKL-L09, BKL-TL10, BKL-TL20]
+name: Honor View 10
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 8(900) 38(2600) 39(1900) 40(2300) 41(2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2018-01
+screen: 152 mm (5.99 in)
+screen_ppi: '403'
+screen_res: 1080x2160
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: HiSilicon Kirin 970
+storage: 64/128 GB
+tree: android_device_huawei_berkeley
+type: phone
+vendor: Huawei
+vendor_short: huawei
+versions: [16.0]
+width: 75 mm (2.95 in)
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
