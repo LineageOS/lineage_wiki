@@ -192,6 +192,7 @@ properties:
     - Cortex-A57
     - Cortex-A7
     - Cortex-A72
+    - Cortex-A73 & Cortex-A53
     - Cortex-A9
     - Denver
     - Exynos M1 & Cortex-A53
