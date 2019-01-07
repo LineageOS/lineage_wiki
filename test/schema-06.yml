@@ -237,6 +237,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
     - ARM Mali-T604
     - ARM Mali-T628 MP6
