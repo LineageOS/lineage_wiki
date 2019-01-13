@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP + 5 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [nightly]
+codename: beryllium
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
+current_branch: 16.0
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 630
+height: 155.5 mm (6.12 in)
+image: beryllium.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm845
+maintainers: [bgcngm, warabhishek]
+name: Poco F1
+network:
+- {tech: 2G, bands: 'B2 / B3 / B5 / B8 GSM, BC0 / BC1 / BC6 / BC10 CDMA1X/EVDO' }
+- {tech: 3G, bands: 'B1 / B2 / B3 / B4 / B5 / B6 / B8 / B9 / B19 WCDMA, B34 / B39 TD-CDMA' }
+- {tech: 4G, bands: 'B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B17 / B18 / B19 / B20 / B25 / B26 / B27 / B28 / B29 / B30 FDD-LTE, B34 / B38 / B39 / B40 / B41 TD-LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio]
+ram: 6/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+release: 2018-08
+screen: 156.97 mm (6.18 in)
+screen_ppi: '403'
+screen_res: 1080x2160
+screen_tech: IPS LCD
+sdcard: up to 256 GB (hybrid SIM slot)
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128/256 GB UFS2.1
+tree: android_device_xiaomi_beryllium
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [16.0]
+width: 75.3 mm (2.96 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
