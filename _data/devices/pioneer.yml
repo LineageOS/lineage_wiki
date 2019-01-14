@@ -20,7 +20,7 @@ install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm660
 maintainers: [LuK1337, Stricted, cdesai]
-models: [H3113, H3133, H3123]
+models: [H3113, H4113, H3133, H4133, H3123]
 name: Xperia XA2
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
