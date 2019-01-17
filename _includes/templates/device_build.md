@@ -117,6 +117,13 @@ The `~/bin` directory will contain the git-repo tool (commonly named "repo") and
 
 ### Install the `repo` command
 
+The `repo` script itself downloads all of its functionality via `git`, so the `repo` package from Debian or Ubuntu will update itself to use the latest version.
+
+* On Ubuntu 16.04 or newer, install using `apt-get install repo`
+* On Debian/stretch or newer, `repo` is included in the _contrib_ archive because it downloads code via `git`.  Add _contrib_ to your _apt_ sources, then run `apt-get install repo`
+
+#### Alternately, use `curl` to download from Google
+
 Enter the following to download the `repo` binary and make it executable (runnable):
 
 ```
@@ -124,9 +131,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-### Put the `~/bin` directory in your path of execution
-
-In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
+Put the `~/bin` directory in your path of execution to make `repo` easy to use.  In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
 
 ```
 # set PATH so it includes user's private bin if it exists
