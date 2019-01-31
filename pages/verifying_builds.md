@@ -21,4 +21,4 @@ Certificate fingerprints:
          SHA256: 51:83:25:EF:7F:96:C0:D1:19:4C:2E:85:6B:04:0D:63:61:66:FF:B8:46:71:7D:72:FA:87:F4:FA:E5:BE:7B:BB
 ```
 
-For the paranoid, the contents of this page are stored on [our GitHub](https://github.com/lineageos/lineage_wiki/blob/master/pages/meta/verifying_builds.md).
+For the paranoid, the contents of this page are stored on [our GitHub](https://github.com/LineageOS/lineage_wiki/blob/master/pages/verifying_builds.md).
