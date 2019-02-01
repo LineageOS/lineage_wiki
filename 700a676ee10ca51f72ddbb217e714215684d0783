@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b64c5e99_6a52699d",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-01T17:57:23Z",
+      "side": 1,
+      "message": "Heimdall",
+      "range": {
+        "startLine": 49,
+        "startChar": 114,
+        "endLine": 49,
+        "endChar": 122
+      },
+      "revId": "700a676ee10ca51f72ddbb217e714215684d0783",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
