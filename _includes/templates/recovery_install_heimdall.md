@@ -46,6 +46,8 @@ heimdall print-pit
 {{ custom_root_instructions }}
 {% endif %}
 
+{% include alerts/note.html content="If this is not working, you might want to try looking for a newer version of Heimdall or compile it for yourself. A guide how to do so can be found [here](https://tribaal.io/flashing-cyanogenmod-on-a-samsung-s5-from-ubuntu.html)" %}
+
 ## Installing a custom recovery using `heimdall`
 
 {% if site.data.devices[page.device].custom_twrp_link %}
