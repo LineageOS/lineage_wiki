@@ -19,6 +19,7 @@ image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974
 maintainers: [haggertk]
+min_heimdall_version: 1.4.2
 models: [SM-G900AZ, SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900V, SM-G900W8, SM-S902L]
 name: Galaxy S5 LTE (G900AZ/F/M/R4/R7/T/V/W8,S902L)
 network:
