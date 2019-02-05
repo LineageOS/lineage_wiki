@@ -102,6 +102,7 @@ definitions:
       - SNS integration
       - Sensor hub
       - Thermometer
+      - Ultrasound proximity sensor
       - USB OTG
       - Wi-Fi Display
       type: string
