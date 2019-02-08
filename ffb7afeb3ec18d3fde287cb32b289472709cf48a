@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f3fa3269_21a352e2",
+        "filename": "_data/devices/nash.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-08T11:02:25Z",
+      "side": 1,
+      "message": "Missing update here.",
+      "range": {
+        "startLine": 45,
+        "startChar": 0,
+        "endLine": 45,
+        "endChar": 16
+      },
+      "revId": "ffb7afeb3ec18d3fde287cb32b289472709cf48a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
