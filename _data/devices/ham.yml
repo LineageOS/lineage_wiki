@@ -10,8 +10,8 @@ codename: ham
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 15.1
-custom_twrp_link: https://androidfilehost.com/?fid=1322778262904011451
+current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=11410963190603913507
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
@@ -40,6 +40,6 @@ tree: android_device_zuk_ham
 type: phone
 vendor: ZUK
 vendor_short: zuk
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 77.3 mm (3.04 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot
