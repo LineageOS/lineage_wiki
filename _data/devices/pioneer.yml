@@ -10,7 +10,7 @@ codename: pioneer
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 15.1
+current_branch: 16.0
 depth: 9.7 mm (0.38 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 508
@@ -41,6 +41,6 @@ tree: android_device_sony_pioneer
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [15.1]
+versions: [15.1, 16.0]
 width: 70 mm (2.76 in)
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
