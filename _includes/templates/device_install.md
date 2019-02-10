@@ -62,7 +62,7 @@ There are no recovery install instructions for this discontinued device.
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% if device.is_ab_device %}
-9. _(Optional)_: Reboot to recovery and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
+9. _(Optional)_: Reboot to TWRP once more using the steps outlined above and installing any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
 9. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
