@@ -10,7 +10,7 @@ codename: gts210vewifi
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
-current_branch: 15.1
+current_branch: 16.0
 depth: 5.6mm
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
@@ -40,6 +40,6 @@ tree: android_device_samsung_gts210vewifi
 type: tablet
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 169mm
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
