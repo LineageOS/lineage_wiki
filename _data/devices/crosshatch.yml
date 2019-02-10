@@ -1,0 +1,45 @@
+architecture: arm64
+battery: {removable: False, capacity: 3430, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [nightly]
+codename: crosshatch
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
+current_branch: 16.0
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 630
+height: 158 mm (6.22 in)
+image: crosshatch.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_crosshatch
+maintainers: [intervigil, npjohnson, rashed]
+name: 'Pixel 3 XL'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '800 850 900 1700(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 21(1500), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, Light sensor, Barometer, NFC]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2018-10
+screen: 160.02 mm (6.3 in)
+screen_ppi: '523'
+screen_res: 1440x2960
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128 GB
+tree: android_device_google_crosshatch
+type: phone
+vendor: Google
+vendor_short: google
+versions: [16.0]
+width: 76.7 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
