@@ -10,7 +10,7 @@ codename: oneplus2
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 1.8 Ghz
-current_branch: 15.1
+current_branch: 16.0
 depth: 9.85 mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 430
@@ -39,6 +39,6 @@ tree: android_device_oneplus_oneplus2
 type: phone
 vendor: OnePlus
 vendor_short: oneplus
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 74.9 mm
 wifi: 2.4GHz 802.11 b/g/n and 5GHz 802.11 a/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
