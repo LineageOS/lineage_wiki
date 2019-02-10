@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7191826f_1f94c158",
+        "filename": "pages/verifying_builds.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-10T11:42:41Z",
+      "side": 1,
+      "message": "{% include alerts/note.html content\u003d\"bla bla bla\" %}",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 69
+      },
+      "revId": "6e23b3e76a2936aece1c985de001976b65f64d49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
