@@ -47,8 +47,12 @@ There are no recovery install instructions for this discontinued device.
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
-2. If you aren't already in recovery, reboot into recovery:
+{% if device.is_ab_device %}
+2. If your device isn't already booted into recovery, follow the steps above to do so.
+{% else %}
+2. If your device isn't already booted into recovery, reboot into recovery:
     * {{ device.recovery_boot }}
+{% endif %}
 3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup. Make sure {% if device.sdcard != blank %}the backup is created in the external sdcard or copy it{% else %}the backup is copied{% endif %} onto your computer as the internal storage will be formatted later in this process.
 4. Go back to return to main menu, then tap **Wipe**.
 5. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
@@ -62,7 +66,7 @@ There are no recovery install instructions for this discontinued device.
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% if device.is_ab_device %}
-9. _(Optional)_: Reboot to recovery and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
+9. _(Optional)_: Fastboot boot a custom recovery once more using the steps outlined above and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
 9. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
