@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4cee7fe2_3173702b",
+        "filename": "pages/gapps.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-02-10T12:56:57Z",
+      "side": 1,
+      "message": "OpenGApps are down, we need to suggest something else",
+      "revId": "f30bbfaf33d35019d32b86466b3f402ee1ed0035",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
