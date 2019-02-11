@@ -7,8 +7,8 @@ search: exclude
 [
 
 {%- for page in site.pages %}
-{%- unless page.search == "exclude" or page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" or page.url contains "devices.html" or page.url contains ".css" %}
-{%- unless page.url contains "/devices" and page.url contains "/build" or page.url contains "/devices" and page.url contains "/install" %}
+{%- unless page.search == "exclude" or page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" or page.url contains "devices.html" or page.url contains "_update.html" or page.url contains ".css" %}
+{%- unless page.url contains "/devices" and page.url contains "/build" or page.url contains "/devices" and page.url contains "/install" or page.url contains "/devices" and page.url contains "/update"%}
 {
 {%- if page.url contains "/devices" %}
 {%- assign device = site.data.devices[page.device] %}
