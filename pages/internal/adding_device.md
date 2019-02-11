@@ -111,7 +111,38 @@ Additionally there are some optional properties which you might not need, but in
 * `custom_twrp_link`: A custom TWRP link in case the official recovery doesn't exist for the specific device or doesn't work properly. Remove this if not used!
 * `custom_twrp_codename`: If an official TWRP exists for the device, but TWRP uses a different codename, specify the used one here. Remove this if not used!
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`. Remove this if not used!
-* `is_ab_device`: Used if device supports A/B partitions to flash custom recovery. Remove this if not used!
+* `is_ab_device`: Used if the device has an A/B partition scheme. Remove this if not applicable to your device!
+* `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
+* `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
+
+  ```
+  required_bootloader: [Version1, Version2]
+  ```
+
+{% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
+
+### Adding the device's image
+
+Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename must match the
+entry in your YAML file. Also make sure the background of the image is transparent.
+
+## Testing it works
+
+Start the wiki on your local Jekyll server, and navigate to [the devices list](http://localhost:4000/devices.html). Your device should be there.
+Click on it, and check that the info/install/build pages all seem correct.
+
+Now run the validation:
+
+```
+bundle install
+ruby ./test/validate.rb
+```
+
+If the script doesn't give you an output, all the validated fields have a proper format. Otherwise, read the messages carefully to see which fields have to be corrected.
+
+## Submitting your device
+
+After verifying the device-specific pages, commit and upload your changes to Gerrit, and add the "Wiki Editors" group as reviewers.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
 
