@@ -17,6 +17,7 @@ DATA_PATH="_data/devices/$DEVICE.yml"
 BUILD_PATH="pages/build/$DEVICE.md"
 INFO_PATH="pages/info/$DEVICE.md"
 INSTALL_PATH="pages/install/$DEVICE.md"
+UPDATE_PATH="pages/update/$DEVICE.md"
 
 if [ ! -f $DATA_PATH ]; then
   cp -a "device_sample/sample.yml" $DATA_PATH
@@ -39,4 +40,10 @@ fi
 if [ ! -f $INSTALL_PATH ]; then
   cat scripts/templates/install.md > $INSTALL_PATH
   sed -i "s/{codename}/$DEVICE/g" $INSTALL_PATH
+fi
+
+# generate update instructions for the device
+if [ ! -f $UPDATE_PATH ]; then
+  cat scripts/templates/update.md > $UPDATE_PATH
+  sed -i "s/{codename}/$DEVICE/g" $UPDATE_PATH
 fi
