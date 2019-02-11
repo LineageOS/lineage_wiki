@@ -18,6 +18,9 @@
 ### Build guide
 [How to build LineageOS for the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
 
+### Update guide
+[How to update LineageOS on the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
+
 {% if device.note_show and device.note_show == true %}
 {% include templates/device_info_note.md %}
 {% endif %}
