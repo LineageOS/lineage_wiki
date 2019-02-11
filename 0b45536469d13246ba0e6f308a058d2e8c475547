@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ea4a1a50_1b83c083",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-11T11:08:51Z",
+      "side": 1,
+      "message": "Can we fix this while at it? I now that I am not a native English-speaking person, but it doesn\u0027t sound correct to me. One can\u0027t be booted to recovery. It\u0027s the device we\u0027re referring to.",
+      "range": {
+        "startLine": 51,
+        "startChar": 6,
+        "endLine": 51,
+        "endChar": 31
+      },
+      "revId": "0b45536469d13246ba0e6f308a058d2e8c475547",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
