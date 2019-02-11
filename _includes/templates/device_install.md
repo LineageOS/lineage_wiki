@@ -41,6 +41,11 @@ There are no recovery install instructions for this discontinued device.
 {%- endif -%}
 {%- endcapture -%}
 
+{% if device.is_ab_device %}
+{% include alerts/note.html content="addon.d-v2, the system responsible for backing up addons such as GApps/SU does NOT run in recovery on A/B (seamless update) devices. The addons are only backed up if you update via the built-in LineageOS Updater app.
+There is also a script in [this repository](https://github.com/LineageOS/android_packages_apps_Updater) should you want to update from your PC. To further reiterate, if you sideload an update from recovery, current addons WILL NOT persist."%}
+{% endif %}
+
 {% if device.maintainers != empty %}
 1. Download the [LineageOS install package](https://download.lineageos.org/{{ device.codename }}) that you'd like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 {% else %}
