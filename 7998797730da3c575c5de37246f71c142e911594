@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "93d4485b_d132f68a",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-12T08:05:36Z",
+      "side": 1,
+      "message": "Same deal here...",
+      "revId": "7998797730da3c575c5de37246f71c142e911594",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
