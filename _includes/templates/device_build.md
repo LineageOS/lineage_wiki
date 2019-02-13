@@ -117,6 +117,10 @@ The `~/bin` directory will contain the git-repo tool (commonly named "repo") and
 
 ### Install the `repo` command
 
+If you want the quickest way to building, then run `apt-get install repo`.  If you plan on submitting changes to Gerrit, or your Linux distribution does not have `repo`, then install `repo` via `curl`.
+
+### Use `curl` to install the latest `repo`
+
 Enter the following to download the `repo` binary and make it executable (runnable):
 
 ```
@@ -124,9 +128,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 chmod a+x ~/bin/repo
 ```
 
-### Put the `~/bin` directory in your path of execution
-
-In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
+Put the `~/bin` directory in your path of execution to make `repo` easy to use.  In recent versions of Ubuntu, `~/bin` should already be in your PATH. You can check this by opening `~/.profile` with a text editor and verifying the following code exists (add it if it is missing):
 
 ```
 # set PATH so it includes user's private bin if it exists
