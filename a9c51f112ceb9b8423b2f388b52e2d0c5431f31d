@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "aa10ef91_44fc9a8d",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-02-16T06:27:58Z",
+      "side": 1,
+      "message": "Missing a comma here.\nAlso, I don\u0027t think this note is a good fit here. The instructions here are for initial install, not for installing updates.  So maybe it\u0027s better to add this note at the end?",
+      "range": {
+        "startLine": 45,
+        "startChar": 110,
+        "endLine": 45,
+        "endChar": 111
+      },
+      "revId": "a9c51f112ceb9b8423b2f388b52e2d0c5431f31d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
