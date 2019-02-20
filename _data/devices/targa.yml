@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: 'VGA'}
 carrier: Verizon Wireless
-channels: [monthly]
+channels: [discontinued]
 codename: targa
 cpu: Cortex-A9
 cpu_cores: '2'
@@ -16,7 +16,7 @@ gpu: PowerVR SGX540
 image: targa.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-maintainers: [Hashcode0f, stargo]
+maintainers: []
 models: [XT875]
 name: Droid Bionic
 network:

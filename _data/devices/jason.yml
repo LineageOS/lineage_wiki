@@ -42,6 +42,6 @@ tree: android_device_xiaomi_jason
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [15.1]
+versions: [15.1, 16.0]
 width: 74 mm (2.91 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

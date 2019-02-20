@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: 'Dual 4 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: m8d
 cpu: Krait 400
 cpu_cores: '4'
@@ -20,7 +20,7 @@ height: 146.36 mm (5.76 in)
 image: m8.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8974
-maintainers: [bgcngm]
+maintainers: []
 name: One (M8) Dual SIM
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

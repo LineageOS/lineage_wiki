@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: dumpling
 cpu: Kryo 280
 cpu_cores: '8'

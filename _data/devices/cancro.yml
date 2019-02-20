@@ -7,7 +7,7 @@ cameras:
 - {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
 - {flash: '', info: '2.07 MP  (Mi 3) / 7.99 MP (Mi 4)'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: cancro
 cpu: Krait 400
 cpu_cores: '4'
@@ -21,7 +21,7 @@ height: 144 mm (5.67 in) (Mi 3) / 139.2 (5.48 in) (Mi 4)
 image: cancro.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_cancro
-maintainers: [jrizzoli]
+maintainers: []
 models:
 - MI3
 - MI4

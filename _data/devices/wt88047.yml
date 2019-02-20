@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: wt88047
 cpu: Cortex-A53
 cpu_cores: '4'
