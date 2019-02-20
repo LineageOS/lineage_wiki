@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.6 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: flounder
 cpu: Denver
 cpu_cores: '2'
@@ -19,7 +19,7 @@ height: 228.25 mm (8.99 in)
 image: flounder.png
 install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
-maintainers: [hashbang173, razorloves]
+maintainers: []
 name: Nexus 9 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }

@@ -3,7 +3,7 @@ battery: None
 bluetooth: {spec: '4.1'}
 cameras: []
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: fugu
 cpu: Intel Atom
 cpu_cores: '4'

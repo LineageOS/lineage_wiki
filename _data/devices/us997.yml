@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier: Unlocked (US)
-channels: [monthly]
+channels: [discontinued]
 codename: us997
 cpu: Kryo
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 148.9 mm (5.86 in)
 image: g6.png
 install_method: fastboot_lg
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed, x86cpu]
+maintainers: []
 name: G6 (US Unlocked)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
