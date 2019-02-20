@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '13 MP, laser autofocus, OIS'}
 - {flash: 'LED', info: '5 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: griffin
 cpu: Kryo
 cpu_cores: '4'

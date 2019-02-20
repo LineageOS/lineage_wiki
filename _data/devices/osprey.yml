@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, Virgin Mobile, International GSM
-channels: [monthly]
+channels: [discontinued]
 codename: osprey
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -17,7 +17,7 @@ gpu: Adreno 306
 image: osprey.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [sultanqasim]
+maintainers: []
 models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: Moto G 2015
 network:

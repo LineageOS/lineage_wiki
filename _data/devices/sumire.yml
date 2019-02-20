@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '23 MP f/2.0'}
 - {flash: '', info: '5.1 MP f/2.4'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: sumire
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 146.0 mm
 image: sumire.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
-maintainers: [Myself5, HaoZeke]
+maintainers: []
 models: [E6653, E6683, E6633]
 name: Xperia Z5
 network:

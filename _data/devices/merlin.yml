@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: merlin
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -17,7 +17,7 @@ gpu: Adreno 405
 image: merlin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [FireLord1]
+maintainers: []
 models: [XT1556, XT1557]
 name: Moto G3 Turbo
 network:

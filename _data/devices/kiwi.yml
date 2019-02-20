@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
 - {flash: '', info: '5 MP, f/2.4, 22mm'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'

@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '23 MP f/2.0'}
 - {flash: '', info: '5.1 MP f/2.4'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: suzuran
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 127 mm (5.0 in)
 image: suzuran.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
-maintainers: [olefb]
+maintainers: []
 models: [E5803, E5823]
 name: Xperia Z5 Compact
 network:
