@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Verizon
-channels: [monthly]
+channels: [discontinued]
 codename: jfltevzw
 cpu: Krait 300
 cpu_cores: 4
@@ -20,7 +20,7 @@ height: 136.6mm (5.38 in)
 image: jflte.png
 install_method: heimdall
 kernel: android_kernel_samsung_jf
-maintainers: [npjohnson]
+maintainers: []
 models: [SCH-I545]
 name: Galaxy S4 (Verizon)
 network:
