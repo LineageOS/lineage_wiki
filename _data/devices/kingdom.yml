@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '16 MP F/2.2, OIS'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: kingdom
 cpu: Krait 400
 cpu_cores: '4'

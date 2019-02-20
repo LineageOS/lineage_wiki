@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: '', info: '4 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: capricorn
 cpu: Kryo
 cpu_cores: '4'

@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.6 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: flounder
 cpu: Denver
 cpu_cores: '2'

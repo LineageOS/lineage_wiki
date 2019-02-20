@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: i9300
 cpu: Cortex-A9
 cpu_cores: 4

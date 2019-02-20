@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP '}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
