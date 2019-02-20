@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
 - {flash: '', info: '5 MP, f/1.7, 22mm'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: herolte
 cpu: Exynos M1 & Cortex-A53
 cpu_cores: '8'

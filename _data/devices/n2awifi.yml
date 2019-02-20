@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2.1 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: n2awifi
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'

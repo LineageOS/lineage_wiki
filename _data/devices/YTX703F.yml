@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: 'Sunny DW9761B (back, 13 MP)'}
 - {flash: '', info: 'QTech OV5695 (front, 5 MP)'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: YTX703F
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
