@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8.1 MP F/2.0'}
 - {flash: '', info: '5.1 MP F/2.4'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: karin_windy
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 167 mm (6.57 in)
 image: karin.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
-maintainers: [andralex8, cdesai, Kali-, olivier97, quarx2k]
+maintainers: []
 name: Xperia Z4 Tablet WiFi
 network:
 - {tech: 2G, bands: '' }

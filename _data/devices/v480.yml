@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
-channels: [monthly]
+channels: [discontinued]
 codename: v480
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -18,7 +18,7 @@ height: 210.8 mm (8.30 in)
 image: v480.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
-maintainers: [jpjust]
+maintainers: []
 name: G Pad 8.0 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }
