@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: Verizon
-channels: [monthly]
+channels: [discontinued]
 codename: vs995
 cpu: Kryo
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 159.7 mm (6.29 in)
 image: v20.png
 install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed, x86cpu]
+maintainers: []
 name: V20 (Verizon)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

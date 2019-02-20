@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '22.5 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: scorpio
 cpu: Kryo
 cpu_cores: '4'

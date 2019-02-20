@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: 'LED', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: addison
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 156.4 mm (6.16 in)
 image: addison.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
-maintainers: [mccreary]
+maintainers: []
 models: [XT1635-02]
 name: Moto Z Play
 network:

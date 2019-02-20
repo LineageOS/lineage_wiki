@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: s2
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'

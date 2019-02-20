@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: T-Mobile
-channels: [monthly]
+channels: [discontinued]
 codename: h830
 cpu: Kryo
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 149.4 mm (5.88 in)
 image: g5.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_msm8996
-maintainers: [rashed, x86cpu]
+maintainers: []
 name: G5 (T-Mobile)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
