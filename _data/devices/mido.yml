@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED (dual-tone)', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: mido
 cpu: Cortex-A53
 cpu_cores: '8'

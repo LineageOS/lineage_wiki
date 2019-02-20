@@ -10,7 +10,7 @@ codename: klteactivexx
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 15.1
+current_branch: 16.0
 custom_twrp_codename: klte
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
@@ -40,5 +40,5 @@ tree: android_device_samsung_klteactivexx
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [15.1]
+versions: [15.1, 16.0]
 wifi: 802.11 a/b/g/n/ac
