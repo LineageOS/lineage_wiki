@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: a7y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -20,7 +20,7 @@ height: 156.8 mm (6.17 in)
 image: a7y17lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7880
-maintainers: [forkbomb]
+maintainers: []
 models: [SM-A720F, SM-A720F/DS]
 name: Galaxy A7 (2017)
 network:

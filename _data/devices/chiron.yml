@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: chiron
 cpu: Kryo 280
 cpu_cores: '8'

@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: seed
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -16,7 +16,7 @@ gpu: Adreno 306
 image: seed.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_seed
-maintainers: [arvinquilao]
+maintainers: []
 name: Android One 2nd Gen
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 900 2100 MHz CDMA' }

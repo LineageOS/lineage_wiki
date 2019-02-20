@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: a5y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -20,7 +20,7 @@ height: 146.1 mm (5.75 in)
 image: a5y17lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7880
-maintainers: [raymanfx]
+maintainers: []
 models: [SM-A520F, SM-A520F/DS]
 name: Galaxy A5 (2017)
 network:

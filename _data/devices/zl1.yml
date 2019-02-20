@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: zl1
 cpu: Kryo
 cpu_cores: '4'

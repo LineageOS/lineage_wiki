@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: marlin
 cpu: Kryo
 cpu_cores: '4'
