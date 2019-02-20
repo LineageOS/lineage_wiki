@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '16 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: jason
 cpu: Kryo 260
 cpu_cores: '8'

@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '8 MP, f/2.4'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'

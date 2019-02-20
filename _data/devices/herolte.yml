@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
 - {flash: '', info: '5 MP, f/1.7, 22mm'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: herolte
 cpu: Exynos M1 & Cortex-A53
 cpu_cores: '8'
@@ -18,7 +18,7 @@ height: 142.4 mm (5.61 in)
 image: herolte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal8890
-maintainers: [DavisNT, ivanmeler]
+maintainers: []
 models: [SM-G930F, SM-G930FD, SM-G930S, SM-G930K, SM-G930L, SM-G930W8]
 name: Galaxy S7
 network:

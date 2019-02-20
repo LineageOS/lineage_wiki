@@ -7,7 +7,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: 8MP (3) / 16MP (3T)}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: oneplus3
 cpu: Kryo
 cpu_cores: '4'

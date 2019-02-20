@@ -7,7 +7,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: umts_spyder
 cpu: Cortex-A9
 cpu_cores: '2'
@@ -18,7 +18,7 @@ gpu: PowerVR SGX540
 image: umts_spyder.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
-maintainers: [Hashcode0f, dhacker29, stargo]
+maintainers: []
 models: [XT910]
 name: RAZR/RAZR MAXX (GSM)
 network:

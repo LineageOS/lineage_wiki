@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier: AT&T,TMobile,Boost, International GSM
-channels: [monthly]
+channels: [discontinued]
 codename: falcon
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -17,7 +17,7 @@ gpu: Adreno 305
 image: falcon.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: [gmrt]
+maintainers: []
 models: [XT1031, XT1032, XT1033, XT1034]
 name: Moto G
 network:

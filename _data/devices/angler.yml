@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
 - {flash: '', info: '8 MP'}
 carrier:
-channels: [nightly]
+channels: [weekly]
 codename: angler
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
