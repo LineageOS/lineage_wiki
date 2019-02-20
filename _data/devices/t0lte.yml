@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: t0lte
 cpu: Cortex-A9
 cpu_cores: '4'
@@ -18,7 +18,7 @@ height: 151.10 mm (5.95 in)
 image: t0lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [filiprrs]
+maintainers: []
 models: [GT-N7105/N7105T, SGH-I317/I317M, SGH-T889/T889V, SHV-E250S/E250K/E250L]
 name: Galaxy Note 2 (LTE)
 network:

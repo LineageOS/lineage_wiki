@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '5 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: peregrine
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -17,7 +17,7 @@ gpu: Adreno 305
 image: peregrine.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-maintainers: [gmrt]
+maintainers: []
 models: [XT1039, XT1040, XT1042, XT1045]
 name: Moto G 4G
 network:

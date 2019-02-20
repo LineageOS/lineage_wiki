@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP, 2160p@30fps, 1080p@60fps'}
 - {flash: '', info: '2 MP, 1080p@30fps'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: hlte
 cpu: Krait 400
 cpu_cores: '4'
@@ -18,7 +18,7 @@ height: 151.2 mm (5.95 in)
 image: hlte.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974
-maintainers: [haggertk]
+maintainers: []
 models: [SM-N9005, SM-N900P]
 name: Galaxy Note 3 LTE (N9005/P)
 network:

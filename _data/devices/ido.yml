@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: ido
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 139.3 mm (5.48 in)
 image: ido.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8916
-maintainers: [Anik1199]
+maintainers: []
 name: Redmi 3/Prime
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }

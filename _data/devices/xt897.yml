@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.3 MP'}
 carrier: Sprint
-channels: [monthly]
+channels: [discontinued]
 codename: xt897
 cpu: Cortex-A9
 cpu_cores: '2'
@@ -21,7 +21,7 @@ height: 126.5 mm (4.98 in)
 image: xt897.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8960-common
-maintainers: [nadlabak, mccreary]
+maintainers: []
 models: [XT897]
 name: Photon Q 4G LTE
 network:

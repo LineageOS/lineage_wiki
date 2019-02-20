@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2.1 MP'}
 carrier:
-channels: [monthly]
+channels: [discontinued]
 codename: chagalllte
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 247.3 mm
 image: chagalllte.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos5420
-maintainers: [gellmar]
+maintainers: []
 models: [SM-T805]
 name: Galaxy Tab S 10.5 LTE
 network:
