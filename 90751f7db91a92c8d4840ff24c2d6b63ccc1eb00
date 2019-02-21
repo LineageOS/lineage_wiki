@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d7801924_ce1288d0",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-02-21T15:54:29Z",
+      "side": 1,
+      "message": "This is something that you shouldn\u0027t add to a commit message. Avoid making it personal.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 210
+      },
+      "revId": "90751f7db91a92c8d4840ff24c2d6b63ccc1eb00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
