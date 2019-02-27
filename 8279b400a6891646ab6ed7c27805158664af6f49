@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b8df173_eeca580a",
+        "filename": "_includes/templates/device_update.md",
+        "patchSetId": 31
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-02-27T16:23:03Z",
+      "side": 1,
+      "message": "\"Once the update process has finished, the device will display a \"Reboot\" button, which will reboot you into the updated system.\"\n\nNo need for mentioning all the states up to where we want to get. I also removed \"updated slot\u0027s installation\", because \"who cares about slots\"",
+      "range": {
+        "startLine": 17,
+        "startChar": 49,
+        "endLine": 17,
+        "endChar": 232
+      },
+      "revId": "8279b400a6891646ab6ed7c27805158664af6f49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "741089db_f1a45ffe",
+        "filename": "_includes/templates/device_update.md",
+        "patchSetId": 31
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-02-27T16:23:03Z",
+      "side": 1,
+      "message": "Will not work, needs to be enabled first",
+      "range": {
+        "startLine": 30,
+        "startChar": 3,
+        "endLine": 30,
+        "endChar": 18
+      },
+      "revId": "8279b400a6891646ab6ed7c27805158664af6f49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "97429fda_b634dd30",
+        "filename": "_includes/templates/device_update.md",
+        "patchSetId": 31
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-02-27T16:23:03Z",
+      "side": 1,
+      "message": "Same as above",
+      "range": {
+        "startLine": 34,
+        "startChar": 141,
+        "endLine": 34,
+        "endChar": 324
+      },
+      "revId": "8279b400a6891646ab6ed7c27805158664af6f49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
