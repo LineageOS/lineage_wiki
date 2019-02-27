@@ -58,3 +58,11 @@ Every string requires to be validated by a proofreader. In case your language do
 As a proofreader, you also have to make sure that the submitted strings match the context.
 
 {% include alerts/note.html content="You need to be an active translator for at least one month in order to apply as a proofreader!" %}
+
+Besides the responsibility to only approve strings appropriate for use in the system and to make sure to avoid approving strings mentioned in [What not to translate](#what-not-to-translate), there are other things to pay attention to:
+
+### Quantity and product strings
+
+Various strings exist multiple times for different products (mostly `tablet`, `phone`, `device` or `other`) and quantities (`one`, `two`, `many`, `few`, `other`).
+Once a string for one of them is translated and approved, the Android build system (specifically `aapt2` for resource builds) requires the whole chain to be present.
+As a proofreader you have to make sure to approve all variants of a string.
