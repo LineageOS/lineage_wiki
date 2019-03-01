@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "303d9d2d_1d7bf618",
+        "filename": "search.json",
+        "patchSetId": 37
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-03-01T14:18:48Z",
+      "side": 1,
+      "message": "This space breaks the functionality of the search (see preview, you get each device twice)",
+      "range": {
+        "startLine": 11,
+        "startChar": 198,
+        "endLine": 11,
+        "endChar": 199
+      },
+      "revId": "f7157bc3dd939ea41b0368876795c409538d1a0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
