@@ -261,7 +261,8 @@ Time to start building! Now, type:
 
 ```
 croot
-brunch {{device.codename}}
+lunch {{device.codename}}-userdebug
+m bacon
 ```
 
 The build should begin.

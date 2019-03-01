@@ -32,7 +32,7 @@ run the following:
 
 ```
 breakfast <codename>
-mka target-files-package otatools
+m target-files-package otatools
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
