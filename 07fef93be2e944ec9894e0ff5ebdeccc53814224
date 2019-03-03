@@ -45,6 +45,24 @@
       "revId": "07fef93be2e944ec9894e0ff5ebdeccc53814224",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ef744e23_692097d3",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-03-03T22:41:04Z",
+      "side": 1,
+      "message": "the logic for deps is inside lunch",
+      "parentUuid": "65d95d06_6c04924c",
+      "revId": "07fef93be2e944ec9894e0ff5ebdeccc53814224",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
