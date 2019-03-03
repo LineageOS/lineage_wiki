@@ -22,6 +22,29 @@
       "revId": "07fef93be2e944ec9894e0ff5ebdeccc53814224",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "65d95d06_6c04924c",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 264,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-03-03T22:39:50Z",
+      "side": 1,
+      "message": "does lunch sync dependencies? I thought that was the purpose of breakfast.",
+      "range": {
+        "startLine": 264,
+        "startChar": 0,
+        "endLine": 264,
+        "endChar": 6
+      },
+      "revId": "07fef93be2e944ec9894e0ff5ebdeccc53814224",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
