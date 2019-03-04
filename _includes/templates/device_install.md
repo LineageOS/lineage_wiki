@@ -55,7 +55,11 @@ There are no recovery install instructions for this discontinued device.
 {% endif %}
 3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup. Make sure {% if device.sdcard != blank %}the backup is created in the external sdcard or copy it{% else %}the backup is copied{% endif %} onto your computer as the internal storage will be formatted later in this process.
 4. Go back to return to main menu, then tap **Wipe**.
+{% if device.need_format_data %}
 5. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
+{% else %}
+5. Now **Swipe to Factory Reset** and continue with the resetting process. This will remove your system and app data and settings. Encryption and all files stored on the internal storage will be retained.
+{% endif %}
 6. Return to the previous menu and tap **Advanced Wipe**.
 {% if device.is_ab_device %}
 7. Select the *System* partition to be wiped and then **Swipe to Wipe**.
