@@ -138,6 +138,14 @@ fi
 
 Then, run `source ~/.profile` to update your environment.
 
+### Configure git
+
+To configure git
+...
+git config --global user.email "Your emall address"
+git config --global user.name "Your name"
+...
+
 ### Initialize the LineageOS source repository
 
 {% if device.maintainers != empty %}
@@ -212,6 +220,8 @@ Now ensure your {{ device.name }} is connected to your computer via the USB cabl
 
 The blobs should be pulled into the `~/android/lineage/vendor/{{ device.vendor_short }}` folder. If you see "command not found" errors, `adb` may
 need to be placed in `~/bin`.
+
+{% include alerts/important.html content="If your device is running LineageOS with the selinux policy set to `strict` some proprietary blobs might not be extracted by `adb pull`. In this case the build will fail due to missing resources that can not be built. As a circumvention you can log into your device by `adb shell`, then `su`, copy the files to another location and pull them from there manually." %}
 
 ### Turn on caching to speed up build
 
