@@ -13,6 +13,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz (3) / 2 x 2.35 GHz + 2 x 1.6 GHz (3T)
 current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=1395089523397907195
 depth: 7.4 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
