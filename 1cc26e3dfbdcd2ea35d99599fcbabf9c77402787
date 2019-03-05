@@ -22,6 +22,52 @@
       "revId": "1cc26e3dfbdcd2ea35d99599fcbabf9c77402787",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ace9f927_5c8de0ea",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-03-05T07:48:22Z",
+      "side": 1,
+      "message": "you can enable adb root and continue with the process",
+      "range": {
+        "startLine": 224,
+        "startChar": 279,
+        "endLine": 224,
+        "endChar": 403
+      },
+      "revId": "1cc26e3dfbdcd2ea35d99599fcbabf9c77402787",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e8e1b391_e993f7b1",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 224,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-03-05T07:48:22Z",
+      "side": 1,
+      "message": "enforcing?",
+      "range": {
+        "startLine": 224,
+        "startChar": 110,
+        "endLine": 224,
+        "endChar": 116
+      },
+      "revId": "1cc26e3dfbdcd2ea35d99599fcbabf9c77402787",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
