@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4782973f_32fcdc9e",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-03-05T05:59:14Z",
+      "side": 1,
+      "message": "pls move this to its own change.",
+      "range": {
+        "startLine": 141,
+        "startChar": 0,
+        "endLine": 147,
+        "endChar": 3
+      },
+      "revId": "1cc26e3dfbdcd2ea35d99599fcbabf9c77402787",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
