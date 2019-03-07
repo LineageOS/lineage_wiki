@@ -5,6 +5,11 @@
 {% include {{ path }} %}
 {% endif %}
 
+{% if device.before_lineage_install %}
+{% capture path %}templates/device_specific/{{ device.before_lineage_install }}.md{% en$
+{% include {{ path }} %}
+{% endif %}
+
 ## Basic requirements
 
 {% include alerts/important.html content="Please read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!" %}
