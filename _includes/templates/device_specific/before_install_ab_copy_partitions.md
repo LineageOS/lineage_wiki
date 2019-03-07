@@ -1,0 +1,1 @@
+{% include alerts/warning.html content="Once you are in TWRP you will need to flash [this copy-partition zip](https://drive.google.com/file/d/1oiry9UfP2tf-5A6nQBF7pn2t2eSGKt0F/view) in addition to LineageOS." %}
