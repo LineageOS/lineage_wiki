@@ -5,12 +5,12 @@ cameras:
 - {flash: '', info: 'Sunny DW9761B (back, 13 MP)'}
 - {flash: '', info: 'QTech OV5695 (front, 5 MP)'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: YTX703F
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
-current_branch: 15.1
+current_branch: 16.0
 custom_twrp_codename: yt_x703f
 depth: 5.6mm
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
@@ -20,7 +20,7 @@ image: YTX703.png
 install_method: fastboot_lenovo
 custom_unlock_cmd: 'fastboot oem unlock-go'
 kernel: android_kernel_lenovo_msm8976
-maintainers: [Quallenauge, Christian Ciach, Vladimir Oltean]
+maintainers: [Quallenauge, Vladimir Oltean]
 models: [YTX703F]
 name: Yoga Tab 3 Plus Wi-Fi
 network:
@@ -39,5 +39,5 @@ tree: android_device_lenovo_YTX703-common
 type: tablet
 vendor: Lenovo
 vendor_short: lenovo
-versions: [15.1]
+versions: [15.1, 16.0]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
