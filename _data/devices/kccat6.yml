@@ -17,7 +17,7 @@ gpu: Adreno 420
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_apq8084
-maintainers: [cvxda]
+maintainers: [cvxda, sassmann]
 models: [SM-G901F]
 name: Galaxy S5 Plus
 network:
