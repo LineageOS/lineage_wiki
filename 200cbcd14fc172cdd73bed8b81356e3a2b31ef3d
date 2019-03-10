@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8487ffb0_67bc6f4b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-10T22:49:12Z",
+      "side": 1,
+      "message": "This is nonsense. The \"versions\" filed is used to store all the supported versions, ever. The \"current_branch\" is where you set the currently shipped, thus supported, branch.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 55
+      },
+      "revId": "200cbcd14fc172cdd73bed8b81356e3a2b31ef3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cbab02b7_b60fb7ef",
+        "filename": "_data/devices/YTX703F.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-10T22:49:12Z",
+      "side": 1,
+      "message": "Must be updated.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "200cbcd14fc172cdd73bed8b81356e3a2b31ef3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "614e0e61_68ecfd6f",
+        "filename": "_data/devices/YTX703L.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-03-10T22:49:12Z",
+      "side": 1,
+      "message": "Must be updated.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "200cbcd14fc172cdd73bed8b81356e3a2b31ef3d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
