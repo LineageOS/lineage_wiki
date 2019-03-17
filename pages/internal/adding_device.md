@@ -113,6 +113,7 @@ Additionally there are some optional properties which you might not need, but in
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`. Remove this if not used!
 * `is_ab_device`: Used if the device has an A/B partition scheme. Remove this if not applicable to your device!
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
+* `multiple_versions_reason`: Used if the device ships multiple LineageOS versions simultaneously to show a device-specific note on the wiki page describing why. Remove if not used! 
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
 
   ```
