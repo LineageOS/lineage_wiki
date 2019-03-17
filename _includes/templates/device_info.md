@@ -6,6 +6,9 @@
 {% if device.is_unlockable == false %}
 {% include alerts/warning_bootloader_not_unlockable.html %}
 {% endif %}
+{% if device.ships_multiple_versions == true %}
+{% include alerts/ships_multiple_versions.html %}
+{% endif %}
 
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 {% if device.maintainers != empty %}
