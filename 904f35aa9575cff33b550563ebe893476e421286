@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "20ad3899_3b6aeea8",
+        "filename": "_data/devices/shamu.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-03-18T05:56:42Z",
+      "side": 1,
+      "message": "verion -\u003e version",
+      "revId": "904f35aa9575cff33b550563ebe893476e421286",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
