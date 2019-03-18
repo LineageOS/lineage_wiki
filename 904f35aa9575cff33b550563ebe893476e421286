@@ -16,6 +16,24 @@
       "revId": "904f35aa9575cff33b550563ebe893476e421286",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d9fe8486_14532ab9",
+        "filename": "_data/devices/shamu.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-03-18T06:15:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20ad3899_3b6aeea8",
+      "revId": "904f35aa9575cff33b550563ebe893476e421286",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
