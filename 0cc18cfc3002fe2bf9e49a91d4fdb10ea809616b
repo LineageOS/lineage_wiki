@@ -22,6 +22,30 @@
       "revId": "0cc18cfc3002fe2bf9e49a91d4fdb10ea809616b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "386b88be_48b78f43",
+        "filename": "_data/devices/oneplus2.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 21504
+      },
+      "writtenOn": "2019-03-18T17:37:23Z",
+      "side": 1,
+      "message": "\u003e to?\n\nA more precise formulation could be: \"...which version of builds you want to use...\"",
+      "parentUuid": "7473a287_3fb794d9",
+      "range": {
+        "startLine": 22,
+        "startChar": 215,
+        "endLine": 22,
+        "endChar": 228
+      },
+      "revId": "0cc18cfc3002fe2bf9e49a91d4fdb10ea809616b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
