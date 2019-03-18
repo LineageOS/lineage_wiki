@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7473a287_3fb794d9",
+        "filename": "_data/devices/oneplus2.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2019-03-18T16:27:28Z",
+      "side": 1,
+      "message": "to?",
+      "range": {
+        "startLine": 22,
+        "startChar": 215,
+        "endLine": 22,
+        "endChar": 228
+      },
+      "revId": "0cc18cfc3002fe2bf9e49a91d4fdb10ea809616b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
