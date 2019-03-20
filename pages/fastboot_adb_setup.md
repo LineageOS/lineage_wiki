@@ -56,7 +56,7 @@ if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
 fi
 ```
 4. Log out and back in.
-5. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
+5. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info. The udev rules are also available using: `apt-get install android-sdk-platform-tools-common`.
 
 ## Setting up `adb`
 
