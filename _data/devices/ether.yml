@@ -20,6 +20,7 @@ image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
 maintainers: [javelinanddart, mikeioannina, npjohnson]
+multiple_versions_reason: LineageOS 15.1 builds for this device support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier Video Calling), while 16.0 does not due to compatibility issues with proprietary components. Choose which version of builds you use accordingly.
 name: Robin
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
