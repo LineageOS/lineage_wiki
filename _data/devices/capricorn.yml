@@ -10,7 +10,7 @@ codename: capricorn
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 2.0 GHz
-current_branch: 15.1
+current_branch: 16.0
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -41,6 +41,6 @@ tree: android_device_xiaomi_capricorn
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 70.3 mm (2.77 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
