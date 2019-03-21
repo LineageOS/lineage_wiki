@@ -5,15 +5,16 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: kuntao
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-current_branch: 15.1
-custom_twrp_link: https://androidfilehost.com/?fid=5862345805528044694
+current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=1395089523397888315
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 506
 height: 153 mm (6.02 in)
 image: kuntao.png
@@ -41,6 +42,6 @@ tree: android_device_lenovo_kuntao
 type: phone
 vendor: Lenovo
 vendor_short: lenovo
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
