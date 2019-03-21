@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cf4e3350_17b8c22c",
+        "filename": "_data/devices/capricorn.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-03-21T13:36:20Z",
+      "side": 1,
+      "message": "nightly",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 17
+      },
+      "revId": "d10579c52827cd7dccfa43cfc3dc6dcf6b339d72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
