@@ -32,6 +32,8 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
 Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you." %}
 
+{% include alerts/note.html content="We recommend using [`bash`](https://www.gnu.org/software/bash/) when building LineageOS, since some other shells are known to work poorly with some of the scripts." %}
+
 Let's begin!
 
 ## Build LineageOS and LineageOS Recovery
