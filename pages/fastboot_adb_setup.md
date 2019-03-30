@@ -44,7 +44,8 @@ if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
     export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
 fi
 ```
-4. Log out and back in.
+4. Run `source ~/.bash_profile`
+5. Test the install is successful by running `adb`.
 
 ### On Linux
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
