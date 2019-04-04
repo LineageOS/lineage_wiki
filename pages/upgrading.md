@@ -10,6 +10,8 @@ tags:
 {% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ "devices/" | relative_url }}) instructions for installing LineageOS the first time.{% endcapture %}
 {% include alerts/warning.html content=upgrade_only %}
 
+
+
 ## Manually upgrading LineageOS
 
 The updater app does not support upgrades from one version of LineageOS to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing LineageOS for the first time.
@@ -20,7 +22,14 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     * Using adb: `adb push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, provided USB debugging is enabled.
 3. If you aren't already in recovery, reboot into recovery.
-4. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
+
+{% capture need_backup %}We strongly encourage you to backup phone data then upload to **your computer**(or another device).
+since Android 6.0 has enabled encryption will has possible to pervent you access data partition.
+ANY DATA LOSS CAUSED ARE NOT OUR RESPONSIBILITY AND NOT REVERSEIBLE!!!
+{% endcapture %}
+{% include alerts/warning.html content=need_backup %}
+
+4. Select the **Backup** button to create a backup.
 5. Return to the main menu, then select **Install**.
 6. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 7. Follow the on-screen prompts to install the package.
