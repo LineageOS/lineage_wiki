@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 2500}
+before_install: before_install_encryption
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
