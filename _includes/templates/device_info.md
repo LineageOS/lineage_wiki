@@ -9,6 +9,9 @@
 {% if device.multiple_versions_reason|length %}
 {% include alerts/ships_multiple_versions.html %}
 {% endif %}
+{% if device.format_on_upgrade_reason|length %}
+{% include alerts/format_on_upgrade_reason.html %}
+{% endif %}
 
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 {% if device.maintainers != empty %}
