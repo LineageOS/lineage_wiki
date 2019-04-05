@@ -1,0 +1,10 @@
+{% assign device = site.data.devices[page.device] %}
+<div class="alert alert-warning" role="alert">
+    <div class="alert-icon">
+        <i class="material-icons">warning</i>
+    </div>
+    <div class="alert-text" markdown="span">
+        <b>This device must format /data before upgrading from LineageOS 15.1 to 16.0</b><br/>
+        {{device.format_on_upgrade_reason}}
+    </div>
+</div>
