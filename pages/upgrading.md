@@ -24,10 +24,11 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 5. Return to the main menu, then select **Install**.
 6. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
 7. Follow the on-screen prompts to install the package.
-8. _(Optional)_: Install any additional packages using the same method.
+8. If your device's wiki page has a warning alerting you to format /data when migrating to the version you're upgrading to, make sure to follow this step. On the main menu, select "Wipe", then select "Format Data", and type "yes" on the software keyboard. This *will* wipe your data/Internal Storage.
+9. _(Optional)_: Install any additional packages using the same method.
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first reboot! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them now." %}
-9. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) or using any other method you prefer.
-10. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+10. _(Optional)_: Root the device by installing the [LineageOS su add-on](https://download.lineageos.org/extras) or using any other method you prefer.
+11. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
 
 ## Get assistance
 
