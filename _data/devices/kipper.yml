@@ -14,6 +14,7 @@ current_branch: 15.1
 custom_twrp_link: https://androidfilehost.com/?fid=673791459329072211
 depth: 9.2 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+format_on_upgrade_reason: In LineageOS 15.1, we accidentally didn't merge certain CAF commits, which resulted in a group of devices being unable to migrate userdata to later versions due to the encryption being unrecoverable. This device is one of the affected.
 gpu: Adreno 405
 height: 155.6 mm (6.12 in)
 image: kipper.png
