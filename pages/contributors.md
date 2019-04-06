@@ -51,7 +51,6 @@ Committers are responsible for testing commits and merging them in high flowrate
 |------|----------|
 | Adrian DC | adriandc |
 | Arne Coucheron | arco |
-| Brinly Taylor | brinlyau |
 | Bruno Martins | bgcngm |
 | Chirayu Desai | cdesai |
 | Christopher N. Hesse | raymanfx |
