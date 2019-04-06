@@ -23,32 +23,18 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS install package.
 {% endif %}
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
+2. Make sure your computer has working `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+3. Run `adb reboot sideload`.
+4. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
 {% if device.is_ab_device %}
-2. If your device isn't already booted into recovery, use `fastboot` to temporarily boot a custom recovery following the steps above.
+5. _(Optionally)_: Run `adb reboot sideload` once more, then install any additional packages using the same method.
+    {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 {% else %}
-2. If your device isn't already booted into recovery, do so:
-    * {{ device.recovery_boot }}
+5. _(Optionally)_: Install any additional packages using the same method.
+    {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 {% endif %}
-3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup.
-{% if device.format_on_upgrade %}
-4. Go back to return to main menu, then tap **Wipe**.
-5. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
-{% endif %}
-6. Sideload the LineageOS `.zip` package:
-    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`
-{% if device.is_ab_device %}
-7. _(Optional)_: Once more, use `fastboot` to temporarily boot a custom recovery following the steps outlined above and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
-{% else %}
-7. _(Optional)_: Install any additional packages using the same method.
-{% endif %}
-    {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must follow this step **before** the first boot into Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them now." %}
-8. _(Optional)_: Root the device by installing the [LineageOS SU Addon](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
-{% if device.is_ab_device %}
-9. Once installation has finished, return to the main menu, tap **Reboot**.
-{% else %}
-9. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
-{% endif %}
+6. _(Optionally)_: Root the device by installing [LineageOS's AddonSU](https://download.lineageos.org/extras), use the `{{ userspace_architecture }}` package.
+7. Once all installations are finished, run 'adb reboot'.
 
 ## Get assistance
 
