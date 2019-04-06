@@ -36,10 +36,9 @@ device port requests are accepted. Developer relations will do their best to inf
 
 ## Making your device official
 
-{% include alerts/note.html content="Once you have successfully submitted your device, you will be given access to our internal tools (e.g. team chat, cve tracker, ...) to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
+{% include alerts/note.html content="Once you have successfully submitted your device, you will be given access to our internal tools to help maintain your device and coordinate development of LineageOS. You only need to worry about these steps once you've been given access to them." %}
 
 The following steps are necessary to finally make your device an official one:
 
-* Patch it: Make sure the kernel is patched against all applicable [CVEs](https://cve.lineageos.org).
 * Prepare all the info: [Add your device to the wiki]({{ "addingdevice-howto.html" | relative_url }}).
 * Make it build: Create a patch for the `hudson` project on our GitHub org and add your device to the `lineage_build_targets` file.
