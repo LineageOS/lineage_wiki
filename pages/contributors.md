@@ -29,6 +29,7 @@ the project and are committed to improving it.
 | Simon Shields | forkbomb |
 | Tom Powell | zifnab |
 | razorloves | razorloves |
+{: .table }
 
 ### Trusted reviewers
 
@@ -42,6 +43,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 | Michael W. | BadDaemon |
 | Scott Warner | Tortel |
 | Shane Passmore | h8rift |
+{: .table }
 
 ### Committers
 
@@ -72,6 +74,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Roman Birg | roman |
 | Tom Marshall | tdm |
 | Zhao Wei Liew | zwliew |
+{: .table }
 
 ### Developer relations managers
 
@@ -82,6 +85,7 @@ pathways that connect to potential contributors to teams that have contribution 
 | Name | Nickname |
 |------|----------|
 | Tom Powell | zifnab |
+{: .table }
 
 ### Device maintainers
 
@@ -89,7 +93,7 @@ pathways that connect to potential contributors to teams that have contribution 
 
 #### LineageOS {{ version }}
 
-<table>
+<table class="table">
 <thead>
 <tr><th>Device</th><th>Maintainer(s)</th></tr>
 </thead>
@@ -113,7 +117,7 @@ We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation syste
 
 Translation managers are responsible for the general project. They approve new memberships and are responsible for keeping LineageOS and the translations in sync.
 
-<table>
+<table class="table">
 <thead>
 <tr><th>Name</th><th>Nickname</th></tr>
 </thead>
@@ -128,7 +132,7 @@ Translation managers are responsible for the general project. They approve new m
 
 Global proofreaders can help out across all languages.
 
-<table>
+<table class="table">
 <thead>
 <tr><th>Name</th><th>Nickname</th></tr>
 </thead>
@@ -156,6 +160,7 @@ These people are responsible for reviewing changes on branches that no longer re
 | Andreas Blaesius | android-andi |
 | Niks | niks255 |
 | Tim Schumacher | timschumi |
+{: .table }
 
 ### Mirror manifest
 
@@ -164,6 +169,7 @@ These people are responsible for [our mirror manifest](https://www.github.com/Li
 | Name | Nickname |
 |------|----------|
 | Harry Youd | harryyoud |
+{: .table }
 
 ### Website
 
@@ -173,6 +179,7 @@ These people are responsible for the content of [our website](https://www.lineag
 |------|----------|
 | Harry Youd | harryyoud |
 | Tom Powell | zifnab |
+{: .table }
 
 ### Wiki
 
@@ -185,3 +192,4 @@ The following people are responsible for the verification of the contents and th
 | Michael W | baddaemon |
 | Simon Shields | fourkbomb |
 | razorloves | razorloves |
+{: .table }

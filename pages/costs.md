@@ -18,6 +18,7 @@ LineageOS is a commmunity-funded, open source project. Below are our current mon
 | $  5.00        | Linode   | 1G       | Download Service                     |
 | $ 19.95        | Sendgrid | Email    | SMTP server                          |
 | $189.94        | Total    |          |                                      |
+{: .table }
 
 
 You can help the project pay for these via [PayPal](https://paypal.me/LineageOS).
