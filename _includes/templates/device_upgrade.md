@@ -22,20 +22,24 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     * {{ device.recovery_boot }}
 {% endif %}
 3. _(Optional, but recommended)_: Tap the **Backup** button to create a backup. Make sure {% if device.sdcard != blank %}the backup is created in the external sdcard or copy it{% else %}the backup is copied{% endif %} onto your computer as the internal storage will be formatted later in this process.
-4. Sideload the LineageOS `.zip` package:
+{% if device.format_on_upgrade %}
+4. Go back to return to main menu, then tap **Wipe**.
+5. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
+{% endif %}
+6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% if device.is_ab_device %}
-5. _(Optional)_: Once more, use `fastboot` to temporarily boot a custom recovery following the steps outlined above and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
+7. _(Optional)_: Once more, use `fastboot` to temporarily boot a custom recovery following the steps outlined above and install any additional packages by choosing "Apply Update", then "Apply from ADB", and then sideloading the packages like you did above. The reboot is necessary on devices with A/B (seamless) system updates.
 {% else %}
-5. _(Optional)_: Install any additional packages using the same method.
+7. _(Optional)_: Install any additional packages using the same method.
 {% endif %}
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must follow this step **before** the first boot into Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them now." %}
-6. _(Optional)_: Root the device by installing the [LineageOS SU Addon](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+8. _(Optional)_: Root the device by installing the [LineageOS SU Addon](https://download.lineageos.org/extras) (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 {% if device.is_ab_device %}
-7. Once installation has finished, return to the main menu, tap **Reboot**.
+9. Once installation has finished, return to the main menu, tap **Reboot**.
 {% else %}
-7. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
+9. Once installation has finished, return to the main menu, tap **Reboot**, and then **System**.
 {% endif %}
 
 ## Get assistance
