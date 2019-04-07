@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e9d3c074_3d7b0e96",
+        "filename": "_includes/templates/device_specific/before_install_encryption.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2019-04-07T10:19:54Z",
+      "side": 1,
+      "message": "If your device was encrypted, you must format /data before upgrading from LineageOS 15.1 to 16.0!",
+      "range": {
+        "startLine": 3,
+        "startChar": 40,
+        "endLine": 3,
+        "endChar": 115
+      },
+      "revId": "5d366f8fc1b475fcbb06a48770a6bd5e936be452",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
