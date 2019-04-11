@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9dc369c7_83f21e6f",
+        "filename": "_data/devices/shieldtablet.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-11T18:11:35Z",
+      "side": 1,
+      "message": "missed this one",
+      "range": {
+        "startLine": 8,
+        "startChar": 11,
+        "endLine": 8,
+        "endChar": 23
+      },
+      "revId": "46313156d516c628eedcf758ea475eaf1e7913b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
