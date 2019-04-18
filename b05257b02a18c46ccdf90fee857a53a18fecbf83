@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "912cf100_5e678d70",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "its",
+      "range": {
+        "startLine": 23,
+        "startChar": 171,
+        "endLine": 23,
+        "endChar": 175
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e821d6f7_8352f75c",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "I would say \"build\", not \"builds\" here.",
+      "range": {
+        "startLine": 23,
+        "startChar": 153,
+        "endLine": 23,
+        "endChar": 159
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b7ecf606_02a7f614",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "\"don\u0027t keep\"",
+      "range": {
+        "startLine": 26,
+        "startChar": 316,
+        "endLine": 26,
+        "endChar": 332
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "814f0055_19cb2285",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "I think \"we don\u0027t\" would suffice here.",
+      "range": {
+        "startLine": 26,
+        "startChar": 399,
+        "endLine": 26,
+        "endChar": 403
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b75d789e_1cd83eea",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "Android is a proper noun",
+      "range": {
+        "startLine": 26,
+        "startChar": 99,
+        "endLine": 26,
+        "endChar": 100
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "edc97fb6_536100e3",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11604
+      },
+      "writtenOn": "2019-04-18T08:12:46Z",
+      "side": 1,
+      "message": "I don\u0027t think it\u0027s good style to use a : here, \"the largest being that we\" might be nicer?",
+      "range": {
+        "startLine": 26,
+        "startChar": 311,
+        "endLine": 26,
+        "endChar": 312
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
