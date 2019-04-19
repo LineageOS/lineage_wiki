@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "dea19835_d6cbcdf2",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-04-19T06:09:22Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "0a1d03ab_f1f25222",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 1
+      },
+      "revId": "75eee363e58627a417ce86df0da6b95f956fe334",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "e0d1ea70_31995264",
         "filename": "_includes/templates/device_upgrade.md",
         "patchSetId": 4

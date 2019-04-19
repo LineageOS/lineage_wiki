@@ -22,6 +22,30 @@
       "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9af0e5b3_e45e44bc",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-04-19T06:09:22Z",
+      "side": 0,
+      "message": "Well, we have no way to discern if the device uses FBE -- if it does, we REALLY want to avoid modifying /data without booting Android first.",
+      "parentUuid": "dde08281_8c784f3d",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 1
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
