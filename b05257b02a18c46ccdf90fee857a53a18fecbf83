@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dde08281_8c784f3d",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2019-04-19T05:59:23Z",
+      "side": 0,
+      "message": "Do we really want to not suggest a backup on devices that support it?",
+      "range": {
+        "startLine": 32,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 1
+      },
+      "revId": "b05257b02a18c46ccdf90fee857a53a18fecbf83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

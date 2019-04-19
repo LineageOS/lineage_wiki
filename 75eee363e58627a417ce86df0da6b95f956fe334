@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0a1d03ab_f1f25222",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2019-04-19T05:59:23Z",
+      "side": 1,
+      "message": "2 -\u003e 4",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 1
+      },
+      "revId": "75eee363e58627a417ce86df0da6b95f956fe334",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0d1ea70_31995264",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2019-04-19T05:59:23Z",
+      "side": 1,
+      "message": "6 is duplicated.",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 1
+      },
+      "revId": "75eee363e58627a417ce86df0da6b95f956fe334",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
