@@ -12,7 +12,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 16.0
-custom_twrp_link: https://drive.google.com/open?id=1LtLrNnL0h7alZaaOWADvc2Sf5aNkNukM
+custom_twrp_link: https://drive.google.com/open?id=1yVosdR2BEObIvVDH7FOJjSRNO5kkf8KG
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
