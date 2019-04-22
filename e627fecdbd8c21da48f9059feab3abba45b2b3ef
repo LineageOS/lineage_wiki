@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2b150bed_a1c7578f",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-22T00:36:51Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 23,
+        "startChar": 324,
+        "endLine": 23,
+        "endChar": 325
+      },
+      "revId": "e627fecdbd8c21da48f9059feab3abba45b2b3ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe857df4_4e2f5e5a",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-22T00:36:51Z",
+      "side": 1,
+      "message": "Should be \"it\", not \"is\".",
+      "range": {
+        "startLine": 23,
+        "startChar": 223,
+        "endLine": 23,
+        "endChar": 225
+      },
+      "revId": "e627fecdbd8c21da48f9059feab3abba45b2b3ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
