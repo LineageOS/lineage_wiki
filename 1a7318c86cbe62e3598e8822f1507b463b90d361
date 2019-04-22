@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25fb7810_ee2c9b51",
+        "filename": "_includes/templates/device_update.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-22T21:36:13Z",
+      "side": 1,
+      "message": "Should be lower case m, and is how we have it in the rest of the wiki.",
+      "range": {
+        "startLine": 22,
+        "startChar": 50,
+        "endLine": 22,
+        "endChar": 55
+      },
+      "revId": "1a7318c86cbe62e3598e8822f1507b463b90d361",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "79002e18_9ce6317d",
+        "filename": "_includes/templates/device_update.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-22T21:36:13Z",
+      "side": 1,
+      "message": "I thinks \"hosts\" is unnecessary here.",
+      "range": {
+        "startLine": 22,
+        "startChar": 56,
+        "endLine": 22,
+        "endChar": 61
+      },
+      "revId": "1a7318c86cbe62e3598e8822f1507b463b90d361",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
