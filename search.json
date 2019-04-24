@@ -9,19 +9,27 @@ search: exclude
 {%- for page in site.pages %}
 {%- unless page.search == "exclude" or page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" or page.url contains "devices.html" or page.url contains "_update.html" or page.url contains "_upgrade.html" or page.url contains ".css" %}
 {%- unless page.url contains "/devices" and page.url contains "/build" or page.url contains "/devices" and page.url contains "/install" or page.url contains "/devices" and page.url contains "/update" or page.url contains "/devices" and page.url contains "/upgrade"%}
-{
 {%- if page.url contains "/devices" %}
 {%- assign device = site.data.devices[page.device] %}
-"title": "{{ device.codename | escape }} - {{ device.vendor | escape }} {{ device.name }}",
+{%- if device.codename %}
+{%- capture title %}{{ device.codename | escape }} - {{ device.vendor | escape }} {{ device.name }}{%- endcapture %}
+{%- endif %}
 {% else -%}
-"title": "{{ page.title | escape }}",
+{%- assign title = page.title | escape %}
 {% endif -%}
+{%- if title %}
+{%- if marker %}
+,
+{%- endif %}
+{% assign marker = true %}
+{
+"title": "{{ title }}",
 "tags": "{{ page.tags }}",
 "keywords": "{{page.keywords}}",
 "url": "{{ page.url | relative_url }}",
 "summary": "{{page.summary | strip }}"
 }
-{%- unless forloop.last %}, {% endunless %}
+{%- endif %}
 {%- endunless %}
 {%- endunless %}
 {%- endfor %}
