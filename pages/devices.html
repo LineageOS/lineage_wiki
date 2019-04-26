@@ -9,6 +9,8 @@ search: exclude
 
   <h1>{{ page.title }}</h1>
 
+  Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/><br/>
+
   {% include toc.html %}
 
 {% assign devices = "" | split: " " %}
@@ -37,7 +39,11 @@ search: exclude
 {% if device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {% else %}{% assign deviceName = device.name %}{% endif %}
 {% assign url = "devices/" | append: device.codename | relative_url %}
-  <tr>
+{%- if device.channels contains "discontinued" %}{% assign class="discontinued" %}
+{%- else %}
+{%- assign class="" %}
+{%- endif %}
+  <tr class="{{ class }}">
     <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
     <td>{{ device.type | capitalize }}</td>
