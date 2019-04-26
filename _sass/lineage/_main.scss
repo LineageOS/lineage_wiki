@@ -197,6 +197,10 @@ pre {
   padding: 16px 4px 16px 24px;
 }
 
+tr.discontinued {
+  background-color: #FFEEEE;
+}
+
 // Make sure toc-targets are actually displayed, not hidden by the navbar
 h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
   display: block;
