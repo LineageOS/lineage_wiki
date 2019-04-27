@@ -18,6 +18,28 @@ search: exclude
 {% assign devices = devices | push: device[1] %}
 {% endfor %}
 
+<script type="text/javascript">
+<!--
+function toggleDiscontinued()
+{
+  $('.discontinued').toggle();
+  $("table.device").each(function () {
+    vendor = $(this).attr("vendor");
+    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
+      $("h2[vendor=" + vendor + "]").hide();
+      $(this).hide();
+    } else {
+      $("h2[vendor=" + vendor + "]").show();
+      $(this).show();
+    }
+  });
+}
+toggleDiscontinued();
+-->
+</script>
+
+<input type="checkbox" onClick="toggleDiscontinued()">Toggle visibility of discontinued devices</input>
+
 {% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
 {% assign lastVendor = "" %}
 
@@ -25,9 +47,9 @@ search: exclude
 {% if device.vendor != lastVendor %}
 {% assign lastVendor = device.vendor %}
 
-<h2 class="h3" id="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
 
-<table class="table device">
+<table class="table device" vendor="{{ device.vendor | slugify }}">
   <thead>
   <tr>
     <th scope="col" class="first"><b>Device</b></th>
