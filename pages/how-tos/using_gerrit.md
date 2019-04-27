@@ -11,7 +11,7 @@ tags:
 
 [Gerrit](https://code.google.com/p/gerrit/) is a source code review system developed by Google for use with Android (though it can be applied to any type of project). You must use Gerrit to submit code changes, in case you find an error in the source code, you want to contribute with good new features or even if you believe you have a better way of implementing a certain feature.
 
-Check out LineageOS's review system - [Gerrit](http://review.lineageos.org).
+Check out LineageOS's review system - [Gerrit](https://review.lineageos.org).
 
 There you can see what has been recently merged into the codebase. More interestingly, you can see what people have been submitting for review. If there's something you want to try, you can actually test it by merging it into your code and building. It's a simple matter.
 

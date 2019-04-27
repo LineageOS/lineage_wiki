@@ -199,7 +199,7 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-LineageOS uses [Gerrit](http://review.lineageos.org/) to review proposed changes. Before you begin,
+LineageOS uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin,
 you'll need to [create an account](https://review.lineageos.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
 and [configure an SSH key](https://review.lineageos.org/Documentation/user-upload.html#ssh).
 
