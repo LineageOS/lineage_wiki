@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3e53434f_623e06ec",
+        "filename": "pages/devices.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2019-04-27T16:03:16Z",
+      "side": 1,
+      "message": "Should this be commented out?",
+      "revId": "de292502c0e8d420a070b6ddabf476853fde707c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8838838c_6149b39a",
+        "filename": "pages/devices.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2019-04-27T16:03:16Z",
+      "side": 1,
+      "message": "What about making this a button instead of a checkbox?",
+      "revId": "de292502c0e8d420a070b6ddabf476853fde707c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
