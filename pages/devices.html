@@ -5,13 +5,28 @@ permalink: devices/
 redirect_from: devices.html
 search: exclude
 ---
+
+<script type="text/javascript">
+function toggleDiscontinued()
+{
+  $('.discontinued').toggle();
+  $("table.device").each(function () {
+    vendor = $(this).attr("vendor");
+    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
+      $("*[vendor=" + vendor + "]").hide();
+    } else {
+      $("*[vendor=" + vendor + "]").show();
+    }
+  });
+}
+</script>
+
 <div class="container page">
 
   <h1>{{ page.title }}</h1>
 
-  Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/><br/>
-
-  {% include toc.html %}
+  Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/>
+  You can hide them by unchecking the following checkbox:<br/><br/>
 
 {% assign devices = "" | split: " " %}
 {% for device in site.data.devices %}
@@ -21,13 +36,34 @@ search: exclude
 {% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
 {% assign lastVendor = "" %}
 
+<div class="form-check form-check-inline">
+  <label class="form-check-label">
+    <input class="form-check-input" type="checkbox" onclick="toggleDiscontinued()" checked="checked">Show discontinued devices<span class="form-check-sign">
+        <span class="check"></span>
+    </span>
+  </label>
+</div><br/><br/>
+
+Select a vendor to jump to:<br/>
+
+<div class="vendor-container">
+{%- assign vendors = "" | split: " " %}
+{%- for device in sorted %}
+{%- if device.vendor != lastVendor %}
+{%- assign vendors = vendors | push: device.vendor %}
+{%- assign lastVendor = device.vendor %}
+  <div vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
+{%- endif %}
+{%- endfor %}
+</div>
+
 {% for device in sorted %}
 {% if device.vendor != lastVendor %}
 {% assign lastVendor = device.vendor %}
 
-<h2 class="h3" id="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
 
-<table class="table device">
+<table class="table device" vendor="{{ device.vendor | slugify }}">
   <thead>
   <tr>
     <th scope="col" class="first"><b>Device</b></th>

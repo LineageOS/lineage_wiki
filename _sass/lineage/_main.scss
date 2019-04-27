@@ -214,3 +214,29 @@ a {
   position: relative;
   z-index: 100;
 }
+
+// Devices page - vendor list
+.vendor-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: .25rem 0 .25rem.5rem;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.vendor-container div {
+  padding: .5rem;
+  width: 25%;
+}
+
+@media (max-width: 991px) {
+  .vendor-container div {
+    width: 33%;
+  }
+}
+@media (max-width: 767px) {
+  .vendor-container div {
+    width: 50%;
+  }
+}
