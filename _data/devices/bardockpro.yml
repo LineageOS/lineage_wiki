@@ -5,15 +5,16 @@ cameras:
 - {flash: 'Dual Tone LED', info: '12 MP, f/1.8'}
 - {flash: 'LED', info: '8 MP, f/2.0'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: bardockpro
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 15.1
+current_branch: 16.0
 custom_twrp_codename: bardock_pro
 depth: 7.8 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 506
 height: 146.5 mm (5.77 in)
 image: bardock.png
@@ -40,6 +41,6 @@ tree: android_device_bq_bardockpro
 type: phone
 vendor: BQ
 vendor_short: bq
-versions: [15.1]
+versions: [15.1, 16.0]
 width: 72.7 mm (2.86 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
