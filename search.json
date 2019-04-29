@@ -24,10 +24,17 @@ search: exclude
 {% assign marker = true %}
 {
 "title": "{{ title }}",
+{%- if page.tags %}
 "tags": "{{ page.tags }}",
+{%- endif %}
+{%- if page.keywords %}
 "keywords": "{{page.keywords}}",
-"url": "{{ page.url | relative_url }}",
+{%- endif %}
+"url": "{{ page.url | relative_url }}"
+{%- if page.summary -%}
+,
 "summary": "{{page.summary | strip }}"
+{%- endif %}
 }
 {%- endif %}
 {%- endunless %}
