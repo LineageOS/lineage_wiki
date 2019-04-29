@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e054643a_18be674f",
+        "filename": "_data/devices/bardockpro.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-04-29T08:56:49Z",
+      "side": 1,
+      "message": "16.0",
+      "range": {
+        "startLine": 13,
+        "startChar": 16,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "9693b2f9a6b64ffa60fe67619272d26b78027b06",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
