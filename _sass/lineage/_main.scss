@@ -229,6 +229,7 @@ a {
 
 .vendor-container div {
   padding: .5rem;
+  -webkit-column-break-inside: avoid; /* Fix for additional unwanted margin on chrome */
 }
 
 @media (max-width: 991px) {
