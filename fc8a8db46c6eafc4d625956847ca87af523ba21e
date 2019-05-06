@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3837c0fa_ba0ce670",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 13
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-05-06T04:44:53Z",
+      "side": 1,
+      "message": "This is the same on install template, so to keep it uniform add change there also.",
+      "range": {
+        "startLine": 13,
+        "startChar": 2,
+        "endLine": 13,
+        "endChar": 61
+      },
+      "revId": "fc8a8db46c6eafc4d625956847ca87af523ba21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8588bac3_1c17290d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 13
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-05-06T04:44:53Z",
+      "side": 1,
+      "message": "same here",
+      "range": {
+        "startLine": 14,
+        "startChar": 3,
+        "endLine": 14,
+        "endChar": 53
+      },
+      "revId": "fc8a8db46c6eafc4d625956847ca87af523ba21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7d1a2065_be9ed271",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 13
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-05-06T04:44:53Z",
+      "side": 1,
+      "message": "This was there before your change.",
+      "range": {
+        "startLine": 15,
+        "startChar": 2,
+        "endLine": 15,
+        "endChar": 72
+      },
+      "revId": "fc8a8db46c6eafc4d625956847ca87af523ba21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
