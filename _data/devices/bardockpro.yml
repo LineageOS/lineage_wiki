@@ -14,7 +14,7 @@ current_branch: 16.0
 custom_twrp_codename: bardock_pro
 depth: 7.8 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: true
+format_on_upgrade: false
 gpu: Adreno 506
 height: 146.5 mm (5.77 in)
 image: bardock.png
