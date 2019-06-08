@@ -46,4 +46,4 @@ The sha1sum is very useful if you are going to update your blobs from a stock im
 If you hexedit a blob or pull kang it from another device, you will need to update the ```proprietary-files.txt``` list to update the ```sha1sum```.  Please take the time to document the source of the kang or steps to reproduce the hexediting.
 " %}
 
-If you extract an app (```*.apk```) or jar file from an odexed system dump (aka, has boot.oats) and the app/jar does not already contain a classes.dex, it will be automatically deoxed when extracted.
+If you extract an app (```*.apk```) or jar file from an odexed system dump (aka, has boot.oats) and the app/jar does not already contain a classes.dex, it will be automatically de-odexed when extracted.
