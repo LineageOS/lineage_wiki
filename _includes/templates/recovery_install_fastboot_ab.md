@@ -26,8 +26,16 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+{% if device.no_fastboot_boot %}
+5. Temporarily flash a recovery on your device by typing:
+```
+fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
+```
+    * {{ device.recovery_boot }}   
+{% else %}
 5. Temporarily boot a recovery on your device by typing:
 ```
 fastboot boot twrp-x.x.x-x-{{ twrp_codename }}.img
 ```
+{% endif %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
