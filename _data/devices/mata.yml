@@ -12,7 +12,7 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 16.0
-custom_twrp_link: https://gg.gg/9ubmn
+custom_twrp_link: https://download.invisiblek.org/mata/twrp-mata_11.img
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
