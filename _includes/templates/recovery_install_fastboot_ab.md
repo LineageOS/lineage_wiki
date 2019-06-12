@@ -30,4 +30,9 @@ fastboot devices
 ```
 fastboot boot twrp-x.x.x-x-{{ twrp_codename }}.img
 ```
+or if your device does not support `fastboot boot`, type:
+```
+fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
+```
+and then select the option to reboot to recovery in your fastboot menu.
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
