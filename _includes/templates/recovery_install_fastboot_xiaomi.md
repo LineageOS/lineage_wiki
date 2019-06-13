@@ -21,5 +21,5 @@ but beware that one account is only allowed to unlock one unique device every 30
 
 {% include templates/recovery_install_fastboot_generic.md %}
 {% if site.data.devices[page.device].no_oem_unlock_switch %}
-{% include alerts/tip.html content="It is highly recommended to have the latest official MIUI dev package installed on the device, before installing a custom recovery." %}
+{% include alerts/important.html content="It is required to have the latest official MIUI dev package installed on the device, before installing a custom recovery." %}
 {% endif %}
