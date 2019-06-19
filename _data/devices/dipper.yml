@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3400, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: '', info: '5 MP'}
+carrier:
+channels: [nightly]
+codename: dipper
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
+current_branch: 16.0
+depth: 7.6 mm (0.29 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 630
+height: 154.9 mm (6.10 in)
+image: dipper.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm845
+maintainers: [infrag]
+name: Mi 8
+network:
+- {tech: 2G, bands: 'B2 / B3 / B5 / B8 GSM, BC0 / BC1 / BC6 / BC10 CDMA1X/EVDO' }
+- {tech: 3G, bands: 'B1 / B2 / B3 / B4 / B5 / B6 / B8 / B9 / B19 WCDMA, B34 / B39 TD-CDMA' }
+- {tech: 4G, bands: 'B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B17 / B18 / B19 / B20 / B25 / B26 / B27 / B28 / B29 / B30 FDD-LTE, B34 / B38 / B39 / B40 / B41 TD-LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Barometer, Gyroscope, Hall effect sensor, Light sensor, Proximity sensor, Compass, Dual-frequency GNSS, IR camera]
+ram: 6/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
+release: 2018-07
+screen: 157.73 mm (6.21 in)
+screen_ppi: '402'
+screen_res: 1080x2248
+screen_tech: AMOLED
+sdcard: up to 256 GB (hybrid SIM slot)
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128/256 GB UFS2.1
+tree: android_device_xiaomi_dipper
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [16.0]
+width: 74.8 mm (2.94 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

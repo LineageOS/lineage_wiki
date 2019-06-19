@@ -19,7 +19,7 @@ height: 134 mm (5.28 in)
 image: wt88047.png
 install_method: fastboot_unlocked
 kernel: android_kernel_wingtech_msm8916
-maintainers: []
+maintainers: [nicknitewolf]
 name: Redmi 2
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM' }

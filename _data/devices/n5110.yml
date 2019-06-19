@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '5 MP, autofocus'}
 - {flash: '', info: '1.3 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: n5110
 cpu: Cortex-A9
 cpu_cores: '4'
@@ -18,13 +18,14 @@ height: 210.8 mm (8.30 in)
 image: n5100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [rgib]
+maintainers: []
 models: []
 name: Galaxy Note 8.0 (Wi-Fi)
 network:
 - {tech: 2G, bands: '' }
 - {tech: 3G, bands: '' }
 - {tech: 4G, bands: '' }
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.

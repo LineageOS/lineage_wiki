@@ -1,32 +1,33 @@
 architecture: arm64
-battery: {removable: False, capacity: 2230}
+battery: {removable: True, capacity: 2230}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: lettuce
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=962157660013070611
+current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=1395089523397922469
 depth: 8.2 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+format_on_upgrade: true
 gpu: Adreno 306
 height: 142.4 mm (5.6 in)
 image: lettuce.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [mikeioannina, TheStrix, h2o64]
+maintainers: [mikeioannina]
 name: Yuphoria
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '700 1700/2100 1800 2100 2600 FDD, 2300 2600 TDD' }
+- {tech: 4G, bands: '1(2100) 3(1800) 4(1700/2100) 7(2600) 17(700) FDD, 7(2600) 40(2300) TDD LTE(Cat. 4)' }
 no_oem_unlock_switch: true
-peripherals: [GPS, Light sensor, Proximity sensor]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-05-12
@@ -41,6 +42,6 @@ tree: android_device_yu_lettuce
 type: phone
 vendor: YU
 vendor_short: yu
-versions: [13.0, 14.1]
+versions: [13.0, 14.1, 15.1, 16.0]
 width: 73 mm (2.87 in)
-wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Hotspot

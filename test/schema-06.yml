@@ -57,6 +57,7 @@ definitions:
     - 13.0
     - 14.1
     - 15.1
+    - 16.0
     type: number
   valid_peripherals:
     description: All valid peripherals a device can have
@@ -71,6 +72,8 @@ definitions:
       - Dual SIM
       - Dual front speakers
       - Dual side NFC
+      - Dual-frequency GNSS
+      - Essential Accessories
       - FM radio
       - Fingerprint reader
       - GLONASS
@@ -83,6 +86,7 @@ definitions:
       - Heart rate sensor
       - Hygrometer
       - IR blaster
+      - IR camera
       - Iceview Cases
       - Infrared sensor
       - Light sensor
@@ -100,6 +104,7 @@ definitions:
       - SNS integration
       - Sensor hub
       - Thermometer
+      - Ultrasound proximity sensor
       - USB OTG
       - Wi-Fi Display
       type: string
@@ -171,6 +176,8 @@ properties:
       "$id": "/properties/channels/items"
       enum:
       - discontinued
+      - monthly
+      - nightly
       - weekly
     type: array
   codename:
@@ -189,6 +196,7 @@ properties:
     - Cortex-A57
     - Cortex-A7
     - Cortex-A72
+    - Cortex-A73 & Cortex-A53
     - Cortex-A9
     - Denver
     - Exynos M1 & Cortex-A53
@@ -200,6 +208,10 @@ properties:
     - Krait 400
     - Krait 450
     - Kryo
+    - Kryo 260
+    - Kryo 280
+    - Kryo 360
+    - Kryo 385
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -230,6 +242,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
     - ARM Mali-T604
     - ARM Mali-T628 MP6
@@ -251,9 +264,13 @@ properties:
     - Adreno 505
     - Adreno 506
     - Adreno 508
+    - Adreno 509
     - Adreno 510
+    - Adreno 512
     - Adreno 530
     - Adreno 540
+    - Adreno 616
+    - Adreno 630
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
@@ -271,6 +288,7 @@ properties:
     "$id": "/properties/install_method"
     enum:
     - dd
+    - edl_custom
     - fastboot_custom
     - fastboot_generic
     - fastboot_htc
@@ -285,6 +303,9 @@ properties:
     - fastboot_xiaomi
     - fastboot_zenfone
     - heimdall
+  is_unlockable:
+    "$id": "/properties/is_unlockable"
+    type: boolean
   kernel:
     "$id": "/properties/kernel"
     pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
@@ -353,6 +374,7 @@ properties:
     - ARK
     - Asus
     - BQ
+    - Essential
     - Fairphone
     - Google
     - HTC
@@ -380,6 +402,7 @@ properties:
     - ark
     - asus
     - bq
+    - essential
     - fairphone
     - google
     - htc

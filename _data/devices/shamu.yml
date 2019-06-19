@@ -5,12 +5,12 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP '}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
-current_branch: 15.1
+current_branch: 16.0
 depth: 10.1 mm (0.40 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 420
@@ -18,7 +18,8 @@ height: 159.3 mm (6.27 in)
 image: shamu.png
 install_method: fastboot_nexus
 kernel: android_kernel_moto_shamu
-maintainers: [Elektroschmock, razorloves, npjohnson]
+maintainers: [Elektroschmock, npjohnson]
+multiple_versions_reason: LineageOS 15.1 builds for this device support IMS (VoLTE, VoWi-Fi, Carrier Video Calling), while 16.0 does not due to compatibility issues with proprietary components. Choose which version of builds you use accordingly.
 name: Nexus 6
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM (All models), 800 1900 MHz CDMA (North/South American model only)' }
@@ -39,6 +40,6 @@ tree: android_device_moto_shamu
 type: phablet
 vendor: Google
 vendor_short: moto
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 83 mm (3.27 in)
 wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot

@@ -20,7 +20,10 @@ permalink: faq.html
  - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
 
 ## A build for my device disappeared? Where'd it go?
- - Occasionally a build is broken. If this happens, we remove it until the next build cycle.
+ - Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status.
+
+## Where can I find the last build for _xxx_ device before support was dropped/its LineageOS version was deprecated?
+ - In short, you can't. We don't keep building, or keep builds around for any version older than 2 Android versions (e.g. when 16.0 builds started, 14.1 builds stopped and the builds were slowly removed, while 15.1 builds continued). We don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
 
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug]({{ "bugreport-howto.html" | relative_url }}) page before reporting it.
@@ -31,7 +34,7 @@ permalink: faq.html
 ## My device doesn't pass SafetyNet!
  - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/Safetynet/) about this topic, which explains our reasons further.
 
-## Can you enable signature spoofing?
+## Will you enable signature spoofing?
  - Once again, it isn't our place to lie about security features. No.
 
 ## Where does the updater app store the downloaded zip?

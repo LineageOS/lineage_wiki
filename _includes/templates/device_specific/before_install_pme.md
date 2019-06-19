@@ -8,7 +8,7 @@ ROM to decrypt a userdata partition encrypted with HTC's Nougat (or later) softw
 
 - **userdata** : The disk partition that contains `/data` and also contains `/sdcard`
 - **wipe data** or **factory reset** : Erases the contents of `/data` but not `/sdcard`
-- **format userdata** : Formats `userdata`, including all content in `/scard`
+- **format userdata** : Formats `userdata`, including all content in `/sdcard`
 
 ### What you need to know
 

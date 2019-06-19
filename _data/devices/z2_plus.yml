@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [nightly]
+codename: z2_plus
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 16.0
+depth: 8.5 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Power</kbd>.
+  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
+gpu: Adreno 530
+height: 141.7 mm (5.58 in)
+image: z2_plus.png
+install_method: fastboot_custom
+kernel: android_kernel_zuk_msm8996
+maintainers: [DD3Boh]
+name: Z2 Plus
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 38(2600) 39(1900) 40(2300) 41(2500) MHz LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+ram: 3 GB LPDDR4 / 4 GB LPDDR4
+recovery_boot: With the device powered off, hold <kbd>Power</kbd>.
+  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on recovery and <kbd>Power</kbd> to choose.
+release: 2016-06
+screen: 127 mm (5.0 in)
+screen_ppi: 441
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 32 / 64 GB
+tree: android_device_zuk_z2_plus
+type: phone
+unlock_bootloader_guide: 'https://forum.xda-developers.com/lenovo-zuk-z2/how-to/z2-z2-plus-bootloader-unlock-twrp-t3615283'
+vendor: ZUK
+vendor_short: zuk
+versions: [16.0]
+width: 68.9 mm (2.71 in)
+wifi: 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot

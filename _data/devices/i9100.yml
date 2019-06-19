@@ -5,7 +5,7 @@ cameras:
 - {flash: '', info: '8 MP w/ LED-flash'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: i9100
 cpu: Cortex-A9
 cpu_cores: '2'
@@ -18,13 +18,14 @@ height:
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [lysergic_acid]
+maintainers: []
 models: [GT-I9100, GT-I9100T, GT-I9100M, GT-I9100P, SC-02C]
 name: Galaxy S II
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+'}
 - {tech: 4G, bands: ''}
+no_oem_unlock_switch: true
 peripherals: None
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.

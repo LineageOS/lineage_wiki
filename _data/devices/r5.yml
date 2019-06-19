@@ -5,15 +5,16 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: r5
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
-current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=673791459329072194
+current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=1395089523397922634
 depth: 4.9 mm (0.19 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 405
 height: 148.9 mm (5.86 in)
 image: r5.png
@@ -47,6 +48,6 @@ tree: android_device_oppo_r5
 type: phone
 vendor: OPPO
 vendor_short: oppo
-versions: [14.1]
+versions: [14.1, 15.1, 16.0]
 width: 74.5 mm (2.93 in)
 wifi: 802.11 a/b/g/n, Dual-band

@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
 - {tech: 3G, bands: '850 900 2100 MHz UMTS/HSPA+'}
 - {tech: 4G, bands: '800 1800 2600 MHz (GT-I9305), 900 1800 2600 MHz (GT-I9305N), 1800 2600 MHz (GT-I9305T)'}
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

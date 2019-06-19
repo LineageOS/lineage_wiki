@@ -16,7 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 418
 height: 148.9 mm (5.86 in)
 image: h811.png
-install_method: fastboot_lg
+install_method: fastboot_nexus
 kernel: android_kernel_lge_msm8992
 maintainers: []
 name: G4 (T-Mobile)

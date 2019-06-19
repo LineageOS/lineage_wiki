@@ -64,11 +64,15 @@ pages = wiki_dir + 'pages/'
 build_dir = pages + 'build/'
 info_dir = pages + 'info/'
 install_dir = pages + 'install/'
+update_dir = pages + 'update/'
+upgrade_dir = pages + 'upgrade/'
 
 # load once, these are equal across all devices
 build_template = load_template('build.md')
 info_template = load_template('info.md')
 install_template = load_template('install.md')
+update_template = load_template('update.md')
+upgrade_template = load_template('upgrade.md')
 
 Dir.entries(device_dir).each do |filename|
   device_path = device_dir + filename
@@ -81,5 +85,7 @@ Dir.entries(device_dir).each do |filename|
     validate_template(build_template, build_dir + test_file, codename)
     validate_template(info_template, info_dir + test_file, codename)
     validate_template(install_template, install_dir + test_file, codename)
+    validate_template(update_template, update_dir + test_file, codename)
+    validate_template(upgrade_template, upgrade_dir + test_file, codename)
   end
 end

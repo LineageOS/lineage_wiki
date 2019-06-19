@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: zerofltexx
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
@@ -18,13 +18,14 @@ height: 143.4 mm (5.65 in)
 image: zerofltexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos7420
-maintainers: [Usaamah99]
+maintainers: []
 models: [SM-G920F]
 name: Galaxy S6
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1800 1900 HSDPA' }
 - {tech: 4G, bands: 'B1-B8, B12, B17-B20, B26' }
+no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   RGB ambient light, Infrared sensor, GPS, NFC]

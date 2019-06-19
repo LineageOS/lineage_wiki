@@ -10,7 +10,7 @@ codename: shieldtablet
 cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 2.2 GHz
-current_branch: 14.1
+current_branch: 15.1
 depth:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
@@ -42,6 +42,6 @@ tree: android_device_nvidia_shieldtablet
 type: tablet
 vendor: Nvidia
 vendor_short: nvidia
-versions: [13.0, 14.1]
+versions: [13.0, 14.1, 15.1]
 width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

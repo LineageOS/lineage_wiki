@@ -12,13 +12,13 @@ So, you've decided you want to contribute to LineageOS. Awesome! This page will 
 
 To work with the source code, you can check the following links:
 
-- [Build for your device](/build_guides.html)
-- [How to import the sources to Android Studio / IntelliJ](/import-android-studio-howto.html)
-- [How to submit a patch](/submitting-patch-howto.html)
+- [Build for your device](build_guides.html)
+- [How to import the sources to Android Studio / IntelliJ](import-android-studio-howto.html)
+- [How to submit a patch](submitting-patch-howto.html)
 
 ## Translations
 
-Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide](/translate-howto.html) is for you!
+Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide](translate-howto.html) is for you!
 
 ## Wiki
 

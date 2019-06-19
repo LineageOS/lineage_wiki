@@ -5,7 +5,7 @@ permalink: signing_builds.html
 ---
 ## Generating the keys
 
-{% include note.html content="You only need to run this once. If you ever rerun these, you'll need to
+{% include alerts/note.html content="You only need to run this once. If you ever rerun these, you'll need to
 migrate between builds - see [Changing keys](#changing-keys)" %}
 
 From the root of your Android tree, run these commands, altering the `subject` line to reflect your information:
@@ -13,7 +13,7 @@ From the root of your Android tree, run these commands, altering the `subject` l
 ```
 subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
 mkdir ~/.android-certs
-for x in releasekey platform shared media; do \
+for x in releasekey platform shared media testkey; do \
     ./development/tools/make_key ~/.android-certs/$x "$subject"; \
 done
 ```
@@ -22,7 +22,7 @@ You should keep these keys safe, and store the passphrase in a secure location.
 
 ## Generating an install package
 
-{% include tip.html content="If you wish to preserve your data coming from a Lineage build you
+{% include alerts/tip.html content="If you wish to preserve your data coming from a Lineage build you
 didn't build, see [Changing keys](#changing-keys)." %}
 
 ### Generating and signing target files
@@ -32,7 +32,7 @@ run the following:
 
 ```
 breakfast <codename>
-mka target-files-package dist
+mka target-files-package otatools
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
@@ -41,7 +41,7 @@ it's finished, you just need to sign all the APKs:
 ```
 croot
 ./build/tools/releasetools/sign_target_files_apks -o -d ~/.android-certs \
-    out/dist/*-target_files-*.zip \
+    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
     signed-target_files.zip
 ```
 
@@ -62,10 +62,15 @@ Then, install the zip in recovery as you normally would.
 
 ### Using a migration build
 
-{% include warning.html content="Builds with these patches are insecure - they reset the keys
+{% include alerts/warning.html content="Builds with these patches are insecure - they reset the keys
 on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
+
+LineageOS 16.0:
+```
+repopick 239520
+```
 
 LineageOS 15.1:
 ```
@@ -83,6 +88,12 @@ Then, follow the [instructions to generate an install package](#generating-an-in
 #### Going back
 
 After installing the migration build, you can switch back to building normal builds:
+
+LineageOS 16.0:
+```
+cd frameworks/base
+git reset --hard github/lineage-16.0
+```
 
 LineageOS 15.1:
 ```
@@ -146,7 +157,7 @@ If you are moving from test-keys to your own signed builds, you can add your own
 script. First, export your keys to the required format, by running the script in
 `./lineage/scripts/key-migration/export-keys.sh`.
 
-{% include note.html content="You may need to modify this script to change the location of
+{% include alerts/note.html content="You may need to modify this script to change the location of
 your certificate directory if you are not using the default certificate directory." %}
 
 This will print the keys and certs to the terminal in the format required. Next, edit the

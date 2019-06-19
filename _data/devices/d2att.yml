@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
 - {tech: 3G, bands: '850 1900 2100 MHz HSPA+'}
 - {tech: 4G, bands: '13(700)'}
+no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, A-GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.

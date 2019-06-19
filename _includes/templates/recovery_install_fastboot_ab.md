@@ -4,7 +4,7 @@
 {% assign twrp_codename = site.data.devices[page.device].codename %}
 {% endif %}
 
-## Temporarily installing a custom recovery using `fastboot`
+## Temporarily booting a custom recovery using `fastboot`
 
 {% if site.data.devices[page.device].custom_twrp_link %}
 1. Download a custom recovery - you can download [TWRP]({{ site.data.devices[page.device].custom_twrp_link }}).
@@ -25,9 +25,18 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-5. Temporarily flash recovery onto your device and boot it once by typing:
+    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+{% if device.no_fastboot_boot %}
+5. Temporarily flash a recovery on your device by typing:
+```
+fastboot flash boot twrp-x.x.x-x-{{ twrp_codename }}.img
+```
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+6. {{ device.recovery_boot }}
+{% else %}
+5. Temporarily boot a recovery on your device by typing:
 ```
 fastboot boot twrp-x.x.x-x-{{ twrp_codename }}.img
 ```
-    {% include tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+{% endif %}

@@ -10,8 +10,8 @@ tags:
 
 ## Bypassing Gerrit
 
-{% include note.html content="The following tips are for those few who have the ability to accept changes into Gerrit's official LineageOS repositories and/or who are able to bypass Gerrit entirely. Only posted here for convenience for these maintainers, in case anyone forgets the steps." %}
-{% include warning.html content="To mass-submit to Gerrit, you will need the *Push* and *Create Reference* permissions. For mass pushes that include commits you didn't create yourself, you may also need *Forge Author* and *Forge Committer* permissions. If you believe you are lacking appropriate permissions, file a `DEVREL` ticket on [Jira](https://jira.lineageos.org/)." %}
+{% include alerts/note.html content="The following tips are for those few who have the ability to accept changes into Gerrit's official LineageOS repositories and/or who are able to bypass Gerrit entirely. Only posted here for convenience for these maintainers, in case anyone forgets the steps." %}
+{% include alerts/warning.html content="To mass-submit to Gerrit, you will need the *Push* and *Create Reference* permissions. For mass pushes that include commits you didn't create yourself, you may also need *Forge Author* and *Forge Committer* permissions. If you believe you are lacking appropriate permissions, file a `DEVREL` ticket [here](https://gitlab.com/LineageOS/issues/devrel-int/issues)." %}
 
 Say you have a bunch of changes and want to skip Gerrit's interface entirely, pushing directly to the repository. For this you will need special privileges.
 
@@ -30,10 +30,10 @@ Next, enter `lineageremote`. This command will add the remote (use `git remote -
 
 ### To bypass Gerrit
 
-Assuming `lineage-15.1` is the branch to which you are pushing, type:
+Assuming `lineage-16.0` is the branch to which you are pushing, type:
 
 ```
-git push lineage HEAD:refs/heads/lineage-15.1
+git push lineage HEAD:refs/heads/lineage-16.0
 ````
 
 ### To mass-push commits to Gerrit for review

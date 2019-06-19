@@ -1,0 +1,49 @@
+architecture: arm64
+battery: {removable: False, capacity: 3040 , tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '13 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 13 MP'}
+- {flash: '', info: '8 MP'}
+carrier:
+channels: [nightly]
+codename: mata
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 16.0
+custom_twrp_link: https://download.invisiblek.org/mata/twrp-mata_11.img
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 540
+height: 141.5 cm (5.57 in)
+image: mata.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_essential_msm8998
+maintainers: [haggertk, intervigil, jrior001, rashed]
+name: 'Essential PH-1'
+network:
+- {tech: 2G, bands: '850, 900, 1800, 1900 MHz MHz GSM, BC0 CDMA EVDO' }
+- {tech: 3G, bands: '850 900 1700/2100(AWS) 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: ' 1 2 3 4 5 7 8 12 17 20 25 26 28 29 30 38 39 40 41 LTE' }
+no_fastboot_boot: true
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, Essential Accessories]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2017-08
+screen: 85.4 cm (5.71 in)
+screen_ppi: '504'
+screen_res: 1312x2560
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 128 GB UFS 2.1 2-LANE
+tree: android_device_essential_mata
+type: phone
+vendor: Essential
+vendor_short: essential
+versions: [16.0]
+width: 71.1 mm (2.80 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, DLNA, Hotspot

@@ -1,11 +1,11 @@
 architecture: arm
-battery: {removable: False, capacity: 2100, tech: 'Li-Ion'}
+battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
 carrier:
-channels: [weekly]
+channels: [discontinued]
 codename: i9300
 cpu: Cortex-A9
 cpu_cores: 4
@@ -18,13 +18,14 @@ height: 136.6mm (5.4in)
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-maintainers: [forkbomb]
+maintainers: []
 models: [GT-I9300, GT-I9300T]
 name: Galaxy S III (International)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM'}
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA'}
 - {tech: 4G, bands: ''}
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, Barometer]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

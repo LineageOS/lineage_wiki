@@ -5,12 +5,12 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: klte
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 14.1
+current_branch: 16.0
 depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
@@ -25,6 +25,7 @@ network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900MHz 1xRTT (G900R4/G900R7/G900V/S902L)' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (G900F/G900V), 850 900 1700 1900 2100 MHz HSDPA (G900M), 850 1700 1900 2100 MHz HSDPA (G900T), 800 1900MHz EVDO (G900R4/G900R7/G900V/S902L)' }
 - {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800) (G900F), 1(2100) 2(1900) 4(1700/2100) 5(850) 7(2600) 17(700) (G900M), 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) (G900T), 2(1900) 4(1700/2100) 5(850) 12(700) 17(700) (G900R4), 2(1900) 4(1700/2100) 12(700) (G900R7), 4(1700/2100) 13(700) (G900V/S902L)' }
+no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
 ram: 2 GB
@@ -41,6 +42,6 @@ tree: android_device_samsung_klte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions: [14.1, 15.1, 16.0]
 width: 72.5 mm (2.85 in)
 wifi: 802.11 a/b/g/n/ac

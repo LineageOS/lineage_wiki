@@ -5,13 +5,13 @@ cameras:
 - {flash: 'LED (dual-tone)', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
-current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=817906626617957398
+current_branch: 16.0
+custom_twrp_link: https://androidfilehost.com/?fid=1395089523397921641
 depth: 7 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
@@ -19,7 +19,8 @@ height: 149 mm (5.87 in)
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
-maintainers: [chrmhoffmann, crpalmer]
+maintainers: [javelinanddart, mikeioannina, npjohnson]
+multiple_versions_reason: LineageOS 15.1 builds for this device support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier Video Calling), while 16.0 does not due to compatibility issues with proprietary components. Choose which version of builds you use accordingly.
 name: Robin
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -40,6 +41,6 @@ tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
 vendor_short: nextbit
-versions: [14.1]
+versions: [14.1, 15.1, 16.0]
 width: 72 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band
