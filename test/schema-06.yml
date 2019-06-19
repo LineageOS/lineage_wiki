@@ -388,6 +388,7 @@ properties:
     - Nvidia
     - OPPO
     - OnePlus
+    - Razer
     - Samsung
     - Sony
     - Wileyfox
@@ -417,6 +418,7 @@ properties:
     - nvidia
     - oneplus
     - oppo
+    - razer
     - samsung
     - sony
     - wileyfox
