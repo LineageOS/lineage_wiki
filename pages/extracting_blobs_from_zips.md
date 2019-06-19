@@ -25,6 +25,12 @@ unzip path/to/lineage-*.zip system.transfer.list system.new.dat
 ```
 where `path/to/` is the path to the installable zip.
 
+*Note:* In case there is `system.new.dat.br` (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) instead of `system.new.dat` replace in the above command with the former and after unzipping decompress like this (example for Ubuntu):
+```
+sudo apt install brotli
+brotli --decompress system.new.dat.br -o system.new.dat
+```
+
 You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
 
 ```
