@@ -46,7 +46,9 @@ Android Studio struggles to parse the huge LineageOS / Android sources and requi
 
 ### Configure memory
 
-Navigate to the `bin` folder from the install directory of Android Studio (e.g. `~/android-studio/bin`), open the files `studio.vmoptions` and `studio64.vmoptions` with a text editor and include the following:
+Open Android Studio and click on **Configure**.
+
+Then click on "Edit Custom VM Options" and include the following:
 
 ```
 -Xms748m
@@ -57,7 +59,7 @@ This will set the initial allocated (`Xms` parameter) and maximum usable (`Xmx` 
 
 ### Increase the file parsing limit
 
-Again, navigate to the `bin` folder and open the file `idea.properties` with a text editor. Look for the line `idea.max.intellisense.filesize=` and change its value to `5000` (or higher, if you wish).
+Again, click on **Configure** and then click on "Edit Custom Properties" and put `idea.max.intellisense.filesize=5000` there (you can change its value to something higher than 5000, if you wish)
 
 This is required so Android Studio can parse very large files to properly provide the auto-complete features (Android Studio calls this `IntelliSense`).
 
@@ -65,7 +67,7 @@ This is required so Android Studio can parse very large files to properly provid
 
 ## Start working with Android Studio
 
-Open Android Studio and click on **Open existing project**.
+Reopen Android Studio and click on **Open existing project**.
 
 Then navigate to your Android source directory and open the `.ipr` file.
 
