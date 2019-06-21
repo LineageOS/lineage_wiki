@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d1a9922b_260bf0c8",
+        "filename": "pages/how-tos/import_to_android_studio.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-06-21T20:16:00Z",
+      "side": 1,
+      "message": "add or include?",
+      "range": {
+        "startLine": 51,
+        "startChar": 43,
+        "endLine": 51,
+        "endChar": 54
+      },
+      "revId": "db4f798d9b05f267d4715f2c8073dabc2c610746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
