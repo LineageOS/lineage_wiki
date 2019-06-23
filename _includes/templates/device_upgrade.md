@@ -15,6 +15,11 @@
 
 ## Manually upgrading LineageOS
 
+{% unless device.is_ab_device %}
+{% capture recovery_update %}In some cases new LineageOS version may not install due to outdated recovery, follow your [device's]({{ "devices/" | append: device.codename | append: "/install" | relative_url }}) installation guide to see how you can update your recovery image.{% endcapture %}
+{% include alerts/tip.html content=recovery_update %}
+{% endunless %}
+
 The updater app does not support upgrades from one version of LineageOS to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing LineageOS for the first time.
 
 {% if device.maintainers != empty %}
