@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b9013392_cac224af",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2019-06-24T15:40:50Z",
+      "side": 1,
+      "message": "an outdated recovery",
+      "revId": "1a0d133ebb9d4b31e7c9f3f991e0bbefed4e62bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b2489bf_0f94611c",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2019-06-24T15:40:50Z",
+      "side": 1,
+      "message": "In some cases,",
+      "revId": "1a0d133ebb9d4b31e7c9f3f991e0bbefed4e62bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12fb9884_8508d604",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2019-06-24T15:40:50Z",
+      "side": 1,
+      "message": "would you not be better putting \"device\u0027s installation guide\" as the link, rather than just \"device\u0027s\"?",
+      "revId": "1a0d133ebb9d4b31e7c9f3f991e0bbefed4e62bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
