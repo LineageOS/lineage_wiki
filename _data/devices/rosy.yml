@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: '' , info: '5 MP'}
+carrier:
+channels: [nightly]
+codename: rosy
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.8 GHz
+current branch: 16.0
+depth: 7.7 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 506
+height: 155.4 mm (6.12 in)
+image: tissot.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_rosy
+maintainers: [YourDeathWish]
+name: Xiaomi Redmi 5
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 34(2000) 38(2600) 39(1900), 40(2300) 41(2500)' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, IR blaster, Light sensor, FM radio, Dual SIM]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2017-10
+screen: 151.8 mm (5.98 in)
+screen_ppi: '282'
+screen_res: 720x1440
+screen_tech: IPS LCD
+sdcard: up to 128 GB (hybrid SIM slot)
+soc: Qualcomm SDM450 Snapdragon 450
+storage: 32/64 GB
+tree: android_device_xiaomi_rosy
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [16.0]
+width: 72.8 mm (2.87 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, hotspot
