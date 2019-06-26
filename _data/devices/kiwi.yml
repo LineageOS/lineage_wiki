@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
 - {flash: '', info: '5 MP, f/2.4, 22mm'}
 carrier:
-channels: [weekly]
+channels: [nightly]
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -20,7 +20,7 @@ image: kiwi.png
 install_method: fastboot_huawei
 is_unlockable: false
 kernel: android_kernel_huawei_kiwi
-maintainers: [BadDaemon, dobo]
+maintainers: [BadDaemon, dobo, joelh]
 models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
 name: Honor 5X
 network:
@@ -43,6 +43,6 @@ tree: android_device_huawei_kiwi
 type: phone
 vendor: Huawei
 vendor_short: huawei
-versions: [14.1, 15.1]
+versions: [14.1, 15.1, 16.0]
 width: 76.3 mm (3.00 in)
 wifi: 802.11 b/g/n
