@@ -1,13 +1,13 @@
 architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
-before_install: before_install_jfltevzw
+before_install: before_install_jflteatt
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
-carrier: Verizon
+carrier: A&T
 channels: [nightly]
-codename: jfltevzw
+codename: jflteatt
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
@@ -20,9 +20,9 @@ height: 136.6mm (5.38 in)
 image: jflte.png
 install_method: dd
 kernel: android_kernel_samsung_jf
-maintainers: [arco, npjohnson, side]
-models: [SCH-I545]
-name: Galaxy S4 (Verizon)
+maintainers: []
+models: [SGH-I337]
+name: Galaxy S4 (SGH-I337)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+ / UMTS, CDMA2000 1xEV-DO' }
@@ -33,7 +33,7 @@ peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Ac
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013-04
-required_bootloader: ['I545VRUAMDK']
+required_bootloader: ['I337UCUAMDL']
 screen: 127mm (5 in)
 screen_ppi: 440
 screen_res: 1920x1080
@@ -41,7 +41,7 @@ screen_tech: Pentile RGBG Full HD Super AMOLED
 sdcard: up to 64 GB
 soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB
-tree: android_device_samsung_jfltevzw
+tree: android_device_samsung_jflteatt
 type: phone
 vendor: Samsung
 vendor_short: samsung
