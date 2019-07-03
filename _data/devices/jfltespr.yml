@@ -1,13 +1,12 @@
 architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
-before_install: before_install_jfltevzw
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Verizon
 channels: [nightly]
-codename: jfltevzw
+codename: jfltespr
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
@@ -18,11 +17,11 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: Adreno 320
 height: 136.6mm (5.38 in)
 image: jflte.png
-install_method: dd
+install_method: heimdall
 kernel: android_kernel_samsung_jf
 maintainers: [arco, npjohnson, side]
-models: [SCH-I545]
-name: Galaxy S4 (Verizon)
+models: [SCH-R970, SPH-L720]
+name: Galaxy S4 (SCH-R970, SPH-L720) 
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+ / UMTS, CDMA2000 1xEV-DO' }
@@ -33,7 +32,6 @@ peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Ac
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013-04
-required_bootloader: ['I545VRUAMDK']
 screen: 127mm (5 in)
 screen_ppi: 440
 screen_res: 1920x1080
@@ -41,10 +39,10 @@ screen_tech: Pentile RGBG Full HD Super AMOLED
 sdcard: up to 64 GB
 soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB
-tree: android_device_samsung_jfltevzw
+tree: android_device_samsung_jfltespr
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 16.0]
+versions: [16.0]
 width: 69.8mm (2.75 in)
 wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
