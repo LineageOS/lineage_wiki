@@ -1,28 +1,26 @@
 architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
-before_install: before_install_jfltevzw
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-carrier: Verizon
 channels: [nightly]
-codename: jfltevzw
+codename: jactivelte
+custom_twrp_link: http://www.mediafire.com/file/b0e1op05u6y0kgt/twrp-3.2.3-0-jactivelte.img.tar.md5/file
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
 current_branch: 16.0
-custom_twrp_link: https://www.androidfilehost.com/?fid=962157660013071010
-depth: 7.9mm (0.31 in)
+depth: 9.1mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 320
-height: 136.6mm (5.38 in)
-image: jflte.png
-install_method: dd
+height: 139.7mm (5.5 in)
+image: jactivelte.png
+install_method: heimdall
 kernel: android_kernel_samsung_jf
 maintainers: [arco, npjohnson, side]
-models: [SCH-I545]
-name: Galaxy S4 (Verizon)
+models: [GT-I9295]
+name: Galaxy S4 Active
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
 - {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+ / UMTS, CDMA2000 1xEV-DO' }
@@ -32,8 +30,7 @@ peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Ac
   Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: 2013-04
-required_bootloader: ['I545VRUAMDK']
+release: 2013-06
 screen: 127mm (5 in)
 screen_ppi: 440
 screen_res: 1920x1080
@@ -41,10 +38,10 @@ screen_tech: Pentile RGBG Full HD Super AMOLED
 sdcard: up to 64 GB
 soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB
-tree: android_device_samsung_jfltevzw
+tree: android_device_samsung_jactivelte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 16.0]
+versions: [16.0]
 width: 69.8mm (2.75 in)
 wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
