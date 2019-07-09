@@ -1,3 +1,5 @@
+{%- assign device = site.data.devices[page.device] -%}
+
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
@@ -9,10 +11,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 3. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
@@ -29,7 +31,7 @@ fastboot oem device-info
 
 6. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
-{% if site.data.devices[page.device].is_ab_device %}
+{% if device.is_ab_device %}
     {% include templates/recovery_install_fastboot_ab.md %}
 {% else %}
     {% include templates/recovery_install_fastboot_generic.md %}

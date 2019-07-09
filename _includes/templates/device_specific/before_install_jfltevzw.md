@@ -1,3 +1,4 @@
+{%- assign device = site.data.devices[page.device] -%}
 {% capture custom_downgrade_instructions %}
 
 In order to root your device you must first install this kernel via Heimdall.
@@ -7,7 +8,7 @@ In order to root your device you must first install this kernel via Heimdall.
 2. Power off the your device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
 
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
