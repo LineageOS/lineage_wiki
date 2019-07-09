@@ -1,10 +1,12 @@
+{%- assign device = site.data.devices[page.device] -%}
+
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
-{% unless site.data.devices[page.device].no_oem_unlock_switch %}
+{% unless device.no_oem_unlock_switch %}
 1. Enable OEM unlock in the Developer options under device Settings, if present.
 2. Accept the terms that you understand that you're voiding your warranty by choosing to unlock your bootloader.
 3. Login with your Lenovo account (if you already have one) or create a new one.
@@ -16,10 +18,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 8. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
@@ -28,9 +30,9 @@ fastboot devices
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 9. Now type the following command to unlock the bootloader:
 
-{% if site.data.devices[page.device].custom_unlock_cmd %}
+{% if device.custom_unlock_cmd %}
     ```
-{{ site.data.devices[page.device].custom_unlock_cmd }}
+{{ device.custom_unlock_cmd }}
     ```
 {% else %}
     ```

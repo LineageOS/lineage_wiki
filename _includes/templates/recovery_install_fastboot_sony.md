@@ -1,3 +1,5 @@
+{%- assign device = site.data.devices[page.device] -%}
+
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
@@ -21,10 +23,10 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 5. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
@@ -36,16 +38,16 @@ fastboot devices
 
 {% if device.install_variant and device.install_variant contains "sony_init_fota" %}
 
-{% if site.data.devices[page.device].custom_recovery_codename %}
-{% assign custom_recovery_codename = site.data.devices[page.device].custom_recovery_codename %}
+{% if device.custom_recovery_codename %}
+{% assign custom_recovery_codename = device.custom_recovery_codename %}
 {% else %}
-{% assign custom_recovery_codename = site.data.devices[page.device].codename %}
+{% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
 ## Installing a custom recovery using `fastboot`
 
-{% if site.data.devices[page.device].custom_recovery_link %}
-1. Download a custom recovery - you can download one [here]({{ site.data.devices[page.device].custom_recovery_link }}).
+{% if device.custom_recovery_link %}
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {% else %}
 {% if device.uses_lineage_recovery %}
 1. Download a custom recovery - you can download [Lineage Recovery](https://ftp.acc.umu.se/mirror/lineageos/recovery/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
@@ -58,10 +60,10 @@ fastboot devices
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
