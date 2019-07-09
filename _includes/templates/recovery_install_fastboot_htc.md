@@ -1,10 +1,12 @@
+{%- assign device = site.data.devices[page.device] -%}
+
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
-{% unless site.data.devices[page.device].no_oem_unlock_switch %}
+{% unless device.no_oem_unlock_switch %}
 1. Enable OEM unlock in the Developer options under device Settings, if present.
 {% endunless %}
 2. Connect the device to your PC via USB.
@@ -12,10 +14,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```

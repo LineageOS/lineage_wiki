@@ -1,4 +1,5 @@
-{% unless site.data.devices[page.device].no_oem_unlock_switch %}
+{%- assign device = site.data.devices[page.device] %}
+{%- unless device.no_oem_unlock_switch %}
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
@@ -20,6 +21,6 @@ but beware that one account is only allowed to unlock one unique device every 30
 {% endunless %}
 
 {% include templates/recovery_install_fastboot_generic.md %}
-{% if site.data.devices[page.device].no_oem_unlock_switch %}
+{% if device.no_oem_unlock_switch %}
 {% include alerts/tip.html content="It is highly recommended to have the latest official MIUI dev package installed on the device, before installing a custom recovery." %}
 {% endif %}

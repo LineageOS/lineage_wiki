@@ -1,17 +1,19 @@
+{%- assign device = site.data.devices[page.device] -%}
+
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
 
-{% if site.data.devices[page.device].project_spectrum_recovery %}
-1. Download [Project Spectrum recovery]({{ site.data.devices[page.device].project_spectrum_recovery }}).
+{% if device.project_spectrum_recovery %}
+1. Download [Project Spectrum recovery]({{ device.project_spectrum_recovery }}).
 {% endif %}
-{% if site.data.devices[page.device].project_spectrum %}
-2. Download [Project Spectrum]({{ site.data.devices[page.device].project_spectrum }}).
+{% if device.project_spectrum %}
+2. Download [Project Spectrum]({{ device.project_spectrum }}).
 {% endif %}
-{% if site.data.devices[page.device].required_bootloader_link %}
-3. Download unlockable bootloader obtained from [here]({{ site.data.devices[page.device].required_bootloader_link }}).
+{% if device.required_bootloader_link %}
+3. Download unlockable bootloader obtained from [here]({{ device.required_bootloader_link }}).
 {% endif %}
 4. Place the downloaded .zip packages on the root of `/sdcard`:
     * Using adb: `adb push filename.zip /sdcard/`
@@ -19,19 +21,19 @@ Before proceeding, ensure the data you would like to retain is backed up to your
         USB debugging is enabled.
 5. If you aren't already in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-{% if site.data.devices[page.device].project_spectrum_recovery %}
+{% if device.project_spectrum_recovery %}
 6. Flash Project Spectrum recovery zip and reboot to recovery again:
     * {{ device.recovery_boot }}
 {% endif %}
-{% if site.data.devices[page.device].project_spectrum %}
+{% if device.project_spectrum %}
 7. Flash Project Spectrum zip.
 {% endif %}
-{% if site.data.devices[page.device].required_bootloader_link %}
+{% if device.required_bootloader_link %}
 8. Flash unlockable bootloader zip.
 {% endif %}
 9. Reboot to android.
 
-{% unless site.data.devices[page.device].no_oem_unlock_switch %}
+{% unless device.no_oem_unlock_switch %}
 10. Enable OEM unlock in the Developer options under device Settings, if present.
 {% endunless %}
 11. Connect the device to your PC via USB.
@@ -39,10 +41,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 ```
 adb reboot bootloader
 ```
-    {% if site.data.devices[page.device].download_boot %}
+    {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
-    * {{ site.data.devices[page.device].download_boot }}
+    * {{ device.download_boot }}
     {% endif %}
 13. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
@@ -51,9 +53,9 @@ fastboot devices
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 14. Now type the following command to unlock the bootloader:
 
-{% if site.data.devices[page.device].custom_unlock_cmd %}
+{% if device.custom_unlock_cmd %}
     ```
-{{ site.data.devices[page.device].custom_unlock_cmd }}
+{{ device.custom_unlock_cmd }}
     ```
 {% else %}
     ```
