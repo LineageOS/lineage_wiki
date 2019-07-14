@@ -230,7 +230,7 @@ ccache -M 50G
 where `50G` corresponds to 50GB of cache. This needs to be run once. Anywhere from 25GB-100GB will result in very noticeably increased build speeds
 (for instance, a typical 1hr build time can be reduced to 20min). If you're only building for one device, 25GB-50GB is fine. If you plan to build
 for several devices that do not share the same kernel source, aim for 75GB-100GB. This space will be permanently occupied on your drive, so take this
-into consideration. See more information about ccache on Google's [Android build environment initialization page](https://source.android.com/source/initializing.html#setting-up-ccache).
+into consideration.
 
 You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
 
