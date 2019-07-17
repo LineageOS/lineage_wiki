@@ -35,7 +35,7 @@ screen: 140 mm (5.5 in)
 screen_ppi: '401'
 screen_res: 1080x1920
 screen_tech: Super AMOLED
-sdcard: up to 256 GB
+sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 tree: android_device_lenovo_kuntao
