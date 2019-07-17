@@ -212,6 +212,10 @@ properties:
     - Kryo 280
     - Kryo 360
     - Kryo 385
+    - Kryo 460
+    - Kryo 470
+    - Kryo 485
+    - Kryo 495
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -269,8 +273,16 @@ properties:
     - Adreno 512
     - Adreno 530
     - Adreno 540
+    - Adreno 605
+    - Adreno 610
+    - Adreno 612
+    - Adreno 615
     - Adreno 616
+    - Adreno 618
+    - Adreno 620
     - Adreno 630
+    - Adreno 640
+    - Adreno 680
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
