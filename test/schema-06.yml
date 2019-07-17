@@ -212,6 +212,7 @@ properties:
     - Kryo 280
     - Kryo 360
     - Kryo 385
+    - Kryo 460
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -269,6 +270,7 @@ properties:
     - Adreno 512
     - Adreno 530
     - Adreno 540
+    - Adreno 612
     - Adreno 616
     - Adreno 630
     - GK20A (Kepler)
