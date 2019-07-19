@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b5d5706b_458c0542",
+        "filename": "_data/devices/a5y17lte.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-07-19T16:48:44Z",
+      "side": 1,
+      "message": "add here too",
+      "range": {
+        "startLine": 46,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 16
+      },
+      "revId": "ecf90f70b4189d63111e8465ca1562b7aad20908",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
