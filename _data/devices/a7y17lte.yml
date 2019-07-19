@@ -5,13 +5,12 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16 MP'}
 carrier:
-channels: [discontinued]
+channels: [nightly]
 codename: a7y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
-current_branch: 14.1
-custom_twrp_link: https://lineageos.fun/a7y17lte/
+current_branch: 16.0
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
@@ -20,7 +19,7 @@ height: 156.8 mm (6.17 in)
 image: a7y17lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7880
-maintainers: []
+maintainers: [filiprrs]
 models: [SM-A720F, SM-A720F/DS]
 name: Galaxy A7 (2017)
 network:
@@ -33,6 +32,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint re
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2017-01-02
+required_bootloader: [from Samsung oreo firmware]
 screen: 132 mm (5.2 in)
 screen_ppi: 424
 screen_res: 1920x1080
@@ -44,6 +44,6 @@ tree: android_device_samsung_a7y17lte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions: [14.1, 16.0]
 width: 77.6 mm (3.06 in)
 wifi: 802.11 a/b/g/n/ac
