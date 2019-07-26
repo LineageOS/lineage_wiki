@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "2e394a5a_92f657ef",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-07-26T06:04:48Z",
+      "side": 1,
+      "message": "Empty line added here.  Guessing this was accidental?",
+      "revId": "ff85d2a69def41f36cd23d52784fe8d2d1516ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "09ef4b0d_49e7a77e",
         "filename": "_includes/templates/recovery_install_fastboot_lenovo.md",
         "patchSetId": 1
