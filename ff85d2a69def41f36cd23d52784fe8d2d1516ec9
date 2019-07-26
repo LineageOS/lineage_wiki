@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "09ef4b0d_49e7a77e",
+        "filename": "_includes/templates/recovery_install_fastboot_lenovo.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-07-26T04:06:00Z",
+      "side": 1,
+      "message": "Moving these over broke the step numbering sequence and removed needed indention.\nYou can see here after step 9 https://harryyoud.co.uk/lineage-previews/251247/1/devices/kuntao/install#unlocking-the-bootloader",
+      "revId": "ff85d2a69def41f36cd23d52784fe8d2d1516ec9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
