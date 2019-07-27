@@ -27,4 +27,8 @@ adb install Name_of_unlock_app.apk
 6. Press the button to unlock your device.
 7. The device should automatically reboot into bootloader mode and the message `unlock successfully...reboot after 5 seconds` should be displayed. The device will then reboot and load Android.
 
+{% if device.is_ab_device %}
+{% include templates/recovery_install_fastboot_ab.md %}
+{% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
+{% endif %}
