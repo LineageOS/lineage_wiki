@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9d61051c_9a2dd785",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-07-27T20:43:52Z",
+      "side": 1,
+      "message": "something you added in here isn\u0027t in our whitelist\n\n_data/devices/chef.yml: The property \u0027#/peripherals\u0027 of type array did not match any of the required schemas",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 114
+      },
+      "revId": "20b94c6888d5aef914da87a2da931928319ee181",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
