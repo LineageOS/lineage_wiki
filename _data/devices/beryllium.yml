@@ -24,7 +24,7 @@ name: Poco F1
 network:
 - {tech: 2G, bands: 'B2 / B3 / B5 / B8 GSM, BC0 / BC1 / BC6 / BC10 CDMA1X/EVDO' }
 - {tech: 3G, bands: 'B1 / B2 / B3 / B4 / B5 / B6 / B8 / B9 / B19 WCDMA, B34 / B39 TD-CDMA' }
-- {tech: 4G, bands: 'B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B13 / B17 / B18 / B19 / B20 / B25 / B26 / B27 / B28 / B29 / B30 FDD-LTE, B34 / B38 / B39 / B40 / B41 TD-LTE' }
+- {tech: 4G, bands: 'B1 / B2 / B3 / B4 / B5 / B7 / B8 / B12 / B17 / B18 / B19 / B20 / B30 FDD-LTE, B34 / B38 / B39 / B40 / B41 TD-LTE' }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio]
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
