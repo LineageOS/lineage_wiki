@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97c47496_0af671dd",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-07-27T02:37:49Z",
+      "side": 1,
+      "message": "all on same lineall on same line",
+      "revId": "ed7498d18815bdc3daf073c35045d4f4181aa05d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "47e4f7eb_37ef6684",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-07-27T02:37:49Z",
+      "side": 1,
+      "message": "remove all whitespace",
+      "range": {
+        "startLine": 28,
+        "startChar": 72,
+        "endLine": 28,
+        "endChar": 73
+      },
+      "revId": "ed7498d18815bdc3daf073c35045d4f4181aa05d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "22507d76_68976633",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-07-27T02:37:49Z",
+      "side": 1,
+      "message": "this all needs to be on the same line, the wiki will handle spacing.\n\nAlso, no, you can\u0027t do this. Just use the pixel description: recovery_boot: With the device powered off, hold \u003ckbd\u003eVolume Down\u003c/kbd\u003e + \u003ckbd\u003ePower\u003c/kbd\u003e,then choose Recovery Mode.",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 9
+      },
+      "revId": "ed7498d18815bdc3daf073c35045d4f4181aa05d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
