@@ -22,6 +22,29 @@
       "revId": "20b94c6888d5aef914da87a2da931928319ee181",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f75b500d_2c2979f9",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2019-07-27T20:51:10Z",
+      "side": 1,
+      "message": "`FM radio` instead of `FMRadio` see https://github.com/LineageOS/lineage_wiki/blob/master/test/schema-06.yml#L77",
+      "range": {
+        "startLine": 28,
+        "startChar": 106,
+        "endLine": 28,
+        "endChar": 113
+      },
+      "revId": "20b94c6888d5aef914da87a2da931928319ee181",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
