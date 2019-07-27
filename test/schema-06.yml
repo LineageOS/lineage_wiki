@@ -145,6 +145,7 @@ properties:
           - A2DP
           - A2DP + aptX
           - A2DP + aptX HD
+          - A2DP + aptX Adaptive
           type: string
         minItems: 1
         type: array
