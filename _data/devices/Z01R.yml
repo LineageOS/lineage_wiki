@@ -1,0 +1,45 @@
+architecture: arm64
+battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual-LED flash (Dual Tone)', info: '12 MP (Primary) IMX363'}
+- {flash: 'Dual-LED flash (Dual Tone)', info: '8 MP (Wide) OV8856'}
+- {flash: '', info: '8 MP (Selfie) OV8856'}
+channels: [nightly]
+codename: Z01R
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4x2.7 GHz & 4x1.7 GHz
+current_branch: 17.1
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 630
+height: 153 mm (6.02 in)
+image: Z01R.png
+install_method: fastboot_zenfone
+is_ab_device: true
+kernel: android_kernel_asus_sdm845
+maintainers: [rohanpurohit, Jackeagle, ThEMarD]
+name: Zenfone 5Z (ZS620KL)
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+no_fastboot_boot: true
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light, USB OTG]
+ram: 4/6/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press and hold the power button to reboot to recovery.
+release: 2018-06
+screen: 157.48 mm (6.2 in)
+screen_ppi: 402
+screen_res: 2246x1080
+screen_tech: IPS LCD
+sdcard: up to 2TB
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128/256 GB UFS2.1
+tree: android_device_asus_Z01R
+type: phone
+vendor: Asus
+vendor_short: asus
+versions: [17.1]
+width: 75.7 mm (2.98 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
