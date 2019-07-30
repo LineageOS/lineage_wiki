@@ -35,7 +35,7 @@ screen: 157.73 mm (6.21 in)
 screen_ppi: '402'
 screen_res: 1080x2248
 screen_tech: AMOLED
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard:
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_xiaomi_dipper
