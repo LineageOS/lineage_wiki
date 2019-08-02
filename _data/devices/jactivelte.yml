@@ -6,7 +6,7 @@ cameras:
 - {flash: '', info: '2 MP'}
 channels: [nightly]
 codename: jactivelte
-custom_twrp_link: http://www.mediafire.com/file/b0e1op05u6y0kgt/twrp-3.2.3-0-jactivelte.img.tar.md5/file
+custom_recovery_link: http://www.mediafire.com/file/b0e1op05u6y0kgt/twrp-3.2.3-0-jactivelte.img.tar.md5/file
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
