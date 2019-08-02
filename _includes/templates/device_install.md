@@ -49,25 +49,34 @@ There are no recovery install instructions for this discontinued device.
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. If you aren't already in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
+{% if device.uses_lineage_recovery %}
+3. Now tap **Factory Reset**, then **Wipe data / factory reset** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage, as well as format your cache partition (if you have one).
+4. Now tap **Wipe System** and continue with the formatting process.
+5. Return to the main menu.
+6. Sideload the LineageOS `.zip` package:
+    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
+{% else %}
 3. Go back to return to main menu, then tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
 5. Return to the previous menu and tap **Advanced Wipe**.
 {% if device.is_ab_device %}
-6. Select the *System* partition to be wiped and then **Swipe to Wipe**.
+5. Return to the previous menu and tap **Advanced Wipe**, then select the *System* partition to be wiped and then **Swipe to Wipe**.
 {% else %}
-6. Select the *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
+5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions to be wiped and then **Swipe to Wipe**.
 {% endif %}
-7. Sideload the LineageOS `.zip` package:
+6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
+{% endif %}
 {% if device.is_ab_device %}
-8. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
 {% else %}
-8. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
     {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
-9. _(Optional)_: Root the device by installing the [LineageOS's AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
-10. Once all installations are finished, run 'adb reboot'.
+8. _(Optional)_: Root the device by installing the [LineageOS's AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+9. Once all installations are finished, run 'adb reboot'.
 
 ## Get assistance
 
