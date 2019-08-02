@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 permalink: faq.html
 ---
 
-## Installing LineageOS zips in TWRP results in "Error 7"
+## Installing LineageOS zips in Recovery results in "Error 7"
  - The most common reasons for this error are:
    - You are trying to install a build for a different device. _You need to make sure you download the zip for the correct device *and* variant_
    - You are attempting to migrate from an unofficial build to official LineageOS. _A full data wipe is needed if you are coming from something other than an official build of LineageOS._
