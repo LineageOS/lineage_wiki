@@ -230,8 +230,8 @@ properties:
   current_branch:
     "$id": "/properties/current_branch"
     "$ref": "#/definitions/valid_branches"
-  custom_twrp_link:
-    "$id": "/properties/custom_twrp_link"
+  custom_recovery_link:
+    "$id": "/properties/custom_recovery_link"
     type: string
     pattern: ^https?:\/\/(.*)
   custom_unlock_cmd:
