@@ -11,7 +11,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=962187416754466684
+custom_recovery_link: https://androidfilehost.com/?fid=962187416754466684
 depth: 10.3 mm (0.41 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
