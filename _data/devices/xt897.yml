@@ -12,7 +12,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-custom_twrp_codename: asanti
+custom_custom_recovery_codename: asanti
 depth: 13.7 mm (0.54 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.

@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
-custom_twrp_codename: piccolometal
+custom_custom_recovery_codename: piccolometal
 depth: 7.5 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306

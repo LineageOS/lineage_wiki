@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
-custom_twrp_link: 'http://files.nwwn.com/android/k88/jasmine-twrp-7.1-r3.img'
+custom_recovery_link: 'http://files.nwwn.com/android/k88/jasmine-twrp-7.1-r3.img'
 depth: 8.9 mm (0.35 in)
 edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
