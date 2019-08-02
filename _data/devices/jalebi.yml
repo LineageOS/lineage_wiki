@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 Ghz
 current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=889964283620777296
+custom_recovery_link: https://androidfilehost.com/?fid=889964283620777296
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Then select "reboot to bootloader".
 gpu: Adreno 306

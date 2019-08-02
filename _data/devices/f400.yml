@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 15.1
-custom_twrp_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
+custom_recovery_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
