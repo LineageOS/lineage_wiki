@@ -1,7 +1,7 @@
-{% if site.data.devices[page.device].custom_twrp_codename %}
-{% assign twrp_codename = site.data.devices[page.device].custom_twrp_codename %}
+{% if site.data.devices[page.device].custom_custom_recovery_codename %}
+{% assign custom_recovery_codename = site.data.devices[page.device].custom_custom_recovery_codename %}
 {% else %}
-{% assign twrp_codename = site.data.devices[page.device].codename %}
+{% assign custom_recovery_codename = site.data.devices[page.device].codename %}
 {% endif %}
 
 ## Preparing for installation
@@ -48,10 +48,14 @@ heimdall print-pit
 
 ## Installing a custom recovery using `heimdall`
 
-{% if site.data.devices[page.device].custom_twrp_link %}
-1. Download a custom recovery - you can download [TWRP]({{ site.data.devices[page.device].custom_twrp_link }}).
+{% if site.data.devices[page.device].custom_recovery_link %}
+1. Download a custom recovery - you can download one [here]({{ site.data.devices[page.device].custom_recovery_link }}).
 {% else %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ twrp_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ twrp_codename }}.img`.
+{% if device.uses_lineage_recovery %}
+1. Download a custom recovery - you can download [Lineage Recovery](https://ftp.acc.umu.se/mirror/lineageos/recovery/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-x.yy-yyyymmdd-$
+{% else %}
+1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% endif %}
 {% endif %}
 2. Power off the your device and connect the USB adapter to the computer (but not to the device, yet).
 3. Boot into download mode:
@@ -61,7 +65,7 @@ heimdall print-pit
     Accept the disclaimer, then insert the USB cable into the device.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window in the directory the recovery image is located, and type:
 ```
-heimdall flash --RECOVERY twrp-x.x.x-x-{{ twrp_codename }}.img --no-reboot
+heimdall flash --RECOVERY twrp-x.x.x-x-{{ custom_recovery_codename }}.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery being transferred.
