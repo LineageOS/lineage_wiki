@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "eac674de_12ddc1d2",
+        "filename": "_data/devices/I01WD.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-02T21:52:11Z",
+      "side": 1,
+      "message": "model number should be in parenthesis",
+      "range": {
+        "startLine": 24,
+        "startChar": 16,
+        "endLine": 24,
+        "endChar": 23
+      },
+      "revId": "4c70955a88f978965d1f9c9801b54cd50af72480",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "20e9760b_3001a2a5",
+        "filename": "_data/devices/I01WD.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-02T21:52:11Z",
+      "side": 1,
+      "message": "this property name changed and the link is dead, so they need to be updated.  or the whole line removed, if not needed.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 89
+      },
+      "revId": "4c70955a88f978965d1f9c9801b54cd50af72480",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
