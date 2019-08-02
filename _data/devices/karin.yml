@@ -11,7 +11,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?w=files&flid=93037
+custom_recovery_link: https://androidfilehost.com/?w=files&flid=93037
 depth: 6.1 mm (0.24 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430

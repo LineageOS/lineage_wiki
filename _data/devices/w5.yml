@@ -11,7 +11,7 @@ cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_twrp_link: https://androidfilehost.com/?fid=673956719939825991
+custom_recovery_link: https://androidfilehost.com/?fid=673956719939825991
 gpu: Adreno 302
 image: w5.png
 install_method: dd

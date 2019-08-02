@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-custom_twrp_link: https://www.androidfilehost.com/?fid=745849072291697503
+custom_recovery_link: https://www.androidfilehost.com/?fid=745849072291697503
 depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
