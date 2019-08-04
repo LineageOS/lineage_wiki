@@ -5,12 +5,12 @@ cameras:
 - {flash: 'LED', info: '13 MP, 2160p@30fps, 1080p@60fps'}
 - {flash: '', info: '2 MP, 1080p@30fps'}
 carrier:
-channels: [discontinued]
+channels: [nightly]
 codename: hlte
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
-current_branch: 14.1
+current_branch: 16.0
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
@@ -18,7 +18,7 @@ height: 151.2 mm (5.95 in)
 image: hlte.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974
-maintainers: []
+maintainers: [haggertk]
 models: [SM-N9005, SM-N900P]
 name: Galaxy Note 3 LTE (N9005/P)
 network:
@@ -41,6 +41,6 @@ tree: android_device_samsung_hlte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1]
+versions: [14.1, 16.0]
 width: 79.2 mm (3.12 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Hotspot
