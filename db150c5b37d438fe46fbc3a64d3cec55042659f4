@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f4c1b40_f296757f",
+        "filename": "_data/devices/hltechn.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2019-08-05T12:50:15Z",
+      "side": 1,
+      "message": "We only actually support N9008V, if N9002 works then it\u0027s magic.",
+      "range": {
+        "startLine": 22,
+        "startChar": 9,
+        "endLine": 22,
+        "endChar": 19
+      },
+      "revId": "db150c5b37d438fe46fbc3a64d3cec55042659f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecabf577_49a62cc3",
+        "filename": "_data/devices/hltechn.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2019-08-05T12:50:15Z",
+      "side": 1,
+      "message": "Need to update these to align to https://www.frequencycheck.com/models/AdR4v/samsung-sm-n9008v-galaxy-note-3-td-lte",
+      "range": {
+        "startLine": 24,
+        "startChar": 1,
+        "endLine": 27,
+        "endChar": 121
+      },
+      "revId": "db150c5b37d438fe46fbc3a64d3cec55042659f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "36b94814_2d4200c2",
+        "filename": "_data/devices/hltekor.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2019-08-05T12:50:15Z",
+      "side": 1,
+      "message": "Need to update to align to:\nhttps://www.frequencycheck.com/models/GlrRO/samsung-sm-n900k-galaxy-note-3-lte-a?c_id\u003d1614846\nhttps://www.sammobile.com/samsung/galaxy-note-3/specs/SM-N900L/\nhttps://www.frequencycheck.com/models/AZzWA/samsung-sm-n900s-galaxy-note-3-lte-a?c_id\u003d1614849",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 121
+      },
+      "revId": "db150c5b37d438fe46fbc3a64d3cec55042659f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
