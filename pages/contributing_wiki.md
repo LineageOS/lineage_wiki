@@ -50,6 +50,7 @@ git config --global user.email "youremail@example.com"
 ```
 git clone https://github.com/LineageOS/lineage_wiki ~/lineage_wiki
 cd ~/lineage_wiki
+# configure the commit-msg hook to get correct Change-id (otherwise, you'd get error message `missing Change-Id in message footer` or `invalid Change-Id line format in message footer`)
 curl -Lo .git/hooks/commit-msg https://review.lineageos.org/tools/hooks/commit-msg
 chmod +x .git/hooks/commit-msg
 ```
@@ -199,11 +200,9 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ## Uploading your changes
 
-LineageOS uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin:
-
-* [create an account](https://review.lineageos.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen)
-* [configure an SSH key](https://review.lineageos.org/Documentation/user-upload.html#ssh)
-* configure your commit hook to set up change-id: `scp -p -P 29418 <username>@review.lineageos.org:hooks/commit-msg ${gitdir}/hooks/` (otherwise, you'd get error message `missing Change-Id in message footer` or `invalid Change-Id line format in message footer`)
+LineageOS uses [Gerrit](https://review.lineageos.org/) to review proposed changes. Before you begin,
+you'll need to [create an account](https://review.lineageos.org/login/%23%2Fregister%2Fq%2Fstatus%3Aopen),
+[configure an SSH key](https://review.lineageos.org/Documentation/user-upload.html#ssh) and configure the pre-commit hook (see `Configure Git` above).
 
 After you've done this, you can push your commits to Gerrit:
 
