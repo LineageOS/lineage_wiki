@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b9ca09a6_4baf2916",
+        "filename": "_data/devices/jflteatt.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-06T02:38:25Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 8,
+        "startChar": 9,
+        "endLine": 8,
+        "endChar": 12
+      },
+      "revId": "e00d102d3a95ef2c0c8724c059af31b3dde9cea4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2148872e_cb9b1c42",
+        "filename": "_data/devices/jflteatt.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-06T02:38:25Z",
+      "side": 1,
+      "message": "there\u0027s no 16.0 branch for this tree",
+      "range": {
+        "startLine": 44,
+        "startChar": 29,
+        "endLine": 44,
+        "endChar": 37
+      },
+      "revId": "e00d102d3a95ef2c0c8724c059af31b3dde9cea4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
