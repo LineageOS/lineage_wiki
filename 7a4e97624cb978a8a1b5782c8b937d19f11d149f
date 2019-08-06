@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3071776e_0b3bfd3c",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 17868
+      },
+      "writtenOn": "2019-08-06T06:24:22Z",
+      "side": 1,
+      "message": "I\u0027d avoid the # comment and instead make this an explanation a Warning near line 205:\n\n{% include alerts/warning.html content\u003d\"If the Gerrit push operation completes with error messages like \u0027Missing Change-Id in message footer\u0027 or \u0027Invalid Change-Id line format in message footer\u0027, add the commit-msg hook as described in \u0027Configure Git\u0027 section\" %}\n\nAlso, commit-msg hook is included in repo tool so if one clones the Android source tree with repo init / repo sync, the commit-msg hook applies to every repository in the tree.",
+      "revId": "7a4e97624cb978a8a1b5782c8b937d19f11d149f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
