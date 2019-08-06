@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "c4406ce1_21137869",
+        "filename": "_data/devices/jflteatt.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-06T03:22:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b9ca09a6_4baf2916",
+      "range": {
+        "startLine": 8,
+        "startChar": 9,
+        "endLine": 8,
+        "endChar": 12
+      },
+      "revId": "e00d102d3a95ef2c0c8724c059af31b3dde9cea4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "2148872e_cb9b1c42",
         "filename": "_data/devices/jflteatt.yml",
         "patchSetId": 9
@@ -45,6 +69,30 @@
       "revId": "e00d102d3a95ef2c0c8724c059af31b3dde9cea4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "83dffe46_638b953f",
+        "filename": "_data/devices/jflteatt.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-06T03:22:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2148872e_cb9b1c42",
+      "range": {
+        "startLine": 44,
+        "startChar": 29,
+        "endLine": 44,
+        "endChar": 37
+      },
+      "revId": "e00d102d3a95ef2c0c8724c059af31b3dde9cea4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
