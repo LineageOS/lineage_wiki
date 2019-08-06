@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3eff73dd_94ddc56d",
+        "filename": "_data/devices/mata.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 17002
+      },
+      "writtenOn": "2019-08-06T17:48:14Z",
+      "side": 1,
+      "message": "correct link would be:\nhttps://download.invisiblek.org/archive/mata/twrp-mata_11.img",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 20
+      },
+      "revId": "a0678c470bb278a0c793c0e40dac28efba1141d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
