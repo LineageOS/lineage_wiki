@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a0a0e2e_3c7e3904",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 17868
+      },
+      "writtenOn": "2019-08-06T04:35:52Z",
+      "side": 1,
+      "message": "This actually deploys the commit-msg hook repo-wise.",
+      "revId": "b443069cad2a5709d40540f55813a04ad39f69da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
