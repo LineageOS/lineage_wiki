@@ -1,0 +1,46 @@
+architecture: {cpu: 'arm64', userspace: 'arm64'}
+battery: {removable: false, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: 'LED', info: '5 MP'}
+carrier:
+channels: [weekly]
+codename: montana
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.4 GHz
+current_branch: 15.1
+depth: 9.5 mm (0.37 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> +  <kbd>Power</kbd>.
+gpu: Adreno 505
+height: 150 mm (5.91 in)
+image: montana.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8937
+maintainers: [AsD Monio, Rajat Gupta, wiktorek140, Jarl-Penguin]
+models: [XT1790, XT1791, XT1792, XT1793, XT1794, XT1795, XT1797]
+name: Moto G5S
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 19(800) 20(800) 28(700) 38(2600) 40(2300) LTE' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2017-08
+required_bootloader: ['0xBC12']
+screen: 132 mm (5.2 in)
+screen_ppi: 424
+screen_res: 1920x1080
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm MSM8937 Snapdragon 430
+storage: 32 GB
+tree: android_device_motorola_montana
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [15.1]
+width: 73.5 mm (2.89 in)
+wifi: 802.11 a/b/g/n, Dual Band, WiFi Direct, Hotspot
