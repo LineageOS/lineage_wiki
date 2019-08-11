@@ -1,6 +1,5 @@
 architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
-before_install: before_install_jfltevzw
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
@@ -32,8 +31,10 @@ peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Ac
   Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2013-04
 required_bootloader: ['I545VRUAMDK']
+root_method: [towelroot]
 screen: 127mm (5 in)
 screen_ppi: 440
 screen_res: 1920x1080
