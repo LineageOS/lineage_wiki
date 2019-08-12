@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a857f695_66000b12",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-12T05:06:38Z",
+      "side": 1,
+      "message": "new line added. not needed.",
+      "revId": "ca605fc8d6a0c4c83bd931bff9c0cd6534a4f6dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c26aa68b_9eec9030",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-12T05:06:38Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 43,
+        "startChar": 69,
+        "endLine": 43,
+        "endChar": 70
+      },
+      "revId": "ca605fc8d6a0c4c83bd931bff9c0cd6534a4f6dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59a8bc44_2cb68841",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-12T05:06:38Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 51,
+        "startChar": 19,
+        "endLine": 51,
+        "endChar": 20
+      },
+      "revId": "ca605fc8d6a0c4c83bd931bff9c0cd6534a4f6dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
