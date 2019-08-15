@@ -208,7 +208,15 @@ ssh-keygen -t dsa -C "your@email.com"
 
 ## Getting your submission reviewed/merged
 
-All submitted patches go through a code review process prior to being merged. In addition to getting reviewed by your peers, certain project members have the capability to merge your changes into LineageOS (to make sure they get informed, add one or more responsible reviewers to your change). To see a breakdown of who is responsible for the various areas, please see the list of [LineageOS contributors](contributors.html).
+All submitted patches go through a code review process prior to being merged. In addition to peer reviews, certain project members have the capability to merge your changes into LineageOS.
+To make sure they get informed:
+
+1) Add reviewers:
+  - For device/kernel repos, add the [maintainer of your device](contributors.html#device-maintainers)
+  - For changes to various special projects (like this wiki), see the maintainers listed [here](contributors.html#other-projects). Note that the wiki editors can be added directly by typing "Wiki Editors" into the reviewer field
+  - For all other repos, add the [Trusted Reviewers](contributors.html#trusted-reviewers) or [Committers](contributors.html#committers)
+
+2) Set the [proper labels](usinggerrit-howto.html#reviewing-a-patch) to indicate your patch is ready
 
 ## Common commands
 
