@@ -1,0 +1,48 @@
+rchitecture: arm
+battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '2 MP'}
+carrier:
+channels: [nightly]
+codename: jfvelte
+cpu: Krait 300
+cpu_cores: 4
+cpu_freq: 1.9GHz
+current_branch: 16.0
+depth: 7.9mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
+gpu: Adreno 320
+height: 136.6mm (5.38 in)
+image: jflte.png
+install_method: heimdall
+kernel: android_kernel_samsung_jf
+maintainers: [arco, npjohnson, side]
+models: [GT-I9515, GT-I9515L]
+name: Galaxy S4 Value Edition (GT-I9515/L)
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSPA+' }
+- {tech: 4G, bands: '800 850 900 1800 2100 2600 MHz LTE' }
+no_oem_unlock_switch: true
+peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
+  Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2014-04
+screen: 127mm (5in)
+screen_ppi: 440
+screen_res: 1920x1080
+screen_tech: Pentile RGBG Full HD Super AMOLED
+sdcard: up to 64 GB
+soc: Qualcomm Snapdragon 600
+storage: 16 GB
+tree: android_device_samsung_jfvelte
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1, 16.0]
+width: 69.8mm (2.75 in)
+wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
