@@ -20,7 +20,7 @@ image: jflte.png
 install_method: heimdall
 kernel: android_kernel_samsung_jf
 maintainers: [arco, npjohnson, side]
-models: [GT-I9505, GT-I9505G, SGH-M919]
+models: [GT-I9505, GT-I9505G, SGH-I337M, SGH-M919]
 name: Galaxy S4 (GT-I9505/G, SGH-I337M, SGH-M919)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
