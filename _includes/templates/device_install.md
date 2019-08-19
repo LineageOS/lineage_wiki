@@ -69,7 +69,7 @@ There are no recovery install instructions for this discontinued device.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% endif %}
 {% if device.is_ab_device %}
-7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload`, then `adb sideload /path/to/zip` those packages in sequence.
 {% else %}
 7. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
