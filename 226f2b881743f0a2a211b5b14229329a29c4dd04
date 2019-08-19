@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e8207fd3_05c7eddb",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-19T13:03:04Z",
+      "side": 1,
+      "message": "missed this one",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 60
+      },
+      "revId": "226f2b881743f0a2a211b5b14229329a29c4dd04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "792b2761_d3491b31",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-19T13:03:04Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 43,
+        "startChar": 20,
+        "endLine": 43,
+        "endChar": 21
+      },
+      "revId": "226f2b881743f0a2a211b5b14229329a29c4dd04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3524f1a1_8aebb382",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-19T13:03:04Z",
+      "side": 1,
+      "message": "should say \u0027one [here]\u0027",
+      "range": {
+        "startLine": 53,
+        "startChar": 48,
+        "endLine": 53,
+        "endChar": 54
+      },
+      "revId": "226f2b881743f0a2a211b5b14229329a29c4dd04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
