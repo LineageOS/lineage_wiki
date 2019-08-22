@@ -13,7 +13,7 @@ cpu_freq: 1x2.84 GHz & 3x2.41 GHz & 4x1.78 GHz
 current_branch: 16.0
 depth: 9.2 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+  Keep holding both buttons until the words "Fastboot Mode" appears on the screen, then release.
 gpu: Adreno 640
 height: 159.1 mm (6.26 in)
 image: I01WD.png
@@ -28,8 +28,9 @@ network:
 - {tech: 4G, bands: 'FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 26, 28), TD-LTE (Bands 38, 39, 41, 46)' }
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS,  GPS, Gyroscope, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the recovery menu appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+ Keep holding both buttons until the words "Fastboot Mode" appears on the screen, then release.
+ Now with the volume rocker select "Recovery mode", then press <kbd>Power</kbd>.
 release: 2019-05-16
 screen: 162.56 mm (6.4 in)
 screen_ppi: 403
