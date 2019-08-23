@@ -7,6 +7,17 @@ tags:
  - sdk
 ---
 
+<div class="alert alert-danger" role="alert">
+  <div class="alert-icon">
+    <i class="material-icons">warning</i>
+  </div>
+  <div class="alert-text" markdown="span">
+    <b>Deprecation notice:</b> The Styles API has been deprecated in LineageOS 16.0.
+    Please refer to the standard <a href="https://developer.android.com/preview/features/darktheme">Android 10 APIs</a>
+    to provide a dark mode for your app (even if the device is running Android 9.0).
+  </div>
+</div>
+
 ## Overview
 
 The styles API allows applications to both change and get changed colors. This has been introduced in LineageSDK API 9 (March 2018).
