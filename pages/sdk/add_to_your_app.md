@@ -18,21 +18,21 @@ the same quality level of an official build.
 ### Adding to your Android Studio project
 
 You can download the LineageSDK jar library from our [prebuilts repo](https://github.com/LineageOS/android_prebuilts_lineage-sdk).
-Once you have downloaded the jar file, insert in the module-level `build.gradle` of your app this dependency:
+Once you have downloaded the aar file, insert in the module-level `build.gradle` of your app this dependency:
 
 {% highlight gradle %}
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['lineage-sdk.jar'])
+    implementation fileTree(dir: 'libs', include: ['lineage-sdk.aar'])
 }
 {% endhighlight %}
 
-And put the `lineage-sdk.jar` file in your app's module `libs` folder (usually `app/libs`) and refresh the gradle dependencies.
+And put the `lineage-sdk.aar` file in your app's module `libs` folder (usually `app/libs`) and refresh the gradle dependencies.
 
 ### Compiling the library from source
 
 In order to compile this library from source, you need to [set up a LineageOS build environment](https://wiki.lineageos.org/devices/angler/build).
 
-Once your build environment is ready, run the following commands to generate the .jar  library:
+Once your build environment is ready, run the following commands to generate the .aar  library:
 
 {% highlight bash %}
 source build/envsetup.sh
@@ -43,7 +43,7 @@ make org.lineageos.platform.sdk.aar
 
 The jar library will be available at the following path:
 
-`out/target/common/obj/JAVA_LIBRARIES/org.lineageos.platform.sdk.aar_intermediates/classes.jar`
+`out/target/common/obj/JAVA_LIBRARIES/org.lineageos.platform.sdk.aar_intermediates/javalib.aar`
 
 ### Compatibility
 
