@@ -13,6 +13,14 @@ Different devices may run different versions of LineageOS. Each successive build
 To indicate which set of APIs are available, each platform version specifies an API level.
 For instance, the initial LineageOS 15.1 API level was 8, while after a some releases new APIs were added and so it was bumped to API level 9.
 
+### API version changelog
+
+| API version | LineageOS version(s) | Notable changes |
+|-------------|----------------------|-----------------|
+| 8           | 15.1                 | Unreleased preliminary version starting from LineageOS 15.1 |
+| 9           | 15.1, 16.0           | Styles API to customize the system and get customized basing on the system style |
+| 10          | 16.0                 | HealthStore API, deprecation of Styles API. |
+
 To help decipher which APIs are available to you at any given point (if at all), we’ve created a copy
 of the [Build API](https://lineageos.github.io/android_lineage-sdk/reference/lineageos/os/Build.html) from AOSP allowing you to programmatically
 compare the devices current API version to see if specific features are available or not.
@@ -105,8 +113,6 @@ int getLineageSDKVersion() {
     return 0;
 }
 {% endhighlight %}
-
-
 
 ## Get assistance
 
