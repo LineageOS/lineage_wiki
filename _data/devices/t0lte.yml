@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
-carrier:
 channels: [discontinued]
 codename: t0lte
 cpu: Cortex-A9

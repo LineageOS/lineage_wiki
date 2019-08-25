@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '16 MP F/2.2, OIS'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [discontinued]
 codename: kingdom
 cpu: Krait 400

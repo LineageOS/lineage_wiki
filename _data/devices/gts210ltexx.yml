@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '8 MP'}
 - {flash: '', info: '2.1 MP'}
-carrier:
 channels: [discontinued]
 codename: gts210ltexx
 cpu: Cortex-A53 & Cortex-A57

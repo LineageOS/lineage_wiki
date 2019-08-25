@@ -2,7 +2,6 @@ architecture: arm64
 battery: None
 bluetooth: {spec: '4.1'}
 cameras: []
-carrier:
 channels: [weekly]
 codename: foster
 cpu: Cortex-A57

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '8 MP'}
-carrier:
 channels: [nightly]
 codename: sailfish
 cpu: Kryo

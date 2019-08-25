@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
 - {flash: '', info: '8 MP'}
-carrier:
 channels: [weekly]
 codename: angler
 cpu: Cortex-A53 & Cortex-A57
