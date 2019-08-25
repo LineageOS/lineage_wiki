@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f9d969bf_e344bf4d",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-25T14:15:18Z",
+      "side": 1,
+      "message": "should add blank line above here to match the way the rest of the page looks, imo.\nhttps://harryyoud.co.uk/lineage-previews/254467/1/addingdevice-howto.html#populating-the-yaml",
+      "revId": "44f044c12a8e26604a7a29a3945d3e178b975d70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
