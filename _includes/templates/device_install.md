@@ -77,6 +77,8 @@ There are no recovery install instructions for this discontinued device.
 8. _(Optional)_: Root the device by installing the [LineageOS's AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
 9. Once all installations are finished, run 'adb reboot'.
 
+    {% include alerts/warning.html content="Depending on your recovery, it might prompt you for additional installation of apps and services. We strongly advise you to not install these along with a LineageOS build as it might prevent boot or access/corrupt your data." %}
+
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
