@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual-LED', info: '13 MP'}
 - {flash: '', info: '4 MP'}
-carrier:
 channels: [discontinued]
 codename: hiae
 cpu: Cortex-A53

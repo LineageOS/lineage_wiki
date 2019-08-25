@@ -5,7 +5,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2.1 MP'}
-carrier:
 channels: [discontinued]
 codename: chagalllte
 cpu: Cortex-A15 & Cortex-A7

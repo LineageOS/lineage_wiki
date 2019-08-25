@@ -5,7 +5,6 @@ cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: 'Dual LED', info: '5 MP'}
 - {flash: 'LED', info: '20 MP'}
-carrier:
 channels: [discontinued]
 codename: whyred
 cpu: Kryo 260

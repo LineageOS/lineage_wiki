@@ -4,7 +4,6 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [nightly]
 codename: chiron
 cpu: Kryo 280

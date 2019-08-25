@@ -2,7 +2,6 @@ architecture: arm
 battery: {removable: False, capacity: 7350}
 bluetooth: {spec: '3.0'}
 cameras: []
-carrier:
 channels: [discontinued]
 codename: roth
 cpu: Cortex-A15

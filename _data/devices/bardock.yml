@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual Tone LED', info: '16 MP, f/2.0'}
 - {flash: 'LED', info: '8 MP, f/2.0'}
-carrier:
 channels: [nightly]
 codename: bardock
 cpu: Cortex-A53
