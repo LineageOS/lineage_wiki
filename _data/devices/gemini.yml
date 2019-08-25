@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: '', info: '4 MP'}
-carrier:
 channels: [nightly]
 codename: gemini
 cpu: Kryo

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '3.15 MP'}
 - {flash: '', info: '1.3 MP'}
-carrier:
 channels: [discontinued]
 codename: v400
 cpu: Cortex-A7

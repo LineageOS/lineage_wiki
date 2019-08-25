@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '8 MP'}
-carrier:
 channels: [nightly]
 codename: z2_plus
 cpu: Kryo

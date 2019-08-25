@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: 'LED', info: '5 MP'}
 - {flash: 'LED', info: '8 MP'}
-carrier:
 channels: [nightly]
 codename: X00TD
 cpu: Kryo 260

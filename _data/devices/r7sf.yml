@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '8 MP'}
-carrier:
 channels: [nightly]
 codename: r7sf
 cpu: Cortex-A53

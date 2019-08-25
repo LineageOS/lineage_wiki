@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
-carrier:
 channels: [discontinued]
 codename: i9305
 cpu: Cortex-A9

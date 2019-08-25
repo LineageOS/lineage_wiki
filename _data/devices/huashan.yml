@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8MP f/2.4'}
 - {flash: '', info: 'VGA'}
-carrier:
 channels: [monthly]
 codename: huashan
 cpu: Krait

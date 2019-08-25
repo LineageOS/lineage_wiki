@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '23 MP'}
 - {flash: '', info: '16 MP'}
 - {flash: '', info: '8 MP'}
-carrier:
 channels: [nightly]
 codename: discovery
 cpu: Cortex-A53

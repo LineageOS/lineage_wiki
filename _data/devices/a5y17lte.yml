@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16 MP'}
-carrier:
 channels: [nightly]
 codename: a5y17lte
 cpu: Cortex-A53

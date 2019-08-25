@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-carrier:
 channels: [discontinued]
 codename: peach
 cpu: Cortex-A53

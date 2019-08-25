@@ -6,7 +6,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [nightly]
 codename: find7
 cpu: Krait 400
