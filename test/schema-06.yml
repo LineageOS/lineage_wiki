@@ -170,6 +170,9 @@ properties:
     required:
     - spec
     type: object
+  carrier:
+    "$carrier": "/properties/carrier"
+    type: string
   channels:
     "$id": "/properties/channels"
     items:
@@ -230,6 +233,9 @@ properties:
   current_branch:
     "$id": "/properties/current_branch"
     "$ref": "#/definitions/valid_branches"
+  custom_recovery_codename:
+    "$id": "/properties/custom_recovery_codename"
+    type: string
   custom_recovery_link:
     "$id": "/properties/custom_recovery_link"
     type: string
@@ -241,6 +247,9 @@ properties:
   download_boot:
     "$id": "/properties/download_boot"
     type: string
+  format_on_upgrade:
+    "$id": "/properties/format_on_upgrade"
+    type: boolean
   gpu:
     "$id": "/properties/gpu"
     enum:
@@ -316,6 +325,9 @@ properties:
     - fastboot_xiaomi
     - fastboot_zenfone
     - heimdall
+  is_ab_device:
+    "$id": "/properties/is_ab_device"
+    type: boolean
   is_unlockable:
     "$id": "/properties/is_unlockable"
     type: boolean
@@ -330,6 +342,9 @@ properties:
   models:
     "$id": "/properties/models"
     type: array
+  multiple_versions_reason:
+    "$id": "/properties/multiple_versions_reason"
+    type: string
   name:
     "$id": "/properties/name"
     minLength: 1
@@ -381,6 +396,9 @@ properties:
     - phone
     - phone (slider)
     - tablet
+  use_lineage_recovery:
+    "$id": "/properties/use_lineage_recovery"
+    type: boolean
   vendor:
     "$id": "/properties/vendor"
     enum:
