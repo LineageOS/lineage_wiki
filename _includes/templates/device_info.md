@@ -15,19 +15,14 @@
 [Get the builds here](https://download.lineageos.org/{{ device.codename }})
 {% endif %}
 
-### Installation
-[How to install LineageOS on the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
+## Guides
 
-### Build guide
-[How to build LineageOS for the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
-
-### Update guide
-[How to update LineageOS on the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
-
+- [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
+- [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+- [Update to a newer build of the same LineageOS version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-### Upgrade guide
-[How to upgrade LineageOS on the {{ device.vendor }} {{ device.name }}]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_show and device.note_show == true %}
