@@ -116,11 +116,10 @@ Additionally there are some optional properties which you might not need, but in
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
 * `multiple_versions_reason`: Used if the device ships multiple LineageOS versions simultaneously to show a device-specific note on the wiki page describing why. Remove if not used! 
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
-* `use_lineage_recovery`: Used if the device ships Lineage Recovery. Remove if not used!
-
   ```
   required_bootloader: [Version1, Version2]
   ```
+* `use_lineage_recovery`: Used if the device ships Lineage Recovery. Remove if not used!
 
 {% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
 
