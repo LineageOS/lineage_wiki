@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [discontinued]
 codename: ido
 cpu: Cortex-A53 & Cortex-A53

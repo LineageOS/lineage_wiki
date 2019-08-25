@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED (dual-tone)', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [weekly]
 codename: mido
 cpu: Cortex-A53

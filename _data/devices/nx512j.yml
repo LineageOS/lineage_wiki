@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '15.9 MP'}
 - {flash: 'LED', info: '8 MP'}
-carrier:
 channels: [discontinued]
 codename: nx512j
 cpu: Cortex-A53

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'LED', info: '13 MP(LTE) or 8 MP(3G)'}
 - {flash: '', info: '5 MP or 8 MP'}
-carrier:
 channels: [discontinued]
 codename: m216
 cpu: Cortex-A53

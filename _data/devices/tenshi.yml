@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [discontinued]
 codename: tenshi
 cpu: Cortex-A53

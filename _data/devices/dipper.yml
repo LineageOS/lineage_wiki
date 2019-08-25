@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: 'LED', info: '12 MP'}
 - {flash: '', info: '5 MP'}
-carrier:
 channels: [nightly]
 codename: dipper
 cpu: Kryo 385

@@ -5,7 +5,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-carrier:
 channels: [weekly]
 codename: wt88047
 cpu: Cortex-A53
