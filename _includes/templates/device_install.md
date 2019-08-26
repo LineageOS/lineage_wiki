@@ -58,7 +58,7 @@ There are no recovery install instructions for this discontinued device.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% else %}
 3. Now tap **Wipe**.
-4. Now tap **Format Data** and continue with the formatting process. This will remove encryption as well as delete all files stored on the internal storage.
+4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored on the internal storage.
 {% if device.is_ab_device %}
 5. Return to the previous menu and tap **Advanced Wipe**, then select the *System* partition to be wiped and then **Swipe to Wipe**.
 {% else %}
@@ -74,10 +74,10 @@ There are no recovery install instructions for this discontinued device.
 7. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
     {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** the first boot into Android!" %}
-8. _(Optional)_: Root the device by installing the [LineageOS's AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or using any other method you prefer.
+8. _(Optional)_: Root the device by installing [LineageOS's AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 9. Once all installations are finished, run 'adb reboot'.
 
-    {% include alerts/warning.html content="Depending on your recovery, you may be prompted to install additional apps and services. We strongly advise you opt-out of installing these, as they may cause you to bootloop, or attempt to access/corrupt your data." %}
+    {% include alerts/warning.html content="Depending on which recovery you use, you may be prompted to install additional apps and services. We strongly advise you to opt out of installing these, as they may cause your device to bootloop, as well as attempt to access/corrupt your data." %}
 
 ## Get assistance
 
