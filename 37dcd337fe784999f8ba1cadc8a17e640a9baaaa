@@ -1,0 +1,142 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "47c730c5_7fa66810",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "wrong grammar",
+      "range": {
+        "startLine": 10,
+        "startChar": 160,
+        "endLine": 10,
+        "endChar": 166
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b37e624f_7d3d6213",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "unecessary?",
+      "range": {
+        "startLine": 10,
+        "startChar": 66,
+        "endLine": 10,
+        "endChar": 73
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "471ebc6d_36cda021",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "this sounds clunky",
+      "range": {
+        "startLine": 12,
+        "startChar": 31,
+        "endLine": 12,
+        "endChar": 59
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1e6704d5_24bf4b01",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "the old way was right?",
+      "range": {
+        "startLine": 50,
+        "startChar": 14,
+        "endLine": 50,
+        "endChar": 18
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f1d50ba_e642cc3f",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "sounds clunky",
+      "range": {
+        "startLine": 61,
+        "startChar": 125,
+        "endLine": 61,
+        "endChar": 127
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dfb44f40_9459196d",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-26T14:34:47Z",
+      "side": 1,
+      "message": "why",
+      "range": {
+        "startLine": 72,
+        "startChar": 46,
+        "endLine": 72,
+        "endChar": 52
+      },
+      "revId": "37dcd337fe784999f8ba1cadc8a17e640a9baaaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
