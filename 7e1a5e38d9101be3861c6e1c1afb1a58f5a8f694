@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c6af6fa2_79a7f83a",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 216,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T02:20:07Z",
+      "side": 1,
+      "message": "change this to use adb root",
+      "range": {
+        "startLine": 216,
+        "startChar": 0,
+        "endLine": 216,
+        "endChar": 408
+      },
+      "revId": "7e1a5e38d9101be3861c6e1c1afb1a58f5a8f694",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
