@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "80bdeb40_4f7a7e59",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 400,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-08-28T03:20:05Z",
+      "side": 1,
+      "message": "missing an s in these. it\u0027s uses_lineage_recovery",
+      "range": {
+        "startLine": 399,
+        "startChar": 0,
+        "endLine": 400,
+        "endChar": 45
+      },
+      "revId": "049e8e6349d1d0edae3531e377c30c715213640e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
