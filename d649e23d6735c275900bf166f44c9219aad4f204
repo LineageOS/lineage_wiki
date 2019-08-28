@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d0b96abe_464d437b",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:21:20Z",
+      "side": 1,
+      "message": "we don\u0027t want to maintain the \"newest\" link, pls link to just the page for the app.\n\nThe average user isn\u0027t going to know what vbox is, so dont mention it.",
+      "range": {
+        "startLine": 9,
+        "startChar": 102,
+        "endLine": 9,
+        "endChar": 224
+      },
+      "revId": "d649e23d6735c275900bf166f44c9219aad4f204",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "92e393d2_d8d860b6",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:21:20Z",
+      "side": 1,
+      "message": "why did you make every step 1.....",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 3
+      },
+      "revId": "d649e23d6735c275900bf166f44c9219aad4f204",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
