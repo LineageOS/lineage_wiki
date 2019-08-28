@@ -396,8 +396,8 @@ properties:
     - phone
     - phone (slider)
     - tablet
-  use_lineage_recovery:
-    "$id": "/properties/use_lineage_recovery"
+  uses_lineage_recovery:
+    "$id": "/properties/uses_lineage_recovery"
     type: boolean
   vendor:
     "$id": "/properties/vendor"
