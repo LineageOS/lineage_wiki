@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a2351364_7458eaf2",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:25:31Z",
+      "side": 1,
+      "message": "drop these too.",
+      "range": {
+        "startLine": 35,
+        "startChar": 152,
+        "endLine": 35,
+        "endChar": 161
+      },
+      "revId": "4e3d86b4798b004df65b0edfcad488715da9d161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7532b800_f86c1e2d",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:25:31Z",
+      "side": 1,
+      "message": "We only support using",
+      "range": {
+        "startLine": 35,
+        "startChar": 37,
+        "endLine": 35,
+        "endChar": 49
+      },
+      "revId": "4e3d86b4798b004df65b0edfcad488715da9d161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3433522e_c3f1b272",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:25:31Z",
+      "side": 1,
+      "message": "drop this word",
+      "range": {
+        "startLine": 35,
+        "startChar": 130,
+        "endLine": 35,
+        "endChar": 135
+      },
+      "revId": "4e3d86b4798b004df65b0edfcad488715da9d161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3e76eecf_cf0484a0",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:25:31Z",
+      "side": 1,
+      "message": "incompatible with Android\u0027s build scripts.",
+      "range": {
+        "startLine": 35,
+        "startChar": 161,
+        "endLine": 35,
+        "endChar": 197
+      },
+      "revId": "4e3d86b4798b004df65b0edfcad488715da9d161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c5a5cec_60962dce",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-08-28T01:25:31Z",
+      "side": 1,
+      "message": "for",
+      "range": {
+        "startLine": 35,
+        "startChar": 99,
+        "endLine": 35,
+        "endChar": 103
+      },
+      "revId": "4e3d86b4798b004df65b0edfcad488715da9d161",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
