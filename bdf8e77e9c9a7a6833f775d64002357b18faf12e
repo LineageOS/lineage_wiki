@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f47f3eec_11a569db",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-09-04T15:33:23Z",
+      "side": 1,
+      "message": "what are you considering download? Fastboot is vol down and power...",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 13
+      },
+      "revId": "bdf8e77e9c9a7a6833f775d64002357b18faf12e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
