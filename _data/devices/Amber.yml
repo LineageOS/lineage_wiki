@@ -1,0 +1,49 @@
+architecture: arm64
+battery: {removable: False, capacity: 3050, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: 'Dual LED', info: '5 MP'}
+- {flash: 'LED', info: '5 MP'}
+channels: [nightly]
+codename: Amber
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 16.0
+custom_recovery_link: https://vasy.ru/TWRP/Amber/twrp-3.3.1-0-20190804-Amber.img
+custom_unlock_cmd: 'fastboot oem yandex_unlock'
+depth: 8.3 mm (0.32 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Release  <kbd>Power</kbd> after vibro and keep holding <kbd>Volume Down</kbd> until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 508
+height: 150.1 mm (5.91 in)
+image: Amber.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_yandex_Amber
+maintainers: [HighwayStar, vm03]
+name: 'Phone'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '3(1800) 7(2600) 20(800) 38(2600)' }
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Release  <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
+release: 2018-12
+screen: 143.5 mm (5.65 in)
+screen_ppi: '420'
+screen_res: 1080x2160
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm SDM630 Snapdragon 630
+storage: 64 GB
+tree: android_device_yandex_Amber
+type: phone
+vendor: Yandex
+vendor_short: yandex
+versions: [16.0]
+width: 72.5 mm (2.83 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
