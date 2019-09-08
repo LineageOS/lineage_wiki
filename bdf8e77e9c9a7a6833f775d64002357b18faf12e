@@ -22,6 +22,23 @@
       "revId": "bdf8e77e9c9a7a6833f775d64002357b18faf12e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d19c38cc_4581e740",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 18847
+      },
+      "writtenOn": "2019-09-08T10:55:36Z",
+      "side": 1,
+      "message": "this is right?",
+      "revId": "bdf8e77e9c9a7a6833f775d64002357b18faf12e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
