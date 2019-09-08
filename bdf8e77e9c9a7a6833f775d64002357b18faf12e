@@ -39,6 +39,29 @@
       "revId": "bdf8e77e9c9a7a6833f775d64002357b18faf12e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5f3b9b0b_866b931e",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 19792
+      },
+      "writtenOn": "2019-09-08T16:04:49Z",
+      "side": 1,
+      "message": "I have XT1096. This fix is right. Everything else is working by the described way at lineage_wiki now.",
+      "range": {
+        "startLine": 28,
+        "startChar": 89,
+        "endLine": 28,
+        "endChar": 98
+      },
+      "revId": "bdf8e77e9c9a7a6833f775d64002357b18faf12e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
