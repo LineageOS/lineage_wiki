@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4f86fb53_69e95edd",
+        "filename": "_includes/templates/device_specific/before_install_a7y17lte.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-09-09T17:39:02Z",
+      "side": 1,
+      "message": "drop",
+      "range": {
+        "startLine": 3,
+        "startChar": 251,
+        "endLine": 3,
+        "endChar": 267
+      },
+      "revId": "a8a196b2b95532c0f64b990e882c61ce009e01f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "76e9b236_a17099fb",
+        "filename": "_includes/templates/device_specific/before_install_a7y17lte.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-09-09T17:39:02Z",
+      "side": 1,
+      "message": "the procedure listed here once more:",
+      "range": {
+        "startLine": 3,
+        "startChar": 122,
+        "endLine": 3,
+        "endChar": 125
+      },
+      "revId": "a8a196b2b95532c0f64b990e882c61ce009e01f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "896288a4_55d665b2",
+        "filename": "_includes/templates/device_specific/before_install_a7y17lte.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-09-09T17:39:02Z",
+      "side": 1,
+      "message": "If",
+      "range": {
+        "startLine": 3,
+        "startChar": 56,
+        "endLine": 3,
+        "endChar": 64
+      },
+      "revId": "a8a196b2b95532c0f64b990e882c61ce009e01f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
