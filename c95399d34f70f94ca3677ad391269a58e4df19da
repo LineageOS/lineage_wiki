@@ -71,6 +71,78 @@
     },
     {
       "key": {
+        "uuid": "f449dcb3_e022e70b",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b660456_621a6829",
+      "range": {
+        "startLine": 3,
+        "startChar": 49,
+        "endLine": 3,
+        "endChar": 143
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e352b64e_9f776bda",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "768e37d8_8c37c1ad",
+      "range": {
+        "startLine": 3,
+        "startChar": 165,
+        "endLine": 3,
+        "endChar": 167
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "af39a232_63ed4d36",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "786dce4a_35de06c6",
+      "range": {
+        "startLine": 3,
+        "startChar": 5,
+        "endLine": 3,
+        "endChar": 13
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "efaad35d_11417703",
         "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
         "patchSetId": 2
@@ -91,6 +163,30 @@
       "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8db40df0_3459ae6d",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "efaad35d_11417703",
+      "range": {
+        "startLine": 5,
+        "startChar": 97,
+        "endLine": 5,
+        "endChar": 101
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "777ac610_78ac7c05",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "45d17402_c3224efd",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 36
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "481cd30e_82d69146",
         "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
         "patchSetId": 2
@@ -128,6 +248,30 @@
       "writtenOn": "2019-09-09T15:41:28Z",
       "side": 1,
       "message": "recovery linked on the Wiki installed.",
+      "range": {
+        "startLine": 8,
+        "startChar": 36,
+        "endLine": 8,
+        "endChar": 62
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2c569ab_da171229",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "do we link the recovery, if official, on wiki?",
+      "parentUuid": "481cd30e_82d69146",
       "range": {
         "startLine": 8,
         "startChar": 36,
@@ -163,6 +307,30 @@
     },
     {
       "key": {
+        "uuid": "91c1e8ff_17122aab",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "yet to be done.",
+      "parentUuid": "70f1a417_e78a1166",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 37
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f8063915_f40b8099",
         "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
         "patchSetId": 2
@@ -174,6 +342,30 @@
       "writtenOn": "2019-09-09T15:41:28Z",
       "side": 1,
       "message": "copy this from the install template so it\u0027s standard.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 31
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "41ffe714_24eefd51",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "yet to be done.",
+      "parentUuid": "f8063915_f40b8099",
       "range": {
         "startLine": 11,
         "startChar": 0,
@@ -206,6 +398,30 @@
       "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a649f457_609f5d84",
+        "filename": "_includes/templates/device_specific/before_install: before_install_a5|7y17lte.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-09T16:01:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cf454a48_53023315",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 43
+      },
+      "revId": "c95399d34f70f94ca3677ad391269a58e4df19da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
