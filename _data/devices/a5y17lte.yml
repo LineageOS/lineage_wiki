@@ -1,10 +1,10 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+before_install: before_install_a5|7y17lte
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '16 MP'}
-carrier:
 channels: [nightly]
 codename: a5y17lte
 cpu: Cortex-A53
@@ -19,8 +19,8 @@ height: 146.1 mm (5.75 in)
 image: a5y17lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7880
-maintainers: [filiprrs]
-models: [SM-A520F, SM-A520F/DS, SM-A520W, SM-A520S, SM-A520K, SM-A520L]
+maintainers: [filiprrs, raymanfx]
+models: [SM-A520F, SM-A520F/DS, SM-A520W]
 name: Galaxy A5 (2017)
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
