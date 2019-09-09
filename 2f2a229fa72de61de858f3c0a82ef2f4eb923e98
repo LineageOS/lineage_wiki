@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "310435de_aa83a99d",
+        "filename": "_includes/templates/device_specific/before_install_a5|7y17lte.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-09-09T16:08:08Z",
+      "side": 1,
+      "message": "what is this? don\u0027t specify such a thing here. also, shouldn\u0027t specify absolute numbers anyway. Make it more generic: Due to issues with some older versions of TWRP you may encounter issues during boot when your device was encrypted. In this case make sure to update it to the latest version and follow these steps:\n\nFilename of this file needs to get rid of the `|`",
+      "range": {
+        "startLine": 3,
+        "startChar": 21,
+        "endLine": 3,
+        "endChar": 35
+      },
+      "revId": "2f2a229fa72de61de858f3c0a82ef2f4eb923e98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
