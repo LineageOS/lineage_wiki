@@ -22,6 +22,30 @@
       "revId": "2f2a229fa72de61de858f3c0a82ef2f4eb923e98",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9f37cca6_b28dfa05",
+        "filename": "_includes/templates/device_specific/before_install_a5|7y17lte.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16128
+      },
+      "writtenOn": "2019-09-22T09:24:56Z",
+      "side": 1,
+      "message": "We should specify absolute number so that users know whether they need to format data or not.\nWill get rid of the | sign.",
+      "parentUuid": "310435de_aa83a99d",
+      "range": {
+        "startLine": 3,
+        "startChar": 21,
+        "endLine": 3,
+        "endChar": 35
+      },
+      "revId": "2f2a229fa72de61de858f3c0a82ef2f4eb923e98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
