@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED (dual-tone)', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [weekly]
+channels: [discontinued]
 codename: mido
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -18,7 +18,7 @@ height: 151 mm (5.94 in)
 image: mido.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8953
-maintainers: [TheScarastic]
+maintainers: []
 name: Redmi Note 4
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
