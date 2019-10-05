@@ -4,12 +4,12 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
+channels: [nightly]
 codename: land
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
-current_branch: 15.1
+current_branch: 16.0
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -18,7 +18,7 @@ height: 139.3 mm (5.48 in)
 image: land.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8937
-maintainers: []
+maintainers: [Isaac Chen (Tingyi Chen)]
 name: Redmi 3S/3X
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
