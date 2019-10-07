@@ -36,6 +36,7 @@ fastboot devices
 ```
 fastboot flash boot <recovery_filename>.img
 ```
+    {% include alerts/note.html content="On Windows operating system, you must specify a slot. 'fastboot flash boot_a <recovery_filename>.img'" %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 6. {{ device.recovery_boot }}
 
