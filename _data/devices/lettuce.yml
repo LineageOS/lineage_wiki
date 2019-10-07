@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {removable: True, capacity: 2230}
+battery: {removable: True, capacity: 2230, tech: "Li-Ion"}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
