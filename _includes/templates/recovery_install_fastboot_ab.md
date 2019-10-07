@@ -36,6 +36,7 @@ fastboot devices
 ```
 fastboot flash boot <recovery_filename>.img
 ```
+    {% include alerts/note.html content="On Windows systems, thanks to a bug in fastboot, you must first swap to slot a with `fastboot set_active a`, then specify slot a when flashing images, e.g. `fastboot flash boot_a <recovery_filename>.img`" %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 6. {{ device.recovery_boot }}
 
