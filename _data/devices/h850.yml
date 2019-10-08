@@ -12,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 14.1
 depth: 7.7 mm (0.30 in)
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. After flashing a new recovery, the battery needs to be pulled out and re-inserted to boot into recovery.
 gpu: Adreno 530
 height: 149.4 mm (5.88 in)
 image: g5.png
