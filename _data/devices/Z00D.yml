@@ -1,5 +1,5 @@
 architecture: x86
-battery: {removable: False, capacity: 2500, tech: "Li-Po"}
+battery: {removable: False, capacity: 2500, tech: 'Li-Po'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
