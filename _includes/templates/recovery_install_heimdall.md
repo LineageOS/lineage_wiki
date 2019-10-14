@@ -38,6 +38,9 @@ The preferred method of installing a custom recovery is through this boot mode{%
 heimdall print-pit
 ```
 7. If the device reboots, Heimdall is installed and working properly.
+{% if custom_upgrade_heimdall_notice %}
+In case of failure, try to install heimdall 1.4.2+. This is available from [source](https://gitlab.com/BenjaminDobell/Heimdall).
+{% endif %}
 
 {% if custom_downgrade_instructions %}
 {{ custom_downgrade_instructions }}
