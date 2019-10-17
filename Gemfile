@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 
-gem "jekyll", "3.6.2"
+gem "jekyll", "3.6.3"
 gem "therubyracer", "0.12.3"
 
 group :test do
