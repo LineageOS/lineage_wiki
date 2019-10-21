@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "948232da_441aa44a",
+        "filename": "_data/devices/s3ve3gxx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-21T02:41:42Z",
+      "side": 1,
+      "message": "Should probably put imx here, like you have in hudson change.\nAlso, should add a before_install note so that it\u0027s obvious this build is for neo\u0027s with sony cam.",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 19
+      },
+      "revId": "b4d2a14c41efd81943abe005e6650d6cff55ff95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "07f4185a_e35c58f2",
+        "filename": "_data/devices/s3ve3gxx.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-21T02:41:42Z",
+      "side": 1,
+      "message": "It\u0027s ok to put i9301 bootloader on i9300 device?",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 38
+      },
+      "revId": "b4d2a14c41efd81943abe005e6650d6cff55ff95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
