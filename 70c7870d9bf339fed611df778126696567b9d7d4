@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2ce78672_3320c277",
+        "filename": "_data/devices/s3ve3gjv.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-24T14:10:17Z",
+      "side": 1,
+      "message": "Looks like samsung uses Neo, not NEO.",
+      "range": {
+        "startLine": 23,
+        "startChar": 19,
+        "endLine": 23,
+        "endChar": 22
+      },
+      "revId": "70c7870d9bf339fed611df778126696567b9d7d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "73230565_d948107c",
+        "filename": "_data/devices/s3ve3gjv.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-24T14:10:17Z",
+      "side": 1,
+      "message": "Might be more helpful to new users to put it like this:\n\u0027GT-I9301I \u003d I9301IXXUAPG1\u0027, \u0027GT-I9301Q \u003d I9301QXXUAHN1\u0027",
+      "range": {
+        "startLine": 32,
+        "startChar": 23,
+        "endLine": 32,
+        "endChar": 53
+      },
+      "revId": "70c7870d9bf339fed611df778126696567b9d7d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "81132e14_3c4d27e2",
+        "filename": "_includes/templates/device_specific/before_install_s3ve3g.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-24T14:10:17Z",
+      "side": 1,
+      "message": "To",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 3
+      },
+      "revId": "70c7870d9bf339fed611df778126696567b9d7d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
