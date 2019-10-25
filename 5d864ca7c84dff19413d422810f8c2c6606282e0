@@ -16,6 +16,24 @@
       "revId": "5d864ca7c84dff19413d422810f8c2c6606282e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bb3c049d_59a30fda",
+        "filename": "_includes/templates/device_specific/before_install_s3ve3g.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-10-25T01:06:28Z",
+      "side": 1,
+      "message": "*this device\u0027s",
+      "parentUuid": "a0569f52_9183732c",
+      "revId": "5d864ca7c84dff19413d422810f8c2c6606282e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
