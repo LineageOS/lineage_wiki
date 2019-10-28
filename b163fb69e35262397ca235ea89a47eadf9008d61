@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "152e1a18_a1bded08",
+        "filename": "_data/devices/s3ve3gjv.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-10-28T18:42:12Z",
+      "side": 1,
+      "message": "I\u0027m not seeing where this device ever got official 13.0 builds. Can you confirm?",
+      "range": {
+        "startLine": 44,
+        "startChar": 11,
+        "endLine": 44,
+        "endChar": 15
+      },
+      "revId": "b163fb69e35262397ca235ea89a47eadf9008d61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
