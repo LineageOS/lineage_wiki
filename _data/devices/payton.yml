@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2017-10
-screen: 84.5 cm (5.2 in)
+screen: 84.5 mm (5.2 in)
 screen_ppi: '424'
 screen_res: 1080x1920
 screen_tech: LTPS IPS LCD
