@@ -23,7 +23,6 @@ name: Xperia L
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700 2100 MHz HSPA' }
-- {tech: 4G, bands: '' }
 peripherals: [GPS, NFC, Accelerometer, Compass, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.

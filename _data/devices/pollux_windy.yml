@@ -20,10 +20,6 @@ install_variant: sony_unlock_contacts sony_init_fota
 kernel: android_kernel_sony_apq8064
 maintainers: [CaHbKaUp, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
 name: Xperia Tablet Z Wi-Fi
-network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.

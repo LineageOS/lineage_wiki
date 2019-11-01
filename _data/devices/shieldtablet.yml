@@ -11,11 +11,9 @@ cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 2.2 GHz
 current_branch: 15.1
-depth:
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: GK20A (Kepler)
-height:
 image: shieldtablet.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_shield
@@ -43,5 +41,4 @@ type: tablet
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0, 14.1, 15.1]
-width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

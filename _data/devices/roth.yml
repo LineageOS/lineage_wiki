@@ -8,20 +8,14 @@ cpu: Cortex-A15
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 13.0
-depth:
 download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
 gpu: Tegra 4
-height:
 image: roth.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_roth
 maintainers: []
 name: Shield Portable
-network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB
@@ -40,5 +34,4 @@ type: Handheld game console
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0]
-width:
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz

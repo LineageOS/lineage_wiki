@@ -18,10 +18,6 @@ kernel: android_kernel_motorola_msm8992
 maintainers: []
 models: [XT1570, XT1572, XT1575]
 name: Moto X Pure Edition/Style (2015)
-network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
 peripherals: None
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

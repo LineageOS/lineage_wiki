@@ -21,10 +21,6 @@ kernel: android_kernel_samsung_msm8974
 maintainers: [haggertk]
 models: [SM-G900I, SM-G900P]
 name: Galaxy S5 LTE (G900I/P)
-network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
 no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]

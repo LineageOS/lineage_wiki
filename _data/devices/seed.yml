@@ -19,13 +19,12 @@ maintainers: []
 name: Android One 2nd Gen
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 900 2100 MHz CDMA' }
-- {tech: 3G, bands: '' }
 - {tech: 4G, bands: '20 3 7' }
 peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 2 GB / 1 GB for IQ II
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-07
-screen: 127mm (5.0 in)
+screen: 127 mm (5 in)
 screen_ppi: '294'
 screen_res: 720x1280
 screen_tech: IPS LCD
