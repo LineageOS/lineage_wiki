@@ -16,7 +16,7 @@ custom_unlock_cmd: 'fastboot flashing unlock_critical'
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
-height: 141.5 cm (5.57 in)
+height: 141.5 mm (5.57 in)
 image: mata.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -33,7 +33,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-08
-screen: 85.4 cm (5.71 in)
+screen: 85.4 mm (5.71 in)
 screen_ppi: '504'
 screen_res: 1312x2560
 screen_tech: IPS LCD

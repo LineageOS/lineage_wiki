@@ -32,7 +32,7 @@ ram: 4 GB, 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-07
 required_bootloader: ['OCSX*']
-screen: 83.4 cm (5.5 in)
+screen: 83.4 mm (5.5 in)
 screen_ppi: '534'
 screen_res: 1440x2560
 screen_tech: Optic AMOLED
