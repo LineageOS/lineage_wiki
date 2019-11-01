@@ -14,7 +14,7 @@ current_branch: 15.1
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
-height: 158.1 mm (6.22 in)
+height: 158.1 mm (6.2 in)
 image: star2lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal9810
@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-03-11
-screen: 6.2 inches
+screen: 157.5 mm (6.2 in)
 screen_ppi: '529'
 screen_res: 2960x1440
 screen_tech: Quad HD+ Super AMOLED

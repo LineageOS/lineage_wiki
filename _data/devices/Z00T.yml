@@ -26,7 +26,9 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 release: 2015-11
-screen: 5.5/6.0 inches
+screen:
+- Laser: 139.7 mm (5.5 in)
+- Selfie: 152.4 mm (6.0 in)
 screen_ppi: ~401/367
 screen_res: 1080x1920
 screen_tech: IPS LCD capacitive touchscreen, 16M colors

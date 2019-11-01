@@ -74,7 +74,7 @@ install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
 
-Dir.entries(device_dir).each do |filename|
+Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
     validate_json(schema, device_path)

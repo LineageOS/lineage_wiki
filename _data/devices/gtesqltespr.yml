@@ -14,7 +14,7 @@ current_branch: 14.1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
-height: 212.1 mm (8.35 in)
+height: 212.1 mm (8.4 in)
 image: gtesqltespr.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8916
@@ -30,7 +30,7 @@ peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-01
-screen: 203 mm (8in)
+screen: 203 mm (8 in)
 screen_ppi: 189
 screen_res: 800x1280
 screen_tech: TFT
@@ -42,5 +42,5 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width: 126.1 mm (4.96 in)
+width: 126.1 mm (5 in)
 wifi: 802.11 a/b/g/n

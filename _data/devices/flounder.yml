@@ -20,10 +20,6 @@ install_method: fastboot_nexus
 kernel: android_kernel_htc_flounder
 maintainers: []
 name: Nexus 9 (Wi-Fi)
-network:
-- {tech: 2G, bands: '' }
-- {tech: 3G, bands: '' }
-- {tech: 4G, bands: '' }
 peripherals: [Accelerometer, Light sensor, Gyroscope, Hall effect sensor, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.

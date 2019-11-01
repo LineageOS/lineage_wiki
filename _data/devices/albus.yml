@@ -14,7 +14,7 @@ custom_recovery_link: https://androidfilehost.com/?fid=1322778262904007189
 depth: 6 mm (0.24 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
-height: 156.2 mm (6.15 in)
+height: 156.2 mm (6.1 in)
 image: albus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
@@ -30,7 +30,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-06
-screen: 5.5 in
+screen: 139.7 mm (5.5 in)
 screen_ppi: ~401
 screen_res: 1920x1080
 screen_tech: Super AMOLED
@@ -42,5 +42,5 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [15.1]
-width: 76.2 mm (3.00 in)
+width: 76.2 mm (3 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
