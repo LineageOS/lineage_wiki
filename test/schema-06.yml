@@ -32,6 +32,9 @@ definitions:
     - capacity
     - removable
     type: object
+  dimension_string:
+    pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
+    type: string
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -44,6 +47,22 @@ definitions:
     type:
     - integer
     - string
+  network_data:
+    description: The format required for network
+    properties:
+      tech:
+        description: The technology
+        enum:
+        - 2G
+        - 3G
+        - 4G
+      bands:
+        description: The supported bands for the given technology
+        type: string
+    required:
+    - tech
+    - bands
+    type: object
   valid_architectures:
     enum:
     - arm
@@ -59,6 +78,19 @@ definitions:
     - 15.1
     - 16.0
     type: number
+  valid_dimension:
+    oneOf:
+    - "$ref": "#/definitions/dimension_string"
+    - description: Array of maps of model numbers dimension
+      examples:
+      - SM-9000A: 254 mm (10 in)
+      - SM-9000B:  127 mm (5 in)
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/dimension_string"
+        description: Map of model number to dimension
+        type: object
+      type: array
   valid_peripherals:
     description: All valid peripherals a device can have
     items:
@@ -244,6 +276,9 @@ properties:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
     type: string
+  depth:
+    "$id": "/properties/depth"
+    "$ref": "#/definitions/valid_dimension"
   download_boot:
     "$id": "/properties/download_boot"
     type: string
@@ -302,6 +337,9 @@ properties:
     - PowerVR SGX544MP2
     - PowerVR Series 6
     - Tegra 4
+  height:
+    "$id": "/properties/height"
+    "$ref": "#/definitions/valid_dimension"
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -349,6 +387,14 @@ properties:
     "$id": "/properties/name"
     minLength: 1
     type: string
+  network:
+    "$id": "/properties/network"
+    oneOf:
+    - "$ref": "#/definitions/network_data"
+    - items:
+        "$ref": "#/definitions/network_data"
+        type: object
+      type: array
   peripherals:
     "$id": /properties/peripherals
     oneOf:
@@ -383,6 +429,9 @@ properties:
     "$id": "/properties/required_bootloader"
     minItems: 1
     type: array
+  screen:
+    "$id": "/properties/screen"
+    "$ref": "#/definitions/valid_dimension"
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$
@@ -467,6 +516,9 @@ properties:
       "$ref": "#/definitions/valid_branches"
     minItems: 1
     type: array
+  width:
+    "$id": "/properties/width"
+    "$ref": "#/definitions/valid_dimension"
 required:
 - architecture
 - battery

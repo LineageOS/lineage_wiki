@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
   When the blue text appears, release the buttons.
 release: 2014-04-11
 required_bootloader: ['GT-I9301I = I9301IXXUAPG1', 'GT-I9301Q = I9301QXXUAHN1']
-screen: 121,9 mm (4.8 in)
+screen: 121.9 mm (4.8 in)
 screen_ppi: 306
 screen_res: 1280x720
 screen_tech: Full HD Super AMOLED

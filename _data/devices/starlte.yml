@@ -13,7 +13,7 @@ current_branch: 15.1
 depth: 8.5 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
-height: 147.7 mm (5.81 in)
+height: 147.7 mm (5.8 in)
 image: starlte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal9810
@@ -29,7 +29,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-03-11
-screen: 5.8 inches
+screen: 147.3 mm (5.8 in)
 screen_ppi: '570'
 screen_res: 2960x1440
 screen_tech: Quad HD+ Super AMOLED

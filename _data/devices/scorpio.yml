@@ -29,7 +29,7 @@ ram: 4/6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2016-11
-screen: 144,78 mm (5.7 in)
+screen: 144.78 mm (5.7 in)
 screen_ppi: '386'
 screen_res: 1080x1920
 screen_tech: OLED
