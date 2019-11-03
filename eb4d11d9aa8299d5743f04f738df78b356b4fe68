@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fc0f2dd1_249b437b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16857
+      },
+      "writtenOn": "2019-11-03T08:30:06Z",
+      "side": 1,
+      "message": "space",
+      "revId": "eb4d11d9aa8299d5743f04f738df78b356b4fe68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a0950ba5_00690acc",
+        "filename": "_data/devices/mido.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16857
+      },
+      "writtenOn": "2019-11-03T08:30:06Z",
+      "side": 1,
+      "message": "16.0",
+      "range": {
+        "startLine": 12,
+        "startChar": 16,
+        "endLine": 12,
+        "endChar": 20
+      },
+      "revId": "eb4d11d9aa8299d5743f04f738df78b356b4fe68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
