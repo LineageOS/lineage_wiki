@@ -18,7 +18,14 @@ exclude:
   - .idea/
   - .gitignore
   - device_sample/
-  - scripts
+  - Dockerfile
+  - Dockerfile.deploy
+  - Gemfile
+  - Gemfile.lock
+  - licenses/
+  - scripts/
+  - test/
+
 # these are the files and directories that jekyll will exclude from the build
 
 highlighter: rouge
