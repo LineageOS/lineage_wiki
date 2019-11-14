@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "05e2c8e7_8c689030",
+        "filename": "_data/devices/river.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-11-14T10:59:49Z",
+      "side": 1,
+      "message": "?",
+      "range": {
+        "startLine": 14,
+        "startChar": 18,
+        "endLine": 14,
+        "endChar": 20
+      },
+      "revId": "14d6128e41e1a485b576515872f260a1fe6c535a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "44f62293_be131b1d",
+        "filename": "_data/devices/river.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-11-14T10:59:49Z",
+      "side": 1,
+      "message": "Why wasn\u0027t this one changed?",
+      "range": {
+        "startLine": 45,
+        "startChar": 18,
+        "endLine": 45,
+        "endChar": 20
+      },
+      "revId": "14d6128e41e1a485b576515872f260a1fe6c535a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
