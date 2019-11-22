@@ -1,0 +1,46 @@
+architecture: {cpu: 'arm', userspace: 'arm'}
+battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '2 MP'}
+channels: [nightly]
+codename: s3ve3gds
+cpu: Cortex-A7
+cpu_cores: '4'
+cpu_freq: 1.6 GHz
+current_branch: 16.0
+custom_recovery_codename: s3ve3g
+depth: 8.6 mm (0.3 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 305
+height: 136.6 mm (5.4 in)
+image: i9300.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8226
+maintainers: [PythonLimited, fcuzzocrea]
+models: [GT-I9300I]
+name: Galaxy S III Neo (Dual SIM)
+network:
+- {tech: 2G, bands: '850 900 1900 2100 MHz GSM, 800 1900 MHz CDMA' }
+- {tech: 3G, bands: '850 900 1800 1900 HSDPA' }
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 1.5 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  When the blue text appears, release the buttons.
+release: 2014-04-11
+required_bootloader: ['I9300IXWUBNJ1']
+screen: 121.9 mm (4.8 in)
+screen_ppi: 306
+screen_res: 1280x720
+screen_tech: Full HD Super AMOLED
+sdcard: up to 128 GB
+soc: Qualcomm MSM8226 Snapdragon 400
+storage: 8/16 GB
+tree: android_device_samsung_s3ve3gds
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [16.0]
+width: 70.7 mm (2.8 in)
+wifi: 802.11 a/b/g/n
