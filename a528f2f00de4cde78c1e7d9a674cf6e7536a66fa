@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab55332_a012fa13",
+        "filename": "_data/devices/s3ve3gds.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-11-22T18:41:50Z",
+      "side": 1,
+      "message": "should be 2.8",
+      "range": {
+        "startLine": 45,
+        "startChar": 16,
+        "endLine": 45,
+        "endChar": 17
+      },
+      "revId": "a528f2f00de4cde78c1e7d9a674cf6e7536a66fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
