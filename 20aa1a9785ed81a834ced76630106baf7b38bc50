@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "28954cdf_8b33346f",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 11
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-11-30T09:46:16Z",
+      "side": 1,
+      "message": "Is this a lineage rom bug you\u0027re describing here? Is it that way on stock rom?  Or a known hardware issue with the phone, regardless of rom?\nSounds to me like this is just a matter of the port being CTIA standard, not OMTP. Which is pretty normal for smart phones nowadays. Only 3 ring CTIA standard headsets will work, while 3 ring OMTP standard headsets will have issues like mic not working or mic vol very low. Besides, you can buy an adapter to plug OMTP headset into CTIA port.",
+      "revId": "20aa1a9785ed81a834ced76630106baf7b38bc50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
