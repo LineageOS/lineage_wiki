@@ -109,8 +109,13 @@ definitions:
       - Essential Accessories
       - FM radio
       - Fingerprint reader
+      - BeiDou
+      - Galileo
       - GLONASS
       - GPS
+      - NAVIC
+      - SBAS
+      - QZSS
       - Gesture sensor
       - Gyroscope
       - HDMI
