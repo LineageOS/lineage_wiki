@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76c6ff02_179581c4",
+        "filename": "_includes/templates/device_specific/before_install_ab_copy_partitions.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2644
+      },
+      "writtenOn": "2019-12-18T20:57:22Z",
+      "side": 1,
+      "message": "Typo: trough -\u003e through.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 269
+      },
+      "revId": "ed896e8a46804432e28781e00448c6622d353138",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
