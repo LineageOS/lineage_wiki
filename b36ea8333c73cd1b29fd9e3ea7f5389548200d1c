@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "58349ef2_8e355b22",
+        "filename": "_includes/templates/device_specific/before_install_ab_copy_partitions.md",
+        "patchSetId": 15
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-18T09:44:41Z",
+      "side": 1,
+      "message": "I intend to ${REDACTED}-Android-File-Host this when someone with the ability is around.",
+      "range": {
+        "startLine": 6,
+        "startChar": 47,
+        "endLine": 6,
+        "endChar": 117
+      },
+      "revId": "b36ea8333c73cd1b29fd9e3ea7f5389548200d1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
