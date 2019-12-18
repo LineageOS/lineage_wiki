@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e059be3_e5641ac1",
+        "filename": "_includes/templates/device_specific/before_install_ab_copy_partitions.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-12-18T09:05:20Z",
+      "side": 1,
+      "message": "in recovery mode",
+      "range": {
+        "startLine": 1,
+        "startChar": 45,
+        "endLine": 1,
+        "endChar": 60
+      },
+      "revId": "c96a4f618998971e155e152fc923dca7cea5b9fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
