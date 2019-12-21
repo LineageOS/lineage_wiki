@@ -38,6 +38,7 @@ soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB
 tree: android_device_lge_hammerhead
 type: phone
+uses_twrp: true
 vendor: Google
 vendor_short: lge
 versions: [14.1]

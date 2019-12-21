@@ -37,6 +37,7 @@ soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
 tree: android_device_xiaomi_land
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1, 15.1, 16.0]

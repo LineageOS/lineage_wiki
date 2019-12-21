@@ -37,6 +37,7 @@ soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 8 GB
 tree: android_device_sony_huashan
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]
