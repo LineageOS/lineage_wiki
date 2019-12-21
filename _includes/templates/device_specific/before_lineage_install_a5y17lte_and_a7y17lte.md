@@ -1,0 +1,3 @@
+## Special Requirements
+
+{% include alerts/warning.html content="It is required to be on bootloader and modem from Samsung Oreo firmware before proceeding with LineageOS installation!" %}
