@@ -38,6 +38,7 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 tree: android_device_google_marlin
 type: phone
+uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [15.1, 16.0]
