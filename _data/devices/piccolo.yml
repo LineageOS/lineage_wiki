@@ -38,6 +38,7 @@ soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
 tree: android_device_bq_piccolo
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [14.1]

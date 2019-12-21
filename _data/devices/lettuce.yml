@@ -39,6 +39,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_yu_lettuce
 type: phone
+uses_twrp: true
 vendor: YU
 vendor_short: yu
 versions: [13.0, 14.1, 15.1, 16.0]
