@@ -39,6 +39,7 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_essential_mata
 type: phone
+uses_twrp: true
 vendor: Essential
 vendor_short: essential
 versions: [16.0]

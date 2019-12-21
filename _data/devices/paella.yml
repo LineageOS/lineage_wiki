@@ -34,6 +34,7 @@ soc: Qualcomm MSM8916T Snapdragon 412
 storage: 16/32 GB
 tree: android_device_bq_paella
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [13.0, 14.1]

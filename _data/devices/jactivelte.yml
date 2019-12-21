@@ -37,7 +37,6 @@ soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB
 tree: android_device_samsung_jactivelte
 type: phone
-uses_lineage_recovery: true
 vendor: Samsung
 vendor_short: samsung
 versions: [16.0]

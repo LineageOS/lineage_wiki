@@ -37,6 +37,7 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_xiaomi_sagit
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [15.1, 16.0]
