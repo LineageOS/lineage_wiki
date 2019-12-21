@@ -39,6 +39,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_samsung_gtesqltespr
 type: tablet
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

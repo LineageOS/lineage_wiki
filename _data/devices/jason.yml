@@ -39,6 +39,7 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 tree: android_device_xiaomi_jason
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [15.1, 16.0]
