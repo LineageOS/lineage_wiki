@@ -36,6 +36,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage:
 tree: android_device_lge_v410
 type: tablet
+uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]

@@ -36,6 +36,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_ark_peach
 type: phone
+uses_twrp: true
 vendor: ARK
 vendor_short: ark
 versions: [14.1]
