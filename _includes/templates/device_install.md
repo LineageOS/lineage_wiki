@@ -54,20 +54,20 @@ There are no recovery installation instructions for this discontinued device.
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-{% if device.uses_lineage_recovery %}
-3. Now tap **Factory Reset**, then **Wipe data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
-4. Now tap **Wipe System** and continue with the formatting process.
-5. Return to the main menu.
-6. Sideload the LineageOS `.zip` package:
-    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`
-{% else %}
+{% if device.uses_twrp %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
 {% if device.is_ab_device %}
 5. Return to the previous menu and tap **Advanced Wipe**, then select the *System* partition and then **Swipe to Wipe**.
 {% else %}
 5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
+{% else %}
+3. Now tap **Factory Reset**, then **Wipe data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+4. Now tap **Wipe System** and continue with the formatting process.
+5. Return to the main menu.
+6. Sideload the LineageOS `.zip` package:
+    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
 {% endif %}
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
