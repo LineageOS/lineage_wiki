@@ -36,6 +36,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB
 tree: android_device_samsung_kltekor
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1, 15.1, 16.0]
