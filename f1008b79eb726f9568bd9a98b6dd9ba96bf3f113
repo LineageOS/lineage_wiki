@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "828204ed_8aa0f59e",
+        "filename": "_includes/templates/device_specific/before_lineage_install_cheeseburger.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T19:20:13Z",
+      "side": 1,
+      "message": "Updated to reflect \"use latest\" - will leave on sourcefourge for maintainers to update",
+      "parentUuid": "2876fd95_af34cceb",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 151
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "62393214_5cd76341",
         "filename": "_includes/templates/device_specific/before_lineage_install_dumpling.md",
         "patchSetId": 6
@@ -68,6 +92,30 @@
       "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b2aee4c_2b2bb0cd",
+        "filename": "_includes/templates/device_specific/before_lineage_install_dumpling.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T19:20:13Z",
+      "side": 1,
+      "message": "Updated to reflect \"use latest\" - will leave on sourcefourge for maintainers to update",
+      "parentUuid": "62393214_5cd76341",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 147
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
