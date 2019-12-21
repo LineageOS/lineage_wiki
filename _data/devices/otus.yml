@@ -35,6 +35,7 @@ soc: Qualcomm MSM8212 Snapdragon 200
 storage: 8 GB
 tree: android_device_motorola_otus
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

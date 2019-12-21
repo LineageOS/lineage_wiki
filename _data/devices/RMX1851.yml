@@ -34,6 +34,7 @@ soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1
 tree: android_device_realme_RMX1851
 type: phone
+uses_twrp: true
 vendor: Realme
 vendor_short: realme
 versions: [16.0]

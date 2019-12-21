@@ -36,6 +36,7 @@ soc: Samsung Exynos 9810
 storage: 64/128/256 GB
 tree: android_device_samsung_star2lte
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [15.1]

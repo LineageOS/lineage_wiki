@@ -32,6 +32,7 @@ soc: Qualcomm MSM 8928
 storage: 16 GB
 tree: android_device_huawei_mt2
 type: phablet
+uses_twrp: true
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1]

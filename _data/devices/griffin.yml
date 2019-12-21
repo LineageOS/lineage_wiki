@@ -34,6 +34,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB
 tree: android_device_motorola_griffin
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1, 15.1, 16.0]

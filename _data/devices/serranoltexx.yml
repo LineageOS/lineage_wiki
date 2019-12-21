@@ -36,6 +36,7 @@ soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 8/16 GB
 tree: android_device_samsung_serranoltexx
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0, 14.1]

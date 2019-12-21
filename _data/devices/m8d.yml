@@ -9,7 +9,7 @@ codename: m8d
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
-current_branch: 16.0
+current_branch: 17.1
 custom_recovery_codename: m8
 depth: 9.35 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
@@ -36,8 +36,9 @@ soc: Qualcomm MSM8974AB Snapdragon 801
 storage: 16 GB
 tree: android_device_htc_m8d
 type: phone
+uses_twrp: true
 vendor: HTC
 vendor_short: htc
-versions: [14.1, 16.0]
+versions: [14.1, 16.0, 17.1]
 width: 70.6 mm (2.78 in)
 wifi: 802.11 b/g/n/ac 2.4/5GHz
