@@ -40,7 +40,8 @@ sdcard: microSD, up to 32 GB
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 8 GB
 tree: android_device_motorola_xt897
-type: phone (slider)
+type: phone
+uses_lineage_recovery: false (slider)
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]

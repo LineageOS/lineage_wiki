@@ -30,7 +30,8 @@ sdcard: up to 128 GB
 soc: Nvidia Tegra 4 (T114)
 storage: 16 GB
 tree: android_device_nvidia_roth
-type: Handheld game console
+type: 
+uses_lineage_recovery: falseHandheld game console
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0]

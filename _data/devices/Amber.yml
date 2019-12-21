@@ -42,6 +42,7 @@ soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB
 tree: android_device_yandex_Amber
 type: phone
+uses_lineage_recovery: false
 vendor: Yandex
 vendor_short: yandex
 versions: [16.0]

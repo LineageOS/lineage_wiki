@@ -41,6 +41,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_cherry
 type: phablet
+uses_lineage_recovery: false
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1, 15.1]

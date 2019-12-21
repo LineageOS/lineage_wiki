@@ -38,6 +38,7 @@ soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 8 GB
 tree: android_device_samsung_serranodsdd
 type: phone
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

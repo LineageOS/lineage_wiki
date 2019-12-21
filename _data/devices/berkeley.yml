@@ -38,6 +38,7 @@ soc: HiSilicon Kirin 970
 storage: 64/128 GB
 tree: android_device_huawei_berkeley
 type: phone
+uses_lineage_recovery: false
 vendor: Huawei
 vendor_short: huawei
 versions: [16.0]

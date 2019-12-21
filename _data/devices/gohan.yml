@@ -36,6 +36,7 @@ soc: Qualcomm MSM8976 Snapdragon 652
 storage: 16/32 GB
 tree: android_device_bq_gohan
 type: phone
+uses_lineage_recovery: false
 vendor: BQ
 vendor_short: bq
 versions: [14.1]

@@ -38,6 +38,7 @@ soc: Samsung Exynos 8890
 storage: 32/64 GB
 tree: android_device_samsung_hero2lte
 type: phone
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

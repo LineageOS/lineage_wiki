@@ -38,6 +38,7 @@ soc: Qualcomm SDM630 Snapdragon 630
 storage: 32 GB
 tree: android_device_sony_pioneer
 type: phone
+uses_lineage_recovery: false
 vendor: Sony
 vendor_short: sony
 versions: [15.1, 16.0]

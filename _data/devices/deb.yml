@@ -38,6 +38,7 @@ soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 32 GB
 tree: android_device_asus_deb
 type: phablet
+uses_lineage_recovery: false
 vendor: Google
 vendor_short: asus
 versions: [14.1]

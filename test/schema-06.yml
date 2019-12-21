@@ -78,6 +78,7 @@ definitions:
     - 14.1
     - 15.1
     - 16.0
+    - 17.0
     type: number
   valid_dimension:
     oneOf:
