@@ -37,6 +37,7 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 tree: android_device_asus_X00TD
 type: phone
+uses_twrp: true
 vendor: Asus
 vendor_short: asus
 versions: [15.1,16.0]

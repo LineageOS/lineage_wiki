@@ -35,6 +35,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8/16 GB
 tree: android_device_motorola_falcon
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

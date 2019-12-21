@@ -34,6 +34,7 @@ soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 16 GB
 tree: android_device_sony_yuga
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]

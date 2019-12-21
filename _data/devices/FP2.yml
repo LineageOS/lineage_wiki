@@ -34,6 +34,7 @@ soc: Qualcomm MSM8974AB-AB Snapdragon 801
 storage: 32 GB
 tree: android_device_fairphone_FP2
 type: phone
+uses_twrp: true
 vendor: Fairphone
 vendor_short: fairphone
 versions: [14.1, 15.1, 16.0]

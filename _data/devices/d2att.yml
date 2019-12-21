@@ -34,6 +34,7 @@ soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB
 tree: android_device_samsung_d2att
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

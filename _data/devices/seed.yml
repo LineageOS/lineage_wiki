@@ -31,6 +31,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_google_seed
 type: phone
+uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [14.1]

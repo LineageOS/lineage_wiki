@@ -36,6 +36,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB
 tree: android_device_lge_w7
 type: phone
+uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]

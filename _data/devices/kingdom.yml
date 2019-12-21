@@ -36,6 +36,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB
 tree: android_device_lenovo_kingdom
 type: phone
+uses_twrp: true
 unlock_bootloader_guide: 'https://forum.xda-developers.com/k920/how-to/guide-unlock-bootloader-lenovo-vibe-z2-t3114307'
 vendor: Lenovo
 vendor_short: lenovo
