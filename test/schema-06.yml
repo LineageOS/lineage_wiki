@@ -78,6 +78,7 @@ definitions:
     - 14.1
     - 15.1
     - 16.0
+    - 17.0
     type: number
   valid_dimension:
     oneOf:
@@ -452,10 +453,9 @@ properties:
     - Set top box
     - phablet
     - phone
-    - phone (slider)
     - tablet
-  uses_lineage_recovery:
-    "$id": "/properties/uses_lineage_recovery"
+  uses_twrp:
+    "$id": "/properties/uses_twrp"
     type: boolean
   vendor:
     "$id": "/properties/vendor"

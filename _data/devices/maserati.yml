@@ -35,7 +35,8 @@ sdcard: microSD, up to 32 GB
 soc: TI OMAP4430
 storage: 16 GB
 tree: android_device_motorola_maserati
-type: phone (slider)
+type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]

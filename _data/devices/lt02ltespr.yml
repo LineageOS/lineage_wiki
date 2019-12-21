@@ -39,6 +39,7 @@ soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 16 GB
 tree: android_device_samsung_lt02ltespr
 type: tablet
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

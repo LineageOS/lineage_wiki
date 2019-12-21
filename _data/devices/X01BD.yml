@@ -39,6 +39,7 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
 tree: android_device_asus_X01BD
 type: phone
+uses_twrp: true
 vendor: Asus
 vendor_short: asus
 versions: [16.0]

@@ -10,11 +10,10 @@
 {% if device.custom_recovery_link %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {% else %}
-{% if device.uses_lineage_recovery %}
-1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
-{% else %}
+{% if device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{% endif %}
+{% else %}
+1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
@@ -40,7 +39,7 @@ fastboot flash recovery <recovery_filename>.img
 6. Now reboot into recovery to verify the installation:
     * {{ device.recovery_boot }}
     {% unless device.no_fastboot_boot %}
-    {% unless device.uses_lineage_recovery %}
+    {% if device.uses_twrp %}
 
     Alternatively, on some devices and recoveries you can use fastboot to boot directly into the freshly flashed or any other desired recovery:
 ```
