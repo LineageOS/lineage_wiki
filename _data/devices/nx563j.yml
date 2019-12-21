@@ -40,6 +40,7 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1
 tree: android_device_nubia_nx563j
 type: phone
+uses_twrp: true
 vendor: Nubia
 vendor_short: nubia
 versions: [16.0]
