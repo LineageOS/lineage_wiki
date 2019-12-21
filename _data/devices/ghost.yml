@@ -38,6 +38,7 @@ soc: Qualcomm MSM8960dt Snapdragon S4
 storage: 16/32 GB
 tree: android_device_motorola_ghost
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0]

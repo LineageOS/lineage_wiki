@@ -38,8 +38,12 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 5. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
+{% if device.current_version == "17.1" %}
+6. Once all installations are finished, run 'adb reboot'.
+{% else %}
 6. _(Optionally)_: Root the device by installing [LineageOS's AddonSU](https://download.lineageos.org/extras), use the `{{ userspace_architecture }}` package.
 7. Once all installations are finished, run 'adb reboot'.
+{% endif %}
 
 ## Get assistance
 
