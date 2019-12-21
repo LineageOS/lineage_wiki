@@ -39,6 +39,7 @@ soc: Qualcomm SDM660 Snapdragon 636
 storage: 32/64 GB
 tree: android_device_bq_zangya
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [16.0]

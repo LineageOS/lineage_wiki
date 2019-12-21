@@ -40,7 +40,6 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB
 tree: android_device_razer_cheryl
 type: phone
-uses_lineage_recovery: true
 vendor: Razer
 vendor_short: razer
 versions: [16.0]
