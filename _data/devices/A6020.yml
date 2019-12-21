@@ -38,6 +38,7 @@ soc: Qualcomm MSM8929 Snapdragon 415 (K5) / Qualcomm MSM8939v2 Snapdragon 616 (K
 storage: 16 GB
 tree: android_device_lenovo_A6020
 type: phone
+uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]

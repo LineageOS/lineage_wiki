@@ -38,6 +38,7 @@ soc: Qualcomm MSM8952 Snapdragon 617
 storage: 32 GB
 tree: android_device_zte_tulip
 type: phone
+uses_twrp: true
 vendor: ZTE
 vendor_short: zte
 versions: [14.1]
