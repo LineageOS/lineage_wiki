@@ -1,6 +1,5 @@
 architecture: arm
 battery: {removable: False, capacity: 7900, tech: 'Li-Ion'}
-before_install: before_install_chagalllte
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
@@ -29,6 +28,8 @@ no_oem_unlock_switch: true
 peripherals: [ Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader ]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+required_bootloader: 
+required_bootloader: ['T805ZHU1CQB1']
 release: 2014
 screen: 266.7 mm (10.5 in)
 screen_ppi: 288
