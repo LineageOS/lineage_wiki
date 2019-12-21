@@ -42,6 +42,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB
 tree: android_device_sony_z3c
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [16.0]

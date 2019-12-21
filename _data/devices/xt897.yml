@@ -40,6 +40,7 @@ soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 8 GB
 tree: android_device_motorola_xt897
 type: phone (slider)
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]
