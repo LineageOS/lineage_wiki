@@ -41,7 +41,6 @@ soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB
 tree: android_device_lge_d801
 type: phone
-uses_lineage_recovery: true
 vendor: LG
 vendor_short: lge
 versions: [14.1, 15.1, 16.0]
