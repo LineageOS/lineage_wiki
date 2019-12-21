@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+before_lineage_install: before_lineage_install_a5y17lte_and_a7y17lte
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
@@ -31,7 +32,6 @@ peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint re
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2017-01-02
-required_bootloader: ['from Samsung Oreo firmware']
 screen: 132 mm (5.2 in)
 screen_ppi: 424
 screen_res: 1920x1080
