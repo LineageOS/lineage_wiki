@@ -38,6 +38,7 @@ soc: Samsung Exynos 9810
 storage: 64 GB
 tree: android_device_samsung_starlte
 type: phone
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [15.1]

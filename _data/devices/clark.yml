@@ -32,6 +32,7 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32/64 GB
 tree: android_device_motorola_clark
 type: phone
+uses_lineage_recovery: false
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

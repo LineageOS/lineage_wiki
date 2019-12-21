@@ -40,6 +40,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB
 tree: android_device_lge_g2m
 type: phone
+uses_lineage_recovery: false
 vendor: LG
 vendor_short: lge
 versions: [14.1]

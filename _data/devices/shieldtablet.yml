@@ -38,6 +38,7 @@ soc: Nvidia Tegra K1 (T124)
 storage: 16/32 GB
 tree: android_device_nvidia_shieldtablet
 type: tablet
+uses_lineage_recovery: false
 vendor: Nvidia
 vendor_short: nvidia
 versions: [13.0, 14.1, 15.1]

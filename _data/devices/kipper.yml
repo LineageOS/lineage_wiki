@@ -38,6 +38,7 @@ soc: Qualcomm MSM8939 Snapdragon 615
 storage: 32 GB
 tree: android_device_wileyfox_kipper
 type: phone
+uses_lineage_recovery: false
 vendor: Wileyfox
 vendor_short: wileyfox
 versions: [13.0, 14.1, 15.1, 16.0]

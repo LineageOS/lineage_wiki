@@ -38,6 +38,7 @@ soc: Qualcomm APQ8084 Snapdragon 805
 storage: 32 GB
 tree: android_device_samsung_lentislte
 type: phone
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1, 15.1, 16.0]

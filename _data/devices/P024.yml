@@ -35,6 +35,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB
 tree: android_device_asus_P024
 type: tablet
+uses_lineage_recovery: false
 vendor: Asus
 vendor_short: asus
 versions: [14.1]

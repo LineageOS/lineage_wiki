@@ -37,6 +37,7 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 128/256 GB UFS2.1
 tree: android_device_oneplus_fajita
 type: phone
+uses_lineage_recovery: false
 vendor: OnePlus
 vendor_short: oneplus
 versions: [16.0]

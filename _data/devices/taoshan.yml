@@ -36,6 +36,7 @@ soc: Qualcomm MSM8230 Snapdragon 400
 storage: 8 GB
 tree: android_device_sony_taoshan
 type: phone
+uses_lineage_recovery: false
 vendor: Sony
 vendor_short: sony
 versions: [14.1]

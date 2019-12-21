@@ -38,6 +38,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_h830
 type: phone
+uses_lineage_recovery: false
 vendor: LG
 vendor_short: lge
 versions: [14.1]

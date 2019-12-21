@@ -38,6 +38,7 @@ soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
 tree: android_device_leeco_s2
 type: phone
+uses_lineage_recovery: false
 vendor: LeEco
 vendor_short: leeco
 versions: [13.0, 14.1, 15.1]

@@ -37,6 +37,7 @@ soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB
 tree: android_device_huawei_angler
 type: phablet
+uses_lineage_recovery: false
 vendor: Google
 vendor_short: huawei
 versions: [14.1, 15.1]

@@ -41,6 +41,7 @@ soc: Exynos 7420
 storage: 16/32/128 GB
 tree: android_device_samsung_zeroltexx
 type: phone
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
