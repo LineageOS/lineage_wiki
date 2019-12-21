@@ -38,6 +38,7 @@ soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64/128 GB
 tree: android_device_bq_bardockpro
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [15.1, 16.0]

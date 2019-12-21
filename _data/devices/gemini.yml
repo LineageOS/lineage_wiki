@@ -40,6 +40,7 @@ storage: 32 GB UFS2.0 (Standard edition) / 64 GB UFS2.0 (Pro edition) / 128 GB U
   (Exclusive edition)
 tree: android_device_xiaomi_gemini
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1, 15.1, 16.0]

@@ -42,6 +42,7 @@ soc: TI OMAP4430
 storage: 8/16/32 GB
 tree: android_device_samsung_espressowifi
 type: tablet
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]

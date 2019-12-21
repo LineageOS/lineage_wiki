@@ -31,6 +31,7 @@ soc: Samsung Exynos 5
 storage: 16/32 GB
 tree: android_device_samsung_manta
 type: tablet
+uses_twrp: true
 vendor: Google
 vendor_short: samsung
 versions: [13.0]
