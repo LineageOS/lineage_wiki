@@ -39,6 +39,7 @@ soc: Qualcomm APQ8064T Snapdragon 600
 storage: 32/64 B
 tree: android_device_htc_t6vzw
 type: phone
+uses_twrp: true
 vendor: HTC
 vendor_short: htc
 versions: [14.1]

@@ -39,6 +39,7 @@ soc: Samsung Exynos 7578
 storage: 16 GB
 tree: android_device_samsung_a3xelte
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [16.0]
