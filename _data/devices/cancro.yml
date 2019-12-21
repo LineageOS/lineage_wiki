@@ -49,6 +49,7 @@ soc: Qualcomm MSM8974 Snapdragon 800 (Mi 3) / Qualcomm MSM8974AC Snapdragon 801 
 storage: 16/64 GB
 tree: android_device_xiaomi_cancro
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
