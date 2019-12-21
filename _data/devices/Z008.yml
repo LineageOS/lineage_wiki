@@ -35,6 +35,7 @@ soc: Intel Atom Z3560
 storage: 16 GB
 tree: android_device_asus_Z008
 type: phone
+uses_twrp: true
 vendor: Asus
 vendor_short: asus
 versions: [14.1]

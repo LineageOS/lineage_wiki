@@ -39,6 +39,7 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 tree: android_device_lenovo_kuntao
 type: phone
+uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1, 15.1, 16.0]

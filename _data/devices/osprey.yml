@@ -38,6 +38,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB
 tree: android_device_motorola_osprey
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

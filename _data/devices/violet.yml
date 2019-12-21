@@ -38,6 +38,7 @@ soc: Qualcomm sm6150 Snapdragon 675
 storage: 64/128 GB
 tree: android_device_xiaomi_violet
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [16.0]
