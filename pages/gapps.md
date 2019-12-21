@@ -24,6 +24,8 @@ These packages are only dependent on your OS version and architecture, which can
 |Lineage 13.0 (Android 6.0)|[OpenGApps](http://opengapps.org/?api=6.0&variant=nano)|
 {: .table }
 
+{% include alerts/note.html content="If you opt to use OpenGApps, they offer a variety of sizes of packages that include and overwrite different apps. We only recommend package sizes up through `nano`, as linked above. If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents." %}
+
 ## Installation
 
 Google apps should be installed via recovery **immediately** after installing LineageOS. Exact steps vary, but the process is similar to that of installing LineageOS:
