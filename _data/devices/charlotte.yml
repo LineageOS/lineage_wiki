@@ -35,6 +35,7 @@ soc: HiSilicon Kirin 970
 storage: 128/256 GB
 tree: android_device_huawei_charlotte
 type: phone
+uses_twrp: true
 vendor: Huawei
 vendor_short: huawei
 versions: [16.0]

@@ -36,6 +36,7 @@ soc: Samsung Exynos 7580
 storage: 16 GB
 tree: android_device_samsung_s5neolte
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [16.0]

@@ -35,6 +35,7 @@ soc: TI OMAP4460
 storage: 32 GB
 tree: android_device_samsung_toro
 type: phone
+uses_twrp: true
 vendor: Google
 vendor_short: samsung
 versions: [13.0]

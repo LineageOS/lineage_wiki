@@ -32,6 +32,7 @@ soc: NVIDIA Tegra X1
 storage: 32/64 GB
 tree: android_device_google_dragon
 type: tablet
+uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [14.1, 15.1]

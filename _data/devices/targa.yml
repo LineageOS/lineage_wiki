@@ -33,6 +33,7 @@ soc: TI OMAP4430
 storage: 16 GB
 tree: android_device_motorola_targa
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]

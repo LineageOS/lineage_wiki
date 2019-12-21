@@ -33,6 +33,7 @@ soc: Qualcomm MSM8212 Snapdragon 200
 storage: 4 GB
 tree: android_device_motorola_condor
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
