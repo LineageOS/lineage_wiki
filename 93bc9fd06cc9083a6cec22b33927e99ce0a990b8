@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a875f7ab_bbcaf4cc",
+        "filename": "pages/gapps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-12-21T19:43:47Z",
+      "side": 1,
+      "message": "support",
+      "range": {
+        "startLine": 28,
+        "startChar": 122,
+        "endLine": 28,
+        "endChar": 131
+      },
+      "revId": "93bc9fd06cc9083a6cec22b33927e99ce0a990b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6bba68b2_1e0c323a",
+        "filename": "pages/gapps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-12-21T19:43:47Z",
+      "side": 1,
+      "message": "guarantee",
+      "range": {
+        "startLine": 28,
+        "startChar": 220,
+        "endLine": 28,
+        "endChar": 230
+      },
+      "revId": "93bc9fd06cc9083a6cec22b33927e99ce0a990b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
