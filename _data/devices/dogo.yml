@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13.1MP f/2.4'}
 - {flash: '', info: 'VGA'}
-channels: [monthly]
+channels: [discontinued]
 codename: dogo
 cpu: Krait
 cpu_cores: '4'
@@ -18,7 +18,7 @@ image: dogo.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
 kernel: android_kernel_sony_apq8064
-maintainers: [Daedroza, Chippa_a, CyberWalkMaN, Adrian DC]
+maintainers: []
 name: Xperia ZR
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
@@ -37,6 +37,7 @@ soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 8 GB
 tree: android_device_sony_dogo
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]

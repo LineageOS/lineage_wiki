@@ -38,6 +38,7 @@ soc: Qualcomm APQ8084 Snapdragon 805
 storage: 16 GB
 tree: android_device_samsung_kccat6
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1, 15.1, 16.0]

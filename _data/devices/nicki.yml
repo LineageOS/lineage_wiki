@@ -34,6 +34,7 @@ soc: Qualcomm MSM8227 Snapdragon S4 Plus
 storage: 4 GB
 tree: android_device_sony_nicki
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
