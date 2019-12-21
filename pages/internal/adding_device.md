@@ -127,7 +127,7 @@ Additionally there are some optional properties which you might not need, but in
   required_bootloader: [Version1, Version2]
   ```
 
-* `uses_lineage_recovery`: Used if the device ships Lineage Recovery. Remove if not used!
+* `uses_lineage_recovery`: Used if the device doesn't use Lineage Recovery (the default on 17.0)
 
 {% include alerts/note.html content="If you need to assign a value to one of the fields which is not allowed by the time you create your change, update the schema validator or contact us to add it" %}
 

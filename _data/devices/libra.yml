@@ -38,6 +38,7 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 tree: android_device_xiaomi_libra
 type: phone
+uses_lineage_recovery: false
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]

@@ -44,6 +44,7 @@ soc: Qualcomm MSM8960 Snapdragon S4
 storage: 8 GB
 tree: android_device_sony_tsubasa
 type: phone
+uses_lineage_recovery: false
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]

@@ -39,6 +39,7 @@ soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
 tree: android_device_lenovo_YTX703-common
 type: tablet
+uses_lineage_recovery: false
 vendor: Lenovo
 vendor_short: lenovo
 versions: [15.1, 16.0]

@@ -39,6 +39,7 @@ soc: Samsung Exynos5420
 storage: 16/32 GB
 tree: android_device_samsung_chagalllte
 type: tablet
+uses_lineage_recovery: false
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]

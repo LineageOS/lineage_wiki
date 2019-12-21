@@ -40,6 +40,7 @@ soc: Qualcomm MSM8939v2 Snapdragon 616
 storage: 16 GB
 tree: android_device_huawei_kiwi
 type: phone
+uses_lineage_recovery: false
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1, 15.1, 16.0]

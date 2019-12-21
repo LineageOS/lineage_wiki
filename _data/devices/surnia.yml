@@ -33,6 +33,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_motorola_surnia
 type: phone
+uses_lineage_recovery: false
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

@@ -54,7 +54,7 @@ There are no recovery installation instructions for this discontinued device.
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-{% if device.uses_lineage_recovery %}
+{% unless device.uses_lineage_recovery %}
 3. Now tap **Factory Reset**, then **Wipe data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Now tap **Wipe System** and continue with the formatting process.
 5. Return to the main menu.

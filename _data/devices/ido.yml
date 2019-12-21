@@ -40,6 +40,7 @@ soc: Qualcomm MSM8939v2 Snapdragon 616
 storage: 16/32 GB
 tree: android_device_xiaomi_ido
 type: phone
+uses_lineage_recovery: false
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]

@@ -43,6 +43,7 @@ soc: Qualcomm MSM8916 Snapdragon 410 (E5 4G) / Qualcomm MSM8916T Snapdragon 412 
 storage: 8/16 GB
 tree: android_device_bq_vegetalte
 type: phone
+uses_lineage_recovery: false
 vendor: BQ
 vendor_short: bq
 versions: [14.1]

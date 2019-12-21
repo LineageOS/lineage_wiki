@@ -37,6 +37,7 @@ soc: Qualcomm MSM8926 Snapdragon 400
 storage: 8/16 GB
 tree: android_device_motorola_thea
 type: phone
+uses_lineage_recovery: false
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]

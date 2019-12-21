@@ -39,6 +39,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
 tree: android_device_lge_h910
 type: phone
+uses_lineage_recovery: false
 unlock_bootloader_guide: https://forum.xda-developers.com/v20/development/ls997vs995h910-dirtysanta-bootloader-t3519410
 vendor: LG
 vendor_short: lge

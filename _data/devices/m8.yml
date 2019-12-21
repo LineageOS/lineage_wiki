@@ -38,6 +38,7 @@ soc: Qualcomm MSM8974AB Snapdragon 801
 storage: 16/32 GB
 tree: android_device_htc_m8
 type: phone
+uses_lineage_recovery: false
 vendor: HTC
 vendor_short: htc
 versions: [14.1, 16.0]

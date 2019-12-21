@@ -38,6 +38,7 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/64/128 GB UFS 2.0
 tree: android_device_xiaomi_capricorn
 type: phone
+uses_lineage_recovery: false
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1, 15.1, 16.0]

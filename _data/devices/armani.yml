@@ -38,6 +38,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB
 tree: android_device_xiaomi_armani
 type: phone
+uses_lineage_recovery: false
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]

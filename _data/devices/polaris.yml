@@ -38,6 +38,7 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_xiaomi_polaris
 type: phone
+uses_lineage_recovery: false
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [16.0]
