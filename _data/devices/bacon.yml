@@ -38,6 +38,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_oneplus_bacon
 type: phone
+uses_twrp: true
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1, 15.1, 16.0]

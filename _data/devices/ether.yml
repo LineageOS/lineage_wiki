@@ -40,6 +40,7 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB
 tree: android_device_nextbit_ether
 type: phone
+uses_twrp: true
 vendor: Nextbit
 vendor_short: nextbit
 versions: [14.1, 15.1, 16.0]
