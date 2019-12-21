@@ -38,6 +38,7 @@ soc: Qualcomm MSM8956 Snapdragon 650
 storage: 16/32 GB
 tree: android_device_xiaomi_kenzo
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
