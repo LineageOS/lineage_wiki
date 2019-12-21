@@ -41,7 +41,6 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB (UFS 2.1 2-LANE)
 tree: android_device_motorola_nash
 type: phone
-uses_lineage_recovery: true
 vendor: Motorola
 vendor_short: motorola
 versions: [15.1, 16.0]
