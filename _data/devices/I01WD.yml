@@ -40,7 +40,6 @@ soc: Qualcomm sm8150 Snapdragon 855
 storage: 64/128/256 GB UFS2.1
 tree: android_device_asus_I01WD
 type: phone
-uses_lineage_recovery: true
 vendor: Asus
 vendor_short: asus
 versions: [16.0]
