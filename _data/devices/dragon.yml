@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '8 MP, f/2.4'}
 - {flash: '', info: '2 MP'}
-channels: [weekly]
+channels: [discontinued]
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'
@@ -17,7 +17,7 @@ height: 242.0 mm (9.53 in)
 image: dragon.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_dragon
-maintainers: [followmsi]
+maintainers: []
 name: Pixel C
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer]
 ram: 3 GB
@@ -32,6 +32,7 @@ soc: NVIDIA Tegra X1
 storage: 32/64 GB
 tree: android_device_google_dragon
 type: tablet
+uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [14.1, 15.1]

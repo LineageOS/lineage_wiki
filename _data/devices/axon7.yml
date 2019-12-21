@@ -37,6 +37,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
 tree: android_device_zte_axon7
 type: phone
+uses_twrp: true
 unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7/how-to/guide-how-to-unlock-bootloader-stay-t3461165'
 vendor: ZTE
 vendor_short: zte
