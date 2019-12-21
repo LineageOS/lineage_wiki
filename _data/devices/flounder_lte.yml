@@ -39,6 +39,7 @@ soc: NVIDIA Tegra K1
 storage: 32 GB
 tree: android_device_htc_flounder_lte
 type: tablet
+uses_twrp: true
 vendor: Google
 vendor_short: htc
 versions: [14.1]
