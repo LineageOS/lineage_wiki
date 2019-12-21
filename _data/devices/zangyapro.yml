@@ -39,6 +39,7 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB
 tree: android_device_bq_zangyapro
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [16.0]

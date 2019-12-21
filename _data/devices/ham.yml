@@ -37,6 +37,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 64 GB
 tree: android_device_zuk_ham
 type: phone
+uses_twrp: true
 vendor: ZUK
 vendor_short: zuk
 versions: [14.1, 15.1, 16.0]
