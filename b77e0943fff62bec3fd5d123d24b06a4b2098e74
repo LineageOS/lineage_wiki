@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ae7fff84_a500d511",
+        "filename": "pages/gapps.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2019-12-21T19:40:14Z",
+      "side": 1,
+      "message": "Typo: equivalents",
+      "revId": "b77e0943fff62bec3fd5d123d24b06a4b2098e74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
