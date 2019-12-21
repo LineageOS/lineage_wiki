@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ceb6ee32_20bcc170",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T18:42:28Z",
+      "side": 1,
+      "message": "could be stored *cough* elsewhere?",
+      "range": {
+        "startLine": 11,
+        "startChar": 55,
+        "endLine": 11,
+        "endChar": 127
+      },
+      "revId": "ef3aa57672a0061dafbbb6157e3275c664cdfa9a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

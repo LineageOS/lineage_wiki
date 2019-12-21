@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2a2d87ad_a2ec0fa0",
+        "filename": "_data/devices/chagalllte.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T18:42:28Z",
+      "side": 1,
+      "message": "not my favorite thing, but a number of samsung device\u0027s with variants already do this...",
+      "range": {
+        "startLine": 31,
+        "startChar": 21,
+        "endLine": 31,
+        "endChar": 63
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2876fd95_af34cceb",
+        "filename": "_includes/templates/device_specific/before_lineage_install_cheeseburger.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T18:42:28Z",
+      "side": 1,
+      "message": "could be stored on afh priv?",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 151
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "62393214_5cd76341",
+        "filename": "_includes/templates/device_specific/before_lineage_install_dumpling.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T18:42:28Z",
+      "side": 1,
+      "message": "could be stored on afh priv?",
+      "range": {
+        "startLine": 3,
+        "startChar": 63,
+        "endLine": 3,
+        "endChar": 147
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9b6b80d6_f78cf43c",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-21T18:42:28Z",
+      "side": 1,
+      "message": "could be stored on afh priv?",
+      "range": {
+        "startLine": 11,
+        "startChar": 55,
+        "endLine": 11,
+        "endChar": 127
+      },
+      "revId": "f1008b79eb726f9568bd9a98b6dd9ba96bf3f113",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
