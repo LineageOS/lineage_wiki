@@ -13,7 +13,6 @@ current_branch: 16.0
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
-has_recovery_partition: true
 height: 146.1 mm (5.75 in)
 image: a5y17lte.png
 install_method: heimdall
@@ -41,6 +40,7 @@ soc: Samsung Exynos 7880
 storage: 32/64 GB
 tree: android_device_samsung_a5y17lte
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1, 16.0]
