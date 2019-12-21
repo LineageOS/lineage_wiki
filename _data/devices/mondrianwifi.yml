@@ -31,6 +31,7 @@ soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16 GB
 tree: android_device_samsung_mondrianwifi
 type: tablet
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
