@@ -45,6 +45,29 @@
       "revId": "93bc9fd06cc9083a6cec22b33927e99ce0a990b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3022b244_eef20974",
+        "filename": "pages/gapps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-12-22T14:08:11Z",
+      "side": 1,
+      "message": "Don\u0027t we just NOT provide \"support\" for any of the gapps packages? I\u0027d rather skip the \"support\" part but talk about recommendation instead...\n\"We only recommend packages up to `nano`, as linked above. If you use any larger package, we can not guarantee that everything will work on your device, as in many of these cases[...]\"",
+      "range": {
+        "startLine": 28,
+        "startChar": 115,
+        "endLine": 28,
+        "endChar": 329
+      },
+      "revId": "93bc9fd06cc9083a6cec22b33927e99ce0a990b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
