@@ -16,6 +16,52 @@
       "revId": "787a68343cd41760239deb095592a99494a23922",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "663b02be_c8b197ef",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-12-22T14:05:32Z",
+      "side": 1,
+      "message": "This sentence needs punctuation.\n\"Open \"Settings\", navigate to \"Phone Info\" and take note of the model number below the \"model\" header:",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 164
+      },
+      "revId": "787a68343cd41760239deb095592a99494a23922",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "85b72476_c7e8d9dc",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-12-22T14:05:32Z",
+      "side": 1,
+      "message": "Isn\u0027t this different depending on the recovery? I think I remember that we made a difference here",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 82
+      },
+      "revId": "787a68343cd41760239deb095592a99494a23922",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
