@@ -42,6 +42,30 @@
     },
     {
       "key": {
+        "uuid": "781f3aa0_6832fc30",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-23T03:19:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "663b02be_c8b197ef",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 164
+      },
+      "revId": "787a68343cd41760239deb095592a99494a23922",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "85b72476_c7e8d9dc",
         "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
         "patchSetId": 18
