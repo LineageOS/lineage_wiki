@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98aa2f22_0a4c4ffa",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-12-23T11:29:48Z",
+      "side": 1,
+      "message": "Two other guys already commented on the usage of the word \"your\". Make it \"Update your device\u0027s firmware\". Don\u0027t forget L#4, which also uses \"your\"",
+      "revId": "2c40f7db0fb21a7d3a8af8443d5effa7cb6cd7bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8a7b5e60_06f38476",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2019-12-23T11:29:48Z",
+      "side": 1,
+      "message": "This sentence is still the same. I meant to get rid of the \"Find the model number\" part of the sentence. and even if its being kept, there needs to be a dot instead of a comma after \"Redmi 2\"",
+      "revId": "2c40f7db0fb21a7d3a8af8443d5effa7cb6cd7bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
