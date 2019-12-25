@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "08f3f113_165cd953",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 20
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-12-25T09:04:14Z",
+      "side": 1,
+      "message": "This has nothing to do with \"seventeen\"",
+      "revId": "7502c1f7ad2b2ae2d24da5cf2d504fcf04f48cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
