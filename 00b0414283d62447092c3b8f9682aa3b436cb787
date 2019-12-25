@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "08d594d2_4e834025",
+        "filename": "_data/devices/chagalllte.yml",
+        "patchSetId": 22
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-25T03:03:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66b42d4b_84bb7bf3",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 37
+      },
+      "revId": "00b0414283d62447092c3b8f9682aa3b436cb787",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "81d09350_66e7f55a",
         "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
         "patchSetId": 22
@@ -45,6 +69,30 @@
       "revId": "00b0414283d62447092c3b8f9682aa3b436cb787",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f9bfae35_472648f0",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 22
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-25T03:03:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "81d09350_66e7f55a",
+      "range": {
+        "startLine": 4,
+        "startChar": 74,
+        "endLine": 4,
+        "endChar": 78
+      },
+      "revId": "00b0414283d62447092c3b8f9682aa3b436cb787",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
