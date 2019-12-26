@@ -49,6 +49,30 @@
     },
     {
       "key": {
+        "uuid": "7fbeabfe_8e9cc031",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-12-26T05:40:16Z",
+      "side": 1,
+      "message": "The whole thing.  Seems like it\u0027s better suited as a warning. Just an observation.",
+      "parentUuid": "a80cc966_ebe5277b",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ec0eef30_7950b836",
         "filename": "_includes/templates/device_specific/before_install_pme.md",
         "patchSetId": 23
@@ -225,6 +249,30 @@
       "side": 1,
       "message": "bullet points typically don\u0027t end in punctuation - they don\u0027t elsewhere in wiki",
       "parentUuid": "51936d4a_37bc4f4a",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 53
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "953acce3_93e4a912",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2019-12-26T05:40:16Z",
+      "side": 1,
+      "message": "Yes, they do elsewhere in the wiki, but that\u0027s besides the point. You have a mix of both ways in this change.\nSo, if you don\u0027t want to add a period on these bullets, then remove the period on the numerous other bullets in this change where you have a period.",
+      "parentUuid": "258a1229_8deae885",
       "range": {
         "startLine": 8,
         "startChar": 0,
