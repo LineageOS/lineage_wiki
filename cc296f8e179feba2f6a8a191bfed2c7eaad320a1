@@ -73,6 +73,30 @@
     },
     {
       "key": {
+        "uuid": "f60aae77_60962200",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T16:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7fbeabfe_8e9cc031",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ec0eef30_7950b836",
         "filename": "_includes/templates/device_specific/before_install_pme.md",
         "patchSetId": 23
@@ -285,6 +309,30 @@
     },
     {
       "key": {
+        "uuid": "118175a2_51b1560d",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T16:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "953acce3_93e4a912",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 53
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5ad1c24d_b17b592d",
         "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
         "patchSetId": 23
@@ -329,6 +377,30 @@
       "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "822f4097_8998a7aa",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T16:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "11c02e8d_349712fb",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 84
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
