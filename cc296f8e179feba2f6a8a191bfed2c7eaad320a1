@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "a80cc966_ebe5277b",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "do you want just the header, or the whole thing wrapped?",
+      "parentUuid": "056d0fb6_e03c9042",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ec0eef30_7950b836",
         "filename": "_includes/templates/device_specific/before_install_pme.md",
         "patchSetId": 23
@@ -45,6 +69,30 @@
       "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3c2b20d0_84fd60af",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec0eef30_7950b836",
+      "range": {
+        "startLine": 3,
+        "startChar": 87,
+        "endLine": 3,
+        "endChar": 98
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "42d0e6d0_2b33dc75",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a8365270_dc1e2ad1",
+      "range": {
+        "startLine": 5,
+        "startChar": 115,
+        "endLine": 5,
+        "endChar": 119
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "76dfa79e_974ccf20",
         "filename": "_includes/templates/device_specific/before_install_pme.md",
         "patchSetId": 23
@@ -91,6 +163,30 @@
       "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9dda3893_78a726e4",
+        "filename": "_includes/templates/device_specific/before_install_pme.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "76dfa79e_974ccf20",
+      "range": {
+        "startLine": 7,
+        "startChar": 84,
+        "endLine": 7,
+        "endChar": 86
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -117,6 +213,30 @@
     },
     {
       "key": {
+        "uuid": "258a1229_8deae885",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "bullet points typically don\u0027t end in punctuation - they don\u0027t elsewhere in wiki",
+      "parentUuid": "51936d4a_37bc4f4a",
+      "range": {
+        "startLine": 8,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 53
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5ad1c24d_b17b592d",
         "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
         "patchSetId": 23
@@ -128,6 +248,30 @@
       "writtenOn": "2019-12-25T03:42:38Z",
       "side": 1,
       "message": "period at end",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 84
+      },
+      "revId": "cc296f8e179feba2f6a8a191bfed2c7eaad320a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "11c02e8d_349712fb",
+        "filename": "_includes/templates/device_specific/before_lineage_install_wt88047.md",
+        "patchSetId": 23
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T04:58:30Z",
+      "side": 1,
+      "message": "bullet points typically don\u0027t end in punctuation - they don\u0027t elsewhere in wiki",
+      "parentUuid": "5ad1c24d_b17b592d",
       "range": {
         "startLine": 13,
         "startChar": 0,
