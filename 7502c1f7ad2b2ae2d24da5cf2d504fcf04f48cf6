@@ -16,6 +16,24 @@
       "revId": "7502c1f7ad2b2ae2d24da5cf2d504fcf04f48cf6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "166e536b_132e63d1",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 20
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2019-12-26T05:01:43Z",
+      "side": 1,
+      "message": "Aware - figured it was easy to squash in? \"As of 17.0 we don\u0027t support the \"slider\" variant of phone. Seems okay to me.\n\nAlso, if you\u0027re memeing \"seventeen\" - the commit msg is gonna be amended before merge lol",
+      "parentUuid": "08f3f113_165cd953",
+      "revId": "7502c1f7ad2b2ae2d24da5cf2d504fcf04f48cf6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
