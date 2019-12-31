@@ -259,6 +259,14 @@ Adding that command to your `~/.bashrc` file will automatically configure Jack t
 
 ### Start the build
 
+{% capture setting_tmpdir %}
+Most of the disk space is required in the `~/android/lineage` directory.
+However, the system's temporary directory (typically `/tmp`) is used for temporary files during compilation and to build image files.
+Therefore, it should reside on a fast device (e.g., a `tmpfs` RAM disk) and have several GB of free space.
+Usually you can change the directory to be used by setting the `TMPDIR` environment variable.
+{% endcapture %}
+{% include alerts/note.html content=setting_tmpdir %}
+
 Time to start building! Now, type:
 
 ```
