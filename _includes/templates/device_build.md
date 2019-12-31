@@ -259,6 +259,8 @@ Adding that command to your `~/.bashrc` file will automatically configure Jack t
 
 ### Start the build
 
+{% include alerts/note.html content="While most of the disk space is required in the `~/android/lineage` directory, some steps use the system's temporary directory (typically `/tmp`). Make sure it has several GB of free space, e.g., by executing `export TMPDIR=~/android/lineage`" %}
+
 Time to start building! Now, type:
 
 ```
