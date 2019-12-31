@@ -29,7 +29,7 @@ In case `system.new.dat.br` (a [brotli](https://en.wikipedia.org/wiki/Brotli) ar
 
 ```
 sudo apt-get install brotli
-brotli --decompress --input system.new.dat.br  --output system.new.dat
+brotli --decompress --output=system.new.dat system.new.dat.br
 ```
 
 You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
