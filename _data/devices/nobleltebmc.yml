@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2 LE'}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
+codename: nobleltebmc
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '8'
+cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
+current_branch: 16.0
+depth: 7.6 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T760 MP8
+height: 153.2 mm (6.03 in)
+image: nobleltebmc.png
+install_method: heimdall
+kernel: android_kernel_samsung_exynos7420
+maintainers: [manikar]
+models: [SM-N920W8]
+name: Galaxy Note 5
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1800 1900 HSDPA' }
+- {tech: 4G, bands: 'B1-B8, B12, B17-B20, B26' }
+no_oem_unlock_switch: true
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Geo-Magnetic, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, GPS, NFC]
+ram: 4 GB (LPDDR4)
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  When the blue text appears, release the buttons.
+release: 2015-08-21
+screen: 145 mm (5.7 in)
+screen_ppi: 518
+screen_res: 2560x1440 (16:9 aspect ratio)
+screen_tech: Quad HD Super AMOLED
+sdcard: none
+soc: Samsung Exynos 7420
+storage: 32/64/128 GB (UFS 2.0)
+tree: android_device_samsung_nobleltebmc
+type: phablet
+vendor: Samsung
+vendor_short: samsung
+versions: [16.0]
+width: 76.1 mm (3.00 in)
+wifi: 802.11 a/b/g/n/ac, Dual Band, Wi-Fi Direct, Hotspot
