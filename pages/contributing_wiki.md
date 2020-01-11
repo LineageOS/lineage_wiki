@@ -64,7 +64,22 @@ git reset --hard HEAD
 
 ### Preview using GitHub
 
-This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that.
+This is probably the easiest method, but requires you to fork the wiki repository.
+
+#### Preperations
+
+At  https://github.com/LineageOS/lineage_wiki press `clone`.
+
+Get your clone URL via the `Clone or download` button on the github-page for your clone.
+
+Run:
+```
+git remote add ghclone <CLONE-URL>
+```
+You can name `ghclone` whatever you like.
+
+Now go to the `Settings`-tab of your github repo.
+Scroll down to `GitHub Pages` and select `master branch` as `Source`.
 
 #### Commit and preview your changes
 
@@ -86,10 +101,11 @@ is important, since it wouldn't be much of a wiki without editors.
 Save the file and exit the editor. Now upload your changes to GitHub:
 
 ```
-git push origin
+git push ghclone
 ```
 
 Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+Note that it can take several minutes to update the page.
 
 #### Fixing mistakes
 
@@ -107,7 +123,7 @@ Your commit message should show up in an editor. You can edit it, or just quit t
 Finally, run:
 
 ```
-git push --force origin
+git push --force ghclone
 ```
 
 ### Preview locally using docker
