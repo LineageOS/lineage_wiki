@@ -10,6 +10,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
+custom_recovery_note: Make sure that you have flashed firmware 23.5.A.1.291 previously. You can find it [here](https://forum.xda-developers.com/z3-compact/general/list-stock-firmwares-d5803-d5833-t2906706).
 custom_recovery_link: https://androidfilehost.com/?fid=4349826312261622334
 depth: 8.6 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
