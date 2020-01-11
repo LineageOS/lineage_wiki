@@ -1,5 +1,6 @@
 architecture: arm
 battery: {removable: False, capacity: 2600, tech: 'Li-Ion'}
+before_install: before_install_z3c
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '20.7 MP'}
