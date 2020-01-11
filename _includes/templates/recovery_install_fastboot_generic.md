@@ -7,6 +7,9 @@
 
 ## Installing a custom recovery using `fastboot`
 
+{% if device.custom_recovery_note %}
+{% include alerts/note.html content=device.custom_recovery_note %}
+{% endif %}
 {% if device.custom_recovery_link %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {% else %}
