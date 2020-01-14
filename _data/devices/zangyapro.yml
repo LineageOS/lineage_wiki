@@ -11,6 +11,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 16.0
+custom_recovery_link: https://drive.google.com/open?id=1_odSPe4t7GKub54HikVwq961HQvwrm7o
 depth: 8.35 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: false
