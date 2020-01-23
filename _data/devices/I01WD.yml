@@ -42,6 +42,6 @@ tree: android_device_asus_I01WD
 type: phone
 vendor: Asus
 vendor_short: asus
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac
