@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0cf8cede_5238c551",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 5
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-01-24T15:50:19Z",
+      "side": 1,
+      "message": "So long as we\u0027re grammaring this up, how about we get the commit message square? \"Stricted and my\" or \"my and Stricted\u0027s\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 19,
+        "endLine": 9,
+        "endChar": 22
+      },
+      "revId": "409ca3aad6790a3caf66e069fffcf89ec3ef202d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
