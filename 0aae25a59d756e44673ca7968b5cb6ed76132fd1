@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d4a728fa_536cfe04",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2020-01-24T14:36:32Z",
+      "side": 1,
+      "message": "\"Additionally\" and \"also\" seems doubled. I guess removing also sounds better.",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0ccd5a96_739cf7c3",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2020-01-24T14:36:32Z",
+      "side": 1,
+      "message": "\"with\" seems wrong here to me.",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7ac94a90_832fa888",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2020-01-24T14:36:32Z",
+      "side": 1,
+      "message": "That comma seems wrong to me.",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd9fc861_508c4b0a",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2020-01-24T14:36:32Z",
+      "side": 1,
+      "message": "same",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
