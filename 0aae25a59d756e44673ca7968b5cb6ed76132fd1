@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "25ca5099_b0156154",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-24T15:37:47Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4a728fa_536cfe04",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "0ccd5a96_739cf7c3",
         "filename": "_includes/templates/device_specific/before_install_z3c.md",
         "patchSetId": 18
@@ -30,6 +48,24 @@
       "writtenOn": "2020-01-24T14:36:32Z",
       "side": 1,
       "message": "\"with\" seems wrong here to me.",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "61a83e41_825048f0",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-24T15:37:47Z",
+      "side": 1,
+      "message": "with the - makes it more fluid.",
+      "parentUuid": "0ccd5a96_739cf7c3",
       "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "088db734_9412d21a",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-24T15:37:47Z",
+      "side": 1,
+      "message": "it is, weird grammarly didn\u0027t catch",
+      "parentUuid": "7ac94a90_832fa888",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "bd9fc861_508c4b0a",
         "filename": "_includes/templates/device_specific/before_install_z3c.md",
         "patchSetId": 18
@@ -64,6 +118,24 @@
       "writtenOn": "2020-01-24T14:36:32Z",
       "side": 1,
       "message": "same",
+      "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "87d1b07b_34495c33",
+        "filename": "_includes/templates/device_specific/before_install_z3c.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-24T15:37:47Z",
+      "side": 1,
+      "message": "yeah, not needed.",
+      "parentUuid": "bd9fc861_508c4b0a",
       "revId": "0aae25a59d756e44673ca7968b5cb6ed76132fd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
