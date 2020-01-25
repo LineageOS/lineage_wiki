@@ -21,7 +21,7 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-```
+
 4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
 
     {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
