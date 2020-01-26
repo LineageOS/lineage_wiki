@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_install: before_install_guacamole
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 8 MP (telephoto) + 16 MP (ultrawide)'}
