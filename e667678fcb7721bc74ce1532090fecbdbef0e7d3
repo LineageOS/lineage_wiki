@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f13283b9_0628c19a",
+        "filename": "_includes/templates/device_specific/before_install_enchilada.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2020-01-27T00:37:46Z",
+      "side": 1,
+      "message": "not sure if there is a \"the\" missing here (so that it says \"has the latest\"), same for the other two warnings.",
+      "range": {
+        "startLine": 1,
+        "startChar": 106,
+        "endLine": 1,
+        "endChar": 130
+      },
+      "revId": "e667678fcb7721bc74ce1532090fecbdbef0e7d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
