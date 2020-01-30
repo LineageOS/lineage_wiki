@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30f5e98c_19f680d9",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2020-01-30T10:29:13Z",
+      "side": 1,
+      "message": "Do people actually need to do that? I thought that Windows would download proper drivers on its own if needed.",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 46,
+        "endChar": 57
+      },
+      "revId": "c6bcec6d48e6880ba9ea624d5f4536c8f8a5c8c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
