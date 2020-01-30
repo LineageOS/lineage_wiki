@@ -364,6 +364,7 @@ properties:
     - fastboot_xiaomi
     - fastboot_zenfone
     - heimdall
+    - odin
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean
