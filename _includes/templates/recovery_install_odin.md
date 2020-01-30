@@ -1,0 +1,58 @@
+{%- assign device = site.data.devices[page.device] -%}
+{% if device.custom_recovery_codename %}
+{% assign custom_recovery_codename = device.custom_recovery_codename %}
+{% else %}
+{% assign custom_recovery_codename = device.codename %}
+{% endif %}
+
+## Important Information
+
+Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
+Odin is a Samsung-made tool for Windows 7 and above for interfacing with Download mode on Samsung devices.
+The preferred method of installing a custom recovery is through Download Mode{% unless custom_root_instructions %} -- rooting the stock firmware is neither necessary nor required{% endunless %}.
+
+{% if custom_downgrade_instructions %}
+{{ custom_downgrade_instructions }}
+{% endif %}
+
+{% if custom_root_instructions %}
+{{ custom_root_instructions }}
+{% endif %}
+
+## Installing a custom recovery using `heimdall`
+
+{% include alerts/note.html content="If this device's install instructions already had you download Odin earlier in the installation process, you can skip steps 3, 5, 6, and 7 below." %}
+
+{% if device.custom_recovery_link %}
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
+{% else %}
+1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+{% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
+{% endif %}
+2. Power off the device, and boot it into download mode:
+    * {{ device.download_boot }}
+    * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
+{% unless device.no_oem_unlock_switch %}
+3. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
+ * From within the Developer options menu, enable OEM unlock.
+{% endunless %}
+4. Power off the device, and boot it into download mode:
+    * {{ device.download_boot }}
+    * Now, click the button that the onscren instructions coorelate to "Continue", and connect the USB cable to the device.
+5. Download and install the necessary drivers.
+    * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
+    * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
+6. Download [this](https://androidfilehost.com/?fid=4349826312261712202) version of Odin.
+7. Extract "Odin_3.13.1.zip".
+8. Run `Odin3 v3.13.1` found in the newly  extracted "Odin_3.13.1" folder.
+9. In the left side of the Odin window, you will see an "Options" tab, click it, and then un-check the "Auto Reboot" option.
+10. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
+ * In the menu that pops up, select the newly downloaded custom recovery `.tar` or `.tar.md5`.
+  {% include alerts/tip.html content="The filename may very depending on your device, and the version of your custom recovery." %}
+11. Check in the top left of thne Odin window that you see a valid device, it will show up as something like `COM0`.
+ {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
+12. A blue transfer bar will appear on the device showing the recovery image being flashed.
+13. Unplug the USB cable from your device.
+14. Manually reboot into recovery, this may require pulling your battery and following the below, or holding the below keycombo until the device reboots:
+    * {{ device.recovery_boot }}
+    {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
