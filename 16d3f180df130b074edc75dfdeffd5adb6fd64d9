@@ -48,6 +48,29 @@
     },
     {
       "key": {
+        "uuid": "0dae405d_424d1d3b",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T09:48:12Z",
+      "side": 1,
+      "message": "This \u0026 enabling OEM unlock must be done before booting the device in Download Mode as described above.",
+      "range": {
+        "startLine": 38,
+        "startChar": 10,
+        "endLine": 38,
+        "endChar": 22
+      },
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "5544e7f0_e5899bda",
         "filename": "_includes/templates/recovery_install_odin.md",
         "patchSetId": 4
