@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "206b3201_b961b104",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:51:38Z",
+      "side": 1,
+      "message": "No - We support multiple recoveries",
+      "parentUuid": "5887e6d9_80cad76f",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7478156e_797977e2",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
@@ -33,6 +51,24 @@
       "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "eb26f16f_b182b78b",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:51:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7478156e_797977e2",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "430c88fa_511ed198",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:51:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e7011425_1c28e291",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "70aa7180_bf0765b4",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
@@ -64,6 +118,30 @@
       "writtenOn": "2020-01-30T09:10:44Z",
       "side": 1,
       "message": "Replace the last phrase with:\n\nIf you don\u0027t the stock Samsung recovery will be restored, overwritting the custom recovery.\n\nIn that case you will have to flash the custom recovery again.",
+      "range": {
+        "startLine": 73,
+        "startChar": 123,
+        "endLine": 73,
+        "endChar": 184
+      },
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3724680e_26329f4b",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:51:38Z",
+      "side": 1,
+      "message": "I agree with the top wording but I don\u0027t like the last bit",
+      "parentUuid": "70aa7180_bf0765b4",
       "range": {
         "startLine": 73,
         "startChar": 123,
