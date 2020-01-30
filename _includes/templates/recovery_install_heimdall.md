@@ -12,7 +12,8 @@ Heimdall is a cross-platform, open-source tool for interfacing with Download mod
 The preferred method of installing a custom recovery is through Download Mode{% unless custom_root_instructions %} -- rooting the stock firmware is neither necessary nor required{% endunless %}.
 
 {% unless device.no_oem_unlock_switch %}
-1. Enable OEM unlock in the Developer options under device Settings.
+1. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
+ * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
 2. Download and install the appropriate version of the [Heimdall suite](https://www.androidfilehost.com/?w=files&flid=304516) for your machine's OS
     * **Windows**: Extract the Heimdall suite zip and take note of the new directory containing `heimdall.exe`. You can verify Heimdall is functioning by opening a Command Prompt or PowerShell in that directory and running `heimdall version`.
@@ -60,14 +61,13 @@ heimdall print-pit
 2. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
-6. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
+3. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
 heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
-5. A blue transfer bar will appear on the device showing the recovery image being flashed.
-6. Unplug the USB cable from your device.
-7. Manually reboot into recovery, this may require pulling your battery, or holding the below keycombo until the device reboots:
+4. A blue transfer bar will appear on the device showing the recovery image being flashed.
+4. Unplug the USB cable from your device.
+6. Manually reboot into recovery, this may require pulling your battery and following the below, or holding the below keycombo until the device reboots:
     * {{ device.recovery_boot }}
-
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
