@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "d15b3bb3_3da966e0",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T09:39:14Z",
+      "side": 1,
+      "message": "\"which is very similar to \"Fastboot mode\"\" should be deleted. That\u0027s unnecessary info for Samsung users \u0026 does not add anything to how to use Odin to flash the recovery.",
+      "range": {
+        "startLine": 12,
+        "startChar": 69,
+        "endLine": 12,
+        "endChar": 109
+      },
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6de57220_ec94733b",
         "filename": "_includes/templates/recovery_install_odin.md",
         "patchSetId": 4
