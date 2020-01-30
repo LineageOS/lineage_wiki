@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7478156e_797977e2",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T08:43:57Z",
+      "side": 1,
+      "message": "This should be replaced with: Some Sansung devices can be rebooted directly in recovery with this key combo:",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7011425_1c28e291",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T08:43:57Z",
+      "side": 1,
+      "message": "Add under that line this which simulate a battery removal as per Samsung Support should be added: If your device does not reboot in recovery with the key combo then it must be turned off manually before repeating the key combo with the device turned off: press the Volume Down + Power buttons for 8~10 seconds untill the screen turns black \u0026 release the buttons immediatly when it does.",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
