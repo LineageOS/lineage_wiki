@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5544e7f0_e5899bda",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T09:27:35Z",
+      "side": 1,
+      "message": "sammobile.com is a reputable source of stock Samsung ROM \u0026 all their firmware download pages includes installation instructions and this most recent (@ the present) Odin3 v3.14.1 download link https://dl2018.sammobile.com/Odin3-v3.14.1.zip",
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
