@@ -33,6 +33,29 @@
       "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "70aa7180_bf0765b4",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T09:10:44Z",
+      "side": 1,
+      "message": "Replace the last phrase with:\n\nIf you don\u0027t the stock Samsung recovery will be restored, overwritting the custom recovery.\n\nIn that case you will have to flash the custom recovery again.",
+      "range": {
+        "startLine": 73,
+        "startChar": 123,
+        "endLine": 73,
+        "endChar": 184
+      },
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
