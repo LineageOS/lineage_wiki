@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "5887e6d9_80cad76f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-01-30T09:19:21Z",
+      "side": 1,
+      "message": "Replace with this to include the TWRP keyword:\n\nWiki: TWRP Installation using Heimdall - Minor Fixes",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7478156e_797977e2",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
