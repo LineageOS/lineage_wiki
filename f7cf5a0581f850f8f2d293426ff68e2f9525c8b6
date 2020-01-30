@@ -16,6 +16,24 @@
       "revId": "f7cf5a0581f850f8f2d293426ff68e2f9525c8b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7b94e8f1_04a918ba",
+        "filename": "_includes/templates/device_specific/before_install_guacamole.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:33:25Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "b61af7b5_d21bba29",
+      "revId": "f7cf5a0581f850f8f2d293426ff68e2f9525c8b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
