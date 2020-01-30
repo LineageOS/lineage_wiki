@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "bdae3c91_8bd7163e",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:57:41Z",
+      "side": 1,
+      "message": "I disagree, this is a paralell drawn to let them know fastboot (bootloader) is equivalent to download (bootloader).",
+      "parentUuid": "d15b3bb3_3da966e0",
+      "range": {
+        "startLine": 12,
+        "startChar": 69,
+        "endLine": 12,
+        "endChar": 109
+      },
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "6de57220_ec94733b",
         "filename": "_includes/templates/recovery_install_odin.md",
         "patchSetId": 4
@@ -45,6 +69,30 @@
       "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f5904af3_8f4539f5",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:57:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6de57220_ec94733b",
+      "range": {
+        "startLine": 31,
+        "startChar": 217,
+        "endLine": 31,
+        "endChar": 219
+      },
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "b56ffc7b_b29be502",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:57:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0dae405d_424d1d3b",
+      "range": {
+        "startLine": 38,
+        "startChar": 10,
+        "endLine": 38,
+        "endChar": 22
+      },
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "5544e7f0_e5899bda",
         "filename": "_includes/templates/recovery_install_odin.md",
         "patchSetId": 4
@@ -85,6 +157,24 @@
       "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bce84791_da68831d",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T19:57:41Z",
+      "side": 1,
+      "message": "Nope - we are using the nethunter ones, reliable, safe, vetted.",
+      "parentUuid": "5544e7f0_e5899bda",
+      "revId": "16d3f180df130b074edc75dfdeffd5adb6fd64d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
