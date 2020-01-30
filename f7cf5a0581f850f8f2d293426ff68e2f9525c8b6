@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b61af7b5_d21bba29",
+        "filename": "_includes/templates/device_specific/before_install_guacamole.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-01-30T06:59:09Z",
+      "side": 0,
+      "message": "note on all of these, why not use the copy-partitions before_lineage_install and then ALSO have this before_install that they need to be on android 10 (don\u0027t talk about both slots).\n\nPoint of this would be: User is on 10, boots recovery with our instructions, flashes copy_partitions.zip, now has 10 on both.",
+      "revId": "f7cf5a0581f850f8f2d293426ff68e2f9525c8b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
