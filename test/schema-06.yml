@@ -416,6 +416,9 @@ properties:
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string
+  force_power_off:
+    "$id": "/properties/force_power_off"
+    type: string
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
