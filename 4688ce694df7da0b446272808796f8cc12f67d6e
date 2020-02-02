@@ -25,6 +25,23 @@
     },
     {
       "key": {
+        "uuid": "bb19ce97_ed071388",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T20:58:15Z",
+      "side": 1,
+      "message": "Why are the Heimdall packages named for example: Heimdall-Windows-master-012220.zip?\n\n* Why not use the same date format YYYYMMDD as for the LineageOS packages like this for example: Heimdall-Windows-master-20200122.zip\n\n* Additionally why use \"master\" which does not mean anything for regular users. Since they are compiled by Lineage I suggest: Heimdall-Windows-Lineage-20200122.zip or Heimdall_Windows_Lineage_20200122.zip\n\n* Obviously the folder inside the zip should be renamed too.\n\n* I downloaded the linked Heimdall package for Windows \u0026 when typing \"heimdall version\" in CMD I get: v1.4.2 so maybe this should be included in the file name: Heimdall-v1.4.2-Windows-Lineage-20200122.zip",
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aeabe48b_3568e7dd",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -64,6 +81,52 @@
         "startChar": 0,
         "endLine": 70,
         "endChar": 1
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b58e7edb_905b5680",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T20:58:15Z",
+      "side": 1,
+      "message": "Removing the battery is a last resort option for devices with removable battery if the preferred buttons press combo does not turn off which it should as it is a built-in Samsung hard-coded feature to turn off the device or to reboot a frozen or bootlooping device as described by Samsung support: https://www.samsung.com/au/support/mobile-devices/how-do-i-restart-my-device-if-it-is-frozen-or-not-responding/\n\nSo this should be moved under the buttons press description:\n\nIf the keycombo described above fails to turn off your device you can pull out the battery to turn it off if you have a removable battery.\n\nThis should be deleted: \"this may require pulling your battery\".\n\nI suggest this to replace the entire paragraph:\n\nManually reboot into recovery after turning off your device: press the Volume Down + the Power buttons for 7~10 seconds untill the screen turns black \u0026 release the buttons *immediatly* {bold this word!} when it does (Note: if you keep on holding the buttons the device will reboot in System \u0026 overwrite the custom recovery), then reboot to recovery:",
+      "range": {
+        "startLine": 71,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 270
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "67c95245_3673f90a",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T20:58:15Z",
+      "side": 1,
+      "message": "Insert Samsung: ...with the Samsung stock recovery...\n\nAdd at the end after ...flash it again.: This is a one time requirement, afterwards the custom recovery will be the default recovery \u0026 replace the Samsung stock recovery.",
+      "range": {
+        "startLine": 73,
+        "startChar": 176,
+        "endLine": 73,
+        "endChar": 199
       },
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
