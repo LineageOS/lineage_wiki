@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "09fc15ca_d7c4fc60",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T23:25:26Z",
+      "side": 1,
+      "message": "This is only required as a troubleshooting step if Odin fails to see the device COM... as described below so it should be below the \"Check in the top left of the Odin window...\" step.\n\nWhen you start Odin3 on a Windows PC \u0026 plug-in via USB your Samsung device in Download Mode the driver automatically used as seen in Device Manager \u003e Universal Serial Bus Controllers is **SAMSUNG Mobile USB CDC Composite Device**.",
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "78f07220_ffe6c835",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T23:25:26Z",
+      "side": 1,
+      "message": "Add: This is very important otherwise the custom recovery will be overwritten after an Auto Rebbot.",
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f7f00c0b_83031e14",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T23:25:26Z",
+      "side": 1,
+      "message": "the",
+      "range": {
+        "startLine": 51,
+        "startChar": 29,
+        "endLine": 51,
+        "endChar": 33
+      },
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
