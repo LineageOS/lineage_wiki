@@ -37,6 +37,63 @@
     },
     {
       "key": {
+        "uuid": "0462f229_1dc7efd9",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T10:00:01Z",
+      "side": 1,
+      "message": "Typo: abandoned \u0026 not abaonded.\n\nThe whole line contains superflous information in a wiki about Heimdall already complicated for newbies. No offense indented but may I suggest:\n\n\"These Heimdall Suite distributions were built by LineageOS developers because the Heimdall Suite executables distributed on the official Heimdall website were outdated and the repo mostly abandoned.",
+      "range": {
+        "startLine": 23,
+        "startChar": 279,
+        "endLine": 23,
+        "endChar": 287
+      },
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4e9b5e0d_7105da19",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T10:00:01Z",
+      "side": 1,
+      "message": "This should be the last step in this section as it is a rather extreme troubleshooting step if all the Zadig steps fail.",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aece54db_69079d69",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-02T10:00:01Z",
+      "side": 1,
+      "message": "Why force the users to do an extra download step? Why not include the most recent Zadig.exe in the LineageOS Heimdall Suite like it is in the old packages on the Heimdall site\u0027s download page?\n\nThe license linked in https://github.com/pbatard/libwdi says: \"Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.\".",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7478156e_797977e2",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
