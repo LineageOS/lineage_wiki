@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "323834ec_b192aa07",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:48:46Z",
+      "side": 1,
+      "message": "Goal here is to be compatible with existing Heimdall users. Tested it, and this installer does let devices work after following Heimdall instructions.",
+      "parentUuid": "09fc15ca_d7c4fc60",
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "78f07220_ffe6c835",
         "filename": "_includes/templates/recovery_install_odin.md",
         "patchSetId": 8
@@ -30,6 +48,24 @@
       "writtenOn": "2020-02-02T23:25:26Z",
       "side": 1,
       "message": "Add: This is very important otherwise the custom recovery will be overwritten after an Auto Rebbot.",
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dae0f2ea_ba7cd7c5",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:48:46Z",
+      "side": 1,
+      "message": "Considering this isn\u0027t time-sensitive like the other one, I don\u0027t see the point in it...",
+      "parentUuid": "78f07220_ffe6c835",
       "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
@@ -56,6 +92,30 @@
       "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6ded0107_fe22d08d",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:48:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f7f00c0b_83031e14",
+      "range": {
+        "startLine": 51,
+        "startChar": 29,
+        "endLine": 51,
+        "endChar": 33
+      },
+      "revId": "70bb9d5291981c7a43abbdd99bbbe04aa8f73802",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
