@@ -60,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "fdf131c3_b217d3dc",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:11:25Z",
+      "side": 1,
+      "message": "They don\u0027t have to care - we can cater to the lowest common denominator in wiki, but as for \"notes\" which are non-integral, we can get a bit more techy - it\u0027s done elsewhere.",
+      "parentUuid": "0462f229_1dc7efd9",
+      "range": {
+        "startLine": 23,
+        "startChar": 279,
+        "endLine": 23,
+        "endChar": 287
+      },
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "4e9b5e0d_7105da19",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
@@ -77,6 +101,24 @@
     },
     {
       "key": {
+        "uuid": "596d0c28_22c83a96",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:11:25Z",
+      "side": 1,
+      "message": "The goal here is to get rid of existing drivers (which are reccomended on our Odin template) gone if they\u0027re present.",
+      "parentUuid": "4e9b5e0d_7105da19",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aece54db_69079d69",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 4
@@ -91,6 +133,24 @@
       "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7dcf36c9_3e531576",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:11:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aece54db_69079d69",
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -208,6 +268,30 @@
       "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c7f031d_57d26eac",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:11:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3724680e_26329f4b",
+      "range": {
+        "startLine": 73,
+        "startChar": 123,
+        "endLine": 73,
+        "endChar": 184
+      },
+      "revId": "1935a750f0657cfa054b4f6c15ced2e65944c4c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
