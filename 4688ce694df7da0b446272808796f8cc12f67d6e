@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "ea969806_a3c0fbd1",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "I disagree with most of this...\n\nNaming is build script related - 0 point in renaming it. Additionally, the date syntax is extremely nitpicky here, users will know either way - we use different date formats on blog posts, firmware packages, etc.\n\nNot going to list 1.4.2, because its WELL ahead of that.",
+      "parentUuid": "bb19ce97_ed071388",
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "29a4d3e4_4ace21c2",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -62,6 +80,30 @@
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6dd32d3d_c80a2f3a",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "29a4d3e4_4ace21c2",
+      "range": {
+        "startLine": 21,
+        "startChar": 181,
+        "endLine": 21,
+        "endChar": 185
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -111,6 +153,54 @@
     },
     {
       "key": {
+        "uuid": "300972ef_bf2fb221",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ca11c8ab_07680c7d",
+      "range": {
+        "startLine": 22,
+        "startChar": 179,
+        "endLine": 22,
+        "endChar": 190
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d8bfbc7e_04a2c8fb",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "396474d3_79ee6fcd",
+      "range": {
+        "startLine": 22,
+        "startChar": 51,
+        "endLine": 22,
+        "endChar": 55
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "aeabe48b_3568e7dd",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -154,6 +244,54 @@
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6730ec7d_e06ad2bd",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fe623f55_0a38d0f7",
+      "range": {
+        "startLine": 23,
+        "startChar": 279,
+        "endLine": 23,
+        "endChar": 287
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c93fd804_a7c257ea",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "So again, disagree fundamentally with linking the source/website here - some users will go there and download outdated ones - better to leave it off IMO.",
+      "parentUuid": "aeabe48b_3568e7dd",
+      "range": {
+        "startLine": 23,
+        "startChar": 219,
+        "endLine": 23,
+        "endChar": 244
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -203,6 +341,54 @@
     },
     {
       "key": {
+        "uuid": "3efb2ec5_cbfa5c4b",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "daba1a71_e2532853",
+      "range": {
+        "startLine": 26,
+        "startChar": 58,
+        "endLine": 26,
+        "endChar": 67
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "c1db8cda_ad9d132a",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e3f83c0_f89e0176",
+      "range": {
+        "startLine": 26,
+        "startChar": 37,
+        "endLine": 26,
+        "endChar": 44
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "d624ec4f_29c213cb",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -223,6 +409,30 @@
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "a2923e1b_76af2561",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d624ec4f_29c213cb",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 268
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -272,6 +482,54 @@
     },
     {
       "key": {
+        "uuid": "c49e4cc2_50cb015a",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "94459c61_37efac35",
+      "range": {
+        "startLine": 63,
+        "startChar": 37,
+        "endLine": 63,
+        "endChar": 44
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "730d11f7_f017a069",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c430895a_93badb4c",
+      "range": {
+        "startLine": 63,
+        "startChar": 58,
+        "endLine": 63,
+        "endChar": 67
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f3d0de8c_c9838f94",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -292,6 +550,30 @@
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6d706982_44ccafc5",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3d0de8c_c9838f94",
+      "range": {
+        "startLine": 70,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 1
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {
@@ -341,6 +623,54 @@
     },
     {
       "key": {
+        "uuid": "dbcb08a9_26ba1d35",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e63a7d27_8516f433",
+      "range": {
+        "startLine": 71,
+        "startChar": 168,
+        "endLine": 71,
+        "endChar": 174
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "420667c9_ac80b7a1",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "So, asking the user to hold a set of buttons, then hold another set immediately afterwards when time is a factor is a *bad* idea. There\u0027s 0 harm in reccomendeding battery pull if possible - it\u0027s genuinely easier.",
+      "parentUuid": "b58e7edb_905b5680",
+      "range": {
+        "startLine": 71,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 270
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "67c95245_3673f90a",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -361,6 +691,30 @@
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9deb17b4_f661eb3b",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-04T23:06:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "67c95245_3673f90a",
+      "range": {
+        "startLine": 73,
+        "startChar": 176,
+        "endLine": 73,
+        "endChar": 199
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
