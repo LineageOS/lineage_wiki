@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a28aa253_f446a2cd",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-04T23:35:27Z",
+      "side": 1,
+      "message": "Replace with simpler: These Heimdall Suite distributions were built by LineageOS developers because the Heimdall Suite executables distributed on the official Heimdall website were outdated and the repo mostly abandoned.",
+      "range": {
+        "startLine": 23,
+        "startChar": 41,
+        "endLine": 23,
+        "endChar": 359
+      },
+      "revId": "b73f7564a50c2384f432cea4a5fbcec9a7bf3ea0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2adcef9d_984f8d6f",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-04T23:35:27Z",
+      "side": 1,
+      "message": "Why force the users to do an extra download step? Why not include the most recent Zadig.exe in the LineageOS Heimdall Suite like it is in the old packages on the Heimdall site\u0027s download page?",
+      "revId": "b73f7564a50c2384f432cea4a5fbcec9a7bf3ea0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2f5fdb85_3b65e728",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 14
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-04T23:35:27Z",
+      "side": 1,
+      "message": "Replace with: Manually reboot into recovery after turning off your device: press the Volume Down + the Power buttons for 7~10 seconds untill the screen turns black \u0026 release the buttons *immediatly* {bold this word!} when it does. Then reboot to recovery as described below. Or you can remove the battery to turn off your device if it has a removable battery.",
+      "revId": "b73f7564a50c2384f432cea4a5fbcec9a7bf3ea0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
