@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2479b6ff_4782ffa0",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-04T23:43:43Z",
+      "side": 1,
+      "message": "Replace with: Manually reboot into recovery after turning off your device: press the Volume Down + the Power buttons for 7~10 seconds untill the screen turns black \u0026 release the buttons *immediatly* {bold this word!} when it does. Then reboot to recovery as described below. Or you can remove the battery to turn off your device if it has a removable battery.",
+      "revId": "018881635af5a3b73fb73b6a8f48cbdc8e7b78c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
