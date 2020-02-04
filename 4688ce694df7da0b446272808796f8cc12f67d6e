@@ -42,6 +42,75 @@
     },
     {
       "key": {
+        "uuid": "29a4d3e4_4ace21c2",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 21,
+        "startChar": 181,
+        "endLine": 21,
+        "endChar": 185
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "396474d3_79ee6fcd",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 22,
+        "startChar": 51,
+        "endLine": 22,
+        "endChar": 55
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ca11c8ab_07680c7d",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 22,
+        "startChar": 179,
+        "endLine": 22,
+        "endChar": 190
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "aeabe48b_3568e7dd",
         "filename": "_includes/templates/recovery_install_heimdall.md",
         "patchSetId": 12
@@ -58,6 +127,144 @@
         "startChar": 219,
         "endLine": 23,
         "endChar": 244
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fe623f55_0a38d0f7",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 23,
+        "startChar": 279,
+        "endLine": 23,
+        "endChar": 287
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "daba1a71_e2532853",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 26,
+        "startChar": 58,
+        "endLine": 26,
+        "endChar": 67
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2e3f83c0_f89e0176",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 26,
+        "startChar": 37,
+        "endLine": 26,
+        "endChar": 44
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d624ec4f_29c213cb",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "numbering is wrong. should be 1-7",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 268
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "94459c61_37efac35",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 63,
+        "startChar": 37,
+        "endLine": 63,
+        "endChar": 44
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c430895a_93badb4c",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 63,
+        "startChar": 58,
+        "endLine": 63,
+        "endChar": 67
       },
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
@@ -104,6 +311,29 @@
         "startChar": 3,
         "endLine": 71,
         "endChar": 270
+      },
+      "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e63a7d27_8516f433",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-02-04T10:32:34Z",
+      "side": 1,
+      "message": "typo",
+      "range": {
+        "startLine": 71,
+        "startChar": 168,
+        "endLine": 71,
+        "endChar": 174
       },
       "revId": "4688ce694df7da0b446272808796f8cc12f67d6e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
