@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "57418555_ca13812c",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-06T22:05:01Z",
+      "side": 1,
+      "message": "Line 51 \u0026 52 should be just under 46.\n\nThere is no point to change the \"Options\" \u0026 navigate to the downloaded recovery file if Odin does not see your device first (current lines 47, 48 \u0026 49).",
+      "revId": "a7122ac153e427ae30942ba2db817e742dfe9ae9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
