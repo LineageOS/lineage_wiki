@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "58d47274_d3216d21",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-06T21:21:40Z",
+      "side": 1,
+      "message": "Why force the users to do an extra download step? Why not include the most recent Zadig.exe in the LineageOS Heimdall Suite like it is in the old packages on the Heimdall site\u0027s download page?",
+      "revId": "51415b37cd9213206c9bb0245e177aca484f2239",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
