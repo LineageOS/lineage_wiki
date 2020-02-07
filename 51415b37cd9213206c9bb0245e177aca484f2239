@@ -16,6 +16,24 @@
       "revId": "51415b37cd9213206c9bb0245e177aca484f2239",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1e693a28_dd348860",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 17
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-07T05:22:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58d47274_d3216d21",
+      "revId": "51415b37cd9213206c9bb0245e177aca484f2239",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
