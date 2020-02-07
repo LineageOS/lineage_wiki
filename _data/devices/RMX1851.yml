@@ -1,0 +1,48 @@
+type: phone
+vendor: Realme
+vendor_short: realme
+name: 3 Pro
+codename: RMX1851
+
+install_method: fastboot_realme
+custom_recovery_link: https://sourceforge.net/projects/hyperteam/files/nibaji/rmx1851/twrp/twrp-3.3.1-0-RMX1851-9.x-20200210-2002.img/download
+
+kernel: android_kernel_realme_sdm710
+tree: android_device_realme_RMX1851
+current_branch: 16.0
+
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose between the modes.
+
+image: RMX1851.png
+release: 2019-04-29
+soc: Qualcomm SDM710 Snapdragon 710
+ram: 4/6 GB LPDDR4X
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+architecture: arm64
+gpu: Adreno 616
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 2100 MHz (India) / 850 900 1700 1900 2100 MHz (EU) WCDMA' }
+- {tech: 4G, bands: '850 900 1800 2100 MHz (India) / 700 800 850 900 1700/2100 1800 1900 2100 2600 MHz (EU) FDD-LTE, 2300 2500 2600  MHz (India) / 1900 2300 2500 2600 MHz (EU) TD-LTE' }
+storage: 64/128 GB eMMC5.1
+sdcard: up to 256 GB
+screen: 160 mm (6.3 in)
+screen_ppi: ~409
+screen_res: 2340x1080
+screen_tech: Full HD+ IPS LCD
+bluetooth: {spec: '5', profiles: [A2DP]}
+wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio, USB OTG]
+cameras:
+- {flash: 'LED', info: '16 MP (IMX519) f/1.7 + 5 MP Depth sensor (GC5035) f/2.4'}
+- {flash: '', info: '25 MP (S5K2X5) f/2.0'}
+battery: {removable: False, capacity: 4045, tech: 'Li-Po'}
+maintainers: [karthick111, nibaji, darshan1205]
+models: [RMX1851]
+versions: [16.0]
+channels: [nightly]
