@@ -365,6 +365,7 @@ properties:
     - fastboot_nexus
     - fastboot_oppo
     - fastboot_sony
+    - fastboot_realme
     - fastboot_unlocked
     - fastboot_xiaomi
     - fastboot_zenfone
@@ -478,6 +479,7 @@ properties:
     - OPPO
     - OnePlus
     - Razer
+    - realme
     - Samsung
     - Sony
     - Wileyfox
@@ -509,6 +511,7 @@ properties:
     - oneplus
     - oppo
     - razer
+    - realme
     - samsung
     - sony
     - wileyfox
