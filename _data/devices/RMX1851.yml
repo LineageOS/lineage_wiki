@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 4045, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '16 MP (IMX519) f/1.7 + 5 MP Depth sensor (GC5035) f/2.4'}
+- {flash: '', info: '25 MP (S5K2X5) f/2.0'}
+channels: [nightly]
+codename: RMX1851
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=4349826312261684522
+download_boot:  With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose.
+format_on_upgrade: true
+gpu: Adreno 616
+image: RMX1851.png
+install_method: fastboot_realme
+kernel: android_kernel_realme_sdm710
+maintainers: [karthick111, nibaji, darshan1205]
+models: [RMX1851]
+name: realme 3 Pro
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 2100 MHz (India) / 850 900 1700 1900 2100 (EU) WCDMA' }
+- {tech: 4G, bands: '850 900 1800 2100 MHz (India) / 700 800 850 900 1700/2100 1800 1900 2100 2600 MHz (EU) FDD-LTE, 2300 2500 2600  MHz (India) / 1900 2300 2500 2600 (EU) TD-LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Use volume rockers to navigate and power button to choose.
+release: 2019-04-29
+screen: 160 mm (6.3 in)
+screen_ppi: ~409
+screen_res: 2340x1080
+screen_tech: Full HD+ LCD
+sdcard: up to 128 GB
+soc: Qualcomm SDM710 Snapdragon 710
+storage: 64/128 GB eMMC5.1
+tree: android_device_realme_RMX1851
+type: phone
+vendor: Realme
+vendor_short: realme
+versions: [16.0]
+width: 74.2 mm
+wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
