@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "97ecb4b3_23505cf8",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2020-02-07T18:45:52Z",
+      "side": 1,
+      "message": "s/Odin/Heimdall/",
+      "range": {
+        "startLine": 29,
+        "startChar": 48,
+        "endLine": 29,
+        "endChar": 52
+      },
+      "revId": "729a51fd4fbcaf6b2cb8722f63ad2b8151099d14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
