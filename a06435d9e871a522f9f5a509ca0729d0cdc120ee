@@ -22,6 +22,30 @@
       "revId": "a06435d9e871a522f9f5a509ca0729d0cdc120ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e69034a1_fb15d1b0",
+        "filename": "_data/devices/RMX1851.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-08T20:35:48Z",
+      "side": 1,
+      "message": "\u003e I think you added this by mistake, right?\n\u003e https://wiki.lineageos.org/addingdevice-howto.html#populating-the-yaml\n\nUhm. Mistake",
+      "parentUuid": "b8726014_a08fd1c5",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 23
+      },
+      "revId": "a06435d9e871a522f9f5a509ca0729d0cdc120ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

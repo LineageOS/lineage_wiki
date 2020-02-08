@@ -16,6 +16,24 @@
       "revId": "60d696bc5bafc2320776d50acb991297af7b011c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf457065_360cfca4",
+        "filename": "_data/devices/RMX1851.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-08T20:35:48Z",
+      "side": 1,
+      "message": "Sure",
+      "parentUuid": "3f40a757_b73b983d",
+      "revId": "60d696bc5bafc2320776d50acb991297af7b011c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
