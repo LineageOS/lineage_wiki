@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3c2757de_e221840a",
+        "filename": "_includes/templates/recovery_install_fastboot_realme.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-02-10T12:16:59Z",
+      "side": 1,
+      "message": "Is this really needed?\nYou shouldn\u0027t need to disable AVB.\nIt\u0027ll be overwritten while flashing lineage",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "7ee71d8f3b6af68085ed32f4985ccb7f13d9d10c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
