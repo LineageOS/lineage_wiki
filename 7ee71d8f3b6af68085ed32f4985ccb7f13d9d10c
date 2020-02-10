@@ -22,6 +22,30 @@
       "revId": "7ee71d8f3b6af68085ed32f4985ccb7f13d9d10c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1b26f091_dd1824a9",
+        "filename": "_includes/templates/recovery_install_fastboot_realme.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-10T14:07:27Z",
+      "side": 1,
+      "message": "\u003e Is this really needed?\n\u003e You shouldn\u0027t need to disable AVB.\n\u003e It\u0027ll be overwritten while flashing lineage\n\nDevice won\u0027t boot to recovery unless avb is disabled.\nEither we need avb disabled recovery or should disable avb in this way.\nAdded this method just in case as a fail-safe!\nAnyway, will link avb disabled recovery.",
+      "parentUuid": "3c2757de_e221840a",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 3
+      },
+      "revId": "7ee71d8f3b6af68085ed32f4985ccb7f13d9d10c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
