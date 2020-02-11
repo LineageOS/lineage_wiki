@@ -14,22 +14,24 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 {% unless device.no_oem_unlock_switch %}
 1. Enable OEM unlock in the Developer options under device Settings.
 {% endunless %}
-2. Download and install the appropriate version of the [Heimdall suite](https://www.androidfilehost.com/?w=files&flid=304516) for your machine's OS
+2. Download and install the appropriate version of the [Heimdall suite](https://www.androidfilehost.com/?w=files&flid=304516) for your machine's OS:
     * **Windows**: Extract the Heimdall suite zip and take note of the new directory containing `heimdall.exe`. You can verify Heimdall is functioning by opening a Command Prompt or PowerShell in that directory and running `heimdall version`.
      * If you receive an error, install the [Microsoft Visual C++ 2015-2019 Redistributable Package (x86)](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) on your computer.
-    * **Linux**: Extract the Heimdall suite zip and take note of the new directory containing `heimdall`. Now copy `heimdall` into a directory n $PATH, a common one on most distros wiil be /usr/local/bin. For example `cp heimdall /usr/local/bin`. You can verify Heimdall is functioning by opening a Terminal and running `heimdall version`.
+    * **Linux**: Extract the Heimdall suite zip and take note of the new directory containing `heimdall`. Now copy `heimdall` into a directory n $PATH, a common one on most distros wiil be /usr/local/bin. For example `cp heimdall /usr/local/bin`.
+    You can verify Heimdall is functioning by opening a Terminal and running `heimdall version`.
     * **macOS**: Mount the Heimdall suite DMG. Now dran `heimdall` down into the `/usr/local/bin` symlink provided in the DMG. You can verify Heimdall is functioning by opening a Terminaland running `heimdall version`.
-    {% include alerts/note.html content="These Heimdall suite distributions were built by LineageOS Developers Nolen Johnson (npjohnson) and Jan Altensen (Stricted), as the Heimdall suite executables distributed on the official Heimdall website were outdated and the repo mostly abaonded. Modifications were made to make it build and function on modern OSes." %}
+    {% include alerts/note.html content="These Heimdall suite distributions were built by LineageOS developers Nolen Johnson (npjohnson) and Jan Altensen (Stricted), as the Heimdall suite executables distributed on the official Heimdall website were outdated and the repo mostly abandoned.
+    Modifications were made to make it build and function on modern OSes." %}
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
-5. **For Windows user only**: install the necessary drivers. A more complete set of instructions can be found in the [ZAdiag user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
+5. **For Windows user only**: install the necessary drivers. A more complete set of instructions can be found in the [Zadig user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
     1. If nothing relevant appears, try uninstalling any Samsung related Windows software, like Samsung Windows drivers and/or Samsung Kies.
     1. Download the newest zadig.exe from [here](https://github.com/pbatard/libwdi/releases).
-    2. Run `zadiag.exe`.
+    2. Run `zadig.exe`.
     2. Choose **Options** &raquo; **List all devices** from the menu.
     3. Select **Samsung USB Composite Device** or **MSM8x60** or **Gadget Serial** or **Device Name** from the drop down menu.
-    4. Click **Replace Driver**, then selecting **Install Driver** from the drop down list built into the button.
+    4. Click **Replace Driver**, then select **Install Driver** from the drop down list built into the button.
     5. If you are prompted with a warning that the installer is unable to verify the publisher of the driver, select **Install this driver anyway**. You may receive two more prompts about security. Select the options that accept the warnings and allow you to carry on.
 6. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
