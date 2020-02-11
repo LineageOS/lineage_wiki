@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3200, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '23 MP'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: '', info: 16MP}
+channels: [nightly]
+codename: nx563j
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=4349826312261720672
+custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX563J'
+depth: 7.95 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 540
+height: 152.6 mm (6.0 in)
+image: nx563j.png
+install_method: fastboot_nexus
+kernel: android_kernel_nubia_msm8998
+maintainers: [BeYkeRYkt]
+name: 'Z17'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 3 4 5 7 8 12 20 34 38 39 40 41' }
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2017-06
+screen: 139.7 mm (5.5 in)
+screen_ppi: '403'
+screen_res: 1080x1920
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB UFS 2.1
+tree: android_device_nubia_nx563j
+type: phone
+vendor: Nubia
+vendor_short: nubia
+versions: [16.0]
+width: 72.4 mm (2.92 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
