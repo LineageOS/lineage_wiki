@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "ac408a19_12dcad85",
+        "filename": "_includes/templates/recovery_install_fastboot_realme.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-12T09:48:13Z",
+      "side": 1,
+      "message": "Changing.",
+      "parentUuid": "fa396f31_33d41e6f",
+      "range": {
+        "startLine": 12,
+        "startChar": 94,
+        "endLine": 12,
+        "endChar": 97
+      },
+      "revId": "5aacf9cad2221a936ab9b66230aa28d5844e0b74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "4952eeaa_8facd963",
         "filename": "_includes/templates/recovery_install_fastboot_realme.md",
         "patchSetId": 19
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "fd5e478a_4c78abeb",
+        "filename": "_includes/templates/recovery_install_fastboot_realme.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-12T09:48:13Z",
+      "side": 1,
+      "message": "Removing",
+      "parentUuid": "4952eeaa_8facd963",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 149
+      },
+      "revId": "5aacf9cad2221a936ab9b66230aa28d5844e0b74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "1842fdc4_ebbc80b4",
         "filename": "_includes/templates/recovery_install_fastboot_realme.md",
         "patchSetId": 19
@@ -68,6 +116,30 @@
       "revId": "5aacf9cad2221a936ab9b66230aa28d5844e0b74",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c9df5608_768b25eb",
+        "filename": "_includes/templates/recovery_install_fastboot_realme.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 18734
+      },
+      "writtenOn": "2020-02-12T09:48:13Z",
+      "side": 1,
+      "message": "Added now",
+      "parentUuid": "1842fdc4_ebbc80b4",
+      "range": {
+        "startLine": 23,
+        "startChar": 3,
+        "endLine": 23,
+        "endChar": 23
+      },
+      "revId": "5aacf9cad2221a936ab9b66230aa28d5844e0b74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
