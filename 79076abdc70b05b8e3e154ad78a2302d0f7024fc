@@ -25,6 +25,40 @@
     },
     {
       "key": {
+        "uuid": "c14a060d_ec77c970",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 20
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-14T01:10:42Z",
+      "side": 1,
+      "message": "According to https://www.mi.com/in/redmi-k20/specs/ \u003e\u003e\u003e WCDMA: B1, B2, B5, B8\n\nAccording to https://www.mi.com/global/mi-9-t/specs \u003e\u003e\u003e WCDMA: B1/B2/B4/B5/B8",
+      "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "40cd1e98_3161eb13",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 20
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-14T01:10:42Z",
+      "side": 1,
+      "message": "According to https://www.mi.com/in/redmi-k20/specs/ \u003e\u003e\u003e LTE TDD B38,B40, B41（120MHz） \nLTE FDD B1, B3, B5, B7, B8\n\nAccording to https://www.mi.com/global/mi-9-t/specs \u003e\u003e\u003e LTE TDD: B38/B40\nLTE FDD: B1/B2/B3/B4/B5/B7/B8/B20/B28",
+      "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "15173b6d_a8d5e5a5",
         "filename": "_data/devices/davinci.yml",
         "patchSetId": 20
