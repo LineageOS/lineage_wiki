@@ -1,0 +1,45 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000 , tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP, phase detection autofocus'}
+- {flash: 'LED', info: '5 MP'}
+channels: [nightly]
+codename: hannah
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
+current_branch: 16.0
+custom_recovery_link: https://sourceforge.net/projects/hyperteam/files/karthick111/hannah/twrp-9.x/
+depth: 9.4 mm (0.37 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 505/308
+height: 157 mm (6.0 in)
+image: hannah.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8937
+maintainers: [karthick111, wh0dat]
+models: [XT1924-1, XT1924-3, XT1924-4, XT1924-5, XT1924-7, XT1924-8, XT1924-9]
+name: 'Moto E5 plus'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (Europe), 850 900 1700 MHz HSDPA (AWS) ,1900 2100 MHz HSDPA (USA/Brazil)'}
+- {tech: 4G, bands: '1 (2100) 3 (1800) 5 (850) 7 (2600) 8 (900) 20 (800) 38 (2600) 40 (2300) LTE (Europe), 1 (2100) 2 (1900) 3 (1800) 4 (1700/2100) 5 (850) 7 (2600) 28 (700) LTE (Brazil), 1 (2100) 3 (1800) 5 (850) 8 (900) 38 (2600) 40 (2300) 41 (2500) LTE (India), 1 (2100) 2 (1900) 3 (1800) 4 (1700/2100) 5 (850) 7 (2600) 8 (900) 12 (700) 13 (700) 14 (700) 17 (700) 25 (1900) 26 (850) 29 (700) 30 (2300) 38 (2600) 41 (2500) 66 (1700/2100) 71 (600) LTE (USA)'}
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio, USB OTG]
+ram: 2/3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2018-04
+screen: 160.9 mm (6.0 in)
+screen_ppi: '268'
+screen_res: 720x1440
+screen_tech: IPS LCD
+sdcard: Up to 256 GB
+soc: Qualcomm MSM8917 Snapdragon 425 (rhannah) / Qualcomm MSM8937 Snapdragon 430 (hannah) / Qualcomm MSM8940 Snapdragon 435 (hannah_t, hannah_sprint)
+storage: 16/32/64 GB
+tree: android_device_motorola_hannah
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [16.0]
+width: 75.3 mm (3 in)
+wifi: 802.11 a/b/g/n, Dual band, Wi-Fi Direct, Hotspot
