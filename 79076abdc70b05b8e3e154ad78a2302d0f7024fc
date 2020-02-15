@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "25ba53ac_4a842957",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 20
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-15T09:37:26Z",
+      "side": 1,
+      "message": "Agree.",
+      "parentUuid": "13f8a78e_7c7d57db",
+      "range": {
+        "startLine": 24,
+        "startChar": 6,
+        "endLine": 24,
+        "endChar": 15
+      },
+      "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "c14a060d_ec77c970",
         "filename": "_data/devices/davinci.yml",
         "patchSetId": 20
@@ -70,6 +94,24 @@
       "writtenOn": "2020-02-14T00:42:56Z",
       "side": 1,
       "message": "Add:\n\nmodels: [K20, Mi 9T]\n\nTo get a \"Supported models\" list like in the bottom right of this page by haggertk for example: https://wiki.lineageos.org/devices/klte\n\nSee line 22 in https://review.lineageos.org/c/LineageOS/lineage_wiki/+/241919/13/_data/devices/klte.yml",
+      "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6a11fd66_21b07551",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 20
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-02-15T09:37:26Z",
+      "side": 1,
+      "message": "That field is for models, not for device names. For example, K20 model M1903F10I.",
+      "parentUuid": "15173b6d_a8d5e5a5",
       "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
