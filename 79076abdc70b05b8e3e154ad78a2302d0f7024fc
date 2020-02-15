@@ -66,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "c1ea06fe_29d39de9",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 20
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2020-02-15T13:57:41Z",
+      "side": 1,
+      "message": "➜  xiaomi_davinci_dump (b5f8793d) ✗ ls modem/image/ | grep bdwlan.b | sort -u\nbdwlan.b04\nbdwlan.b07\nbdwlan.b09\nbdwlan.b0a\nbdwlan.b0b\nbdwlan.b0d\nbdwlan.b0e\nbdwlan.b0f\nbdwlan.b14\nbdwlan.b15\nbdwlan.b30\nbdwlan.b31\nbdwlan.b32\nbdwlan.b33\nbdwlan.b34\nbdwlan.b35\nbdwlan.b36\nbdwlan.b37\nbdwlan.b38\nbdwlan.b4c\nbdwlan.b4d\nbdwlan.b53\nbdwlan.bin",
+      "parentUuid": "c14a060d_ec77c970",
+      "revId": "79076abdc70b05b8e3e154ad78a2302d0f7024fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "40cd1e98_3161eb13",
         "filename": "_data/devices/davinci.yml",
         "patchSetId": 20
