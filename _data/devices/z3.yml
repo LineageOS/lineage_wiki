@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=4349826312261608982
+custom_recovery_link: https://androidfilehost.com/?fid=4349826312261722030
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 330
