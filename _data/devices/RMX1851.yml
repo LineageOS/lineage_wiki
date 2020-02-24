@@ -10,7 +10,6 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 16.0
-custom_recovery_link: https://sourceforge.net/projects/hyperteam/files/nibaji/rmx1851/twrp/twrp-3.3.1-0-RMX1851-9.x-20200210-2002.img/download
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 gpu: Adreno 616
