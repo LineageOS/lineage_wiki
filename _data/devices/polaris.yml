@@ -4,7 +4,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP + 12 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: polaris
 cpu: Kryo 385
 cpu_cores: '8'
