@@ -13,10 +13,10 @@ versions: [16.0, 15.1]
 
 ## Maintainers
 
-### Head developers
+### LineageOS Directors - Head developers
 
 Head developers have extensive knowledge of the OS, and are project leads. These people have responsibility over the direction of
-the project and are committed to improving it.
+the Lineage project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
