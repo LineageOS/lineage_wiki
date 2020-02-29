@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "281b20e9_3d9e4876",
+        "filename": "pages/contributors.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-02-29T20:58:36Z",
+      "side": 1,
+      "message": "not sure if this still fits, was left over from infra description.",
+      "range": {
+        "startLine": 72,
+        "startChar": 136,
+        "endLine": 72,
+        "endChar": 179
+      },
+      "revId": "f28e553403f303f218befa2c28883116eaec402e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
