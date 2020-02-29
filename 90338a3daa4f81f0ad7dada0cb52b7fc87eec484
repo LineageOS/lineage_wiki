@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a25aa221_3eb300b5",
+        "filename": "_includes/templates/device_specific/before_dd_recovery_g2-common.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2020-02-29T11:12:54Z",
+      "side": 1,
+      "message": "Is this better?",
+      "range": {
+        "startLine": 6,
+        "startChar": 3,
+        "endLine": 6,
+        "endChar": 21
+      },
+      "revId": "90338a3daa4f81f0ad7dada0cb52b7fc87eec484",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
