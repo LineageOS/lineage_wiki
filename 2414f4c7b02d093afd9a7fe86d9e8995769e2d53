@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c6a11c7b_ee9bf40f",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 33
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-29T07:34:06Z",
+      "side": 1,
+      "message": "Should be:\n\n6. Manually reboot into recovery after turning off your device: press the Volume Down + Power buttons for 8~10 seconds until the screen turns black \u0026 release the buttons immediately when it does (or remove the battery to turn it off if you have a removable battery then re-insert the battery), then reboot to recovery:\n\nCan \"immediately\" be in bold?",
+      "range": {
+        "startLine": 71,
+        "startChar": 3,
+        "endLine": 71,
+        "endChar": 32
+      },
+      "revId": "2414f4c7b02d093afd9a7fe86d9e8995769e2d53",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
