@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "017f333a_01905b34",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 24
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2020-02-29T03:46:46Z",
+      "side": 1,
+      "message": "https://www.mi.com/redmik20/specs\n\n4G:\n\n\nLTE FDD：B1/B3/B5/B7/B8\nLTE TDD：B34/B38/B39/B40/B41\n注：LTE B41(2535–2655 120MHz)\n3G：\n\n\nWCDMA：B1/B2/B5/B8\nTD-SCDMA：B34/B39\nCDMA EVDO：BC0\n2G：\n\nGSM：B2/B3/B5/B8\nCDMA 1X：BC0",
+      "parentUuid": "cdc38f4e_8ad57be0",
+      "revId": "de3e788edbcbc9d793a81e9aedfe5d664f64dcd0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "6b18a8b9_5f7bc9e2",
         "filename": "_data/devices/davinci.yml",
         "patchSetId": 24
@@ -30,6 +48,24 @@
       "writtenOn": "2020-02-21T03:01:24Z",
       "side": 1,
       "message": "According to https://www.mi.com/in/redmi-k20/specs/ \u003e\u003e\u003e LTE TDD B38,B40, B41（120MHz） \nLTE FDD B1, B3, B5, B7, B8 \nAccording to https://www.mi.com/global/mi-9-t/specs \u003e\u003e\u003e LTE TDD: B38/B40\nLTE FDD: B1/B2/B3/B4/B5/B7/B8/B20/B28",
+      "revId": "de3e788edbcbc9d793a81e9aedfe5d664f64dcd0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0fda35fb_e4f9492f",
+        "filename": "_data/devices/davinci.yml",
+        "patchSetId": 24
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2020-02-29T03:46:46Z",
+      "side": 1,
+      "message": "https://www.mi.com/redmik20/specs\n\n4G:\n\n\nLTE FDD：B1/B3/B5/B7/B8\nLTE TDD：B34/B38/B39/B40/B41\n注：LTE B41(2535–2655 120MHz)\n3G：\n\n\nWCDMA：B1/B2/B5/B8\nTD-SCDMA：B34/B39\nCDMA EVDO：BC0\n2G：\n\nGSM：B2/B3/B5/B8\nCDMA 1X：BC0",
+      "parentUuid": "6b18a8b9_5f7bc9e2",
       "revId": "de3e788edbcbc9d793a81e9aedfe5d664f64dcd0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
