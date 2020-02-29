@@ -51,38 +51,32 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
+| Abhisek Devkota | ciwrl |
 | Adrian DC | adriandc |
 | Arne Coucheron | arco |
+| Michael W | baddaemon |
 | Bruno Martins | bgcngm |
 | Chirayu Desai | cdesai |
 | Christopher N. Hesse | raymanfx |
-| Christopher R. Palmer | crpalmer |
-| Clark Scheff | D34D |
-| Dan Pasanen | invisiblek |
 | Daniel Hillenbrand | codeworkx |
 | Danny Baumann | maniac103 |
-| Diogo Ferreira | defer |
-| Ed Carrigan | senyor |
 | Ethan Chen | intervigil |
-| Gabriele M | gmrt |
 | Harry Youd | harryyoud |
+| Paul Keith | javelinanddart |
 | Joey Rizzoli | joeyrizzoli |
-| Jorge Ruesga | jruesga |
-| Marcos Marado | marado |
-| Olivier Karasangabo | olivier97 |
-| Roman Birg | roman |
 | Tom Marshall | tdm |
-| Zhao Wei Liew | zwliew |
 {: .table }
 
 ### Developer relations managers
 
-Developer relations managers are responsible for running the day-to-day infrastructure and for keeping the health of the project.
-Although everyone has a responsibility to help new people join the community and protect the project’s health, these people maintain the contribution
+Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
+Although everyone has a responsibility to help new people join the community, and to protect the project’s health, these people maintain the contribution
 pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
 
 | Name | Nickname |
 |------|----------|
+| Kavin Haggerty | haggertk |
+| Nolen Johnson | npjohnson |
 | Tom Powell | zifnab |
 {: .table }
 
@@ -107,6 +101,17 @@ pathways that connect to potential contributors to teams that have contribution 
 </tbody>
 </table>
 {%- endfor %}
+
+### Infrastructure
+
+Infrastructure Manages are responsible for running the day-to-day infrastructure and managing interal signing processes.
+
+| Name | Nickname |
+|------|----------|
+| Tom Powell | zifnab |
+| Simon Shields | fourkbomb |
+{: .table }
+
 
 ## Translations
 
@@ -190,5 +195,6 @@ The following people are responsible for the verification of the contents and th
 | Bruno Martins | bgcngm |
 | Michael W | baddaemon |
 | Simon Shields | fourkbomb |
+| Nolen Johnson | npjohnson |
 | razorloves | razorloves |
 {: .table }
