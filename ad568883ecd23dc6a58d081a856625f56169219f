@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "98097da6_67fc5aa2",
+        "filename": "pages/contributors.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-02-29T21:22:29Z",
+      "side": 1,
+      "message": "Head Developers (LineageOS Directors)",
+      "revId": "ad568883ecd23dc6a58d081a856625f56169219f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "58b1afed_42556ebf",
+        "filename": "pages/contributors.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-02-29T21:22:29Z",
+      "side": 1,
+      "message": "No need to change this line",
+      "revId": "ad568883ecd23dc6a58d081a856625f56169219f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "96ea55ae_ef4f0940",
+        "filename": "pages/contributors.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-02-29T21:22:29Z",
+      "side": 1,
+      "message": "LineageOS Project",
+      "revId": "ad568883ecd23dc6a58d081a856625f56169219f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
