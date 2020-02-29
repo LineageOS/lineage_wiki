@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76046942_02c6f966",
+        "filename": "pages/contributors.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-29T23:13:21Z",
+      "side": 1,
+      "message": "Remove \"Trusted\" to reflect Gerrit\u0027s group name: Reviewers.",
+      "range": {
+        "startLine": 34,
+        "startChar": 4,
+        "endLine": 34,
+        "endChar": 11
+      },
+      "revId": "6f04d8068748740b318b954f4af666d93b8736bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
