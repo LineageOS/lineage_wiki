@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e7c606b4_98c8444f",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 27
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-02-29T07:38:36Z",
+      "side": 1,
+      "message": "Why is this step different from the Heimdall wiki instructions?\n\nShould be:\n\n14. Manually reboot into recovery after turning off your device: press the Volume Down + Power buttons for 8~10 seconds until the screen turns black \u0026 release the buttons immediately when it does (or remove the battery to turn it off if you have a removable battery then re-insert the battery), then reboot to recovery:",
+      "range": {
+        "startLine": 55,
+        "startChar": 4,
+        "endLine": 55,
+        "endChar": 131
+      },
+      "revId": "e511c5fd086029bf3a8665b71cb6a4e1dbb7fc65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
