@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
+channels: [discontinued]
 codename: crackling
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -19,7 +19,7 @@ height: 141.15 mm (5.56 in)
 image: crackling.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [jrior001]
+maintainers: []
 name: Swift
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
