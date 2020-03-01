@@ -6,7 +6,7 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 / 13 MP'}
 - {flash: '', info: '2 / 5 MP'}
-channels: [weekly]
+channels: [discontinued]
 codename: che10
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -19,7 +19,7 @@ image: cherry.png
 install_method: fastboot_huawei
 is_unlockable: false
 kernel: android_kernel_huawei_msm8916
-maintainers: [dianlujitao]
+maintainers: []
 name: Honor 4x (China Telecom)
 network:
 - {tech: 2G, bands: '900 1800 1900 MHz GSM, 800 MHz CDMA' }

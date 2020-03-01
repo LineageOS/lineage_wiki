@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP  F/2.0'}
 - {flash: '', info: '5 MP F/2.4'}
-channels: [nightly]
+channels: [discontinued]
 codename: oneplus2
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
@@ -17,7 +17,7 @@ height: 151.8 mm (6 in)
 image: oneplus2.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8994
-maintainers: [OzzysCmAcc, aviraxp]
+maintainers: []
 multiple_versions_reason: LineageOS 15.1 builds for this device support ANT+ and IMS (VoLTE, VoWiFi, Carrier Video Calling), while 16.0 does not due to compatibility issues with proprietary components. Choose which version of builds to use accordingly.
 name: '2'
 network:

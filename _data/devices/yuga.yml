@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13.1MP f/2.4'}
 - {flash: '', info: '2MP'}
-channels: [monthly]
+channels: [discontinued]
 codename: yuga
 cpu: Krait
 cpu_cores: '4'
@@ -18,7 +18,7 @@ image: yuga.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
 kernel: android_kernel_sony_apq8064
-maintainers: [Daedroza, CyberWalkMaN, MardonHH, Chippa_a, Adrian DC]
+maintainers: []
 name: Xperia Z
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }

@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8.1MP f/2.4'}
 - {flash: '', info: '2.2MP'}
-channels: [monthly]
+channels: [discontinued]
 codename: pollux_windy
 cpu: Krait
 cpu_cores: '4'
@@ -18,7 +18,7 @@ image: pollux.png
 install_method: fastboot_sony
 install_variant: sony_unlock_contacts sony_init_fota
 kernel: android_kernel_sony_apq8064
-maintainers: [CaHbKaUp, CyberWalkMaN, Daedroza, Chippa_a, Adrian DC]
+maintainers: []
 name: Xperia Tablet Z Wi-Fi
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB LPDDR2
