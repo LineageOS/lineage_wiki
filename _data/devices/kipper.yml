@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '8 MP'}
-channels: [nightly]
+channels: [discontinued]
 codename: kipper
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -19,7 +19,7 @@ height: 155.6 mm (6.12 in)
 image: kipper.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-maintainers: [jrior001]
+maintainers: []
 name: Storm
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
