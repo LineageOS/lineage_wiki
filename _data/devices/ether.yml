@@ -20,6 +20,9 @@ install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
 maintainers: [javelinanddart, mikeioannina, npjohnson]
 name: Robin
+note_show: true
+note_title: ANT+ and IMS support
+note_content: LineageOS 16.0 builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
 network:
 - {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
 - {tech: 3G, bands: '850 900 1700(AWS) 1800 1900 2100 MHz HSPA+' }
