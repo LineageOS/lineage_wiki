@@ -387,9 +387,6 @@ properties:
   models:
     "$id": "/properties/models"
     type: array
-  multiple_versions_reason:
-    "$id": "/properties/multiple_versions_reason"
-    type: string
   name:
     "$id": "/properties/name"
     minLength: 1
