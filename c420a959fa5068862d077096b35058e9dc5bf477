@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ddc3fe23_558e08be",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 41
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 24812
+      },
+      "writtenOn": "2020-03-03T05:17:42Z",
+      "side": 1,
+      "message": "Why does this file in that download folder has 2 dots? Heimdall-linux-master-012220..zip\n\nWhy not use the straightforward YYYYMMDD naming convention like all LineageOS packages?",
+      "revId": "c420a959fa5068862d077096b35058e9dc5bf477",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
