@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "53d70953_703a4915",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2020-03-06T17:33:43Z",
+      "side": 1,
+      "message": "Also U actually have to wait for a certain amount of time to unlock, for instance, 7 days at least for a non-beta account",
+      "revId": "50f15874e96832c966eeb14387a66264eb478741",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
