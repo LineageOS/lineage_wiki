@@ -21,10 +21,7 @@ kernel: android_kernel_samsung_msm8930-common
 maintainers: []
 models: [SM-T217S]
 name: Galaxy Tab 3 7.0 LTE
-network:
-- {tech: 2G, bands: '800 1900 MHz CDMA' }
-- {tech: 3G, bands: 'CDMA2000 1xEV-DO CDMA2000 1xRTT' }
-- {tech: 4G, bands: '1900 MHz LTE' }
+network: [2G, 3G, 4G]
 no_oem_unlock_switch: true
 peripherals: [IR blaster, Accelerometer, Light sensor, Compass]
 ram: 1.5 GB

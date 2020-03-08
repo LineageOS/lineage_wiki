@@ -21,10 +21,7 @@ kernel: android_kernel_sony_msm8994
 maintainers: []
 models: [E6653, E6683, E6633]
 name: Xperia Z5
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700(AWS) 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) LTE' }
+network: [2G, 3G, 4G]
 peripherals: [Wi-Fi Display, MHL HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and <kbd>Power</kbd> buttons.

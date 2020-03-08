@@ -22,10 +22,7 @@ kernel: android_kernel_sony_msm8974
 maintainers: [Tom1000, Myself5]
 models: [D6603]
 name: Xperia Z3
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 HSDPA' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 13(700) 17(700) 20(800) LTE' }
+network: [2G, 3G, 4G]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, Light sensor, MHL, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

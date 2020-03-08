@@ -22,10 +22,7 @@ kernel: android_kernel_lenovo_msm8953
 maintainers: [mikeioannina, highwaystar]
 models: [P2a42]
 name: P2
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 20(800) 28(700) 38(2600) 40(2300) LTE' }
+network: [2G, 3G, 4G]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, RGB ambient light, USB OTG, Wi-Fi Display]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

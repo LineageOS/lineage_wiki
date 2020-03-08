@@ -19,8 +19,7 @@ install_method: fastboot_nexus
 kernel: android_kernel_samsung_tuna
 maintainers: []
 name: Galaxy Nexus LTE (Verizon)
-network:
-- {tech: 4G, bands: '700 MHz (Band 13)' }
+network: [4G]
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
