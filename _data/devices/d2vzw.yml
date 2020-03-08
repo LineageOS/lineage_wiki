@@ -20,9 +20,9 @@ maintainers: []
 models: [SCH-I535]
 name: Galaxy S III (Verizon)
 network:
-- {tech: 2G, bands: '800 1900 MHz CDMA' }
-- {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '13(700)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, A-GPS, NFC]
 ram: 2 GB

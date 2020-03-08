@@ -56,13 +56,8 @@ definitions:
         - 2G
         - 3G
         - 4G
-      bands:
-        description: The supported bands for the given technology
-        minLength: 5
-        type: string
     required:
     - tech
-    - bands
     type: object
   valid_architectures:
     enum:

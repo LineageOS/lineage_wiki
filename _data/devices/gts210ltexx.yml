@@ -21,9 +21,9 @@ maintainers: []
 models: [SM-T815]
 name: Galaxy Tab S2 9.7 (LTE)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 17(700) 20(800) LTE' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Compass, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

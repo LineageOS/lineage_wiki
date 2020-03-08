@@ -22,8 +22,8 @@ maintainers: []
 models: [GT-I9192]
 name: Galaxy S4 Mini (International Dual SIM)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 2G }
+- {tech: 3G }
 no_oem_unlock_switch: true
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integration, FM radio, Infrared sensor, GPS, GLONASS]
 ram: 1.5 GB

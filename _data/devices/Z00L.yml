@@ -19,9 +19,9 @@ maintainers: []
 models: [ZE500KL, ZE550KL]
 name: Zenfone 2 Laser (720p)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '2100 1900 1800 1700(AWS) 850 2600 900 700 800 MHz' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

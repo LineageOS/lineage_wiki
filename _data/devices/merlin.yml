@@ -20,9 +20,9 @@ maintainers: []
 models: [XT1556, XT1557]
 name: Moto G3 Turbo
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 2100 MHz HSDPA (Asia), 850 900 1700 1900 2100 MHz HSDPA (Latin America, Brazil)' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 28(700) (Asia), 4(1700) 7(2600) 28 (700) (Latin America, Brazil)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

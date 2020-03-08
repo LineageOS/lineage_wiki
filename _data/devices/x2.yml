@@ -21,9 +21,9 @@ maintainers: [tortel, ThEMarD]
 models: [LEX820, LEX821, LEX822, LEX829]
 name: Le Max2
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 MHz CDMA2000 1xEV-DO (China / North America models)' }
-- {tech: 3G, bands: '1(2100) 2(1900) 4(1700/2100) 5(850) 8(900) 34(2000) 39(1900)' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 20(800) 25(1900) 26(850) 30(2300) 38(2600) 39(1900) 40(2300) 41(2500)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

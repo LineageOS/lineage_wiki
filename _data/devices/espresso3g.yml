@@ -27,7 +27,7 @@ maintainers: []
 models: [P3100, P5100]
 name: Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz' }
+- {tech: 2G }
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB

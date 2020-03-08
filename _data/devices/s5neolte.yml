@@ -21,9 +21,9 @@ maintainers: [danwood76, Stricted]
 models: [SM-G903F, SM-G903M, SM-G903W]
 name: Galaxy S5 Neo
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 HSDPA' }
-- {tech: 4G, bands: '1(2100), 3(1800), 5(850), 7(2600), 8(900), 20(800) LTE' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [A-GPS, Accelerometer, Compass, GLONASS,
     GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light,
     Sensor hub, USB OTG, Wi-Fi Display]

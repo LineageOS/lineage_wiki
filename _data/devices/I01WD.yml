@@ -22,9 +22,9 @@ kernel: android_kernel_asus_sm8150
 maintainers: [luca020400, OrdenKrieger]
 name: Zenfone 6 (ZS630KL)
 network:
-- {tech: 2G, bands: 'EDGE/GPRS/GSM (850, 900, 1800, 1900MHz)' }
-- {tech: 3G, bands: 'WCDMA (Bands 1, 2, 3, 4, 5, 6, 8, 19)' }
-- {tech: 4G, bands: 'FDD-LTE (Bands 1, 2, 3, 4, 5, 7, 8, 12, 17, 18, 19, 26, 28), TD-LTE (Bands 38, 39, 41, 46)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS,  GPS, Gyroscope, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

@@ -24,9 +24,9 @@ models:
 - YU5510
 name: Yureka / Yureka Plus
 network:
-- {tech: 2G, bands: '900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '700 1700/2100 1800 2100 2600 FDD, 2300 2600 TDD' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [GPS, Light sensor, Proximity sensor]
 ram: 2 GB

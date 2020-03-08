@@ -20,9 +20,9 @@ maintainers: [karthick111, nibaji, darshan1205]
 models: [RMX1851]
 name: 3 Pro
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 2100 MHz (India) / 850 900 1700 1900 2100 MHz (EU) WCDMA' }
-- {tech: 4G, bands: '850 900 1800 2100 MHz (India) / 700 800 850 900 1700/2100 1800 1900 2100 2600 MHz (EU) FDD-LTE, 2300 2500 2600  MHz (India) / 1900 2300 2500 2600 MHz (EU) TD-LTE' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio, USB OTG]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

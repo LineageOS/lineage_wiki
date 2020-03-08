@@ -22,9 +22,9 @@ maintainers: []
 models: [SM-T377P]
 name: Galaxy Tab E 8.0 LTE (Sprint)
 network:
-- {tech: 2G, bands: '800 1900 MHz CDMA' }
-- {tech: 3G, bands: 'CDMA2000 1xEV-DO CDMA2000 1xRTT' }
-- {tech: 4G, bands: '800 1900 2500 MHz LTE' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB

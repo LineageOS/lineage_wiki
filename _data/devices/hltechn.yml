@@ -21,9 +21,9 @@ maintainers: [haggertk, npjohnson]
 models: [SM-N9008V]
 name: Galaxy Note 3 LTE (N9008V)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2000 2100 MHz HSDPA' }
-- {tech: 4G, bands: '40(2300)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
 ram: 3 GB
