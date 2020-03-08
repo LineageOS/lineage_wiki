@@ -20,9 +20,9 @@ maintainers: []
 models: [XT875]
 name: Droid Bionic
 network:
-- {tech: 2G, bands: '800 1900 MHz CDMA' }
-- {tech: 3G, bands: 'CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '13(700)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.

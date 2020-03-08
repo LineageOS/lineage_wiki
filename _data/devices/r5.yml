@@ -23,9 +23,9 @@ maintainers: [maniac103]
 models: [R8106, R8106s]
 name: R5/R5s (International)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSPA+ (R5), 850 900 1900 2100 MHz HSPA+ (R5s)' }
-- {tech: 4G, bands: '1(2100) 3(1800) 4(1700/2100) 7(2600) 8(900) 17(700) 20(800) 28(700) 40(2300) LTE(Cat. 4) (R5), 1(2100) 3(1800) 7(2600) 40(2300) LTE(Cat. 4) (R5s)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Compass, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"

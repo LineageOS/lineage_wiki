@@ -87,22 +87,16 @@
         <td>{{ device.gpu }}</td>
     </tr>
     {% if device.network %}
-    {% if device.network[0].bands != '' or device.network[1].bands != '' or device.network[2].bands != '' %}
     <tr>
         <th scope="row">Network</td>
         <td>
             <ul>
                 {% for el in device.network %}
-                    {% if el.bands != '' %}
-                        <li>{{ el.tech }} bands: {{ el.bands }}</li>
-                    {% else %}
-                        {% continue %}
-                    {% endif %}
+                    <li>{{ el.tech }}</li>
                 {% endfor %}
             </ul>
         </td>
     </tr>
-    {% endif %}
     {% endif %}
     <tr>
         <th scope="row">Storage</td>

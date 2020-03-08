@@ -20,9 +20,9 @@ maintainers: []
 models: [XT1072, XT1077, XT1078, XT1079]
 name: Moto G 2014 LTE
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA (International), 850 1700 1900 2100 MHz HSDPA (T-Mobile, AT&T), CDMA2000 1xEV-DO' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 20(800)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

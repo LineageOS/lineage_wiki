@@ -21,9 +21,9 @@ kernel: android_kernel_lge_msm8952
 maintainers: []
 name: G Pad X (T-Mobile)
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '2(1900) 3(1800) 4(1700) 7(2600) 12(700)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Gyroscope, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

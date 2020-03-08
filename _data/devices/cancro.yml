@@ -30,8 +30,8 @@ models:
 - MI4
 name: Mi 3 / Mi 4
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM, 800 1900 MHz CDMA' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 2G }
+- {tech: 3G }
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
 ram: 2 GB (Mi 3) / 3 GB (Mi 4)

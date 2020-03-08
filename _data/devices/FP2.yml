@@ -21,9 +21,9 @@ maintainers: [chrmhoffmann]
 models: [FP2]
 name: FP2
 network:
-- {tech: 2G, bands: '850 900 1800 1900' }
-- {tech: 3G, bands: '8(900) 2(1900) 1(2100) ' }
-- {tech: 4G, bands: '3(1800) 7(2600) 20(800)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Compass, Accelerometer, Gyroscope, Light sensor, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.

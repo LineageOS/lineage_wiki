@@ -22,9 +22,9 @@ maintainers: [LuK1337, Stricted, cdesai]
 models: [H3113, H4113, H3133, H4133, H3123]
 name: Xperia XA2
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 5 (850) 7 (2600) 8 (900) 20 (800) LTE' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

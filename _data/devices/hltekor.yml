@@ -21,9 +21,9 @@ maintainers: [haggertk, npjohnson]
 models: [SM-N900K, SM-N900L, SM-N900S]
 name: Galaxy Note 3 LTE (N900K/L/S)
 network:
-- {tech: 2G, bands: '850 900 1900 2100 MHz GSM (N900K/S), 850 1900 2100 MHz GSM (N900L)' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz GSM (N900K/S), 850 1900 2100 MHz GSM (N900L)' }
-- {tech: 4G, bands: '3(1800) 8(900) (N900K), 1(2100) 3(1800) 7(2600) 8(900) 17(700) (N900L), 3(1800) 5(850) 17(700) (N900S)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer, Hygrometer, NFC, GPS, GLONASS]
 ram: 3 GB

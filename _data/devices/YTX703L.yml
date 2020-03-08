@@ -23,9 +23,9 @@ maintainers: [Quallenauge, Vladimir Oltean]
 models: [YTX703L, YTX703X]
 name: Yoga Tab 3 Plus LTE
 network:
-- {tech: 2G, bands: '850 900 1800 1900' }
-- {tech: 3G, bands: 'EMEA: 850 900 1900 2100; ROW: 850 900 1700(AWS) 1900 2100' }
-- {tech: 4G, bands: 'EMEA: 1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800) 38(2600) 39(1900) 40(2300) 41(2500); ROW: 1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(800) 21(1500) 25(1900) 26(850) 28(700) 30(2300) 41(2500)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, Light sensor, Sensor hub, Dual front speakers, Wi-Fi Display]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

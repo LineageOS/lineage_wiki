@@ -22,9 +22,9 @@ maintainers: []
 models: [kingdom_row (ROW), kingdomt (CN)]
 name: Vibe Z2 Pro
 network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 20(800)' }
+- {tech: 2G }
+- {tech: 3G }
+- {tech: 4G }
 peripherals: [GPS, NFC, FM radio, Hall effect sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.

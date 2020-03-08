@@ -20,7 +20,7 @@ kernel: android_kernel_samsung_tuna
 maintainers: []
 name: Galaxy Nexus LTE (Sprint)
 network:
-- {tech: 4G, bands: '1900 MHz (Band 25)' }
+- {tech: 4G }
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
