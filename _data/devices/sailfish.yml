@@ -21,10 +21,7 @@ is_ab_device: true
 kernel: android_kernel_google_marlin
 maintainers: [intervigil, razorloves]
 name: Pixel
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '800 850 900 1700(AWS) 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100), 2(1900), 3(1800), 4(1700/2100), 5(850), 7(2600), 8(900), 12(700), 13(700), 17(700), 18(800), 19(800), 20(800), 21(1500), 26(850), 28(700), 32(1500), 38(2600), 39(1900), 40(2300), 41(2500) LTE' }
+network: [2G, 3G, 4G]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, Light sensor, Barometer, NFC]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.

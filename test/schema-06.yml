@@ -47,23 +47,6 @@ definitions:
     type:
     - integer
     - string
-  network_data:
-    description: The format required for network
-    properties:
-      tech:
-        description: The technology
-        enum:
-        - 2G
-        - 3G
-        - 4G
-      bands:
-        description: The supported bands for the given technology
-        minLength: 5
-        type: string
-    required:
-    - tech
-    - bands
-    type: object
   valid_architectures:
     enum:
     - arm
@@ -92,6 +75,14 @@ definitions:
         description: Map of model number to dimension
         type: object
       type: array
+  valid_networks:
+    description: All valid networks a device can support
+    enum:
+    - 2G
+    - 3G
+    - 3G
+    - 5G
+    type: string
   valid_peripherals:
     description: All valid peripherals a device can have
     items:
@@ -393,12 +384,11 @@ properties:
     type: string
   network:
     "$id": "/properties/network"
-    oneOf:
-    - "$ref": "#/definitions/network_data"
-    - items:
-        "$ref": "#/definitions/network_data"
-        type: object
-      type: array
+    items:
+      "$id": "/properties/network/items"
+      "$ref": "#/definitions/valid_networks"
+    minItems: 0
+    type: array
   peripherals:
     "$id": /properties/peripherals
     oneOf:

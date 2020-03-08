@@ -20,10 +20,7 @@ install_method: dd
 kernel: android_kernel_lge_msm8226
 maintainers: []
 name: 'G2 Mini'
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 3(1800) 7(2600) 8(900) 20(800) (D620), 1(2100) 3(1800) 7(2600) 8(900) (D620K)' }
+network: [2G, 3G, 4G]
 peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

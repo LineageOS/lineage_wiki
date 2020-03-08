@@ -21,10 +21,7 @@ kernel: android_kernel_motorola_msm8953
 maintainers: []
 models: [XT1635-02]
 name: Moto Z Play
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA, 850 900 1700(AWS) 1900 2100 MHz HSDPA (US, Canada)' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(850) 20(800) 28(700) 38(2600) 40(2300) 41(2500) LTE' }
+network: [2G, 3G, 4G]
 peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
