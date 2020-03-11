@@ -18,10 +18,7 @@ install_method: fastboot_nexus
 kernel: android_kernel_asus_P024
 maintainers: []
 name: ZenPad 8.0 (Z380KL)
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 5(850) 7(2600) 8(900) 20(800) LTE' }
+network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1/2 GB
 recovery_boot: ''
