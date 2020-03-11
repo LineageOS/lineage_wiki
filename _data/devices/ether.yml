@@ -23,10 +23,7 @@ name: Robin
 note_show: true
 note_title: ANT+ and IMS support
 note_content: LineageOS 16.0 builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
-network:
-- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
-- {tech: 3G, bands: '850 900 1700(AWS) 1800 1900 2100 MHz HSPA+' }
-- {tech: 4G, bands: '1(2100) 2(1900) 3(1800) 4(1700/2100) 5(850) 7(2600) 8(900) 12(700) 17(700) 19(850) 20(800) 28(700) LTE(Cat. 4)' }
+network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall effect sensor, Proximity sensor, Fingerprint reader, NFC]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
