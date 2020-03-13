@@ -19,7 +19,7 @@ image: guacamole.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_oneplus_sm8150
-maintainers: [PeterCxy, LuK1337, Tortel]
+maintainers: [LuK1337, Tortel]
 name: '7 Pro'
 network:
 - {tech: 2G, bands: '850 / 900 / 1800 / 1900' }
