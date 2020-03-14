@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "0e5c38ca_ddde0466",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-03-14T05:35:08Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be just One Power?  The wiki will have \"Motorola Motorola One Power\". Also, hudson change should match.",
+      "range": {
+        "startLine": 23,
+        "startChar": 6,
+        "endLine": 23,
+        "endChar": 24
+      },
+      "revId": "a4dcd07b469902f655365d94643421209228ff43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
