@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+before_lineage_install: before_lineage_install_ab_copy_partitions
+bluetooth: {spec: '5.0', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
+- {flash: '', info: '12 MP'}
+channels: [nightly]
+codename: lake
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
+current_branch: 17.1
+depth: 8.3 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 509
+height: 157 mm (6.18 in)
+image: lake.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_msm8998
+maintainers: [Jleeblanch]
+models: [XT1965-2, XT1965-3, XT1965-6]
+name: 'Moto G7 Plus'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 5 (850) 7 (2600) 8 (900) 18 (800) 19 (800) 20 (800) 26 (850) 28 (700) 38 (2600) 40 (2300) 41 (2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2019-02
+screen: 96.2 mm (6.2 in)
+screen_ppi: '405'
+screen_res: 1080x2270
+screen_tech: LTPS IPS LCD
+sdcard: Up to 256 GB
+soc: Qualcomm SDM636 Snapdragon 636
+storage: 64 GB
+tree: android_device_motorola_lake
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [16.0, 17.1]
+width: 75.3 mm (2.96 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
