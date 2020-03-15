@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {removable: False, capacity: 3200 , tech: 'Li-Ion'}
+before_lineage_install: before_lineage_install_ab_copy_partitions
+bluetooth: {spec: '5.0', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
+- {flash: 'LED', info: '8 MP'}
+channels: [nightly]
+codename: evert
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.2 GHz
+current_branch: 17.1
+depth: 8.0 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 508
+height: 160 mm (6.3 in)
+image: evert.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_msm8998
+maintainers: [Jleeblanch]
+models: [XT1926-2, XT1926-3, XT1926-5, XT1926-6, XT1926-7, XT1926-8, XT1926-9]
+name: 'Moto G7 Plus'
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1 (2100) 2 (1900) 3 (1800) 5 (850) 7 (2600) 8 (900) 18 (800) 19 (800) 20 (800) 26 (850) 28 (700) 38 (2600) 40 (2300) 41 (2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
+  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2018-05
+screen: 84.5 mm (5.2 in)
+screen_ppi: '409'
+screen_res: 1080x1920
+screen_tech: IPS LCD
+sdcard: Up to 256 GB
+soc: Qualcomm SDM630 Snapdragon 630
+storage: 64/128 GB
+tree: android_device_motorola_evert
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [16.0, 17.1]
+width: 75.5 mm (2.9 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
