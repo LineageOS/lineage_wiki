@@ -66,6 +66,14 @@ heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 5. A blue transfer bar will appear on the device showing the recovery image being flashed.
+5. If the device shows `Custom Binary(RECOVERY) Blocked By FRP Lock`
+{% if device.force_power_off %}
+     * {{ device.force_power_off }}
+{% else %}
+     * Power of your device
+{% endif %}
+     * Boot your device, enter **Settings** -> **Developer Mode** and enable **OEM Unlock**
+     * Retry installing the custom recovery
 6. Unplug the USB cable from your device.
 7. Manually reboot into recovery, this may require pulling your battery, or holding the below keycombo until the device reboots:
     * {{ device.recovery_boot }}

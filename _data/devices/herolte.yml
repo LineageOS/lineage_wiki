@@ -29,6 +29,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
   RGB ambient light, Infrared sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+force_power_off: Hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> for 5-7s
 release: 2016-03-18
 screen: 129.5 mm (5.1 in)
 screen_ppi: '577'
