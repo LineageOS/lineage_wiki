@@ -22,6 +22,30 @@
       "revId": "47df8b7dfdf4ffc6417217a98cc1457bd6c63dba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "44b01117_de9d5182",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-03-20T15:34:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b02ee772_a808406c",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 44
+      },
+      "revId": "47df8b7dfdf4ffc6417217a98cc1457bd6c63dba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
