@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9236e18b_8d6328b2",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 140,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-20T15:11:29Z",
+      "side": 1,
+      "message": "product.img must be also listed",
+      "revId": "9a154f9b2ba93512543b529c4877fe9fbd35eec8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "deb11885_7d83a300",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 155,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-20T15:11:29Z",
+      "side": 1,
+      "message": "umount -r so we are sure everything is unmounted",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 155,
+        "endChar": 41
+      },
+      "revId": "9a154f9b2ba93512543b529c4877fe9fbd35eec8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
