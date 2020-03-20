@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b02ee772_a808406c",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-20T15:32:44Z",
+      "side": 1,
+      "message": "sudo umount -R ~/android/system_dump/system/\nCan be replaced with that",
+      "range": {
+        "startLine": 155,
+        "startChar": 0,
+        "endLine": 157,
+        "endChar": 44
+      },
+      "revId": "47df8b7dfdf4ffc6417217a98cc1457bd6c63dba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
