@@ -4,12 +4,12 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 13MP'}
 - {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 13MP'}
-channels: [weekly]
+channels: [nightly]
 codename: I01WD
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1x2.84 GHz & 3x2.41 GHz & 4x1.78 GHz
-current_branch: 16.0
+current_branch: 17.1
 depth: 9.2 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the words "Fastboot Mode" appear on the screen, then release.
@@ -39,6 +39,6 @@ tree: android_device_asus_I01WD
 type: phone
 vendor: Asus
 vendor_short: asus
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac
