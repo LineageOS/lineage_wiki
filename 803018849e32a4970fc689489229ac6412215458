@@ -69,6 +69,24 @@
       "revId": "803018849e32a4970fc689489229ac6412215458",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "fd993cec_6fb49e40",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2020-03-25T20:39:59Z",
+      "side": 1,
+      "message": "It needs to be a priv-app to work properly, this won\u0027t happen of installed via play store",
+      "parentUuid": "57d46ccb_e33da2f1",
+      "revId": "803018849e32a4970fc689489229ac6412215458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
