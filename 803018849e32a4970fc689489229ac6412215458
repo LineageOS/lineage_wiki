@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "828a08ee_5a4de767",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-03-25T20:03:08Z",
+      "side": 1,
+      "message": "Nano (this and speech files) enabled hotword detection - that\u0027s why we recommend the nano package.",
+      "range": {
+        "startLine": 17,
+        "startChar": 2,
+        "endLine": 17,
+        "endChar": 21
+      },
+      "revId": "803018849e32a4970fc689489229ac6412215458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f4c5aa30_d948ec79",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-03-25T20:03:08Z",
+      "side": 1,
+      "message": "Most people really want this...",
+      "range": {
+        "startLine": 19,
+        "startChar": 2,
+        "endLine": 19,
+        "endChar": 26
+      },
+      "revId": "803018849e32a4970fc689489229ac6412215458",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
