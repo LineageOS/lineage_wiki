@@ -1,0 +1,550 @@
+---
+"$schema": http://json-schema.org/draft-06/schema#
+definitions:
+  architecture_data:
+    properties:
+      cpus:
+        "$ref": "#/definitions/valid_architectures"
+      userspace:
+        "$ref": "#/definitions/valid_architectures"
+    required:
+    - cpu
+    - userspace
+    type: object
+  battery_data:
+    description: The format required for battery
+    properties:
+      capacity:
+        description: The size of the battery in [mAh]
+        type: number
+      fastcharge:
+        description: If the device is capable of fast charging
+        type: boolean
+      removable:
+        description: Defines whether the battery is removable
+        type: boolean
+      tech:
+        description: The battery technology
+        enum:
+        - Li-Ion
+        - Li-Po
+    required:
+    - capacity
+    - removable
+    type: object
+  dimension_string:
+    pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
+    type: string
+  iso8601_reduced_precision_date:
+    description: Date in ISO8601 reduced precision format
+    examples:
+    - YYYY
+    - YYYY-MM
+    - YYYY-MM-DD
+    maximum: 2030
+    minimum: 1990
+    pattern: ^\d{4}((-\d{2})?-\d{2})?$
+    type:
+    - integer
+    - string
+  valid_architectures:
+    enum:
+    - arm
+    - arm64
+    - x86
+    - x86_64
+    type: string
+  valid_branches:
+    description: Valid branches a device can be on
+    enum:
+    - 13.0
+    - 14.1
+    - 15.1
+    - 16.0
+    - 17.1
+    type: number
+  valid_dimension:
+    oneOf:
+    - "$ref": "#/definitions/dimension_string"
+    - description: Array of maps of model numbers dimension
+      examples:
+      - SM-9000A: 254 mm (10 in)
+      - SM-9000B:  127 mm (5 in)
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/dimension_string"
+        description: Map of model number to dimension
+        type: object
+      type: array
+  valid_networks:
+    description: All valid networks a device can support
+    enum:
+    - 2G GSM
+    - 2G CDMA
+    - 3G UMTS
+    - 3G CDMA2000
+    - 4G LTE
+    - 5G
+    type: string
+  valid_peripherals:
+    description: All valid peripherals a device can have
+    items:
+      enum:
+      - A-GPS
+      - Accelerometer
+      - Audio Coprocessor
+      - Barometer
+      - Color spectrum sensor
+      - Compass
+      - Dual SIM
+      - Dual front speakers
+      - Dual side NFC
+      - Dual-frequency GNSS
+      - Essential Accessories
+      - FM radio
+      - Fingerprint reader
+      - BeiDou
+      - Galileo
+      - GLONASS
+      - GPS
+      - NAVIC
+      - SBAS
+      - QZSS
+      - Gesture sensor
+      - Gyroscope
+      - HDMI
+      - Hall effect sensor
+      - Hardware keyboard
+      - Heart rate sensor
+      - Hygrometer
+      - IR blaster
+      - IR camera
+      - Iceview Cases
+      - Infrared sensor
+      - Light sensor
+      - MHL
+      - MHL 2.0
+      - MHL HDMI
+      - Mobility DisplayPort (MyDP)
+      - Motion Coprocessor
+      - Moto Mods
+      - NFC
+      - Pedometer
+      - Proximity sensor
+      - Qi wireless charging
+      - RGB ambient light
+      - SNS integration
+      - Sensor hub
+      - Thermometer
+      - Ultrasound proximity sensor
+      - USB OTG
+      - Wi-Fi Display
+      type: string
+    type: array
+    uniqueItems: True
+properties:
+  architecture:
+    "$id": "/properties/architecture"
+    description: The CPU architecture of the device.
+    oneOf:
+    - "$ref": "#/definitions/architecture_data"
+      description: An object to provide different architectures for cpu and userspace
+    - "$ref": "#/definitions/valid_architectures"
+      description: A string defining the architecture of cpu AND userspace
+  battery:
+    "$id": "/properties/battery"
+    oneOf:
+    - "$ref": "#/definitions/battery_data"
+    - description: Array of maps of model numbers to battery data
+      examples:
+      - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
+      - SM-9000B:  {removable: False, size: 3500, tech: 'Li-Po'}
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/battery_data"
+        description: Map of model number to battery_data
+        type: object
+      type: array
+    - enum:
+      - None
+  bluetooth:
+    "$id": "/properties/bluetooth"
+    properties:
+      profiles:
+        items:
+          description: Bluetooth profile
+          enum:
+          - A2DP
+          - A2DP + aptX
+          - A2DP + aptX HD
+          type: string
+        minItems: 1
+        type: array
+      spec:
+        description: Bluetooth specification
+        enum:
+        - '1.0'
+        - '1.0B'
+        - '1.1'
+        - '1.2'
+        - '2.0'
+        - '2.0 + EDR'
+        - '2.1'
+        - '2.1 + EDR'
+        - '3.0'
+        - '3.0 + HS'
+        - '4.0'
+        - '4.0 + LE'
+        - '4.1'
+        - '4.2'
+        - '5'
+        type: string
+    required:
+    - spec
+    type: object
+  carrier:
+    "$carrier": "/properties/carrier"
+    type: string
+  channels:
+    "$id": "/properties/channels"
+    items:
+      "$id": "/properties/channels/items"
+      enum:
+      - discontinued
+      - monthly
+      - nightly
+      - weekly
+    type: array
+  codename:
+    "$id": "/properties/codename"
+    minLength: 1
+    type: string
+  cpu:
+    "$id": "/properties/cpu"
+    enum:
+    - Cortex-A15
+    - Cortex-A15 & Cortex-A7
+    - Cortex-A53
+    - Cortex-A53 & Cortex-A53
+    - Cortex-A53 & Cortex-A57
+    - Cortex-A53 & Cortex-A72
+    - Cortex-A57
+    - Cortex-A7
+    - Cortex-A72
+    - Cortex-A73 & Cortex-A53
+    - Cortex-A9
+    - Denver
+    - Exynos M1 & Cortex-A53
+    - Exynos M3 & Cortex-A55
+    - Intel Atom
+    - Krait
+    - Krait 200
+    - Krait 300
+    - Krait 400
+    - Krait 450
+    - Kryo
+    - Kryo 260
+    - Kryo 280
+    - Kryo 360
+    - Kryo 385
+    - Kryo 460
+    - Kryo 470
+    - Kryo 485
+    - Kryo 495
+  cpu_cores:
+    "$id": "/properties/cpu_cores"
+    minLength: 1
+    minimum: 1
+    type:
+    - integer
+    - string
+  cpu_freq:
+    "$id": "/properties/cpu_freq"
+    minLength: 3
+    type: string
+  current_branch:
+    "$id": "/properties/current_branch"
+    "$ref": "#/definitions/valid_branches"
+  custom_recovery_codename:
+    "$id": "/properties/custom_recovery_codename"
+    type: string
+  custom_recovery_link:
+    "$id": "/properties/custom_recovery_link"
+    type: string
+    pattern: ^https?:\/\/(.*)
+  custom_unlock_cmd:
+    "$id": "/properties/custom_unlock_cmd"
+    minLength: 10
+    type: string
+  depth:
+    "$id": "/properties/depth"
+    "$ref": "#/definitions/valid_dimension"
+  download_boot:
+    "$id": "/properties/download_boot"
+    type: string
+  format_on_upgrade:
+    "$id": "/properties/format_on_upgrade"
+    type: boolean
+  gpu:
+    "$id": "/properties/gpu"
+    enum:
+    - ARM Mali-400 MP
+    - ARM Mali-400 MP4
+    - ARM Mali-G72 MP12
+    - ARM Mali-G72 MP18
+    - ARM Mali-T604
+    - ARM Mali-T628 MP6
+    - ARM Mali-T720 MP2
+    - ARM Mali-T760 MP6
+    - ARM Mali-T760 MP8
+    - ARM Mali-T830 MP3
+    - ARM Mali-T880 MP12
+    - Adreno 225
+    - Adreno 302
+    - Adreno 305
+    - Adreno 306
+    - Adreno 320
+    - Adreno 330
+    - Adreno 405
+    - Adreno 405/306
+    - Adreno 418
+    - Adreno 420
+    - Adreno 430
+    - Adreno 505
+    - Adreno 506
+    - Adreno 508
+    - Adreno 509
+    - Adreno 510
+    - Adreno 512
+    - Adreno 530
+    - Adreno 540
+    - Adreno 605
+    - Adreno 610
+    - Adreno 612
+    - Adreno 615
+    - Adreno 616
+    - Adreno 618
+    - Adreno 620
+    - Adreno 630
+    - Adreno 640
+    - Adreno 680
+    - GK20A (Kepler)
+    - GM20B (Maxwell)
+    - NVIDIA Kepler DX1 192-core
+    - NVIDIA Maxwell 256-core
+    - PowerVR G6430
+    - PowerVR SGX540
+    - PowerVR SGX544MP2
+    - PowerVR Series 6
+    - Tegra 4
+  height:
+    "$id": "/properties/height"
+    "$ref": "#/definitions/valid_dimension"
+  image:
+    "$id": "/properties/image"
+    pattern: ^\w*\.(png|jpg)$
+    type: string
+  install_method:
+    "$id": "/properties/install_method"
+    enum:
+    - dd
+    - edl_custom
+    - fastboot_custom
+    - fastboot_generic
+    - fastboot_htc
+    - fastboot_huawei
+    - fastboot_lenovo
+    - fastboot_lg
+    - fastboot_motorola
+    - fastboot_nexus
+    - fastboot_oppo
+    - fastboot_sony
+    - fastboot_realme
+    - fastboot_unlocked
+    - fastboot_xiaomi
+    - fastboot_zenfone
+    - heimdall
+    - odin
+  is_ab_device:
+    "$id": "/properties/is_ab_device"
+    type: boolean
+  is_unlockable:
+    "$id": "/properties/is_unlockable"
+    type: boolean
+  kernel:
+    "$id": "/properties/kernel"
+    pattern: ^(android_kernel(_\w*){2}(-common)?|lge-kernel-\w*)$
+    type: string
+  maintainers:
+    "$id": "/properties/maintainers"
+    minItems: 0
+    type: array
+  models:
+    "$id": "/properties/models"
+    type: array
+  name:
+    "$id": "/properties/name"
+    minLength: 1
+    type: string
+  network:
+    "$id": "/properties/network"
+    items:
+      "$id": "/properties/network/items"
+      "$ref": "#/definitions/valid_networks"
+    minItems: 0
+    type: array
+  peripherals:
+    "$id": /properties/peripherals
+    oneOf:
+    - "$ref": "#/definitions/valid_peripherals"
+    - items:
+        additionalProperties:
+          "$ref": "#/definitions/valid_peripherals"
+        description: Map of model number to valid peripherals
+        type: object
+      type: array
+    - enum:
+      - None
+  recovery_boot:
+    "$id": "/properties/recovery_boot"
+    type: string
+  release:
+    "$id": "/properties/release"
+    description: Date device released to public in ISO8601 reduced precision format
+    oneOf:
+    - "$ref": "#/definitions/iso8601_reduced_precision_date"
+    - description: Array of maps of model numbers to release dates
+      examples:
+      - SM-9000A: 2015-10-02
+      - SM-9000B: 2015-11-02
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/iso8601_reduced_precision_date"
+        description: Map of model number to release date
+        type: object
+      type: array
+  required_bootloader:
+    "$id": "/properties/required_bootloader"
+    minItems: 1
+    type: array
+  screen:
+    "$id": "/properties/screen"
+    anyOf:
+    - "$ref": "#/definitions/valid_dimension"
+    - enum:
+      - None
+  tree:
+    "$id": "/properties/tree"
+    pattern: ^android_device_(.*)$
+    type: string
+  type:
+    "$id": "/properties/type"
+    enum:
+    - Handheld game console
+    - Set top box
+    - phablet
+    - phone
+    - phone (slider)
+    - tablet
+  uses_twrp:
+    "$id": "/properties/uses_twrp"
+    type: boolean
+  vendor:
+    "$id": "/properties/vendor"
+    enum:
+    - ARK
+    - Asus
+    - BQ
+    - Essential
+    - Fairphone
+    - Google
+    - HTC
+    - Huawei
+    - LG
+    - LeEco
+    - Lenovo
+    - Motorola
+    - Nextbit
+    - Nubia
+    - Nvidia
+    - OPPO
+    - OnePlus
+    - Razer
+    - Realme
+    - Samsung
+    - Sony
+    - Wileyfox
+    - Wingtech
+    - Xiaomi
+    - Yandex
+    - YU
+    - ZTE
+    - ZUK
+  vendor_short:
+    "$id": "/properties/vendor_short"
+    enum:
+    - ark
+    - asus
+    - bq
+    - essential
+    - fairphone
+    - google
+    - htc
+    - huawei
+    - leeco
+    - lenovo
+    - lge
+    - moto
+    - motorola
+    - nextbit
+    - nubia
+    - nvidia
+    - oneplus
+    - oppo
+    - razer
+    - realme
+    - samsung
+    - sony
+    - wileyfox
+    - wingtech
+    - xiaomi
+    - yandex
+    - yu
+    - zte
+    - zuk
+  versions:
+    "$id": "/properties/versions"
+    items:
+      "$id": "/properties/versions/items"
+      "$ref": "#/definitions/valid_branches"
+    minItems: 1
+    type: array
+  width:
+    "$id": "/properties/width"
+    "$ref": "#/definitions/valid_dimension"
+required:
+- architecture
+- battery
+- bluetooth
+- channels
+- codename
+- cpu
+- cpu_cores
+- cpu_freq
+- current_branch
+- gpu
+- image
+- install_method
+- kernel
+- maintainers
+- name
+- peripherals
+- release
+- screen
+- tree
+- type
+- vendor
+- vendor_short
+- versions
+title: device
+type: object

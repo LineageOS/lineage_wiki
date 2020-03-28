@@ -2,20 +2,11 @@
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: LineageOS Wiki
-# this appears on the top navigation bar next to the home button
-
-site_title: LineageOS Wiki
+title: LineageOS Wiki
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: The LineageOS Project
 # this appears in the footer
-
-github_editme_path:
-# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
-
-disqus_shortname: idrbwjekyll
-# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
 
 host: 127.0.0.1
 # the preview server used. Leave as is.
@@ -27,21 +18,15 @@ exclude:
   - .idea/
   - .gitignore
   - device_sample/
+  - Dockerfile
+  - Dockerfile.deploy
+  - Gemfile
+  - Gemfile.lock
+  - licenses/
+  - scripts/
+  - test/
+
 # these are the files and directories that jekyll will exclude from the build
-
-feedback_subject_line: Jekyll documentation theme
-
-feedback_email: me@example.com
-# used as a contact email for the Feedback link in the top navigation bar
-
-feedback_disable: true
-# if you uncomment the previous line, the Feedback link gets removed
-
-# feedback_text: "Need help?"
-# if you uncomment the previous line, it changes the Feedback text
-
-# feedback_link: "http://helpy.io/"
-# if you uncomment the previous line, it changes where the feedback link points to
 
 highlighter: rouge
 # library used for syntax highlighting
@@ -67,36 +52,20 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
       search: true
-      sidebar: home_sidebar
-  -
-    scope:
-      path: ""
-      type: "tooltips"
-    values:
-      layout: "page"
-      comments: true
-      search: true
-      tooltip: true
-
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      search: true
-      sidebar: home_sidebar
 
 # these are defaults used for the frontmatter for these file types
 
-sidebars:
-- home_sidebar
+
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+  sourcemap: true
 
 description: "The LineageOS Wiki"
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
-url: http://wiki.lineageos.org
+url: https://wiki.lineageos.org
+
+plugins:
+  - jekyll-redirect-from

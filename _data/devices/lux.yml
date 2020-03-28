@@ -1,45 +1,43 @@
-battery: 3630 mAh
-bluetooth: 4.0 LE
+architecture: arm
+battery: {removable: False, capacity: 3630, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: dual LED, info: 21MP}
-- {flash: '', info: 5MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'Dual LED', info: '21 MP'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: lux
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth:
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3194656
+depth: 10.9 mm (0.43 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-gsm:
-has_recovery_partition: true
-height:
+height: 148 mm (5.83 in)
 image: lux.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-lte:
-maintainers: ['']
+maintainers: []
+models: [XT1562, XT1563]
 name: Moto X Play
-peripherals: ['']
-ram: 2GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
-  On the next screen use Volume Down to scroll to recovery and then use Volume Up
-  to select.
-release: 2015 August
+peripherals: None
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+release: 2015-08
 screen: 140 mm (5.5 in)
 screen_ppi: ~403
 screen_res: 1080 x 1920
 screen_tech: IPS LCD
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16/32GB
+storage: 16/32 GB
 tree: android_device_motorola_lux
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-width:
-wifi: 802.11a/g/b/n (dual band capable)
+width: 75 mm (2.95 in)
+wifi: 802.11 a/g/b/n, Dual-band

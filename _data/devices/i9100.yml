@@ -1,43 +1,40 @@
-battery: 1650 mAh
-bluetooth: 3.0+HS
+architecture: arm
+battery: {removable: True, capacity: 1650, tech: 'Li-Ion'}
+bluetooth: {spec: 3.0 + HS}
 cameras:
-- {flash: '', info: 8MP w/ LED-flash}
-- {flash: '', info: 1.9MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: '', info: '8 MP w/ LED-flash'}
+- {flash: '', info: '1.9 MP'}
+channels: [discontinued]
 codename: i9100
-cpu: Cortex A9
+cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth:
-download_boot: Volume Down, Home & Power
-gpu: ARM Mali-400
-gsm: 850 900 1800 1900 MHz GPRS/EDGE850 900 1900 2100 MHz UMTS/HSPA+
-has_recovery_partition: true
-height:
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-400 MP
 image: i9100.png
 install_method: heimdall
 kernel: android_kernel_samsung_smdk4412
-lte:
-maintainers: [Caio Schnepper]
+maintainers: []
+models: [GT-I9100, GT-I9100T, GT-I9100M, GT-I9100P, SC-02C]
 name: Galaxy S II
-peripherals: ['']
-ram: 1GB
-recovery_boot: Volume Up, Home, & Power
-release: 2011 February 11
+network: [2G GSM, 3G UMTS]
+no_oem_unlock_switch: true
+peripherals: None
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+release: 2011-02-11
 screen: 109 mm (4.3 in)
 screen_ppi: 222
 screen_res: 800x480
 screen_tech:
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Samsung Exynos 4210
-storage: 16/32GB
+storage: 16/32 GB
 tree: android_device_samsung_i9100
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
-width:
 wifi: 802.11 a/b/g/n

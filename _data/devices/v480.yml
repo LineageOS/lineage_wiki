@@ -1,42 +1,44 @@
-battery: 4200 mAh
-bluetooth: 4.0 LE
+architecture: arm
+battery: {removable: False, capacity: 4200, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: none, info: 5MP}
-- {flash: '', info: 1.3MP}
-channels: [weekly]
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
+channels: [discontinued]
 codename: v480
-cpu: Cortex A7
+cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth: 9.9 mm
-download_boot: With the device powered off, hold VOL UP button and connect it to the computer.
-  Keep holding VOL UP button until the firmware update screen appears.
+depth: 9.9 mm (0.39 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer.
+  Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
 gpu: Adreno 305
-has_recovery_partition: true
-height: 210.8 mm
+height: 210.8 mm (8.30 in)
 image: v480.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_v4xx
-maintainers: [João Paulo Just Peixoto]
+maintainers: []
 name: G Pad 8.0 (Wi-Fi)
-peripherals: [accelerometer, digital compass, GPS, gravity, magnetometer, microphone, pedometer]
-ram: 1GB
-recovery_boot: With the device powered off, hold POWER+VOL DOWN buttons. When the LG logo appears,
-  release both buttons and then hold again. When prompted to erase all user data, choose 'Yes'.
-  Once again choose 'Yes' to confirm and then device will boot to recovery.
-release: July 2014
+peripherals: [Accelerometer, Compass, GPS, Pedometer]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again.
+  When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+release: 2014-07
+root_method: [kingroot]
 screen: 203 mm (8.0 in)
 screen_ppi: '189'
 screen_res: 1280x800
 screen_tech: IPS LCD
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm MSM8226 Snapdragon 400
-storage: 16GB
+storage: 16 GB
 tree: android_device_lge_v480
 type: tablet
+uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 124.2 mm
-wifi: 802.11 a/b/g/n
+width: 124.2 mm (4.89 in)
+wifi: 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Hotspot

@@ -1,42 +1,43 @@
-battery: 3000 mAh
-bluetooth: 4.1 LE
+architecture: arm
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
 cameras:
-- {flash: dual LED, info: 16MP}
-- {flash: '', info: 5MP}
-carrier:
-cdma: 1900 MHz
-channels: [weekly]
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: athene
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+depth: 9.8 mm (0.39 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-gsm: 850 900 1800 1900 MHz GSM, 850 900 1700 1900 2100 MHz UMTS
-has_recovery_partition: true
+height: 153 mm (6.02 in)
 image: athene.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8952
-lte: 700 850 1700 1800 1900 2600 MHz
-maintainers: ['']
+maintainers: []
+models: [XT1622, XT1624, XT1625, XT1626, XT1640, XT1641, XT1642, XT1643, XT1644]
 name: Moto G4
-peripherals: ['']
-ram: 2/3/4GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously.
-  On the next screen use Volume Down to scroll to recovery and then use Volume Up
-  to select.
-release: 2016 May
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: None
+ram: 2/3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+release: 2016-05
 screen: 140 mm (5.5 in)
 screen_ppi: ~401
 screen_res: 1080 x 1920
 screen_tech: IPS LCD
-sdcard: up to 256GB
+sdcard: up to 256 GB
 soc: Qualcomm MSM8952 Snapdragon 617
-storage: 16/32/64GB
+storage: 16/32/64 GB
 tree: android_device_motorola_athene
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: 802.11a/g/b/n (dual band capable)
+width: 76.6 mm (3.02 in)
+wifi: 802.11 a/g/b/n (dual band capable)

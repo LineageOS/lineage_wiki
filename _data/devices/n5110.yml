@@ -1,0 +1,42 @@
+architecture: arm
+battery: {removable: False, capacity: 4600, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
+cameras:
+- {flash: '', info: '5 MP, autofocus'}
+- {flash: '', info: '1.3 MP'}
+channels: [discontinued]
+codename: n5110
+cpu: Cortex-A9
+cpu_cores: '4'
+cpu_freq: 1.6 GHz
+current_branch: 14.1
+depth: 8.0 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-400 MP
+height: 210.8 mm (8.30 in)
+image: n5100.png
+install_method: heimdall
+kernel: android_kernel_samsung_smdk4412
+maintainers: []
+models: []
+name: Galaxy Note 8.0 (Wi-Fi)
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.
+release: 2013-04
+screen: 203 mm (8.0 in)
+screen_ppi: '189'
+screen_res: 1280x800
+screen_tech: TFT LCD
+sdcard: up to 64 GB
+soc: Samsung Exynos 4412
+storage: 16/32 GB
+tree: android_device_samsung_n5110
+type: tablet
+uses_twrp: true
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1]
+width: 135.9 mm (5.35 in)
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, Hotspot, DLNA

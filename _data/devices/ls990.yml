@@ -1,43 +1,47 @@
-battery: removeable Li-Ion 3000 mAh battery
-bluetooth: '4.0'
+architecture: arm
+battery: {removable: True, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
-- {flash: Dual flash, info: 13MP}
-- {flash: '', info: 2.1MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP'}
+carrier: Sprint
+channels: [nightly]
 codename: ls990
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 14.1
-depth:
-download_boot: Plug into PC & Volume UP
+current_branch: 16.0
+custom_recovery_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
+depth: 8.9 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
-gsm:
-has_recovery_partition: true
-height:
-image: d855.png
-install_method: TODO
+height: 146.3 mm (5.76 in)
+image: g3.png
+install_method: dd
 kernel: android_kernel_lge_g3
-lte:
-maintainers: ['']
+maintainers: [HardStyl3r, firebird11]
 name: G3 (Sprint)
-peripherals: ['']
-ram: 3GB
-recovery_boot: Volume Down & Power
-release: 2014 May 28
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Compass, Gyroscope, Infrared sensor, Proximity sensor, FM radio]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the LG logo appears, release both buttons and then hold them again.
+  Then answer YES to erase all user data & restore default settings (If you have TWRP installed it will not delete anything).
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+release: 2014-06
+root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 screen: 139.7 mm (5.5 in)
 screen_ppi: '538'
 screen_res: 2560x1440
 screen_tech: True HD-IPS LCD
-sdcard: up to 128 GB
-soc: Qualcomm MSM8975AC Snapdragon 801
-storage: 16GB/32GB
+sdcard: up to 256 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16/32 GB
 tree: android_device_lge_ls990
 type: phone
+uses_twrp: true
 vendor: LG
 vendor_short: lge
-versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n/ac
+versions: [14.1, 15.1, 16.0]
+width: 74.6 mm (2.94 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

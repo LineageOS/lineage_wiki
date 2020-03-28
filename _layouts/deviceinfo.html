@@ -1,67 +1,47 @@
 ---
-layout: default_deviceinfo
+layout: default
 ---
+<div class="container page">
+    <div class="row">
+      <div class="col-lg-8">
 
-<div class="post-header">
-   <h1 class="post-title-main">{{ page.title }}</h1>
-</div>
+        <div class="post-header">
+           <h1 class="post-title-main">{{ page.title }}</h1>
+        </div>
 
-{% if page.simple_map == true %}
+        <div class="post-content">
 
-<script>
-    $(document).ready ( function(){
-        $('.box{{page.box_number}}').addClass('active');
-    });
-</script>
+           {% if page.summary %}
+            <div class="summary">{{page.summary}}</div>
+           {% endif %}
 
-{% include custom/{{page.map_name}}.html %}
+            {% unless page.toc == false %}
+            {% include toc.html %}
+            {% endunless %}
 
-{% elsif page.complex_map == true %}
+          {{content}}
 
-<script>
-    $(document).ready ( function(){
-        $('.modalButton{{page.box_number}}').addClass('active');
-    });
-</script>
+            <div class="tags">
+                {% if page.tags != null %}
+                <b>Tags: </b>
+                {% assign projectTags = site.data.tags.allowed-tags %}
+                {% for tag in page.tags %}
+                {% if projectTags contains tag %}
+                <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
+                {% endif %}
+                {% endfor %}
+                {% endif %}
+            </div>
 
-{% include custom/{{page.map_name}}.html %}
+        </div>
 
-{% endif %}
+      </div>
+      <div class="col-lg-4">
 
-<div class="post-content">
-
-   {% if page.summary %}
-    <div class="summary">{{page.summary}}</div>
-   {% endif %}
-
-    {% unless page.toc == false %}
-    {% include toc.html %}
-    {% endunless %}
+        {% include deviceinfo.html %}
 
 
-    {% if site.github_editme_path %}
-
-    <a target="_blank" href="https://github.com/{{site.github_editme_path}}{% unless page.url contains "index.html" %}pages/{% endunless %}{{page.folder}}{{page.url | remove: ".html" | append: ".md"}}" class="btn btn-default githubEditButton" role="button"><i class="fa fa-github fa-lg"></i> Edit me</a>
-
-    {% endif %}
-
-  {{content}}
-
-    <div class="tags">
-        {% if page.tags != null %}
-        <b>Tags: </b>
-        {% assign projectTags = site.data.tags.allowed-tags %}
-        {% for tag in page.tags %}
-        {% if projectTags contains tag %}
-        <a href="{{ "tag_" | append: tag | append: ".html" }}" class="btn btn-default navbar-btn cursorNorm" role="button">{{page.tagName}}{{tag}}</a>
-        {% endif %}
-        {% endfor %}
-        {% endif %}
+      </div>
     </div>
 
-    {% if site.disqus %}
-{% include disqus.html %}
-    {% endif %}
-
 </div>
-

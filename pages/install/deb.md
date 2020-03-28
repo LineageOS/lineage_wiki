@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on deb
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: deb_install.html
+title: Install LineageOS on deb
+folder: install
+permalink: /devices/deb/install
 device: deb
 ---
 {% include templates/device_install.md %}

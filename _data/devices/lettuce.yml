@@ -1,45 +1,44 @@
-battery: 2230 mAh
-bluetooth: '4.0'
+architecture: arm64
+battery: {removable: True, capacity: 2230, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 5MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: lettuce
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 13.0
-depth: 8.2 mm
-download_boot: With the device powered down, hold the Volume Up and connect USB.
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922469
+depth: 8.2 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+format_on_upgrade: true
 gpu: Adreno 306
-gsm: 850 900 1800 1900 MHz UMTS
-has_recovery_partition: true
-height: 142.4 mm
+height: 142.4 mm (5.6 in)
 image: lettuce.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-lte: 700 1700/2100 1800 2100 2600 FDD 2300 2600 TDD
-maintainers: [CyanogenMod]
+maintainers: []
 name: Yuphoria
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, Light sensor, Proximity
-    Sensor]
-ram: 2GB
-recovery_boot: With the device powered down, hold the Volume UP, Volume Down and Power
-  buttons.
-release: 2015 May 12
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2015-05-12
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
 screen_res: 1280x720
 screen_tech: ' IPS'
-sdcard: Upto 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 16GB
+storage: 16 GB
 tree: android_device_yu_lettuce
 type: phone
+uses_twrp: true
 vendor: YU
 vendor_short: yu
-versions: [13.0]
-width: 73 mm
-wifi: 802.11 2.4GHz b/g/n 5GHz n/ac
+versions: [13.0, 14.1, 15.1, 16.0]
+width: 73 mm (2.87 in)
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Hotspot

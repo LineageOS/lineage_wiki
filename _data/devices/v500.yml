@@ -1,42 +1,43 @@
-battery: Non-removable 4,600 mAh Li-Polymer
-bluetooth: 4.0 LE
+architecture: arm
+battery: {removable: False, capacity: 4600, tech: 'Li-Po'}
+bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: none, info: 5MP}
-- {flash: '', info: 1.3MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
+channels: [discontinued]
 codename: v500
-cpu: Qualcomm Krait 300
+cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth:
+depth: 8.3 mm (0.33 in)
+download_boot: ''
 gpu: Adreno 320
-gsm:
-has_recovery_partition: true
-height:
+height: 216.8 mm (8.54 in)
 image: v500.png
-install_method: TODO
+install_method: dd
 kernel: android_kernel_lge_v500
-lte:
-maintainers: [fefifofum]
+maintainers: []
 name: G Pad 8.3
-peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, microphone]
-ram: 2GB
-recovery_boot:
-release: 14 October 2013
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
+  When prompted to erase all user data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
+recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+release: 2013-10-14
+root_method: [custom, 'https://forum.xda-developers.com/lg-g-pad-83/general/guide-root-twrp-customrom-kot49i-v50020d-t2894277']
 screen: 210 mm (8.3 in)
-screen_ppi: '273'
+screen_ppi: '~273'
 screen_res: 1920x1200
 screen_tech: IPS LCD
-sdcard: up to 64GB
+sdcard: up to 64 GB
 soc: Qualcomm APQ8064T Snapdragon 600
-storage: 16GB
+storage: 16 GB
 tree: android_device_lge_v500
 type: tablet
+uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width:
+width: 126.5 mm (4.98 in)
 wifi: 802.11 a/b/g/n (2.4/5 GHz)

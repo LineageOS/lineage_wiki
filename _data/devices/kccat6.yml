@@ -1,0 +1,42 @@
+architecture: arm
+battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
+channels: [nightly]
+codename: kccat6
+cpu: Krait 450
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 16.0
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  In order to exit download mode and reboot, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> for about 7 seconds.
+gpu: Adreno 420
+image: klte.png
+install_method: heimdall
+kernel: android_kernel_samsung_apq8084
+maintainers: [cvxda, sassmann]
+models: [SM-G901F]
+name: Galaxy S5 Plus
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
+  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+release: 2014-08-21
+screen: 130 mm (5.1 in)
+screen_ppi: '432'
+screen_res: 1920x1080
+screen_tech: Full HD Super AMOLED
+sdcard: up to 128 GB
+soc: Qualcomm APQ8084 Snapdragon 805
+storage: 16 GB
+tree: android_device_samsung_kccat6
+type: phone
+uses_twrp: true
+vendor: Samsung
+vendor_short: samsung
+versions: [14.1, 15.1, 16.0]
+wifi: 802.11 a/b/g/n/ac

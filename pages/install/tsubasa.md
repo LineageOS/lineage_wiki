@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on tsubasa
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: tsubasa_install.html
+title: Install LineageOS on tsubasa
+folder: install
+permalink: /devices/tsubasa/install
 device: tsubasa
 ---
 {% include templates/device_install.md %}

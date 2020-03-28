@@ -1,42 +1,45 @@
-battery: Li-Ion 2000 / 3000 mAh battery
-bluetooth: '4.0'
+architecture: arm
+battery:
+- Honor 4: {removable: False, capacity: 2000, tech: 'Li-Ion'}
+- Honor 4X: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: LED, info: 8 / 13 MP}
-- {flash: '', info: 2 / 5 MP}
-carrier:
-cdma: "CDMA 800\nCDMA EVDO 800 \nTD-SCDMA B34/39\nWCDMA B1/8"
-channels: [weekly]
+- {flash: 'LED', info: '8 / 13 MP'}
+- {flash: '', info: '2 / 5 MP'}
+channels: [discontinued]
 codename: cherry
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 14.1
-download_boot: Volume Down & Power
+current_branch: 15.1
+custom_recovery_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 gsm: GSM 900 /1800 / 1900
-has_recovery_partition: true
 image: cherry.png
-install_method: TODO
+install_method: fastboot_huawei
+is_unlockable: false
 kernel: android_kernel_huawei_msm8916
-lte: 'TD-LTE B38/39/40/41
-
-  FDD-LTE B1/3'
-maintainers: [dianlujitao]
+maintainers: []
 name: Honor 4/4X (Unified)
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB / 2GB
-recovery_boot: Volume Up & Power
-release:
-screen: 5.0 / 5.5 in
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1/2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2014-10
+screen:
+- Honor 4: 127 mm (5.0 in)
+- Honor 4X: 139.7 mm (5.5 in)
 screen_ppi: 294 / 267
 screen_res: 1280x720
 screen_tech: IPS + LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_cherry
 type: phablet
+uses_twrp: true
 vendor: Huawei
 vendor_short: huawei
-versions: [14.1]
+versions: [14.1, 15.1]
 wifi: 802.11 b/g/n

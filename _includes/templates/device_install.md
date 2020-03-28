@@ -1,32 +1,97 @@
-{% if site.data.devices[page.device].install_method != "" %}
-{% capture recovery_install_method %}templates/recovery_install_{{site.data.devices[page.device].install_method}}.md{% endcapture %}
+{% assign device = site.data.devices[page.device] %}
+
+{% if device.before_install %}
+{% capture path %}templates/device_specific/{{ device.before_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
+## Basic requirements
+
+{% include alerts/important.html content="Please read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!" %}
+
+1. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+
+{% if device.required_bootloader %}
+## Special requirements
+
+{% capture bootloader %}
+Your device must be on bootloader version {% for el in device.required_bootloader %} {% if forloop.last %} `{{ el }}` {% else %} `{{ el }}` / {% endif %} {% endfor %}, otherwise the instructions found in this page will not work.
+The current bootloader version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window.
+{% endcapture %}
+{% include alerts/warning.html content=bootloader %}
+{% endif %}
+
+{% if device.install_method %}
+{% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
+{% else %}
+## Unlocking the bootloader / Installing a custom recovery
+
+There are no recovery installation instructions for this discontinued device.
+{% endif %}
+
+{% if device.before_lineage_install %}
+{% capture path %}templates/device_specific/{{ device.before_lineage_install }}.md{% endcapture %}
+{% include {{ path }} %}
 {% endif %}
 
 ## Installing LineageOS from recovery
 
-1. Make sure your computer has working `adb`. Setup instructions can be found [here](adb_fastboot_guide.html).
-{% if site.data.devices[page.device].channels %}
-2. Download the [LineageOS install package](https://download.lineageos.org/{{ site.data.devices[page.device].codename }}) that you'd like to install or [build]({{site.data.devices[page.device].codename}}_build.html) the package yourself.
+{%- capture userspace_architecture -%}
+{%- if device.architecture.userspace -%}
+{{ device.architecture.userspace }}
+{%- else -%}
+{{ device.architecture }}
+{%- endif -%}
+{%- endcapture -%}
+
+{% if device.maintainers != empty %}
+1. Download the [LineageOS installation package](https://download.lineageos.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 {% else %}
-2. [Build]({{site.data.devices[page.device].codename}}_build.html) a LineageOS install package.
+1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package.
 {% endif %}
-    * Optionally, download 3rd party application packages like [Google Apps](/gapps.html)
-3. Place the LineageOS `.zip` package, as well as any other .zip packages on the root of `/sdcard`:
-    * Using adb: `adb push filename.zip /sdcard/`
-    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
-        USB debugging is enabled.
-4. If you aren't already in recovery, boot into recovery:
-    * {{ site.data.devices[page.device].recovery_boot }}
-5. _(Optional, but recommended)_: Select the **Backup** button to create a backup.
-6. Select **Wipe** and then **Factory Reset**.
-7. Select **Install**.
-8. Navigate to `/sdcard`, and select the LineageOS `.zip` package.
-9. Follow the on-screen prompts to install the package.
-10. _(Optional)_: Install any additional packages using the same method.
-11. Once installation has finished, return to the main menu, select **Reboot**, and then **System**.
+    * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
+2. If you are not in recovery, reboot into recovery:
+    * {{ device.recovery_boot }}
+{% if device.uses_twrp %}
+3. Now tap **Wipe**.
+4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
+{% if device.is_ab_device %}
+5. Return to the previous menu and tap **Advanced Wipe**, then select the *System* partition and then **Swipe to Wipe**.
+6. Sideload the LineageOS `.zip` package:
+    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
+{% else %}
+5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
+6. Sideload the LineageOS `.zip` package:
+    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
+{% endif %}
+{% else %}
+3. Now tap **Factory Reset**, then **Wipe data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+4. Now tap **Wipe System** and continue with the formatting process.
+5. Return to the main menu.
+6. Sideload the LineageOS `.zip` package:
+    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the host machine, sideload the package using: `adb sideload filename.zip`
+{% endif %}
+{% if device.uses_twrp %}
+7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
+{% else %}
+7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
+{% endif %}
+    {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
+{% if device.current_branch == 17.1 %}
+8. Once you have installed everything successfully, run 'adb reboot'.
+{% else %}
+8. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+9. Once you have installed everything successfully, run 'adb reboot'.
+{% endif %}
+
+    {% include alerts/warning.html content="Depending on which recovery you use, you may be prompted to install additional apps and services. We strongly advise you to opt out of installing these, as they may cause your device to bootloop, as well as attempt to access or corrupt your data." %}
 
 ## Get assistance
 
-If you have any questions, or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS), or in
+If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).

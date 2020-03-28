@@ -1,0 +1,44 @@
+architecture: arm
+battery: {removable: False, capacity: 3510, tech: 'Li-Po'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: 'LED', info: '5 MP'}
+channels: [discontinued]
+codename: addison
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.0 GHz
+current_branch: 14.1
+custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3495629
+depth: 7 mm (0.28 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 506
+height: 156.4 mm (6.16 in)
+image: addison.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8953
+maintainers: []
+models: [XT1635-02]
+name: Moto Z Play
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
+release: 2016-09
+screen: 140 mm (5.5 in)
+screen_ppi: 403
+screen_res: 1080x1920
+screen_tech: Super AMOLED
+sdcard: up to 2 TB
+soc: Qualcomm MSM8953 Snapdragon 625
+storage: 32 GB
+tree: android_device_motorola_addison
+type: phone
+uses_twrp: true
+vendor: Motorola
+vendor_short: motorola
+versions: [14.1]
+width: 76.4 mm (3.01 in)
+wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot

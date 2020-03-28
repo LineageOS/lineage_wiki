@@ -1,49 +1,42 @@
-battery: 2470 mAh
-bluetooth: v4.0 with A2DP, LE
+architecture: arm
+battery: {removable: False, capacity: 2470, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: dual LED, info: 13MP}
-- {flash: '', info: 5MP}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, Virgin Mobile, International GSM
-cdma: CDMA 800/850/1900 MHz, CDMA2000 1xEV-DO
-channels: [weekly]
+channels: [discontinued]
 codename: osprey
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.36 GHz
 current_branch: 14.1
-download_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down and Volume Up to scroll and Power to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> and <kbd>Volume Up</kbd> to scroll and then press <kbd>Power</kbd> to select.
 gpu: Adreno 306
-gsm: GSM 850/900/1800/1900 MHz, HSDPA 900/2100 MHz - Retail Europe and Asia, HSDPA
-  850/1700 AWS/1900/2100 MHz - Retail US, Canada, HDSPA 850/900/1700/1900/2100 MHz
-  - Retail Latin America, Brazil, HSDPA 850/1700/1900 MHz - U.S. Cellular, Virgin
-  Mobile
-has_recovery_partition: true
 image: osprey.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-lte: B2 (1900)/B4 (1700)/B5 (850)/B7 (2600)/B17 (700) MHz - Retail US, Canada, B1
-  (2100)/B3 (1800)/B7 (2600)/B8 (900)/B20 (800) MHz - Retail Europe, B4 (1700)/B7
-  (2600)/B28 (700) MHz - Retail Latin America, Brazil, B2 (1900)/B4 (1700)/B5 (850)/B12
-  (700)/B17 (700)/B25 (1900)/B26 (850) - U.S. Cellular, Virgin Mobile, B1 (2100)/B3
-  (1800)/B7 (2600)/B8 (900)/B28 (700) MHz Retail Asia
-maintainers: ['']
+maintainers: []
+models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: Moto G 2015
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB or 2GB
-recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to recovery and then use Power to select.
-release: 2015 July
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1/2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
+release: 2015-07
 screen: 127 mm (5.0 in)
 screen_ppi: ~295
 screen_res: 720x1280
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 8GB or 16GB
+storage: 8/16 GB
 tree: android_device_motorola_osprey
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot
+wifi: 802.11 b/g/n, Hotspot

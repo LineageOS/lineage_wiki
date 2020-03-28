@@ -1,41 +1,38 @@
-battery:
-bluetooth: Bluetooth 4.0 + A2DP
+architecture: arm
+battery: {removable: True, capacity: 1750, tech: 'Li-Po'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: '', info: 5 MP}
-- {flash: '', info: VGA}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: '', info: '5 MP'}
+- {flash: '', info: 'VGA'}
+channels: [discontinued]
 codename: nicki
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should briefly turn green to indicate you are in flash
-  mode.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 305
-gsm: HSDPA 900 / 2100 - C1905, C2005. HSDPA 850 / 1700 / 1900 / 2100 - C1904, C2004
-has_recovery_partition: true
 image: nicki.png
-install_method: TODO
+install_method: fastboot_sony
+install_variant: sony_init_fota
 kernel: android_kernel_sony_msm8x27
-lte:
-maintainers: [freexperia, Ron Gokhale]
+maintainers: []
 name: Xperia M
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB
-recovery_boot: Press Volume Up when the notification light is pink.
-release: 2013 June
+network: [2G GSM, 3G UMTS]
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1 GB
+recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
+release: 2013-06
 screen: 102 mm (4.0 in)
 screen_ppi: '244.9'
 screen_res: 480x854
 screen_tech: TFT
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8227 Snapdragon S4 Plus
-storage: 4GB
+storage: 4 GB
 tree: android_device_sony_nicki
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1]

@@ -1,44 +1,48 @@
-battery: 2500 mAh
-bluetooth: '4.1'
+architecture: arm64
+battery: {removable: False, capacity: 2500, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
 cameras:
-- {flash: LED, info: 13MP F/2.2}
-- {flash: '', info: 5MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'LED', info: '13 MP F/2.2'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: tomato
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
-current_branch: 13.0
-depth: 8.9 mm
-download_boot: With the device powered down, hold the Volume Up and connect USB.
+current_branch: 14.1
+custom_recovery_link: https://androidfilehost.com/?fid=889964283620777297
+depth: 8.9 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 405
-gsm: 850 900 1800 1900 MHz UMTS
-has_recovery_partition: true
-height: 152.9 mm
+height: 152.9 mm (6 in)
 image: tomato.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-lte: 700 1700/2100 1800 2100 2600 FDD 2300 2600 TDD
-maintainers: [CyanogenMod]
+maintainers: []
+models:
+- AO5510
+- YU5510
 name: Yureka / Yureka Plus
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, Light sensor, Proximity
-    Sensor]
-ram: 2GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
-release: 2014 December 18 / 2015 July 24 (Plus)
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [GPS, Light sensor, Proximity sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release:
+- AO5510: 2014-12-18
+- YU5510: 2015-07-24
 screen: 139.7 mm (5.5 in)
 screen_ppi: 267  / 401  (Plus)
 screen_res: 1280x720 / 1920x1080 (Plus)
-screen_tech: ' IPS'
-sdcard: Upto 32GB
+screen_tech: 'IPS'
+sdcard: up to 32 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16GB
+storage: 16 GB
 tree: android_device_yu_tomato
 type: phone
+uses_twrp: true
 vendor: YU
 vendor_short: yu
-versions: [13.0]
-width: 75.9 mm
-wifi: 802.11 2.4GHz b/g/n 5GHz n/ac
+versions: [13.0, 14.1]
+width: 75.9 mm (3 in)
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

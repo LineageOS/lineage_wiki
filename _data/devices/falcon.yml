@@ -1,43 +1,42 @@
-battery: 2070 mAh
-bluetooth: v4.0 with A2DP, LE
+architecture: arm
+battery: {removable: False, capacity: 2070, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.3MP}
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.3 MP'}
 carrier: AT&T,TMobile,Boost, International GSM
-cdma: CDMA 800/1900 MHz, CDMA2000 1xEV-DO
-channels: [weekly]
+channels: [discontinued]
 codename: falcon
-cpu: Cortex A7
+cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-download_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll and Volume Up to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 305
-gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz - International, HSDPA
-  850/1700/1900/2100 MHz- T-Mobile, AT&T
-has_recovery_partition: true
 image: falcon.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
-lte:
-maintainers: ['']
+maintainers: []
+models: [XT1031, XT1032, XT1033, XT1034]
 name: Moto G
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB
-recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to recovery and then use Volume Up to select.
-release: 2013 November
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000]
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+release: 2013-11
 screen: 114 mm (4.5 in)
 screen_ppi: ~326
 screen_res: 720 x 1280 pixels
 screen_tech: IPS LCD capacitive touchscreen, 16M colors
 sdcard:
 soc: Qualcomm MSM8226 Snapdragon 400
-storage: 8GB or 16GB
+storage: 8/16 GB
 tree: android_device_motorola_falcon
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: Wi-Fi 802.11 b/g/n, Wi-Fi hotspot
+wifi: Wi-Fi 802.11 b/g/n, Hotspot

@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
 title: Build for mako
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: mako_build.html
+folder: build
+permalink: /devices/mako/build
 device: mako
 ---
 {% include templates/device_build.md %}

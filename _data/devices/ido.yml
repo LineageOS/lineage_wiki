@@ -1,43 +1,45 @@
-battery: 4000 mAh
-bluetooth: 4.1 A2DP, LE
+architecture: arm64
+battery: {removable: False, capacity: 4100, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: LED, info: 13MP}
-- {flash: '', info: 5MP}
-carrier:
-cdma: 800 / 1900 MHz
-channels: [weekly]
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: ido
-cpu: Cortex A53 & A53
+cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
-depth:
-download_boot: With the device powered down, hold the Volume Down and Power buttons.
+depth: 8.5 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 405
-gsm: 900 / 1800 / 1900 MHz
-has_recovery_partition: true
-height:
+height: 139.3 mm (5.48 in)
 image: ido.png
-install_method: TODO
+install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8916
-lte: 1(2100), 3(1800), 7(2600), 38(2600), 39(1900), 40(2300), 41(2500)
-maintainers: [Anik1199]
+maintainers: []
 name: Redmi 3/Prime
-peripherals: [Fingerprint, accelerometer, gyro, proximity, compass]
-ram: 2GB/3GB
-recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
-release: 2016 January
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals:
+- All: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+- Prime: [Fingerprint reader]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2016-01
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
-screen_res: 720x1080
-screen_tech:
-sdcard: up to 256 GB (hybrid sim slot)
+screen_res: 720x1280
+screen_tech: IPS LCD
+sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8939v2 Snapdragon 616
-storage: 16GB/32GB
+storage: 16/32 GB
 tree: android_device_xiaomi_ido
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n/ac
+width: 69.6 mm (2.74 in)
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

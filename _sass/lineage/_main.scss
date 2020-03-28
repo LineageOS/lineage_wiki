@@ -1,0 +1,248 @@
+@charset "UTF-8";
+
+// Navbar
+.navbar {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+@include media-breakpoint-down(md) {
+  .navbar {
+    .form-group {
+      z-index: 2;
+      margin: 15px 30px;
+    }
+  }
+  .nav-open .navbar-collapse {
+    box-shadow: $bmd-shadow-2dp;
+  }
+  #results-container {
+    top: 31% !important;
+    margin-left: 24px !important;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .navbar .form-group {
+    display: flex;
+    align-items: center !important;
+  }
+  .form-inline .form-control {
+    vertical-align: middle !important;
+  }
+}
+.navbar-nav .nav-link svg {
+  display: inline;
+  margin-top: 1px;
+  margin-right: 3px;
+  height: 18px;
+  width: 18px;
+  fill: currentColor;
+  vertical-align: top;
+}
+
+#results-container {
+  list-style: none;
+  font-size: 14px;
+  line-height: 35px;
+  position: absolute;
+  min-width: 196px;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.1) !important;
+  background-color: white;
+  padding-left: 24px;
+  padding-right: 16px;
+  top: 85%;
+  z-index: 10;
+}
+
+// Tables
+
+
+.table td,
+.table th {
+  word-break: normal;
+}
+
+.table.device tbody th {
+  word-break: break-all !important;
+}
+
+.deviceinfo.table {
+  margin-top: 20px;
+  border-radius: 50px;
+
+  th {
+    word-break: normal !important;
+    &[colspan='2'] {
+      text-align: center;
+    }
+  }
+
+  td {
+    text-align: right;
+    word-break: break-word;
+  }
+  ul, ol {
+    text-align: left;
+  }
+  tr.image td {
+    text-align: center;
+    img {
+      max-height: 400px;
+      max-width: 100%;
+    }
+  }
+
+}
+
+@include media-breakpoint-up(lg) {
+  table.table.device thead th {
+    &.first{
+      width: 50%
+    }
+    &.last{
+      width: 25%
+    }
+  }
+}
+
+// Toc
+#toc {
+  background: #fafafa;
+  padding: 1rem 1.5rem .25rem .5rem;
+  color: black;
+  font-size: 14px;
+  width: fit-content;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+}
+div#toc >ul::before {
+  content: "Table of Contents";
+  font-weight: 500;
+  color: #555;
+  text-transform: uppercase;
+  font-size: .75rem;
+  margin-left: -1rem;
+}
+@include media-breakpoint-down(sm) {
+    #toc {
+      width: 100%;
+    }
+}
+
+// Alerts
+
+.alert {
+  border-radius: 4px !important;
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+}
+
+@include media-breakpoint-up(md) {
+  .alert {
+    .alert-icon {
+      margin-right: 0;
+      i {
+        margin: 0;
+        top: 0;
+      }
+    }
+    .alert-text {
+      padding-left: 36px;
+
+      b {
+        font-size: inherit !important;
+      }
+    }
+  }
+}
+
+// Footer
+
+.footer {
+  p {
+    font-size: 14px !important;
+  }
+  b {
+    font-weight: 500;
+  }
+  svg {
+    fill: #757575;
+    margin-bottom: 4px;
+    height: 32px;
+  }
+}
+
+// Misc
+
+.main-content {
+  min-height: calc(100vh - 163px);
+  padding-top: 60px;
+  word-break: break-word;
+}
+
+b, strong {
+  font-weight: 500;
+}
+.welcome p.lead {
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+.page {
+  padding-top: 1rem;
+}
+pre {
+  padding: 16px 4px 16px 24px;
+}
+
+tr.discontinued,
+tr.discontinued a {
+  opacity: 0.8;
+}
+
+// Make sure toc-targets are actually displayed, not hidden by the navbar
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+  display: block;
+  content: " ";
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
+a {
+  position: relative;
+  z-index: 100;
+}
+
+// Devices page - vendor list
+.vendor-container {
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -webkit-perspective: 1; /* Fix for chrome to calculate the height properly */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  padding: .25rem 0 .25rem.5rem;
+  font-size: 14px;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+.vendor-container div {
+  padding: .5rem;
+  -webkit-column-break-inside: avoid; /* Fix for additional unwanted margin on chrome */
+}
+
+@media (max-width: 991px) {
+  .vendor-container {
+     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+  }
+}
+@media (max-width: 767px) {
+  .vendor-container {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
+}

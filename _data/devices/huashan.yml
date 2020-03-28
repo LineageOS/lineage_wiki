@@ -1,46 +1,42 @@
-battery: Non-removable 2370 mAh
-bluetooth: Bluetooth 4.0 + A2DP
+architecture: arm
+battery: {removable: False, capacity: 2370, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '8MP f/2.4, flash: LED'}
-- {flash: '', info: VGA}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'LED', info: '8MP f/2.4'}
+- {flash: '', info: 'VGA'}
+channels: [discontinued]
 codename: huashan
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
-current_branch: 14.1
-depth: 10.6 mm
-download_boot: With the device powered down, hold Volume Down and connect the USB
-  cable. The notification light should turn green.
+current_branch: 15.1
+depth: 10.6 mm (0.42 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
-gsm: HSDPA 850 / 900 / 1700 / 1900 / 2100
-has_recovery_partition: true
-height: 133 mm
+height: 133 mm (5.2 in)
 image: huashan.png
-install_method: TODO
+install_method: fastboot_sony
+install_variant: sony_init_fota
 kernel: android_kernel_sony_msm8960t
-lte: LTE 800 / 850 / 900 / 1800 / 2100 / 2600
-maintainers: [Adrian DC]
+maintainers: []
 name: Xperia SP
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, MHL HDMI, GPS, NFC, Accelerometer,
-  Compass, Gyroscope, Light sensor, Proximity Sensor]
-ram: 1GB
-recovery_boot: 'On boot, press Volume Down when the LEDs start lighting up.<br />
-<b>Second Recovery:</b> To boot the FOTA Recovery, press Volume Up instead.'
-release: 2013 April
-screen: 116.0 mm (4.6 in)
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
+ram: 1 GB
+recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
+release: 2013-04
+screen: 116 mm (4.6 in)
 screen_ppi: '323'
 screen_res: 720x1280
 screen_tech: TFT
-sdcard: officially up to 32GB
+sdcard: officially up to 32 GB
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
-storage: 8GB
+storage: 8 GB
 tree: android_device_sony_huashan
 type: phone
+uses_twrp: true
 vendor: Sony
 vendor_short: sony
-versions: [14.1]
-width: 68 mm
-wifi: 802.11 2.4GHz b/g/n 5GHz
+versions: [14.1, 15.1]
+width: 68 mm (2.7 in)
+wifi: 802.11 2.4GHz b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

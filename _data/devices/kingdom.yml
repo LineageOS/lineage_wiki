@@ -1,46 +1,45 @@
-battery: 4000 mAh Li-Po, non-removable
-bluetooth: 4.0 BLE
+architecture: arm
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: Dual LED, info: '16MP F/2.2, OIS'}
-- {flash: '', info: 5MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'Dual LED', info: '16 MP F/2.2, OIS'}
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: kingdom
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-depth: 7.7 mm
-download_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
-  Then plug in an USB cable. A small green Android logo appears at the center of the screen.
+depth: 7.7 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
+  A small green Android logo appears at the center of the screen.
 gpu: Adreno 330
-gsm: 850 900 1800 1900 MHz UMTS
-has_recovery_partition: true
-height: 156 mm
+height: 156 mm (6.14 in)
 image: kingdom.png
-install_method: TODO
+install_method: fastboot_custom
 kernel: android_kernel_lenovo_msm8974
-lte: 2100 1800 850 2600 900 800 MHz
-maintainers: [electry]
+maintainers: []
+models: [kingdom_row (ROW), kingdomt (CN)]
 name: Vibe Z2 Pro
-peripherals: [Wi-Fi Direct, Wi-Fi Display, Wi-Fi Hotspot, GPS, NFC, Light sensor,
-  Proximity Sensor, Accelerometer, Gyroscope, Compass]
-ram: 3GB
-recovery_boot: With the device powered down, hold the Volume Down and Volume Up buttons.
-  Then press and hold the Power button until the "Lenovo" logo appears.
-release: 2014 September
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [GPS, NFC, FM radio, Hall effect sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
+  Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
+release: 2014-09
 screen: 152.4 mm (6.0 in)
 screen_ppi: '490'
 screen_res: 2560x1440
 screen_tech: LG IPS
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 32GB
+storage: 32 GB
 tree: android_device_lenovo_kingdom
 type: phone
+uses_twrp: true
+unlock_bootloader_guide: 'https://forum.xda-developers.com/k920/how-to/guide-unlock-bootloader-lenovo-vibe-z2-t3114307'
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
-width: 81.3 mm
-wifi: '802.11 a/b/g/n/ac, dual band'
+width: 81.3 mm (3.20 in)
+wifi: 802.11 a/b/g/n/ac dual band, Hotspot

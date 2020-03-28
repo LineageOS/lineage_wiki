@@ -1,40 +1,42 @@
-battery: 2900 mAh LiPo
-bluetooth: '4.0'
+architecture: arm
+battery: {removable: False, capacity: 2900, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: Dual-LED, info: 13MP}
-- {flash: '', info: 5MP w/LED Flash}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP'}
+channels: [discontinued]
 codename: paella
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
-current_branch: 13.0
-download_boot: With the device powered down, hold the Volume Down and Power buttons.
+current_branch: 14.1
+custom_recovery_codename: piccolometal
+depth: 7.5 mm (0.3 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
-gsm:
-has_recovery_partition: true
+height: 144.4 mm (5.69 in)
 image: paella.png
-install_method: TODO
-kernel: android_kernel_bq_msm8916
-lte:
-maintainers: ['']
+install_method: fastboot_nexus
+kernel: android_kernel_bq_msm8939
+maintainers: []
 name: Aquaris X5
-peripherals: [Dual SIM]
-ram: 2GB
-recovery_boot: With the device powered down, hold the Volume Up and Power buttons.
-release:
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall effect sensor, GPS, FM radio, USB OTG]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2015
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280
-screen_tech: IPS LCD
-sdcard: up to 32GB
+screen_tech: IPS LCD capacitive touchscreen, 16M colors
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916T Snapdragon 412
-storage: 16GB
+storage: 16/32 GB
 tree: android_device_bq_paella
 type: phone
+uses_twrp: true
 vendor: BQ
 vendor_short: bq
-versions: [13.0]
-wifi: 802.11 a/b/g/n
+versions: [13.0, 14.1]
+width: 70.5 mm (2.78 in)
+wifi: 802.11 b/g/n, Hotspot

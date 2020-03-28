@@ -1,0 +1,45 @@
+architecture: arm
+battery: {removable: False, capacity: 1785, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
+carrier: Sprint
+channels: [discontinued]
+codename: xt897
+cpu: Cortex-A9
+cpu_cores: '2'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+custom_recovery_codename: asanti
+depth: 13.7 mm (0.54 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
+gpu: Adreno 225
+height: 126.5 mm (4.98 in)
+image: xt897.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8960-common
+maintainers: []
+models: [XT897]
+name: Photon Q 4G LTE
+network: [2G CDMA, 3G CDMA2000, 4G LTE]
+peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor, Proximity sensor]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2012-08-19
+screen: 110 mm (4.3 in)
+screen_ppi: 256
+screen_res: 540x960
+screen_tech: TFT capacitive touchscreen
+sdcard: microSD, up to 32 GB
+soc: Qualcomm MSM8960 Snapdragon S4 Plus
+storage: 8 GB
+tree: android_device_motorola_xt897
+type: phone (slider)
+uses_twrp: true
+vendor: Motorola
+vendor_short: motorola
+versions: [13.0, 14.1]
+width: 66 mm (2.6 in)
+wifi: 802.11 2.4GHz b/g/n

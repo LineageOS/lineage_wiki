@@ -1,46 +1,57 @@
-battery: Non-removable Li-Ion  3050 mAh (Mi 3) / 3080 mAh (Mi 4)
-bluetooth: '4.0'
+architecture: arm
+battery:
+- Mi 3: {removable: False, capacity: 3050, tech: 'Li-Ion'}
+- Mi 4: {removable: False, capacity: 3080, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: LED, info: 13MP Sony IMX135 Exmor RS (Mi 3) / 13MP Sony IMX214 Exmor RS
-    (Mi 4)}
-- {flash: '', info: 2.07MP (Mi 3) / 7.99MP (Mi 4)}
-carrier:
-cdma: 800 1900 MHz CDMA
-channels: [weekly]
+- {flash: 'LED', info: '13 MP Sony IMX135 Exmor RS (Mi 3) / 13 MP Sony IMX214 Exmor RS (Mi 4)'}
+- {flash: '', info: '2.07 MP  (Mi 3) / 7.99 MP (Mi 4)'}
+channels: [discontinued]
 codename: cancro
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz (Mi 3) / 2.5 GHz (Mi 4)
 current_branch: 14.1
 depth:
-download_boot: Hold Volume Down, & the Power button. Continue to hold both until the
-  word "FASTBOOT" appears on the screen, then release all buttons.
+- MI3: 8.1 mm (0.32 in)
+- MI4: 8.9 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 330
-gsm: 850 900 1800 1900 MHz GSM, 850 900 1900 2100 MHz HSDPA
-has_recovery_partition: true
 height:
+- MI3: 144 mm (5.7 in)
+- MI4: 139.2 mm (5.5 in)
 image: cancro.png
-install_method: TODO
-kernel:
-lte:
-maintainers: ['']
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_cancro
+maintainers: []
+models:
+- MI3
+- MI4
 name: Mi 3 / Mi 4
-peripherals: ['']
-ram: 2GB (Mi 3) / 3GB (Mi 4)
-recovery_boot: Hold Volume Up & the Power button. Continue to hold buttons until the
-  "MI" logo, then release all buttons.
-release: 2013 October (Mi 3) / 2014 August (Mi 4)
-screen: 127 mm (5.0 in)
+network: [2G GSM, 2G CDMA, 3G UMTS]
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
+ram: 2 GB (Mi 3) / 3 GB (Mi 4)
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release:
+- MI3: 2013-10
+- MI4: 2014-08
+screen: 127 mm (5 in)
 screen_ppi: 441
 screen_res: 1080x1920
 screen_tech: IPS (Mi 3) / JDI IPS (Mi 4)
 sdcard:
 soc: Qualcomm MSM8974 Snapdragon 800 (Mi 3) / Qualcomm MSM8974AC Snapdragon 801 (Mi 4)
-storage: 16 GB / 64 GB
+storage: 16/64 GB
 tree: android_device_xiaomi_cancro
 type: phone
+uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
 width:
-wifi: 802.11 a/b/g/n/n 5 GHz/ac
+- MI3: 73.6 mm (2.9 in)
+- Mi4: 68.5 mm (2.7 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

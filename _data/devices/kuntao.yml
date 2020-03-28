@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {removable: False, capacity: 5100, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+channels: [nightly]
+codename: kuntao
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 2.0 GHz
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=1395089523397888315
+depth: 8.3 mm (0.33 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
+gpu: Adreno 506
+height: 153 mm (6.02 in)
+image: kuntao.png
+install_method: fastboot_lenovo
+kernel: android_kernel_lenovo_msm8953
+maintainers: [mikeioannina, highwaystar]
+models: [P2a42]
+name: P2
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, RGB ambient light, USB OTG, Wi-Fi Display]
+ram: 3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2016-11
+screen: 140 mm (5.5 in)
+screen_ppi: '401'
+screen_res: 1080x1920
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Qualcomm MSM8953 Snapdragon 625
+storage: 32/64 GB
+tree: android_device_lenovo_kuntao
+type: phone
+uses_twrp: true
+vendor: Lenovo
+vendor_short: lenovo
+versions: [14.1, 15.1, 16.0]
+width: 76 mm (2.99 in)
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

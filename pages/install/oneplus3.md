@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on oneplus3
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: oneplus3_install.html
+title: Install LineageOS on oneplus3
+folder: install
+permalink: /devices/oneplus3/install
 device: oneplus3
 ---
 {% include templates/device_install.md %}

@@ -1,47 +1,43 @@
-battery: 3.8 V 2100 mAh, 8 Wh rechargable Lithium polymer non-removable battery
-bluetooth: '4.0'
+architecture: arm
+battery: {removable: False, capacity: 2100, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: LED, info: 8MP}
-- {flash: '', info: 1.3MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.3 MP'}
+channels: [discontinued]
 codename: mako
 cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
-current_branch: 14.1
-depth:
-download_boot: With the device powered down, hold the Volume Down and Power buttons
-  until the bootloader appears, then release the buttons.
+current_branch: 15.1
+depth: 9.1 mm (0.36 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: Adreno 320
-gsm: 850 900 1800 1900 MHz GSM/EDGE/GPRS850 900 1700 1900 2100 MHz 3G UMTS/HSPA+/DC-HSPA+
-has_recovery_partition: true
-height:
+height: 133.9 mm (5.27 in)
 image: mako.png
-install_method: TODO
-kernel: android_kernel_google_msm
-lte:
-maintainers: [arcee]
+install_method: fastboot_nexus
+kernel: android_kernel_lge_mako
+maintainers: []
 name: Nexus 4
-peripherals: [3.5 mm TRRS, GPS, microUSB 2.0, Mobility DisplayPort (MyDP), multi-touch
-    capacitive touchscreen, proximity sensor, NFC, Qi wireless charging]
-ram: 2GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons
-  until the bootloader appears, then release the buttons. Navigate using the volume
-  keys and select RECOVERY using the Power key.
-release: November 13, 2012
+network: [2G GSM, 3G UMTS]
+no_oem_unlock_switch: true
+peripherals: [GPS, Mobility DisplayPort (MyDP), Proximity sensor, NFC, Qi wireless charging]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+release: 2012-11-13
 screen: 119 mm (4.7 in)
 screen_ppi: '320'
 screen_res: 1280x768
 screen_tech: IPS LCD
 sdcard:
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
-storage: 8 or 16GB
+storage: 8/16 GB
 tree: android_device_lge_mako
 type: phone
+uses_twrp: true
 vendor: Google
 vendor_short: lge
-versions: [14.1]
-width:
+versions: [14.1, 15.1]
+width: 68.7 mm (2.70 in)
 wifi: 802.11 b/g/n

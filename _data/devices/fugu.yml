@@ -1,0 +1,37 @@
+architecture: {cpu: 'x86_64', userspace: 'x86'}
+battery: None
+bluetooth: {spec: '4.1'}
+cameras: []
+channels: [discontinued]
+codename: fugu
+cpu: Intel Atom
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 15.1
+download_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
+gpu: PowerVR Series 6
+image: fugu.png
+install_method: fastboot_nexus
+kernel: android_kernel_asus_fugu
+maintainers: []
+name: Nexus Player
+no_oem_unlock_switch: true
+peripherals: None
+ram: 1 GB
+recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
+  Tap the <kbd>Bottom Button</kbd> until recovery is selected. Press the <kbd>Bottom Button</kbd> for two seconds to select.
+release: 2014-10
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+sdcard:
+soc: Intel Atom x86_64 (Moorefield)
+storage: 8 GB eMMC
+tree: android_device_asus_fugu
+type: Set top box
+uses_twrp: true
+vendor: Google
+vendor_short: asus
+versions: [14.1, 15.1]
+wifi: 802.11ac 2x2 Broadcom 2.4 GHz and 5 GHz

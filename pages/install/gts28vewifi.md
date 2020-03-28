@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on gts28vewifi
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: gts28vewifi_install.html
+title: Install LineageOS on gts28vewifi
+folder: install
+permalink: /devices/gts28vewifi/install
 device: gts28vewifi
 ---
 {% include templates/device_install.md %}

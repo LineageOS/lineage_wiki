@@ -39,22 +39,22 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 1. Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.bash_profile`:
-
-        if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-            export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
-        fi
-
+```sh
+if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
+    export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
+fi
+```
 4. Log out and back in.
 
 ### On Linux
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.profile`:
-
-        if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-            export PATH=$HOME/adb-fastboot/platform-tools:$PATH"
-        fi
-
+```sh
+if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
+    export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
+fi
+```
 4. Log out and back in.
 5. You may also need to set up udev rules: see [this repository](https://github.com/M0Rf30/android-udev-rules#installation) for more info.
 
@@ -65,7 +65,7 @@ To use `adb` with your device, you'll need to enable developer options and USB d
 1. Open Settings, and select "About".
 2. Tap on "Build number" seven times.
 3. Go back, and select "Developer options".
-4. Scroll down, and check the "Android debugging" entry under "Debugging".
+4. Scroll down, and check the "Android debugging" or "USB debugging" entry under "Debugging".
 5. Plug your device into your computer.
 6. On the computer, open up a terminal/command prompt and type `adb devices`.
 7. A dialog should show on your device, asking you to allow usb debugging. Check "always allow", and choose "OK".

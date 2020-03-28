@@ -1,15 +1,25 @@
 ---
 sidebar: home_sidebar
-title: Contributing to the wiki
+title: Contributing
 folder: meta
+toc: false
 permalink: contributing.html
 ---
-So, you've decided you want to edit the wiki. Awesome! This page will show you how to get started. Please follow the instructions that are most appropriate for you.
 
-## LineageOS developer using `repo`
+So, you've decided you want to contribute to LineageOS. Awesome! This page will give you a quick overview of what you can do to contribute.
 
-Adding the wiki to your local_manifests and running a local ruby based web server while modifying the content is the most convenient and familiar workflow. Please read more about [Contributing using repo](/contributing_using_repo.html).
+## Source code and features
 
-## General contributor using `git`
+To work with the source code, you can check the following links:
 
-People that aren't using the AOSP `repo` command will find it easier to work using `git` to control the flow. Please read more about [Contributing using git](/contributing_using_git.html).
+- [Build for your device](build_guides.html)
+- [How to import the sources to Android Studio / IntelliJ](import-android-studio-howto.html)
+- [How to submit a patch](submitting-patch-howto.html)
+
+## Translations
+
+Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide](translate-howto.html) is for you!
+
+## Wiki
+
+You can help us make this wiki a place where all information to work with and on LineageOS can easily be found. Click [here](contributing_wiki.html) to find out, how!

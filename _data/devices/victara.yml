@@ -1,41 +1,40 @@
-battery: 2300 mAh (non-removable)
-bluetooth: v4.0 with AD2P, EDR, LE
+architecture: arm
+battery: {removable: False, capacity: 2300, tech: 'Li-Po'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: dual-LED flash, info: '13 MP, 4128 x 3096 pixels, autofocus'}
+- {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
 - {flash: '', info: '2 MP, 1080p'}
-carrier:
-cdma:
-channels: [weekly]
+channels: [nightly]
 codename: victara
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 14.1
-download_boot: With the device powered off, hold Volume Down & Power simultaneously.
+current_branch: 16.0
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
-gsm: 850 900 1800 1900 MHz GSM, 850 900 1800 1900 2100 MHz UMTS
-has_recovery_partition: true
 image: victara.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8974
-lte: Bands 1, 3, 7, 8, 20
-maintainers: [crpalmer]
+maintainers: [linckandrea, Tortel]
+models: [XT1092, XT1093, XT1095, XT1096, XT1097]
 name: Moto X 2014
-peripherals: [Accelerometer, Gyroscope, Proximity, Compass, Barometer, Temperature]
-ram: 2GB
-recovery_boot: With the device powered off, hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to Recovery and then use Power to select.
-release: 2014 September 26
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+ On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Volume Up</kbd> to select.
+release: 2014-09-26
 screen: 132 mm (5.2 in)
 screen_ppi: ~424
 screen_res: 1080 x 1920
 screen_tech: AMOLED capacitive touchscreen, 16M colors
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16 GB / 32 GB
+storage: 16/32 GB
 tree: android_device_motorola_victara
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions: [14.1, 16.0]
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot

@@ -1,43 +1,44 @@
-battery: 4100 mAh Li-Po
-bluetooth: '4.0'
+architecture: arm64
+battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: Dual LED, info: 13MP Sony IMX278}
-- {flash: '', info: 8MP OmniVision OV8858}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '8 MP'}
+channels: [nightly]
 codename: r7plus
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
-current_branch: 14.1
-depth:
-download_boot: With the device powered down, hold the Volume Up and Power buttons.
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922694
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 405
-gsm:
-has_recovery_partition: true
-height:
+height: 158 mm (6.22 in)
 image: r7plus.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8939
-lte:
-maintainers: ['']
-name: R7 Plus
-peripherals: [Dual SIM, Fingerprint sensor]
-ram: 3GB
-recovery_boot: With the device powered down, hold the Volume Down and Power buttons.
-release: 2015 May
+maintainers: [maniac103]
+models: [R7plusf]
+name: R7 Plus (International)
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG, Fingerprint reader]
+ram: 3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2015-05
 screen: 152 mm (6.0 in)
 screen_ppi: '367'
 screen_res: 1080x1920
 screen_tech: AMOLED
-sdcard: up to 128GB
+sdcard: up to 128 GB
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 32GB
+storage: 32/64 GB
 tree: android_device_oppo_r7plus
 type: phone
-vendor: Oppo
+uses_twrp: true
+vendor: OPPO
 vendor_short: oppo
-versions: [14.1]
-width:
-wifi: 802.11 a/b/g/n/ac
+versions: [14.1, 15.1, 16.0]
+width: 82 mm (3.23 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band

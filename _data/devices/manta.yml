@@ -1,41 +1,38 @@
-battery: Internal rechargeable non-removable lithium-ion polymer 9000 mAh battery
-bluetooth: '3.0'
+architecture: arm
+battery: {removable: False, capacity: 9000, tech: 'Li-Po'}
+bluetooth: {spec: '3.0', profiles: [A2DP]}
 cameras:
-- {flash: LED, info: 5MP}
-- {flash: '', info: 1.9MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: 'LED', info: '5 MP'}
+- {flash: '', info: '1.9 MP'}
+channels: [discontinued]
 codename: manta
 cpu: Cortex-A15
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
-download_boot: Volume Down & Volume Up & Power
-gpu: Mali T604
-gsm:
-has_recovery_partition: true
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T604
 image: manta.png
-install_method: TODO
-kernel:
-lte:
-maintainers: [atinm, Kornyone, gweedo767]
+install_method: fastboot_nexus
+kernel: android_kernel_samsung_manta
+maintainers: []
 name: Nexus 10
-peripherals: [accelerometer, gyroscope, proximity sensor, digital compass, GPS, magnetometer,
-  barometer, microphone, dual side NFC]
-ram: 2GB
-recovery_boot: Volume Down & Power
-release: 2012 November 13
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, Barometer, Dual side NFC]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2012-11-13
 screen: 255 mm (10.0 in)
 screen_ppi: '300'
 screen_res: 2560x1600
 screen_tech: Super PLS
 sdcard:
 soc: Samsung Exynos 5
-storage: 16 or 32GB
+storage: 16/32 GB
 tree: android_device_samsung_manta
 type: tablet
+uses_twrp: true
 vendor: Google
 vendor_short: samsung
 versions: [13.0]
-wifi: 802.11 b/g/n
+wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA

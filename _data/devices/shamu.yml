@@ -1,35 +1,32 @@
-battery: 3220 mAh, Li-Po non-removable
-bluetooth: 4.1 LE
+architecture: arm
+battery: {removable: False, capacity: 3220, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
 cameras:
-- {flash: Dual LED, info: 13 MP}
-- {flash: '', info: 2.1 MP}
-carrier:
-cdma: 800 1900 MHz (North/South American model only)
-channels: [weekly]
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: '', info: '2.1 MP '}
+channels: [nightly]
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
-current_branch: 14.1
+current_branch: 16.0
 depth: 10.1 mm (0.40 in)
-download_boot: Hold down the Volume Down button while booting.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 420
-gsm: 850 900 1800 1900 MHz UTMS HSPA+
-has_recovery_partition: true
 height: 159.3 mm (6.27 in)
 image: shamu.png
-install_method: TODO
-kernel:
-lte: 700 850 1700 1800 1900 2500 2600 MHz (North/South American models)<br>
-   700 800 850 900 1800 2100 2500 2600 MHz (Afro-Eurasian models)
-maintainers: ['']
+install_method: fastboot_nexus
+kernel: android_kernel_moto_shamu
+maintainers: [Elektroschmock, npjohnson]
 name: Nexus 6
-peripherals: [Accelerometer, Gyro, Proximity sensor, Digital compass, Barometer, Magnetometer,
-  NFC, Wi-Fi Hotspot, Qi wireless charging, Dual front speakers]
-ram: 3GB
-recovery_boot: Hold down the Volume Down button while booting, and use the menu to
-  select Recovery.
-release: 29 October 2014
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+note_show: true
+note_title: ANT+ and IMS support
+note_content: LineageOS 16.0 builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, NFC, Qi wireless charging, Dual front speakers]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
+release: 2014-10-29
 screen: 151 mm (5.96 in)
 screen_ppi: '493'
 screen_res: 2560x1440
@@ -41,6 +38,6 @@ tree: android_device_moto_shamu
 type: phablet
 vendor: Google
 vendor_short: moto
-versions: [14.1]
+versions: [14.1, 15.1, 16.0]
 width: 83 mm (3.27 in)
-wifi: 802.11a/b/g/n/ac 2x2 (MIMO)
+wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot

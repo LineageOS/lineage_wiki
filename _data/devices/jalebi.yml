@@ -1,41 +1,39 @@
-battery: 2000 mAh
-bluetooth: '4.0'
+architecture: arm
+battery: {removable: False, capacity: 2000, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: '', info: 8MP}
-- {flash: '', info: 2MP}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '2 MP'}
+channels: [discontinued]
 codename: jalebi
-cpu: Cortex A53
+cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 Ghz
-current_branch: 13.0
-download_boot: Power off the device then hold Volume UP and Power buttons. Select
-  "reboot to bootloader".
+current_branch: 14.1
+custom_recovery_link: https://androidfilehost.com/?fid=889964283620777296
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+ Then select "reboot to bootloader".
 gpu: Adreno 306
-gsm:
-has_recovery_partition: true
 image: jalebi.png
-install_method: TODO
+install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
-lte:
-maintainers: ['']
+maintainers: []
 name: Yunique
-peripherals: [64 bit, dual SIM]
-ram: 1GB
-recovery_boot: Power off the device then hold Volume UP and Power buttons.
-release: 2015 September
+peripherals: [Dual SIM]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2015-09
 screen: 119 mm (4.7 in)
 screen_ppi: '312'
 screen_res: 720x1280
 screen_tech: IPS LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
-storage: 8GB
+storage: 8 GB
 tree: android_device_yu_jalebi
 type: phone
+uses_twrp: true
 vendor: YU
 vendor_short: yu
-versions: [13.0]
+versions: [13.0, 14.1]
 wifi: 802.11 b/g/n

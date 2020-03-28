@@ -1,0 +1,43 @@
+architecture: arm
+battery: {removable: False, capacity: 2200, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '10 MP'}
+- {flash: '', info: '2 MP'}
+carrier: Sprint, Verizon, U.S. Cellular, AT&T, GSM unlocked
+channels: [discontinued]
+codename: ghost
+cpu: Krait 200
+cpu_cores: '2'
+cpu_freq: 1.7 GHz
+current_branch: 13.0
+depth: 10.4 mm (0.41 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 320
+height: 129.3 mm (5.09 in)
+image: ghost.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_ghost
+maintainers: []
+models: [xt1052, xt1053, xt1055, xt1056, xt1058, xt1060]
+name: Moto X
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall effect sensor, GPS, NFC]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
+release: 2013-08-23
+screen: 119.4 mm (4.7 in)
+screen_ppi: 316
+screen_res: 1280x720
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm MSM8960dt Snapdragon S4
+storage: 16/32 GB
+tree: android_device_motorola_ghost
+type: phone
+uses_twrp: true
+vendor: Motorola
+vendor_short: motorola
+versions: [13.0]
+width: 65.3 mm (2.57 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot

@@ -1,9 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Install Lineage on r7plus
-folder: info
-# name of the page (/{{permalink}}.html)
-permalink: r7plus_install.html
+title: Install LineageOS on r7plus
+folder: install
+permalink: /devices/r7plus/install
 device: r7plus
 ---
 {% include templates/device_install.md %}

@@ -1,42 +1,40 @@
-battery: 1980 mAh
-bluetooth: v4.0
+architecture: arm
+battery: {removable: False, capacity: 1980, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
 cameras:
-- {flash: none, info: 5MP}
-- {flash: '', info: none}
-carrier:
-cdma:
-channels: [weekly]
+- {flash: '', info: '5 MP'}
+channels: [discontinued]
 codename: condor
-cpu: Cortex A7
+cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-download_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll and Volume Up to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 302
-gsm: GSM 850/900/1800/1900 MHz, HSDPA 850/900/1900/2100 MHz
-has_recovery_partition: true
 image: condor.png
-install_method: TODO
+install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
-lte:
-maintainers: ['']
+maintainers: []
+models: [XT1021, XT1022, XT1023]
 name: Moto E
-peripherals: [Accelerometer, proximity, compass]
-ram: 1GB
-recovery_boot: Hold Volume Down & Power simultaneously. On the next screen use Volume
-  Down to scroll to recovery and then use Volume Up to select.
-release: 2014 May 13
+network: [2G GSM, 3G UMTS]
+peripherals: [Accelerometer, Proximity sensor, Compass]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+release: 2014-05-13
 screen: 109 mm (4.3 in)
 screen_ppi: ~256
 screen_res: 540 x 960 pixels
 screen_tech: IPS LCD
-sdcard: up to 32GB
+sdcard: up to 32 GB
 soc: Qualcomm MSM8212 Snapdragon 200
-storage: 4GB
+storage: 4 GB
 tree: android_device_motorola_condor
 type: phone
+uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: Wi-Fi 802.11 b/g/n
+wifi: 802.11 b/g/n, Hotspot
