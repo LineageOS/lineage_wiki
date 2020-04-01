@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
+channels: [discontinued]
 codename: s5neolte
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -17,7 +17,7 @@ height: 142 mm (5.59 in)
 image: s5neolte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7580
-maintainers: [danwood76, Stricted]
+maintainers: []
 models: [SM-G903F, SM-G903M, SM-G903W]
 name: Galaxy S5 Neo
 network: [2G GSM, 3G UMTS, 4G LTE]

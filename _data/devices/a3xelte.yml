@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
+channels: [discontinued]
 codename: a3xelte
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -17,7 +17,7 @@ height: 134.5 mm (5.30 in)
 image: a3xelte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7580
-maintainers: [danwood76, Stricted]
+maintainers: []
 models: [SM-A310F, SM-A310M, SM-A310N0, SM-A310Y]
 name: Galaxy A3 (2016)
 network: [2G GSM, 3G UMTS, 4G LTE]
