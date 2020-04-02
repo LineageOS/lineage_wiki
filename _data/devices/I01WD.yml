@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 13MP'}
