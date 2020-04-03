@@ -15,9 +15,9 @@
 9. Select the firmware file you just downloaded above
 10. Check **all** the boxes under the "Wipe" menu
 11. Click "Flash"
-{% include alerts/tip.html content="It may take a few minutes for the flashing progress indicator to pop up." %}
+    {% include alerts/tip.html content="It may take a few minutes for the flashing progress indicator to pop up." %}
 12. Turn off your phone
 13. Hold the volume-down button and keep holding while connecting the device to your PC
 14. Once the flashing process has started, release the volume rocker as soon as possible
-{% include alerts/warning.html content="Ensure the USB cable doesn't come unplugged during the flashing process!" %}
+    {% include alerts/warning.html content="Ensure the USB cable doesn't come unplugged during the flashing process!" %}
 15. When the flash finishes, boot up the device and once booted, please proceed with the instructions
