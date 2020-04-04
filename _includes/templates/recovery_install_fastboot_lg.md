@@ -38,3 +38,5 @@ fastboot getvar unlocked
 {% include alerts/tip.html content="It is highly recommended to have the latest official LG stock package installed on the device, before proceeding with unlock." %}
 
 {% include templates/recovery_install_fastboot_generic.md %}
+
+{% include alerts/note.html content="For h850: for TWRP to _stick_ you must first boot directly into TWRP and not back into Android. After flashing TWRP unplug the USB cable and pull the battery. Plug battery back in then boot into recovery which should load TWRP." %}
