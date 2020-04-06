@@ -32,10 +32,10 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 3. Run `adb reboot sideload`.
 4. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
-{% if device.is_ab_device %}
+{% if device.uses_twrp %}
 5. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
 {% else %}
-5. _(Optionally)_: If you want to install any additional add-ons, `adb sideload /path/to/zip` those packages in sequence.
+5. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 {% if device.current_branch == 17.1 %}
