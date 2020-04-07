@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c4e14515_76fbc125",
+        "filename": "_data/devices/shamu.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2020-04-07T15:45:12Z",
+      "side": 1,
+      "message": "Change it to LineageOS 17.1 or LineageOS 16.0 and 17.1 please.",
+      "revId": "12e2018b6a7674eda68a3ec4d5e6cd890795ea60",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
