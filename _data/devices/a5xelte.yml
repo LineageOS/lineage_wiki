@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
+channels: [nightly]
 codename: a5xelte
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -17,7 +17,7 @@ height: 144.8 mm (5.70 in)
 image: a5xelte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7580
-maintainers: []
+maintainers: [danwood76, Stricted]
 models: [SM-A510F, SM-A510M, SM-A510Y, SM-A510K, SM-A510L, SM-A510S, SM-A5108]
 name: Galaxy A5 (2016)
 network: [2G GSM, 3G UMTS, 4G LTE]
