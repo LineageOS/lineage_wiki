@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "801b2c34_09b47b2f",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-04-07T09:21:17Z",
+      "side": 1,
+      "message": "same as commented on the other file",
+      "range": {
+        "startLine": 81,
+        "startChar": 29,
+        "endLine": 81,
+        "endChar": 59
+      },
+      "revId": "faf28b3da619c655628924c304f613df6c14200e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9c1d51d7_f713033a",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-04-07T09:21:17Z",
+      "side": 1,
+      "message": "skip that part, as it is always !\u003d true when reaching this statement (otherwise it would have used the first case)",
+      "range": {
+        "startLine": 37,
+        "startChar": 28,
+        "endLine": 37,
+        "endChar": 59
+      },
+      "revId": "faf28b3da619c655628924c304f613df6c14200e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
