@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c6029455_c19806fe",
+        "filename": "_includes/templates/recovery_install_fastboot_ab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2020-04-08T16:09:08Z",
+      "side": 1,
+      "message": "if you try to flash `boot`. I",
+      "range": {
+        "startLine": 39,
+        "startChar": 176,
+        "endLine": 39,
+        "endChar": 179
+      },
+      "revId": "10d762acc6c9e572c1baf9425cacb1305ad7c444",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
