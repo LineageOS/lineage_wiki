@@ -22,6 +22,29 @@
       "revId": "10d762acc6c9e572c1baf9425cacb1305ad7c444",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9a05906a_7159f2e5",
+        "filename": "_includes/templates/recovery_install_fastboot_ab.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-08T16:09:24Z",
+      "side": 1,
+      "message": "we need to somehow notate they need to specific the slot fastboot _tries_ to flash",
+      "range": {
+        "startLine": 39,
+        "startChar": 178,
+        "endLine": 39,
+        "endChar": 200
+      },
+      "revId": "10d762acc6c9e572c1baf9425cacb1305ad7c444",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
