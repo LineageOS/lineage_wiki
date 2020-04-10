@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+before_install: before_install_motorola_sdm660
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '16 MP + 5MP'}
