@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3050, tech: 'Li-Po'}
+before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '16 MP'}
@@ -10,8 +11,7 @@ codename: Amber
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
-current_branch: 16.0
-custom_recovery_link: https://vasy.ru/TWRP/Amber/twrp-3.3.1-0-20190804-Amber.img
+current_branch: 17.1
 custom_unlock_cmd: 'fastboot oem yandex_unlock'
 depth: 8.3 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -39,9 +39,8 @@ soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB
 tree: android_device_yandex_Amber
 type: phone
-uses_twrp: true
 vendor: Yandex
 vendor_short: yandex
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 72.5 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
