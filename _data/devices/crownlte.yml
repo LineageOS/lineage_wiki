@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {removable: False, capacity: 3600, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
 before_install: before_install_universal9810
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
@@ -7,38 +7,38 @@ cameras:
 - {flash: 'LED', info: '12 MP , f/2.4'}
 - {flash: '', info: '8 MP, f/1.7'}
 channels: [nightly]
-codename: star2lte
+codename: crownlte
 cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 17.1
-depth: 8.5 mm (0.33 in)
+depth: 8.8 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
-height: 158.1 mm (6.2 in)
-image: star2lte.png
+height: 161.9 mm (6.3 in)
+image: crownlte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal9810
 maintainers: [erfanoabdi]
-models: [SM-G965F, SM-G965F/DS, SM-G965N]
-name: Galaxy S9+
+models: [SM-N960F, SM-N960F/DS, SM-N960N]
+name: Galaxy Note 9
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
-ram: 6 GB
+ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
-release: 2018-03-11
-screen: 157.5 mm (6.2 in)
-screen_ppi: '529'
+release: 2018-08-09
+screen: 162.5 mm (6.4 in)
+screen_ppi: '516'
 screen_res: 2960x1440
 screen_tech: Quad HD+ Super AMOLED
 sdcard: up to 400 GB
 soc: Samsung Exynos 9810
 storage: 64/128/256 GB
-tree: android_device_samsung_star2lte
+tree: android_device_samsung_crownlte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [15.1, 17.1]
-width: 73.8 mm (2.9 in)
+versions: [17.1]
+width: 76.4 mm (3.0 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
