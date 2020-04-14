@@ -79,7 +79,7 @@ To build LineageOS, you'll need:
 
 * `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
    lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5-dev
-   libsdl1.2-dev libssl-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush rsync
+   libncurses5 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync
    schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
    zip zlib1g-dev`
 
@@ -89,9 +89,13 @@ To build LineageOS 13.0, you'll also need:
 * `maven`
 {% endif %}
 
-For Ubuntu versions older than 16.04 (xenial), substitute:
+For Ubuntu versions older than 20.04 (focal), install also:
 
-* `libwxgtk3.0-dev` → `libwxgtk2.8-dev`
+* `libwxgtk3.0-dev`
+
+While for Ubuntu versions older than 16.04 (xenial), install:
+
+* `libwxgtk2.8-dev`
 
 #### Java
 
