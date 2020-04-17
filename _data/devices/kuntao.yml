@@ -9,7 +9,7 @@ codename: kuntao
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-current_branch: 16.0
+current_branch: 17.1
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397888315
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -39,6 +39,6 @@ type: phone
 uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
-versions: [14.1, 15.1, 16.0]
+versions: [14.1, 15.1, 16.0, 17.1]
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
