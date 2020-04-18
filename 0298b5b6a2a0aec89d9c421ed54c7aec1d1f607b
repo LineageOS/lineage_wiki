@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "25530877_0a3d6441",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:36:16Z",
+      "side": 1,
+      "message": "know the different types of installation packages:",
+      "range": {
+        "startLine": 10,
+        "startChar": 36,
+        "endLine": 10,
+        "endChar": 88
+      },
+      "revId": "0298b5b6a2a0aec89d9c421ed54c7aec1d1f607b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3b7042fa_cbf1e056",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:36:16Z",
+      "side": 1,
+      "message": "this isn\u0027t right, they\u0027re *.dat, etc. etc.",
+      "range": {
+        "startLine": 12,
+        "startChar": 24,
+        "endLine": 12,
+        "endChar": 109
+      },
+      "revId": "0298b5b6a2a0aec89d9c421ed54c7aec1d1f607b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b9040dc1_9b1dea23",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:36:16Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 14,
+        "startChar": 113,
+        "endLine": 14,
+        "endChar": 114
+      },
+      "revId": "0298b5b6a2a0aec89d9c421ed54c7aec1d1f607b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
