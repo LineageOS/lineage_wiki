@@ -85,10 +85,19 @@ There are no recovery installation instructions for this discontinued device.
 {% endif %}
     {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 {% if device.current_branch == 17.1 %}
+{% if device.uses_twrp %}
 8. Once you have installed everything successfully, run 'adb reboot'.
 {% else %}
+8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+{% endif %}
+{% else %}
+{% if device.uses_twrp %}
 8. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 9. Once you have installed everything successfully, run 'adb reboot'.
+{% else %}
+8. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+{% endif %}
 {% endif %}
 
     {% include alerts/warning.html content="Depending on which recovery you use, you may be prompted to install additional apps and services. We strongly advise you to opt out of installing these, as they may cause your device to bootloop, as well as attempt to access or corrupt your data." %}

@@ -14,30 +14,32 @@
 2. Click the Refresh Icon in the top right corner.
 3. Choose which update you'd like and press "Download".
 {%- if device.is_ab_device %}
-4. When the download completes, click "Install". Once the update process has finished, the device will display a "Reboot" button, which will reboot you into the updated system.
+4. When the download completes, click "Install". Once the update process has finished, the device will display a "Reboot" button, you may need to go into the Updater menu in Settings, "System" to see it. This will reboot you into the updated system.
 {%- else %}
 4. When the download completes, click "Install". Your device will reboot to recovery and install the update, then reboot to the updated installation.
 {%- endif %}
 
 ## From your PC via the push_update script (Linux/macOS only)
 1. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
-3. Open Settings, navigate to "System", then "Developer Options", then click the "Root access" panel, and select "ADB only", read the warning, and click "OK" when prompted.
-4. Run `adb root`
-5. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-16.0/push-update.sh && chmod +x push-update.sh`
-6. Run: `./push-update.sh /path/to/zip`
+2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
+3. Run `adb root`
+4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-16.0/push-update.sh && chmod +x push-update.sh`
+5. Run: `./push-update.sh /path/to/zip`
 {%- if device.is_ab_device %}
-7. Open Settings, navigate to "System", then "Updater". Then proceed to click "Install" on the newly pushed update to commence installation. Once the update process has finished, the device will display a "Reboot" button, which will reboot you into the updated system.
+6. Open Settings, navigate to "System", then "Updater". click "Install". Once the update process has finished, the device will display a "Reboot" button, you may need to go into the Updater menu in Settings, "System" to see it. This will reboot you into the updated system.
 {%- else %}
-7. Open Settings, navigate to "System", then "Updater". Then proceed to click "Install" on the newly pushed update to commence installation. Your device will reboot to recovery and install the update, then reboot to the updated installation.
+6. Open Settings, navigate to "System", then "Updater". Then proceed to click "Install" on the newly pushed update to commence installation. Your device will reboot to recovery and install the update, then reboot to the updated installation.
 {% endif %}
 
 {% unless device.is_ab_device%}
 ## Sideloading from Recovery
-
 1. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
 5. Run: `adb reboot sideload`
 6. Run: `adb sideload /path/to/zip`
+{% if device.uses_twrp %}
 7. Run: `adb reboot`
+{% else %}
+7. Click the back arrow in the top left of the screen, then "Reboot system now".
+{% endif %}
 {% endunless %}
