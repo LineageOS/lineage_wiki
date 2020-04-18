@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be2ff368_98d27699",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:38:19Z",
+      "side": 1,
+      "message": "multiple (/product, /oem, etc are a thing, too).",
+      "range": {
+        "startLine": 26,
+        "startChar": 27,
+        "endLine": 26,
+        "endChar": 41
+      },
+      "revId": "e8339b2ed4ead547c9192157453436aebd07ecc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "54930676_68667217",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:38:19Z",
+      "side": 1,
+      "message": "and one for all other included partitions\n\nor something like that",
+      "range": {
+        "startLine": 26,
+        "startChar": 78,
+        "endLine": 26,
+        "endChar": 116
+      },
+      "revId": "e8339b2ed4ead547c9192157453436aebd07ecc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b9c5daaa_c78cf559",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-04-18T22:38:19Z",
+      "side": 1,
+      "message": "generisize to be able to apply to other parititons like:\n\nproduct\nproduct_services\noem\nodm\nvendor\n\njust do instructions for system and vendor,then notate that others may exist in the zip and need to be mounted as well in a similar manner.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 141
+      },
+      "revId": "e8339b2ed4ead547c9192157453436aebd07ecc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
