@@ -23,6 +23,12 @@ You may also have a payload-based OTA, which is what your device will use if it 
 
 ## Extracting proprietary blobs from block-based OTAs
 
+Some block-based OTAs are split into multiple files, for the system partition and the other partitions like vendor, product, oem, odm and others.  You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LinageOS zip.
+
+If you have a split block-based OTA file then you will need to extract, decompress and convert each one in a similar manner to system and vendor as outlined below.
+
+If you do not have a split OTA file, you may skip any step that references `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat`
+
 Create a temporary directory and move there:
 
 ```
@@ -37,11 +43,24 @@ unzip path/to/lineage-*.zip system.transfer.list system.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
 
-In case `system.new.dat.br` (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress it using the `brotli` utility:
+If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (other others), extract them from the installable LineageOS zip as well:
+
+```
+unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
+```
+where `path/to/` is the path to the installable zip.
+
+In the case of `system.new.dat.br`/`vendor.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
 
 ```
 sudo apt-get install brotli
 brotli --decompress --output=system.new.dat system.new.dat.br
+```
+
+And if you have a `vendor.dat.new.br` (or others) file:
+
+```
+brotli --decompress --output=vendor.new.dat vendor.new.dat.br
 ```
 
 You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
@@ -56,6 +75,12 @@ Once you have obtained `sdat2img`, use it to extract the system image:
 python sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
+And if you have a `vendor.dat.new` (or others) file:
+
+```
+python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
+```
+
 You should now have a file named `system.img` that you can mount as follows:
 
 ```
@@ -63,17 +88,40 @@ mkdir system/
 sudo mount system.img system/
 ```
 
-After you have mounted the image, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+If you also have a file named `vendor.img`, you can mount it as follows:
+
+```
+sudo rm system/vendor
+sudo mkdir system/vendor
+sudo mount vendor.img system/vendor/
+```
+
+You must also now mount any other image files that you have in their respective directories.
+
+After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
+
 This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
 
-Once you've extracted all the proprietary files, unmount the system dump and delete the no longer needed files:
+Once you've extracted all the proprietary files, unmount the vendor dump if you mounted it earlier:
+
+```
+sudo umount ~/android/system_dump/system/vendor
+```
+
+Then unmount the system dump:
 
 ```
 sudo umount ~/android/system_dump/system
+
+```
+
+Finally, unmount any other images before deleting the no longer needed files:
+
+```
 rm -rf ~/android/system_dump/
 ```
 
