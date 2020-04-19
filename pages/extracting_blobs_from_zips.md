@@ -7,7 +7,19 @@ permalink: extracting_blobs_from_zips.html
 
 Proprietary blobs can be extracted either from a device already running LineageOS or from a LineageOS installable zip. In this guide we will describe the steps required to extract proprietary files from installable zips.
 
-Before beginning, it is required to know the difference between block-based OTAs, file-based OTAs, and payload-based OTAs. In a file-based OTA the content of the system partition is available inside a folder of the zip named `system`. In a block-based OTA the content of the system partition is stored inside of a file as binary data. If your zip has no `system` folder or an almost empty `system` folder, and a file named `system.transfer.list` in its root, then what you have is a block-based OTAs. Jump to [Extracting proprietary blobs from block-based OTAs](#extracting-proprietary-blobs-from-block-based-otas) in this case. If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas). You may also have a payload-based OTA, which is what your device will use if it uses the A/B partitioning system, the content of the partitions are contained in `.img` files that are compressed into a large `payload.bin` file in the root of the zip. If that is what you have, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
+Before beginning, it is required to know the difference between the types of OTAs:
+
+* **Block-based OTA**: the content of the system partition is stored inside of an `.dat`/`.dat.br` file as binary data.
+
+* **File-based OTA**: the content of the system partition is available inside a folder of the zip named `system`.
+
+* **Payload-based OTA**: the content of the system partition is stored as an `.img` file inside of `payload.bin`.
+
+If your zip has no `system` folder or it is nearly empty and a file named `system.transfer.list` exists at the root level, then what you have is a block-based OTA. Jump to [Extracting proprietary blobs from block-based OTAs](#extracting-proprietary-blobs-from-block-based-otas) in this case.
+
+If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas). 
+
+You may also have a payload-based OTA, which is what your device will use if it uses the A/B partitioning system. If that is what you have, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
 
 ## Extracting proprietary blobs from block-based OTAs
 
