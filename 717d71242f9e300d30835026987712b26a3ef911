@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "239f94a2_86bfdee3",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-04-19T20:57:35Z",
+      "side": 1,
+      "message": "\"If `system` folder is mising or nearly empty and a file named`system.transfer.list exists at the root level, then what you have is a block-based OTA\"\nRemoved the double-mention of \"system\" and also makes OTA a singular instead of OTAs",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 161
+      },
+      "revId": "717d71242f9e300d30835026987712b26a3ef911",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
