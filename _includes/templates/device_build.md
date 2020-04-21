@@ -223,6 +223,7 @@ Make use of [`ccache`](https://ccache.samba.org/) if you want to speed up subseq
 
 ```
 export USE_CCACHE=1
+export CCACHE_EXEC=/usr/bin/ccache
 ```
 
 and adding that line to your `~/.bashrc` file. Then, specify the maximum amount of disk space you want `ccache` to use by typing this:
