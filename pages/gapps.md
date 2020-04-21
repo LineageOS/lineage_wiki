@@ -33,7 +33,7 @@ Google apps should be installed via recovery **immediately** after installing Li
 
 {% include alerts/important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, otherwise expect crashes." %}
 
-1. Copy the Google apps zipfile to `/sdcard/`
-    * Using [adb](adb_fastboot_guide.html): `adb push filename.zip /sdcard/`
-2. After installing LineageOS, choose "install zip" or "Apply update" in recovery, and navigate to the zipfile loaded earlier.
-3. Reboot to system (i.e. LineageOS).
+1. Still in recovery after installing LineageOS sideload the Google apps package the same way:
+    * On the device, select “Advanced”, “ADB Sideload”, then swipe to begin sideload.
+    * On the host machine, sideload the Google apps package using: `adb sideload filename.zip`
+2. In recovery select “Reboot” to trigger LineageOS first boot.
