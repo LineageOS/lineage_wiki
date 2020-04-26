@@ -1,7 +1,7 @@
 architecture: arm
 battery:
-- Find 7a: {removable: True, capacity: 2800, tech: 'Li-Po', fastcharge: True}
-- Find 7s: {removable: True, capacity: 3000, tech: 'Li-Po', fastcharge: True}
+- Find 7a: {removable: True, capacity: 2800, tech: 'Li-Po'}
+- Find 7s: {removable: True, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}

@@ -17,9 +17,6 @@ definitions:
       capacity:
         description: The size of the battery in [mAh]
         type: number
-      fastcharge:
-        description: If the device is capable of fast charging
-        type: boolean
       removable:
         description: Defines whether the battery is removable
         type: boolean
