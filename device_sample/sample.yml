@@ -1,7 +1,7 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery:
 - A0001: {removable: True, capacity: 2800, tech: 'Li-Ion'}
-- SM-6900F: {removable: True, capacity: 3000, tech: 'Li-Po', fastcharge: True}
+- SM-6900F: {removable: True, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '16 MP'}

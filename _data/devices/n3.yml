@@ -1,5 +1,5 @@
 architecture: arm
-battery: {removable: False, capacity: 3000, fastcharge: True, tech: 'Li-Po'}
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: Dual-mode LED, info: 'Motorized Rotation, 16MP OmniVision OV16825 f/2.2'}

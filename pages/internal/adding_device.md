@@ -54,13 +54,12 @@ For `tech` you can use:
   {{ definitions.battery_data.properties.tech.enum | join: ', ' }}
   ```
 
-  For devices with any kind of fast-charging, you can add `fastcharge: True` to the line.
   In case you are setting up one file for multiple devices which have different batteries, you can use Model-Value-Pairs, e.g.
 
   ```
   battery:
   - Model1: {removable: False, capacity: 1000, tech: 'Li-Ion'}
-  - Model2: {removable: True, capacity: 2000, tech: 'Li-Po', fastcharge: True}
+  - Model2: {removable: True, capacity: 2000, tech: 'Li-Po'}
   ```
 
 * `bluetooth`: The proper format is either `{spec: '<version>'}` with `version` being the version of the BT protocol supported, or `{spec: '<version>', profiles: '<profiles>'}` when your device
