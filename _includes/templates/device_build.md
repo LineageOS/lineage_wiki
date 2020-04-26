@@ -48,6 +48,8 @@ Extract it running:
 unzip platform-tools-latest-linux.zip -d ~
 ```
 
+{% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+
 Now you have to add `adb` and `fastboot` to your PATH. Open `~/.profile` and add the following:
 
 ```
