@@ -144,6 +144,14 @@ fi
 
 Then, run `source ~/.profile` to update your environment.
 
+
+### Configure git
+Given that `repo` requires you to identify yourself to sync Android, run the following commands to configure your `git` identity:
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
+
 ### Initialize the LineageOS source repository
 
 {% if device.maintainers != empty %}
