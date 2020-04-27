@@ -30,7 +30,7 @@ fastboot oem get_identifier_token
 ```
 6. Visit the [HTCDev Bootloader Unlock](http://www.htcdev.com/bootloader/) website and follow the instructions there to obtain your unlock key and unlock your bootloader. If your device does not appear in the drop-down list, select **All Other Supported Models**.
 
-    {% include alerts/note.html content="If your device is not supported by the HTCDev Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
+    {% include alerts/note.html content="If your device is not supported by the HTCDev Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/), though they only support some devices/firmwares." %}
 
 7. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 8. Since the device resets completely, you will need to re-enable USB debugging to continue.

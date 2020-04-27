@@ -24,7 +24,7 @@ fastboot devices
 
 4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
 
-    {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you will need to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/)." %}
+    {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/), though they only support some devices/firmwares." %}
 
 5. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
