@@ -4,7 +4,7 @@
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
-Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent." %}
+Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 
 {% if device.project_spectrum_recovery %}
 1. Download [Project Spectrum recovery]({{ device.project_spectrum_recovery }}).
