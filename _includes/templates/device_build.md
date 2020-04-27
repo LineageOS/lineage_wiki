@@ -5,25 +5,25 @@
 
 These instructions will hopefully assist you to start with a stock {{ device.vendor }} {{ device.name }}, unlock the bootloader (if necessary), and then download
 the required tools as well as the very latest source code for LineageOS (based on Google’s Android operating system) for your device. Using these, you can build both
-LineageOS and LineageOS Recovery image from source code, and then install them both to your device.
+a LineageOS installation zip and a LineageOS Recovery image and install them on your device.
 
-It is difficult to say how much experience is necessary to follow these instructions. While this guide is certainly not for the very very very uninitiated,
+It is difficult to say how much experience is necessary to follow these instructions. While this guide is certainly not for the extremely uninitiated,
 these steps shouldn’t require a PhD in software development either. Some readers will have no difficulty and breeze through the steps easily.
 Others may struggle over the most basic operation. Because people’s experiences, backgrounds, and intuitions differ, it may be a good idea to read through
 just to ascertain whether you feel comfortable or are getting over your head.
 
 Remember, you assume all risk of trying this, but you will reap the rewards! It’s pretty satisfying to boot into a fresh operating system you baked at home :).
 And once you’re an Android-building ninja, there will be no more need to wait for “nightly” builds from anyone. You will have at your fingertips the skills to
-build a full operating system from code to a running device, whenever you want. Where you go from there-- maybe you’ll add a feature, fix a bug, add a translation,
+build a full operating system from code and install it to a running device, whenever you want. Where you go from there-- maybe you’ll add a feature, fix a bug, add a translation,
 or use what you’ve learned to build a new app or port to a new device-- or maybe you’ll never build again-- it’s all really up to you.
 
 ### What you'll need
 
-* A {{ device.vendor }} {{ device.name }}
+* A {{ device.vendor }} {{ device.name }}.
 * A relatively recent 64-bit computer (Linux, macOS, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable `ccache`
  or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
  build times than traditional hard drives.
-* A USB cable compatible with the {{ device.vendor }} {{device.name}}
+* A USB cable compatible with the {{ device.vendor }} {{device.name}}.
 * A decent internet connection and reliable electricity :)
 * Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
  It may also be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
