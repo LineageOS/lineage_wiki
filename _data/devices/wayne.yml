@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3010, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: 'Dual LED', info: '20 MP'}
+- {flash: 'LED', info: '20 MP'}
+carrier:
+channels: [weekly]
+codename: wayne
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4x 2.2 GHz & 4 x 1.8 GHz
+current_branch: 15.1
+depth: 7.3 mm (0.29 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 512
+height: 158.7 mm (6.25 in)
+image: wayne.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm660
+maintainers: [Isaac Chen]
+name: Mi 6X
+network:
+- {tech: 2G, bands: '850 900 1800 1900 MHz GSM' }
+- {tech: 3G, bands: '850 900 1900 2100 MHz HSDPA' }
+- {tech: 4G, bands: '1(2100) 3(1800) 5(850) 7(2600) 8(900) 34(2000) 38(2600) 39(1900) 40(2300) 41(2500) LTE' }
+peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, Infrared sensor]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2018-04
+screen: 152.1 mm (5.99 in)
+screen_ppi: 403
+screen_res: 2160x1080
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 32/64/128 GB
+tree: android_device_xiaomi_wayne
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [17.1]
+width: 75.4 mm (2.97 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
