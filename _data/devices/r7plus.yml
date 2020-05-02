@@ -4,7 +4,7 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: r7plus
 cpu: Cortex-A53
 cpu_cores: '8'

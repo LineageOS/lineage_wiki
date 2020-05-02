@@ -4,7 +4,7 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP (IMX519) f/1.7 + 5 MP Depth sensor (GC5035) f/2.4'}
 - {flash: '', info: '25 MP (S5K2X5) f/2.0'}
-channels: [nightly]
+channels: [weekly]
 codename: RMX1851
 cpu: Kryo 360
 cpu_cores: '8'

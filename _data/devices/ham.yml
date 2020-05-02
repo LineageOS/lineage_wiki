@@ -4,7 +4,7 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP F/2.2'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: ham
 cpu: Krait 400
 cpu_cores: '4'

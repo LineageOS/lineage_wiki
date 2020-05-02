@@ -5,7 +5,7 @@ cameras:
 - {flash: 'Dual Tone Dual LED', info: '12 MP, f/1.8, Dual Pixel PDAF'}
 - {flash: 'Dual Tone Dual LED', info: '5 MP, depth sensor'}
 - {flash: 'LED', info: '8 MP, f/2.0'}
-channels: [nightly]
+channels: [weekly]
 codename: zangyapro
 cpu: Kryo 260
 cpu_cores: '8'

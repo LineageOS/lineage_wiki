@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: kltekor
 cpu: Krait 400
 cpu_cores: '4'

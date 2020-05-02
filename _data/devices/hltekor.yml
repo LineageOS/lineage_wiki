@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP, 2160p@30fps, 1080p@60fps'}
 - {flash: '', info: '2 MP, 1080p@30fps'}
-channels: [nightly]
+channels: [weekly]
 codename: hltekor
 cpu: Krait 400
 cpu_cores: '4'
