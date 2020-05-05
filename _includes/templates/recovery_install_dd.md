@@ -46,9 +46,6 @@
 su
 dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}
 ```
-4. Manually reboot into recovery:
-    * {{ device.recovery_boot }}
-
-{% if device.vendor == "LG" %}
-{% include alerts/note.html content="Accept the factory reset prompt using the hardware buttons. If you have done everything correctly, this will not actually reset your device but instead will install the custom recovery." %}
-{% endif %}
+4. Reboot into recovery.
+    * From the same shell, type the following command:
+      ```reboot recovery```
