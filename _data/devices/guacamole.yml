@@ -33,7 +33,7 @@ screen_res: 1440x3120
 screen_tech: Fluid AMOLED
 sdcard:
 soc: Qualcomm SM8150 Snapdragon 855
-storage: 128/256 GB UFS2.1
+storage: 128/256 GB UFS3.0
 tree: android_device_oneplus_guacamole
 type: phone
 vendor: OnePlus
