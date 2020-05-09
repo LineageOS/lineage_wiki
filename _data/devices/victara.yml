@@ -9,14 +9,14 @@ codename: victara
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 16.0
+current_branch: 17.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 image: victara.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8974
-maintainers: [linckandrea, npjohnson]
-models: [XT1092, XT1093, XT1095, XT1096, XT1097]
+maintainers: [jro1979, linckandrea, npjohnson]
+models: [XT1092, XT1093, XT1094, XT1095, XT1096, XT1097, XT1098]
 name: Moto X 2014
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
@@ -33,8 +33,7 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_motorola_victara
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1, 16.0]
+versions: [14.1, 16.0, 17.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot
