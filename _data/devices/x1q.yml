@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
+before_install: before_install_xyzq
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP (Ultra Wide), f/2.2'}
+- {flash: 'LED', info: '12 MP (Wide-angle), f/1.8'}
+- {flash: 'LED', info: '64 MP (Telephoto), f/2.0'}
+- {flash: '', info: '10 MP (Selfie), f/2.2'}
+channels: [nightly]
+codename: x1q
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
+cpu: Octa-core Kryo 585
+current_branch: 17.1
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and then connect the device to a computer.
+gpu: Adreno 650
+height: 151.7 mm (5.97 in)
+image: x1q.png
+install_method: heimdall
+kernel: android_kernel_samsung_sm8250
+maintainers: [jesec]
+models: [SM-G9810, SM-G981N]
+name: Galaxy S20
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [NFC, GPS, Inscreen fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Barometer, Hall effect sensor]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the text appears, release the buttons.
+release: 2020-03-06
+screen: 157.5 mm (6.2 in)
+screen_ppi: '563'
+screen_res: 3200x1440
+screen_tech: Infinity-O Display
+sdcard: up to 1 TB
+soc: Qualcomm Snapdragon 865 (SM8250/KONA)
+storage: 128 GB
+tree: android_device_samsung_x1q
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [17.1]
+width: 69.1 mm (2.72 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
