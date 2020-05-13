@@ -248,6 +248,7 @@ properties:
     - Kryo 470
     - Kryo 485
     - Kryo 495
+    - Kryo 585
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
