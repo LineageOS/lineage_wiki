@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+before_install: before_install_xyzq
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP (Ultra Wide), f/2.2'}
+- {flash: 'LED', info: '108 MP (Wide-angle), f/1.8'}
+- {flash: 'LED', info: '48 MP (Telephoto), f/3.5'}
+- {flash: '', info: '40 MP (Selfie), f/2.2'}
+channels: [nightly]
+codename: z3q
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.80 GHz
+cpu: Kryo 585
+current_branch: 17.1
+depth: 8.8 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and then connect the device to a computer.
+gpu: Adreno 650
+height: 166.9 mm (6.57 in)
+image: z3q.png
+install_method: heimdall
+kernel: android_kernel_samsung_sm8250
+maintainers: [jesec]
+models: [SM-G9880, SM-G988N]
+name: Galaxy S20 Ultra (Snapdragon)
+network: [2G GSM, 3G UMTS, 4G LTE, 5G]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG, Wi-Fi Display]
+ram: 12/16 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the text appears, release the buttons.
+release: 2020-03-06
+screen: 175.3 mm (6.9 in)
+screen_ppi: '511'
+screen_res: 3200x1440
+screen_tech: Infinity-O Display
+sdcard: up to 1 TB
+soc: Qualcomm Snapdragon 865 (SM8250/KONA)
+storage: 256/512 GB
+tree: android_device_samsung_z3q
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [17.1]
+width: 76.0 mm (3.0 in)
+wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
