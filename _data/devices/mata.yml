@@ -11,7 +11,7 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 17.1
-custom_unlock_cmd: 'fastboot flashing unlock_critical'
+custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
