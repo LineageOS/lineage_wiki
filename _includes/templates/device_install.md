@@ -57,20 +57,14 @@ There are no recovery installation instructions for this discontinued device.
 {% if device.uses_twrp %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
-{% if device.is_ab_device %}
-5. Return to the previous menu and tap **Advanced Wipe**, then select the *System* partition and then **Swipe to Wipe**.
-6. Sideload the LineageOS `.zip` package:
-    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`
-{% else %}
+{%- unless device.is_ab_device %}
 5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
+{%- endunless %}
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`
-{% endif %}
 {% else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
-4. Now tap **Wipe System** and continue with the formatting process.
 5. Return to the main menu.
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
