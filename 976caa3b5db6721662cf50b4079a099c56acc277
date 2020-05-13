@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a9cfda9f_47c8db41",
+        "filename": "_data/devices/victara.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-05-13T18:40:35Z",
+      "side": 1,
+      "message": "What does this enable, by the way?",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 23
+      },
+      "revId": "976caa3b5db6721662cf50b4079a099c56acc277",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
