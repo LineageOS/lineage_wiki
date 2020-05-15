@@ -33,8 +33,12 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-6. Follow the instructions on [Sony's official unlocking website](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to unlock your bootloader.
-7. Since the device resets completely, you will need to re-enable USB debugging to continue.
+6. Follow the instructions on [Sony's official unlocking website](http://developer.sonymobile.com/unlockbootloader/unlock-yourboot-loader/) to generate an unlock code for your bootloader.
+7. Use your code to unlock the bootloader of your device:
+```
+fastboot oem unlock <your_unlock_code>
+``` 
+8. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% if device.install_variant and device.install_variant contains "sony_init_fota" %}
 
