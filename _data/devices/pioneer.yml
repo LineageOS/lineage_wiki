@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
-before_install: before_install_pioneer
+before_install: before_install_needs_android_9_fw
 before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:

@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-before_install: before_install_universal9810
+before_install: before_install_needs_android_10_fw
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '12 MP , f/1.5/2.4'}
