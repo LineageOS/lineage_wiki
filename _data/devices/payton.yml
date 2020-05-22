@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
-before_install: before_install_needs_pie_firmware
+before_install: before_install_evert_and_payton
 before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
