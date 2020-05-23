@@ -1,6 +1,6 @@
 ## Pre-install instructions
 
-Thanks to some OEMs shipping A/B devices with slot `b` unpopulated, we need to populate it by copying the contents of slot `a` to avoid a potential hard-brick.
+In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues, or in worst case a potential hard-brick. We can avoid that by copying the contents of slot `a`.
 
 To do this, sideload the copy-partitions.zip package by doing the following:
 1. Download the `copy-partitions.zip` file from [here](https://androidfilehost.com/?fid=4349826312261712574).
