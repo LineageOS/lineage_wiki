@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "c2c6b0c4_553651ea",
+        "filename": "images/devices/ms013g.png",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2020-05-23T19:22:19Z",
+      "side": 1,
+      "message": "nice transparency bro",
+      "revId": "c932bf35c9ce975dcdb1a7b901dd33137e64e230",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
