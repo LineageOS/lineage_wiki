@@ -1,0 +1,45 @@
+architecture: {cpu: 'arm', userspace: 'arm'}
+battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+before_install: before_install_ms013g
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: '', info: '1.9 MP'}
+channels: [weekly]
+codename: ms013g
+cpu: Cortex-A7
+cpu_cores: '4'
+cpu_freq: 1.2 GHz
+current_branch: 16.0
+custom_recovery_codename: ms013g
+depth: 8.9 mm (0.35 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 305
+height: 146.8 mm (5.78 in)
+image: ms013g.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8226
+maintainers: [djchittoor]
+models: [SM-G7102]
+name: Galaxy Grand 2
+network: [2G CDMA, 2G GSM, 3G UMTS]
+peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
+ram: 1.5 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  When the blue text appears, release the buttons.
+release: 2013-11-25
+required_bootloader: ['SM-G7102 = G7102DDSBQF1']
+screen: 133.3 mm (5.25 in)
+screen_ppi: 280
+screen_res: 1280x720
+screen_tech: TFT capacitive touchscreen
+sdcard: up to 128 GB
+soc: Qualcomm MSM8226 Snapdragon 400
+storage: 8 GB
+tree: android_device_samsung_ms013g
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [16.0]
+width: 75.3 mm (2.96 in)
+wifi: 802.11 a/b/g/n
