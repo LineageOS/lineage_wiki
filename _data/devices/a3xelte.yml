@@ -4,12 +4,12 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [weekly]
+channels: [nightly]
 codename: a3xelte
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
-current_branch: 16.0
+current_branch: 17.1
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
@@ -39,6 +39,6 @@ type: phone
 uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 65.2 mm (2.57 in)
 wifi: 802.11 b/g/n
