@@ -23,7 +23,7 @@ maintainers: []
 name: Redmi Note 5 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
-ram: 4/6 GB
+ram: 3 GB LPDDR4 / 4 GB LPDDR4 / 6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-02
@@ -33,7 +33,7 @@ screen_res: 2160x1080
 screen_tech: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM636 Snapdragon 636
-storage: 64 GB
+storage: 32 / 64 / 128 GB
 tree: android_device_xiaomi_whyred
 type: phone
 uses_twrp: true
