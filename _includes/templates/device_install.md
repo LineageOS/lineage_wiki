@@ -86,7 +86,7 @@ There are no recovery installation instructions for this discontinued device.
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 {% else %}
-{% if device.uses_twrp %}
+{% if device.uses_twrp or device.is_ab_device %}
 8. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 9. Once you have installed everything successfully, run 'adb reboot'.
 {% else %}
