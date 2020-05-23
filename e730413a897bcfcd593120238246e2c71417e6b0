@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cf94a31a_faa7deb5",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2020-05-23T21:28:14Z",
+      "side": 1,
+      "message": "add \"to slot b\"?",
+      "range": {
+        "startLine": 3,
+        "startChar": 206,
+        "endLine": 3,
+        "endChar": 209
+      },
+      "revId": "e730413a897bcfcd593120238246e2c71417e6b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3f193e8b_29752566",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2020-05-23T21:28:14Z",
+      "side": 1,
+      "message": "Maybe make this a parenthetical, and say \"including a potential hard brick\". It\u0027s part of the same thought, so or doesn\u0027t make sense.",
+      "range": {
+        "startLine": 3,
+        "startChar": 113,
+        "endLine": 3,
+        "endChar": 131
+      },
+      "revId": "e730413a897bcfcd593120238246e2c71417e6b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "12952b08_fbaf76c0",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2020-05-23T21:28:14Z",
+      "side": 1,
+      "message": "maybe \"work around\"?",
+      "range": {
+        "startLine": 3,
+        "startChar": 159,
+        "endLine": 3,
+        "endChar": 168
+      },
+      "revId": "e730413a897bcfcd593120238246e2c71417e6b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
