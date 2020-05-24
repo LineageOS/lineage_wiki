@@ -1,5 +1,7 @@
 ## Pre-install instructions
 
+{% include alerts/warning.html content="Failure to follow these steps can result in a hard-brick" %}
+
 In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can work around that by copying the contents of slot `a` to slot `b`.
 
 To do this, sideload the copy-partitions.zip package by doing the following:
