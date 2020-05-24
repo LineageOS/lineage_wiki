@@ -26,7 +26,7 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 * A USB cable compatible with the {{ device.vendor }} {{device.name}}.
 * A decent internet connection and reliable electricity. :)
 * Some familiarity with basic Android operation and terminology. It would help if you've installed custom roms on other devices and are familiar with recovery.
- It may also be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
+* A Linux or macOS installation. If you still want to be able to use Windows, Linux can be installed in a dual boot or in a virtual machine. It may also be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by /, etc.
 
 {% include alerts/tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
