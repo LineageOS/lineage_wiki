@@ -37,7 +37,6 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 tree: android_device_sony_mermaid
 type: phone
-uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [17.1]
