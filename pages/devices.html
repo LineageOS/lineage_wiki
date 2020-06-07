@@ -5,85 +5,451 @@ permalink: devices/
 redirect_from: devices.html
 search: exclude
 ---
-
-<script type="text/javascript">
-function toggleDiscontinued()
-{
-  $('.discontinued').toggle();
-  $("table.device").each(function () {
-    vendor = $(this).attr("vendor");
-    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
-      $("*[vendor=" + vendor + "]").hide();
-    } else {
-      $("*[vendor=" + vendor + "]").show();
-    }
-  });
-}
-</script>
-
-<div class="container page">
-
-  <h1>{{ page.title }}</h1>
-
-  Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/>
-  You can hide them by unchecking the following checkbox:<br/><br/>
-
 {% assign devices = "" | split: " " %}
 {% for device in site.data.devices %}
 {% assign devices = devices | push: device[1] %}
 {% endfor %}
 
-{% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
-{% assign lastVendor = "" %}
+<link href="https://unpkg.com/tabulator-tables@4.3.0/dist/css/tabulator.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://unpkg.com/tabulator-tables@4.3.0/dist/js/tabulator.min.js"></script>
 
-<div class="form-check form-check-inline">
-  <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" onclick="toggleDiscontinued()" checked="checked">Show discontinued devices<span class="form-check-sign">
-        <span class="check"></span>
-    </span>
-  </label>
-</div><br/><br/>
+<script type="text/javascript">
+  function toggleDiscontinued() {
+    $(".discontinued").toggle();
+    $("table.device").each(function () {
+      vendor = $(this).attr("vendor");
+      if (
+        $(this).find("tbody > tr:visible").length == 0 &&
+        $(this).is(":visible")
+      ) {
+        $("*[vendor=" + vendor + "]").hide();
+      } else {
+        $("*[vendor=" + vendor + "]").show();
+      }
+    });
+  }
 
-Select a vendor to jump to:<br/>
+  function toggle_advanced_mode() {
+    $("#section-simple").toggle();
+    $("#section-advanced").toggle();
 
-<div class="vendor-container">
-{%- assign vendors = "" | split: " " %}
-{%- for device in sorted %}
-{%- if device.vendor != lastVendor %}
-{%- assign vendors = vendors | push: device.vendor %}
-{%- assign lastVendor = device.vendor %}
-  <div vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
-{%- endif %}
-{%- endfor %}
-</div>
+    const hasBeenInit = $("#table-advanced").hasClass("tabulator");
+    if (!hasBeenInit) {
+      init_advanced_mode();
+    }
+  }
 
-{% for device in sorted %}
-{% if device.vendor != lastVendor %}
-{% assign lastVendor = device.vendor %}
+  function init_advanced_mode() {
+    const data_array = JSON.parse(
+      decodeURIComponent("{{ devices | jsonify | uri_escape  }}")
+    );
 
-<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+    const columnNumber = {
+      sorter: "number",
+      headerFilter: "number",
+      headerFilterPlaceholder: "at least...",
+      headerFilterFunc: ">=",
+    };
 
-<table class="table device" vendor="{{ device.vendor | slugify }}">
-  <thead>
-  <tr>
-    <th scope="col" class="first"><b>Device</b></th>
-    <th scope="col"><b>Codename</b></th>
-    <th scope="col" class="last"><b>Type</b></th>
-  </tr>
-  </thead>
-{% endif %}
-{% if device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
-{% else %}{% assign deviceName = device.name %}{% endif %}
-{% assign url = "devices/" | append: device.codename | relative_url %}
-{%- if device.channels contains "discontinued" %}{% assign class="discontinued" %}
-{%- else %}
-{%- assign class="" %}
-{%- endif %}
-  <tr class="{{ class }}">
-    <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
-    <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
-    <td>{{ device.type | capitalize }}</td>
-  </tr>
-{% if sorted[forloop.index].vendor != lastVendor %}</table>{% endif %}
-{% endfor %}
+    const columnString = { sorter: "string", headerFilter: "input" };
+
+    const columnArray = { sorter: "array", headerFilter: "input" };
+
+    const columnBoolean = {
+      sorter: "boolean",
+      formatter: "tickCross",
+      headerFilter: "tickCross",
+      headerFilterParams: {
+        tristate: false,
+      },
+      headerFilterEmptyCheck: (value) => !value,
+    };
+
+    const columnExists = {
+      sorter: "exists",
+      formatter: "tickCross",
+      headerFilter: "tickCross",
+      headerFilterParams: {
+        tristate: false,
+      },
+      headerFilterEmptyCheck: (value) => !value,
+    };
+
+    const columnSelect = {
+      sorter: "string",
+      headerFilter: "select",
+      headerFilterParams: {
+        values: true,
+      },
+    };
+
+    const peripheral_types = unique(
+      data_array.reduce((acc, item) => {
+        const peripherals = item.peripherals;
+        if (Array.isArray(peripherals)) {
+          return [...acc, ...peripherals];
+        } else if (typeof peripherals === "string") {
+          return [...acc, peripherals];
+        } else {
+          return acc;
+        }
+      }, [])
+    );
+
+    data_array.forEach((item) => {
+      if (typeof item.battery !== "object") {
+        // Assume battery doesn't exist if it's not an object
+        item.battery = {};
+      }
+
+      if (Array.isArray(item.peripherals)) {
+        item.peripherals_map = item.peripherals.reduce((acc, peri) => {
+          if (typeof peri === "string") {
+            // Assume peripherals doesn't exist if it's not a string
+            acc[peri] = true;
+          }
+          return acc;
+        }, {});
+      }
+
+      if (typeof item.release === "string") {
+        item.release_year = new Date(Date.parse(item.release)).getFullYear();
+      } else {
+        item.release = JSON.stringify(item.release) || 0;
+      }
+
+      item.capacity = item.capacity || 0;
+
+      numerify(item, "screen_ppi");
+      numerify(item, "screen", "mm");
+      numerify(item, "height", "mm");
+      numerify(item, "width", "mm");
+      numerify(item, "depth", "mm");
+    });
+
+    const peripheral_columns = peripheral_types.map((pt) => ({
+      title: pt,
+      field: `peripherals_map.${pt}`,
+      ...columnExists,
+    }));
+
+    const table = new Tabulator("#table-advanced", {
+      data: data_array,
+      height: "70vh",
+      virtualDom: true,
+      virtualDomBuffer: 300,
+      resizableColumns: false,
+      placeholder: "No data found",
+      headerFilterPlaceholder: "Filter..",
+      initialSort: [
+        { column: "codename", dir: "asc" },
+      ],
+      columns: [
+        { title: "Codename", field: "codename", frozen: true, ...columnString },
+        {
+          title: "Vendor",
+          field: "vendor",
+          ...columnSelect,
+        },
+        { title: "Name", field: "name", ...columnString },
+        {
+          title: "Architecture",
+          field: "architecture",
+          ...columnSelect,
+        },
+        {
+          title: "Type",
+          field: "type",
+          ...columnSelect,
+        },
+        {
+          title: "Release Date (Manufacturer)",
+          field: "release_year",
+          ...columnNumber,
+          formatter: (cell) => cell.getData().release,
+        },
+        {
+          title: "Current Branch",
+          field: "current_branch",
+          ...columnSelect,
+        },
+        {
+          title: "Channels",
+          field: "channels",
+          ...columnSelect,
+        },
+        { title: "LineageOS Versions", field: "versions", ...columnArray },
+        { title: "Tree", field: "tree", ...columnString },
+        { title: "Kernel", field: "kernel", ...columnString },
+        { title: "Maintainers", field: "maintainers", ...columnArray },
+        {
+          title: "Battery",
+          columns: [
+            {
+              title: "Removable",
+              field: "battery.removable",
+              ...columnBoolean,
+            },
+            { title: "Capacity", field: "battery.capacity", ...columnNumber },
+            {
+              title: "Tech",
+              field: "battery.tech",
+              ...columnSelect,
+            },
+          ],
+        },
+        {
+          title: "Bluetooth",
+          columns: [
+            {
+              title: "Spec",
+              field: "bluetooth.spec",
+              ...columnSelect,
+            },
+            { title: "Profiles", field: "bluetooth.profiles", ...columnArray },
+          ],
+        },
+        {
+          title: "Camera 1",
+          columns: [
+            {
+              title: "Flash",
+              field: "cameras.0.flash",
+              ...columnString,
+            },
+            { title: "Info", field: "cameras.0.info", ...columnString },
+          ],
+        },
+        {
+          title: "Camera 2",
+          columns: [
+            {
+              title: "Flash",
+              field: "cameras.1.flash",
+              ...columnString,
+            },
+            { title: "Info", field: "cameras.1.info", ...columnString },
+          ],
+        },
+        {
+          title: "CPU",
+          columns: [
+            {
+              title: "CPU Name",
+              field: "cpu",
+              ...columnSelect,
+            },
+            { title: "CPU Cores", field: "cpu_cores", ...columnNumber },
+            { title: "CPU Freq", field: "cpu_freq", ...columnString },
+          ],
+        },
+        {
+          title: "GPU",
+          field: "gpu",
+          ...columnSelect,
+        },
+        {
+          title: "Install Method",
+          field: "install_method",
+          ...columnSelect,
+        },
+        { title: "Network", field: "network", ...columnArray },
+        { title: "Ram", field: "ram", ...columnString },
+        {
+          title: "Screen",
+          columns: [
+            {
+              title: "Screen Tech",
+              field: "screen_tech",
+              ...columnString,
+            },
+            {
+              title: "Screen Size",
+              field: "screen_mm",
+              ...columnNumber,
+              formatter: (cell) => cell.getData().screen,
+            },
+            {
+              title: "Screen Resolution",
+              field: "screen_res",
+              ...columnSelect,
+            },
+            { title: "Screen PPI", field: "screen_ppi", ...columnNumber },
+          ],
+        },
+        {
+          title: "Dimensions",
+          columns: [
+            {
+              title: "Height",
+              field: "height_mm",
+              ...columnNumber,
+              formatter: (cell) => cell.getData().height,
+            },
+            {
+              title: "Width",
+              field: "width_mm",
+              ...columnNumber,
+              formatter: (cell) => cell.getData().width,
+            },
+            {
+              title: "Depth",
+              field: "depth_mm",
+              ...columnNumber,
+              formatter: (cell) => cell.getData().depth,
+            },
+          ],
+        },
+        {
+          title: "SD Card",
+          field: "sdcard",
+          ...columnSelect,
+        },
+        {
+          title: "SoC",
+          field: "soc",
+          ...columnSelect,
+        },
+        { title: "Storage", field: "storage", ...columnString },
+        {
+          title: "Uses TWRP",
+          field: "uses_twrp",
+          ...columnBoolean,
+        },
+        { title: "WiFi", field: "wifi", ...columnString },
+        {
+          title: "Peripherals",
+          columns: [
+            {
+              title: "Peripherals (Combined)",
+              field: "peripherals",
+              ...columnArray,
+            },
+            ...peripheral_columns,
+          ],
+        },
+      ],
+    });
+
+    $("#download-csv").click(function () {
+      table.download("csv", "lineageos-devices.csv");
+    });
+
+    $("#download-json").click(function () {
+      table.download("json", "lineageos-devices.json");
+    });
+  }
+
+  function unique(array) {
+    return [...new Set(array)];
+  }
+
+  function numerify(item, key, suffix = "") {
+    // Sometimes we get null, a number, a string, or an object. Let's coerce a number out of them.
+    let val = item[key] || "0";
+    if (typeof val === "object") {
+      val = JSON.stringify(val) || "0";
+    } else {
+      val = val.toString();
+    }
+    item[key] =
+      typeof item[key] === "string" ? item[key] : JSON.stringify(item[key]); // Avoid quoting strings
+    item[suffix ? `${key}_${suffix}` : key] =
+      Number.parseFloat(val.split("/")[0].split("mm")[0]) || 0;
+  }
+</script>
+
+<div class="container page">
+
+  <div class="row justify-content-between align-items-end">
+    <div class="col">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="col-md-auto" style="margin-bottom: 15px;">
+      <div class="form-check form-check-inline">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" autocomplete="off" onclick="toggle_advanced_mode()">Show
+          advanced table
+          <span class="form-check-sign">
+            <span class="check"></span>
+          </span>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-advanced" style="display: none;">
+    <div class="row justify-content-end">
+      <div class="col-md-auto">
+        <button id="download-csv" class="btn btn-sm">Download CSV</button>
+        <button id="download-json" class="btn btn-sm">Download JSON</button>
+      </div>
+    </div>
+    <div id="table-advanced"></div>
+  </div>
+
+  <div id="section-simple">
+
+    Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br />
+    You can hide them by unchecking the following checkbox:<br /><br />
+
+    {% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
+    {% assign lastVendor = "" %}
+
+    <div class="form-check form-check-inline">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" autocomplete="off" onclick="toggleDiscontinued()"
+          checked="checked">Show
+        discontinued
+        devices<span class="form-check-sign">
+          <span class="check"></span>
+        </span>
+      </label>
+    </div><br /><br />
+
+    Select a vendor to jump to:<br />
+
+    <div class="vendor-container">
+      {%- assign vendors = "" | split: " " %}
+      {%- for device in sorted %}
+      {%- if device.vendor != lastVendor %}
+      {%- assign vendors = vendors | push: device.vendor %}
+      {%- assign lastVendor = device.vendor %}
+      <div vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}"
+          vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
+      {%- endif %}
+      {%- endfor %}
+    </div>
+
+    {% for device in sorted %}
+    {% if device.vendor != lastVendor %}
+    {% assign lastVendor = device.vendor %}
+
+    <h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+
+    <table class="table device" vendor="{{ device.vendor | slugify }}">
+      <thead>
+        <tr>
+          <th scope="col" class="first"><b>Device</b></th>
+          <th scope="col"><b>Codename</b></th>
+          <th scope="col" class="last"><b>Type</b></th>
+        </tr>
+      </thead>
+      {% endif %}
+      {% if device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
+      {% else %}{% assign deviceName = device.name %}{% endif %}
+      {% assign url = "devices/" | append: device.codename | relative_url %}
+      {%- if device.channels contains "discontinued" %}{% assign class="discontinued" %}
+      {%- else %}
+      {%- assign class="" %}
+      {%- endif %}
+      <tr class="{{ class }}">
+        <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
+        <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
+        <td>{{ device.type | capitalize }}</td>
+      </tr>
+      {% if sorted[forloop.index].vendor != lastVendor %}
+    </table>{% endif %}
+    {% endfor %}
+  </div>
 </div>
