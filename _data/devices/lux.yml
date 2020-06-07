@@ -4,12 +4,12 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
+channels: [nightly]
 codename: lux
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
-current_branch: 14.1
+current_branch: 17.1
 custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3194656
 depth: 10.9 mm (0.43 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -18,7 +18,7 @@ height: 148 mm (5.83 in)
 image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: []
+maintainers: [jro1979, thopiekar]
 models: [XT1562, XT1563]
 name: Moto X Play
 peripherals: None
@@ -35,9 +35,8 @@ soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
 tree: android_device_motorola_lux
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions: [14.1, 17.1]
 width: 75 mm (2.95 in)
 wifi: 802.11 a/g/b/n, Dual-band
