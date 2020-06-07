@@ -4,19 +4,19 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: 'VGA'}
-channels: [discontinued]
+channels: [nightly]
 codename: surnia
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
-current_branch: 14.1
+current_branch: 17.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 306
 image: otus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: []
+maintainers: [althafvly, TheImpulson]
 models: [XT1514, XT1521, XT1523, XT1524, XT1526, XT1527]
 name: Moto E 2015 LTE
 peripherals: [Accelerometer, Proximity sensor]
@@ -33,8 +33,7 @@ soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_motorola_surnia
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions: [14.1, 17.1]
 wifi: Wi-Fi 802.11 b/g/n
