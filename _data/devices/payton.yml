@@ -7,7 +7,6 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '8 MP'}
-channels: [nightly]
 codename: payton
 cpu: Cortex-A53
 cpu_cores: '8'

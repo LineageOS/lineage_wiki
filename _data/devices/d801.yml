@@ -7,7 +7,6 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP'}
 carrier: T-Mobile
-channels: [nightly]
 codename: d801
 cpu: Krait 400
 cpu_cores: '4'

@@ -2,7 +2,6 @@ architecture: {cpu: 'x86_64', userspace: 'x86'}
 battery: None
 bluetooth: {spec: '4.1'}
 cameras: []
-channels: [discontinued]
 codename: fugu
 cpu: Intel Atom
 cpu_cores: '4'

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '5 MP'}
 - {flash: '', info: '0.3 MP'}
-channels: [discontinued]
 codename: w5
 cpu: Cortex-A7
 cpu_cores: '2'

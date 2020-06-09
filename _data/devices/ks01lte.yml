@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '13 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: '2 MP, 1080p HD Video Recording @ 30fps'}
-channels: [discontinued]
 codename: ks01lte
 cpu: Krait 400
 cpu_cores: '4'

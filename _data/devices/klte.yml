@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
-channels: [weekly]
 codename: klte
 cpu: Krait 400
 cpu_cores: '4'

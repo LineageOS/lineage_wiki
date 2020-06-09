@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
 codename: clark
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'

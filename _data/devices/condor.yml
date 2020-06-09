@@ -3,7 +3,6 @@ battery: {removable: False, capacity: 1980, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
 codename: condor
 cpu: Cortex-A7
 cpu_cores: '2'

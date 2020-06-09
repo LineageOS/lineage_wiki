@@ -6,7 +6,6 @@ bluetooth: {spec: '3.0', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '15 MP '}
 - {flash: '', info: '1.3 MP'}
-channels: [discontinued]
 codename: espressowifi
 cpu: Cortex-A9
 cpu_cores: '2'

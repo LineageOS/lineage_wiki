@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP, 1080p Full HD Video Recording @ 60fps'}
 - {flash: '', info: '2 MP, 1080p HD Video Recording @ 30fps'}
-channels: [discontinued]
 codename: ha3g
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'

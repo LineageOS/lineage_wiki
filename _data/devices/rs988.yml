@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: Unlocked (US)
-channels: [nightly]
 codename: rs988
 cpu: Kryo
 cpu_cores: '4'

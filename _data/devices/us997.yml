@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier: Unlocked (US)
-channels: [discontinued]
 codename: us997
 cpu: Kryo
 cpu_cores: '4'

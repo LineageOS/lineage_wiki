@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: Verizon
-channels: [nightly]
 codename: vs995
 cpu: Kryo
 cpu_cores: '4'

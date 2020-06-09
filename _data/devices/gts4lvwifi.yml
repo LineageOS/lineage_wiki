@@ -5,7 +5,6 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '13 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
 codename: gts4lvwifi
 cpu: Kryo 360
 cpu_cores: '8'

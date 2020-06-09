@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
 codename: h850
 cpu: Kryo
 cpu_cores: '4'

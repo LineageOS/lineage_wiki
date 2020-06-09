@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: 'Dual 4 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
 codename: m8
 cpu: Krait 400
 cpu_cores: '4'

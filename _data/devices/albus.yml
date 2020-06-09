@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP, laser autofocus'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
-channels: [discontinued]
 codename: albus
 cpu: Cortex-A53
 cpu_cores: '8'

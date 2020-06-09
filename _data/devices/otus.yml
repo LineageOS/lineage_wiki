@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: 'VGA'}
-channels: [discontinued]
 codename: otus
 cpu: Cortex-A7
 cpu_cores: '4'

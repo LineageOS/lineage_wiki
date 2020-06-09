@@ -6,7 +6,6 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '23 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
 codename: voyager
 cpu: Cortex-A53
 cpu_cores: '8'

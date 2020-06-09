@@ -4,7 +4,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '40 MP + 20 MP'}
 - {flash: '', info: '8 MP'}
-channels: [weekly]
 codename: charlotte
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

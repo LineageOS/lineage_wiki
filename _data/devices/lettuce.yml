@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
 codename: lettuce
 cpu: Cortex-A53
 cpu_cores: '4'

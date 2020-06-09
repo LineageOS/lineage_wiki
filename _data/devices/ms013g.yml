@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.9 MP'}
-channels: [weekly]
 codename: ms013g
 cpu: Cortex-A7
 cpu_cores: '4'

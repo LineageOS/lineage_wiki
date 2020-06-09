@@ -5,7 +5,6 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP , f/1.8, 26mm'}
 - {flash: '', info: '5 MP, f/1.8, 23mm'}
-channels: [discontinued]
 codename: pme
 cpu: Kryo
 cpu_cores: '4'

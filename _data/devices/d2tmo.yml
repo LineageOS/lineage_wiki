@@ -5,7 +5,6 @@ cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}
 carrier: T-Mobile, Mobilcity, Wind, Videotron
-channels: [discontinued]
 codename: d2tmo
 cpu: Krait
 cpu_cores: '2'

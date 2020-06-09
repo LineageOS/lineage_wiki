@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
 - {flash: '', info: '1.9 MP, 720p HD Video Recording @ 30fps'}
-channels: [discontinued]
 codename: serranodsdd
 cpu: Krait
 cpu_cores: '2'

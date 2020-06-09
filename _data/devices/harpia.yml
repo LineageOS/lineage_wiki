@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, International GSM
-channels: [discontinued]
 codename: harpia
 cpu: Cortex-A53
 cpu_cores: '4'

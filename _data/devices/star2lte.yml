@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '12 MP , f/1.5/2.4'}
 - {flash: 'LED', info: '12 MP , f/2.4'}
 - {flash: '', info: '8 MP, f/1.7'}
-channels: [nightly]
 codename: star2lte
 cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'

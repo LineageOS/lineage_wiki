@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
 codename: lux
 cpu: Cortex-A53
 cpu_cores: '8'

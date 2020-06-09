@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '10 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Sprint, Verizon, U.S. Cellular, AT&T, GSM unlocked
-channels: [discontinued]
 codename: ghost
 cpu: Krait 200
 cpu_cores: '2'

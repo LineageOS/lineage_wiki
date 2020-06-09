@@ -4,7 +4,6 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '16 MP + 5MP'}
 - {flash: 'LED flash', info: '12 MP'}
-channels: [nightly]
 codename: chef
 cpu: Kryo 260
 cpu_cores: '8'

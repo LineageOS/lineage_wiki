@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [discontinued]
 codename: seed
 cpu: Cortex-A53
 cpu_cores: '4'

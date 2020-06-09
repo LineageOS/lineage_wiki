@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: 'VGA'}
-channels: [discontinued]
 codename: nicki
 cpu: Krait
 cpu_cores: '2'

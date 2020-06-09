@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.6 MP'}
-channels: [discontinued]
 codename: flounder_lte
 cpu: Denver
 cpu_cores: '2'
