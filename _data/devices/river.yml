@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: 'LED', info: 'Depth Sensor 5 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: river
 cpu: Cortex-A53
 cpu_cores: '8'

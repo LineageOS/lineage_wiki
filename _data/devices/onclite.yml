@@ -4,7 +4,7 @@ bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '12MP + 2MP AI Dual Camera'}
 - {flash: '', info: '8MP Selfie camera'}
-channels: [nightly]
+channels: [weekly]
 codename: onclite
 cpu: Kryo
 cpu_cores: '8'

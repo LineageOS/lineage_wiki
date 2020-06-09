@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: 'LED', info: '5 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: kirin
 cpu: Cortex-A53
 cpu_cores: '8'

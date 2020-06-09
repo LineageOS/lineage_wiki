@@ -7,7 +7,7 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: nash
 cpu: Kryo 280
 cpu_cores: '8'

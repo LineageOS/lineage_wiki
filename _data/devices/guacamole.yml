@@ -6,7 +6,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 8 MP (telephoto) + 16 MP (ultrawide)'}
 - {flash: '', info: '16 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: guacamole
 cpu: Kryo 485
 cpu_cores: '8'

@@ -5,7 +5,7 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Verizon
-channels: [nightly]
+channels: [weekly]
 codename: jfltespr
 cpu: Krait 300
 cpu_cores: 4

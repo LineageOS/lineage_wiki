@@ -6,7 +6,7 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '20 MP'}
 - {flash: '', info: '2 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: twolip
 cpu: Kryo 260
 cpu_cores: '8'

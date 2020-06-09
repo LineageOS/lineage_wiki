@@ -5,7 +5,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 13MP'}
 - {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 13MP'}
-channels: [nightly]
+channels: [weekly]
 codename: I01WD
 cpu: Kryo 485
 cpu_cores: '8'

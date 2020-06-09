@@ -6,7 +6,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: Sprint
-channels: [nightly]
+channels: [weekly]
 codename: ls997
 cpu: Kryo
 cpu_cores: '4'

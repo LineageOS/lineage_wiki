@@ -6,7 +6,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP + 20 MP (16 MP effective)'}
 - {flash: '', info: '16 MP'}
-channels: [nightly]
+channels: [weekly]
 codename: enchilada
 cpu: Kryo 385
 cpu_cores: '8'
