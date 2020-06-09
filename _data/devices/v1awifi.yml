@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-channels: [discontinued]
 codename: v1awifi
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'

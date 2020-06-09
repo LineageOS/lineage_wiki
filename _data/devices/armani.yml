@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '1.6 MP'}
-channels: [discontinued]
 codename: armani
 cpu: Cortex-A7
 cpu_cores: '4'

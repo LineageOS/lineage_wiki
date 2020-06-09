@@ -75,7 +75,7 @@ Select a vendor to jump to:<br/>
 {% if device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {% else %}{% assign deviceName = device.name %}{% endif %}
 {% assign url = "devices/" | append: device.codename | relative_url %}
-{%- if device.channels contains "discontinued" %}{% assign class="discontinued" %}
+{%- if device.maintainers == empty %}{% assign class="discontinued" %}
 {%- else %}
 {%- assign class="" %}
 {%- endif %}

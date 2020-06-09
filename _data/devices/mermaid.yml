@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
-channels: [nightly]
 codename: mermaid
 cpu: Kryo 260
 cpu_cores: '8'

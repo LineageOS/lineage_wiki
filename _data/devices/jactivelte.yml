@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-channels: [nightly]
 codename: jactivelte
 cpu: Krait 300
 cpu_cores: 4

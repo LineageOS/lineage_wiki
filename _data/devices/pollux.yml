@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8.1MP f/2.4'}
 - {flash: '', info: '2.2MP'}
-channels: [discontinued]
 codename: pollux
 cpu: Krait
 cpu_cores: '4'

@@ -5,7 +5,6 @@ cameras:
 - {flash: '', info: '8 MP w/ LED flash'}
 - {flash: '', info: '1.9 MP'}
 carrier: AT&T, Bell, Rogers, Telus
-channels: [discontinued]
 codename: d2att
 cpu: Krait
 cpu_cores: '2'

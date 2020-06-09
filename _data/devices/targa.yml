@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: 'VGA'}
 carrier: Verizon Wireless
-channels: [discontinued]
 codename: targa
 cpu: Cortex-A9
 cpu_cores: '2'

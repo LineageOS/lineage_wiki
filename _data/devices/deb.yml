@@ -5,7 +5,6 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '1.2 MP'}
 carrier: AT&T, T-Mobile, Verizon Wireless
-channels: [discontinued]
 codename: deb
 cpu: Krait 300
 cpu_cores: '4'

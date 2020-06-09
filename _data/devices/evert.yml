@@ -7,7 +7,6 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
 - {flash: 'LED', info: '8 MP'}
-channels: [nightly]
 codename: evert
 cpu: Cortex-A53
 cpu_cores: '8'

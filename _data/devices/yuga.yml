@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13.1MP f/2.4'}
 - {flash: '', info: '2MP'}
-channels: [discontinued]
 codename: yuga
 cpu: Krait
 cpu_cores: '4'

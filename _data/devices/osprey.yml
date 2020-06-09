@@ -5,7 +5,6 @@ cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier: U.S. Cellular, Virgin Mobile, International GSM
-channels: [nightly]
 codename: osprey
 cpu: Cortex-A53
 cpu_cores: '4'

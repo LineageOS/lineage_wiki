@@ -6,7 +6,6 @@ cameras:
 - {flash: 'Dual LED', info: '16 MP'}
 - {flash: 'Dual LED', info: '5 MP'}
 - {flash: 'LED', info: '5 MP'}
-channels: [nightly]
 codename: Amber
 cpu: Cortex-A53
 cpu_cores: '8'

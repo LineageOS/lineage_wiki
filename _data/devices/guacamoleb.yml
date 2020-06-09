@@ -6,7 +6,6 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 5 MP (depth)'}
 - {flash: '', info: '16 MP'}
-channels: [nightly]
 codename: guacamoleb
 cpu: Kryo 485
 cpu_cores: '8'

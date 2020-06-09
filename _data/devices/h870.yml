@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
 carrier: Unlocked (EU)
-channels: [discontinued]
 codename: h870
 cpu: Kryo
 cpu_cores: '4'

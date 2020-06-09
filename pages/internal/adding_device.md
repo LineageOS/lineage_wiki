@@ -73,12 +73,6 @@ For `tech` you can use:
   {{ properties.bluetooth.properties.profiles.items.enum | join: ', ' }}
   ```
 
-* `channels`: The current shipping channel. Can be one of the following list:
-
-  ```
-  {{ properties.channels.items.enum | join: ", " }}
-  ```
-
 * `cpu`: The CPU type of the device, can be one of the following list:
 
   ```

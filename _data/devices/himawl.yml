@@ -5,7 +5,6 @@ cameras:
 - {flash: 'Dual LED', info: '20 MP'}
 - {flash: '', info: '4 MP'}
 carrier: Verizon Wireless
-channels: [discontinued]
 codename: himawl
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2 MP'}
-channels: [nightly]
 codename: jfvelte
 cpu: Krait 300
 cpu_cores: 4

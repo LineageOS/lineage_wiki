@@ -4,7 +4,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [nightly]
 codename: merlin
 cpu: Cortex-A53
 cpu_cores: '8'

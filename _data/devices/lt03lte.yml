@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '2.1 MP'}
-channels: [discontinued]
 codename: lt03lte
 cpu: Krait 400
 cpu_cores: '4'

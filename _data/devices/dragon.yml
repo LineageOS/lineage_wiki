@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: '', info: '8 MP, f/2.4'}
 - {flash: '', info: '2 MP'}
-channels: [discontinued]
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'

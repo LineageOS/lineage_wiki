@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: '', info: '8 MP'}
 carrier: AT&T
-channels: [nightly]
 codename: h910
 cpu: Kryo
 cpu_cores: '4'

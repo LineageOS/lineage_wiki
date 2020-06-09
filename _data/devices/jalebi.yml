@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '8 MP'}
 - {flash: '', info: '2 MP'}
-channels: [discontinued]
 codename: jalebi
 cpu: Cortex-A53
 cpu_cores: '4'

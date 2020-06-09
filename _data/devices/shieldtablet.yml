@@ -5,7 +5,6 @@ cameras:
 - {flash: '', info: '5 MP'}
 - {flash: '', info: '5 MP'}
 carrier: AT&T, T-Mobile
-channels: [discontinued]
 codename: shieldtablet
 cpu: Cortex-A15
 cpu_cores: '4'

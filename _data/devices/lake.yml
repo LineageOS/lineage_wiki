@@ -6,7 +6,6 @@ cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
 - {flash: '', info: '12 MP'}
-channels: [nightly]
 codename: lake
 cpu: Kryo 260
 cpu_cores: '8'

@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '23 MP'}
 - {flash: 'LED', info: '12 MP'}
 - {flash: '', info: 16MP}
-channels: [nightly]
 codename: nx563j
 cpu: Kryo 280
 cpu_cores: '8'

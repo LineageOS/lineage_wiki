@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: '', info: 'Sunny DW9761B (back, 13 MP)'}
 - {flash: '', info: 'QTech OV5695 (front, 5 MP)'}
-channels: [weekly]
 codename: YTX703F
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'

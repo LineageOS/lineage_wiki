@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: 'LED', info: '5 MP'}
-channels: [discontinued]
 codename: paella
 cpu: Cortex-A53
 cpu_cores: '4'

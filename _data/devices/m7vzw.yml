@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '4 UP'}
 - {flash: '', info: '2.1 MP'}
 carrier: Verizon Wireless
-channels: [discontinued]
 codename: m7vzw
 cpu: Krait 300
 cpu_cores: '4'

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP '}
-channels: [nightly]
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'

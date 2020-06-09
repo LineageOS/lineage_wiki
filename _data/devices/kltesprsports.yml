@@ -5,7 +5,6 @@ cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
 carrier: Sprint
-channels: [discontinued]
 codename: kltesprsports
 cpu: Krait 400
 cpu_cores: '4'

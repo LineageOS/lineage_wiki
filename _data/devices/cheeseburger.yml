@@ -6,7 +6,6 @@ cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: 16MP}
-channels: [weekly]
 codename: cheeseburger
 cpu: Kryo 280
 cpu_cores: '8'

@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
 - {flash: '', info: '5 MP'}
-channels: [weekly]
 codename: bacon
 cpu: Krait 400
 cpu_cores: '4'

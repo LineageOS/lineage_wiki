@@ -4,7 +4,6 @@ bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '8.1 MP F/2.0'}
 - {flash: '', info: '5.1 MP F/2.4'}
-channels: [discontinued]
 codename: karin_windy
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'

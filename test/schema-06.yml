@@ -202,16 +202,6 @@ properties:
   carrier:
     "$carrier": "/properties/carrier"
     type: string
-  channels:
-    "$id": "/properties/channels"
-    items:
-      "$id": "/properties/channels/items"
-      enum:
-      - discontinued
-      - monthly
-      - nightly
-      - weekly
-    type: array
   codename:
     "$id": "/properties/codename"
     minLength: 1
@@ -523,7 +513,6 @@ required:
 - architecture
 - battery
 - bluetooth
-- channels
 - codename
 - cpu
 - cpu_cores

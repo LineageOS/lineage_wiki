@@ -4,7 +4,6 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '4 UP'}
 - {flash: '', info: '2.1 MP'}
-channels: [discontinued]
 codename: m7
 cpu: Krait 300
 cpu_cores: '4'

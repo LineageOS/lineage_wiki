@@ -6,7 +6,6 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: '', info: '2.1 MP'}
-channels: [nightly]
 codename: d802
 cpu: Krait 400
 cpu_cores: '4'
