@@ -2,20 +2,21 @@ architecture: {cpu: 'arm64', userspace: 'arm'}
 battery:
 - A0001: {removable: True, capacity: 2800, tech: 'Li-Ion'}
 - SM-6900F: {removable: True, capacity: 3000, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE}
+bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: 'LED', info: '16 MP', position: Rear}
+- {flash: '', info: '12 MP', position: Rear}
+- {flash: '', info: '2 MP', position: Front}
 codename: sample
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
 custom_unlock_cmd: 'fastboot oem let-me-free'
-depth: 7.3 mm (0.29 in)
+depth: 7.3
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
-height: 144.6 mm (5.69 in)
+height: 144.6
 image: sample.png
 install_method: heimdall
 kernel: android_kernel_lge_msm8974
@@ -43,5 +44,5 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [13.0, 14.1, 15.1, 16.0]
-width: 69.2 mm (2.72 in)
-wifi: 802.11 a/b/g/n/ac
+width: 69.2
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, DLNA, Hotspot
