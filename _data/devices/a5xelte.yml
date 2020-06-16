@@ -2,8 +2,8 @@ architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: {removable: False, capacity: 2900, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'LED', info: '13 MP', position: 'Rear'}
+- {flash: '', info: '5 MP', position: 'Front'}
 codename: a5xelte
 cpu: Cortex-A53
 cpu_cores: '8'
