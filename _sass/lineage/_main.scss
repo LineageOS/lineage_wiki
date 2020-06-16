@@ -83,6 +83,11 @@
   ul, ol {
     text-align: left;
   }
+  li {
+    text-align: right;
+    direction:rtl;
+    margin: 0 1.5em;
+  }
   tr.image td {
     text-align: center;
     img {
