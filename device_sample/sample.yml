@@ -2,46 +2,69 @@ architecture: {cpu: 'arm64', userspace: 'arm'}
 battery:
 - A0001: {removable: True, capacity: 2800, tech: 'Li-Ion'}
 - SM-6900F: {removable: True, capacity: 3000, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE}
-cameras:
+bluetooth: {spec: 4.0 + LE} # deprecated
+bluetooth_alt: [4.2, LE, A2DP, aptX HD]
+cameras: # deprecated
 - {flash: 'LED', info: '16 MP'}
 - {flash: '', info: '2 MP'}
+camera_rear: [16 MP, f/2.0, 1/2.8", 1.12µm, PDAF, HDR, LED flash]
+camera_front:
+- 3: [[8 MP, f/2.0, 1/3.2", 1.4µm]]
+- 3T: [[16 MP, f/2.0, 1/3.1", 1.0µm]]
 codename: sample
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
 custom_unlock_cmd: 'fastboot oem let-me-free'
-depth: 7.3 mm (0.29 in)
+depth: 7.3 mm (0.29 in) # deprecated
+depth_mm: 7.4
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+fingerprint: Front
 gpu: Adreno 330
-height: 144.6 mm (5.69 in)
+height: 144.6 mm (5.69 in) # deprecated
+headphone_jack: Yes
+height_mm: 152.7
 image: sample.png
 install_method: heimdall
+ip_rating: None
 kernel: android_kernel_lge_msm8974
 maintainers: [you, another person, a third person]
+mass: 120 # mass in grams
 models: [A0001, SM-G900F]
 name: Galaxy Note Sample
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
+notch: No
+peripherals: [Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   RGB ambient light, Infrared sensor, GPS, NFC]
-ram: 2 GB
+ram: 2 GB # deprecated
+ram_alt: 2
+ram_type: LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
 release: 2014-04-11
 required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']
-screen: 130 mm (5.1 in)
+screen: 130 mm (5.1 in) # deprecated
+screen_mm: 139.7
+screen_body_ratio: 0.731
 screen_ppi: 432
 screen_res: 1920x1080
-screen_tech: Full HD Super AMOLED
-sdcard: up to 128 GB
+sdcard: Up to 128 GB
+screen_tech: Super AMOLED
+sim: Dual
+sim_size: Nano
 soc: Qualcomm MSM8974AC Snapdragon 801
-storage: 16/32 GB
+storage: 16/32 GB # deprecated
+storage_alt: [16, 32]
+storage_type: UFS 2.0
 tree: android_device_lge_sample
 type: phone
+usb: USB C
 vendor: LG
 vendor_short: lge
 versions: [13.0, 14.1, 15.1, 16.0]
-width: 69.2 mm (2.72 in)
-wifi: 802.11 a/b/g/n/ac
+width: 69.2 mm (2.72 in) # deprecated
+width_mm: 74.7
+wifi: 802.11 a/b/g/n/ac # deprecated
+wifi_alt: [802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot]
