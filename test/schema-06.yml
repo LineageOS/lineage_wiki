@@ -112,6 +112,7 @@ definitions:
       - HDMI
       - Hall effect sensor
       - Hardware keyboard
+      - Headphone jack
       - Heart rate sensor
       - Hygrometer
       - IR blaster
@@ -194,7 +195,7 @@ properties:
         - '4.0 + LE'
         - '4.1'
         - '4.2'
-        - '5'
+        - '5.0'
         type: string
     required:
     - spec
@@ -266,7 +267,7 @@ properties:
     type: string
   depth:
     "$id": "/properties/depth"
-    "$ref": "#/definitions/valid_dimension"
+    type: number
   download_boot:
     "$id": "/properties/download_boot"
     type: string
@@ -327,7 +328,7 @@ properties:
     - Tegra 4
   height:
     "$id": "/properties/height"
-    "$ref": "#/definitions/valid_dimension"
+    type: number
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -511,7 +512,7 @@ properties:
     type: array
   width:
     "$id": "/properties/width"
-    "$ref": "#/definitions/valid_dimension"
+    type: number
 required:
 - architecture
 - battery

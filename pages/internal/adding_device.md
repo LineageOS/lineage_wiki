@@ -79,18 +79,19 @@ For `tech` you can use:
   {{ properties.cpu.enum | join: ", " }}
   ```
 
-
+* `depth`, `height`, `width`: Dimensions of the body of the device in mm. It is converted to inches on the page.
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
 * `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image are below.
 * `install_method`: Used to determine the recovery install template to use. Templates can be found in \_includes/templates/recovery\_install\_`install_method`.md.
 * `kernel`: The repo name of the kernel - for example, `android_kernel_oneplus_msm8974`.
 * `network`: The frequencies and channels for the various network technologies. You can look them up [here](https://www.frequencycheck.com/models/). Keep the non-available technologies empty.
-* `peripherals`: A list of peripherals available on the device, can be any of the following list:
+* `peripherals`: A list of peripherals available on the device, can be any of the following list, is sorted alphabetically on the device page:
 
   ```
   {{ definitions.valid_peripherals.items.enum | join: ", " }}
   ```
 
+* `ram`, `storage`: Follows the format of `### GB` or `### MB`. Separate variations using `/`, as in `###/### GB`. Do not include storage type. 
 * `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. In case of multiple devices with different dates, you can use Model-Value-Pairs:
 
   ```
