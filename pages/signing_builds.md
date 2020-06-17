@@ -67,6 +67,11 @@ on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
 
+LineageOS 17.1:
+```
+repopick 266939
+```
+
 LineageOS 16.0:
 ```
 repopick 239520
