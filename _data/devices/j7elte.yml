@@ -1,0 +1,42 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: {removable: True, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP'}
+codename: j7elte
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz
+current_branch: 17.1
+depth: 7.5 mm (0.30 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T720 MP2
+height: 152.2 mm (5.99 in)
+image: j7elte.png
+install_method: heimdall
+kernel: android_kernel_samsung_universal7580
+maintainers: [dariotrombello, danwood76, Stricted]
+models: [SM-J700F, SM-J700H, SM-J700M]
+name: Galaxy J7 2015
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS,
+    GPS, Proximity sensor, Sensor hub, USB OTG, Wi-Fi Display]
+ram: 1.5 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+release: 2015-06
+screen: 140 mm (5.5 in)
+screen_ppi: 267
+screen_res: 1280x720
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Samsung Exynos 7580
+storage: 16 GB
+tree: android_device_samsung_j7elte
+type: phone
+uses_twrp: true
+vendor: Samsung
+vendor_short: samsung
+versions: [17.1]
+width: 78.7 mm (3.10 in)
+wifi: 802.11 b/g/n
