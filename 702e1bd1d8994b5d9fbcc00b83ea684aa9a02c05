@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "92a48ef2_9954e070",
+        "filename": "_data/devices/j7elte.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2020-06-20T15:09:02Z",
+      "side": 1,
+      "message": "This is for versions that have and have had official nightlies, so 16.0 doesn\u0027t belong.",
+      "range": {
+        "startLine": 40,
+        "startChar": 11,
+        "endLine": 40,
+        "endChar": 21
+      },
+      "revId": "702e1bd1d8994b5d9fbcc00b83ea684aa9a02c05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
