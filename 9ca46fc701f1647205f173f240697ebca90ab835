@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "00b94d92_12af1848",
+        "filename": "_data/devices/bacon.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-06-29T04:11:42Z",
+      "side": 1,
+      "message": "assuming mike gets it from zif by the time this is ready ofc",
+      "range": {
+        "startLine": 19,
+        "startChar": 14,
+        "endLine": 19,
+        "endChar": 26
+      },
+      "revId": "9ca46fc701f1647205f173f240697ebca90ab835",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
