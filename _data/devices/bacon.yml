@@ -8,8 +8,7 @@ codename: bacon
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=1395089523397886136
+current_branch: 17.1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
@@ -34,9 +33,8 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_oneplus_bacon
 type: phone
-uses_twrp: true
 vendor: OnePlus
 vendor_short: oneplus
-versions: [14.1, 15.1, 16.0]
+versions: [14.1, 15.1, 16.0, 17.1]
 width: 75.9 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
