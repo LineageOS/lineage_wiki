@@ -8,8 +8,7 @@ codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
-current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=1395089523397921641
+current_branch: 17.1
 depth: 7 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
@@ -21,7 +20,6 @@ maintainers: [javelinanddart, npjohnson]
 name: Robin
 note_show: true
 note_title: ANT+ and IMS support
-note_content: LineageOS 16.0 builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall effect sensor, Proximity sensor, Fingerprint reader, NFC]
 ram: 3 GB
@@ -36,9 +34,8 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB
 tree: android_device_nextbit_ether
 type: phone
-uses_twrp: true
 vendor: Nextbit
 vendor_short: nextbit
-versions: [14.1, 15.1, 16.0]
+versions: [14.1, 15.1, 16.0, 17.1]
 width: 72 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band
