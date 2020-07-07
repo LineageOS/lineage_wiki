@@ -24,10 +24,10 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
-5. **For Windows user only**: install the necessary drivers. A more complete set of instructions can be found in the [ZAdiag user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
+5. **For Windows user only**: install the necessary drivers. A more complete set of instructions can be found in the [Zadig user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
     1. If nothing relevant appears, try uninstalling any Samsung related Windows software, like Samsung Windows drivers and/or Samsung Kies.
-    2. Run `zadiag.exe` found in your extracted Heimdall directory.
-    {% include alerts/note.html content="For the interested, source and documentation for zadiag.exe can be found [here](https://github.com/pbatard/libwdi/releases)." %}
+    2. Run `zadig.exe` found in your extracted Heimdall directory.
+    {% include alerts/note.html content="For the interested, source and documentation for zadig.exe can be found [here](https://github.com/pbatard/libwdi/releases)." %}
     3. Choose **Options** &raquo; **List all devices** from the menu.
     4. Select **Samsung USB Composite Device** or **MSM8x60** or **Gadget Serial** or **Device Name** from the drop down menu.
     5. Click **Replace Driver**, then selecting **Install Driver** from the drop down list built into the button.
