@@ -22,6 +22,30 @@
       "revId": "681eaec28ae1894bef3bfc4611f5c27cb26544ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "13240bd3_210ebfa0",
+        "filename": "_data/devices/pro1.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2020-07-10T00:41:35Z",
+      "side": 1,
+      "message": "No ... per conversation, I\u0027ll remove it.",
+      "parentUuid": "b579f210_9d797d4d",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 15
+      },
+      "revId": "681eaec28ae1894bef3bfc4611f5c27cb26544ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
