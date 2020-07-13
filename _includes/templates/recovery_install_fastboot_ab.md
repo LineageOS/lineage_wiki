@@ -31,6 +31,7 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If there are problems with the `fastboot` command, please check your USB port and make sure it is a USB2 version. It also works if you connect your phone to a USB3 port via a USB hub with only USB2 connectors." %}
 
 5. Temporarily flash a recovery on your device by typing:
 ```
