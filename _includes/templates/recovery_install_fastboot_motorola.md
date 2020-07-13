@@ -26,6 +26,8 @@ fastboot devices
 
     {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/), though they only support some devices/firmwares." %}
 
+    {% include alerts/tip.html content="If there is no output with the command `fastboot oem get_unlock_data` please check out your USB port and make sure it is an USB2 version. It also works if you connect your phone to an USB3 port through an USB hub with only USB2 ports." %}
+
 5. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% if device.is_ab_device %}
