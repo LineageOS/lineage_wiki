@@ -36,6 +36,7 @@ fastboot devices
 fastboot flash recovery <recovery_filename>.img
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+    {% include alerts/tip.html content="If you don't see your device in the output, try a USB 2.0 port, or USB 2.0 Hub, as opposed to USB 3.0+, as `fastboot` support for USB 3.0+ can be flaky." %}
 
 6. Now reboot into recovery to verify the installation:
     * {{ device.recovery_boot }}

@@ -31,6 +31,7 @@ adb reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+    {% include alerts/tip.html content="If you don't see your device in the output, try a USB 2.0 port, or USB 2.0 Hub, as opposed to USB 3.0+, as `fastboot` support for USB 3.0+ can be flaky." %}
 
 5. Temporarily flash a recovery on your device by typing:
 ```
