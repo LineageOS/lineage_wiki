@@ -36,6 +36,7 @@ fastboot devices
 fastboot flash recovery <recovery_filename>.img
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+    {% include alerts/tip.html content="If there are problems with the `fastboot` command, please check your USB port and make sure it is a USB2 version. It also works if you connect your phone to a USB3 port via a USB hub with only USB2 connectors." %}
 
 6. Now reboot into recovery to verify the installation:
     * {{ device.recovery_boot }}
