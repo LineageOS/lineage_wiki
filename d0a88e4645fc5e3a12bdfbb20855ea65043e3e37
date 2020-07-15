@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5222df4f_f7b27d1e",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2020-07-15T11:50:56Z",
+      "side": 1,
+      "message": "Maybe something like this would fit better:\n\nSome devices tend have a buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar .. `, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably 2.0 one) or a USB hub.",
+      "range": {
+        "startLine": 39,
+        "startChar": 40,
+        "endLine": 39,
+        "endChar": 192
+      },
+      "revId": "d0a88e4645fc5e3a12bdfbb20855ea65043e3e37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
