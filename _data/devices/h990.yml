@@ -34,7 +34,6 @@ storage: 64 GB
 tree: android_device_lge_h990
 type: phone
 unlock_bootloader_guide: https://forum.xda-developers.com/v20/development/dirtysanta-h990-t3624296
-uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1, 17.1]

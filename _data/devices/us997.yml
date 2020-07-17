@@ -34,7 +34,6 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32 GB
 tree: android_device_lge_us997
 type: phone
-uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]

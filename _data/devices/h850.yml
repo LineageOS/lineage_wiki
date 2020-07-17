@@ -33,7 +33,6 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_h850
 type: phone
-uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1, 17.1]

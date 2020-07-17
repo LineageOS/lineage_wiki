@@ -34,7 +34,6 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
 tree: android_device_lge_ls997
 type: phone
-uses_twrp: true
 unlock_bootloader_guide: https://forum.xda-developers.com/v20/development/ls997vs995h910-dirtysanta-bootloader-t3519410
 vendor: LG
 vendor_short: lge
