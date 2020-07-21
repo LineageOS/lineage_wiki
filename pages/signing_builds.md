@@ -170,3 +170,14 @@ Your script is ready to go! Push it to the device and run it, in the same way as
 above, then install your own signed zip. If you ever need to run this in reverse, simply
 use the "unofficial" argument instead of "official", and your keys will be replaced with
 the official keys.
+
+## Hints
+
+### Add additional public key to recovery
+
+The main system is verifying an OTA update against the keys in otacerts.zip. Usually the main system and the recovery contain the same set of keys. If you want to add another key to the recovery, you can do this via the `PRODUCT_EXTRA_RECOVERY_KEYS` variable. This is also needed if you built a user instead of a userdebug build. You need to add the key before you generate an install package.
+
+```
+mkdir -p vendor/lineage-priv/keys/
+echo "PRODUCT_EXTRA_RECOVERY_KEYS += ${HOME}/.android-certs/releasekey" > vendor/lineage-priv/keys/keys.mk
+```
