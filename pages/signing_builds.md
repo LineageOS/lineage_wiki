@@ -25,6 +25,16 @@ You should keep these keys safe, and store the passphrase in a secure location.
 {% include alerts/tip.html content="If you wish to preserve your data coming from a Lineage build you
 didn't build, see [Changing keys](#changing-keys)." %}
 
+### Copy public key to recovery
+
+If you want to use the lineage recovery to update your system, the lineage recovery
+needs to know your key to be able to verify the update.
+
+```
+mkdir -p vendor/lineage-priv/keys/
+echo "PRODUCT_EXTRA_RECOVERY_KEYS += ${HOME}/.android-certs/releasekey" > vendor/lineage-priv/keys/keys.mk
+```
+
 ### Generating and signing target files
 
 After following the build instructions for your device, instead of running `brunch <codename>`,
