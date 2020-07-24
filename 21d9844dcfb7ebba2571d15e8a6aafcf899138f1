@@ -46,6 +46,30 @@
       "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3dd9c7f8_b9f08bf1",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 26701
+      },
+      "writtenOn": "2020-07-24T12:46:43Z",
+      "side": 1,
+      "message": "adb sideload does not work for me without this, when my bootloader is locked. I tested this on a cheeseburger device.",
+      "parentUuid": "bafa6060_07ddfc01",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 55
+      },
+      "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
