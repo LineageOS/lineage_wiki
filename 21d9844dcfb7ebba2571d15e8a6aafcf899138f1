@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a342ab33_8ddc4e99",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-07-24T00:26:20Z",
+      "side": 1,
+      "message": "it does OTA\u0027s, install from local storage, and ABD sideload just fine... public keys are literally only for local adb shell - and we even have a switch in recovery to enable un-authenticated adb....",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 55
+      },
+      "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
