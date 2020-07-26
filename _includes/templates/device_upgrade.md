@@ -31,33 +31,34 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
-4. Run `adb reboot sideload`.
+4. Run `adb root`.
+5. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
-5. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
+6. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
 {% if device.is_ab_device and device.uses_twrp %}
-6. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
 {% elsif device.is_ab_device %}
-6. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {% elsif device.uses_twrp %}
-6. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
 {% else %}
-6. _(Optionally)_: If you want to install any additional add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any additional add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {% endif %}
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 
 {% if device.current_branch == 17.1 %}
 {% if device.uses_twrp and device.is_ab_device != true %}
-7. Once you have installed everything successfully, run `adb reboot`.
+8. Once you have installed everything successfully, run `adb reboot`.
 {% else %}
-7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 {% else %}
 {% if device.uses_twrp and device.is_ab_device != true %}
-7. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-8. Once you have installed everything successfully, run `adb reboot`.
+8. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+9. Once you have installed everything successfully, run `adb reboot`.
 {% else %}
-9. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-10. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+10. _(Optional)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+11. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 {% endif %}
 
