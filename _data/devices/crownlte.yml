@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
-before_install: before_install_needs_android_10_fw
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 10}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '12 MP , f/1.5/2.4'}
