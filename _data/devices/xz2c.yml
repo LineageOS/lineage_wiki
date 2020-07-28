@@ -1,5 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 2870, tech: 'Li-Ion'}
+before_install_args: {version: 10}
+before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '19 MP'}
@@ -30,7 +32,7 @@ screen_res: 1080x2160
 screen_tech: IPS LCD
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM845 Snapdragon 845
-storage: 64/128/256 GB UFS2.1
+storage: 64 GB UFS2.1
 tree: android_device_sony_xz2c
 type: phone
 vendor: Sony
