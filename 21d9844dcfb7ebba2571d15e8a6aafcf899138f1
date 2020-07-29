@@ -94,6 +94,30 @@
       "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b14fbdb4_ead78b7d",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-07-29T01:11:25Z",
+      "side": 1,
+      "message": "something is wrong with your env - adb sideload should work regardless...",
+      "parentUuid": "526b50d9_c32d74e1",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 55
+      },
+      "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
