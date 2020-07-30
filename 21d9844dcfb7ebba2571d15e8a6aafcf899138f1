@@ -118,6 +118,30 @@
       "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7318f4a7_2741da5c",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 26701
+      },
+      "writtenOn": "2020-07-30T17:08:53Z",
+      "side": 1,
+      "message": "I use these steps to build my image on Debian 10.\nhttps://gist.github.com/brandsimon/01f98627e8f8ba67b36141e7ec3c648f\n\nCan you tell me, where the problem is?",
+      "parentUuid": "b14fbdb4_ead78b7d",
+      "range": {
+        "startLine": 30,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 55
+      },
+      "revId": "21d9844dcfb7ebba2571d15e8a6aafcf899138f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
