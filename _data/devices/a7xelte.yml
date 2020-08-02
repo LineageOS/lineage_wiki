@@ -1,0 +1,43 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: '', info: '5 MP'}
+codename: a7xelte
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.6 GHz
+current_branch: 17.1
+depth: 7.3 mm (0.29 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T720 MP2
+height: 151.5 mm (5.96 in)
+image: a7xelte.png
+install_method: heimdall
+kernel: android_kernel_samsung_universal7580
+maintainers: [sourajitk, danwood76, Stricted]
+models: [SM-A710F, SM-A710M, SM-A710Y, SM-A710K, SM-A710L, SM-A710S]
+name: Galaxy A7 (2016)
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS,
+    GPS, NFC, Proximity sensor, RGB ambient light,
+    Sensor hub, USB OTG, Wi-Fi Display]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+release: 2015-12
+screen: 139.7 mm (5.5 in)
+screen_ppi: 401
+screen_res: 1920x1080
+screen_tech: Super AMOLED
+sdcard: up to 256 GB
+soc: Samsung Exynos 7580
+storage: 16 GB
+tree: android_device_samsung_a7xelte
+type: phone
+uses_twrp: true
+vendor: Samsung
+vendor_short: samsung
+versions: [16.0, 17.1]
+width: 74.1 mm (2.92 in)
+wifi: 802.11 b/g/n
