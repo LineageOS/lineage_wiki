@@ -9,7 +9,7 @@ codename: a5y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
-current_branch: 16.0
+current_branch: 17.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
@@ -17,7 +17,7 @@ height: 146.1 mm (5.75 in)
 image: a5y17lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7880
-maintainers: [filiprrs, raymanfx]
+maintainers: [filiprrs]
 models: [SM-A520F, SM-A520F/DS, SM-A520K, SM-A520L, SM-A520S, SM-A520W]
 name: Galaxy A5 (2017)
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -39,6 +39,6 @@ type: phone
 uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 16.0]
+versions: [14.1, 16.0, 17.1]
 width: 71.4 mm (2.81 in)
 wifi: 802.11 a/b/g/n/ac
