@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 3430, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: '', info: '8 MP'}
+codename: crosshatch
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.5 GHz + 4 x 1.6 GHz
+current_branch: 17.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+depth: 7.9 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 630
+height: 158 mm (6.22 in)
+image: crosshatch.png
+install_method: fastboot_nexus
+kernel: android_kernel_google_msm-4.9
+maintainers: [razorloves, cdesai, intervigil, rashed]
+name: Pixel 3 XL
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2018-10
+screen: 160 mm (6.3 in)
+screen_ppi: 523
+screen_res: 2960x1440
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128 GB
+tree: android_device_google_crosshatch
+type: phone
+vendor: Google
+vendor_short: google
+versions: [17.1]
+width: 76.7 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
