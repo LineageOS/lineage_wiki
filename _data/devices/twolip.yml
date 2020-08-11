@@ -32,7 +32,7 @@ screen_ppi: '403'
 screen_res: 1080x2280
 screen_tech: IPS LCD
 sdcard: up to 256 GB
-soc: Qualcomm SDM660 Snapdragon 636
+soc: Qualcomm SDM636 Snapdragon 636
 storage: 32/64 GB
 tree: android_device_xiaomi_twolip
 type: phone
