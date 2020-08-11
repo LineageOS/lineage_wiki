@@ -28,7 +28,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-08
-screen: 85.4 mm (5.71 in)
+screen: 146.2 mm (5.71 in)
 screen_ppi: '504'
 screen_res: 1312x2560
 screen_tech: IPS LCD
