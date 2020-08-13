@@ -16,6 +16,7 @@ gpu: Adreno 630
 height: 145.6 mm (5.73 in)
 image: blueline.png
 install_method: fastboot_nexus
+is_ab_device: true
 kernel: android_kernel_google_msm-4.9
 maintainers: [razorloves, cdesai, intervigil]
 name: Pixel 3
