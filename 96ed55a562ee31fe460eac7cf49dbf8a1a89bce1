@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8fa9c48f_41851b95",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2020-08-13T20:59:50Z",
+      "side": 1,
+      "message": "The first and last paragraph of the Introduction seemed irrelevant for the emulator (at least in my opinion), so I ended up writing a shorter Introduction specific to the emulator.",
+      "revId": "96ed55a562ee31fe460eac7cf49dbf8a1a89bce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f824284f_765da885",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2020-08-13T20:59:50Z",
+      "side": 1,
+      "message": "I\u0027m unsure on how verbose I should be here. I wanted to explain the default/recommended path (due to Android Studio being picky sometimes for whatever reason), but that ends up being quite a chunk of text.",
+      "revId": "96ed55a562ee31fe460eac7cf49dbf8a1a89bce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
