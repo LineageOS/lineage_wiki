@@ -18,17 +18,17 @@ image: onclite.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_onclite
 maintainers: [Dhina17]
-name: Redmi 7
+name: Redmi 7 / Y3
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, IR blaster, Proximity sensor, USB OTG, Wi-Fi Display]
-ram: 2/3 GB
+peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 release: 2019-03
 screen: {size: '15.9 mm (6.26 in)', density: 269, resolution: '1520x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM632 Snapdragon 632
-storage: 16/32 GB
+storage: 16/32/64 GB
 tree: android_device_xiaomi_onclite
 type: phone
 vendor: Xiaomi
