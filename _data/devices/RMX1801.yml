@@ -8,7 +8,7 @@ codename: RMX1801
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
-current_branch: 16.0
+current_branch: 17.1
 custom_recovery_link: https://sourceforge.net/projects/twrp-rmx1801/files/rmx1801/twrp-3.3.1-20200405-RMX1801.img/download
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
@@ -37,5 +37,5 @@ type: phone
 uses_twrp: true
 vendor: Realme
 vendor_short: realme
-versions: [16.0]
+versions: [16.0, 17.1]
 wifi: 802.11 a/b/g/n/ac, 2.4/5GHz, Hotspot
