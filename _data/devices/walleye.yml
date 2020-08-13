@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 2700, tech: 'Li-Ion'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12.2 MP'}
+- {flash: '', info: '8 MP'}
+codename: walleye
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
+current_branch: 16.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 540
+height: 145.7 mm (5.74 in)
+image: walleye.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_wahoo
+maintainers: [Eamo5]
+name: Pixel 2
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2017-10
+screen: 127 mm (5 in)
+screen_ppi: 441
+screen_res: 1080x1920
+screen_tech: AMOLED
+sdcard:
+soc: Qualcomm SDM835 Snapdragon 835
+storage: 64/128 GB
+tree: android_device_google_muskie
+type: phone
+vendor: Google
+vendor_short: google
+versions: [16.0, 17.1]
+width: 69.7 mm (2.74 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
