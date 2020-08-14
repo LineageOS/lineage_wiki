@@ -19,6 +19,23 @@
     },
     {
       "key": {
+        "uuid": "dc451841_798d1dd0",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2020-08-14T17:36:42Z",
+      "side": 1,
+      "message": "Do you need this if you said it\u0027s only been tested with 16.0/17.1?",
+      "revId": "96ed55a562ee31fe460eac7cf49dbf8a1a89bce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f824284f_765da885",
         "filename": "pages/emulator.md",
         "patchSetId": 2
