@@ -36,6 +36,24 @@
     },
     {
       "key": {
+        "uuid": "a2656a48_097eb807",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 203,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2020-08-14T21:05:40Z",
+      "side": 1,
+      "message": "I\u0027ve contemplated adding older versions retroactively, provided that the build instructions still line up (haven\u0027t tested yet though).\n\nThat\u0027s why I left in instructions that are specific to older branches, at least for now.",
+      "parentUuid": "dc451841_798d1dd0",
+      "revId": "96ed55a562ee31fe460eac7cf49dbf8a1a89bce1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "f824284f_765da885",
         "filename": "pages/emulator.md",
         "patchSetId": 2
