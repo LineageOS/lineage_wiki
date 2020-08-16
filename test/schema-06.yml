@@ -93,6 +93,8 @@ definitions:
       - Barometer
       - Color spectrum sensor
       - Compass
+      - Depth Sensor
+      - Dot Projector
       - Dual SIM
       - Dual front speakers
       - Dual side NFC
@@ -129,6 +131,7 @@ definitions:
       - Pedometer
       - Proximity sensor
       - Qi wireless charging
+      - Radar
       - RGB ambient light
       - SNS integration
       - Sensor hub
