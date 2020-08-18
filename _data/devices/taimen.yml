@@ -36,6 +36,6 @@ tree: android_device_google_taimen
 type: phone
 vendor: Google
 vendor_short: google
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 76.7 mm (3.02 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
