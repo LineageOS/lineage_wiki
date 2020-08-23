@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '16 MP + 2 MP'}
+- {flash: '', info: '16 MP'}
+codename: anne
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.36 GHz + 4 x 1.7 GHz
+current_branch: 16.0
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-T830 MP2
+height: 148.6 mm (5.85 in)
+image: anne.png
+install_method: fastboot_huawei
+is_unlockable: false
+kernel: android_kernel_huawei_hi6250
+maintainers: [DarkJoker360]
+models: [ANE-LX1, ANE-LX2, ANE-LX3, ANE-LX2J, ANE-AL00, ANE-L23, ANE-L22, ANE-L21]
+name: P20 Lite
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2018-03
+screen: 148.6 mm (5.84 in)
+screen_ppi: '432'
+screen_res: 1080x2240
+screen_tech: IPS
+sdcard: up to 256 GB
+soc: HiSilicon Kirin 659
+storage: 32/64/128 GB
+tree: android_device_huawei_anne
+type: phone
+uses_twrp: true
+vendor: Huawei
+vendor_short: huawei
+versions: [16.0]
+width: 71.2 mm (2.80 in)
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
