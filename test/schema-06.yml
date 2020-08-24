@@ -285,6 +285,7 @@ properties:
     - ARM Mali-T720 MP2
     - ARM Mali-T760 MP6
     - ARM Mali-T760 MP8
+    - ARM Mali-T830 MP2
     - ARM Mali-T830 MP3
     - ARM Mali-T880 MP12
     - Adreno 225
