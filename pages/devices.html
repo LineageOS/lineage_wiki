@@ -68,7 +68,8 @@ Select a vendor to jump to:<br/>
   <tr>
     <th scope="col" class="first"><b>Device</b></th>
     <th scope="col"><b>Codename</b></th>
-    <th scope="col" class="last"><b>Type</b></th>
+    <th scope="col"><b>Type</b></th>
+    <th scope="col" class="last"><b>Release date</b></th>
   </tr>
   </thead>
 {% endif %}
@@ -83,6 +84,18 @@ Select a vendor to jump to:<br/>
     <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
     <td>{{ device.type | capitalize }}</td>
+    {% if device.release.first %}
+    <td>
+      {%- for entries in device.release %}
+        {%- for item in entries %}
+          {{ item[0] }}: {{ item[1] }}
+        {%- endfor %}
+        {%- unless forloop.last %}, {% endunless %}
+      {%- endfor %}
+    </td>
+    {% else %}
+    <td>{{ device.release }}</td>
+    {% endif %}
   </tr>
 {% if sorted[forloop.index].vendor != lastVendor %}</table>{% endif %}
 {% endfor %}
