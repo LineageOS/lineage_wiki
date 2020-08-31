@@ -24,7 +24,7 @@ If you don't have it installed, please do that before continuing." %}
 
 ### On your device
 
-{% include alerts/note.html content="This method requires that your device is [rooted](https://download.lineageos.org/extras)." %}
+{% include alerts/note.html content="This method requires that your device is [rooted](https://download.lineageos.org/extras), which is only officially supported up through LineageOS 16.0, users of 17.1 or anove will need to use a computer." %}
 
 1. Open the Terminal app (you can enable the built-in terminal app in **Developer options**).
 2. Type `su` and confirm root access - you may have to turn on root access for apps in **Developer options**.
