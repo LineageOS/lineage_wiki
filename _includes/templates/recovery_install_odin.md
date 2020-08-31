@@ -38,20 +38,20 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
-5. Download and install the necessary drivers.
+4. Download and install the necessary drivers.
     * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
-6. Download [this](https://androidfilehost.com/?fid=4349826312261712202) version of Odin.
-7. Extract "Odin_3.13.1.zip".
-8. Run `Odin3 v3.13.1` found in the newly  extracted "Odin_3.13.1" folder.
-9. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
+5. Download [this](https://androidfilehost.com/?fid=4349826312261712202) version of Odin.
+6. Extract "Odin_3.13.1.zip".
+7. Run `Odin3 v3.13.1` found in the newly  extracted "Odin_3.13.1" folder.
+8. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
-10. In the left side of the Odin window, you will see an "Options" tab, click it, and then un-check the "Auto Reboot" option.
-11. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
+9. In the left side of the Odin window, you will see an "Options" tab, click it, and then un-check the "Auto Reboot" option.
+10. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
     * In the menu that pops up, select the newly downloaded custom recovery `.tar` or `.tar.md5`.
     {% include alerts/tip.html content="The filename may very depending on your device, and the version of your custom recovery." %}
-12. A blue transfer bar will appear on the device showing the recovery image being flashed.
-13. Unplug the USB cable from your device.
-6. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
+11. A blue transfer bar will appear on the device showing the recovery image being flashed.
+12. Unplug the USB cable from your device.
+13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
