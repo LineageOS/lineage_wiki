@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a66394b_7d3389e0",
+        "filename": "pages/how-tos/logcat.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2020-08-31T13:38:30Z",
+      "side": 1,
+      "message": "Typo.",
+      "revId": "85cbca65b25835331f5ba26802d92e63801de721",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
