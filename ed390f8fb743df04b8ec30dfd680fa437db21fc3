@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cb82ce1f_52efc886",
+        "filename": "_data/devices/taimen.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-09-02T18:56:38Z",
+      "side": 1,
+      "message": "you\u0027re not gonna use Lineage Recovery on a Pixel? Curious, why?",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 15
+      },
+      "revId": "ed390f8fb743df04b8ec30dfd680fa437db21fc3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
