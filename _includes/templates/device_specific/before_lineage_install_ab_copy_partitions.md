@@ -3,7 +3,7 @@
 In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can work around that by copying the contents of slot `a` to slot `b`.
 
 To do this, sideload the copy-partitions.zip package by doing the following:
-1. Download the `copy-partitions.zip` file from [here](https://androidfilehost.com/?fid=4349826312261712574).
+1. Download the `copy-partitions.zip` file from [here](https://androidfilehost.com/?fid=8889791610682929240).
 {% if device.uses_twrp %}
 2. Sideload the `copy-partitions.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload
