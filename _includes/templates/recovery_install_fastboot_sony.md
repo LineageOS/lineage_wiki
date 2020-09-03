@@ -101,7 +101,7 @@ exit
 ```
 {% else %}
 
-{% if device.is_ab_device %}
+{% if device.is_ab_device and device.has_recovery_partition != true %}
 {% include templates/recovery_install_fastboot_ab.md %}
 {% else %}
 {% include templates/recovery_install_fastboot_generic.md %}

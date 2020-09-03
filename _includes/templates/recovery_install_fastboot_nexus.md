@@ -39,7 +39,7 @@ fastboot oem unlock
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
-{% if device.is_ab_device %}
+{% if device.is_ab_device and device.has_recovery_partition != true %}
 {% include templates/recovery_install_fastboot_ab.md %}
 {% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
