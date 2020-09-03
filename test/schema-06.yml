@@ -329,6 +329,9 @@ properties:
     - PowerVR SGX544MP2
     - PowerVR Series 6
     - Tegra 4
+  has_recovery_partition:
+    "$id": "/properties/has_recovery_partition"
+    type: boolean
   height:
     "$id": "/properties/height"
     "$ref": "#/definitions/valid_dimension"
