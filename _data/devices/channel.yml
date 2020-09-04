@@ -10,6 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 17.1
+custom_recovery_link: https://androidfilehost.com/?fid=8889791610682909610
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
