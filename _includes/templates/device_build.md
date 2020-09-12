@@ -250,7 +250,7 @@ into consideration.
 You can also enable the optional `ccache` compression. While this may involve a slight performance slowdown, it increases the number of files that fit in the cache. To enable it, run:
 
 ```
-export CCACHE_COMPRESS=1
+ccache -o compression=true
 ```
 
 or add that line to your `~/.bashrc` file.
