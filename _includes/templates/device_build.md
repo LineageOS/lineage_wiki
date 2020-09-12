@@ -253,8 +253,6 @@ You can also enable the optional `ccache` compression. While this may involve a 
 ccache -o compression=true
 ```
 
-or add that line to your `~/.bashrc` file.
-
 {% include alerts/note.html content="If compression is enabled, the `ccache` size can be lower (aim for approximately 20GB for one device)." %}
 
 
