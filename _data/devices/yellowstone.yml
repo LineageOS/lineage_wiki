@@ -1,0 +1,44 @@
+architecture: arm
+battery: {removable: False, capacity: 4960, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '9 (PSCI)'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'Dual LED (dual-tone)', info: '4 MP'}
+- {flash: 'Dual LED (dual-tone)', info: 'RGB-IR Pixel Sensor 4 MP'}
+- {flash: '', info: '1 MP'}
+codename: yellowstone
+cpu: Cortex-A15
+cpu_cores: '4'
+cpu_freq: 2.3 GHz
+current_branch: 16.0
+dimensions: {width: '196.33 mm (7.73 in)', height: '119.77 mm (4.72 in)', depth: '15.36 mm (0.6 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_yellowstone
+gpu: NVIDIA Tegra K1 GPU
+image: yellowstone.png
+install_method: fastboot_nexus
+kernel: android_kernel_google_yellowstone
+maintainers: [npjohnson, oscardagrach]
+models: [NX-74751]
+name: Project Tango Tablet
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+note_content: LineageOS builds for this device do not support the device's Camera array (Flash, Front/Rear Camera, IR Camera), due to compatibility issues with proprietary components and lack of kernel support. You may be able to return to stock firmware after the installation process, though this is unsupported, and untested. No warranty is implied or provided.
+note_title: Hardware Support
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd+ <kbd>Power</kbd> until a menu is displayed.
+  Use <kbd>Volume Down</kbd> to highlight "Recovery mode", then press <kbd>Power</kbd> to select.
+release: 2014-06-05
+screen: 177.8 mm (7 in)
+screen_ppi: 323
+screen_res: 1920x1200
+screen_tech: Full HD IPS
+sdcard: {sizeMax: '128 GB'}
+soc: NVIDIA Tegra K1 (T124)
+storage: 128 GB
+tree: android_device_google_yellowstone
+type: tablet
+vendor: Google
+vendor_short: google
+versions: [15.1, 16.0]
+wifi: 802.11 a/b/g/n/ac
