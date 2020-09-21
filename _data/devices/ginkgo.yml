@@ -1,0 +1,52 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '48 MP or 12 MP'}
+- {flash: 'Dual LED', info: 'UltraWide Sensor 8 MP'}
+- {flash: 'Dual LED', info: 'Macro Sensor 2 MP'}
+- {flash: 'Dual LED', info: 'Depth Sensor 2 MP'}
+- {flash: '', info: '13 MP'}
+codename: ginkgo
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
+current_branch: 17.1
+depth: 
+- Note 8: 8.4 mm (0.33 in)
+- Note 8T: 8.6 mm (0.34 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 610
+height: 
+- Note 8: 158.3 mm (6.27 in)
+- Note 8T: 161.1 mm (6.34 in)
+image: ginkgo.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm6125
+maintainers: [DarkJoker360, erfanoabdi]
+name: 'Redmi Note 8 / 8T'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 3/4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 
+- Note 8: 2019-08
+- Note 8T: 2019-09
+screen: 160 mm (6.3 in)
+screen_ppi: '409'
+screen_res: 1080x2340
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm SDM665 Snapdragon 665
+storage: 32/64/128 GB
+tree: android_device_xiaomi_ginkgo
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [17.1]
+width: 
+- Note 8: 75.3 mm (2.96 in)
+- Note 8T: 75.4 mm (2.96 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
