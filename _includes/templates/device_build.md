@@ -20,8 +20,8 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 ### What you'll need
 
 * A {{ device.vendor }} {{ device.name }}.
-* A relatively recent 64-bit computer (Linux, macOS, or Windows) with a reasonable amount of RAM and about 100 GB of free storage (more if you enable `ccache`
- or build for multiple devices). The less RAM you have, the longer the build will take (aim for 8 GB or more). Using SSDs results in considerably faster
+* A relatively recent 64-bit computer (Linux, macOS, or Windows) with a reasonable amount of RAM and about 200 GB of free storage (more if you enable `ccache`
+ or build for multiple devices). The less RAM you have, the longer the build will take. Aim for 16 GB RAM or more, enabling ZRAM can be helpful. Using SSDs results in considerably faster
  build times than traditional hard drives.
 * A USB cable compatible with the {{ device.vendor }} {{device.name}}.
 * A decent internet connection and reliable electricity. :)
