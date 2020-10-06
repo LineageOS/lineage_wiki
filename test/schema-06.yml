@@ -352,6 +352,7 @@ properties:
     - fastboot_lg
     - fastboot_motorola
     - fastboot_nexus
+    - fastboot_nokia
     - fastboot_oppo
     - fastboot_sony
     - fastboot_realme
@@ -461,6 +462,7 @@ properties:
     - Lenovo
     - Motorola
     - Nextbit
+    - Nokia
     - Nubia
     - Nvidia
     - OPPO
@@ -494,6 +496,7 @@ properties:
     - moto
     - motorola
     - nextbit
+    - nokia
     - nubia
     - nvidia
     - oneplus
