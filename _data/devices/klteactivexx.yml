@@ -8,16 +8,16 @@ codename: klteactivexx
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 16.0
+current_branch: 17.1
 custom_recovery_codename: klte
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 image: klteactivexx.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974
-maintainers: [javelinanddart]
-models: [SM-G870F]
-name: Galaxy S5 Active
+maintainers: [javelinanddart, npjohnson]
+models: [SM-G870A, SM-G870F]
+name: Galaxy S5 Active (G870A/F)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Heart rate sensor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, RGB ambient light, Infrared sensor]
@@ -33,8 +33,7 @@ soc: Qualcomm MSM8974PRO Snapdragon 801
 storage: 16 GB
 tree: android_device_samsung_klteactivexx
 type: phone
-uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
-versions: [15.1, 16.0]
+versions: [15.1, 16.0, 17.1]
 wifi: 802.11 a/b/g/n/ac
