@@ -18,7 +18,7 @@ height: 136.6 mm (5.4 in)
 image: jflte.png
 install_method: heimdall
 kernel: android_kernel_samsung_jf
-maintainers: []
+maintainers: [arco, npjohnson, side]
 models: [SCH-R970/C/X, SPH-L720]
 name: Galaxy S4 (SCH-R970, SPH-L720)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
