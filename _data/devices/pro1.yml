@@ -18,7 +18,7 @@ height: 154 mm (6.06 in)
 image: pro1.png
 install_method: fastboot_nexus
 is_ab_device: true
-kernel: android_kernel_idealte_msm8998
+kernel: android_kernel_fxtec_msm8998
 maintainers: [tdm, mccreary, intervigil, npjohnson]
 name: 'Pro¹'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
