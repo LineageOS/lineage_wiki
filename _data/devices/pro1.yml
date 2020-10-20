@@ -23,7 +23,7 @@ maintainers: [tdm, mccreary, intervigil, npjohnson]
 name: 'Pro¹'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_fastboot_boot: true
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Hardware keyboard]
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2019-10
