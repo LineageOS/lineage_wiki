@@ -31,8 +31,8 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     * Click on the Advanced tab
     * Open the "Environment Variables" window
     * Select the Path variable under "System Variables" and click the "Edit" button
-    * Click the "Edit Text" button
-    * Append `;%USERPROFILE%\adb-fastboot\platform-tools` to the end of the existing Path definition (the semi-colon separates each path entry)
+    * Click the "New" button
+    * Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
 5. Install the [universal adb driver](https://github.com/koush/UniversalAdbDriver), and reboot.
 
 ### On macOS
