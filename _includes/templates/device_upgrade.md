@@ -30,7 +30,11 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {% endif %}
     * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
+{% if device.versions contains 16.0 or device.versions contains 15.1 or device.versions contains 14.1 or device.versions contains 13.0 %}
+3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
+{% else %}
+3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+{% endif %}
 4. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
 5. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
