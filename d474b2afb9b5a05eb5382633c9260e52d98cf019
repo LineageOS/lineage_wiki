@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "89f0cd74_bddd27f2",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-10-23T23:12:48Z",
+      "side": 1,
+      "message": "this can be better - we want \"less than 16.0\"",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 38
+      },
+      "revId": "d474b2afb9b5a05eb5382633c9260e52d98cf019",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
