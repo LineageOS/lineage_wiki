@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "51089cc4_a66b7740",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-10-24T16:34:36Z",
+      "side": 1,
+      "message": "this is nasty, but the only way I know of, unless I\u0027m missing a less-than operator that can handle x.y",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 137
+      },
+      "revId": "742c5cb365139b117b9f5827629fb99afa2a89d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
