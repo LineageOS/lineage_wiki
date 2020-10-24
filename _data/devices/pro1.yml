@@ -9,7 +9,7 @@ codename: pro1
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 16.0
+current_branch: 17.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 13.98 mm (0.55 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -19,7 +19,7 @@ image: pro1.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_fxtec_msm8998
-maintainers: [tdm, mccreary, intervigil, npjohnson]
+maintainers: [bgcngm, intervigil, mccreary, npjohnson, tdm]
 name: 'Pro¹'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_fastboot_boot: true
@@ -38,6 +38,6 @@ tree: android_device_fxtec_pro1
 type: phone
 vendor: F(x)tec
 vendor_short: fxtec
-versions: [16.0]
+versions: [16.0, 17.1]
 width: 73.6 mm (2.90 in)
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
