@@ -9,7 +9,7 @@ The procedure to distinguish which to use is as follows:
 * Make sure the rear camera is working on the stock ROM;
 * Open the phone app and dial `*#*#34971539#*#*` to access to the hidden menu;
 * Tap on 'Phone/Cam FW Check' and take note of the numbers shown in the notification:
-	* For `E08QT`, install the s3ve3gjv builds
-	* For `B08QT`, install the s3ve3gxx builds
+	* For Samsung camera, `E08QT` or `ZDxxxx`, install the s3ve3gjv builds
+	* For Sony camera, `B08QT` or `GDxxxx`, install the s3ve3gxx builds
 
 If neither of these match, please make sure you installed the correct firmware version.
