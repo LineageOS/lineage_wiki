@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b2ad90a6_006d4c0b",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-10-27T13:17:40Z",
+      "side": 1,
+      "message": "I\u0027d make this a warning or \"important\" at least",
+      "revId": "9cb4114d72d0feb91fbcfdd61bf842d62d36fdee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
