@@ -16,6 +16,24 @@
       "revId": "9cb4114d72d0feb91fbcfdd61bf842d62d36fdee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1de9fe16_94a3b267",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-10-27T17:33:28Z",
+      "side": 1,
+      "message": "seconded - I\u0027d make it a warning",
+      "parentUuid": "b2ad90a6_006d4c0b",
+      "revId": "9cb4114d72d0feb91fbcfdd61bf842d62d36fdee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
