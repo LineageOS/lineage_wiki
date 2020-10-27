@@ -20,7 +20,7 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
-| Kevin F. Haggerty | haggertk |
+| Kevin Haggerty | haggertk |
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
@@ -40,6 +40,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 |------|----------|
 | Björn Lundén | blunden |
 | Brandon McAnsh | bmc08gt |
+| Jan Altensen | Stricted |
 | Michael W. | BadDaemon |
 | Nolen Johnson | npjohnson |
 | Scott Warner | Tortel |
