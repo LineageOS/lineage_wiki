@@ -1,6 +1,6 @@
 ## Pre-install instructions
 
-In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can work around that by copying the contents of slot `a` to slot `b`.
+In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can make sure none of that will happen by copying the contents of slot `a` to slot `b`. This step is NOT optional.
 
 To do this, sideload the `copy-partitions-20200903_1329.zip` package by doing the following:
 1. Download the `copy-partitions-20200903_1329.zip` file from [here](https://androidfilehost.com/?fid=8889791610682929240).
