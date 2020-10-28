@@ -26,7 +26,7 @@ ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
 release: 2014-04-11
-required_bootloader: ['I9300IXWUBNJ1']
+required_bootloader: ['I9300IDDUBQE2']
 screen: 121.9 mm (4.8 in)
 screen_ppi: 306
 screen_res: 1280x720
