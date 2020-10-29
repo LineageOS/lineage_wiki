@@ -5,6 +5,11 @@ layout: default
 
   <h1>{{ page.title }}</h1>
 
+  {% unless page.device == None %}
+  <a href={{ "devices/" | append: site.data.devices[page.device].codename | relative_url }}>
+  <span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
+  {% endunless %}
+
   {% unless page.toc == false -%}
   {% include toc.html -%}
   {%- endunless -%}
