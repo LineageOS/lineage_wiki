@@ -1,2 +1,6 @@
-{% include alerts/important.html content="An official method of unlocking the bootloader is not available, but there may be some unofficial methods available. Unofficial methods are not recommended or supported by LineageOS, so use them at your own risk!
-An unlocked bootloader is required to install LineageOS." %}
+{% capture content -%}
+An official method of unlocking the bootloader is not available, but there may be some unofficial methods available.
+Unofficial methods are not recommended or supported by LineageOS, so use them at your own risk!
+An unlocked bootloader is required to install LineageOS.
+{%- endcapture %}
+{% include alerts/warning.html content=content %}
