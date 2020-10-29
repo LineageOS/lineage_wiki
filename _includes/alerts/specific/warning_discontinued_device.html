@@ -1,0 +1,6 @@
+{%- assign device = site.data.devices[page.device] -%}
+{% capture content -%}
+The {{ device.vendor }} {{ device.name }} is no longer maintained.
+A build guide is available for developers that would like to make private builds, or even restart official support.
+{%- endcapture %}
+{% include alerts/warning.html content=content %}

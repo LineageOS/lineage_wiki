@@ -98,7 +98,7 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif %}
 {%- endif %}
 
-{% include alerts/warning_recovery_app.html %}
+{% include alerts/specific/warning_recovery_app.html %}
 
 ## Get assistance
 

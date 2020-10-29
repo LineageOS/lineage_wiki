@@ -70,7 +70,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {% endif %}
 {% endif %}
 
-{% include alerts/warning_recovery_app.html %}
+{% include alerts/specific/warning_recovery_app.html %}
 
 ## Get assistance
 
