@@ -65,6 +65,8 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {% endif %}
 {% endif %}
 
+{% include alerts/warning_recovery_app.html %}
+
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
