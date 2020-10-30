@@ -22,6 +22,30 @@
       "revId": "3281653ca1eee3af27a2191e3d98d57512eaaec4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0e84c383_3ba7897b",
+        "filename": "_data/devices/FP3.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-10-30T20:27:43Z",
+      "side": 1,
+      "message": "Concur. And at a minimum, lineage recovery MUST be fully functional.",
+      "parentUuid": "2cb85c69_d072bc0e",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 15
+      },
+      "revId": "3281653ca1eee3af27a2191e3d98d57512eaaec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
