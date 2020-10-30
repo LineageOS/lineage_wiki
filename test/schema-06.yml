@@ -345,6 +345,7 @@ properties:
     - dd
     - edl_custom
     - fastboot_custom
+    - fastboot_fairphone
     - fastboot_generic
     - fastboot_htc
     - fastboot_huawei
