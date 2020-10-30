@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2cb85c69_d072bc0e",
+        "filename": "_data/devices/FP3.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2020-10-30T19:18:06Z",
+      "side": 1,
+      "message": "Are you dead set on this? we really prefer Lineage Recovery when possible - it is, ultimately though, up to you.",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 15
+      },
+      "revId": "3281653ca1eee3af27a2191e3d98d57512eaaec4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
