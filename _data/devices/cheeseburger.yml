@@ -10,7 +10,7 @@ codename: cheeseburger
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 16.0
+current_branch: 17.1
 depth: 7.25 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 540
@@ -18,7 +18,7 @@ height: 154.2 mm (6.07 in)
 image: cheeseburger.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8998
-maintainers: [codeworkx, jrizzoli, xingrz, amartinz, jumoog]
+maintainers: [codeworkx, jrizzoli, xingrz, amartinz, jumoog, trautamaki]
 name: '5'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
@@ -38,6 +38,6 @@ type: phone
 uses_twrp: true
 vendor: OnePlus
 vendor_short: oneplus
-versions: [14.1, 15.1, 16.0]
+versions: [14.1, 15.1, 16.0, 17.1]
 width: 74.1 mm (2.92 in)
 wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
