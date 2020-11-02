@@ -1,0 +1,41 @@
+architecture: arm
+battery: {removable: False, capacity: 3950, tech: 'Li-Ion'}
+before_lineage_install: before_lineage_install_flox
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '1.2 MP'}
+codename: flox
+cpu: Krait 300
+cpu_cores: '4'
+cpu_freq: 1.5 GHz
+current_branch: 17.1
+depth: 10.5 mm (0.41 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+gpu: Adreno 320
+height: 198.5 mm (7.8 in)
+image: flo.png
+install_method: fastboot_nexus
+kernel: android_kernel_google_msm
+maintainers: [npjohnson, surblazer, Elektroschmock]
+name: Nexus 7 2013 (Wi-Fi, Repartitioned)
+no_oem_unlock_switch: true
+peripherals: None
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+release: 2013-07-26
+screen: 178 mm (7 in)
+screen_ppi: '323'
+screen_res: 1920x1200 pixels
+screen_tech: IPS LCD
+sdcard:
+soc: Qualcomm MSM8960T Snapdragon S4 Pro
+storage: 16/32 GB
+tree: android_device_asus_flox
+type: tablet
+vendor: Google
+vendor_short: asus
+versions: [14.1, 17.1]
+width: 120 mm (4.7 in)
+wifi: 802.11 a/b/g/n @ 2.4 GHz & 5 GHz
