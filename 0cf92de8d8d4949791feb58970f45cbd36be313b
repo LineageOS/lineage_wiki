@@ -22,6 +22,30 @@
       "revId": "0cf92de8d8d4949791feb58970f45cbd36be313b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "367c43af_607ed4e5",
+        "filename": "_sass/lineage/_main.scss",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 24558
+      },
+      "writtenOn": "2020-11-07T07:25:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4be830b1_34062d9f",
+      "range": {
+        "startLine": 88,
+        "startChar": 4,
+        "endLine": 88,
+        "endChar": 18
+      },
+      "revId": "0cf92de8d8d4949791feb58970f45cbd36be313b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
