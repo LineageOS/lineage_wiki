@@ -19,7 +19,7 @@ install_method: fastboot_fairphone
 is_ab_device: true
 kernel: android_kernel_fairphone_sdm632
 maintainers: [dk1978]
-models: [FP3, FP3+]
+models: [FP3]
 name: 'Fairphone 3'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS, Galileo, GLONASS, Light sensor, RGB ambient light, Dual SIM]
