@@ -1,4 +1,5 @@
-architecture: arm
+_data/devices/r7plus.yml _data/devices/s2.yml
+_data/devices/find7.yml _data/devices/kipper.yml _data/devices/gts210vewifi.yml _data/devices/zangya.yml _data/devices/f1f.yml _data/devices/charlotte.yml _data/devices/figo.yml _data/devices/mido.yml _data/devices/zenfone3.yml device_sample/sample.ymlarchitecture: arm
 battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
@@ -15,7 +16,7 @@ gpu: Adreno 420
 image: klte.png
 install_method: heimdall
 kernel: android_kernel_samsung_apq8084
-maintainers: [cvxda, sassmann]
+maintainers: []
 models: [SM-G901F]
 name: Galaxy S5 Plus
 network: [2G GSM, 3G UMTS, 4G LTE]
