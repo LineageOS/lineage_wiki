@@ -18,7 +18,7 @@ height: 148.9 mm (5.86 in)
 image: r5.png
 install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
-maintainers: [maniac103]
+maintainers: []
 models: [R8106, R8106s]
 name: R5/R5s (International)
 network: [2G GSM, 3G UMTS, 4G LTE]
