@@ -17,7 +17,7 @@ height: 155.7 mm (6.13 in)
 image: ham.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8974
-maintainers: [sb6596]
+maintainers: []
 name: Z1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, GPS, Accelerometer, Gyroscope, Compass, Light sensor, Proximity sensor]
