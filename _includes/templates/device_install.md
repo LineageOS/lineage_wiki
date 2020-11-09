@@ -84,7 +84,7 @@ There are no recovery installation instructions for this discontinued device.
     {% include alerts/note.html content="Add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
 {%- endif %}
     {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
-{%- if device.current_branch == 17.1 %}
+{%- if device.current_branch >= 17.1 %}
 {%- if device.uses_twrp and device.is_ab_device != true %}
 8. Once you have installed everything successfully, run 'adb reboot'.
 {%- else %}
