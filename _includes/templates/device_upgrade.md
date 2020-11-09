@@ -54,7 +54,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- endif %}
     {% include alerts/note.html content="If you previously had any Google Apps package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 
-{% if device.current_branch == 17.1 %}
+{% if device.current_branch >= 17.1 %}
 {% if device.uses_twrp and device.is_ab_device != true %}
 7. Once you have installed everything successfully, run `adb reboot`.
 {% else %}

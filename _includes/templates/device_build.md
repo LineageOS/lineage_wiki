@@ -103,7 +103,7 @@ While for Ubuntu versions older than 16.04 (xenial), install:
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
-* LineageOS 16.0-17.1: OpenJDK 1.9 (included by default)
+* LineageOS 16.0-18.0: OpenJDK 1.9 (included by default)
 * LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
 * LineageOS 11.0-13.0: OpenJDK 1.7 (install `openjdk-7-jdk`)\*
 
