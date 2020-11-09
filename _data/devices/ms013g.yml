@@ -17,7 +17,7 @@ height: 146.8 mm (5.78 in)
 image: ms013g.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8226
-maintainers: [djchittoor]
+maintainers: []
 models: [SM-G7102]
 name: Galaxy Grand 2 Duos
 network: [2G CDMA, 2G GSM, 3G UMTS]
