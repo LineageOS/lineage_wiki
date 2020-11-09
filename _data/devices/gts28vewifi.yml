@@ -16,7 +16,7 @@ height: 198.6 mm (7.8 in)
 image: gts210vewifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8976
-maintainers: [mccreary, syphyr, luca020400]
+maintainers: []
 models: [SM-T713]
 name: Galaxy Tab S2 8.0 Wi-Fi (2016)
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
