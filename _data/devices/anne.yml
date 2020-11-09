@@ -17,7 +17,7 @@ image: anne.png
 install_method: fastboot_huawei
 is_unlockable: false
 kernel: android_kernel_huawei_hi6250
-maintainers: [DarkJoker360]
+maintainers: []
 models: [ANE-LX1, ANE-LX2, ANE-LX3, ANE-LX2J, ANE-AL00, ANE-L23, ANE-L22, ANE-L21]
 name: P20 Lite
 network: [2G GSM, 3G UMTS, 4G LTE]
