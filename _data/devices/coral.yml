@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 3700, tech: 'Li-Po'}
 before_install: before_install_needs_specific_android_fw
-before_install_args: {version: 10}
+before_install_args: {version: 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED', info: '12.2 MP'}
@@ -11,7 +11,7 @@ codename: coral
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-current_branch: 17.1
+current_branch: 18.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 8.2 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -39,6 +39,6 @@ tree: android_device_google_coral
 type: phone
 vendor: Google
 vendor_short: google
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.1 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

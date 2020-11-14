@@ -8,7 +8,7 @@ codename: onclite
 cpu: Kryo 250
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.47 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -36,6 +36,6 @@ tree: android_device_xiaomi_onclite
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.58 mm (2.98 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

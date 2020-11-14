@@ -9,7 +9,7 @@ codename: mata
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 17.1
+current_branch: 18.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -38,6 +38,6 @@ tree: android_device_essential_mata
 type: phone
 vendor: Essential
 vendor_short: essential
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 71.1 mm (2.80 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, DLNA, Hotspot
