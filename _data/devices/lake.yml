@@ -10,7 +10,7 @@ codename: lake
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509
@@ -39,6 +39,6 @@ tree: android_device_motorola_lake
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.3 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
