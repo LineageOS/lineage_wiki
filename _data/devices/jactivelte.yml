@@ -8,7 +8,7 @@ codename: jactivelte
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 9.1 mm (0.36 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
@@ -38,6 +38,6 @@ tree: android_device_samsung_jactivelte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 71.3 mm (2.8 in)
 wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
