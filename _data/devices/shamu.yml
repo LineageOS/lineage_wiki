@@ -8,7 +8,7 @@ codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 10.1 mm (0.40 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 420
@@ -37,6 +37,6 @@ tree: android_device_moto_shamu
 type: phone
 vendor: Google
 vendor_short: moto
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 83 mm (3.27 in)
 wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot
