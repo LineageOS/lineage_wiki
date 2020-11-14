@@ -7,7 +7,7 @@
 2. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-3. Download [this](https://dl.twrp.me/gts4lvwifi/vbmeta.tar.html) VBMeta image `.tar` file.
+3. Download [this](https://dl.twrp.me/{{ device.codename }}/vbmeta.tar.html) VBMeta image `.tar` file.
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue" and/or "Unlock Bootloader", and insert the USB cable into the device.
