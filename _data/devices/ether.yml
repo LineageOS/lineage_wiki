@@ -8,7 +8,7 @@ codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
@@ -36,6 +36,6 @@ tree: android_device_nextbit_ether
 type: phone
 vendor: Nextbit
 vendor_short: nextbit
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 72 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band
