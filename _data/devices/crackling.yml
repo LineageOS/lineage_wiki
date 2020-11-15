@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: True, capacity: 2500, tech: 'Li-Ion'}
+before_install: before_lineage_install_crackling
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
