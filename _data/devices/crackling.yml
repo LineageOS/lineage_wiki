@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: True, capacity: 2500, tech: 'Li-Ion'}
+before_lineage_install: before_lineage_install_crackling
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
@@ -24,6 +25,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, G
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
+required_bootloader: ['crackling-13-ge86e772']
 screen: 127 mm (5.0 in)
 screen_ppi: '294'
 screen_res: 1280x720
