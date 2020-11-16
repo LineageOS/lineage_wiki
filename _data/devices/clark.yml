@@ -8,19 +8,24 @@ codename: clark
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
-current_branch: 14.1
+current_branch: 17.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
 image: clark.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8992
-maintainers: []
+maintainers: [chrmhoffmann]
 models: [XT1570, XT1572, XT1575]
 name: Moto X Pure Edition/Style (2015)
-peripherals: None
+network: [2G GSM, 3G UMTS, 4G LTE]
+note_show: true
+note_title: ANT+ and IMS support
+note_content: Builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual front speakers, GLONASS, GPS, Gesture sensor, Gyroscope, Infrared sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to RECOVERY MODE and then press <kbd>Power</kbd> to select.
 release: 2015-09
 screen: 145 mm (5.7 in)
 screen_ppi: '520'
@@ -31,8 +36,7 @@ soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32/64 GB
 tree: android_device_motorola_clark
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions: [14.1, 17.1]
 wifi: 802.11 a/g/b/n/ac + MIMO
