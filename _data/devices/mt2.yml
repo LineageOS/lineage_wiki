@@ -30,7 +30,7 @@ sdcard: up to 64 GB
 soc: Qualcomm MSM 8928
 storage: 16 GB
 tree: android_device_huawei_mt2
-type: phablet
+type: phone
 uses_twrp: true
 vendor: Huawei
 vendor_short: huawei

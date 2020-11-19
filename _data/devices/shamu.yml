@@ -34,7 +34,7 @@ sdcard:
 soc: Qualcomm APQ8084 Snapdragon 805
 storage: 32/64 GB
 tree: android_device_moto_shamu
-type: phablet
+type: phone
 vendor: Google
 vendor_short: moto
 versions: [14.1, 15.1, 16.0, 17.1]
