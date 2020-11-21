@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: 'LED', info: '5 MP'}
+codename: ahannah
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.4 GHz
+current_branch: 17.1
+depth: 9.4 mm (0.37 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 505
+height: 160.9 mm (6.33 in)
+image: hannah.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8953
+maintainers: [Jarl-Penguin, karthick111, electimon, wh0dat]
+models: [XT1924-3, XT1924-9]
+name: 'Moto E5 Plus'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, GPS, FM radio, Light sensor]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2018-05
+screen: 152.4 mm (6 in)
+screen_ppi: 268
+screen_res: 1440x720
+screen_tech: IPS LCD
+sdcard: up to 256 GB
+soc: Qualcomm MSM8937 Snapdragon 430
+storage: 32 GB
+tree: android_device_motorola_ahannah
+type: phone
+uses_twrp: false
+vendor: Motorola
+vendor_short: motorola
+versions: [17.1]
+width: 75.3 mm (2.96 in)
+wifi: 802.11 b/g/n, Hotspot
