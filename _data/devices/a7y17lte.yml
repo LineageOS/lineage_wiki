@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-before_install: before_install_a5y17lte_and_a7y17lte
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 8.0}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
