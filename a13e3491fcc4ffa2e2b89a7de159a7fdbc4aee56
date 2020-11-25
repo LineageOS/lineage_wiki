@@ -22,6 +22,40 @@
       "revId": "a13e3491fcc4ffa2e2b89a7de159a7fdbc4aee56",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9465ab08_00ee5f87",
+        "filename": "pages/contributors.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-11-25T21:22:40Z",
+      "side": 1,
+      "message": "that name looks (is) wrong",
+      "revId": "a13e3491fcc4ffa2e2b89a7de159a7fdbc4aee56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7a727aea_e65aacef",
+        "filename": "pages/contributors.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 66,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2020-11-25T21:22:40Z",
+      "side": 1,
+      "message": "while on it: i am committer (and on both lists) so remove me here",
+      "revId": "a13e3491fcc4ffa2e2b89a7de159a7fdbc4aee56",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
