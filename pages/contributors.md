@@ -31,22 +31,6 @@ the project and are committed to improving it.
 | razorloves | razorloves |
 {: .table }
 
-### Trusted reviewers
-
-Trusted reviewers are known to provide consistent constructive feedback in line with project rules and guidelines. As a result, 
-their feedback is held as backed by project leads and recognized as a distinct group from general public reviewers.
-
-| Name | Nickname |
-|------|----------|
-| Björn Lundén | blunden |
-| Brandon McAnsh | bmc08gt |
-| Jan Altensen | Stricted |
-| Michael W. | BadDaemon |
-| Nolen Johnson | npjohnson |
-| Scott Warner | Tortel |
-| Shane Passmore | h8rift |
-{: .table }
-
 ### Committers
 
 Committers are responsible for testing commits and merging them in high flowrate situations. These developers have merge rights across the board.
@@ -69,17 +53,19 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Tom Marshall | tdm |
 {: .table }
 
-### Developer relations managers
+### Trusted reviewers
 
-Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
-Although everyone has a responsibility to help new people join the community, and to protect the project’s health, these people maintain the contribution
-pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
+Trusted reviewers are known to provide consistent constructive feedback in line with project rules and guidelines. As a result,
+their feedback is held as backed by project leads and recognized as a distinct group from general public reviewers.
 
 | Name | Nickname |
 |------|----------|
-| Kevin Haggerty | haggertk |
+| Björn Lundén | blunden |
+| Brandon McAnsh | bmc08gt |
+| Jan Altensen | Stricted |
 | Nolen Johnson | npjohnson |
-| Tom Powell | zifnab |
+| Scott Warner | Tortel |
+| Shane Passmore | h8rift |
 {: .table }
 
 ### Device maintainers
@@ -103,6 +89,19 @@ pathways that connect to potential contributors to teams that have contribution 
 </tbody>
 </table>
 {%- endfor %}
+
+### Developer relations managers
+
+Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
+Although everyone has a responsibility to help new people join the community, and to protect the project   ^`^ys health, these people maintain the contribution
+pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
+
+| Name | Nickname |
+|------|----------|
+| Kevin Haggerty | haggertk |
+| Nolen Johnson | npjohnson |
+| Tom Powell | zifnab |
+{: .table }
 
 ### Infrastructure managers
 
