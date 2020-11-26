@@ -1,5 +1,7 @@
 architecture: arm
 battery: {removable: False, capacity: 3630, tech: 'Li-Ion'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: '7.1.1'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}

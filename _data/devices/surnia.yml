@@ -1,5 +1,7 @@
 architecture: arm
 battery: {removable: False, capacity: 2390, tech: 'Li-Ion'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: '6.0'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: '', info: '5 MP'}
