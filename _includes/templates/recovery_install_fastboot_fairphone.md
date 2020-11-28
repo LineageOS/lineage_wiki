@@ -24,6 +24,9 @@ fastboot devices
 
 4. Follow the instructions at [Fairphone Support](https://www.fairphone.com/en/bootloader-unlocking-code-for-fairphone-3/) to unlock your bootloader.
 
+    {% include alerts/tip.html content="You may need to execute `fastboot oem unlock` if fastboot shows `Device State: locked` - remember to `fastboot oem lock` after you finish configuration" %}
+
+
 {% if device.is_ab_device and device.has_recovery_partition != true %}
     {% include templates/recovery_install_fastboot_ab.md %}
 {% else %}
