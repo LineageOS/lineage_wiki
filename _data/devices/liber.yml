@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {spec: '5.0', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '64 MP (wide)'}
+- {flash: None, info: '8 MP (ultrawide)'}
+- {flash: None, info: '5 MP (macro)'}
+- {flash: None, info: '2 MP (depth)'}
+codename: liber
+cpu: Kryo 470
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '162.9 x 76.4 x 9.6 mm (6.41 x 3.01 x 0.38 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
+  Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 618
+has_recovery_partition: true
+image: liber.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm6150
+maintainers: [William]
+models: [xt2067-2]
+name: One Fusion+
+network: 2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE
+peripherals: Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, GPS
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
+release: 2020-06
+screen: {size: '165.1 mm (6.5 in)', density: 396, resolution: '1080x2340', technology: 'IPS LCD'}
+sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM7150-AB Snapdragon 730/730G
+storage: 128 GB UFS 2.1
+tree: android_device_motorola_liber
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [19.1]
+width: 76.4 mm (3.01 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
