@@ -11,6 +11,8 @@
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue" and/or "Unlock Bootloader", and insert the USB cable into the device.
+    * Device will restart, repeat steps 1 and 2.
+    * Verify that "OEM Unlock" is still enabled and continue to step 5
 5. Download and install the necessary drivers.
     * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
