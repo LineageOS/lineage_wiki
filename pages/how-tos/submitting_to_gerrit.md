@@ -22,6 +22,8 @@ Now make sure your local git username matches with your Gerrit username:
 git config --global review.review.lineageos.org.username "gerrit username"
 ```
 
+{% include alerts/tip.html content="Beware that Gerrit username is case-sensitive. Also make sure your Git email address matches the email address in your Gerrit account or the upload will be rejected: `git config --global user.email 'gerrit email address'`." %}
+
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
 Generate the SSH keys,<sup>[[1]](#TroubleshootingTag)</sup>:
