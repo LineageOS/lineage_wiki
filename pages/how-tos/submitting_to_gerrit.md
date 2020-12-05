@@ -19,8 +19,11 @@ Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributo
 Now make sure your local git username matches with your Gerrit username:
 
 ```
-git config --global review.review.lineageos.org.username "gerrit username"
+git config --global user.email 'you@yourDomain.com'
+git config --global review.review.lineageos.org.username "gerritUsername"
 ```
+
+{% include alerts/note.html content="Your Gerrit username is case-sensitive." %}
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
