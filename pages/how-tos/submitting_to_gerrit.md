@@ -16,7 +16,7 @@ Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributo
 
 {% include alerts/important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
 
-Now make sure your local git username matches with your Gerrit username:
+Now make sure your local git username matches with your Gerrit username (beware that Gerrit username is case-sensitive):
 
 ```
 git config --global review.review.lineageos.org.username "gerrit username"
