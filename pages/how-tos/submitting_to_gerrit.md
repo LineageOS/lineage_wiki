@@ -16,17 +16,13 @@ Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributo
 
 {% include alerts/important.html content="Gerrit ensures users have completed a valid Contributor Agreement prior to accepting any transferred objects, and if it is not completed, it aborts the network connection before data is sent." %}
 
-Now make sure your local git username matches with your Gerrit username (beware that Gerrit username is case-sensitive):
+Now make sure your local git username matches with your Gerrit username:
 
 ```
 git config --global review.review.lineageos.org.username "gerrit username"
 ```
 
-Also make sure your git email matches the email address in your Gerrit account, or the upload will be rejected:
-
-```
-git config --global user.email "gerrit email address"
-```
+{% include alerts/tip.html content="Beware that Gerrit username is case-sensitive. Also make sure your Git email address matches the email address in your Gerrit account or the upload will be rejected: `git config --global user.email "gerrit email address"`." %}
 
 If you already have SSH keys set up (e.g. for GitHub), skip the following two steps.
 
