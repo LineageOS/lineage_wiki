@@ -69,3 +69,5 @@ url: https://wiki.lineageos.org
 
 plugins:
   - jekyll-redirect-from
+
+exclude: [vendor]
