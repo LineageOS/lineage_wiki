@@ -7,3 +7,5 @@ _pdf
 .ruby-version
 .ruby-gemset
 .ruby-env
+.bundle
+vendor
