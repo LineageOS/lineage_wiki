@@ -2,14 +2,15 @@
 sidebar: home_sidebar
 title: How to capture logs
 folder: how-tos
-permalink: logcat.html
+redirect_from: logcat.html
+permalink: /how-to/logcat
 tags:
  - how-to
 ---
 
 ## Taking logs for bug reports
 
-These instructions will generate a `logcat` file which you can then attach to a [bug report](bugreport-howto.html#reporting-a-bug).
+These instructions will generate a `logcat` file which you can then attach to a [bug report](how-to/bugreport#reporting-a-bug).
 That file basically consists of a log of system messages, including stack traces when the device throws an error, and debug messages from apps.
 
 ### With a computer

@@ -8,7 +8,7 @@ layout: default
   {%- if page.device != None %}
   {%- capture link %}{{ "devices/" | append: site.data.devices[page.device].codename | relative_url }}{% endcapture %}
   {%- elsif page.tags contains "how-to" %}
-  {%- capture link %}{{ "how-tos.html" | relative_url }}{% endcapture %}
+  {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
   {%- endif %}
 
   {%- if link != None %}
