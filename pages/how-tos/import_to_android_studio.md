@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to import the sources to Android Studio / IntelliJ
 folder: how-tos
-permalink: import-android-studio-howto.html
+redirect_from: import-android-studio-howto.html
+permalink: /how-to/import-to-android-studio
 tags:
  - how-to
 ---

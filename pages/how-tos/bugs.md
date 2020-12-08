@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to submit a bug report
 folder: how-tos
-permalink: bugreport-howto.html
+redirect_from: bugreport-howto.html
+permalink: /how-to/bugreport
 tags:
  - how-to
 ---
@@ -27,11 +28,17 @@ We accept bugs on the following:
       - Your phone crashes when you try to enable encryption.
       - WiFi calling doesn't work.
 
+
+    {% include alerts/important.html content="Please do not post multiple issues within the same report, as bugs can be either affecting different maintainers or some may be device specific where others are not" %}
+
   - [Infrastructure](https://gitlab.com/LineageOS/issues/infra)
     - These are bugs in our website and/or software.
     - Examples:
       - The download portal doesn't render something correctly.
       - There's a dead link on the website.
       - An API returns something unexpected.
+
+
+    {% include alerts/important.html content="If the issue affects your device, this is the **wrong** place to report your issue!" %}
 
 Please be sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be removed. [Logcats](logcat.html) *must* be attached for all android bugs, and *must* be captured right after reproducing the issue.

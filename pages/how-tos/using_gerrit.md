@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to use Gerrit
 folder: how-tos
-permalink: usinggerrit-howto.html
+redirect_from: usinggerrit-howto.html
+permalink: /how-to/using-gerrit
 tags:
  - how-to
 ---

@@ -116,7 +116,7 @@ Infrastructure Manages are responsible for running the day-to-day infrastructure
 
 ## Translations
 
-We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here](translate-howto.html)
+We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here](how-to/translate)
 
 ### Translations managers
 
