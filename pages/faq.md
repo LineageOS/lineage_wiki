@@ -26,7 +26,7 @@ permalink: faq.html
  - In short, you can't. We don't keep building, or keep builds around for any version older than 2 Android versions (e.g. when 17.1 builds started, 15.1 builds stopped and the builds were slowly removed, while 16.0 builds continued). We don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
 
 ## I found a bug. What do I do?
- - You can report it! Please _carefully_ read the [How to submit a bug]({{ "bugreport-howto.html" | relative_url }}) page before reporting it.
+ - You can report it! Please _carefully_ read the [How to submit a bug]({{ "how-to/bugreport" | relative_url }}) page before reporting it.
 
 ## Can I have _xxx_ feature added?
  - Don't ask.

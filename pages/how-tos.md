@@ -1,7 +1,8 @@
 ---
 title: How-to ...
 sidebar: home_sidebar
-permalink: how-tos.html
+redirect_from: how-tos.html
+permalink: /how-to/
 tags:
 toc: false
 ---
