@@ -2,8 +2,10 @@ _site/
 .sass-cache/
 .jekyll-metadata
 _pdf
+.bundle/
 .idea/
 .DS_Store
 .ruby-version
 .ruby-gemset
 .ruby-env
+vendor/
