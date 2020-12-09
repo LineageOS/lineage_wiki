@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fece05c_eeaddc09",
+        "filename": "_data/devices/cheeseburger.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-12-09T23:41:28Z",
+      "side": 1,
+      "message": "zzz",
+      "range": {
+        "startLine": 13,
+        "startChar": 19,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "64dd31ea840216322e7a7660a1f080ef022641ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e863db37_b245da07",
+        "filename": "_data/devices/cheeseburger.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2020-12-09T23:41:28Z",
+      "side": 1,
+      "message": "zzz",
+      "range": {
+        "startLine": 40,
+        "startChar": 38,
+        "endLine": 40,
+        "endChar": 39
+      },
+      "revId": "64dd31ea840216322e7a7660a1f080ef022641ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
