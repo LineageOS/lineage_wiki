@@ -22,6 +22,30 @@
       "revId": "a8d6b533130c377f0379d4fcc5ac27a52bfab7f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c483f4ad_228a4fc5",
+        "filename": "_data/devices/flox.yml",
+        "patchSetId": 23
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 26349
+      },
+      "writtenOn": "2020-12-11T14:25:47Z",
+      "side": 1,
+      "message": "Oh, really, fixed now",
+      "parentUuid": "e6875b81_81bc322f",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 15
+      },
+      "revId": "a8d6b533130c377f0379d4fcc5ac27a52bfab7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
