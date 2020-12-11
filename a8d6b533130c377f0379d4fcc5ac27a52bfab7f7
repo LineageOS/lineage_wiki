@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e6875b81_81bc322f",
+        "filename": "_data/devices/flox.yml",
+        "patchSetId": 23
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2020-12-11T14:16:11Z",
+      "side": 1,
+      "message": "I know that flo was supported with 14.1, but flox wasn\u0027t. Is this really appropriate?",
+      "range": {
+        "startLine": 39,
+        "startChar": 11,
+        "endLine": 39,
+        "endChar": 15
+      },
+      "revId": "a8d6b533130c377f0379d4fcc5ac27a52bfab7f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
