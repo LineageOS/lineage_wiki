@@ -19,6 +19,9 @@ kernel: android_kernel_google_msm
 maintainers: []
 name: Nexus 7 (Wi-Fi, 2013 version)
 no_oem_unlock_switch: true
+note_show: true
+note_title: Migration to `flox`
+note_content: LineageOS 17.1 builds for this device require repartitioning the internal eMMC due to the largely outdated and small partition sizes. Due to this, in-plce upgrades from users on `flo` builds will not work, so we chose to reband the repartitioned device to `flox`. If you wish to proceed with installation, please visit `flox`'s [Wiki page](https://wiki.lineageos.org/devices/flox/).
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
