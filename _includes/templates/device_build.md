@@ -176,6 +176,14 @@ Enter the following to initialize the repository:
 cd ~/android/lineage
 repo init -u https://github.com/LineageOS/android.git -b {% if device.current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ device.current_branch }}
 ```
+If you recieve the error "OSError: [Errno 13] Permission denied lineage repo init"  that could be to a [snapcraft store bug](https://bugs.launchpad.net/snapstore-server/+bug/1882296). The workaround is to manually install it using this commands:
+
+```
+mkdir -p ~/.bin
+PATH="${HOME}/.bin:${PATH}"
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
+chmod a+rx ~/.bin/repo
+```
 
 ### Download the source code
 
