@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 7040, tech: 'Li-Ion'}
+before_install: before_install_gta4xl
+bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+cameras:
+- {flash: '', info: '8 MP'}
+- {flash: '', info: '5 MP'}
+codename: gta4xlwifi
+cpu: Cortex-A73 + Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
+current_branch: 17.1
+depth: 7.0 mm (0.28 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+gpu: Mali-G72 MP3
+height: 244.5 mm (9.63 in)
+image: gta4xlwifi.png
+install_method: heimdall
+kernel: android_kernel_samsung_gta4xl
+maintainers: [Linux4]
+models: SM-P610
+name: Galaxy Tab S6 Lite (Wi-Fi)
+peripherals: [Accelerometer, Compass, GPS, Gyroscope]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2020-04-02
+screen: 264.16 mm (10.4 in)
+screen_ppi: 224
+screen_res: 1200 x 2000
+screen_tech: TFT
+sdcard: up to 1TB
+soc: Samsung Exynos 9611
+storage: 64/128 GB
+tree: android_device_samsung_gta4xlwifi
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [17.1]
+width: 154.3 mm (6.07 in)
+wifi: 802.11 a/b/g/n/ac
