@@ -283,6 +283,7 @@ properties:
     - ARM Mali-400 MP4
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
+    - ARM Mali-G72 MP3
     - ARM Mali-T604
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2

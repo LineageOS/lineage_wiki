@@ -6,13 +6,13 @@ cameras:
 - {flash: '', info: '8 MP'}
 - {flash: '', info: '5 MP'}
 codename: gta4xlwifi
-cpu: Cortex-A73 + Cortex-A53
+cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
 current_branch: 17.1
 depth: 7.0 mm (0.28 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
-gpu: Mali-G72 MP3
+gpu: ARM Mali-G72 MP3
 height: 244.5 mm (9.63 in)
 image: gta4xlwifi.png
 install_method: heimdall
