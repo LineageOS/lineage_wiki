@@ -6,7 +6,7 @@ cameras:
 - {flash: '', info: '8 MP'}
 - {flash: '', info: '5 MP'}
 codename: gta4xlwifi
-cpu: Cortex-A73 + Cortex-A53
+cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
 current_branch: 17.1
