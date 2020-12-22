@@ -240,6 +240,7 @@ properties:
     - Kryo 385
     - Kryo 460
     - Kryo 470
+    - Kryo 475
     - Kryo 485
     - Kryo 495
   cpu_cores:
