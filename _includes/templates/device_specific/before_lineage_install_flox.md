@@ -19,9 +19,11 @@
 {% include alerts/warning.html content="This step is not optional, the device will not boot LineageOS without repartitioning first!" %}
 {% include alerts/warning.html content="This process will wipe all data on the device, including your internal storage!" %}
 1. Download the flashable repartition script from [here](https://www.androidfilehost.com/?fid=10763459528675595998).
-2. On your device's screen, choose "Apply Update", then "From ADB".
-3. From your Terminal/PowerShell, run `adb sideload /path/to/flo-deb_clamor_repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
+2. Boot into lineage recovery using `fastboot boot <recovery_filename>.img`
+3. On your device's screen, choose "Apply Update", then "From ADB".
+4. From your Terminal/PowerShell, run `adb sideload /path/to/flo-deb_clamor_repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
-4. Now run `adb shell` from your Terminal/PowerShell, and run the following commands within it:
+5. Now run `adb shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
-5. Click,"Factory Reset", then "Format system partition", then when prompted, select "Yes".
+6. Click,"Factory Reset", then "Format system partition", then when prompted, select "Yes".
+7. Boot into fastboot mode and flash recovery image using `fastboot flash recovery <recovery_filename>.img`
