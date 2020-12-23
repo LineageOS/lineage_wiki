@@ -1,6 +1,5 @@
 architecture: arm64
 battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
-before_lineage_install: before_lineage_install_dumpling
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
