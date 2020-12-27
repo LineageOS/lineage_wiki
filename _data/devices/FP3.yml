@@ -8,7 +8,7 @@ codename: FP3
 cpu: Kryo 250
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
-current_branch: 16.0
+current_branch: 17.1
 depth: 9.89 mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Release when boot logo appears.
@@ -19,7 +19,7 @@ install_method: fastboot_fairphone
 is_ab_device: true
 kernel: android_kernel_fairphone_sdm632
 maintainers: [dk1978]
-models: [FP3]
+models: [FP3,FP3+]
 name: FP3
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS, Galileo, GLONASS, Light sensor, RGB ambient light, Dual SIM]
@@ -38,6 +38,6 @@ tree: android_device_fairphone_FP3
 type: phone
 vendor: Fairphone
 vendor_short: fairphone
-versions: [16.0]
+versions: [17.1]
 width: 71.8 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct
