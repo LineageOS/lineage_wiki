@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "78f59db5_f653ca1d",
+        "filename": "pages/how-tos/adb_over_wifi.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-01-07T14:22:42Z",
+      "side": 1,
+      "message": "Android 10 in general doesn\u0027t support this. Only LineageOS builds.\n\nIt\u0027s fine in above case only because Android 11 has native support.",
+      "range": {
+        "startLine": 41,
+        "startChar": 26,
+        "endLine": 41,
+        "endChar": 37
+      },
+      "revId": "5235e0b62da2ab8f9bca5575f9ae1a2dfdb3ce7f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
