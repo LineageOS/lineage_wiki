@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7d06c8d6_0cd5d10b",
+        "filename": "pages/how-tos/adb_over_wifi.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-01-07T14:31:10Z",
+      "side": 1,
+      "message": "Maybe align with the other title, removing Android 11 from here and placing it in some note at the end?",
+      "range": {
+        "startLine": 20,
+        "startChar": 26,
+        "endLine": 20,
+        "endChar": 53
+      },
+      "revId": "98c4397da84145775bc971576302a98fb2e58eb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
