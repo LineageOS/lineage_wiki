@@ -32,9 +32,15 @@ fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
 5. Flash recovery onto your device:
+{% if device.needs_fastboot_boot %}
+```
+fastboot boot <recovery_filename>.img
+```
+{% else %}
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
+{% endif %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
     {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar .. `, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 
