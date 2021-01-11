@@ -24,4 +24,13 @@
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
 4. Now run `adb shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
-5. Click,"Factory Reset", then "Format system partition", then when prompted, select "Yes".
+5. The device will reboot whatever your previous recovery was, please select "Reboot to bootloader" if it's the stock recovery or "Reboot", then "Bootloader" if it was TWRP.
+6. Flash recovery onto your device:
+```
+fastboot flash recovery <recovery_filename>.img
+```
+    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
+    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar .. `, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}    
+7. Now reboot into recovery to verify the installation:
+    * {{ device.recovery_boot }}
+8. Click,"Factory Reset", then "Format system partition", then when prompted, select "Yes".
