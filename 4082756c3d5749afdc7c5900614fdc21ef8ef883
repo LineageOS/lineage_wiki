@@ -22,6 +22,30 @@
       "revId": "4082756c3d5749afdc7c5900614fdc21ef8ef883",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e5d7dfbf_6484e9b6",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-01-11T19:51:39Z",
+      "side": 1,
+      "message": "ehhhhhh - What user is gonna actually fall back to this tho?\n\nAnd on this device, it\u0027s not \"you can\", it\u0027s \"you must\u0027",
+      "parentUuid": "a5e4311a_ead37edf",
+      "range": {
+        "startLine": 52,
+        "startChar": 19,
+        "endLine": 52,
+        "endChar": 142
+      },
+      "revId": "4082756c3d5749afdc7c5900614fdc21ef8ef883",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
