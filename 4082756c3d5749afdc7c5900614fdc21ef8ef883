@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a5e4311a_ead37edf",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2021-01-11T19:40:46Z",
+      "side": 1,
+      "message": "Already covered here...",
+      "range": {
+        "startLine": 52,
+        "startChar": 19,
+        "endLine": 52,
+        "endChar": 142
+      },
+      "revId": "4082756c3d5749afdc7c5900614fdc21ef8ef883",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
