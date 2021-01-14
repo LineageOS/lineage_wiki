@@ -56,6 +56,8 @@ Now, to generate the installable zip, run:
     signed-ota_update.zip
 ```
 
+[Install your own release keys (once).](#test-keys-to-your-own-release-keys-or-vice-versa)
+
 Then, install the zip in recovery as you normally would.
 
 ## Changing keys
@@ -117,7 +119,7 @@ git reset --hard github/cm-14.1
 
 You can also use a script or small flashable zip designed to be run once, before installing
 a build with the new keys. The script is available under
-`./lineage/scripts/key-migration/script.sh`
+`./lineage/scripts/key-migration/migration.sh`
 
 The script can also be made into a zip, by inserting it into a zip similar to
 [this](https://blunden.se/migration). This zip has the script placed in 
@@ -153,12 +155,13 @@ script in the same way, but instead using the argument "unofficial" instead of "
 
 #### Test-keys to your own release-keys or vice versa
 
-If you are moving from test-keys to your own signed builds, you can add your own keys to the
-script. First, export your keys to the required format, by running the script in
-`./lineage/scripts/key-migration/export-keys.sh`.
+If you are moving from test-keys to your own signed builds, you can add your own keys to
+[the script](#using-a-script). First, export your keys to the required format, by running 
+`./lineage/scripts/key-migration/export-keys.sh ~/.android-certs/`.
 
-{% include alerts/note.html content="You may need to modify this script to change the location of
-your certificate directory if you are not using the default certificate directory." %}
+{% include alerts/note.html content="You may need to alter the `~/.android-certs/` parameter
+to change the location of your certificate directory if you are not using the default
+certificate directory." %}
 
 This will print the keys and certs to the terminal in the format required. Next, edit the
 script to use your keys. You will need to comment out (by prepending a `#`), or remove the
