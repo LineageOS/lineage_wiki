@@ -33,7 +33,7 @@
 * **Recovery**: {{ device.recovery_boot }}
 {% endif %}
 {% if device.download_boot %}
-* **Download**: {{ device.download_boot }}
+* **Bootloader/Fastboot/Download**: {{ device.download_boot }}
 {% endif %}
 {% endif %}
 
