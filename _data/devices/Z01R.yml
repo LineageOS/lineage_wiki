@@ -23,7 +23,6 @@ kernel: android_kernel_asus_sdm845
 maintainers: [rohanpurohit, Jackeagle, ThEMarD]
 name: Zenfone 5Z (ZS620KL)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-no_fastboot_boot: true
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light, USB OTG]
 ram: 4/6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
