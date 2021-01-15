@@ -36,6 +36,6 @@ tree: android_device_lge_us996
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [17.1]
+versions: [14.1, 17.1]
 width: 78.1 mm (3.07 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
