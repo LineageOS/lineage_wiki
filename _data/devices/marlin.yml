@@ -23,7 +23,7 @@ name: Pixel XL
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, Light sensor, Barometer, NFC]
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select **Recovery Mode**.
 release: 2016-10
 screen: 139.7 mm (5.5 in)
 screen_ppi: '534'
