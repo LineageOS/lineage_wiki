@@ -17,7 +17,7 @@ height: 149 mm (5.87 in)
 image: ether.png
 install_method: fastboot_nexus
 kernel: android_kernel_nextbit_msm8992
-maintainers: [javelinanddart, mikeioannina, npjohnson]
+maintainers: [javelinanddart, npjohnson]
 name: Robin
 note_show: true
 note_title: ANT+ and IMS support
