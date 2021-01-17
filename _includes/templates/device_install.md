@@ -51,7 +51,7 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package.
 {%- endif %}
-    * Optionally, download additional application packages such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
+    * Optionally, download an application packages add-on such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 {%- if device.uses_twrp %}
@@ -74,16 +74,16 @@ There are no recovery installation instructions for this discontinued device.
         {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`." %}
 {%- endif %}
 {%- if device.is_ab_device and device.uses_twrp %}
-7. _(Optionally)_: If you want to install any additional add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
 {%- elsif device.is_ab_device %}
-7. _(Optionally)_: If you want to install any additional add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
 {%- else %}
-7. _(Optionally)_: If you want to install any additional add-ons, repeat the sideload steps above for those packages in sequence.
+7. _(Optionally)_: If you want to install any add-ons, repeat the sideload steps above for those packages in sequence.
 {%- endif %}
 {% if device.uses_twrp != true %}
-    {% include alerts/note.html content="Additional add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
+    {% include alerts/note.html content="Add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
 {%- endif %}
-    {% include alerts/note.html content="If you want Google Apps on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
+    {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 {%- if device.current_branch == 17.1 %}
 {%- if device.uses_twrp and device.is_ab_device != true %}
 8. Once you have installed everything successfully, run 'adb reboot'.
