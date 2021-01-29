@@ -20,7 +20,7 @@ height: 161.1 mm (6.34 in)
 image: ginkgo.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6125
-maintainers: [DarkJoker360, erfanoabdi]
+maintainers: [DarkJoker360]
 name: 'Redmi Note 8 / 8T'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
