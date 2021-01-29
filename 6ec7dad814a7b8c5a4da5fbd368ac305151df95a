@@ -16,6 +16,24 @@
       "revId": "6ec7dad814a7b8c5a4da5fbd368ac305151df95a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "177c5132_55399eb4",
+        "filename": "_data/devices/kebab.yml",
+        "patchSetId": 13
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-01-29T10:58:04Z",
+      "side": 1,
+      "message": "we do, just forgot about it.",
+      "parentUuid": "0f01f7ce_30ce40af",
+      "revId": "6ec7dad814a7b8c5a4da5fbd368ac305151df95a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
