@@ -16,6 +16,24 @@
       "revId": "d6d099fbb0c94eb02269f22897716dec59d8b7c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "cf499cce_b11a3b83",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 24
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-01-31T15:40:29Z",
+      "side": 1,
+      "message": "Nope. Must probably have happened because kiwi was initially to be dropped but meanwhile promoted to 17.1 so it\u0027s not to be dropped anymore. Fixed it",
+      "parentUuid": "9964d1cb_8de04920",
+      "revId": "d6d099fbb0c94eb02269f22897716dec59d8b7c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
