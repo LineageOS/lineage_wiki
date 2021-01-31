@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9964d1cb_8de04920",
+        "filename": "_data/devices/kiwi.yml",
+        "patchSetId": 24
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 2681
+      },
+      "writtenOn": "2021-01-31T14:24:34Z",
+      "side": 1,
+      "message": "Is this needed?",
+      "revId": "d6d099fbb0c94eb02269f22897716dec59d8b7c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
