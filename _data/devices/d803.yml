@@ -1,5 +1,7 @@
 architecture: arm
 battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+before_install: before_install_g2-common
+before_dd_recovery: before_dd_recovery_g2-common
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
@@ -21,8 +23,8 @@ name: G2 (Canadian)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the LG logo appears, release both buttons and then hold them again.
+recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2013-09-12
 root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
