@@ -25,7 +25,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
+  When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>. A screen will appear asking whether you want to 'Erase all user data and restore default settings?'. If you have successfully installed the custom recovery, choosing 'yes' here (using the <kbd>Volume</kbd> and <kbd>Power</kbd> buttons)  twice will in fact enter the custom recovery.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2013-09-12
 root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
