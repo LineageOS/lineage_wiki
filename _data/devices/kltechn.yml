@@ -25,8 +25,10 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release:
-- SM-G9006V: 2014-04
-- SM-G9008V: 2014-05
+- model: SM-G9006V
+  date: 2014-04
+- model: SM-G9008V
+  date: 2014-05
 screen: 130 mm (5.1 in)
 screen_ppi: '432'
 screen_res: 1920x1080

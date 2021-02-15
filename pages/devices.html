@@ -7,18 +7,37 @@ search: exclude
 ---
 
 <script type="text/javascript">
-function toggleDiscontinued()
+        var classesToHide= [];
+function hideElementsByClass(className)
 {
-  $('.discontinued').toggle();
+  if (classesToHide.includes(className)) {
+    classesToHide = classesToHide.filter(function(value, index, arr) {
+      return value != className;
+    });
+  } else {
+    classesToHide.push(className);
+  }
+
   $("table.device").each(function () {
+    $(this).find("tbody > tr").show();
+
     vendor = $(this).attr("vendor");
-    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
+    $("*[vendor=" + vendor + "]").show();
+
+    classesToHide.forEach(element => $("." + element).hide());
+
+    if ($(this).find("tbody > tr:visible").length == 0) {
       $("*[vendor=" + vendor + "]").hide();
-    } else {
-      $("*[vendor=" + vendor + "]").show();
     }
   });
+  classesToHide.forEach(element => $("." + element).hide());
+
+  $(".vendor-container-all").show();
+  if ($(".vendor-container-all").find(".vendor-item:visible").length == 0) {
+    $(".vendor-container-all").hide();
+  }
 }
+
 </script>
 
 <div class="container page">
@@ -26,7 +45,7 @@ function toggleDiscontinued()
   <h1>{{ page.title }}</h1>
 
   Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/>
-  You can hide them by unchecking the following checkbox:<br/><br/>
+  You can hide them by unchecking the following checkbox:<br/>
 
 {% assign devices = "" | split: " " %}
 {% for device in site.data.devices %}
@@ -36,14 +55,44 @@ function toggleDiscontinued()
 {% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
 {% assign lastVendor = "" %}
 
-<div class="form-check form-check-inline">
+<div class="form-check form-check-inline row" >
+  <div class="col-sm-12" style="margin: 5px;">
   <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" onclick="toggleDiscontinued()" checked="checked">Show discontinued devices<span class="form-check-sign">
+         <input class="form-check-input container-sm" type="checkbox" onclick="hideElementsByClass('discontinued')" checked="checked">Show discontinued devices<span class="form-check-sign">
         <span class="check"></span>
     </span>
   </label>
+  </div>
+</div><br/>
+  You can also filter the devices by release year:<br/>
+<div class="form-check form-check-inline row">
+  {% for device in devices %}
+    {% if device.release.first %}
+      {% assign releaseYear = device.release.first.date | split: '-' | first %}
+    {% else %}
+      {% assign releaseYear = device.release | split: '-' | first %}
+    {% endif %}
+
+    {% if releaseYears == "" %}
+      {% assign releaseYears = releaseYear %}
+    {% else %}
+      {% assign releaseYears = releaseYear | append: "," | append: releaseYears %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign releaseYears = releaseYears | split: "," | sort | uniq | compact %}
+  {% for year in releaseYears %}
+  <div class="col-sm-2" style="margin: 5px;">
+  <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" onclick="hideElementsByClass('release{{ year }}')" checked="checked">{{ year }}<span class="form-check-sign">
+        <span class="check"></span>
+    </span>
+  </label>
+  </div>
+  {% endfor %}
 </div><br/><br/>
 
+<div class="vendor-container-all">
 Select a vendor to jump to:<br/>
 
 <div class="vendor-container">
@@ -52,16 +101,17 @@ Select a vendor to jump to:<br/>
 {%- if device.vendor != lastVendor %}
 {%- assign vendors = vendors | push: device.vendor %}
 {%- assign lastVendor = device.vendor %}
-  <div vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
+  <div vendor="{{ lastVendor | slugify }}" class="vendor-item"><a href="#{{ lastVendor | slugify }}" vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
 {%- endif %}
 {%- endfor %}
+</div>
 </div>
 
 {% for device in sorted %}
 {% if device.vendor != lastVendor %}
 {% assign lastVendor = device.vendor %}
 
-<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor }}</h2>
 
 <table class="table device" vendor="{{ device.vendor | slugify }}">
   <thead>
@@ -79,6 +129,18 @@ Select a vendor to jump to:<br/>
 {%- else %}
 {%- assign class="" %}
 {%- endif %}
+
+
+{% if device.release.first %}
+{% endif %}
+
+{% if device.release.first %}
+  {% assign releaseYear = device.release.first.date | split: '-' | first %}
+{% else %}
+  {% assign releaseYear = device.release | split: '-' | first %}
+{% endif %}
+{% assign class = class | append: " release" | append: releaseYear %}
+
   <tr class="{{ class }}">
     <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>

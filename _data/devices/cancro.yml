@@ -35,8 +35,10 @@ ram: 2 GB (Mi 3) / 3 GB (Mi 4)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release:
-- MI3: 2013-10
-- MI4: 2014-08
+- model: MI3
+  date: 2013-10
+- model: MI4
+  date: 2014-08
 screen: 127 mm (5 in)
 screen_ppi: 441
 screen_res: 1080x1920

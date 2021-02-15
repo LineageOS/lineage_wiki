@@ -27,8 +27,10 @@ peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLO
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release:
-- Find 7a: 2014-03-19
-- Find 7s: 2014-05-19
+- model: Find 7a
+  date: 2014-03-19
+- model: Find 7s
+  date: 2014-05-19
 screen: 139.7 mm (5.5 in)
 screen_ppi: '401/534'
 screen_res: 1920x1080/1440x2560

@@ -28,8 +28,10 @@ peripherals: [GPS, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release:
-- AO5510: 2014-12-18
-- YU5510: 2015-07-24
+- model: AO5510
+  date: 2014-12-18
+- model: YU5510
+  date: 2015-07-24
 screen: 139.7 mm (5.5 in)
 screen_ppi: 267  / 401  (Plus)
 screen_res: 1280x720 / 1920x1080 (Plus)

@@ -28,8 +28,10 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 release:
-- E5 4G: 2014
-- E5s: 2015
+- model: E5 4G
+  date: 2014
+- model: E5s
+  date: 2015
 screen: 127 mm (5.0 in)
 screen_ppi: ~294
 screen_res: 720x1280

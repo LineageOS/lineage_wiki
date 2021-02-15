@@ -25,8 +25,10 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release:
-- Le Pro3: 2016-10
-- Le Pro3 Elite: 2017-03
+- model: Le Pro3
+  date: 2016-10
+- model: Le Pro3 Elite
+  date: 2017-03
 screen: 139.7 mm (5.5 in)
 screen_ppi: ~403
 screen_res: 1920x1080

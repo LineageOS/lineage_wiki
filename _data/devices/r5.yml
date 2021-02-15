@@ -29,8 +29,10 @@ project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
 ram: 2 GB (R5), 3 GB (R5s)
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release:
-- R8106: 2014-12
-- R8106s: 2015-08
+- model: R8106
+  date: 2014-12
+- model: R8106s
+  date: 2015-08
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
 screen: 132 mm (5.2 in)
 screen_ppi: '~423'
