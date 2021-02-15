@@ -54,6 +54,9 @@ There are no recovery installation instructions for this discontinued device.
     * Optionally, download an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
+    {% if device.vendor == "LG" %}
+        {% include templates/recovery_boot_lge.md %}
+    {% endif %}
 {%- if device.uses_twrp %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.

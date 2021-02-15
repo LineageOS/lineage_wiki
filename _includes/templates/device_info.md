@@ -31,6 +31,9 @@
 
 {% if device.recovery_boot %}
 * **Recovery**: {{ device.recovery_boot }}
+{% if device.vendor == "LG" %}
+    {% include templates/recovery_boot_lge.md %}
+{% endif %}
 {% endif %}
 {% if device.download_boot %}
 * **Bootloader/Fastboot/Download**: {{ device.download_boot }}

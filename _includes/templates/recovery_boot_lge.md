@@ -1,0 +1,1 @@
+{% include alerts/note.html content="Accept the factory reset prompt using the hardware buttons. If you have done everything correctly, this will not actually reset your device but instead will boot the custom recovery." %}
