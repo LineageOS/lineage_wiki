@@ -47,6 +47,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Danny Baumann | maniac103 |
 | Ethan Chen | intervigil |
 | Harry Youd | harryyoud |
+| Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
 | Michael W. | baddaemon |
 | Paul Keith | javelinanddart |
@@ -62,7 +63,6 @@ their feedback is held as backed by project leads and recognized as a distinct g
 |------|----------|
 | Björn Lundén | blunden |
 | Brandon McAnsh | bmc08gt |
-| Jan Altensen | Stricted |
 | Nolen Johnson | npjohnson |
 | Scott Warner | Tortel |
 | Shane Passmore | h8rift |
