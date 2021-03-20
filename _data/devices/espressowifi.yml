@@ -14,7 +14,7 @@ current_branch: 13.0
 depth:
 - Tab 2 7.0: 10.5 mm (0.41 in)
 - Tab 2 10.1: 9.7 mm (0.38 in)
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 height:
 - Tab 2 7.0: 193.7 mm (7.6 in)
@@ -28,7 +28,7 @@ name: Galaxy Tab 2 7.0 / Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012-05
 screen:
 - Tab 2 7.0: 177.8 mm (7 in)
