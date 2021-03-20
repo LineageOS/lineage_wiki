@@ -37,19 +37,19 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
+| Abhisek Devkota | ciwrl |
 | Adrian DC | adriandc |
 | Arne Coucheron | arco |
-| Michael W. | baddaemon |
 | Bruno Martins | bgcngm |
 | Chirayu Desai | cdesai |
-| Abhisek Devkota | ciwrl |
-| Daniel Hillenbrand | codeworkx |
-| Harry Youd | harryyoud |
-| Ethan Chen | intervigil |
-| Paul Keith | javelinanddart |
-| Joey Rizzoli | joeyrizzoli |
-| Danny Baumann | maniac103 |
 | Christopher N. Hesse | raymanfx |
+| Daniel Hillenbrand | codeworkx |
+| Danny Baumann | maniac103 |
+| Ethan Chen | intervigil |
+| Harry Youd | harryyoud |
+| Joey Rizzoli | joeyrizzoli |
+| Michael W. | baddaemon |
+| Paul Keith | javelinanddart |
 | Tom Marshall | tdm |
 {: .table }
 
