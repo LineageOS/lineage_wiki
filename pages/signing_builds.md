@@ -40,7 +40,7 @@ it's finished, you just need to sign all the APKs:
 
 ```
 croot
-./build/tools/releasetools/sign_target_files_apks -o -d ~/.android-certs \
+./out/soong/host/linux-x86/bin/sign_target_files_apks -o -d ~/.android-certs \
     $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
     signed-target_files.zip
 ```
@@ -50,7 +50,7 @@ croot
 Now, to generate the installable zip, run:
 
 ```
-./build/tools/releasetools/ota_from_target_files -k ~/.android-certs/releasekey \
+./out/soong/host/linux-x86/bin/ota_from_target_files -k ~/.android-certs/releasekey \
     --block --backup=true \
     signed-target_files.zip \
     signed-ota_update.zip
