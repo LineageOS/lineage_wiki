@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1e0a954d_bb673578",
+        "filename": "pages/emulator.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-03-25T07:57:23Z",
+      "side": 1,
+      "message": "This should still be a forward slash, right?",
+      "range": {
+        "startLine": 22,
+        "startChar": 188,
+        "endLine": 22,
+        "endChar": 191
+      },
+      "revId": "943d368151bca93622445490cc0e1884a1b09c36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2da4f84e_e216feb9",
+        "filename": "pages/emulator.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-03-25T07:57:23Z",
+      "side": 1,
+      "message": "The TV targets appear to only be present on 18.1. Maybe we should change this to \"Starting with LineageOS 18.1, one can also build ...\"?",
+      "revId": "943d368151bca93622445490cc0e1884a1b09c36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
