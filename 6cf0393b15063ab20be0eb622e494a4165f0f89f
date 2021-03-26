@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ada73b44_8354eb30",
+        "filename": "_data/devices/sunfish.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-03-26T20:54:40Z",
+      "side": 1,
+      "message": "nit",
+      "range": {
+        "startLine": 43,
+        "startChar": 56,
+        "endLine": 43,
+        "endChar": 57
+      },
+      "revId": "6cf0393b15063ab20be0eb622e494a4165f0f89f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
