@@ -18,7 +18,7 @@ install_method: fastboot_unlocked
 kernel: android_kernel_fairphone_msm8974
 maintainers: [chrmhoffmann]
 models: [FP2]
-name: FP2
+name: 2
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Compass, Accelerometer, Gyroscope, Light sensor, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
 ram: 2 GB
