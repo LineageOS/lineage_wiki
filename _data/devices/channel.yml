@@ -18,7 +18,7 @@ image: channel.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sdm632
-maintainers: [SyberHexen, deadman96385, erfanoabdi, Npjohnson]
+maintainers: [SyberHexen, deadman96385, erfanoabdi, npjohnson]
 models: [XT1952-2, XT1952-3]
 name: 'Moto G7 Play'
 network: [2G GSM, 3G UMTS, 4G LTE]
