@@ -16,6 +16,24 @@
       "revId": "8765de8a60fd89ea961ffca9a3293a7cc8f3a0bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ceec00b6_f4dd782a",
+        "filename": "_data/devices/flo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-01T22:07:37Z",
+      "side": 1,
+      "message": "fixed. thanks",
+      "parentUuid": "30a0ae2e_e6c72a98",
+      "revId": "8765de8a60fd89ea961ffca9a3293a7cc8f3a0bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
