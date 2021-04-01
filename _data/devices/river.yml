@@ -19,7 +19,7 @@ image: river.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sdm632
-maintainers: [erfanoabdi, Npjohnson, SyberHexen]
+maintainers: [erfanoabdi, npjohnson, SyberHexen]
 models: [XT1962-01, XT1962-04, XT1962-05, XT1962-06]
 name: 'Moto G7'
 network: [2G GSM, 3G UMTS, 4G LTE]
