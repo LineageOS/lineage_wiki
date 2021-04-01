@@ -41,9 +41,13 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. {{ devOptions }}
 {%- if device.format_on_upgrade %}
-4. Reboot into recovery (look at the [installation instructions]({{ "devices/" | append: device.codename | append: "/build"}}) if you don't remember, how)
+4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
+    * {{ device.recovery_boot }}
 5. Wipe your data partition (this is usually named "Wipe", or "Format")
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
+{% if device.uses_twrp != true %}
+6. Click `Advanced`, then `Enable ADB`.
+{%- endif %}
 {%- endif %}
 4. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
