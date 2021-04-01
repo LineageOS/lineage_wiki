@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "30a0ae2e_e6c72a98",
+        "filename": "_data/devices/flo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1053
+      },
+      "writtenOn": "2021-04-01T21:49:34Z",
+      "side": 1,
+      "message": "Typo: in-place",
+      "revId": "8765de8a60fd89ea961ffca9a3293a7cc8f3a0bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
