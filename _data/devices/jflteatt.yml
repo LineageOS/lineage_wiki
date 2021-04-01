@@ -12,7 +12,6 @@ cpu_freq: 1.9GHz
 current_branch: 18.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: true
 gpu: Adreno 320
 height: 136.6 mm (5.4 in)
 image: jflte.png
