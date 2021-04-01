@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: LineageOS contributors
 permalink: contributors.html
-versions: [17.1, 16.0]
+versions: [18.1, 17.1]
 ---
 
 {% assign devices = "" | split: " " %}
