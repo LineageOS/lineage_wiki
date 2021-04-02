@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf292394_c94b92da",
+        "filename": "_data/devices/flo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 21651
+      },
+      "writtenOn": "2021-04-02T10:56:18Z",
+      "side": 1,
+      "message": "Rebrand?",
+      "range": {
+        "startLine": 24,
+        "startChar": 239,
+        "endLine": 24,
+        "endChar": 245
+      },
+      "revId": "1668de9053dac6d93280f0b5d54425f154f8dba8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
