@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "76accc48_12f1c5e0",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-04-02T14:10:52Z",
+      "side": 1,
+      "message": "the reason I kept this linked to installation instructions was, that device.recovery_boot isn\u0027t sufficient for A/B according to the removed code:\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/245606/16/_includes/templates/device_upgrade.md#26",
+      "range": {
+        "startLine": 44,
+        "startChar": 3,
+        "endLine": 45,
+        "endChar": 32
+      },
+      "revId": "96fab990ca25a77301d34115a948a0b55cbecc88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
