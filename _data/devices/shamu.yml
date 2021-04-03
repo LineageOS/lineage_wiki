@@ -11,6 +11,7 @@ cpu_freq: 2.7 GHz
 current_branch: 18.1
 depth: 10.1 mm (0.40 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
+format_on_upgrade: true
 gpu: Adreno 420
 height: 159.3 mm (6.27 in)
 image: shamu.png
