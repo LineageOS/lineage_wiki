@@ -22,6 +22,30 @@
       "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c2c3fc26_f400a416",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-04T13:14:13Z",
+      "side": 1,
+      "message": "Will fix. However, those two sentences can probably be improved by a lot in general (too many \"after\", \"boot\" and \"up\" imo, as well as the similiar structure).",
+      "parentUuid": "2bbe621c_dbc77383",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 142
+      },
+      "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
