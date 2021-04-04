@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "90401a14_fa99f063",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-04-04T12:16:04Z",
+      "side": 1,
+      "message": "I don\u0027t think download portal really is the go-to regarding design choices :/",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 0
+      },
+      "revId": "e8f73a973e74032b371dc8c1e14806b109f09976",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
