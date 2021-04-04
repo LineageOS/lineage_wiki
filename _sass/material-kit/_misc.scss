@@ -27,8 +27,8 @@ a{
   color: $link-color;
   &:hover,
   &:focus{
-      color: darken($link-color, 5%);
-      text-decoration: none;
+      color: $link-hover-color;
+      text-decoration: $link-hover-decoration;
   }
 
   &.text-info{
