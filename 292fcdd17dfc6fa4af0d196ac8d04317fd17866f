@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "2bbe621c_dbc77383",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-04-04T12:11:57Z",
+      "side": 1,
+      "message": "I think all these commas are wrong, none of them needed. Remove them when touchig the sentence anyway",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 142
+      },
+      "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
