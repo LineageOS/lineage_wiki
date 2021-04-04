@@ -14,11 +14,11 @@ The Google apps packages are **not supported** in any way by LineageOS.
 
 ## Downloads
 
-These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview](devices.html)).
+These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview]({{ "devices/" | relative_url }})).
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Lineage 18.1 (Android 11)|[MindTheGapps](https://www.androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=nano)|
 |Lineage 16.0 (Android 9.0)  |[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=9.0&variant=nano)|
 |Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=8.1&variant=nano)|
@@ -30,6 +30,6 @@ These packages are only dependent on your OS version and architecture, which can
 
 ## Installation
 
-Google apps should be installed via recovery **immediately** after installing LineageOS. Exact steps vary, and as such, you should see your device's installation guide [here](https://wiki.lineageos.org/devices/) for specific instructions.
+Google apps should be installed via recovery **immediately** after installing LineageOS. Exact steps vary, and as such, you should see your device's installation guide [here]({{ "devices/" | relative_url }}) for specific instructions.
 
 {% include alerts/important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, otherwise expect crashes." %}
