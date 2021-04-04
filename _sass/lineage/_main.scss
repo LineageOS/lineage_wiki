@@ -197,9 +197,32 @@ pre {
   padding: 16px 4px 16px 24px;
 }
 
-tr.discontinued,
-tr.discontinued a {
+tr.discontinued {
   opacity: 0.8;
+}
+
+tr.discontinued a {
+  color: $lineage-light;
+}
+
+.table a {
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: $lineage-primary;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.discontinued .dot {
+  background-color: transparent;
+  border: 2px solid #BFC8C9;
 }
 
 // Make sure toc-targets are actually displayed, not hidden by the navbar

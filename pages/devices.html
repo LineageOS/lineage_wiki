@@ -80,7 +80,7 @@ Select a vendor to jump to:<br/>
 {%- assign class="" %}
 {%- endif %}
   <tr class="{{ class }}">
-    <th scope="row" onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ deviceName }}</a></th>
+    <th scope="row" onClick="location.href='{{ url }}'"><span class="dot"></span><a href="{{ url }}">{{ deviceName }}</a></th>
     <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
     <td>{{ device.type | capitalize }}</td>
   </tr>

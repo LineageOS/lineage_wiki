@@ -25,10 +25,11 @@ legend {
 
 a{
   color: $link-color;
+  font-weight: 400;
   &:hover,
   &:focus{
-      color: darken($link-color, 5%);
-      text-decoration: none;
+      color: $link-hover-color;
+      text-decoration: $link-hover-decoration;
   }
 
   &.text-info{

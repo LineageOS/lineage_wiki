@@ -79,6 +79,8 @@ $lineage-warning: #F4AC45 !default;
 $lineage-danger:  #D0422D !default;
 $lineage-success: #38853B !default;
 $lineage-info:    #00B1E5 !default;
+$lineage-light:   #47A3A3 !default;
+$lineage-dark:    #18636B !default;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -158,7 +160,7 @@ $body-color:                $gray-900 !default;
 
 $link-color:                theme-color("primary") !default;
 $link-decoration:           none !default;
-$link-hover-color:          darken($link-color, 15%) !default;
+$link-hover-color:          $lineage-dark !default;
 $link-hover-decoration:     underline !default;
 
 // Paragraphs
