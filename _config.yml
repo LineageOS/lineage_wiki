@@ -25,6 +25,7 @@ exclude:
   - licenses/
   - scripts/
   - test/
+  - vendor/
 
 # these are the files and directories that jekyll will exclude from the build
 
@@ -69,5 +70,3 @@ url: https://wiki.lineageos.org
 
 plugins:
   - jekyll-redirect-from
-
-exclude: ['vendor']
