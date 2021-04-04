@@ -30,7 +30,7 @@ And put the `lineage-sdk.jar` file in your app's module `libs` folder (usually `
 
 ### Compiling the library from source
 
-In order to compile this library from source, you need to [set up a LineageOS build environment](https://wiki.lineageos.org/devices/angler/build).
+In order to compile this library from source, you need to [set up a LineageOS build environment]({{ "devices/angler/build" | relative_url }}).
 
 Once your build environment is ready, run the following commands to generate the .jar  library:
 
