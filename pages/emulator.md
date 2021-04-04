@@ -62,7 +62,7 @@ Assuming the build completed without errors, type the following in the terminal 
 emulator
 ```
 
-After a few seconds, the emulator will fire up, and you'll see the LineageOS boot-logo. After some time, it will boot up, and is ready to run,
+The emulator will now start and you'll see the LineageOS boot animation. After some time, it will finish booting up and is ready to be used.
 
 
 ### Success! So... what's next?
