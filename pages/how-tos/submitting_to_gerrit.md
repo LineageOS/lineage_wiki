@@ -11,7 +11,7 @@ tags:
 
 ## Initial setup
 
-If you haven't yet successfully downloaded the source and generated a build of LineageOS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "/devices" | relative_url }}).
+If you haven't yet successfully downloaded the source and generated a build of LineageOS, make sure you are familiar with those steps. Information on doing a build is available in the build guide for [your device]({{ "devices/" | relative_url }}).
 
 Setup an account on [Gerrit](https://review.lineageos.org), sign the [Contributor Agreement](https://review.lineageos.org/#/settings/agreements) and configure your Gerrit username in the Gerrit portal under **Settings -> HTTP Password**.
 
@@ -216,9 +216,9 @@ All submitted patches go through a code review process prior to being merged. In
 To make sure they get informed:
 
 1) Add reviewers:
-  - For device/kernel repos, add the [maintainer of your device](contributors.html#device-maintainers")
-  - For changes to various special projects (like this wiki), see the maintainers listed [here](contributors.html#other-projects). Note that the wiki editors can be added directly by typing "Wiki Editors" into the reviewer field
-  - For all other repos, add the [Trusted Reviewers](contributors.html#trusted-reviewers) or [Committers](contributors.html#committers)
+  - For device/kernel repos, add the [maintainer of your device]({{ "contributors.html#device-maintainers" | relative_url }})
+  - For changes to various special projects (like this wiki), see the maintainers listed [here]({{ "contributors.html#other-projects" | relative_url }}). Note that the wiki editors can be added directly by typing "Wiki Editors" into the reviewer field
+  - For all other repos, add the [Trusted Reviewers]({{ "contributors.html#trusted-reviewers" | relative_url }}) or [Committers]({{ "contributors.html#committers" | relative_url }})
 
 2) Set the [proper labels]({{ "how-to/using-gerrit#reviewing-a-patch" | relative_url }}) to indicate your patch is ready
 
