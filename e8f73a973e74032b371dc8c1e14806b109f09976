@@ -22,6 +22,30 @@
       "revId": "e8f73a973e74032b371dc8c1e14806b109f09976",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c9a3a69_2f85d9f2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-04T12:19:35Z",
+      "side": 1,
+      "message": "I assumed it to still be a better design choice than the random mix of colors I tested with. Of course, I\u0027m open for other suggestions (preferably ones that are generated using SCSS and not an arbitrary hex value).",
+      "parentUuid": "90401a14_fa99f063",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 0
+      },
+      "revId": "e8f73a973e74032b371dc8c1e14806b109f09976",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
