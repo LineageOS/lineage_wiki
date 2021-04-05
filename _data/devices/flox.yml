@@ -12,6 +12,7 @@ cpu_freq: 1.5 GHz
 current_branch: 18.1
 depth: 10.5 mm (0.41 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+format_on_upgrade: true
 gpu: Adreno 320
 height: 198.5 mm (7.8 in)
 image: flo.png
