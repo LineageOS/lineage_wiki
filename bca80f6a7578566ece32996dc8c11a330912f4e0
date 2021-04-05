@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "193ea97f_3bb08dcb",
+        "filename": "pages/sdk/add_to_your_app.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-05T16:16:37Z",
+      "side": 1,
+      "message": "The SDK isn\u0027t really device specific, is it? In that case, would it make sense to point to the generic build instructions and targets instead?",
+      "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}

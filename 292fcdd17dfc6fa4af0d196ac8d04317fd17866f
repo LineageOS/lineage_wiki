@@ -70,6 +70,30 @@
       "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9eb44e81_6f1daca0",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-05T16:16:37Z",
+      "side": 1,
+      "message": "That suggestion sounds good, so I included it with a few minor changes.\n\nI changed \"be ready to use\" with \"is ready to be used\" because I thought it feels more natural. Is that grammatically sound?",
+      "parentUuid": "b1efd686_60d2c788",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 142
+      },
+      "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
