@@ -10,6 +10,7 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 330
 image: victara.png
 install_method: fastboot_motorola
