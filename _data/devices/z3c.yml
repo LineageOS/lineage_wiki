@@ -9,7 +9,7 @@ codename: z3c
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.6 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 330
@@ -37,6 +37,6 @@ tree: android_device_sony_z3c
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 64.9 mm (2.56 in)
 wifi: 802.11 a/b/g/n/ac, WiFi Direct, Hotspot
