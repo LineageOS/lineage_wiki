@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "47ee4c9b_4c0b9287",
+        "filename": "pages/gapps.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-07T03:59:42Z",
+      "side": 1,
+      "message": "AFH hasn\u0027t used www in years, so that can be removed to prevent a redirect and to match the other afh links below.",
+      "range": {
+        "startLine": 21,
+        "startChar": 50,
+        "endLine": 21,
+        "endChar": 53
+      },
+      "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "ad4f1008_b1d10df8",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 5
