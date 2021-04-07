@@ -94,6 +94,30 @@
       "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5185219f_dbede175",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-07T03:08:15Z",
+      "side": 1,
+      "message": "That mixes future and present tense, so doesn\u0027t sound right.",
+      "parentUuid": "9eb44e81_6f1daca0",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 142
+      },
+      "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }

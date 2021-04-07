@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "ad4f1008_b1d10df8",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-07T03:08:15Z",
+      "side": 1,
+      "message": "some of these links still don\u0027t work.\ni believe the proper format is this:\n{{ \"contributors.html#device-maintainers\" | relative_url }}\njust tested and that works",
+      "range": {
+        "startLine": 219,
+        "startChar": 66,
+        "endLine": 219,
+        "endChar": 102
+      },
+      "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "193ea97f_3bb08dcb",
         "filename": "pages/sdk/add_to_your_app.md",
         "patchSetId": 5
