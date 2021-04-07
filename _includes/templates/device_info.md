@@ -16,6 +16,9 @@
 
 - [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
 - [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+{%- if device.firmware_update %}
+- [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
+{%- endif %}
 - [Update to a newer build of the same LineageOS version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
