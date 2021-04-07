@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "850620cf_aed76c05",
+        "filename": "pages/gapps.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-07T23:46:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47ee4c9b_4c0b9287",
+      "range": {
+        "startLine": 21,
+        "startChar": 50,
+        "endLine": 21,
+        "endChar": 53
+      },
+      "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ad4f1008_b1d10df8",
         "filename": "pages/how-tos/submitting_to_gerrit.md",
         "patchSetId": 5
@@ -45,6 +69,30 @@
       "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "164120fb_07d8033f",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-07T23:46:18Z",
+      "side": 1,
+      "message": "I didn\u0027t realize that this might be an issue when not deploying at the root URL. Should be fixed now for all links that have been changed in this patch.",
+      "parentUuid": "ad4f1008_b1d10df8",
+      "range": {
+        "startLine": 219,
+        "startChar": 66,
+        "endLine": 219,
+        "endChar": 102
+      },
+      "revId": "bca80f6a7578566ece32996dc8c11a330912f4e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     },
     {
       "key": {

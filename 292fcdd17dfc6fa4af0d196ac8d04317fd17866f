@@ -118,6 +118,30 @@
       "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ee193e7c_578656b9",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-07T23:46:18Z",
+      "side": 1,
+      "message": "I see. Restoring the original suggestion then.",
+      "parentUuid": "5185219f_dbede175",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 142
+      },
+      "revId": "292fcdd17dfc6fa4af0d196ac8d04317fd17866f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
