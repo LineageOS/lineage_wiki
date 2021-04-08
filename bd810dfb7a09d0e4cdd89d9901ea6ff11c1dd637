@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a57cd4ad_fbad5aad",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-08T02:42:14Z",
+      "side": 1,
+      "message": "This one is missing / on end. Causes redirect on official site and is broken on preview site. Just thought i\u0027d mention since you\u0027re fixing links on this page.",
+      "range": {
+        "startLine": 14,
+        "startChar": 217,
+        "endLine": 14,
+        "endChar": 227
+      },
+      "revId": "bd810dfb7a09d0e4cdd89d9901ea6ff11c1dd637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
