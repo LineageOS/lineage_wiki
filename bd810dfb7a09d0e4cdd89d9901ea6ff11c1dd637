@@ -22,6 +22,47 @@
       "revId": "bd810dfb7a09d0e4cdd89d9901ea6ff11c1dd637",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "d2653616_0bea78e7",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-08T13:24:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a57cd4ad_fbad5aad",
+      "range": {
+        "startLine": 14,
+        "startChar": 217,
+        "endLine": 14,
+        "endChar": 227
+      },
+      "revId": "bd810dfb7a09d0e4cdd89d9901ea6ff11c1dd637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "949fe0fc_0525f670",
+        "filename": "pages/internal/working_with_blobs.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2021-04-08T13:24:14Z",
+      "side": 1,
+      "message": "Done",
+      "revId": "bd810dfb7a09d0e4cdd89d9901ea6ff11c1dd637",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
