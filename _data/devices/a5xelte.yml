@@ -8,7 +8,7 @@ codename: a5xelte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.6 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
@@ -38,6 +38,6 @@ type: phone
 uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 71 mm (2.80 in)
 wifi: 802.11 b/g/n

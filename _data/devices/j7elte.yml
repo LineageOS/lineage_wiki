@@ -8,7 +8,7 @@ codename: j7elte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.5 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
@@ -35,6 +35,6 @@ tree: android_device_samsung_j7elte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 78.7 mm (3.10 in)
 wifi: 802.11 b/g/n
