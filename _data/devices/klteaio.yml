@@ -1,0 +1,42 @@
+architecture: arm
+battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: '', info: '2 MP'}
+codename: klteaio
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 18.1
+depth: 8.1 mm (0.32 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 330
+height: 142 mm (5.59 in)
+image: klte.png
+install_method: heimdall
+kernel: android_kernel_samsung_msm8974
+maintainers: [haggertk]
+models: [SM-G900AZ, SM-S902L]
+name: Galaxy S5 LTE (G900AZ/S902L)
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
+  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+release: 2014-04-11
+screen: 130 mm (5.1 in)
+screen_ppi: '432'
+screen_res: 1920x1080
+screen_tech: Full HD Super AMOLED
+sdcard: up to 128 GB
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16 GB, 32 GB
+tree: android_device_samsung_klteaio
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [18.1]
+width: 72.5 mm (2.85 in)
+wifi: 802.11 a/b/g/n/ac
