@@ -8,9 +8,10 @@ codename: hltechn
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
 gpu: Adreno 330
 height: 151.2 mm (5.95 in)
 image: hlte.png
@@ -36,6 +37,6 @@ tree: android_device_samsung_hltechn
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 16.0, 17.1]
+versions: [14.1, 16.0, 17.1, 18.1]
 width: 79.2 mm (3.12 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Wi-Fi Direct, Hotspot
