@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "934271f0_3d1f1365",
+        "filename": "_includes/templates/device_specific/firmware_update_oneplus_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-10T06:11:15Z",
+      "side": 1,
+      "message": "I think this verbiage might stump users.  retail vs branded.  Maybe it would be clearer using \u0027carrier branded\u0027?",
+      "range": {
+        "startLine": 1,
+        "startChar": 73,
+        "endLine": 1,
+        "endChar": 127
+      },
+      "revId": "cd377b3995488e65a461dee0f402cdf9abd5d335",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
