@@ -22,6 +22,30 @@
       "revId": "d7c8f178cadbca1648f13339e8fb01319d137bce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "59cc29e2_7ff76881",
+        "filename": "_includes/templates/device_specific/firmware_update_oneplus_fastbootd.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-10T12:27:12Z",
+      "side": 1,
+      "message": "warnings are first since they\u0027re most important",
+      "parentUuid": "3d7294bf_c8de03b7",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 125
+      },
+      "revId": "d7c8f178cadbca1648f13339e8fb01319d137bce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
