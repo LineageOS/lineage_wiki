@@ -22,6 +22,30 @@
       "revId": "626710aa5ce94bfb43cc98b743b2fd1d77ca031f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e7a481c3_556e54b0",
+        "filename": "_data/devices/d850.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 19837
+      },
+      "writtenOn": "2021-04-14T16:10:56Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82b0d226_fc5dab30",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 23
+      },
+      "revId": "626710aa5ce94bfb43cc98b743b2fd1d77ca031f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
