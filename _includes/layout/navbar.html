@@ -30,13 +30,11 @@
         </ul>
 
         <form class="form-inline ml-auto" autocomplete="off">
-          <div class="form-group no-border">
+          <div id="search-container" class="form-group no-border">
             <i class="material-icons">search</i>
             <input id="search-input" type="text" class="form-control" placeholder="Search">
+            <ul id="results-container"></ul>
           </div>
-
-          <ul id="results-container"></ul>
-
 
           <script src="{{ site.baseurl }}/assets/js/jekyll-search.js" type="text/javascript"></script>
           <script type="text/javascript">
