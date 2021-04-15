@@ -5,6 +5,17 @@ layout: default
 
   <h1>{{ page.title }}</h1>
 
+  {%- if page.device != None %}
+  {%- capture link %}{{ "devices/" | append: site.data.devices[page.device].codename | relative_url }}{% endcapture %}
+  {%- elsif page.tags contains "how-to" %}
+  {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
+  {%- endif %}
+
+  {%- if link != None %}
+  <a href={{ link }}>
+  <span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
+  {%- endif %}
+
   {% unless page.toc == false -%}
   {% include toc.html -%}
   {%- endunless -%}

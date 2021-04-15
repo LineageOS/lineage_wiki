@@ -17,7 +17,7 @@ height: 143.5 mm (5.65 in)
 image: f1f.png
 install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
-maintainers: [highwaystar]
+maintainers: []
 models: [F1f]
 name: F1 (International)
 network: [2G GSM, 3G UMTS, 4G LTE]

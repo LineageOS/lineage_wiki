@@ -9,7 +9,7 @@ codename: jfltespr
 cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
@@ -18,7 +18,7 @@ height: 136.6 mm (5.4 in)
 image: jflte.png
 install_method: heimdall
 kernel: android_kernel_samsung_jf
-maintainers: []
+maintainers: [arco, npjohnson, side]
 models: [SCH-R970/C/X, SPH-L720]
 name: Galaxy S4 (SCH-R970, SPH-L720)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -26,7 +26,7 @@ no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
   Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Let go of <kbd>Power</kbd> immediately when the phone vibrates, but keep holding the two other keys.
 release: 2013-04
 screen: 127 mm (5 in)
 screen_ppi: 440
@@ -39,6 +39,6 @@ tree: android_device_samsung_jfltespr
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 69.8 mm (2.7 in)
 wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display

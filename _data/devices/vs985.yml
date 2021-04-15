@@ -9,23 +9,23 @@ codename: vs985
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
-current_branch: 17.1
-custom_recovery_link: https://forum.xda-developers.com/lg-g3/development/recovery-teamwin-recovery-project-lg-g3-t3813552
+current_branch: 18.1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+format_on_upgrade: true
 gpu: Adreno 330
 height: 146.3 mm (5.76 in)
 image: g3.png
 install_method: dd
 kernel: android_kernel_lge_g3
-maintainers: [HardStyl3r, firebird11]
+maintainers: [HardStyl3r]
 name: G3 (Verizon)
 network: [2G GSM, 2G CDMA, 3G CDMA2000, 4G LTE]
 peripherals: [Accelerometer, Compass, Gyroscope, Infrared sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and then hold them again.
-  Then answer YES to erase all user data & restore default settings (If you have TWRP installed it will not delete anything).
+  Then answer YES to erase all user data & restore default settings (If you have LineageOS Recovery installed it will not delete anything).
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-06
 required_bootloader: ['VS98510B', 'VS98512B']
@@ -39,9 +39,8 @@ soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_lge_vs985
 type: phone
-uses_twrp: true
 vendor: LG
 vendor_short: lge
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 74.6 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

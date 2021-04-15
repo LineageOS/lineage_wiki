@@ -1,1 +1,0 @@
-{% include alerts/warning.html content="Before following these instructions please ensure that the device is on the latest firmware available Pie (9.0) build for your variant. If you follow these instructions on any other firmware (eg. Nougat 7.x/10), or a firmware not intended for your variant, you are very likely to damage the device." %}

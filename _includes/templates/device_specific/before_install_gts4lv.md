@@ -7,7 +7,7 @@
 2. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-3. Download [this](https://dl.twrp.me/gts4lvwifi/vbmeta.tar.html) VBMeta image `.tar` file.
+3. Download [this](https://dl.twrp.me/{{ device.codename }}/vbmeta.tar.html) VBMeta image `.tar` file.
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscren instructions coorelate to "Continue" and/or "Unlock Bootloader", and insert the USB cable into the device.
@@ -25,7 +25,7 @@
 11. A blue transfer bar will appear on the device showing the recovery image being flashed.
 12. Your device will reboot, you may now unplug the USB cable from your device.
 13. The device will demand you format userdata, please follow the onscreen instructions to do so.
-{% unless device.no_oem_unlock_switch %}
+{%- unless device.no_oem_unlock_switch %}
 14. Run through Android Setup skipping everything you can, then connect the device to a Wi-Fi network.
 15. Re-enable Development settings by clicking the "Build Number" option 10 times, in the "Settings" app within the "About" menu, and verify that "OEM Unlock" is still enabled in the "Developer options" menu.
-{% endunless %}
+{%- endunless %}

@@ -33,7 +33,7 @@ sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_che10
-type: phablet
+type: phone
 uses_twrp: true
 vendor: Huawei
 vendor_short: huawei

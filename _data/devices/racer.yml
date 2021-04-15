@@ -1,0 +1,45 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500 , tech: 'Li-Po'}
+before_lineage_install: before_lineage_install_ab_copy_partitions
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '64 MP (wide) + Depth Sensor (TOF 3D)'}
+- {flash: '', info: '8 MP (telephoto)'}
+- {flash: '', info: '16 MP (ultrawide)'}
+- {flash: '', info: '25 MP (wide)'}
+codename: racer
+cpu: Kryo 475
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 17.1
+depth: 9.2 mm (0.36 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 620
+has_recovery_partition: true
+height: 161.6 mm (6.36 in)
+image: racer.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm7250
+maintainers: [erfanoabdi, Jleeblanch, SyberHexen]
+models: [XT2063-2, XT2063-3]
+name: Edge
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
+peripherals: [Accelerometer, Compass, Depth Sensor, Fingerprint reader, FM radio, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Sensor hub]
+ram: 6 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2020-05
+screen: 170.18 mm (6.7 in)
+screen_ppi: '385'
+screen_res: 1080x2340
+screen_tech: Super AMOLED
+sdcard: Up to 1 TB
+soc: Qualcomm SM7250 Snapdragon 765G
+storage: 128/256 GB UFS 2.1
+tree: android_device_motorola_racer
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [17.1]
+width: 71.1 mm (2.79 in)
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

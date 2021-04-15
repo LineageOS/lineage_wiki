@@ -59,6 +59,7 @@ definitions:
     - 15.1
     - 16.0
     - 17.1
+    - 18.1
     type: number
   valid_dimension:
     oneOf:
@@ -198,6 +199,7 @@ properties:
         - '4.1'
         - '4.2'
         - '5'
+        - '5.1'
         type: string
     required:
     - spec
@@ -240,8 +242,11 @@ properties:
     - Kryo 385
     - Kryo 460
     - Kryo 470
+    - Kryo 475
     - Kryo 485
     - Kryo 495
+    - Kryo 560
+    - Kryo 585
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -283,6 +288,7 @@ properties:
     - ARM Mali-400 MP4
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
+    - ARM Mali-G72 MP3
     - ARM Mali-T604
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2
@@ -295,6 +301,7 @@ properties:
     - Adreno 302
     - Adreno 305
     - Adreno 306
+    - Adreno 308
     - Adreno 320
     - Adreno 330
     - Adreno 405
@@ -302,6 +309,7 @@ properties:
     - Adreno 418
     - Adreno 420
     - Adreno 430
+    - Adreno 504
     - Adreno 505
     - Adreno 506
     - Adreno 508
@@ -319,7 +327,10 @@ properties:
     - Adreno 620
     - Adreno 630
     - Adreno 640
+    - Adreno 650
+    - Adreno 675
     - Adreno 680
+    - Adreno 685
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
@@ -345,6 +356,7 @@ properties:
     - dd
     - edl_custom
     - fastboot_custom
+    - fastboot_fairphone
     - fastboot_generic
     - fastboot_htc
     - fastboot_huawei
@@ -352,6 +364,7 @@ properties:
     - fastboot_lg
     - fastboot_motorola
     - fastboot_nexus
+    - fastboot_nokia
     - fastboot_oppo
     - fastboot_sony
     - fastboot_realme
@@ -437,7 +450,6 @@ properties:
     enum:
     - Handheld game console
     - Set top box
-    - phablet
     - phone
     - phone (slider)
     - tablet
@@ -461,6 +473,7 @@ properties:
     - Lenovo
     - Motorola
     - Nextbit
+    - Nokia
     - Nubia
     - Nvidia
     - OPPO
@@ -494,6 +507,7 @@ properties:
     - moto
     - motorola
     - nextbit
+    - nokia
     - nubia
     - nvidia
     - oneplus

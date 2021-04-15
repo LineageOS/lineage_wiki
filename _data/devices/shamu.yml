@@ -8,9 +8,10 @@ codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 10.1 mm (0.40 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
+format_on_upgrade: true
 gpu: Adreno 420
 height: 159.3 mm (6.27 in)
 image: shamu.png
@@ -21,7 +22,7 @@ name: Nexus 6
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 note_show: true
 note_title: ANT+ and IMS support
-note_content: LineageOS 17.1 builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
+note_content: LineageOS 16.0 and above for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, NFC, Qi wireless charging, Dual front speakers]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
@@ -34,9 +35,9 @@ sdcard:
 soc: Qualcomm APQ8084 Snapdragon 805
 storage: 32/64 GB
 tree: android_device_moto_shamu
-type: phablet
+type: phone
 vendor: Google
 vendor_short: moto
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 83 mm (3.27 in)
 wifi: 802.11 a/b/g/n/ac 2x2 (MIMO), Hotspot

@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: LineageOS contributors
 permalink: contributors.html
-versions: [17.1, 16.0]
+versions: [18.1, 17.1]
 ---
 
 {% assign devices = "" | split: " " %}
@@ -20,7 +20,7 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
-| Kevin F. Haggerty | haggertk |
+| Kevin Haggerty | haggertk |
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
@@ -31,54 +31,41 @@ the project and are committed to improving it.
 | razorloves | razorloves |
 {: .table }
 
-### Trusted reviewers
-
-Trusted reviewers are known to provide consistent constructive feedback in line with project rules and guidelines. As a result, 
-their feedback is held as backed by project leads and recognized as a distinct group from general public reviewers.
-
-| Name | Nickname |
-|------|----------|
-| Björn Lundén | blunden |
-| Brandon McAnsh | bmc08gt |
-| Michael W. | BadDaemon |
-| Nolen Johnson | npjohnson |
-| Scott Warner | Tortel |
-| Shane Passmore | h8rift |
-{: .table }
-
 ### Committers
 
 Committers are responsible for testing commits and merging them in high flowrate situations. These developers have merge rights across the board.
 
 | Name | Nickname |
 |------|----------|
+| Abhisek Devkota | ciwrl |
 | Adrian DC | adriandc |
 | Arne Coucheron | arco |
-| Michael W. | baddaemon |
 | Bruno Martins | bgcngm |
 | Chirayu Desai | cdesai |
-| Abhisek Devkota | ciwrl |
-| Daniel Hillenbrand | codeworkx |
-| Harry Youd | harryyoud |
-| Ethan Chen | intervigil |
-| Paul Keith | javelinanddart |
-| Joey Rizzoli | joeyrizzoli |
-| Danny Baumann | maniac103 |
 | Christopher N. Hesse | raymanfx |
+| Daniel Hillenbrand | codeworkx |
+| Danny Baumann | maniac103 |
+| Ethan Chen | intervigil |
+| Harry Youd | harryyoud |
+| Jan Altensen | Stricted |
+| Joey Rizzoli | joeyrizzoli |
+| Michael W. | baddaemon |
+| Paul Keith | javelinanddart |
 | Tom Marshall | tdm |
 {: .table }
 
-### Developer relations managers
+### Trusted reviewers
 
-Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
-Although everyone has a responsibility to help new people join the community, and to protect the project’s health, these people maintain the contribution
-pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
+Trusted reviewers are known to provide consistent constructive feedback in line with project rules and guidelines. As a result,
+their feedback is held as backed by project leads and recognized as a distinct group from general public reviewers.
 
 | Name | Nickname |
 |------|----------|
-| Kevin Haggerty | haggertk |
+| Björn Lundén | blunden |
+| Brandon McAnsh | bmc08gt |
 | Nolen Johnson | npjohnson |
-| Tom Powell | zifnab |
+| Scott Warner | Tortel |
+| Shane Passmore | h8rift |
 {: .table }
 
 ### Device maintainers
@@ -103,6 +90,19 @@ pathways that connect to potential contributors to teams that have contribution 
 </table>
 {%- endfor %}
 
+### Developer relations managers
+
+Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
+Although everyone has a responsibility to help new people join the community, and to protect the project's health, these people maintain the contribution
+pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
+
+| Name | Nickname |
+|------|----------|
+| Kevin Haggerty | haggertk |
+| Nolen Johnson | npjohnson |
+| Tom Powell | zifnab |
+{: .table }
+
 ### Infrastructure managers
 
 Infrastructure Manages are responsible for running the day-to-day infrastructure and managing interal signing processes.
@@ -116,7 +116,7 @@ Infrastructure Manages are responsible for running the day-to-day infrastructure
 
 ## Translations
 
-We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here](translate-howto.html)
+We use [crowdin](https://crowdin.com/profile/LineageOS) as our translation system. To see how that works and how to contribute, click [here]({{ "how-to/translate" | relative_url }})
 
 ### Translations managers
 

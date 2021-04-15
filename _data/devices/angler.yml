@@ -32,7 +32,7 @@ sdcard:
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB
 tree: android_device_huawei_angler
-type: phablet
+type: phone
 uses_twrp: true
 vendor: Google
 vendor_short: huawei

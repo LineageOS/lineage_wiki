@@ -13,5 +13,7 @@ adb push laf.bin /sdcard/laf.bin
 su
 dd if=/sdcard/aboot.bin of=/dev/block/platform/msm_sdcc.1/by-name/aboot
 dd if=/sdcard/laf.bin of=/dev/block/platform/msm_sdcc.1/by-name/laf
+exit
+exit
 ```
 {% include alerts/important.html content="Do NOT shut down or reboot your device now, because you will not be able to boot again until you finish these instructions!" %}

@@ -17,7 +17,7 @@ image: figo.png
 install_method: fastboot_huawei
 is_unlockable: false
 kernel: android_kernel_huawei_hi6250
-maintainers: [haky86, DarkJoker360]
+maintainers: []
 models: [FIG-LX1, FIG-LA1, FIG-LX2, FIG-LX3, FIG-TL10, FIG-AL10]
 name: P Smart
 network: [2G GSM, 3G UMTS, 4G LTE]

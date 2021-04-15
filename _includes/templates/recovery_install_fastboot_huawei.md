@@ -2,6 +2,6 @@
 
 ## Unlocking the bootloader
 
-{% include alerts/warning_bootloader_not_unlockable.html %}
+{% include alerts/specific/important_bootloader_not_unlockable.html %}
 
 {% include templates/recovery_install_fastboot_generic.md %}

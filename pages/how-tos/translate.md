@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to translate
 folder: how-tos
-permalink: translate-howto.html
+redirect_from: translate-howto.html
+permalink: /how-to/translate
 tags:
  - how-to
 ---
@@ -27,9 +28,10 @@ You seem to speak a language which nobody else does... or there has just been th
 ## I have translated a lot, how do I get these to my device now?
 
 There is (or should be) at least one proofreader for each language (you can apply, if not). Proofreaders will look through the strings and validate those which they think are fitting the context and are of a high-enough quality. In the event that you do not see an active review or acceptance of your (or alternative) suggestions, you can contact one of the proofreaders via the sidebar on the right. To do so, simply type "@" followed by the name and then add the message (e.g. "@NameHere: Please look through my translations on this file").  
-After the strings have been validated, a scripted job is run (by one of the [Managers](https://wiki.lineageos.org/contributors.html#translations-managers) to import the strings to [Gerrit](https://review.lineageos.org). After a successful test build they get merged to source code and will be part of every new official build.
+After the strings have been validated, a scripted job is run (by one of the [Managers]({{ "contributors.html#translations-managers" | relative_url }})) to import the strings to [Gerrit](https://review.lineageos.org). After a successful test build they get merged into the source code and will be part of every new official build.
 
-{% include alerts/tip.html content="You can check who the proofreader is for your language on the [Contributors](https://wiki.lineageos.org/contributors.html#translations-proofreaders) page." %}
+{% capture content %}You can check who the proofreader is for your language on the [Contributors]({{ "contributors.html#translations-proofreaders" | relative_url }}) page.{% endcapture %}
+{% include alerts/tip.html content=content %}
 
 ## Correcting wrong strings
 
@@ -37,7 +39,8 @@ After the strings have been validated, a scripted job is run (by one of the [Man
 
 Sometimes you will notice translated strings which seem to be slightly different from what you'd expect or simply wrong. There are various reasons to how this can happen, but still, the only relevant thing is how to improve the translation. Just suggest your translation like you would do for any untranslated string. After saving it you will have the possibility to "Notify the proofreader".
 
-{% include alerts/note.html content="If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [Managers](https://wiki.lineageos.org/contributors.html#translations-managers) about it." %}
+{% capture content %}If you feel like the proofreader (who is a volunteer as well) is not doing a good job or isn't active anymore, feel free to send him a message or notify one of the [Managers]({{ "contributors.html#translations-managers" | relative_url }}) about it.{% endcapture %}
+{% include alerts/note.html content=content %}
 
 ### Original strings
 

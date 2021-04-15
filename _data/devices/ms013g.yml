@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 16.0
-custom_recovery_codename: ms013g
+custom_recovery_link: https://androidfilehost.com/?fid=1395089523397913506
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 305
@@ -17,7 +17,7 @@ height: 146.8 mm (5.78 in)
 image: ms013g.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8226
-maintainers: [djchittoor]
+maintainers: []
 models: [SM-G7102]
 name: Galaxy Grand 2 Duos
 network: [2G CDMA, 2G GSM, 3G UMTS]
@@ -36,6 +36,7 @@ soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB
 tree: android_device_samsung_ms013g
 type: phone
+uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [16.0]

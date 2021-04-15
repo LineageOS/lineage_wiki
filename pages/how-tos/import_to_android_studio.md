@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to import the sources to Android Studio / IntelliJ
 folder: how-tos
-permalink: import-android-studio-howto.html
+redirect_from: import-android-studio-howto.html
+permalink: /how-to/import-to-android-studio
 tags:
  - how-to
 ---
@@ -87,5 +88,5 @@ Now, after all the previous steps are done, you can actually start developing an
 
 ### Contribute!
 
-After you have modified the sources and tested your change, you can contribute to LineageOS by [submitting your work]({{ "submitting-patch-howto.html" | relative_url}}).
+After you have modified the sources and tested your change, you can contribute to LineageOS by [submitting your work]({{ "/how-to/submitting-patches" | relative_url }}).
 

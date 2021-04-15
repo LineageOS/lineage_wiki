@@ -11,7 +11,7 @@ codename: d801
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.9 mm (0.35 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 330
@@ -19,7 +19,7 @@ height: 138.5 mm (5.45 in)
 image: g2.png
 install_method: dd
 kernel: android_kernel_lge_msm8974
-maintainers: [YoDevil]
+maintainers: [aleasto]
 name: G2 (T-Mobile)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
@@ -40,6 +40,6 @@ tree: android_device_lge_d801
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 70.9 mm (2.79 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

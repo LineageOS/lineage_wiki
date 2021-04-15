@@ -9,7 +9,7 @@ codename: jasmine_sprout
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.3 mm (0.29 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -38,6 +38,6 @@ tree: android_device_xiaomi_jasmine_sprout
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

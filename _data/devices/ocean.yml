@@ -9,7 +9,7 @@ codename: ocean
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 9.3 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
@@ -18,7 +18,7 @@ image: ocean.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sdm632
-maintainers: [SyberHexen, erfanoabdi, Npjohnson]
+maintainers: [SyberHexen, erfanoabdi, npjohnson]
 models: [XT1955-1, XT1955-2, XT1955-4, XT1955-5, XT1955-7]
 name: 'Moto G7 Power'
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -39,6 +39,6 @@ type: phone
 uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.3 mm (2.99 in)
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot

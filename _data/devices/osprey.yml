@@ -1,5 +1,7 @@
 architecture: arm
 battery: {removable: False, capacity: 2470, tech: 'Li-Ion'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: '6.0.1'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
@@ -16,7 +18,7 @@ gpu: Adreno 306
 image: osprey.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
-maintainers: [althafvly]
+maintainers: [althafvly, chil360]
 models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: Moto G 2015
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]

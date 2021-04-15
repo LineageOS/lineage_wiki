@@ -2,7 +2,8 @@
 sidebar: home_sidebar
 title: How to use Gerrit
 folder: how-tos
-permalink: usinggerrit-howto.html
+redirect_from: usinggerrit-howto.html
+permalink: /how-to/using-gerrit
 tags:
  - how-to
 ---
@@ -82,7 +83,7 @@ Go ahead and build. When you're done, you'll hopefully have the feature you want
 
 ## Submitting a patch
 
-You can of course also contribute by submitting your own patch via Gerrit. Follow [this link]({{ "submitting-patch-howto.html" | relative_url }}) to find out how to do it!
+You can of course also contribute by submitting your own patch via Gerrit. Follow [this link]({{ "how-to/submitting-patches" | relative_url }}) to find out how to do it!
 
 
 ## Common commands

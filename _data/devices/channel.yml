@@ -9,8 +9,7 @@ codename: channel
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 17.1
-custom_recovery_link: https://androidfilehost.com/?fid=8889791610682909610
+current_branch: 18.1
 depth: 7.8 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
@@ -19,7 +18,7 @@ image: channel.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sdm632
-maintainers: [SyberHexen, deadman96385, erfanoabdi, Npjohnson]
+maintainers: [SyberHexen, deadman96385, erfanoabdi, npjohnson]
 models: [XT1952-2, XT1952-3]
 name: 'Moto G7 Play'
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -40,6 +39,6 @@ type: phone
 uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.3 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

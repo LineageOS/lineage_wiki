@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 3200 , tech: 'Li-Ion'}
-before_install: before_install_evert_and_payton
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 9}
 before_lineage_install: before_lineage_install_ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
@@ -11,7 +12,7 @@ codename: evert
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 8.0 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 508
@@ -40,6 +41,6 @@ tree: android_device_motorola_evert
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1]
+versions: [17.1, 18.1]
 width: 75.5 mm (2.9 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
