@@ -7,8 +7,8 @@
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 {% endif %}
 
-## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 {% if device.maintainers != empty %}
+## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 [Get the builds here](https://download.lineageos.org/{{ device.codename }})
 {% endif %}
 
