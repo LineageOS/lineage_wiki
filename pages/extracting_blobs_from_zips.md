@@ -195,9 +195,9 @@ It will take a few moments. Once it's done, we will need to mount the `system.im
 
 ```
 mkdir system/
-sudo mount system.img system/
-sudo mount vendor.img system/vendor/
-sudo mount product.img system/product/
+sudo mount -o ro system.img system/
+sudo mount -o ro vendor.img system/vendor/
+sudo mount -o ro product.img system/product/
 ```
 
 Move to the root directory of the sources of your device and run `extract-files.sh` as follows:
