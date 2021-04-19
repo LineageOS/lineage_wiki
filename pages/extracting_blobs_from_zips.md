@@ -198,6 +198,7 @@ mkdir system/
 sudo mount -o ro system.img system/
 sudo mount -o ro vendor.img system/vendor/
 sudo mount -o ro product.img system/product/
+sudo mount -o ro system_ext.img system/system_ext/
 ```
 
 Move to the root directory of the sources of your device and run `extract-files.sh` as follows:
