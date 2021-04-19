@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b6956d58_5bad7e36",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 194,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-04-19T14:45:35Z",
+      "side": 1,
+      "message": "update that line.",
+      "range": {
+        "startLine": 194,
+        "startChar": 44,
+        "endLine": 194,
+        "endChar": 127
+      },
+      "revId": "4c696bf1cb98c225586c3e5aadaf57026d35cc28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
