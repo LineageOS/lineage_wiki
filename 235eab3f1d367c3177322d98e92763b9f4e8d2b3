@@ -22,6 +22,30 @@
       "revId": "235eab3f1d367c3177322d98e92763b9f4e8d2b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "325186bf_59d5925d",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-04-20T07:57:58Z",
+      "side": 1,
+      "message": "meant to say /out, not $out",
+      "parentUuid": "5935826a_5335fc69",
+      "range": {
+        "startLine": 55,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 21
+      },
+      "revId": "235eab3f1d367c3177322d98e92763b9f4e8d2b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
