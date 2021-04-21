@@ -5,7 +5,6 @@ cameras:
 - {flash: 'Dual-LED flash (Dual Tone)', info: '12 MP (Primary) IMX363'}
 - {flash: 'Dual-LED flash (Dual Tone)', info: '8 MP (Wide) OV8856'}
 - {flash: '', info: '8 MP (Selfie) OV8856'}
-channels: [nightly]
 codename: Z01R
 cpu: Kryo 385
 cpu_cores: '8'
