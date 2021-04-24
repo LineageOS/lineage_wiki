@@ -11,6 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.4 GHz
 current_branch: 17.1
+custom_recovery_link: https://eu.dl.twrp.me/montana/twrp-3.4.0-1-montana.img.html
 depth: 9.5 mm (0.37 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 505
@@ -35,7 +36,6 @@ soc: Qualcomm MSM8937 Snapdragon 430
 storage: 32/64 GB
 tree: android_device_motorola_montana
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [17.1]
