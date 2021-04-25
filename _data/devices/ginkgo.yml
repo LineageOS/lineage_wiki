@@ -25,8 +25,16 @@ name: 'Redmi Note 8 / 8T'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: 
+- With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then
+  release.
+- However, this method may not succeed because the flashed image may be
+  overwritten by the system before rebooting.
+  Another option is, once the file is flashed, type the command
+  `fastboot reboot` in your computer and, while holding the
+  <kbd>Volume Up</kbd> pressed, hit enter on the keyboard to reboot into
+  recovery.
 release:
 - Note 8: 2019-08
 - Note 8T: 2019-11
