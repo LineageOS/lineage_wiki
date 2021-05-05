@@ -12,7 +12,7 @@ current_branch: 18.1
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 330
 image: klteactivexx.png
-install_method: heimdall
+install_method: odin
 kernel: android_kernel_samsung_msm8974
 maintainers: [javelinanddart, npjohnson]
 models: [SM-G870F]
