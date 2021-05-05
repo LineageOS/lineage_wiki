@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+before_install_args: {version: 10}
+before_install: before_install_moto_exynos_9610
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '48 MP'}
+- {flash: '', info: '5 MP'}
+- {flash: '', info: '25 MP'}
+codename: kane
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
+current_branch: 18.1
+depth: 8.7 mm (0.34 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G72 MP3
+height: 160.1 mm (6.3 in)
+image: kane.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_exynos9610
+maintainers: [Stricted, npjohnson]
+models: [XT1970-1, XT1970-2, XT1970-3]
+name: Moto One Vision
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+release: 2019-05-15
+screen: 160.02 mm (6.3 in)
+screen_ppi: 432
+screen_res: 1080x2520
+screen_tech: IPS LCD
+sdcard: up to 512 GB
+soc: Exynos 9609
+storage: 128 GB
+tree: android_device_motorola_kane
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [18.1]
+width: 71.2 mm (2.8 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
