@@ -8,7 +8,7 @@ codename: YTX703L
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
-current_branch: 16.0
+current_branch: 18.1
 depth: 5.6 mm (0.22 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
@@ -18,7 +18,7 @@ install_method: fastboot_lenovo
 custom_unlock_cmd: 'fastboot oem unlock-go'
 custom_recovery_codename: yt_x703l
 kernel: android_kernel_lenovo_msm8976
-maintainers: []
+maintainers: [Quallenauge, Vladimir Oltean]
 models: [YTX703L, YTX703X]
 name: Yoga Tab 3 Plus LTE
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -38,5 +38,5 @@ type: tablet
 uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
-versions: [15.1, 16.0]
+versions: [15.1, 16.0, 18.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
