@@ -1,13 +1,10 @@
 {% include templates/device_specific/firmware_update_oneplus_fastbootd.md content="
 fastboot flash --slot=all abl abl.img
 fastboot flash --slot=all aop aop.img
-fastboot flash --slot=all aop aop.img
 fastboot flash --slot=all bluetooth bluetooth.img
 fastboot flash --slot=all cmnlib64 cmnlib64.img
 fastboot flash --slot=all cmnlib cmnlib.img
 fastboot flash --slot=all devcfg devcfg.img
-fastboot flash --slot=all devcfg devcfg.img
-fastboot flash --slot=all dsp dsp.img
 fastboot flash --slot=all dsp dsp.img
 fastboot flash --slot=all featenabler featenabler.img
 fastboot flash --slot=all hyp hyp.img
