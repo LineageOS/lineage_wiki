@@ -8,7 +8,7 @@ codename: YTX703F
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
-current_branch: 16.0
+current_branch: 18.1
 custom_recovery_codename: yt_x703f
 depth: 5.6 mm (0.22 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
@@ -18,7 +18,7 @@ image: YTX703.png
 install_method: fastboot_lenovo
 custom_unlock_cmd: 'fastboot oem unlock-go'
 kernel: android_kernel_lenovo_msm8976
-maintainers: []
+maintainers: [Quallenauge]
 models: [YTX703F]
 name: Yoga Tab 3 Plus Wi-Fi
 peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, Light sensor, Sensor hub, Dual front speakers, Wi-Fi Display]
@@ -37,6 +37,6 @@ type: tablet
 uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
-versions: [15.1, 16.0]
+versions: [15.1, 16.0, 18.1]
 width: 247 mm (9.7 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, hotspot
