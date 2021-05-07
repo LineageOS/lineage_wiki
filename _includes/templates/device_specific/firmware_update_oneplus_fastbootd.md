@@ -4,6 +4,7 @@
    Oxygen Updater app usually happens to have newer releases available as OnePlus website tends to lag a bit.
 2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go)
 3. Boot up LineageOS recovery
+{% include alerts/warning.html content="\"Enter fastboot\" option may not be present on older LineageOS recovery builds, it cannot be substituted with \"Reboot to bootloader\"." %}
 4. Go to "Advanced" -> "Enter fastboot"
 5. Execute following commands:
    ```
