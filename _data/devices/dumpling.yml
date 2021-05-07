@@ -17,7 +17,7 @@ height: 156.1 mm (6.15 in)
 image: dumpling.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8998
-maintainers: [amartinz, codeworkx, trautamaki]
+maintainers: [trautamaki, qsnc]
 name: '5T'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
