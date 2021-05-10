@@ -20,7 +20,7 @@ kernel: android_kernel_bq_msm8953
 maintainers: [eloimuns, Quallenauge, Team aquaris-dev]
 name: Aquaris X
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall effect sensor, GPS, FM radio, NFC, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Galileo, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 3/4 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-06
