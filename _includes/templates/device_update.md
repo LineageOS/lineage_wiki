@@ -23,7 +23,7 @@
 1. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
 3. Run `adb root`
-4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-16.0/push-update.sh && chmod +x push-update.sh`
+4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-{{ device.current_branch }}/push-update.sh && chmod +x push-update.sh`
 5. Run: `./push-update.sh /path/to/zip`
 {%- if device.is_ab_device %}
 6. Open Settings, navigate to "System", then "Updater". click "Install". Once the update process has finished, the device will display a "Reboot" button, you may need to go into the Updater menu in Settings, "System" to see it. This will reboot you into the updated system.
