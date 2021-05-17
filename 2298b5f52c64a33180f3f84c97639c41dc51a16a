@@ -22,6 +22,30 @@
       "revId": "2298b5f52c64a33180f3f84c97639c41dc51a16a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "95cd6bd3_6e956082",
+        "filename": "_data/devices/zippo.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2021-05-17T14:24:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e19e751_704efcb3",
+      "range": {
+        "startLine": 15,
+        "startChar": 63,
+        "endLine": 15,
+        "endChar": 64
+      },
+      "revId": "2298b5f52c64a33180f3f84c97639c41dc51a16a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
