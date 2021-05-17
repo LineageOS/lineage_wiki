@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP (Primary) S5KGM1'}
+- {flash: 'Dual-LED flash (Dual Tone)', info: '8 MP (Telephoto) OV8865'}
+- {flash: 'Dual-LED flash (Dual Tone)', info: '16 MP (Wide-angle) OV16885'}
+- {flash: 'Dual-LED flash (Dual Tone)', info: '2 MP (Dedicated video camera) OV02c20'}
+- {flash: '', info: '32 MP (Front Facing) S5KGD1'}
+codename: zippo
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 18.1
+custom_unlock_cmd: fastboot flash unlock unlock_bootloader.img
+  fastboot oem unlock-go
+depth: 	8.7 mm (0.34 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 640
+height: 157.5 mm (6.2 in)
+image: zippo.png
+install_method: fastboot_nexus
+kernel: android_kernel_lenovo_sm8150
+maintainers: [Lucchetto, themard]
+models: [L78051]
+name: Z6 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+note_link: https://www.zui.com/iunlock
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+ram: 6/8/12 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
+release: 2019-09-11
+screen: 162.31 mm (6.39 in)
+screen_ppi: 403
+screen_res: 1080x2340
+screen_tech: Super AMOLED HDR10
+sdcard: up to 1TB
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 128/256/512 GB
+tree: android_device_lenovo_zippo
+type: phone
+vendor: Lenovo
+vendor_short: lenovo
+versions: [18.1]
+width: 74.6 mm (2.94 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
