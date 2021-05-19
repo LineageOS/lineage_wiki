@@ -8,7 +8,7 @@ codename: kuntao
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-current_branch: 17.1
+current_branch: 18.1
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397888315
 depth: 8.3 mm (0.33 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -18,7 +18,7 @@ height: 153 mm (6.02 in)
 image: kuntao.png
 install_method: fastboot_lenovo
 kernel: android_kernel_lenovo_msm8953
-maintainers: [mikeioannina, highwaystar]
+maintainers: [mikeioannina]
 models: [P2a42]
 name: P2
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -38,6 +38,6 @@ type: phone
 uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
