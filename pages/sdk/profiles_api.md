@@ -124,6 +124,6 @@ and then finally declare that we want to be "triggered" when an ON_CONNECT is gi
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
-[#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
+[#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
 
 You can also find more information in the [LineageSDK javadoc](https://lineageos.github.io/android_lineage-sdk).

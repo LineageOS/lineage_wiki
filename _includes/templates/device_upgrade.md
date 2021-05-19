@@ -84,4 +84,4 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 ## Get assistance
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
-[#LineageOS on freenode](https://webchat.freenode.net/?channels=LineageOS).
+[#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).

@@ -115,4 +115,4 @@ hopefully you've learned a bit on the way and had some fun too.
 
 ## To get assistance
 
-* [#LineageOS-dev](https://webchat.freenode.net/?channels=lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Freenode [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
+* [#LineageOS-dev](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Libera.Chat [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
