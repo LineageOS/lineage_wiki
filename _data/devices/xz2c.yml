@@ -38,6 +38,6 @@ tree: android_device_sony_xz2c
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [17.1]
+versions: [18.1]
 width: 65 mm (2.56 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
