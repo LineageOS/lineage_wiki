@@ -26,7 +26,7 @@ You need to be willing to continue maintaining the device by fixing bugs, applyi
 Send an email to <devrel@lineageos.org>. The email should contain:
 
 * Links to your device, vendor, and kernel trees on GitHub.
-* Email addresses of all maintainers, along with either Libera.Chat IRC nicknames or Hangouts addresses.
+* Email addresses of all maintainers.
 If a team worked on your device, all team members must be listed in the email.
 
 Please be patient once you've sent your email. It takes time to review your source code and vendor blobs.
