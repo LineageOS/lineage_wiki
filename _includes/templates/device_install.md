@@ -22,6 +22,11 @@ The current bootloader version can be checked by running the command `getprop ro
 {% include alerts/warning.html content=bootloader %}
 {%- endif %}
 
+{% if device.before_recovery_install %}
+{% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 {%- if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
