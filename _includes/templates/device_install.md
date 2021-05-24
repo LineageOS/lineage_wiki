@@ -36,6 +36,11 @@ There are no recovery installation instructions for this discontinued device.
 {% include {{ path }} %}
 {%- endif %}
 
+{% if device.before_recovery_install %}
+{% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 ## Installing LineageOS from recovery
 
 {%- capture userspace_architecture -%}
