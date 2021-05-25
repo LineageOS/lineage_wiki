@@ -1,16 +1,16 @@
 {% assign device = site.data.devices[page.device] %}
 
-{%- if device.before_install %}
-{% capture path %}templates/device_specific/{{ device.before_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{%- endif %}
-
 ## Basic requirements
 
 {% include alerts/important.html content="Please read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!" %}
 
 1. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+
+{%- if device.before_install %}
+{% capture path %}templates/device_specific/{{ device.before_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{%- endif %}
 
 {% if device.required_bootloader %}
 ## Special requirements
