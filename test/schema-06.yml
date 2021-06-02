@@ -236,18 +236,26 @@ properties:
     - Krait 400
     - Krait 450
     - Kryo
+    - Kryo 240
     - Kryo 250
     - Kryo 260
     - Kryo 280
     - Kryo 360
     - Kryo 385
     - Kryo 460
+    - Kryo 465
+    - Kryo 468
     - Kryo 470
     - Kryo 475
     - Kryo 485
+    - Kryo 490
     - Kryo 495
     - Kryo 560
+    - Kryo 570
     - Kryo 585
+    - Kryo 670
+    - Kryo 680
+
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
