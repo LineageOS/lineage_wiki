@@ -324,13 +324,16 @@ properties:
     - Adreno 615
     - Adreno 616
     - Adreno 618
+    - Adreno 619
     - Adreno 620
     - Adreno 630
     - Adreno 640
     - Adreno 650
+    - Adreno 660
     - Adreno 675
     - Adreno 680
     - Adreno 685
+    - Adreno 690
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - NVIDIA Kepler DX1 192-core
