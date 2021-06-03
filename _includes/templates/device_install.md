@@ -65,41 +65,41 @@ There are no recovery installation instructions for this discontinued device.
 5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
 {%- endif %}
 6. Sideload the LineageOS `.zip` package:
-    * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
+    * On the device, select **Advanced**, **ADB Sideload**, then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`." %}
+        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report \"adb: failed to read command: Success\"." %}
 {%- else %}
-3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+3. Now tap **Factory Reset**, then **Format Data / Factory Reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 5. Return to the main menu.
 6. Sideload the LineageOS `.zip` package:
-    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the device, select **Apply Update**, then **Apply from ADB** to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`." %}
+        {% include alerts/tip.html content="If the process succeeds the output will stop at 47% and report \"adb: failed to read command: Success\"." %}
 {%- endif %}
 {%- if device.is_ab_device and device.uses_twrp %}
 7. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
 {%- elsif device.is_ab_device %}
-7. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any add-ons, click **Advanced**, then **Reboot to Recovery**, then when your device reboots, click **Apply Update**, then **Apply from ADB**, then on host machine `adb sideload filename.zip` those packages in sequence.
 {%- else %}
 7. _(Optionally)_: If you want to install any add-ons, repeat the sideload steps above for those packages in sequence.
 {%- endif %}
 {% if device.is_ab_device or device.uses_twrp != true %}
-    {% include alerts/note.html content="Add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
+    {% include alerts/note.html content="Add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says \"Signature verification failed\", this is expected, please click **Continue**." %}
 {%- endif %}
-    {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
+    {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step *before* booting into LineageOS for the first time!" %}
 {%- if device.current_branch >= 17.1 %}
 {%- if device.uses_twrp and device.is_ab_device != true %}
-8. Once you have installed everything successfully, run 'adb reboot'.
+8. Once you have installed everything successfully, run `adb reboot`.
 {%- else %}
-8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then **Reboot system now**.
 {%- endif %}
 {%- else %}
 {%- if device.uses_twrp and device.is_ab_device != true %}
 8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-9. Once you have installed everything successfully, run 'adb reboot'.
+9. Once you have installed everything successfully, run `adb reboot`.
 {%- else %}
 8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then **Reboot system now**.
 {%- endif %}
 {%- endif %}
 
