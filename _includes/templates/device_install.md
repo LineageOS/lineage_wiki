@@ -79,7 +79,7 @@ There are no recovery installation instructions for this discontinued device.
 {%- if device.is_ab_device and device.uses_twrp %}
 7. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
 {%- elsif device.is_ab_device %}
-7. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
+7. _(Optionally)_: If you want to install any add-ons, click **Advanced**, then **Reboot to Recovery**, then when your device reboots, click **Apply Update**, then **Apply from ADB**, then on host machine `adb sideload filename.zip` those packages in sequence.
 {%- else %}
 7. _(Optionally)_: If you want to install any add-ons, repeat the sideload steps above for those packages in sequence.
 {%- endif %}
