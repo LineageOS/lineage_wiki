@@ -10,7 +10,6 @@ cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 18.1
-custom_recovery_link: https://androidfilehost.com/?fid=6006931924117891801
 depth: 7.5 mm (0.30 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -36,7 +35,6 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_xiaomi_sagit
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [15.1, 16.0, 17.1, 18.1]
