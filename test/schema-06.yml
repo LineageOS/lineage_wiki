@@ -132,6 +132,7 @@ definitions:
       - Pedometer
       - Proximity sensor
       - Qi wireless charging
+      - Qi reverse wireless charging
       - Radar
       - RGB ambient light
       - SNS integration
