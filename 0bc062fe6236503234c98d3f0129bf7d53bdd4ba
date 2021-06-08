@@ -22,6 +22,30 @@
       "revId": "0bc062fe6236503234c98d3f0129bf7d53bdd4ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2d7c455c_9fa6956f",
+        "filename": "_data/devices/lemonadep.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2021-06-08T13:27:11Z",
+      "side": 1,
+      "message": "I basically pulled a list of all accepted peripherals and removed everything that didn\u0027t apply to my devices.",
+      "parentUuid": "c0a28960_e08c1c8c",
+      "range": {
+        "startLine": 28,
+        "startChar": 238,
+        "endLine": 28,
+        "endChar": 251
+      },
+      "revId": "0bc062fe6236503234c98d3f0129bf7d53bdd4ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
