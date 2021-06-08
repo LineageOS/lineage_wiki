@@ -21,9 +21,10 @@
 1. Download the flashable repartition script from [here](https://www.androidfilehost.com/?fid=10763459528675595998).
 2. On your device's screen, choose "Apply Update", then "From ADB".
 3. From your Terminal/PowerShell, run `adb sideload /path/to/flo-deb_clamor_repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
-    {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
+    {% include alerts/note.html content="The firmware package in question is signed by the OEM, but isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
 4. Now run `adb shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
+    {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
 5. The device will reboot whatever your previous recovery was, please select "Reboot to bootloader" if it's the stock recovery or "Reboot", then "Bootloader" if it was TWRP.
 6. Format your data partition:
 ```
