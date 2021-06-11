@@ -4,7 +4,7 @@
    Oxygen Updater app usually happens to have newer releases available as OnePlus website tends to lag a bit.
 2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go)
 3. Boot up LineageOS recovery
-4. Go to "Advanced" -> "Enable adb"
+4. Go to "Advanced" -> "Enable ADB"
 5. Check your DDR type using the following command: `adb shell getprop ro.boot.ddr_type`
 6. Go to "Advanced" -> "Enter fastboot"
    {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
