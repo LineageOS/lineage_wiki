@@ -21,6 +21,7 @@ install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm845
 maintainers: [olivier97, sjllls]
+models: [H8314, H8324]
 name: Xperia XZ2 Compact
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
