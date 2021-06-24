@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '64/108 MP or 16/32 MP'}
+- {flash: 'Dual LED', info: 'UltraWide Sensor 13 MP'}
+- {flash: 'Dual LED', info: 'Macro Sensor 5 MP'}
+- {flash: '', info: '20 MP'}
+codename: apollon
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 18.1
+depth: 9.3 mm (0.37 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 650
+height: 165.1 mm (6.5 in)
+image: apollon.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm8250
+maintainers: [Ramisky, SebaUbuntu]
+models: [M2007J3SY, M2007J3SG, M2007J3SC]
+name: 10T
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release:
+- Mi 10T/Pro: 2020-10
+- Redmi K30S Ultra: 2020-11
+screen: 169.4 mm (6.67 in)
+screen_ppi: 395
+screen_res: 1080x2400
+screen_tech: 144Hz IPS LCD
+sdcard:
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB
+tree: android_device_xiaomi_apollon
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1]
+width: 76.4 mm (3.01 in)
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
