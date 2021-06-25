@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "17988aee_dffc60fa",
+        "filename": "_data/devices/apollon.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-06-25T17:17:59Z",
+      "side": 1,
+      "message": "please sort these so that they\u0027re listed in order on wiki",
+      "range": {
+        "startLine": 25,
+        "startChar": 8,
+        "endLine": 25,
+        "endChar": 41
+      },
+      "revId": "f15985ef027bb50ee17c4e68e1cdb47911eaf47a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
