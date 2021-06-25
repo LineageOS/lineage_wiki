@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b0db16a4_fe052801",
+        "filename": "_data/devices/apollon.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2021-06-25T10:14:07Z",
+      "side": 1,
+      "message": "Trailing space",
+      "revId": "ea2c3ce1c27a069f2ad3804a5952b2652bcf3dce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
