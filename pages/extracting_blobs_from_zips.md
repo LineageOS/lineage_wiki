@@ -50,7 +50,14 @@ unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
 
-In the case of `system.new.dat.br`/`vendor.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
+your OTA can also include only `super.transfer.list` and `super.new.dat.br` or `super.new.dat`, extract them from the installable LineageOS zip as well:
+
+```
+unzip path/to/lineage-*.zip super.transfer.list super.new.dat*
+```
+where `path/to/` is the path to the installable zip.
+
+In the case of `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
 
 ```
 sudo apt-get install brotli
@@ -81,6 +88,12 @@ And if you have a `vendor.dat.new` (or others) file:
 python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
 ```
 
+And if you have a `super.dat.new` file:
+
+```
+python sdat2img/sdat2img.py super.transfer.list super.new.dat super.img
+```
+
 You should now have a file named `system.img` that you can mount as follows:
 
 ```
@@ -94,6 +107,20 @@ If you also have a file named `vendor.img`, you can mount it as follows:
 sudo rm system/vendor
 sudo mkdir system/vendor
 sudo mount vendor.img system/vendor/
+```
+
+If you only have a file named `super.img`, You now need to get a copy of `lpunpack`. This script can extract the content of the Super partition into it's respective component partitions that can be mounted. `lpunpack` is easily buildable, by going to LineageOS root with:
+
+```
+source build/envsetup.sh
+breakfast your_device_codename
+m lpunpack
+```
+
+Once you have built `lpunpack`, use it to extract the super image:
+
+```
+lpunpack super.img /output/dir
 ```
 
 You must also now mount any other image files that you have in their respective directories.
