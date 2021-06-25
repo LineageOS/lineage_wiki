@@ -22,6 +22,30 @@
       "revId": "f15985ef027bb50ee17c4e68e1cdb47911eaf47a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "14098d1a_677deec7",
+        "filename": "_data/devices/apollon.yml",
+        "patchSetId": 10
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 28423
+      },
+      "writtenOn": "2021-06-25T18:46:07Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "17988aee_dffc60fa",
+      "range": {
+        "startLine": 25,
+        "startChar": 8,
+        "endLine": 25,
+        "endChar": 41
+      },
+      "revId": "f15985ef027bb50ee17c4e68e1cdb47911eaf47a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
