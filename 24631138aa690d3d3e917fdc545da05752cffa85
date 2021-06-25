@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4576b10e_92b7668c",
+        "filename": "_data/devices/apollon.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2021-06-25T10:07:11Z",
+      "side": 1,
+      "message": "Mi 10T / Mi 10T Pro / Redmi K30S Ultra",
+      "revId": "24631138aa690d3d3e917fdc545da05752cffa85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
