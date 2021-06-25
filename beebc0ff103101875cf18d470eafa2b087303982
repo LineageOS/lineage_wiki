@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f2f4c9e7_43fbc580",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 28423
+      },
+      "writtenOn": "2021-06-25T12:54:58Z",
+      "side": 0,
+      "message": "should product \u0026 system_ext be added here too? (new devices that are A-only)",
+      "revId": "beebc0ff103101875cf18d470eafa2b087303982",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
