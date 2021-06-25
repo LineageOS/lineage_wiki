@@ -50,7 +50,7 @@ unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
 
-In the case of `system.new.dat.br`/`vendor.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
+In the case of `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
 
 ```
 sudo apt-get install brotli
@@ -75,12 +75,6 @@ Once you have obtained `sdat2img`, use it to extract the system image:
 python sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
-And if you have a `vendor.dat.new` (or others) file:
-
-```
-python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
-```
-
 You should now have a file named `system.img` that you can mount as follows:
 
 ```
@@ -88,7 +82,13 @@ mkdir system/
 sudo mount system.img system/
 ```
 
-If you also have a file named `vendor.img`, you can mount it as follows:
+And if you have a `vendor.dat.new` (or others) file:
+
+```
+python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
+```
+
+If you have a file named `vendor.img`, or similar, you can mount them as follows:
 
 ```
 sudo rm system/vendor
@@ -96,7 +96,27 @@ sudo mkdir system/vendor
 sudo mount vendor.img system/vendor/
 ```
 
-You must also now mount any other image files that you have in their respective directories.
+Unlike the above, if you have a `super.dat.new` file:
+
+```
+python sdat2img/sdat2img.py super.transfer.list super.new.dat super.img
+```
+
+You will now have a file named `super.img`, You need to get a copy of `lpunpack` to extract images from it. This script can extract the content of the Super partition into it's respective component partitions that can be mounted. Luckily, `lpunpack` is easily buildable, executing the following from a LineageOS 17.1 or greater tree:
+
+```
+source build/envsetup.sh
+breakfast your_device_codename
+m lpunpack
+```
+
+Once you have built `lpunpack`, use it to extract the super image:
+
+```
+lpunpack super.img /output/dir
+```
+
+You must also now mount any other image files that you have in their respective directories as shown above with `vendor.img`.
 
 After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 
