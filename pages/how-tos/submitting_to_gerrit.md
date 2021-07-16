@@ -42,7 +42,7 @@ ssh-add ~/.ssh/id_rsa
 ssh-add
 ```
 
-After that, copy/paste the content of `~/.ssh/id_rsa.pub` to your Gerrit SSH Settings under **Settings -> SSH Public Keys**.
+After that, copy/paste the content of `~/.ssh/id_rsa.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
 
 The steps above have to be performed only once.
 
