@@ -16,6 +16,24 @@
       "revId": "beebc0ff103101875cf18d470eafa2b087303982",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c9007bee_c4aa23fa",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-07-17T17:30:36Z",
+      "side": 0,
+      "message": "nah, \"or others\"",
+      "parentUuid": "f2f4c9e7_43fbc580",
+      "revId": "beebc0ff103101875cf18d470eafa2b087303982",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
