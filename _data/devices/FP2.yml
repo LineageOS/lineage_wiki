@@ -8,9 +8,10 @@ codename: FP2
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 11 mm (0.43 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
+format_on_upgrade: true
 gpu: Adreno 330
 height: 143 mm (5.63 in)
 image: FP2.png
@@ -33,9 +34,8 @@ soc: Qualcomm MSM8974AB-AB Snapdragon 801
 storage: 32 GB
 tree: android_device_fairphone_FP2
 type: phone
-uses_twrp: true
 vendor: Fairphone
 vendor_short: fairphone
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 width: 73 mm (2.9 in)
 wifi: 802.11 b/g/n/ac
