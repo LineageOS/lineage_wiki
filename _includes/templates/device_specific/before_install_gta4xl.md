@@ -1,5 +1,11 @@
 ## Pre-Install Instructions
 
+{% capture content %}
+Before following these instructions please ensure that the device is on the latest **Android {{ device.before_install_args.version }}** firmware.
+{% endcapture %}
+
+{% include alerts/warning.html content=content %}
+
 {% include alerts/warning.html content="The following instructions will unlock the bootloader and wipe all userdata on the device." %}
 
 1. Connect the device to a Wi-Fi network.
