@@ -230,6 +230,7 @@ properties:
     - Denver
     - Exynos M1 & Cortex-A53
     - Exynos M3 & Cortex-A55
+    - Exynos M4 & Cortex-A75 & Cortex-A55
     - Intel Atom
     - Krait
     - Krait 200
@@ -299,6 +300,7 @@ properties:
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
     - ARM Mali-G72 MP3
+    - ARM Mali-G76 MP12
     - ARM Mali-T604
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2
