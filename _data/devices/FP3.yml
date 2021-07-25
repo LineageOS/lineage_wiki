@@ -9,7 +9,7 @@ codename: FP3
 cpu: Kryo 250
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 9.89 mm (0.39 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Release when boot logo appears.
@@ -39,6 +39,6 @@ tree: android_device_fairphone_FP3
 type: phone
 vendor: Fairphone
 vendor_short: fairphone
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 18.1]
 width: 71.8 mm (2.83 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct
