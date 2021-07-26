@@ -1,0 +1,49 @@
+architecture: arm64
+battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5.1', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED', info: '48 MP'}
+- {flash: 'Dual LED', info: 'UltraWide Sensor 13 MP'}
+- {flash: 'Dual LED', info: 'Macro Sensor 5 MP'}
+- {flash: '', info: '20 MP'}
+codename: alioth
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 18.1
+depth: 7.8 mm (0.31 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 650
+height: 163.7 mm (6.44 in)
+image: alioth.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm8250
+maintainers: [SahilSonar, SebaUbuntu]
+models: [M2012K11AC, M2012K11AI, M2012K11AG]
+name: POCO F3 / Redmi K40 / Mi 11X
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, NavIC, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8/12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release:
+- Redmi K40: 2021-02
+- Mi 11X: 2021-04
+- Poco F3: 2021-03
+screen: 169.4 mm (6.67 in)
+screen_ppi: 395
+screen_res: 1080x2400
+screen_tech: 120Hz Super AMOLED
+sdcard:
+soc: Qualcomm SM8250-AC Snapdragon 870
+storage: 128/256 GB
+tree: android_device_xiaomi_allioth
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1]
+width: 76.4 mm (3.01 in)
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
