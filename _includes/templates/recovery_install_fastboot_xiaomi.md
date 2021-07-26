@@ -26,7 +26,12 @@
 {% include {{ path }} %}
 {% endif %}
 
+{% if device.is_ab_device and device.has_recovery_partition != true %}
+{% include templates/recovery_install_fastboot_ab.md %}
+{% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
+{% endif %}
+
 {% if device.no_oem_unlock_switch %}
 {% include alerts/tip.html content="It is highly recommended to have the latest official MIUI weekly package installed on the device, before installing a custom recovery." %}
 {% endif %}
