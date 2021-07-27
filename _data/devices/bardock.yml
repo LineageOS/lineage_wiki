@@ -8,7 +8,7 @@ codename: bardock
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.9 mm (0.3 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: false
@@ -36,6 +36,6 @@ type: phone
 uses_twrp: true
 vendor: BQ
 vendor_short: bq
-versions: [15.1, 16.0, 17.1]
+versions: [15.1, 16.0, 17.1, 18.1]
 width: 72.7 mm (2.86 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
