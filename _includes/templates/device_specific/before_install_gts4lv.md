@@ -1,5 +1,7 @@
 ## Pre-Install Instructions
 
+{% include templates/device_specific/before_install_needs_specific_android_fw.md %}
+
 {% include alerts/warning.html content="The following instructions will unlock the bootloader and wipe all userdata on the device." %}
 
 {% unless device.no_oem_unlock_switch %}
