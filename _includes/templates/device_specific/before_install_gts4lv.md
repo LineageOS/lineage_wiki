@@ -2,6 +2,8 @@
 
 {% include alerts/warning.html content="The following instructions will unlock the bootloader and wipe all userdata on the device." %}
 
+{% include alerts/important.html content="If you are installing Lineage 18.1 build 20210531 or later you should update your device to Android 11 before trying to install it." %}
+
 {% unless device.no_oem_unlock_switch %}
 1. Connect the device to a Wi-Fi network.
 2. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
