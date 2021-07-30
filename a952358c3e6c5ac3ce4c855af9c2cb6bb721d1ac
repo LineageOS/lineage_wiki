@@ -22,6 +22,30 @@
       "revId": "a952358c3e6c5ac3ce4c855af9c2cb6bb721d1ac",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f1a1e0a7_b2cdc4ad",
+        "filename": "_data/devices/FP3.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 27052
+      },
+      "writtenOn": "2021-07-30T15:22:56Z",
+      "side": 1,
+      "message": "Done, thx for finding this",
+      "parentUuid": "10a69858_e125a89f",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 65
+      },
+      "revId": "a952358c3e6c5ac3ce4c855af9c2cb6bb721d1ac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
