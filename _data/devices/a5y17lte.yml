@@ -10,7 +10,7 @@ codename: a5y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
-current_branch: 17.1
+current_branch: 18.1
 depth: 7.9 mm (0.31 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
@@ -40,6 +40,6 @@ type: phone
 uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
-versions: [14.1, 16.0, 17.1]
+versions: [14.1, 16.0, 17.1, 18.1]
 width: 71.4 mm (2.81 in)
 wifi: 802.11 a/b/g/n/ac
