@@ -415,6 +415,9 @@ properties:
     "$id": "/properties/name"
     minLength: 1
     type: string
+  needs_fastbootd:
+    "$id": "/properties/needs_fastbootd"
+    type: boolean
   network:
     "$id": "/properties/network"
     items:
