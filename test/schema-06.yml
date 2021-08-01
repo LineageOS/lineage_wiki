@@ -406,6 +406,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G31 MP2
     - ARM Mali-G71 MP2
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
@@ -477,6 +478,7 @@ properties:
     "$id": "/properties/install_method"
     enum:
     - apx
+    - amlogic_update
     - dd
     - edl_custom
     - fastboot_custom
@@ -518,6 +520,9 @@ properties:
     "$id": "/properties/name"
     minLength: 1
     type: string
+  needs_fastbootd:
+    "$id": "/properties/needs_fastbootd"
+    type: boolean
   network:
     "$id": "/properties/network"
     items:
@@ -599,7 +604,9 @@ properties:
     "$id": "/properties/vendor"
     enum:
     - ARK
+    - Askey
     - ASUS
+    - Banana Pi
     - BQ
     - Essential
     - Fairphone
@@ -615,13 +622,16 @@ properties:
     - Nokia
     - Nubia
     - Nvidia
+    - Odroid
     - OPPO
     - OnePlus
+    - Radxa
     - Razer
     - Realme
     - Samsung
     - SHIFT
     - Sony
+    - Walmart
     - Wileyfox
     - Wingtech
     - Xiaomi
@@ -633,7 +643,9 @@ properties:
     "$id": "/properties/vendor_short"
     enum:
     - ark
+    - askey
     - asus
+    - bananapi
     - bq
     - essential
     - fairphone
@@ -650,8 +662,10 @@ properties:
     - nokia
     - nubia
     - nvidia
+    - odroid
     - oneplus
     - oppo
+    - radxa
     - razer
     - realme
     - samsung
