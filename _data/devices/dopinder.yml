@@ -1,0 +1,38 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+before_install: needs_specific_android_fw
+before_install_args: {version: 10}
+before_recovery_install: g12
+bluetooth: {spec: '4.2'}
+cameras: []
+codename: dopinder
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 19.1
+custom_unlock_cmd: "fastboot oem 'setenv lock 10101000;save' && fastboot reboot bootloader && fastboot flashing unlock"
+dimensions: {width: '69 mm (2.7 in)', height: '69 mm (2.7 in)', depth: '15 mm (0.59 in)'}
+download_boot: Run `adb reboot bootloader`.
+gpu: ARM Mali-G31 MP2
+image: dopinder.png
+install_method: fastboot_nexus
+kernel: android_kernel_amlogic_linux-4.9
+maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
+name: onn 4K Box
+peripherals: None
+ram: 2 GB
+recovery_boot: Run `adb reboot recovery`.
+recovery_reboot: fastboot_reboot
+release: 2021-06-01
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+soc: Amlogic S905x2
+storage: 8 GB
+tree: android_device_askey_dopinder
+type: Set top box
+vendor: Walmart
+vendor_short: askey
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac
