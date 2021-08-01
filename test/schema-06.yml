@@ -407,6 +407,7 @@ properties:
     enum:
     - ARM Mali-400 MP
     - ARM Mali-400 MP4
+    - ARM Mali-G31 MP2
     - ARM Mali-G71 MP2
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
@@ -600,6 +601,7 @@ properties:
     "$id": "/properties/vendor"
     enum:
     - ARK
+    - Askey
     - ASUS
     - BQ
     - Essential
@@ -623,6 +625,7 @@ properties:
     - Samsung
     - SHIFT
     - Sony
+    - Walmart
     - Wileyfox
     - Wingtech
     - Xiaomi
@@ -634,6 +637,7 @@ properties:
     "$id": "/properties/vendor_short"
     enum:
     - ark
+    - askey
     - asus
     - bq
     - essential
