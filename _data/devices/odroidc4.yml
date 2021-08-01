@@ -1,0 +1,35 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+bluetooth: {spec: '4.2'}
+cameras: []
+codename: odroidc4
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 19.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '85 mm (3.35 in)', height: '56 mm (2.2 in)', depth: '10 mm (0.39 in)'}
+download_boot: Hold the button on the board while plugging the board in.
+gpu: ARM Mali-G31 MP2
+image: odroidc4.png
+install_method: amlogic_update
+kernel: android_kernel_amlogic_linux-4.9
+maintainers: [stricted]
+name: C4
+peripherals: None
+ram: 4 GB
+recovery_boot: Run `adb reboot recovery`.
+release: 2020-12-01
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+sdcard: {sizeMax: '2 TB'}
+soc: Amlogic S905x3
+storage: 16 GB
+tree: android_device_bananapi_m5
+type: Devkit
+vendor: Odroid
+vendor_short: odroid
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac

@@ -1,0 +1,36 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+before_install: needs_specific_android_fw
+before_install_args: {version: 12}
+bluetooth: {spec: '4.2'}
+cameras: []
+codename: deadpool
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 19.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '69 mm (2.7 in)', height: '69 mm (2.7 in)', depth: '15 mm (0.59 in)'}
+download_boot: 'adb reboot recovery'
+gpu: ARM Mali-G31 MP2
+image: deadpool.png
+install_method: fastboot_nexus
+kernel: android_kernel_amlogic_linux-4.9
+maintainers: [npjohnson, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
+name: ADT-3
+peripherals: None
+ram: 2 GB
+recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Recovery menu is displayed.
+release: 2020-09-22
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+soc: Amlogic S905y2
+storage: 8 GB
+tree: android_device_askey_deadpool
+type: Set top box
+vendor: Google
+vendor_short: askey
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac
