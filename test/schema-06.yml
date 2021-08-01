@@ -478,6 +478,7 @@ properties:
     "$id": "/properties/install_method"
     enum:
     - apx
+    - amlogic_update
     - dd
     - edl_custom
     - fastboot_custom
@@ -602,6 +603,7 @@ properties:
     - ARK
     - Askey
     - ASUS
+    - Banana Pi
     - BQ
     - Essential
     - Fairphone
@@ -617,8 +619,10 @@ properties:
     - Nokia
     - Nubia
     - Nvidia
+    - Odroid
     - OPPO
     - OnePlus
+    - Radxa
     - Razer
     - Realme
     - Samsung
@@ -638,6 +642,7 @@ properties:
     - ark
     - askey
     - asus
+    - bananapi
     - bq
     - essential
     - fairphone
@@ -654,8 +659,10 @@ properties:
     - nokia
     - nubia
     - nvidia
+    - odroid
     - oneplus
     - oppo
+    - radxa
     - razer
     - realme
     - samsung
