@@ -22,6 +22,30 @@
       "revId": "c679755ea578783c52a4aa4288b0dcc40817b312",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0165d3c3_59c88495",
+        "filename": "_data/devices/m20lte.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 19907
+      },
+      "writtenOn": "2021-08-05T16:23:57Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5fff5f77_1cf9f73c",
+      "range": {
+        "startLine": 13,
+        "startChar": 12,
+        "endLine": 13,
+        "endChar": 20
+      },
+      "revId": "c679755ea578783c52a4aa4288b0dcc40817b312",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
