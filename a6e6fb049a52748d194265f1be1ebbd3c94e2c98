@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99f9399c_08740084",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 29303
+      },
+      "writtenOn": "2021-08-08T11:41:07Z",
+      "side": 1,
+      "message": "Could become a link to https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository",
+      "range": {
+        "startLine": 67,
+        "startChar": 57,
+        "endLine": 67,
+        "endChar": 61
+      },
+      "revId": "a6e6fb049a52748d194265f1be1ebbd3c94e2c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "18c19d13_d6da12f7",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 29303
+      },
+      "writtenOn": "2021-08-08T11:41:07Z",
+      "side": 1,
+      "message": "With a link instead of plain text one could easily jump to the repo to fork it.",
+      "range": {
+        "startLine": 71,
+        "startChar": 4,
+        "endLine": 71,
+        "endChar": 45
+      },
+      "revId": "a6e6fb049a52748d194265f1be1ebbd3c94e2c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "19798b12_92f97695",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 29303
+      },
+      "writtenOn": "2021-08-08T11:41:07Z",
+      "side": 1,
+      "message": "Did you mean \u0027fork\u0027? If so, it has to be adjusted a couple of times (incl. commit message).",
+      "range": {
+        "startLine": 71,
+        "startChar": 53,
+        "endLine": 71,
+        "endChar": 58
+      },
+      "revId": "a6e6fb049a52748d194265f1be1ebbd3c94e2c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e1572250_790d84fc",
+        "filename": "pages/contributing_wiki.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 77,
+      "author": {
+        "id": 29303
+      },
+      "writtenOn": "2021-08-08T11:41:07Z",
+      "side": 1,
+      "message": "Optional/my preference:\nName it without the prefix \u0027gh\u0027. Just \u0027clone\u0027 (or \u0027fork\u0027) is sufficient. The other remote repository right after cloning is \u0027origin\u0027 and not \u0027ghorigin\u0027.",
+      "range": {
+        "startLine": 77,
+        "startChar": 15,
+        "endLine": 77,
+        "endChar": 17
+      },
+      "revId": "a6e6fb049a52748d194265f1be1ebbd3c94e2c98",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
