@@ -89,7 +89,7 @@ Save the file and exit the editor. Now upload your changes to GitHub:
 git push origin
 ```
 
-Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+Configure [Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in your forked repository to preview your changes - you can see it at `http://yourusername.github.io/lineage_wiki`.
 
 #### Fixing mistakes
 
