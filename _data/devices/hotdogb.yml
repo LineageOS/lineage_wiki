@@ -16,6 +16,7 @@ depth: 8.1 mm (0.32 in)
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm8150_dynamic
 gpu: Adreno 640
+has_recovery_partition: true
 height: 160.9 mm (6.33 in)
 image: guacamoleb.png
 install_method: fastboot_nexus
