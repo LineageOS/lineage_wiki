@@ -147,7 +147,7 @@ Or run it from recovery:
 # Ensure both /data and /system are mounted, then continue
 adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.sh
 adb shell chmod +x /data/local/tmp/migration.sh
-adb shell /data/local/tmp/migration.sh official
+adb shell sh /data/local/tmp/migration.sh official
 ```
 
 If you are migrating from an official build to your own "unsigned" builds, you can run the
