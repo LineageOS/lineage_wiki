@@ -1,4 +1,5 @@
 {% include alerts/warning.html content="These instructions are NOT for carrier branded variants." %}
+{% include alerts/warning.html content="Before flashing firmware, please make sure that the [installation guide]({{ "devices/" | append: device.codename | append: "/install" | relative_url }}) does not require older or newer one." %}
 
 1. Download latest stock ROM from [oneplus.com](https://oneplus.com/support/softwareupgrade) or [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater).
    Oxygen Updater app usually happens to have newer releases available as OnePlus website tends to lag a bit.
