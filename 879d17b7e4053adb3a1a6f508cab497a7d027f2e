@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3be73ab2_23e89bd1",
+        "filename": "_includes/templates/device_specific/firmware_update_oneplus_fastbootd.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-08-14T02:00:36Z",
+      "side": 1,
+      "message": "I think this would leave too much wiggle room for mistake. Users might just see step 1 \"Download latest stock ROM...\", and go with that.  So I would edit step 1 too.\nOr just keep it simple and drop the alert and change step 1 to \"Download latest Android {{ device.before_install_args.version }} stock ROM...\"?",
+      "range": {
+        "startLine": 7,
+        "startChar": 3,
+        "endLine": 7,
+        "endChar": 28
+      },
+      "revId": "879d17b7e4053adb3a1a6f508cab497a7d027f2e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
