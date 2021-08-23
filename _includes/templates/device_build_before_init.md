@@ -80,7 +80,7 @@ To build LineageOS 13.0, you'll also need:
 
 For Ubuntu versions older than 20.04 (focal), install also:
 
-* `libwxgtk3.0-dev`
+* `libwxgtk3.0-gtk3-dev`
 
 While for Ubuntu versions older than 16.04 (xenial), install:
 
