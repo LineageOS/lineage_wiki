@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {removable: False, capacity: 5160, tech: 'Li-Po'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 11}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '48 MP'}
+- {flash: '', info: '8MP (ultrawide)'}
+- {flash: '', info: '2MP (macro)'}
+- {flash: '', info: '2MP (bokeh)'}
+- {flash: '', info: '20 MP (front punch-hole)'}
+codename: vayu
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 18.1
+depth: 9.4 mm (0.37 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 640
+has_recovery_partition: true
+height: 165.8 mm (6.53 in)
+image: vayu.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm8150
+maintainers: [SebaUbuntu]
+models: [M2102J20SG, M2102J20SI]
+name: POCO X3 Pro
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When Xiaomi/POCO/Redmi splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
+release: 2021-03
+screen: 169 mm (6.67 in)
+screen_ppi: 395
+screen_res: 2400x1080
+screen_tech: 120Hz IPS LCD
+sdcard: up to 1 TB
+soc: Qualcomm SM8150-AC Snapdragon 860
+storage: 128/256 GB
+tree: android_device_xiaomi_vayu
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1]
+width: 76.8 mm (3.02 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
