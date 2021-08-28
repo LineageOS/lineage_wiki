@@ -35,25 +35,25 @@
     <tr>
     {% if device.carrier %}
     <tr>
-      <th scope="col"">Carrier</td>
+      <th scope="col"">Carrier</th>
       <td>{{ device.carrier }}</td>
     </tr>
     {% endif %}
     </tr>
 
     <tr>
-        <th scope="row" colspan="2">Specifications</td>
+        <th scope="row" colspan="2">Specifications</th>
     </tr>
     <tr>
-        <th scope="row">SoC</td>
+        <th scope="row">SoC</th>
         <td>{{ device.soc }}</td>
     </tr>
     <tr>
-        <th scope="row">RAM</td>
+        <th scope="row">RAM</th>
         <td>{{ device.ram }}</td>
     </tr>
     <tr>
-        <th scope="row">CPU</td>
+        <th scope="row">CPU</th>
         <td>
             {% case device.cpu_cores %}
                 {% when '1' %}
@@ -72,7 +72,7 @@
         </td>
     </tr>
     <tr>
-        <th scope="row">Architecture</td>
+        <th scope="row">Architecture</th>
         <td>
             {%- if device.architecture.cpu -%}
             CPU: {{ device.architecture.cpu }}<br/>
@@ -83,12 +83,12 @@
         </td>
     </tr>
     <tr>
-        <th scope="row">GPU</td>
+        <th scope="row">GPU</th>
         <td>{{ device.gpu }}</td>
     </tr>
     {% if device.network != 'None' %}
     <tr>
-        <th scope="row">Network</td>
+        <th scope="row">Network</th>
         <td>
             <ul>
                 {% for el in device.network %}
@@ -99,18 +99,18 @@
     </tr>
     {% endif %}
     <tr>
-        <th scope="row">Storage</td>
+        <th scope="row">Storage</th>
         <td>{{ device.storage }}</td>
     </tr>
     {% if device.sdcard %}
     <tr>
-        <th scope="row">SD card</td>
+        <th scope="row">SD card</th>
         <td>{{ device.sdcard }}</td>
     </tr>
     {% endif %}
     {% if device.screen != 'None' %}
     <tr>
-        <th scope="row">Screen</td>
+        <th scope="row">Screen</th>
         <td>
             {{ device.screen }}<br>
             {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
@@ -120,7 +120,7 @@
     {% endif %}
     {% if device.bluetooth %}
     <tr>
-        <th scope="row">Bluetooth</td>
+        <th scope="row">Bluetooth</th>
         <td>
             {% if device.bluetooth.profiles -%}
                 {{ device.bluetooth.spec }} with {{ device.bluetooth.profiles | join: ', ' }}
@@ -132,13 +132,13 @@
     {% endif %}
     {% if device.wifi %}
     <tr>
-        <th scope="row">Wi-Fi</td>
+        <th scope="row">Wi-Fi</th>
         <td>{{ device.wifi }}</td>
     </tr>
     {% endif %}
     {% if device.peripherals != 'None' %}
     <tr>
-        <th scope="row">Peripherals</td>
+        <th scope="row">Peripherals</th>
         <td>
             {%- if device.peripherals.first.size == 1 %}
                 {%- for model in device.peripherals %}
@@ -158,7 +158,7 @@
     {% endif %}
     {% if device.cameras and device.cameras.size > 0 %}
     <tr>
-        <th scope="row">Cameras</td>
+        <th scope="row">Cameras</th>
         <td>{{ device.cameras | size }}
             <ul>
                 {% for el in device.cameras %}
@@ -177,13 +177,13 @@
     {% endif %}
     {% if device.height and device.width and device.depth %}
     <tr>
-        <th scope="row">Dimensions</td>
+        <th scope="row">Dimensions</th>
         <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
     </tr>
     {% endif %}
     {%- if device.battery != 'None' %}
     <tr>
-        <th scope="row">Battery</td>
+        <th scope="row">Battery</th>
         <td>
             {% if device.battery.first.size == 1 -%}
             {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
@@ -205,10 +205,10 @@
     <!-- lineage info -->
     {% if device.maintainers != empty %}
     <tr>
-        <th scope="row" colspan="2">LineageOS info</td>
+        <th scope="row" colspan="2">LineageOS info</th>
     </tr>
     <tr>
-        <th scope="row">Maintainers</td>
+        <th scope="row">Maintainers</th>
         <td>
             <ul>
                 {% for el in device.maintainers %}
@@ -219,7 +219,7 @@
     </tr>
     {% if device.models %}
     <tr>
-        <th scope="row">Supported models</td>
+        <th scope="row">Supported models</th>
         <td>
             <ul>
             {% for model in device.models %}
@@ -230,7 +230,7 @@
     </tr>
     {% endif %}
     <tr>
-        <th scope="row">Supported versions</td>
+        <th scope="row">Supported versions</th>
         <td>
             <ul>
                 {% for el in device.versions %}
