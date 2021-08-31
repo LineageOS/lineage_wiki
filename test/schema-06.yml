@@ -100,6 +100,7 @@ definitions:
       - Dual front speakers
       - Dual side NFC
       - Dual-frequency GNSS
+      - DP via USB-C
       - Essential Accessories
       - FM radio
       - Fingerprint reader
@@ -497,6 +498,7 @@ properties:
     - Razer
     - Realme
     - Samsung
+    - SHIFT
     - Sony
     - Wileyfox
     - Wingtech
@@ -531,6 +533,7 @@ properties:
     - razer
     - realme
     - samsung
+    - shift
     - sony
     - wileyfox
     - wingtech
