@@ -94,6 +94,7 @@ definitions:
       - Barometer
       - Color spectrum sensor
       - Compass
+      - DP over USB-C
       - Depth Sensor
       - Dot Projector
       - Dual SIM
@@ -497,6 +498,7 @@ properties:
     - Razer
     - Realme
     - Samsung
+    - SHIFT
     - Sony
     - Wileyfox
     - Wingtech
@@ -531,6 +533,7 @@ properties:
     - razer
     - realme
     - samsung
+    - shift
     - sony
     - wileyfox
     - wingtech
