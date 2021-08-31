@@ -497,6 +497,7 @@ properties:
     - Razer
     - Realme
     - Samsung
+    - SHIFT
     - Sony
     - Wileyfox
     - Wingtech
@@ -531,6 +532,7 @@ properties:
     - razer
     - realme
     - samsung
+    - shift
     - sony
     - wileyfox
     - wingtech
