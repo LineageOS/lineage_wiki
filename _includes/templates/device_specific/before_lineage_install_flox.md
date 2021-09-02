@@ -35,7 +35,7 @@ fastboot -w
 fastboot flash recovery <recovery_filename>.img
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
-    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar .. `, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
+    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 8. Now reboot into recovery to verify the installation:
     * {{ device.recovery_boot }}
 9. Click,"Factory Reset", then "Format system partition", then when prompted, select "Yes".
