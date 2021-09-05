@@ -289,6 +289,9 @@ properties:
   download_boot:
     "$id": "/properties/download_boot"
     type: string
+  has_vendor_boot:
+    "$id": "/properties/has_vendor_boot"
+    type: boolean
   format_on_upgrade:
     "$id": "/properties/format_on_upgrade"
     type: boolean
