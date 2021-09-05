@@ -37,6 +37,12 @@ fastboot devices
 ```
 fastboot flash boot <recovery_filename>.img
 ```
+{% if device.vendor_boot %}
+If you would like to have touch functionality for first time install type:
+```
+fastboot flash vendor_boot <vendor_boot_filename>.img
+```
+{% endif %}
     {% include alerts/note.html content="Outdated fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must update `fastboot` to a release newer than or equal to `31.0.2`. Alternatively, you can manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 6. {{ device.recovery_boot }}
