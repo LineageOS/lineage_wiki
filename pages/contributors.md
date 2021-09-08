@@ -66,6 +66,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 | Nolen Johnson | npjohnson |
 | Scott Warner | Tortel |
 | Shane Passmore | h8rift |
+| Timi Rautamäki | trautamaki |
 {: .table }
 
 ### Device maintainers
