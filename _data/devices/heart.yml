@@ -1,0 +1,47 @@
+architecture: arm64
+battery: {removable: False, capacity: 3350, tech: 'Li-Po'}
+before_install: before_install_needs_specific_android_fw
+before_install_args: {version: 10}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual-LED flash (Dual Tone)', info: '24.8 MP (Primary) IMX576'}
+- {flash: 'Dual-LED flash (Dual Tone)', info: '16 MP (Secondary) IMX519'}
+- {flash: '', info: '16 MP (Front Facing Primary) S5K3P9SX'}
+- {flash: '', info: '8 MP (Front Facing Infrared) S5KGD1'}
+codename: heart
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 18.1
+custom_unlock_cmd: fastboot oem unlock-go
+depth: 	8.7 mm (0.34 in)
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 640
+height: 157.5 mm (6.2 in)
+image: heart.png
+install_method: fastboot_lenovo
+install_variant: lenovo_unlock_url
+kernel: android_kernel_lenovo_sm8150
+maintainers: [themard, optionaltoast]
+models: [L78032]
+name: Z5 Pro GT
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+ram: 6/8/12 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
+release: 2019-01-29
+screen: 162.31 mm (6.39 in)
+screen_ppi: 403
+screen_res: 1080x2340
+screen_tech: Super AMOLED HDR10
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 128/256/512 GB
+tree: android_device_lenovo_heart
+type: phone
+vendor: Lenovo
+vendor_short: lenovo
+versions: [18.1]
+width: 73 mm (2.87 in)
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
