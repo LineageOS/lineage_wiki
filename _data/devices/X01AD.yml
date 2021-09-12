@@ -35,7 +35,7 @@ soc: Qualcomm SDM632 Snapdragon 632
 storage: 32/64 GB
 tree: android_device_asus_X01AD
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [18.1]
 width: 76.3 mm (3.00 in)

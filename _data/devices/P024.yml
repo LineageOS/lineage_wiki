@@ -32,7 +32,7 @@ storage: 8/16 GB
 tree: android_device_asus_P024
 type: tablet
 uses_twrp: true
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [14.1]
 wifi: 802.11 b/g/n, Hotspot
