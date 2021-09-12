@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_recovery_install: before_recovery_install_vendor_boot
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '64 MP'}
