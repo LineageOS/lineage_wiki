@@ -34,7 +34,7 @@ storage: 16/32 GB
 tree: android_device_asus_Z00T
 type: phone
 uses_twrp: true
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [14.1, 15.1]
 wifi: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot
