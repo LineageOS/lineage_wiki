@@ -39,7 +39,7 @@ soc: Qualcomm SM8150-AC Snapdragon 855 Plus
 storage: 128/512/1024 GB UFS3.0
 tree: android_device_asus_I001D
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [17.1]
 width: 77.6 mm (3.06 in)

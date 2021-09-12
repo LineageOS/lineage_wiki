@@ -35,7 +35,7 @@ soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.1
 tree: android_device_asus_sake
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_boot_download_link: https://www.yada.com
 vendor_short: asus
 versions: [18.1]

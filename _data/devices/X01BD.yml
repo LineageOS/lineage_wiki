@@ -35,7 +35,7 @@ soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64 GB
 tree: android_device_asus_X01BD
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [16.0, 18.1]
 width: 75.5 mm (2.97 in)
