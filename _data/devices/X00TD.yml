@@ -35,7 +35,7 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 32/64 GB
 tree: android_device_asus_X00TD
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [15.1, 16.0, 18.1]
 width: 76 mm (2.99 in)
