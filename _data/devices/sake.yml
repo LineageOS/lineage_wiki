@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_recovery_install: before_recovery_install_vendor_boot
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '64 MP'}
@@ -35,6 +36,7 @@ storage: 128/256 GB UFS3.1
 tree: android_device_asus_sake
 type: phone
 vendor: ASUS
+vendor_boot_download_link: https://androidfilehost.com/?fid=7161016148664806430
 vendor_short: asus
 versions: [18.1]
 width: 68.5 mm (2.70 in)
