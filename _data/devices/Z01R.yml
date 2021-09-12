@@ -36,7 +36,7 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_asus_Z01R
 type: phone
-vendor: Asus
+vendor: ASUS
 vendor_short: asus
 versions: [17.1, 18.1]
 width: 75.7 mm (2.98 in)
