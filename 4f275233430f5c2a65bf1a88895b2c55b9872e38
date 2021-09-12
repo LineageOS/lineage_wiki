@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f8664d53_f761ce83",
+        "filename": "_includes/templates/device_specific/before_recovery_install_vendor_boot.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-09-12T20:08:16Z",
+      "side": 1,
+      "message": "drop",
+      "range": {
+        "startLine": 8,
+        "startChar": 9,
+        "endLine": 8,
+        "endChar": 10
+      },
+      "revId": "4f275233430f5c2a65bf1a88895b2c55b9872e38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
