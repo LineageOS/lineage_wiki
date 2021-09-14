@@ -140,6 +140,29 @@
     },
     {
       "key": {
+        "uuid": "99e3ad2b_f50af7c9",
+        "filename": "_data/devices/axolotl.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-09-14T08:49:59Z",
+      "side": 1,
+      "message": "mq should be lowercase.  at least that\u0027s how their website has it.",
+      "range": {
+        "startLine": 24,
+        "startChar": 13,
+        "endLine": 24,
+        "endChar": 15
+      },
+      "revId": "25173e58332b11d8c8527ed2ce7aa6f86c5708f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1d273ada_e0a28540",
         "filename": "_data/devices/axolotl.yml",
         "patchSetId": 1
