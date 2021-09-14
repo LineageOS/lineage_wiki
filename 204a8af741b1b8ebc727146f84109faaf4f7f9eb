@@ -22,6 +22,30 @@
       "revId": "204a8af741b1b8ebc727146f84109faaf4f7f9eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "953cadd8_3070b9a9",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2021-09-14T18:41:27Z",
+      "side": 1,
+      "message": "Ack",
+      "parentUuid": "259cff5a_ec61faa2",
+      "range": {
+        "startLine": 32,
+        "startChar": 15,
+        "endLine": 32,
+        "endChar": 16
+      },
+      "revId": "204a8af741b1b8ebc727146f84109faaf4f7f9eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
