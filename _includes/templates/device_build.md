@@ -85,6 +85,13 @@ brunch {{device.codename}}
 
 The build should begin.
 
+{% if device.current_branch < 15 %}
+{% capture flex_workaround %}
+In case the build fails with an error like ``Assertion `cnt < (sizeof (_nl_value_type_LC_TIME) / sizeof (_nl_value_type_LC_TIME[0]))' failed.``, type `export LC_ALL=C` and start the build again.
+{% endcapture %}
+{% include alerts/tip.html content=flex_workaround %}
+{% endif %}
+
 {% capture signing_builds %}
 Want to learn how to sign your own builds? Take a look at [Signing builds]({{ "signing_builds.html" | relative_url }}).
 {% endcapture %}
