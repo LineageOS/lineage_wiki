@@ -26,7 +26,7 @@ models: [H3213, H4213, H4233, H3223]
 name: Xperia XA2 Ultra
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
-ram: 4 GB
+ram: 3 GB or 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-02
 screen: 152.4 mm (6 in)
@@ -35,7 +35,7 @@ screen_res: 1080x1920
 screen_tech: IPS LCD
 sdcard: up to 256 GB
 soc: Qualcomm SDM630 Snapdragon 630
-storage: 32 GB
+storage: 32 GB or 64 GB
 tree: android_device_sony_discovery
 type: phone
 vendor: Sony
