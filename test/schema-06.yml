@@ -398,7 +398,7 @@ properties:
     type: boolean
   kernel:
     "$id": "/properties/kernel"
-    pattern: ^android_kernel(_\w*){2}(-?[\d\.]*)?(-common)?$
+    pattern: ^android_kernel(_\w*){2}(-?[\d\.]*)?(-common)?(.*)?$ 
     type: string
   maintainers:
     "$id": "/properties/maintainers"
