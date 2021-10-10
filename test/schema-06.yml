@@ -230,6 +230,7 @@ properties:
     - Cortex-A73 & Cortex-A53
     - Cortex-A9
     - Denver
+    - Denver 2 & Cortex-A57
     - Exynos M1 & Cortex-A53
     - Exynos M3 & Cortex-A55
     - Exynos M4 & Cortex-A75 & Cortex-A55
@@ -351,6 +352,7 @@ properties:
     - Adreno 690
     - GK20A (Kepler)
     - GM20B (Maxwell)
+    - GP10B (Pascal)
     - NVIDIA Kepler DX1 192-core
     - NVIDIA Maxwell 256-core
     - PowerVR G6430
