@@ -218,6 +218,7 @@ properties:
   cpu:
     "$id": "/properties/cpu"
     enum:
+    - Carmel
     - Cortex-A15
     - Cortex-A15 & Cortex-A7
     - Cortex-A53
@@ -353,6 +354,7 @@ properties:
     - GK20A (Kepler)
     - GM20B (Maxwell)
     - GP10B (Pascal)
+    - GV10B (Volta)
     - NVIDIA Kepler DX1 192-core
     - NVIDIA Maxwell 256-core
     - PowerVR G6430
