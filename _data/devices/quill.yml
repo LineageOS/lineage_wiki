@@ -1,0 +1,36 @@
+architecture: arm64
+battery: None
+bluetooth: {spec: '4.1'}
+cameras: []
+codename: quill
+cpu: Denver2+Cortex-A57
+cpu_cores: '2+4'
+cpu_freq: 2.0 GHz
+current_branch: 17.1
+gpu: GP10B (Pascal)
+image: foster.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+maintainers: [webgeek1234]
+models: [quill, lanai]
+name: Jetson TX2
+no_oem_unlock_switch: true
+peripherals: None
+ram: 4/8 GB
+recovery_boot: For TX2 Devkit - With the device off, press the frc rec button, then tap power. Release frc rec once apx enumerates.
+  For TX2 NX - With the device unplugged, jump the frc rec pin, then plug in. Remove the jumper once apx enumerates.
+release: 2017-03-14
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+sdcard:
+soc: Nvidia Tegra X2 (T186)
+storage: 16 GB/Sdcard
+tree: android_device_nvidia_quill
+type: Devkit
+vendor: Nvidia
+vendor_short: nvidia
+versions: [17.1]
+wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
