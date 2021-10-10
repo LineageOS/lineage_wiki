@@ -186,6 +186,7 @@ properties:
       spec:
         description: Bluetooth specification
         enum:
+        - None
         - '1.0'
         - '1.0B'
         - '1.1'
@@ -466,6 +467,7 @@ properties:
   type:
     "$id": "/properties/type"
     enum:
+    - Devkit
     - Handheld game console
     - Set top box
     - phone
