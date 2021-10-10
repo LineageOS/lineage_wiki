@@ -465,6 +465,7 @@ properties:
   type:
     "$id": "/properties/type"
     enum:
+    - Devkit
     - Handheld game console
     - Set top box
     - phone
