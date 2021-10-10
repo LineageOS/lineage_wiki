@@ -1,0 +1,41 @@
+architecture: arm64
+battery: None
+bluetooth: {spec: None}
+cameras: []
+codename: galen
+cpu: Carmel
+cpu_cores: '8'
+cpu_freq: 2.26 GHz
+current_branch: 17.1
+dimensions: none
+download_boot: For AGX Xavier Devkit - With the device off, press the <kbd>FRC REC</kbd> button, then tap <kbd>POWER</kbd>. Release <kbd>FRC REC</kbd> once apx enumerates. For Xavier NX Devkit - With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
+flash_download_instructions: For AGX Xavier Devkit, It will be named `p2972_flash_package.tar.xz`. For Xavier NX Devkit, It will be named `p3518_flash_package.tar.xz`.
+flash_extract_instructions: For AGX Xavier Devkit, `tar -xvf p2972_flash_package.tar.xz`. For Xavier NX Devkit, `tar -xvf p3518_flash_package.tar.xz`.
+gpu: NVIDIA GV11B (Volta)
+image: galen.png
+install_method: apx
+is_ab_device: true
+kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
+maintainers: []
+models: [galen, rey]
+name: Jetson (AGX Xavier / Xavier NX) [Android TV]
+no_oem_unlock_switch: true
+note_content: Odd Solutions builds for this device don't exist, I'm hosting this as a favor to webgeek1234. Builds for this device will live [here](https://www.androidfilehost.com/?w=files&flid=324099), the instructions are still valid.
+note_title: Build download location
+peripherals: None
+ram: 8/16/32 GB
+recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
+release: 2018-10-01
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+sdcard:
+soc: NVIDIA Tegra Xavier (T194)
+storage: 16 GB/Sdcard
+tree: android_device_nvidia_galen
+type: Devkit
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [17.1]
+wifi: None
