@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "cd8b4e62_2cc7be61",
+        "filename": "_data/devices/mdarcy.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-10-11T08:20:08Z",
+      "side": 1,
+      "message": "this will be first time mdarcy is getting official builds, so it should only have 17.1 here",
+      "range": {
+        "startLine": 37,
+        "startChar": 11,
+        "endLine": 37,
+        "endChar": 22
+      },
+      "revId": "e4746d7ad038114e34fb10327f9ea61337c87120",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
