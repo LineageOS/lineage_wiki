@@ -370,6 +370,7 @@ properties:
   install_method:
     "$id": "/properties/install_method"
     enum:
+    - apx
     - dd
     - edl_custom
     - fastboot_custom
