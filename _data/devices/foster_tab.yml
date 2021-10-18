@@ -3,7 +3,7 @@ battery: None
 before_install: before_install_foster
 bluetooth: {spec: '4.1'}
 cameras: []
-codename: foster
+codename: foster_tab
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
@@ -16,7 +16,7 @@ install_method: fastboot_nexus
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
 models: [darcy, foster_e, foster_e_hdd, jetson_cv]
-name: Shield TV (2015 / 2015 Pro / 2017) / Jetson TX1 [Android TV]
+name: SHIELD TV (2015 / 2015 Pro / 2017) [Tablet]
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
@@ -32,7 +32,7 @@ sdcard: up to 128 GB
 soc: Nvidia Tegra X1 (T210)
 storage: 16 GB / 500 GB
 tree: android_device_nvidia_foster
-type: Set top box
+type: Tablet
 vendor: Nvidia
 vendor_short: nvidia
 versions: [14.1, 15.1, 17.1]
