@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a6413229_61b0acf3",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 9392
+      },
+      "writtenOn": "2021-10-21T09:39:42Z",
+      "side": 1,
+      "message": "\"Update Xperia XZ2/3 maintainers\" or \"update tama maintainers\"?",
+      "range": {
+        "startLine": 7,
+        "startChar": 9,
+        "endLine": 7,
+        "endChar": 74
+      },
+      "revId": "299e583a5dd7c2d8113fcf6d0cd64a412aebbb74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
