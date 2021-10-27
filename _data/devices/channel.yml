@@ -32,7 +32,7 @@ screen_ppi: '294'
 screen_res: 720x1512
 screen_tech: TFT IPS LCD
 sdcard: Up to 1 TB
-soc: Qualcomm MSM8953 Snapdragon 632
+soc: Qualcomm SDM632 Snapdragon 632
 storage: 32 GB
 tree: android_device_motorola_channel
 type: phone

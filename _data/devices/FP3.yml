@@ -32,7 +32,7 @@ screen_ppi: 427
 screen_res: 2160x1080
 screen_tech: LCD IPS Touchscreen
 sdcard: up to 400 GB
-soc: Qualcomm MSM8953 Snapdragon 632
+soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 tree: android_device_fairphone_FP3
 type: phone

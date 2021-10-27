@@ -30,7 +30,7 @@ screen_ppi: 269
 screen_res: 1520x720
 screen_tech: IPS LCD
 sdcard: up to 512 GB
-soc: Qualcomm MSM8953 Snapdragon 632
+soc: Qualcomm SDM632 Snapdragon 632
 storage: 16/32 GB
 tree: android_device_xiaomi_onclite
 type: phone
