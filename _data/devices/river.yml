@@ -37,7 +37,6 @@ soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 tree: android_device_motorola_river
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [16.0, 17.1, 18.1]
