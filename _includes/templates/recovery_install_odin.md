@@ -32,8 +32,13 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 {% if device.custom_recovery_link %}
 2. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {% else %}
+{% if device.uses_twrp %}
 2. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.tar`.
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
+{% else %}
+2. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`
+3. Now, rename the downloaded image to "recovery.img", open a PowerShell and TAR the file by running `tar -cvzf recovery.tar C:\Users\%USERNAME%\Downloads/recovery.img`.
+{% endif %}
 {% endif %}
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
