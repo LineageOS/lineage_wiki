@@ -22,6 +22,29 @@
       "revId": "550eb98486f9ae22755fddd4bd0aa62917c468cf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e91bb6e9_3e98dc7f",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2021-11-03T13:43:31Z",
+      "side": 1,
+      "message": "Worth adding a tip that the path is dependent on where the recovery was downloaded?",
+      "range": {
+        "startLine": 40,
+        "startChar": 116,
+        "endLine": 40,
+        "endChar": 189
+      },
+      "revId": "550eb98486f9ae22755fddd4bd0aa62917c468cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
