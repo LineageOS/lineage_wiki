@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "128a55d0_e68afbaf",
+        "filename": "_includes/templates/recovery_install_odin.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2021-11-03T13:40:13Z",
+      "side": 1,
+      "message": "The \"now\" is a bit superfluous and not in line with the language we normally use for step-by-step instructions",
+      "range": {
+        "startLine": 40,
+        "startChar": 3,
+        "endLine": 40,
+        "endChar": 8
+      },
+      "revId": "550eb98486f9ae22755fddd4bd0aa62917c468cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
