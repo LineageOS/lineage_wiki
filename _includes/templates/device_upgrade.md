@@ -24,7 +24,7 @@ Follow your [device's installation guide]({{ "devices/" | append: device.codenam
 {%- for version in device.versions %}
 {%- if version < 17.1 %}
 {%- capture devOptions -%}
-Additionally, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`'
+Additionally, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
 {%- endcapture -%}
 {%- break %}
 {%- endif %}
