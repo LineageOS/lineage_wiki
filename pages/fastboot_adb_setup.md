@@ -38,7 +38,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 ### On macOS
 1. Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
-3. Add the following to `~/.bash_profile`:
+3. Add the following to `~/.bash_profile` if you are using Bash or `~/.zshenv` if you are using Z shell:
 ```sh
 if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
     export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
