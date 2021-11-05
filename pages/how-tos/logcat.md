@@ -27,13 +27,3 @@ If you don't have it installed, please do that before continuing.
 3. Type `adb logcat -d > logcat.txt`. This will save the log to `logcat.txt`.
 
    Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `adb logcat -db radio > radio.txt` to save it to `radio.txt`.
-
-### On your device
-
-{% include alerts/note.html content="This method requires that your device is [rooted](https://download.lineageos.org/extras), which is only officially supported up through LineageOS 16.0, users of 17.1 or above will need to use a computer." %}
-
-1. Open the Terminal app (you can enable the built-in terminal app in **Developer options**).
-2. Type `su` and confirm root access - you may have to turn on root access for apps in **Developer options**.
-3. Type `logcat -d -f /sdcard/logcat.txt`. This will save the log to `/sdcard/logcat.txt`.
-
-   Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `logcat -db radio -f /sdcard/radio.txt` to save it to `/sdcard/radio.txt`.
