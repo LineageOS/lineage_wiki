@@ -23,8 +23,8 @@ Follow your [device's installation guide]({{ "devices/" | append: device.codenam
 
 {%- for version in device.versions %}
 {%- if version < 17.1 %}
-{%- capture devOptions -%}
-Additionally if you are on LineageOS 16.0 or below, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
+{%- capture adbRoot -%}
+3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally if you are on LineageOS 16.0 or below, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
 {%- endcapture -%}
 {%- break %}
 {%- endif %}
@@ -39,43 +39,43 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- endif %}
     * Optionally, download an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. {{ devOptions }}
+{{ adbRoot }}
 {%- if device.format_on_upgrade %}
-4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
+3. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
     * {{ device.recovery_boot }}
-5. Wipe your data partition (this is usually named "Wipe", or "Format")
+4. Wipe your data partition (this is usually named "Wipe", or "Format")
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
 {%- if device.uses_twrp != true %}
-6. Click `Advanced`, then `Enable ADB`.
+5. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
 {%- endif %}
-4. Run `adb reboot sideload`.
+3. Run `adb reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
-5. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
+4. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
 {%- if device.is_ab_device and device.uses_twrp %}
-6. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
+5. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
 {%- elsif device.is_ab_device %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+5. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {%- elsif device.uses_twrp %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
+5. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
 {%- else %}
-6. _(Optionally)_: If you want to install any add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+5. _(Optionally)_: If you want to install any add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
 {%- endif %}
     {% include alerts/note.html content="If you previously had any Google Apps add-on package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 
 {% if device.current_branch >= 17.1 %}
 {% if device.uses_twrp and device.is_ab_device != true %}
-7. Once you have installed everything successfully, run `adb reboot`.
+6. Once you have installed everything successfully, run `adb reboot`.
 {% else %}
-7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+6. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 {% else %}
 {% if device.uses_twrp and device.is_ab_device != true %}
-7. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-8. Once you have installed everything successfully, run `adb reboot`.
+6. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+7. Once you have installed everything successfully, run `adb reboot`.
 {% else %}
-9. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-10. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
+9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
 {% endif %}
 
