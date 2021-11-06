@@ -18,6 +18,11 @@
 {% endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+{%- if device.needs_fastbootd %}
+```
+adb reboot fastboot
+```
+{% else %}
 ```
 adb reboot bootloader
 ```
@@ -26,6 +31,7 @@ adb reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
+{% endif -%}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
@@ -46,5 +52,12 @@ fastboot flash recovery <recovery_filename>.img
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
     {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}    
 6. Now reboot into recovery to verify the installation:
+{%- if device.needs_fastbootd %}
+```
+fastboot reboot fastboot
+```
+7. Select "Enter Recovery"
+{% else %}
     * {{ device.recovery_boot }}
+{% endif -%}
 {% endif %}

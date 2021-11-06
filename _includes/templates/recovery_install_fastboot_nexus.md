@@ -1,5 +1,7 @@
 {%- assign device = site.data.devices[page.device] -%}
 
+
+{% unless device.is_unlockable == false %}
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
@@ -11,14 +13,17 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% endunless %}
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-```
-adb reboot bootloader
-```
-    {% if device.download_boot %}
+
+    ```
+    adb reboot bootloader
+    ```
+{% unless device.needs_fastbootd %}
+{% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
 
     * {{ device.download_boot }}
-    {% endif %}
+{% endif %}
+{% endunless %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
@@ -38,6 +43,8 @@ fastboot oem unlock
     {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed." %}
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
+
+{% endunless %}
 
 {% if device.before_recovery_install %}
 {% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
