@@ -22,6 +22,24 @@
       },
       "revId": "06b14894e5d9a6f31ad0efccff52eef807458997",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74d13dc7_a520eb9d",
+        "filename": "pages/gapps.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2021-11-11T06:19:58Z",
+      "side": 1,
+      "message": "\u003e maybe lets not take shots across the bow?\n \u003e \n \u003e How about \"Open GApps is a rolling-release solution, meaning it is perpetually changing, and not guaranteed to be fully functional.\"\n\nIt\u0027s not a shot across the bow, it\u0027s a cold statement of fact. Most rolling release actually attempt to verify that the changes function. Opengapps do not, and does not care to after attempting engagement over the years. The better option is really to \"find\" a functioning gapps for shipping branches and remove any recommendations for opengapps in the wiki until/unless they change practices.",
+      "parentUuid": "0af13871_d08cd67d",
+      "revId": "06b14894e5d9a6f31ad0efccff52eef807458997",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
