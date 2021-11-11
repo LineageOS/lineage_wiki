@@ -40,6 +40,30 @@
       "parentUuid": "0af13871_d08cd67d",
       "revId": "06b14894e5d9a6f31ad0efccff52eef807458997",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f807ec53_4b980edc",
+        "filename": "pages/gapps.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-11-11T17:01:27Z",
+      "side": 1,
+      "message": "I\u0027d lean more towards MTG only, then OpenGApps with a warning tbh",
+      "parentUuid": "74d13dc7_a520eb9d",
+      "range": {
+        "startLine": 22,
+        "startChar": 40,
+        "endLine": 22,
+        "endChar": 93
+      },
+      "revId": "06b14894e5d9a6f31ad0efccff52eef807458997",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
