@@ -19,6 +19,10 @@ These packages are only dependent on your OS version and architecture, which can
 
 ### Mobile
 
+{% include alerts/warning.html content="Open GApps is quite often broken. You've been warned." %}
+
+{% include alerts/note.html content="If you opt to use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps. We only recommend package sizes up through `nano`, as described in [Open GApps Package Comparison](https://github.com/opengapps/opengapps/wiki/Package-Comparison). If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents." %}
+
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
 |Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=11.0&variant=nano)|
@@ -29,7 +33,6 @@ These packages are only dependent on your OS version and architecture, which can
 |Lineage 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=nano)|
 {: .table }
 
-{% include alerts/note.html content="If you opt to use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps. We only recommend package sizes up through `nano`, as described in [Open GApps Package Comparison](https://github.com/opengapps/opengapps/wiki/Package-Comparison). If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents." %}
 
 ### Android TV
 
