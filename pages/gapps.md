@@ -17,6 +17,8 @@ The Google apps packages are **not supported** in any way by LineageOS.
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview]({{ "devices/" | relative_url }})).
 
+{% include alerts/warning.html content="Open GApps is quite often broken. You've been warned." %}
+
 ### Mobile
 
 |Version                   |Link                                                   |
