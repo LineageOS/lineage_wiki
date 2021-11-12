@@ -11,10 +11,9 @@ cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
 current_branch: 18.1
-depth: 7.0 mm (0.28 in)
+dimensions: {width: '154.3 mm (6.07 in)', height: '244.5 mm (9.63 in)', depth: '7.0 mm (0.28 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G72 MP3
-height: 244.5 mm (9.63 in)
 image: gta4xlwifi.png
 install_method: heimdall
 kernel: android_kernel_samsung_gta4xl
@@ -34,5 +33,4 @@ type: tablet
 vendor: Samsung
 vendor_short: samsung
 versions: [17.1, 18.1]
-width: 154.3 mm (6.07 in)
 wifi: 802.11 a/b/g/n/ac

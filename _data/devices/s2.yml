@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.8 GHz
 current_branch: 17.1
 custom_unlock_cmd: 'fastboot oem unlock-go'
-depth: 7.5 mm (0.3 in)
+dimensions: {width: '74.2 mm (2.9 in)', height: '151.1 mm (5.9 in)', depth: '7.5 mm (0.3 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 510
-height: 151.1 mm (5.9 in)
 image: s2.png
 install_method: fastboot_nexus
 kernel: android_kernel_leeco_msm8976
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: LeEco
 vendor_short: leeco
 versions: [13.0, 14.1, 15.1, 16.0, 17.1]
-width: 74.2 mm (2.9 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

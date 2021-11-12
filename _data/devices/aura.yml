@@ -11,10 +11,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 18.1
 custom_unlock_cmd: 'fastboot flashing unlock'
-depth: 8.5 mm (0.33 in)
+dimensions: {width: '79 mm (3.11 in)', height: '158.5 mm (6.24 in)', depth: '8.5 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 630
-height: 158.5 mm (6.24 in)
 image: aura.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -35,5 +34,4 @@ type: phone
 vendor: Razer
 vendor_short: razer
 versions: [18.1]
-width: 79 mm (3.11 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

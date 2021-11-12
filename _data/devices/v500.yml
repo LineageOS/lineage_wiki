@@ -9,10 +9,9 @@ cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth: 8.3 mm (0.33 in)
+dimensions: {width: '126.5 mm (4.98 in)', height: '216.8 mm (8.54 in)', depth: '8.3 mm (0.33 in)'}
 download_boot: ''
 gpu: Adreno 320
-height: 216.8 mm (8.54 in)
 image: v500.png
 install_method: dd
 kernel: android_kernel_lge_v500
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 126.5 mm (4.98 in)
 wifi: 802.11 a/b/g/n (2.4/5 GHz)

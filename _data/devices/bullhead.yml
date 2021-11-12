@@ -10,10 +10,9 @@ cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 15.1
 custom_unlock_cmd: 'fastboot flashing unlock'
-depth: 7.9 mm (0.31 in)
+dimensions: {width: '72.6 mm (2.86 in)', height: '147 mm (5.79 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 418
-height: 147 mm (5.79 in)
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead
@@ -34,5 +33,4 @@ uses_twrp: true
 vendor: Google
 vendor_short: lge
 versions: [14.1, 15.1]
-width: 72.6 mm (2.86 in)
 wifi: Wi-Fi 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

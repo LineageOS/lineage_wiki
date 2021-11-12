@@ -29,6 +29,23 @@ definitions:
     - capacity
     - removable
     type: object
+  dimension_data:
+    description: The format required for device dimensions
+    properties:
+      width:
+        description: Device width
+        "$ref": "#/definitions/dimension_string"
+      height:
+        description: Device height
+        "$ref": "#/definitions/dimension_string"
+      depth:
+        description: Device depth
+        "$ref": "#/definitions/dimension_string"
+    required:
+    - width
+    - height
+    - depth
+    type: object
   dimension_string:
     pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
     type: string
@@ -310,9 +327,22 @@ properties:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
     type: string
-  depth:
-    "$id": "/properties/depth"
-    "$ref": "#/definitions/valid_dimension"
+  dimensions:
+    "$id": "/properties/dimensions"
+    oneOf:
+    - "$ref": "#/definitions/dimension_data"
+    - description: Array of maps of model numbers to device dimensions
+      examples:
+      - SM-9000A: {width: '127 mm (5 in)', height: '127 mm (5 in)', depth: '127 mm (5 in)'}
+      - SM-9000B: {width: '127 mm (5 in)', height: '127 mm (5 in)', depth: '127 mm (5 in)'}
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/dimension_data"
+        description: Map of model number to device dimensions
+        type: object
+      type: array
+    - enum:
+      - None
   download_boot:
     "$id": "/properties/download_boot"
     type: string
@@ -387,9 +417,6 @@ properties:
   has_recovery_partition:
     "$id": "/properties/has_recovery_partition"
     type: boolean
-  height:
-    "$id": "/properties/height"
-    "$ref": "#/definitions/valid_dimension"
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -588,9 +615,6 @@ properties:
       "$ref": "#/definitions/valid_branches"
     minItems: 1
     type: array
-  width:
-    "$id": "/properties/width"
-    "$ref": "#/definitions/valid_dimension"
 required:
 - architecture
 - battery
@@ -600,6 +624,7 @@ required:
 - cpu_cores
 - cpu_freq
 - current_branch
+- dimensions
 - gpu
 - image
 - install_method
