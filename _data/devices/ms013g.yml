@@ -27,10 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
   When the blue text appears, release the buttons.
 release: 2013-11-25
 required_bootloader: ['SM-G7102 = G7102DDSBQF1']
-screen: 133.3 mm (5.25 in)
-screen_ppi: 280
-screen_res: 1280x720
-screen_tech: TFT capacitive touchscreen
+screen: {size: '133.3 mm (5.25 in)', density: '280', resolution: '1280x720', technology: 'TFT'}
 sdcard: up to 64 GB
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB

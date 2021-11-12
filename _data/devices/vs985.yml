@@ -30,10 +30,7 @@ recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-06
 required_bootloader: ['VS98510B', 'VS98512B']
 root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
-screen: 139.7 mm (5.5 in)
-screen_ppi: '538'
-screen_res: 2560x1440
-screen_tech: True HD-IPS LCD
+screen: {size: '139.7 mm (5.5 in)', density: '538', resolution: '2560x1440', technology: 'True HD-IPS LCD'}
 sdcard: up to 256 GB
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB

@@ -34,10 +34,7 @@ release:
 - Poco F3: 2021-03
 - Redmi K40: 2021-02
 - Mi 11X: 2021-04
-screen: 169.4 mm (6.67 in)
-screen_ppi: 395
-screen_res: 1080x2400
-screen_tech: 120Hz Super AMOLED
+screen: {size: '169.4 mm (6.67 in)', density: '395', resolution: '1080x2400', technology: '120Hz Super AMOLED'}
 sdcard:
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB

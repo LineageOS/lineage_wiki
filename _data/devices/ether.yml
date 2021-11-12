@@ -25,10 +25,7 @@ peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall 
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-02
-screen: 132 mm (5.2 in)
-screen_ppi: '424'
-screen_res: 1080x1920
-screen_tech: IPS LCD, Gorilla Glass 4
+screen: {size: '132 mm (5.2 in)', density: '424', resolution: '1080x1920', technology: 'IPS LCD, Gorilla Glass 4'}
 sdcard:
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB

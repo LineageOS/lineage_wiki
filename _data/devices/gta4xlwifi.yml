@@ -25,10 +25,7 @@ peripherals: [Accelerometer, GPS, Gyroscope]
 ram: 4 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2020-04-02
-screen: 264.16 mm (10.4 in)
-screen_ppi: 224
-screen_res: 1200 x 2000
-screen_tech: TFT
+screen: {size: '264.16 mm (10.4 in)', density: '224', resolution: '1200x2000', technology: 'TFT'}
 sdcard: up to 1TB
 soc: Samsung Exynos 9611
 storage: 64/128 GB

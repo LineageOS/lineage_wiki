@@ -27,10 +27,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2019-03
-screen: 144.78 mm (5.7 in)
-screen_ppi: '294'
-screen_res: 720x1512
-screen_tech: TFT IPS LCD
+screen: {size: '144.78 mm (5.7 in)', density: '294', resolution: '720x1512', technology: 'TFT IPS LCD'}
 sdcard: Up to 1 TB
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32 GB

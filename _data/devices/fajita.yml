@@ -28,10 +28,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, BeiDo
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-11
-screen: 162.814 mm (6.41 in)
-screen_ppi: '402'
-screen_res: 1080x2340
-screen_tech: Optic AMOLED
+screen: {size: '162.814 mm (6.41 in)', density: '402', resolution: '1080x2340', technology: 'Optic AMOLED'}
 sdcard:
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128/256 GB UFS2.1

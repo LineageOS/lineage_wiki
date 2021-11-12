@@ -32,10 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release:
 - Mi 10T / Mi 10T Pro: 2020-10
 - Redmi K30S Ultra: 2020-11
-screen: 169.4 mm (6.67 in)
-screen_ppi: 395
-screen_res: 1080x2400
-screen_tech: 144Hz IPS LCD
+screen: {size: '169.4 mm (6.67 in)', density: '395', resolution: '1080x2400', technology: '144Hz IPS LCD'}
 sdcard:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
