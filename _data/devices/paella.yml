@@ -10,10 +10,9 @@ cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
 custom_recovery_codename: piccolometal
-depth: 7.5 mm (0.3 in)
+dimensions: {width: '70.5 mm (2.78 in)', height: '144.4 mm (5.69 in)', depth: '7.5 mm (0.3 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
-height: 144.4 mm (5.69 in)
 image: paella.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
@@ -34,5 +33,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [13.0, 14.1]
-width: 70.5 mm (2.78 in)
 wifi: 802.11 b/g/n, Hotspot

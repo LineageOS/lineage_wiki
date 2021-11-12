@@ -10,11 +10,10 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922694
-depth: 7.8 mm (0.31 in)
+dimensions: {width: '82 mm (3.23 in)', height: '158 mm (6.22 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
 gpu: Adreno 405
-height: 158 mm (6.22 in)
 image: r7plus.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8939
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1, 15.1, 16.0]
-width: 82 mm (3.23 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band

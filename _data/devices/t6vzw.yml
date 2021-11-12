@@ -10,11 +10,10 @@ cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-depth: 10.29 mm (0.41 in)
+dimensions: {width: '82.5 mm (3.25 in)', height: '164.5 mm (6.48 in)', depth: '10.29 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Adreno 320
-height: 164.5 mm (6.48 in)
 image: t6.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8960
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: HTC
 vendor_short: htc
 versions: [14.1]
-width: 82.5 mm (3.25 in)
 wifi: 802.11 a/b/g/n/ac 2.4/5GHz

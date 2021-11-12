@@ -9,6 +9,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 305
 image: nicki.png

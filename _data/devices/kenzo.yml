@@ -9,11 +9,10 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
-depth: 8.7 mm (0.34 in)
+dimensions: {width: '76 mm (2.99 in)', height: '150 mm (5.91 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 510
-height: 150 mm (5.91 in)
 image: kenzo.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8956
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac
