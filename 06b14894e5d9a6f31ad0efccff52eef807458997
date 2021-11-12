@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad31487c_d7fa976a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-11-12T15:33:53Z",
+      "side": 1,
+      "message": "Made the following change as a different proposal to the issue at hand\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/318901",
+      "revId": "06b14894e5d9a6f31ad0efccff52eef807458997",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0af13871_d08cd67d",
