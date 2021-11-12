@@ -32,11 +32,8 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-04
 screen:
-- Tab 2 7.0: 177.8 mm (7 in)
-- Tab 2 10.1: 256.5 mm (10.1 in)
-screen_ppi: 170 / 149
-screen_res: 600x1024 / 800x1280
-screen_tech: PLS LCD / PLS TFT
+- Tab 2 7.0: {size: '177.8 mm (7 in)', density: '170', resolution: '600x1024', technology: 'PLS LCD'}
+- Tab 2 10.1: {size: '256.5 mm (10.1 in)', density: '149', resolution: '800x1280', technology: 'PLS TFT'}
 sdcard: up to 32 GB
 soc: TI OMAP4430
 storage: 8/16/32 GB

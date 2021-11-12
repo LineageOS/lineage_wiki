@@ -25,10 +25,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-03-13
-screen: 160.02 mm (6.3 in)
-screen_ppi: 409
-screen_res: 2340x1080
-screen_tech: IPS LCD
+screen: {size: '160.02 mm (6.3 in)', density: '409', resolution: '2340x1080', technology: 'IPS LCD'}
 sdcard: up to 256GB
 soc: Qualcomm sm6150 Snapdragon 675
 storage: 64/128 GB

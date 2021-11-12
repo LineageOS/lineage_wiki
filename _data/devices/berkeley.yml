@@ -25,10 +25,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-01
-screen: 152 mm (5.99 in)
-screen_ppi: '403'
-screen_res: 1080x2160
-screen_tech: IPS LCD
+screen: {size: '152 mm (5.99 in)', density: '403', resolution: '1080x2160', technology: 'IPS LCD'}
 sdcard: up to 256 GB
 soc: HiSilicon Kirin 970
 storage: 64/128 GB

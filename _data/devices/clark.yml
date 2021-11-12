@@ -22,10 +22,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2015-09
-screen: 145 mm (5.7 in)
-screen_ppi: '520'
-screen_res: 1440x2560
-screen_tech: IPS TFT LCD
+screen: {size: '145 mm (5.7 in)', density: '520', resolution: '1440x2560', technology: 'IPS TFT LCD'}
 sdcard: up to 128 GB
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32/64 GB

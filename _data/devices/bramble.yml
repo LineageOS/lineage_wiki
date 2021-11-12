@@ -28,10 +28,7 @@ peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONA
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2020-10
-screen: 160 mm (6.2 in)
-screen_ppi: 413
-screen_res: 2340x1080
-screen_tech: AMOLED
+screen: {size: '160 mm (6.2 in)', density: '413', resolution: '2340x1080', technology: 'AMOLED'}
 sdcard:
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128 GB

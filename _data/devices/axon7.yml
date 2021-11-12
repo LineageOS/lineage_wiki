@@ -24,10 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB LPDDR4 (Standard edition) / 6 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-06
-screen: 139.7 mm (5.5 in)
-screen_ppi: '538'
-screen_res: 2560x1440
-screen_tech: AMOLED
+screen: {size: '139.7 mm (5.5 in)', density: '538', resolution: '2560x1440', technology: 'AMOLED'}
 sdcard: up to 256 GB (SIM 2 slot)
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)

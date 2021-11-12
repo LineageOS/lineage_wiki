@@ -29,10 +29,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Release  <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
 release: 2018-12
-screen: 143.5 mm (5.65 in)
-screen_ppi: '420'
-screen_res: 1080x2160
-screen_tech: IPS LCD
+screen: {size: '143.5 mm (5.65 in)', density: '420', resolution: '1080x2160', technology: 'IPS LCD'}
 sdcard:
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB

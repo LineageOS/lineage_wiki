@@ -112,19 +112,19 @@
     <tr>
         <th scope="row">Screen</th>
         <td>
-            {%- if device.screen.first %}
-              {%- for screen in device.screen %}
-                {{ screen.first[0] }}: {{ screen.first[1] }}<br/>
-                {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
-                {{ device.screen_tech }}
-                {%- unless forloop.last %}
-                <br/>
-                {%- endunless %}
-              {%- endfor %}
+            {%- if device.screen.first.size == 1 %}
+              {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
+              {%- for model in device.screen %}
+                {%- assign modelname = model.first[0] %}
+                {%- assign screen_data = model.first[1] %}
+                {%- include snippets/screen.html %}
+                {%- unless forloop.last -%}
+                <br/><br/>
+                {%- endunless -%}
+              {% endfor -%}
             {%- else %}
-                {{ device.screen }}<br/>
-                {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
-                {{ device.screen_tech }}
+                {%- assign screen_data = device.screen %}
+                {%- include snippets/screen.html %}
             {%- endif %}
         </td>
     </tr>

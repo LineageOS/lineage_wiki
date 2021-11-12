@@ -24,10 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2018-05
-screen: 152.4 mm (6 in)
-screen_ppi: 268
-screen_res: 1440x720
-screen_tech: IPS LCD
+screen: {size: '152.4 mm (6 in)', density: '268', resolution: '1440x720', technology: 'IPS LCD'}
 sdcard: up to 256 GB
 soc: Qualcomm MSM8940 Snapdragon 435
 storage: 32 GB

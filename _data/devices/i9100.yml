@@ -23,10 +23,7 @@ peripherals: None
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2011-02-11
-screen: 109 mm (4.3 in)
-screen_ppi: 222
-screen_res: 800x480
-screen_tech:
+screen: {size: '109 mm (4.3 in)', density: '222', resolution: '800x480', technology: 'None'}
 sdcard: up to 32 GB
 soc: Samsung Exynos 4210
 storage: 16/32 GB

@@ -30,10 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release:
 - A3000: 2016-06
 - A3003: 2016-10
-screen: 139.7 mm (5.5 in)
-screen_ppi: '401'
-screen_res: 1080x1920
-screen_tech: Optic AMOLED
+screen: {size: '139.7 mm (5.5 in)', density: '401', resolution: '1080x1920', technology: 'Optic AMOLED'}
 sdcard:
 soc: Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (3T)
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)

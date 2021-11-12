@@ -24,10 +24,7 @@ peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sens
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 release: 2013-04
-screen: 116 mm (4.6 in)
-screen_ppi: '323'
-screen_res: 720x1280
-screen_tech: TFT
+screen: {size: '116 mm (4.6 in)', density: '323', resolution: '720x1280', technology: 'TFT'}
 sdcard: officially up to 32 GB
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 8 GB

@@ -25,10 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2012-11-13
-screen: 119 mm (4.7 in)
-screen_ppi: '320'
-screen_res: 1280x768
-screen_tech: IPS LCD
+screen: {size: '119 mm (4.7 in)', density: '320', resolution: '1280x768', technology: 'IPS LCD'}
 sdcard:
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 8/16 GB

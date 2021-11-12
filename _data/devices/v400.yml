@@ -26,10 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume 
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-07
 root_method: [towelroot]
-screen: 178 mm (7.0 in)
-screen_ppi: 216
-screen_res: 1280x800
-screen_tech: IPS LCD
+screen: {size: '178 mm (7.0 in)', density: '216', resolution: '1280x800', technology: 'IPS LCD'}
 sdcard: up to 64 GB
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB

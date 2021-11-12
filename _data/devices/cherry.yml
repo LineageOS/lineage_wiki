@@ -27,11 +27,8 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014-10
 screen:
-- Honor 4: 127 mm (5.0 in)
-- Honor 4X: 139.7 mm (5.5 in)
-screen_ppi: 294 / 267
-screen_res: 1280x720
-screen_tech: IPS + LCD
+- Honor 4: {size: '127 mm (5.0 in)', density: '294', resolution: '1280x720', technology: 'IPS+ LCD'}
+- Honor 4X: {size: '139.7 mm (5.5 in)', density: '267', resolution: '1280x720', technology: 'IPS+ LCD'}
 sdcard: up to 32 GB
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB

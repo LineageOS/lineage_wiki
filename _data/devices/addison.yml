@@ -26,10 +26,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
 release: 2016-09
-screen: 140 mm (5.5 in)
-screen_ppi: 403
-screen_res: 1080x1920
-screen_tech: Super AMOLED
+screen: {size: '140 mm (5.5 in)', density: '403', resolution: '1080x1920', technology: 'Super AMOLED'}
 sdcard: up to 2 TB
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32 GB

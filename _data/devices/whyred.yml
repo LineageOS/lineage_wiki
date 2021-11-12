@@ -26,10 +26,7 @@ ram: 3 GB / 4 GB / 6 GB (LPDDR4X)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-02
-screen: 152.1 mm (5.99 in)
-screen_ppi: 403
-screen_res: 2160x1080
-screen_tech: IPS LCD
+screen: {size: '152.1 mm (5.99 in)', density: '403', resolution: '2160x1080', technology: 'IPS LCD'}
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 / 64 / 128 GB eMMC 5.1 flash storage

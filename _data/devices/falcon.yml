@@ -25,10 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 release: 2013-11
-screen: 114 mm (4.5 in)
-screen_ppi: ~326
-screen_res: 720 x 1280 pixels
-screen_tech: IPS LCD capacitive touchscreen, 16M colors
+screen: {size: '114 mm (4.5 in)', density: '~326', resolution: '720x1280', technology: 'IPS LCD'}
 sdcard:
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8/16 GB

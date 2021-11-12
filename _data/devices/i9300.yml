@@ -26,10 +26,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, Bar
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-05
-screen: 122 mm (4.8 in)
-screen_ppi: 306
-screen_res: 1280x720
-screen_tech: HD Super AMOLED
+screen: {size: '122 mm (4.8 in)', density: '306', resolution: '1280x720', technology: 'HD Super AMOLED'}
 sdcard: up to 64 GB
 soc: Samsung Exynos 4412
 storage: 16/32 GB

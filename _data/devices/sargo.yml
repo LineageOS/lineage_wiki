@@ -27,10 +27,7 @@ peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fi
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2019-04
-screen: 142.2 mm (5.6 in)
-screen_ppi: 441
-screen_res: 2220x1080
-screen_tech: AMOLED
+screen: {size: '142.2 mm (5.6 in)', density: '441', resolution: '2220x1080', technology: 'AMOLED'}
 sdcard:
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB

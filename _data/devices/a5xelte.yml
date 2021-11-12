@@ -26,10 +26,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS,
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2015-12
-screen: 130 mm (5.2 in)
-screen_ppi: 424
-screen_res: 1920x1080
-screen_tech: Super AMOLED
+screen: {size: '130 mm (5.2 in)', density: '424', resolution: '1920x1080', technology: 'Super AMOLED'}
 sdcard: up to 256 GB
 soc: Samsung Exynos 7580
 storage: 16 GB
