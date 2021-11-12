@@ -13,11 +13,10 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 18.1
-depth: 9.3 mm (0.37 in)
+dimensions: {width: '76.4 mm (3.01 in)', height: '165.1 mm (6.5 in)', depth: '9.3 mm (0.37 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 650
-height: 165.1 mm (6.5 in)
 image: apollon.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm8250
@@ -41,5 +40,4 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1]
-width: 76.4 mm (3.01 in)
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

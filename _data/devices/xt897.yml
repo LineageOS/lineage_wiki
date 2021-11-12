@@ -11,11 +11,10 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_codename: asanti
-depth: 13.7 mm (0.54 in)
+dimensions: {width: '66 mm (2.6 in)', height: '126.5 mm (4.98 in)', depth: '13.7 mm (0.54 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
 gpu: Adreno 225
-height: 126.5 mm (4.98 in)
 image: xt897.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8960-common
@@ -37,5 +36,4 @@ uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]
-width: 66 mm (2.6 in)
 wifi: 802.11 2.4GHz b/g/n

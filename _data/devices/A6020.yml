@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/vibe-k5/development/recovery-twrp-3-0-2-0-lenovo-vibe-k5-t3391100/
-depth: 8 mm (0.31 in)
+dimensions: {width: '71 mm (2.8 in)', height: '142 mm (5.59 in)', depth: '8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-height: 142 mm (5.59 in)
 image: A6020.png
 install_method: fastboot_unlocked
 kernel: android_kernel_lenovo_msm8916
@@ -37,5 +36,4 @@ uses_twrp: true
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
-width: 71 mm (2.8 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot

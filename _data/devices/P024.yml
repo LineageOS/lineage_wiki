@@ -10,6 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=673956719939831308
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 image: P024.png

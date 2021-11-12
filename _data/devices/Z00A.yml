@@ -9,6 +9,7 @@ cpu: Intel Atom
 cpu_cores: '4'
 cpu_freq: 2.3/1.8 GHz
 current_branch: 14.1
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR G6430
 image: Z00A.png

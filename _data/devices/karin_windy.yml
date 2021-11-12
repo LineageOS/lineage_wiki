@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?w=files&flid=67717
-depth: 6.1 mm (0.24 in)
+dimensions: {width: '254 mm (10 in)', height: '167 mm (6.6 in)', depth: '6.1 mm (0.24 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
-height: 167 mm (6.6 in)
 image: karin.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
@@ -33,5 +32,4 @@ uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 254 mm (10 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

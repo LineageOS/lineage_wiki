@@ -186,10 +186,25 @@
         </td>
     </tr>
     {% endif %}
-    {% if device.height and device.width and device.depth %}
+
+    {%- if device.dimensions != 'None' %}
     <tr>
         <th scope="row">Dimensions</th>
-        <td>{{ device.height }} (h)<br>{{ device.width }} (w)<br>{{ device.depth }} (d)</td>
+        <td>{%- if device.dimensions.first.size == 1 %}
+              {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
+              {%- for model in device.dimensions %}
+                {%- assign modelname = model.first[0] %}
+                {%- assign dimension_data = model.first[1] %}
+                {%- include snippets/dimensions.html %}
+                {%- unless forloop.last -%}
+                <br/><br/>
+                {%- endunless -%}
+              {% endfor -%}
+            {%- else %}
+                {%- assign dimension_data = device.dimensions %}
+                {%- include snippets/dimensions.html %}
+            {%- endif %}
+        </td>
     </tr>
     {% endif %}
     {%- if device.battery != 'None' %}

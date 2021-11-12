@@ -9,11 +9,10 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
-depth: 8.4 mm (0.33 in)
+dimensions: {width: '69.4 mm (2.73 in)', height: '143 mm (5.63 in)', depth: '8.4 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Adreno 405
-height: 143 mm (5.63 in)
 image: piccolo.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [14.1]
-width: 69.4 mm (2.73 in)
 wifi: 802.11 b/g/n, Hotspot

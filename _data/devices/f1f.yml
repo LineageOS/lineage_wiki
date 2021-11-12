@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922613
-depth: 7.3 mm (0.29 in)
+dimensions: {width: '71 mm (2.80 in)', height: '143.5 mm (5.65 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-height: 143.5 mm (5.65 in)
 image: f1f.png
 install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: OPPO
 vendor_short: oppo
 versions: [16.0]
-width: 71 mm (2.80 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band
