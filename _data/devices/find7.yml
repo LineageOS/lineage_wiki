@@ -29,10 +29,9 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release:
 - Find 7a: 2014-03-19
 - Find 7s: 2014-05-19
-screen: 139.7 mm (5.5 in)
-screen_ppi: '401/534'
-screen_res: 1920x1080/1440x2560
-screen_tech: JDI IPS
+screen:
+- Find 7a: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'JDI IPS'}
+- Find 7s: {size: '139.7 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'JDI IPS'}
 sdcard: up to 128 GB
 soc: Qualcomm MSM8974AB/MSM8974AC Snapdragon 801
 storage: 16/32 GB

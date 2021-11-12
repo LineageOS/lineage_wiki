@@ -27,10 +27,7 @@ peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor,
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-08-19
-screen: 110 mm (4.3 in)
-screen_ppi: 256
-screen_res: 540x960
-screen_tech: TFT capacitive touchscreen
+screen: {size: '110 mm (4.3 in)', density: 256, resolution: '540x960', technology: 'TFT'}
 sdcard: microSD, up to 32 GB
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 8 GB

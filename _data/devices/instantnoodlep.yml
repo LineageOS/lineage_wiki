@@ -30,10 +30,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fing
 ram: 8/12GB GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2020-04
-screen: 172.21 mm (6.78 in)
-screen_ppi: '513'
-screen_res: 1440x3168
-screen_tech: Fluid AMOLED
+screen: {size: '172.21 mm (6.78 in)', density: 513, resolution: '1440x3168', technology: 'Fluid AMOLED'}
 sdcard:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0

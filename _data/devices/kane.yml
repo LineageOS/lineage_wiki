@@ -27,10 +27,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2019-05-15
-screen: 160.02 mm (6.3 in)
-screen_ppi: 432
-screen_res: 1080x2520
-screen_tech: IPS LCD
+screen: {size: '160.02 mm (6.3 in)', density: 432, resolution: '1080x2520', technology: 'IPS LCD'}
 sdcard: up to 512 GB
 soc: Exynos 9609
 storage: 128 GB

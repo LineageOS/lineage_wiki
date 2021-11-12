@@ -21,10 +21,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall eff
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012-11-13
-screen: 255 mm (10.0 in)
-screen_ppi: '300'
-screen_res: 2560x1600
-screen_tech: Super PLS
+screen: {size: '255 mm (10.0 in)', density: 300, resolution: '2560x1600', technology: 'Super PLS'}
 sdcard:
 soc: Samsung Exynos 5
 storage: 16/32 GB

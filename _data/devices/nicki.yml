@@ -22,10 +22,7 @@ peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
 recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
 release: 2013-06
-screen: 102 mm (4.0 in)
-screen_ppi: '244.9'
-screen_res: 480x854
-screen_tech: TFT
+screen: {size: '102 mm (4.0 in)', density: 245, resolution: '480x854', technology: 'TFT'}
 sdcard: up to 32 GB
 soc: Qualcomm MSM8227 Snapdragon S4 Plus
 storage: 4 GB

@@ -26,10 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2013-10
-screen: 149.86 mm (5.9 in)
-screen_ppi: '373'
-screen_res: 1080x1920
-screen_tech: Super-LCD 3
+screen: {size: '149.86 mm (5.9 in)', density: 373, resolution: '1080x1920', technology: 'Super LCD3'}
 sdcard: up to 32 GB
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 32/64 B

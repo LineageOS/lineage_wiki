@@ -25,10 +25,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2016-02
-screen: 139.7 mm (5.5 in)
-screen_ppi: '403'
-screen_res: 1080x1920
-screen_tech:
+screen: {size: '139.7 mm (5.5 in)', density: 403, resolution: '1080x1920', technology: ''}
 sdcard: up to 256 GB (hybrid SIM slot)
 soc: Qualcomm MSM8956 Snapdragon 650
 storage: 16/32 GB

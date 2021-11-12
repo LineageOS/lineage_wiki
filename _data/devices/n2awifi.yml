@@ -24,10 +24,7 @@ peripherals: [Accelerometer, Compass, GPS, Gyroscope]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014
-screen: 256.5 mm (10.1 in)
-screen_ppi: 299
-screen_res: 2560x1600
-screen_tech: Super clear LCD
+screen: {size: '256.5 mm (10.1 in)', density: 299, resolution: '2560x1600', technology: 'Super clear LCD'}
 sdcard: up to 64 GB
 soc: Samsung Exynos5420
 storage: 16/32 GB
