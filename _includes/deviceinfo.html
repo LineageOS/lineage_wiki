@@ -112,9 +112,20 @@
     <tr>
         <th scope="row">Screen</th>
         <td>
-            {{ device.screen }}<br>
-            {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
-            {{ device.screen_tech }}
+            {%- if device.screen.first %}
+              {%- for screen in device.screen %}
+                {{ screen.first[0] }}: {{ screen.first[1] }}<br/>
+                {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
+                {{ device.screen_tech }}
+                {%- unless forloop.last %}
+                <br/>
+                {%- endunless %}
+              {%- endfor %}
+            {%- else %}
+                {{ device.screen }}<br/>
+                {{ device.screen_res }} ({{ device.screen_ppi }} PPI)<br>
+                {{ device.screen_tech }}
+            {%- endif %}
         </td>
     </tr>
     {% endif %}
