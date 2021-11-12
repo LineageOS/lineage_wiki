@@ -11,14 +11,11 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0
-depth:
-- Tab 2 7.0: 10.5 mm (0.41 in)
-- Tab 2 10.1: 9.7 mm (0.38 in)
+dimensions:
+- Tab 2 7.0: {width: '122.4 mm (4.8 in)', height: '193.7 mm (7.6 in)', depth: '10.5 mm (0.41 in)'}
+- Tab 2 10.1: {width: '175.3 mm (6.9 in)', height: '256.6 mm (10.1 in)', depth: '9.7 mm (0.38 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
-height:
-- Tab 2 7.0: 193.7 mm (7.6 in)
-- Tab 2 10.1: 256.6 mm (10.1 in)
 image: espresso3g.png
 install_method: heimdall
 kernel: android_kernel_samsung_espresso10
@@ -43,7 +40,4 @@ uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-width:
-- Tab 2 7.0: 122.4 mm (4.8 in)
-- Tab 2 10.1: 175.3 mm (6.9 in)
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot

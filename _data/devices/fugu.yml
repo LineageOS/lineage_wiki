@@ -7,6 +7,7 @@ cpu: Intel Atom
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 15.1
+dimensions: None
 download_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
 gpu: PowerVR Series 6
 image: fugu.png

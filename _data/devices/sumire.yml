@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2.0 Ghz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/devdb/project/dl/?id=26670
-depth: 7.3 mm (0.29 in)
+dimensions: {width: '65 mm (2.6 in)', height: '146 mm (5.7 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered down, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 430
-height: 146 mm (5.7 in)
 image: sumire.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8994
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1]
-width: 65 mm (2.6 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

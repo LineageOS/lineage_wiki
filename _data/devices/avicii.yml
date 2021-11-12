@@ -10,11 +10,10 @@ cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
 current_branch: 17.1
-depth: 8.2 mm (0.32 in)
+dimensions: {width: '63.3 mm (2.88 in)', height: '158.3 mm (6.23 in)', depth: '8.2 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 620
 has_recovery_partition: true
-height: 158.3 mm (6.23 in)
 image: avicii.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -35,5 +34,4 @@ type: phone
 vendor: OnePlus
 vendor_short: oneplus
 versions: [17.1]
-width: 63.3 mm (2.88 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

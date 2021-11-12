@@ -9,10 +9,9 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 17.1
-depth: 5.2 mm (0.2 in)
+dimensions: {width: '75.3 mm (3 in)', height: '153.3 mm (6 in)', depth: '5.2 mm (0.2 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
-height: 153.3 mm (6 in)
 image: griffin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
@@ -34,5 +33,4 @@ uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1, 15.1, 16.0, 17.1]
-width: 75.3 mm (3 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot

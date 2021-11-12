@@ -9,6 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 gpu: Adreno 305
 image: mt2.png

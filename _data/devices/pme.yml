@@ -10,10 +10,9 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2x2.15 GHz, 2x1.6 GHz
 current_branch: 14.1
-depth: 9 mm (0.35 in)
+dimensions: {width: '71.9 mm (2.8 in)', height: '145.9 mm (5.7 in)', depth: '9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 530
-height: 145.9 mm (5.7 in)
 image: pme.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8996
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: HTC
 vendor_short: htc
 versions: [14.1]
-width: 71.9 mm (2.8 in)
 wifi: Dual-band Wi-Fi 802.11 a/b/g/n/ac

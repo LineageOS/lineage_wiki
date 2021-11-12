@@ -9,11 +9,10 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
-depth: 7.8 mm (0.31 in)
+dimensions: {width: '69.6 mm (2.74 in)', height: '138.1 mm (5.44 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 418
-height: 138.1 mm (5.44 in)
 image: libra.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8992
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-width: 69.6 mm (2.74 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot

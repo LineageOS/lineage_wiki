@@ -9,6 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 14.1
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
 gpu: Adreno 330

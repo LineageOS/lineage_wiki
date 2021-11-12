@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=889964283620777297
-depth: 8.9 mm (0.35 in)
+dimensions: {width: '75.9 mm (3 in)', height: '152.9 mm (6 in)', depth: '8.9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 405
-height: 152.9 mm (6 in)
 image: tomato.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916
@@ -42,5 +41,4 @@ uses_twrp: true
 vendor: YU
 vendor_short: yu
 versions: [13.0, 14.1]
-width: 75.9 mm (3 in)
 wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

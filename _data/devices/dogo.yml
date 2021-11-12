@@ -9,10 +9,9 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-depth: 10.5 mm (0.41 in)
+dimensions: {width: '67.3 mm (2.65 in)', height: '131.3 mm (5.17 in)', depth: '10.5 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 320
-height: 131.3 mm (5.17 in)
 image: dogo.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
@@ -34,5 +33,4 @@ uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]
-width: 67.3 mm (2.65 in)
 wifi: 802.11 a/b/g/n, 2.4GHz/5GHz, Wi-Fi Direct, DLNA, Hotspot

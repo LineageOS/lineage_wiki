@@ -9,10 +9,9 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.36 GHz + 4 x 1.7 GHz
 current_branch: 16.0
-depth: 7.8 mm (0.31 in)
+dimensions: {width: '71.2 mm (2.80 in)', height: '148.6 mm (5.85 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP2
-height: 148.6 mm (5.85 in)
 image: anne.png
 install_method: fastboot_huawei
 is_unlockable: false
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: Huawei
 vendor_short: huawei
 versions: [16.0]
-width: 71.2 mm (2.80 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot

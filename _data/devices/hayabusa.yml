@@ -9,10 +9,9 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-depth: 8.6 mm (0.34 in)
+dimensions: {width: '68.6 mm (2.7 in)', height: '131 mm (5.2 in)', depth: '8.6 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 225
-height: 131 mm (5.2 in)
 image: hayabusa.png
 install_method: fastboot_sony
 install_variant: sony_init_fota
@@ -41,5 +40,4 @@ uses_twrp: true
 vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]
-width: 68.6 mm (2.7 in)
 wifi: 802.11 2.4GHz a/b/g/n 5GHz, Wi-Fi Direct, Wi-Fi Display, Hotspot

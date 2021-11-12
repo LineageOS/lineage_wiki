@@ -10,10 +10,9 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 18.1
-depth: 8.2 mm (0.32 in)
+dimensions: {width: '73.3 mm (2.89 in)', height: '146.8 mm (5.78 in)', depth: '8.2 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 330
-height: 146.8 mm (5.78 in)
 image: sirius.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8974
@@ -35,5 +34,4 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [18.1]
-width: 73.3 mm (2.89 in)
 wifi: 802.11 a/b/g/n/ac, WiFi Direct, Hotspot
