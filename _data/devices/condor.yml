@@ -8,6 +8,7 @@ cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Adreno 302

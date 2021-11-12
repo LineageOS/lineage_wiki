@@ -9,10 +9,9 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 18.1
-depth: 8.4 mm (0.33 in)
+dimensions: {width: '76 mm (2.99 in)', height: '158.258 mm (6.27 in)', depth: '8.4 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509
-height: 158.258 mm (6.27 in)
 image: chef.png
 install_method: fastboot_motorola
 is_ab_device: true
@@ -34,5 +33,4 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [17.1, 18.1]
-width: 76 mm (2.99 in)
 wifi: 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, hotspot

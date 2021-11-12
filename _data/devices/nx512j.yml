@@ -9,10 +9,9 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-depth: 7.9 mm (0.31 in)
+dimensions: {width: '76.6 mm (3.02 in)', height: '154.8 mm (6.09 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-height: 154.8 mm (6.09 in)
 image: nx512j.png
 install_method: fastboot_nexus
 kernel: android_kernel_nubia_msm8939
@@ -33,5 +32,4 @@ uses_twrp: true
 vendor: Nubia
 vendor_short: nubia
 versions: [14.1]
-width: 76.6 mm (3.02 in)
 wifi: 802.11 b/g/n/ac Dual-band, Wi-Fi Direct, DLNA, Hotspot

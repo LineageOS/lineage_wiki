@@ -10,10 +10,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: 'http://files.nwwn.com/android/axon7mini/tulip-twrp-7.1-r1.img'
-depth: 7.8 mm (0.31 in)
+dimensions: {width: '71 mm (2.80 in)', height: '147.5 mm (5.81 in)', depth: '7.8 mm (0.31 in)'}
 edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-height: 147.5 mm (5.81 in)
 image: tulip.png
 install_method: edl_custom
 install_recovery_guide: 'http://files.nwwn.com/android/axon7mini/recovery_install.html'
@@ -35,5 +34,4 @@ uses_twrp: true
 vendor: ZTE
 vendor_short: zte
 versions: [14.1]
-width: 71 mm (2.80 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
