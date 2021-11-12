@@ -12,10 +12,9 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
 current_branch: 18.1
-depth: 12.1 mm (0.48 in)
+dimensions: {width: '65 mm (2.56 in)', height: '135 mm (5.31 in)', depth: '12.1 mm (0.48 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 630
-height: 135 mm (5.31 in)
 image: xz2c.png
 install_method: fastboot_sony
 is_ab_device: true
@@ -37,5 +36,4 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [17.1, 18.1]
-width: 65 mm (2.56 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot

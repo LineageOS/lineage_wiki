@@ -12,12 +12,11 @@ cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://osdn.net/projects/aosp-zenfone3/releases/p16364
-depth: 7.7 mm (0.3 in)
+dimensions:
+- ZE520KL: {width: '74 mm (2.9 in)', height: '146.9 mm (5.8 in)', depth: '7.7 mm (0.3 in)'}
+- ZE552KL: {width: '77.4 mm (3 in)', height: '152.6 mm (6 in)', depth: '7.7 mm (0.3 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
-height:
-- ZE520KL: 146.9 mm (5.8 in)
-- ZE552KL: 152.6 mm (6 in)
 image: zenfone3.png
 install_method: fastboot_zenfone
 kernel: android_kernel_asus_msm8953
@@ -40,7 +39,4 @@ uses_twrp: true
 vendor: ASUS
 vendor_short: asus
 versions: [16.0]
-width:
-- ZE520KL: 74 mm (2.9 in)
-- ZE552KL: 77.4 mm (3 in)
 wifi: 802.11 a/b/g/n/ac

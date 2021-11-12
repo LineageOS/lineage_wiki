@@ -10,10 +10,9 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 current_branch: 18.1
-depth: 8.0 mm (0.31 in)
+dimensions: {width: '71 mm (2.80 in)', height: '147.2 mm (5.80 in)', depth: '8.0 mm (0.31 in)'}
 download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509
-height: 147.2 mm (5.80 in)
 image: DRG.png
 install_method: fastboot_nokia
 is_ab_device: true
@@ -37,5 +36,4 @@ type: phone
 vendor: Nokia
 vendor_short: nokia
 versions: [18.1]
-width: 71 mm (2.80 in)
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot

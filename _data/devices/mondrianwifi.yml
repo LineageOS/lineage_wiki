@@ -9,6 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 13.0
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Adreno 330
 image: mondrianwifi.png

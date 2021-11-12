@@ -11,10 +11,9 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 17.1
-depth: 10.9 mm (0.43 in)
+dimensions: {width: '75 mm (2.95 in)', height: '148 mm (5.83 in)', depth: '10.9 mm (0.43 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 405
-height: 148 mm (5.83 in)
 image: lux.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
@@ -35,5 +34,4 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1, 17.1]
-width: 75 mm (2.95 in)
 wifi: 802.11 a/g/b/n, Dual-band

@@ -9,11 +9,10 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-depth: 9.9 mm (0.39 in)
+dimensions: {width: '113.8 mm (4.48 in)', height: '189.2 mm (7.45 in)', depth: '9.9 mm (0.39 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer.
   Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
 gpu: Adreno 305
-height: 189.2 mm (7.45 in)
 image: v410.png
 install_method: dd
 kernel: android_kernel_lge_v4xx
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 113.8 mm (4.48 in)
 wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, DLNA, Hotspot

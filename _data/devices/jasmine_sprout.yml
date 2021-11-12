@@ -10,11 +10,10 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 18.1
-depth: 7.3 mm (0.29 in)
+dimensions: {width: '75.4 mm (2.97 in)', height: '158.7 mm (6.25 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 512
-height: 158.7 mm (6.25 in)
 image: wayne.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -36,5 +35,4 @@ type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [17.1, 18.1]
-width: 75.4 mm (2.97 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot

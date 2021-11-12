@@ -9,11 +9,10 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.7 GHz
 current_branch: 16.0
-depth: 8.1 mm (0.32 in)
+dimensions: {width: '75.184 mm (2.96 in)', height: '158.258 mm (6.27 in)', depth: '8.1 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 612
-height: 158.258 mm (6.27 in)
 image: violet.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_violet
@@ -35,6 +34,5 @@ uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [16.0]
-width: 75.184 mm (2.96 in)
 wifi: 802.11 a/b/g/n/ac
 custom_recovery_link: https://www.androidfilehost.com/?fid=6006931924117918329

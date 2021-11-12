@@ -9,11 +9,10 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
-depth: 8.9 mm (0.35 in)
+dimensions: {width: '74.6 mm (2.94 in)', height: '146.3 mm (5.76 in)', depth: '8.9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: true
 gpu: Adreno 330
-height: 146.3 mm (5.76 in)
 image: g3.png
 install_method: dd
 kernel: android_kernel_lge_g3
@@ -37,5 +36,4 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
-width: 74.6 mm (2.94 in)
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot

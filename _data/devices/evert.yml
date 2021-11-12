@@ -13,10 +13,9 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 18.1
-depth: 8.0 mm (0.31 in)
+dimensions: {width: '75.5 mm (2.9 in)', height: '160 mm (6.3 in)', depth: '8.0 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 508
-height: 160 mm (6.3 in)
 image: evert.png
 install_method: fastboot_motorola
 is_ab_device: true
@@ -39,5 +38,4 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [17.1, 18.1]
-width: 75.5 mm (2.9 in)
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

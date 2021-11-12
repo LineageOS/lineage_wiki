@@ -10,10 +10,9 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=962187416754466684
-depth: 10.3 mm (0.41 in)
+dimensions: {width: '69.6 mm (2.74 in)', height: '137.7 mm (5.42 in)', depth: '10.3 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Adreno 305
-height: 137.7 mm (5.42 in)
 image: jag3gds.png
 install_method: dd
 kernel: android_kernel_lge_msm8226
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-width: 69.6 mm (2.74 in)
 wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot

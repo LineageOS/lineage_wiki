@@ -12,6 +12,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 15.1
 custom_recovery_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
+dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 306
 image: cherry.png

@@ -9,10 +9,9 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
-depth: 8.7 mm (0.34 in)
+dimensions: {width: '72.2 mm (2.84 in)', height: '143 mm (5.64 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 505
-height: 143 mm (5.64 in)
 image: tenshi.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8937
@@ -33,5 +32,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [14.1]
-width: 72.2 mm (2.84 in)
 wifi: 802.11 b/g/n, Hotspot

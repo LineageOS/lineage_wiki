@@ -11,10 +11,9 @@ cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=4349826312261701358
-depth: 8.25 mm (0.32 in)
+dimensions: {width: '72.3 mm (2.85 in)', height: '150.7 mm (5.93 in)', depth: '8.25 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 509
-height: 150.7 mm (5.93 in)
 image: zangya.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -36,5 +35,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [16.0]
-width: 72.3 mm (2.85 in)
 wifi: 802.11 b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
