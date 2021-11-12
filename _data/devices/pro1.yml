@@ -26,10 +26,7 @@ peripherals: [Hardware keyboard, Dual SIM, Fingerprint reader, Accelerometer, Gy
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2019-10
-screen: 152.1 mm (5.99 in)
-screen_ppi: '403'
-screen_res: 1080x2160
-screen_tech: Optic AMOLED
+screen: {size: '152.1 mm (5.99 in)', density: 403, resolution: '1080x2160', technology: 'Optic AMOLED'}
 sdcard: Up to 2TB
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 128 GB UFS 2.1 2-LANE

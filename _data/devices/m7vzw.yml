@@ -24,10 +24,7 @@ peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, C
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2013-03
-screen: 119 mm (4.7 in)
-screen_ppi: '469'
-screen_res: 1080x1920
-screen_tech: S-LCD 3
+screen: {size: '119 mm (4.7 in)', density: 469, resolution: '1080x1920', technology: 'Super LCD3'}
 sdcard: up to 32 GB
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 32/64 GB

@@ -30,10 +30,9 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release:
 - AO5510: 2014-12-18
 - YU5510: 2015-07-24
-screen: 139.7 mm (5.5 in)
-screen_ppi: 267  / 401  (Plus)
-screen_res: 1280x720 / 1920x1080 (Plus)
-screen_tech: 'IPS'
+screen:
+- Yureka: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS LCD'}
+- Yureka Plus: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: up to 32 GB
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16 GB

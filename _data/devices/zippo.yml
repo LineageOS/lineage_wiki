@@ -15,7 +15,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 18.1
 custom_unlock_cmd: fastboot oem unlock-go
-depth: 	8.7 mm (0.34 in)
+depth: 8.7 mm (0.34 in)
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Adreno 640
@@ -33,10 +33,7 @@ ram: 6/8/12 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
 release: 2019-09-11
-screen: 162.31 mm (6.39 in)
-screen_ppi: 403
-screen_res: 1080x2340
-screen_tech: Super AMOLED HDR10
+screen: {size: '162.31 mm (6.39 in)', density: 403, resolution: '1080x2340', technology: 'Super AMOLED HDR10'}
 sdcard: up to 1TB
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256/512 GB

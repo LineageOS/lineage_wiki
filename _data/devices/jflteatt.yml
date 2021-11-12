@@ -32,10 +32,7 @@ recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2013-04
 required_bootloader: ['I337UCUAMDB', 'I337UCUAMDL']
 root_method: [towelroot]
-screen: 127 mm (5 in)
-screen_ppi: 440
-screen_res: 1920x1080
-screen_tech: Pentile RGBG Full HD Super AMOLED
+screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Full HD Super AMOLED'}
 sdcard: up to 64 GB
 soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB

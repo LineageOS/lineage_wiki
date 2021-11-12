@@ -24,10 +24,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-11
-screen: 152.7 mm (6.01 in)
-screen_ppi: '401'
-screen_res: 1080x2160
-screen_tech: Optic AMOLED
+screen: {size: '152.7 mm (6.01 in)', density: 401, resolution: '1080x2160', technology: 'Optic AMOLED'}
 sdcard:
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
