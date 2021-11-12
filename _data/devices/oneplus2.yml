@@ -26,10 +26,7 @@ peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity senso
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-08-28
-screen: 139.7 mm (5.5 in)
-screen_ppi: '401'
-screen_res: 1920x1080
-screen_tech: LTPS IPS LCD
+screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
 sdcard:
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 16/64 GB

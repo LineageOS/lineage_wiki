@@ -29,10 +29,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fing
 ram: 8/12GB GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2021-03
-screen: 170.18 mm (6.7 in)
-screen_ppi: '525'
-screen_res: 1440x3216
-screen_tech: LTPO Fluid2 AMOLED
+screen: {size: '170.18 mm (6.7 in)', density: 525, resolution: '1440x3216', technology: 'LTPO Fluid2 AMOLED'}
 sdcard:
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.1

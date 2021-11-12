@@ -30,10 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
  Keep holding both buttons until the words "Fastboot Mode" appear on the screen, then release.
  Now with the volume rocker select "Recovery mode", then press <kbd>Power</kbd>.
 release: 2019-09
-screen: 167.39 mm (6.59 in)
-screen_ppi: 391
-screen_res: 2340x1080
-screen_tech: AMOLED
+screen: {size: '167.39 mm (6.59 in)', density: 391, resolution: '2340x1080', technology: 'AMOLED'}
 sdcard:
 soc: Qualcomm SM8150-AC Snapdragon 855 Plus
 storage: 128/512/1024 GB UFS3.0

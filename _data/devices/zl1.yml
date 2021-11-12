@@ -27,10 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release:
 - Le Pro3: 2016-10
 - Le Pro3 Elite: 2017-03
-screen: 139.7 mm (5.5 in)
-screen_ppi: ~403
-screen_res: 1920x1080
-screen_tech: IPS LCD
+screen: {size: '139.7 mm (5.5 in)', density: 403, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard:
 soc: Qualcomm MSM8996 Snapdragon 820 (Le Pro3 Elite) / Qualcomm MSM8996 Pro Snapdragon 821 (Le Pro3)
 storage: 32/64/128 GB

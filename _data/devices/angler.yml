@@ -24,10 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.
 release: 2015-09-29
-screen: 145 mm (5.7 in)
-screen_ppi: ~518
-screen_res: 1440x2560
-screen_tech: AMOLED
+screen: {size: '145 mm (5.7 in)', density: 518, resolution: '1440x2560', technology: 'AMOLED'}
 sdcard:
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB

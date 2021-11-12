@@ -23,10 +23,7 @@ peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
-screen: 127 mm (5.0 in)
-screen_ppi: ~294
-screen_res: 1280x720
-screen_tech: IPS LCD capacitive touchscreen, 16M colors
+screen: {size: '127 mm (5.0 in)', density: 294, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: up to 32 GB
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB

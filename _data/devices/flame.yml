@@ -28,10 +28,7 @@ peripherals: [Accelerometer, Barometer, BeiDou, Compass, Depth Sensor, Dot Proje
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2019-09
-screen: 144.78 mm (5.7 in)
-screen_ppi: 444
-screen_res: 2280x1080
-screen_tech: AMOLED
+screen: {size: '144.78 mm (5.7 in)', density: 444, resolution: '2280x1080', technology: 'AMOLED'}
 sdcard:
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB

@@ -25,10 +25,7 @@ peripherals: [GPS, NFC, Light sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014-06-06
-screen: 139.7 mm (5.5 in)
-screen_ppi: '401'
-screen_res: 1920x1080
-screen_tech: JDI IPS
+screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'JDI IPS'}
 sdcard:
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB

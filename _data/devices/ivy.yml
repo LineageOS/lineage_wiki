@@ -23,10 +23,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Light sensor, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-06
-screen: 132.1 mm (5.2 in)
-screen_ppi: '424'
-screen_res: 1920x1080
-screen_tech: IPS LCD
+screen: {size: '132.1 mm (5.2 in)', density: 424, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: up to 256 GB
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
