@@ -12,8 +12,27 @@ a "backup" of the Google apps on your device and then "restore" them, but this d
 
 The Google apps packages are **not supported** in any way by LineageOS.
 
-## Downloads
 
+## Installation
+
+Google apps should be installed via recovery **immediately** after installing LineageOS. Exact steps vary, and as such, you should see your device's installation guide [here]({{ "devices/" | relative_url }}) for specific instructions.
+
+{% include alerts/important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, otherwise expect crashes.<br/>
+This also applies when you experience issues and want to try an older or other package of these apps." %}
+
+### Note regarding Open GApps
+
+If you use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps.
+
+Since you can install any non included apps later, we only recommend the following package sizes (or smaller):
+ - For mobile devices: `nano`, as described in [Open GApps Package Comparison](https://github.com/opengapps/opengapps/wiki/Package-Comparison).
+ - For Android TV: `tvstock`, as described in [Open GApps TVStock Package Listing](https://github.com/opengapps/opengapps/wiki/TVStock-Package).
+
+If you use a larger package, **we can not guarantee** that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents.
+If your device states that there is not enough space on any specific partition during install, you will need to use an even smaller package instead.
+
+
+## Downloads
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview]({{ "devices/" | relative_url }})).
 
@@ -21,15 +40,13 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=11.0&variant=nano)|
+|Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=nano)|
-|Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=9.0&variant=nano)|
-|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps)), [Open GApps](https://opengapps.org/?api=8.1&variant=nano)|
+|Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=nano)|
 |Lineage 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=nano)|
 {: .table }
-
-{% include alerts/note.html content="If you opt to use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps. We only recommend package sizes up through `nano`, as described in [Open GApps Package Comparison](https://github.com/opengapps/opengapps/wiki/Package-Comparison). If you use a larger package, we can not guarantee that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents." %}
 
 ### Android TV
 
@@ -37,16 +54,8 @@ These packages are only dependent on your OS version and architecture, which can
 |--------------------------|-------------------------------------------------------|
 |Lineage 18.1 (Android 11)|[Open GApps](https://opengapps.org/?api=11.0&variant=tvstock)|
 |Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=tvstock)|
-|Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282), [Open GApps](https://opengapps.org/?api=9.0&variant=tvstock)|
-|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/old)), [Open GApps](https://opengapps.org/?api=8.1&variant=tvstock)|
+|Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282)|
+|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/old))|
 |Lineage 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=tvstock)|
 |Lineage 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=tvstock)|
 {: .table }
-
-{% include alerts/note.html content="If you opt to use Open GApps, they offer two sizes of packages that include and overwrite different apps. We only recommend the `tvstock` package, as described in [Open GApps TVStock Package Listing](https://github.com/opengapps/opengapps/wiki/TVStock-Package). If your device states that there is not enough space on any specific partition during install, you will need to use the `tvmini` package instead." %}
-
-## Installation
-
-Google apps should be installed via recovery **immediately** after installing LineageOS. Exact steps vary, and as such, you should see your device's installation guide [here]({{ "devices/" | relative_url }}) for specific instructions.
-
-{% include alerts/important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, otherwise expect crashes." %}
