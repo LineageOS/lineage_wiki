@@ -79,6 +79,9 @@ For `tech` you can use:
   {{ properties.cpu.enum | join: ", " }}
   ```
 
+* `dimensions`: Use the format `{width: '', height: '', depth: ''}` with `123 mm (12.3 in)` being the proper format for each of them (including the exact whitespaces!).
+
+  In case you are setting the file up for multiple devices you can use Model-Value-Pairs, for details see the explanation for `battery`
 
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
 * `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image are below.
@@ -99,6 +102,10 @@ For `tech` you can use:
   - Model2: 2016-01
   - Model3: 2016-02-01
   ```
+
+* `screen`: Use `{size: '', density: '', resolution: '', technology: ''}` as the proper format.
+
+  This property supports Model-Value-Pairs, for details see the explanation for `battery`
 
 * `tree`: The repo name of the device tree - for example, `android_device_oneplus_bacon`.
 * `vendor_short`: The vendor name used for the device tree - for example, `oneplus`.
