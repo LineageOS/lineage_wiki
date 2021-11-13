@@ -16,6 +16,24 @@
       "message": "This reads a bit like nepotism...\n\nAlso, \"explicitly\" not \"explicitely\"",
       "revId": "97035a9ded46cb3afa3e75dee074e17d9a288c9e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f6252d4_26a53f49",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-11-13T00:30:27Z",
+      "side": 1,
+      "message": "Would removing the \"We explicitly recommend MTG\" help?\nMy reasoning was that without it nobody knows which one to choose since there are two or three links for a package a user may want and Gapps \u003d Gapps, right? (user perspective)",
+      "parentUuid": "cfbac626_7fd07a25",
+      "revId": "97035a9ded46cb3afa3e75dee074e17d9a288c9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
