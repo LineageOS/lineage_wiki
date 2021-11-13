@@ -33,12 +33,12 @@
     </tr>
 
     <tr>
-    {% if device.carrier %}
+    {%- if device.carrier %}
     <tr>
-      <th scope="col"">Carrier</th>
+      <th scope="col">Carrier</th>
       <td>{{ device.carrier }}</td>
     </tr>
-    {% endif %}
+    {%- endif %}
     </tr>
 
     <tr>
@@ -55,7 +55,7 @@
     <tr>
         <th scope="row">CPU</th>
         <td>
-            {% case device.cpu_cores %}
+            {%- case device.cpu_cores %}
                 {% when '1' %}
                     Single-core
                 {% when '2' %}
@@ -68,7 +68,7 @@
                     Octa-core
                 {% else %}
                     {{ device.cpu_cores }}x
-            {% endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
+            {%- endcase %} {{ device.cpu }}<br>{{ device.cpu_freq }}
         </td>
     </tr>
     <tr>
@@ -86,29 +86,29 @@
         <th scope="row">GPU</th>
         <td>{{ device.gpu }}</td>
     </tr>
-    {% if device.network != 'None' %}
+    {%- if device.network != 'None' %}
     <tr>
         <th scope="row">Network</th>
         <td>
             <ul>
-                {% for el in device.network %}
+                {%- for el in device.network %}
                     <li>{{ el }}</li>
-                {% endfor %}
+                {%- endfor %}
             </ul>
         </td>
     </tr>
-    {% endif %}
+    {%- endif %}
     <tr>
         <th scope="row">Storage</th>
         <td>{{ device.storage }}</td>
     </tr>
-    {% if device.sdcard %}
+    {%- if device.sdcard %}
     <tr>
         <th scope="row">SD card</th>
         <td>{{ device.sdcard }}</td>
     </tr>
-    {% endif %}
-    {% if device.screen != 'None' %}
+    {%- endif %}
+    {%- if device.screen != 'None' %}
     <tr>
         <th scope="row">Screen</th>
         <td>
@@ -128,8 +128,8 @@
             {%- endif %}
         </td>
     </tr>
-    {% endif %}
-    {% if device.bluetooth %}
+    {%- endif %}
+    {%- if device.bluetooth %}
     <tr>
         <th scope="row">Bluetooth</th>
         <td>
@@ -140,14 +140,14 @@
             {% endif -%}
         </td>
     </tr>
-    {% endif %}
-    {% if device.wifi %}
+    {%- endif %}
+    {%- if device.wifi %}
     <tr>
         <th scope="row">Wi-Fi</th>
         <td>{{ device.wifi }}</td>
     </tr>
-    {% endif %}
-    {% if device.peripherals != 'None' %}
+    {%- endif %}
+    {%- if device.peripherals != 'None' %}
     <tr>
         <th scope="row">Peripherals</th>
         <td>
@@ -166,27 +166,26 @@
             {%- endif %}
         </td>
     </tr>
-    {% endif %}
-    {% if device.cameras and device.cameras.size > 0 %}
+    {%- endif %}
+    {%- if device.cameras and device.cameras.size > 0 %}
     <tr>
         <th scope="row">Cameras</th>
         <td>{{ device.cameras | size }}
             <ul>
-                {% for el in device.cameras %}
+                {%- for el in device.cameras %}
                     <li>
                         {{ el.info }},
-                        {% if el.flash != '' %}
+                        {%- if el.flash != '' %}
                             {{ el.flash }}
-                        {% else %}
+                        {%- else %}
                             No
-                        {% endif %} flash
+                        {%- endif %} flash
                     </li>
-                {% endfor %}
+                {%- endfor %}
             </ul>
         </td>
     </tr>
-    {% endif %}
-
+    {%- endif %}
     {%- if device.dimensions != 'None' %}
     <tr>
         <th scope="row">Dimensions</th>
@@ -211,14 +210,14 @@
     <tr>
         <th scope="row">Battery</th>
         <td>
-            {% if device.battery.first.size == 1 -%}
+            {%- if device.battery.first.size == 1 -%}
             {%- comment %}The size of "first" will be 1 when there is a list of models{% endcomment -%}
                 {% for model in device.battery -%}
                     {%- assign modelname = model.first[0] %}
                     {%- assign battery_data = model.first[1] %}
                     {% include snippets/battery.html %}
                     {%- unless forloop.last -%}
-                    <br/>
+                    <br/><br/>
                     {%- endunless %}
                 {% endfor -%}
             {%- else %}
@@ -229,43 +228,42 @@
     </tr>
     {%- endif %}
     <!-- lineage info -->
-    {% if device.maintainers != empty %}
+    {%- if device.maintainers != empty %}
     <tr>
         <th scope="row" colspan="2">LineageOS info</th>
     </tr>
     <tr>
-        <th scope="row">Maintainers</th>
+        <th scope="row">Maintainer{% if device.maintainers.size > 1 %}s{% endif %}</th>
         <td>
             <ul>
-                {% for el in device.maintainers %}
+                {%- for el in device.maintainers %}
                     <li>{{ el }}</li>
-                {% endfor %}
+                {%- endfor %}
             </ul>
         </td>
     </tr>
-    {% if device.models %}
+    {%- if device.models %}
     <tr>
         <th scope="row">Supported models</th>
         <td>
             <ul>
-            {% for model in device.models %}
-            <li> {{ model }}
-            {% endfor %}
+            {%- for model in device.models %}
+                <li>{{ model }}</li>
+            {%- endfor %}
             </ul>
         </td>
     </tr>
-    {% endif %}
+    {%- endif %}
     <tr>
         <th scope="row">Supported versions</th>
         <td>
             <ul>
-                {% for el in device.versions %}
+                {%- for el in device.versions %}
                     <li>{{ el }}</li>
-                {% endfor %}
+                {%- endfor %}
             </ul>
         </td>
     </tr>
-    {% endif %}
-
+    {%- endif %}
   </tbody>
 </table>
