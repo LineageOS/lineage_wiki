@@ -34,7 +34,36 @@ Obviously replace `your_device` with the codename of your device
 ### Populating the YAML
 
 The sample template has been copied to `$LINEAGE_SRC/lineage/wiki/_data/devices/your_device.yml`.
-Update the values to match your device. An explanation of some of the options is below:
+Update the values to match your device. An explanation of some of the options is below.
+
+Some of the properties allow specifying different values for multiple models being covered in the same file.
+In that case the format stays the same as for a single device, but is used in a Key-Value style like this:
+
+```
+property:
+- Model1: Value
+- Model2: Value
+```
+
+An example using the `battery` property:
+Just one device:
+
+```
+battery: {removable: False, capacity: 1000, tech: 'Li-Ion'}
+```
+
+vs. two different models:
+
+```
+battery:
+- Model1: {removable: False, capacity: 1000, tech: 'Li-Ion'}
+- Model2: {removable: True, capacity: 2000, tech: 'Li-Po'}
+```
+
+The following list will mention Model-Value pairs where applicable.
+
+
+#### List of properties
 
 {% assign definitions = site.data.schema.definitions %}
 {% assign properties = site.data.schema.properties %}
@@ -48,19 +77,13 @@ Update the values to match your device. An explanation of some of the options is
   If your device has a 64 bit architecture but Android runs on 32 bit, you can use a different format: `{cpu: 'arm64', userspace: 'arm'}`
 
 * `battery`: Use the format `{removable: False, capacity: <number in mAh>, tech: '<tech>'}`. If your battery is removable, use `True` instead.
-For `tech` you can use:
+  For `tech` you can use:
 
   ```
   {{ definitions.battery_data.properties.tech.enum | join: ', ' }}
   ```
 
-  In case you are setting up one file for multiple devices which have different batteries, you can use Model-Value-Pairs, e.g.
-
-  ```
-  battery:
-  - Model1: {removable: False, capacity: 1000, tech: 'Li-Ion'}
-  - Model2: {removable: True, capacity: 2000, tech: 'Li-Po'}
-  ```
+  This property supports Model-Value pairs.
 
 * `bluetooth`: The proper format is either `{spec: '<version>'}` with `version` being the version of the BT protocol supported, or `{spec: '<version>', profiles: '<profiles>'}` when your device
   supports additional profiles. These are the possible values:
@@ -79,10 +102,18 @@ For `tech` you can use:
   {{ properties.cpu.enum | join: ", " }}
   ```
 
+* `dimensions`: Use the format `{width: '', height: '', depth: ''}` with `123 mm (12.3 in)` being the proper format for each of them (including the exact whitespaces!).
+
+  This property supports Model-Value pairs.
 
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
 * `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image are below.
-* `install_method`: Used to determine the recovery install template to use. Templates can be found in \_includes/templates/recovery\_install\_`install_method`.md.
+* `install_method`: Used to determine the recovery install template to use. Templates can be found in *_includes/templates/recovery_install_*`install_method`*.md* and must be one of:
+
+  ```
+  {{ properties.install_method.enum | join: ", " }}
+  ```
+
 * `kernel`: The repo name of the kernel - for example, `android_kernel_oneplus_msm8974`.
 * `network`: The frequencies and channels for the various network technologies. You can look them up [here](https://www.frequencycheck.com/models/). Keep the non-available technologies empty.
 * `peripherals`: A list of peripherals available on the device, can be any of the following list:
@@ -91,29 +122,34 @@ For `tech` you can use:
   {{ definitions.valid_peripherals.items.enum | join: ", " }}
   ```
 
-* `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. In case of multiple devices with different dates, you can use Model-Value-Pairs:
+* `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. This property supports Model-Value pairs.
 
-  ```
-  release:
-  - Model1: 2015
-  - Model2: 2016-01
-  - Model3: 2016-02-01
-  ```
+* `screen`: Use `{size: '<screen size>', density: <number>, resolution: '<1234x567>', technology: ''}` with `123 mm (12.3 in)` as the proper format for `size`,
+  a number for `density`, `1234x567` for `resolution` and a string for `technology`.
+  Please look at other devices in order to use the same names for same technologies across all devices!
+
+  This property supports Model-Value pairs.
 
 * `tree`: The repo name of the device tree - for example, `android_device_oneplus_bacon`.
 * `vendor_short`: The vendor name used for the device tree - for example, `oneplus`.
 
+#### List of optional properties
 
-Additionally there are some optional properties which you might not need, but in case you do, they are documented below:
+There are some optional properties which you might not need, but in case you do, they are documented below:
 
-* `carrier`: If the device was released for a specific carrier, the name of that carrier. Remove this if not used!
-* `custom_recovery_link`: A custom recovery link in case no official recovery exists for the specific device or it doesn't work properly. Remove this if not used!
-* `custom_recovery_codename`: If an official recovery exists for the device, but it uses a different codename, specify the used one here. Remove this if not used!
-* `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`. Remove this if not used!
-* `format_on_upgrade`: Used if the device needs to wiped on major LineageOS version due to unfixable device specific issues. Remove if not used!
-* `is_ab_device`: Used if the device has an A/B partition scheme. Remove this if not applicable to your device!
+{% include alerts/important.html content="Remove any of these properties in case they don't apply for your device!" %}
+
+* `before_install`: Sometimes some pre-conditions must be met in order to be able to install LineageOS. This often goes with `before_install_args`. See *_includes/templates/device_specific/before_install_*`before_install`*.md* for possible values.
+* `before_lineage_install`: This property can be set to be able to display instructions between recovery and the actual LineageOS installation. Existing (or to be created) values can be found in *_includes/templates/device_specific/before_lineage_install_*`before_lineage_install_`*.md*
+* `before_recovery_install`: Set this property to specify if something has to be done before installing the recovery. Values can be found in *_includes/templates/device_specific/before_recovery_install_*`before_recovery_install_`*.md*
+* `carrier`: If the device was released for a specific carrier, the name of that carrier.
+* `custom_recovery_link`: A custom recovery link in case no official recovery exists for the specific device or it doesn't work properly.
+* `custom_recovery_codename`: If an official recovery exists for the device, but it uses a different codename, specify the used one here.
+* `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`.
+* `format_on_upgrade`: Used if the device needs to wiped on major LineageOS version due to unfixable device specific issues.
+* `is_ab_device`: Used if the device has an A/B partition scheme.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
-* `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. If no special requirement exists, remove this line! Example:
+* `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
 
   ```
   required_bootloader: [Version1, Version2]
