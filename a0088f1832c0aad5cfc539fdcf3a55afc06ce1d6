@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fb2d7d47_c8c8c687",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-11-15T09:27:16Z",
+      "side": 1,
+      "message": "Most phone sites and our current wiki have dimensions in height/width/depth order. I think we should keep it that way. Or was there some reason you changed it?",
+      "revId": "a0088f1832c0aad5cfc539fdcf3a55afc06ce1d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ddf8c177_1e52b097",
+        "filename": "_includes/snippets/dimensions.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2021-11-15T09:27:16Z",
+      "side": 1,
+      "message": "you have these mixed up. it\u0027s showing width dimensions for the height, and vice versa.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 36
+      },
+      "revId": "a0088f1832c0aad5cfc539fdcf3a55afc06ce1d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
