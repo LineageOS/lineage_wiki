@@ -211,6 +211,18 @@ properties:
       type: array
     - enum:
       - None
+  before_install:
+    "$id": "/properties/before_install"
+    minLength: 3
+    type: string
+  before_lineage_install:
+    "$id": "/properties/before_lineage_install"
+    minLength: 3
+    type: string
+  before_recovery_install:
+    "$id": "/properties/before_recovery_install"
+    minLength: 3
+    type: string
   bluetooth:
     "$id": "/properties/bluetooth"
     properties:
@@ -301,7 +313,6 @@ properties:
     - Kryo 585
     - Kryo 670
     - Kryo 680
-
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1

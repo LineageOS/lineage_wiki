@@ -1,6 +1,6 @@
 architecture: arm
 battery: {removable: False, capacity: 3200, tech: 'Li-Ion'}
-before_install: before_install_shinano
+before_install: shinano
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '20.7 MP'}

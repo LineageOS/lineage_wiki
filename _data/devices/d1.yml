@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3500, tech: 'Li-Ion'}
-before_install: before_install_exynos9820
+before_install: exynos9820
 before_install_args: {version: 10 or 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
