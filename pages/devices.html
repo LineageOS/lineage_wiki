@@ -10,9 +10,9 @@ search: exclude
 function toggleDiscontinued()
 {
   $('.discontinued').toggle();
-  $("table.device").each(function () {
+  $(".devices").each(function () {
     vendor = $(this).attr("vendor");
-    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
+    if ($(this).find("div:visible").length == 0 && $(this).is(":visible")) {
       $("*[vendor=" + vendor + "]").hide();
     } else {
       $("*[vendor=" + vendor + "]").show();
@@ -61,17 +61,13 @@ Select a vendor to jump to:<br/>
 {% if device.vendor != lastVendor %}
 {% assign lastVendor = device.vendor %}
 
-<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+<h2 class="h2" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
 
-<table class="table device" vendor="{{ device.vendor | slugify }}">
-  <thead>
-  <tr>
-    <th scope="col" class="first"><b>Device</b></th>
-    <th scope="col"><b>Codename</b></th>
-    <th scope="col" class="last"><b>Type</b></th>
-  </tr>
-  </thead>
+<a href="#devices" class="top" vendor="{{ device.vendor | slugify }}"><i class="material-icons">arrow_drop_up</i>Top</a>
+
+<div class="devices" vendor="{{ device.vendor | slugify }}">
 {% endif %}
+
 {% capture testValue %}{{ device.name | divided_by:1 }}{% endcapture %}
 {% if testValue != "0" or device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {% else %}{% assign deviceName = device.name %}{% endif %}
@@ -80,11 +76,25 @@ Select a vendor to jump to:<br/>
 {%- else %}
 {%- assign class="" %}
 {%- endif %}
-  <tr class="{{ class }}">
-    <th scope="row" onClick="location.href='{{ url }}'"><span class="dot"></span><a href="{{ url }}">{{ deviceName }}</a></th>
-    <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
-    <td>{{ device.type | capitalize }}</td>
-  </tr>
-{% if sorted[forloop.index].vendor != lastVendor %}</table>{% endif %}
+
+{% if jekyll.environment == "development" or jekyll.environment == "production" %}
+{% capture imagePath %}{{ site.baseurl }}/images/devices/small/{{ device.image }}{% endcapture %}
+{% else %}
+{% capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/small/" | append: device.image }}{% endcapture %}
+{% endif %}
+
+<div class="item {{ class }}" onClick="location.href='{{ url }}'">
+  <div class="image">
+    <a href="{{ url }}"><img src="{{ imagePath }}" loading="lazy" /></a>
+  </div>
+  <div class="name">
+    <a href="{{ url }}">
+      <span class="devicename">{{ deviceName }}</span><br>
+      <span class="codename">{{ device.codename }}</span>
+    </a>
+  </div>
+</div>
+
+{% if sorted[forloop.index].vendor != lastVendor %}</div>{% endif %}
 {% endfor %}
 </div>
