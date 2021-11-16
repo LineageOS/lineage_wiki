@@ -568,7 +568,8 @@ properties:
     - tablet
   uses_twrp:
     "$id": "/properties/uses_twrp"
-    type: boolean
+    enum:
+    - true
   vendor:
     "$id": "/properties/vendor"
     enum:
