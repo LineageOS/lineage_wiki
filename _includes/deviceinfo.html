@@ -105,7 +105,19 @@
     {%- if device.sdcard %}
     <tr>
         <th scope="row">SD card</th>
-        <td>{{ device.sdcard }}</td>
+        <td>Up to {{ device.sdcard.sizeMax }}
+        {%- if device.sdcard.slot %}
+        <br/>
+        {%- case device.sdcard.slot %}
+          {%- when 'sim' %}
+            SIM slot
+          {%- when 'hybrid' %}
+            hybrid SIM slot
+          {%- when 'dedicated' %}
+            dedicated slot
+        {%- endcase %}
+        {%- endif %}
+        </td>
     </tr>
     {%- endif %}
     {%- if device.screen != 'None' %}

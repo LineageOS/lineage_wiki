@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2013-10
 screen: {size: '257 mm (10.1 in)', density: 299, resolution: '1600x2560', technology: 'TFT LCD'}
-sdcard: up to 64 GB
+sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB
 tree: android_device_samsung_lt03lte

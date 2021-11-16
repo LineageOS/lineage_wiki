@@ -29,7 +29,7 @@ ram: 4 GB, 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2018-06
 screen: {size: '96.2 mm (6.2 in)', density: 402, resolution: '1080x2160', technology: 'Super AMOLED'}
-sdcard: Up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 GB, 64 GB, 128 GB
 tree: android_device_motorola_beckham

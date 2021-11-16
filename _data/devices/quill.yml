@@ -25,7 +25,6 @@ ram: 4/8 GB
 recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
 release: 2017-03-14
 screen: None
-sdcard: 
 soc: Nvidia Tegra X2 (T186)
 storage: 16 GB/Sdcard
 tree: android_device_nvidia_quill

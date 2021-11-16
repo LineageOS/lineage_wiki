@@ -24,7 +24,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2018-05
 screen: {size: '152.4 mm (6 in)', density: 268, resolution: '1440x720', technology: 'IPS LCD'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB
 tree: android_device_motorola_rhannah

@@ -28,7 +28,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-08-09
 screen: {size: '162.5 mm (6.4 in)', density: 516, resolution: '2960x1440', technology: 'Quad HD+ Super AMOLED'}
-sdcard: up to 400 GB
+sdcard: {sizeMax: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 128/512 GB
 tree: android_device_samsung_crownlte

@@ -26,7 +26,7 @@ release: 2015-11
 screen:
 - Laser: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'IPS LCD'}
 - Selfie: {size: '152.4 mm (6.0 in)', density: 367, resolution: '1080x1920', technology: 'IPS LCD'}
-sdcard: up to 128 GB
+sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
 tree: android_device_asus_Z00T

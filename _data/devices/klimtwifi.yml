@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014
 screen: {size: '213.4 mm (8.4 in)', density: 359, resolution: '1600x2560', technology: 'Super AMOLED'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos5420
 storage: 16/32 GB
 tree: android_device_samsung_klimtwifi

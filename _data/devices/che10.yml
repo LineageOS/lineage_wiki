@@ -29,7 +29,7 @@ release: 2014-10
 screen:
 - Honor 4X: {size: '139.7 mm (5.5 in)', density: 294, resolution: '1280x720', technology: 'IPS+ LCD'}
 - Honor 4X: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS+ LCD'}
-sdcard: up to 32 GB
+sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_che10

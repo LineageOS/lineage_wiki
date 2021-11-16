@@ -28,7 +28,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2019-02
 screen: {size: '157.5 mm (6.2 in)', density: 405, resolution: '1080x2270', technology: 'IPS LTPS LCD'}
-sdcard: Up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 tree: android_device_motorola_river

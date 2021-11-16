@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2013-09
 screen: {size: '144.78 mm (5.7 in)', density: 386, resolution: '1080x1920', technology: 'Super AMOLED'}
-sdcard: up to 64 GB
+sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos5420
 storage: 16/32 GB
 tree: android_device_samsung_ha3g

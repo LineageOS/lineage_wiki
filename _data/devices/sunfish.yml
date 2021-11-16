@@ -27,7 +27,6 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2020-08
 screen: {size: '147.57 mm (5.81 in)', density: 443, resolution: '2340x1080', technology: 'AMOLED'}
-sdcard:
 soc: Qualcomm SDM730 Snapdragon 730G
 storage: 128 GB
 tree: android_device_google_sunfish

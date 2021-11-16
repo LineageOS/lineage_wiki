@@ -85,6 +85,22 @@ definitions:
     - resolution
     - technology
     type: object
+  sdcard_data:
+    description: The format required for the sdcard property
+    properties:
+      sizeMax:
+        description: Maximum size for a sdcard
+        pattern: '^(\d+ (GB|TB)( \([^)]*\)( or )?)?)+$'
+        type: string
+      slot:
+        description: where the sdcard is inserted
+        enum:
+        - dedicated
+        - hybrid
+        - sim
+    required:
+    - sizeMax
+    type: object
   valid_architectures:
     enum:
     - arm
@@ -534,6 +550,9 @@ properties:
       type: array
     - enum:
       - None
+  sdcard:
+    "$id": "/properties/sdcard"
+    "$ref": "#/definitions/sdcard_data"
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$

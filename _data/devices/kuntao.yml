@@ -24,7 +24,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-11
 screen: {size: '140 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'Super AMOLED'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 tree: android_device_lenovo_kuntao

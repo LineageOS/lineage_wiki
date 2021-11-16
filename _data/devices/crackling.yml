@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2015-10
 required_bootloader: ['crackling-13-ge86e772']
 screen: {size: '127 mm (5.0 in)', density: 294, resolution: '1280x720', technology: 'IPS LCD'}
-sdcard: up to 32 GB
+sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_wileyfox_crackling

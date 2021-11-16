@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and <kbd>Power</kbd> buttons.
 release: 2015-09
 screen: {size: '132.08 mm (5.2 in)', density: 424, resolution: '1080x1920', technology: 'IPS LCD'}
-sdcard: microSD, up to 256 GB
+sdcard: {sizeMax: '256 GB (microSD)'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
 tree: android_device_sony_sumire

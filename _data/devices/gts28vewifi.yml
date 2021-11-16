@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
 screen: {size: '203.2 mm (8 in)', density: 320, resolution: '1536x2048', technology: 'HD Super AMOLED'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32/64 GB
 tree: android_device_samsung_gts28vewifi

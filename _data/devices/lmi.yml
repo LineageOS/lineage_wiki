@@ -31,7 +31,6 @@ release:
 - Redmi K30 Pro: 2020-03
 - Redmi K30 Pro Zoom Edition: 2020-03
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'AMOLED'}
-sdcard:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256/512 GB
 tree: android_device_xiaomi_lmi
