@@ -25,7 +25,6 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2017-10
 screen: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'AMOLED'}
-sdcard:
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_google_muskie

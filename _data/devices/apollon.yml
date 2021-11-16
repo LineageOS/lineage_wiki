@@ -32,7 +32,6 @@ release:
 - Mi 10T / Mi 10T Pro: 2020-10
 - Redmi K30S Ultra: 2020-11
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '144Hz IPS LCD'}
-sdcard:
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
 tree: android_device_xiaomi_apollon

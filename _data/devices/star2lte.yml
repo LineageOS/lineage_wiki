@@ -28,7 +28,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-03-11
 screen: {size: '157.5 mm (6.2 in)', density: 529, resolution: '2960x1440', technology: 'Quad HD+ Super AMOLED'}
-sdcard: up to 400 GB
+sdcard: {sizeMax: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 64/128/256 GB
 tree: android_device_samsung_star2lte

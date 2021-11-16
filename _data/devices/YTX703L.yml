@@ -26,7 +26,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-12
 screen: {size: '256.5 mm (10.1 in)', density: 299, resolution: '2560x1600', technology: 'IPS'}
-sdcard: SDHC (up to 32 GB), SDXC (up to 2 TB)
+sdcard: {sizeMax: '32 GB (SDHC) or 2 TB (SDXC)'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
 tree: android_device_lenovo_YTX703-common

@@ -37,7 +37,7 @@ release:
 - Redmi Note 9 Pro (India): 2020-03-17
 - Redmi Note 9 Pro Max: 2020-05-12
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'IPS LCD'}
-sdcard: up to 512 GB
+sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 64/128 GB
 tree: android_device_xiaomi_miatoll

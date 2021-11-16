@@ -27,7 +27,6 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 release: 2018-10
 screen: {size: '139.7 mm (5.5 in)', density: 443, resolution: '2160x1080', technology: 'AMOLED'}
-sdcard:
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128 GB
 tree: android_device_google_blueline

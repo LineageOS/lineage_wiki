@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume U
 required_bootloader: ['T805ZHU1CQB1']
 release: 2014
 screen: {size: '266.7 mm (10.5 in)', density: 288, resolution: '2560x1600', technology: 'Super AMOLED'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos5420
 storage: 16/32 GB
 tree: android_device_samsung_chagalllte

@@ -30,7 +30,7 @@ release:
 - Note 8: 2019-08
 - Note 8T: 2019-11
 screen: {size: '160 mm (6.3 in)', density: 409, resolution: '1080x2340', technology: 'IPS LCD'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 tree: android_device_xiaomi_ginkgo

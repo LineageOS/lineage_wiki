@@ -34,7 +34,6 @@ release:
 - Redmi K40: 2021-02
 - Mi 11X: 2021-04
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '120Hz Super AMOLED'}
-sdcard:
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
 tree: android_device_xiaomi_alioth

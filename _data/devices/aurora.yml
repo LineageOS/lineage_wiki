@@ -29,7 +29,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-04
 screen: {size: '147 mm (5.8 in)', density: 420, resolution: '3840x2160', technology: 'IPS LCD'}
-sdcard: up to 400 GB (hybrid SIM slot)
+sdcard: {sizeMax: '400 GB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1
 tree: android_device_sony_aurora

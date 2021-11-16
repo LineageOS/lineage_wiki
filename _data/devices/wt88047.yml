@@ -24,7 +24,7 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-01
 screen: {size: '119.4 mm (4.7 in)', density: 312, resolution: '720x1280', technology: 'IPS LCD'}
-sdcard: up to 32 GB
+sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB
 tree: android_device_wingtech_wt88047

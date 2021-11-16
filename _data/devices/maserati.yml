@@ -25,7 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, press <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 release: 2012-02-10
 screen: {size: '102 mm (4.0 in)', density: 275, resolution: '540x960', technology: 'TFT'}
-sdcard: microSD, up to 32 GB
+sdcard: {sizeMax: '32 GB (microSD)'}
 soc: TI OMAP4430
 storage: 16 GB
 tree: android_device_motorola_maserati

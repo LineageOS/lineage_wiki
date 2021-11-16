@@ -32,7 +32,7 @@ release: 2013-04
 required_bootloader: ['I545VRUAMDK']
 root_method: [towelroot]
 screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Full HD Super AMOLED'}
-sdcard: up to 64 GB
+sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm Snapdragon 600 (APQ8064T)
 storage: 16/32 GB
 tree: android_device_samsung_jfltevzw

@@ -23,7 +23,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
 screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1920x1080', technology: 'IPS LCD'}
-sdcard: up to 32 GB
+sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 16/32 GB
 tree: android_device_bq_gohan

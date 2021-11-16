@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015-03
 screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'Super LCD3'}
-sdcard: up to 2 TB
+sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
 tree: android_device_htc_himaul

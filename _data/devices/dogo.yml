@@ -24,7 +24,7 @@ ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 release: 2013-06
 screen: {size: '115.57 mm (4.55 in)', density: 323, resolution: '720x1280', technology: 'TFT'}
-sdcard: officially up to 32 GB
+sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 8 GB
 tree: android_device_sony_dogo

@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
 screen: {size: '132.1 mm (5.2 in)', density: 323, resolution: '1280x720', technology: 'IPS LCD'}
-sdcard: up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
 tree: android_device_sony_suzuran

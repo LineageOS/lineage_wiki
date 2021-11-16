@@ -30,7 +30,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 release: 2018-05
 screen: {size: '84.5 mm (5.2 in)', density: 409, resolution: '1080x1920', technology: 'IPS LCD'}
-sdcard: Up to 256 GB
+sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB
 tree: android_device_motorola_evert

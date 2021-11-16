@@ -28,7 +28,7 @@ ram: 4 or 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-10
 screen: {size: '153 mm (6.0 in)', density: 537, resolution: '1440x2880', technology: 'p-OLED'}
-sdcard: up to 256 GB (hybrid SIM slot)
+sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1
 tree: android_device_sony_akatsuki

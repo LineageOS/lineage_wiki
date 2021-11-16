@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-09
 screen: {size: '246 mm (9.7 in)', density: 264, resolution: '1536x2048', technology: 'Super AMOLED'}
-sdcard: up to 128 GB
+sdcard: {sizeMax: '128 GB'}
 soc: Samsung Exynos 5433
 storage: 32/64 GB
 tree: android_device_samsung_gts210wifi

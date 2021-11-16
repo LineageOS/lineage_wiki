@@ -33,7 +33,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
 release: 2019-09-11
 screen: {size: '162.31 mm (6.39 in)', density: 403, resolution: '1080x2340', technology: 'Super AMOLED HDR10'}
-sdcard: up to 1TB
+sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256/512 GB
 tree: android_device_lenovo_zippo
