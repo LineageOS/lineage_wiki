@@ -10,12 +10,12 @@ search: exclude
 function toggleDiscontinued()
 {
   $('.discontinued').toggle();
-  $("table.device").each(function () {
-    vendor = $(this).attr("vendor");
-    if ($(this).find("tbody > tr:visible").length == 0 && $(this).is(":visible")) {
-      $("*[vendor=" + vendor + "]").hide();
+  $(".devices").each(function () {
+    vendor = $(this).attr("data-vendor");
+    if ($(this).find("div:visible").length == 0 && $(this).is(":visible")) {
+      $("*[data-vendor=" + vendor + "]").hide();
     } else {
-      $("*[vendor=" + vendor + "]").show();
+      $("*[data-vendor=" + vendor + "]").show();
     }
   });
 }
@@ -28,13 +28,13 @@ function toggleDiscontinued()
   Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/>
   You can hide them by unchecking the following checkbox:<br/><br/>
 
-{% assign devices = "" | split: " " %}
-{% for device in site.data.devices %}
-{% assign devices = devices | push: device[1] %}
-{% endfor %}
+{%- assign devices = "" | split: " " %}
+{%- for device in site.data.devices %}
+{%- assign devices = devices | push: device[1] %}
+{%- endfor %}
 
-{% assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
-{% assign lastVendor = "" %}
+{%- assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
+{%- assign lastVendor = "" %}
 
 <div class="form-check form-check-inline">
   <label class="form-check-label">
@@ -52,39 +52,52 @@ Select a vendor to jump to:<br/>
 {%- if device.vendor != lastVendor %}
 {%- assign vendors = vendors | push: device.vendor %}
 {%- assign lastVendor = device.vendor %}
-  <div vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
+  <div data-vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" data-vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
 {%- endif %}
 {%- endfor %}
 </div>
 
-{% for device in sorted %}
-{% if device.vendor != lastVendor %}
-{% assign lastVendor = device.vendor %}
+{%- for device in sorted %}
+{%- if device.vendor != lastVendor %}
+{%- assign lastVendor = device.vendor %}
+{% capture vendorId %}{{ device.vendor | slugify }}{% endcapture %}
 
-<h2 class="h3" id="{{ device.vendor | slugify }}" vendor="{{ device.vendor | slugify }}">{{ device.vendor}}</h2>
+<h2 class="h2" id="{{ vendorId }}" data-vendor="{{ vendorId }}">{{ device.vendor}}</h2>
 
-<table class="table device" vendor="{{ device.vendor | slugify }}">
-  <thead>
-  <tr>
-    <th scope="col" class="first"><b>Device</b></th>
-    <th scope="col"><b>Codename</b></th>
-    <th scope="col" class="last"><b>Type</b></th>
-  </tr>
-  </thead>
-{% endif %}
-{% capture testValue %}{{ device.name | divided_by:1 }}{% endcapture %}
-{% if testValue != "0" or device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
-{% else %}{% assign deviceName = device.name %}{% endif %}
-{% assign url = "devices/" | append: device.codename | relative_url %}
+<a href="#devices" class="top" data-vendor="{{ vendorId }}"><i class="material-icons">arrow_drop_up</i>Top</a>
+
+<div class="devices" data-vendor="{{ vendorId }}">
+{%- endif %}
+
+{%- capture testValue %}{{ device.name | divided_by:1 }}{% endcapture %}
+{%- if testValue != "0" or device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
+{%- else %}{% assign deviceName = device.name %}{% endif %}
+{%- assign url = "devices/" | append: device.codename | relative_url %}
 {%- if device.maintainers == empty %}{% assign class="discontinued" %}
 {%- else %}
 {%- assign class="" %}
+{%- endif -%}
+
+{%- if jekyll.environment == "development" or jekyll.environment == "production" %}
+{%- capture imagePath %}{{ site.baseurl }}/images/devices/small/{{ device.image }}{% endcapture %}
+{%- else %}
+{%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/small/" | append: device.image }}{% endcapture %}
 {%- endif %}
-  <tr class="{{ class }}">
-    <th scope="row" onClick="location.href='{{ url }}'"><span class="dot"></span><a href="{{ url }}">{{ deviceName }}</a></th>
-    <td onClick="location.href='{{ url }}'"><a href="{{ url }}">{{ device.codename }}</a></td>
-    <td>{{ device.type | capitalize }}</td>
-  </tr>
-{% if sorted[forloop.index].vendor != lastVendor %}</table>{% endif %}
-{% endfor %}
+
+<div class="item {{ class }}" onClick="location.href='{{ url }}'">
+  <div class="image">
+    <a href="{{ url }}"><img src="{{ imagePath }}" alt="device-image for {{ device.codename }}" loading="lazy" /></a>
+  </div>
+  <div class="name">
+    <a href="{{ url }}">
+      <span class="devicename">{{ deviceName }}</span><br>
+      <span class="codename">{{ device.codename }}</span>
+    </a>
+  </div>
+</div>
+
+{%- if sorted[forloop.index].vendor != lastVendor %}
+</div> <!-- div class="devices" -->
+{% endif %}
+{%- endfor %}
 </div>
