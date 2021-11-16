@@ -1,6 +1,6 @@
 architecture: arm
 battery: {removable: True, capacity: 2200, tech: 'Li-Po'}
-before_lineage_install: before_lineage_install_wt88047
+before_lineage_install: wt88047
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}

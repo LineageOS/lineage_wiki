@@ -1,5 +1,5 @@
 {% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
+{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
 

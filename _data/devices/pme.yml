@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-before_install: before_install_pme
+before_install: pme
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP , f/1.8, 26mm'}

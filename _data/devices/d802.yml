@@ -1,7 +1,7 @@
 architecture: arm
 battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
-before_install: before_install_g2-common
-before_dd_recovery: before_dd_recovery_g2-common
+before_install: g2-common
+before_recovery_install: g2-common
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '13 MP'}

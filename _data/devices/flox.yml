@@ -1,6 +1,6 @@
 architecture: arm
 battery: {removable: False, capacity: 3950, tech: 'Li-Ion'}
-before_lineage_install: before_lineage_install_flox
+before_lineage_install: flox
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: '', info: '5 MP'}

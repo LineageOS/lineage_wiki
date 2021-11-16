@@ -9,7 +9,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 Follow the instructions at [Fairphone Support](https://support.fairphone.com/hc/en-us/articles/360048646311-Manage-the-bootloader-of-your-FP3-FP3-) to unlock your bootloader.
 
 {% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
+{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
 
