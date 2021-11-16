@@ -197,32 +197,9 @@ pre {
   padding: 16px 4px 16px 24px;
 }
 
-tr.discontinued {
-  opacity: 0.8;
-}
-
-tr.discontinued a {
-  color: $lineage-light;
-}
-
 .table a {
   font-weight: bold;
   vertical-align: middle;
-}
-
-.dot {
-  height: 8px;
-  width: 8px;
-  background-color: $lineage-primary;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 8px;
-  vertical-align: middle;
-}
-
-.discontinued .dot {
-  background-color: transparent;
-  border: 2px solid #BFC8C9;
 }
 
 // Make sure toc-targets are actually displayed, not hidden by the navbar
@@ -255,11 +232,93 @@ a {
   -webkit-column-break-inside: avoid; /* Fix for additional unwanted margin on chrome */
 }
 
+.devices {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 3rem;
+  gap: 2rem 0;
+  margin-top: 1rem;
+}
+.item {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    .image {
+      background: #E8EDEE;
+      transition: 0.15s;
+    }
+    a {
+      color: $link-hover-color;
+      text-decoration: $link-hover-decoration;
+    }
+  }
+  img {
+    max-width: 120px;
+    max-height: 120px;
+    margin: 8px 0;
+  }
+}
+.item.hidden {
+  display: none;
+}
+.deviceimage {
+  padding: 1rem;
+  min-height: 150px;
+  text-align: center;
+  justify-content: center;
+  background-color: #F6FAFA;
+  transition: 0.15s;
+  align-items: center;
+  display: flex;
+  flex: 1 0 0px;
+}
+.name {
+  height: 3.5em;
+  margin: 1em 1em 0em 0em;
+  flex: 1 0 0%;
+}
+.item.discontinued {
+  &:hover {
+    img {
+      opacity: 1;
+      filter: none;
+      transition: 0.15s;
+    }
+  }
+  img {
+    opacity: 0.25;
+    filter: grayscale(100%);
+    transition: 0.15s;
+  }
+  a {
+    color: $lineage-light;
+  }
+}
+.devicename {
+  font-weight: 500;
+}
+.codename {
+  font-size: 14px;
+}
+.top {
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+
 @media (max-width: 991px) {
   .vendor-container {
      -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+  }
+
+  .devices {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (max-width: 767px) {
@@ -267,5 +326,9 @@ a {
     -webkit-column-count: 2; /* Chrome, Safari, Opera */
     -moz-column-count: 2; /* Firefox */
     column-count: 2;
+  }
+
+  .devices {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
