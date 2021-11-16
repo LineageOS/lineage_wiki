@@ -38,7 +38,7 @@ fastboot getvar unlocked
 {% include alerts/tip.html content="It is highly recommended to have the latest official LG stock package installed on the device, before proceeding with unlock." %}
 
 {% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/{{ device.before_recovery_install }}.md{% endcapture %}
+{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endif %}
 

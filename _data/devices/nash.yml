@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
-before_install: before_install_nash
-before_lineage_install: before_lineage_install_ab_copy_partitions
+before_install: nash
+before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
