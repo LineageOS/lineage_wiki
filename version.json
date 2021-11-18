@@ -1,0 +1,9 @@
+---
+title: version
+layout: none
+search: exclude
+---
+{
+    "git": "{{site.data.version.git}}",
+    "build_date": "{{site.data.version.build_date}}"
+}
