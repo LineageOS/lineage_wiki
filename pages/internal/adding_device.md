@@ -81,7 +81,7 @@ For `tech` you can use:
 
 
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
-* `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image are below.
+* `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image <a href="#adding-the-devices-image">can be found below</a>.
 * `install_method`: Used to determine the recovery install template to use. Templates can be found in \_includes/templates/recovery\_install\_`install_method`.md.
 * `kernel`: The repo name of the kernel - for example, `android_kernel_oneplus_msm8974`.
 * `network`: The frequencies and channels for the various network technologies. You can look them up [here](https://www.frequencycheck.com/models/). Keep the non-available technologies empty.
@@ -125,8 +125,17 @@ Additionally there are some optional properties which you might not need, but in
 
 ### Adding the device's image
 
-Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename must match the
-entry in your YAML file. Also make sure the background of the image is transparent.
+Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. You must ensure the following:
+
+- The filename must match the entry in your YAML file
+- The background of the image is transparent
+- The larger dimension of the picture is 500px
+- The image is cropped to the actual content
+
+Additionally, after following the rules above, place the same picture in `images/devices/small/<image>.png`
+
+- Scale the picture here to 150px for the larger dimension (keep the ratio, so either width or height should be scaled accordingly)
+
 
 ## Testing it works
 
