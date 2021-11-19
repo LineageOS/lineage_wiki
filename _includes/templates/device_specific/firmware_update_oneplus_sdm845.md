@@ -16,7 +16,7 @@ fastboot flash --slot=all oem_stanvbk oem_stanvbk.img
 fastboot flash --slot=all qupfw qupfw.img
 fastboot flash --slot=all storsec storsec.img
 fastboot flash --slot=all tz tz.img
-fastboot flash --slot=all vendor vendor.img
 fastboot flash --slot=all xbl xbl.img
 fastboot flash --slot=all xbl_config xbl_config.img
+fastboot flash --slot=all vendor vendor.img
 " %}
