@@ -18,12 +18,18 @@ def to_relative_path(path)
   return path.sub(wiki_dir, '')
 end
 
-def validate_json(schema, device_path)
-  device = yaml_to_json(device_path)
-  JSON::Validator.validate!(schema, device, :validate_schema => true)
+def validate_json(schema, device_json, device_path)
+  JSON::Validator.validate!(schema, device_json, :validate_schema => true)
 rescue JSON::Schema::ValidationError, Psych::SyntaxError => e
   puts to_relative_path(device_path) + ': ' + e.message
   at_exit { exit false }
+end
+
+def validate_image(path, device_path)
+  unless File.file?(path)
+    puts "Missing image #{to_relative_path(path)} specified in #{to_relative_path(device_path)}"
+    at_exit { exit false }
+  end
 end
 
 def load_template(template_file)
@@ -56,10 +62,13 @@ schema_path = File.expand_path('schema-06.yml', __dir__)
 schema = yaml_to_json(schema_path)
 
 sample_path = File.expand_path('../device_sample/sample.yml', __dir__)
-validate_json(schema, sample_path)
+sample_yaml = yaml_to_json(sample_path)
+validate_json(schema, sample_yaml, sample_path)
 
 wiki_dir = File.expand_path('../', __dir__) + '/'
 device_dir = wiki_dir + '_data/devices/'
+device_image_dir = wiki_dir + 'images/devices/'
+device_image_small_dir = device_image_dir + 'small/'
 pages = wiki_dir + 'pages/'
 build_dir = pages + 'build/'
 info_dir = pages + 'info/'
@@ -77,7 +86,8 @@ upgrade_template = load_template('upgrade.md')
 Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
-    validate_json(schema, device_path)
+    device_json = yaml_to_json(device_path)
+    validate_json(schema, device_json, device_path)
 
     codename = filename.sub('.yml', '')
     test_file = codename + '.md'
@@ -87,5 +97,9 @@ Dir.entries(device_dir).sort.each do |filename|
     validate_template(install_template, install_dir + test_file, codename)
     validate_template(update_template, update_dir + test_file, codename)
     validate_template(upgrade_template, upgrade_dir + test_file, codename)
+
+    image = JSON.parse(device_json)["image"]
+    validate_image(device_image_dir + image, device_path)
+    validate_image(device_image_small_dir + image, device_path)
   end
 end
