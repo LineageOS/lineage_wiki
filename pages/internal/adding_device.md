@@ -107,7 +107,7 @@ The following list will mention Model-Value pairs where applicable.
   This property supports Model-Value pairs.
 
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
-* `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image are below.
+* `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image <a href="#adding-the-devices-image">can be found below</a>.
 * `install_method`: Used to determine the recovery install template to use. Templates can be found in *_includes/templates/recovery_install_*`install_method`*.md* and must be one of:
 
   ```
@@ -167,8 +167,23 @@ There are some optional properties which you might not need, but in case you do,
 
 ### Adding the device's image
 
-Find a reasonably high-quality image of your device, and add it to `images/devices/<image>.png`. The filename must match the
-entry in your YAML file. Also make sure the background of the image is transparent.
+Find a reasonably high-quality image of your device, and add it to `images/devices/<image.png>`. You must ensure the following:
+
+- The filename must match the entry `image` in your YAML file
+- The background of the image is transparent
+- The image is cropped to the actual content
+- Optional: If you are already working with the image in an editor, rescale the picture to max. 500 x 500px
+
+Then run
+
+```
+./scripts/prepare_image.sh <image.png>
+```
+
+This will check the image against the maximum size and generate a smaller version of it in `images/devices/small/<image.png>`.
+
+The smaller picture also needs to be committed!
+
 
 ## Testing it works
 
