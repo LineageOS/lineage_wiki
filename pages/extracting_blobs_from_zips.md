@@ -136,7 +136,6 @@ Then unmount the system dump:
 
 ```
 sudo umount ~/android/system_dump/system
-
 ```
 
 Finally, unmount any other images before deleting the no longer needed files:
