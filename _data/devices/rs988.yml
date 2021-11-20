@@ -1,5 +1,7 @@
 architecture: arm64
 battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+before_install: needs_specific_android_fw
+before_install_args: {version: 7.0}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
