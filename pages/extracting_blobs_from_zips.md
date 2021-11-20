@@ -211,12 +211,13 @@ You can now extract the `.img` files from the payload:
   python /path/to/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
   ```
 
-It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img` and `product.img` and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
+It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
 
 ```
 mkdir system/
 sudo mount -o ro system.img system/
 sudo mount -o ro vendor.img system/vendor/
+sudo mount -o ro odm.img system/odm/
 sudo mount -o ro product.img system/product/
 sudo mount -o ro system_ext.img system/system_ext/
 ```
