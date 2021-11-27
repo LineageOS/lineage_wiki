@@ -21,7 +21,6 @@
 8. Run `Odin3 v3.13.1` found in the newly  extracted "Odin_3.13.1" folder.
 9. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
  * In the menu that pops up, select the newly downloaded custom VBMeta `.tar` file.
-    {% include alerts/tip.html content="The filename may very depending on your device, and version of TWRP." %}
 10. Check in the top left of thne Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
 11. A blue transfer bar will appear on the device showing the recovery image being flashed.
