@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc93a825_42678952",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2021-11-28T16:39:38Z",
+      "side": 1,
+      "message": "For note, this wasn\u0027t windows stupidness, this was simply the author of the instructions not knowing how tar works... full paths are always included.\n\n  $ tar cvf /source_ssd/lineage-18.1/out/target/product/klte/recovery.tar /source_ssd/lineage-18.1/out/target/product/klte/recovery.img\n  tar: Removing leading `/\u0027 from member names\n  /source_ssd/lineage-18.1/out/target/product/klte/recovery.img\n  $ tar tvf /source_ssd/lineage-18.1/out/target/product/klte/recovery.tar\n  -rw-r--r-- haggertk/haggertk 13266960 2021-11-18 13:10 source_ssd/lineage-18.1/out/target/product/klte/recovery.img\n",
+      "revId": "7b74217c4d6f29ee5e7738b4d0a6a97981c1cc6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
