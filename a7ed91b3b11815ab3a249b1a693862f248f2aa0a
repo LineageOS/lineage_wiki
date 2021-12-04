@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b009dc0_7d34620e",
+        "filename": "_data/devices/monet.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-12-04T19:39:47Z",
+      "side": 1,
+      "message": "this should be release: 2020-05",
+      "revId": "a7ed91b3b11815ab3a249b1a693862f248f2aa0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
