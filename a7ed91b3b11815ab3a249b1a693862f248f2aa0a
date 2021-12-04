@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e92e54f6_4f31d7d4",
+        "filename": "_data/devices/monet.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-12-04T20:21:36Z",
+      "side": 1,
+      "message": "so this should in total be 5 entries\n- {flash: ...}\n- ...\n- ...",
+      "parentUuid": "5db76ec8_84999165",
+      "range": {
+        "startLine": 7,
+        "startChar": 10,
+        "endLine": 7,
+        "endChar": 89
+      },
+      "revId": "a7ed91b3b11815ab3a249b1a693862f248f2aa0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4b009dc0_7d34620e",
         "filename": "_data/devices/monet.yml",
         "patchSetId": 3
