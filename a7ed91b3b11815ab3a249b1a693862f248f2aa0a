@@ -63,6 +63,24 @@
       "message": "this should be release: 2020-05",
       "revId": "a7ed91b3b11815ab3a249b1a693862f248f2aa0a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75eaaf6a_9e8c8cf3",
+        "filename": "_data/devices/monet.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 30049
+      },
+      "writtenOn": "2021-12-04T20:01:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b009dc0_7d34620e",
+      "revId": "a7ed91b3b11815ab3a249b1a693862f248f2aa0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
