@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4096a4cf_2b44c0e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-12-04T18:52:18Z",
+      "side": 1,
+      "message": "The large image should be cropped to the content, so your image height at 500 px is correct but the width should be less (remove the white)",
+      "revId": "b7e093ed0ea4e0631456d675d0a924b6465bf41b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
