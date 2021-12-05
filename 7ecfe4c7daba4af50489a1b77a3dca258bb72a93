@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a1fbba1_4ac0fc47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-05T02:12:07Z",
+      "side": 1,
+      "message": "camera stuff looks good now - noted seba: Will look at fixing those.",
+      "revId": "7ecfe4c7daba4af50489a1b77a3dca258bb72a93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
