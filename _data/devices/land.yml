@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: land
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'

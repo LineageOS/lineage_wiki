@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 2680, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED (dual-tone)', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'Dual LED (dual tone)', info: '13 MP'}
+- {flash: None, info: '5 MP'}
 codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'

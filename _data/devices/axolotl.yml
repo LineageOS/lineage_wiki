@@ -2,9 +2,9 @@ architecture: arm64
 battery: {removable: True, capacity: 3850, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP (IMX519)'}
-- {flash: '', info: '24 MP (S5K2X7SP)'}
-- {flash: '', info: '16 MP, QCFA (S5K3P9SP04-FGX9)'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: None, info: '24 MP'}
+- {flash: None, info: '16 MP'}
 codename: axolotl
 cpu: Kryo 385
 cpu_cores: '8'

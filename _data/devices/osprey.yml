@@ -5,7 +5,7 @@ before_install_args: {version: '6.0.1'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 carrier: U.S. Cellular, Virgin Mobile, International GSM
 codename: osprey
 cpu: Cortex-A53

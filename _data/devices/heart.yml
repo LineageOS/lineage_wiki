@@ -4,10 +4,10 @@ before_install: needs_specific_android_fw
 before_install_args: {version: 10}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual-LED (Dual Tone)', info: '16 MP (Primary) IMX519'}
-- {flash: 'Dual-LED (Dual Tone)', info: '24.8 MP (Secondary) IMX576'}
-- {flash: '', info: '16 MP (Front Facing Primary) S5K3P9SX'}
-- {flash: 'Single-LED', info: '8 MP (Front Facing Infrared) S5KGD1'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP (Primary)'}
+- {flash: 'Dual LED (dual tone)', info: '24.8 MP (Secondary)'}
+- {flash: None, info: '16 MP (Front Facing Primary)'}
+- {flash: 'LED', info: '8 MP (Front Facing Infrared)'}
 codename: heart
 cpu: Kryo 485
 cpu_cores: '8'

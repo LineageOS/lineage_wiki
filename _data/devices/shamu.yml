@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3220, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '2.1 MP '}
+- {flash: None, info: '2.1 MP'}
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'

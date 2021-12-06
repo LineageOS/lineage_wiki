@@ -4,9 +4,9 @@ before_recovery_install: moto_exynos_9610
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
-- {flash: '', info: '16 MP'}
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '12 MP'}
+- {flash: None, info: '16 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '12 MP'}
 codename: troika
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

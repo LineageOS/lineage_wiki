@@ -4,11 +4,11 @@ before_install: needs_specific_android_fw
 before_install_args: {version: 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP (Primary) S5KGM1'}
-- {flash: 'Dual-LED flash (Dual Tone)', info: '8 MP (Telephoto) OV8865'}
-- {flash: 'Dual-LED flash (Dual Tone)', info: '16 MP (Wide-angle) OV16885'}
-- {flash: 'Dual-LED flash (Dual Tone)', info: '2 MP (Dedicated video camera) OV02c20'}
-- {flash: '', info: '32 MP (Front Facing) S5KGD1'}
+- {flash: 'Dual LED (dual tone)', info: '48 MP (Primary)'}
+- {flash: 'Dual LED (dual tone)', info: '8 MP (Telephoto)'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP (Wide-angle)'}
+- {flash: 'Dual LED (dual tone)', info: '2 MP (Dedicated video camera)'}
+- {flash: None, info: '32 MP (Front Facing)'}
 codename: zippo
 cpu: Kryo 485
 cpu_cores: '8'

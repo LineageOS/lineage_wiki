@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 5197, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '5 MP'}
 carrier: AT&T, T-Mobile
 codename: shieldtablet
 cpu: Cortex-A15

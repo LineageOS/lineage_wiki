@@ -5,8 +5,10 @@ before_install_args: {version: 11}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 8 MP (telephoto) + 16 MP (ultrawide)'}
-- {flash: '', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+- {flash: 'Dual LED (dual tone)', info: '8 MP (telephoto)'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
+- {flash: None, info: '16 MP'}
 codename: guacamole
 cpu: Kryo 485
 cpu_cores: '8'

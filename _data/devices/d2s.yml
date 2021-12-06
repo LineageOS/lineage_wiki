@@ -4,11 +4,11 @@ before_install: exynos9820
 before_install_args: {version: 10 or 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
-- {flash: 'LED', info: '12 MP , f/1.5-2.4'}
-- {flash: 'LED', info: '12MP , f/2.1 telephoto'}
-- {flash: 'LED', info: '16MP , f/2.2 ultrawide'}
-- {flash: '', info: '0.3MP , TOF 3D'}
-- {flash: '', info: '10 MP, f/2.2'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: 'LED', info: '12 MP (telephoto)'}
+- {flash: 'LED', info: '16 MP'}
+- {flash: None, info: '0.3 MP (TOF 3D)'}
+- {flash: None, info: '10 MP'}
 codename: d2s
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'

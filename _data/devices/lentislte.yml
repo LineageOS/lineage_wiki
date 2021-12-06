@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 codename: lentislte
 cpu: Krait 450
 cpu_cores: '4'

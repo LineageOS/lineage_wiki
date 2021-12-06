@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 2200, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '10 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 carrier: Sprint, Verizon, U.S. Cellular, AT&T, GSM unlocked
 codename: ghost
 cpu: Krait 200

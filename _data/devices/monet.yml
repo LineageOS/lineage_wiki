@@ -8,7 +8,7 @@ cameras:
 - {flash: 'Dual LED', info: '8 MP'}
 - {flash: 'Dual LED', info: '2 MP'}
 - {flash: 'Dual LED', info: '2 MP'}
-- {flash: '', info: '16 MP'}
+- {flash: None, info: '16 MP'}
 codename: monet
 cpu: Kryo 475
 cpu_cores: '8'

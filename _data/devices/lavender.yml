@@ -2,9 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED', info: '48 MP or 12 MP'}
-- {flash: 'Dual LED', info: 'Depth Sensor 5 MP or 2 MP'}
-- {flash: '', info: '13 MP'}
+- {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
+- {flash: 'Dual LED', info: '5 MP (or 2 MP, depth)'}
+- {flash: None, info: '13 MP'}
 codename: lavender
 cpu: Kryo 260
 cpu_cores: '8'
