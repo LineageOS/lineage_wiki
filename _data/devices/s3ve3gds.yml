@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 codename: s3ve3gds
 cpu: Cortex-A7
 cpu_cores: '4'

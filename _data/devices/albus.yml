@@ -2,7 +2,7 @@ architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP, laser autofocus'}
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
 codename: albus
 cpu: Cortex-A53

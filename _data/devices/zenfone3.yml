@@ -4,8 +4,8 @@ battery:
 - ZE552KL: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual-LED', info: '16 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: 'Dual LED', info: '16 MP'}
+- {flash: None, info: '8 MP'}
 codename: zenfone3
 cpu: Cortex-A53
 cpu_cores: '8'

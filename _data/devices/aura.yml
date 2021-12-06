@@ -3,8 +3,8 @@ battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: '', info: '12 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '12 MP'}
+- {flash: None, info: '8 MP'}
 codename: aura
 cpu: Kryo 385
 cpu_cores: '8'

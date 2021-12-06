@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3250, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '20 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: axon7
 cpu: Kryo
 cpu_cores: '4'

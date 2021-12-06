@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3200, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: '', info: '4 MP'}
+- {flash: None, info: '4 MP'}
 codename: capricorn
 cpu: Kryo
 cpu_cores: '4'

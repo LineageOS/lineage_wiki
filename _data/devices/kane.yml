@@ -4,8 +4,8 @@ before_recovery_install: moto_exynos_9610
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '48 MP'}
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '25 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '25 MP'}
 codename: kane
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

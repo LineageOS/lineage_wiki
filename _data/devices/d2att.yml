@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 2100, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: '', info: '8 MP w/ LED flash'}
-- {flash: '', info: '1.9 MP'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: None, info: '1.9 MP'}
 carrier: AT&T, Bell, Rogers, Telus
 codename: d2att
 cpu: Krait

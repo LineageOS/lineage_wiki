@@ -96,6 +96,18 @@ The following list will mention Model-Value pairs where applicable.
   {{ properties.bluetooth.properties.profiles.items.enum | join: ', ' }}
   ```
 
+* `camera`: One entry for each camera in the format
+
+   ```
+   - {flash: '<flash>', info: 'x MP'}
+   ```
+
+  with `flash` being one of
+  ```
+  {{ definitions.camera_data.properties.flash.enum | join: ', ' }}
+  ```
+  and `info` in the format `x MP` or `x MP (wide)` (wide, ultrawide, depth, etc. can be used), or `x MP (Model1) or x MP (Model2)` if necessary
+
 * `cpu`: The CPU type of the device, can be one of the following list:
 
   ```

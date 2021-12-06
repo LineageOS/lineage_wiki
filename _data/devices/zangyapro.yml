@@ -2,9 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
-- {flash: 'Dual Tone Dual LED', info: '12 MP, f/1.8, Dual Pixel PDAF'}
-- {flash: 'Dual Tone Dual LED', info: '5 MP, depth sensor'}
-- {flash: 'LED', info: '8 MP, f/2.0'}
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+- {flash: 'LED', info: '8 MP'}
 codename: zangyapro
 cpu: Kryo 260
 cpu_cores: '8'

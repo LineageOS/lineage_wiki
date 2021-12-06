@@ -4,8 +4,8 @@ before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: 'Depth Sensor 5 MP'}
-- {flash: '', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+- {flash: None, info: '12 MP'}
 codename: lake
 cpu: Kryo 260
 cpu_cores: '8'

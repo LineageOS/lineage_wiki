@@ -4,8 +4,8 @@ before_install: gta4xl
 before_install_args: {version: 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
-- {flash: '', info: '8 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '8 MP'}
+- {flash: None, info: '5 MP'}
 codename: gta4xlwifi
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

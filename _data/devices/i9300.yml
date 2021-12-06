@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.9 MP'}
+- {flash: None, info: '1.9 MP'}
 codename: i9300
 cpu: Cortex-A9
 cpu_cores: 4

@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: True, capacity: 1750, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '8 MP f/2.4'}
-- {flash: '', info: 'VGA'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: None, info: '0.3 MP'}
 codename: taoshan
 cpu: Krait
 cpu_cores: '2'
