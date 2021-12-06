@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 2600, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'LED', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: zeroltexx
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'

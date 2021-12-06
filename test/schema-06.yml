@@ -29,6 +29,23 @@ definitions:
     - capacity
     - removable
     type: object
+  camera_data:
+    description: The format for the camera property
+    properties:
+      info:
+        description: The camera info (in MP)
+        pattern: ^(\d+(\.\d{1,2})? MP( \(.*\))?( or )?)+$
+        type: string
+      flash:
+        enum:
+        - Dual LED
+        - Dual LED (dual tone)
+        - LED
+        - None
+        type: string
+    required:
+    - info
+    - flash
   dimension_data:
     description: The format required for device dimensions
     properties:
@@ -277,6 +294,12 @@ properties:
     required:
     - spec
     type: object
+  cameras:
+    "$id": "/properties/cameras"
+    items:
+      "$ref": "#/definitions/camera_data"
+      type: object
+    type: array
   carrier:
     "$carrier": "/properties/carrier"
     type: string

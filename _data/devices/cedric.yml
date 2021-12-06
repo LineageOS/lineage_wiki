@@ -5,7 +5,7 @@ before_install_args: {version: 8.1}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: cedric
 cpu: Cortex-A53
 cpu_cores: '8'

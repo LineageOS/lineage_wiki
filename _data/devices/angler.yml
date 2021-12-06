@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 3450, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12.3 MP, laser autofocus'}
-- {flash: '', info: '8 MP'}
+- {flash: 'Dual LED (dual tone)', info: '12.3 MP'}
+- {flash: None, info: '8 MP'}
 codename: angler
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'

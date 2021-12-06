@@ -6,7 +6,7 @@ before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '19 MP'}
-- {flash: '', info: '13 MP'}
+- {flash: None, info: '13 MP'}
 codename: akatsuki
 cpu: Kryo 385
 cpu_cores: '8'

@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 9000, tech: 'Li-Po'}
 bluetooth: {spec: '3.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '1.9 MP'}
+- {flash: None, info: '1.9 MP'}
 codename: manta
 cpu: Cortex-A15
 cpu_cores: '2'

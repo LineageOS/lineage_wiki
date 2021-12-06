@@ -5,8 +5,9 @@ before_install_args: {version: 11}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP + 20 MP (16 MP effective)'}
-- {flash: '', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: '20 MP (16 MP effective)'}
+- {flash: None, info: '16 MP'}
 codename: enchilada
 cpu: Kryo 385
 cpu_cores: '8'

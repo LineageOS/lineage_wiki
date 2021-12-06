@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: True, capacity: 1750, tech: 'Li-Po'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: 'VGA'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '0.3 MP'}
 codename: nicki
 cpu: Krait
 cpu_cores: '2'

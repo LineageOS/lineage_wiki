@@ -2,9 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual-LED flash (Dual Tone)', info: '12 MP (Primary) IMX363'}
-- {flash: 'Dual-LED flash (Dual Tone)', info: '8 MP (Wide) OV8856'}
-- {flash: '', info: '8 MP (Selfie) OV8856'}
+- {flash: 'Dual LED (dual tone)', info: '12 MP (Primary)'}
+- {flash: 'Dual LED (dual tone)', info: '8 MP (Wide)'}
+- {flash: None, info: '8 MP (Selfie)'}
 codename: Z01R
 cpu: Kryo 385
 cpu_cores: '8'

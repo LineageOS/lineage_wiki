@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 5100, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: kuntao
 cpu: Cortex-A53
 cpu_cores: '8'

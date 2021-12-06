@@ -3,8 +3,8 @@ battery: {removable: False, capacity: 3040 , tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '13 MP'}
-- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 13 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: 'Dual LED (dual tone)', info: '13 MP (monochromatic)'}
+- {flash: None, info: '8 MP'}
 codename: mata
 cpu: Kryo
 cpu_cores: '8'

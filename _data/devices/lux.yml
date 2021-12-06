@@ -5,7 +5,7 @@ before_install_args: {version: '7.1.1'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'Dual LED', info: '21 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: lux
 cpu: Cortex-A53
 cpu_cores: '8'

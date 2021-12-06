@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 2040, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '0.3 MP'}
+- {flash: None, info: '0.3 MP'}
 codename: w5
 cpu: Cortex-A7
 cpu_cores: '2'

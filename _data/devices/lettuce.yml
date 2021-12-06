@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2230, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: lettuce
 cpu: Cortex-A53
 cpu_cores: '4'

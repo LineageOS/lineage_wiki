@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
-- {flash: 'Dual Tone LED', info: '16 MP, f/2.0'}
-- {flash: 'LED', info: '8 MP, f/2.0'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: 'LED', info: '8 MP'}
 codename: bardock
 cpu: Cortex-A53
 cpu_cores: '8'

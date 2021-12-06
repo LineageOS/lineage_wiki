@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 9500, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 codename: v1awifi
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'

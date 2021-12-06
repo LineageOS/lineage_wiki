@@ -4,7 +4,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: 'LED', info: '5 MP'}
-- {flash: '', info: '24 MP'}
+- {flash: None, info: '24 MP'}
 codename: platina
 cpu: Kryo 260
 cpu_cores: '8'
