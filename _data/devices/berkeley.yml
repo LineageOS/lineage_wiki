@@ -2,8 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 3750, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'LED', info: '12 MP + 12 MP'}
-- {flash: '', info: '13 MP'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: None, info: '13 MP'}
 codename: berkeley
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

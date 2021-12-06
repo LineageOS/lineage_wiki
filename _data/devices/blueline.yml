@@ -5,7 +5,7 @@ before_install_args: {version: 11}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: blueline
 cpu: Kryo 385
 cpu_cores: '8'

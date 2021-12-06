@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 2600, tech: 'Li-Po'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED', info: 'Dual 4 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'Dual LED', info: '4 MP (dual)'}
+- {flash: None, info: '5 MP'}
 codename: m8
 cpu: Krait 400
 cpu_cores: '4'

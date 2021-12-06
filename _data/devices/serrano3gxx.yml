@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: True, capacity: 1900, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '8 MP, 1080p Full HD Video Recording @ 30fps'}
-- {flash: '', info: '1.9 MP, 720p HD Video Recording @ 30fps'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: None, info: '1.9 MP'}
 codename: serrano3gxx
 cpu: Krait
 cpu_cores: '2'

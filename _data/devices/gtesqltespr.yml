@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: True, capacity: 5000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '2 MP'}
 carrier: Sprint
 codename: gtesqltespr
 cpu: Cortex-A53

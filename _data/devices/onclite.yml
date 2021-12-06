@@ -2,8 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED', info: '12MP + 2MP AI Dual Camera'}
-- {flash: '', info: '8MP Selfie camera'}
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: 'Dual LED', info: '2 MP'}
+- {flash: None, info: '8 MP'}
 codename: onclite
 cpu: Kryo 250
 cpu_cores: '8'

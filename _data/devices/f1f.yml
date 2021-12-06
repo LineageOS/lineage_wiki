@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 2500, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: f1f
 cpu: Cortex-A53
 cpu_cores: '8'

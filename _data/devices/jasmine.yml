@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 4600, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '5 MP'}
 carrier: AT&T
 codename: jasmine
 cpu: Cortex-A53

@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3400, tech: 'Li-Ion'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: chiron
 cpu: Kryo 280
 cpu_cores: '8'

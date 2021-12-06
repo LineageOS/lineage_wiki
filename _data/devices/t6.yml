@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
 bluetooth: {spec: '4.0', profiles: [A2DP + aptX]}
 cameras:
-- {flash: 'LED', info: '4 UP'}
-- {flash: '', info: '2.1 MP'}
+- {flash: 'LED', info: '4 MP'}
+- {flash: None, info: '2.1 MP'}
 codename: t6
 cpu: Krait 300
 cpu_cores: '4'

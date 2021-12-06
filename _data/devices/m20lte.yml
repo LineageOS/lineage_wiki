@@ -4,9 +4,9 @@ before_install: needs_specific_android_fw
 before_install_args: {version: 10}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '13 MP , f/1.9'}
-- {flash: 'LED', info: '5 MP , f/2.2 ultrawide'}
-- {flash: '', info: '8 MP, f/2.0'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '5 MP (ultrawide)'}
+- {flash: None, info: '8 MP'}
 codename: m20lte
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'

@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 6000, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '8.1MP f/2.4'}
-- {flash: '', info: '2.2MP'}
+- {flash: 'LED', info: '8.1 MP'}
+- {flash: None, info: '2.2 MP'}
 codename: pollux_windy
 cpu: Krait
 cpu_cores: '4'

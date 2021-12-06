@@ -4,7 +4,7 @@ before_install: s3ve3g
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 codename: s3ve3gxx
 cpu: Cortex-A7
 cpu_cores: '4'

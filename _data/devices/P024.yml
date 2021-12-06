@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: '', info: '5 / 8 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '5 MP or 8 MP'}
+- {flash: None, info: '2 MP'}
 codename: P024
 cpu: Cortex-A53
 cpu_cores: '4'

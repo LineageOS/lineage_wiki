@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
-- {flash: 'LED', info: '12 MP , f/1.7, 26mm'}
-- {flash: '', info: '5 MP, f/1.7, 22mm'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: None, info: '5 MP'}
 codename: herolte
 cpu: Exynos M1 & Cortex-A53
 cpu_cores: '8'

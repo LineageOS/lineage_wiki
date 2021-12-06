@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 1735, tech: 'Li-Po'}
 bluetooth: {spec: 2.1 + EDR, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: 'VGA'}
+- {flash: None, info: '0.3 MP'}
 carrier: Verizon Wireless
 codename: targa
 cpu: Cortex-A9

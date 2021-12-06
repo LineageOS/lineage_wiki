@@ -2,8 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual-LED flash (Dual Tone)', info: '48 MP + 5MP'}
-- {flash: '', info: '13 MP'}
+- {flash: 'Dual LED (dual tone)', info: '48 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+- {flash: None, info: '13 MP'}
 codename: violet
 cpu: Kryo 460
 cpu_cores: '8'
