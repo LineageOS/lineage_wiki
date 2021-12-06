@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 5870, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '8 MP'}
-- {flash: '', info: '2.1 MP'}
+- {flash: None, info: '8 MP'}
+- {flash: None, info: '2.1 MP'}
 codename: gts210wifi
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'

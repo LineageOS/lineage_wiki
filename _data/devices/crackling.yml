@@ -4,7 +4,7 @@ before_lineage_install: crackling
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: crackling
 cpu: Cortex-A53
 cpu_cores: '4'

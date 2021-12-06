@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 4400, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: lithium
 cpu: Kryo
 cpu_cores: '4'

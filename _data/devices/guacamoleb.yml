@@ -5,8 +5,9 @@ before_install_args: {version: 10}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP (wide) + 5 MP (depth)'}
-- {flash: '', info: '16 MP'}
+- {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+- {flash: None, info: '16 MP'}
 codename: guacamoleb
 cpu: Kryo 485
 cpu_cores: '8'

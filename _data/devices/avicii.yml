@@ -3,8 +3,12 @@ battery: {removable: False, capacity: 4115, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'LED', info: '48 MP + 8 MP (Ultra Wide) + 5 MP (Depth) + 2 MP (Macro)'}
-- {flash: '', info: '32 MP + 8 MP (Ultra Wide)'}
+- {flash: 'LED', info: '48 MP'}
+- {flash: 'LED', info: '8 MP (Ultra Wide)'}
+- {flash: 'LED', info: '5 MP (Depth)'}
+- {flash: 'LED', info: '2 MP (Macro)'}
+- {flash: None, info: '32 MP'}
+- {flash: None, info: '8 MP (Ultra Wide)'}
 codename: avicii
 cpu: Kryo 475
 cpu_cores: '8'

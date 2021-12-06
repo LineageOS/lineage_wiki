@@ -5,7 +5,7 @@ before_install_args: {version: '7.1.1'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 carrier: U.S. Cellular, International GSM
 codename: harpia
 cpu: Cortex-A53

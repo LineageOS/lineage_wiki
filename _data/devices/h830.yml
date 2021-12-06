@@ -6,7 +6,7 @@ bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 carrier: T-Mobile
 codename: h830
 cpu: Kryo

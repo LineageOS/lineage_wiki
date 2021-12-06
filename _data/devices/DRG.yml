@@ -4,7 +4,7 @@ bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
-- {flash: '', info: '16 MP'}
+- {flash: None, info: '16 MP'}
 codename: DRG
 cpu: Kryo 260
 cpu_cores: '8'

@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '1.9 MP'}
+- {flash: None, info: '1.9 MP'}
 codename: ms013g
 cpu: Cortex-A7
 cpu_cores: '4'

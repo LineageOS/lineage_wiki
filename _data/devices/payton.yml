@@ -6,7 +6,7 @@ before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: 'Monochromatic 12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
 - {flash: 'Dual LED (dual tone)', info: '8 MP'}
 codename: payton
 cpu: Cortex-A53

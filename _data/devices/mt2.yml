@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 4050, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: mt2
 cpu: Cortex-A7
 cpu_cores: '4'

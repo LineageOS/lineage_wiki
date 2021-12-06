@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: r7plus
 cpu: Cortex-A53
 cpu_cores: '8'

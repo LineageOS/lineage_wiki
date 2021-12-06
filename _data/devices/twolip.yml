@@ -3,9 +3,9 @@ battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
-- {flash: '', info: '5 MP'}
-- {flash: '', info: '20 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '5 MP'}
+- {flash: None, info: '20 MP'}
+- {flash: None, info: '2 MP'}
 codename: twolip
 cpu: Kryo 260
 cpu_cores: '8'

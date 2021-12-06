@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 4050, tech: 'Li-Po'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: 'LED (dual-tone)', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'Dual LED (dual tone)', info: '16 MP'}
+- {flash: None, info: '5 MP'}
 codename: kenzo
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'

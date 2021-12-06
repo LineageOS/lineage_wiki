@@ -2,8 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'LED', info: '13 MP + 2 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '2 MP'}
+- {flash: None, info: '8 MP'}
 codename: figo
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
