@@ -5,7 +5,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
 - {flash: 'LED', info: '8 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: mermaid
 cpu: Kryo 260
 cpu_cores: '8'

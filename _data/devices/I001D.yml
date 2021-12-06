@@ -5,8 +5,9 @@ before_install_args: {version: 10}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'LED flash', info: '48 MP (wide) + 13MP (ultrawide)'}
-- {flash: '', info: '24 MP'}
+- {flash: 'LED', info: '48 MP (wide)'}
+- {flash: 'LED', info: '13 MP (ultrawide)'}
+- {flash: None, info: '24 MP'}
 codename: I001D
 cpu: Kryo 485
 cpu_cores: '8'

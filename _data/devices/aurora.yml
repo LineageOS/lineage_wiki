@@ -7,7 +7,7 @@ bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '19 MP'}
 - {flash: 'LED', info: '12 MP'}
-- {flash: '', info: '13 MP'}
+- {flash: None, info: '13 MP'}
 codename: aurora
 cpu: Kryo 385
 cpu_cores: '8'

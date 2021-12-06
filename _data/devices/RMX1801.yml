@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 3500, tech: 'Li-Ion'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '16 MP (IMX398) f/1.7 + 2 MP Depth sensor (GC2375) f/2.4'}
-- {flash: '', info: '16 MP (IMX371) f/2.0'}
+- {flash: 'LED', info: '16 MP (w/ 2 MP depth sensor)'}
+- {flash: None, info: '16 MP'}
 codename: RMX1801
 cpu: Kryo 260
 cpu_cores: '8'

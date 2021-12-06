@@ -4,7 +4,7 @@ bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: 'Dual LED', info: '12 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: cheryl
 cpu: Kryo 280
 cpu_cores: '8'

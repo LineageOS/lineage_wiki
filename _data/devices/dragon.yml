@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 9240, tech: 'Li-Po'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: '', info: '8 MP, f/2.4'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '8 MP'}
+- {flash: None, info: '2 MP'}
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'

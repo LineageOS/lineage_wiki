@@ -2,8 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
-- {flash: 'LED', info: '13 MP, f/2.0, 28mm'}
-- {flash: '', info: '5 MP, f/2.4, 22mm'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'

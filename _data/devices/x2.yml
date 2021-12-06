@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '21 MP'}
-- {flash: '', info: '8 MP'}
+- {flash: None, info: '8 MP'}
 codename: x2
 cpu: Kryo
 cpu_cores: '4'

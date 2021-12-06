@@ -2,11 +2,11 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED', info: '48 MP or 12 MP'}
-- {flash: 'Dual LED', info: 'UltraWide Sensor 8 MP'}
-- {flash: 'Dual LED', info: 'Macro Sensor 2 MP'}
-- {flash: 'Dual LED', info: 'Depth Sensor 2 MP'}
-- {flash: '', info: '13 MP'}
+- {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
+- {flash: 'Dual LED', info: '8 MP (ultrawide)'}
+- {flash: 'Dual LED', info: '2 MP (macro)'}
+- {flash: 'Dual LED', info: '2 MP (depth)'}
+- {flash: None, info: '13 MP'}
 codename: ginkgo
 cpu: Kryo 260
 cpu_cores: '8'

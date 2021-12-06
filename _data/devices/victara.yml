@@ -2,8 +2,8 @@ architecture: arm
 battery: {removable: False, capacity: 2300, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
-- {flash: 'Dual LED', info: '13 MP, 4128 x 3096 pixels, autofocus'}
-- {flash: '', info: '2 MP, 1080p'}
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: None, info: '2 MP'}
 codename: victara
 cpu: Krait 400
 cpu_cores: '4'

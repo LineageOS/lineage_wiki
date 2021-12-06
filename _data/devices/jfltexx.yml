@@ -3,7 +3,7 @@ battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: '', info: '2 MP'}
+- {flash: None, info: '2 MP'}
 codename: jfltexx
 cpu: Krait 300
 cpu_cores: 4

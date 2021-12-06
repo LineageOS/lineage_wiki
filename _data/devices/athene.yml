@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'Dual LED', info: '16 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: athene
 cpu: Cortex-A53
 cpu_cores: '8'

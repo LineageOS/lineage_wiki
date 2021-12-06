@@ -2,8 +2,9 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP + 5 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: 'Dual LED (dual tone)', info: '12 MP'}
+- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: beryllium
 cpu: Kryo 385
 cpu_cores: '8'

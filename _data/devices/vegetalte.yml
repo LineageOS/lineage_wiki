@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 2850, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
-- {flash: '', info: '5 MP'}
+- {flash: None, info: '5 MP'}
 codename: vegetalte
 cpu: Cortex-A53
 cpu_cores: '4'
