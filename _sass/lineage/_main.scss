@@ -74,17 +74,21 @@
     &[colspan='2'] {
       text-align: center;
     }
+    padding-right: 0.25rem;
   }
 
   td {
     text-align: right;
     word-break: break-word;
+    padding-left: 0px;
+    min-width: 180px;
   }
   ul, ol {
     text-align: left;
   }
   tr.image td {
     text-align: center;
+    padding-left: 0.75rem;
     img {
       max-height: 400px;
       max-width: 100%;
