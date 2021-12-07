@@ -254,6 +254,14 @@
             </ul>
         </td>
     </tr>
+    <tr>
+        <th scope="row">Current version</th>
+        <td>
+            <ul>
+                <li>{% assign version = device.current_branch %}{% include snippets/branch.html %}</li>
+            </ul>
+        </td>
+    </tr>
     {%- if device.models %}
     <tr>
         <th scope="row">Supported models</th>
@@ -267,11 +275,13 @@
     </tr>
     {%- endif %}
     <tr>
-        <th scope="row">Supported versions</th>
+        <th scope="row">Previously supported versions</th>
         <td>
             <ul>
                 {%- for el in device.versions %}
-                    <li>{{ el }}</li>
+                {%- unless el == device.current_branch %}
+                    <li>{% assign version = el %}{% include snippets/branch.html %}</li>
+                {%- endunless %}
                 {%- endfor %}
             </ul>
         </td>
