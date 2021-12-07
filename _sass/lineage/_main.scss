@@ -74,11 +74,13 @@
     &[colspan='2'] {
       text-align: center;
     }
+    padding-right: 0.25rem;
   }
 
   td {
     text-align: right;
     word-break: break-word;
+    padding-left: 0px;
   }
   ul, ol {
     text-align: left;
