@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3d8d29b9_161d9fc1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2021-12-08T20:32:27Z",
+      "side": 1,
+      "message": "Reason was, that this info is of less use than the others (ofc maintainer doesn\u0027t matter to most people as well, but since this is from maintainer perspective, keeping it at the top is ok), current version and models are relevant if looking \"what version and can my model run LineageOS at all, the old versions are more \"here, this is what we used to support, so if you build yourself this might be relevant",
+      "revId": "8398f601e3952618795370595517c35ba911c207",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
