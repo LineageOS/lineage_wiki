@@ -16,6 +16,24 @@
       "message": "There\u0027s no way to know if the camera is front or rear unless mentioned in info, what about grouping cameras in the same position?\ne.g. for lmi:\n\ncameras:\n - rear:\n   - {flash: \u0027Dual LED\u0027, info: \u002764 MP\u0027}\n   - {flash: \u0027Dual LED\u0027, info: \u002713 MP (ultrawide)\u0027}\n   - {flash: \u0027Dual LED\u0027, info: \u00275 MP (macro)\u0027}\n   - {flash: \u0027Dual LED\u0027, info: \u00272 MP (bokeh) or 8 MP (telephoto, zoom edition only)\u0027}\n - front:\n   - {flash: None, info: \u002720 MP (popup)\u0027}",
       "revId": "0fbb49d55c9d0797ab040be651714700404e4a9d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bad53dc2_b820f003",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2021-12-08T16:47:43Z",
+      "side": 1,
+      "message": "\u003e There\u0027s no way to know if the camera is front or rear unless mentioned in info, what about grouping cameras in the same position?\n\u003e e.g. for lmi:\n\u003e \n\u003e  cameras:\n\u003e  - rear:\n\u003e    - {flash: \u0027Dual LED\u0027, info: \u002764 MP\u0027}\n\u003e    - {flash: \u0027Dual LED\u0027, info: \u002713 MP (ultrawide)\u0027}\n\u003e    - {flash: \u0027Dual LED\u0027, info: \u00275 MP (macro)\u0027}\n\u003e    - {flash: \u0027Dual LED\u0027, info: \u00272 MP (bokeh) or 8 MP (telephoto, zoom edition only)\u0027}\n\u003e  - front:\n\u003e    - {flash: None, info: \u002720 MP (popup)\u0027}\n\nofc it can be also used to display in wiki which cameras are where",
+      "parentUuid": "ec1eff93_05a11c53",
+      "revId": "0fbb49d55c9d0797ab040be651714700404e4a9d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
