@@ -25,7 +25,7 @@
 - [Upgrade to a higher version of LineageOS (e.g. lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
-{% if device.note_show and device.note_show == true %}
+{% if device.note_title and device.note_title != "" %}
 {% include templates/device_info_note.md %}
 {% endif %}
 
