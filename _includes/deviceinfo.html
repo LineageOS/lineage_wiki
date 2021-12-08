@@ -262,19 +262,6 @@
             </ul>
         </td>
     </tr>
-    {%- if device.models %}
-    <tr>
-        <th scope="row">Supported models</th>
-        <td>
-            <ul>
-            {%- for model in device.models %}
-                <li>{{ model }}</li>
-            {%- endfor %}
-              <li><a href='{{ "faq.html#the-list-of-supported-models-for-my-device-doesnt-contain-a-specific-one-i-need-can-i-still-use-it" | relative_url }}'><span class="material-icons">help_outline</span> Don't see yours?</a></li>
-            </ul>
-        </td>
-    </tr>
-    {%- endif %}
     {%- if device.versions.size > 1 %}
     <tr>
         <th scope="row">Previously supported versions</th>
@@ -285,6 +272,19 @@
                     <li>{% assign version = el %}{% include snippets/branch.html %}</li>
                 {%- endunless %}
                 {%- endfor %}
+            </ul>
+        </td>
+    </tr>
+    {%- endif %}
+    {%- if device.models %}
+    <tr>
+        <th scope="row">Supported models</th>
+        <td>
+            <ul>
+            {%- for model in device.models %}
+                <li>{{ model }}</li>
+            {%- endfor %}
+              <li><a href='{{ "faq.html#the-list-of-supported-models-for-my-device-doesnt-contain-a-specific-one-i-need-can-i-still-use-it" | relative_url }}'><span class="material-icons">help_outline</span> Don't see yours?</a></li>
             </ul>
         </td>
     </tr>
