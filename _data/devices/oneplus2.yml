@@ -18,7 +18,6 @@ kernel: android_kernel_oneplus_msm8994
 maintainers: []
 name: '2'
 network: [2G GSM, 3G UMTS, 4G LTE]
-note_show: true
 note_title: ANT+ and IMS support
 note_content: Builds for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
 peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Light sensor]
