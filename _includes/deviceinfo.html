@@ -275,6 +275,7 @@
         </td>
     </tr>
     {%- endif %}
+    {%- if device.versions.size > 1 %}
     <tr>
         <th scope="row">Previously supported versions</th>
         <td>
@@ -287,6 +288,7 @@
             </ul>
         </td>
     </tr>
+    {%- endif %}
     {%- endif %}
   </tbody>
 </table>
