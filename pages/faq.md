@@ -19,6 +19,13 @@ permalink: faq.html
  - All devices are maintained by open source contributors - [sorry, we don't take device requests]({{ "device_requests.html" | relative_url }}). If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
  - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
 
+## My device is _not_ on the device list, but it is just the same as that other model. Can I use it?
+ - If your device is not listed, it's not supported.
+ - "The same" is not "equal" which means it needs a separate build
+
+## The list of supported models for my device doesn't contain a specific one I need. Can I still use it?
+ - We try to have the list as complete as possible. If yours isn't there it will either not work or we couldn't test it
+
 ## A build for my device disappeared? Where'd it go?
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status.
 
