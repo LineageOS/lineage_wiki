@@ -16,6 +16,23 @@
       "message": "hold till devrel ticket is done.",
       "revId": "2cee6cf09a81e0812e74016a2241de96a3da05b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ab758ef_9fc3686f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2021-12-31T00:31:25Z",
+      "side": 1,
+      "message": "actually, just add yourself. removing him is a diff process.",
+      "revId": "2cee6cf09a81e0812e74016a2241de96a3da05b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
