@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb72aac5_86bbb0cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-06T18:57:29Z",
+      "side": 1,
+      "message": "TODO: Make all these references all a \"current_shipping_version\" reference so that in the future all we need to do it update schema",
+      "revId": "c21d0ad810612a5ee1e7b9d3d09dcefb340a734e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
