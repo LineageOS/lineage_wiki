@@ -12,7 +12,7 @@ codename: discovery
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '80 mm (3.15 in)', height: '163 mm (6.42 in)', depth: '9.5 mm (0.37 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 508
@@ -36,5 +36,5 @@ tree: android_device_sony_discovery
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [15.1, 16.0, 17.1, 18.1]
+versions: [15.1, 16.0, 17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n, dual band, Wi-Fi Direct, Hotspot
