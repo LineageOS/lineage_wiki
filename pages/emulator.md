@@ -22,19 +22,31 @@ The following branches have been tested for building emulator images:
 * lineage-16.0
 * lineage-17.1
 * lineage-18.1
+* lineage-19.0
 
-{% assign current_branch = 18.1 %}
+{% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
 
 ### Start the build
 
-Time to start building! Now, type:
+Time to start building!
 
+Setup the enviorment:
 ```
 source build/envsetup.sh
-lunch lineage_<arch>-eng
-mka
 ```
+Select the target architecture:
+
+* For LineageOS versions 18.1 and below, run:
+```
+lunch lineage_<arch>-eng
+```
+{% include alerts/note.html content="These targets will work for both emulator and GSI builds." %}
+* For LineageOS versions 19.0 and above, run:
+```
+lunch lineage_sdk_<arch>-eng
+```
+{% include alerts/note.html content="For LineageOS 19.0 and higher the `sdk_$arch` target targets emulator, while `$arch` targets GSI builds. ." %}
 
 `<arch>` can be one of the following:
 
@@ -53,6 +65,11 @@ Notably, as of LineageOS 18.1 one can also build Android TV format verions of ea
 For starting, `x86` is recommended, as your computer can run it natively using hardware acceleration.
 
 Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communiction with the emulator will need to be enabled first.
+
+Now, build the image:
+```
+mka
+```
 
 ## Running the emulator
 

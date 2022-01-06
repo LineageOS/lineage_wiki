@@ -134,6 +134,7 @@ definitions:
     - 16.0
     - 17.1
     - 18.1
+    - 19.0
     type: number
   valid_dimension:
     oneOf:

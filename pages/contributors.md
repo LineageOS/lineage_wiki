@@ -2,7 +2,6 @@
 sidebar: home_sidebar
 title: LineageOS contributors
 permalink: contributors.html
-versions: [18.1, 17.1]
 ---
 
 {% assign devices = "" | split: " " %}
@@ -71,7 +70,12 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 ### Device maintainers
 
-{% for version in page.versions %}
+{%- include snippets/branches.md %}
+{%- assign versions = "" | split: " " %}
+{%- assign versions = versions | push: current_branch %}
+{%- assign versions = versions | push: branch_minus_1 %}
+
+{% for version in versions %}
 
 #### LineageOS {{ version }}
 

@@ -17,7 +17,7 @@ In some cases it might be required to get adb access to your phone without plugg
 otherwise any command used after connection won't get through to the correct device" %}
 
 
-## For your phone running LineageOS 18.1
+## For your phone running LineageOS 18.1+
 
 ### On your phone
 
