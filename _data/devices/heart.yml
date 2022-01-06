@@ -12,7 +12,7 @@ codename: heart
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-current_branch: 18.1
+current_branch: 19.1
 custom_unlock_cmd: fastboot oem unlock-go
 dimensions: {width: '73 mm (2.87 in)', height: '157.5 mm (6.2 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -26,7 +26,7 @@ maintainers: [themard, optionaltoast]
 models: [L78032]
 name: Z5 Pro GT
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, NFC]
 ram: 6/8/12 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
@@ -38,5 +38,5 @@ tree: android_device_lenovo_heart
 type: phone
 vendor: Lenovo
 vendor_short: lenovo
-versions: [18.1]
+versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
