@@ -1,0 +1,9 @@
+{%- assign branches = site.data.schema.definitions.valid_branches.enum %}
+{%- assign num_branches = branches | size %}
+{%- assign current_branch = branches.last %}
+{%- assign num_minus_1 = num_branches | minus: 2 %}
+{%- assign num_minus_2 = num_branches | minus: 3 %}
+{%- assign num_minus_3 = num_branches | minus: 4 %}
+{%- assign branch_minus_1 = branches[num_minus_1] %}
+{%- assign branch_minus_2 = branches[num_minus_2] %}
+{%- assign branch_minus_3 = branches[num_minus_3] %}
