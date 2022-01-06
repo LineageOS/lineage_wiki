@@ -22,6 +22,7 @@ The following branches have been tested for building emulator images:
 * lineage-16.0
 * lineage-17.1
 * lineage-18.1
+* lineage-19.1
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
@@ -41,6 +42,12 @@ Select the target architecture:
 lunch lineage_<arch>-eng
 ```
 {% include alerts/note.html content="These targets will work for both emulator and GSI builds." %}
+
+* For LineageOS versions 19.0 and above, run:
+```
+lunch lineage_sdk_<arch>-eng
+```
+{% include alerts/note.html content="For LineageOS 19.0 and higher the `sdk_$arch` target targets emulator, while `$arch` targets GSI builds. ." %}
 
 `<arch>` can be one of the following:
 
