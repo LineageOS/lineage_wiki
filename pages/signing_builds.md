@@ -58,6 +58,19 @@ ota_from_target_files -k ~/.android-certs/releasekey \
     signed-ota_update.zip
 ```
 
+### Extracting signed recovery image
+
+If your device has a separate recovery partition, run:
+
+```
+unzip signed-target_files.zip IMAGES/recovery.img
+```
+otherwise, run:
+
+```
+unzip signed-target_files.zip IMAGES/boot.img
+```
+
 Then, install the zip in recovery as you normally would.
 
 ## Changing keys
