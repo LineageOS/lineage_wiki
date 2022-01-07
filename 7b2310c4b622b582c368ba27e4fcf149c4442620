@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7c98d55b_875bf26a",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-01-07T00:56:13Z",
+      "side": 1,
+      "message": "#1 not all devices have a recovery partition\n\n#2 couldn\u0027t you just extract boot/recovery images from `signed-target_files.zip` directly? After all, img_from_target_files seems to just create zip file with IMAGES/(\u0027boot.img\u0027, \u0027recovery.img\u0027, \u0027bootloader\u0027, \u0027init_boot.img\u0027) if just you pass -z.",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 36
+      },
+      "revId": "7b2310c4b622b582c368ba27e4fcf149c4442620",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
