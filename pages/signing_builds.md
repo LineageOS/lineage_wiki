@@ -60,12 +60,11 @@ ota_from_target_files -k ~/.android-certs/releasekey \
 
 ### Extracting the signed recovery
 
-You will need the signed recovery to install the zip without verify error.
+If your device has a recovery partition, you will need the signed recovery
+to install the zip without verify error.
 
 ```
-img_from_target_files -z signed-target_files.zip signed-target_files-extract.zip
-unzip signed-target_files-extract.zip recovery.img
-fastboot flash recovery recovery.img
+unzip signed-target_files.zip IMAGES/recovery.img
 ```
 
 Then, install the zip in recovery as you normally would.
