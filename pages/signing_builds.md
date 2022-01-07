@@ -58,6 +58,20 @@ ota_from_target_files -k ~/.android-certs/releasekey \
     signed-ota_update.zip
 ```
 
+### Extracting the signed recovery
+
+If your device has a recovery partition, you will need the signed recovery
+to install the zip without verify error.
+
+```
+unzip signed-target_files.zip IMAGES/recovery.img
+```
+or
+
+```
+unzip signed-target_files.zip IMAGES/boot.img
+```
+
 Then, install the zip in recovery as you normally would.
 
 ## Changing keys
