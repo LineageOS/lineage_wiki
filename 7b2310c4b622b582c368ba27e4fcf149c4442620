@@ -22,6 +22,30 @@
       },
       "revId": "7b2310c4b622b582c368ba27e4fcf149c4442620",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e948941_c912416b",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 68,
+      "author": {
+        "id": 30091
+      },
+      "writtenOn": "2022-01-07T10:34:00Z",
+      "side": 1,
+      "message": "#1 Adjusted for devices having recovery partition\n\n#2 A much simpler extraction",
+      "parentUuid": "7c98d55b_875bf26a",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 68,
+        "endChar": 36
+      },
+      "revId": "7b2310c4b622b582c368ba27e4fcf149c4442620",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
