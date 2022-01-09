@@ -31,18 +31,18 @@ If you already have SSH keys set up (e.g. for GitHub), skip the following two st
 Generate the SSH keys,<sup>[[1]](#TroubleshootingTag)</sup>:
 
 ```
-ssh-keygen -t rsa -C "your@email.com"
+ssh-keygen -t ed25519 -C "your@email.com"
 ```
 
 Add the keys to the ssh-agent:
 
 ```
 eval `ssh-agent -s`
-ssh-add ~/.ssh/id_rsa
+ssh-add ~/.ssh/id_ed25519
 ssh-add
 ```
 
-After that, copy/paste the content of `~/.ssh/id_rsa.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
+After that, copy/paste the content of `~/.ssh/id_ed25519.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
 
 The steps above have to be performed only once.
 
@@ -204,10 +204,10 @@ repo upload .
 
 ### Troubleshooting  {#TroubleshootingTag}
 
-<sup>[1]</sup> If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using a DSA key instead of RSA.
+<sup>[1]</sup> If you get a "Permission denied (publickey)" error and you're sure that everything is right, try using an RSA key instead of ED25519.
 
 ```
-ssh-keygen -t dsa -C "your@email.com"
+ssh-keygen -t rsa -C "your@email.com"
 ```
 
 ## Getting your submission reviewed/merged
