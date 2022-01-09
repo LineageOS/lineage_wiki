@@ -16,6 +16,24 @@
       "message": "\"an RSA key\"",
       "revId": "97706518321d4af3983df6d9cef965b801161ade",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1175d0c4_d3182c75",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 30196
+      },
+      "writtenOn": "2022-01-09T16:27:09Z",
+      "side": 1,
+      "message": "Oops. Sorry, fixed!",
+      "parentUuid": "433bd124_53f81953",
+      "revId": "97706518321d4af3983df6d9cef965b801161ade",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
