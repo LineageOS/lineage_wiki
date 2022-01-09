@@ -42,6 +42,16 @@ ssh-add ~/.ssh/id_ed25519
 ssh-add
 ```
 
+If you are using macOS, you need to run one of the following commands:
+
+```
+# Big Sur or older:
+ssh-add -K ~/.ssh/id_ed25519 && ssh-add -A
+
+# Monterey and newer:
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519 && ssh-add --apple-load-keychain
+```
+
 After that, copy/paste the content of `~/.ssh/id_ed25519.pub` to your Gerrit SSH Settings under **Settings -> SSH Keys**.
 
 The steps above have to be performed only once.
