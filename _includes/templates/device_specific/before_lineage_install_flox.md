@@ -25,7 +25,7 @@
 4. Now run `adb shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
-5. The device will reboot whatever your previous recovery was, please select "Reboot to bootloader" if it's the stock recovery or "Reboot", then "Bootloader" if it was TWRP.
+5. The device will reboot whatever your previous recovery was, please select an option labelled like "Reboot to bootloader" or "Reboot", then "Bootloader".
 6. Format your data partition:
 ```
 fastboot -w
