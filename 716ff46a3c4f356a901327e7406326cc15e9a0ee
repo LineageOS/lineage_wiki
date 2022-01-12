@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86c971a2_f173188a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-12T16:06:46Z",
+      "side": 1,
+      "message": "Can\u0027t we just ship firmware for DRG? Solve the issue?",
+      "revId": "716ff46a3c4f356a901327e7406326cc15e9a0ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
