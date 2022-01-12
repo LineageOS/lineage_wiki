@@ -16,6 +16,24 @@
       "message": "Can\u0027t we just ship firmware for DRG? Solve the issue?",
       "revId": "716ff46a3c4f356a901327e7406326cc15e9a0ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d06fba7e_91534fdb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19612
+      },
+      "writtenOn": "2022-01-12T16:30:20Z",
+      "side": 1,
+      "message": "As I found out, the issue gets fixed only if you reflash the firmware but not if you ship the firmware with the builds. Not sure what\u0027s the logic in that but again seeing how weird PL2 bootloader behaves and blocks \u0027fastboot boot\u0027 till \u0027fastboot flash recovery\u0027 command is ran, anything seems possible now.",
+      "parentUuid": "86c971a2_f173188a",
+      "revId": "716ff46a3c4f356a901327e7406326cc15e9a0ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
