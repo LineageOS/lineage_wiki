@@ -38,11 +38,34 @@ permalink: faq.html
 ## Can I have _xxx_ feature added?
  - Don't ask.
 
+## Will my device receive the next android version?
+ - We can't tell you. "No ETA" includes the "IF", not just the "WHEN"
+
+## I am following a guide/video somewhere on the internet and am stuck, help?
+ - We only provide help for officially supported devices for which we provide our own guides. Follow those instead!
+ - If you follow the official guide for your device line-by-line and still experience issues, feel free to ask again.
+
+## I read somewhere/was told that you support my device?
+ - If it's on [this list]({{ "/devices/" | relative_url }}), we do, otherwise not.
+
+## Does a specific feature or hardware work on my device?
+ - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md). 
+ - If something doesn't work, look into [How to submit a bug]({{ "how-to/bugreport" | relative_url }})
+
+## Does someone else have _this_ issue
+ - You should not care about finding other people that share your experience but look into [reporting it instead]({{ "how-to/bugreport" | relative_url }})
+
 ## My device doesn't pass SafetyNet!
  - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/Safetynet/) about this topic, which explains our reasons further.
 
 ## Will you enable signature spoofing?
  - Once again, it isn't our place to lie about security features. No.
+
+## Can/should I relock my bootloader?
+ - Only few devices allow for it and even less work properly after that. Relocking can result in actual unusable devices, so be warned!
+
+## I have relocked my bootloader and can't get my device to work anymore. What now?
+ - Next time better read first. We can't support you, use a search engine and hope you are able to get it to work again.
 
 ## Where does the updater app store the downloaded zip?
  - `/data/lineageos_updates/`
