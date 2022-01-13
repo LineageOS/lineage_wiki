@@ -55,3 +55,34 @@ permalink: faq.html
    - We currently keep the last 4 builds per device. Older builds do not have the latest security patches.
    - The top 5 devices account for 50% of our users. 95% of our builds do not have enough users to justify torrents.
    - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a delicious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
+
+## Can/should I relock my bootloader?
+ - Few devices allow for it and even less work properly after that. Relocking can result in actual unusable devices, so be warned!
+
+## I have relocked my bootloader and can't get my device to work anymore. What now?
+ - Sorry, as per [earlier in this FAQ](#canshould-i-relock-my-bootloader), we don't support this usecase and there may not be a good way to recover.
+   [XDA](https://www.xda-developers.com), other similar forums or a search engine may be of use.
+
+## Will my device receive the next android version?
+ - We can't tell you. "No ETA" includes the "IF", not just the "WHEN"
+
+## I am following a guide/video somewhere on the internet and am stuck, help?
+ - We only provide help for officially supported devices for which we provide our own guides. Follow those instead!
+ - If you follow the official guide for your device line-by-line and still experience issues, feel free to ask again.
+
+## I read somewhere/was told that you support my device?
+ - If it's on [this list]({{ "/devices/" | relative_url }}), we do, otherwise not.
+
+## Does a specific feature or hardware work on my device?
+ - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md).
+ - If something doesn't work, look into [How to submit a bug]({{ "how-to/bugreport" | relative_url }})
+
+## Does someone else have _this_ issue
+ - Finding other people that have your issue, especially on other devices, is not helpful to solving it. Instead, to best help us solve the issue, please report it properly as shown [here]({{ "how-to/bugreport" | relative_url }}).
+
+## Why do you support this old device but not my newer one?
+ - Because all maintainers are volunteers doing this in their free time, and someone happened to love this device enough to bring it up and properly support it.
+
+## Where are guides so I can port LineageOS to my unsupported device?
+ - There are none
+ - See what other, similar devices did to get them to work.
