@@ -30,21 +30,23 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+   If you don't get any output or an error:
+   * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
+   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
+
+   {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 {% if device.needs_fastboot_boot %}
-5. Temorarily boot recovery on your device:
+5. Temorarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot boot <recovery_filename>.img
 ```
-    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
-    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 {% else %}
-5. Flash recovery onto your device:
+5. Flash recovery onto your device  (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
-    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
-    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}    
-6. Now reboot into recovery to verify the installation:
+6. Now reboot into recovery to verify the installation. Do **not** reboot into the existing OS, since it will overwrite the recovery you just installed!
     * {{ device.recovery_boot }}
+
+      {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above" %}
 {% endif %}
