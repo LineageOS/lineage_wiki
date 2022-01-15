@@ -13,5 +13,4 @@ To do this, sideload the `copy-partitions-20210323_1922.zip` package by doing th
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload copy-partitions-20210323_1922.zip`
     {% include alerts/note.html content="The copy-partitions script was created by LineageOS developer erfanoabdi and filipepferraz, but isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
-3. Now reboot to recovery by tapping "Advanced", then "Reboot to recovery".
 {%- endif %}
