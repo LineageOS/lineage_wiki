@@ -30,23 +30,15 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+  If you don't get any output or an error:
+   * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
+   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
+
     {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 
-5. Temporarily flash a recovery on your device by typing:
+5. Temporarily flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash boot <recovery_filename>.img
 ```
     {% include alerts/note.html content="Outdated fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must update `fastboot` to a release newer than or equal to `31.0.2`. Alternatively, you can manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
-    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
 6. {{ device.recovery_boot }}
-
-{% unless site.data.devices[page.device].no_fastboot_boot %}
-{% if device.uses_twrp %}
-    Alternatively, on some devices and recoveries you can use fastboot to boot directly into the freshly flashed or any other desired recovery:
-```
-fastboot boot <recovery_filename>.img
-```
-    {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
-{% endif %}
-{% endunless %}
