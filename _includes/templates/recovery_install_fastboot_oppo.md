@@ -50,7 +50,9 @@ adb reboot bootloader
 ```
 fastboot devices
 ```
-    {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
+  If you don't get any output or an error:
+   * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
+   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 14. Now type the following command to unlock the bootloader:
 
 {% if device.custom_unlock_cmd %}
