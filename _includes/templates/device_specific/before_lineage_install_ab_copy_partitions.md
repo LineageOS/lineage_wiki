@@ -1,6 +1,8 @@
-## Pre-install instructions
+## Ensuring all firmware partitions are consistent
 
-In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can ensure none of that will happen by copying the contents of slot `a` to slot `b`. This step is NOT optional.
+{% include alerts/note.html content="The steps below only need to be run once per device." %}
+
+In some cases slot `b` can be unpopulated or contain much older firmware than slot `a`, leading to various issues including a potential hard-brick. We can ensure none of that will happen by copying the contents of slot `a` to slot `b`.
 
 To do this, sideload the `copy-partitions-20210323_1922.zip` package by doing the following:
 1. Download the `copy-partitions-20210323_1922.zip` file from [here](https://www.androidfilehost.com/?fid=2188818919693768129).

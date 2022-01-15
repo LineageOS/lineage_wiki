@@ -1,15 +1,19 @@
 {% assign device = site.data.devices[page.device] %}
+{% include alerts/warning.html content="These instructions only work if you follow every section and step precisely.<br/>
+Do **not** continue after something fails!" %}
 
 ## Basic requirements
 
-{% include alerts/important.html content="Please read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!" %}
-
-1. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
+2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+{%- if device.models %}
+4. Make sure that your model is actually listed in the "Supported models" section [here]({{ "devices/" | append: device.codename | append: "#supported-models" | relative_url }}) (exact match required!)
+{%- endif %}
 
 {%- if device.before_install %}
-{% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
-{% include {{ path }} %}
+{%- capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
+{%- include {{ path }} %}
 {%- endif %}
 
 {% if device.required_bootloader %}
@@ -103,7 +107,9 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif %}
 {%- endif %}
 
+{% if device.custom_recovery_link or device.uses_twrp %}
 {% include alerts/specific/warning_recovery_app.html %}
+{% endif %}
 
 ## Get assistance
 
