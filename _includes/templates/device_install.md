@@ -1,11 +1,12 @@
 {% assign device = site.data.devices[page.device] %}
+{% include alerts/warning.html content="These instructions only work, if you follow every section precisely.<br/>
+Do **not** continue after something fails!" %}
 
 ## Basic requirements
 
-{% include alerts/important.html content="Please read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!" %}
-
-1. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
-2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
+2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 
 {%- if device.before_install %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
@@ -88,22 +89,24 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif %}
     {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 {%- if device.current_branch >= 17.1 %}
-{%- if device.uses_twrp and device.is_ab_device != true %}
+  {%- if device.uses_twrp and device.is_ab_device != true %}
 8. Once you have installed everything successfully, run 'adb reboot'.
-{%- else %}
+  {%- else %}
 8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
-{%- endif %}
+  {%- endif %}
 {%- else %}
-{%- if device.uses_twrp and device.is_ab_device != true %}
+  {%- if device.uses_twrp and device.is_ab_device != true %}
 8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 9. Once you have installed everything successfully, run 'adb reboot'.
-{%- else %}
+  {%- else %}
 8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
-{%- endif %}
+  {%- endif %}
 {%- endif %}
 
+{% if device.custom_recovery_link or device.uses_twrp %}
 {% include alerts/specific/warning_recovery_app.html %}
+{% endif %}
 
 ## Get assistance
 
