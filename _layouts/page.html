@@ -16,7 +16,7 @@ layout: default
   <span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
   {%- endif %}
 
-  {% unless page.toc == false -%}
+  {% unless page.toc == false or page.url contains "install" -%}
   {% include toc.html -%}
   {%- endunless -%}
 
