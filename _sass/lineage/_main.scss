@@ -118,6 +118,10 @@
   line-height: 1.8;
   margin-bottom: 1rem;
   border-radius: 4px;
+
+  &:empty {
+    visibility: hidden;
+  }
 }
 div#toc >ul::before {
   content: "Table of Contents";
