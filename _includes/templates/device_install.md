@@ -42,13 +42,11 @@ There are no recovery installation instructions for this discontinued device.
 
 ## Installing LineageOS from recovery
 
-{%- capture userspace_architecture -%}
 {%- if device.architecture.userspace -%}
-{{ device.architecture.userspace }}
+{% assign userspace_architecture = device.architecture.userspace %}
 {%- else -%}
-{{ device.architecture }}
+{% assign userspace_architecture = device.architecture %}
 {%- endif -%}
-{%- endcapture -%}
 
 {%- if device.maintainers != empty %}
 1. Download the [LineageOS installation package](https://download.lineageos.org/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
