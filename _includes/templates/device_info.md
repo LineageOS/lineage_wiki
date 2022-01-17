@@ -14,15 +14,17 @@
 
 ## Guides
 
-- [Installation]({{ "devices/" | append: device.codename | append: "/install" | relative_url }})
-- [Build for yourself]({{ "devices/" | append: device.codename | append: "/build" | relative_url }})
+{%- assign path_prefix = "devices/" | append: device.codename %}
+
+- [Installation]({{ path_prefix | append: "/install" | relative_url }})
+- [Build for yourself]({{ path_prefix | append: "/build" | relative_url }})
 {%- if device.firmware_update %}
-- [Update to a newer vendor firmware version]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
+- [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same LineageOS version]({{ "devices/" | append: device.codename | append: "/update" | relative_url }})
+- [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-15.1 -> lineage-16.0)]({{ "devices/" | append: device.codename | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-17.1 -> lineage-18.1)]({{ path_prefix | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
