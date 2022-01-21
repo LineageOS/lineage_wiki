@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c172101_39213dc8",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:30:22Z",
+      "side": 1,
+      "message": "not needed",
+      "range": {
+        "startLine": 2,
+        "startChar": 68,
+        "endLine": 2,
+        "endChar": 69
+      },
+      "revId": "5dfbcfaaad9208e4786ca723188ba436d1a7bee4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d8d41dee_545acef8",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:30:22Z",
+      "side": 1,
+      "message": "step?",
+      "range": {
+        "startLine": 2,
+        "startChar": 90,
+        "endLine": 2,
+        "endChar": 97
+      },
+      "revId": "5dfbcfaaad9208e4786ca723188ba436d1a7bee4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
