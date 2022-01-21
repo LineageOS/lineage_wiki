@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3c5c3b1_51a9135c",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:35:06Z",
+      "side": 1,
+      "message": "just \"Few\"",
+      "range": {
+        "startLine": 60,
+        "startChar": 3,
+        "endLine": 60,
+        "endChar": 11
+      },
+      "revId": "76aecb6970c0a13309f2c50b8a54601781696d1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "331c6025_847ef0b3",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:35:06Z",
+      "side": 1,
+      "message": "\"Sorry, as per earlier in this FAQ, we don\u0027t support this usecase, and there may not be a good way to recover. XDA or other similar forums may be of use.",
+      "range": {
+        "startLine": 63,
+        "startChar": 3,
+        "endLine": 63,
+        "endChar": 120
+      },
+      "revId": "76aecb6970c0a13309f2c50b8a54601781696d1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db0ee0f0_f6b1d7aa",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:35:06Z",
+      "side": 1,
+      "message": "Finding other people that have your issue, especially on other devices, is not helpful to solving it. Instead, to best help us solve the issue, please report it properly as shown [here].",
+      "range": {
+        "startLine": 80,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 50
+      },
+      "revId": "76aecb6970c0a13309f2c50b8a54601781696d1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e52b017e_e0a59bf1",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:35:06Z",
+      "side": 1,
+      "message": "- Because all maintainers are volunteers doing this in their free time, and someone happened to love this device enough to bring it up and properly support it.",
+      "range": {
+        "startLine": 83,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 86
+      },
+      "revId": "76aecb6970c0a13309f2c50b8a54601781696d1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36486c4d_575634e2",
+        "filename": "pages/faq.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-21T23:35:06Z",
+      "side": 1,
+      "message": "drop",
+      "range": {
+        "startLine": 87,
+        "startChar": 26,
+        "endLine": 87,
+        "endChar": 27
+      },
+      "revId": "76aecb6970c0a13309f2c50b8a54601781696d1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
