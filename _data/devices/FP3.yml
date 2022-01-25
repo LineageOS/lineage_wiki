@@ -25,6 +25,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Release when boot logo appears.
+gapps_hint: If you encounter an error `could not mount /product` while installing MindTheGapps try [Open GApps](https://opengapps.org/) (nano) instead. Make sure to download the arm64 version that matches the Android version of your Lineage build.    
 release: 2019-09
 screen: {size: '143 mm (5.65 in)', density: 427, resolution: '2160x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '400 GB'}
