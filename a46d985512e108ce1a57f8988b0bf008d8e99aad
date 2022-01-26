@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c7dda5e_7fa3d61d",
+        "filename": "_data/devices/gauguin.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-26T17:58:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d5b9258f_1cbd637c",
+      "revId": "a46d985512e108ce1a57f8988b0bf008d8e99aad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "991cf48d_becb0a7e",
@@ -31,6 +49,30 @@
       "writtenOn": "2022-01-26T15:59:07Z",
       "side": 1,
       "message": "whitespace",
+      "range": {
+        "startLine": 32,
+        "startChar": 8,
+        "endLine": 32,
+        "endChar": 9
+      },
+      "revId": "a46d985512e108ce1a57f8988b0bf008d8e99aad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61ae2dbb_f35eb85a",
+        "filename": "_data/devices/gauguin.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-01-26T17:58:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "991cf48d_becb0a7e",
       "range": {
         "startLine": 32,
         "startChar": 8,
