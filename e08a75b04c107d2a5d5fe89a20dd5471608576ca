@@ -16,6 +16,23 @@
       "message": "I ran into some issues while installing google appps on my fairphone and solved it by using open gapps instead of MindTheGaps (which is linked for 18.1 in the wiki). I wanted to share my finding and added the option to include device specific gapps_installation hints",
       "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8de69e84_05cc7e24",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-01-27T21:18:20Z",
+      "side": 1,
+      "message": "We only recently removed the recommendation for OpenGapps for branches where MTG exists, so I am very much against adding a hint for it. OpenGapps shipped broken stuff too many times and generates huge amounts of support effort on our side.\nAlso I don\u0027t see any case where this benefited any other device.\nHave you reached out to MTG org owners instead to fix the issue where it apparently comes from, instead?",
+      "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
