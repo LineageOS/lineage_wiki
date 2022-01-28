@@ -69,6 +69,24 @@
       "parentUuid": "f1a3c198_3ca8861d",
       "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8be396c2_4f0bcb6c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30398
+      },
+      "writtenOn": "2022-01-28T10:46:04Z",
+      "side": 1,
+      "message": "MindTheGapps-11.0.0-arm64-20210920_084011.zip\non lineage-18.1-20220124-nightly-FP3-signed.zip \nwith lineage-18.1-20220124-recovery-FP3.img\non a Fairphone 3 (with FP3+ cameras)",
+      "parentUuid": "4944f5e0_02dcf96c",
+      "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
