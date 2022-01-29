@@ -87,6 +87,23 @@
       "parentUuid": "4944f5e0_02dcf96c",
       "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d53aba0_119d2d69",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-01-29T11:03:49Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_device_fairphone_FP3/+/322886 - will abandon",
+      "revId": "e08a75b04c107d2a5d5fe89a20dd5471608576ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
