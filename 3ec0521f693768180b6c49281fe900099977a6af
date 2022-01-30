@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2833856c_f0709d17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-01-30T11:54:46Z",
+      "side": 1,
+      "message": "maintainers should be [maintainer1, maintainer2]",
+      "revId": "3ec0521f693768180b6c49281fe900099977a6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "35aebe6f_183baa66",
+        "filename": "_data/devices/gta4xl.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-01-30T11:54:46Z",
+      "side": 1,
+      "message": "comma separated",
+      "revId": "3ec0521f693768180b6c49281fe900099977a6af",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
