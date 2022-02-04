@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b05115e_74295769",
+        "filename": "pages/emulator.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-04T20:07:48Z",
+      "side": 1,
+      "message": "not true atm, only the sdk targets run so far afaik",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 14
+      },
+      "revId": "dfd8193b3ceb6f23a3a26e3faa340fd806ea319a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
