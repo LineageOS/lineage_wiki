@@ -22,8 +22,9 @@ The following branches have been tested for building emulator images:
 * lineage-16.0
 * lineage-17.1
 * lineage-18.1
+* lineage-19.0
 
-{% assign current_branch = 18.1 %}
+{% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
 
 ### Start the build

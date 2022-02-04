@@ -15,6 +15,7 @@
 ## Guides
 
 {%- assign path_prefix = "devices/" | append: device.codename %}
+{% include snippets/branches.md %}
 
 - [Installation]({{ path_prefix | append: "/install" | relative_url }})
 - [Build for yourself]({{ path_prefix | append: "/build" | relative_url }})
@@ -24,7 +25,7 @@
 - [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-17.1 -> lineage-18.1)]({{ path_prefix | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ branch_minus_1 }} -> lineage-{{ current_branch }})]({{ path_prefix | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
