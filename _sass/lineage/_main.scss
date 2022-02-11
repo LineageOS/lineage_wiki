@@ -318,6 +318,19 @@ a {
   vertical-align: middle;
 }
 
+.blurred {
+  filter: blur(0.5rem);
+}
+
+#unblur {
+  margin: 80px auto;
+  width: fit-content;
+  text-align: center;
+
+  button {
+    white-space: normal;
+  }
+}
 
 @media (max-width: 991px) {
   .vendor-container {
