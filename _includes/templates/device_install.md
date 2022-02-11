@@ -26,6 +26,26 @@ The current bootloader version can be checked by running the command `getprop ro
 {% include alerts/warning.html content=bootloader %}
 {%- endif %}
 
+<script>
+$(function() {
+  if (window.location.hash.length == 0) {
+    toggleBlur()
+  }
+})
+
+function toggleBlur() {
+  $('#blurred').toggleClass('blurred')
+  $('#unblur').toggle()
+}
+</script>
+
+<div id="unblur" style="display: none;">
+  By clicking the following button you are confirming that you've met all of the basic requirements and read the warnings.<br/>
+  <button onclick="toggleBlur()" class="btn btn-primary">Show instructions</button>
+</div>
+
+<div id="blurred" markdown="1">
+
 {%- if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
@@ -113,3 +133,5 @@ There are no recovery installation instructions for this discontinued device.
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
+
+</div>
