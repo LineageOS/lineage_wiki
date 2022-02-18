@@ -11,9 +11,10 @@ Do **not** continue after something fails!" %}
 4. Make sure that your model is actually listed in the "Supported models" section [here]({{ "devices/" | append: device.codename | append: "#supported-models" | relative_url }}) (exact match required!)
 {%- endif %}
 
+
 {%- if device.before_install %}
-{%- capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
-{%- include {{ path }} %}
+{% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
+{% include {{ path }} %}
 {%- endif %}
 
 {% if device.required_bootloader %}
