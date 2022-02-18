@@ -34,7 +34,6 @@ soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64/128 GB
 tree: android_device_motorola_payton
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [15.1, 16.0, 17.1, 18.1]
