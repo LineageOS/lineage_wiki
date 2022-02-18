@@ -5,6 +5,11 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
+{% if device.before_recovery_install %}
+{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 ## Important Information
 
 {% include alerts/note.html content="The following instructions **require** a machine running Windows 10 build 17063 or newer." %}
