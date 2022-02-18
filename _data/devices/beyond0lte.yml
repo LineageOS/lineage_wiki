@@ -1,7 +1,8 @@
 architecture: arm64
 battery: {removable: False, capacity: 3100, tech: 'Li-Ion'}
-before_install: exynos9820
+before_install: needs_specific_android_fw
 before_install_args: {version: 10 or 11}
+before_recovery_install: exynos9820
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
 - {flash: 'LED', info: '12 MP'}

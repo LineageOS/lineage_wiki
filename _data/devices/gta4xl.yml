@@ -1,7 +1,8 @@
 architecture: arm64
 battery: {removable: False, capacity: 7040, tech: 'Li-Ion'}
-before_install: gta4xl
+before_install: needs_specific_android_fw
 before_install_args: {version: 11}
+before_recovery_install: gta4xl
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:
 - {flash: None, info: '8 MP'}

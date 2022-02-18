@@ -5,6 +5,11 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
+{% if device.before_recovery_install %}
+{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endif %}
+
 ## Preparing for installation
 
 Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
