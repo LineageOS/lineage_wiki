@@ -18,7 +18,7 @@ gpu: Adreno 618
 image: davinci.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6150
-maintainers: [Pig]
+maintainers: []
 models: [M1903F10A, M1903F10C, M1903F10G, M1903F10I, M1903F10T]
 name: Redmi K20 / Mi 9T
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
