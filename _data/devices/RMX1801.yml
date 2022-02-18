@@ -17,7 +17,7 @@ gpu: Adreno 512
 install_method: fastboot_realme
 image: RMX1801.png
 kernel: android_kernel_realme_sdm660
-maintainers: [sb6596]
+maintainers: []
 models: [RMX1801]
 name: 2 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
