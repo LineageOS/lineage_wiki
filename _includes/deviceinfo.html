@@ -240,10 +240,10 @@
     </tr>
     {%- endif %}
     <!-- lineage info -->
-    {%- if device.maintainers != empty %}
     <tr>
         <th scope="row" colspan="2">LineageOS info</th>
     </tr>
+    {%- if device.maintainers != empty %}
     <tr>
         <th scope="row">Maintainer{% if device.maintainers.size > 1 %}s{% endif %}</th>
         <td>
@@ -275,20 +275,20 @@
         </td>
     </tr>
     {%- endif %}
-    {%- if device.versions.size > 1 %}
+    {%- endif %}
+    {%- if device.versions.size > 1 or device.maintainers == empty %}
     <tr>
         <th scope="row">Previously supported versions</th>
         <td>
             <ul>
                 {%- for el in device.versions %}
-                {%- unless el == device.current_branch %}
+                {%- unless el == device.current_branch and device.maintainers != empty %}
                     <li>{% assign version = el %}{% include snippets/branch.html %}</li>
                 {%- endunless %}
                 {%- endfor %}
             </ul>
         </td>
     </tr>
-    {%- endif %}
     {%- endif %}
   </tbody>
 </table>
