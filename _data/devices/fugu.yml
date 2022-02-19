@@ -26,7 +26,6 @@ soc: Intel Atom x86_64 (Moorefield)
 storage: 8 GB eMMC
 tree: android_device_asus_fugu
 type: Set top box
-uses_twrp: true
 vendor: Google
 vendor_short: asus
 versions: [14.1, 15.1]
