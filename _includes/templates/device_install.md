@@ -130,7 +130,7 @@ There are no recovery installation instructions for this discontinued device.
 The first boot usually takes no longer than 15 minutes, depending on the device.
 If it takes longer, you may have missed a step, otherwise feel free to [get assistance](#get-assistance)
 {%- endcapture %}
-{%- include alerts/note.html content=first_boot %}
+{% include alerts/note.html content=first_boot %}
 
 
 {% if device.custom_recovery_link or device.uses_twrp %}
