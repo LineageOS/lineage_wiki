@@ -5,7 +5,9 @@ module Jekyll
 
     def generate(site)
       site.data["version"] = {}
-      site.data["version"]["git"] = %x( git describe --always --dirty).strip
+      if File.exist?(".git")
+        site.data["version"]["git"] = %x( git describe --always --dirty ).strip
+      end
       site.data["version"]["build_date"] = %x( date +%s ).strip
     end
   end
