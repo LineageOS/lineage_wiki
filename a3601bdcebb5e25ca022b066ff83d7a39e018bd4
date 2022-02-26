@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9522a105_451c0de3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-26T00:28:20Z",
+      "side": 1,
+      "message": "According to a user and https://www.gsmarena.com/xiaomi_mi_8-9065.php this device doesn\u0027t have a sdcard slot (sim slot is just dual sim)",
+      "revId": "a3601bdcebb5e25ca022b066ff83d7a39e018bd4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
