@@ -17,7 +17,7 @@ dimensions: {width: '73.9 mm (2.91 in)', height: '149.4 mm (5.88 in)', depth: '7
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 530
 image: g5.png
-install_method: fastboot_lg
+install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
 maintainers: [aleasto, npjohnson, x86cpu]
 name: G5 (US Unlocked)
@@ -32,6 +32,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_rs988
 type: phone
+unlock_bootloader_guide: https://android.gadgethacks.com/how-to/root-your-t-mobile-lg-v20-using-dirty-cow-0175329/
 vendor: LG
 vendor_short: lge
 versions: [15.1, 17.1, 18.1]

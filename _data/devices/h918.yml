@@ -17,7 +17,7 @@ dimensions: {width: '78.1 mm (3.07 in)', height: '159.7 mm (6.29 in)', depth: '7
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable.
 gpu: Adreno 530
 image: v20.png
-install_method: fastboot_nexus
+install_method: fastboot_custom
 kernel: android_kernel_lge_msm8996
 maintainers: [aleasto, npjohnson, x86cpu]
 name: V20 (T-Mobile)
@@ -33,6 +33,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
 tree: android_device_lge_h918
 type: phone
+unlock_bootloader_guide: https://android.gadgethacks.com/how-to/root-your-t-mobile-lg-v20-using-dirty-cow-0175329/
 vendor: LG
 vendor_short: lge
 versions: [14.1, 17.1, 18.1]
