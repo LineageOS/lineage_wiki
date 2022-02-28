@@ -1,0 +1,90 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "756acb68_81aafe75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-28T13:04:07Z",
+      "side": 1,
+      "message": "I think we have \"unlock_bootloader_guide\" for such things and the dirtysanta-reference you were given via irc also uses that.\nAlso, I prefer not to name (and to an extent describe) exploits on our wiki. Linking like with the dirtysanta one, maybe, but explicitely putting it into headers etc. - not sure about that",
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58773603_38e1e5aa",
+        "filename": "_data/devices/h830.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-28T13:04:07Z",
+      "side": 1,
+      "message": "This isn\u0027t required with the proposed \"before_install\" change",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 35
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48359f8a_ca279832",
+        "filename": "_includes/templates/device_specific/before_install_needs_dirtycow_vulnerable_fw.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-28T13:04:07Z",
+      "side": 1,
+      "message": "And how is the user supposed to know, which one that is?",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 180
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff0ad2f2_47955ec3",
+        "filename": "_includes/templates/recovery_install_dirtycow.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-02-28T13:04:07Z",
+      "side": 1,
+      "message": "This looks wrong to me. At this point, the user hasn\u0027t even unlocked the phone, so starting at step 12 won\u0027t work",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 211
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
