@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "37094423_cabb8f65",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-05T21:02:06Z",
+      "side": 1,
+      "message": "all LG 89986 (v20 and g5) need this now afaik.\n\nPlease address comments and update according to that thought.",
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58773603_38e1e5aa",
