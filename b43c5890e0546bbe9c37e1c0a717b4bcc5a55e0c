@@ -22,6 +22,30 @@
       },
       "revId": "b43c5890e0546bbe9c37e1c0a717b4bcc5a55e0c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3241e2e1_8324a202",
+        "filename": "pages/emulator.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-03-12T18:56:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "873d0224_f0d52fa5",
+      "range": {
+        "startLine": 33,
+        "startChar": 10,
+        "endLine": 33,
+        "endChar": 20
+      },
+      "revId": "b43c5890e0546bbe9c37e1c0a717b4bcc5a55e0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
