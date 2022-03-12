@@ -30,10 +30,12 @@ Next, enter `lineageremote`. This command will add the remote (use `git remote -
 
 ### To bypass Gerrit
 
-Assuming `lineage-18.1` is the branch to which you are pushing, type:
+{%- include snippets/branches.md %}
+
+Assuming `lineage-{{ current_branch }}` is the branch to which you are pushing, type:
 
 ```
-git push lineage HEAD:refs/heads/lineage-18.1
+git push lineage HEAD:refs/heads/lineage-{{ current_branch }}
 ````
 
 ### To mass-push commits to Gerrit for review
