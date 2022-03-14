@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ea0831a5_ff4110e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-14T02:55:29Z",
+      "side": 1,
+      "message": "I removed the references to the exploit. After reviewing this comment though, I see still need to use unlock_bootloader_guide. I should have that in my next patch.",
+      "parentUuid": "756acb68_81aafe75",
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "58773603_38e1e5aa",
         "filename": "_data/devices/h830.yml",
         "patchSetId": 1
@@ -66,6 +84,30 @@
       "writtenOn": "2022-02-28T13:04:07Z",
       "side": 1,
       "message": "This isn\u0027t required with the proposed \"before_install\" change",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 35
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb4553e1_07672972",
+        "filename": "_data/devices/h830.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-14T02:55:29Z",
+      "side": 1,
+      "message": "Removed",
+      "parentUuid": "58773603_38e1e5aa",
       "range": {
         "startLine": 4,
         "startChar": 0,
@@ -99,6 +141,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "86371362_23b0435e",
+        "filename": "_includes/templates/device_specific/before_install_needs_dirtycow_vulnerable_fw.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-14T02:55:29Z",
+      "side": 1,
+      "message": "Changed the message with a specific kdz.",
+      "parentUuid": "48359f8a_ca279832",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 180
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ff0ad2f2_47955ec3",
@@ -112,6 +178,30 @@
       "writtenOn": "2022-02-28T13:04:07Z",
       "side": 1,
       "message": "This looks wrong to me. At this point, the user hasn\u0027t even unlocked the phone, so starting at step 12 won\u0027t work",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 19,
+        "endChar": 211
+      },
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0bf9d35c_c33c8944",
+        "filename": "_includes/templates/recovery_install_dirtycow.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-14T02:55:29Z",
+      "side": 1,
+      "message": "Changed to `steps 1-14\u0027. I\u0027ll be changing this to use the unlock_bootloader_guide, so this will be moot in the next patch.",
+      "parentUuid": "ff0ad2f2_47955ec3",
       "range": {
         "startLine": 19,
         "startChar": 0,
