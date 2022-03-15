@@ -78,6 +78,10 @@ To build LineageOS 13.0, you'll also need:
 * `maven`
 {% endif %}
 
+For Ubuntu versions 20.04 (focal) or newer, install also:
+
+ * `python-is-python3`
+
 For Ubuntu versions older than 20.04 (focal), install also:
 
 * `libwxgtk3.0-dev`
