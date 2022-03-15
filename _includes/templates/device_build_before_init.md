@@ -66,11 +66,7 @@ command directly in the Terminal." %}
 
 To build LineageOS, you'll need:
 
-* `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick
-   lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev
-   libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync
-   schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
-   zip zlib1g-dev`
+* `build-essential libncurses5 libssl-dev pngcrush zip`
 
 {% if device.versions contains 13.0 %}
 To build LineageOS 13.0, you'll also need:
