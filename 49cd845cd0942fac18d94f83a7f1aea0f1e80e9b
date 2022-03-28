@@ -71,6 +71,42 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a4167d7_d9d81729",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-28T02:30:51Z",
+      "side": 1,
+      "message": "All LG 89986 devices should be in there now. Please review again.",
+      "parentUuid": "750ccae0_e6f3536e",
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f69591f5_562baf16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30582
+      },
+      "writtenOn": "2022-03-28T02:30:51Z",
+      "side": 1,
+      "message": "Should be fixed now. Please review again.",
+      "parentUuid": "ea0831a5_ff4110e7",
+      "revId": "49cd845cd0942fac18d94f83a7f1aea0f1e80e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58773603_38e1e5aa",
