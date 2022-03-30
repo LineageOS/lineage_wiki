@@ -23,7 +23,7 @@ kernel: android_kernel_xiaomi_sm8250
 maintainers: [Ramisky, SebaUbuntu]
 models: [M2007J3SC, M2007J3SG, M2007J3SY]
 name: Mi 10T / Mi 10T Pro / Redmi K30S Ultra
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G]
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
