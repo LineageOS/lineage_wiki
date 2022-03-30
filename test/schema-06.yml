@@ -186,6 +186,7 @@ definitions:
       - SBAS
       - QZSS
       - Gesture sensor
+      - Google Assist Button
       - Gyroscope
       - HDMI
       - Hall effect sensor
