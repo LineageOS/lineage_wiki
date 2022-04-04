@@ -16,6 +16,23 @@
       "message": "Fine with me, but I\u0027m not a wiki person.",
       "revId": "613f5813f453370f8e829dae9b6195b4a4974066",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "55c15f8a_c5a8a857",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2022-04-04T01:44:34Z",
+      "side": 1,
+      "message": "Actually, I think this warrants further discussion. Is NR correct for everyone? Do we want to specify UWB? How about SA or NSA?",
+      "revId": "613f5813f453370f8e829dae9b6195b4a4974066",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
