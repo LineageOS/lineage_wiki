@@ -33,6 +33,23 @@
       "message": "Actually, I think this warrants further discussion. Is NR correct for everyone? Do we want to specify UWB? How about SA or NSA?",
       "revId": "613f5813f453370f8e829dae9b6195b4a4974066",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f556c7d_a450f494",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2022-04-04T17:35:24Z",
+      "side": 1,
+      "message": "5G NR is the proper label, I don\u0027t think mmwave warrants another label, it\u0027s still 5G NR",
+      "revId": "613f5813f453370f8e829dae9b6195b4a4974066",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
