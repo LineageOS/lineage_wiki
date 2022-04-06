@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7adf3b85_0bd7738b",
+        "filename": "_includes/snippets/branch.html",
+        "patchSetId": 26
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2022-04-06T05:13:44Z",
+      "side": 1,
+      "message": "so in the past, we had 14.1 \u003d Android 7.1, and 15.1 as Android 8.1, so shouldn\u0027t we do 19.1 \u003d 12.1 since Google even called it that too?",
+      "range": {
+        "startLine": 16,
+        "startChar": 16,
+        "endLine": 16,
+        "endChar": 18
+      },
+      "revId": "e7b834512121a5283c8d9941924712beee9b2369",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
