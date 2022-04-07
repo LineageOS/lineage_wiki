@@ -69,9 +69,24 @@ on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
 
+LineageOS 19.1:
+```
+repopick -f 327460
+```
+
+LineageOS 18.1:
+```
+repopick -f 297539
+```
+
+LineageOS 17.1:
+```
+repopick -f 266939
+```
+
 LineageOS 16.0:
 ```
-repopick 239520
+repopick -f 239520
 ```
 
 LineageOS 15.1:
@@ -82,7 +97,7 @@ repopick -f 192656 -P frameworks/base
 
 LineageOS 14.1:
 ```
-repopick 156047 162144
+repopick -f 156047 162144
 ```
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
@@ -90,6 +105,24 @@ Then, follow the [instructions to generate an install package](#generating-an-in
 #### Going back
 
 After installing the migration build, you can switch back to building normal builds:
+
+LineageOS 19.1:
+```
+cd frameworks/base
+git reset --hard github/lineage-19.1
+```
+
+LineageOS 18.1:
+```
+cd frameworks/base
+git reset --hard github/lineage-18.1
+```
+
+LineageOS 17.1:
+```
+cd frameworks/base
+git reset --hard github/lineage-17.1
+```
 
 LineageOS 16.0:
 ```
