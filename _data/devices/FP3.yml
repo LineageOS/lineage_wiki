@@ -17,7 +17,7 @@ image: FP3.png
 install_method: fastboot_fairphone
 is_ab_device: true
 kernel: android_kernel_fairphone_sdm632
-maintainers: [dk1978]
+maintainers: [dk1978, teamb58]
 models: [FP3,FP3+]
 name: '3'
 network: [2G GSM, 3G UMTS, 4G LTE]
