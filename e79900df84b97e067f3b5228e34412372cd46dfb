@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d43fe62_52225e91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30807
+      },
+      "writtenOn": "2022-04-09T17:13:27Z",
+      "side": 1,
+      "message": "Dear all, thanks for all the comments and improvements.\nCan I please have your votes to get this included?",
+      "revId": "e79900df84b97e067f3b5228e34412372cd46dfb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
