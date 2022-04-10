@@ -128,7 +128,7 @@ the recovery.
 
 #### Test-keys to official or vice versa
 
-If you are moving from a test-keys build (eg an "unsigned" unofficial build) to an official
+If you are moving from a test-keys build (e.g. an "unsigned" unofficial build) to an official
 LineageOS build, you can push the script to your device and run it from Android:
 
 ```
