@@ -46,6 +46,30 @@
       },
       "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "390d12b6_e7c026a9",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-04-10T10:35:36Z",
+      "side": 1,
+      "message": "we usually do this with |relative_url or smth like that I think",
+      "parentUuid": "5da9612f_5dca65c1",
+      "range": {
+        "startLine": 19,
+        "startChar": 30,
+        "endLine": 19,
+        "endChar": 49
+      },
+      "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
