@@ -184,7 +184,7 @@ Find a reasonably high-quality image of your device, and add it to `images/devic
 - The filename must match the entry `image` in your YAML file
 - The background of the image is transparent
 - The image is cropped to the actual content
-- Preferrably you remove any cast shadow - if that's not possible, make sure it doesn't extend too much beyond the actual device outline
+- Preferably you remove any cast shadow - if that's not possible, make sure it doesn't extend too much beyond the actual device outline
 - Optional: If you are already working with the image in an editor, rescale the picture to so the bigger dimension equals 500px (respecting the aspect ratio, keeping the other dimension smaller than that)
 
 {% include alerts/note.html content="It is unlikely that your picture has equal width and height. Please check the image rules above!" %}

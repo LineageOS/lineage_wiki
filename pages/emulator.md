@@ -49,7 +49,7 @@ lunch lineage_<arch>-eng
 * `x86` (32-bit x86)
 * `x86_64` (64-bit x86)
 
-Notably, as of LineageOS 18.1 one can also build Android TV format verions of each arch above, the options for this are as follows:
+Notably, as of LineageOS 18.1 one can also build Android TV format versions of each arch above, the options for this are as follows:
 
 * `tv_arm` (32-bit ARM)
 * `tv_arm64` (64-bit ARM)
@@ -58,7 +58,7 @@ Notably, as of LineageOS 18.1 one can also build Android TV format verions of ea
 
 For starting, `x86` is recommended, as your computer can run it natively using hardware acceleration.
 
-Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communiction with the emulator will need to be enabled first.
+Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communication with the emulator will need to be enabled first.
 
 Now, build the image:
 ```

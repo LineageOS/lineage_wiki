@@ -51,7 +51,7 @@ Additionally you will get a notification on your device.
 4. Connect to the same wifi network as your computer
 5. Activate the tile by pressing it once
 
-You will now see the device's IP adress below the tile which you'll need for the next step
+You will now see the device's IP address below the tile which you'll need for the next step
 
 ### On your computer
 
