@@ -22,6 +22,30 @@
       },
       "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5da9612f_5dca65c1",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-04-10T09:47:55Z",
+      "side": 1,
+      "message": "It is required, especially for wiki previews.",
+      "parentUuid": "2e370f4e_5b677b80",
+      "range": {
+        "startLine": 19,
+        "startChar": 30,
+        "endLine": 19,
+        "endChar": 49
+      },
+      "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
