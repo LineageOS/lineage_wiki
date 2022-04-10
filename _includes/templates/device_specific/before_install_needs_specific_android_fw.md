@@ -1,6 +1,7 @@
 {% capture content -%}
-Before following these instructions please ensure that the device is on the latest **Android {{ device.before_install_args.version }}** firmware.<br/>
-This is not necessarily the newest available version! Please up- or downgrade to the required version before proceeding
+Before following these instructions please ensure that the device is currently using **Android {{ device.before_install_args.version }}** firmware.<br/>
+If the vendor provided multiple updates for that version, e.g. security updates, make sure you are on the latest!<br/>
+If your current installation is newer or older than **Android {{ device.before_install_args.version }}**, please up- or downgrade to the required version before proceeding
 {%- if device.firmware_update and page.url contains "upgrade" %}
 by following [this guide]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }})
 {%- else %}
