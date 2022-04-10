@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e370f4e_5b677b80",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-04-10T09:43:22Z",
+      "side": 1,
+      "message": "I think this is not required?",
+      "range": {
+        "startLine": 19,
+        "startChar": 30,
+        "endLine": 19,
+        "endChar": 49
+      },
+      "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
