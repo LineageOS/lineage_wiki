@@ -110,7 +110,7 @@ pathways that connect to potential contributors to teams that have contribution 
 
 ### Infrastructure managers
 
-Infrastructure Managers are responsible for running the day-to-day infrastructure and managing interal signing processes.
+Infrastructure Managers are responsible for running the day-to-day infrastructure and managing internal signing processes.
 
 | Name | Nickname |
 |------|----------|

@@ -56,7 +56,7 @@ Then click on "Edit Custom VM Options" and include the following:
 -Xmx748m
 ```
 
-This will set the initial allocated (`Xms` parameter) and maximum usable (`Xmx` parameter) RAM to 748MB each. You can also use higher numbers but should not go below that to ensure usablility. You can find more information of [these](https://developer.android.com/studio/intro/studio-config.html#adjusting_heap_size) and other parameters in the [official documentation](https://developer.android.com/studio/intro/studio-config.html)
+This will set the initial allocated (`Xms` parameter) and maximum usable (`Xmx` parameter) RAM to 748MB each. You can also use higher numbers but should not go below that to ensure usability. You can find more information of [these](https://developer.android.com/studio/intro/studio-config.html#adjusting_heap_size) and other parameters in the [official documentation](https://developer.android.com/studio/intro/studio-config.html)
 
 ### Increase the file parsing limit
 

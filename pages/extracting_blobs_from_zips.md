@@ -23,7 +23,7 @@ You may also have a payload-based OTA, which is what your device will use if it 
 
 ## Extracting proprietary blobs from block-based OTAs
 
-Some block-based OTAs are split into multiple files, for the system partition and the other partitions like vendor, product, oem, odm and others.  You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LinageOS zip.
+Some block-based OTAs are split into multiple files, for the system partition and the other partitions like vendor, product, oem, odm and others.  You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LineageOS zip.
 
 If you have a split block-based OTA file then you will need to extract, decompress and convert each one in a similar manner to system and vendor as outlined below.
 
