@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b8869d91_9f518314",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-04-10T09:53:24Z",
+      "side": 1,
+      "message": "\"and others\" makes the sentence better readable without loosing context",
+      "range": {
+        "startLine": 26,
+        "startChar": 82,
+        "endLine": 26,
+        "endChar": 102
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "384c1d19_8642cfef",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-04-10T09:53:24Z",
+      "side": 1,
+      "message": "Two spaces",
+      "range": {
+        "startLine": 26,
+        "startChar": 145,
+        "endLine": 26,
+        "endChar": 147
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "796c3b03_9e3baf48",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-04-10T09:53:24Z",
+      "side": 1,
+      "message": "remove comma",
+      "range": {
+        "startLine": 26,
+        "startChar": 51,
+        "endLine": 26,
+        "endChar": 52
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
