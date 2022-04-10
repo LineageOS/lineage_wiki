@@ -55,15 +55,13 @@ fastboot oem unlock <your_unlock_code>
 
 ## Installing a custom recovery using `fastboot`
 
-{% if device.custom_recovery_link %}
+{%- if device.custom_recovery_link %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
-{% else %}
-{% if device.uses_twrp %}
+{%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{% else %}
-1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
-{% endif %}
-{% endif %}
+{%- else %}
+1. Download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
+{%- endif %}
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```

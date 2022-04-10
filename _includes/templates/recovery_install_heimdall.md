@@ -53,16 +53,14 @@ heimdall print-pit
 
 ## Installing a custom recovery using `heimdall`
 
-{% if device.custom_recovery_link %}
+{%- if device.custom_recovery_link %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
-{% else %}
-{% if device.uses_twrp %}
+{%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{% include alerts/tip.html content="Ensure you download the `.img` file and not the `.tar` or `.tar.md5` versions." %}
-{% else %}
-1. Download a custom recovery - you can download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`
-{% endif %}
-{% endif %}
+    {% include alerts/tip.html content="Ensure you download the `.img` file and not the `.tar` or `.tar.md5` versions." %}
+{%- else %}
+1. Download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`
+{%- endif %}
 2. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
