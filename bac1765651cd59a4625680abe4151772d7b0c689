@@ -70,6 +70,30 @@
       },
       "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8571711_5f2222ae",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-11T03:25:22Z",
+      "side": 1,
+      "message": "true, we mostly use the relative_url way, so i switched it to that.\nboth ways work though.",
+      "parentUuid": "390d12b6_e7c026a9",
+      "range": {
+        "startLine": 19,
+        "startChar": 30,
+        "endLine": 19,
+        "endChar": 49
+      },
+      "revId": "bac1765651cd59a4625680abe4151772d7b0c689",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
