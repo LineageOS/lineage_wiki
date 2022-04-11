@@ -68,6 +68,78 @@
       },
       "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "533388c5_0b880712",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-11T05:12:54Z",
+      "side": 1,
+      "message": "This sentence was a little messed up so i reworded it a bit. And there was already \"and others\" at the end of the sentence, so it seemed redundant having it twice. So i think it looks better now.",
+      "parentUuid": "b8869d91_9f518314",
+      "range": {
+        "startLine": 26,
+        "startChar": 82,
+        "endLine": 26,
+        "endChar": 102
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aab186a3_1dfcffd9",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-11T05:12:54Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "384c1d19_8642cfef",
+      "range": {
+        "startLine": 26,
+        "startChar": 145,
+        "endLine": 26,
+        "endChar": 147
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "906cb81b_5fd7d959",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-11T05:12:54Z",
+      "side": 1,
+      "message": "reworded sentence a little and comma looks needed now, so i left it there.",
+      "parentUuid": "796c3b03_9e3baf48",
+      "range": {
+        "startLine": 26,
+        "startChar": 51,
+        "endLine": 26,
+        "endChar": 52
+      },
+      "revId": "49f059058999d427bc0ef9a0a2457f88e60cde88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
