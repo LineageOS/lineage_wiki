@@ -1,8 +1,9 @@
 architecture: arm64
 battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
 before_install: needs_specific_android_fw
-before_install_args: {version: 11}
+before_install_args: {version: 12}
 before_lineage_install: ab_copy_partitions
+before_recovery_install: vendor_boot
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '48 MP (main)'}
@@ -13,7 +14,7 @@ codename: lemonade
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '74.2 mm (2.92 in)', height: '160 mm (6.30 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm8350
@@ -36,6 +37,8 @@ storage: 128/256 GB UFS3.1
 tree: android_device_oneplus_lemonade
 type: phone
 vendor: OnePlus
+vendor_boot_download_link: https://mirror.math.princeton.edu/pub/lineageos/full/lemonadep/
+vendor_boot_download_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 vendor_short: oneplus
-versions: [18.1]
+versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
