@@ -3,6 +3,7 @@ battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: needs_specific_android_fw
 before_install_args: {version: 11}
 before_lineage_install: ab_copy_partitions
+before_recovery_install: vendor_boot
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '48 MP (main)'}
@@ -40,6 +41,8 @@ storage: 128/256 GB
 tree: android_device_xiaomi_alioth
 type: phone
 vendor: Xiaomi
+vendor_boot_download_link: https://mirror.math.princeton.edu/pub/lineageos/full/alioth/
+vendor_boot_download_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 vendor_short: xiaomi
 versions: [18.1]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
