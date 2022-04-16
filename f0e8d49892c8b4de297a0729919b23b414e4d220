@@ -51,6 +51,23 @@
       "message": "Not needed anymore",
       "revId": "f0e8d49892c8b4de297a0729919b23b414e4d220",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9d33a0_ca4f329c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-04-16T14:25:36Z",
+      "side": 1,
+      "message": "Merge on lineage-19.1 release for alioth",
+      "revId": "f0e8d49892c8b4de297a0729919b23b414e4d220",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
