@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3e8fe13f_44131028",
+        "filename": "_includes/templates/recovery_install_heimdall.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-16T06:36:56Z",
+      "side": 1,
+      "message": "typo. device\u0027s",
+      "range": {
+        "startLine": 73,
+        "startChar": 202,
+        "endLine": 73,
+        "endChar": 211
+      },
+      "revId": "c2aecc329f4b924abfaf833a613948f7e07a50c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
