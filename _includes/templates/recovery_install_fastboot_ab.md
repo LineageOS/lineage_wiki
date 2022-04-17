@@ -4,11 +4,16 @@
 {% else %}
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
+{% if device.recovery_partition_name %}
+{% assign recovery_partition_name = device.recovery_partition_name %}
+{% else %}
+{% assign recovery_partition_name = "boot" %}
+{% endif %}
 
 ## Temporarily booting a custom recovery using `fastboot`
 
 {%- if device.custom_recovery_link %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). {{ device.custom_recovery_link_instructions }}
 {%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {%- else %}
@@ -36,7 +41,7 @@ fastboot devices
 
 5. Temporarily flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
 ```
-fastboot flash boot <recovery_filename>.img
+fastboot flash {{ recovery_partition_name }} <recovery_filename>.img
 ```
     {% include alerts/note.html content="Outdated fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must update `fastboot` to a release newer than or equal to `31.0.2`. Alternatively, you can manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
 6. {{ device.recovery_boot }}
