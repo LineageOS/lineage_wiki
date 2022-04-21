@@ -1,0 +1,37 @@
+architecture: arm64
+battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '16 MP (ugg)'}
+- {flash: None, info: '5 MP (ugglite)'}
+codename: ulysse
+cpu: Cortex-A53
+cpu_cores: '4 / 8 '
+cpu_freq: 4 x 1.4 GHz / 4 x 1.4 GHz & 4 x 1.1 GHz
+current_branch: 18.1
+dimensions: {width: '70.1 mm (2.75 in)', height: '140.4 mm (5.52 in)', depth: '8.35 mm (0.32 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 505
+image: ulysse.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_msm8937
+maintainers: ["0xCAFEBABE"]
+models: [MDE6, MDE6S, MDG6, MDG6S, MDI6, MDI6S, MDT6, MDT6S]
+name: Redmi Note 5A / Y1 - Lite / Prime
+network: [2G GSM, 2G CDMA, 3G CDMA2000, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
+ram: 2 / 3 / 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the screen lights up, release the buttons.
+release: 2017-08-21
+screen: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8917 Snapdragon 425 / Qualcomm MSM8940 Snapdragon 435
+storage: 16 / 32 / 64 GB
+tree: android_device_xiaomi_ulysse
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1]
+wifi: 802.11 b/g/n
