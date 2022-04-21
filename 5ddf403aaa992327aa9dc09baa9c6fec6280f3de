@@ -34,6 +34,24 @@
       "parentUuid": "9f749dac_469583da",
       "revId": "5ddf403aaa992327aa9dc09baa9c6fec6280f3de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "168610f3_44f43174",
+        "filename": "pages/gapps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2022-04-21T14:20:15Z",
+      "side": 0,
+      "message": "I would leave it as long as we have any recco for opengapps",
+      "parentUuid": "9f749dac_469583da",
+      "revId": "5ddf403aaa992327aa9dc09baa9c6fec6280f3de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
