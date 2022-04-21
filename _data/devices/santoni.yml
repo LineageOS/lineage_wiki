@@ -8,7 +8,7 @@ codename: santoni
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
-current_branch: 16.0
+current_branch: 18.1
 dimensions: {width: '70 mm (2.76 in)', height: '139.2 mm (5.48 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -16,7 +16,7 @@ gpu: Adreno 505
 image: santoni.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8937
-maintainers: []
+maintainers: ["0xCAFEBABE"]
 name: Redmi 4(X)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
@@ -29,8 +29,7 @@ soc: Qualcomm MSM8940 Snapdragon 435
 storage: 16/32/64 GB
 tree: android_device_xiaomi_santoni
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [15.1, 16.0]
+versions: [15.1, 16.0, 18.1]
 wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
