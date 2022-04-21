@@ -25,7 +25,6 @@ This also applies when you experience issues and want to try an older or other p
 If you use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps.
 
 Since you can install any non included apps later, we only recommend the following package sizes (or smaller):
- - For mobile devices: `nano`, as described in [Open GApps Package Comparison](https://github.com/opengapps/opengapps/wiki/Package-Comparison).
  - For Android TV: `tvstock`, as described in [Open GApps TVStock Package Listing](https://github.com/opengapps/opengapps/wiki/TVStock-Package).
 
 If you use a larger package, **we can not guarantee** that everything will function on your device, as in many of these cases our included apps are overwritten in favor of the Google App equivalents.
@@ -41,7 +40,7 @@ These packages are only dependent on your OS version and architecture, which can
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
 |Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=nano)|
+|Lineage 17.1 (Android 10)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
 |Lineage 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=nano)|
