@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {capacity: 7350, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
+cameras:
+  - {flash: None, info: '8 MP'}
+codename: loki
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 18.1
+dimensions: None
+download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>, then release once menu is displayed.
+gpu: NVIDIA GM20B (Maxwell)
+image: roth.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_nvidia_shield, version: '3.10'}
+maintainers: [npjohnson, webgeek1234]
+models: [loki_e_wifi, loki_e]
+name: Shield Portable 2 (X1)
+network: None
+no_oem_unlock_switch: true
+peripherals: [3.5mm jack, HDMI, Light sensor, Stereo speakers, USB OTG]
+ram: 3 GB LPDDR3
+recovery_boot: With the device powered off, hold the <kbd>Shield button</kbd> until a menu is displayed, then click the <kbd>Shield button</kbd> to navigate to "Recovery Kernel" and long press the <kbd>Shield button</kbd> to select this option.
+recovery_partition_name: recovery
+release: 2015-05-28
+screen: {resolution: '1440x810', size: 5, technology: 'IPS LCD'}
+sdcard: {size_max: '128 GB'}
+soc: NVIDIA Tegra X1 (T210)
+storage: 16 GB eMMC
+tree: android_device_nvidia_loki
+type: Handheld game console
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [18.1]
+wifi: 802.11 a/b/g/n/ac
