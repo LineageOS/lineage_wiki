@@ -1,0 +1,34 @@
+architecture: arm64
+battery: {removable: False, capacity: 3450, tech: 'Li-Po'}
+before_recovery_install: TP1803
+bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '48 MP'}
+- {flash: None, info: '8 MP'}
+codename: TP1803
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 4 x 1.8 GHz + 3 x 2.42 GHz + 1 x 2.84
+current_branch: 19.1
+dimensions: {width: '70.6 mm (2.78 in)', height: '148 mm (5.83 in)', depth: '7.6 mm (0.30 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 640
+image: TP1803.png
+install_method: fastboot_unlocked
+kernel: android_kernel_nubia_sm8150
+maintainers: [ArianK16a, npjohnson]
+name: 'Mini 5G'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G]
+peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2019
+screen: {size: '144.8 mm (5.7 in)', density: 423, resolution: '2160x1080', technology: 'IPS LCD'}
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 64 GB
+tree: android_device_nubia_TP1803
+type: phone
+vendor: Nubia
+vendor_short: nubia
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
