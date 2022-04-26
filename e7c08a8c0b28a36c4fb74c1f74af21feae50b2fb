@@ -22,6 +22,30 @@
       },
       "revId": "e7c08a8c0b28a36c4fb74c1f74af21feae50b2fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1bad9ec_ccf43e78",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-26T23:01:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5cad6c67_77b516a1",
+      "range": {
+        "startLine": 21,
+        "startChar": 24,
+        "endLine": 21,
+        "endChar": 34
+      },
+      "revId": "e7c08a8c0b28a36c4fb74c1f74af21feae50b2fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
