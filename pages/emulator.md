@@ -63,6 +63,11 @@ Notably, as of LineageOS 18.1 one can also build Android TV format versions of e
 * `tv_x86` (32-bit x86)
 * `tv_x86_64` (64-bit x86)
 
+Additionally, as of LineageOS 18.1 one can also build Android Automotive format versions of each arch above, the options for this are as follows:
+
+* `car_arm64` (64-bit ARM)
+* `car_x86_64` (64-bit x86)
+
 For starting, `x86` is recommended, as your computer can run it natively using hardware acceleration.
 
 Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communication with the emulator will need to be enabled first.
