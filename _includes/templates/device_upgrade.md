@@ -7,8 +7,10 @@
 {% include alerts/warning.html content=upgrade_only %}
 
 {%- if device.before_install and device.before_install == "needs_specific_android_fw" %}
+{% unless device.before_install_args and device.before_install_args.ships_fw %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
 {% include {{ path }} %}
+{% endunless %}
 {%- endif %}
 
 {%- if device.architecture.userspace -%}
