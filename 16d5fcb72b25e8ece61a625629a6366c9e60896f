@@ -87,6 +87,30 @@
       },
       "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "974076ef_5869ffad",
+        "filename": "_includes/templates/device_specific/before_recovery_install_TP1803.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-26T12:20:53Z",
+      "side": 1,
+      "message": "that is kinda weird/confusing lol",
+      "parentUuid": "fdd9359d_5c912231",
+      "range": {
+        "startLine": 6,
+        "startChar": 15,
+        "endLine": 6,
+        "endChar": 25
+      },
+      "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
