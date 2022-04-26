@@ -63,6 +63,30 @@
       },
       "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fdd9359d_5c912231",
+        "filename": "_includes/templates/device_specific/before_recovery_install_TP1803.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-04-26T10:33:02Z",
+      "side": 1,
+      "message": "I followed the \"About\" section of the github repo. \" Inofficial Qualcomm Firehose / Sahara / Streaming / Diag Tools :) \"",
+      "parentUuid": "ddc0a8b0_5c819aa2",
+      "range": {
+        "startLine": 6,
+        "startChar": 15,
+        "endLine": 6,
+        "endChar": 25
+      },
+      "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
