@@ -16,6 +16,29 @@
       "message": "abl: https://androidfilehost.com/?fid\u003d14655340768118464688",
       "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac6a24e8_a2bae950",
+        "filename": "_includes/templates/device_specific/before_recovery_install_TP1803.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-26T00:04:22Z",
+      "side": 1,
+      "message": "Unofficial",
+      "range": {
+        "startLine": 6,
+        "startChar": 15,
+        "endLine": 6,
+        "endChar": 25
+      },
+      "revId": "16d5fcb72b25e8ece61a625629a6366c9e60896f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
