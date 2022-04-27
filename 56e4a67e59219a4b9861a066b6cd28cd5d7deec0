@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b369d9ea_ab2134a0",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-04-27T02:50:24Z",
+      "side": 1,
+      "message": "I thought this was legitimately your username lol",
+      "range": {
+        "startLine": 21,
+        "startChar": 41,
+        "endLine": 21,
+        "endChar": 51
+      },
+      "revId": "56e4a67e59219a4b9861a066b6cd28cd5d7deec0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
