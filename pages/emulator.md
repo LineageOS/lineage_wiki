@@ -63,7 +63,7 @@ Notably, as of LineageOS 18.1 one can also build Android TV format versions of e
 * `tv_x86` (32-bit x86)
 * `tv_x86_64` (64-bit x86)
 
-Additionally, as of LineageOS 18.1 one can also build Android Automotive format versions of each arch above, the options for this are as follows:
+Additionally, as of LineageOS 18.1 one can also build Android Automotive format versions of each 64-bit arch above, the options for this are as follows:
 
 * `car_arm64` (64-bit ARM)
 * `car_x86_64` (64-bit x86)
