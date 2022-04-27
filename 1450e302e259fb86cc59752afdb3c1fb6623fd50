@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b326b176_6fe21f8d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-04-27T20:26:28Z",
+      "side": 1,
+      "message": "images are over the max desired size.\neasy to fix. just run ./scripts/prepare_image.sh TP1803.png\nhttps://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "1450e302e259fb86cc59752afdb3c1fb6623fd50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
