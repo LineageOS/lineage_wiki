@@ -29,7 +29,6 @@ soc: Qualcomm SDM835 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_google_muskie
 type: phone
-uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [16.0, 17.1, 18.1, 19.1]
