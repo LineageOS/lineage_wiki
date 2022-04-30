@@ -1,0 +1,41 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: {removable: False, capacity: 3200, tech: 'Li-Ion'}
+bluetooth: {spec: '5.0 + LE', profiles: 'A2DP + aptX HD'}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: None, info: '12 MP (telephoto)'}
+- {flash: None, info: '24 MP'}
+- {flash: None, info: '2MP (depth)'}
+codename: perseus
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 2.8 GHz
+current_branch: 19.1
+dimensions: {width: '74.7 mm (2.94 in)', height: '157.9 mm (6.22 in)', depth: '8.5 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 630
+image: perseus.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm845
+maintainers: [Aidan Warner]
+models: [perseus]
+name: Mi MIX 3
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Fingerprint reader, Accelerometer,
+  Gyroscope, Proximity sensor, Compass, Barometer, GPS, NFC]
+ram: 6/8/10 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the Mi logo appears, release power.
+release: 2018-11
+required_bootloader: ['12.0.3.0']
+screen: {size: '162.6 mm (6.39 in)', density: 403, resolution: '2340x1080', technology: 'Full HD Super AMOLED'}
+sdcard: {sizeMax: '2 TB'}
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 128/256 GB
+tree: android_device_xiaomi_perseus
+type: phone
+uses_twrp: true
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac
