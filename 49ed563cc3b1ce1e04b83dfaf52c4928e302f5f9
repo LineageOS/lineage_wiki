@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ef8a5b1_18b45e47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-06T18:57:56Z",
+      "side": 1,
+      "message": "This is an unnecessary flag that complicates things without need - all devices can use the key combo just fine.",
+      "revId": "49ed563cc3b1ce1e04b83dfaf52c4928e302f5f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
