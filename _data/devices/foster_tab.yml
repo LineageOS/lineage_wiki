@@ -7,7 +7,7 @@ codename: foster_tab
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 17.1
+current_branch: 18.1
 dimensions: None
 recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
   Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
@@ -16,8 +16,8 @@ image: foster.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: []
-models: [darcy, foster_e, foster_e_hdd, jetson_cv]
-name: Shield TV (2015 / 2015 Pro / 2017) / Jetson TX1 [Tablet]
+models: [darcy, foster_e, foster_e_hdd, jetson_cv, mdarcy]
+name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) / Jetson TX1 [Tablet]
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
@@ -33,5 +33,5 @@ tree: android_device_nvidia_foster_tab
 type: Set top box
 vendor: Nvidia
 vendor_short: nvidia
-versions: [14.1, 15.1, 17.1]
+versions: [14.1, 15.1, 17.1, 18.1]
 wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
