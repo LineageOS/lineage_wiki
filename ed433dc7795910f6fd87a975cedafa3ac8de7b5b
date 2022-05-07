@@ -33,6 +33,24 @@
       "message": "there\u0027s no 12.1 for b1c1",
       "revId": "ed433dc7795910f6fd87a975cedafa3ac8de7b5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6370ecc4_4e5d04b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-07T02:43:00Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "e5448380_acbc1761",
+      "revId": "ed433dc7795910f6fd87a975cedafa3ac8de7b5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
