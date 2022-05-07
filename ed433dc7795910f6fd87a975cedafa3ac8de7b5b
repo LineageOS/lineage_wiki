@@ -16,6 +16,23 @@
       "message": "\u003e Patch Set 1:\n\u003e \n\u003e \u003e Patch Set 1: Verified+1 Code-Review+1\n\u003e  \u003e \n\u003e  \u003e (1 comment)\n\u003e \n\u003e Mind just making this all pixels? otherwise I\u0027ll do same for b4s4 and such.\n\nDone.",
       "revId": "ed433dc7795910f6fd87a975cedafa3ac8de7b5b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5448380_acbc1761",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-05-07T00:00:48Z",
+      "side": 1,
+      "message": "there\u0027s no 12.1 for b1c1",
+      "revId": "ed433dc7795910f6fd87a975cedafa3ac8de7b5b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
