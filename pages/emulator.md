@@ -35,7 +35,7 @@ Setup the environment:
 ```
 source build/envsetup.sh
 ```
-Select the target architecture:
+Select the target and architecture:
 
 * For LineageOS versions 18.1 and below, run:
 ```
@@ -45,9 +45,14 @@ lunch lineage_<arch>-eng
 
 * For LineageOS versions 19.0 and above, run:
 ```
-lunch lineage_sdk_<arch>-eng
+lunch lineage_sdk_<devicetype>_<arch>-eng
 ```
-{% include alerts/note.html content="For LineageOS 19.0 and higher the `sdk_$arch` target targets emulator, while `$arch` targets GSI builds. ." %}
+{% include alerts/note.html content="For LineageOS 19.0 and higher the `sdk_$devicetype_$arch` target targets emulator, while `gsi_$devicetype_$arch` targets GSI builds. ." %}
+
+`<devicetipe>` can be one of the following:
+
+* `tv` Android TV (LineageOS 18.1+)
+* `car` Android Automotive (LineageOS 18.1+)
 
 `<arch>` can be one of the following:
 
@@ -55,18 +60,6 @@ lunch lineage_sdk_<arch>-eng
 * `arm64` (64-bit ARM)
 * `x86` (32-bit x86)
 * `x86_64` (64-bit x86)
-
-Notably, as of LineageOS 18.1 one can also build Android TV format versions of each arch above, the options for this are as follows:
-
-* `tv_arm` (32-bit ARM)
-* `tv_arm64` (64-bit ARM)
-* `tv_x86` (32-bit x86)
-* `tv_x86_64` (64-bit x86)
-
-Additionally, as of LineageOS 18.1 one can also build Android Automotive format versions of each 64-bit arch above, the options for this are as follows:
-
-* `car_arm64` (64-bit ARM)
-* `car_x86_64` (64-bit x86)
 
 For starting, `x86` is recommended, as your computer can run it natively using hardware acceleration.
 
