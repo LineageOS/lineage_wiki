@@ -14,7 +14,7 @@ GEM
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
-    jekyll (3.9.0)
+    jekyll (3.9.2)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -69,12 +69,13 @@ GEM
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
+    webrick (1.7.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (= 3.9.0)
+  jekyll (= 3.9.2)
   jekyll-redirect-from (= 0.16.0)
   jekyll-relative-links (= 0.6.1)
   jekyll-sass-converter (= 1.5.2)
@@ -87,6 +88,7 @@ DEPENDENCIES
   listen (= 3.7.1)
   rouge (= 3.26.0)
   therubyracer (= 0.12.3)
+  webrick (= 1.7.0)
 
 BUNDLED WITH
-   2.0.2
+   2.3.13
