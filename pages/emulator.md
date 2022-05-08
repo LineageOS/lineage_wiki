@@ -56,6 +56,13 @@ lunch lineage_sdk_<arch>-eng
 * `x86` (32-bit x86)
 * `x86_64` (64-bit x86)
 
+Starting with Lineage 19, these targets have been renamed to:
+
+* `phone_arm` (32-bit ARM)
+* `phone_arm64` (64-bit ARM)
+* `phone_x86` (32-bit x86)
+* `phone_x86_64` (64-bit x86)
+
 Notably, as of LineageOS 18.1 one can also build Android TV format versions of each arch above, the options for this are as follows:
 
 * `tv_arm` (32-bit ARM)
