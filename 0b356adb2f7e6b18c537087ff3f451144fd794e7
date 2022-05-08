@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad232ab7_c813050d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-05-08T21:56:21Z",
+      "side": 1,
+      "message": "I will look at this later in detail, but note that 18.1 apparently (according to our current wiki page) also needs a `devicetype`, but only for `tv` and `car`. The \"normal\" emulator targets don\u0027t need a prefix there, as the `phone` devicetype seems to have only appeared starting with 19.1 (at least for the lineage targets).",
+      "revId": "0b356adb2f7e6b18c537087ff3f451144fd794e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
