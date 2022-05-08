@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "3.9.0"
+gem "jekyll", "3.9.2"
 gem "therubyracer", "0.12.3"
 
 group :test do
@@ -18,4 +18,5 @@ group :jekyll_plugins do
    gem 'liquid', '= 4.0.3'
    gem 'listen', '= 3.7.1'
    gem 'rouge', '= 3.26.0'
+   gem 'webrick', '= 1.7.0'
 end
