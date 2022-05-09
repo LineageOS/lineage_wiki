@@ -30,6 +30,7 @@ peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Du
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_reboot: fastboot_reboot
 release:
 - Poco F3: 2021-03
 - Redmi K40: 2021-02

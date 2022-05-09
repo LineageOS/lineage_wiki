@@ -23,6 +23,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
   Hall effect sensor, Sensor hub, Light sensor]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2017-06
 screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'Optic AMOLED'}
 soc: Qualcomm MSM8998 Snapdragon 835
