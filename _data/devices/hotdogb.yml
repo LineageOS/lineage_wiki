@@ -30,6 +30,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG, Wi-Fi Display]
 ram: 8/12GB GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2019-09
 screen: {size: '166.37 mm (6.55 in)', density: 402, resolution: '1080x2400', technology: 'Fluid AMOLED'}
 soc: Qualcomm SM8150 Snapdragon 855+
