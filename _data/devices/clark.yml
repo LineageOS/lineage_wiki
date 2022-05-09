@@ -22,6 +22,7 @@ peripherals: None
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_reboot: fastboot_menu
 release: 2015-09
 screen: {size: '145 mm (5.7 in)', density: 520, resolution: '1440x2560', technology: 'IPS TFT LCD'}
 sdcard: {sizeMax: '128 GB'}

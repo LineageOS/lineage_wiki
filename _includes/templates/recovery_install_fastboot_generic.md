@@ -43,8 +43,13 @@ fastboot boot <recovery_filename>.img
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
-6. Now reboot into recovery to verify the installation. Do **not** reboot into the existing OS, since it will overwrite the recovery you just installed!
+6. Now reboot into recovery to verify the installation.
+    {%- if device.recovery_reboot %}
+    * {% include snippets/recovery_reboot.md %}
+    {%- else %}
+    Do **not** reboot into the existing OS, since it will overwrite the recovery you just installed!
     * {{ device.recovery_boot }}
 
       {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above" %}
+    {%- endif %}
 {% endif %}

@@ -20,6 +20,7 @@ name: Pixel C
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
+recovery_reboot: fastboot_menu
 release: 2015-12-08
 screen: {size: '260 mm (10.2 in)', density: 308, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
 soc: NVIDIA Tegra X1
