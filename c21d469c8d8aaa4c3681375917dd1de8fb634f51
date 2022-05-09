@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45010b32_51b43a2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-09T01:27:23Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_vendor_lineage/tree/lineage-19.1/build/target/product - not sure where you\u0027re getting the idea that this is the case.\n\nOur Emu target is `lineage_sdk_phone_x86`",
+      "revId": "c21d469c8d8aaa4c3681375917dd1de8fb634f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
