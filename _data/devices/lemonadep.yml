@@ -30,6 +30,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG, Wi-Fi Display]
 ram: 8/12GB GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2021-03
 screen: {size: '170.18 mm (6.7 in)', density: 525, resolution: '1440x3216', technology: 'LTPO Fluid2 AMOLED'}
 soc: Qualcomm SM8350 Snapdragon 888

@@ -30,6 +30,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 8/12GB GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
 release: 2020-04
 screen: {size: '166.37 mm (6.55 in)', density: 402, resolution: '1080x2400', technology: 'Fluid AMOLED'}
 soc: Qualcomm SM8250 Snapdragon 865
