@@ -26,6 +26,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_reboot: fastboot_menu
 release: 2019-02
 screen: {size: '157.5 mm (6.2 in)', density: 405, resolution: '1080x2270', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
