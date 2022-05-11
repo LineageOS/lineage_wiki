@@ -22,7 +22,7 @@ This also applies when you experience issues and want to try an older or other p
 
 ### Note regarding Open GApps
 
-{% include alerts/important.html content="This only applies if Open GApps is listed as the GApps package for your Android version under Downloads. If Open GApps is not listed for your Android version, it is not recommended." %}
+{% include alerts/important.html content="This only applies if Open GApps is listed as the GApps package for your Android version in Link column of the tables below in 'Downloads' paragraph. If Open GApps is not listed for your Android version, it is not recommended." %}
 
 If you use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps.
 
