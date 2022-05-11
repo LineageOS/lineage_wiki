@@ -43,7 +43,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- else %}
 1. [Build]({{ path_prefix | append: "/build" | relative_url }}) a LineageOS install package.
 {%- endif %}
-    * Optionally, download an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture).
+    * _(Optionally)_: If you want to install an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture), please read and follow the instructions on [Google Apps page]({{ "gapps.html" | relative_url }})
 2. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 {{ adbRoot }}
 {%- if device.format_on_upgrade %}
