@@ -34,6 +34,24 @@
       "parentUuid": "45010b32_51b43a2f",
       "revId": "c21d469c8d8aaa4c3681375917dd1de8fb634f51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d5c6aea6_f5217518",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-05-12T10:25:16Z",
+      "side": 1,
+      "message": "That said, how feasible would it be to just rename the emulator or GSI targets to be in line with each other (i.e. either `lineage_sdk_x86-eng` or `lineage_gsi_phone_x86-eng`) instead of trying to jump through hoops while describing that setup on the wiki?",
+      "parentUuid": "5ab747cd_a4483f86",
+      "revId": "c21d469c8d8aaa4c3681375917dd1de8fb634f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
