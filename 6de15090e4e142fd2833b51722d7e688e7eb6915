@@ -22,6 +22,30 @@
       },
       "revId": "6de15090e4e142fd2833b51722d7e688e7eb6915",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c07f3fdb_c126c198",
+        "filename": "pages/gapps.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-19T16:23:10Z",
+      "side": 1,
+      "message": "I\u0027ll let someone else at the moment.\n\nOn ATV MTG doesn\u0027t give the google launcher, OpenGApps do, so there\u0027s a functional difference to choose.",
+      "parentUuid": "c1b7974f_9666da52",
+      "range": {
+        "startLine": 58,
+        "startChar": 163,
+        "endLine": 58,
+        "endChar": 226
+      },
+      "revId": "6de15090e4e142fd2833b51722d7e688e7eb6915",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
