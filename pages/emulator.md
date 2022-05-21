@@ -35,19 +35,24 @@ Setup the environment:
 ```
 source build/envsetup.sh
 ```
-Select the target architecture:
+Select the build target by running the following command, where `<target>` is one of the entries in the table below:
 
-* For LineageOS versions 18.1 and below, run:
 ```
-lunch lineage_<arch>-eng
+lunch <target>
 ```
-{% include alerts/note.html content="These targets will work for both emulator and GSI builds." %}
 
-* For LineageOS versions 19.0 and above, run:
-```
-lunch lineage_sdk_<arch>-eng
-```
-{% include alerts/note.html content="For LineageOS 19.0 and higher the `sdk_$arch` target targets emulator, while `$arch` targets GSI builds. ." %}
+<table class="table">
+<thead>
+<tr><th></th><th></th><th>LineageOS 17.1 and below</th><th>LineageOS 18.1</th><th>LineageOS 19 and above</th></tr>
+</thead>
+<tbody>
+<tr><th>Phone</th>     <th>Emulator</th><td>`lineage_<arch>-eng`</td><td>`lineage_<arch>-eng`</td>    <td>`lineage_sdk_phone_<arch>-eng`</td></tr>
+<tr><th>Phone</th>     <th>GSI</th>     <td>`lineage_<arch>-eng`</td><td>`lineage_<arch>-eng`</td>    <td>`lineage_phone_<arch>-eng`</td></tr>
+<tr><th>TV</th>        <th>Emulator</th><td></td>                    <td>`lineage_tv_<arch>-eng`</td> <td>`lineage_sdk_tv_<arch>-eng`</td></tr>
+<tr><th>Automotive</th><th>Emulator</th><td></td>                    <td>`lineage_car_<arch>-eng`</td><td>`lineage_sdk_car_<arch>-eng`</td></tr>
+</tbody>
+</table>
+
 
 `<arch>` can be one of the following:
 
@@ -56,21 +61,11 @@ lunch lineage_sdk_<arch>-eng
 * `x86` (32-bit x86)
 * `x86_64` (64-bit x86)
 
-Notably, as of LineageOS 18.1 one can also build Android TV format versions of each arch above, the options for this are as follows:
-
-* `tv_arm` (32-bit ARM)
-* `tv_arm64` (64-bit ARM)
-* `tv_x86` (32-bit x86)
-* `tv_x86_64` (64-bit x86)
-
-Additionally, as of LineageOS 18.1 one can also build Android Automotive format versions of each 64-bit arch above, the options for this are as follows:
-
-* `car_arm64` (64-bit ARM)
-* `car_x86_64` (64-bit x86)
-
 For starting, `x86` is recommended, as your computer can run it natively using hardware acceleration.
 
 Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communication with the emulator will need to be enabled first.
+
+Note that the Android Automotive targets lack support for 32-bit, and therefore only support the `arm64` and `x86_64` architectures.
 
 Now, build the image:
 ```
