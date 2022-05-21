@@ -30,7 +30,6 @@ soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_xiaomi_dipper
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [16.0, 17.1, 18.1]
