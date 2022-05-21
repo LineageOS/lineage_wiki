@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a026101c_bc8de519",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-05-21T13:11:17Z",
+      "side": 1,
+      "message": "Self-block until I have confirmed that the listed targets are correct.",
+      "revId": "2ab16800ff68d6b6a417c7b296c1d027f14f8c8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
