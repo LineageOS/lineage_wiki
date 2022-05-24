@@ -34,6 +34,24 @@
       "parentUuid": "e0313d17_5d1a0fe6",
       "revId": "9ba56e24f27e280ac5980393661609250a0670fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a77ce017_a96f2e2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-24T01:37:15Z",
+      "side": 1,
+      "message": "\u003e Yeah, I need to nuke those two, google officially killed x86{,_64} ATV image support (not even GMS supports anymore) - I will go kill those now.\n\n\nBelay this one, looks like Google didn\u0027t do what they said they would. device/google/atv still supports this lol - alright, I\u0027ll go fix the targets.",
+      "parentUuid": "f480b28c_88b05cbe",
+      "revId": "9ba56e24f27e280ac5980393661609250a0670fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
