@@ -16,6 +16,24 @@
       "message": "\u003e Patch Set 6:\n\u003e \n\u003e \u003e Patch Set 6:\n\u003e  \u003e \n\u003e  \u003e (1 comment)\n\u003e Uh, they both do as of 3 months ago. when we set them up they built.\n\u003e \n\u003e what error are you hitting?\n\nLooks like only select targets don\u0027t work, which (by chance) were the ones that I was testing with last time.\n\n`lineage_gsi_tv_x86` hits some \"overriding commands\" error related to sdk-addon.\n`lineage_gsi_tv_x86_64` fails because it apparently tries to build 32-bit-app-only targets.\n\nHowever, `lineage_gsi_tv_arm` and (surprisingly?) `lineage_gsi_tv_arm64` seem to start building just fine.\n\nRegarding `lineage_gsi_car_{arm64,x86_64}`, that seems to have been a fluke on my side. Both of those start building just fine now.\n\nAs that makes at least one buildable arch for each target, I amended the change now to include TV/Car GSIs as well.\n\nFor LineageOS 18, does the GSI/emulator merge apply here as well (i.e. `lineage_{car,tv}_\u003carch\u003e` are both GSI and emulator targets at the same time)?",
       "revId": "9ba56e24f27e280ac5980393661609250a0670fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f480b28c_88b05cbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-24T01:34:55Z",
+      "side": 1,
+      "message": "Yeah, I need to nuke those two, google officially killed x86{,_64} ATV image support (not even GMS supports anymore) - I will go kill those now.\n\nYes, on 18.1 it\u0027s all the same target.",
+      "parentUuid": "e0313d17_5d1a0fe6",
+      "revId": "9ba56e24f27e280ac5980393661609250a0670fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
