@@ -16,6 +16,24 @@
       "message": "ugh I still don\u0027t like this as it makes it seem as tho there are no GSI targets for 18.1 stuff - but they\u0027re just the same.",
       "revId": "3f6c360cd9c5571f317992913d6bf1f7683434c1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b59ab474_61a8322c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-05-25T18:28:00Z",
+      "side": 1,
+      "message": "I just forgot to update the table, should be fixed now.",
+      "parentUuid": "d76a6636_c42d970d",
+      "revId": "3f6c360cd9c5571f317992913d6bf1f7683434c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
