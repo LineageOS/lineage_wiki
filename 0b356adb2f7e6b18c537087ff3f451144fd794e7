@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "30dfb718_5e6e4f3b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-25T22:21:10Z",
+      "side": 1,
+      "message": "superseded by https://review.lineageos.org/c/LineageOS/lineage_wiki/+/331601",
+      "revId": "0b356adb2f7e6b18c537087ff3f451144fd794e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9416658_1f8db573",
