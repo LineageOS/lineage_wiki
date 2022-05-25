@@ -70,6 +70,23 @@
       "parentUuid": "d5c6aea6_f5217518",
       "revId": "c21d469c8d8aaa4c3681375917dd1de8fb634f51",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5ec03eae_9f103c93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-05-25T22:21:29Z",
+      "side": 1,
+      "message": "superseded by https://review.lineageos.org/c/LineageOS/lineage_wiki/+/331601",
+      "revId": "c21d469c8d8aaa4c3681375917dd1de8fb634f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
