@@ -33,6 +33,24 @@
       "message": "Actually, one last tiny thing - car only support x86_64/arm64 as per google\u0027s requirement (64 bit only platform, no 32-bit).\n\nMaybe a disclaimer in the arch section below?",
       "revId": "62e34e4f0e21e695e936721c2e3bf7d4008e8957",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b4adf50_87951958",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-05-25T19:27:25Z",
+      "side": 1,
+      "message": "Is this not sufficient?\n\n\u003e Note that the Android Automotive targets lack support for 32-bit, and are therefore only buildable for the `arm64` and `x86_64` architectures.\n\nOr do you want me to specifically point out Google\u0027s involvement?",
+      "parentUuid": "d79fe347_fb4f2a5b",
+      "revId": "62e34e4f0e21e695e936721c2e3bf7d4008e8957",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
