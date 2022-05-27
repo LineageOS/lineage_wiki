@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+bluetooth: {spec: '5.1', profiles: [A2DP]}
+before_lineage_install: ab_copy_partitions
+cameras:
+- {flash: 'LED', info: '13 MP (main)'}
+- {flash: 'LED', info: '2 MP (macro)'}
+- {flash: 'LED', info: '2 MP (depth)'}
+- {flash: None, info: '16 MP'}
+codename: dre
+cpu: Kryo 460
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '74.9 mm (2.95 in)', height: '163.1 mm (6.42 in)', depth: '8.3 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oneplus_sm4350
+gpu: Adreno 619
+image: dre.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_oneplus_sm4350
+maintainers: [tangalbert919]
+models: [DE2117]
+name: 'Nord N200'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual-frequency GNSS, Fingerprint reader, Beidou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4 GB LPDDR4x
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
+release: 2021-06-21
+screen: {size: '164.8 mm (6.49 in)', density: 402, resolution: '1080x2400', technology: 'IPS LCD'}
+sdcard: {sizeMax: '256 GB', slot: 'sim'}
+soc: Qualcomm SM4350 Snapdragon 480
+storage: 64 GB UFS 2.1
+tree: android_device_oneplus_dre
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
