@@ -90,14 +90,14 @@ There are no recovery installation instructions for this discontinued device.
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`. In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine." %}
+        {% include alerts/specific/tip_adb_flash_success.html %}
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 5. Return to the main menu.
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
-        {% include alerts/tip.html content="Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`. In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine." %}
+        {% include alerts/specific/tip_adb_flash_success.html %}
 {%- endif %}
 {%- if device.is_ab_device and device.uses_twrp %}
 7. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
@@ -107,7 +107,7 @@ There are no recovery installation instructions for this discontinued device.
 7. _(Optionally)_: If you want to install any add-ons, repeat the sideload steps above for those packages in sequence.
 {%- endif %}
 {% if device.is_ab_device or device.uses_twrp != true %}
-    {% include alerts/note.html content="Add-ons aren't signed with LineageOS's official key, and therefore when they are sideloaded, Lineage Recovery  will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
+    {% include alerts/specific/note_signature_check.html %}
 {%- endif %}
     {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 {%- if device.current_branch >= 17.1 %}
