@@ -1,0 +1,5 @@
+{% capture content -%}
+Normally, adb will report `Total xfer: 1.00x`, but in some cases, even if the process succeeds the output will stop at 47% and report `adb: failed to read command: Success`.
+In some cases it will report `adb: failed to read command: No error` or `adb: failed to read command: Undefined error: 0` which is also fine.
+{%- endcapture %}
+{%- include alerts/tip.html content=content %}
