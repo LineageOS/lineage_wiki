@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dabba174_aee89364",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19296
+      },
+      "writtenOn": "2022-05-30T08:40:06Z",
+      "side": 1,
+      "message": "waiting for vendor pr to be merged\n",
+      "revId": "729c118eff8fb8dd415700d4434576bdd8b610a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
