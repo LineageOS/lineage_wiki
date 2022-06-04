@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "67cd6531_eac2e202",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-06-04T17:06:02Z",
+      "side": 1,
+      "message": "Aren\u0027t we supposed to hold this until build is out?\nIt\u0027s gonna build on Friday",
+      "revId": "f169ef0648109d46afdac34b651c6213be005563",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
