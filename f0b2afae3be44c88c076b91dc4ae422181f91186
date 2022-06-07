@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d572c3da_0aee84cf",
+        "filename": "_data/devices/addison.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-06-07T17:46:23Z",
+      "side": 1,
+      "message": "you added a model number that was already there.",
+      "range": {
+        "startLine": 19,
+        "startChar": 19,
+        "endLine": 19,
+        "endChar": 39
+      },
+      "revId": "f0b2afae3be44c88c076b91dc4ae422181f91186",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
