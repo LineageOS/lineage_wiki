@@ -1,4 +1,4 @@
-architecture: arm
+architecture: arm64
 battery: {removable: False, capacity: 3510, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
@@ -8,16 +8,15 @@ codename: addison
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-current_branch: 14.1
-custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3495629
+current_branch: 18.1
 dimensions: {width: '76.4 mm (3.01 in)', height: '156.4 mm (6.16 in)', depth: '7 mm (0.28 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
 image: addison.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
-maintainers: []
-models: [XT1635-02]
+maintainers: [marcost2]
+models: [XT1635-01,XT1635-02, XT1635-02]
 name: Moto Z Play
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
@@ -35,5 +34,5 @@ type: phone
 uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1]
+versions: [14.1, 18.1]
 wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot

@@ -8,15 +8,14 @@ codename: albus
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 8 x 2.21 GHz
-current_branch: 15.1
-custom_recovery_link: https://androidfilehost.com/?fid=1322778262904007189
+current_branch: 18.1
 dimensions: {width: '76.2 mm (3 in)', height: '156.2 mm (6.1 in)', depth: '6 mm (0.24 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
 image: albus.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_msm8996
-maintainers: []
+kernel: android_kernel_motorola_msm8953
+maintainers: [marcost2]
 models: [XT1710-01, XT1710-02, XT1710-07, XT1710-08, XT1710-09, XT1710-10, XT1710-11]
 name: Moto Z2 Play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -34,5 +33,5 @@ type: phone
 uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [15.1]
+versions: [15.1, 18.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
