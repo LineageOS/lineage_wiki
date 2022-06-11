@@ -16,6 +16,24 @@
       "message": "Will submit when 19.1 build is up.",
       "revId": "eb0c20eb1211df20352ee7ce0266d0e78f340639",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06cff0e0_0de7785e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30049
+      },
+      "writtenOn": "2022-06-11T23:02:07Z",
+      "side": 1,
+      "message": "Ok",
+      "parentUuid": "96011736_467bbc3a",
+      "revId": "eb0c20eb1211df20352ee7ce0266d0e78f340639",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
