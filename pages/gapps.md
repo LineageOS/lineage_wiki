@@ -22,7 +22,7 @@ This also applies when you experience issues and want to try an older or other p
 
 ### Note regarding Open GApps
 
-{% include alerts/important.html content="This only applies if Open GApps is listed as the GApps package for your Android version in Link column of the tables below in 'Downloads' paragraph. If Open GApps is not listed for your Android version, it is not recommended." %}
+{% include alerts/important.html content="This only applies if Open GApps is listed as the GApps package for your Android version in the link column of the tables below in the 'Downloads' section. If Open GApps is not listed for your Android version, it is **not recommended**." %}
 
 If you use Open GApps, they offer a variety of sizes of packages that include and overwrite different apps.
 
@@ -37,6 +37,10 @@ If your device states that there is not enough space on any specific partition d
 ## Downloads
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview]({{ "devices/" | relative_url }})).
+
+{% include alerts/note.html content="Filenames on MindTheGapps are of the format `MindTheGapps-<AndroidVersion>-<architecture>-<date>_<time>.zip`, (with Android 12L being 12.1) choose carefully!" %}
+
+{% include alerts/warning.html content="Users often experience issues when deviating from the packages listed below. Be warned!" %}
 
 ### Mobile
 
