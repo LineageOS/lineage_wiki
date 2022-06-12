@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "726fb7ff_932c1a9f",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 21651
+      },
+      "writtenOn": "2022-06-12T16:56:41Z",
+      "side": 1,
+      "message": "Should this be just codename?",
+      "range": {
+        "startLine": 31,
+        "startChar": 95,
+        "endLine": 31,
+        "endChar": 119
+      },
+      "revId": "da109feaad154c1110a9689e7e8a39849424b928",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
