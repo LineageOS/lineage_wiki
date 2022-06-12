@@ -5,7 +5,7 @@
 In some cases, the inactive slot can be unpopulated or contain much older firmware than the active slot, leading to various issues including a potential hard-brick. We can ensure none of that will happen by copying the contents of the active slot to the inactive slot.
 
 To do this, sideload the `copy-partitions-20210323_1922.zip` package by doing the following:
-1. Download the `copy-partitions-20210323_1922.zip` file from [here](https://www.androidfilehost.com/?fid=2188818919693768129).
+1. Download the `copy-partitions-20210323_1922.zip` file from [here](https://www.androidfilehost.com/?fid=2188818919693768129). If you get the file from third-party websites, it should have a MD5 sum of `92c010bf0371bfa6e55895c4c4750177` or a SHA-256 sum of `200877dfd0869a0e628955b807705765a91e34dff3bfeca9f828e916346aa85f`.
 {%- if device.uses_twrp %}
 2. Sideload the `copy-partitions-20210323_1922.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload
