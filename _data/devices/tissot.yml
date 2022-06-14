@@ -32,7 +32,6 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB
 tree: android_device_xiaomi_tissot
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [15.1, 16.0, 17.1, 18.1, 19.1]
