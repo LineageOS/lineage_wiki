@@ -31,7 +31,6 @@ soc: Qualcomm SDM636 Snapdragon 636
 storage: 32 / 64 / 128 GB eMMC 5.1 flash storage
 tree: android_device_xiaomi_whyred
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [15.1, 17.1, 18.1]
