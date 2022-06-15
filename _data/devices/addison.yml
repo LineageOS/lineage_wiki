@@ -31,7 +31,6 @@ soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32 GB
 tree: android_device_motorola_addison
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1, 18.1]

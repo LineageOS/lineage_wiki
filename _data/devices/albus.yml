@@ -30,7 +30,6 @@ soc: Qualcomm MSM8953-Pro Snapdragon 626
 storage: 32/64 GB
 tree: android_device_motorola_albus
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [15.1, 18.1]
