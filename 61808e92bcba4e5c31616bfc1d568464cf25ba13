@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c20e17a_379ccd51",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-06-16T20:55:12Z",
+      "side": 1,
+      "message": "wish we\u0027d just strip these credits...",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 135
+      },
+      "revId": "61808e92bcba4e5c31616bfc1d568464cf25ba13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
