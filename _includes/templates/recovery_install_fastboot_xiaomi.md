@@ -2,7 +2,7 @@
 {%- unless device.no_oem_unlock_switch %}
 ## Unlocking the bootloader
 
-{% include alerts/note.html content="The steps below only need to be run once per device. They **require** a machine running Windows 7 or newer." %}
+{% include alerts/note.html content="The steps below only need to be run once per device. This **requires** a machine running Windows, Linux or MacOS." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device! Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 {% include alerts/tip.html content="It is highly recommended to have the latest official MIUI stable package installed on the device, before proceeding with unlock." %}
 
@@ -11,8 +11,10 @@
 3. Insert a SIM into your phone.
 4. Enable developer options in `Settings` > `About Phone` by repeatedly tapping `MIUI Version`.
 5. Link the device to your Mi account in `Settings` > `Additional settings` > `Developer options` > `Mi Unlock status`.
-6. Download the [Mi Unlock app](https://en.miui.com/unlock/download_en.html) (Windows is required to run the app).
-7. Run the Mi Unlock app and follow the instructions provided by the app. It may tell you that you have to wait up to 30 days. If it does so, please wait the quoted amount of time before continuing to the next step!
+6. Download the unlock tool 
+   * Official unlock tool [Mi Unlock app](https://en.miui.com/unlock/download_en.html) for Windows.
+   * Unofficial unlock tool [XiaoMiTool](https://www.xiaomitool.com/V2/latest) for Linux and Mac OS.
+7. Run the unlock tool and follow the instructions provided by the app. It may tell you that you have to wait up to 30 days. If it does so, please wait the quoted amount of time before continuing to the next step!
 8. After device and Mi account are successfully verified, the bootloader should be unlocked.
 9. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
