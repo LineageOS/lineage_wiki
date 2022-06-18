@@ -32,5 +32,5 @@
 {% endif %}
 
 {% if device.no_oem_unlock_switch %}
-{% include alerts/tip.html content="It is highly recommended to have the latest official MIUI weekly package installed on the device, before installing a custom recovery." %}
+{% include alerts/tip.html content="It is highly recommended to have the latest official MIUI stable package installed on the device, before installing a custom recovery." %}
 {% endif %}
