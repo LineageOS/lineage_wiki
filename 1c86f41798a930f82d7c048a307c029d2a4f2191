@@ -34,6 +34,24 @@
       "parentUuid": "bdb114fa_58353665",
       "revId": "1c86f41798a930f82d7c048a307c029d2a4f2191",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6e4ae291_f5663981",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-06-20T15:23:51Z",
+      "side": 1,
+      "message": "Yes, I did everything right, Xiaomi might have changed its API",
+      "parentUuid": "e0010063_060e79a9",
+      "revId": "1c86f41798a930f82d7c048a307c029d2a4f2191",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
