@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bdb114fa_58353665",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-06-20T15:10:05Z",
+      "side": 1,
+      "message": "Just tested on my raphael, got the following error:\n Xiaomi procedure failed: [getServiceToken] Missing serviceToken cookie",
+      "revId": "1c86f41798a930f82d7c048a307c029d2a4f2191",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
