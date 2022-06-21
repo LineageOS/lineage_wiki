@@ -22,6 +22,30 @@
       },
       "revId": "3f07ff427f618b58dbfc7c2d4d4cd79cb5979adc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4d12fc2_53c437fb",
+        "filename": "_includes/templates/device_specific/before_recovery_install_gts4lv.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-06-21T08:57:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4c58bd9f_9c957446",
+      "range": {
+        "startLine": 13,
+        "startChar": 37,
+        "endLine": 13,
+        "endChar": 45
+      },
+      "revId": "3f07ff427f618b58dbfc7c2d4d4cd79cb5979adc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
