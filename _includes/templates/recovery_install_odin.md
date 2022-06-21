@@ -28,7 +28,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 
 ## Installing a custom recovery using `Odin`
 
-{% include alerts/note.html content="If this device's install instructions already had you download Odin/Enable OEM Unlocking earlier in the installation process, you can skip steps 1, 3, 5, 6, and 7 below." %}
+{% include alerts/note.html content="If this device's install instructions already had you download Odin/Enable OEM Unlocking earlier in the installation process, you can skip the steps for enabling OEM Unlock, as well as for downloading and extracting the drivers and Odin." %}
 
 {% unless device.no_oem_unlock_switch %}
 1. Enable Developer Options by pressing the "Build Number" option 10 times, in the "Settings" app within the "About" menu
@@ -47,7 +47,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 {%- endif %}
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
-    * Now, click the button that the onscren instructions coorelate to "Continue", and insert the USB cable into the device.
+    * Now, click the button that the onscreen instructions correlate to "Continue", and insert the USB cable into the device.
 4. Download and install the necessary drivers.
     * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html). You will need to create a Samsung account and login to download them.
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
@@ -60,7 +60,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 10. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
     * In the menu that pops up, select the newly downloaded custom recovery `.tar` or `.tar.md5`.
     {% include alerts/tip.html content="The filename may vary depending on your device, and the version of your custom recovery." %}
-11. A blue transfer bar will appear on the device showing the recovery image being flashed.
+11. Click "Start". A blue transfer bar will appear on the device showing the recovery image being flashed.
     {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete. When the status message in the top left of the devices's display reports that the process is complete, you may proceed." %}
 12. Unplug the USB cable from your device.
 13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
