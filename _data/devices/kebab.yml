@@ -17,7 +17,7 @@ cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 18.1
 dimensions: {width: '74.1 mm (2.92 in)', height: '160.7 mm (6.33 in)', depth: '8.4 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_oneplus_kebab
+firmware_update: firmware_update_oneplus_sm8250
 gpu: Adreno 650
 has_recovery_partition: true
 image: kebab.png
