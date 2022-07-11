@@ -16,6 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Adreno 530
 image: g6.png
 install_method: fastboot_lg
+is_unlockable: false
 kernel: android_kernel_lge_msm8996
 maintainers: []
 name: G6 (EU Unlocked)
