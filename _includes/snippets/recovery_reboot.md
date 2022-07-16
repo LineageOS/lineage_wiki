@@ -4,7 +4,7 @@ Use the menu to navigate to and to select the `Recovery` option.
 {%- when 'fastboot_reboot' %}
 Type the command:
 ```
-fastboot reboot-recovery
+fastboot reboot recovery
 ```
 {%- else %}
 {%- endcase %}
