@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e3c9897_fc37eccc",
+        "filename": "pages/how-tos/bugs.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-07-22T15:23:44Z",
+      "side": 1,
+      "message": "Android",
+      "range": {
+        "startLine": 43,
+        "startChar": 94,
+        "endLine": 43,
+        "endChar": 101
+      },
+      "revId": "33e3acec4c685a8e7d1cf2462a72dca8db907fda",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
