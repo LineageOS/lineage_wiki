@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db140e95_c440eb05",
+        "filename": "pages/how-tos/bugs.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-07-23T02:12:14Z",
+      "side": 1,
+      "message": "I know you didn\u0027t change this sentence, but this is not worded right. We don\u0027t remove or delete bug reports for missing info. It just gets closed. So I think it should be changed to \"bug report will be closed\". Or we can do it in a separate change if u prefer.\nOtherwise, this change looks good to me.",
+      "range": {
+        "startLine": 39,
+        "startChar": 212,
+        "endLine": 39,
+        "endChar": 231
+      },
+      "revId": "a11da078f2bbd84f5b7dfb044fa927a0a75945f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
