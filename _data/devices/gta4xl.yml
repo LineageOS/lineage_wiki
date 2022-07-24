@@ -13,6 +13,7 @@ cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
 current_branch: 19.1
 dimensions: {width: '154.3 mm (6.07 in)', height: '244.5 mm (9.63 in)', depth: '7.0 mm (0.28 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_gta4xl
 gpu: ARM Mali-G72 MP3
 image: gta4xl.png
 install_method: heimdall
