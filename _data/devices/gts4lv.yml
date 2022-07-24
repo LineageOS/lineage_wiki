@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 7040, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
 before_recovery_install: gts4lv
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
@@ -12,6 +13,7 @@ cpu_freq: 2 x 2.0 GHz & 6 x 1.7 GHz
 current_branch: 19.1
 dimensions: {width: '160 mm (6.3 in)', height: '245 mm (9.65 in)', depth: '5.5 mm (0.22 in)'}
 download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_samsung_gts4lv
 gpu: Adreno 615
 image: gts4lv.png
 install_method: odin
