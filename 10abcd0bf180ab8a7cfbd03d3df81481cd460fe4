@@ -16,6 +16,24 @@
       "message": "A user should be able to use the built in updater. That means, updating shouldn\u0027t involve looking at the wiki at all.\nIf this is really a requirement for specific devices, this sounds like the hell of a user experience.\nAlso, this would mean the warning is shown for all devices.\n",
       "revId": "10abcd0bf180ab8a7cfbd03d3df81481cd460fe4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "808e450a_dc847392",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-07-26T17:39:55Z",
+      "side": 1,
+      "message": "its an issue for my device when update blobs are updated from newer build. Older/newer firmware breaks audio in the case of alioth. Also we can\u0027t ship firmware with rom coz of too many variants.",
+      "parentUuid": "a41f061c_e769d20a",
+      "revId": "10abcd0bf180ab8a7cfbd03d3df81481cd460fe4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
