@@ -17,7 +17,7 @@ gpu: Adreno 512
 image: X01BD.png
 install_method: fastboot_zenfone
 kernel: android_kernel_asus_sdm660
-maintainers: [Rk585]
+maintainers: []
 name: Zenfone Max Pro M2
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
