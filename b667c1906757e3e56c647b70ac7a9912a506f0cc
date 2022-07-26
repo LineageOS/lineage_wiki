@@ -16,6 +16,23 @@
       "message": "Incorrect firmware on fresh install will cause issues.",
       "revId": "b667c1906757e3e56c647b70ac7a9912a506f0cc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50bf62cf_0e062bba",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-07-26T18:33:37Z",
+      "side": 1,
+      "message": "Don\u0027t really like this since initial install is already a trouble for some and fw_upgrade requires stuff that\u0027s only explained later in the guide. It\u0027s not by chance that this is only displayed on the upgrade page",
+      "revId": "b667c1906757e3e56c647b70ac7a9912a506f0cc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
