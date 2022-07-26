@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92a5899c_979fd5e8",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-07-26T13:48:10Z",
+      "side": 1,
+      "message": "just extract whole ota, no need to overcomplicate it.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "0faf47d41d4157e3160d41e5333f8ee835bd8365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
