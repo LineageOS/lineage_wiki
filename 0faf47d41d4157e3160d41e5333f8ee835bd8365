@@ -22,6 +22,30 @@
       },
       "revId": "0faf47d41d4157e3160d41e5333f8ee835bd8365",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bda57d59_478e1804",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-07-26T13:51:47Z",
+      "side": 1,
+      "message": "also honestly, i\u0027d just remove all handholding from here. payload-dumper-go is very simple if you can use CLI at all.",
+      "parentUuid": "92a5899c_979fd5e8",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "0faf47d41d4157e3160d41e5333f8ee835bd8365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
