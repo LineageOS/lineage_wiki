@@ -22,6 +22,30 @@
       },
       "revId": "9d5d9b9cf49c1b4e8f540ee309d8244416afcada",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "511b925d_d16289e7",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-07-26T13:46:34Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "5379104a_4afd2773",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 54
+      },
+      "revId": "9d5d9b9cf49c1b4e8f540ee309d8244416afcada",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
