@@ -8,6 +8,13 @@
 {% include alerts/note.html content="addon.d-v2/backuptool_ab, the systems responsible for backing up addons such as GApps/SU do NOT run in recovery on A/B partition scheme (seamless update) devices. Addons are only backed up if you update via the built-in LineageOS Updater app or the push-update script detailed below." %}
 {% endif %}
 
+{%- if device.before_install and device.before_install == "needs_specific_android_fw" %}
+{% unless device.before_install_args and device.before_install_args.ships_fw %}
+{% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
+{% include {{ path }} %}
+{% endunless %}
+{%- endif %}
+
 ## Using the LineageOS Updater app
 
 1. Open Settings, navigate to "System", then "Updater".
