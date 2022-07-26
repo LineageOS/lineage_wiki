@@ -46,6 +46,30 @@
       },
       "revId": "0faf47d41d4157e3160d41e5333f8ee835bd8365",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ef76ae0_c556af32",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-07-26T13:53:54Z",
+      "side": 1,
+      "message": "now just kept the extract command for ease",
+      "parentUuid": "bda57d59_478e1804",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 113
+      },
+      "revId": "0faf47d41d4157e3160d41e5333f8ee835bd8365",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
