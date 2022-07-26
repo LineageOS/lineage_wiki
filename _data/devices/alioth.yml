@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: needs_specific_android_fw
-before_install_args: {version: 12}
+before_install_args: {version: Redmi K40 - V13.0.5.0.SKHCNXM, Mi 11X - V13.0.4.0.SKHINXM, POCO F3 - V13.0.3.0.SKHMIXM}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: vendor_boot
 bluetooth: {spec: '5.1', profiles: [A2DP]}
