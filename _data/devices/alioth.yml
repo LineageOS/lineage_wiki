@@ -18,6 +18,7 @@ current_branch: 19.1
 dimensions: {width: '76.4 mm (3.01 in)', height: '163.7 mm (6.44 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_alioth
 gpu: Adreno 650
 image: alioth.png
 install_method: fastboot_xiaomi
