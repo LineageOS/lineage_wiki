@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "736eed59_603400c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-07-27T01:24:51Z",
+      "side": 1,
+      "message": "tar-file should have space instead of dash, imo.\nand indentions have errant white space at the beginning. use 3 spaces to indent to fix. or indent 3 ticks 2 spaces, and command no spaces.",
+      "revId": "183390ba9133e5efbdfe937fb41e551150f1dead",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
