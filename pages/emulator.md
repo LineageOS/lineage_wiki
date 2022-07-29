@@ -58,6 +58,7 @@ lunch <target>
 * `x86` (32-bit x86)
 * `x86_64` (64-bit x86)
 
+{% include alerts/note.html content="For LineageOS 19.1, emulator targets lack support for arm/arm64, and are therefore only buildable for the `x86` and `x86_64` architectures." %}
 {% include alerts/note.html content="The Android Automotive targets lack support for 32-bit, and are therefore only buildable for the `arm64` and `x86_64` architectures." %}
 
 For starting, `x86` or `x86_64` is recommended, as your computer can run it natively using hardware acceleration.
