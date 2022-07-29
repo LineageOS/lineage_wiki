@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbc8665e_802451c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-07-29T18:03:22Z",
+      "side": 1,
+      "message": "Isn\u0027t this supported in aosp?. can\u0027t we add support for it like x86\nhttps://github.com/LineageOS/android_build/blob/lineage-19.1/target/product/sdk_phone_arm64.mk",
+      "revId": "fda64d877a2ea7875917dda9e2b2f6f587009f0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9dad743_a63e6d15",
