@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9dad743_a63e6d15",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-07-29T17:46:00Z",
+      "side": 1,
+      "message": "I\u0027d probably put \"ARM-based architectures\" or wrap the architecture names in backticks, just to keep it consistent.",
+      "range": {
+        "startLine": 61,
+        "startChar": 94,
+        "endLine": 61,
+        "endChar": 103
+      },
+      "revId": "fda64d877a2ea7875917dda9e2b2f6f587009f0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
