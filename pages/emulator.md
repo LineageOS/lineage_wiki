@@ -41,24 +41,38 @@ Select the build target by running the following command, where `<target>` is on
 lunch <target>
 ```
 
-|                |              | LineageOS 17.1 and below | LineageOS 18.1           | LineageOS 19 and above         |
-|----------------|--------------|--------------------------|--------------------------|--------------------------------|
-| **Phone**      | **Emulator** | `lineage_<arch>-eng`     | `lineage_<arch>-eng`     | `lineage_sdk_phone_<arch>-eng` |
-| **Phone**      | **GSI**      | `lineage_<arch>-eng`     | `lineage_<arch>-eng`     | `lineage_gsi_<arch>-eng`       |
-| **TV**         | **Emulator** |                          | `lineage_tv_<arch>-eng`  | `lineage_sdk_tv_<arch>-eng`    |
-| **TV**         | **GSI**      |                          | `lineage_tv_<arch>-eng`  | `lineage_gsi_tv_<arch>-eng`    |
-| **Automotive** | **Emulator** |                          | `lineage_car_<arch>-eng` | `lineage_sdk_car_<arch>-eng`   |
-| **Automotive** | **GSI**      |                          | `lineage_car_<arch>-eng` | `lineage_gsi_car_<arch>-eng`   |
+#### LineageOS 17.1 and below
+
+|                |              | Build targets            | Supported `<arch>`           |
+|----------------|--------------|--------------------------|------------------------------|
+| **Phone**      | **Emulator** | `lineage_<arch>-eng`     | `arm, arm64, x86 and x86_64` |
+| **Phone**      | **GSI**      | `lineage_<arch>-eng`     | `arm, arm64, x86 and x86_64` |
 {: .table }
 
-`<arch>` can be one of the following:
+#### LineageOS 18.1
 
-* `arm` (32-bit ARM)
-* `arm64` (64-bit ARM)
-* `x86` (32-bit x86)
-* `x86_64` (64-bit x86)
+|                |              | Build targets            | Supported `<arch>`             |
+|----------------|--------------|--------------------------|--------------------------------|
+| **Phone**      | **Emulator** | `lineage_<arch>-eng`     | `arm, arm64, x86 and x86_64`   |
+| **Phone**      | **GSI**      | `lineage_<arch>-eng`     | `arm, arm64, x86 and x86_64`   |
+| **TV**         | **Emulator** | `lineage_tv_<arch>-eng`  | `arm, arm64, x86 and x86_64`   |
+| **TV**         | **GSI**      | `lineage_tv_<arch>-eng`  | `arm, arm64, x86 and x86_64`   |
+| **Automotive** | **Emulator** | `lineage_car_<arch>-eng` | `arm64 and x86_64`             |
+| **Automotive** | **GSI**      | `lineage_car_<arch>-eng` | `arm64 and x86_64`             |
+{: .table }
 
-{% include alerts/note.html content="The Android Automotive targets lack support for 32-bit, and are therefore only buildable for the `arm64` and `x86_64` architectures." %}
+#### LineageOS 19 and above
+
+|                |              | Build targets                  | Supported `<arch>`             |
+|----------------|--------------|--------------------------------|--------------------------------|
+| **Phone**      | **Emulator** | `lineage_sdk_phone_<arch>-eng` | `x86 and x86_64`               |
+| **Phone**      | **GSI**      | `lineage_gsi_<arch>-eng`       | `arm, arm64, x86 and x86_64`   |
+| **TV**         | **Emulator** | `lineage_sdk_tv_<arch>-eng`    | `arm, and x86`                 |
+| **TV**         | **GSI**      | `lineage_gsi_tv_<arch>-eng`    | `arm, arm64, x86 and x86_64`   |
+| **Automotive** | **Emulator** | `lineage_sdk_car_<arch>-eng`   | `arm64 and x86_64`             |
+| **Automotive** | **GSI**      | `lineage_gsi_car_<arch>-eng`   | `arm64 and x86_64`             |
+{: .table }
+
 
 For starting, `x86` or `x86_64` is recommended, as your computer can run it natively using hardware acceleration.
 
