@@ -16,6 +16,23 @@
       "message": "LGTM, but I\u0027d also rather be in the \"why not just make some ARM targets?\" camp. Last time I heard about that, there were some broken ELF target rules that would have to be fixed up.",
       "revId": "f1e31c7646e3a2f5e14936c27720f09b7e9e378b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "288cb9f1_daaa7751",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-07-30T12:13:49Z",
+      "side": 1,
+      "message": "Actually, this restriction seems to only apply for the `phone` type? `car` doesn\u0027t have 32-bit support, but has x86_64 and arm64 instead. `tv` doesn\u0027t have 64-bit, but provides `x86` and `arm`.",
+      "revId": "f1e31c7646e3a2f5e14936c27720f09b7e9e378b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
