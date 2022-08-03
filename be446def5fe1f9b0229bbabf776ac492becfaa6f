@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "07cf374b_3e53fd17",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-03T08:59:43Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "32342078_ae675bb9",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 2,
+        "endChar": 142
+      },
+      "revId": "be446def5fe1f9b0229bbabf776ac492becfaa6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "522c6ee6_fca3d874",
@@ -37,6 +61,30 @@
       "writtenOn": "2022-08-03T00:47:33Z",
       "side": 1,
       "message": "if you\u0027re gonna link this, talk about how to actually do it?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 103
+      },
+      "revId": "be446def5fe1f9b0229bbabf776ac492becfaa6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc61fe3a_b7e41f54",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_alioth.md",
+        "patchSetId": 13
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-03T08:59:43Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "522c6ee6_fca3d874",
       "range": {
         "startLine": 10,
         "startChar": 0,
