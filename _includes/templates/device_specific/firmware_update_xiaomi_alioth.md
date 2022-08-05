@@ -1,4 +1,4 @@
-{% include alerts/warning.html content="Make sure to download exact firmware for your model. You can discern your model from Settings > About Phone > MIUI Version. Eg: V13.0.6.0 (SKHEUXM) 'EU' represents your phone's region." %}
+{% include alerts/warning.html content="Make sure to download exact firmware for your model. You can discern your model from Settings > About phone > MIUI version (Eg: In MIUI version V13.0.6.0 (SKHEUXM) 'EU' represents your phone region, which is POCO F3 EEA). You can also verify your xiaomi device in [official site](https://www.mi.com/global/verify)." %}
 
 1. Download the required firmware for your model.
    - Mi 11X India - [V13.0.6.0.SKHINXM](https://bigota.d.miui.com/V13.0.6.0.SKHINXM/miui_ALIOTHINGlobal_V13.0.6.0.SKHINXM_2492066c1d_12.0.zip)
