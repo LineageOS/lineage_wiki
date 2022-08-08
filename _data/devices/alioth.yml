@@ -1,7 +1,15 @@
 architecture: arm64
 battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: needs_specific_android_fw
-before_install_args: {version: 12}
+before_install_device_variants:
+- {device: 'Mi 11X India', firmware: 'V13.0.6.0.SKHINXM'}
+- {device: 'POCO F3 EEA', firmware: 'V13.0.6.0.SKHEUXM'}
+- {device: 'POCO F3 Global', firmware: 'V13.0.3.0.SKHMIXM'}
+- {device: 'POCO F3 Indonesia', firmware: 'V13.0.2.0.SKHIDXM'}
+- {device: 'POCO F3 Russia', firmware: 'V13.0.2.0.SKHRUXM'}
+- {device: 'POCO F3 Taiwan', firmware: 'V13.0.1.0.SKHTWXM'}
+- {device: 'POCO F3 Turkey', firmware: 'V13.0.1.0.SKHTRXM'}
+- {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: vendor_boot
 bluetooth: {spec: '5.1', profiles: [A2DP]}
