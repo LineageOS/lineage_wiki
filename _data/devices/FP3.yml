@@ -12,6 +12,7 @@ current_branch: 19.1
 dimensions: {width: '71.8 mm (2.83 in)', height: '158 mm (6.22 in)', depth: '9.89 mm (0.39 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Release when boot logo appears.
+fairphone_unlock_guide: 'https://support.fairphone.com/hc/en-us/articles/360048646311-Manage-the-bootloader-of-your-FP3-FP3-'
 gpu: Adreno 506
 image: FP3.png
 install_method: fastboot_fairphone
