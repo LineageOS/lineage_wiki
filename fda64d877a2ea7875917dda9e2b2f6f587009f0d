@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "63c73506_953d88a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-08T15:41:53Z",
+      "side": 1,
+      "message": "i was able to buid arm/arm64, but no way to test it out",
+      "parentUuid": "e897d4f4_5b84aec5",
+      "revId": "fda64d877a2ea7875917dda9e2b2f6f587009f0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f9dad743_a63e6d15",
