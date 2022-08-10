@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "870ae812_7a89ff43",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-08-10T10:47:32Z",
+      "side": 1,
+      "message": "TARGET_SCREEN_HEIGHT in device tree seems to be wrong too",
+      "revId": "b5d4e1ba7deb3a1681062883bb6a204f27ca2789",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
