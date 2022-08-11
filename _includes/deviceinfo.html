@@ -262,6 +262,7 @@
             </ul>
         </td>
     </tr>
+    {%- endif %}
     {%- if device.models %}
     <tr>
         <th scope="row"><a name="supported-models">Supported models</a></th>
@@ -274,7 +275,6 @@
             </ul>
         </td>
     </tr>
-    {%- endif %}
     {%- endif %}
     {%- if device.versions.size > 1 or device.maintainers == empty %}
     <tr>
