@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3009e1e3_a32af660",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-08-15T17:42:03Z",
+      "side": 1,
+      "message": "Very small nitpick, but the \"and\" and \",\" should probably not be included in the inline code formatting.",
+      "revId": "fa0ce1156dc8c222eaa17434d4b7e9d2d1a461f9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
