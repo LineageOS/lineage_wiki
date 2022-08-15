@@ -44,7 +44,7 @@ Follow your [device's installation guide]({{ path_prefix | append: "/install" | 
 {%- for version in device.versions %}
 {%- if version < 17.1 %}
 {%- capture adbRoot -%}
-3. Additionally if you are on LineageOS 16.0 or below, enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
+3. Additionally if you are on LineageOS 16.0 or below, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
 {%- endcapture -%}
 {%- break %}
 {%- endif %}
@@ -63,6 +63,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     - remove them: You can only do so by performing a factory reset, which will also remove all your data.
     - start using them: You can only do so by performing a factory reset, which will also remove all your data. Download the appropriate version [now]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 3. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {{ adbRoot }}
 {%- if device.format_on_upgrade %}
 4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
