@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0face6f7_5ec07991",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-08-18T01:47:45Z",
+      "side": 1,
+      "message": "I think this needs to be restructured/reworded a little.\nIt will be confusing to alioth users because it first says to be on the newest 12 firmware. Then it shows a list of required firmware, which is not the newest.",
+      "revId": "f3b49261d49d296b0c30e23189b5c15619a28d89",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
