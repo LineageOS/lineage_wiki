@@ -51,8 +51,6 @@ storage: 128/256 GB
 tree: android_device_xiaomi_alioth
 type: phone
 vendor: Xiaomi
-vendor_boot_download_link: https://mirror.math.princeton.edu/pub/lineageos/full/alioth/
-vendor_boot_download_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 vendor_short: xiaomi
 versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
