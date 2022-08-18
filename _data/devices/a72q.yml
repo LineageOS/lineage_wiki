@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+before_install: needs_specific_android_fw
+before_install_args: {version: 12}
+before_recovery_install: samsung_sm7125
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '64 MP'}
+- {flash: 'LED', info: '12 MP (ultrawide)'}
+- {flash: 'LED', info: '8 MP (telephoto)'}
+- {flash: None, info: '5 MP (macro)'}
+codename: a72q
+cpu: Kryo 465 Gold & Kryo 465 Silver
+cpu_cores: '8'
+cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '77.4 mm (3.05 in)', height: '165 mm (6.5 in)', depth: '8.4 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+gpu: Adreno 618
+image: a72q.png
+install_method: odin
+kernel: android_kernel_samsung_sm7125
+maintainers: [Simon1511]
+models: [SM-A725F, SM-A725M, SM-A725F/DS, SM-A725M/DS]
+name: Galaxy A72
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+release: 2021
+screen: {size: '170.18 mm (6.7 in)', density: 394, resolution: '1080x2800', technology: 'Super AMOLED'}
+sdcard: {sizeMax: '512 GB'}
+soc: Qualcomm SM7125 Snapdragon 720G
+storage: 128/256 GB
+tree: android_device_samsung_a72q
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
