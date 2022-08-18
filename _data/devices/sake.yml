@@ -35,8 +35,6 @@ storage: 128/256 GB UFS3.1
 tree: android_device_asus_sake
 type: phone
 vendor: ASUS
-vendor_boot_download_link: https://mirror.math.princeton.edu/pub/lineageos/full/sake/
-vendor_boot_download_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 vendor_short: asus
 versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac/6e, Dual-band, Wi-Fi Direct, Hotspot
