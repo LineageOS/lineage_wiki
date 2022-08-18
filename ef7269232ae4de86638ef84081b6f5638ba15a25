@@ -45,6 +45,54 @@
       },
       "revId": "ef7269232ae4de86638ef84081b6f5638ba15a25",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a6f3898_5eb96baf",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-18T17:37:53Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "6e90d1fb_988de9a2",
+      "range": {
+        "startLine": 4,
+        "startChar": 90,
+        "endLine": 4,
+        "endChar": 99
+      },
+      "revId": "ef7269232ae4de86638ef84081b6f5638ba15a25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4d44b1e_df36b86f",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-18T17:37:53Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "ddc387d0_dd8b58d3",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 9
+      },
+      "revId": "ef7269232ae4de86638ef84081b6f5638ba15a25",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
