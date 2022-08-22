@@ -3,9 +3,10 @@
 {% if device -%}
 * A {{ device.vendor }} {{ device.name }}.
 {%- endif %}
-* A relatively recent 64-bit computer (Linux, macOS, or Windows) with a reasonable amount of RAM and about 200 GB of free storage (more if you enable `ccache`
- or build for multiple devices). The less RAM you have, the longer the build will take. Aim for 16 GB RAM or more, enabling ZRAM can be helpful. Using SSDs results in considerably faster
- build times than traditional hard drives.
+* A relatively recent 64-bit computer:
+  * Linux, macOS, or Windows - these instructions are only tested using Ubuntu, so we recommend going with that.
+  * A reasonable amount of RAM (16 GB to build up to `lineage-17.1`, 32 GB or more for `lineage-18.1` and up). The less RAM you have, the longer the build will take. Enabling ZRAM can be helpful.
+  * About 200 GB of free storage (more if you enable `ccache` or build for multiple devices). Using SSDs results in considerably faster build times than traditional hard drives.
 * A decent internet connection and reliable electricity. :)
 * Some familiarity with basic Android operation and terminology.
  It may be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by `/`, etc.
