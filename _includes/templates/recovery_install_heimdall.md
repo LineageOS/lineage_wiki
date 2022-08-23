@@ -29,7 +29,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
-5. **For Windows user only**: install the necessary drivers. A more complete set of instructions can be found in the [Zadig user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
+5. **For Windows users only**: install the necessary drivers. A more complete set of instructions can be found in the [Zadig user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
     1. If nothing relevant appears, try uninstalling any Samsung related Windows software, like Samsung Windows drivers and/or Samsung Kies.
     2. Run `zadig.exe` found in your extracted Heimdall directory.
         {% include alerts/note.html content="For the interested, source and documentation for zadig.exe can be found [here](https://github.com/pbatard/libwdi/releases)." %}
