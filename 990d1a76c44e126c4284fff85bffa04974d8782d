@@ -70,6 +70,30 @@
       },
       "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67aa9635_72b1e273",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-23T11:32:02Z",
+      "side": 1,
+      "message": "I added 300-400 GB for newer android versions and updates for source in future. 300 is fine for fresh install on 19.1.",
+      "parentUuid": "9a5f9e9e_ae044ab0",
+      "range": {
+        "startLine": 7,
+        "startChar": 72,
+        "endLine": 7,
+        "endChar": 78
+      },
+      "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
