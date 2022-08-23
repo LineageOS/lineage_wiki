@@ -94,6 +94,30 @@
       },
       "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3b8b4e96_2324f0e3",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-08-23T15:48:01Z",
+      "side": 1,
+      "message": "Then put 300GB instead of making wild claims of the future.",
+      "parentUuid": "67aa9635_72b1e273",
+      "range": {
+        "startLine": 7,
+        "startChar": 72,
+        "endLine": 7,
+        "endChar": 78
+      },
+      "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
