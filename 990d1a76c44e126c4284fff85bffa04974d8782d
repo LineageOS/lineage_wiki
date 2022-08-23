@@ -22,6 +22,30 @@
       },
       "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be13adef_8c887184",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-08-23T10:18:55Z",
+      "side": 1,
+      "message": "done. Also increased storage requirements (even shallow clone uses about 120-150gb space). 64bit device needs more free space.",
+      "parentUuid": "f02c636a_64e1df1c",
+      "range": {
+        "startLine": 7,
+        "startChar": 72,
+        "endLine": 7,
+        "endChar": 78
+      },
+      "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
