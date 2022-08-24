@@ -19,7 +19,7 @@ image: akatsuki.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm845
-maintainers: [dtrunk90, sjllls]
+maintainers: [dtrunk90]
 models: [H8416, H9436, H9493]
 name: Xperia XZ3
 network: [2G GSM, 3G UMTS, 4G LTE]
