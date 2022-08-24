@@ -19,7 +19,7 @@ image: akari.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sdm845
-maintainers: [dtrunk90, sjllls]
+maintainers: [dtrunk90]
 models: [H8216, H8266, H8276, H8296]
 name: Xperia XZ2
 network: [2G GSM, 3G UMTS, 4G LTE]
