@@ -118,6 +118,30 @@
       },
       "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2625b933_d147bd2f",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-08-24T14:51:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3b8b4e96_2324f0e3",
+      "range": {
+        "startLine": 7,
+        "startChar": 72,
+        "endLine": 7,
+        "endChar": 78
+      },
+      "revId": "990d1a76c44e126c4284fff85bffa04974d8782d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
