@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 2620, tech: 'Li-Ion'}
+before_install: needs_specific_android_fw
+before_install_args: {version: 8.0.0}
+bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+cameras:
+- {flash: 'LED', info: '23 MP'}
+- {flash: None, info: '13 MP'}
+codename: suzu
+cpu: Cortex-A53 & Cortex-A72
+cpu_cores: '6'
+cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
+current_branch: 18.1
+dimensions: {width: '69 mm (2.7 in)', height: '143 mm (5.6 in)', depth: '7.9 mm (0.31 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+gpu: Adreno 510
+image: suzu.png
+install_method: fastboot_sony
+kernel: android_kernel_sony_msm8956
+maintainers: [jmpfbmx, surblazer]
+models: [F5122, F5121]
+name: Xperia X
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+ Keep holding both buttons until the device vibrates, then release.
+release: 2016
+screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
+sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
+soc: Qualcomm MSM8956 Snapdragon 650
+storage: 32/64 GB
+tree: android_device_sony_suzu
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [18.1]
+wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, Hotspot
