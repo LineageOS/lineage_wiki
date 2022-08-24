@@ -34,6 +34,24 @@
       "parentUuid": "b8ec5084_9b76b3cc",
       "revId": "b8c2adee50b5f9f0ce8513a9f70c5ee1acdbbaf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "317971d0_0fe00d9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23782
+      },
+      "writtenOn": "2022-08-24T01:32:41Z",
+      "side": 1,
+      "message": "Thanks for pointing out.\n\nI used Debian for this patch and not Windows (I use Debian for LOS work). I used vim as the editor, so I guess it\u0027s a vim issue.\n\nI don\u0027t normally use Windows at home, but noticed this out of pure OCD.",
+      "parentUuid": "39fac3fe_ec9e50bf",
+      "revId": "b8c2adee50b5f9f0ce8513a9f70c5ee1acdbbaf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
