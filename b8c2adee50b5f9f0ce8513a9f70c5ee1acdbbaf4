@@ -16,6 +16,24 @@
       "message": "Add Wiki editors.\n\nFor some reason, Git also changed the last line despite me not touching it, but I don\u0027t know why it happened.",
       "revId": "b8c2adee50b5f9f0ce8513a9f70c5ee1acdbbaf4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39fac3fe_ec9e50bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-08-24T01:09:45Z",
+      "side": 1,
+      "message": "It isn\u0027t git that changed it, you used a Unix editor on this, whereas before it had been only edited either via Gerrit UI or on Windows where line endings are different.",
+      "parentUuid": "b8ec5084_9b76b3cc",
+      "revId": "b8c2adee50b5f9f0ce8513a9f70c5ee1acdbbaf4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
