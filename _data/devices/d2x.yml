@@ -1,7 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4300, tech: 'Li-Ion'}
-before_install: needs_specific_android_fw
-before_install_args: {version: 12}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
 before_recovery_install: samsung_exynos9xxx
 bluetooth: {spec: '5', profiles: [A2DP + aptX]}
 cameras:

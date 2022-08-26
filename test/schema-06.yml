@@ -29,6 +29,29 @@ definitions:
     - capacity
     - removable
     type: object
+  before_install_format:
+    description: The format for the before_install property
+    properties:
+      instructions:
+        type: string
+      version:
+        type: string
+      ships_fw:
+        description: Defines whether the device ships firmware
+        type: boolean
+    required:
+    - instructions
+    type: object
+  before_recovery_install_format:
+    description: The format for the before_recovery_install property
+    properties:
+      instructions:
+        type: string
+      partitions:
+        type: array
+    required:
+    - instructions
+    type: object
   camera_data:
     description: The format for the camera property
     properties:
@@ -248,16 +271,20 @@ properties:
       - None
   before_install:
     "$id": "/properties/before_install"
-    minLength: 3
-    type: string
+    oneOf:
+    - "$ref": "#/definitions/before_install_format"
+    - minLength: 3
+      type: string
   before_lineage_install:
     "$id": "/properties/before_lineage_install"
     minLength: 3
     type: string
   before_recovery_install:
     "$id": "/properties/before_recovery_install"
-    minLength: 3
-    type: string
+    oneOf:
+    - "$ref": "#/definitions/before_recovery_install_format"
+    - minLength: 3
+      type: string
   bluetooth:
     "$id": "/properties/bluetooth"
     properties:

@@ -12,9 +12,9 @@
 {% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ path_prefix | append: "/install" | relative_url }}) instructions for installing LineageOS the first time.{% endcapture %}
 {% include alerts/warning.html content=upgrade_only %}
 
-{%- if device.before_install and device.before_install == "needs_specific_android_fw" %}
-{% unless device.before_install_args and device.before_install_args.ships_fw %}
-{% capture path %}templates/device_specific/before_install_{{ device.before_install }}.md{% endcapture %}
+{%- if device.before_install.instructions == "needs_specific_android_fw" %}
+{% unless device.before_install.ships_fw %}
+{% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}
 {% include {{ path }} %}
 {% endunless %}
 {%- endif %}

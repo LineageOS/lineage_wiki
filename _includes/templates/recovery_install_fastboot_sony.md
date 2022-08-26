@@ -1,9 +1,6 @@
 {%- assign device = site.data.devices[page.device] -%}
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+{% include snippets/before_recovery_install.md %}
 
 ## Unlocking the bootloader
 
