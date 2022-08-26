@@ -21,10 +21,7 @@
    2. Install and run the apk to achieve root.
 {% endcase %}
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+{% include snippets/before_recovery_install.md %}
 
 ## Installing a custom recovery using `dd`
 

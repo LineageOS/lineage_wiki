@@ -151,7 +151,7 @@ There are some optional properties which you might not need, but in case you do,
 
 {% include alerts/important.html content="Remove any of these properties in case they don't apply for your device!" %}
 
-* `before_install`: Sometimes some pre-conditions must be met in order to be able to install LineageOS. This often goes with `before_install_args`. See *_includes/templates/device_specific/before_install_*`before_install`*.md* for possible values.
+* `before_install`: Sometimes some pre-conditions must be met in order to be able to install LineageOS. See *_includes/templates/device_specific/before_install_*`before_install`*.md* for possible values.
 * `before_lineage_install`: This property can be set to be able to display instructions between recovery and the actual LineageOS installation. Existing (or to be created) values can be found in *_includes/templates/device_specific/before_lineage_install_*`before_lineage_install_`*.md*
 * `before_recovery_install`: Set this property to specify if something has to be done before installing the recovery. Values can be found in *_includes/templates/device_specific/before_recovery_install_*`before_recovery_install_`*.md*
 * `carrier`: If the device was released for a specific carrier, the name of that carrier.

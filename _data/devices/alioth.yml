@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
-before_install: needs_specific_android_fw
+before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
 - {device: 'Mi 11X India', firmware: 'V13.0.6.0.SKHINXM'}
 - {device: 'POCO F3 EEA', firmware: 'V13.0.6.0.SKHEUXM'}
@@ -11,8 +11,7 @@ before_install_device_variants:
 - {device: 'POCO F3 Turkey', firmware: 'V13.0.1.0.SKHTRXM'}
 - {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM'}
 before_lineage_install: ab_copy_partitions
-before_recovery_install: boot_stack
-before_recovery_install_args: {partitions: [vendor_boot]}
+before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '48 MP (main)'}

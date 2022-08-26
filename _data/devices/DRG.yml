@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3060, tech: 'Li-Ion'}
-before_install: DRG
+before_install: {instructions: 'DRG'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}

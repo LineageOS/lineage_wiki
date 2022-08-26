@@ -30,10 +30,7 @@ fastboot devices
 
 5. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+{% include snippets/before_recovery_install.md %}
 
 {% if device.is_ab_device and device.has_recovery_partition != true %}
     {% include templates/recovery_install_fastboot_ab.md %}
