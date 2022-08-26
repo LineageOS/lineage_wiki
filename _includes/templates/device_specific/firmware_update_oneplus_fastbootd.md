@@ -1,7 +1,7 @@
 {% include alerts/warning.html content="These instructions are NOT for carrier branded variants." %}
 
-{%- if device.before_install == "needs_specific_android_fw" and device.before_install_args.version -%}
-1. Download the latest **Android {{ device.before_install_args.version }}** full stock ROM update from [oneplus.com](https://oneplus.com/support/softwareupgrade) or [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater)
+{%- if device.before_install.instructions == "needs_specific_android_fw" and device.before_install.version -%}
+1. Download the latest **Android {{ device.before_install.version }}** full stock ROM update from [oneplus.com](https://oneplus.com/support/softwareupgrade) or [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater)
 {%- else -%}
 1. Download the latest full stock ROM update from [oneplus.com](https://oneplus.com/support/softwareupgrade) or [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater)
 {%- endif %}

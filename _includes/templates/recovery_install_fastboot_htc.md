@@ -37,9 +37,6 @@ fastboot oem get_identifier_token
 7. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 8. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+{% include snippets/before_recovery_install.md %}
 
 {% include templates/recovery_install_fastboot_generic.md %}

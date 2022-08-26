@@ -1,7 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install: needs_specific_android_fw
-before_install_args: {version: 10}
+before_install: {instructions: 'needs_specific_android_fw', version: '10'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:

@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
-before_install: nash
+before_install: {instructions: 'nash'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:

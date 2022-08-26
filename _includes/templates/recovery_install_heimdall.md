@@ -5,10 +5,7 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
-{% if device.before_recovery_install %}
-{% capture path %}templates/device_specific/before_recovery_install_{{ device.before_recovery_install }}.md{% endcapture %}
-{% include {{ path }} %}
-{% endif %}
+{% include snippets/before_recovery_install.md %}
 
 ## Preparing for installation
 
