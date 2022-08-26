@@ -2,7 +2,8 @@ architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 before_install: needs_specific_android_fw
 before_install_args: {version: 12, ships_fw: True}
-before_recovery_install: vendor_boot
+before_recovery_install: boot_stack
+before_recovery_install_args: {partitions: [vendor_boot]}
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '64 MP'}
