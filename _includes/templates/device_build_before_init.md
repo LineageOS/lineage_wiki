@@ -98,6 +98,15 @@ Different versions of LineageOS require different JDK (Java Development Kit) ver
 
 \* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
+#### Python
+
+The Python requirement changed between versions of LineageOS. To build successfully, the correct version must be installed and be the system default:
+
+* LineageOS 17.1+: python3
+* LineageOS 16.0 and below: python2\*
+
+\* You may want to have a look at the `python_is_python2` package
+
 ### Create the directories
 
 You'll need to set up some directories in your build environment.
