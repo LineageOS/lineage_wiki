@@ -98,6 +98,18 @@ Different versions of LineageOS require different JDK (Java Development Kit) ver
 
 \* Ubuntu 16.04 and newer do not have OpenJDK 1.7 in the standard package repositories. See the *Ask Ubuntu* question "[How do I install openjdk 7 on Ubuntu 16.04 or higher?](http://askubuntu.com/questions/761127/how-do-i-install-openjdk-7-on-ubuntu-16-04-or-higher)". Note that the suggestion to use PPA openjdk-r is outdated (the PPA has never updated their offering of openjdk-7-jdk, so it lacks security fixes); skip that answer even if it is the most upvoted.
 
+#### Python
+
+For building LineageOS 17.1 and above, you will need `python3` as your system\`s default. You can check this by calling `python --version`.
+
+If you are building any of the older branches, `python2` is required instead.
+There are various methods to using it, e.g. [symlinking it manually](https://stackoverflow.com/a/66129356) or creating a [virtualenv](https://pypi.org/project/virtualenv/) for it.
+We recommend the latter:
+
+Generate the virtualenv once using `virtualenv --python=python2 ~/.lineage_venv`. Afterwards, activate it in each terminal where you need `python2` as default by running `~/.lineage_venv/bin/activate`.
+
+The path `~/.lineage_venv` can be chosen freely, this is just an example!
+
 ### Create the directories
 
 You'll need to set up some directories in your build environment.
