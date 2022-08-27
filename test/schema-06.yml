@@ -3,7 +3,7 @@
 definitions:
   architecture_data:
     properties:
-      cpus:
+      cpu:
         "$ref": "#/definitions/valid_architectures"
       userspace:
         "$ref": "#/definitions/valid_architectures"
