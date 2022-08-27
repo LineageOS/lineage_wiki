@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d4fb3ef_a74e849a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2022-08-27T16:39:02Z",
+      "side": 1,
+      "message": "`python_is_python2` package is no longer present on Ubuntu post-22.04. Would it be worth it to perhaps suggest symlinking it manually? Or maybe a note similar to the JDK environment above.",
+      "revId": "b73f738c047ff79dcc9ddad9fa4a653592fc536e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
