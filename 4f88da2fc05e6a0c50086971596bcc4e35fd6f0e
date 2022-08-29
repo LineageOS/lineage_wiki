@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1bc47b0c_0ad7188c",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-08-29T17:35:05Z",
+      "side": 1,
+      "message": "I _think_ the scripts that are in use on 17.1+ are either python version agnostic, or explicitly require `python3`. In that case, this paragraph could/should be a \"if you are building 16.0 or older, make sure that python2 is installed and that it is the system default `python` binary\".",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "296a4cf4_f806e7f0",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-08-29T17:35:05Z",
+      "side": 1,
+      "message": "Does one commonly put a dot after footnotes like this? In that case a dot would be missing here.",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78cdbd02_748f9b55",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-08-29T17:35:05Z",
+      "side": 1,
+      "message": "I\u0027d just recommend setting up a virtualenv instead, however we\u0027d have to find some documentation on that (although it basically just boils down to installing the `virtualenv` package, generating the virtualenv through `virtualenv --python\u003dpython2 .venv` once and then sourcing it through `. .venv/bin/activate`). That\u0027s less error prone than messing around with the system-wide setup (be it either a manual symlink or a `python-is-python2` package).",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
