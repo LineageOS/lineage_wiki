@@ -23,7 +23,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012-11-13
 screen: {size: '255 mm (10.0 in)', density: 300, resolution: '2560x1600', technology: 'Super PLS'}
-soc: Samsung Exynos 5
+soc: Samsung Exynos 5250
 storage: 16/32 GB
 tree: android_device_samsung_manta
 type: tablet

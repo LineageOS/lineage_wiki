@@ -44,10 +44,27 @@
     <tr>
         <th scope="row" colspan="2">Specifications</th>
     </tr>
+    {%- if device.soc != "None" %}
     <tr>
         <th scope="row">SoC</th>
-        <td>{{ device.soc }}</td>
+        <td>
+          {%- if device.soc.first -%}
+            {%- for soc in device.soc -%}
+              {%- if soc.first -%}
+                {{ soc.first[0] }}: {{ soc.first[1] }}
+              {%- else %}
+                {{ soc }}
+              {%- endif %}
+              {%- unless forloop.last -%}
+              <br/>
+              {% endunless %}
+            {%- endfor %}
+          {%- else %}
+            {{ device.soc }}
+          {%- endif %}
+        </td>
     </tr>
+    {%- endif %}
     <tr>
         <th scope="row">RAM</th>
         <td>{{ device.ram }}</td>

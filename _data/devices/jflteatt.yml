@@ -33,7 +33,7 @@ required_bootloader: ['I337UCUAMDB', 'I337UCUAMDL']
 root_method: [towelroot]
 screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Full HD Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
-soc: Qualcomm Snapdragon 600 (APQ8064T)
+soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16/32 GB
 tree: android_device_samsung_jflteatt
 type: phone

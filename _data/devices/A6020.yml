@@ -28,7 +28,9 @@ screen:
 - K5: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 - K5 Plus: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB', slot: 'dedicated'}
-soc: Qualcomm MSM8929 Snapdragon 415 (K5) / Qualcomm MSM8939v2 Snapdragon 616 (K5 Plus)
+soc:
+- K5: Qualcomm MSM8929 Snapdragon 415
+- K5 Plus: Qualcomm MSM8939v2 Snapdragon 616
 storage: 16 GB
 tree: android_device_lenovo_A6020
 type: phone

@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
   When the blue text appears, release the buttons.
 release: 2015-04
 screen: {size: '130 mm (5.1 in)', density: 577, resolution: '2560x1440', technology: 'Quad HD Super AMOLED'}
-soc: Exynos 7420
+soc: Samsung Exynos 7420
 storage: 16/32/128 GB
 tree: android_device_samsung_zeroltexx
 type: phone

@@ -33,7 +33,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_reboot: fastboot_menu
 release: 2019-09
 screen: {size: '166.37 mm (6.55 in)', density: 402, resolution: '1080x2400', technology: 'Fluid AMOLED'}
-soc: Qualcomm SM8150 Snapdragon 855+
+soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 128/256 GB UFS3.0
 tree: android_device_oneplus_hotdogb
 type: phone

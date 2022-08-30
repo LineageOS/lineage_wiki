@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume U
 release: 2014
 screen: {size: '266.7 mm (10.5 in)', density: 288, resolution: '2560x1600', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
-soc: Samsung Exynos5420
+soc: Samsung Exynos 5420
 storage: 16/32 GB
 tree: android_device_samsung_chagallwifi
 type: tablet
