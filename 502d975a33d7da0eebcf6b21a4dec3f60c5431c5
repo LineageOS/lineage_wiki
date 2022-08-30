@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78b8333b_98b57346",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 27
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-08-30T04:24:53Z",
+      "side": 1,
+      "message": "DRM is broken on Sabrina/dopinder (L1 TEE Applets) - no clue why.\n\ndevkits don\u0027t boot period.",
+      "revId": "502d975a33d7da0eebcf6b21a4dec3f60c5431c5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
