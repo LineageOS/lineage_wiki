@@ -30,7 +30,7 @@ recovery_reboot: fastboot_menu
 release: 2019-02
 screen: {size: '96.2 mm (6.2 in)', density: 405, resolution: '1080x2270', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM636 Snapdragon 636
+soc: Qualcomm SDM660 Snapdragon 636
 storage: 64 GB
 tree: android_device_motorola_lake
 type: phone

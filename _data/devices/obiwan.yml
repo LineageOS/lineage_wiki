@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_reboot: fastboot_menu
 release: 2020-08
 screen: {size: '167.4 mm (6.59 in)', density: 391, resolution: '1080x2340', technology: 'Super AMOLED, 144Hz'}
-soc: Qualcomm SM8250 Snapdragon 865+
+soc: Qualcomm SM8250-AB Snapdragon 865+
 storage: 128/256/512 GB UFS 3.1
 tree: android_device_asus_obiwan
 type: phone

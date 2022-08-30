@@ -29,7 +29,7 @@ recovery_reboot: fastboot_menu
 release: 2018-10-10
 screen: {size: '157.48 mm (6.14 in)', density: 403, resolution: '2246x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM636 Snapdragon 636
+soc: Qualcomm SDM660 Snapdragon 636
 storage: 64 GB
 tree: android_device_motorola_chef
 type: phone

@@ -28,7 +28,7 @@ screen:
 - ZE500KL: {size: '139.7 mm (5.5 in)', density: 267, resolution: '720x1280', technology: 'IPS LCD'}
 - ZE550KL: {size: '152.4 mm (6 in)', density: 245, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
-soc: Qualcomm MSM8939 Snapdragon 615 / Qualcomm MSM8916 Snapdragon 410
+soc: [Qualcomm MSM8939 Snapdragon 615, Qualcomm MSM8916 Snapdragon 410]
 storage: 16 GB
 tree: android_device_asus_Z00L
 type: phone

@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2019-03-13
 screen: {size: '160.02 mm (6.3 in)', density: 409, resolution: '2340x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm sm6150 Snapdragon 675
+soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
 tree: android_device_xiaomi_violet
 type: phone

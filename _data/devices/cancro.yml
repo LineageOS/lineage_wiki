@@ -37,7 +37,9 @@ release:
 screen:
 - MI3: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'IPS'}
 - MI4: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'JDI IPS'}
-soc: Qualcomm MSM8974 Snapdragon 800 (Mi 3) / Qualcomm MSM8974AC Snapdragon 801 (Mi 4)
+soc:
+- MI3: Qualcomm MSM8974 Snapdragon 800
+- MI4: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_xiaomi_cancro
 type: phone

@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   Release  <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
 release: 2018-12
 screen: {size: '143.5 mm (5.65 in)', density: 420, resolution: '1080x2160', technology: 'IPS LCD'}
-soc: Qualcomm SDM630 Snapdragon 630
+soc: Qualcomm SDM660 Snapdragon 630
 storage: 64 GB
 tree: android_device_yandex_Amber
 type: phone

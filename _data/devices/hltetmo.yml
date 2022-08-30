@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 release: 2013-09
 screen: {size: '144.78 mm (5.7 in)', density: 386, resolution: '1080x1920', technology: 'Full Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
-soc: Qualcomm MSM8974AB Snapdragon 800
+soc: Qualcomm MSM8974AB Snapdragon 801
 storage: 16/32/64 GB
 tree: android_device_samsung_hltetmo
 type: phone
