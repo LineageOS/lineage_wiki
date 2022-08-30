@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2015-03
 screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
-soc: Intel Atom Z3580/Z3560
+soc: [Intel Atom Z3560, Intel Atom Z3580]
 storage: 16/32/64 GB
 tree: android_device_asus_Z00A
 type: phone

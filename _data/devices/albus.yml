@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2017-06
 screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '2 TB'}
-soc: Qualcomm MSM8953-Pro Snapdragon 626
+soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB
 tree: android_device_motorola_albus
 type: phone

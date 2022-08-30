@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2014-01
 screen: {size: '155 mm (6.1 in)', density: 241, resolution: '1280x720', technology: 'IPS+ LCD'}
 sdcard: {sizeMax: '64 GB'}
-soc: Qualcomm MSM 8928
+soc: Qualcomm MSM8928 Snapdragon 400
 storage: 16 GB
 tree: android_device_huawei_mt2
 type: phone

@@ -30,7 +30,7 @@ recovery_reboot: fastboot_menu
 release: 2019-10-31
 screen: {size: '160.02 mm (6.3 in)', density: 432, resolution: '1080x2520', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
-soc: Exynos 9609
+soc: Samsung Exynos 9609
 storage: 128 GB
 tree: android_device_motorola_troika
 type: phone

@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
  Now with the volume rocker select "Recovery mode", then press <kbd>Power</kbd>.
 release: 2019-09
 screen: {size: '167.39 mm (6.59 in)', density: 391, resolution: '2340x1080', technology: 'AMOLED'}
-soc: Qualcomm SM8150-AC Snapdragon 855 Plus
+soc: Qualcomm SM8150-AC Snapdragon 855+
 storage: 128/512/1024 GB UFS3.0
 tree: android_device_asus_I001D
 type: phone

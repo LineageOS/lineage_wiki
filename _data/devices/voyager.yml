@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2018-07
 screen: {size: '152.4 mm (6.0 in)', density: 402, resolution: '1080x2160', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM630 Snapdragon 630
+soc: Qualcomm SDM660 Snapdragon 630
 storage: 32 GB
 tree: android_device_sony_voyager
 type: phone

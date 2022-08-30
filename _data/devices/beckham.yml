@@ -31,7 +31,7 @@ recovery_reboot: fastboot_menu
 release: 2018-06
 screen: {size: '96.2 mm (6.2 in)', density: 402, resolution: '1080x2160', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM636 Snapdragon 636
+soc: Qualcomm SDM660 Snapdragon 636
 storage: 32 GB, 64 GB, 128 GB
 tree: android_device_motorola_beckham
 type: phone

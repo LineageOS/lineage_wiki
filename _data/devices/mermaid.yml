@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 release: 2019-02
 screen: {size: '165.1 mm (6.5 in)', density: 422, resolution: '1080x2520', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM636 Snapdragon 636
+soc: Qualcomm SDM660 Snapdragon 636
 storage: 64 GB
 tree: android_device_sony_mermaid
 type: phone

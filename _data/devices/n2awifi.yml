@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume U
 release: 2014
 screen: {size: '256.5 mm (10.1 in)', density: 299, resolution: '2560x1600', technology: 'Super clear LCD'}
 sdcard: {sizeMax: '64 GB'}
-soc: Samsung Exynos5420
+soc: Samsung Exynos 5420
 storage: 16/32 GB
 tree: android_device_samsung_n2awifi
 type: tablet

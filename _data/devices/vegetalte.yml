@@ -31,7 +31,9 @@ release:
 - E5s: 2015
 screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
-soc: Qualcomm MSM8916 Snapdragon 410 (E5 4G) / Qualcomm MSM8916T Snapdragon 412 (E5s)
+soc:
+- E5 4G: Qualcomm MSM8916 Snapdragon 410
+- E5s: Qualcomm MSM8916T Snapdragon 412
 storage: 8/16 GB
 tree: android_device_bq_vegetalte
 type: phone

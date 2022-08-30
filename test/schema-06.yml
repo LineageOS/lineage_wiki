@@ -118,6 +118,105 @@ definitions:
     required:
     - sizeMax
     type: object
+  soc_data:
+    enum:
+    - Amlogic S905x2
+    - Amlogic S905y2
+    - HiSilicon Kirin 659
+    - HiSilicon Kirin 970
+    - Intel Atom Z2560
+    - Intel Atom Z3560
+    - Intel Atom Z3580
+    - Nvidia Tegra 4 (T114)
+    - Nvidia Tegra K1 (T124)
+    - Nvidia Tegra X1 (T210)
+    - Nvidia Tegra X1+ (T210b01)
+    - Nvidia Tegra X2 (T186)
+    - Qualcomm APQ8064 Snapdragon S4 Pro
+    - Qualcomm APQ8064T Snapdragon 600
+    - Qualcomm APQ8076 Snapdragon 652
+    - Qualcomm APQ8084 Snapdragon 805
+    - Qualcomm MSM8210 Snapdragon 200
+    - Qualcomm MSM8212 Snapdragon 200
+    - Qualcomm MSM8226 Snapdragon 400
+    - Qualcomm MSM8227 Snapdragon S4 Plus
+    - Qualcomm MSM8230 Snapdragon 400
+    - Qualcomm MSM8260A Snapdragon S4
+    - Qualcomm MSM8916 Snapdragon 410
+    - Qualcomm MSM8916T Snapdragon 412
+    - Qualcomm MSM8917 Snapdragon 425
+    - Qualcomm MSM8926 Snapdragon 400
+    - Qualcomm MSM8928 Snapdragon 400
+    - Qualcomm MSM8929 Snapdragon 415
+    - Qualcomm MSM8930AB Snapdragon 400
+    - Qualcomm MSM8937 Snapdragon 430
+    - Qualcomm MSM8939 Snapdragon 615
+    - Qualcomm MSM8939v2 Snapdragon 616
+    - Qualcomm MSM8940 Snapdragon 435
+    - Qualcomm MSM8952 Snapdragon 617
+    - Qualcomm MSM8953 Pro Snapdragon 626
+    - Qualcomm MSM8953 Snapdragon 625
+    - Qualcomm MSM8956 Snapdragon 650
+    - Qualcomm MSM8960 Snapdragon S4
+    - Qualcomm MSM8960 Snapdragon S4 Plus
+    - Qualcomm MSM8960DT Snapdragon S4 Pro
+    - Qualcomm MSM8960T Snapdragon S4 Pro
+    - Qualcomm MSM8974 Snapdragon 800
+    - Qualcomm MSM8974AB Snapdragon 801
+    - Qualcomm MSM8974AB-AB Snapdragon 801
+    - Qualcomm MSM8974AC Snapdragon 801
+    - Qualcomm MSM8974PRO Snapdragon 801
+    - Qualcomm MSM8976 Snapdragon 652
+    - Qualcomm MSM8992 Snapdragon 808
+    - Qualcomm MSM8994 Snapdragon 810
+    - Qualcomm MSM8996 Pro Snapdragon 821
+    - Qualcomm MSM8996 Snapdragon 820
+    - Qualcomm MSM8998 Snapdragon 835
+    - Qualcomm SDM632 Snapdragon 632
+    - Qualcomm SDM660 Snapdragon 630
+    - Qualcomm SDM660 Snapdragon 636
+    - Qualcomm SDM660 Snapdragon 660
+    - Qualcomm SDM665 Snapdragon 665
+    - Qualcomm SDM670 Snapdragon 670
+    - Qualcomm SDM710 Snapdragon 710
+    - Qualcomm SDM835 Snapdragon 835
+    - Qualcomm SDM845 Snapdragon 845
+    - Qualcomm SM4350 Snapdragon 480
+    - Qualcomm SM6150 Snapdragon 675
+    - Qualcomm SM7125 Snapdragon 720G
+    - Qualcomm SM7150-AA Snapdragon 730
+    - Qualcomm SM7150-AB Snapdragon 730G
+    - Qualcomm SM7150-AC Snapdragon 732G
+    - Qualcomm SM7225 Snapdragon 750G
+    - Qualcomm SM7225 Snapdragon 750G 5G
+    - Qualcomm SM7250 Snapdragon 765G
+    - Qualcomm SM8150 Snapdragon 855
+    - Qualcomm SM8150-AC Snapdragon 855+
+    - Qualcomm SM8150-AC Snapdragon 860
+    - Qualcomm SM8250 Snapdragon 865
+    - Qualcomm SM8250-AB Snapdragon 865+
+    - Qualcomm SM8250-AC Snapdragon 870
+    - Qualcomm SM8350 Snapdragon 888
+    - Samsung Exynos 4210
+    - Samsung Exynos 4412
+    - Samsung Exynos 5250
+    - Samsung Exynos 5420
+    - Samsung Exynos 5422
+    - Samsung Exynos 5433
+    - Samsung Exynos 7420
+    - Samsung Exynos 7578
+    - Samsung Exynos 7580
+    - Samsung Exynos 7880
+    - Samsung Exynos 7904
+    - Samsung Exynos 8890
+    - Samsung Exynos 9609
+    - Samsung Exynos 9611
+    - Samsung Exynos 9810
+    - Samsung Exynos 9820
+    - Samsung Exynos 9825
+    - TI OMAP4430
+    - TI OMAP4460
+    type: string
   valid_architectures:
     enum:
     - arm
@@ -580,6 +679,28 @@ properties:
   sdcard:
     "$id": "/properties/sdcard"
     "$ref": "#/definitions/sdcard_data"
+  soc:
+    "$id": "/properties/soc"
+    oneOf:
+    - "$ref": "#/definitions/soc_data"
+    - items:
+        "$id": "/properties/soc/items"
+        "$ref": "#/definitions/soc_data"
+      minItems: 2
+      uniqueItems: True
+      type: array
+    - description: Array of maps of model numbers to SoC data
+      examples:
+      - SM-9000A: Qualcomm SM8150 Snapdragon 855
+      - SM-9000B: Qualcomm SM8150-AC Snapdragon 855+
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/soc_data"
+        description: Map of model number to soc_data
+        type: object
+      type: array
+    - enum:
+      - None
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$
@@ -695,6 +816,7 @@ required:
 - peripherals
 - release
 - screen
+- soc
 - tree
 - type
 - vendor

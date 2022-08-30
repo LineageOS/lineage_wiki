@@ -31,7 +31,9 @@ release:
 - A3000: 2016-06
 - A3003: 2016-10
 screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'Optic AMOLED'}
-soc: Qualcomm MSM8996 Snapdragon 820 (3) / Qualcomm MSM8996 Pro Snapdragon 821 (3T)
+soc:
+- A3000: Qualcomm MSM8996 Snapdragon 820
+- A3003: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 tree: android_device_oneplus_oneplus3
 type: phone

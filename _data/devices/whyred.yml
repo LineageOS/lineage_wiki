@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2018-02
 screen: {size: '152.1 mm (5.99 in)', density: 403, resolution: '2160x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
-soc: Qualcomm SDM636 Snapdragon 636
+soc: Qualcomm SDM660 Snapdragon 636
 storage: 32 / 64 / 128 GB eMMC 5.1 flash storage
 tree: android_device_xiaomi_whyred
 type: phone
