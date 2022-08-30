@@ -22,7 +22,7 @@ recovery_boot: With the device unplugged, plug in the device while holding the <
   Tap the <kbd>Bottom Button</kbd> until recovery is selected. Press the <kbd>Bottom Button</kbd> for two seconds to select.
 release: 2014-10
 screen: None
-soc: Intel Atom x86_64 (Moorefield)
+soc: Intel Atom Z3560
 storage: 8 GB eMMC
 tree: android_device_asus_fugu
 type: Set top box

@@ -27,7 +27,9 @@ release:
 - Le Pro3: 2016-10
 - Le Pro3 Elite: 2017-03
 screen: {size: '139.7 mm (5.5 in)', density: 403, resolution: '1920x1080', technology: 'IPS LCD'}
-soc: Qualcomm MSM8996 Snapdragon 820 (Le Pro3 Elite) / Qualcomm MSM8996 Pro Snapdragon 821 (Le Pro3)
+soc:
+- Le Pro3: Qualcomm MSM8996 Pro Snapdragon 821
+- Le Pro3 Elite: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64/128 GB
 tree: android_device_leeco_zl1
 type: phone

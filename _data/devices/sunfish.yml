@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_reboot: fastboot_menu
 release: 2020-08
 screen: {size: '147.57 mm (5.81 in)', density: 443, resolution: '2340x1080', technology: 'AMOLED'}
-soc: Qualcomm SDM730 Snapdragon 730G
+soc: Qualcomm SM7150-AB Snapdragon 730G
 storage: 128 GB
 tree: android_device_google_sunfish
 type: phone
