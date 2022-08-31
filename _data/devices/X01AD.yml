@@ -17,7 +17,7 @@ gpu: Adreno 506
 image: X01AD.png
 install_method: fastboot_zenfone
 kernel: android_kernel_asus_X01AD
-maintainers: [danascape]
+maintainers: []
 name: Zenfone Max M2
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
