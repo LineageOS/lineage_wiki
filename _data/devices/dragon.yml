@@ -23,7 +23,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_reboot: fastboot_menu
 release: 2015-12-08
 screen: {size: '260 mm (10.2 in)', density: 308, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
-soc: Nvidia Tegra X1 (T210)
+soc: NVIDIA Tegra X1 (T210)
 storage: 32/64 GB
 tree: android_device_google_dragon
 type: tablet

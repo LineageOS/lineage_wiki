@@ -127,11 +127,11 @@ definitions:
     - Intel Atom Z2560
     - Intel Atom Z3560
     - Intel Atom Z3580
-    - Nvidia Tegra 4 (T114)
-    - Nvidia Tegra K1 (T124)
-    - Nvidia Tegra X1 (T210)
-    - Nvidia Tegra X1+ (T210b01)
-    - Nvidia Tegra X2 (T186)
+    - NVIDIA Tegra 4 (T114)
+    - NVIDIA Tegra K1 (T124)
+    - NVIDIA Tegra X1 (T210)
+    - NVIDIA Tegra X1+ (T210b01)
+    - NVIDIA Tegra X2 (T186)
     - Qualcomm APQ8064 Snapdragon S4 Pro
     - Qualcomm APQ8064T Snapdragon 600
     - Qualcomm APQ8076 Snapdragon 652
@@ -738,7 +738,7 @@ properties:
     - Nextbit
     - Nokia
     - Nubia
-    - Nvidia
+    - NVIDIA
     - OPPO
     - OnePlus
     - Razer

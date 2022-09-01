@@ -27,11 +27,11 @@ recovery_boot: With the device powered off, plug the included Shield controller 
 release: 2015-05-28
 screen: None
 sdcard: {sizeMax: '128 GB'}
-soc: Nvidia Tegra X1 (T210)
+soc: NVIDIA Tegra X1 (T210)
 storage: 16 GB / 500 GB
 tree: android_device_nvidia_foster_tab
 type: Set top box
-vendor: Nvidia
+vendor: NVIDIA
 vendor_short: nvidia
 versions: [14.1, 15.1, 17.1, 18.1]
 wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz

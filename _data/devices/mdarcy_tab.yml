@@ -28,11 +28,11 @@ recovery_boot: With the device powered off, plug the included Shield controller 
   Tap the <kbd>Y button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>A button</kbd> to select this option.
 release: 2019-10-28
 screen: None
-soc: Nvidia Tegra X1+ (T210b01)
+soc: NVIDIA Tegra X1+ (T210b01)
 storage: 16 GB
 tree: android_device_nvidia_mdarcy_tab
 type: Set top box
-vendor: Nvidia
+vendor: NVIDIA
 vendor_short: nvidia
 versions: [17.1]
 wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz

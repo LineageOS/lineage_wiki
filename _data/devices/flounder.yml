@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2014-11-03
 screen: {size: '226 mm (8.9 in)', density: 281, resolution: '2048x1536', technology: 'IPS LCD'}
-soc: Nvidia Tegra K1 (T124)
+soc: NVIDIA Tegra K1 (T124)
 storage: 16/32 GB
 tree: android_device_htc_flounder
 type: tablet

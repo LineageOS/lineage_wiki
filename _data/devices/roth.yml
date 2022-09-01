@@ -24,12 +24,12 @@ recovery_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap 
 release: 2013-07-31
 screen: {size: '127 mm (5.0 in)', density: 294, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
-soc: Nvidia Tegra 4 (T114)
+soc: NVIDIA Tegra 4 (T114)
 storage: 16 GB
 tree: android_device_nvidia_roth
 type:  Handheld game console
 uses_twrp: true
-vendor: Nvidia
+vendor: NVIDIA
 vendor_short: nvidia
 versions: [13.0]
 wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
