@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "94794466_6ac6f06f",
+        "filename": "_includes/templates/device_specific/firmware_update_samsung_gts4lv.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-09-02T10:50:33Z",
+      "side": 1,
+      "message": "this comma shouldn\u0027t be here.",
+      "range": {
+        "startLine": 11,
+        "startChar": 243,
+        "endLine": 11,
+        "endChar": 244
+      },
+      "revId": "5306a20d9a21cdcea026975e48808174db775fac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
