@@ -13,5 +13,4 @@
 5. Execute following commands:
    ```
    {{- include.content -}}
-   fastboot reboot
    ```
