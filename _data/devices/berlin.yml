@@ -3,6 +3,7 @@ battery: {removable: False, capacity: 4000 , tech: 'Li-Po'}
 before_install: needs_specific_android_fw
 before_install_args: {version: 12}
 before_lineage_install: ab_copy_partitions
+before_recovery_install: boot_stack
 before_recovery_install_args: {partitions: [dtbo, vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
 cameras:
@@ -30,7 +31,6 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, FM radio, Galileo, GLONASS, Google Assist Button, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
-recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2021-07
 screen: {size: '170.18 mm (6.7 in)', density: 385, resolution: '1080x2400', technology: 'OLED'}
