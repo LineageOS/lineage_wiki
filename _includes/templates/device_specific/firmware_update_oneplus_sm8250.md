@@ -47,4 +47,3 @@
    fastboot flash --slot=all xbl_config xbl_config_lp5.img
    fastboot flash --slot=all xbl xbl_lp5.img
    ```
-9. Reboot the device
