@@ -10,6 +10,10 @@ Do **not** continue after something fails!" %}
 {%- if device.models %}
 4. Make sure that your model is actually listed in the "Supported models" section [here]({{ "devices/" | append: device.codename | append: "#supported-models" | relative_url }}) (exact match required!)
 {%- endif %}
+5. Boot your device with the stock OS at least once and check every functionality.
+{%- if device.type == "phone" %}
+  Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on LineageOS either!
+{%- endif %}
 
 {%- if device.before_install %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}
