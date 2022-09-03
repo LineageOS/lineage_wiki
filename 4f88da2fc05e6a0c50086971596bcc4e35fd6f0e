@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "16212970_a96bc289",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-09-03T09:59:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1bc47b0c_0ad7188c",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "296a4cf4_f806e7f0",
@@ -48,6 +66,42 @@
       "writtenOn": "2022-08-29T17:35:05Z",
       "side": 1,
       "message": "I\u0027d just recommend setting up a virtualenv instead, however we\u0027d have to find some documentation on that (although it basically just boils down to installing the `virtualenv` package, generating the virtualenv through `virtualenv --python\u003dpython2 .venv` once and then sourcing it through `. .venv/bin/activate`). That\u0027s less error prone than messing around with the system-wide setup (be it either a manual symlink or a `python-is-python2` package).",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99f0e14e_91f9affb",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-09-03T09:59:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "296a4cf4_f806e7f0",
+      "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ccd6b5d_46352c7b",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2022-09-03T09:59:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78cdbd02_748f9b55",
       "revId": "4f88da2fc05e6a0c50086971596bcc4e35fd6f0e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
