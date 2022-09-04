@@ -12,6 +12,8 @@
 
 ## Temporarily booting a custom recovery using `fastboot`
 
+{% include alerts/note.html content="This is only temporary because the recovery is part of the OS and will be replaced once you install LineageOS. It is not optional, though!" %}
+
 {%- if device.custom_recovery_link %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). {{ device.custom_recovery_link_instructions }}
 {%- elsif device.uses_twrp %}
