@@ -16,6 +16,7 @@ cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
 current_branch: 19.1
 dimensions: {width: '77.1 mm (3.04 in)', height: '162.6 mm (6.4 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_exynos9820_5G
 gpu: ARM Mali-G76 MP12
 image: beyondx.png
 install_method: heimdall
