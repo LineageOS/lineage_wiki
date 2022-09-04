@@ -22,7 +22,7 @@ image: beyondx.png
 install_method: heimdall
 kernel: android_kernel_samsung_exynos9820
 maintainers: [Linux4]
-models: [SM-G977B]
+models: [SM-G977B, SM-G977N]
 name: Galaxy S10 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Qi wireless charging, Qi reverse wireless charging]
