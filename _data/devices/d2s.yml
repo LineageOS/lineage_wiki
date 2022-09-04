@@ -16,6 +16,7 @@ cpu_freq: 2 x 2.73 GHz + 2x 2.40 + 4 x 1.95 GHz
 current_branch: 19.1
 dimensions: {width: '77.2 mm (3.04 in)', height: '162.3 mm (6.39 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_exynos9820
 gpu: ARM Mali-G76 MP12
 image: d2s.png
 install_method: heimdall
