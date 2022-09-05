@@ -22,6 +22,30 @@
       },
       "revId": "9250e75049725e013b110beedfbc8bcbbe33373c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd457d54_0484ea4a",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-09-05T10:47:03Z",
+      "side": 1,
+      "message": "Used a totally different phrasing, as suggested by zif",
+      "parentUuid": "ba1e3a6a_b0c7ca3a",
+      "range": {
+        "startLine": 17,
+        "startChar": 259,
+        "endLine": 17,
+        "endChar": 269
+      },
+      "revId": "9250e75049725e013b110beedfbc8bcbbe33373c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
