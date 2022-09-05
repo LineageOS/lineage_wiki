@@ -10,14 +10,14 @@ codename: castor_windy
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
-current_branch: 17.1
+current_branch: 18.1
 dimensions: {width: '266.0 mm (10.47 in)', height: '172.3 mm (6.77 in)', depth: '6.4 mm (0.25 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Adreno 330
 image: castor.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8974
-maintainers: []
+maintainers: [qsnc]
 models: [SGP511, SGP512]
 name: Xperia Tablet Z2 Wi-Fi
 peripherals: [A-GPS, Accelerometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, MHL, NFC, USB OTG]
@@ -33,5 +33,5 @@ tree: android_device_sony_castor_windy
 type: tablet
 vendor: Sony
 vendor_short: sony
-versions: [17.1]
+versions: [17.1, 18.1]
 wifi: 802.11 a/b/g/n/ac, WiFi Direct, Hotspot
