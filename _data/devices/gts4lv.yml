@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 7040, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_install: {instructions: 'needs_specific_android_fw', version: '11'}
 before_recovery_install: gts4lv
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
