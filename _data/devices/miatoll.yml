@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '11'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '48 MP (Non-Pro) or 64 MP (Pro, Pro Max)'}
@@ -12,7 +12,7 @@ codename: miatoll
 cpu: Kryo 465
 cpu_cores: '8'
 cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '76.6 mm (3.02 in)', height: '165.7 mm (6.52 in)', depth: '8.8 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -43,5 +43,5 @@ tree: android_device_xiaomi_miatoll
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [18.1]
+versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
