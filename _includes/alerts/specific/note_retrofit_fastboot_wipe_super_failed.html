@@ -1,0 +1,4 @@
+{% capture content -%}
+If you get the following error: `fastboot: usage: unknown command wipe-super`, make sure [ADB and fastboot are updated to the latest version]({{ "adb_fastboot_guide.html" | relative_url }}). You need to have fastboot version 28.0.2 or greater.
+{%- endcapture %}
+{%- include alerts/note.html content=content %}
