@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {removable: False, capacity: 3120, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '10'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '12 MP'}
+- {flash: 'Dual LED', info: '5 MP (depth)'}
+- {flash: None, info: '20 MP (front)'}
+codename: xmsirius
+cpu: Kryo 360
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+current_branch: 19.1
+dimensions: {width: '73.1 mm (2.88 in)', height: '147.3 mm (5.80 in)', depth: '7.5 mm (0.30 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 616
+image: xmsirius.png
+install_method: fastboot_xiaomi
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_sdm710
+maintainers: [uixdess]
+models: [M1805E2A]
+name: Mi 8 SE
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2018-06
+screen: {size: '149.4 mm (5.88 in)', density: 423, resolution: '1080x2244', technology: 'AMOLED'}
+soc: Qualcomm SDM710 Snapdragon 710
+storage: 64/128 GB
+tree: android_device_xiaomi_xmsirius
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
