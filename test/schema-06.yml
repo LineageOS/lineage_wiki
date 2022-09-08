@@ -627,6 +627,9 @@ properties:
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean
+  is_retrofit_dynamic_partitions:
+    "$id": "/properties/is_retrofit_dynamic_partitions"
+    type: boolean
   is_unlockable:
     "$id": "/properties/is_unlockable"
     type: boolean
