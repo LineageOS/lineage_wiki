@@ -52,6 +52,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "80d965d9_eaf6600b",
+        "filename": "_data/devices/pyxis.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-09-09T12:21:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "306b3ff5_acb39198",
+      "revId": "2519083a07936c925c2492aded3e4866aba32c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "13746c83_75c5e613",
@@ -69,6 +87,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbcdd2f9_4046401d",
+        "filename": "_data/devices/pyxis.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-09-09T12:21:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "13746c83_75c5e613",
+      "revId": "2519083a07936c925c2492aded3e4866aba32c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1e2f54b2_2084403e",
@@ -82,6 +118,24 @@
       "writtenOn": "2022-09-09T08:48:31Z",
       "side": 1,
       "message": "Missing sdcard entry, should be:\n\n sdcard: {sizeMax: \u0027128 GB\u0027, slot: \u0027hybrid\u0027}",
+      "revId": "2519083a07936c925c2492aded3e4866aba32c79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e59aa5c5_f1c2cd57",
+        "filename": "_data/devices/pyxis.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-09-09T12:21:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1e2f54b2_2084403e",
       "revId": "2519083a07936c925c2492aded3e4866aba32c79",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
