@@ -1,0 +1,159 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cc5f56d_39396561",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "Please check my inline commits",
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54dcd9ec_6ae09495",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "Battery capacity is 3120 mAh",
+      "range": {
+        "startLine": 2,
+        "startChar": 38,
+        "endLine": 2,
+        "endChar": 42
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fba1a141_903c07bc",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "Main module is 12MP",
+      "range": {
+        "startLine": 6,
+        "startChar": 29,
+        "endLine": 6,
+        "endChar": 31
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cb56b8c_c4a177de",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "We don\u0027t have Ultrasound",
+      "range": {
+        "startLine": 26,
+        "startChar": 164,
+        "endLine": 26,
+        "endChar": 190
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7457b5e_aa8d7696",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "Released in June, announced in May",
+      "range": {
+        "startLine": 30,
+        "startChar": 14,
+        "endLine": 30,
+        "endChar": 16
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f23daaa_6d277fd4",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "Super AMOLED",
+      "range": {
+        "startLine": 31,
+        "startChar": 89,
+        "endLine": 31,
+        "endChar": 95
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36be2775_5c9fffbd",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T09:21:55Z",
+      "side": 1,
+      "message": "~423 ppi",
+      "range": {
+        "startLine": 31,
+        "startChar": 46,
+        "endLine": 31,
+        "endChar": 49
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
