@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38e5a42_727fb207",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-09-10T14:39:15Z",
+      "side": 1,
+      "message": "Picture is supposed to be cropped to device outline and THEN resized using the script",
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54dcd9ec_6ae09495",
