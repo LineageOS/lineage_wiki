@@ -53,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed9d6a7c_475c3eec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-09-10T15:25:15Z",
+      "side": 1,
+      "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image - \"The image is cropped to the actual content\"",
+      "parentUuid": "9a00c35b_233459de",
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "54dcd9ec_6ae09495",
