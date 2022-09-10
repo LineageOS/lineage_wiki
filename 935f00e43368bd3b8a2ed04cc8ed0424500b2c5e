@@ -333,6 +333,30 @@
       },
       "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80f657f9_eb5be424",
+        "filename": "_data/devices/xmsirius.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 27772
+      },
+      "writtenOn": "2022-09-10T15:02:56Z",
+      "side": 1,
+      "message": "oops, yes, i was wrong",
+      "parentUuid": "584f660f_55fd87ef",
+      "range": {
+        "startLine": 31,
+        "startChar": 89,
+        "endLine": 31,
+        "endChar": 95
+      },
+      "revId": "935f00e43368bd3b8a2ed04cc8ed0424500b2c5e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
