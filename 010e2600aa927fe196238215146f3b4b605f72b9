@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b3bc39e_5416b76f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2022-09-18T22:46:08Z",
+      "side": 1,
+      "message": "uh oh, thanks!",
+      "revId": "010e2600aa927fe196238215146f3b4b605f72b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bf335d88_d32b89a8",
@@ -31,6 +48,30 @@
       "writtenOn": "2022-09-18T22:28:32Z",
       "side": 1,
       "message": "don\u0027t forget this",
+      "range": {
+        "startLine": 20,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 15
+      },
+      "revId": "010e2600aa927fe196238215146f3b4b605f72b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6b0e667_f3f6e590",
+        "filename": "_data/devices/castor.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2022-09-18T22:46:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf335d88_d32b89a8",
       "range": {
         "startLine": 20,
         "startChar": 0,
