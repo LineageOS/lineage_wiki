@@ -16,6 +16,23 @@
       "message": "I have another solution and it\u0027s in the testing phase",
       "revId": "27a7943786669dab4ffaa79d8367c0682b1de92c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c70df21d_5d77193a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-09-22T15:03:18Z",
+      "side": 1,
+      "message": "We can just quickly revert this whenever your solution is in place Alexander. Thx.\nAnd we also need a hudson change to remove \"Poco M2 Pro\" and \"Redmi Note 9 Pro Max\"",
+      "revId": "27a7943786669dab4ffaa79d8367c0682b1de92c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
