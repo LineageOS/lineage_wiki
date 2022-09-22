@@ -23,7 +23,7 @@ install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6250
 maintainers: [dereference23]
 models: [2109106A1I, M2003J6A1G, M2003J6A1R, M2003J6A1I, M2003J6B2G]
-name: Redmi Note 9S / Redmi Note 9 Pro
+name: Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 10 Lite
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 4/6/8 GB
