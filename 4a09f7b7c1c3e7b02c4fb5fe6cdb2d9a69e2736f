@@ -16,6 +16,24 @@
       "message": "The model is already in the supported list but I don\u0027t think it\u0027s worth to add the name because it will be shown as Redmi Note 9 Pro in system. It\u0027s not possible to distinguish them with libinit.",
       "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb4b80ee_22ca0a06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-22T14:31:22Z",
+      "side": 1,
+      "message": "I think you should all support model names, Easy for users to understand.\nXiaomi Redmi Note 10 Lite [2109106A1I]\nXiaomi Redmi Note 9S [M2003J6A1G]\nXiaomi Redmi Note 9Pro [M2003J6A1R, M2003J6A1I, M2003J6B2G]",
+      "parentUuid": "28f272f3_79457421",
+      "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
