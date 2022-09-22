@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0e7e25a_a95b2509",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-09-22T15:12:20Z",
+      "side": 1,
+      "message": "Partitions list is sm8250 specific, rename file to firmware_update_xiaomi_sm8250_vab.md",
+      "revId": "b3bfde5a0650d458ec72b8a26fe2f3829fed8f97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
