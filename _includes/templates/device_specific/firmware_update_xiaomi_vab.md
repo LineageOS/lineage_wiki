@@ -1,0 +1,40 @@
+{% include alerts/warning.html content="Make sure to download exact firmware for your model. You can discern your model from Settings > About phone > MIUI version (Eg: In MIUI version V13.0.6.0 SKHMIXM 'MI' represents your phone region, which is Global). You can also verify your Xiaomi phone at [official site](https://www.mi.com/global/verify)." %}
+
+{%- if device.before_install_device_variants and device.before_install_device_variants.size > 0 %}
+1. Download the required firmware for your model.
+{%- for el in device.before_install_device_variants %}
+- {{ el.device }} - [{{ el.firmware }}]({{ el.download_link }})
+{%- endfor %}
+{%- else %}
+1. Download the latest firmware for your device from official website.
+{%- endif %}
+2. Extract firmware files from zip using [payload-dumper-go](https://github.com/ssut/payload-dumper-go)
+   ```
+   payload-dumper-go -o . miui_*.zip
+   ```
+3. Power off the device, and boot it into bootloader mode:
+    * {{ device.download_boot }}
+4. Run the following commands to flash firmware :
+   ```
+   fastboot flash abl_ab abl.img
+   fastboot flash aop_ab aop.img
+   fastboot flash bluetooth_ab bluetooth.img
+   fastboot flash cmnlib_ab cmnlib.img
+   fastboot flash cmnlib64_ab cmnlib64.img
+   fastboot flash devcfg_ab devcfg.img
+   fastboot flash dsp_ab dsp.img
+   fastboot flash featenabler_ab featenabler.img
+   fastboot flash hyp_ab hyp.img
+   fastboot flash imagefv_ab imagefv.img
+   fastboot flash keymaster_ab keymaster.img
+   fastboot flash modem_ab modem.img
+   fastboot flash qupfw_ab qupfw.img
+   fastboot flash tz_ab tz.img
+   fastboot flash uefisecapp_ab uefisecapp.img
+   fastboot flash xbl_ab xbl.img
+   fastboot flash xbl_config_ab xbl_config.img
+   ```
+5. Reboot:
+   ```
+   fastboot reboot
+   ```
