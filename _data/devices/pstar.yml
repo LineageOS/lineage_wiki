@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500 , tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '108 MP (wide)'}
+- {flash: None, info: '8 MP (telephoto)'}
+- {flash: None, info: '16 MP (ultrawide)'}
+- {flash: None, info: '32 MP (wide)'}
+codename: pstar
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '76 mm (2.99 in)', height: '163 mm (6.42 in)', depth: '8 mm (0.31 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 650
+image: pstar.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm8250
+maintainers: [electimon, SGCMarkus]
+models: [XT2153-1]
+name: Edge 20 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Depth Sensor, Dual SIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, HDMI, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG, Wi-Fi Display]
+ram: 6/8/12 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+release: 2021-08
+screen: {size: '170.18 mm (6.7 in)', density: 385, resolution: '1080x2400', technology: 'OLED'}
+soc: Qualcomm SM8250-AC Snapdragon 870
+storage: 128/256 GB UFS 3.1
+tree: android_device_motorola_pstar
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
