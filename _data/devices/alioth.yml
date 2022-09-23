@@ -10,7 +10,6 @@ before_install_device_variants:
 - {device: 'POCO F3 Taiwan', firmware: 'V13.0.1.0.SKHTWXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTWXM/miui_ALIOTHTWGlobal_V13.0.1.0.SKHTWXM_1573a396df_12.0.zip'}
 - {device: 'POCO F3 Turkey', firmware: 'V13.0.1.0.SKHTRXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTRXM/miui_ALIOTHTRGlobal_V13.0.1.0.SKHTRXM_1eaf50fc2f_12.0.zip'}
 - {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SKHCNXM/miui_ALIOTH_V13.0.5.0.SKHCNXM_540c833165_12.0.zip'}
-before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
