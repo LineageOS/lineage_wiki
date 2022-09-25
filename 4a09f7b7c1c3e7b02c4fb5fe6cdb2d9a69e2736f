@@ -34,6 +34,24 @@
       "parentUuid": "28f272f3_79457421",
       "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d33009ea_0783ad4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2022-09-25T16:48:44Z",
+      "side": 1,
+      "message": "I don\u0027t think it makes much sense to list a model as supported but not list it\u0027s name.",
+      "parentUuid": "eb4b80ee_22ca0a06",
+      "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
