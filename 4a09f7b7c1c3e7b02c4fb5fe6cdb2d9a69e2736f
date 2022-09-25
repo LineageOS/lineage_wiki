@@ -52,6 +52,24 @@
       "parentUuid": "eb4b80ee_22ca0a06",
       "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8684a7ea_f993c52b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-25T17:50:56Z",
+      "side": 1,
+      "message": "ah i just mentioned model here 😅. I meant adding just name known to users.",
+      "parentUuid": "d33009ea_0783ad4b",
+      "revId": "4a09f7b7c1c3e7b02c4fb5fe6cdb2d9a69e2736f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
