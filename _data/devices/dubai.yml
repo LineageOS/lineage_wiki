@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 4020 , tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '50 MP (Primary)'}
+- {flash: None, info: '50 MP (ultrawide)'}
+- {flash: None, info: '2 MP (depth)'}
+- {flash: None, info: '32 MP (Front Facing)'}
+codename: dubai
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 1 x 2.5 GHz + 3 x 2.4 GHz & 4 x 1.9 GHz
+current_branch: 19.1
+custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
+dimensions: {width: '74.2 mm (2.92 in)', height: '159.4 mm (6.28 in)', depth: '6.8 mm (0.27 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 642L
+image: dubai.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm7325
+maintainers: [themard, sb6596]
+models: [xt2203-1]
+name: Moto Edge 30
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, FM radio, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+ram: 6/8 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_reboot: fastboot_menu
+release: 2022-05
+screen: {size: '102.0 mm (6.5 in)', density: 405, resolution: '1080x2400', technology: 'P-OLED'}
+soc: Qualcomm SM7325-AE Snapdragon 778G+ 5G
+storage: 128 GB UFS 3.1 (uMCP)
+tree: android_device_motorola_dubai
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot, Wi-Fi 6E, 4x4 MU-MIMO
