@@ -8,7 +8,7 @@ codename: PL2
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '75.8 mm (2.98 in)', height: '148.8 mm (5.86 in)', depth: '8.2 mm (0.32 in)'}
 download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 508
@@ -34,5 +34,5 @@ tree: android_device_nokia_PL2
 type: phone
 vendor: Nokia
 vendor_short: nokia
-versions: [17.1, 18.1, 19.1]
+versions: [17.1, 18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
