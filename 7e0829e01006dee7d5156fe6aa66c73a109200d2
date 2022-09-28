@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2bcf07a_d0d7b7ca",
+        "filename": "pages/gapps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-28T04:35:57Z",
+      "side": 1,
+      "message": "10-13 uses same links also 8 and 9.",
+      "revId": "7e0829e01006dee7d5156fe6aa66c73a109200d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
