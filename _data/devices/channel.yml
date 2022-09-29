@@ -9,7 +9,7 @@ codename: channel
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '75.3 mm (2.99 in)', height: '147.3 mm (5.80 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 506
@@ -35,5 +35,5 @@ tree: android_device_motorola_channel
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1, 18.1]
+versions: [17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
