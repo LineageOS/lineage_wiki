@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "9e79d68c_a3806c05",
+        "filename": ".bash_profile",
+        "patchSetId": 4
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-30T15:43:02Z",
+      "side": 1,
+      "message": "?",
+      "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "b85bcf64_c06a231f",
@@ -14,6 +31,24 @@
       "writtenOn": "2022-09-30T09:48:59Z",
       "side": 1,
       "message": "Hello, please check now, thank you.",
+      "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "989d132f_e659f662",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-30T15:43:02Z",
+      "side": 1,
+      "message": "required firmware?",
+      "parentUuid": "b85bcf64_c06a231f",
       "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
