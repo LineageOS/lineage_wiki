@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1baa8b33_c7d46ec0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-09-30T09:07:11Z",
+      "side": 1,
+      "message": "Pictures need to be cropped to the content and THEN resized to 500px for whatever the bigger dimension is",
+      "revId": "852d894adf5cbd484ee970d2d4a30cc9b3c7a4dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
