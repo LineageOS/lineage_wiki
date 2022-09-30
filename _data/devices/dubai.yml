@@ -23,7 +23,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sm7325
 maintainers: [themard, sb6596]
 models: [xt2203-1]
-name: Motorola Edge 30
+name: Edge 30
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 6/8 GB LPDDR5 (uMPC5)
