@@ -123,6 +123,24 @@
       "parentUuid": "b7061c80_15fd9a4a",
       "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15a767f5_66db5840",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24830
+      },
+      "writtenOn": "2022-09-30T21:02:49Z",
+      "side": 1,
+      "message": "Yes 19.1 boots wit android 11 firmware, it doesn\u0027t require any specific firmware, it will boot with any.",
+      "parentUuid": "42e4e1fc_e6a9a491",
+      "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
