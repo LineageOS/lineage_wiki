@@ -105,6 +105,24 @@
       "parentUuid": "b580f461_51bc259b",
       "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "42e4e1fc_e6a9a491",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2022-09-30T20:35:21Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/berlin.yml#L3",
+      "parentUuid": "b7061c80_15fd9a4a",
+      "revId": "863b1786ddd474f5d25f1f108ce8876b18869643",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
