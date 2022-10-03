@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: False, capacity: 5003, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13.0', ships_fw: True}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '50 MP'}
+- {flash: None, info: '48 MP (telephoto)'}
+- {flash: None, info: '12 MP (ultrawide)'}
+- {flash: None, info: '11.1 MP'}
+codename: raven
+cpu: Cortex-X1 & Cortex-A76 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.8 GHz + 2 x 2.25 GHz + 4 x 1.8 GHz
+current_branch: 20.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '75.9 mm (2.99 in)', height: '163.9 mm (6.45 in)', depth: '8.9 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Mali-G78 MP20
+image: raven.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_gs101
+maintainers: [mikeioannina, npjohnson]
+name: Pixel 6 Pro
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_reboot: fastboot_menu
+release: 2021-10
+screen: {size: '170.43 mm (6.71 in)', density: 512, resolution: '1440x3120', technology: 'AMOLED'}
+soc: Google Tensor GS101
+storage: 128/256/512 GB
+tree: android_device_google_raven
+type: phone
+vendor: Google
+vendor_short: google
+versions: [20.0]
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+custom_recovery_link: https://mirror.math.princeton.edu/pub/lineageos/full/raven/
+custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
+recovery_partition_name: vendor_boot
