@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '12 MP'}
+- {flash: 'LED', info: '12 MP'}
+- {flash: None, info: '20 MP'}
+codename: ursa
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '74.8 mm (2.94 in)', height: '154.9 mm (6.10 in)', depth: '7.6 mm (0.29 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Adreno 630
+image: ursa.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sdm845
+maintainers: [bgcngm]
+name: Mi 8 Explorer Edition
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Barometer, Gyroscope, Hall effect sensor, Light sensor, Proximity sensor, Compass, Dual-frequency GNSS, IR camera]
+ram: 8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
+release: 2018-07
+screen: {size: '157.73 mm (6.21 in)', density: 402, resolution: '1080x2248', technology: 'AMOLED'}
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 128 GB UFS2.1
+tree: android_device_xiaomi_ursa
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
