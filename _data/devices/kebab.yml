@@ -29,7 +29,7 @@ models: [KB2000, KB2001, KB2003, KB2005, KB2007]
 name: '8T'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
-ram: 8/12GB GB LPDDR4X
+ram: 8/12GB GB LPDDR4X/LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2020-10
