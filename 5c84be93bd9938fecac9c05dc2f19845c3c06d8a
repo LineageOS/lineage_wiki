@@ -16,6 +16,23 @@
       "message": "This is ready now",
       "revId": "5c84be93bd9938fecac9c05dc2f19845c3c06d8a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "121b59b1_0b31b6df",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-04T02:32:12Z",
+      "side": 1,
+      "message": "i think this is missing \"recovery_reboot: fastboot_menu\"",
+      "revId": "5c84be93bd9938fecac9c05dc2f19845c3c06d8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
