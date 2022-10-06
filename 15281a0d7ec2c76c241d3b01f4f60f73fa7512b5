@@ -68,6 +68,23 @@
       "parentUuid": "9363e04d_a0129580",
       "revId": "15281a0d7ec2c76c241d3b01f4f60f73fa7512b5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7bc0e91b_613b0681",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-06T11:39:40Z",
+      "side": 1,
+      "message": "i think images are fine.  And builds are available, so this needs merging.",
+      "revId": "15281a0d7ec2c76c241d3b01f4f60f73fa7512b5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
