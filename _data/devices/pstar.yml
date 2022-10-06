@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4500 , tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED', info: '108 MP (wide)'}
