@@ -16,7 +16,7 @@ gpu: ARM Mali-G31 MP2
 image: wade.png
 install_method: fastboot_nexus
 kernel: android_kernel_amlogic_linux-4.9
-maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
+maintainers: []
 name: Dynalink 4K Box
 peripherals: None
 ram: 2 GB
