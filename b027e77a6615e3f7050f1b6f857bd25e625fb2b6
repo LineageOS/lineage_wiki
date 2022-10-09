@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37df8636_331c8936",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2022-10-09T09:21:13Z",
+      "side": 1,
+      "message": "\u003e Patch Set 3:\n\u003e \n\u003e why abandon? this looks fine.\n\nRestored, i misunderstood BadDeamon massage.",
+      "revId": "b027e77a6615e3f7050f1b6f857bd25e625fb2b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
