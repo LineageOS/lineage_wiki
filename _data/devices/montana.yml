@@ -18,7 +18,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
 maintainers: [Jarl-Penguin, wiktorek140]
 models: [XT1790, XT1791, XT1792, XT1793, XT1794, XT1795, XT1797, XT1799-2]
-name: 'Moto G5S'
+name: moto g5s
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, FM radio, Light sensor]
 ram: 2/3/4 GB

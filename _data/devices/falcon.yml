@@ -4,7 +4,7 @@ bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '5 MP'}
 - {flash: None, info: '1.3 MP'}
-carrier: AT&T,TMobile,Boost, International GSM
+carrier: AT&T, TMobile, Boost, International GSM
 codename: falcon
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -19,7 +19,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
 maintainers: []
 models: [XT1031, XT1032, XT1033, XT1034]
-name: Moto G
+name: moto g
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
