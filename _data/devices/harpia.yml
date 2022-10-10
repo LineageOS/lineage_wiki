@@ -19,7 +19,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
 maintainers: []
 models: [XT1600, XT1601, XT1602, XT1603, XT1604, XT1607]
-name: Moto G4 Play
+name: moto g4 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB

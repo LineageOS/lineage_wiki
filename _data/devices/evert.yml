@@ -21,7 +21,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_msm8998
 maintainers: [Jleeblanch]
 models: [XT1926-2, XT1926-3, XT1926-5, XT1926-6, XT1926-7, XT1926-8, XT1926-9]
-name: 'Moto G6 Plus'
+name: moto g6 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
