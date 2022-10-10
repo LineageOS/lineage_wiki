@@ -18,7 +18,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8974
 maintainers: [jro1979, linckandrea, npjohnson]
 models: [XT1092, XT1093, XT1094, XT1095, XT1096, XT1097, XT1098]
-name: Moto X 2014
+name: moto x (2014)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
 ram: 2 GB
