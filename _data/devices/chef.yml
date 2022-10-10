@@ -20,7 +20,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_msm8998
 maintainers: [Hasaber8]
 models: [XT1942-1, XT1942-2]
-name: Moto One Power
+name: one power
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio]
 ram: 4 GB, 6 GB
