@@ -19,7 +19,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
 maintainers: []
 models: [XT1505, XT1506, XT1511]
-name: Moto E 2015
+name: moto e (2015)
 network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor]
 ram: 1 GB

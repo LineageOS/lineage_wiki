@@ -19,7 +19,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sdm632
 maintainers: [SyberHexen, deadman96385, erfanoabdi, npjohnson]
 models: [XT1952-1, XT1952-2, XT1952-3]
-name: 'Moto G7 Play'
+name: moto g7 play
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]

@@ -19,7 +19,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sdm632
 maintainers: [SyberHexen, erfanoabdi, npjohnson]
 models: [XT1955-1, XT1955-2, XT1955-4, XT1955-5, XT1955-7]
-name: 'Moto G7 Power'
+name: moto g7 power
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]

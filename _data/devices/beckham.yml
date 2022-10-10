@@ -21,7 +21,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_msm8998
 maintainers: [Jleeblanch]
 models: [XT1929-2, XT1929-3, XT1929-4, XT1929-5, XT1929-6]
-name: 'Moto Z3 Play'
+name: moto z3 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Light sensor, GPS, Moto Mods]
 ram: 4 GB, 6 GB
