@@ -17,7 +17,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610
 maintainers: []
 models: [XT1021, XT1022, XT1023]
-name: Moto E
+name: moto e
 network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
