@@ -19,7 +19,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8916
 maintainers: []
 models: [XT1514, XT1521, XT1523, XT1524, XT1526, XT1527]
-name: Moto E 2015 LTE
+name: moto e LTE (2015)
 peripherals: [Accelerometer, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

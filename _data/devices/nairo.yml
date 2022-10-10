@@ -22,7 +22,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sm7250
 maintainers: [SyberHexen]
 models: [XT2075-2, XT2075-3, XT2075-5]
-name: Moto G 5G Plus / Motorola One 5G
+name: moto g 5G plus / one 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Depth Sensor, Dual SIM, Fingerprint reader, FM radio, Galileo, GLONASS, Google Assist Button, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 4/6/8 GB LPDDR4X

@@ -18,7 +18,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8226
 maintainers: []
 models: [XT1039, XT1040, XT1042, XT1045]
-name: Moto G 4G
+name: moto g 4G
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 1 GB
