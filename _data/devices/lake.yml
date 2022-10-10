@@ -20,7 +20,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_msm8998
 maintainers: [Jleeblanch, npjohnson]
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
-name: 'Moto G7 Plus'
+name: moto g7 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
