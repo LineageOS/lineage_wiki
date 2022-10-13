@@ -9,15 +9,16 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 1.8 GHz + 2 x 1.36 GHz (Standard edition) / 2 x 2.15 GHz + 2 x 1.6 GHz
   (Pro and Exclusive editions)
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '69.2 mm (2.72 in)', height: '144.6 mm (5.69 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+format_on_upgrade: true
 gpu: Adreno 530
 image: gemini.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8996
-maintainers: [bgcngm, defer, h2o64]
+maintainers: [bgcngm, ikeramat]
 name: Mi 5
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
@@ -34,5 +35,5 @@ type: phone
 uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1, 15.1, 16.0, 17.1, 18.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
