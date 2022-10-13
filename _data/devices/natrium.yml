@@ -9,10 +9,11 @@ codename: natrium
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz + 2 x 2.19 GHz
-current_branch: 18.1
+current_branch: 19.1
 dimensions: {width: '77.7 mm (3.06 in)', height: '154.6 mm (6.09 in)', depth: '8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+format_on_upgrade: true
 gpu: Adreno 530
 image: natrium.png
 install_method: fastboot_xiaomi
@@ -30,8 +31,7 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 64/128 GB UFS2.0
 tree: android_device_xiaomi_natrium
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [14.1, 15.1, 16.0, 17.1, 18.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
