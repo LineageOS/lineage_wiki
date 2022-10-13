@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2784c0c9_1cd6c6ca",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-13T14:45:02Z",
+      "side": 1,
+      "message": "keeping the uses_twrp flag?",
+      "revId": "3c14ee71c1f7523f93d92b4681c9bfd29e01e1d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
