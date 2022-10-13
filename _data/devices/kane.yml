@@ -20,7 +20,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_exynos9610
 maintainers: [Stricted, npjohnson]
 models: [XT1970-1, XT1970-2, XT1970-3, XT1970-5]
-name: one vision / P50
+name: one vision / p50
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 4 GB
