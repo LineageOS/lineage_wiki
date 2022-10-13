@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd2c6b57_0ee139c1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2022-10-13T14:46:51Z",
+      "side": 1,
+      "message": "\u003e Patch Set 1:\n\u003e \n\u003e ram: make it a slash like storage.\n\nDoes it look good now?",
+      "revId": "40085a04bf048fea74cd8c4ad19918a5f5a94d7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
