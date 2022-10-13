@@ -16,6 +16,24 @@
       "message": "keeping the uses_twrp flag?",
       "revId": "3c14ee71c1f7523f93d92b4681c9bfd29e01e1d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76e275f8_ed12e21f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-10-13T14:47:09Z",
+      "side": 1,
+      "message": "Absolutely not, thanks.",
+      "parentUuid": "2784c0c9_1cd6c6ca",
+      "revId": "3c14ee71c1f7523f93d92b4681c9bfd29e01e1d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
