@@ -1,5 +1,9 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'POCO F1 Global', firmware: 'V12.0.3.0.QEJMIXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJMIXM/miui_POCOF1Global_V12.0.3.0.QEJMIXM_cf3fccffce_10.0.zip'}
+- {device: 'POCO F1 Russia', firmware: 'V12.0.3.0.QEJRUXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJRUXM/miui_POCOF1RUGlobal_V12.0.3.0.QEJRUXM_ac5b1649fc_10.0.zip'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
@@ -13,6 +17,7 @@ current_branch: 19.1
 dimensions: {width: '75.3 mm (2.96 in)', height: '155.5 mm (6.12 in)', depth: '8.8 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sdm845
 gpu: Adreno 630
 image: beryllium.png
 install_method: fastboot_xiaomi
