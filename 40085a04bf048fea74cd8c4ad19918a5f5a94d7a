@@ -34,6 +34,23 @@
       "parentUuid": "cd2c6b57_0ee139c1",
       "revId": "40085a04bf048fea74cd8c4ad19918a5f5a94d7a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a79a8e99_02ad494d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-10-13T18:28:17Z",
+      "side": 1,
+      "message": "This devices\u0027 first build is: Thursday.",
+      "revId": "40085a04bf048fea74cd8c4ad19918a5f5a94d7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
