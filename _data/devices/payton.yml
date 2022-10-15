@@ -11,7 +11,7 @@ codename: payton
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '73.4 mm (2.89 in)', height: '148.4 mm (5.84 in)', depth: '8.0 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Adreno 508
@@ -36,5 +36,5 @@ tree: android_device_motorola_payton
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [15.1, 16.0, 17.1, 18.1, 19.1]
+versions: [15.1, 16.0, 17.1, 18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot
