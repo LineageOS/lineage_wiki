@@ -13,7 +13,7 @@ codename: lemonadep
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '73.6 mm (2.90 in)', height: '163.2 mm (6.43 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm8350
@@ -38,5 +38,5 @@ tree: android_device_oneplus_lemonadep
 type: phone
 vendor: OnePlus
 vendor_short: oneplus
-versions: [18.1, 19.1]
+versions: [18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
