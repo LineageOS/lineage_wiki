@@ -16,6 +16,24 @@
       "message": "image dimensions are wrong for no reason.\nit\u0027s obvious the image script wasn\u0027t used like the wiki says to.\nhttps://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\njust run this command on patchset 1, and it will be good to go.\n./scripts/prepare_image.sh jasmine_sprout.png",
       "revId": "c6f945db08245a11f44f3ec4eb4e66245991aed0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21ead751_ba62e83e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2022-10-15T20:22:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "735f2ec2_fa9d4813",
+      "revId": "c6f945db08245a11f44f3ec4eb4e66245991aed0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
