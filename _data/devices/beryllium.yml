@@ -9,7 +9,7 @@ codename: beryllium
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '75.3 mm (2.96 in)', height: '155.5 mm (6.12 in)', depth: '8.8 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -33,5 +33,5 @@ tree: android_device_xiaomi_beryllium
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [16.0, 17.1, 18.1, 19.1]
+versions: [16.0, 17.1, 18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
