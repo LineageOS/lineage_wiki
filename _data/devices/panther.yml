@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13.0', ships_fw: True}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '50 MP'}
+- {flash: None, info: '12 MP (ultrawide)'}
+- {flash: None, info: '10.8 MP'}
+codename: panther
+cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
+current_branch: 20
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '73.2 mm (2.88 in)', height: '155.6 mm (6.13 in)', depth: '8.7 mm (0.34 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G710 MC10
+image: panther.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_google_gs201
+maintainers: [mikeioannina]
+name: Pixel 7
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_reboot: fastboot_menu
+release: 2022-10
+screen: {size: '160.02 mm (6.3 in)', density: 416, resolution: '1080x2400', technology: 'AMOLED'}
+soc: Google Tensor GS201
+storage: 128/256 GB
+tree: android_device_google_panther
+type: phone
+vendor: Google
+vendor_short: google
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+custom_recovery_link: https://mirror.math.princeton.edu/pub/lineageos/full/panther/
+custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
+recovery_partition_name: vendor_boot
