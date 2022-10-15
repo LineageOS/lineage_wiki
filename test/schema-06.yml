@@ -146,6 +146,7 @@ definitions:
     - Amlogic S905x2
     - Amlogic S905y2
     - Google Tensor GS101
+    - Google Tensor GS201
     - HiSilicon Kirin 659
     - HiSilicon Kirin 970
     - Intel Atom Z2560
@@ -453,6 +454,7 @@ properties:
     - Cortex-A73 & Cortex-A53
     - Cortex-A9
     - Cortex-X1 & Cortex-A76 & Cortex-A55
+    - Cortex-X1 & Cortex-A78 & Cortex-A55
     - Denver
     - Denver 2 & Cortex-A57
     - Exynos M1 & Cortex-A53
@@ -544,6 +546,7 @@ properties:
     - ARM Mali-G72 MP3
     - ARM Mali-G76 MP12
     - ARM Mali-G78 MP20
+    - ARM Mali-G710 MC10
     - ARM Mali-T604
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2
