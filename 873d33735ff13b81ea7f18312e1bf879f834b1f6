@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54ef5cb7_362c3c32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-16T09:09:57Z",
+      "side": 1,
+      "message": "this good to go?  the first 19.1 gemini build is up.",
+      "revId": "873d33735ff13b81ea7f18312e1bf879f834b1f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
