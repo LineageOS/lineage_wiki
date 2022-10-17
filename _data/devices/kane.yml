@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
-before_recovery_install: moto_exynos_9610
+before_recovery_install: {instructions: 'boot_stack', partitions: [vbmeta, dtbo]}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '48 MP'}
