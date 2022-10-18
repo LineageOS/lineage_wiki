@@ -1,6 +1,7 @@
 architecture: arm64
-battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '10', ships_fw: True}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '20 MP'}
 - {flash: 'LED', info: '16 MP'}
@@ -19,9 +20,8 @@ kernel: android_kernel_oneplus_msm8998
 maintainers: [trautamaki]
 name: '5'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor]
-ram: 6/8 GB
+peripherals: [A-GPS, Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2017-06
@@ -33,4 +33,4 @@ type: phone
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1, 15.1, 16.0, 17.1, 18.1, 19.1]
-wifi: 802.11 a/b/g/n/ac, 2.4G/5G, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot, Wi-Fi Direct, Wi-Fi Display
