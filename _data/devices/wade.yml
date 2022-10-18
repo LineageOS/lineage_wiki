@@ -17,7 +17,7 @@ image: wade.png
 install_method: fastboot_nexus
 kernel: android_kernel_amlogic_linux-4.9
 maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
-name: Dynalink 4K Box
+name: TV Box (4K)
 peripherals: None
 ram: 2 GB
 recovery_boot: Run `adb reboot recovery`.
@@ -31,7 +31,7 @@ soc: Amlogic S905x2
 storage: 8 GB
 tree: android_device_askey_wade
 type: Set top box
-vendor: Walmart
+vendor: Dynalink
 vendor_short: askey
 versions: [19.1]
 wifi: 802.11 a/b/g/n/ac
