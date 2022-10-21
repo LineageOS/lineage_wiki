@@ -16,7 +16,7 @@ gpu: Adreno 305
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8226
-maintainers: [PythonLimited, fcuzzocrea, Teledurak]
+maintainers: [PythonLimited, fcuzzocrea, Teledurak, ikeramat]
 models: [GT-I9300I]
 name: Galaxy S III Neo (Dual SIM)
 network: [2G GSM, 2G CDMA, 3G UMTS]
