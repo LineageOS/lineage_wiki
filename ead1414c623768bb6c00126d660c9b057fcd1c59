@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e864334b_d972a52a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-10-23T08:53:43Z",
+      "side": 1,
+      "message": "I don\u0027t think this adds much value to the page. In fact, the next person wants cpu listed, or screen refresh rate, etc.\nThe builds that are specific for a model year already carry that in the title.\nGenerally: page is meant to list the devices we have, with one either generally interested or looking for the one already in your posession not to help you find your next device.\n\nAdditionally, the css file is changed in various unrelated places - shouldn\u0027t do that.",
+      "revId": "ead1414c623768bb6c00126d660c9b057fcd1c59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
