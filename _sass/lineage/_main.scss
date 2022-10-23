@@ -2,7 +2,7 @@
 
 // Navbar
 .navbar {
-  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 @include media-breakpoint-down(md) {
   .navbar {
@@ -45,7 +45,7 @@
   position: absolute;
   min-width: 196px;
   border-radius: 6px;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.1) !important;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1) !important;
   background-color: white;
   padding-left: 24px;
   padding-right: 16px;
@@ -54,7 +54,6 @@
 }
 
 // Tables
-
 
 .table td,
 .table th {
@@ -71,7 +70,7 @@
 
   th {
     word-break: normal !important;
-    &[colspan='2'] {
+    &[colspan="2"] {
       text-align: center;
     }
     padding-right: 0.25rem;
@@ -83,7 +82,8 @@
     padding-left: 0px;
     min-width: 180px;
   }
-  ul, ol {
+  ul,
+  ol {
     text-align: left;
   }
   tr.image td {
@@ -94,16 +94,15 @@
       max-width: 100%;
     }
   }
-
 }
 
 @include media-breakpoint-up(lg) {
   table.table.device thead th {
-    &.first{
-      width: 50%
+    &.first {
+      width: 50%;
     }
-    &.last{
-      width: 25%
+    &.last {
+      width: 25%;
     }
   }
 }
@@ -111,7 +110,7 @@
 // Toc
 #toc {
   background: #fafafa;
-  padding: 1rem 1.5rem .25rem .5rem;
+  padding: 1rem 1.5rem 0.25rem 0.5rem;
   color: black;
   font-size: 14px;
   width: fit-content;
@@ -123,18 +122,18 @@
     visibility: hidden;
   }
 }
-div#toc >ul::before {
+div#toc > ul::before {
   content: "Table of Contents";
   font-weight: 500;
   color: #555;
   text-transform: uppercase;
-  font-size: .75rem;
+  font-size: 0.75rem;
   margin-left: -1rem;
 }
 @include media-breakpoint-down(sm) {
-    #toc {
-      width: 100%;
-    }
+  #toc {
+    width: 100%;
+  }
 }
 
 // Alerts
@@ -143,10 +142,10 @@ div#toc >ul::before {
   border-radius: 4px !important;
   margin-top: 1rem;
 
-    a {
-      color: inherit;
-      text-decoration: underline;
-    }
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
 }
 
 @include media-breakpoint-up(md) {
@@ -192,7 +191,8 @@ div#toc >ul::before {
   word-break: break-word;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 500;
 }
 .welcome p.lead {
@@ -212,7 +212,12 @@ pre {
 }
 
 // Make sure toc-targets are actually displayed, not hidden by the navbar
-h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
   display: block;
   content: " ";
   height: 80px;
@@ -230,22 +235,22 @@ a {
   -webkit-perspective: 1; /* Fix for chrome to calculate the height properly */
   -moz-column-count: 4; /* Firefox */
   column-count: 4;
-  padding: .25rem 0 .25rem.5rem;
+  padding: 0.25rem 0 0.25rem.5rem;
   font-size: 14px;
   border: 1px solid #e8e8e8;
   border-radius: 4px;
 }
 
 .vendor-container div {
-  padding: .5rem;
+  padding: 0.5rem;
   -webkit-column-break-inside: avoid; /* Fix for additional unwanted margin on chrome */
 }
 
 .devices {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 3rem;
-  gap: 2rem 0;
+  gap: 2rem 0.25rem;
   margin-top: 1rem;
 }
 .item {
@@ -257,7 +262,7 @@ a {
   &:focus {
     cursor: pointer;
     .image {
-      background: #E8EDEE;
+      background: #e8edee;
       transition: 0.15s;
     }
     a {
@@ -279,7 +284,7 @@ a {
   min-height: 150px;
   text-align: center;
   justify-content: center;
-  background-color: #F6FAFA;
+  background-color: #f6fafa;
   transition: 0.15s;
   align-items: center;
   display: flex;
@@ -310,6 +315,11 @@ a {
 .devicename {
   font-weight: 500;
 }
+.releaseyear {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: $lineage-light;
+}
 .codename {
   font-size: 14px;
 }
@@ -330,7 +340,7 @@ a {
 
 @media (max-width: 991px) {
   .vendor-container {
-     -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
   }
