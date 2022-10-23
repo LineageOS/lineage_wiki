@@ -16,6 +16,24 @@
       "message": "I don\u0027t think this adds much value to the page. In fact, the next person wants cpu listed, or screen refresh rate, etc.\nThe builds that are specific for a model year already carry that in the title.\nGenerally: page is meant to list the devices we have, with one either generally interested or looking for the one already in your posession not to help you find your next device.\n\nAdditionally, the css file is changed in various unrelated places - shouldn\u0027t do that.",
       "revId": "ead1414c623768bb6c00126d660c9b057fcd1c59",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14954127_334e7c72",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31966
+      },
+      "writtenOn": "2022-10-23T14:08:03Z",
+      "side": 1,
+      "message": "@Michael W - last night was I think the third time over several years I\u0027ve gone to this page to research devices compatible with Lineage/Cyanogen or custom ROMs in general.  I\u0027d be happy to add CPU if that would get this merged.\n\nThe CSS changes were to resolve poor layout of the page, and my \"prettier\" script caught a few places where it was incorrect indentented or (debatable here) hex colors were in uppercase.\n\nKeep in mind that this page is apparently the only place online where you *can* do comparison based on Lineage availability.",
+      "parentUuid": "e864334b_d972a52a",
+      "revId": "ead1414c623768bb6c00126d660c9b057fcd1c59",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
