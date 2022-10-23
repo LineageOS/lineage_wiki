@@ -1,0 +1,9 @@
+{%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+{%- assign cur_month = release[1] | minus: 1 -%}
+{%- if release.size == 1 -%}
+  ({{ release }})
+{%- elsif release.size == 2 -%}
+  ({{ months[cur_month] }} {{ release[0] }})
+{%- else -%}
+  ({{ months[cur_month] }} {{ release[0] }})
+{%- endif -%}
