@@ -103,6 +103,15 @@ Select a vendor to jump to:<br/>
     <a href="{{ url }}">
       <span class="devicename">{{ deviceName }}</span><br>
       <span class="codename">{{ device.codename }}</span>
+      <span class="releaseyear">
+        {%- if device.release.first -%}
+          {% assign release = device.release[0] | split: '-' -%}
+          {% include snippets/release_short.html %}
+        {%- else %}
+          {% assign release = device.release | split: '-' -%}
+          {% include snippets/release_short.html %}
+        {%- endif %}
+      </span>
     </a>
   </div>
 </div>
