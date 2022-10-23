@@ -248,9 +248,9 @@ a {
 
 .devices {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 3rem;
-  gap: 2rem 0;
+  gap: 2rem 0.25rem;
   margin-top: 1rem;
 }
 .item {
