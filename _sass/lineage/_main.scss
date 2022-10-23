@@ -245,7 +245,7 @@ a {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 3rem;
-  gap: 2rem 0;
+  gap: 2rem 0.25rem;
   margin-top: 1rem;
 }
 .item {
@@ -312,6 +312,11 @@ a {
 }
 .codename {
   font-size: 14px;
+}
+.releaseyear {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: $lineage-light;
 }
 .top {
   font-size: 0.9rem;
