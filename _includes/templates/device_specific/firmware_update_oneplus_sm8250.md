@@ -47,3 +47,14 @@
    fastboot flash --slot=all xbl_config xbl_config_lp5.img
    fastboot flash --slot=all xbl xbl_lp5.img
    ```
+9. You may not be able to boot into recovery at this point. In that case, folllow the steps from the installation page on how to flash the latest recovery image onto your phone:
+   1. Download [the latest recovery image](https://download.lineageos.org/instantnoodlep)
+   2. Download dtbo.img and vbmeta.img from [this mirror](https://mirror.math.princeton.edu/pub/lineageos/full/instantnoodlep/)
+   3. Flash all ROMs that are relevant for booting into recovery, including the boot partition from the extracted stock ROM:
+      ```
+      fastboot flash dtbo dtbo.img
+      fastboot flash vbmeta vbmeta.img
+      fastboot flash --slot=all boot boot.img
+      fastboot flash recovery lineage-xx.x-xxxxxxxx-recovery-instantnoodlep.img
+      ```
+   4. Reboot into Recovery by navigating to and selecting the Recovery option
