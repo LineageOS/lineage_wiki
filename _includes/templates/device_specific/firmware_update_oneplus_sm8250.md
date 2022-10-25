@@ -47,3 +47,5 @@
    fastboot flash --slot=all xbl_config xbl_config_lp5.img
    fastboot flash --slot=all xbl xbl_lp5.img
    ```
+
+9. Important: Do not reboot now, or your phone will not boot again! Continue by flashing the required ZIP files using `adb sideload` in recovery, as described in the upgrade manual.
