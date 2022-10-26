@@ -18,7 +18,7 @@ gpu: ARM Mali-G71 MP2
 image: m20lte.png
 install_method: heimdall
 kernel: android_kernel_samsung_universal7904
-maintainers: [SamarV-121]
+maintainers: []
 models: [SM-M205F, SM-M205FN, SM-M205G, SM-M205M, SM-M205N]
 name: Galaxy M20
 network: [2G GSM, 3G UMTS, 4G LTE]

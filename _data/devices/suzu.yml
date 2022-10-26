@@ -16,7 +16,7 @@ gpu: Adreno 510
 image: suzu.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8956
-maintainers: [jmpfbmx, surblazer]
+maintainers: []
 models: [F5122, F5121]
 name: Xperia X
 network: [2G GSM, 3G UMTS, 4G LTE]

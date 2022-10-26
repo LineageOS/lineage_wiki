@@ -16,7 +16,7 @@ gpu: Adreno 510
 image: kugo.png
 install_method: fastboot_sony
 kernel: android_kernel_sony_msm8956
-maintainers: [jmpfbmx, surblazer]
+maintainers: []
 models: [SO-02J, F5321]
 name: Xperia X Compact
 network: [2G GSM, 3G UMTS, 4G LTE]

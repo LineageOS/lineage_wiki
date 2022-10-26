@@ -15,7 +15,7 @@ gpu: Adreno 505
 image: hannah.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8953
-maintainers: [Jarl-Penguin, karthick111, electimon, wh0dat]
+maintainers: []
 models: [XT1924-6, XT1924-7, XT1924-8]
 name: 'moto e5 plus (XT1924-6/7/8)'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

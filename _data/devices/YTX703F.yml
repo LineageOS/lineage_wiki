@@ -17,7 +17,7 @@ image: YTX703.png
 install_method: fastboot_lenovo
 custom_unlock_cmd: 'fastboot oem unlock-go'
 kernel: android_kernel_lenovo_msm8976
-maintainers: [Quallenauge, Vladimir Oltean]
+maintainers: []
 models: [YTX703F]
 name: Yoga Tab 3 Plus Wi-Fi
 peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, Light sensor, Sensor hub, Dual front speakers, Wi-Fi Display]
