@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3d478eb2_5b7f49c3",
+        "filename": "_data/devices/guacamole.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2022-10-26T21:00:50Z",
+      "side": 1,
+      "message": "thats probably bad ;)",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 7
+      },
+      "revId": "e63ecc09f8508982d3f347bcb3c2b981ef4ff697",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
