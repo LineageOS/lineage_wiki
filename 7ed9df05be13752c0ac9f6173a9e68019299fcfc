@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "263f1c5f_4d552f84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-26T19:31:09Z",
+      "side": 1,
+      "message": "The use of the word \"temporary\" in the title of this section and the flash step, is just a leftover term from when our instructions only used twrp and only used fastboot boot command.  So it was actually temporary.\nSo this change really doesn\u0027t make sense.  The user doesn\u0027t need to be told this since, i think, all our ab device\u0027s use lineage recovery, so it\u0027s not temporary.\n\nI think it\u0027s best we just remove the word temporary from the title. And only conditionally use it in the flash step if uses_twrp is true.",
+      "revId": "7ed9df05be13752c0ac9f6173a9e68019299fcfc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
