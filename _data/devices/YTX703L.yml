@@ -17,7 +17,7 @@ install_method: fastboot_lenovo
 custom_unlock_cmd: 'fastboot oem unlock-go'
 custom_recovery_codename: yt_x703l
 kernel: android_kernel_lenovo_msm8976
-maintainers: [Quallenauge, Vladimir Oltean]
+maintainers: []
 models: [YTX703L, YTX703X]
 name: Yoga Tab 3 Plus LTE
 network: [2G GSM, 3G UMTS, 4G LTE]

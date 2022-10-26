@@ -17,7 +17,7 @@ gpu: Adreno 305
 image: i9300.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8226
-maintainers: [PythonLimited, fcuzzocrea, Teledurak]
+maintainers: []
 models: [GT-I9301I, GT-I9301Q]
 name: Galaxy S III Neo (Sony Camera)
 network: [2G GSM, 2G CDMA, 3G UMTS]

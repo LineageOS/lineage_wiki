@@ -17,7 +17,7 @@ gpu: Adreno 530
 image: oneplus3.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8996
-maintainers: [dianlujitao]
+maintainers: []
 models:
 - A3000
 - A3003
