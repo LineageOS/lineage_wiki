@@ -19,8 +19,8 @@
 {%- else %}
 1. Download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`.
 {%- endif %}
-2. Connect your device to your PC via USB.
-3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+2. Connect your device to your PC via USB if it isn't already.
+3. If your device isn't already in bootloader mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb reboot bootloader
 ```
