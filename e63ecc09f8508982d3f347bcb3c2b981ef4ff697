@@ -22,6 +22,30 @@
       },
       "revId": "e63ecc09f8508982d3f347bcb3c2b981ef4ff697",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f61443d8_279770ae",
+        "filename": "_data/devices/guacamole.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-10-26T21:39:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3d478eb2_5b7f49c3",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 7
+      },
+      "revId": "e63ecc09f8508982d3f347bcb3c2b981ef4ff697",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
