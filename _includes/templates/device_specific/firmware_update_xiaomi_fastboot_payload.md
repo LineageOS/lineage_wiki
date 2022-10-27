@@ -8,10 +8,9 @@
 {%- else %}
 1. Download the latest firmware for your device from official website.
 {%- endif %}
-2. Extract firmware files from zip
+2. Extract firmware files from zip using [payload-dumper-go](https://github.com/ssut/payload-dumper-go)
    ```
-   unzip -qq miui_*.zip firmware-update/*
-   cd firmware-update
+   payload-dumper-go -o . miui_*.zip
    ```
 3. Power off the device, and boot it into bootloader mode:
     * {{ device.download_boot }}
