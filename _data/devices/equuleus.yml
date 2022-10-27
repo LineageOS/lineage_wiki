@@ -1,5 +1,10 @@
 architecture: arm64
 battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'Mi 8 Pro China', firmware: 'V12.5.2.0.QECCNXM', download_link: 'https://bigota.d.miui.com/V12.5.2.0.QECCNXM/miui_MI8UD_V12.5.2.0.QECCNXM_c300f2cfad_10.0.zip'}
+- {device: 'Mi 8 Pro Global', firmware: 'V12.0.2.0.QECMIXM', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECMIXM/miui_MI8UDGlobal_V12.0.2.0.QECMIXM_1bea455dd7_10.0.zip'}
+- {device: 'Mi 8 Pro Russia', firmware: 'V12.0.2.0.QECRUXM', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.2.0.QECRUXM_3d07155d93_10.0.zip'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
@@ -13,6 +18,7 @@ current_branch: 19.1
 dimensions: {width: '74.8 mm (2.94 in)', height: '154.9 mm (6.10 in)', depth: '7.6 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sdm845
 gpu: Adreno 630
 image: equuleus.png
 install_method: fastboot_xiaomi
