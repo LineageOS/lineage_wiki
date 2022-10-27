@@ -1,4 +1,4 @@
-{% include templates/device_specific/firmware_update_xiaomi_fastboot.md content="
+{% include templates/device_specific/firmware_update_xiaomi_fastboot_payload.md content="
 fastboot flash abl_ab abl.img
 fastboot flash aop_ab aop.img
 fastboot flash bluetooth_ab bluetooth.img
