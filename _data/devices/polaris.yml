@@ -1,5 +1,10 @@
 architecture: arm64
 battery: {removable: False, capacity: 3400, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'Mi MIX 2S China', firmware: 'V12.0.3.0.QDGCNXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QDGCNXM/miui_MIMIX2S_V12.0.3.0.QDGCNXM_cd55623678_10.0.zip'}
+- {device: 'Mi MIX 2S Global', firmware: 'V12.0.3.0.QDGMIXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QDGMIXM/miui_MIMIX2SGlobal_V12.0.3.0.QDGMIXM_13c81516b3_10.0.zip'}
+- {device: 'Mi MIX 2S Russia', firmware: 'V12.0.2.0.QDGRUXM', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QDGRUXM/miui_MIMIX2SRUGlobal_V12.0.2.0.QDGRUXM_72fc5eefa2_10.0.zip'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
@@ -13,6 +18,7 @@ current_branch: 19.1
 dimensions: {width: '74.9 mm (2.95 in)', height: '150.9 mm (5.94 in)', depth: '8.1 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sdm845
 gpu: Adreno 630
 image: polaris.png
 install_method: fastboot_xiaomi
