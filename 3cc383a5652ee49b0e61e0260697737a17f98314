@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a69b1827_ac085a4a",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-10-27T03:47:50Z",
+      "side": 1,
+      "message": "just below, on line 23 \u0026 27, the term used is \"fastboot mode\".\nwe should keep it uniform.\nsame on other template.",
+      "range": {
+        "startLine": 18,
+        "startChar": 35,
+        "endLine": 18,
+        "endChar": 50
+      },
+      "revId": "3cc383a5652ee49b0e61e0260697737a17f98314",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
