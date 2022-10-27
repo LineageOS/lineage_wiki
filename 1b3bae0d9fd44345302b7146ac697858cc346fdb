@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a08cc19_ff81160d",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_fastboot.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2022-10-27T15:48:17Z",
+      "side": 1,
+      "message": "This part is common. Could be even more unified. Any ideas?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 12
+      },
+      "revId": "1b3bae0d9fd44345302b7146ac697858cc346fdb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
