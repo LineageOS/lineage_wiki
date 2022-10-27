@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c213d730_0ea8ac95",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_common.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2022-10-27T17:17:57Z",
+      "side": 1,
+      "message": "Xiaomi doesn\u0027t provide OTA packages, xiaomifirmwareupdater.com isn\u0027t official either\nI would enforce providing a direct link to a firmware",
+      "range": {
+        "startLine": 9,
+        "startChar": 48,
+        "endLine": 9,
+        "endChar": 69
+      },
+      "revId": "9f5610efed46f4cfb970fec77d79cf09a638bcb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
