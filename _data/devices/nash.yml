@@ -37,3 +37,4 @@ vendor: Motorola
 vendor_short: motorola
 versions: [15.1, 16.0, 17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, DLNA, Hotspot
+uses_twrp: true
