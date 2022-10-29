@@ -15,6 +15,7 @@
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). {{ device.custom_recovery_link_instructions }}
 {%- elsif device.uses_twrp %}
 ## Temporarily booting a custom recovery using `fastboot`
+{% include alerts/note.html content="This is temporary because the recovery is part of the OS and will be replaced once you install LineageOS. It is not optional, though!" %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {%- else %}
 ## Booting a custom recovery using `fastboot`
@@ -40,7 +41,7 @@ fastboot devices
 
     {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 
-5. Temporarily flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
+5. Flash a recovery on your device by typing (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash {{ recovery_partition_name }} <recovery_filename>.img
 ```
