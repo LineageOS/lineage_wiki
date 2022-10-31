@@ -34,12 +34,12 @@ fastboot devices
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 {% if device.needs_fastboot_boot %}
-5. Temorarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
+5. Temporarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot boot <recovery_filename>.img
 ```
 {% else %}
-5. Flash recovery onto your device  (replace `<recovery_filename>` with the actual filename!):
+5. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
