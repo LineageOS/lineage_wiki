@@ -68,6 +68,41 @@
       "message": "Sure. I can erase the whole section if you want. I do not care, my phone is fixed. :)",
       "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4408bf13_71bb998c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31985
+      },
+      "writtenOn": "2022-10-31T20:33:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edad47af_ede3022d",
+      "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07b8cdea_7fdc5e5d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31985
+      },
+      "writtenOn": "2022-10-31T20:33:23Z",
+      "side": 1,
+      "message": "I opened another change request.",
+      "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
