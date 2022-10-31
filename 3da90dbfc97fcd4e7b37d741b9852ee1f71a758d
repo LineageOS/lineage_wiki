@@ -16,6 +16,24 @@
       "message": "one should just go back to recovery and update their system.",
       "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edad47af_ede3022d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31985
+      },
+      "writtenOn": "2022-10-31T20:18:59Z",
+      "side": 1,
+      "message": "I am describing the specific case where recovery itself is broken.\n\nIf there is no recovery, how should \"one\" go back there?",
+      "parentUuid": "7051a746_029be51b",
+      "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
