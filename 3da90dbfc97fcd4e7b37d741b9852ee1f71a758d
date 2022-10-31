@@ -51,6 +51,23 @@
       "message": "Interesting. Is that documented somewhere? Should we maybe add a note about that as well?",
       "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "632e1f0d_8c9ceb90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31985
+      },
+      "writtenOn": "2022-10-31T20:24:37Z",
+      "side": 1,
+      "message": "Sure. I can erase the whole section if you want. I do not care, my phone is fixed. :)",
+      "revId": "3da90dbfc97fcd4e7b37d741b9852ee1f71a758d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
