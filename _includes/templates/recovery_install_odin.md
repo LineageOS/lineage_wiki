@@ -42,6 +42,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     {% include alerts/tip.html content="Make sure to not accidentally name the file `recovery.img.img` when file name extensions are hidden." %}
     {% include alerts/tip.html content="You can open a command prompt in any folder by right-clicking on empty space while holding Shift and selecting \"Open Command Prompt here\" or \"Open PowerShell window here\" from the context menu." %}
 {%- endif %}
+    {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscreen instructions correlate to "Continue", and insert the USB cable into the device.

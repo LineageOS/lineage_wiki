@@ -58,6 +58,7 @@ heimdall print-pit
 {%- else %}
 1. Download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`
 {%- endif %}
+    {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
 2. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
