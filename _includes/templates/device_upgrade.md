@@ -27,6 +27,10 @@
 
 ## Manually upgrading LineageOS
 
+{%- unless device.format_on_upgrade %}
+{% include alerts/note.html content="Following these instructions will **not** wipe your data. It is, however, recommended to save important data before doing so, anyway!" %}
+{%- endunless %}
+
 {%- unless device.is_ab_device %}
 {%- capture recovery_update %}
 {%- if device.custom_recovery_link %}
