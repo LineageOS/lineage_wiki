@@ -24,7 +24,7 @@ models: [SM-A525F, SM-A525M, SM-A525F/DS, SM-A525M/DS]
 name: Galaxy A52 4G
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
-ram: 6/8 GB
+ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2021
 screen: {size: '165.1 mm (6.5 in)', density: 407, resolution: '1080x2800', technology: 'Super AMOLED'}
