@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c4ba737_7f814d48",
+        "filename": "_data/devices/cheetah.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-11-18T18:28:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78adeae3_16710680",
+      "revId": "34634e122fcef0b0cd1678fde2f8b463f83c1747",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fefa40fa_fd8a2657",
@@ -31,6 +49,24 @@
       "writtenOn": "2022-11-18T17:54:50Z",
       "side": 1,
       "message": "shouldn\u0027t this be panther?",
+      "revId": "34634e122fcef0b0cd1678fde2f8b463f83c1747",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f79e8df_5de28569",
+        "filename": "_data/devices/panther.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-11-18T18:28:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fefa40fa_fd8a2657",
       "revId": "34634e122fcef0b0cd1678fde2f8b463f83c1747",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
