@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78adeae3_16710680",
+        "filename": "_data/devices/cheetah.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 31655
+      },
+      "writtenOn": "2022-11-18T17:54:50Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be cheetah?",
+      "revId": "34634e122fcef0b0cd1678fde2f8b463f83c1747",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fefa40fa_fd8a2657",
+        "filename": "_data/devices/panther.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 31655
+      },
+      "writtenOn": "2022-11-18T17:54:50Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be panther?",
+      "revId": "34634e122fcef0b0cd1678fde2f8b463f83c1747",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
