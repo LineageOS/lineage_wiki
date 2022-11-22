@@ -32,7 +32,6 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_reboot: fastboot_menu
 release: 2021-07
 screen: {size: '170.18 mm (6.7 in)', density: 385, resolution: '1080x2400', technology: 'OLED'}
-sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM7325 Snapdragon 778 5G
 storage: 128 GB UFS 2.1
 tree: android_device_motorola_berlin
