@@ -25,7 +25,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_oneplus_sm8250
 maintainers: [LuK1337]
-models: [KB2000, KB2001, KB2003, KB2005, KB2007]
+models: [KB2000, KB2001, KB2003, KB2005]
 name: '8T'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
