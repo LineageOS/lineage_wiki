@@ -16,6 +16,24 @@
       "message": "This shouldn\u0027t be necessary. Either needs to be fixed for the specific device you have or in MTG. Already passed the info along",
       "revId": "7663c84682b534c688b25237ecea3da77a0b9dde",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e879dd8e_d3f5216c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32145
+      },
+      "writtenOn": "2022-12-09T16:07:29Z",
+      "side": 1,
+      "message": "Device is sargo, let me know if I need to file a bug report, I got hint for the workaround at https://gitlab.com/LineageOS/issues/android/-/issues/1894#note_1065218581",
+      "parentUuid": "2055e3c5_31930df5",
+      "revId": "7663c84682b534c688b25237ecea3da77a0b9dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
