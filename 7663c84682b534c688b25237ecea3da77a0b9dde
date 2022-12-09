@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2055e3c5_31930df5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-12-09T15:54:44Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be necessary. Either needs to be fixed for the specific device you have or in MTG. Already passed the info along",
+      "revId": "7663c84682b534c688b25237ecea3da77a0b9dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
