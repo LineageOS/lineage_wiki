@@ -20,6 +20,8 @@ Google apps should be installed via recovery **immediately** after installing Li
 {% include alerts/important.html content="If you reboot into LineageOS before installing Google apps, you must factory reset and then install them, otherwise expect crashes.<br/>
 This also applies when you experience issues and want to try an older or other package of these apps." %}
 
+{% include alerts/important.html content="If the apply of MindTheGapps zip is failing with `could not mount /mnt/system`, you need to enter the `Advanced` section of the recovery and run `Mount/umount system` before retrying again." %}
+
 ### Note regarding Open GApps
 
 {% include alerts/important.html content="This only applies if Open GApps is listed as the GApps package for your Android version in the link column of the tables below in the 'Downloads' section. If Open GApps is not listed for your Android version, it is **not recommended**." %}
