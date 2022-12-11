@@ -9,8 +9,6 @@ cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 18.1
 dimensions: None
-recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
-  Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
 gpu: GM20B (Maxwell)
 image: foster.png
 install_method: fastboot_nexus
