@@ -16,7 +16,6 @@ maintainers: []
 models: [mdarcy]
 name: Shield TV 2019 Pro [Tablet]
 no_oem_unlock_switch: true
-note_show: true
 note_title: Migration to `foster_tab`
 note_content: LineageOS 18.1 and above for this device were merged into `foster_tab` builds. Due to this, in-place upgrades for users on `mdarcy` builds are not possible and they will need to format and re-install.  If you wish to proceed with installation, please visit `foster_tab`'s [Wiki page](https://wiki.lineageos.org/devices/foster_tab/).
 peripherals: None
