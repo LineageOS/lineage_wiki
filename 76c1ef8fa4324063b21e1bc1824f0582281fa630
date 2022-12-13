@@ -16,6 +16,23 @@
       "message": "\u003e Patch Set 1: Verified-1\n\u003e \n\u003e FAIL: MrRobot : https://jenkins.youd.dev/job/lineage-wiki-preview/4753/console\n\u003e Validation failed for change 345933, patchset 1\n\nneed to fix this validation failure.",
       "revId": "76c1ef8fa4324063b21e1bc1824f0582281fa630",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4d26b08_9efb5035",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-12-13T16:09:03Z",
+      "side": 1,
+      "message": "`_data/devices/nx611j.yml: The property \u0027#/bluetooth/spec\u0027 value \"5.0\" did not match one of the following values: None, 1.0, 1.0B, 1.1, 1.2, 2.0, 2.0 + EDR, 2.1, 2.1 + EDR, 3.0, 3.0 + HS, 4.0, 4.0 + LE, 4.1, 4.2, 5, 5.1, 5.2\n`",
+      "revId": "76c1ef8fa4324063b21e1bc1824f0582281fa630",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
