@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {removable: False, capacity: 3450, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '24 MP'}
+- {flash: 'LED', info: '5 MP'}
+- {flash: None, info: '8 MP'}
+codename: nx611j
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 19.1
+custom_recovery_link: https://drive.google.com/file/d/1E8zM5x6-m6U4Rnm5RokvlrmDpqjww-OJ/view?usp=sharing
+custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX611J'
+dimensions: {width: '70.6 mm (2.78 in)', height: '148.0 mm (5.83 in)', depth: '7.6 mm (0.30 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 512
+has_recovery_partition: true
+image: nx611j.png
+install_method: fastboot_nexus
+kernel: android_kernel_nubia_sdm660
+maintainers: [Cyborg2017]
+models: [NX611J, M3]
+name: 'Z18 Mini'
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass,
+  Hall effect sensor, Sensor hub, Light sensor, GPS, USB OTG, Wi-Fi Display]
+ram: 6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2018-04
+screen: {size: '144.8 mm (5.7 in)', density: 424, resolution: '1080x2160', technology: 'IPS LCD'}
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 64/128 GB eMMC 5.1
+tree: android_device_nubia_nx611j
+type: phone
+vendor: Nubia
+vendor_short: nubia
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
