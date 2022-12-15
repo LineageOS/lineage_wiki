@@ -16,6 +16,24 @@
       "message": "\u003e Patch Set 4: Verified-1\n\u003e \n\u003e FAIL: MrRobot : https://jenkins.youd.dev/job/lineage-wiki-preview/4756/console\n\u003e Validation failed for change 345933, patchset 4\n\nbut z18 mini use 660 + AIE",
       "revId": "d24406907aadede8dc6ed82ed1f594e2f069e2e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18c7f7ec_52a8ab28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2022-12-15T09:55:19Z",
+      "side": 1,
+      "message": "Even though I checked it at the local Jekyll, I obviously ignored the writing specification. Very ashamed",
+      "parentUuid": "a04c2d5c_6fdb4283",
+      "revId": "d24406907aadede8dc6ed82ed1f594e2f069e2e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
