@@ -37,7 +37,6 @@ soc:
 storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
 tree: android_device_oneplus_oneplus3
 type: phone
-uses_twrp: true
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
