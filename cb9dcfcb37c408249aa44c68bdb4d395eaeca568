@@ -16,6 +16,23 @@
       "message": "Z18 Mini is ready",
       "revId": "cb9dcfcb37c408249aa44c68bdb4d395eaeca568",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36e3e2ba_6cf7c562",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2022-12-17T05:04:15Z",
+      "side": 1,
+      "message": "\u003e Patch Set 5:\n\u003e \n\u003e make a Hudson commit when ready.\n\nZ18 Mini is now ready (branch lineage-19.1)",
+      "revId": "cb9dcfcb37c408249aa44c68bdb4d395eaeca568",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
