@@ -9,7 +9,7 @@ codename: nx563j
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 17.1
+current_branch: 19.1
 custom_recovery_link: https://androidfilehost.com/?fid=4349826312261720672
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX563J'
 dimensions: {width: '72.4 mm (2.92 in)', height: '152.6 mm (6.0 in)', depth: '7.95 mm (0.31 in)'}
@@ -34,5 +34,5 @@ type: phone
 uses_twrp: true
 vendor: Nubia
 vendor_short: nubia
-versions: [16.0, 17.1]
+versions: [16.0, 17.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
