@@ -33,6 +33,29 @@
       "message": "\u003e Patch Set 5:\n\u003e \n\u003e make a Hudson commit when ready.\n\nZ18 Mini is now ready (branch lineage-19.1)",
       "revId": "cb9dcfcb37c408249aa44c68bdb4d395eaeca568",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e1581232_630595a6",
+        "filename": "_data/devices/nx611j.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2022-12-19T17:41:57Z",
+      "side": 1,
+      "message": "any reason for TWRP? We try to keep lineage recovery if possible.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 104
+      },
+      "revId": "cb9dcfcb37c408249aa44c68bdb4d395eaeca568",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
