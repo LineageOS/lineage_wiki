@@ -16,6 +16,29 @@
       "message": "ready",
       "revId": "1e5e4e1b8cb6c74fe2828143aff1d87505ba077d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "14cbc163_4f103c51",
+        "filename": "_data/devices/nx563j.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2022-12-20T16:09:18Z",
+      "side": 1,
+      "message": "this too",
+      "range": {
+        "startLine": 33,
+        "startChar": 0,
+        "endLine": 33,
+        "endChar": 15
+      },
+      "revId": "1e5e4e1b8cb6c74fe2828143aff1d87505ba077d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
