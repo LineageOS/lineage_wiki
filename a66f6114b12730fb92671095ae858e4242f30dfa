@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f16fc556_11ad2104",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-12-22T18:11:03Z",
+      "side": 1,
+      "message": "Fixed pictures, question about preconditions stays but won\u0027t vote negatively",
+      "revId": "a66f6114b12730fb92671095ae858e4242f30dfa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
