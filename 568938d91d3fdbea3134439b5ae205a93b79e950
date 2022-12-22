@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dcc78f86_c15ee9a9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-12-22T18:25:08Z",
+      "side": 1,
+      "message": "Made it validate + build. Still unsure about actual content, please verify",
+      "revId": "568938d91d3fdbea3134439b5ae205a93b79e950",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
