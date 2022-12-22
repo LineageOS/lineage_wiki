@@ -33,6 +33,23 @@
       "message": "nice find.",
       "revId": "da9db81a62edcad6399cb68c80439126bd826ca8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "668009bd_4c5db9f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-12-22T18:08:09Z",
+      "side": 1,
+      "message": "Sure, was hard to find :P\nAlso: This device doesn\u0027t have any requirement to installed firmware or a bootloader?",
+      "revId": "da9db81a62edcad6399cb68c80439126bd826ca8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
