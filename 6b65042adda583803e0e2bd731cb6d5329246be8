@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d605654_ea0b0376",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 35
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2022-12-23T18:36:51Z",
+      "side": 1,
+      "message": "The important part was \"after cropping\", so first crop to device outline, then make the larger dimension 500px\nFixed for 6 and 7 series",
+      "revId": "6b65042adda583803e0e2bd731cb6d5329246be8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
