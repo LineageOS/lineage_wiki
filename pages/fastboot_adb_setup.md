@@ -33,7 +33,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     * Select the Path variable under "System Variables" and click the "Edit" button
     * Click the "New" button
     * Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
-5. Install the [universal adb driver](https://adb.clockworkmod.com/), and reboot.
+5. Download the [usb drivers](https://developer.android.com/studio/run/win-usb) and follow the instructions there.
 
 ### On macOS
 1. Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
