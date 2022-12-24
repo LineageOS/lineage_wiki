@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f56c9812_8600ec3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 27
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2022-12-24T15:27:05Z",
+      "side": 1,
+      "message": "Rebase this and the following commit on top of \"Initial batch of 20 promotions\"",
+      "revId": "9bde5bd5185b3ec4e9eeee8babc8fd08fa22febc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
