@@ -25,7 +25,7 @@
 - [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ branch_minus_1 }} -> lineage-{{ current_branch }})]({{ path_prefix | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ branch_minus_1 | precision: 1 }} -> lineage-{{ current_branch | precision: 1 }})]({{ path_prefix | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}

@@ -4,7 +4,7 @@ Enter the following to initialize the repository:
 
 ```
 cd ~/android/lineage
-repo init -u https://github.com/LineageOS/android.git -b {% if current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ current_branch }}
+repo init -u https://github.com/LineageOS/android.git -b {% if current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ current_branch | precision: 1 }}
 ```
 
 ### Download the source code
