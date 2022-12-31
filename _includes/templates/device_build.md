@@ -33,7 +33,7 @@ The following branches can be used to build for the {{ device.vendor }} {{ devic
 {% if version < 15 %}
 * cm-{{ version }}
 {% else %}
-* lineage-{{ version }}
+* lineage-{{ version | precision: 1 }}
 {% endif %}
 {% endfor %}
 
