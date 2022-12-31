@@ -16,6 +16,21 @@
 
 {%- assign path_prefix = "devices/" | append: device.codename %}
 {% include snippets/branches.md %}
+{%- assign last_supported_version = device.versions | last %}
+{%- assign end = num_branches | minus: 1 %}
+{%- for i in (0..end) %}
+{%- if branches[i] == last_supported_version %}
+{%- assign index = i %}
+{%- endif %}
+{%- endfor %}
+{%- if index > 0 %}
+    {%- assign prev_branch_index = index | minus: 1 %}
+    {%- assign prev_branch = branches[prev_branch_index] %}
+    {%- assign curr_branch = branches[index] %}
+{%- else %}
+    {%- assign prev_branch = branch_minus_1 %}
+    {%- assign curr_branch = current_branch %}
+{%- endif %}
 
 - [Installation]({{ path_prefix | append: "/install" | relative_url }})
 - [Build for yourself]({{ path_prefix | append: "/build" | relative_url }})
@@ -25,7 +40,7 @@
 - [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ branch_minus_1 }} -> lineage-{{ current_branch }})]({{ path_prefix | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ path_prefix | append: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
