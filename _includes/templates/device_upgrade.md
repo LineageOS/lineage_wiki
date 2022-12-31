@@ -7,6 +7,11 @@
 {%- assign custom_recovery_codename = device.codename %}
 {%- endif %}
 
+{%- assign versions_count = device.versions|size -%}
+{%- if versions_count < 2 %}
+This device does not have more than one version so far, therefore we can't provide you with upgrade instructions!
+{%- else %}
+
 {% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
 
 {% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ path_prefix | append: "/install" | relative_url }}) instructions for installing LineageOS the first time.{% endcapture %}
@@ -120,3 +125,5 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 
 If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
+
+{% endif %}
