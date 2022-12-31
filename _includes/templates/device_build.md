@@ -33,7 +33,7 @@ The following branches can be used to build for the {{ device.vendor }} {{ devic
 {% if version < 15 %}
 * cm-{{ version }}
 {% else %}
-* lineage-{{ version }}
+* lineage-{{ version | precision: 1 }}
 {% endif %}
 {% endfor %}
 
@@ -112,7 +112,7 @@ There you'll find all the files that were created. The two files of more interes
 {% else %}
 1. `recovery.img`, which is the LineageOS recovery image.
 {% endif %}
-2. `lineage-{{ device.current_branch }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, which is the LineageOS
+2. `lineage-{{ device.current_branch | precision: 1 }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, which is the LineageOS
 installer package.
 
 ### Success! So... what's next?
