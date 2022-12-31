@@ -26,7 +26,7 @@
 {%- if device.current_branch < 15 %}
 4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/cm-{{ device.current_branch }}/push-update.sh && chmod +x push-update.sh`
 {%- else %}
-4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-{{ device.current_branch }}/push-update.sh && chmod +x push-update.sh`
+4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-{{ device.current_branch | precision: 1 }}/push-update.sh && chmod +x push-update.sh`
 {% endif %}
 5. Run: `./push-update.sh /path/to/zip`
 {%- if device.is_ab_device %}

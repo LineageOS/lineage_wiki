@@ -32,10 +32,10 @@ Next, enter `lineageremote`. This command will add the remote (use `git remote -
 
 {%- include snippets/branches.md %}
 
-Assuming `lineage-{{ current_branch }}` is the branch to which you are pushing, type:
+Assuming `lineage-{{ current_branch | precision: 1 }}` is the branch to which you are pushing, type:
 
 ```
-git push lineage HEAD:refs/heads/lineage-{{ current_branch }}
+git push lineage HEAD:refs/heads/lineage-{{ current_branch | precision: 1 }}
 ````
 
 ### To mass-push commits to Gerrit for review
