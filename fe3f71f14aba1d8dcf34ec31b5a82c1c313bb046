@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6051c5b7_22b8cf26",
+        "filename": "_data/devices/haydn.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-01-01T17:13:41Z",
+      "side": 1,
+      "message": "except Mi 11X Pro",
+      "range": {
+        "startLine": 28,
+        "startChar": 214,
+        "endLine": 28,
+        "endChar": 217
+      },
+      "revId": "fe3f71f14aba1d8dcf34ec31b5a82c1c313bb046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
