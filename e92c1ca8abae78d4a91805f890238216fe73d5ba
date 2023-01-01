@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f57b144_4aad7110",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-01-01T08:33:31Z",
+      "side": 1,
+      "message": "he already has merge perms on sm7325-common/dubai and his help with the kernel and UDFPS has been epic so he definitely deserves to be mentioned as a maintainer",
+      "revId": "e92c1ca8abae78d4a91805f890238216fe73d5ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
