@@ -216,6 +216,7 @@ definitions:
     - Qualcomm SM7250 Snapdragon 765G
     - Qualcomm SM7325 Snapdragon 778G 5G
     - Qualcomm SM7325-AE Snapdragon 778G+ 5G
+    - Qualcomm SM7350-AB Snapdragon 780G 5G
     - Qualcomm SM8150 Snapdragon 855
     - Qualcomm SM8150-AC Snapdragon 855+
     - Qualcomm SM8150-AC Snapdragon 860
@@ -580,6 +581,7 @@ properties:
     - Adreno 620
     - Adreno 630
     - Adreno 640
+    - Adreno 642
     - Adreno 642L
     - Adreno 650
     - Adreno 660
