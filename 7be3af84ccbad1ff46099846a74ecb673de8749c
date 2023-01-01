@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ca5db326_e1f2b6cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-01-01T22:30:30Z",
+      "side": 1,
+      "message": "Pictures need to be cropped, THEN resized to max 500 px in the larger dimension (for portrait thats usually height). there is certainly no transparent border around them after doing so",
+      "revId": "7be3af84ccbad1ff46099846a74ecb673de8749c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
