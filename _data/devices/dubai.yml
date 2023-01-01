@@ -21,7 +21,7 @@ image: dubai.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sm7325
-maintainers: [themard, sb6596]
+maintainers: [themard, sb6596, Demon000]
 models: [XT2203-1]
 name: edge 30
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
