@@ -22,6 +22,30 @@
       },
       "revId": "fe3f71f14aba1d8dcf34ec31b5a82c1c313bb046",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69e17233_9c8dd0d4",
+        "filename": "_data/devices/haydn.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-01-02T19:54:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6051c5b7_22b8cf26",
+      "range": {
+        "startLine": 28,
+        "startChar": 214,
+        "endLine": 28,
+        "endChar": 217
+      },
+      "revId": "fe3f71f14aba1d8dcf34ec31b5a82c1c313bb046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
