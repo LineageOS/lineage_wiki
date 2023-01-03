@@ -23,6 +23,8 @@ maintainers: [Jleeblanch]
 models: [XT1926-2, XT1926-3, XT1926-5, XT1926-6, XT1926-7, XT1926-8, XT1926-9]
 name: moto g6 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
+note_title: IMS (VoLTE/Wi-Fi Calling) Provisioning
+note_content: LineageOS builds for this device fully support VoLTE on all carriers that the stock ROM does, however it requires that IMS be provisioned on stock pre-install. To provision IMS, simply boot the stock OS, insert your SIM card, then make a call and ensure you see the "HD" icon in the in-call UI screen.
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4/6 GB

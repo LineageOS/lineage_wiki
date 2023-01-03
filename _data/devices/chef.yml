@@ -22,6 +22,8 @@ maintainers: [Hasaber8]
 models: [XT1942-1, XT1942-2]
 name: one power
 network: [2G GSM, 3G UMTS, 4G LTE]
+note_title: IMS (VoLTE/Wi-Fi Calling) Provisioning
+note_content: LineageOS builds for this device fully support VoLTE on all carriers that the stock ROM does, however it requires that IMS be provisioned on stock pre-install. To provision IMS, simply boot the stock OS, insert your SIM card, then make a call and ensure you see the "HD" icon in the in-call UI screen.
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio]
 ram: 4 GB, 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.

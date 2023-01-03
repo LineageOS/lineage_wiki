@@ -25,6 +25,8 @@ maintainers: [themard, sb6596, Demon000]
 models: [XT2203-1]
 name: edge 30
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+note_title: IMS (VoLTE/Wi-Fi Calling) Provisioning
+note_content: LineageOS builds for this device fully support VoLTE on all carriers that the stock ROM does, however it requires that IMS be provisioned on stock pre-install. To provision IMS, simply boot the stock OS, insert your SIM card, then make a call and ensure you see the "HD" icon in the in-call UI screen.
 peripherals: [A-GPS, Accelerometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 6/8 GB LPDDR5 (uMPC5)
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.

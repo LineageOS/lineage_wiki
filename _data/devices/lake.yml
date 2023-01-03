@@ -22,6 +22,8 @@ maintainers: [Jleeblanch, npjohnson]
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
 name: moto g7 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
+note_title: IMS (VoLTE/Wi-Fi Calling) Provisioning
+note_content: LineageOS builds for this device fully support VoLTE on all carriers that the stock ROM does, however it requires that IMS be provisioned on stock pre-install. To provision IMS, simply boot the stock OS, insert your SIM card, then make a call and ensure you see the "HD" icon in the in-call UI screen.
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4 GB
