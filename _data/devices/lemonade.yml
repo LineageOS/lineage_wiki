@@ -15,7 +15,7 @@ cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
 dimensions: {width: '74.2 mm (2.92 in)', height: '160 mm (6.30 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_oneplus_sm8350
+firmware_update: firmware_update_oplus_sm8350
 gpu: Adreno 660
 image: lemonade.png
 install_method: fastboot_nexus

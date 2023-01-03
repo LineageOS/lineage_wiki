@@ -1,4 +1,4 @@
-{% include templates/device_specific/firmware_update_oneplus_fastbootd.md content="
+{% include templates/device_specific/firmware_update_oplus_fastbootd.md content="
 fastboot flash --slot=all abl abl.img
 fastboot flash --slot=all aop aop.img
 fastboot flash --slot=all bluetooth bluetooth.img
