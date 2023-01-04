@@ -16,6 +16,24 @@
       "message": "The pictures are the wrong size. Max dimension: 500px (large) and 150px (small) AFER cropping",
       "revId": "cac6da52a680ec6febfe046ae6d4ad4511c4c067",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f37da73c_7595d708",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 23
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-01-04T19:46:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5e94a467_edbae37b",
+      "revId": "cac6da52a680ec6febfe046ae6d4ad4511c4c067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
