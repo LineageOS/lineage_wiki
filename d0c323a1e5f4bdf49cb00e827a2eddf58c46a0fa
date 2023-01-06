@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a246751_7fd85a9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 41
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32239
+      },
+      "writtenOn": "2023-01-06T17:18:06Z",
+      "side": 1,
+      "message": "\u003e Patch Set 41: Verified+1\n\u003e \n\u003e PASS: MrRobot : https://jenkins.youd.dev/job/lineage-wiki-preview/4808/console\n\u003e Build successful for change 340458, patchset 41; validation passed.\n\u003e Preview available at https://lineage.youd.dev/340458/41\n\nDoes this mean Pixel 6 Pro, 6a, (and 6) are ready for being marked as officially supported now?",
+      "revId": "d0c323a1e5f4bdf49cb00e827a2eddf58c46a0fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
