@@ -16,6 +16,24 @@
       "message": "Verified, built, tested and all ready.",
       "revId": "c76d5aa53f35f4b05aa6c0344a96a5a61a76c181",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1277279f_3d091077",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-01-06T15:02:54Z",
+      "side": 1,
+      "message": "You have still not fixed the reason that this was pulled from 20 as mentioned on discord",
+      "parentUuid": "73caf63d_defa81d8",
+      "revId": "c76d5aa53f35f4b05aa6c0344a96a5a61a76c181",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
