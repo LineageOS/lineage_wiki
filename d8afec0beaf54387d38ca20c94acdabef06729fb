@@ -16,6 +16,24 @@
       "message": "Set current_branch to 20",
       "revId": "d8afec0beaf54387d38ca20c94acdabef06729fb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8e56ed9_88664759",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-01-06T15:31:56Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "20723e2a_8dfe6ceb",
+      "revId": "d8afec0beaf54387d38ca20c94acdabef06729fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
