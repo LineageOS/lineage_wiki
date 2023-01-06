@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "20723e2a_8dfe6ceb",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2023-01-06T14:45:02Z",
+      "side": 0,
+      "message": "Set current_branch to 20",
+      "revId": "d8afec0beaf54387d38ca20c94acdabef06729fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
