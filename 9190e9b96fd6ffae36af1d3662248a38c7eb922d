@@ -16,6 +16,23 @@
       "message": "Editing from mobile.",
       "revId": "9190e9b96fd6ffae36af1d3662248a38c7eb922d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a8847b0_6d77fec9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-01-07T15:25:53Z",
+      "side": 1,
+      "message": "Reverted the commit on device tree related to on_vendor VNDK APEX",
+      "revId": "9190e9b96fd6ffae36af1d3662248a38c7eb922d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
