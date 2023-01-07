@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98eb2003_5eaee979",
+        "filename": "_data/devices/panther.yml",
+        "patchSetId": 30
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 32214
+      },
+      "writtenOn": "2023-01-07T04:01:59Z",
+      "side": 1,
+      "message": "the base Pixel 7 lacks the telephoto camera",
+      "revId": "1286cc0b792984946bf842dadacb0b500574f1bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
