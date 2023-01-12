@@ -50,6 +50,24 @@
       "message": "Sure, was hard to find :P\nAlso: This device doesn\u0027t have any requirement to installed firmware or a bootloader?",
       "revId": "da9db81a62edcad6399cb68c80439126bd826ca8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e04d8c5_8b446e63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32023
+      },
+      "writtenOn": "2023-01-12T16:28:02Z",
+      "side": 1,
+      "message": "stock 11",
+      "parentUuid": "668009bd_4c5db9f0",
+      "revId": "da9db81a62edcad6399cb68c80439126bd826ca8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
