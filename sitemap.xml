@@ -7,7 +7,7 @@ search: exclude
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {%- for page in site.pages %}
   {%- unless page.search == "exclude" %}
-  {%- unless page.url contains "_info.html" or page.url contains "_install.html" or page.url contains "_build.html" or page.url contains "_update.html" or page.permalink == "devices.html" %}
+  {%- unless page.layout == "redirect" %}
   <url>
     <loc>{{site.url}}{{ page.url }}</loc>
   </url>
