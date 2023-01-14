@@ -32,7 +32,7 @@ permalink: faq.html
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status.
 
 ## Where can I find the last build for _xxx_ device before support was dropped/its LineageOS version was deprecated?
- - In short, you can't. We don't keep building, or keep builds around for any version older than 2 Android versions (e.g. when {{ current_branch }} builds started, {{ branch_minus_2 }} builds stopped and the builds were slowly removed, while 17.1 builds continued). We don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
+ - In short, you can't. We don't build more than 2 versions usually (excemptions were made when [major hurdles](https://lineageos.org/Changelog-27/#deprecations) prevented a large amount of devices to receive a newer version) and we don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
 
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug]({{ "how-to/bugreport" | relative_url }}) page before reporting it.
