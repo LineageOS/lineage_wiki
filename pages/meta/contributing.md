@@ -12,7 +12,7 @@ So, you've decided you want to contribute to LineageOS. Awesome! This page will 
 
 To work with the source code, you can check the following links:
 
-- [Build for your device](build_guides.html)
+- [Build for your device](/devices) - Simply click on your device and click the "Build for yourself" link
 - [Build for the Emulator / AVD](emulator.html)
 - [How to import the sources to Android Studio / IntelliJ]({{ "how-to/import-to-android-studio" | relative_url }})
 - [How to submit a patch]({{ "how-to/submitting-patches" | relative_url }})
