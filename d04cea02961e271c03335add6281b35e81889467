@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af8f72be_3cd651cf",
+        "filename": "_includes/snippets/format_on_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-01-15T15:37:27Z",
+      "side": 0,
+      "message": "Remove \"(better: paste)\" since we never mentioned that anywhere in the wiki.",
+      "revId": "d04cea02961e271c03335add6281b35e81889467",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
