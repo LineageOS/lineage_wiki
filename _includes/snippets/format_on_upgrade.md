@@ -5,7 +5,7 @@
 {% if device.format_on_upgrade == "fbe" %}
 ### Determine if you need to wipe your data
 
-This device has switched its' encryption type between versions, possibly requiring you to wipe your data if you want to upgrade.\
+This device has switched its encryption type between versions, possibly requiring you to wipe your data if you want to upgrade.\
 To check if that is the case, open a shell on your computer and type the following:
 
 ```
