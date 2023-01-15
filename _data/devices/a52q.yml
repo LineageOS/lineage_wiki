@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
-before_recovery_install: samsung_sm7125
+before_recovery_install: samsung_qcom
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '64 MP'}
