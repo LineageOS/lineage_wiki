@@ -530,7 +530,10 @@ properties:
     type: string
   format_on_upgrade:
     "$id": "/properties/format_on_upgrade"
-    type: boolean
+    enum:
+      - true
+      - false
+      - fbe
   gpu:
     "$id": "/properties/gpu"
     enum:
