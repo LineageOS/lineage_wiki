@@ -18,7 +18,7 @@ dimensions: {width: '75.3 mm (2.96 in)', height: '155.5 mm (6.12 in)', depth: '8
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sdm845
-format_on_upgrade: true
+format_on_upgrade: fbe
 gpu: Adreno 630
 image: beryllium.png
 install_method: fastboot_xiaomi
