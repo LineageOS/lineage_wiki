@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 7040, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
-before_recovery_install: gts4lv
+before_recovery_install: samsung_qcom
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: None, info: '13 MP'}
