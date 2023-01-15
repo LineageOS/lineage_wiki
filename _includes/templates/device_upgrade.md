@@ -32,9 +32,7 @@ This device does not have more than one version so far, therefore we can't provi
 
 ## Manually upgrading LineageOS
 
-{%- unless device.format_on_upgrade %}
-{% include alerts/note.html content="Following these instructions will **not** wipe your data. It is, however, recommended to save important data before doing so, anyway!" %}
-{%- endunless %}
+{%- include snippets/format_on_upgrade.md %}
 
 {%- unless device.is_ab_device %}
 {%- capture recovery_update %}
