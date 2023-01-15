@@ -75,7 +75,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- if device.format_on_upgrade %}
 4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
     * {{ device.recovery_boot }}
-5. Wipe your data partition (this is usually named "Wipe", or "Format")
+{{ wiping_instructions }}
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
 {%- if device.uses_twrp != true %}
 6. Click `Advanced`, then `Enable ADB`.
