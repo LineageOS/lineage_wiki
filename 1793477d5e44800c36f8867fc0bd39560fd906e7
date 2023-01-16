@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8548f656_36bc1708",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2023-01-16T16:59:15Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2:\n\u003e \n\u003e also why google drive vbmeta? gts4lv tells you to flash lineage one?\n\nI wasn\u0027t quite sure if using the gts4lv one on A52/A72 was possible since someone else made a specific patched one for A52/A72 some time ago. But well, I just checked and the gts4lv one works just fine too.\nI guess linking to the gts4lv one here would be fine then?",
+      "revId": "1793477d5e44800c36f8867fc0bd39560fd906e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
