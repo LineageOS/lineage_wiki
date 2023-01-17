@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 5100, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '11'}
+before_lineage_install: gtowifi
+before_recovery_install: gtowifi
+bluetooth: {spec: '4.2', profiles: [A2DP]}
+cameras:
+- {flash: None, info: '8 MP'}
+- {flash: None, info: '2 MP'}
+codename: gtowifi
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 4 x 2.0 GHz
+current_branch: 20
+dimensions: {width: '124.4 mm (4.90 in)', height: '210 mm (8.27 in)', depth: '8 mm (0.31 in)'}
+download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_samsung_gtowifi
+gpu: Qualcomm Adreno 504
+image: gtowifi.png
+install_method: odin
+kernel: android_kernel_samsung_sdm429
+maintainers: [ lifehackerhansol ]
+models: [SM-T290]
+name: Galaxy Tab A 8.0 (2019)
+peripherals: [Accelerometer, GPS, Gyroscope]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2019
+screen: {size: '185.6 mm (8.0 in)', density: 287, resolution: '800x1280', technology: 'TFT LCD'}
+sdcard: {sizeMax: '512 GB'}
+soc: Qualcomm SDM429 Snapdragon 429
+storage: 32/64 GB
+tree: android_device_samsung_gtowifi
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [ 19.1 ]
+wifi: 802.11 a/b/g/n, Dual-band, Wi-Fi Direct, Hotspot
