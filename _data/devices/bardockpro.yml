@@ -8,16 +8,16 @@ codename: bardockpro
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 18.1
+current_branch: 20
 custom_recovery_codename: bardock_pro
 dimensions: {width: '72.7 mm (2.86 in)', height: '146.5 mm (5.77 in)', depth: '7.8 mm (0.3 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: false
+format_on_upgrade: fbe
 gpu: Adreno 506
 image: bardock.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8953
-maintainers: []
+maintainers: [Quallenauge, jmpfbmx]
 name: Aquaris X Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Galileo, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
@@ -30,8 +30,7 @@ soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64/128 GB
 tree: android_device_bq_bardockpro
 type: phone
-uses_twrp: true
 vendor: BQ
 vendor_short: bq
-versions: [15.1, 16.0, 17.1, 18.1]
+versions: [15.1, 16.0, 17.1, 18.1, 20]
 wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
