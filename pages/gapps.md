@@ -60,6 +60,7 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
+|Lineage 20 (Android 13)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/ATV))]
 |Lineage 19 (Android 12L)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/ATV))|
 |Lineage 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/ATV))|[Open GApps](https://opengapps.org/?api=11.0&variant=tvstock)|
 |Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=tvstock)|
