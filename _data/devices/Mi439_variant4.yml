@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '10'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
+bluetooth: {spec: '5'}
+cameras:
+- {flash: 'LED', info: '13 MP (Main)'}
+- {flash: None, info: '2 MP (Depth)'}
+- {flash: None, info: '8 MP (Front)'}
+codename: Mi439
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.02 GHz + 4 x 1.46 GHz
+current_branch: 19.1
+dimensions: {width: '75.4 mm (2.96 in)', height: '156.5 mm (6.16 in)', depth: '9.4 mm (0.37 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 505
+image: olive.png
+install_method: fastboot_xiaomi
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_sdm439
+maintainers: ["0xCAFEBABE"]
+models: [M2001C3K3I]
+name: Redmi 8A Dual
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 2 / 3 / 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the screen lights up, release the buttons.
+release:
+- Redmi 8A Dual (India): 2019-10-09
+- Redmi 8A Dual (China): 2019-10-14
+screen: {size: '157 mm (6.22 in)', density: 270, resolution: '720x1520', technology: 'IPS LCD'}
+sdcard: {sizeMax: '256 GB'}
+soc: Qualcomm SDM439 Snapdragon 439
+storage: 16 / 32 / 64 GB
+tree: android_device_xiaomi_Mi439
+type: phone
+variant: 4
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 b/g/n
