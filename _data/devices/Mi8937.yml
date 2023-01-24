@@ -1,0 +1,99 @@
+architecture: arm64
+battery:
+- Redmi 3S / 3X / 4(X): {removable: False, capacity: 4100, tech: 'Li-Ion'}
+- Redmi 4A: {removable: False, capacity: 3120, tech: 'Li-Ion'}
+- Redmi 5A: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+- Redmi Note 5A / Y1 - Lite / Prime: {removable: False, capacity: 3080, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '13 MP (Rear)'}
+- {flash: 'LED', info: '16 MP (Front) (Redmi Note 5A / Y1 - Prime)'}
+- {flash: None, info: '5 MP (Front) (the rest of devices)'}
+codename: Mi8937
+cpu: Cortex-A53
+cpu_cores: '4 (MSM8917) / 8 (MSM8937 / MSM8940) '
+cpu_freq: 4 x 1.4 GHz (MSM8917) / 4 x 1.4 GHz & 4 x 1.1 GHz (MSM8937 / MSM8940)
+current_branch: 19.1
+dimensions:
+- Redmi 3S / 3X: {width: '69.6 mm (2.74 in)', height: '139.3 mm (5.48 in)', depth: '8.5 mm (0.33 in)'}
+- Redmi 4A: {width: '70.4 mm (2.77 in)', height: '139.9 mm (5.5 in)', depth: '8.5 mm (0.33 in)'}
+- Redmi 4(X): {width: '69.96 mm (2.75 in)', height: '139.24 mm (5.48 in)', depth: '8.65 mm (0.34 in)'}
+- Redmi 5A: {width: '70.1 mm (2.75 in)', height: '140.4 mm (5.52 in)', depth: '8.35 mm (0.32 in)'}
+- Redmi Note 5A / Y1 - Lite / Prime: {width: '76.2 mm (3 in)', height: '153 mm (6.02 in)', depth: '7.55 mm (0.29 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 505
+#gpu:
+#- Redmi 3S / 3X / 4(X): Adreno 505
+#- Redmi 4A / 5A: Adreno 308
+#- Redmi Note 5A / Y1 - Lite: Adreno 308
+#- Redmi Note 5A / Y1 - Prime: Adreno 505
+image: Mi8937.png
+install_method: fastboot_xiaomi
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_msm8937
+maintainers: ["0xCAFEBABE"]
+models: ["2016031", "2016037", "2016032", "2016030", "2016036", "2016035", "2016033", "2016111", "2016112", "2016116", "2016117", MAG138, MAI132, MAE136, MAT136, MCE3B, MCG3B, MCI3B, MCT3B, MDE6, MDG6, MDI6, MDT6, MDE6S, MDG6S, MDI6S, MDT6S]
+#models:
+#- Redmi 3S: ["2016031", "2016037", "2016032", "2016030"]
+#- Redmi 3X: ["2016036", "2016035", "2016033"]
+#- Redmi 4A: ["2016111", "2016112", "2016116", "2016117"]
+#- Redmi 4(X): [MAG138, MAI132, MAE136, MAT136]
+#- Redmi 5A: [MCE3B, MCG3B, MCI3B, MCT3B]
+#- Redmi Note 5A / Y1 - Lite: [MDE6, MDG6, MDI6, MDT6]
+#- Redmi Note 5A / Y1 - Prime: [MDE6S, MDG6S, MDI6S, MDT6S]
+name: Redmi 3S / 3X / 4A / 4X / 5A / Note 5A / Y1
+network: [2G GSM, 2G CDMA, 3G CDMA2000, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
+ram: 2 / 3 / 4 GB
+#ram:
+#- Redmi 3S: 2 GB
+#- Redmi 3S Prime: 3 GB
+#- Redmi 3X: 3 GB
+#- Redmi 4A: 2 GB
+#- Redmi 4(X): 2 / 3 / 4 GB
+#- Redmi 5A: 2 / 3 GB
+#- Redmi Note 5A / Y1 - Lite: 2 GB
+#- Redmi Note 5A / Y1 - Prime: 3 / 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the screen lights up, release the buttons.
+release:
+- Redmi 3S: 2016-06-14
+- Redmi 3X: 2016-06-15
+- Redmi 4A: 2016-11-04
+- Redmi 4(X): 2017-02-28
+- Redmi 5A: 2017-10-16
+- Redmi Note 5A / Y1 - Lite / Prime: 2017-08-21
+required_bootloader: ["V10.1.1.0.NCKMIFI or V10.1.1.0.NCKCNFI for Redmi 5A, or latest for the other devices"]
+#required_bootloader:
+#- Redmi 3S / 3X: ["V10.2.2.0.MALMIXM", "V10.2.2.0.MALCNXM"]
+#- Redmi 4A: ["V10.2.3.0.NCCMIXM"]
+#- Redmi 4(X): ["V11.0.2.0.NAMMIXM", "V11.0.1.0.NAMCNXM"]
+#- Redmi 5A: ["V10.1.1.0.NCKMIFI", "V10.1.1.0.NCKCNFI"]
+#- Redmi Note 5A / Y1 - Lite: ["V11.0.3.0.NDFMIXM", "V11.0.2.0.NDFCNXM"]
+#- Redmi Note 5A / Y1 - Prime: ["V11.0.2.0.NDKMIXM", "V11.0.1.0.NDKCNXM"]
+screen:
+- Redmi 3S / 3X / 4A / 4X / 5A: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
+- Redmi Note 5A / Y1 - Lite / Prime: {size: '139.7 mm (5.5 in)', density: 267, resolution: '720x1280', technology: 'IPS LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc:
+- Redmi 3S / 3X: Qualcomm MSM8937 Snapdragon 430
+- Redmi 4A / 5A: Qualcomm MSM8917 Snapdragon 425
+- Redmi 4(X): Qualcomm MSM8940 Snapdragon 435
+- Redmi Note 5A / Y1 - Lite: Qualcomm MSM8917 Snapdragon 425
+- Redmi Note 5A / Y1 - Prime: Qualcomm MSM8940 Snapdragon 435
+storage: 16 / 32 / 64 GB
+#storage:
+#- Redmi 3S: 16 GB
+#- Redmi 3S Prime: 16 GB
+#- Redmi 3X: 32 GB
+#- Redmi 4A: 16 GB
+#- Redmi 4(X): 16 / 32 / 64 GB
+#- Redmi 5A: 16 / 32 GB
+#- Redmi Note 5A / Y1 - Lite: 16 GB
+#- Redmi Note 5A / Y1 - Prime: 32 / 64 GB
+tree: android_device_xiaomi_Mi8937
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 b/g/n
