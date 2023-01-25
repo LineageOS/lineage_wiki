@@ -34,6 +34,24 @@
       "parentUuid": "91b98b17_3c3db3e1",
       "revId": "10b91e9b8aacff228145504d9eec2b1eab88ff45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06bd41b9_c353a31b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-01-25T15:48:09Z",
+      "side": 1,
+      "message": "I\u0027m not even sure if you can ship that mess...\n\nAnyway, regarding this change, check this https://review.lineageos.org/c/LineageOS/lineage_wiki/+/347894",
+      "parentUuid": "51640c1a_a987e270",
+      "revId": "10b91e9b8aacff228145504d9eec2b1eab88ff45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
