@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b62ec08d_09c46f8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T13:37:44Z",
+      "side": 1,
+      "message": "Required by https://review.lineageos.org/c/LineageOS/lineage_wiki/+/347842",
+      "revId": "5a9adbe7b0f64416539a0b50bf6fc342f28d3830",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
