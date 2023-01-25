@@ -15,7 +15,7 @@ custom_unlock_cmd: 'fastboot oem yandex_unlock'
 dimensions: {width: '72.5 mm (2.83 in)', height: '150.1 mm (5.91 in)', depth: '8.3 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Release  <kbd>Power</kbd> after vibro and keep holding <kbd>Volume Down</kbd> until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 508
+gpu: Qualcomm Adreno 508
 image: Amber.png
 install_method: fastboot_nexus
 is_ab_device: true

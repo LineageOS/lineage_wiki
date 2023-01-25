@@ -12,7 +12,7 @@ current_branch: 17.1
 dimensions: {width: '70.6 mm (2.78 in)', height: '146.36 mm (5.76 in)', depth: '9.35 mm (0.37 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
-gpu: Adreno 330
+gpu: Qualcomm Adreno 330
 image: m8.png
 install_method: fastboot_htc
 kernel: android_kernel_htc_msm8974

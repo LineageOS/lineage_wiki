@@ -13,7 +13,7 @@ current_branch: 18.1
 dimensions: {width: '75.4 mm (2.97 in)', height: '158.7 mm (6.25 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 512
+gpu: Qualcomm Adreno 512
 image: jasmine_sprout.png
 install_method: fastboot_nexus
 is_ab_device: true

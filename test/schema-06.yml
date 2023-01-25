@@ -91,7 +91,6 @@ definitions:
     type: string
   gpu_data:
     enum:
-    - ARM Mali-400 MP
     - ARM Mali-400 MP4
     - ARM Mali-G31 MP2
     - ARM Mali-G71 MP2
@@ -99,7 +98,7 @@ definitions:
     - ARM Mali-G72 MP18
     - ARM Mali-G72 MP3
     - ARM Mali-G76 MP12
-    - ARM Mali-T604
+    - ARM Mali-T604 MP4
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2
     - ARM Mali-T760 MP6
@@ -107,54 +106,53 @@ definitions:
     - ARM Mali-T830 MP2
     - ARM Mali-T830 MP3
     - ARM Mali-T880 MP12
-    - Adreno 225
-    - Adreno 302
-    - Adreno 305
-    - Adreno 306
-    - Adreno 308
-    - Adreno 320
-    - Adreno 330
-    - Adreno 405
-    - Adreno 418
-    - Adreno 420
-    - Adreno 430
-    - Adreno 504
-    - Adreno 505
-    - Adreno 506
-    - Adreno 508
-    - Adreno 509
-    - Adreno 510
-    - Adreno 512
-    - Adreno 530
-    - Adreno 540
-    - Adreno 605
-    - Adreno 610
-    - Adreno 612
-    - Adreno 615
-    - Adreno 616
-    - Adreno 618
-    - Adreno 619
-    - Adreno 620
-    - Adreno 630
-    - Adreno 640
-    - Adreno 642
-    - Adreno 642L
-    - Adreno 650
-    - Adreno 660
-    - Adreno 675
-    - Adreno 680
-    - Adreno 685
-    - Adreno 690
-    - GK20A (Kepler)
-    - GM20B (Maxwell)
-    - GP10B (Pascal)
+    - NVIDIA GK20A (Kepler)
+    - NVIDIA GM20B (Maxwell)
+    - NVIDIA GP10B (Pascal)
     - NVIDIA Kepler DX1 192-core
     - NVIDIA Maxwell 256-core
+    - NVIDIA Tegra 4
     - PowerVR G6430
     - PowerVR SGX540
     - PowerVR SGX544MP2
-    - PowerVR Series 6
-    - Tegra 4
+    - Qualcomm Adreno 225
+    - Qualcomm Adreno 302
+    - Qualcomm Adreno 305
+    - Qualcomm Adreno 306
+    - Qualcomm Adreno 308
+    - Qualcomm Adreno 320
+    - Qualcomm Adreno 330
+    - Qualcomm Adreno 405
+    - Qualcomm Adreno 418
+    - Qualcomm Adreno 420
+    - Qualcomm Adreno 430
+    - Qualcomm Adreno 504
+    - Qualcomm Adreno 505
+    - Qualcomm Adreno 506
+    - Qualcomm Adreno 508
+    - Qualcomm Adreno 509
+    - Qualcomm Adreno 510
+    - Qualcomm Adreno 512
+    - Qualcomm Adreno 530
+    - Qualcomm Adreno 540
+    - Qualcomm Adreno 605
+    - Qualcomm Adreno 610
+    - Qualcomm Adreno 612
+    - Qualcomm Adreno 615
+    - Qualcomm Adreno 616
+    - Qualcomm Adreno 618
+    - Qualcomm Adreno 619
+    - Qualcomm Adreno 620
+    - Qualcomm Adreno 630
+    - Qualcomm Adreno 640
+    - Qualcomm Adreno 642
+    - Qualcomm Adreno 642L
+    - Qualcomm Adreno 650
+    - Qualcomm Adreno 660
+    - Qualcomm Adreno 675
+    - Qualcomm Adreno 680
+    - Qualcomm Adreno 685
+    - Qualcomm Adreno 690
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -612,8 +610,8 @@ properties:
       type: array
     - description: Array of maps of model numbers to GPU data
       examples:
-      - SM-9000A: Adreno 306
-      - SM-9000B: Adreno 405
+      - SM-9000A: Qualcomm Adreno 306
+      - SM-9000B: Qualcomm Adreno 405
       items:
         additionalProperties:
           "$ref": "#/definitions/gpu_data"

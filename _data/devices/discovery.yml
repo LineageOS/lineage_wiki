@@ -14,7 +14,7 @@ cpu_freq: 2.2 GHz
 current_branch: 19.1
 dimensions: {width: '80 mm (3.15 in)', height: '163 mm (6.42 in)', depth: '9.5 mm (0.37 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
-gpu: Adreno 508
+gpu: Qualcomm Adreno 508
 image: discovery.png
 install_method: fastboot_sony
 is_ab_device: true

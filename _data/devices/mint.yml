@@ -11,7 +11,7 @@ cpu_freq: 1.5 GHz
 current_branch: 15.1
 dimensions: {width: '67.3 mm (2.6 in)', height: '129.4 mm (5.1 in)', depth: '10.45 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
-gpu: Adreno 225
+gpu: Qualcomm Adreno 225
 image: mint.png
 install_method: fastboot_sony
 install_variant: sony_init_fota

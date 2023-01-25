@@ -10,7 +10,7 @@ cpu_freq: 2.3 GHz
 current_branch: 14.1
 dimensions: {width: '77 mm (3 in)', height: '161.2 mm (6.3 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 330
+gpu: Qualcomm Adreno 330
 image: n3.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8974

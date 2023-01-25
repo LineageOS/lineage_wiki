@@ -11,7 +11,7 @@ cpu_freq: 2.0 GHz
 current_branch: 18.1
 dimensions: {width: '76 mm (2.99 in)', height: '153 mm (6.02 in)', depth: '8.3 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 506
+gpu: Qualcomm Adreno 506
 image: kuntao.png
 install_method: fastboot_lenovo
 kernel: android_kernel_lenovo_msm8953

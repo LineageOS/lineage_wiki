@@ -14,7 +14,7 @@ cpu_freq: 2.2 GHz
 current_branch: 20
 dimensions: {width: '73.4 mm (2.89 in)', height: '148.4 mm (5.84 in)', depth: '8.0 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 508
+gpu: Qualcomm Adreno 508
 image: payton.png
 install_method: fastboot_motorola
 is_ab_device: true

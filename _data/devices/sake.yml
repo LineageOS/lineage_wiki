@@ -14,7 +14,7 @@ cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 19.1
 dimensions: {width: '68.5 mm (2.70 in)', height: '148 mm (5.83 in)', depth: '8.9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 660
+gpu: Qualcomm Adreno 660
 image: sake.png
 install_method: fastboot_zenfone
 is_ab_device: true

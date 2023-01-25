@@ -14,7 +14,7 @@ current_branch: 15.1
 custom_recovery_link: https://forum.xda-developers.com/honor-4x/development/recovery-twrp-3-0-0-0-touch-recovery-t3309504
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 306
+gpu: Qualcomm Adreno 306
 gsm: GSM 900 /1800 / 1900
 image: cherry.png
 install_method: fastboot_huawei

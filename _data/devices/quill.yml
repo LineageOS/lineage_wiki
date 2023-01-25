@@ -11,7 +11,7 @@ dimensions: None
 download_boot: For TX2 Devkit - With the device off, press the <kbd>FRC REC</kbd> button, then tap <kbd>POWER</kbd>. Release <kbd>FRC REC</kbd> once apx enumerates. For TX2 NX - With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
 flash_download_instructions: For TX2 Devkit, It will be named `p2771_flash_package.tar.xz`. For TX2 NX Devkit, It will be named `p3636-p3509_flash_package.tar.xz`.
 flash_extract_instructions: For TX2 Devkit, `tar -xvf p2771_flash_package.tar.xz`. For TX2 NX Devkit, `tar -xvf p3636-p3509_flash_package.tar.xz`.
-gpu: GP10B (Pascal)
+gpu: NVIDIA GP10B (Pascal)
 image: quill.png
 install_method: apx
 is_ab_device: true

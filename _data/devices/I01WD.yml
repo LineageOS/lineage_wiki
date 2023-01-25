@@ -14,7 +14,7 @@ current_branch: 17.1
 dimensions: {width: '75.4 mm (2.97 in)', height: '159.1 mm (6.26 in)', depth: '9.2 mm (0.36 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the words "Fastboot Mode" appear on the screen, then release.
-gpu: Adreno 640
+gpu: Qualcomm Adreno 640
 image: I01WD.png
 install_method: fastboot_zenfone
 is_ab_device: true

@@ -16,7 +16,7 @@ current_branch: 20
 custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 dimensions: {width: '74.2 mm (2.92 in)', height: '159.4 mm (6.28 in)', depth: '6.8 mm (0.27 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 642L
+gpu: Qualcomm Adreno 642L
 image: dubai.png
 install_method: fastboot_motorola
 is_ab_device: true

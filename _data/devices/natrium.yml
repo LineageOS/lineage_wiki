@@ -14,7 +14,7 @@ dimensions: {width: '77.7 mm (3.06 in)', height: '154.6 mm (6.09 in)', depth: '8
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 format_on_upgrade: true
-gpu: Adreno 530
+gpu: Qualcomm Adreno 530
 image: natrium.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8996

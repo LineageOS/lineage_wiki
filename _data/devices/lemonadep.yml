@@ -17,7 +17,7 @@ current_branch: 20
 dimensions: {width: '73.6 mm (2.90 in)', height: '163.2 mm (6.43 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8350
-gpu: Adreno 660
+gpu: Qualcomm Adreno 660
 image: lemonadep.png
 install_method: fastboot_nexus
 is_ab_device: true

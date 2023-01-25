@@ -14,7 +14,7 @@ cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 18.1
 dimensions: {width: '73.9 mm (2.91 in)', height: '149.4 mm (5.88 in)', depth: '7.7 mm (0.30 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 530
+gpu: Qualcomm Adreno 530
 image: g5.png
 install_method: fastboot_nexus
 is_unlockable: false

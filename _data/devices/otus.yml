@@ -13,7 +13,7 @@ custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3084849
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
-gpu: Adreno 302
+gpu: Qualcomm Adreno 302
 image: otus.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8610

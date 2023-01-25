@@ -12,7 +12,7 @@ current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {width: '76.7 mm (3.02 in)', height: '157.9 mm (6.22 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 540
+gpu: Qualcomm Adreno 540
 image: taimen.png
 install_method: fastboot_nexus
 is_ab_device: true

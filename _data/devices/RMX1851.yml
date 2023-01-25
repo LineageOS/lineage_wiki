@@ -12,7 +12,7 @@ current_branch: 16.0
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
-gpu: Adreno 616
+gpu: Qualcomm Adreno 616
 install_method: fastboot_realme
 image: RMX1851.png
 kernel: android_kernel_realme_sdm710

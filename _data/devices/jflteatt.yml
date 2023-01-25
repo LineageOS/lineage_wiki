@@ -14,7 +14,7 @@ custom_recovery_link: https://www.androidfilehost.com/?fid=7161016148664832487
 dimensions: {width: '69.8 mm (2.7 in)', height: '136.6 mm (5.4 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
-gpu: Adreno 320
+gpu: Qualcomm Adreno 320
 image: jflte.png
 install_method: dd
 kernel: android_kernel_samsung_jf
