@@ -33,6 +33,24 @@
       "message": "SoCs aren\u0027t grouped by platform, the same SoC can\u0027t have different GPUs",
       "revId": "5a9adbe7b0f64416539a0b50bf6fc342f28d3830",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f7310ba_3ccd6190",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T14:28:45Z",
+      "side": 1,
+      "message": "why there\u0027s `Adreno 405/306` in below then",
+      "parentUuid": "4272f625_98215330",
+      "revId": "5a9adbe7b0f64416539a0b50bf6fc342f28d3830",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
