@@ -103,10 +103,31 @@
             {%- endif -%}
         </td>
     </tr>
+    {%- if device.gpu != "None" %}
     <tr>
         <th scope="row">GPU</th>
-        <td>{{ device.gpu }}</td>
+        <td>
+          {%- if device.gpu.first -%}
+            {%- for gpu in device.gpu -%}
+              {%- if gpu.first -%}
+                {{ gpu.first[0] }}: {{ gpu.first[1] }}
+              {%- else %}
+                {{ gpu }}
+              {%- endif %}
+              {%- unless forloop.last -%}
+                {%- if gpu.first -%}
+                  <br/>
+                {%- else %}
+                  /
+                {%- endif %}
+              {% endunless %}
+            {%- endfor %}
+          {%- else %}
+            {{ device.gpu }}
+          {%- endif %}
+        </td>
     </tr>
+    {%- endif %}
     {%- if device.network != 'None' %}
     <tr>
         <th scope="row">Network</th>

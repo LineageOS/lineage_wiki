@@ -89,6 +89,73 @@ definitions:
   dimension_string:
     pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
     type: string
+  gpu_data:
+    enum:
+    - ARM Mali-400 MP
+    - ARM Mali-400 MP4
+    - ARM Mali-G31 MP2
+    - ARM Mali-G71 MP2
+    - ARM Mali-G72 MP12
+    - ARM Mali-G72 MP18
+    - ARM Mali-G72 MP3
+    - ARM Mali-G76 MP12
+    - ARM Mali-T604
+    - ARM Mali-T628 MP6
+    - ARM Mali-T720 MP2
+    - ARM Mali-T760 MP6
+    - ARM Mali-T760 MP8
+    - ARM Mali-T830 MP2
+    - ARM Mali-T830 MP3
+    - ARM Mali-T880 MP12
+    - Adreno 225
+    - Adreno 302
+    - Adreno 305
+    - Adreno 306
+    - Adreno 308
+    - Adreno 320
+    - Adreno 330
+    - Adreno 405
+    - Adreno 405/306
+    - Adreno 418
+    - Adreno 420
+    - Adreno 430
+    - Adreno 504
+    - Adreno 505
+    - Adreno 506
+    - Adreno 508
+    - Adreno 509
+    - Adreno 510
+    - Adreno 512
+    - Adreno 530
+    - Adreno 540
+    - Adreno 605
+    - Adreno 610
+    - Adreno 612
+    - Adreno 615
+    - Adreno 616
+    - Adreno 618
+    - Adreno 619
+    - Adreno 620
+    - Adreno 630
+    - Adreno 640
+    - Adreno 642
+    - Adreno 642L
+    - Adreno 650
+    - Adreno 660
+    - Adreno 675
+    - Adreno 680
+    - Adreno 685
+    - Adreno 690
+    - GK20A (Kepler)
+    - GM20B (Maxwell)
+    - GP10B (Pascal)
+    - NVIDIA Kepler DX1 192-core
+    - NVIDIA Maxwell 256-core
+    - PowerVR G6430
+    - PowerVR SGX540
+    - PowerVR SGX544MP2
+    - PowerVR Series 6
+    - Tegra 4
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -536,72 +603,26 @@ properties:
       - fbe
   gpu:
     "$id": "/properties/gpu"
-    enum:
-    - ARM Mali-400 MP
-    - ARM Mali-400 MP4
-    - ARM Mali-G31 MP2
-    - ARM Mali-G71 MP2
-    - ARM Mali-G72 MP12
-    - ARM Mali-G72 MP18
-    - ARM Mali-G72 MP3
-    - ARM Mali-G76 MP12
-    - ARM Mali-T604
-    - ARM Mali-T628 MP6
-    - ARM Mali-T720 MP2
-    - ARM Mali-T760 MP6
-    - ARM Mali-T760 MP8
-    - ARM Mali-T830 MP2
-    - ARM Mali-T830 MP3
-    - ARM Mali-T880 MP12
-    - Adreno 225
-    - Adreno 302
-    - Adreno 305
-    - Adreno 306
-    - Adreno 308
-    - Adreno 320
-    - Adreno 330
-    - Adreno 405
-    - Adreno 405/306
-    - Adreno 418
-    - Adreno 420
-    - Adreno 430
-    - Adreno 504
-    - Adreno 505
-    - Adreno 506
-    - Adreno 508
-    - Adreno 509
-    - Adreno 510
-    - Adreno 512
-    - Adreno 530
-    - Adreno 540
-    - Adreno 605
-    - Adreno 610
-    - Adreno 612
-    - Adreno 615
-    - Adreno 616
-    - Adreno 618
-    - Adreno 619
-    - Adreno 620
-    - Adreno 630
-    - Adreno 640
-    - Adreno 642
-    - Adreno 642L
-    - Adreno 650
-    - Adreno 660
-    - Adreno 675
-    - Adreno 680
-    - Adreno 685
-    - Adreno 690
-    - GK20A (Kepler)
-    - GM20B (Maxwell)
-    - GP10B (Pascal)
-    - NVIDIA Kepler DX1 192-core
-    - NVIDIA Maxwell 256-core
-    - PowerVR G6430
-    - PowerVR SGX540
-    - PowerVR SGX544MP2
-    - PowerVR Series 6
-    - Tegra 4
+    oneOf:
+    - "$ref": "#/definitions/gpu_data"
+    - items:
+        "$id": "/properties/gpu/items"
+        "$ref": "#/definitions/gpu_data"
+      minItems: 2
+      uniqueItems: True
+      type: array
+    - description: Array of maps of model numbers to GPU data
+      examples:
+      - SM-9000A: Adreno 306
+      - SM-9000B: Adreno 405
+      items:
+        additionalProperties:
+          "$ref": "#/definitions/gpu_data"
+        description: Map of model number to gpu_data
+        type: object
+      type: array
+    - enum:
+      - None
   has_recovery_partition:
     "$id": "/properties/has_recovery_partition"
     type: boolean
