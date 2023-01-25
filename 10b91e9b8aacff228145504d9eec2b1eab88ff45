@@ -16,6 +16,24 @@
       "message": "I literally just said that software doesn\u0027t matter here, only what\u0027s actually inside the SoC",
       "revId": "10b91e9b8aacff228145504d9eec2b1eab88ff45",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51640c1a_a987e270",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T15:23:26Z",
+      "side": 1,
+      "message": "anyway, how should I make a proper wiki page for Mi8937 or it\u0027s impossible?",
+      "parentUuid": "91b98b17_3c3db3e1",
+      "revId": "10b91e9b8aacff228145504d9eec2b1eab88ff45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
