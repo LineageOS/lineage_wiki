@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4eb9b28_54b9ac92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T13:34:50Z",
+      "side": 1,
+      "message": "Patchset 6 requires this to pass the check.\n\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/347883",
+      "revId": "8009443888c6283aa7376925d5518f17fa870e16",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
