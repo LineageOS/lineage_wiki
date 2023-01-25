@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d99464e9_9928e344",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-01-25T08:49:36Z",
+      "side": 1,
+      "message": "This is very ugly. As you can see by the amount of parameters you can\u0027t set device specific (all the commented blocks), such a case is not something we usually have...\nMaybe consider shipping separate builds for the devices?",
+      "revId": "6cae7e696d0008f249b1cd227e98b55cddfe25f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
