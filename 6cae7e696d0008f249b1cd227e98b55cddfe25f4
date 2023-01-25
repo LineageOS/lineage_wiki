@@ -16,6 +16,24 @@
       "message": "This is very ugly. As you can see by the amount of parameters you can\u0027t set device specific (all the commented blocks), such a case is not something we usually have...\nMaybe consider shipping separate builds for the devices?",
       "revId": "6cae7e696d0008f249b1cd227e98b55cddfe25f4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27752928_b9e93092",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T11:22:42Z",
+      "side": 1,
+      "message": "NOPE.\n\nCan I proceed with this anyway?\nI may try to make these parameters support Model-Value pairs as well if it\u0027s mandatory.",
+      "parentUuid": "d99464e9_9928e344",
+      "revId": "6cae7e696d0008f249b1cd227e98b55cddfe25f4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
