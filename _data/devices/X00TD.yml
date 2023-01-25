@@ -13,7 +13,7 @@ current_branch: 19.1
 dimensions: {width: '76 mm (2.99 in)', height: '159 mm (6.26 in)', depth: '8.5 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 509
+gpu: Qualcomm Adreno 509
 image: X00TD.png
 install_method: fastboot_zenfone
 kernel: android_kernel_asus_sdm660

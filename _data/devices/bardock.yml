@@ -12,7 +12,7 @@ current_branch: 20
 dimensions: {width: '72.7 mm (2.86 in)', height: '146.5 mm (5.76 in)', depth: '7.9 mm (0.3 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: fbe
-gpu: Adreno 506
+gpu: Qualcomm Adreno 506
 image: bardock.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8953

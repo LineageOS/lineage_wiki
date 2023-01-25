@@ -9,7 +9,7 @@ cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 18.1
 dimensions: None
-gpu: GM20B (Maxwell)
+gpu: NVIDIA GM20B (Maxwell)
 image: foster.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9

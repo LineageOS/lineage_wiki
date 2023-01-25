@@ -16,7 +16,7 @@ current_branch: 19.1
 dimensions: {width: '76.45 mm (3.01 in)', height: '163.57 mm (6.44 in)', depth: '7.87 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 660
+gpu: Qualcomm Adreno 660
 image: haydn.png
 install_method: fastboot_xiaomi
 is_ab_device: true

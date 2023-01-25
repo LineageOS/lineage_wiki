@@ -14,7 +14,7 @@ cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
 current_branch: 20
 dimensions: {width: '80 mm (3.15 in)', height: '158 mm (6.22 in)', depth: '11.9 mm (0.47 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
-gpu: Adreno 630
+gpu: Qualcomm Adreno 630
 image: aurora.png
 install_method: fastboot_sony
 is_ab_device: true

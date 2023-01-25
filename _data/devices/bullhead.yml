@@ -12,7 +12,7 @@ current_branch: 15.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {width: '72.6 mm (2.86 in)', height: '147 mm (5.79 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 418
+gpu: Qualcomm Adreno 418
 image: bullhead.png
 install_method: fastboot_nexus
 kernel: android_kernel_lge_bullhead

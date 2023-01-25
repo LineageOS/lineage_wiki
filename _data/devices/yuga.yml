@@ -11,7 +11,7 @@ cpu_freq: 1.5 GHz
 current_branch: 15.1
 dimensions: {width: '71 mm (2.79 in)', height: '139 mm (5.47 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
-gpu: Adreno 320
+gpu: Qualcomm Adreno 320
 image: yuga.png
 install_method: fastboot_sony
 install_variant: sony_init_fota

@@ -12,7 +12,7 @@ current_branch: 19.1
 dimensions: {width: '68.9 mm (2.71 in)', height: '141.7 mm (5.58 in)', depth: '8.5 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Power</kbd>.
   Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
-gpu: Adreno 530
+gpu: Qualcomm Adreno 530
 image: z2_plus.png
 install_method: fastboot_custom
 kernel: android_kernel_zuk_msm8996

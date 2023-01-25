@@ -16,7 +16,7 @@ custom_unlock_cmd: fastboot oem unlock-go
 dimensions: {width: '73 mm (2.87 in)', height: '157.5 mm (6.2 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 640
+gpu: Qualcomm Adreno 640
 image: heart.png
 install_method: fastboot_lenovo
 install_variant: lenovo_unlock_url

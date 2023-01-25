@@ -10,7 +10,7 @@ current_branch: 18.1
 dimensions: None
 download_boot: With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
 flash_codename: p3450
-gpu: GM20B (Maxwell)
+gpu: NVIDIA GM20B (Maxwell)
 image: porg.png
 install_method: apx
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9

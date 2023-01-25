@@ -10,7 +10,7 @@ current_branch: 13.0
 dimensions: None
 download_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed.
-gpu: Tegra 4
+gpu: NVIDIA Tegra 4
 image: roth.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_roth

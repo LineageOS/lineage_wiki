@@ -16,7 +16,7 @@ current_branch: 19.1
 dimensions: {width: '76.6 mm (3.02 in)', height: '165.7 mm (6.52 in)', depth: '8.8 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-gpu: Adreno 618
+gpu: Qualcomm Adreno 618
 has_recovery_partition: true
 image: miatoll.png
 install_method: fastboot_xiaomi

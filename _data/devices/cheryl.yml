@@ -13,7 +13,7 @@ current_branch: 19.1
 dimensions: {width: '77.7 mm (3.06 in)', height: '158.5 mm (6.24 in)', depth: '8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable.
   Keep holding until the word "Download" appears on the screen, then release.
-gpu: Adreno 540
+gpu: Qualcomm Adreno 540
 image: cheryl.png
 install_method: fastboot_nexus
 is_ab_device: true

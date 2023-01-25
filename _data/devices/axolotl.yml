@@ -13,7 +13,7 @@ current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {width: '76.4 mm (3 in)', height: '159.8 mm (6.29 in)', depth: '8.5 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 630
+gpu: Qualcomm Adreno 630
 has_recovery_partition: true
 image: axolotl.png
 install_method: fastboot_nexus

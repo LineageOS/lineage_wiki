@@ -13,7 +13,7 @@ custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922469
 dimensions: {width: '73 mm (2.87 in)', height: '142.4 mm (5.6 in)', depth: '8.2 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: true
-gpu: Adreno 306
+gpu: Qualcomm Adreno 306
 image: lettuce.png
 install_method: fastboot_nexus
 kernel: android_kernel_cyanogen_msm8916

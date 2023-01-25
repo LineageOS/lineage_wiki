@@ -11,7 +11,7 @@ cpu_freq: 1.7 GHz
 current_branch: 13.0
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-gpu: ARM Mali-T604
+gpu: ARM Mali-T604 MP4
 image: manta.png
 install_method: fastboot_nexus
 kernel: android_kernel_samsung_manta

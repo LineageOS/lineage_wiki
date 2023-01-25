@@ -13,7 +13,7 @@ current_branch: 14.1
 custom_recovery_link: 'http://files.nwwn.com/android/k88/jasmine-twrp-7.1-r3.img'
 dimensions: {width: '125 mm (4.92 in)', height: '215.0 mm (8.46 in)', depth: '8.9 mm (0.35 in)'}
 edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 405
+gpu: Qualcomm Adreno 405
 image: jasmine.png
 install_method: edl_custom
 install_recovery_guide: 'http://files.nwwn.com/android/k88/recovery_install.html'

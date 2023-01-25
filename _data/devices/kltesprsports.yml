@@ -13,7 +13,7 @@ current_branch: 14.1
 custom_recovery_link: https://www.androidfilehost.com/?fid=745849072291697503
 dimensions: {width: '72.5 mm (2.85 in)', height: '142 mm (5.59 in)', depth: '8.1 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-gpu: Adreno 330
+gpu: Qualcomm Adreno 330
 image: kltesprsports.png
 install_method: heimdall
 kernel: android_kernel_samsung_msm8974

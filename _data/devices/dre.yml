@@ -16,7 +16,7 @@ current_branch: 19.1
 dimensions: {width: '74.9 mm (2.95 in)', height: '163.1 mm (6.42 in)', depth: '8.3 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm4350
-gpu: Adreno 619
+gpu: Qualcomm Adreno 619
 image: dre.png
 install_method: fastboot_nexus
 is_ab_device: true
