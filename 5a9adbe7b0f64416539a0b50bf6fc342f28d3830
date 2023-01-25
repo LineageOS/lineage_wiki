@@ -51,6 +51,24 @@
       "parentUuid": "4272f625_98215330",
       "revId": "5a9adbe7b0f64416539a0b50bf6fc342f28d3830",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e32f9fb_55a0399a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-25T14:54:27Z",
+      "side": 1,
+      "message": "\u003e SoCs aren\u0027t grouped by platform\nWell ok, but it\u0027s just I explained it wrong i guess, rewording the commit message shall fix that\n\n\u003e the same SoC can\u0027t have different GPUs\nYes, but The purpose of this commit is for unified targets.",
+      "parentUuid": "0f7310ba_3ccd6190",
+      "revId": "5a9adbe7b0f64416539a0b50bf6fc342f28d3830",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
