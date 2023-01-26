@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 3080, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '13 MP (Rear)'}
+- {flash: 'LED', info: '16 MP (Front)'}
+codename: Mi8937
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
+current_branch: 19.1
+dimensions: {width: '76.2 mm (3 in)', height: '153 mm (6.02 in)', depth: '7.55 mm (0.29 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 505
+image: ugg.png
+install_method: fastboot_xiaomi
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_msm8937
+maintainers: ["0xCAFEBABE"]
+models: [MDE6S, MDG6S, MDT6S]
+name: Redmi Note 5A Prime
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
+ram: 3 / 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When the screen lights up, release the buttons.
+release: 2017-08-21
+screen: {size: '139.7 mm (5.5 in)', density: 267, resolution: '720x1280', technology: 'IPS LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8940 Snapdragon 435
+storage: 32 / 64 GB
+tree: android_device_xiaomi_Mi8937
+type: phone
+variant: 5
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 b/g/n
