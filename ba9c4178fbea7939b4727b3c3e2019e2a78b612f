@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fedba754_49c58205",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-01-27T09:45:00Z",
+      "side": 1,
+      "message": "\u003e Patch Set 3:\n\u003e \n\u003e uhhh - note 5a is suppirt by both?\n\nnot accurate, one is the lite variant and another is the prime variant (they\u0027re different)",
+      "revId": "ba9c4178fbea7939b4727b3c3e2019e2a78b612f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
