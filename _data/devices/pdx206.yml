@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '12 MP (wide)'}
+- {flash: 'LED', info: '12 MP (telephoto)'}
+- {flash: 'LED', info: '12 MP (ultrawide)'}
+- {flash: None, info: '8 MP'}
+codename: pdx206
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 20
+dimensions: {width: '68.0 mm (2.68 in)', height: '158.0 mm (6.22 in)', depth: '8.0 mm (0.31 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+gpu: Qualcomm Adreno 650
+has_recovery_partition: true
+image: pdx206.png
+install_method: fastboot_sony
+is_ab_device: true
+kernel: android_kernel_sony_sm8250
+maintainers: [kyasu, hellobbn]
+models: [XQ-AS72, XQ-AS62, XQ-AS52, XQ-AS42]
+name: 'Xperia 5 II'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2020-09
+screen: {size: '154.9 mm (6.1 in)', density: 449, resolution: '2520x1080', technology: 'OLED, 120Hz, HDR'}
+sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB UFS3.0
+tree: android_device_sony_pdx206
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [20]
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
