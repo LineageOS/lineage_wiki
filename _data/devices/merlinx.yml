@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '11'}
+bluetooth: {spec: '5', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '48 MP (wide)'}
+- {flash: None, info: '8 MP (ultrawide)'}
+- {flash: None, info: '2 MP (macro)'}
+- {flash: None, info: '2 MP (depth)'}
+codename: merlinx
+cpu: Cortex-A75 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
+current_branch: 20
+dimensions: {width: '77.2 mm (3.04 in)', height: '162.3 mm (6.39 in)', depth: '8.9 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: ARM Mali-G52 MC2
+image: merlinx.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_mt6768
+maintainers: [surblazer, bengris32]
+name: Redmi Note 9
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, Galileo, GLONASS]
+ram: 3/4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+release: 2020-05
+screen: {size: '165.86 mm (6.53 in)', density: 395, resolution: '1080x2340', technology: 'IPS'}
+soc: Mediatek MT6768 Helio G85
+storage: 64/128 GB
+tree: android_device_xiaomi_merlinx
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
