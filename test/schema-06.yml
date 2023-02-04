@@ -93,6 +93,7 @@ definitions:
     enum:
     - ARM Mali-400 MP4
     - ARM Mali-G31 MP2
+    - ARM Mali-G52 MC2
     - ARM Mali-G71 MP2
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
@@ -214,6 +215,7 @@ definitions:
     - Intel Atom Z2560
     - Intel Atom Z3560
     - Intel Atom Z3580
+    - Mediatek MT6768 Helio G85
     - NVIDIA Tegra 4 (T114)
     - NVIDIA Tegra K1 (T124)
     - NVIDIA Tegra X1 (T210)
@@ -515,6 +517,7 @@ properties:
     - Cortex-A7
     - Cortex-A72
     - Cortex-A73 & Cortex-A53
+    - Cortex-A75 & Cortex-A55
     - Cortex-A9
     - Denver
     - Denver 2 & Cortex-A57
