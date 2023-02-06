@@ -7,6 +7,12 @@
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 {% endif %}
 
+{%- if device.variant %}
+## Variants
+
+There are multiple variants of this device. [Make sure you're viewing the right one.]({{ "devices/" | append: device.codename | relative_url }})
+{%- endif %}
+
 {% if device.maintainers != empty %}
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 [Get the builds here](https://download.lineageos.org/devices/{{ device.codename }})
@@ -15,6 +21,11 @@
 ## Guides
 
 {%- assign path_prefix = "devices/" | append: device.codename %}
+{%- assign path_postfix = "" %}
+{%- if device.variant %}
+{%- assign path_postfix = "/" | append: "variant" | append: device.variant %}
+{%- endif %}
+
 {% include snippets/branches.md %}
 {%- assign last_supported_version = device.versions | last %}
 {%- assign end = num_branches | minus: 1 %}
@@ -32,15 +43,15 @@
     {%- assign curr_branch = current_branch %}
 {%- endif %}
 
-- [Installation]({{ path_prefix | append: "/install" | relative_url }})
+- [Installation]({{ path_prefix | append: "/install" | append: path_postfix | relative_url }})
 - [Build for yourself]({{ path_prefix | append: "/build" | relative_url }})
 {%- if device.firmware_update %}
-- [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | relative_url }})
+- [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | append: path_postfix | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | relative_url }})
+- [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | append: path_postfix | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ path_prefix | append: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ path_prefix | append: "/upgrade" | append: path_postfix | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
