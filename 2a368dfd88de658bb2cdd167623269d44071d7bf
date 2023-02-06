@@ -16,6 +16,24 @@
       "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\n\nSplit the image in half and use the front view only. Then apply the picture rules from the link above...",
       "revId": "2a368dfd88de658bb2cdd167623269d44071d7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa7618cd_b96c36dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-06T09:02:44Z",
+      "side": 1,
+      "message": "So I\u0027m failing to understand the logic behind the `The image is cropped to the actual content` thing.\n\nWhich one is better:\n- Crop to actual image\n- Crop to actual image, then fill to 500x500 with transparency?",
+      "parentUuid": "848a2117_3ba12229",
+      "revId": "2a368dfd88de658bb2cdd167623269d44071d7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
