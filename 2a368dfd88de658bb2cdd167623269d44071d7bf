@@ -34,6 +34,24 @@
       "parentUuid": "848a2117_3ba12229",
       "revId": "2a368dfd88de658bb2cdd167623269d44071d7bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fc46d61_9ae78488",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-06T09:09:52Z",
+      "side": 1,
+      "message": "The answer is apparently the former.",
+      "parentUuid": "aa7618cd_b96c36dd",
+      "revId": "2a368dfd88de658bb2cdd167623269d44071d7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
