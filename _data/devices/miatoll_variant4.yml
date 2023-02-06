@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '64 MP'}
+- {flash: None, info: '8 MP (ultrawide)'}
+- {flash: None, info: '5 MP (macro)'}
+- {flash: None, info: '2 MP (bokeh)'}
+- {flash: None, info: '32 MP'}
+codename: miatoll
+cpu: Kryo 465
+cpu_cores: '8'
+cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
+current_branch: 19.1
+dimensions: {width: '76.6 mm (3.02 in)', height: '165.7 mm (6.52 in)', depth: '8.8 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 618
+has_recovery_partition: true
+image: miatoll.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm6250
+maintainers: [dereference23]
+models: [2109106A1I, M2003J6A1G, M2003J6A1R, M2003J6A1I, M2003J6B1I, M2003J6B2G, M2003J6CI]
+name: Redmi Note 9 Pro Max
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 4/6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  When Xiaomi/Redmi splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
+release: 2020-05-12
+screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'IPS LCD'}
+sdcard: {sizeMax: '512 GB'}
+soc: Qualcomm SM7125 Snapdragon 720G
+storage: 64/128 GB
+tree: android_device_xiaomi_miatoll
+type: phone
+variant: 4
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1, 19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
