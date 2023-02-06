@@ -39,10 +39,17 @@ end
 
 def validate_template(template, path, codename)
   if File.file?(path)
-    template_content = template.gsub('{codename}', codename)
+    temp_codename = codename.sub(/_variant[0-9]+/, '')
+    template_content = template.gsub('{codename}', temp_codename)
     file_content = File.open(path, 'r') { |file| file.read }
     # remove redirects from the file, because we want to allow them if necessary
     file_content.sub!(/^redirect_from:.+?( +- *[a-zA-Z0-9.\/]+$.)+/m, '')
+
+    # We need to handle variant[0-9] in title and codename
+    file_content.sub!(/_variant[0-9]+/, '')
+    # ... and in the permalink
+    file_content.sub!(/\/variant[0-9]+/, '')
+
     if not template_content == file_content
       puts to_relative_path(path) + ': Not generated from template'
       at_exit { exit false }
