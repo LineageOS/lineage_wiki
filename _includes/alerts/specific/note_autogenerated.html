@@ -1,7 +1,7 @@
 {%- assign device = site.data.devices[page.device] -%}
 {% capture content -%}
 This page is auto-generated for the {{ device.vendor }} {{ device.name }}, based on the device's information,
-located [here](https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/{{ device.codename }}.yml).
+located [here](https://github.com/LineageOS/lineage_wiki/blob/master/_data/devices/{{ page.device }}.yml).
 You can find similar instructions for every officially-supported device on this wiki.
 {%- endcapture %}
 {% include alerts/note.html content=content %}
