@@ -262,7 +262,6 @@ a {
     }
     a {
       color: $link-hover-color;
-      text-decoration: $link-hover-decoration;
     }
   }
   img {
@@ -312,10 +311,39 @@ a {
 }
 .codename {
   font-size: 14px;
+  color: $text-muted;
 }
 .top {
   font-size: 0.9rem;
   vertical-align: middle;
+}
+.aka {
+  background-color: #E8EDEE;
+  color: #495454;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.25rem 0.0625rem;
+  font-size: 10px;
+  font-weight: 500;
+}
+.variant_container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.313rem;
+  align-items: center;
+  line-height: 1;
+}
+.variant {
+  white-space: nowrap;
+  font-size: 14px;
+  color: $brand-primary;
+  font-weight: bolder;
+}
+.bullet {
+  background-color: #BFC8C9;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: flex;
 }
 
 .blurred {
