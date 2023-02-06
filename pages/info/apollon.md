@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about apollon
+title: Info about apollon variants
 folder: info
-layout: deviceinfo
 permalink: /devices/apollon/
+redirect_from:
+- /devices/apollon/install
+- /devices/apollon/update
 device: apollon
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_info_variants.md %}
