@@ -39,8 +39,14 @@ function hideTablesIfNeeded()
   You can show them by checking the following checkbox:<br/><br/>
 
 {%- assign devices = "" | split: " " %}
+{%- assign variants = "" | split: " " %}
 {%- for device in site.data.devices %}
-{%- assign devices = devices | push: device[1] %}
+{%- assign data = device[1] %}
+{%- if data.variant == None or data.variant == 1 %}
+{%- assign devices = devices | push: data %}
+{%- elsif data.variant %}
+{%- assign variants = variants | push: data %}
+{%- endif %}
 {%- endfor %}
 
 {%- assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
@@ -82,7 +88,7 @@ Select a vendor to jump to:<br/>
 {%- capture testValue %}{{ device.name | divided_by:1 }}{% endcapture %}
 {%- if testValue != "0" or device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {%- else %}{% assign deviceName = device.name %}{% endif %}
-{%- assign url = "devices/" | append: device.codename | relative_url %}
+{%- assign url = "devices/" | append: device.codename | append: "/" | relative_url %}
 {%- if device.maintainers == empty %}
 {%- assign class="discontinued hidden" %}
 {%- else %}
@@ -95,13 +101,43 @@ Select a vendor to jump to:<br/>
 {%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/small/" | append: device.image }}{% endcapture %}
 {%- endif %}
 
-<div class="item {{ class }}" onClick="location.href='{{ url }}'">
+<div class="item {{ class }}" onClick="location.href='{{ url }}'" data-codename="{{ device.codename }}" data-variant="{{ device.variant }}" data-url="{{ url }}">
   <div class="deviceimage">
     <a href="{{ url }}"><img src="{{ imagePath }}" alt="device-image for {{ device.codename }}" loading="lazy" /></a>
   </div>
   <div class="name">
     <a href="{{ url }}">
-      <span class="devicename">{{ deviceName }}</span><br>
+      <span class="devicename">{{ deviceName }}</span>
+    </a><br>
+    {%- if device.variant %}
+    <div class="variant_container">
+      <span class="aka">AKA</span>
+      {%- assign device_variants = "" | split: " " %}
+      {%- assign sorted_variants = variants | sort_natural: 'variant' %}
+      {%- for variant in sorted_variants %}
+        {%- if variant.codename == device.codename %}
+          {%- assign device_variants = device_variants | push: variant %}
+        {%- endif %}
+      {%- endfor %}
+      {%- for variant in device_variants %}
+      <span class="variant"><a href="{{ url }}">{{ variant.name }}</a></span>
+      {%- unless forloop.last %}
+      <span class="bullet"></span>
+      {%- endunless %}
+      {%- endfor %}
+    </div>
+    <div class="variants_list">
+      <ul>
+        {%- assign url = "devices/" | append: device.codename | append: "/variant1/"| relative_url %}
+        <li><a href="{{ url }}">{{ device.name }}</a></li>
+        {%- for variant in device_variants %}
+        {%- assign url = "devices/" | append: variant.codename | append: "/variant" | append: variant.variant | append: "/" | relative_url %}
+        <li><a href="{{ url }}">{{ variant.name }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    {%- endif %}
+    <a href="{{ url }}">
       <span class="codename">{{ device.codename }}</span>
     </a>
   </div>
@@ -112,3 +148,67 @@ Select a vendor to jump to:<br/>
 {% endif %}
 {%- endfor %}
 </div>
+
+<div class="page-overlay">
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
+      <div class="popup-header">
+        <span class="popup-title">Select your variant</span><br/>
+        <span class="popup-subtitle">codename</span>
+      </div>
+      <div class="popup-body">
+        <p>
+          These devices all use the same LineageOS build.
+          The vendor may have released the same device under multiple names, or the maintainer may support multiple devices using the same code.
+        </p>
+        <p style="margin-bottom: 0px;">
+          Select your variant to make sure your guides are correct. Not sure which?<br/>
+          <a href="" id="compare-link">Compare their differences.</a>
+        </p>
+        <div class="popup-variants-list"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Close the popup
+$('.popup-close-action, .page-overlay').on('click', function() {
+  $('.page-overlay').addClass('closed');
+  $('html, body').css({
+    overflow: 'auto',
+    height: 'auto'
+  });
+});
+// Prevent popup close when clicking on the popup itself
+$('.popup-overlay').on('click', function(e) {
+  e.stopPropagation();
+});
+
+// Select all items where variant is set
+$('*[data-variant=1]').each(function () {
+  // remove current onClick target, we do something better
+  $(this).attr('onclick', '').unbind('click');
+  $(this).on('click', function() {
+    codename = $(this).attr('data-codename');
+    $('.page-overlay').addClass('active').removeClass('closed');
+    // Replace relevant parts of dialog content
+    $('.popup-variants-list').html($(this).find('.variants_list').html());
+    $('.popup-subtitle').text(codename);
+    $('#compare-link').attr('href', $(this).attr('data-url'));
+    // don't remember last scroll position, always start at top
+    $('.popup-body').scrollTop(0);
+    // prevent scrolling the outside content until closed
+    $('html, body').css({
+      overflow: 'hidden',
+    });
+  });
+  // Remove current click targets, they are just there as fallback solution
+  $(this).find('a').each(function() {
+    $(this).click(function(e){
+        e.preventDefault();
+    });
+  });
+});
+</script>
