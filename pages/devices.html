@@ -82,7 +82,10 @@ Select a vendor to jump to:<br/>
 {%- capture testValue %}{{ device.name | divided_by:1 }}{% endcapture %}
 {%- if testValue != "0" or device.vendor == "OnePlus" %}{% assign deviceName = device.vendor | append: ' ' | append: device.name %}
 {%- else %}{% assign deviceName = device.name %}{% endif %}
-{%- assign url = "devices/" | append: device.codename | relative_url %}
+{%- assign url = "devices/" | append: device.codename | append: "/" | relative_url %}
+{%- if device.variant %}
+{%- assign url = url | append: "variant" | append: device.variant | append: "/" | relative_url %}
+{%- endif -%}
 {%- if device.maintainers == empty %}
 {%- assign class="discontinued hidden" %}
 {%- else %}
