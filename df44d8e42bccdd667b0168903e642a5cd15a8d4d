@@ -62,6 +62,30 @@
       },
       "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd49a91d_a98c5673",
+        "filename": "_data/devices/Mi439.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-06T17:02:02Z",
+      "side": 1,
+      "message": "if not quoting it, it\u0027ll get parsed as a hex number...",
+      "parentUuid": "cd03c762_360d8515",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 27
+      },
+      "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
