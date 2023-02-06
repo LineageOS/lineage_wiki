@@ -262,7 +262,6 @@ a {
     }
     a {
       color: $link-hover-color;
-      text-decoration: $link-hover-decoration;
     }
   }
   img {
@@ -312,10 +311,71 @@ a {
 }
 .codename {
   font-size: 14px;
+  color: $text-muted;
 }
 .top {
   font-size: 0.9rem;
   vertical-align: middle;
+}
+.aka {
+  background-color: #E8EDEE;
+  color: #495454;
+  border-radius: 0.25rem;
+  padding: 0.125rem 0.25rem 0.0625rem;
+  font-size: 10px;
+  font-weight: 500;
+}
+.variant_container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.313rem;
+  align-items: center;
+  line-height: 1;
+}
+.variant {
+  white-space: nowrap;
+  font-size: 14px;
+  color: $brand-primary;
+  font-weight: bolder;
+}
+.bullet {
+  background-color: #BFC8C9;
+  border-radius: 50%;
+  width: 4px;
+  height: 4px;
+  display: flex;
+}
+.variants {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 3rem;
+  gap: 2rem 1rem;
+  margin-top: 1rem;
+}
+.variant_item {
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid #BFC8C9;
+  border-radius: 1rem;
+  padding: 1rem;
+  position: relative;
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    .image {
+      background: #E8EDEE;
+      transition: 0.15s;
+    }
+    a {
+      color: $link-hover-color;
+    }
+  }
+  > div {
+    position: absolute;
+    bottom: 1rem;
+  }
 }
 
 .blurred {
@@ -338,6 +398,10 @@ a {
   .devices {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .variants {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 767px) {
   .vendor-container {
@@ -348,5 +412,9 @@ a {
 
   .devices {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .variants {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
