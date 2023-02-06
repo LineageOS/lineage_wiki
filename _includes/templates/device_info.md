@@ -7,6 +7,12 @@
 {% include alerts/specific/important_bootloader_not_unlockable.html %}
 {% endif %}
 
+{%- if device.variant %}
+## Variants
+
+There are multiple variants of this device. [Make sure you're viewing the right one.]({{ "devices/" | append: device.codename | relative_url }})
+{%- endif %}
+
 {% if device.maintainers != empty %}
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
 [Get the builds here](https://download.lineageos.org/devices/{{ device.codename }})
@@ -15,6 +21,10 @@
 ## Guides
 
 {%- assign path_prefix = "devices/" | append: device.codename %}
+{%- if device.variant %}
+{%- assign path_prefix = path_prefix | append: "/" | append: "variant" | append: device.variant %}
+{%- endif %}
+
 {% include snippets/branches.md %}
 {%- assign last_supported_version = device.versions | last %}
 {%- assign end = num_branches | minus: 1 %}
