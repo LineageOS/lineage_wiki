@@ -39,6 +39,29 @@
       },
       "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd03c762_360d8515",
+        "filename": "_data/devices/Mi439.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-02-06T16:59:46Z",
+      "side": 1,
+      "message": "quotes shouldn\u0027t be needed",
+      "range": {
+        "startLine": 27,
+        "startChar": 0,
+        "endLine": 27,
+        "endChar": 27
+      },
+      "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
