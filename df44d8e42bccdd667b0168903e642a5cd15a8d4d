@@ -16,6 +16,29 @@
       "message": "re-add me to these once they\u0027re forked and ready to ship!",
       "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "244548ed_d3cfa566",
+        "filename": "_data/devices/Mi439.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-02-06T16:58:47Z",
+      "side": 1,
+      "message": "?",
+      "range": {
+        "startLine": 14,
+        "startChar": 5,
+        "endLine": 14,
+        "endChar": 28
+      },
+      "revId": "df44d8e42bccdd667b0168903e642a5cd15a8d4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
