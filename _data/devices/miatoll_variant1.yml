@@ -3,11 +3,11 @@ battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'LED', info: '48 MP (Non-Pro) or 64 MP (Pro, Pro Max)'}
+- {flash: 'LED', info: '64 MP'}
 - {flash: None, info: '8 MP (ultrawide)'}
 - {flash: None, info: '5 MP (macro)'}
 - {flash: None, info: '2 MP (bokeh)'}
-- {flash: None, info: '16 MP or 32 MP (Pro Max)'}
+- {flash: None, info: '16 MP'}
 codename: miatoll
 cpu: Kryo 465
 cpu_cores: '8'
@@ -23,25 +23,20 @@ install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6250
 maintainers: [dereference23]
 models: [2109106A1I, M2003J6A1G, M2003J6A1R, M2003J6A1I, M2003J6B1I, M2003J6B2G, M2003J6CI]
-name: POCO M2 Pro / Redmi Note 9S / Redmi Note 9 Pro / Redmi Note 9 Pro Max / Redmi Note 10 Lite
+name: POCO M2 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  When Xiaomi/POCO/Redmi splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
-release:
-- POCO M2 Pro: 2020-07-14
-- Redmi Note 9S: 2020-04-30
-- Redmi Note 9 Pro (Global): 2020-05-05
-- Redmi Note 9 Pro (India): 2020-03-17
-- Redmi Note 9 Pro Max: 2020-05-12
-- Redmi Note 10 Lite: 2021-10-02
+  When Xiaomi/POCO splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
+release: 2020-07-14
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 64/128 GB
 tree: android_device_xiaomi_miatoll
 type: phone
+variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]
