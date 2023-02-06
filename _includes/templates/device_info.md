@@ -15,6 +15,12 @@
 ## Guides
 
 {%- assign path_prefix = "devices/" | append: device.codename %}
+{%- assign variant = page.device | split: "_variant" %}
+{%- assign numElements = variant | size %}
+{%- if numElements > 1 %}
+{%- assign path_prefix = path_prefix | append: "/" | append: "variant" | append: variant[1] %}
+{%- endif %}
+
 {% include snippets/branches.md %}
 {%- assign last_supported_version = device.versions | last %}
 {%- assign end = num_branches | minus: 1 %}

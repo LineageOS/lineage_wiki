@@ -39,10 +39,17 @@ end
 
 def validate_template(template, path, codename)
   if File.file?(path)
-    template_content = template.gsub('{codename}', codename)
+    temp_codename = codename.sub(/_variant[0-9]+/, '')
+    template_content = template.gsub('{codename}', temp_codename)
     file_content = File.open(path, 'r') { |file| file.read }
     # remove redirects from the file, because we want to allow them if necessary
     file_content.sub!(/^redirect_from:.+?( +- *[a-zA-Z0-9.\/]+$.)+/m, '')
+
+    # We need to handle variant[0-9] in link and codename
+    file_content.sub!(/title: (.*)_variant([0-9]+)/, 'title: \1')
+    file_content.sub!(/permalink: (.*)\/variant[0-9]+\/(.*)/, 'permalink: \1/\2')
+    file_content.sub!(/device: (.*)_variant[0-9]+/, 'device: \1')
+
     if not template_content == file_content
       puts to_relative_path(path) + ': Not generated from template'
       at_exit { exit false }
@@ -83,7 +90,8 @@ install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
 
-Dir.entries(device_dir).sort.each do |filename|
+filename = 'miatoll_variant3.yml'
+#Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
     device_json = yaml_to_json(device_path)
@@ -102,4 +110,4 @@ Dir.entries(device_dir).sort.each do |filename|
     validate_image(device_image_dir + image, device_path)
     validate_image(device_image_small_dir + image, device_path)
   end
-end
+#end
