@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
 bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED', info: '64 MP (Mi 10T) or 64 MP (Mi 10T Pro) or 108 MP (K30S Ultra)'}
+- {flash: 'Dual LED', info: '64 MP (Mi 10T) or 64 MP (Mi 10T Pro)'}
 - {flash: 'Dual LED', info: '13 MP (ultrawide)'}
 - {flash: 'Dual LED', info: '5 MP (macro)'}
 - {flash: None, info: '20 MP'}
@@ -20,21 +20,20 @@ image: apollon.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm8250
 maintainers: [Ramisky, SebaUbuntu]
-models: [M2007J3SC, M2007J3SG, M2007J3SY]
-name: Mi 10T / Mi 10T Pro / Redmi K30S Ultra
+models: [M2007J3SG, M2007J3SY]
+name: Mi 10T / Mi 10T Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-- Mi 10T / Mi 10T Pro: 2020-10
-- Redmi K30S Ultra: 2020-11
+release: 2020-10
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '144Hz IPS LCD'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
 tree: android_device_xiaomi_apollon
 type: phone
+variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]

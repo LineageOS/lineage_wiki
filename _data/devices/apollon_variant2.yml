@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '108 MP'}
+- {flash: 'Dual LED', info: '13 MP (ultrawide)'}
+- {flash: 'Dual LED', info: '5 MP (macro)'}
+- {flash: None, info: '20 MP'}
+codename: apollon
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '76.4 mm (3.01 in)', height: '165.1 mm (6.5 in)', depth: '9.3 mm (0.37 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 650
+image: apollon.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm8250
+maintainers: [Ramisky, SebaUbuntu]
+models: [M2007J3SC]
+name: Redmi K30S Ultra
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2020-11
+screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '144Hz IPS LCD'}
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB
+tree: android_device_xiaomi_apollon
+type: phone
+variant: 2
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1, 19.1]
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
