@@ -13,7 +13,7 @@ From the root of your Android tree, run these commands, altering the `subject` l
 ```
 subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN=Android/emailAddress=android@android.com'
 mkdir ~/.android-certs
-for x in releasekey platform shared media networkstack testkey; do \
+for x in releasekey platform shared media networkstack testkey sdk_sandbox bluetooth; do \
     ./development/tools/make_key ~/.android-certs/$x "$subject"; \
 done
 ```
