@@ -22,6 +22,30 @@
       },
       "revId": "418286ab5c1acd4b4b1c270cb5c1940f170ceb46",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9fb9e547_6b0a2198",
+        "filename": "test/validate.rb",
+        "patchSetId": 1
+      },
+      "lineNbr": 94,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-06T21:08:30Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd5a38b2_e2fffcc4",
+      "range": {
+        "startLine": 94,
+        "startChar": 0,
+        "endLine": 94,
+        "endChar": 9
+      },
+      "revId": "418286ab5c1acd4b4b1c270cb5c1940f170ceb46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
