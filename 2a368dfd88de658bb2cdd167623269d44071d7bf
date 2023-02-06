@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "848a2117_3ba12229",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-06T08:40:12Z",
+      "side": 1,
+      "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\n\nSplit the image in half and use the front view only. Then apply the picture rules from the link above...",
+      "revId": "2a368dfd88de658bb2cdd167623269d44071d7bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
