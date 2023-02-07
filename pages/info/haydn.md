@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about haydn
+title: Info about haydn variants
 folder: info
-layout: deviceinfo
 permalink: /devices/haydn/
+redirect_from:
+- /devices/haydn/install
+- /devices/haydn/update
 device: haydn
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
