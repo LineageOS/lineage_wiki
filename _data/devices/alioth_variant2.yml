@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SKHCNXM/miui_ALIOTH_V13.0.5.0.SKHCNXM_540c833165_12.0.zip'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
+bluetooth: {spec: '5.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '48 MP (main)'}
+- {flash: 'LED', info: '8 MP (ultrawide)'}
+- {flash: 'LED', info: '5 MP (macro)'}
+- {flash: None, info: '20 MP (front)'}
+codename: alioth
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '76.4 mm (3.01 in)', height: '163.7 mm (6.44 in)', depth: '7.8 mm (0.31 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm8250_vab
+gpu: Qualcomm Adreno 650
+image: alioth.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: android_kernel_xiaomi_sm8250
+maintainers: [SahilSonar, SebaUbuntu, althafvly]
+models: [M2012K11AC, M2012K11AG, M2012K11AI]
+name: Redmi K40
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, Infrared sensor, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8/12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_reboot: fastboot_reboot
+release: 2021-02
+screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '120Hz Super AMOLED'}
+soc: Qualcomm SM8250-AC Snapdragon 870
+storage: 128/256 GB
+tree: android_device_xiaomi_alioth
+type: phone
+variant: 2
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1, 19.1]
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
