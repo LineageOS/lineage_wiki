@@ -103,6 +103,24 @@
       "message": "the whole variant chain",
       "revId": "8bf32825f1f863a0d08702fda58f785863e13411",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b7e138e_190c9582",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-07T22:02:29Z",
+      "side": 1,
+      "message": "\u003e i have a script doing this\nI\u0027m also rechecking and correcting some values on device specifications, hmm",
+      "parentUuid": "8c743049_0623ebe1",
+      "revId": "8bf32825f1f863a0d08702fda58f785863e13411",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
