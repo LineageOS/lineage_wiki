@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: false, capacity: 4820, tech: 'Li-Po'}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX]}
+cameras:
+  - {flash: 'Dual LED', info: '108 MP'}
+  - {flash: 'Dual LED', info: '64 MP'}
+  - {flash: 'Dual LED', info: '8 MP'}
+  - {flash: 'Dual LED', info: '2 MP'}
+  - {flash: 'Dual LED', info: '2 MP'}
+  - {flash: 'None', info: '16 MP'}
+codename: gauguin
+cpu: Kryo 570
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 19.1
+dimensions: {width: '76.8 mm (3.02 in)', height: '165.4 mm (6.51 in)', depth: '9 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 619
+image: gauguin.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_gauguin
+maintainers: [Lynnrin]
+models: [M2007J17C, M2007J17G, M2007J17I]
+name: Mi 10T Lite
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2020-10
+screen: {size: '165.4 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: 'IPS LCD'}
+sdcard: {sizeMax: '512 GB'}
+soc: Qualcomm SM7225 Snapdragon 750G 5G
+storage: 64/128/256 GB
+tree: android_device_xiaomi_gauguin
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [18.1, 19.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
