@@ -7,7 +7,7 @@
 1. Enable Developer Options by pressing the "Build Number" option at least 7 times, in the "Settings" app within the "About" menu
     * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-1. Download [this](https://sourceforge.net/projects/lifehackerhansol-android/files/gto-unlock/1-downgrade-aboot.tar) downgrade package.
+1. Download [this](https://sourceforge.net/projects/lifehackerhansol-android/files/gto-unlock/1-unlocked-aboot.tar) package.
    {% include alerts/warning.html content="If you skip this step, you will not be able to unlock your bootloader!" %}
 1. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
@@ -21,13 +21,17 @@
 1. Extract "Odin_3.13.1.zip".
 1. Run `Odin3 v3.13.1` found in the newly extracted "Odin_3.13.1" folder.
 1. Check the box labeled next to the button labeled "BL", and then click the "BL" button.
-    * In the menu that pops up, select the downgrade package " `.tar` file.
+    * In the menu that pops up, select the previously downloaded package " `.tar` file.
 1. Power off the device, and again boot it into download mode:
     * {{ device.download_boot }}
 1. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
-1. Click "Start". A blue or white transfer bar will appear on the device showing the VBMeta image being flashed.
+1. Click "Start". A blue or white transfer bar will appear on the device showing the package being flashed.
 1. Your device will reboot, you may now unplug the USB cable from your device.
+{% capture warning_restore_stock -%}
+If, on this step, your device is stuck on a black screen, your device's bootloader is not unlockable and you cannot continue with these instructions. To return to the stock ROM, boot to Download mode and flash the BL package [here]("https://github.com/lifehackerhansol/gto-fw/releases).
+{%- endcapture %}
+{% include alerts/warning.html content=warning_restore_stock %}
 1. The device will demand you format userdata, please follow the onscreen instructions to do so.
 {%- unless device.no_oem_unlock_switch %}
 1. Run through Android Setup skipping everything you can, then connect the device to a Wi-Fi network.
