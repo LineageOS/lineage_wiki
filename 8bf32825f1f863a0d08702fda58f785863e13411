@@ -51,6 +51,23 @@
       "parentUuid": "a2fa6027_fede35f1",
       "revId": "8bf32825f1f863a0d08702fda58f785863e13411",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0d4c6c8e_29b3a2c7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-07T21:55:05Z",
+      "side": 1,
+      "message": "as said: i have a script doing this and after all that i prefer to do it myself. also, you\u0027re limiting your ability to ship the devices by applying a change that\u0027s not yet finished and/or merged.",
+      "revId": "8bf32825f1f863a0d08702fda58f785863e13411",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
