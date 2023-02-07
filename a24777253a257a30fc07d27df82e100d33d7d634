@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70a5d44f_14e58c90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-07T22:38:49Z",
+      "side": 1,
+      "message": "Same reason as Mi8937, I\u0027m improving device specifications info, leaving markdown part",
+      "revId": "a24777253a257a30fc07d27df82e100d33d7d634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
