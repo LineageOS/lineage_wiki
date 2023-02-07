@@ -3,13 +3,6 @@ battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
 - {device: 'Mi 11X India', firmware: 'V13.0.6.0.SKHINXM', download_link: 'https://bigota.d.miui.com/V13.0.6.0.SKHINXM/miui_ALIOTHINGlobal_V13.0.6.0.SKHINXM_2492066c1d_12.0.zip'}
-- {device: 'POCO F3 EEA', firmware: 'V13.0.6.0.SKHEUXM', download_link: 'https://bigota.d.miui.com/V13.0.6.0.SKHEUXM/miui_ALIOTHEEAGlobal_V13.0.6.0.SKHEUXM_c393876947_12.0.zip'}
-- {device: 'POCO F3 Global', firmware: 'V13.0.3.0.SKHMIXM', download_link: 'https://bigota.d.miui.com/V13.0.3.0.SKHMIXM/miui_ALIOTHGlobal_V13.0.3.0.SKHMIXM_07afcb74cd_12.0.zip'}
-- {device: 'POCO F3 Indonesia', firmware: 'V13.0.2.0.SKHIDXM', download_link: 'https://bigota.d.miui.com/V13.0.2.0.SKHIDXM/miui_ALIOTHIDGlobal_V13.0.2.0.SKHIDXM_80a5a01aa6_12.0.zip'}
-- {device: 'POCO F3 Russia', firmware: 'V13.0.2.0.SKHRUXM', download_link: 'https://bigota.d.miui.com/V13.0.2.0.SKHRUXM/miui_ALIOTHRUGlobal_V13.0.2.0.SKHRUXM_101e499a8e_12.0.zip'}
-- {device: 'POCO F3 Taiwan', firmware: 'V13.0.1.0.SKHTWXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTWXM/miui_ALIOTHTWGlobal_V13.0.1.0.SKHTWXM_1573a396df_12.0.zip'}
-- {device: 'POCO F3 Turkey', firmware: 'V13.0.1.0.SKHTRXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTRXM/miui_ALIOTHTRGlobal_V13.0.1.0.SKHTRXM_1eaf50fc2f_12.0.zip'}
-- {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SKHCNXM/miui_ALIOTH_V13.0.5.0.SKHCNXM_540c833165_12.0.zip'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
@@ -32,23 +25,21 @@ install_method: fastboot_xiaomi
 is_ab_device: true
 kernel: android_kernel_xiaomi_sm8250
 maintainers: [SahilSonar, SebaUbuntu, althafvly]
-models: [M2012K11AC, M2012K11AI, M2012K11AG]
-name: POCO F3 / Redmi K40 / Mi 11X
+models: [M2012K11AI]
+name: Mi 11X
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, Infrared sensor, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_reboot: fastboot_reboot
-release:
-- Poco F3: 2021-03
-- Redmi K40: 2021-02
-- Mi 11X: 2021-04
+release: 2021-04
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '120Hz Super AMOLED'}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB
 tree: android_device_xiaomi_alioth
 type: phone
+variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]
