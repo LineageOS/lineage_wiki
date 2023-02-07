@@ -6,7 +6,7 @@ cameras:
 - {flash: 'Dual LED', info: '64 MP'}
 - {flash: 'Dual LED', info: '13 MP (ultrawide)'}
 - {flash: 'Dual LED', info: '5 MP (macro)'}
-- {flash: 'Dual LED', info: '2 MP (bokeh) or 8 MP (telephoto, zoom edition only)'}
+- {flash: 'Dual LED', info: '2 MP (bokeh)'}
 - {flash: None, info: '20 MP (front popup)'}
 codename: lmi
 cpu: Kryo 585
@@ -21,22 +21,20 @@ image: lmi.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm8250
 maintainers: [SebaUbuntu]
-models: [M2004J11G, M2001J11C, M2001J11E]
-name: POCO F2 Pro / Redmi K30 Pro / Redmi K30 Pro Zoom Edition
+models: [M2004J11G]
+name: POCO F2 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-- POCO F2 Pro: 2020-05
-- Redmi K30 Pro: 2020-03
-- Redmi K30 Pro Zoom Edition: 2020-03
+release: 2020-05
 screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'AMOLED'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256/512 GB
 tree: android_device_xiaomi_lmi
 type: phone
+variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]
