@@ -4,5 +4,6 @@ title: Upgrade LineageOS on haydn
 folder: upgrade
 permalink: /devices/haydn/upgrade
 device: haydn
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
