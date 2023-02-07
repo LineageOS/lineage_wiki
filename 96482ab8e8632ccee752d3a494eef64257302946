@@ -16,6 +16,23 @@
       "message": "POCO F2 Pro and Redmi K30 Pro are the same device, it\u0027s just sold as Redmi in China\nRedmi K30 Pro Zoom Edition has better camera, only this should be split",
       "revId": "96482ab8e8632ccee752d3a494eef64257302946",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e0a54ad_dd398d71",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-07T21:02:59Z",
+      "side": 1,
+      "message": "I disagree here. Main reason was to get the list look ok vs the mess it was before. So keeping things grouped by name is fine, don\u0027t need to split them for minor differences (which in this case is 1 camera) as well.\nWith this, the list is mainly a \"Mi\" followed by \"Poco\" now and makes sense when reading",
+      "revId": "96482ab8e8632ccee752d3a494eef64257302946",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
