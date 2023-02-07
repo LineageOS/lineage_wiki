@@ -14,8 +14,8 @@ image: foster.png
 install_method: fastboot_nexus
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
-models: [darcy, foster_e, foster_e_hdd, jetson_cv, mdarcy]
-name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) / Jetson TX1 [Android TV]
+models: [darcy, foster_e, foster_e_hdd, mdarcy]
+name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Android TV]
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
@@ -29,6 +29,7 @@ soc: NVIDIA Tegra X1 (T210)
 storage: 16 GB / 500 GB
 tree: android_device_nvidia_foster
 type: Set top box
+variant: 1
 vendor: NVIDIA
 vendor_short: nvidia
 versions: [14.1, 15.1, 17.1, 18.1]
