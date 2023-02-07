@@ -26,7 +26,7 @@
     * {{ device.download_boot }}
 1. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
-1. Click "Start". A blue or white transfer bar will appear on the device showing the VBMeta image being flashed.
+1. Click "Start". A blue or white transfer bar will appear on the device showing the downgrade package being flashed.
 1. Your device will reboot, you may now unplug the USB cable from your device.
 1. The device will demand you format userdata, please follow the onscreen instructions to do so.
 {%- unless device.no_oem_unlock_switch %}
