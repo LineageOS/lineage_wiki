@@ -1,0 +1,36 @@
+architecture: arm64
+battery: None
+before_recovery_install: foster
+bluetooth: {spec: '4.1'}
+cameras: []
+codename: foster
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 18.1
+dimensions: None
+gpu: NVIDIA GM20B (Maxwell)
+image: foster.png
+install_method: fastboot_nexus
+kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+maintainers: [webgeek1234, npjohnson]
+models: [jetson_cv]
+name: Jetson TX1 [Android TV]
+no_oem_unlock_switch: true
+peripherals: None
+ram: 3 GB
+recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
+  Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
+  Tap the <kbd>Y button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>A button</kbd> to select this option.
+release: 2015-05-28
+screen: None
+sdcard: {sizeMax: '128 GB'}
+soc: NVIDIA Tegra X1 (T210)
+storage: 16 GB / 500 GB
+tree: android_device_nvidia_foster
+type: Set top box
+variant: 2
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [14.1, 15.1, 17.1, 18.1]
+wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
