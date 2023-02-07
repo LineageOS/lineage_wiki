@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4020 , tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
-before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '50 MP (Primary)'}
@@ -13,7 +13,6 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.5 GHz + 3 x 2.4 GHz & 4 x 1.9 GHz
 current_branch: 20
-custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 dimensions: {width: '74.2 mm (2.92 in)', height: '159.4 mm (6.28 in)', depth: '6.8 mm (0.27 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 642L
