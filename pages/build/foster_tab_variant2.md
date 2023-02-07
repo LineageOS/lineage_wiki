@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Build for foster_tab
 folder: build
-permalink: /devices/foster_tab/build
-device: foster_tab
+permalink: /devices/foster_tab/build/variant2
+device: foster_tab_variant2
 ---
 {% include templates/device_build.md %}
