@@ -21,23 +21,21 @@ image: gauguin.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_gauguin
 maintainers: [Lynnrin]
-models: [M2007J17G, M2007J17C, M2007J17I]
-name: Mi 10T Lite / Mi 10i / Redmi Note 9 Pro 5G
+models: [M2007J17C, M2007J17G, M2007J17I]
+name: Redmi Note 9 Pro 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-  - Redmi Note 9 Pro 5G: 2020-12
-  - Mi 10i: 2021-01
-  - Mi 10T Lite: 2020-10
+release: 2020-12
 screen: {size: '165.4 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7225 Snapdragon 750G 5G
 storage: 64/128/256 GB
 tree: android_device_xiaomi_gauguin
 type: phone
+variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]
