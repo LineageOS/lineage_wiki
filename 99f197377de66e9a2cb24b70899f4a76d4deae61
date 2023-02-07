@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1df3783e_af2ee89d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-07T21:47:34Z",
+      "side": 1,
+      "message": "Just revert to the state before. I\u0027ll do the split on top of that. Split isn\u0027t merged yet, this will fail until then",
+      "revId": "99f197377de66e9a2cb24b70899f4a76d4deae61",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
