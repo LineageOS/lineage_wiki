@@ -16,6 +16,23 @@
       "message": "Same reason as Mi8937, I\u0027m improving device specifications info, leaving markdown part",
       "revId": "a24777253a257a30fc07d27df82e100d33d7d634",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad4a3a44_b5e8cc86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-08T17:54:12Z",
+      "side": 1,
+      "message": "Please keep device specification in one file as it was before. This is no improvement when it doesn\u0027t even pass the validation",
+      "revId": "a24777253a257a30fc07d27df82e100d33d7d634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
