@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "89060136_fc7902ac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-02-08T19:40:25Z",
+      "side": 1,
+      "message": "Restored to old style.\nThere\u0027s some new changes comparing to the previous old style commit.\n\nI thought I had to straight to new style, nevermind\nI\u0027ll push my new style changes separately",
+      "revId": "75f5f53c5e49bbfda8bdc58d5acc7041914849ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
