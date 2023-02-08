@@ -25,6 +25,7 @@ name: Galaxy Tab A 8.0 (2019)
 peripherals: [Accelerometer, GPS, Gyroscope]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+required_bootloader: ['T290XXU3CVG3']
 release: 2019
 screen: {size: '185.6 mm (8.0 in)', density: 287, resolution: '800x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '512 GB'}
