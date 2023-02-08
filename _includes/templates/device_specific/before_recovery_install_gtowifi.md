@@ -21,7 +21,7 @@
 1. Extract "Odin_3.13.1.zip".
 1. Run `Odin3 v3.13.1` found in the newly extracted "Odin_3.13.1" folder.
 1. Check the box labeled next to the button labeled "BL", and then click the "BL" button.
-    * In the menu that pops up, select the previously downloaded package " `.tar` file.
+    * In the menu that pops up, select the previously downloaded package `.tar` file.
 1. Power off the device, and again boot it into download mode:
     * {{ device.download_boot }}
 1. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
