@@ -1,6 +1,5 @@
 architecture: arm64
 battery: {removable: False, capacity: 5100, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '11'}
 before_lineage_install: gtowifi
 before_recovery_install: gtowifi
 bluetooth: {spec: '4.2', profiles: [A2DP]}
@@ -26,6 +25,7 @@ peripherals: [Accelerometer, GPS, Gyroscope]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2019
+required_bootloader: ['T290XXU3CVG3']
 screen: {size: '185.6 mm (8.0 in)', density: 287, resolution: '800x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM429 Snapdragon 429
