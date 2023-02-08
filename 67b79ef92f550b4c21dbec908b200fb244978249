@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13fb712f_1991989a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 23878
+      },
+      "writtenOn": "2023-02-08T16:05:10Z",
+      "side": 1,
+      "message": "Discrepancies observed when using berlin as template for berlna",
+      "revId": "67b79ef92f550b4c21dbec908b200fb244978249",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
