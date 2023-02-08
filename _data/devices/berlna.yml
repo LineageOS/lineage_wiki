@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '108 MP (wide)'}
+- {flash: 'Dual LED (dual tone)', info: '8 MP (ultrawide)'}
+- {flash: 'Dual LED (dual tone)', info: '2 MP (depth)'}
+- {flash: None, info: '32 MP (wide)'}
+codename: berlna
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
+current_branch: 19.1
+custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
+dimensions: {width: '75.6 mm (2.98 in)', height: '169 mm (6.65 in)', depth: '9 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Adreno 642L
+image: berlna.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm7325
+maintainers: [SyberHexen]
+models: [XT2141-2]
+name: edge 2021
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+ram: 8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_reboot: fastboot_menu
+release: 2021-08-19
+screen: {size: '172.72 mm (6.8 in)', density: 395, resolution: '1080x2460', technology: 'IPS LCD'}
+soc: Qualcomm SM7325 Snapdragon 778G 5G
+storage: 256 GB UFS 2.2
+tree: android_device_motorola_berlna
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac/ax, Tri-band, Wi-Fi Direct, Hotspot
