@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d795080_2bd44bce",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-02-08T17:54:22Z",
+      "side": 1,
+      "message": "Please keep device specification in one file as it was before. This is no improvement when it doesn\u0027t even pass the validation",
+      "revId": "efac93a93f6577983971a239ba3988fc15df27d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
