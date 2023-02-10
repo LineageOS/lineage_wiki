@@ -22,6 +22,30 @@
       },
       "revId": "3d72a3709228012cf32ee7f30bc19b26fb8e73a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fd02472_a5ec069e",
+        "filename": "_includes/templates/device_specific/before_recovery_install_gtowifi.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-10T03:38:13Z",
+      "side": 1,
+      "message": "It was a typo from my very first write up.\n\nFixed here: https://review.lineageos.org/c/LineageOS/lineage_wiki/+/348658",
+      "parentUuid": "2b2ccf42_fb5160fd",
+      "range": {
+        "startLine": 24,
+        "startChar": 73,
+        "endLine": 24,
+        "endChar": 74
+      },
+      "revId": "3d72a3709228012cf32ee7f30bc19b26fb8e73a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
