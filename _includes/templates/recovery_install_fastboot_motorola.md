@@ -24,6 +24,8 @@ fastboot devices
    * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 
+{% include alerts/note.html content="Some newer Motorola devices have a waiting period before you can enable `OEM Unlock` option in the developer options. It can sometimes take up to one week." %}
+
 4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
 
     {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/), though they only support some devices/firmwares." %}
