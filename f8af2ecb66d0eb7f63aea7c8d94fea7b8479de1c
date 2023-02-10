@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "33f7c4e2_c51abcfc",
+        "filename": "_data/devices/gtowifi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-10T03:35:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a81d8c84_b5ba0586",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 74
+      },
+      "revId": "f8af2ecb66d0eb7f63aea7c8d94fea7b8479de1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8478c826_5a401995",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-02-09T22:18:17Z",
       "side": 1,
       "message": "also, put this after release?",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 19
+      },
+      "revId": "f8af2ecb66d0eb7f63aea7c8d94fea7b8479de1c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "61f33ff7_c33f2668",
+        "filename": "_data/devices/gtowifi.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-10T03:35:54Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8478c826_5a401995",
       "range": {
         "startLine": 28,
         "startChar": 0,
