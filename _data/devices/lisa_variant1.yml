@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {removable: False, capacity: 4250, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED', info: '64 MP'}
+- {flash: 'Dual LED', info: '8 MP (ultrawide)'}
+- {flash: 'Dual LED', info: '5 MP (telemacro)'}
+- {flash: None, info: '20 MP'}
+codename: lisa
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 2.4 GHz
+current_branch: 19.1
+dimensions: {width: '75.73 mm (2.98 in)', height: '160.53 mm (6.32 in)', depth: '6.81 mm (0.26 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 642L
+image: lisa.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: android_kernel_xiaomi_sm8350
+maintainers: [ItsVixano]
+models: [2109119DG, 2109119DI, 2107119DC]
+name: Mi 11 LE
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2021-12
+screen: {size: '166.37 mm (6.67 in)', density: 402, resolution: '1080x2400', technology: '90Hz AMOLED'}
+sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM7325 Snapdragon 778G 5G
+storage: 128/256 GB
+tree: android_device_xiaomi_lisa
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac/6, dual-band, Wi-Fi Direct
