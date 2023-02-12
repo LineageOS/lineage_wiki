@@ -23,21 +23,20 @@ is_ab_device: true
 kernel: android_kernel_xiaomi_sm8350
 maintainers: [ItsVixano]
 models: [2109119DG, 2109119DI, 2107119DC]
-name: 11 Lite 5G NE / 11 Lite NE 5G / Mi 11 LE
+name: Mi 11 LE
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-- 11 Lite 5G NE / 11 Lite NE 5G: 2021-09
-- Mi 11 LE: 2021-12
+release: 2021-12
 screen: {size: '166.37 mm (6.67 in)', density: 402, resolution: '1080x2400', technology: '90Hz AMOLED'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 128/256 GB
 tree: android_device_xiaomi_lisa
 type: phone
+variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [19.1, 20]
