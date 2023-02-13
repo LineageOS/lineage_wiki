@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about pyxis
+title: Info about pyxis variants
 folder: info
-layout: deviceinfo
 permalink: /devices/pyxis/
+redirect_from:
+- /devices/pyxis/install
+- /devices/pyxis/update
 device: pyxis
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_info_variants.md %}
