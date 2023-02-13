@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about ginkgo
+title: Info about ginkgo variants
 folder: info
-layout: deviceinfo
 permalink: /devices/ginkgo/
+redirect_from:
+- /devices/ginkgo/install
+- /devices/ginkgo/update
 device: ginkgo
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_info_variants.md %}
