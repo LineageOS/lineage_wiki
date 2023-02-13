@@ -22,7 +22,7 @@ is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sdm710
 maintainers: [ceracz]
 models: [M1904F3BG, M1904F3BC]
-name: Mi CC 9 / Mi 9 Lite
+name: Mi CC 9
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6 GB
@@ -35,6 +35,7 @@ soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB
 tree: android_device_xiaomi_pyxis
 type: phone
+variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [19.1, 20.0]
