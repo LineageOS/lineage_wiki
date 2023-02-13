@@ -4,5 +4,6 @@ title: Upgrade LineageOS on pyxis
 folder: upgrade
 permalink: /devices/pyxis/upgrade
 device: pyxis
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
