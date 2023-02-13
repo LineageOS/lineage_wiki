@@ -21,21 +21,20 @@ image: ginkgo.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6125
 maintainers: [DarkJoker360, danascape]
-name: 'Redmi Note 8 / 8T'
+name: 'Redmi Note 8T'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-- Note 8: 2019-08
-- Note 8T: 2019-11
+release: 2019-11
 screen: {size: '160 mm (6.3 in)', density: 409, resolution: '1080x2340', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 tree: android_device_xiaomi_ginkgo
 type: phone
+variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [17.1, 18.1]
