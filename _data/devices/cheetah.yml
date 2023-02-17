@@ -22,7 +22,7 @@ is_ab_device: true
 kernel: android_kernel_google_gs201
 maintainers: [mikeioannina, npjohnson]
 name: Pixel 7 Pro
-network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
 ram: 12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
