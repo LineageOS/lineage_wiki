@@ -1,6 +1,5 @@
 architecture: arm64
 battery: {removable: False, capacity: 5100, tech: 'Li-Po'}
-before_lineage_install: gtowifi
 before_recovery_install: gtowifi
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
