@@ -108,7 +108,7 @@ There are no recovery installation instructions for this discontinued device.
     * Once the command succeded, select **Enter recovery** on the device to return to recovery mode.
         {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
 {%- endif %}
-6. Sideload the LineageOS `.zip` package:
+6. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
         {% include alerts/specific/tip_adb_flash_success.html %}
@@ -116,31 +116,35 @@ There are no recovery installation instructions for this discontinued device.
         {% include alerts/specific/note_retrofit_sideload_failed.html %}
 {%- endif %}
 {%- endif %}
+
+## Installing Add-Ons
+
+{% include alerts/note.html content="If you don't want to install any add-on (such as Google Apps), you can skip this whole section!" %}
+{% include alerts/warning.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
+
 {%- if device.is_ab_device and device.uses_twrp %}
-7. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload`, then `adb sideload filename.zip` those packages in sequence.
+1. Even though you are already in recovery, run `adb reboot sideload`, then `adb sideload filename.zip` for all desired packages in sequence.
 {%- elsif device.is_ab_device %}
-7. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` those packages in sequence.
+1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
+2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` for all desired packages in sequence.
 {%- else %}
-7. _(Optionally)_: If you want to install any add-ons, repeat the sideload steps above for those packages in sequence.
+1. Repeat the sideload steps above for all desired packages in sequence.
 {%- endif %}
 {% if device.is_ab_device or device.uses_twrp != true %}
     {% include alerts/specific/note_signature_check.html %}
 {%- endif %}
-    {% include alerts/note.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
-{%- if device.current_branch >= 17.1 %}
-{%- if device.uses_twrp and device.is_ab_device != true %}
-8. Once you have installed everything successfully, run 'adb reboot'.
-{%- else %}
-8. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+{%- if device.current_branch < 17.1 %}
+2. You can also root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
 {%- endif %}
-{%- else %}
+
+## All set! (Or is it?)
+
+Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
+
 {%- if device.uses_twrp and device.is_ab_device != true %}
-8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-9. Once you have installed everything successfully, run 'adb reboot'.
+* Run `adb reboot`.
 {%- else %}
-8. _(Optionally)_: Root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-9. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
-{%- endif %}
+* Click the back arrow in the top left of the screen, then "Reboot system now".
 {%- endif %}
 
 {%- capture first_boot %}
