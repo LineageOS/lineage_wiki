@@ -14,7 +14,6 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 19.1
-custom_recovery_link_instructions: Download the file named `vendor_boot.img` from the directory named with the latest date.
 dimensions: {width: '75.6 mm (2.98 in)', height: '169 mm (6.65 in)', depth: '9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 642L
