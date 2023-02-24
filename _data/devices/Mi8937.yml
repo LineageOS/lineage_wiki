@@ -28,7 +28,7 @@ name: Redmi 3S / 3X / 4 (India) / 4X / [Note 5A / Y1 - Prime]
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
 ram: 2 / 3 / 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd> (for Redmi 3S / 3X / 4 (India) / 4X) or <kbd>Volume Up</kbd> + <kbd>Power</kbd> (for Redmi Note 5A / Y1 - Prime).
   When the screen lights up, release the buttons.
 release:
 - Redmi 3S: 2016-06-14
