@@ -788,6 +788,7 @@ properties:
   vendor:
     "$id": "/properties/vendor"
     enum:
+    - 10.or
     - ARK
     - Askey
     - ASUS
@@ -825,6 +826,7 @@ properties:
   vendor_short:
     "$id": "/properties/vendor_short"
     enum:
+    - 10or
     - ark
     - askey
     - asus
