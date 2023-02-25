@@ -8,6 +8,7 @@
 ## Installing a custom recovery using `fastboot`
 
 {%- if device.custom_recovery_link %}
+{%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.

@@ -32,6 +32,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
 {%- if device.custom_recovery_link %}
+{%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 2. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {%- elsif device.uses_twrp %}
 2. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.tar`.
