@@ -37,13 +37,13 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 2. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.tar`.
     {% include alerts/tip.html content="Ensure you download the `.tar` or the `.tar.md5` file and not the `.img` version." %}
 {%- elsif device.maintainers != empty %}
-{%- assign is_lineage_recovery = True %}
+{%- assign is_lineage_recovery = true %}
 2. Download [Lineage Recovery](https://download.lineageos.org/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `lineage-{{ device.current_branch | precision: 1 }}-{{ site.time | date: "%Y%m%d" }}-recovery-{{ custom_recovery_codename }}.img`
 3. Rename the downloaded image to "recovery.img", open a Command Prompt in the folder where the file was downloaded, and TAR the file by running `tar -cvf recovery.tar recovery.img`.
     {% include alerts/tip.html content="Make sure to not accidentally name the file `recovery.img.img` when file name extensions are hidden." %}
     {% include alerts/tip.html content="You can open a command prompt in any folder by right-clicking on empty space while holding Shift and selecting \"Open Command Prompt here\" or \"Open PowerShell window here\" from the context menu." %}
 {%- else %}
-{%- assign is_lineage_recovery = True %}
+{%- assign is_lineage_recovery = true %}
 2. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 3. Locate the built `recovery.img` file, open a Command Prompt in the folder where the file was found, and TAR the file by running `tar -cvf recovery.tar recovery.img`.
     {% include alerts/tip.html content="You can open a command prompt in any folder by right-clicking on empty space while holding Shift and selecting \"Open Command Prompt here\" or \"Open PowerShell window here\" from the context menu." %}
@@ -70,7 +70,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
-{%- if is_lineage_recovery == True %}
+{%- if is_lineage_recovery == true %}
 {%- capture content %}
 If your recovery does **not** show the LineageOS logo <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 24" style="height: 1rem; vertical-align: middle;">
           <path d="M40,12a4,4,0,0,0-3,1.33l-.23-.09A29.62,29.62,0,0,0,32,11.81h0a8,8,0,0,0-16,0l-.22,0a29.53,29.53,0,0,0-4.6,1.39l-.23.09a4,4,0,1,0,.93,1.78h0a27.62,27.62,0,0,1,4.29-1.29,8,8,0,0,0,15.57,0,27.55,27.55,0,0,1,4.29,1.28h0A4,4,0,1,0,40,12ZM8,18a2,2,0,1,1,2-2A2,2,0,0,1,8,18Zm16,0a6,6,0,1,1,6-6A6,6,0,0,1,24,18Zm16,0a2,2,0,1,1,2-2A2,2,0,0,1,40,18ZM27,12a3,3,0,1,1-3-3A3,3,0,0,1,27,12Z"></path>
