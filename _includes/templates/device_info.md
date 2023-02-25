@@ -9,7 +9,7 @@
 
 {% if device.maintainers != empty %}
 ## Get LineageOS for the {{ device.vendor }} {{ device.name }}
-[Get the builds here](https://download.lineageos.org/{{ device.codename }})
+[Get the builds here](https://download.lineageos.org/devices/{{ device.codename }})
 {% endif %}
 
 ## Guides
