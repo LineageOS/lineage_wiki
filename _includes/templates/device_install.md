@@ -133,9 +133,6 @@ There are no recovery installation instructions for this discontinued device.
 {% if device.is_ab_device or device.uses_twrp != true %}
     {% include alerts/specific/note_signature_check.html %}
 {%- endif %}
-{%- if device.current_branch < 17.1 %}
-2. You can also root your device by installing [LineageOS' AddonSU](https://download.lineageos.org/extras), (use the `{{ userspace_architecture }}` package) or by using any other method you prefer.
-{%- endif %}
 
 ## All set!
 
