@@ -8,14 +8,14 @@ codename: griffin
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
-current_branch: 17.1
+current_branch: 18.1
 dimensions: {width: '75.3 mm (3 in)', height: '153.3 mm (6 in)', depth: '5.2 mm (0.2 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
 image: griffin.png
 install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8996
-maintainers: []
+maintainers: [erfanoabdi, npjohnson]
 models: [XT1650-03, XT1650-05]
 name: moto z
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -29,8 +29,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB
 tree: android_device_motorola_griffin
 type: phone
-uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
-versions: [14.1, 15.1, 16.0, 17.1]
+versions: [14.1, 15.1, 16.0, 17.1, 18.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, WiFi Direct, Hotspot
