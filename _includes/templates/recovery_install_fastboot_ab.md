@@ -12,6 +12,7 @@
 
 {%- if device.custom_recovery_link %}
 ## Booting a custom recovery using `fastboot`
+{%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). {{ device.custom_recovery_link_instructions }}
 {%- elsif device.uses_twrp %}
 ## Temporarily booting a custom recovery using `fastboot`
