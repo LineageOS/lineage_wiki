@@ -7,7 +7,7 @@
 2. Enable Developer Options by pressing the "Build Number" option at least 7 times, in the "Settings" app within the "About" menu
     * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-3. Download `vbmeta.img` from the directory named with the latest date from [here](https://mirror.math.princeton.edu/pub/lineageos/full/{{ device.codename }}/).
+3. Download `vbmeta.img` from [here](https://download.lineageos.org/devices/{{ device.codename }}).
 4. Open a Command Prompt in the folder where the file was downloaded and TAR the file by running `tar -cvf vbmeta.tar vbmeta.img`
 5. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
