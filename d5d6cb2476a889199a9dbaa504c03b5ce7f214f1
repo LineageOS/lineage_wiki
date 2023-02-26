@@ -16,6 +16,24 @@
       "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
       "revId": "d5d6cb2476a889199a9dbaa504c03b5ce7f214f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c1029a8e_d2070255",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26349
+      },
+      "writtenOn": "2023-02-26T14:52:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1714ebd5_f8625368",
+      "revId": "d5d6cb2476a889199a9dbaa504c03b5ce7f214f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
