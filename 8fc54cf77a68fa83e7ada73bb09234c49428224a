@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e88e1ee6_2a9f0b2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-02-27T07:12:32Z",
+      "side": 1,
+      "message": "Tried to add the downgrade-unlock-upgrade steps and it flatly refused to render my before_recovery_install for some reason. Though given it\u0027s a rather hacky method, I think it would be better to look at adding the full BL unlock guide when the variant split topic is merged. So for now this will go the same route as most of the V20 devices.",
+      "revId": "8fc54cf77a68fa83e7ada73bb09234c49428224a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
