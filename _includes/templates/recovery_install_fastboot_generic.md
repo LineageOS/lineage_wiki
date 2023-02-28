@@ -14,7 +14,7 @@
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {%- elsif device.maintainers != empty %}
 {%- assign is_lineage_recovery = true %}
-1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
+1. Download [Lineage Recovery](https://download-beta.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
 {%- else %}
 {%- assign is_lineage_recovery = true %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
