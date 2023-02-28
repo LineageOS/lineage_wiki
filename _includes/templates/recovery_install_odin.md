@@ -65,8 +65,8 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 10. Check the box labeled next to the button labeled "AP", and then click the "AP" button.
     * In the menu that pops up, select the newly downloaded (or built) custom recovery `.tar` or `.tar.md5`.
     {% include alerts/tip.html content="The filename may vary depending on your device, and the version of your custom recovery." %}
-11. Click "Start". A blue transfer bar will appear on the device showing the recovery image being flashed.
-    {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete. When the status message in the top left of the devices's display reports that the process is complete, you may proceed." %}
+11. Click "Start". A transfer bar will appear on the device showing the recovery image being flashed.
+    {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete." %}
 12. Unplug the USB cable from your device.
 13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}

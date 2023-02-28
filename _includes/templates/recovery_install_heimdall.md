@@ -72,8 +72,8 @@ heimdall print-pit
 heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
-4. A blue transfer bar will appear on the device showing the recovery image being flashed.
-    {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete. When the status message in the top left of the device's display reports that the process is complete, you may proceed." %}
+4. A transfer bar will appear on the device showing the recovery image being flashed.
+    {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete." %}
 5. Unplug the USB cable from your device.
 6. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
