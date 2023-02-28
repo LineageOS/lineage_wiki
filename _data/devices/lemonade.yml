@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
 cameras:
@@ -21,7 +21,7 @@ image: lemonade.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_oneplus_sm8350
-maintainers: []
+maintainers: [mikeioannina, tangalbert919, ZVNexus]
 models: [LE2110, LE2111, LE2113, LE2115]
 name: '9'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
