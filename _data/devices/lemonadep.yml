@@ -22,7 +22,7 @@ image: lemonadep.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_oneplus_sm8350
-maintainers: []
+maintainers: [LuK1337, bgcngm, mikeioannina]
 models: [LE2120, LE2121, LE2123, LE2125]
 name: '9 Pro'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
