@@ -74,9 +74,9 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif -%}
 
 {%- if device.maintainers != empty %}
-1. Download the [LineageOS installation package](https://download.lineageos.org/devices/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
+1. Download the [LineageOS installation package](https://download-beta.lineageos.org/devices/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
 {%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-    * You will also need to flash an empty super image since your device uses retrofitted dynamic partitions: download super_empty.img from [here](https://download.lineageos.org/devices/{{ device.codename }})
+    * You will also need to flash an empty super image since your device uses retrofitted dynamic partitions: download super_empty.img from [here](https://download-beta.lineageos.org/devices/{{ device.codename }})
 {%- endif %}
 {%- else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package.

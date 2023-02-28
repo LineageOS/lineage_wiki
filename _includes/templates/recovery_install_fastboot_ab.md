@@ -21,7 +21,7 @@
 {%- elsif device.maintainers != empty %}
 ## Booting a custom recovery using `fastboot`
 {%- assign is_lineage_recovery = true %}
-1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ recovery_partition_name }}.img`.
+1. Download [Lineage Recovery](https://download-beta.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ recovery_partition_name }}.img`.
 {%- else %}
 ## Booting a custom recovery using `fastboot`
 {%- assign is_lineage_recovery = true %}
