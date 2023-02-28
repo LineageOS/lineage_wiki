@@ -26,7 +26,7 @@
     * {{ device.download_boot }}
 1. Check in the top left of the Odin window that you see a valid device, it will show up as something like `COM0`.
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
-1. Click "Start". A blue or white transfer bar will appear on the device showing the package being flashed.
+1. Click "Start". A transfer bar will appear on the device showing the package being flashed.
 1. Your device will reboot, you may now unplug the USB cable from your device.
 {%- capture warning_restore_stock %}
 If, on this step, your device is stuck on a black screen, your device's bootloader is not unlockable and you cannot continue with these instructions. To return to the stock ROM, boot to Download mode and flash the BL package [here](https://github.com/lifehackerhansol/gto-fw/releases).
