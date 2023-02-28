@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1006cfee_ec7c8d6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-02-28T12:14:52Z",
+      "side": 1,
+      "message": "\u003e Patch Set 2: Code-Review-1\n\u003e \n\u003e blank space at the end of every line, please remove\n\nShould be done",
+      "revId": "77b841630f433d74c605539fb1fa69439ccdf3c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
