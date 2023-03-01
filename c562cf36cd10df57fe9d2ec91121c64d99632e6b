@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "510dc639_06e281e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-01T18:40:47Z",
+      "side": 1,
+      "message": "a look at the code didn\u0027t reveal anything obvious apart from \"dtb should also show on new portal\" which this patch ofc can\u0027t change. Should be fine otherwise",
+      "revId": "c562cf36cd10df57fe9d2ec91121c64d99632e6b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
