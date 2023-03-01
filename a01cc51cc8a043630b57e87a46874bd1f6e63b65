@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17aeb23f_65451681",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-01T03:29:44Z",
+      "side": 1,
+      "message": "we don\u0027t support karna, so why mention it? Confusing.",
+      "range": {
+        "startLine": 5,
+        "startChar": 34,
+        "endLine": 5,
+        "endChar": 49
+      },
+      "revId": "a01cc51cc8a043630b57e87a46874bd1f6e63b65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
