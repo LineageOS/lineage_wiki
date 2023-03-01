@@ -22,6 +22,30 @@
       },
       "revId": "f2c7e2a617b48b2055ae5fc473c05143f44f60eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "66ff2f6a_e76231ab",
+        "filename": "_data/devices/joan.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-03-01T00:05:36Z",
+      "side": 1,
+      "message": "The bootloader versions are actually the latest ones to my knowledge. (The only reason the bootloader versions are even listed here is to make sure users actually have a fastboot.)\n\nI\u0027ll drop it anyway, though.",
+      "parentUuid": "cefe8361_cc1edff5",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 75
+      },
+      "revId": "f2c7e2a617b48b2055ae5fc473c05143f44f60eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
