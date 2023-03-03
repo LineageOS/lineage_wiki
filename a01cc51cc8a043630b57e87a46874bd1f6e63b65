@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "916cafa2_fb517d01",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-03T00:17:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "17aeb23f_65451681",
+      "range": {
+        "startLine": 5,
+        "startChar": 34,
+        "endLine": 5,
+        "endChar": 49
+      },
+      "revId": "a01cc51cc8a043630b57e87a46874bd1f6e63b65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cd93a681_7ebf426c",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-03-01T03:31:29Z",
       "side": 1,
       "message": "these are in no order than make sense? Either go boot loader/modem/OS, or alphabetical.",
+      "range": {
+        "startLine": 2,
+        "startChar": 0,
+        "endLine": 31,
+        "endChar": 35
+      },
+      "revId": "a01cc51cc8a043630b57e87a46874bd1f6e63b65",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8add96b7_09a54a1a",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_surya.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-03T00:17:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cd93a681_7ebf426c",
       "range": {
         "startLine": 2,
         "startChar": 0,
