@@ -15,7 +15,7 @@ codename: Mi439
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.02 GHz + 4 x 1.46 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions:
 - Redmi 7A: {width: '70.41 mm (2.77 in)', height: '146.30 mm (5.75 in)', depth: '9.55 mm (0.37 in)'}
 - Redmi 8 / 8A / 8A Dual: {width: '75.4 mm (2.96 in)', height: '156.5 mm (6.16 in)', depth: '9.4 mm (0.37 in)'}
@@ -47,5 +47,5 @@ tree: android_device_xiaomi_Mi439
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [19.1]
+versions: [19.1, 20]
 wifi: 802.11 b/g/n

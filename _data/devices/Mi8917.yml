@@ -11,7 +11,7 @@ codename: Mi8917
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions:
 - Redmi 4A: {width: '70.4 mm (2.77 in)', height: '139.9 mm (5.5 in)', depth: '8.5 mm (0.33 in)'}
 - Redmi 5A: {width: '70.1 mm (2.75 in)', height: '140.4 mm (5.52 in)', depth: '8.35 mm (0.32 in)'}
@@ -45,5 +45,5 @@ tree: android_device_xiaomi_Mi8917
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [19.1]
+versions: [19.1, 20]
 wifi: 802.11 b/g/n

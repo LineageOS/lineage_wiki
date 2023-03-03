@@ -11,7 +11,7 @@ codename: Mi8937
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions:
 - Redmi 3S / 3X: {width: '69.6 mm (2.74 in)', height: '139.3 mm (5.48 in)', depth: '8.5 mm (0.33 in)'}
 - Redmi 4 (India) / 4X: {width: '69.96 mm (2.75 in)', height: '139.24 mm (5.48 in)', depth: '8.65 mm (0.34 in)'}
@@ -48,5 +48,5 @@ tree: android_device_xiaomi_Mi8937
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [19.1]
+versions: [19.1, 20]
 wifi: 802.11 b/g/n
