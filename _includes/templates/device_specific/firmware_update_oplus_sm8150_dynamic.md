@@ -13,7 +13,6 @@ fastboot flash --slot=all LOGO LOGO.img
 fastboot flash --slot=all modem modem.img
 fastboot flash --slot=all multiimgoem multiimgoem.img
 fastboot flash --slot=all oem_stanvbk oem_stanvbk.img
-fastboot flash --slot=all opproduct opproduct.img
 fastboot flash --slot=all qupfw qupfw.img
 fastboot flash --slot=all storsec storsec.img
 fastboot flash --slot=all tz tz.img
