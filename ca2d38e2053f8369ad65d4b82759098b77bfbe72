@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87a7e6a4_ec45797c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-07T02:02:11Z",
+      "side": 1,
+      "message": "These are the certs infra has/ my infra needs to sign the devices I have - some are device specific apexes but they\u0027re harmless to generate for devices that don\u0027t have them.\n\nThoughts?",
+      "revId": "ca2d38e2053f8369ad65d4b82759098b77bfbe72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
