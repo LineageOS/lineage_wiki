@@ -22,6 +22,29 @@
       },
       "revId": "214f3631aa7002a39292d497d8089fe877b5e26e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "029f4867_476720ad",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-03-07T17:12:15Z",
+      "side": 1,
+      "message": "```\nzsh: parse error near `apex-cert\u0027\nbash: `apex-cert\u0027: not a valid identifier\n```",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 19,
+        "endChar": 13
+      },
+      "revId": "214f3631aa7002a39292d497d8089fe877b5e26e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
