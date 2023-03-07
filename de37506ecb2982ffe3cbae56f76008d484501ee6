@@ -16,6 +16,24 @@
       "message": "fastboot wipe-super already flashes the proper header on all the involved partitions, it shouldn\u0027t check already existing partitions, make sure you do that from bootloader\u0027s fastboot",
       "revId": "de37506ecb2982ffe3cbae56f76008d484501ee6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "683e141d_254fa346",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-07T17:34:27Z",
+      "side": 1,
+      "message": "what? I didn\u0027t get you, though\n\nI mean, Redoing wipe-super would fail on a *already retrofitted* device (until it\u0027s wiped)\nI\u0027ve tried that multiple times by myself today, fastboot just decides to flash the super header onto the *logical* partition for no reason (saw from dmesg)\n\nIf doing wipe-super on empty physical partitions, Everything goes fine",
+      "parentUuid": "e0821b54_177397d7",
+      "revId": "de37506ecb2982ffe3cbae56f76008d484501ee6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
