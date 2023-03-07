@@ -3,6 +3,7 @@ battery:
 - Redmi 4A: {removable: False, capacity: 3120, tech: 'Li-Po'}
 - Redmi 5A: {removable: False, capacity: 3000, tech: 'Li-Po'}
 - Redmi Note 5A / Y1 - Lite: {removable: False, capacity: 3080, tech: 'Li-Po'}
+before_recovery_install: mithorium-common
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'LED', info: '13 MP (Rear)'}
