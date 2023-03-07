@@ -3,7 +3,7 @@ battery:
 - Redmi 7A: {removable: False, capacity: 4000, tech: 'Li-Po'}
 - Redmi 8 / 8A / 8A Dual: {removable: False, capacity: 5000, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
+before_recovery_install: Mi439
 bluetooth: {spec: '4.2'}
 cameras:
 - {flash: 'LED', info: '12 MP (Main) (Redmi 7A India / 8A)'}
