@@ -91,6 +91,24 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "c9cc9709_7f76ee77",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-03-07T18:04:47Z",
+      "side": 1,
+      "message": "Yeah, we can point users to do that in bootloader\u0027s fastboot after flashing recovery image and before rebooting to recovery",
+      "parentUuid": "30a904b5_e4e221a0",
+      "revId": "de37506ecb2982ffe3cbae56f76008d484501ee6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "0dd3c50c_6d7dba91",
         "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
         "patchSetId": 2
