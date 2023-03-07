@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0821b54_177397d7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-03-07T16:26:41Z",
+      "side": 1,
+      "message": "fastboot wipe-super already flashes the proper header on all the involved partitions, it shouldn\u0027t check already existing partitions, make sure you do that from bootloader\u0027s fastboot",
+      "revId": "de37506ecb2982ffe3cbae56f76008d484501ee6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
