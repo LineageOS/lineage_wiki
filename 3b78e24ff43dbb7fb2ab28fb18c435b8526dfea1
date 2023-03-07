@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a5c609e_ce19bb4c",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-03-07T17:32:37Z",
+      "side": 1,
+      "message": "com.android.media is listed twice.",
+      "range": {
+        "startLine": 19,
+        "startChar": 397,
+        "endLine": 19,
+        "endChar": 414
+      },
+      "revId": "3b78e24ff43dbb7fb2ab28fb18c435b8526dfea1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
