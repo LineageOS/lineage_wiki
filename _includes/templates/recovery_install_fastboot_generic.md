@@ -20,8 +20,11 @@
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
-2. Connect your device to your PC via USB if it isn't already.
-3. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+{%- if device.maintainers != empty and device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
+2. Download [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) since your device uses retrofitted dynamic partitions.
+{%- endif %}
+3. Connect your device to your PC via USB if it isn't already.
+4. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb reboot bootloader
 ```
@@ -30,7 +33,7 @@ adb reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
-4. Once the device is in fastboot mode, verify your PC finds it by typing:
+5. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
 ```
@@ -39,17 +42,24 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
+{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
+6. Flash empty super image:
+```
+fastboot wipe-super super_empty.img
+```
+    {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
+{%- endif %}
 {% if device.needs_fastboot_boot %}
-5. Temporarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
+7. Temporarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot boot <recovery_filename>.img
 ```
 {% else %}
-5. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
+7. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
 ```
 fastboot flash recovery <recovery_filename>.img
 ```
-6. Now reboot into recovery to verify the installation.
+8. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}
     * {% include snippets/recovery_reboot.md %}
     {%- else %}

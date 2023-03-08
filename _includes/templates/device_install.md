@@ -75,9 +75,6 @@ There are no recovery installation instructions for this discontinued device.
 
 {%- if device.maintainers != empty %}
 1. Download the [LineageOS installation package](https://download.lineageos.org/devices/{{ device.codename }}) that you would like to install or [build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) the package yourself.
-{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-    * You will also need to flash an empty super image since your device uses retrofitted dynamic partitions: download super_empty.img from [here](https://download.lineageos.org/devices/{{ device.codename }})
-{%- endif %}
 {%- else %}
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package.
 {%- endif %}
@@ -101,14 +98,7 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
-{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-5. Flash empty super image:
-    * On the device, enter fastbootd mode by selecting **Advanced**, **Enter fastboot**.
-    * On the host machine, flash super_empty.img using: `fastboot wipe-super super_empty.img`.
-    * Once the command succeded, select **Enter recovery** on the device to return to recovery mode.
-        {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
-{%- endif %}
-6. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
+5. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb sideload filename.zip`.
         {% include alerts/specific/tip_adb_flash_success.html %}
