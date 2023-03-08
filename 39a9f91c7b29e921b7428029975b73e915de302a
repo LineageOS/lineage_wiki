@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c79e13ad_6ab0efdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-08T20:33:27Z",
+      "side": 1,
+      "message": "on commit message:\n\u003e in which case it might fail to resize the partitions for the new partition table\n\nit\u0027s because of fastboot was flashing super_empty onto logical partitions\n\nin the normal procedure of flashing logical partitions, yes firstly have to resize the logical partition\n\nbut why should it flash super_empty to logical partitions in the first place...",
+      "revId": "39a9f91c7b29e921b7428029975b73e915de302a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
