@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2b7a9244_71508c4c",
+        "filename": "_data/devices/avicii.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-03-10T18:21:12Z",
+      "side": 1,
+      "message": "missed this one",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 20
+      },
+      "revId": "4abd65dd61ac9cc86db2e461985f542d480a5a9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
