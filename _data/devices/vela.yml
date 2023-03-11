@@ -20,7 +20,7 @@ image: pyxis.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sdm710
-maintainers: []
+maintainers: ["0xCAFEBABE"]
 models: [M1904F3BT]
 name: Mi CC9 Meitu Edition
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
