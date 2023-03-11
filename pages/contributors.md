@@ -74,6 +74,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 {%- assign versions = "" | split: " " %}
 {%- assign versions = versions | push: current_branch %}
 {%- assign versions = versions | push: branch_minus_1 %}
+{%- assign versions = versions | push: branch_minus_2 %}
 
 {% for version in versions %}
 
