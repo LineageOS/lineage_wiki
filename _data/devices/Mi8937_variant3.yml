@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '13 MP (Rear)'}
+- {flash: None, info: '5 MP (Front)'}
+codename: Mi8937
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
+current_branch: 20
+dimensions: {width: '69.96 mm (2.75 in)', height: '139.24 mm (5.48 in)', depth: '8.65 mm (0.34 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 505
+image: Mi8937.png
+install_method: fastboot_xiaomi
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_msm8937
+maintainers: ["0xCAFEBABE"]
+models: ["2016031", "2016037", "2016032", "2016030", "2016036", "2016035", "2016033", MAG138, MAI132, MAE136, MAT136, MDE6S, MDG6S, MDI6S, MDT6S]
+name: Redmi 4 (India)
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
+ram: 2 / 3 / 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  When the screen lights up, release the buttons.
+release: 2017-02-28
+screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8940 Snapdragon 435
+storage: 16 / 32 / 64 GB
+tree: android_device_xiaomi_Mi8937
+type: phone
+variant: 3
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [19.1, 20]
+wifi: 802.11 b/g/n
