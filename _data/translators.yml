@@ -82,7 +82,7 @@ languages:
     - name: Finnish
       proofreaders: ['Niko Koivu (niko0o)']
     - name: French
-      proofreaders: ['Adrian DC (RadianDC)']
+      proofreaders: ['Adrian DC (RadianDC)', 'Landry Gaiffe (MonsieurLandry)']
     - name: Frisian
       proofreaders: ['Fjoerfoks (fryskefirefox)']
     - name: Galician
@@ -162,4 +162,4 @@ languages:
     - name: Vietnamese
       proofreaders: ['Nam Anh (kyrie\_25)']
     - name: Welsh
-      proofreaders: ['Cymrodor']
+      proofreaders: ['Aled Powell (Cymrodor)']
