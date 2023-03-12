@@ -42,7 +42,7 @@
                   searchInput: document.getElementById('search-input'),
                   resultsContainer: document.getElementById('results-container'),
                   dataSource: '{{ "search.json" | relative_url }}',
-                  searchResultTemplate: '<li><a href="{url}" title="{{page.title | replace: "'", "\"}}">{title}</a></li>',
+                  searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
                   noResultsText: '<li><a href="#">{{site.data.strings.search_no_results_text}}</a></li>',
                   limit: 10,
                   fuzzy: true,
