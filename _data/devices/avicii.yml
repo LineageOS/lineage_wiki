@@ -14,7 +14,7 @@ codename: avicii
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
-current_branch: 17.1
+current_branch: 20
 dimensions: {width: '63.3 mm (2.88 in)', height: '158.3 mm (6.23 in)', depth: '8.2 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm7250
