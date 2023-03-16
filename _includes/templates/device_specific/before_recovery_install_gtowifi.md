@@ -28,6 +28,7 @@
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
 1. Click "Start". A transfer bar will appear on the device showing the package being flashed.
 1. Your device will reboot, you may now unplug the USB cable from your device.
+    * After this step, your bootloader version will display as `T290XXS3ATF1`. This is a part of the bootloader unlock process.
 {%- capture warning_restore_stock %}
 If, on this step, your device is stuck on a black screen, your device's bootloader is not unlockable and you cannot continue with these instructions. To return to the stock ROM, boot to Download mode and flash the BL package [here](https://github.com/lifehackerhansol/gto-fw/releases).
 {%- endcapture %}
