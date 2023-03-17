@@ -22,6 +22,30 @@
       },
       "revId": "4abd65dd61ac9cc86db2e461985f542d480a5a9c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3548e9f6_19b9b9fa",
+        "filename": "_data/devices/avicii.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 32372
+      },
+      "writtenOn": "2023-03-17T14:15:15Z",
+      "side": 1,
+      "message": "Has been fixed in a new commit, thanks for the hint!",
+      "parentUuid": "2b7a9244_71508c4c",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 20
+      },
+      "revId": "4abd65dd61ac9cc86db2e461985f542d480a5a9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
