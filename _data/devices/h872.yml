@@ -5,8 +5,8 @@ cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: 'LED', info: '13 MP'}
 - {flash: None, info: '5 MP'}
-carrier: Unlocked (US)
-codename: us997
+carrier: T-Mobile
+codename: h872
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.4 GHz + 2 x 2.1 GHz
@@ -19,7 +19,7 @@ install_method: fastboot_lg
 is_unlockable: false
 kernel: android_kernel_lge_msm8996
 maintainers: [aleasto, AShiningRay, npjohnson, ROMSG, x86cpu]
-name: G6 (US Unlocked)
+name: G6 (T-Mobile)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity sensor, Compass, Color spectrum sensor]
 ram: 4 GB
@@ -29,9 +29,9 @@ screen: {size: '144.8 mm (5.7 in)', density: 556, resolution: '2880x1440', techn
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32 GB
-tree: android_device_lge_us997
+tree: android_device_lge_h872
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1, 19.1]
+versions: [19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
