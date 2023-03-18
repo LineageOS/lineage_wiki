@@ -10,7 +10,7 @@ codename: us997
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.4 GHz + 2 x 2.1 GHz
-current_branch: 14.1
+current_branch: 19.1
 dimensions: {width: '71.9 mm (2.83 in)', height: '148.9 mm (5.86 in)', depth: '7.9 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
@@ -18,7 +18,7 @@ image: g6.png
 install_method: fastboot_lg
 is_unlockable: false
 kernel: android_kernel_lge_msm8996
-maintainers: []
+maintainers: [aleasto, AShiningRay, npjohnson, x86cpu]
 name: G6 (US Unlocked)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity sensor, Compass, Color spectrum sensor]
@@ -33,5 +33,5 @@ tree: android_device_lge_us997
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1]
+versions: [14.1, 19.1]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
