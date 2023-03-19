@@ -2,16 +2,17 @@
 <table class="deviceinfo table">
   <tbody>
 
-    <tr>
-      <th colspan="2">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</th>
-    </tr>
-
     <tr class="image">
+      <td colspan="2" style="border-top: 0px;">
       {% if jekyll.environment == "development" or jekyll.environment == "production" %}
-      <td colspan="2"><img src="{{ "images/devices/" | append: device.image | relative_url }}" /></td>
+      {% assign img_src = "images/devices/" | append: device.image | relative_url %}
       {% else %}
-      <td colspan="2"><img src="{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image }}"/></td>
+      {% assign img_src = "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image %}
       {% endif %}
+      <img src="{{ img_src }}" />
+      <br/><br/>
+      <b>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</b>
+      </td>
     </tr>
 
     <tr>
