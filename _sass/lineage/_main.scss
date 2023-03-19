@@ -406,6 +406,27 @@ a {
   }
 }
 
+h3.codename {
+  font-size: revert;
+  margin-top: 0px;
+  font-weight: 400;
+}
+.back-link {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+
+  .material-icons {
+    font-size: 1.25rem;
+    margin-left: -5px;
+    margin-bottom: 2px;
+  }
+}
+.post-title-main {
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+}
+
 .blurred {
   filter: blur(0.5rem);
 }
