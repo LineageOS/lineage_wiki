@@ -34,6 +34,11 @@ permalink: faq.html
 ## Where can I find the last build for _xxx_ device before support was dropped or its LineageOS version was deprecated?
  - In short, you can't. We don't build more than 2 versions usually (excemptions were made when [major hurdles](https://lineageos.org/Changelog-27/#deprecations) prevented a large amount of devices to receive a newer version) and we don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
 
+## There are so many images on the download portal. What are they?
+ - The download portal exposes various images for our devices. Some are required for the installation or upgrade process (which you can read up on your device's instructions),
+   some are just there and might help us when we try to debug or fix an issue for you.
+ - If they aren't mentioned on your device's wiki pages, just ignore them!
+
 ## I found a bug. What do I do?
  - You can report it! Please _carefully_ read the [How to submit a bug]({{ "how-to/bugreport" | relative_url }}) page before reporting it.
 
