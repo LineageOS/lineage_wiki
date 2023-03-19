@@ -3,8 +3,6 @@ layout: default
 ---
 <div class="container page">
 
-  <h1>{{ page.title }}</h1>
-
   {%- if page.device != None %}
   {%- capture link %}{{ "devices/" | append: site.data.devices[page.device].codename | relative_url }}{% endcapture %}
   {%- elsif page.tags contains "how-to" %}
@@ -12,8 +10,13 @@ layout: default
   {%- endif %}
 
   {%- if link != None %}
-  <a href={{ link }}>
-  <span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
+  <a href={{ link }} class="back-link"><span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
+  {%- endif %}
+
+  {%- if page.title contains "variant" %}
+    <h1 class="post-title-main">Select your {{ page.device }} variant</h1>
+  {%- else %}
+    <h1 class="post-title-main">{{ page.title }}</h1>
   {%- endif %}
 
   {% unless page.toc == false or page.url contains "install" -%}
