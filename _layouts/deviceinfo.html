@@ -1,12 +1,16 @@
 ---
 layout: default
 ---
+{% assign device = site.data.devices[page.device] %}
+
 <div class="container page">
     <div class="row">
       <div class="col-lg-8">
 
         <div class="post-header">
-           <h1 class="post-title-main">{{ page.title }}</h1>
+            <a href="/devices" class="back-link"><span class="material-icons">keyboard_arrow_left</span> Devices</a>
+            <h1 class="post-title-main">{{ device.vendor }} {{ device.name }}</h1>
+            <h3 class="codename">{{ device.codename }}</span>
         </div>
 
         <div class="post-content">
