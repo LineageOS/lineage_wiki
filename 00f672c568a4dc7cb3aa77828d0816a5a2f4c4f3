@@ -22,6 +22,30 @@
       },
       "revId": "00f672c568a4dc7cb3aa77828d0816a5a2f4c4f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "558310e7_d65a84a6",
+        "filename": "_data/devices/mata.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-03-21T02:54:45Z",
+      "side": 1,
+      "message": "whoops, fixed.",
+      "parentUuid": "caff5632_5acb6d8b",
+      "range": {
+        "startLine": 36,
+        "startChar": 27,
+        "endLine": 36,
+        "endChar": 29
+      },
+      "revId": "00f672c568a4dc7cb3aa77828d0816a5a2f4c4f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
