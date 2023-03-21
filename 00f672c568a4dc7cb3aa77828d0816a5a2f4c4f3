@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caff5632_5acb6d8b",
+        "filename": "_data/devices/mata.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-03-21T01:11:06Z",
+      "side": 1,
+      "message": "19.1 shouldn\u0027t be removed",
+      "range": {
+        "startLine": 36,
+        "startChar": 27,
+        "endLine": 36,
+        "endChar": 29
+      },
+      "revId": "00f672c568a4dc7cb3aa77828d0816a5a2f4c4f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
