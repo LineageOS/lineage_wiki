@@ -3,6 +3,7 @@ battery:
 - Redmi 4A: {removable: False, capacity: 3120, tech: 'Li-Po'}
 - Redmi 5A: {removable: False, capacity: 3000, tech: 'Li-Po'}
 - Redmi Note 5A / Y1 - Lite: {removable: False, capacity: 3080, tech: 'Li-Po'}
+before_recovery_install: mithorium-common
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'LED', info: '13 MP (Rear)'}
@@ -20,7 +21,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 308
 image: Mi8917.png
 install_method: fastboot_xiaomi
-is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_msm8937
 maintainers: ["0xCAFEBABE"]
 models: ["2016111", "2016112", "2016116", "2016117", MCE3B, MCG3B, MCI3B, MCT3B, MDE6, MDG6, MDI6, MDT6]
