@@ -2,6 +2,7 @@ architecture: arm64
 battery:
 - Redmi 3S / 3X / 4 (India) / 4X: {removable: False, capacity: 4100, tech: 'Li-Po'}
 - Redmi Note 5A / Y1 - Prime: {removable: False, capacity: 3080, tech: 'Li-Po'}
+before_recovery_install: mithorium-common
 bluetooth: {spec: '4.1'}
 cameras:
 - {flash: 'LED', info: '13 MP (Rear)'}
@@ -20,7 +21,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 505
 image: Mi8937.png
 install_method: fastboot_xiaomi
-is_retrofit_dynamic_partitions: true
+#is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_msm8937
 maintainers: ["0xCAFEBABE"]
 models: ["2016031", "2016037", "2016032", "2016030", "2016036", "2016035", "2016033", MAG138, MAI132, MAE136, MAT136, MDE6S, MDG6S, MDI6S, MDT6S]
