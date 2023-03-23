@@ -3,7 +3,7 @@ battery:
 - Redmi 7A: {removable: False, capacity: 4000, tech: 'Li-Po'}
 - Redmi 8 / 8A / 8A Dual: {removable: False, capacity: 5000, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
+before_recovery_install: Mi439
 bluetooth: {spec: '4.2'}
 cameras:
 - {flash: 'LED', info: '12 MP (Main) (Redmi 7A India / 8A)'}
@@ -23,7 +23,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 505
 image: Mi439.png
 install_method: fastboot_xiaomi
-is_retrofit_dynamic_partitions: true
+#is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sdm439
 maintainers: ["0xCAFEBABE"]
 models: [M1903C3EC, M1903C3EE, M1903C3EG, M1903C3EH, M1903C3EI, M1903C3ET, M1908C3IC, M1908C3IE, M1908C3IG, M1908C3IH, M1908C3II, M1908C3KE, M1908C3KG, M1908C3KH, M1908C3KI, M2001C3K3I]
