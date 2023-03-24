@@ -16,7 +16,7 @@ mkdir ~/.android-certs
 for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandbox shared testcert testkey verity; do \
     ./development/tools/make_key ~/.android-certs/$cert "$subject"; \
 done
-for apex in com.android.adbd com.android.adservices com.android.adservices.api com.android.appsearch com.android.art com.android.bluetooth com.android.btservices com.android.cellbroadcast com.android.compos com.android.connectivity.resources com.android.conscrypt com.android.extservices com.android.hotspot2.osulogin com.android.i18n com.android.ipsec com.android.media com.android.media.swcodec com.android.mediaprovider com.android.nearby.halfsheet com.android.neuralnetworks com.android.ondevicepersonalization com.android.os.statsd com.android.permission com.android.resolv com.android.runtime com.android.safetycenter.resources com.android.scheduling com.android.sdkext com.android.support.apexer com.android.telephony com.android.tethering com.android.tzdata com.android.uwb com.android.uwb.resources com.android.virt com.android.wifi com.android.wifi.dialog com.android.wifi.resources com.qorvo.uwb; do \
+for apex in com.android.adbd com.android.adservices com.android.adservices.api com.android.appsearch com.android.art com.android.bluetooth com.android.btservices com.android.cellbroadcast com.android.compos com.android.connectivity.resources com.android.conscrypt com.android.extservices com.android.hotspot2.osulogin com.android.i18n com.android.ipsec com.android.media com.android.media.swcodec com.android.mediaprovider com.android.nearby.halfsheet com.android.neuralnetworks com.android.ondevicepersonalization com.android.os.statsd com.android.permission com.android.resolv com.android.runtime com.android.safetycenter.resources com.android.scheduling com.android.sdkext com.android.support.apexer com.android.telephony com.android.tethering com.android.tzdata com.android.uwb com.android.uwb.resources com.android.virt com.android.vndk.current com.android.wifi com.android.wifi.dialog com.android.wifi.resources com.qorvo.uwb; do \
     ./development/tools/make_key ~/.android-certs/$apex "$subject"; \
 done
 ```
@@ -39,13 +39,62 @@ mka target-files-package otatools
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
-it's finished, you just need to sign all the APKs:
+it's finished, you just need to sign all the APKs and APEXes:
 
 {% include alerts/note.html content="For LineageOS versions older than 18.1 you will have to prepend \"./build/tools/releasetools/\" on the \"sign_target_files_apks\" and \"ota_from_target_files\" commands below." %}
 
+You may set `ANDROID_PW_FILE` and `EDITOR` environment variables for a more convenient way to enter certificate passwords. When you invoke the `sign_target_files_apks` command, the editor will open `ANDROID_PW_FILE` if this file is missing any relevant certificate passwords.
+```
+# Enter key passwords between the [[[ ]]] brackets
+# (Additional spaces are harmless)
+
+[[[    ]]] /your/home/.android-certs/bluetooth
+[[[    ]]] /your/home/.android-certs/com.android.adbd
+etc...
+```
+Populate the missing passwords, save the file, and close the editor. Make sure to store this file in a secure location.
 ```
 croot
-sign_target_files_apks -o -d ~/.android-certs \
+sign_target_files_apks -o -d $HOME/.android-certs \
+    --extra_apks com.android.adbd.apex=$HOME/.android-certs/com.android.adbd \
+    --extra_apks com.android.adservices.apex=$HOME/.android-certs/com.android.adservices \
+    --extra_apks com.android.appsearch.apex=$HOME/.android-certs/com.android.appsearch \
+    --extra_apks com.android.art.apex=$HOME/.android-certs/com.android.art \
+    --extra_apks com.android.bluetooth.apex=$HOME/.android-certs/com.android.bluetooth \
+    --extra_apks com.android.btservices.apex=$HOME/.android-certs/com.android.btservices \
+    --extra_apks com.android.cellbroadcast.apex=$HOME/.android-certs/com.android.cellbroadcast \
+    --extra_apks com.android.compos.apex=$HOME/.android-certs/com.android.compos \
+    --extra_apks com.android.connectivity.resources.apex=$HOME/.android-certs/com.android.connectivity.resources \
+    --extra_apks com.android.conscrypt.apex=$HOME/.android-certs/com.android.conscrypt \
+    --extra_apks com.android.extservices.apex=$HOME/.android-certs/com.android.extservices \
+    --extra_apks com.android.hotspot2.osulogin.apex=$HOME/.android-certs/com.android.hotspot2.osulogin \
+    --extra_apks com.android.i18n.apex=$HOME/.android-certs/com.android.i18n \
+    --extra_apks com.android.ipsec.apex=$HOME/.android-certs/com.android.ipsec \
+    --extra_apks com.android.media.apex=$HOME/.android-certs/com.android.media \
+    --extra_apks com.android.media.swcodec.apex=$HOME/.android-certs/com.android.media.swcodec \
+    --extra_apks com.android.mediaprovider.apex=$HOME/.android-certs/com.android.mediaprovider \
+    --extra_apks com.android.nearby.halfsheet.apex=$HOME/.android-certs/com.android.nearby.halfsheet \
+    --extra_apks com.android.neuralnetworks.apex=$HOME/.android-certs/com.android.neuralnetworks \
+    --extra_apks com.android.ondevicepersonalization.apex=$HOME/.android-certs/com.android.ondevicepersonalization \
+    --extra_apks com.android.os.statsd.apex=$HOME/.android-certs/com.android.os.statsd \
+    --extra_apks com.android.permission.apex=$HOME/.android-certs/com.android.permission \
+    --extra_apks com.android.resolv.apex=$HOME/.android-certs/com.android.resolv \
+    --extra_apks com.android.runtime.apex=$HOME/.android-certs/com.android.runtime \
+    --extra_apks com.android.safetycenter.resources.apex=$HOME/.android-certs/com.android.safetycenter.resources \
+    --extra_apks com.android.scheduling.apex=$HOME/.android-certs/com.android.scheduling \
+    --extra_apks com.android.sdkext.apex=$HOME/.android-certs/com.android.sdkext \
+    --extra_apks com.android.support.apexer.apex=$HOME/.android-certs/com.android.support.apexer \
+    --extra_apks com.android.telephony.apex=$HOME/.android-certs/com.android.telephony \
+    --extra_apks com.android.tethering.apex=$HOME/.android-certs/com.android.tethering \
+    --extra_apks com.android.tzdata.apex=$HOME/.android-certs/com.android.tzdata \
+    --extra_apks com.android.uwb.apex=$HOME/.android-certs/com.android.uwb \
+    --extra_apks com.android.uwb.resources.apex=$HOME/.android-certs/com.android.uwb.resources \
+    --extra_apks com.android.virt.apex=$HOME/.android-certs/com.android.virt \
+    --extra_apks com.android.vndk.current.apex=$HOME/.android-certs/com.android.vndk.current \
+    --extra_apks com.android.wifi.apex=$HOME/.android-certs/com.android.wifi \
+    --extra_apks com.android.wifi.dialog.apex=$HOME/.android-certs/com.android.wifi.dialog \
+    --extra_apks com.android.wifi.resources.apex=$HOME/.android-certs/com.android.wifi.resources \
+    --extra_apks com.qorvo.uwb.apex=$HOME/.android-certs/com.qorvo.uwb \
     $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
     signed-target_files.zip
 ```
