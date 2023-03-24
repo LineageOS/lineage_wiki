@@ -16,8 +16,26 @@ mkdir ~/.android-certs
 for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandbox shared testcert testkey verity; do \
     ./development/tools/make_key ~/.android-certs/$cert "$subject"; \
 done
-for apex in com.android.adbd com.android.adservices com.android.adservices.api com.android.appsearch com.android.art com.android.bluetooth com.android.btservices com.android.cellbroadcast com.android.compos com.android.connectivity.resources com.android.conscrypt com.android.extservices com.android.hotspot2.osulogin com.android.i18n com.android.ipsec com.android.media com.android.media.swcodec com.android.mediaprovider com.android.nearby.halfsheet com.android.neuralnetworks com.android.ondevicepersonalization com.android.os.statsd com.android.permission com.android.resolv com.android.runtime com.android.safetycenter.resources com.android.scheduling com.android.sdkext com.android.support.apexer com.android.telephony com.android.tethering com.android.tzdata com.android.uwb com.android.uwb.resources com.android.virt com.android.wifi com.android.wifi.dialog com.android.wifi.resources com.qorvo.uwb; do \
-    ./development/tools/make_key ~/.android-certs/$apex "$subject"; \
+```
+
+{% assign apexes = "com.android.adbd com.android.adservices com.android.adservices.api com.android.appsearch com.android.art com.android.bluetooth com.android.btservices com.android.cellbroadcast com.android.compos com.android.connectivity.resources com.android.conscrypt com.android.extservices com.android.hotspot2.osulogin com.android.i18n com.android.ipsec com.android.media com.android.media.swcodec com.android.mediaprovider com.android.nearby.halfsheet com.android.neuralnetworks com.android.ondevicepersonalization com.android.os.statsd com.android.permission com.android.resolv com.android.runtime com.android.safetycenter.resources com.android.scheduling com.android.sdkext com.android.support.apexer com.android.telephony com.android.tethering com.android.tzdata com.android.uwb com.android.uwb.resources com.android.virt com.android.vndk.current com.android.wifi com.android.wifi.dialog com.android.wifi.resources com.qorvo.uwb" | split: " " %}
+
+LineageOS 19.1 and above will also require APEXes be re-signed.
+Each APEX file is signed with two keys: one for the mini file system image within an APEX and the other for the entire APEX.
+In this case, only SHA256_RSA4096 keys are allowed. You need to make a copy of `./development/tools/make_key` file and replace this line
+```
+gen_key_cmd="openssl genrsa -f4 2048"
+```
+with
+```
+gen_key_cmd="openssl genrsa -f4 4096"
+```
+Then generate the APEX keys altering the `subject` line to reflect your information. You will need to enter twice the passphrase for each APEX.
+```
+for apex in {{ apexes | join: " " }}; do \
+    subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN='$apex'/emailAddress=android@android.com'; \
+    /your/make_key ~/.android-certs/$apex "$subject"; \
+    openssl pkcs8 -in ~/.android-certs/$apex.pk8 -inform DER -out ~/.android-certs/$apex.pem; \
 done
 ```
 
@@ -39,13 +57,36 @@ mka target-files-package otatools
 ```
 
 Sit back and wait for a while - it may take a while depending on your computer's specs. After
-it's finished, you just need to sign all the APKs:
+it's finished, you just need to sign all the APKs and APEXes:
 
 {% include alerts/note.html content="For LineageOS versions older than 18.1 you will have to prepend \"./build/tools/releasetools/\" on the \"sign_target_files_apks\" and \"ota_from_target_files\" commands below." %}
 
+You may set `ANDROID_PW_FILE` and `EDITOR` environment variables for a more convenient way to enter certificate passwords. When you invoke the `sign_target_files_apks` command, the editor will open `ANDROID_PW_FILE` if this file is missing any relevant certificate passwords.
+```
+# Enter key passwords between the [[[ ]]] brackets
+# (Additional spaces are harmless)
+
+[[[    ]]] /your/home/.android-certs/bluetooth
+[[[    ]]] /your/home/.android-certs/com.android.adbd
+etc...
+```
+Populate the missing passwords, save the file, and close the editor. Make sure to store this file in a secure location.
+
+Signing process for LineageOS versions 18.1 and below:
 ```
 croot
 sign_target_files_apks -o -d ~/.android-certs \
+    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
+    signed-target_files.zip
+```
+Signing process for LineageOS versions 19.1 and above:
+```
+croot
+sign_target_files_apks -o -d ~/.android-certs \
+    {%- for apex in apexes %}
+    --extra_apks {{ apex }}.apex=$HOME/.android-certs/{{ apex }} \
+    --extra_apex_payload_key {{ apex }}.apex=$HOME/.android-certs/{{ apex }}.pem \
+    {%- endfor %}
     $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
     signed-target_files.zip
 ```
