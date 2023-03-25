@@ -16,6 +16,201 @@
       "message": "Do you have an error log?",
       "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1c113ab_aeae3009",
+        "filename": "_data/devices/Mi439.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "remove, don\u0027t comment",
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "32a06008_aa9bc102",
+        "filename": "_includes/templates/device_specific/before_recovery_install_Mi439.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "Make it normal text as described on the other file as well",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 174
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54feb71b_d1cd267f",
+        "filename": "_includes/templates/device_specific/before_recovery_install_Mi439.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "isn\u0027t the name actually just \"dtbo.img\" and \"vbmeta.img\"? can go without the \"\u003c\" and \"\u003e\" and remove the whole note about it in the step above",
+      "range": {
+        "startLine": 12,
+        "startChar": 20,
+        "endLine": 12,
+        "endChar": 26
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9b35c20_53c39b23",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "casing",
+      "range": {
+        "startLine": 3,
+        "startChar": 176,
+        "endLine": 3,
+        "endChar": 178
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89d5d584_1890a18c",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "casing",
+      "range": {
+        "startLine": 3,
+        "startChar": 122,
+        "endLine": 3,
+        "endChar": 127
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec4e3c7f_8270d5f4",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "This whole paragraph doesn\u0027t need to be an alert, just make it the leading text to the steps",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 220
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a8df5a7_1f753963",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "Erase the underlying",
+      "range": {
+        "startLine": 7,
+        "startChar": 3,
+        "endLine": 7,
+        "endChar": 19
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e09fab8a_4ba0a618",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "sure this can\u0027t be hosted on afh/muppets?",
+      "range": {
+        "startLine": 15,
+        "startChar": 68,
+        "endLine": 15,
+        "endChar": 162
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bea6cf0b_95b799c3",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-03-25T19:39:04Z",
+      "side": 1,
+      "message": "empty newline at end missing",
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
