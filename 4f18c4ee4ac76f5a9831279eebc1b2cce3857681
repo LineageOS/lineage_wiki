@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "31f84d3f_48c13d58",
+        "filename": "_data/devices/Mi439.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f1c113ab_aeae3009",
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "32a06008_aa9bc102",
@@ -60,6 +78,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "9cecebfc_b5b7a841",
+        "filename": "_includes/templates/device_specific/before_recovery_install_Mi439.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "same reason with #12",
+      "parentUuid": "32a06008_aa9bc102",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 174
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "54feb71b_d1cd267f",
         "filename": "_includes/templates/device_specific/before_recovery_install_Mi439.md",
         "patchSetId": 3
@@ -71,6 +113,30 @@
       "writtenOn": "2023-03-25T19:39:04Z",
       "side": 1,
       "message": "isn\u0027t the name actually just \"dtbo.img\" and \"vbmeta.img\"? can go without the \"\u003c\" and \"\u003e\" and remove the whole note about it in the step above",
+      "range": {
+        "startLine": 12,
+        "startChar": 20,
+        "endLine": 12,
+        "endChar": 26
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "441dbec5_c4ca99cc",
+        "filename": "_includes/templates/device_specific/before_recovery_install_Mi439.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "hm, the \"Flashing additional partitions\" part was copied from common before_recovery_install_boot_stack.md\n\nreally have to do so here?",
+      "parentUuid": "54feb71b_d1cd267f",
       "range": {
         "startLine": 12,
         "startChar": 20,
@@ -152,6 +218,54 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "71c1fed9_66a6d83e",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "hm, do you mean the pair `{% case xxx %}` and `{% endcase %}`?\n\nI don\u0027t know what shall I add it for, honestly..",
+      "parentUuid": "89d5d584_1890a18c",
+      "range": {
+        "startLine": 3,
+        "startChar": 122,
+        "endLine": 3,
+        "endChar": 127
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f6d56a46_16cb9079",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ec4e3c7f_8270d5f4",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 220
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "7a8df5a7_1f753963",
         "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
         "patchSetId": 3
@@ -163,6 +277,30 @@
       "writtenOn": "2023-03-25T19:39:04Z",
       "side": 1,
       "message": "Erase the underlying",
+      "range": {
+        "startLine": 7,
+        "startChar": 3,
+        "endLine": 7,
+        "endChar": 19
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91d41507_a5fab083",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7a8df5a7_1f753963",
       "range": {
         "startLine": 7,
         "startChar": 3,
@@ -198,6 +336,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "67845151_5df4b65a",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "afh? I don\u0027t have an account there yet, will register if it\u0027s really necessary\nmuppets? do you mean https://github.com/TheMuppets/ ?\n\nIf just afraid of the file may get changed later on, I can specify a HEAD here",
+      "parentUuid": "e09fab8a_4ba0a618",
+      "range": {
+        "startLine": 15,
+        "startChar": 68,
+        "endLine": 15,
+        "endChar": 162
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bea6cf0b_95b799c3",
         "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
         "patchSetId": 3
@@ -209,6 +371,24 @@
       "writtenOn": "2023-03-25T19:39:04Z",
       "side": 1,
       "message": "empty newline at end missing",
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b8595526_41c15803",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-25T22:05:18Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bea6cf0b_95b799c3",
       "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
