@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "37979f25_440622b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-03-26T21:17:25Z",
+      "side": 1,
+      "message": "Some more info. This issue started coming up around a month ago, when google released v34 platform-tools. It\u0027s only happening in windows. Seems to only happen on some devices. I\u0027ve seen it reported in lineage\u0027s irc and subreddit on redmi 7a and 8a and a pixel 6a.\n\nfastboot v34.0.0 gives this error:\nfastboot: error: Could not parse image: super_empty.img\n\nfastboot v34.0.1 gives this error:\n[liblp] bool android::fs_mgr::ReadMetadataHeader(Reader *, LpMetadata *) read failed: No error\nfastboot: error: Could not parse image: super_empty.img\n\nWith older fastboot version, like v33.0.3, this issue doesn\u0027t happen.",
+      "revId": "ff4a22e8790aaa3b4fd09803fce50657564c9888",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
