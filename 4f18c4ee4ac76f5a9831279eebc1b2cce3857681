@@ -336,6 +336,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d0a2214_eb8546b9",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-26T08:54:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d47f6ad_da7d7e8a",
+      "range": {
+        "startLine": 3,
+        "startChar": 122,
+        "endLine": 3,
+        "endChar": 127
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7a8df5a7_1f753963",
@@ -444,6 +468,30 @@
       "side": 1,
       "message": "no, we have an androidfilehost where we can store images so they come from kind of an \"official\" place. I don\u0027t really like the \"here is a random repo, get these files\" approach",
       "parentUuid": "67845151_5df4b65a",
+      "range": {
+        "startLine": 15,
+        "startChar": 68,
+        "endLine": 15,
+        "endChar": 162
+      },
+      "revId": "4f18c4ee4ac76f5a9831279eebc1b2cce3857681",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "608f6885_2c46c598",
+        "filename": "_includes/templates/device_specific/before_recovery_install_mithorium-common.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-03-26T08:54:23Z",
+      "side": 1,
+      "message": "Sure. how shall I request for upload?",
+      "parentUuid": "6276958e_293fa721",
       "range": {
         "startLine": 15,
         "startChar": 68,
