@@ -1,0 +1,37 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: 'LED', info: '13 MP'}
+codename: Z00T
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.7/1.0 GHz
+current_branch: 15.1
+dimensions: None
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 405
+image: Z00T.png
+install_method: fastboot_zenfone
+kernel: android_kernel_asus_msm8916
+maintainers: []
+name: Zenfone 2 Selfie (1080p)
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
+release: 2015-11
+screen: {size: '152.4 mm (6.0 in)', density: 367, resolution: '1080x1920', technology: 'IPS LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 16/32 GB
+tree: android_device_asus_Z00T
+type: phone
+uses_twrp: true
+variant: 2
+vendor: ASUS
+vendor_short: asus
+versions: [14.1, 15.1]
+wifi: Wi-Fi 802.11 b/g/n, Wi-Fi Direct, hotspot
