@@ -7,7 +7,7 @@ cameras:
 codename: vegetalte
 cpu: Cortex-A53
 cpu_cores: '4'
-cpu_freq: 1.2 GHz (E5 4G) / 1.4 GHz (E5s)
+cpu_freq: 1.4 GHz (E5s)
 current_branch: 14.1
 dimensions: {width: '72.15 mm (2.84 in)', height: '143.15 mm (5.64 in)', depth: '8.7 mm (0.34 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -17,27 +17,21 @@ image: vegetalte.png
 install_method: fastboot_nexus
 kernel: android_kernel_bq_msm8939
 maintainers: []
-models:
-- E5 4G
-- E5s
-name: Aquaris E5 4G / Aquaris E5s
+name: Aquaris E5s
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, FM radio, USB OTG]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
-release:
-- E5 4G: 2014
-- E5s: 2015
+release: 2015
 screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
-soc:
-- E5 4G: Qualcomm MSM8916 Snapdragon 410
-- E5s: Qualcomm MSM8916T Snapdragon 412
+soc: Qualcomm MSM8916T Snapdragon 412
 storage: 8/16 GB
 tree: android_device_bq_vegetalte
 type: phone
 uses_twrp: true
+variant: 2
 vendor: BQ
 vendor_short: bq
 versions: [14.1]
