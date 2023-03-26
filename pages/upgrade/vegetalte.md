@@ -4,5 +4,6 @@ title: Upgrade LineageOS on vegetalte
 folder: upgrade
 permalink: /devices/vegetalte/upgrade
 device: vegetalte
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
