@@ -1,11 +1,9 @@
 architecture: arm
-battery:
-- Honor 4: {removable: False, capacity: 2000, tech: 'Li-Ion'}
-- Honor 4X: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP (4) or 13 MP (4X)'}
-- {flash: None, info: '2 MP (4) or 5 MP (4X)'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
 codename: cherry
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -21,21 +19,20 @@ install_method: fastboot_huawei
 is_unlockable: false
 kernel: android_kernel_huawei_msm8916
 maintainers: []
-name: Honor 4 / 4X
+name: Honor 4X
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014-10
-screen:
-- Honor 4: {size: '127 mm (5.0 in)', density: 294, resolution: '1280x720', technology: 'IPS+ LCD'}
-- Honor 4X: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS+ LCD'}
+screen: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS+ LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_cherry
 type: phone
 uses_twrp: true
+variant: 2
 vendor: Huawei
 vendor_short: huawei
 versions: [14.1, 15.1]
