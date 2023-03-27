@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '11'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP + aptX]}
 before_lineage_install: ab_copy_partitions
 cameras:
@@ -12,7 +13,7 @@ codename: dre
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '74.9 mm (2.95 in)', height: '163.1 mm (6.42 in)', depth: '8.3 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm4350
@@ -38,5 +39,5 @@ tree: android_device_oneplus_dre
 type: phone
 vendor: OnePlus
 vendor_short: oneplus
-versions: [19.1]
+versions: [19.1, 20]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, Hotspot
