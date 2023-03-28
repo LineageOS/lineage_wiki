@@ -155,7 +155,7 @@ git reset --hard github/cm-14.1
 
 You can also use a script or small flashable zip designed to be run once, before installing
 a build with the new keys. The script is available under
-`./lineage/scripts/key-migration/script.sh`
+`./lineage/scripts/key-migration/migration.sh`
 
 The script can also be made into a zip, by inserting it into a zip similar to
 [this](https://blunden.se/migration). This zip has the script placed in 
