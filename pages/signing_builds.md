@@ -155,7 +155,7 @@ git reset --hard github/cm-14.1
 
 You can also use a script or small flashable zip designed to be run once, before installing
 a build with the new keys. The script is available under
-`./lineage/scripts/key-migration/script.sh`
+`./lineage/scripts/key-migration/migration.sh`
 
 The script can also be made into a zip, by inserting it into a zip similar to
 [this](https://blunden.se/migration). This zip has the script placed in 
@@ -171,7 +171,6 @@ LineageOS build, you can push the script to your device and run it from Android:
 adb root # This requires an userdebug/eng build and ADB root access to be enabled
 adb shell stop
 adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.sh
-adb shell chmod +x /data/local/tmp/migration.sh
 adb shell sh /data/local/tmp/migration.sh official
 adb reboot recovery
 # Now install the official LineageOS install zip
@@ -182,7 +181,6 @@ Or run it from recovery:
 ```
 # Ensure both /data and /system are mounted, then continue
 adb push ./lineage/scripts/key-migration/migration.sh /data/local/tmp/migration.sh
-adb shell chmod +x /data/local/tmp/migration.sh
 adb shell sh /data/local/tmp/migration.sh official
 ```
 
