@@ -9,7 +9,7 @@ fastboot flash cmnlibbak cmnlib.mbn
 fastboot flash cmnlib64 cmnlib64.mbn
 fastboot flash cmnlib64bak cmnlib64.mbn
 fastboot flash devcfg devcfg.mbn
-fastboot flash devcfgbak devcfg.mbn
+fastboot flash devcfgbak devcfg.mbn # note: this might be missing in some devices
 fastboot flash dsp dspso.bin
 fastboot flash hyp hyp.mbn
 fastboot flash hypbak hyp.mbn
