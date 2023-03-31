@@ -51,6 +51,24 @@
       "message": "\\# breaks copy paste on windows, doesn\u0027t it?",
       "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93956e8f_92ed880a",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_surya.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-03-31T10:29:20Z",
+      "side": 1,
+      "message": "No idea, i don\u0027t have any windows machine on which i could test it. You referring to cmd or powershell?",
+      "parentUuid": "a9a03f7e_b6572186",
+      "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
