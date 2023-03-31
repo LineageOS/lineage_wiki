@@ -16,6 +16,24 @@
       "message": "how does a device have a \"missing partition\" - do diff variants have diff partitions?",
       "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccf11aa6_48b04e32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-03-31T06:10:32Z",
+      "side": 1,
+      "message": "The unit i own do not have this specific one, but since it\u0027s in the stock firmware i don\u0027t feel like removing it as it might be useful for other regions/variants, better flash and warn that it might be missing rather than skip it and it was needed in other cases? \n\nDo you prefer a different approach?",
+      "parentUuid": "accde649_60ebe030",
+      "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
