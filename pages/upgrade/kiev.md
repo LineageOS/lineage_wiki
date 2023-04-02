@@ -4,5 +4,6 @@ title: Upgrade LineageOS on kiev
 folder: upgrade
 permalink: /devices/kiev/upgrade
 device: kiev
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
