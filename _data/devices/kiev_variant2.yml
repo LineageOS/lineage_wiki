@@ -22,7 +22,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sm7250
 maintainers: [SyberHexen, Jleeblanch]
 models: [XT2113-2, XT2113-3, XT2113-5]
-name: moto g 5G / one 5G ace
+name: moto one 5G ace
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, FM radio, Galileo, GLONASS, Google Assist Button, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 4/6 GB LPDDR4X
@@ -35,6 +35,7 @@ soc: Qualcomm SM7225 Snapdragon 750G
 storage: 64/128 GB UFS 2.1
 tree: android_device_motorola_kiev
 type: phone
+variant: 2
 vendor: Motorola
 vendor_short: motorola
 versions: [18.1, 19.1, 20]
