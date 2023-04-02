@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'Dual LED', info: '21 MP'}
+- {flash: None, info: '5 MP'}
+codename: clark
+cpu: Cortex-A53 & Cortex-A57
+cpu_cores: '6'
+cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
+current_branch: 14.1
+dimensions: None
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 418
+image: clark.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_msm8992
+maintainers: []
+models: [XT1570, XT1572, XT1575]
+name: moto x style (2015)
+peripherals: None
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_reboot: fastboot_menu
+release: 2015-09
+screen: {size: '145 mm (5.7 in)', density: 520, resolution: '1440x2560', technology: 'IPS TFT LCD'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8992 Snapdragon 808
+storage: 16/32/64 GB
+tree: android_device_motorola_clark
+type: phone
+uses_twrp: true
+variant: 2
+vendor: Motorola
+vendor_short: motorola
+versions: [14.1]
+wifi: 802.11 a/g/b/n/ac + MIMO
