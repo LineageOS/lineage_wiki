@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afb5aef3_8d4b4958",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-04-02T17:36:45Z",
+      "side": 1,
+      "message": "Then just remove the offending partition, it\u0027s just the backup after all, and might also be a typo from stock. \n\nLeaving unmodified is equally bad as users will have the error.",
+      "revId": "1a52acaa8964e51f18f61c178e15d71eedebc539",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
