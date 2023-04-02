@@ -24,7 +24,7 @@ is_ab_device: true
 kernel: android_kernel_motorola_sm8250
 maintainers: [dianlujitao]
 models: [XT2125-4]
-name: edge s / moto g100
+name: moto g100
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Depth Sensor, Dual SIM, Fingerprint reader, BeiDou, Galileo, GLONASS, Google Assist Button, GPS, Gyroscope, HDMI, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG, Wi-Fi Display]
 ram: 6/8 GB LPDDR5
@@ -37,6 +37,7 @@ soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB UFS 3.1
 tree: android_device_motorola_nio
 type: phone
+variant: 2
 vendor: Motorola
 vendor_short: motorola
 versions: [18.1, 19.1, 20]
