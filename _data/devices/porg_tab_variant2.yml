@@ -16,7 +16,7 @@ install_method: apx
 kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
 models: [batuu, porg]
-name: Jetson (Nano / Nano 2GB) [Tablet]
+name: Jetson Nano 2GB [Tablet]
 no_oem_unlock_switch: true
 peripherals: None
 ram: 2/4 GB
@@ -27,6 +27,7 @@ soc: NVIDIA Tegra X1 (T210)
 storage: Sdcard/16 GB
 tree: android_device_nvidia_porg_tab
 type: Devkit
+variant: 2
 vendor: NVIDIA
 vendor_short: nvidia
 versions: [17.1, 18.1]
