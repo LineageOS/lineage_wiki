@@ -19,7 +19,7 @@ install_method: fastboot_oppo
 kernel: android_kernel_oppo_msm8939
 maintainers: []
 models: [R8106, R8106s]
-name: R5/R5s (International)
+name: R5 (International)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Compass, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
@@ -27,16 +27,15 @@ project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
 project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
 ram: 2 GB (R5), 3 GB (R5s)
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release:
-- R8106: 2014-12
-- R8106s: 2015-08
+release: 2014-12
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
 screen: {size: '132 mm (5.2 in)', density: 423, resolution: '1080x1920', technology: 'AMOLED'}
 soc: Qualcomm MSM8939 Snapdragon 615
-storage: 16 GB (R5), 32 GB (R5s)
+storage: 16 GB
 tree: android_device_oppo_r5
 type: phone
 uses_twrp: true
+variant: 1
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1, 15.1, 16.0]
