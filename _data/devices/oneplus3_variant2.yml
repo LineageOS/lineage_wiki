@@ -1,15 +1,13 @@
 architecture: arm64
-battery:
-- 3: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-- 3T: {removable: False, capacity: 3400, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 3400, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '8 MP (3; 3T: 16 MP)'}
+- {flash: None, info: '16 MP'}
 codename: oneplus3
 cpu: Kryo
 cpu_cores: '4'
-cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz (3) / 2 x 2.35 GHz + 2 x 1.6 GHz (3T)
+cpu_freq: 2 x 2.35 GHz + 2 x 1.6 GHz
 current_branch: 18.1
 dimensions: {width: '74.7 mm (2.94 in)', height: '152.7 mm (6.01 in)', depth: '7.4 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
@@ -18,25 +16,20 @@ image: oneplus3.png
 install_method: fastboot_nexus
 kernel: android_kernel_oneplus_msm8996
 maintainers: [dianlujitao, timschumi]
-models:
-- A3000
-- A3003
-name: '3 / 3T'
+models: [A3000, A3003]
+name: '3T'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
 ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
-release:
-- A3000: 2016-06
-- A3003: 2016-10
+release: 2016-10
 screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'Optic AMOLED'}
-soc:
-- A3000: Qualcomm MSM8996 Snapdragon 820
-- A3003: Qualcomm MSM8996 Pro Snapdragon 821
-storage: 64 GB UFS 2.0 (3) / 64/128 GB UFS 2.0 (3T)
+soc: Qualcomm MSM8996 Pro Snapdragon 821
+storage: 64/128 GB UFS 2.0
 tree: android_device_oneplus_oneplus3
 type: phone
+variant: 2
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
