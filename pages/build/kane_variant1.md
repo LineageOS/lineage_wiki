@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Build for nairo
+title: Build for kane
 folder: build
-permalink: /devices/nairo/build
-device: nairo
+permalink: /devices/kane/build/variant1
+device: kane_variant1
 ---
 {% include templates/device_build.md %}
