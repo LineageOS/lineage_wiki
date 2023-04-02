@@ -7,13 +7,22 @@ search: exclude
 ---
 
 <script type="text/javascript">
+
+const IS_DISCONTINUED_VISIBLE = 'is_discontinued_visible'
+
 $(window).on('load', function()
 {
-  hideTablesIfNeeded();
+  if (!isDiscontinuedVisible()) {
+    hideTablesIfNeeded();
+  } else {
+    $('.discontinued').toggleClass("hidden");
+    $('.form-check-input').prop('checked', true);
+  }
 });
 
 function toggleDiscontinued()
 {
+  setDiscontinuedVisible(!isDiscontinuedVisible())
   $('.discontinued').toggleClass("hidden");
   hideTablesIfNeeded();
 }
@@ -28,6 +37,16 @@ function hideTablesIfNeeded()
       $("*[data-vendor=" + vendor + "]").show();
     }
   });
+}
+
+function isDiscontinuedVisible()
+{
+  return localStorage.getItem(IS_DISCONTINUED_VISIBLE) === '1';
+}
+
+function setDiscontinuedVisible(visible)
+{
+  localStorage.setItem(IS_DISCONTINUED_VISIBLE, visible ? '1' : '0');
 }
 </script>
 
