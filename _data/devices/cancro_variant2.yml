@@ -1,19 +1,15 @@
 architecture: arm
-battery:
-- Mi 3: {removable: False, capacity: 3050, tech: 'Li-Ion'}
-- Mi 4: {removable: False, capacity: 3080, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '2.07 MP (Mi 3) or 7.99 MP (Mi 4)'}
+- {flash: None, info: '7.99 MP'}
 codename: cancro
 cpu: Krait 400
 cpu_cores: '4'
-cpu_freq: 2.3 GHz (Mi 3) / 2.5 GHz (Mi 4)
+cpu_freq: 2.5 GHz
 current_branch: 14.1
-dimensions:
-- MI3: {width: '73.6 mm (2.9 in)', height: '144 mm (5.7 in)', depth: '8.1 mm (0.32 in)'}
-- MI4: {width: '68.5 mm (2.7 in)', height: '139.2 mm (5.5 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: '68.5 mm (2.7 in)', height: '139.2 mm (5.5 in)', depth: '8.9 mm (0.35 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 330
@@ -21,29 +17,21 @@ image: cancro.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_cancro
 maintainers: []
-models:
-- MI3
-- MI4
-name: Mi 3 / Mi 4
+name: Mi 4
 network: [2G GSM, 2G CDMA, 3G UMTS]
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
-ram: 2 GB (Mi 3) / 3 GB (Mi 4)
+ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
-release:
-- MI3: 2013-10
-- MI4: 2014-08
-screen:
-- MI3: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'IPS'}
-- MI4: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'JDI IPS'}
-soc:
-- MI3: Qualcomm MSM8974 Snapdragon 800
-- MI4: Qualcomm MSM8974AC Snapdragon 801
+release: 2014-08
+screen: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'JDI IPS'}
+soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_xiaomi_cancro
 type: phone
 uses_twrp: true
+variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]

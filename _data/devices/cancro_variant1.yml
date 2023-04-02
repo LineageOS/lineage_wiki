@@ -1,0 +1,38 @@
+architecture: arm
+battery: {removable: False, capacity: 3050, tech: 'Li-Ion'}
+bluetooth: {spec: '4.0', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '2.07 MP'}
+codename: cancro
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.3 GHz
+current_branch: 14.1
+dimensions: {width: '73.6 mm (2.9 in)', height: '144 mm (5.7 in)', depth: '8.1 mm (0.32 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 330
+image: cancro.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_cancro
+maintainers: []
+name: Mi 3
+network: [2G GSM, 2G CDMA, 3G UMTS]
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2013-10
+screen: {size: '127 mm (5 in)', density: 441, resolution: '1080x1920', technology: 'IPS'}
+soc: Qualcomm MSM8974 Snapdragon 800
+storage: 16/64 GB
+tree: android_device_xiaomi_cancro
+type: phone
+uses_twrp: true
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [14.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
