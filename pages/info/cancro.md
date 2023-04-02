@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about cancro
+title: Info about cancro variants
 folder: info
-layout: deviceinfo
 permalink: /devices/cancro/
+redirect_from:
+- /devices/cancro/install
+- /devices/cancro/update
 device: cancro
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
