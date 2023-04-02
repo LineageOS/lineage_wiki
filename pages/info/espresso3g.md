@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about espresso3g
+title: Info about espresso3g variants
 folder: info
-layout: deviceinfo
 permalink: /devices/espresso3g/
+redirect_from:
+- /devices/espresso3g/install
+- /devices/espresso3g/update
 device: espresso3g
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
