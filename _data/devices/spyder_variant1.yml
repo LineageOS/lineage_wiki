@@ -1,0 +1,38 @@
+architecture: arm
+battery: {removable: False, capacity: 1780, tech: 'Li-Ion'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '8 MP'}
+- {flash: None, info: '2 MP'}
+carrier: Verizon Wireless
+codename: spyder
+cpu: Cortex-A9
+cpu_cores: '2'
+cpu_freq: 1.2 GHz
+current_branch: 14.1
+dimensions: None
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: PowerVR SGX540
+image: spyder.png
+install_method: fastboot_motorola
+kernel: android_kernel_motorola_omap4-common
+maintainers: []
+models: [XT912]
+name: DROID RAZR (CDMA)
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
+ram: 1 GB
+recovery_boot: With the device powered off, hold <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
+release: 2011-11-11
+screen: {size: '109 mm (4.3 in)', density: 256, resolution: '540x960', technology: 'Super AMOLED'}
+sdcard: {sizeMax: '32 GB (microSD)'}
+soc: TI OMAP4430
+storage: 16 GB
+tree: android_device_motorola_spyder
+type: phone
+uses_twrp: true
+variant: 1
+vendor: Motorola
+vendor_short: motorola
+versions: [13.0, 14.1]
+wifi: Wi-Fi 802.11 b/g/n
