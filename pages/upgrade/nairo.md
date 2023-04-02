@@ -4,5 +4,6 @@ title: Upgrade LineageOS on nairo
 folder: upgrade
 permalink: /devices/nairo/upgrade
 device: nairo
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
