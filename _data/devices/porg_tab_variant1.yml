@@ -1,0 +1,34 @@
+architecture: arm64
+battery: None
+bluetooth: {spec: None}
+cameras: []
+codename: porg_tab
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 18.1
+dimensions: None
+download_boot: With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
+flash_codename: p3450
+gpu: NVIDIA GM20B (Maxwell)
+image: porg.png
+install_method: apx
+kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+maintainers: [webgeek1234, npjohnson]
+models: [batuu, porg]
+name: Jetson Nano [Tablet]
+no_oem_unlock_switch: true
+peripherals: None
+ram: 2/4 GB
+recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
+release: 2019-03-18
+screen: None
+soc: NVIDIA Tegra X1 (T210)
+storage: Sdcard/16 GB
+tree: android_device_nvidia_porg_tab
+type: Devkit
+variant: 1
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [17.1, 18.1]
+wifi: None
