@@ -4,5 +4,6 @@ title: Upgrade LineageOS on ido
 folder: upgrade
 permalink: /devices/ido/upgrade
 device: ido
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
