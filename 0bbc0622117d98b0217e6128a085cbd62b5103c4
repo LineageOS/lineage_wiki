@@ -16,6 +16,24 @@
       "message": "suggesting to move like this, at least people will get to the end before having the error",
       "revId": "0bbc0622117d98b0217e6128a085cbd62b5103c4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1795d547_1c4de361",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-02T11:39:58Z",
+      "side": 1,
+      "message": "and then they have an error and won\u0027t know how to continue?",
+      "parentUuid": "b33c40ad_a7d1477a",
+      "revId": "0bbc0622117d98b0217e6128a085cbd62b5103c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
