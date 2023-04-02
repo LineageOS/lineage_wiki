@@ -17,7 +17,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_msm8992
 maintainers: []
 models: [XT1570, XT1572, XT1575]
-name: moto x pure edition / style (2015)
+name: moto x pure edition (2015)
 peripherals: None
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -31,6 +31,7 @@ storage: 16/32/64 GB
 tree: android_device_motorola_clark
 type: phone
 uses_twrp: true
+variant: 1
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
