@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b33c40ad_a7d1477a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2023-04-02T05:25:35Z",
+      "side": 1,
+      "message": "suggesting to move like this, at least people will get to the end before having the error",
+      "revId": "0bbc0622117d98b0217e6128a085cbd62b5103c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
