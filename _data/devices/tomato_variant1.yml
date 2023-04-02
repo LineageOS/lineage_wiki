@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {removable: False, capacity: 2500, tech: 'Li-Po'}
+bluetooth: {spec: '4.1'}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
+codename: tomato
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz
+current_branch: 14.1
+custom_recovery_link: https://androidfilehost.com/?fid=889964283620777297
+dimensions: {width: '75.9 mm (3 in)', height: '152.9 mm (6 in)', depth: '8.9 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
+gpu: Qualcomm Adreno 405
+image: tomato.png
+install_method: fastboot_nexus
+kernel: android_kernel_cyanogen_msm8916
+maintainers: []
+models: [AO5510, YU5510]
+name: Yureka
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [GPS, Light sensor, Proximity sensor]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2014-12-18
+screen: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS LCD'}
+sdcard: {sizeMax: '32 GB'}
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 16 GB
+tree: android_device_yu_tomato
+type: phone
+uses_twrp: true
+variant: 1
+vendor: YU
+vendor_short: yu
+versions: [13.0, 14.1]
+wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
