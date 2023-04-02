@@ -1,7 +1,5 @@
 architecture: arm
-battery:
-- RAZR: {removable: False, capacity: 1780, tech: 'Li-Ion'}
-- RAZR MAXX: {removable: False, capacity: 3300, tech: 'Li-Ion'}
+battery: {removable: False, capacity: 3300, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: 'LED', info: '8 MP'}
@@ -19,7 +17,7 @@ install_method: fastboot_motorola
 kernel: android_kernel_motorola_omap4-common
 maintainers: []
 models: [XT910]
-name: DROID RAZR / RAZR MAXX (GSM)
+name: DROID RAZR MAXX (GSM)
 network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1 GB
@@ -32,6 +30,7 @@ storage: 16 GB
 tree: android_device_motorola_umts_spyder
 type: phone
 uses_twrp: true
+variant: 2
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]
