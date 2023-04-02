@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {removable: True, capacity: 2750, tech: 'Li-Ion'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
+codename: A6020
+cpu: Cortex-A53 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
+current_branch: 14.1
+custom_recovery_link: https://forum.xda-developers.com/vibe-k5/development/recovery-twrp-3-0-2-0-lenovo-vibe-k5-t3391100/
+dimensions: {width: '71 mm (2.8 in)', height: '142 mm (5.59 in)', depth: '8 mm (0.31 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 405
+image: A6020.png
+install_method: fastboot_unlocked
+kernel: android_kernel_lenovo_msm8916
+maintainers: []
+models: [A6020a40, A6020a41, A6020a46, A6020l36, A6020l37]
+name: Vibe K5 Plus
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and <kbd>Power</kbd>.
+release: 2016-04
+screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
+sdcard: {sizeMax: '32 GB', slot: 'dedicated'}
+soc: Qualcomm MSM8939v2 Snapdragon 616
+storage: 16 GB
+tree: android_device_lenovo_A6020
+type: phone
+uses_twrp: true
+variant: 2
+vendor: Lenovo
+vendor_short: lenovo
+versions: [14.1]
+wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
