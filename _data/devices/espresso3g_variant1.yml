@@ -1,7 +1,5 @@
 architecture: arm
-battery:
-- Galaxy Tab 2 7.0: {removable: False, capacity: 4000, tech: 'Li-Ion'}
-- Galaxy Tab 2 10.1: {removable: False, capacity: 7000, tech: 'Li-Po'}
+battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
 bluetooth: {spec: '3.0', profiles: [A2DP]}
 cameras:
 - {flash: None, info: '15 MP'}
@@ -11,9 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0
-dimensions:
-- Tab 2 7.0: {width: '122.4 mm (4.8 in)', height: '193.7 mm (7.6 in)', depth: '10.5 mm (0.41 in)'}
-- Tab 2 10.1: {width: '175.3 mm (6.9 in)', height: '256.6 mm (10.1 in)', depth: '9.7 mm (0.38 in)'}
+dimensions: {width: '122.4 mm (4.8 in)', height: '193.7 mm (7.6 in)', depth: '10.5 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 image: espresso3g.png
@@ -21,22 +17,21 @@ install_method: heimdall
 kernel: android_kernel_samsung_espresso10
 maintainers: []
 models: [P3100, P5100]
-name: Galaxy Tab 2 7.0 / Tab 2 10.1 (GSM)
+name: Galaxy Tab 2 7.0 (GSM)
 network: [2G GSM]
 no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-04
-screen:
-- Tab 2 7.0: {size: '177.8 mm (7 in)', density: 170, resolution: '600x1024', technology: 'PLS LCD'}
-- Tab 2 10.1: {size: '256.5 mm (10.1 in)', density: 149, resolution: '800x1280', technology: 'PLS TFT'}
+screen: {size: '177.8 mm (7 in)', density: 170, resolution: '600x1024', technology: 'PLS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: TI OMAP4430
 storage: 8/16/32 GB
 tree: android_device_samsung_espresso3g
 type: tablet
 uses_twrp: true
+variant: 1
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
