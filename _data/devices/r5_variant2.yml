@@ -1,0 +1,42 @@
+architecture: arm
+battery: {removable: False, capacity: 2000, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
+codename: r5
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 1.5 GHz and 1.0 GHz
+current_branch: 16.0
+custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922634
+dimensions: {width: '74.5 mm (2.93 in)', height: '148.9 mm (5.86 in)', depth: '4.9 mm (0.19 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: true
+gpu: Qualcomm Adreno 405
+image: r5.png
+install_method: fastboot_oppo
+kernel: android_kernel_oppo_msm8939
+maintainers: []
+models: [R8106, R8106s]
+name: R5s (International)
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [A-GPS, Accelerometer, Compass, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
+project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
+ram: 2 GB (R5), 3 GB (R5s)
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2015-08
+required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
+screen: {size: '132 mm (5.2 in)', density: 423, resolution: '1080x1920', technology: 'AMOLED'}
+soc: Qualcomm MSM8939 Snapdragon 615
+storage: 32 GB
+tree: android_device_oppo_r5
+type: phone
+uses_twrp: true
+variant: 2
+vendor: OPPO
+vendor_short: oppo
+versions: [14.1, 15.1, 16.0]
+wifi: 802.11 a/b/g/n, Dual-band
