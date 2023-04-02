@@ -17,11 +17,9 @@ image: ido.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_msm8916
 maintainers: []
-name: Redmi 3/Prime
+name: Redmi 3 Prime
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals:
-- All: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
-- Prime: [Fingerprint reader]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS, Fingerprint reader]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -33,6 +31,7 @@ storage: 16/32 GB
 tree: android_device_xiaomi_ido
 type: phone
 uses_twrp: true
+variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
