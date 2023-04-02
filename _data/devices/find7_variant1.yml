@@ -1,0 +1,36 @@
+architecture: arm
+battery: {removable: True, capacity: 2800, tech: 'Li-Po'}
+bluetooth: {spec: '4.0'}
+cameras:
+- {flash: 'Dual LED', info: '13 MP'}
+- {flash: None, info: '5 MP'}
+codename: find7
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.3 GHz/2.5 GHz
+current_branch: 16.0
+dimensions: {width: '75 mm (2.95 in)', height: '152.6 mm (6.01 in)', depth: '9.2 mm (0.36 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 330
+image: find7.png
+install_method: fastboot_nexus
+kernel: android_kernel_oppo_msm8974
+maintainers: []
+name: Find 7a
+network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
+peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+release: 2014-03-19
+screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'JDI IPS'}
+sdcard: {sizeMax: '128 GB'}
+soc: [Qualcomm MSM8974AB Snapdragon 801, Qualcomm MSM8974AC Snapdragon 801]
+storage: 16/32 GB
+tree: android_device_oppo_find7
+type: phone
+variant: 1
+vendor: OPPO
+vendor_short: oppo
+versions: [14.1, 15.1, 16.0]
+wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
