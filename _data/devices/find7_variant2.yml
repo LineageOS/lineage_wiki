@@ -1,7 +1,5 @@
 architecture: arm
-battery:
-- Find 7a: {removable: True, capacity: 2800, tech: 'Li-Po'}
-- Find 7s: {removable: True, capacity: 3000, tech: 'Li-Po'}
+battery: {removable: True, capacity: 3000, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'Dual LED', info: '13 MP'}
@@ -18,24 +16,20 @@ image: find7.png
 install_method: fastboot_nexus
 kernel: android_kernel_oppo_msm8974
 maintainers: []
-models: [Find 7a, Find 7s]
-name: Find 7a/s
+name: Find 7s
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Light sensor, Proximity sensor, Gyroscope, Accelerometer, GPS, GLONASS, NFC, USB OTG]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-release:
-- Find 7a: 2014-03-19
-- Find 7s: 2014-05-19
-screen:
-- Find 7a: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'JDI IPS'}
-- Find 7s: {size: '139.7 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'JDI IPS'}
+release: 2014-05-19
+screen: {size: '139.7 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'JDI IPS'}
 sdcard: {sizeMax: '128 GB'}
 soc: [Qualcomm MSM8974AB Snapdragon 801, Qualcomm MSM8974AC Snapdragon 801]
 storage: 16/32 GB
 tree: android_device_oppo_find7
 type: phone
+variant: 2
 vendor: OPPO
 vendor_short: oppo
 versions: [14.1, 15.1, 16.0]
