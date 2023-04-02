@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about nio
+title: Info about nio variants
 folder: info
-layout: deviceinfo
 permalink: /devices/nio/
+redirect_from:
+- /devices/nio/install
+- /devices/nio/update
 device: nio
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}

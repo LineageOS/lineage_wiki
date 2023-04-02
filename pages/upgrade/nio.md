@@ -4,5 +4,6 @@ title: Upgrade LineageOS on nio
 folder: upgrade
 permalink: /devices/nio/upgrade
 device: nio
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
