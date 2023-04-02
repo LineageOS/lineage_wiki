@@ -1,0 +1,36 @@
+architecture: arm64
+battery: None
+bluetooth: {spec: '4.1'}
+cameras: []
+codename: quill
+cpu: Denver 2 & Cortex-A57
+cpu_cores: '2+4'
+cpu_freq: 2.0 GHz
+current_branch: 17.1
+dimensions: None
+download_boot: With the device off, press the <kbd>FRC REC</kbd> button, then tap <kbd>POWER</kbd>. Release <kbd>FRC REC</kbd> once apx enumerates.
+flash_download_instructions: It will be named `p2771_flash_package.tar.xz`.
+flash_extract_instructions: Run `tar -xvf p2771_flash_package.tar.xz`.
+gpu: NVIDIA GP10B (Pascal)
+image: quill.png
+install_method: apx
+is_ab_device: true
+kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+maintainers: []
+models: [quill, lanai]
+name: Jetson TX2 [Android TV]
+no_oem_unlock_switch: true
+peripherals: None
+ram: 4/8 GB
+recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
+release: 2017-03-14
+screen: None
+soc: NVIDIA Tegra X2 (T186)
+storage: 16 GB/Sdcard
+tree: android_device_nvidia_quill
+type: Devkit
+variant: 1
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [17.1]
+wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
