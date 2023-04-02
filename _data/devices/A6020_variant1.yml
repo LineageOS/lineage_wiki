@@ -18,23 +18,20 @@ install_method: fastboot_unlocked
 kernel: android_kernel_lenovo_msm8916
 maintainers: []
 models: [A6020a40, A6020a41, A6020a46, A6020l36, A6020l37]
-name: 'Vibe K5 / K5 Plus'
+name: Vibe K5
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, FM radio]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and <kbd>Power</kbd>.
 release: 2016-04
-screen:
-- K5: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
-- K5 Plus: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB', slot: 'dedicated'}
-soc:
-- K5: Qualcomm MSM8929 Snapdragon 415
-- K5 Plus: Qualcomm MSM8939v2 Snapdragon 616
+soc: Qualcomm MSM8929 Snapdragon 415
 storage: 16 GB
 tree: android_device_lenovo_A6020
 type: phone
 uses_twrp: true
+variant: 1
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
