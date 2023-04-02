@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '48 MP'}
+- {flash: 'LED', info: '8 MP'}
+- {flash: 'LED', info: '13 MP'}
+- {flash: None, info: '20 MP'}
+codename: davinci
+cpu: Kryo 470
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 17.1
+dimensions: {width: '74.3 mm (2.93 in)', height: '158.258 mm (6.39 in)', depth: '8.8 mm (0.35 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 618
+image: davinci.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm6150
+maintainers: []
+models: [M1903F10A, M1903F10C, M1903F10G, M1903F10I, M1903F10T]
+name: Redmi K20
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+ Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2019-06-06
+screen: {size: '162.306 mm (6.39 in)', density: 403, resolution: '2340x1080', technology: 'AMOLED'}
+soc: Qualcomm SM7150-AA Snapdragon 730
+storage: 64/128/256 GB
+tree: android_device_xiaomi_davinci
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [17.1]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
