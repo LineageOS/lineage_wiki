@@ -146,6 +146,30 @@
       "parentUuid": "48c88e70_63564fbf",
       "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "afd74621_ec1a7274",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_surya.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-04-03T01:26:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "faadb8ce_e07d0611",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 81
+      },
+      "revId": "f80fd95036a53bee4cdc0b1ce214d1910e382de9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
