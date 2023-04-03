@@ -12,7 +12,6 @@ cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 dimensions: {width: '75.5 mm (2.97 in)', height: '162 mm (6.38 in)', depth: '10.5 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-fairphone_unlock_guide: 'https://support.fairphone.com/hc/en-us/articles/4405858258961-FP4-Manage-the-bootloader'
 gpu: Qualcomm Adreno 619
 has_recovery_partition: true
 image: FP4.png
