@@ -1,0 +1,37 @@
+architecture: arm64
+battery: {removable: False, capacity: 3800, tech: 'Li-Po'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '24 MP'}
+- {flash: None, info: '8 MP'}
+codename: nx609j
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 20
+custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX609J'
+dimensions: {width: '74.9 mm (2.95 in)', height: '158.1 mm (6.22 in)', depth: '9.5 mm (0.37 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 540
+has_recovery_partition: true
+image: nx609j.png
+install_method: fastboot_nexus
+kernel: android_kernel_nubia_msm8998
+maintainers: [Cyborg2017]
+models: [NX609J]
+name: 'Red Magic'
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass,
+  Hall effect sensor, Sensor hub, Light sensor, GPS, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+release: 2018-04
+screen: {size: '152.4 mm (6.0 in)', density: 402, resolution: '1080x2160', technology: 'IPS LCD'}
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB UFS 2.1
+tree: android_device_nubia_nx609j
+type: phone
+vendor: Nubia
+vendor_short: nubia
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
