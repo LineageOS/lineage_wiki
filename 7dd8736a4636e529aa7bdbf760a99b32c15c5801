@@ -16,6 +16,23 @@
       "message": "Looks ok",
       "revId": "7dd8736a4636e529aa7bdbf760a99b32c15c5801",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "320decd3_91dd886f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-04-06T10:22:24Z",
+      "side": 1,
+      "message": "Dont use image with watermark. Also, it needs transparent background.\nThen run the image script. https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "7dd8736a4636e529aa7bdbf760a99b32c15c5801",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
