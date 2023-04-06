@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "3.9.2"
-gem "therubyracer", "0.12.3"
+gem "mini_racer", "0.6.3"
 
 group :test do
    gem 'json-schema', '= 2.8.0'
@@ -15,7 +15,7 @@ group :jekyll_plugins do
    gem 'jekyll-sitemap', '= 1.4.0'
    gem 'kramdown', '= 2.3.1'
    gem 'kramdown-parser-gfm', '= 1.1.0'
-   gem 'liquid', '= 4.0.3'
+   gem 'liquid', '= 4.0.4'
    gem 'listen', '= 3.7.1'
    gem 'rouge', '= 3.26.0'
    gem 'webrick', '= 1.7.0'
