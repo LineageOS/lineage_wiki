@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec8ce812_4ce10b07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-04-08T18:51:04Z",
+      "side": 1,
+      "message": "zeping: We are going to include just the standard APEX instructions for now, please push another patchset containing the advanced instructions, and we can deliberate on/review that later.\n\nTom: Can you sanity check this with infra scripts? Just want to make sure this is reasonably comparable.\n\nRazor: Can I get a sanity check?",
+      "revId": "70b4b2ec002d262ed38fee969b24dd36c4a395ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
