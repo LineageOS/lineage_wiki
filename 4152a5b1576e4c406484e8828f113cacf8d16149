@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "addb7fe4_9fa7ab09",
+        "filename": "_data/devices/a51.yml",
+        "patchSetId": 11
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 30724
+      },
+      "writtenOn": "2023-04-09T07:14:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59002d52_416a960b",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 74
+      },
+      "revId": "4152a5b1576e4c406484e8828f113cacf8d16149",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "58b60dda_81570189",
@@ -54,6 +78,24 @@
       "writtenOn": "2023-04-08T05:42:21Z",
       "side": 1,
       "message": "The latest fw is U6 right?  So if the user gets the latest fw or does ota update, as mentioned in this guide, lineage won\u0027t boot.  So I think this page needs some rewording.",
+      "revId": "4152a5b1576e4c406484e8828f113cacf8d16149",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8db392ee_506ac1f0",
+        "filename": "_includes/templates/device_specific/firmware_update_samsung_exynos9611.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 30724
+      },
+      "writtenOn": "2023-04-09T07:14:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58b60dda_81570189",
       "revId": "4152a5b1576e4c406484e8828f113cacf8d16149",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
