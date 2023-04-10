@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14f4aa5f_3072e977",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 13
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-04-10T13:21:46Z",
+      "side": 1,
+      "message": "maintainer doesn\u0027t own this device.",
+      "revId": "1d11cf1a6aba0bbbe6e6bdc74b75569038835c8b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
