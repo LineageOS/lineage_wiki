@@ -8,7 +8,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
 {% unless device.no_oem_unlock_switch %}
 1. Enable OEM unlock in the Developer options under device Settings, if present.
-{% endunless %}
+{%- endunless %}
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
@@ -27,8 +27,7 @@ fastboot devices
    * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 5. Now type the following command to unlock the bootloader:
-
-{% if device.custom_unlock_cmd %}
+{%- if device.custom_unlock_cmd %}
     ```
 {{ device.custom_unlock_cmd }}
     ```

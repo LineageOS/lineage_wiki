@@ -35,7 +35,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 
 {% unless device.no_oem_unlock_switch %}
 10. Enable OEM unlock in the Developer options under device Settings, if present.
-{% endunless %}
+{%- endunless %}
 11. Connect the device to your PC via USB.
 12. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
