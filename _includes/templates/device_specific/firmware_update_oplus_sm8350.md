@@ -20,7 +20,6 @@ fastboot flash --slot=all shrm shrm.img
 fastboot flash --slot=all splash splash.img
 fastboot flash --slot=all tz tz.img
 fastboot flash --slot=all uefisecapp uefisecapp.img
-fastboot flash --slot=all vm-bootsys vm-bootsys.img
 fastboot flash --slot=all xbl_config xbl_config.img
 fastboot flash --slot=all xbl xbl.img
 " %}
