@@ -9,9 +9,9 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 {% if device.install_variant and device.install_variant contains "lenovo_unlock_url" %}
 1. Visit [Lenovo's ZUI official unlocking website](https://www.zui.com/iunlock), where you'll be asked to fill in some device and contact information.
 2. Follow the instructions and get your unlock file.
-{% unless device.no_oem_unlock_switch %}
+{%- unless device.no_oem_unlock_switch %}
 3. Enable OEM unlock in the Developer options under device Settings, if present.
-{% endunless %}
+{%- endunless %}
 {% else %}
 {% unless device.no_oem_unlock_switch %}
 4. Enable OEM unlock in the Developer options under device Settings, if present.
@@ -19,7 +19,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 6. Login with your Lenovo account (if you already have one) or create a new one.
 7. A 14 days countdown timer will start. This is specific per device.
 8. After the waiting period, go back to OEM unlocking so that the Lenovo servers can toggle the bootloader unlock switch.
-{% endunless %}
+{%- endunless %}
 {% endif %}
 9. Connect the device to your PC via USB.
 10. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
