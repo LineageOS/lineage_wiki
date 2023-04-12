@@ -16,6 +16,24 @@
       "message": "we can just use releasekey for all apex except for com.android.btservices.apex bluetooth. Creating cert for each isn\u0027t really needed",
       "revId": "59f1501b27345e8a10604a980ac79e906d7b9dc7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f0eee04_4306a6d2",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-04-12T09:42:26Z",
+      "side": 0,
+      "message": "It is better practice to generate separate keys because you also guard signature permissions that way.",
+      "parentUuid": "22240561_197483ab",
+      "revId": "59f1501b27345e8a10604a980ac79e906d7b9dc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
