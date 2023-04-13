@@ -16,6 +16,29 @@
       "message": "Shouldn\u0027t this be `sign_target_files_apks -o -d ~/.android-certs` instead ? (Like in Advanced signing instructions, otherwise sign_target_files_apks returns an \"option -/ not recognized\" error)",
       "revId": "3330a816e725f96528516847d7f7b683a12608ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "821fd3ed_fedeb4c2",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 30091
+      },
+      "writtenOn": "2023-04-13T14:55:06Z",
+      "side": 1,
+      "message": "```/``` to be removed",
+      "range": {
+        "startLine": 59,
+        "startChar": 38,
+        "endLine": 59,
+        "endChar": 39
+      },
+      "revId": "3330a816e725f96528516847d7f7b683a12608ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
