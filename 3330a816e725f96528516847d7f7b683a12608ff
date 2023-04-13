@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3a83117_d5b7046c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-04-13T23:55:09Z",
+      "side": 1,
+      "message": "Let me restate it, I am really against \"optional\" signing options - either include them in the default instructions or don\u0027t please.",
+      "revId": "3330a816e725f96528516847d7f7b683a12608ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6cb5c076_c7655551",
