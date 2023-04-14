@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d4be663_3db7f5c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-04-14T00:48:33Z",
+      "side": 1,
+      "message": "Also its good to mention that it\u0027s only for 12, 13 and keep old method for old android version to sign.",
+      "revId": "3330a816e725f96528516847d7f7b683a12608ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "6cb5c076_c7655551",
