@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4272b9a_a0f273ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30091
+      },
+      "writtenOn": "2023-04-14T14:20:41Z",
+      "side": 1,
+      "message": "Updated with latest merged changes to avoid conflicts",
+      "revId": "3e387aca7251c51873ab3e92d93c12c915920dba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
