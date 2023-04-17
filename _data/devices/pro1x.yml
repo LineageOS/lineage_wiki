@@ -20,7 +20,7 @@ image: pro1x.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: android_kernel_fxtec_sm6115
-maintainers: [BadDaemon, bgcngm, mccreary, npjohnson, snc, tdm]
+maintainers: [BadDaemon, bgcngm, mccreary, npjohnson, qsnc, tdm]
 name: 'Pro¹ X'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Hardware keyboard, Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
