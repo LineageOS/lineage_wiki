@@ -19,6 +19,8 @@ kernel: android_kernel_lge_msm8998
 maintainers: [lifehackerhansol, SGCMarkus]
 models: [H930, H930DS, US998]
 name: V30 (Unlocked)
+note_title: File Encryption Support
+note_content: As of Android 13, Full Disk Encryption (FDE) has been deprecated. As this device only supports FDE, this device has been exempted from file encryption requirements as detailed [here](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md#exceptions).
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, IR blaster, Infrared sensor, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
 ram: 4 GB
