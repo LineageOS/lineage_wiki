@@ -2,14 +2,14 @@ architecture: arm64
 battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'Mi 11X India', firmware: 'V13.0.6.0.SKHINXM', download_link: 'https://bigota.d.miui.com/V13.0.6.0.SKHINXM/miui_ALIOTHINGlobal_V13.0.6.0.SKHINXM_2492066c1d_12.0.zip'}
-- {device: 'POCO F3 EEA', firmware: 'V13.0.6.0.SKHEUXM', download_link: 'https://bigota.d.miui.com/V13.0.6.0.SKHEUXM/miui_ALIOTHEEAGlobal_V13.0.6.0.SKHEUXM_c393876947_12.0.zip'}
-- {device: 'POCO F3 Global', firmware: 'V13.0.3.0.SKHMIXM', download_link: 'https://bigota.d.miui.com/V13.0.3.0.SKHMIXM/miui_ALIOTHGlobal_V13.0.3.0.SKHMIXM_07afcb74cd_12.0.zip'}
-- {device: 'POCO F3 Indonesia', firmware: 'V13.0.2.0.SKHIDXM', download_link: 'https://bigota.d.miui.com/V13.0.2.0.SKHIDXM/miui_ALIOTHIDGlobal_V13.0.2.0.SKHIDXM_80a5a01aa6_12.0.zip'}
-- {device: 'POCO F3 Russia', firmware: 'V13.0.2.0.SKHRUXM', download_link: 'https://bigota.d.miui.com/V13.0.2.0.SKHRUXM/miui_ALIOTHRUGlobal_V13.0.2.0.SKHRUXM_101e499a8e_12.0.zip'}
-- {device: 'POCO F3 Taiwan', firmware: 'V13.0.1.0.SKHTWXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTWXM/miui_ALIOTHTWGlobal_V13.0.1.0.SKHTWXM_1573a396df_12.0.zip'}
-- {device: 'POCO F3 Turkey', firmware: 'V13.0.1.0.SKHTRXM', download_link: 'https://bigota.d.miui.com/V13.0.1.0.SKHTRXM/miui_ALIOTHTRGlobal_V13.0.1.0.SKHTRXM_1eaf50fc2f_12.0.zip'}
-- {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SKHCNXM/miui_ALIOTH_V13.0.5.0.SKHCNXM_540c833165_12.0.zip'}
+- {device: 'Mi 11X India', firmware: 'V14.0.3.0.TKHINXM', download_link: 'https://bigota.d.miui.com/V14.0.3.0.TKHINXM/miui_ALIOTHINGlobal_V14.0.3.0.TKHINXM_d2d6e90e6d_13.0.zip'}
+- {device: 'POCO F3 EEA', firmware: 'V14.0.7.0.TKHEUXM', download_link: 'https://bigota.d.miui.com/V14.0.7.0.TKHEUXM/miui_ALIOTHEEAGlobal_V14.0.7.0.TKHEUXM_4f54362c0d_13.0.zip'}
+- {device: 'POCO F3 Global', firmware: 'V14.0.4.0.TKHMIXM', download_link: 'https://bigota.d.miui.com/V14.0.4.0.TKHMIXM/miui_ALIOTHGlobal_V14.0.4.0.TKHMIXM_b9ed940850_13.0.zip'}
+- {device: 'POCO F3 Indonesia', firmware: 'V14.0.2.0.TKHIDXM', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TKHIDXM/miui_ALIOTHIDGlobal_V14.0.2.0.TKHIDXM_171dfd6f1e_13.0.zip'}
+- {device: 'POCO F3 Russia', firmware: 'V14.0.1.0.TKHRUXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKHRUXM/miui_ALIOTHRUGlobal_V14.0.1.0.TKHRUXM_310b547162_13.0.zip'}
+- {device: 'POCO F3 Taiwan', firmware: 'V14.0.1.0.TKHTWXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKHTWXM/miui_ALIOTHTWGlobal_V14.0.1.0.TKHTWXM_66bf484519_13.0.zip'}
+- {device: 'POCO F3 Turkey', firmware: 'V14.0.1.0.TKHTRXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKHTRXM/miui_ALIOTHTRGlobal_V14.0.1.0.TKHTRXM_69e8dd9865_13.0.zip'}
+- {device: 'Redmi K40 China', firmware: 'V14.0.6.0.TKHCNXM', download_link: 'https://bigota.d.miui.com/V14.0.6.0.TKHCNXM/miui_ALIOTH_V14.0.6.0.TKHCNXM_7b7bb4a7bc_13.0.zip'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
@@ -21,7 +21,7 @@ codename: alioth
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '76.4 mm (3.01 in)', height: '163.7 mm (6.44 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -51,5 +51,5 @@ tree: android_device_xiaomi_alioth
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [18.1, 19.1]
+versions: [18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
