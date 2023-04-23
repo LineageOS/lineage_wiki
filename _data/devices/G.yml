@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 8 x 2.2 GHz
 current_branch: 20
-dimensions: {width: '76 mm (2.99 in)', height: '155 mm (5.5 in)', depth: '9.0 mm (0.35 in)'}
+dimensions: {width: '76 mm (2.99 in)', height: '155 mm (6.1 in)', depth: '9.0 mm (0.35 in)'}
 download_boot: Our device doesn't have button mapping for bootloader, thus instead reboot to bootloader from recovery.
 gpu: Qualcomm Adreno 506
 image: G.png

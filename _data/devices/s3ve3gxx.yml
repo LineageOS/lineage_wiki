@@ -10,7 +10,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 18.1
-dimensions: {width: '70.7 mm (3.03 in)', height: '136.6 mm (5.37 in)', depth: '8.6 mm (0.33 in)'}
+dimensions: {width: '70.7 mm (2.78 in)', height: '136.6 mm (5.37 in)', depth: '8.6 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 305
