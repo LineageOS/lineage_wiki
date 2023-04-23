@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4494638f_6654e1c6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-04-23T10:24:31Z",
+      "side": 1,
+      "message": "The aspect ratio looks wrong on the images. Was the width reduced without the height also being reduced the same, proportionally?\nJust use the script on the original png. You don\u0027t need to change size or scale manually. https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "dd022f3ba7e98ba0daaf687d54a306c420f871bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
