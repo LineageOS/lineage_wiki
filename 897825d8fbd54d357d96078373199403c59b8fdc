@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6aee2b91_5685a4f2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2023-04-24T19:47:49Z",
+      "side": 1,
+      "message": "Both are nearly same device except the AUX cam and gyrosensor. AUX not an issue. gyro works fine. Redmi y3 users are already our builds without any issues. so update the wiki accordingly.",
+      "revId": "897825d8fbd54d357d96078373199403c59b8fdc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
