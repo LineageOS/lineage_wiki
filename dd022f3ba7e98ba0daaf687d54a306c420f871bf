@@ -16,6 +16,24 @@
       "message": "The aspect ratio looks wrong on the images. Was the width reduced without the height also being reduced the same, proportionally?\nJust use the script on the original png. You don\u0027t need to change size or scale manually. https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
       "revId": "dd022f3ba7e98ba0daaf687d54a306c420f871bf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb1c7efb_1a9cb14e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2023-04-25T07:17:54Z",
+      "side": 1,
+      "message": "Reupload picture",
+      "parentUuid": "4494638f_6654e1c6",
+      "revId": "dd022f3ba7e98ba0daaf687d54a306c420f871bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

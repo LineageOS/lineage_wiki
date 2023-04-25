@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "318eea69_3a4d2877",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2023-04-25T07:17:54Z",
+      "side": 1,
+      "message": "Images have been reuploaded:\n1. Scale the original images to below 500px\n2. Use script to generate small images",
+      "revId": "df20159c7d4be8f2933a14a90db74f999cb812e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
