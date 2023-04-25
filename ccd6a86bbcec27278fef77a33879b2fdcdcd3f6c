@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d96377b6_5dfbd918",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2023-04-25T13:43:33Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/hudson/+/355175?usp\u003ddashboard",
+      "revId": "ccd6a86bbcec27278fef77a33879b2fdcdcd3f6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
