@@ -50,6 +50,23 @@
       "message": "dhina can verify this",
       "revId": "8f77faeed9cd8405322386b1c7d632947f2a4bec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f7a9730a_1ae65ed5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27322
+      },
+      "writtenOn": "2023-04-26T12:24:46Z",
+      "side": 1,
+      "message": "Mr. robot, I verify it with +1 now, should I abandon it or wait for the comment from Dhina",
+      "revId": "8f77faeed9cd8405322386b1c7d632947f2a4bec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
