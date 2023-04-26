@@ -22,6 +22,30 @@
       },
       "revId": "2062d159bda2e93ac75fcc6f23d852a3b5065a93",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "004b77ec_0a42e225",
+        "filename": "_data/devices/haydn.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-04-26T09:07:14Z",
+      "side": 1,
+      "message": "Not really, the new boot/vendor_boot/dtbo boots on old firmware and the new one is included anyway",
+      "parentUuid": "78cca2d2_87bb5126",
+      "range": {
+        "startLine": 3,
+        "startChar": 70,
+        "endLine": 3,
+        "endChar": 72
+      },
+      "revId": "2062d159bda2e93ac75fcc6f23d852a3b5065a93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
