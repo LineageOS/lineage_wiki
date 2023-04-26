@@ -16,6 +16,23 @@
       "message": "Now is ready.",
       "revId": "8f77faeed9cd8405322386b1c7d632947f2a4bec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c59d5e76_01571604",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27322
+      },
+      "writtenOn": "2023-04-26T12:15:40Z",
+      "side": 1,
+      "message": "Y3 is onc and redmi 7 is onclite",
+      "revId": "8f77faeed9cd8405322386b1c7d632947f2a4bec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
