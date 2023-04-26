@@ -1,11 +1,11 @@
-architecture: arm64
+chitecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
 bluetooth: {spec: '4.2', profiles: [A2DP]}
 cameras:
 - {flash: 'Dual LED', info: '12 MP'}
 - {flash: 'Dual LED', info: '2 MP'}
 - {flash: None, info: '8 MP'}
-codename: onclite
+codename: onclite/onc
 cpu: Kryo 250
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
@@ -18,9 +18,9 @@ image: onclite.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_onclite
 maintainers: [Dhina17]
-name: Redmi 7 / Y3
+name: Redmi 7/Y3
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Proximity sensor, USB OTG, Wi-Fi Display]
+peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Proximity sensor USB OTG, Wi-Fi Display]
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
