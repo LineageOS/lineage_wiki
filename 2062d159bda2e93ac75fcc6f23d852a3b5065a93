@@ -70,6 +70,30 @@
       },
       "revId": "2062d159bda2e93ac75fcc6f23d852a3b5065a93",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c77a719_631466c0",
+        "filename": "_data/devices/haydn.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2023-04-26T10:07:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2be0e01a_1fdcee29",
+      "range": {
+        "startLine": 3,
+        "startChar": 70,
+        "endLine": 3,
+        "endChar": 72
+      },
+      "revId": "2062d159bda2e93ac75fcc6f23d852a3b5065a93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
