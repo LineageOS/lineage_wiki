@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06788885_7bad1eb3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-27T18:29:03Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/q/topic:device_variants whole topic is ready, adding y\u0027all just to this one",
+      "revId": "7602bec0581b44107770e251be2a1500241caa70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
