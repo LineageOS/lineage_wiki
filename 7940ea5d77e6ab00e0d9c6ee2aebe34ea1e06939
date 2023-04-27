@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "baafec4f_00c90f95",
+        "filename": "_data/devices/lisa_variant2.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2023-04-27T21:02:27Z",
+      "side": 1,
+      "message": "indian model is 2109119DI",
+      "revId": "7940ea5d77e6ab00e0d9c6ee2aebe34ea1e06939",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
