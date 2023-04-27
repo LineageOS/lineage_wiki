@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about onclite
+title: Info about onclite variants
 folder: info
-layout: deviceinfo
 permalink: /devices/onclite/
+redirect_from:
+- /devices/onclite/install
+- /devices/onclite/update
 device: onclite
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
