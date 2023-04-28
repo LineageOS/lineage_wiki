@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "bdc4c830_0a55f8b4",
+        "filename": "_data/devices/Mi439_variant1.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T10:08:25Z",
+      "side": 1,
+      "message": "R7A has no Fingerprint reader and IR blaster",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "cf5e6d57_992f217b",
         "filename": "_data/devices/Mi439_variant1.yml",
         "patchSetId": 12
@@ -54,6 +71,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4d18b04e_6faca35d",
+        "filename": "_data/devices/Mi439_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T10:08:25Z",
+      "side": 1,
+      "message": "R8A has no Fingerprint reader and IR blaster",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "f15b11cf_fe3bd48f",
         "filename": "_data/devices/Mi439_variant3.yml",
         "patchSetId": 12
@@ -65,6 +99,23 @@
       "writtenOn": "2023-04-28T09:54:21Z",
       "side": 1,
       "message": "- Redmi 8A (India): 2019-10-09\n- Redmi 8A (China): 2019-10-14",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38108506_18dd4fe3",
+        "filename": "_data/devices/Mi439_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T10:08:25Z",
+      "side": 1,
+      "message": "R8A Dual has no Fingerprint reader and IR blaster",
       "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
