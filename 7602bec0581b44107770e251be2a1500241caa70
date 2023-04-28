@@ -16,6 +16,23 @@
       "message": "https://review.lineageos.org/q/topic:device_variants whole topic is ready, adding y\u0027all just to this one",
       "revId": "7602bec0581b44107770e251be2a1500241caa70",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d3bf498_7dd15218",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-04-28T20:30:10Z",
+      "side": 1,
+      "message": "Not merging anything, and not CR\u0027ing the whole chain yet, but my thoughts have all been addresses since this was started as an idea.\n\nIt looks great and UX is WAY better.",
+      "revId": "7602bec0581b44107770e251be2a1500241caa70",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
