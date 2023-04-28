@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a947d0f_41ce2714",
+        "filename": "_data/devices/haydn_variant1.yml",
+        "patchSetId": 15
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-04-28T17:12:16Z",
+      "side": 1,
+      "message": "we\u0027d also like to keep recommending android 13 firmwaren :\u0027D",
+      "range": {
+        "startLine": 3,
+        "startChar": 70,
+        "endLine": 3,
+        "endChar": 72
+      },
+      "revId": "3ffe99267b9ed7bb09bad7ea1aded1f70513adeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
