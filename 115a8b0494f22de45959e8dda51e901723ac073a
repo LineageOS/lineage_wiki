@@ -16,6 +16,24 @@
       "message": "we\u0027d like to keep it up on 20 :\u0027)\n(same for variant 2 and 3)",
       "revId": "115a8b0494f22de45959e8dda51e901723ac073a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "93d698d8_36e7dc3a",
+        "filename": "_data/devices/haydn_variant1.yml",
+        "patchSetId": 14
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-04-28T17:26:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9eb26a1_403f794b",
+      "revId": "115a8b0494f22de45959e8dda51e901723ac073a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
