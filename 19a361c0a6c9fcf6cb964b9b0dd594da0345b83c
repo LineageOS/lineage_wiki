@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "760ad2cd_4ae86fea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-28T12:54:09Z",
+      "side": 1,
+      "message": "will \"fix\" the stuff i didnt comment on, later. just to be clear: this is a mess. i split them based on what was there, so the peripherals were already wrong before, if they are now...",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bdc4c830_0a55f8b4",
         "filename": "_data/devices/Mi439_variant1.yml",
         "patchSetId": 12
@@ -69,6 +86,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ad6c453b_0dfea390",
+        "filename": "_data/devices/Mi439_variant2.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-28T12:54:09Z",
+      "side": 1,
+      "message": "i decided to remove the day - that way it looks cleaner.",
+      "parentUuid": "347d0bac_66f74b52",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4d18b04e_6faca35d",
@@ -103,6 +138,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "173a2ec3_5cccafa8",
+        "filename": "_data/devices/Mi439_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-28T12:54:09Z",
+      "side": 1,
+      "message": "i decided to remove the day - that way it looks cleaner.",
+      "parentUuid": "f15b11cf_fe3bd48f",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "38108506_18dd4fe3",
@@ -133,6 +186,24 @@
       "writtenOn": "2023-04-28T09:54:21Z",
       "side": 1,
       "message": "- Redmi 8A Dual (India): 2019-10-09\n- Redmi 8A Dual (China): 2019-10-14",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c034e08_59da9949",
+        "filename": "_data/devices/Mi439_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-28T12:54:09Z",
+      "side": 1,
+      "message": "i decided to remove the day - that way it looks cleaner.",
+      "parentUuid": "c14cf461_0ca363c6",
       "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
