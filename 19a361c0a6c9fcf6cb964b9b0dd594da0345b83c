@@ -1,0 +1,89 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf5e6d57_992f217b",
+        "filename": "_data/devices/Mi439_variant1.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T09:54:21Z",
+      "side": 1,
+      "message": "2 / 3 GB",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4614b5a4_15b52c08",
+        "filename": "_data/devices/Mi439_variant1.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T09:54:21Z",
+      "side": 1,
+      "message": "16 / 32 GB",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "347d0bac_66f74b52",
+        "filename": "_data/devices/Mi439_variant2.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T09:54:21Z",
+      "side": 1,
+      "message": "- Redmi 8 (India): 2019-10-09\n- Redmi 8 (China): 2019-10-14",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f15b11cf_fe3bd48f",
+        "filename": "_data/devices/Mi439_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T09:54:21Z",
+      "side": 1,
+      "message": "- Redmi 8A (India): 2019-10-09\n- Redmi 8A (China): 2019-10-14",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c14cf461_0ca363c6",
+        "filename": "_data/devices/Mi439_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-04-28T09:54:21Z",
+      "side": 1,
+      "message": "- Redmi 8A Dual (India): 2019-10-09\n- Redmi 8A Dual (China): 2019-10-14",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
