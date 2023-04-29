@@ -7,7 +7,7 @@ cameras:
 - {flash: 'LED', info: '8 MP'}
 - {flash: None, info: '8 MP'}
 carrier: Unlocked (US)
-codename: us996
+codename: us996d
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
@@ -20,10 +20,10 @@ install_method: fastboot_lg
 is_unlockable: false
 kernel: android_kernel_lge_msm8996
 maintainers: [aleasto, AShiningRay, npjohnson, ROMSG, xxseva44, x86cpu]
-name: V20 (GSM Unlocked)
+name: V20 (GSM Unlocked - DirtySanta)
 network: [2G GSM, 3G UMTS, 4G LTE]
 note_title: Model Identification
-note_content: us996 builds are only for devices that were officially bootloader unlocked.
+note_content: us996d builds are only for us996 device that utilize the DirtySanta unlock method.
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, IR blaster, Infrared sensor, Mobility DisplayPort (MyDP), NFC, USB OTG]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
@@ -32,7 +32,7 @@ screen: {size: '144.78 mm (5.7 in)', density: 513, resolution: '2560x1440', tech
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
-tree: android_device_lge_us996
+tree: android_device_lge_us996d
 type: phone
 vendor: LG
 vendor_short: lge
