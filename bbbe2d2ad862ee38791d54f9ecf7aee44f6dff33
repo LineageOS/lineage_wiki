@@ -16,6 +16,24 @@
       "message": "the borders of the picture look weird",
       "revId": "bbbe2d2ad862ee38791d54f9ecf7aee44f6dff33",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cf7c6a9f_b6f38732",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-04-29T14:02:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e5f4ae9c_94f1c640",
+      "revId": "bbbe2d2ad862ee38791d54f9ecf7aee44f6dff33",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
