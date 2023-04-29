@@ -16,6 +16,24 @@
       "message": "Someone didn\u0027t read the section about the picture...",
       "revId": "eeb97f56578504be7fb15255ae2527e5b7a95e1f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "997d2452_b5b0c392",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31578
+      },
+      "writtenOn": "2023-04-29T13:11:47Z",
+      "side": 1,
+      "message": "Sorry, it is now \"cropped to its actual content.\"",
+      "parentUuid": "6ba10b57_53318238",
+      "revId": "eeb97f56578504be7fb15255ae2527e5b7a95e1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
