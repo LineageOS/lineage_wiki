@@ -19,7 +19,7 @@ permalink: faq.html
 
 ## My device is _not_ officially supported, but I'd really like to give LineageOS a try. Can you support my device?
  - All devices are maintained by open source contributors - [sorry, we don't take device requests]({{ "device_requests.html" | relative_url }}). If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
- - If you have a working device tree/kernel, and would like to submit it for official builds, please contact [devrel@lineageos.org](mailto:devrel@lineageos.org) with links to them. Please note - your device **must** have full hardware support (i.e., every peripheral works) and **must** be stable.
+ - If you would like to submit your device tree and kernel for official builds, please take a look at [submitting a port]({{ "submitting_device.html" | relative_url }}) page.
 
 ## My device is _not_ on the device list, but it is just the same as that other model. Can I use it?
  - If your device is not listed, it's not supported.
