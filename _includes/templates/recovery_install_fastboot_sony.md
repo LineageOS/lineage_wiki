@@ -1,6 +1,5 @@
 {%- assign device = site.data.devices[page.device] -%}
 
-{% include snippets/before_recovery_install.md %}
 
 ## Unlocking the bootloader
 
@@ -41,6 +40,8 @@ fastboot devices
 fastboot oem unlock <your_unlock_code>
 ```
 8. Since the device resets completely, you will need to re-enable USB debugging to continue.
+
+{% include snippets/before_recovery_install.md %}
 
 {% if device.install_variant and device.install_variant contains "sony_init_fota" %}
 
