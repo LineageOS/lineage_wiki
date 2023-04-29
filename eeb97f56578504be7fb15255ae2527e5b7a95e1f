@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6ba10b57_53318238",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-29T12:56:10Z",
+      "side": 1,
+      "message": "Someone didn\u0027t read the section about the picture...",
+      "revId": "eeb97f56578504be7fb15255ae2527e5b7a95e1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
