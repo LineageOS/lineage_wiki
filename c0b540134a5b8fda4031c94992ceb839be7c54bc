@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1be8550d_30f748da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T15:07:27Z",
+      "side": 1,
+      "message": "Not having that list there was an active decision. It will look cluttered with each prop we compare there, which is not what we want.",
+      "revId": "c0b540134a5b8fda4031c94992ceb839be7c54bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
