@@ -13,6 +13,7 @@ Select your variant using the comparison below to make sure your guides are corr
 {%- assign sorted = devices | sort_natural: 'name' %}
 
 {%- assign different_cam = false %}
+{%- assign different_peripherals = false %}
 {%- assign max_cams = sorted[0].cameras | size %}
 {%- assign different_dimensions = false %}
 {%- assign different_battery = false %}
@@ -24,6 +25,9 @@ Select your variant using the comparison below to make sure your guides are corr
       {%- if current_cams > max_cams %}
         {%- assign max_cams = current_cams %}
       {%- endif %}
+    {%- endif %}
+    {%- if device.peripherals != sorted[0].peripherals %}
+      {%- assign different_peripherals = true %}
     {%- endif %}
     {%- if device.dimensions != sorted[0].dimensions %}
       {%- assign different_dimensions = true %}
@@ -72,6 +76,28 @@ Select your variant using the comparison below to make sure your guides are corr
           </td>
         </tr>
         {%- endif %}
+
+        {% if different_peripherals %}
+          <tr>
+            <th scope="row">Peripherals</th>
+            <td>{{ device.peripherals | size }}
+              <ul>
+                {% for main_peripheral in device.peripherals %}
+                  {% assign is_unique = false %}
+                  {% for other_device in devices %}
+                    {% unless other_device.peripherals contains main_peripheral %}
+                      {% assign is_unique = true %}
+                      {% break %}
+                    {% endunless %}
+                  {% endfor %}
+                  {% if is_unique %}
+                    <li>{{ main_peripheral }}</li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        {% endif %}
 
         {%- if different_dimensions %}
           <tr>
