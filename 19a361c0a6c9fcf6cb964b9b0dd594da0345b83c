@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8dea275_1491ab08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "760ad2cd_4ae86fea",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bdc4c830_0a55f8b4",
@@ -175,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b13f483d_4b28e9e1",
+        "filename": "_data/devices/Mi439_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4d18b04e_6faca35d",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f15b11cf_fe3bd48f",
@@ -223,6 +259,24 @@
       "writtenOn": "2023-04-28T10:08:25Z",
       "side": 1,
       "message": "R8A Dual has no Fingerprint reader and IR blaster",
+      "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d28c257_396c017f",
+        "filename": "_data/devices/Mi439_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:31:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "38108506_18dd4fe3",
       "revId": "19a361c0a6c9fcf6cb964b9b0dd594da0345b83c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
