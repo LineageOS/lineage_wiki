@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "34f3b32f_d75170b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T15:08:17Z",
+      "side": 1,
+      "message": "original patches are still up for review. This doesn\u0027t have to be / shouldn\u0027t be an own patch when it can already be part of the original change...",
+      "revId": "dcefc4e11cc9f94822e77481c8baf7d8d69cb7e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
