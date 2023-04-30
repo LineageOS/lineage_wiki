@@ -16,6 +16,23 @@
       "message": "* Redmi Note 9 Pro (Global) and Redmi Note 9 Pro (India) are not the same. The latter is the same as Redmi Note 9S.\n* Only Redmi Note 9 Pro (Global) has NFC.\n* Redmi Note 9 Pro Max RAM specs are 6/8GB.\n* It\u0027s worth using a different picture for POCO M2 Pro",
       "revId": "aa184fbd8d5fa0a47d7ed51fbcf59707957f8d77",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac0b8edc_9ca04fd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2023-04-30T11:16:25Z",
+      "side": 1,
+      "message": "Only Redmi Note 9 Pro Max can have 8GB RAM",
+      "revId": "aa184fbd8d5fa0a47d7ed51fbcf59707957f8d77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
