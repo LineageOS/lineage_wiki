@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "cdb289bb_2bd2c9e3",
+        "filename": "_data/devices/Mi8917_variant1.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a176244c_eec68946",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9bca6790_5be6d010",
@@ -31,6 +49,24 @@
       "writtenOn": "2023-04-28T09:59:31Z",
       "side": 1,
       "message": "16 GB",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a4f5f501_2577f908",
+        "filename": "_data/devices/Mi8917_variant1.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9bca6790_5be6d010",
       "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "119af7c7_06acbe48",
+        "filename": "_data/devices/Mi8917_variant2.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af27a01d_b92ab225",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4ee2c4b8_694fba38",
@@ -65,6 +119,24 @@
       "writtenOn": "2023-04-28T09:59:31Z",
       "side": 1,
       "message": "2 GB",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d566cdea_c272bad7",
+        "filename": "_data/devices/Mi8917_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4ee2c4b8_694fba38",
       "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -86,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a08c470_8af93059",
+        "filename": "_data/devices/Mi8917_variant3.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "549db200_5b87d1a6",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8bdfe09a_839f7890",
@@ -103,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c0c19612_80113144",
+        "filename": "_data/devices/Mi8917_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8bdfe09a_839f7890",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "82512106_4ee62a45",
@@ -116,6 +224,24 @@
       "writtenOn": "2023-04-28T09:59:31Z",
       "side": 1,
       "message": "16 GB",
+      "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "604e1ec9_2e674c86",
+        "filename": "_data/devices/Mi8917_variant4.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T14:26:25Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "82512106_4ee62a45",
       "revId": "90566874c8dcd1fef05df38d8d387ae6fbb69c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
