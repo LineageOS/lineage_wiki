@@ -16,6 +16,24 @@
       "message": "indian model is 2109119DI",
       "revId": "7940ea5d77e6ab00e0d9c6ee2aebe34ea1e06939",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4710692c_49b9272e",
+        "filename": "_data/devices/lisa_variant2.yml",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-04-30T17:12:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baafec4f_00c90f95",
+      "revId": "7940ea5d77e6ab00e0d9c6ee2aebe34ea1e06939",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
