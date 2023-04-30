@@ -28,8 +28,8 @@ maintainers: [SahilSonar, SebaUbuntu, althafvly]
 models: [M2012K11AI]
 name: Mi 11X
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, Infrared sensor, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
-ram: 6/8/12 GB
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, Infrared sensor, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_reboot: fastboot_reboot
