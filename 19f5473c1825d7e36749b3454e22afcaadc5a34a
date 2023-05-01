@@ -16,6 +16,52 @@
       "message": "Didn\u0027t exchange any picture, but did the other stuff",
       "revId": "19f5473c1825d7e36749b3454e22afcaadc5a34a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77c95af4_5d37c8af",
+        "filename": "_data/devices/miatoll_variant3.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2023-05-01T15:08:46Z",
+      "side": 1,
+      "message": "4/6/8 GB\n(I found out this one can have 8 GB too)",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 6
+      },
+      "revId": "19f5473c1825d7e36749b3454e22afcaadc5a34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0e5eb1d_561c205e",
+        "filename": "_data/devices/miatoll_variant4.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2023-05-01T15:08:46Z",
+      "side": 1,
+      "message": "48 MP",
+      "range": {
+        "startLine": 6,
+        "startChar": 24,
+        "endLine": 6,
+        "endChar": 29
+      },
+      "revId": "19f5473c1825d7e36749b3454e22afcaadc5a34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
