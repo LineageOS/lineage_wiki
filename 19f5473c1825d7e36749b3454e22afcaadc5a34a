@@ -41,6 +41,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "83aee2e9_eb8bd07c",
+        "filename": "_data/devices/miatoll_variant3.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-05-01T18:19:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "77c95af4_5d37c8af",
+      "range": {
+        "startLine": 30,
+        "startChar": 5,
+        "endLine": 30,
+        "endChar": 6
+      },
+      "revId": "19f5473c1825d7e36749b3454e22afcaadc5a34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e0e5eb1d_561c205e",
@@ -54,6 +78,30 @@
       "writtenOn": "2023-05-01T15:08:46Z",
       "side": 1,
       "message": "48 MP",
+      "range": {
+        "startLine": 6,
+        "startChar": 24,
+        "endLine": 6,
+        "endChar": 29
+      },
+      "revId": "19f5473c1825d7e36749b3454e22afcaadc5a34a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1322a711_b2b4ed57",
+        "filename": "_data/devices/miatoll_variant4.yml",
+        "patchSetId": 21
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-05-01T18:19:28Z",
+      "side": 1,
+      "message": "This just tells me that the old wiki data was just wrong... it says \"64 GB (Pro, Pro Max)\", nothing about \"Pro (Global)\" or anything",
+      "parentUuid": "e0e5eb1d_561c205e",
       "range": {
         "startLine": 6,
         "startChar": 24,
