@@ -33,6 +33,42 @@
       "message": "Only Redmi Note 9 Pro Max can have 8GB RAM",
       "revId": "aa184fbd8d5fa0a47d7ed51fbcf59707957f8d77",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59ff1897_84d2dcf3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-05-01T12:53:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3b051527_524afd12",
+      "revId": "aa184fbd8d5fa0a47d7ed51fbcf59707957f8d77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "58732aa8_762fe5d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 18
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-05-01T12:53:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac0b8edc_9ca04fd8",
+      "revId": "aa184fbd8d5fa0a47d7ed51fbcf59707957f8d77",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
