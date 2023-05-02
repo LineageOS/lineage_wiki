@@ -64,6 +64,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "46362476_83d050e6",
+        "filename": "_data/devices/porg_variant1.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2df0aaaf_99e3ff3c",
+      "range": {
+        "startLine": 22,
+        "startChar": 5,
+        "endLine": 22,
+        "endChar": 6
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "013c380d_68de8782",
