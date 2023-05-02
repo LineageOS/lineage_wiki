@@ -4,9 +4,21 @@ layout: default
 <div class="container page">
 
   {%- if page.device != None %}
-  {%- capture link %}{{ "devices/" | append: site.data.devices[page.device].codename | relative_url }}{% endcapture %}
+    {%- assign device = site.data.devices[page.device] %}
+    {%- capture link %}{{ "devices/" | append: device.codename | relative_url }}{% endcapture %}
+    {%- if device.variant %}
+      {%- assign parts = "update upgrade install fw_update" | split: " " %}
+      {%- for part in parts %}
+        {%- if page.url contains part %}
+          {%- capture link %}{{ "devices/" | append: device.codename | append: "/variant" | append: device.variant | relative_url }}{% endcapture %}
+          {%- assign action = part %}
+          {%- assign notoc = true %}
+          {%- break %}
+        {%- endif %}
+      {%- endfor %}
+    {%- endif %}
   {%- elsif page.tags contains "how-to" %}
-  {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
+    {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
   {%- endif %}
 
   {%- if link != None %}
@@ -15,11 +27,15 @@ layout: default
 
   {%- if page.title contains "variant" %}
     <h1 class="post-title-main">Select your {{ page.device }} variant</h1>
+  {%- elsif action %}
+    <h1 class="post-title-main">{{ action | capitalize }} LineageOS on<br/>
+    {{ device.vendor }} {{ device.name }}</h1>
+    <h3 class="codename">{{ device.codename }}</h3>
   {%- else %}
     <h1 class="post-title-main">{{ page.title }}</h1>
   {%- endif %}
 
-  {% unless page.toc == false or page.url contains "install" -%}
+  {% unless page.toc == false or notoc == true -%}
   {% include toc.html -%}
   {%- endunless -%}
 

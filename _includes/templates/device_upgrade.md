@@ -1,6 +1,5 @@
 {%- assign device = site.data.devices[page.device] %}
 {%- assign path_prefix = "devices/" | append: device.codename %}
-{%- assign device = site.data.devices[page.device] -%}
 {%- if device.custom_recovery_codename %}
 {%- assign custom_recovery_codename = device.custom_recovery_codename %}
 {%- else %}
@@ -12,10 +11,10 @@
 This device does not have more than one version so far, therefore we can't provide you with upgrade instructions!
 {%- else %}
 
-{% include alerts/important.html content="Please read through the instructions at least once completely before actually following them to avoid any problems because you missed something!" %}
+## Basic requirements
 
-{% capture upgrade_only %}These instructions only apply to version upgrades. If you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ path_prefix | append: "/install" | relative_url }}) instructions for installing LineageOS the first time.{% endcapture %}
-{% include alerts/warning.html content=upgrade_only %}
+1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
+2. You actually want to upgrade your device to the newest version - if you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ path_prefix | append: "/install" | relative_url }}) instructions for installing LineageOS the first time.
 
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 {% unless device.before_install.ships_fw %}
@@ -111,7 +110,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 
 ## Get assistance
 
-If you have any questions or get stuck on any of the steps, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
+After you've double checked that you followed the steps precisely, didn't skip any and still have questions or got stuck, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
 
 {% endif %}
