@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b2ffc4d2_48edebc8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 17
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-05-02T13:45:50Z",
+      "side": 1,
+      "message": "Removed 256gb from indian variant. There\u0027s only 128gb model.",
+      "revId": "cac9d2d97cfdad8eb123760aea6abbe4ae698c49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
