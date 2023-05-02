@@ -580,6 +580,15 @@ h3.codename {
   font-weight: 400;
 }
 
+span.codename {
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  line-height: 1.4em;
+  font-size: 1.17em;
+  color: $headings-color;
+  display: block;
+}
+
 .back-link {
   margin-top: 20px;
   margin-bottom: 10px;
