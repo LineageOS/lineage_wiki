@@ -8,11 +8,12 @@
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
-    <link href="{{ site.baseurl }}/assets/css/material-kit.css" rel="stylesheet">
+    {%- assign cacheBust = site.time | date:'?v=%s' %}
+    <link href="{{ site.baseurl }}/assets/css/material-kit.css{{ cacheBust }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons" rel="stylesheet">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="{{ site.baseurl }}/assets/js/main.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.min.js{{ cacheBust }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.2.2/anchor.min.js" integrity="sha256-WofcoLT8gToeaSmVRe28qpnlFxdBJH1n4K6Bk3YowvU=" crossorigin="anonymous"></script>
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "images/favicons/apple-touch-icon.png" | relative_url }}">
