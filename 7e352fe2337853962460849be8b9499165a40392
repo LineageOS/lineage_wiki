@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6438103c_41b259eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:40Z",
+      "side": 1,
+      "message": "done - and done on porg_tab",
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cc0c39e5_2440deb2",
@@ -31,6 +48,30 @@
       "writtenOn": "2023-05-02T03:24:32Z",
       "side": 1,
       "message": "I think batuu is the 2gb model, so shouldn\u0027t this be removed?",
+      "range": {
+        "startLine": 18,
+        "startChar": 9,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cac3f1a_f368bc98",
+        "filename": "_data/devices/porg_variant1.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cc0c39e5_2440deb2",
       "range": {
         "startLine": 18,
         "startChar": 9,
@@ -111,6 +152,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "86d06338_2241e2d3",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "013c380d_68de8782",
+      "range": {
+        "startLine": 18,
+        "startChar": 16,
+        "endLine": 18,
+        "endChar": 20
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "af924a86_8ddda410",
@@ -128,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8240b929_041a9d3a",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "af924a86_8ddda410",
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e72b6da0_02cc0082",
@@ -141,6 +224,30 @@
       "writtenOn": "2023-05-02T03:24:32Z",
       "side": 1,
       "message": "This variant is 2gb",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 8
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ab902fc_b2c85dcb",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-02T15:46:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e72b6da0_02cc0082",
       "range": {
         "startLine": 22,
         "startChar": 7,
