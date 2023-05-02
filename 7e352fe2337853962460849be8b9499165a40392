@@ -1,0 +1,130 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df4011d8_3044c960",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "Please confirm these comments, Nolen.\nThis also applies to porg_tab.",
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc0c39e5_2440deb2",
+        "filename": "_data/devices/porg_variant1.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "I think batuu is the 2gb model, so shouldn\u0027t this be removed?",
+      "range": {
+        "startLine": 18,
+        "startChar": 9,
+        "endLine": 18,
+        "endChar": 14
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2df0aaaf_99e3ff3c",
+        "filename": "_data/devices/porg_variant1.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "If this variant is 4gb only, remove 2",
+      "range": {
+        "startLine": 22,
+        "startChar": 5,
+        "endLine": 22,
+        "endChar": 6
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "013c380d_68de8782",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "I think porg is variant 1.",
+      "range": {
+        "startLine": 18,
+        "startChar": 16,
+        "endLine": 18,
+        "endChar": 20
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "af924a86_8ddda410",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "Nano 2GB",
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e72b6da0_02cc0082",
+        "filename": "_data/devices/porg_variant2.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-02T03:24:32Z",
+      "side": 1,
+      "message": "This variant is 2gb",
+      "range": {
+        "startLine": 22,
+        "startChar": 7,
+        "endLine": 22,
+        "endChar": 8
+      },
+      "revId": "7e352fe2337853962460849be8b9499165a40392",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
