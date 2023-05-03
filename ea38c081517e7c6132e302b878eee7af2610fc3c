@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9aeaa528_f4cc6336",
+        "filename": "pages/fastboot_adb_setup.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-03T16:07:55Z",
+      "side": 1,
+      "message": "change comma to and.\nor change make to making.",
+      "range": {
+        "startLine": 39,
+        "startChar": 38,
+        "endLine": 39,
+        "endChar": 44
+      },
+      "revId": "ea38c081517e7c6132e302b878eee7af2610fc3c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
