@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b947c983_c6ea27cf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2023-05-03T11:06:40Z",
+      "side": 1,
+      "message": "This is the best picture I can find, btw\n\nHold until kernel tree and device tree changes are done",
+      "revId": "29479f546ed420fe15e222380a822e5f42b8ceaa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
