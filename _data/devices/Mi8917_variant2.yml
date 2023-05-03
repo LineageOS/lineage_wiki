@@ -13,7 +13,7 @@ current_branch: 20
 dimensions: {width: '70.1 mm (2.75 in)', height: '140.4 mm (5.52 in)', depth: '8.35 mm (0.32 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 308
-image: Mi8917.png
+image: Mi8917_variant2.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_msm8937
