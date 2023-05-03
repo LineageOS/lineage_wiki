@@ -22,6 +22,30 @@
       },
       "revId": "ea38c081517e7c6132e302b878eee7af2610fc3c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6371c5bd_41c5ee5e",
+        "filename": "pages/fastboot_adb_setup.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-05-03T16:13:52Z",
+      "side": 1,
+      "message": "better?",
+      "parentUuid": "9aeaa528_f4cc6336",
+      "range": {
+        "startLine": 39,
+        "startChar": 38,
+        "endLine": 39,
+        "endChar": 44
+      },
+      "revId": "ea38c081517e7c6132e302b878eee7af2610fc3c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
