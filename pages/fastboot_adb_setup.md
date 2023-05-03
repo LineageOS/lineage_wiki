@@ -36,15 +36,9 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 5. Download the [USB drivers](https://developer.android.com/studio/run/win-usb) and follow the instructions there.
 
 ### On macOS
-1. Download the [macOS zip](https://dl.google.com/android/repository/platform-tools-latest-darwin.zip) from Google.
-2. Extract it somewhere - for example, `~/adb-fastboot`.
-3. Add the following to `~/.bash_profile` if you are using Bash or `~/.zshenv` if you are using Z shell:
-```sh
-if [ -d "$HOME/adb-fastboot/platform-tools" ] ; then
-    export PATH="$HOME/adb-fastboot/platform-tools:$PATH"
-fi
-```
-4. Log out and back in.
+1. Install [Homebrew](https://brew.sh)
+2. Add `/opt/homebrew/bin` to `PATH` by following "Next steps" listed at the end of installation output.
+3. Install `android-platform-tools` by running the following command: `brew install --cask android-platform-tools`.
 
 ### On Linux
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
