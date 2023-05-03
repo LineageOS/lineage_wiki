@@ -45,7 +45,6 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    libv8 (3.16.14.19)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -57,7 +56,6 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    ref (2.0.0)
     rexml (3.2.5)
     rouge (3.26.0)
     safe_yaml (1.0.5)
@@ -66,9 +64,6 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    therubyracer (0.12.3)
-      libv8 (~> 3.16.14.15)
-      ref
     webrick (1.7.0)
 
 PLATFORMS
@@ -87,7 +82,6 @@ DEPENDENCIES
   liquid (= 4.0.3)
   listen (= 3.7.1)
   rouge (= 3.26.0)
-  therubyracer (= 0.12.3)
   webrick (= 1.7.0)
 
 BUNDLED WITH
