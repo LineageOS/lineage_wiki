@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "3.9.2"
-gem "therubyracer", "0.12.3"
+gem "mini_racer", "0.6.3"
 
 group :test do
    gem 'json-schema', '= 2.8.0'
