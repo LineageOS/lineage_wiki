@@ -14,7 +14,7 @@ current_branch: 20
 dimensions: {width: '75.4 mm (2.96 in)', height: '156.5 mm (6.16 in)', depth: '9.4 mm (0.37 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
-image: Mi439.png
+image: Mi439_variant2-4.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sdm439
