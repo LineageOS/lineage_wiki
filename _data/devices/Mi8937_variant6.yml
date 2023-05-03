@@ -12,7 +12,7 @@ current_branch: 20
 dimensions: {width: '76.2 mm (3 in)', height: '153 mm (6.02 in)', depth: '7.55 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
-image: Mi8937.png
+image: ugg.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_msm8937
