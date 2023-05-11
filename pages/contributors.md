@@ -36,21 +36,13 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
-| Abhisek Devkota | ciwrl |
-| Adrian DC | adriandc |
-| Arne Coucheron | arco |
 | Bruno Martins | bgcngm |
 | Chirayu Desai | cdesai |
-| Christopher N. Hesse | raymanfx |
-| Daniel Hillenbrand | codeworkx |
 | Danny Baumann | maniac103 |
-| Ethan Chen | intervigil |
-| Harry Youd | harryyoud |
 | Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
 | Michael W. | baddaemon |
 | Paul Keith | javelinanddart |
-| Tom Marshall | tdm |
 {: .table }
 
 ### Trusted reviewers
@@ -61,10 +53,8 @@ their feedback is held as backed by project leads and recognized as a distinct g
 | Name | Nickname |
 |------|----------|
 | Björn Lundén | blunden |
-| Brandon McAnsh | bmc08gt |
 | Nolen Johnson | npjohnson |
 | Scott Warner | Tortel |
-| Shane Passmore | h8rift |
 | Timi Rautamäki | trautamaki |
 {: .table }
 
