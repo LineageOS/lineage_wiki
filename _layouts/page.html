@@ -7,21 +7,22 @@ layout: default
     {%- assign device = site.data.devices[page.device] %}
     {%- capture link %}{{ "devices/" | append: device.codename | relative_url }}{% endcapture %}
     {%- if device.variant %}
-      {%- assign parts = "build update upgrade install fw_update" | split: " " %}
-      {%- for part in parts %}
-        {%- if page.url contains part %}
-          {%- capture link %}{{ "devices/" | append: device.codename | append: "/variant" | append: device.variant | relative_url }}{% endcapture %}
-          {%- assign action = part %}
-          {%- unless part == "build" or part == "update" %}
-            {%- assign notoc = true %}
-          {%- endunless %}
-          {%- break %}
-        {%- endif %}
-      {%- endfor %}
+      {%- capture link %}{{ "devices/" | append: device.codename | append: "/variant" | append: device.variant | relative_url }}{% endcapture %}
     {%- endif %}
   {%- elsif page.tags contains "how-to" %}
     {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
   {%- endif %}
+
+  {%- assign parts = "build update upgrade install fw_update" | split: " " %}
+  {%- for part in parts %}
+    {%- if page.url contains part %}
+      {%- assign action = part %}
+      {%- unless part == "build" or part == "update" %}
+        {%- assign notoc = true %}
+      {%- endunless %}
+      {%- break %}
+    {%- endif %}
+  {%- endfor %}
 
   {%- if link != None %}
   <a href={{ link }} class="back-link"><span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
