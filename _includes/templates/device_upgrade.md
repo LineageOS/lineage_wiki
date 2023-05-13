@@ -23,11 +23,11 @@ This device does not have more than one version so far, therefore we can't provi
 {% endunless %}
 {%- endif %}
 
-{%- if device.architecture.userspace -%}
-{%- assign userspace_architecture = device.architecture.userspace -%}
-{%- else -%}
-{%- assign userspace_architecture = device.architecture -%}
-{%- endif -%}
+{%- if device.architecture.userspace %}
+{% assign userspace_architecture = device.architecture.userspace %}
+{% else %}
+{% assign userspace_architecture = device.architecture %}
+{%- endif %}
 
 ## Manually upgrading LineageOS
 
