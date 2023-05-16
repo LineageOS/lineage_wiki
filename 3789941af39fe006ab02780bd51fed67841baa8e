@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3ea4e91b_10166ea5",
+        "filename": "_data/devices/xpeng.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-05-16T10:42:54Z",
+      "side": 1,
+      "message": "use variants?",
+      "revId": "3789941af39fe006ab02780bd51fed67841baa8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
