@@ -102,6 +102,7 @@ definitions:
     - ARM Mali-G76 MP12
     - ARM Mali-G78 MP20
     - ARM Mali-G710 MC10
+    - ARM Mali-G710 MP7
     - ARM Mali-T604 MP4
     - ARM Mali-T628 MP6
     - ARM Mali-T720 MP2
