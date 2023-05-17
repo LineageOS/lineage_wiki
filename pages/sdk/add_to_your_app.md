@@ -38,12 +38,12 @@ Once your build environment is ready, run the following commands to generate the
 source build/envsetup.sh
 breakfast yourDevice    # Replace yourDevice with your device's codename
 croot
-make org.lineageos.platform.sdk.aar
+make org.lineageos.platform.sdk
 {% endhighlight %}
 
 The jar library will be available at the following path:
 
-`out/target/common/obj/JAVA_LIBRARIES/org.lineageos.platform.sdk.aar_intermediates/classes.jar`
+`out/target/common/obj/JAVA_LIBRARIES/org.lineageos.platform.sdk_intermediates/javalib.jar`
 
 ### Compatibility
 
