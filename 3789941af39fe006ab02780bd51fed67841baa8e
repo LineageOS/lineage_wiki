@@ -16,6 +16,24 @@
       "message": "use variants?",
       "revId": "3789941af39fe006ab02780bd51fed67841baa8e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f63cc665_9e94beb5",
+        "filename": "_data/devices/xpeng.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-05-17T05:23:43Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3ea4e91b_10166ea5",
+      "revId": "3789941af39fe006ab02780bd51fed67841baa8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
