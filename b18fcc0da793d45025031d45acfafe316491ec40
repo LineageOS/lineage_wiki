@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f7a993e_a01557ee",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-05-18T07:20:12Z",
+      "side": 1,
+      "message": "Are you sure we don\u0027t export any resource on SDK? JAR might not be enough",
+      "revId": "b18fcc0da793d45025031d45acfafe316491ec40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
