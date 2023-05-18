@@ -20,10 +20,10 @@ install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sm6150
 maintainers: [ArianK16a]
-models: [M1903F10G]
-name: Mi 9T
+models: [M1903F10I]
+name: Redmi K20 (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG, Wi-Fi Display]
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -33,7 +33,7 @@ soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128 GB
 tree: android_device_xiaomi_davinci
 type: phone
-variant: 1
+variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [17.1, 20]
