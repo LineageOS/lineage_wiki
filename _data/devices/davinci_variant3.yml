@@ -1,8 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'Redmi K20 (China)', firmware: 'V12.5.2.0.RFJCNXM', download_link: 'https://bigota.d.miui.com/V12.5.2.0.RFJCNXM/miui_DAVINCI_V12.5.2.0.RFJCNXM_8e20b56805_11.0.zip'}
+- {device: 'Redmi K20 (India)', firmware: 'V12.1.4.0.RFJINXM', download_link: 'https://bigota.d.miui.com/V12.1.4.0.RFJINXM/miui_DAVINCIININGlobal_V12.1.4.0.RFJINXM_5db1a0c666_11.0.zip'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED', info: '48 MP'}
@@ -25,20 +24,20 @@ install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_sm6150
 maintainers: [ArianK16a]
-models: [M1903F10A, M1903F10C]
-name: Redmi K20 (China)
+models: [M1903F10I]
+name: Redmi K20 (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
-ram: 6/8 GB
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-06
 screen: {size: '162.306 mm (6.39 in)', density: 403, resolution: '2340x1080', technology: 'AMOLED'}
 soc: Qualcomm SM7150-AA Snapdragon 730
-storage: 64/128/256 GB
+storage: 64/128 GB
 tree: android_device_xiaomi_davinci
 type: phone
-variant: 2
+variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [17.1, 20]
