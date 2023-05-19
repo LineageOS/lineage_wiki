@@ -13,11 +13,11 @@ layout: default
     {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
   {%- endif %}
 
-  {%- assign parts = "build update upgrade install fw_update" | split: " " %}
+  {%- assign parts = "/build /update /upgrade /install /fw_update" | split: " " %}
   {%- for part in parts %}
     {%- if page.url contains part %}
-      {%- assign action = part %}
-      {%- unless part == "build" or part == "update" %}
+      {%- assign action = part | remove: "/" %}
+      {%- unless part == "/build" or part == "/update" %}
         {%- assign notoc = true %}
       {%- endunless %}
       {%- break %}
@@ -33,6 +33,8 @@ layout: default
   {%- elsif action %}
     {%- if action == "build" %}
       {%- assign firstLine = action | capitalize | append: " LineageOS for" %}
+    {%- elsif action == "fw_update" %}
+      {%- assign firstLine = "Update firmware on" %}
     {%- else %}
       {%- assign firstLine = action | capitalize | append: " LineageOS on" %}
     {%- endif %}
