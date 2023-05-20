@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce20c534_e3fca38b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-20T04:46:11Z",
+      "side": 1,
+      "message": "You can see the issue here, how the fw_update page has the incorrect title \"Update lineageos\" at the top:\nhttps://wiki.lineageos.org/devices/alioth/fw_update/variant1\n\nWith this fix:\nhttps://lineage.youd.dev/356776/1/devices/alioth/fw_update/variant1",
+      "revId": "3bb93f183d85fc1aedb62fd5659b362762750328",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
