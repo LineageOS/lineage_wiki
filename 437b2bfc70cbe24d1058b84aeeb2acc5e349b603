@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6f3bcc86_2a0ba6da",
+        "filename": "_includes/templates/device_info.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-21T17:12:15Z",
+      "side": 1,
+      "message": "this is producing the wrong link.  needs to be without variant#",
+      "revId": "437b2bfc70cbe24d1058b84aeeb2acc5e349b603",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
