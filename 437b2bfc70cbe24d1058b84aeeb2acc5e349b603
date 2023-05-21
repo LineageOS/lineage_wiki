@@ -16,6 +16,24 @@
       "message": "this is producing the wrong link.  needs to be without variant#",
       "revId": "437b2bfc70cbe24d1058b84aeeb2acc5e349b603",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f70a56c5_9a15b8e8",
+        "filename": "_includes/templates/device_info.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-05-21T17:15:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6f3bcc86_2a0ba6da",
+      "revId": "437b2bfc70cbe24d1058b84aeeb2acc5e349b603",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
