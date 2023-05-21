@@ -9,7 +9,7 @@
 {%- if device.variant %}
 ## Variants
 
-There are multiple variants of this device. [Make sure you're viewing the right one.]({{ "devices/" | append: device.codename | relative_url }})
+There are multiple variants of this device. [Make sure you're viewing the right one.]({{ device | device_link | relative_url }})
 {%- endif %}
 
 {% if device.maintainers != empty %}
@@ -18,12 +18,6 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% endif %}
 
 ## Guides
-
-{%- assign path_prefix = "devices/" | append: device.codename %}
-{%- assign path_postfix = "" %}
-{%- if device.variant %}
-{%- assign path_postfix = "/" | append: "variant" | append: device.variant %}
-{%- endif %}
 
 {% include snippets/branches.md %}
 {%- assign last_supported_version = device.versions | last %}
@@ -42,15 +36,15 @@ There are multiple variants of this device. [Make sure you're viewing the right 
     {%- assign curr_branch = current_branch %}
 {%- endif %}
 
-- [Installation]({{ path_prefix | append: "/install" | append: path_postfix | relative_url }})
-- [Build for yourself]({{ path_prefix | append: "/build" | append: path_postfix | relative_url }})
+- [Installation]({{ device | device_link: "/install" | append: path_postfix | relative_url }})
+- [Build for yourself]({{ device | device_link: "/build" | append: path_postfix | relative_url }})
 {%- if device.firmware_update %}
-- [Update to a newer vendor firmware version]({{ path_prefix | append: "/fw_update" | append: path_postfix | relative_url }})
+- [Update to a newer vendor firmware version]({{ device | device_link: "/fw_update" | append: path_postfix | relative_url }})
 {%- endif %}
-- [Update to a newer build of the same LineageOS version]({{ path_prefix | append: "/update" | append: path_postfix | relative_url }})
+- [Update to a newer build of the same LineageOS version]({{ device | device_link: "/update" | append: path_postfix | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ path_prefix | append: "/upgrade" | append: path_postfix | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ device | device_link: "/upgrade" | append: path_postfix | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
