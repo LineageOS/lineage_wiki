@@ -40,14 +40,9 @@ Select your variant using the comparison below to make sure your guides are corr
 
 <div class="variants">
   {%- for device in sorted %}
-  {%- if include.info %}
-  {%- assign url = "/devices/" | append: device.codename | append: "/variant" | append: device.variant | append: "/" | relative_url %}
-  {%- else %}
-  {%- assign url = "/devices/" | append: device.codename | append: "/upgrade" | append: "/variant" | append: device.variant | relative_url %}
-  {%- endif %}
-  <div class="variant-item" onClick="location.href='{{ url }}'">
+  <div class="variant-item" onClick="location.href='{{ device | device_link }}'">
     <div class="variant-title">
-      <a href="{{ url }}" class="device_link">{{ device.name }}</a>
+      <a href="{{ device | device_link }}" class="device_link">{{ device.name }}</a>
     </div>
     <div class="variant-content">
       <table class="deviceinfo table variant_info">

@@ -5,10 +5,7 @@ layout: default
 
   {%- if page.device != None %}
     {%- assign device = site.data.devices[page.device] %}
-    {%- capture link %}{{ "devices/" | append: device.codename | relative_url }}{% endcapture %}
-    {%- if device.variant %}
-      {%- capture link %}{{ "devices/" | append: device.codename | append: "/variant" | append: device.variant | relative_url }}{% endcapture %}
-    {%- endif %}
+    {%- capture link %}{{ device | device_link | relative_url }}{% endcapture %}
   {%- elsif page.tags contains "how-to" %}
     {%- capture link %}{{ "how-to/" | relative_url }}{% endcapture %}
   {%- endif %}
