@@ -8,7 +8,7 @@ If the vendor provided multiple updates for that version, e.g. security updates,
 If your current installation is newer or older than **Android {{ device.before_install.version }}**, please upgrade or downgrade to the required version before proceeding
 {%- endif %}
 {%- if device.firmware_update and page.url contains "upgrade" or device.before_install_device_variants %}
-by following [this guide]({{ "devices/" | append: device.codename | append: "/fw_update" | relative_url }}).
+by following [this guide]({{ device | device_link: "/fw_update" | relative_url }}).
 {%- else %}
 (guides can be found on the internet!).
 {%- endif %}

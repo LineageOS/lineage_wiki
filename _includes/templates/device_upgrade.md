@@ -1,5 +1,4 @@
 {%- assign device = site.data.devices[page.device] %}
-{%- assign path_prefix = "devices/" | append: device.codename %}
 {%- if device.custom_recovery_codename %}
 {%- assign custom_recovery_codename = device.custom_recovery_codename %}
 {%- else %}
@@ -14,7 +13,7 @@ This device does not have more than one version so far, therefore we can't provi
 ## Basic requirements
 
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
-2. You actually want to upgrade your device to the newest version - if you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ path_prefix | append: "/install" | relative_url }}) instructions for installing LineageOS the first time.
+2. You actually want to upgrade your device to the newest version - if you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ device | device_link: "/install" | relative_url }}) instructions for installing LineageOS the first time.
 
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 {% unless device.before_install.ships_fw %}
@@ -42,7 +41,7 @@ This device does not have more than one version so far, therefore we can't provi
 {%- else %}
 1. Verify your device is using the latest [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
 {%- endif %}
-Follow your [device's installation guide]({{ path_prefix | append: "/install" | relative_url }}) to see how you can update your recovery image.
+Follow your [device's installation guide]({{ device | device_link: "/install" | relative_url }}) to see how you can update your recovery image.
     {% include alerts/important.html content="These instructions may not work if you choose to use a different recovery!" %}
 {%- endcapture %}
 {%- endunless %}
@@ -60,9 +59,9 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 
 {{ recovery_update }}
 {%- if device.maintainers != empty %}
-1. Download the [LineageOS install package](https://download.lineageos.org/devices/{{ device.codename }}) that you'd like to install or [build]({{ path_prefix | append: "/build" | relative_url }}) the package yourself.
+1. Download the [LineageOS install package](https://download.lineageos.org/devices/{{ device.codename }}) that you'd like to install or [build]({{ device | device_link: "/build" | relative_url }}) the package yourself.
 {%- else %}
-1. [Build]({{ path_prefix | append: "/build" | relative_url }}) a LineageOS install package.
+1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS install package.
 {%- endif %}
 2. If you are currently using (or now want to use) an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}), you have the following options:
     - keep using them: Download the appropriate version [now]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
