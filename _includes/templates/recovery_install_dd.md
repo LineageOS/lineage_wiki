@@ -32,7 +32,7 @@
 {%- elsif device.maintainers != empty %}
 1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
 {%- else %}
-1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
+1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
 2. Place the recovery image file on the root of `/sdcard`:
    * Using adb: `adb push <recovery_filename>.img /sdcard/<recovery_filename>.img`
