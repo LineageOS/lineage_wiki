@@ -45,7 +45,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     {% include alerts/tip.html content="You can open a command prompt in any folder by right-clicking on empty space while holding Shift and selecting \"Open Command Prompt here\" or \"Open PowerShell window here\" from the context menu." %}
 {%- else %}
 {%- assign is_lineage_recovery = true %}
-2. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
+2. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 3. Locate the built `recovery.img` file, open a Command Prompt in the folder where the file was found, and TAR the file by running `tar -cvf recovery.tar recovery.img`.
     {% include alerts/tip.html content="You can open a command prompt in any folder by right-clicking on empty space while holding Shift and selecting \"Open Command Prompt here\" or \"Open PowerShell window here\" from the context menu." %}
 {%- endif %}

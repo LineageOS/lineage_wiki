@@ -25,7 +25,7 @@
 {%- else %}
 ## Booting a custom recovery using `fastboot`
 {%- assign is_lineage_recovery = true %}
-1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
+1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
 2. Connect your device to your PC via USB if it isn't already.
