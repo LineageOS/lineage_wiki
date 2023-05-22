@@ -5,8 +5,8 @@
  1. Download dtbo file from [here](https://download.lineageos.org/devices/{{ device.codename }}), and dtb file from [here](https://download.ods.ninja/Android/firmware/{{ device.codename }}/dtb)
  2. Reboot the device into bootloader mode:
      * {{ device.download_boot }}
- 3. Flash the downloaded image files to your device by running (replace `<dtb>` and `<dtbo>` with the actual filenames!):
+ 3. Flash the downloaded image files to your device by running (replace `<dtb>` with the actual filenames!):
  ```
  fastboot flash dtb <dtb>.img
- fastboot flash dtbo <dtbo>.img
+ fastboot flash dtbo dtbo.img
  ```
