@@ -52,9 +52,9 @@ heimdall print-pit
 
 {%- if device.custom_recovery_link %}
 {%- assign is_lineage_recovery = device.custom_lineage_recovery %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the latest recovery file, named `recovery.img`.
 {%- elsif device.uses_twrp %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img` and rename it to `recovery.img`.
     {% include alerts/tip.html content="Ensure you download the `.img` file and not the `.tar` or `.tar.md5` versions." %}
 {%- elsif device.maintainers != empty %}
 {%- assign is_lineage_recovery = true %}
@@ -69,7 +69,7 @@ heimdall print-pit
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
 3. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
-heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
+heimdall flash --RECOVERY recovery.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 4. A transfer bar will appear on the device showing the recovery image being flashed.

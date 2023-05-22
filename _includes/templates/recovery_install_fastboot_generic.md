@@ -5,13 +5,19 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
+{% if device.has_recovery_partition != true %}
+    {% assign recovery_partition = 'boot' %}
+{% else %}
+    {% assign recovery_partition = 'recovery' %}
+{% endif %}
+
 ## Installing a custom recovery using `fastboot`
 
 {%- if device.custom_recovery_link %}
 {%- assign is_lineage_recovery = device.custom_lineage_recovery %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the recovery file and rename it to `recovery.img`.
 {%- elsif device.uses_twrp %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
+1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img` and rename it to `recovery.img`.
 {%- elsif device.maintainers != empty %}
 {%- assign is_lineage_recovery = true %}
 1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
@@ -50,14 +56,14 @@ fastboot wipe-super super_empty.img
     {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
 {%- endif %}
 {% if device.needs_fastboot_boot %}
-7. Temporarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
+7. Temporarily boot recovery on your device:
 ```
-fastboot boot <recovery_filename>.img
+fastboot boot {{ recovery_partition }}.img
 ```
 {% else %}
-7. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
+7. Flash recovery onto your device:
 ```
-fastboot flash recovery <recovery_filename>.img
+fastboot flash recovery recovery.img
 ```
 8. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}
