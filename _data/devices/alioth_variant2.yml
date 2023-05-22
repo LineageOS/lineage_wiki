@@ -3,7 +3,7 @@ battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
 - {device: 'Redmi K40 China', firmware: 'V13.0.5.0.SKHCNXM', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SKHCNXM/miui_ALIOTH_V13.0.5.0.SKHCNXM_540c833165_12.0.zip'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '48 MP (main)'}
@@ -44,3 +44,4 @@ vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+recovery_partition_name: vendor_boot
