@@ -16,6 +16,24 @@
       "message": "How about flashing both?",
       "revId": "b7cd99e4ccddd466a314a547dc1b6e63b225bb1a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a82e70e_47b54943",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-05-22T15:07:07Z",
+      "side": 1,
+      "message": "nvm",
+      "parentUuid": "9d964546_bcaf38a1",
+      "revId": "b7cd99e4ccddd466a314a547dc1b6e63b225bb1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
