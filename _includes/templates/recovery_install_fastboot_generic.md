@@ -50,14 +50,14 @@ fastboot wipe-super super_empty.img
     {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
 {%- endif %}
 {% if device.needs_fastboot_boot %}
-7. Temporarily boot recovery on your device (replace `<recovery_filename>` with the actual filename!):
+7. Temporarily boot recovery on your device:
 ```
-fastboot boot <recovery_filename>.img
+fastboot boot boot.img
 ```
 {% else %}
-7. Flash recovery onto your device (replace `<recovery_filename>` with the actual filename!):
+7. Flash recovery onto your device:
 ```
-fastboot flash recovery <recovery_filename>.img
+fastboot flash recovery recovery.img
 ```
 8. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}

@@ -69,7 +69,7 @@ heimdall print-pit
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
 3. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
-heimdall flash --RECOVERY <recovery_filename>.img --no-reboot
+heimdall flash --RECOVERY recovery.img --no-reboot
 ```
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because Heimdall is not going to do it for you." %}
 4. A transfer bar will appear on the device showing the recovery image being flashed.

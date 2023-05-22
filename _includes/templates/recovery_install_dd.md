@@ -35,13 +35,13 @@
 1. [Build]({{ "devices/" | append: device.codename | append: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
 2. Place the recovery image file on the root of `/sdcard`:
-   * Using adb: `adb push <recovery_filename>.img /sdcard/<recovery_filename>.img`
+   * Using adb: `adb push recovery.img /sdcard/recovery.img`
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
 ```
 su
-dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}
+dd if=/sdcard/recovery.img of={{ device.recovery_partition }}
 ```
 4. Reboot into recovery.
     * From the same shell, type the following command:
