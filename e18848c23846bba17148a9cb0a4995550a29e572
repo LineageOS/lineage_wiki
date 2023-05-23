@@ -22,6 +22,30 @@
       },
       "revId": "e18848c23846bba17148a9cb0a4995550a29e572",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cf7e6d2_1e62d1ef",
+        "filename": "_data/devices/sake.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 18106
+      },
+      "writtenOn": "2023-05-23T10:42:36Z",
+      "side": 1,
+      "message": "is it needed even if I\u0027m shipping the updated firmware with the lineage build already?",
+      "parentUuid": "cc9f0b27_2099c5e1",
+      "range": {
+        "startLine": 3,
+        "startChar": 70,
+        "endLine": 3,
+        "endChar": 72
+      },
+      "revId": "e18848c23846bba17148a9cb0a4995550a29e572",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
