@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cc9f0b27_2099c5e1",
+        "filename": "_data/devices/sake.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-23T01:13:22Z",
+      "side": 1,
+      "message": "needs change to 13",
+      "range": {
+        "startLine": 3,
+        "startChar": 70,
+        "endLine": 3,
+        "endChar": 72
+      },
+      "revId": "e18848c23846bba17148a9cb0a4995550a29e572",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
