@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "376c5783_717663ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-24T15:39:46Z",
+      "side": 1,
+      "message": "this seems unnecessary - users are going to fuck it up either way IMO",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
