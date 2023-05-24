@@ -1,6 +1,12 @@
 {% assign device = site.data.devices[page.device] %}
-{% include alerts/warning.html content="These instructions only work if you follow every section and step precisely.<br/>
-Do **not** continue after something fails!" %}
+{% assign current_branch = device.current_branch %}
+
+{% capture install_content -%}
+The provided instructions are for LineageOS {{ current_branch }}. It will only work if you follow every section and step precisely. <br/>
+Do **not** continue after something fails!
+{%- endcapture %}
+
+{% include alerts/warning.html content=install_content %}
 
 ## Basic requirements
 
