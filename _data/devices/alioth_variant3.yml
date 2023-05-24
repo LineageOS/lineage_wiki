@@ -2,7 +2,7 @@ architecture: arm64
 battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'Mi 11X India', firmware: 'V14.0.2.0.TKHINXM', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TKHINXM/miui_ALIOTHINGlobal_V14.0.2.0.TKHINXM_f9ee9089e7_13.0.zip'}
+- {device: 'Mi 11X India', firmware: 'V13.0.6.0.SKHINXM', download_link: 'https://bigota.d.miui.com/V13.0.6.0.SKHINXM/miui_ALIOTHINGlobal_V13.0.6.0.SKHINXM_2492066c1d_12.0.zip'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
@@ -14,7 +14,7 @@ codename: alioth
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 20
+current_branch: 19.1
 dimensions: {width: '76.4 mm (3.01 in)', height: '163.7 mm (6.44 in)', depth: '7.8 mm (0.31 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
@@ -42,6 +42,6 @@ type: phone
 variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [18.1, 19.1, 20]
+versions: [18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
 recovery_partition_name: vendor_boot
