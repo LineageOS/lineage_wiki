@@ -16,6 +16,24 @@
       "message": "There\u0027s possibilty of someone flashing T firmware on S build.",
       "revId": "120eb2c270ffbc6c66066fe29649810f878a4795",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82357f39_f45e263d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-05-24T14:22:19Z",
+      "side": 1,
+      "message": "Eh do we really need to nitpick that much? it\u0027s just 3 days...",
+      "parentUuid": "ab862fc5_48d7811a",
+      "revId": "120eb2c270ffbc6c66066fe29649810f878a4795",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
