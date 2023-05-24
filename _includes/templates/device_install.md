@@ -1,5 +1,5 @@
 {% assign device = site.data.devices[page.device] %}
-{% include alerts/warning.html content="These instructions only work if you follow every section and step precisely.<br/>
+{% include alerts/warning.html content="These instructions only work if you follow every section and step precisely. Provided instructions are for LineageOS {{ device.current_branch | precision: 1 }} only.<br/>
 Do **not** continue after something fails!" %}
 
 ## Basic requirements
