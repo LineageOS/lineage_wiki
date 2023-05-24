@@ -52,6 +52,24 @@
       "parentUuid": "82357f39_f45e263d",
       "revId": "120eb2c270ffbc6c66066fe29649810f878a4795",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f47fd056_96928bb1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-05-24T14:43:32Z",
+      "side": 1,
+      "message": "Just tell him to keep Android 12 one",
+      "parentUuid": "2ca4a135_74af0139",
+      "revId": "120eb2c270ffbc6c66066fe29649810f878a4795",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
