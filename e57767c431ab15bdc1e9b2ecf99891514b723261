@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1374c77_04066723",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-26T21:27:15Z",
+      "side": 1,
+      "message": "makes no sense - all of g12 has recovery partitions but doesn\u0027t use this.\n\nflox\u0027s instructions are already right?",
+      "revId": "e57767c431ab15bdc1e9b2ecf99891514b723261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
