@@ -69,6 +69,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e865e8c_1c381ccb",
+        "filename": "_includes/snippets/recovery_reboot.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-05-26T17:36:22Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "0c104af2_dc5a42b8",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e0c2b56e_ae6c795f",
@@ -86,6 +104,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8bc02f63_cc9e1178",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-05-26T17:36:22Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "e0c2b56e_ae6c795f",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1daa55eb_21d76975",
@@ -99,6 +135,24 @@
       "writtenOn": "2023-05-26T16:44:07Z",
       "side": 1,
       "message": "this isn\u0027t right for flox.\nhttps://lineage.youd.dev/357249/7/devices/flox/install#installing-a-custom-recovery-using-fastboot",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0fae03ad_38ec344a",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-05-26T17:36:22Z",
+      "side": 1,
+      "message": "Devices were missing has_recovery_partition flag. added it here https://review.lineageos.org/c/LineageOS/lineage_wiki/+/357530",
+      "parentUuid": "1daa55eb_21d76975",
       "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
