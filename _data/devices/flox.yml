@@ -14,6 +14,7 @@ dimensions: {width: '120 mm (4.7 in)', height: '198.5 mm (7.8 in)', depth: '10.5
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 320
+has_recovery_partition: true
 image: flo.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_msm
