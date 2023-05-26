@@ -33,6 +33,74 @@
       "message": "razor: thoughts?",
       "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3774ca15_681c5217",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-26T16:44:07Z",
+      "side": 1,
+      "message": "idk.  it might make it easier for new users.\nbut i noticed a few issues with it on a quick look.",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0c104af2_dc5a42b8",
+        "filename": "_includes/snippets/recovery_reboot.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-26T16:44:07Z",
+      "side": 1,
+      "message": "this isn\u0027t right for wade. https://lineage.youd.dev/357249/7/devices/wade/install#installing-a-custom-recovery-using-fastboot",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0c2b56e_ae6c795f",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-26T16:44:07Z",
+      "side": 1,
+      "message": "missing \"and rename it to...\" here.",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1daa55eb_21d76975",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-05-26T16:44:07Z",
+      "side": 1,
+      "message": "this isn\u0027t right for flox.\nhttps://lineage.youd.dev/357249/7/devices/flox/install#installing-a-custom-recovery-using-fastboot",
+      "revId": "c2eaeb94321a1046a5763f080961bd31823cc046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
