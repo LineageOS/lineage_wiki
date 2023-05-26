@@ -16,6 +16,24 @@
       "message": "makes no sense - all of g12 has recovery partitions but doesn\u0027t use this.\n\nflox\u0027s instructions are already right?",
       "revId": "e57767c431ab15bdc1e9b2ecf99891514b723261",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df12f1a0_daabfad0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-05-26T22:10:03Z",
+      "side": 1,
+      "message": "It\u0027s fine for device with recovery partition, since previously it was fastboot boot \u003crecovery_filename\u003e.img. If anyone use recovery_reboot: fastboot_boot for A/B it will also show recovery. It should be boot.",
+      "parentUuid": "e1374c77_04066723",
+      "revId": "e57767c431ab15bdc1e9b2ecf99891514b723261",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
