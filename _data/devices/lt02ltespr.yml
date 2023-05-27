@@ -25,7 +25,7 @@ peripherals: [IR blaster, Accelerometer, Light sensor, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-09
-screen: {size: '178 mm (7.0 in)', density: 535, resolution: '1024x600', technology: 'TFT'}
+screen: {size: '178 mm (7.0 in)', density: 535, resolution: '1024x600', technology: 'TFT LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 16 GB
