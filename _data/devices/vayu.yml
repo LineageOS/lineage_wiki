@@ -30,7 +30,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When Xiaomi/POCO/Redmi splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
 release: 2021-03
-screen: {size: '169 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: '120Hz IPS LCD'}
+screen: {size: '169 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: 'IPS LCD', refresh_rate: 120}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM8150-AC Snapdragon 860
 storage: 128/256 GB

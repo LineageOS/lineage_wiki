@@ -30,7 +30,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Dual speakers,
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2021-04
-screen: {size: '154.9 mm (6.1 in)', density: 449, resolution: '2520x1080', technology: 'OLED, 120Hz, HDR'}
+screen: {size: '154.9 mm (6.1 in)', density: 449, resolution: '2520x1080', technology: 'OLED', refresh_rate: 120}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.0

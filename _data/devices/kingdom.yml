@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
   Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
 release: 2014-09
-screen: {size: '152.4 mm (6.0 in)', density: 490, resolution: '2560x1440', technology: 'LG IPS'}
+screen: {size: '152.4 mm (6.0 in)', density: 490, resolution: '2560x1440', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB
 tree: android_device_lenovo_kingdom

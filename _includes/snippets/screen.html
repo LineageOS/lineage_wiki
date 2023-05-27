@@ -3,4 +3,4 @@
 {%- endif %}
 {{ screen_data.size }}<br/>
 {{ screen_data.resolution }} ({{ screen_data.density }} PPI)<br/>
-{{ screen_data.technology }}
+{{ screen_data.technology }} {% if screen_data.refresh_rate %}(max. {{ screen_data.refresh_rate }} Hz){% endif %}

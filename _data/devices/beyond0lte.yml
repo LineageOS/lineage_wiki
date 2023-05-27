@@ -27,7 +27,7 @@ peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyrosc
 ram: 6/8 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2019-03-08
-screen: {size: '147.3 mm (5.8 in)', density: 438, resolution: '2280x1080', technology: 'Full HD+ Dynamic AMOLED'}
+screen: {size: '147.3 mm (5.8 in)', density: 438, resolution: '2280x1080', technology: 'Dynamic AMOLED'}
 sdcard: {sizeMax: '512 GB'}
 soc: Samsung Exynos 9820
 storage: 128/256 GB
