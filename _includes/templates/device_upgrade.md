@@ -55,6 +55,8 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
 {%- endif %}
 {%- endfor %}
 
+{% include alerts/warning.html content="Before upgrading, it is advised to delete or disable any installed OS customizations you have made. It's possible that a new Android version won't work with it!" %}
+
 The updater app does not support upgrades from one version of LineageOS to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing LineageOS for the first time.
 
 {{ recovery_update }}
