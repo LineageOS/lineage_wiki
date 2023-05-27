@@ -185,13 +185,40 @@ definitions:
         type: string
       technology:
         description: Screen technology
-        type: string
+        "$ref": "#/definitions/screen_technologies"
+      refresh_rate:
+        description: Maximum screen refresh rate [Hz]
+        type: integer
     required:
     - size
     - density
     - resolution
     - technology
     type: object
+  screen_technologies:
+    enum:
+    - OLED
+    - P-OLED
+    - AMOLED
+    - Dynamic AMOLED
+    - Fluid AMOLED
+    - Fluid 2.0 LTPO AMOLED
+    - Optic AMOLED
+    - Super AMOLED
+    - Pentile RGBG AMOLED
+    - Pentile RGBG Super AMOLED
+    - IPS LCD
+    - IPS LTPS LCD
+    - IPS Retinal LCD
+    - IPS+ LCD
+    - Super IPS+ LCD
+    - LCD
+    - Super LCD
+    - PLS LCD
+    - Super PLS LCD
+    - Super clear LCD
+    - TFT LCD
+    type: string
   sdcard_data:
     description: The format required for the sdcard property
     properties:

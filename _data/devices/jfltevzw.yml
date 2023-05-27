@@ -31,7 +31,7 @@ recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2013-04
 required_bootloader: ['I545VRUAMDK']
 root_method: [towelroot]
-screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Full HD Super AMOLED'}
+screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16/32 GB

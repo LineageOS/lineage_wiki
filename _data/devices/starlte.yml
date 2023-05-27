@@ -25,7 +25,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2018-03-11
-screen: {size: '147.3 mm (5.8 in)', density: 570, resolution: '2960x1440', technology: 'Quad HD+ Super AMOLED'}
+screen: {size: '147.3 mm (5.8 in)', density: 570, resolution: '2960x1440', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 64 GB
