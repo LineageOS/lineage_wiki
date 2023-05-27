@@ -34,7 +34,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_reboot: fastboot_reboot
 release: 2021-04
-screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: '120Hz Super AMOLED'}
+screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'Super AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128 GB
 tree: android_device_xiaomi_alioth

@@ -30,8 +30,8 @@ ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-05-30
 screen:
-- ZE520KL: {size: '132.1 mm (5.2 in)', density: 424, resolution: '1080x1920', technology: 'Super IPS+'}
-- ZE552KL: {size: '139.7 mm (5.5 in)', density: 400, resolution: '1080x1920', technology: 'Super IPS+'}
+- ZE520KL: {size: '132.1 mm (5.2 in)', density: 424, resolution: '1080x1920', technology: 'Super IPS+ LCD'}
+- ZE552KL: {size: '139.7 mm (5.5 in)', density: 400, resolution: '1080x1920', technology: 'Super IPS+ LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 16/32/64 GB
