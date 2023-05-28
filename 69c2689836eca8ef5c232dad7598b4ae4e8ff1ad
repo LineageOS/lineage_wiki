@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e95a80a_b70e22bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-05-28T20:32:56Z",
+      "side": 1,
+      "message": "but none of these persist a block level updates - and add-on.d isn\u0027t kept on upgrade?",
+      "revId": "69c2689836eca8ef5c232dad7598b4ae4e8ff1ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
