@@ -1,0 +1,50 @@
+architecture: arm64
+battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'Redmi Note 10 Pro Global', firmware: 'V14.0.2.0.TKFMIXM', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TKFMIXM/miui_SWEETGlobal_V14.0.2.0.TKFMIXM_897d928055_13.0.zip'}
+- {device: 'Redmi Note 10 Pro EEA', firmware: 'V14.0.3.0.TKFEUXM', download_link: 'https://bigota.d.miui.com/V14.0.3.0.TKFEUXM/miui_SWEETEEAGlobal_V14.0.3.0.TKFEUXM_d1f402084b_13.0.zip'}
+- {device: 'Redmi Note 10 Pro Russia', firmware: 'V14.0.1.0.TKFRUXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKFRUXM/miui_SWEETRUGlobal_V14.0.1.0.TKFRUXM_2f3c9c4717_13.0.zip'}
+- {device: 'Redmi Note 10 Pro Turkey', firmware: 'V14.0.1.0.TKFTRXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKFTRXM/miui_SWEETTRGlobal_V14.0.1.0.TKFTRXM_000bed12bc_13.0.zip'}
+- {device: 'Redmi Note 10 Pro Indonesia', firmware: 'V14.0.2.0.TKFIDXM', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TKFIDXM/miui_SWEETIDGlobal_V14.0.2.0.TKFIDXM_df828d33c5_13.0.zip'}
+- {device: 'Redmi Note 10 Pro Taiwan', firmware: 'V14.0.1.0.TKFTWXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKFTWXM/miui_SWEETTWGlobal_V14.0.1.0.TKFTWXM_06e7a5768c_13.0.zip'}
+bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '108 MP'}
+- {flash: 'LED', info: '8 MP (ultrawide)'}
+- {flash: 'LED', info: '5 MP (macro)'}
+- {flash: 'LED', info: '2 MP (depth)'}
+- {flash: None, info: '16 MP'}
+codename: sweet
+cpu: Kryo 470
+cpu_cores: '8'
+cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
+current_branch: 20
+dimensions: {width: '76.5 mm (3.01 in)', height: '164 mm (6.46 in)', depth: '8.1 mm (0.32 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm6150_km41
+gpu: Qualcomm Adreno 618
+image: sweet.png
+install_method: fastboot_xiaomi
+kernel: android_kernel_xiaomi_sm6150
+maintainers: [basamaryan, danielml3]
+models: [M2101K6G, M2101K6R]
+name: Redmi Note 10 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG, Wi-Fi Display]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+ Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2021-03
+screen: {size: '169.418 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: 'AMOLED', refresh_rate: 120}
+sdcard: {sizeMax: '512 GB'}
+soc: Qualcomm SM7150-AC Snapdragon 732G
+storage: 64/128/256 GB
+tree: android_device_xiaomi_sweet
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
