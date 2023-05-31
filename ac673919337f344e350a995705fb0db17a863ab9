@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d52b9524_56efb086",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-05-31T16:23:02Z",
+      "side": 1,
+      "message": "yeah and it breaks every other one (the one you linked is possibly the only one yours \"fixes\")\ne.g. https://lineage.youd.dev/357734/2/devices/lisa/variant1/install doesn\u0027t work anymore",
+      "revId": "ac673919337f344e350a995705fb0db17a863ab9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
