@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d61f871_445bc15e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32727
+      },
+      "writtenOn": "2023-05-31T16:51:59Z",
+      "side": 1,
+      "message": "Thanks for pointing it out! I\u0027ve updated the fix implementation to avoid breaking existing links.",
+      "revId": "f0c98a46ebcb7f98731cd5ededf67d322efc67d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
