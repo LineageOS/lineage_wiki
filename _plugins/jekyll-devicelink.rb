@@ -6,7 +6,7 @@ module Jekyll
       elsif input['variant'] == nil
         ("devices/#{input['codename']}#{page}")
       else
-        ("devices/#{input['codename']}#{page}/variant#{input['variant']}")
+        ("devices/#{input['codename']}/variant#{input['variant']}#{page}")
       end
     end
   end
