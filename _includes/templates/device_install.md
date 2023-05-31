@@ -14,7 +14,7 @@ Do **not** continue after something fails!
 2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {%- if device.models %}
-4. Make sure that your model is actually listed in the "Supported models" section [here]({{ device | device_link: "#supported-models" | relative_url }}) (exact match required!)
+4. Make sure that your model is actually listed in the "Supported models" section [here]({{ device | device_link: "", "#supported-models" | relative_url }}) (exact match required!)
 {%- endif %}
 5. Boot your device with the stock OS at least once and check every functionality.
 {%- if device.type == "phone" %}
