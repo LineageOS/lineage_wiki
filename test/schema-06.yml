@@ -98,6 +98,7 @@ definitions:
     - ARM Mali-G72 MP12
     - ARM Mali-G72 MP18
     - ARM Mali-G72 MP3
+    - ARM Mali-G76 MC4
     - ARM Mali-G76 MP12
     - ARM Mali-G78 MP20
     - ARM Mali-G710 MC10
@@ -248,6 +249,7 @@ definitions:
     - Intel Atom Z3560
     - Intel Atom Z3580
     - Mediatek MT6768 Helio G85
+    - Mediatek MT6785 Helio G95
     - NVIDIA Tegra 4 (T114)
     - NVIDIA Tegra K1 (T124)
     - NVIDIA Tegra X1 (T210)
@@ -555,6 +557,7 @@ properties:
     - Cortex-A72
     - Cortex-A73 & Cortex-A53
     - Cortex-A75 & Cortex-A55
+    - Cortex-A76 & Cortex-A55
     - Cortex-A9
     - Cortex-X1 & Cortex-A76 & Cortex-A55
     - Cortex-X1 & Cortex-A78 & Cortex-A55
