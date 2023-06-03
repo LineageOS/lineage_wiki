@@ -57,6 +57,32 @@ function toggleBlur() {
 
 <div id="blurred" markdown="1">
 
+{%- if device.before_install.instructions == "needs_specific_android_fw" %}
+## Checking the correct firmware
+
+Installation on your device requires a specific firmware version to be installed before you continue.
+
+{%- if device.before_install.version %}
+- Firmware refers to a device-specific set of images that are included in, and updated by the stock OS
+- LineageOS builds for this device require a specific version of the stock OS to be installed prior to following the installation guide
+- Please ensure that you are checking the **Android** version, and not the vendor OS version
+{%- endif %}
+- Being on another custom ROM, including unofficial builds of the same version of LineageOS, does not ensure that this requirement has been fulfilled
+- Please re-read this section as many times as necessary to fully understand the requirements
+
+{%- capture content %}
+{%- if device.before_install.version %}
+If you are unsure what firmware version you are currently on, we strongly recommend returning to the corresponding stock OS before following the installation guide!
+{%- elsif device.before_install_device_variants %}
+If you are unsure what firmware version you are currently on, we strongly recommend following [this guide]({{ device | device_link: "/fw_update" | relative_url }}), just in case!
+{%- endif %}
+{%- endcapture %}
+{% include alerts/note.html content=content %}
+
+Failing to install the correct firmware version prior to installation may result in failure to install LineageOS, unexpected crashes post-installation,
+or permanent damage to your device!
+{%- endif %}
+
 {%- if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
