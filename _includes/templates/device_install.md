@@ -57,6 +57,18 @@ function toggleBlur() {
 
 <div id="blurred" markdown="1">
 
+{%- if device.before_install.instructions == "needs_specific_android_fw" and device.before_install.version %}
+## Checking the correct firmware
+
+The installation of your device requires specific firmware to be installed before you continue. Firmware is included in the stock ROM (the one your device ships with).
+Being on another custom ROM of that version does **not** mean the requirement is fulfilled.
+Please check the big red warning above again and make sure to only continue once you actually verified the version!
+
+{% include alerts/note.html content="If you are unsure what version you are currently on, we strongly recommend returning to the stock ROM, just in case!" %}
+
+Failing to meet the requirement may result in failure to install or devices not working properly after installation!
+{%- endif %}
+
 {%- if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
