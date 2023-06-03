@@ -57,6 +57,30 @@ function toggleBlur() {
 
 <div id="blurred" markdown="1">
 
+{%- if device.before_install.instructions == "needs_specific_android_fw" %}
+## Checking the correct firmware
+
+Installation on your device requires a specific firmware version to be installed before you continue.
+
+{%- if device.before_install.version %}
+- Firmware is included in the stock ROM (the one the device comes with out of the box), though not necessarily the version you have currently installed
+- The user-facing version number of the vendor's Android variant might not correspond to the Android version - please check the **Android** version in your stock ROM's settings
+{%- endif %}
+- Being on another custom ROM (including unofficial builds of LineageOS) of that version does **not** mean the requirement is fulfilled!
+- Please check the big red warning above again and make sure to only continue once you actually verified the version matches!
+
+{%- capture content %}
+{%- if device.before_install.version %}
+If you are unsure what version you are currently on, we strongly recommend returning to the corresponding stock ROM, just in case!
+{%- elsif device.before_install_device_variants %}
+If you are unsure what version you are currently on, we strongly recommend following the linked guide, just in case!
+{%- endif %}
+{%- endcapture %}
+{% include alerts/note.html content=content %}
+
+Failing to meet the requirement may result in failure to install or or permanent damage to the device!
+{%- endif %}
+
 {%- if device.install_method %}
 {% capture recovery_install_method %}templates/recovery_install_{{ device.install_method }}.md{% endcapture %}
 {% include {{ recovery_install_method }} %}
