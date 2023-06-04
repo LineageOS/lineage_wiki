@@ -30,7 +30,7 @@ ram: 8/12 GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2021-10
-screen: {size: '168.15 mm (6.62 in)', density: 397, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {size: '168.15 mm (6.62 in)', density: 397, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.1
 tree: android_device_oneplus_martini
