@@ -31,7 +31,7 @@ ram: 8/12GB GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2021-03
-screen: {size: '170.18 mm (6.7 in)', density: 525, resolution: '1440x3216', technology: 'Fluid 2.0 LTPO AMOLED'}
+screen: {size: '170.18 mm (6.7 in)', density: 525, resolution: '1440x3216', technology: 'Fluid 2.0 LTPO AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.1
 tree: android_device_oneplus_lemonadep

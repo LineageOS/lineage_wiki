@@ -25,7 +25,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2017-04
-screen: {size: '130.8 mm (5.15 in)', density: 428, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: '130.8 mm (5.15 in)', density: 428, resolution: '1920x1080', technology: 'IPS LCD', refresh_rate: 60}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_xiaomi_sagit

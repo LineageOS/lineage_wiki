@@ -28,7 +28,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2022-07
-screen: {size: '154.94 mm (6.1 in)', density: 429, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {size: '154.94 mm (6.1 in)', density: 429, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
 soc: Google Tensor GS101
 storage: 128 GB
 tree: android_device_google_bluejay

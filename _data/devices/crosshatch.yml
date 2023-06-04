@@ -26,7 +26,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2018-10
-screen: {size: '160 mm (6.3 in)', density: 523, resolution: '2960x1440', technology: 'AMOLED'}
+screen: {size: '160 mm (6.3 in)', density: 523, resolution: '2960x1440', technology: 'AMOLED', refresh_rate: 60}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128 GB
 tree: android_device_google_crosshatch
