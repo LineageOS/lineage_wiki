@@ -47,6 +47,54 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68d670ee_c7857201",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-04T19:45:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5206244e_d166210b",
+      "range": {
+        "startLine": 63,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 31
+      },
+      "revId": "609133d1053b5bf73395e30ab2339ac1278e4aba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56577c7c_44963a9a",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-04T19:45:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf08ef3b_41d78c57",
+      "range": {
+        "startLine": 63,
+        "startChar": 135,
+        "endLine": 63,
+        "endChar": 165
+      },
+      "revId": "609133d1053b5bf73395e30ab2339ac1278e4aba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "515229d9_1378871f",
@@ -60,6 +108,30 @@
       "writtenOn": "2023-06-03T20:15:11Z",
       "side": 1,
       "message": "version matches",
+      "range": {
+        "startLine": 65,
+        "startChar": 107,
+        "endLine": 65,
+        "endChar": 114
+      },
+      "revId": "609133d1053b5bf73395e30ab2339ac1278e4aba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5adbce56_0a0fc781",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-04T19:45:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "515229d9_1378871f",
       "range": {
         "startLine": 65,
         "startChar": 107,
@@ -93,6 +165,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "71ba2a44_5082146e",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-04T19:45:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1991eb6_7fb06b13",
+      "range": {
+        "startLine": 67,
+        "startChar": 125,
+        "endLine": 67,
+        "endChar": 128
+      },
+      "revId": "609133d1053b5bf73395e30ab2339ac1278e4aba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0395d795_d976e272",
@@ -106,6 +202,30 @@
       "writtenOn": "2023-06-03T20:15:11Z",
       "side": 1,
       "message": "or permanent damage to the device!\n\n(shit bricks regularly)",
+      "range": {
+        "startLine": 69,
+        "startChar": 68,
+        "endLine": 69,
+        "endChar": 116
+      },
+      "revId": "609133d1053b5bf73395e30ab2339ac1278e4aba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bfcca99_806ac5f1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-04T19:45:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0395d795_d976e272",
       "range": {
         "startLine": 69,
         "startChar": 68,
