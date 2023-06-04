@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about FP3
+title: Info about FP3 variants
 folder: info
-layout: deviceinfo
 permalink: /devices/FP3/
+redirect_from:
+- /devices/FP3/install
+- /devices/FP3/update
 device: FP3
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
