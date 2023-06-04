@@ -18,7 +18,6 @@ install_method: fastboot_fairphone
 is_ab_device: true
 kernel: android_kernel_fairphone_sdm632
 maintainers: [dk1978, teamb58]
-models: [FP3,FP3+]
 name: '3'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS, Galileo, GLONASS, Light sensor, RGB ambient light, Dual SIM]
@@ -32,6 +31,7 @@ soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB
 tree: android_device_fairphone_FP3
 type: phone
+variant: 1
 vendor: Fairphone
 vendor_short: fairphone
 versions: [16.0, 17.1, 18.1, 19.1, 20]
