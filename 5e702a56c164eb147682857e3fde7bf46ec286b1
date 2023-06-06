@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d568cd58_9e1ba777",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-06T21:00:57Z",
+      "side": 1,
+      "message": "- Firmware refers to a device-specific set of images that are included in, and updated by the stock OS\n- LineageOS builds for this device require a specific version of the stock OS to be installed prior to following the installation guide\n- Please ensure that you are checking the **Android** version, and not the vendor OS version\n- Being on another custom ROM, including unofficial builds of the same version of LineageOS does **not** ensure that this requirement has been fulfilled\n- Please re-read this section as many times as necessary to fully understand the requirements",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 125
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "018cb5e5_f2972b13",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-06T21:00:57Z",
+      "side": 1,
+      "message": "If you are unsure what firmware version you are currently on, we strongly recommend returning to the corresponding stock OS before following the installation guide!",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 116
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b73298e5_4cb15017",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-06T21:00:57Z",
+      "side": 1,
+      "message": "Failing to install the correct firmware version prior to installation may result in failure to install LineageOS, unexpected crashes post-installation, or permanent damage to your device!",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 102
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
