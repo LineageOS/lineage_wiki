@@ -1,29 +1,37 @@
 architecture: arm64
 battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw'}
+before_install_device_variants:
+- {device: 'Redmi Note 7 Pro (India)', firmware: 'V12.5.1.0.QFHINXM', download_link: 'https://bigota.d.miui.com/V12.5.1.0.QFHINXM/miui_VIOLETINGlobal_V12.5.1.0.QFHINXM_125bf9d2a7_10.0.zip'}
+- {device: 'Redmi Note 7 Pro (China)', firmware: 'V12.5.4.0.QFHCNXM', download_link: 'https://bigota.d.miui.com/V12.5.4.0.QFHCNXM/miui_VIOLET_V12.5.4.0.QFHCNXM_8706bb89a6_10.0.zip'}
 bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+- {flash: 'Dual LED', info: '48 MP'}
+- {flash: 'Dual LED', info: '5 MP (depth)'}
 - {flash: None, info: '13 MP'}
 codename: violet
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.7 GHz
-current_branch: 16.0
+current_branch: 20
 dimensions: {width: 75.184, height: 158.258, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm6150_km4
+format_on_upgrade: 20
 gpu: Qualcomm Adreno 612
 image: violet.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_violet
-maintainers: []
+is_retrofit_dynamic_partitions: true
+kernel: android_kernel_xiaomi_sm6150
+maintainers: [jashvakharia, raghavt20]
+models: [M1901F7S]
 name: Redmi Note 7 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS,  GPS, Gyroscope, IR blaster, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
-ram: 4 GB
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
+ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the "MI" logo appears on the screen, then release.
+ Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 release: 2019-03-13
 screen: {size: 6.3, resolution: '2340x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
@@ -31,9 +39,7 @@ soc: Qualcomm SM6150 Snapdragon 675
 storage: 64/128 GB
 tree: android_device_xiaomi_violet
 type: phone
-uses_twrp: true
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [16.0]
+versions: [16.0, 20]
 wifi: 802.11 a/b/g/n/ac
-custom_recovery_link: https://www.androidfilehost.com/?fid=6006931924117918329

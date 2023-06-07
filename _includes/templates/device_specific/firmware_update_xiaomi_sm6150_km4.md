@@ -17,7 +17,6 @@ fastboot flash imagefv imagefv.elf
 fastboot flash imagefvbak imagefv.elf
 fastboot flash keymaster km4.mbn
 fastboot flash keymasterbak km4.mbn
-fastboot flash logo logo.img
 fastboot flash modem NON-HLOS.bin
 fastboot flash qupfw qupv3fw.elf
 fastboot flash qupfwbak qupv3fw.elf
