@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "98a9f817_eab3ce5b",
+        "filename": "pages/glossary.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-06-07T19:58:54Z",
+      "side": 1,
+      "message": "This is not necessarily correct - at least TP1803, which has secure boot off, ships a custom abl image. In general most devices that ship firmware \"touch\" the bootloader by flashing the matching abl.img",
+      "range": {
+        "startLine": 36,
+        "startChar": 65,
+        "endLine": 36,
+        "endChar": 127
+      },
+      "revId": "78ac1101eb827f7a483bc42ad8264313770d21a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
