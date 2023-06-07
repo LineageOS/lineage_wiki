@@ -16,6 +16,24 @@
       "message": "You can push that commit on top of the davinci commit and use firmware_update_xiaomi_sm6150_km4.md - km4 isn\u0027t the davinci codename but indicates that it uses keymaster4. The images are the same except that you missed logo. We need to seperate km4 because sweet ships with km41.mbn while we have km4.mbn",
       "revId": "e282259c76d8153066709b41251fa98be7bf1040",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db547d30_0ad838e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28017
+      },
+      "writtenOn": "2023-06-07T22:08:25Z",
+      "side": 1,
+      "message": "I intentionally did not add logo.img as violet do not ship that in stock firmware.",
+      "parentUuid": "0f9fa791_381315a8",
+      "revId": "e282259c76d8153066709b41251fa98be7bf1040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
