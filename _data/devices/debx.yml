@@ -1,40 +1,38 @@
 architecture: arm
 battery: {removable: False, capacity: 3950, tech: 'Li-Ion'}
+before_lineage_install: flox
 bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: None, info: '5 MP'}
 - {flash: None, info: '1.2 MP'}
-carrier: AT&T, T-Mobile, Verizon Wireless
-codename: deb
+codename: debx
 cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
-current_branch: 14.1
-dimensions: None
+current_branch: 18.1
+dimensions: {width: '120 mm (4.7 in)', height: '198.5 mm (7.8 in)', depth: '10.5 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+format_on_upgrade: true
 gpu: Qualcomm Adreno 320
-gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
 image: flo.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_msm
-maintainers: []
-name: Nexus 7 (LTE, 2013 version)
+maintainers: [npjohnson, surblazer, Elektroschmock]
+name: Nexus 7 2013 (LTE, Repartitioned)
+needs_fastboot_boot: true
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-note_title: Migration to `debx`
-note_content: LineageOS 18.1 and above for this device require repartitioning the internal eMMC due to the largely outdated and small partition sizes. Due to this, in-place upgrades from users on `flo` builds will not work, so we chose to rebrand the repartitioned device to `debx`. If you wish to proceed with installation, please visit `debx`'s [Wiki page](https://wiki.lineageos.org/devices/debx/).
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
-release: 2013-09-09
-screen: {size: '178 mm (7.0 in)', density: 323, resolution: '1920x1200', technology: 'IPS LCD'}
+release: 2013-07-26
+screen: {size: '178 mm (7 in)', density: 323, resolution: '1920x1200', technology: 'IPS LCD'}
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 32 GB
-tree: android_device_asus_deb
-type: phone
-uses_twrp: true
+tree: android_device_asus_debx
+type: tablet
 vendor: Google
 vendor_short: asus
-versions: [14.1]
-wifi: Dual-band (2.4/5 GHz) 802.11 a/b/g/n
+versions: [18.1]
+wifi: 802.11 a/b/g/n @ 2.4 GHz & 5 GHz
