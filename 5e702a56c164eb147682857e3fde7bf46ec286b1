@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c3ee657_115df423",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-08T23:26:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d568cd58_9e1ba777",
+      "range": {
+        "startLine": 66,
+        "startChar": 0,
+        "endLine": 70,
+        "endChar": 125
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "018cb5e5_f2972b13",
@@ -47,6 +71,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "76b2831c_273c6268",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-08T23:26:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "018cb5e5_f2972b13",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 76,
+        "endChar": 116
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b73298e5_4cb15017",
@@ -60,6 +108,30 @@
       "writtenOn": "2023-06-06T21:00:57Z",
       "side": 1,
       "message": "Failing to install the correct firmware version prior to installation may result in failure to install LineageOS, unexpected crashes post-installation, or permanent damage to your device!",
+      "range": {
+        "startLine": 81,
+        "startChar": 0,
+        "endLine": 81,
+        "endChar": 102
+      },
+      "revId": "5e702a56c164eb147682857e3fde7bf46ec286b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eed93e9b_b7ce59ae",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-08T23:26:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b73298e5_4cb15017",
       "range": {
         "startLine": 81,
         "startChar": 0,
