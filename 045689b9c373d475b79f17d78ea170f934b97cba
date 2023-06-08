@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5a385283_11a6a93f",
+        "filename": "pages/glossary.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-06-08T10:15:50Z",
+      "side": 1,
+      "message": "Adding Soft brick and hard brick would be great.",
+      "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
