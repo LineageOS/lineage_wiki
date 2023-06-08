@@ -4,21 +4,19 @@ bluetooth: {spec: 4.0 + LE}
 cameras:
 - {flash: None, info: '5 MP'}
 - {flash: None, info: '1.2 MP'}
-carrier: AT&T, T-Mobile, Verizon Wireless
 codename: deb
 cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-dimensions: None
+dimensions: {width: '120 mm (4.7 in)', height: '198.5 mm (7.8 in)', depth: '10.5 mm (0.41 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: Qualcomm Adreno 320
-gsm: 850 900 1800 1900 2100 AWS (1700/2100) MHz UMTS/HSPA+
 image: flo.png
 install_method: fastboot_nexus
 kernel: android_kernel_google_msm
 maintainers: []
-name: Nexus 7 (LTE, 2013 version)
+name: Nexus 7 2013 (LTE)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 note_title: Migration to `debx`
@@ -27,14 +25,13 @@ peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
-release: 2013-09-09
-screen: {size: '178 mm (7.0 in)', density: 323, resolution: '1920x1200', technology: 'IPS LCD'}
+release: 2013-07-26
+screen: {size: '178 mm (7 in)', density: 323, resolution: '1920x1200', technology: 'IPS LCD'}
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 32 GB
 tree: android_device_asus_deb
-type: phone
-uses_twrp: true
+type: tablet
 vendor: Google
 vendor_short: asus
 versions: [14.1]
-wifi: Dual-band (2.4/5 GHz) 802.11 a/b/g/n
+wifi: 802.11 a/b/g/n @ 2.4 GHz & 5 GHz
