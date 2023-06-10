@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3200, tech: 'Li-Po'}
+before_install:  {instructions: 'fxtec'}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '12 MP'}
