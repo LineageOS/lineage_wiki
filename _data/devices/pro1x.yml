@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3200, tech: 'Li-Po'}
+before_install:  {instructions: 'fxtec'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
 bluetooth: {spec: '5.1', profiles: [A2DP]}
 cameras:
