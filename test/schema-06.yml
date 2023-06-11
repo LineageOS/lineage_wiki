@@ -239,6 +239,7 @@ definitions:
     enum:
     - Amlogic S905x2
     - Amlogic S905y2
+    - Amlogic S905y3
     - Google Tensor GS101
     - Google Tensor GS201
     - HiSilicon Kirin 659
@@ -672,6 +673,7 @@ properties:
     "$id": "/properties/install_method"
     enum:
     - apx
+    - amlogic_update
     - dd
     - edl_custom
     - fastboot_custom
@@ -822,12 +824,14 @@ properties:
     - ARK
     - Askey
     - ASUS
+    - Banana Pi
     - BQ
     - Dynalink
     - Essential
     - Fairphone
     - F(x)tec
     - Google
+    - HardKernel
     - HTC
     - Huawei
     - LG
@@ -840,6 +844,7 @@ properties:
     - NVIDIA
     - OPPO
     - OnePlus
+    - Radxa
     - Razer
     - Realme
     - Samsung
@@ -857,6 +862,7 @@ properties:
     "$id": "/properties/vendor_short"
     enum:
     - 10or
+    - amlogic
     - ark
     - askey
     - asus
