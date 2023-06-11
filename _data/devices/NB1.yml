@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 3090, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, version: '9'}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '13 MP'}
+- {flash: 'Dual LED (dual tone)', info: '13 MP'}
+- {flash: None, info: '13 MP'}
+codename: NB1
+cpu: Kryo 280
+cpu_cores: '8'
+cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
+current_branch: 21
+dimensions: {width: 73.7, height: 151.5, depth: 7.6}
+download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd>.
+gpu: Qualcomm Adreno 540
+image: NB1.png
+install_method: fastboot_nokia
+is_ab_device: true
+is_unlockable: false
+kernel: {repo: android_kernel_nokia_msm8998, version: '4.4'}
+maintainers: [Tuan Anh]
+models: [TA-1004, TA-1012, TA-1052]
+name: '8 (2017)'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Light sensor, USB OTG, FM radio]
+ram: 4/6 GB LPDDR4X
+recovery_boot: With the device powered off and plugged into a USB port, hold <kbd>Volume Up</kbd>. The "Powered by Android" logo will appear on the screen, keep holding it until you reach recovery mode.
+recovery_partition_name: boot
+release: 2017-08-16
+screen: {size: 5.3, resolution: '1440x2560', technology: 'IPS LCD'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
+soc: Qualcomm MSM8998 Snapdragon 835
+storage: 64/128 GB (UFS 2.1 2-LANE)
+tree: android_device_nokia_NB1
+type: phone
+vendor: Nokia
+vendor_short: nokia
+versions: [21]
+wifi: 802.11 a/b/g/n/ac
