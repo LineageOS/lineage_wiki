@@ -1,0 +1,35 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+bluetooth: {spec: '4.2'}
+cameras: []
+codename: radxa0
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 19.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {width: '65 mm (2.55 in)', height: '30 mm (1.18 in)', depth: '5 mm (0.20 in)'}
+download_boot: Hold the `USB_BOOT` button on the board while plugging the board in.
+gpu: ARM Mali-G31 MP2
+image: radxa0.png
+install_method: amlogic_update
+kernel: android_kernel_amlogic_linux-4.9
+maintainers: [npjohnson, stricted]
+name: Zero
+peripherals: None
+ram: 2/4 GB
+recovery_boot: Run `adb reboot recovery`.
+release: 2020-12-01
+screen: None
+screen_ppi:
+screen_res:
+screen_tech:
+sdcard: {sizeMax: '2 TB'}
+soc: Amlogic S905y2
+storage: 8/16/32/64/128 GB
+tree: android_device_radxa_radxa0
+type: Devkit
+vendor: Radxa
+vendor_short: radxa
+versions: [19.1]
+wifi: 802.11 a/b/g/n/ac
