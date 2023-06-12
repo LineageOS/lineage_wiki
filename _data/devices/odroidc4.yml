@@ -15,7 +15,7 @@ image: odroidc4.png
 install_method: amlogic_update
 kernel: android_kernel_amlogic_linux-4.9
 maintainers: [stricted]
-name: C4
+name: ODROID-C4
 peripherals: None
 ram: 4 GB
 recovery_boot: Run `adb reboot recovery`.
