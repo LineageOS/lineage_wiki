@@ -39,6 +39,30 @@
       },
       "revId": "03057baf3230293c66cd6ca53cd68e7aef05ea50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05a4a5b9_4d5f63d1",
+        "filename": "_data/devices/odroidc4.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-12T21:33:20Z",
+      "side": 1,
+      "message": "Done - *whistles*",
+      "parentUuid": "302c0471_ea8b49c1",
+      "range": {
+        "startLine": 30,
+        "startChar": 6,
+        "endLine": 30,
+        "endChar": 32
+      },
+      "revId": "03057baf3230293c66cd6ca53cd68e7aef05ea50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
