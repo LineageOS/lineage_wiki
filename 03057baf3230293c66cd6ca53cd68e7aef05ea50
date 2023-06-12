@@ -16,6 +16,29 @@
       "message": "bot broken - \"Failed - Success\"",
       "revId": "03057baf3230293c66cd6ca53cd68e7aef05ea50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "302c0471_ea8b49c1",
+        "filename": "_data/devices/odroidc4.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 17401
+      },
+      "writtenOn": "2023-06-12T21:23:00Z",
+      "side": 1,
+      "message": "probably should change this aswell",
+      "range": {
+        "startLine": 30,
+        "startChar": 6,
+        "endLine": 30,
+        "endChar": 32
+      },
+      "revId": "03057baf3230293c66cd6ca53cd68e7aef05ea50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
