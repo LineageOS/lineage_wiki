@@ -9,7 +9,7 @@ cpu_freq: 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {width: '65 mm (2.55 in)', height: '30 mm (1.18 in)', depth: '5 mm (0.20 in)'}
-download_boot: Hold the `USB_BOOT` button on the board while plugging the board in.
+download_boot: Press and hold the `USB BOOT` button on the board, and plug into your host machine.
 gpu: ARM Mali-G31 MP2
 image: radxa0.png
 install_method: amlogic_update
