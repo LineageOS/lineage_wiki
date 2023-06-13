@@ -17,7 +17,7 @@ This generation of Amlogic devices come with a unique boot mode called "Burn Mod
 ```
 git clone https://github.com/radxa/aml-flash-tool.git && cd aml-flash-tool && ./INSTALL
 ```
-    {% include alerts/note.html content="Please note this will require your user's sudo password, as the script requires direct hardware access, which requires root privledges." %}
+    {% include alerts/note.html content="Please note this will require your user's sudo password, as the script requires direct hardware access, which requires root privileges." %}
 4. Flash the downloaded image file to your device by running (replace `<aml_upgrade_image.img>` with the actual filename!):
 ```
 sudo ./aml-flash-tool.sh <aml_upgrade_image.img>
