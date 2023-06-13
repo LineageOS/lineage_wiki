@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0c7b7042_7bc09186",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-06-13T05:08:50Z",
+      "side": 1,
+      "message": "this is really ugly. i think it\u0027s a bug in the jekyll-redirect-from gem.  i\u0027ll try to find an alternative solution.",
+      "revId": "41d70e732fe2c2ee6761980615bda7cbfbbd4a96",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
