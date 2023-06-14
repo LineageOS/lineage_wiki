@@ -22,7 +22,7 @@ layout: default
   {%- endfor %}
 
   {%- if link != None %}
-  <a href={{ link }} class="back-link"><span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
+  <a href={{ link | append: "/" }} class="back-link"><span class="material-icons">keyboard_arrow_left</span> Back to the overview</a>
   {%- endif %}
 
   {%- if page.title contains "variant" %}
