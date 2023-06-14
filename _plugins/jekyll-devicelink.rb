@@ -2,7 +2,7 @@ module Jekyll
   module DeviceLinkFilter
     def device_link(input, page="")
       if input == nil
-        ("devices")
+        ("devices/")
       elsif input['variant'] == nil
         ("devices/#{input['codename']}#{page}")
       else
@@ -13,3 +13,4 @@ module Jekyll
 end
 
 Liquid::Template.register_filter(Jekyll::DeviceLinkFilter)
+
