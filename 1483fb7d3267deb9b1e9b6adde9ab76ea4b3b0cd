@@ -16,6 +16,24 @@
       "message": "without fix: https://lineage.youd.dev/358930/1/devices/kane/\nwith fix: https://lineage.youd.dev/359011/1/devices/kane/",
       "revId": "1483fb7d3267deb9b1e9b6adde9ab76ea4b3b0cd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5267e7ae_160313ea",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-06-14T04:56:31Z",
+      "side": 1,
+      "message": "whoops, put wrong link for without fix: https://wiki.lineageos.org/devices/kane/",
+      "parentUuid": "f025b26f_40ce4722",
+      "revId": "1483fb7d3267deb9b1e9b6adde9ab76ea4b3b0cd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
