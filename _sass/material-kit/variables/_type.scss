@@ -53,7 +53,7 @@ $display4-size: 2.125rem !default; // md display-1 34px was 3.5rem
 //
 //$line-height-base:                1.5 !default;
 //
-$headings-margin-bottom:     ($spacer / 2) !default;
+$headings-margin-bottom:     ($spacer * 0.5) !default;
 //$headings-font-family:       inherit !default;
 $headings-font-weight:         400 !default; // was 500
 

@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
+@use "sass:math";
+
 @function calc-top($line-height-base, $font-size, $component-height) {
-  @return (($line-height-base * $font-size) - $component-height) / 2; // vertical center of line-height
+  @return (($line-height-base * $font-size) - $component-height) * 0.5; // vertical center of line-height
 }
 
 // Emulate the less #contrast function
@@ -27,7 +29,7 @@
 
 @function brightness($color) {
   @if type-of($color) == color {
-    @return (red($color) * 0.299 + green($color) * 0.587 + blue($color) * 0.114) / 255 * 100%;
+    @return math.div(red($color) * 0.299 + green($color) * 0.587 + blue($color) * 0.114, 255) * 100%;
   } @else {
     @return unquote("brightness(#{$color})");
   }
