@@ -23,14 +23,14 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     * From the desktop, right-click My Computer and select Properties
     * In the System Properties window, click on the Advanced tab
     * In the Advanced section, click the Environment Variables button
-    * In the Environment Variables window, highlight the Path variable in the Systems Variable section and click the Edit button
+    * In the Environment Variables window, highlight the `Path` variable in the Systems Variable section and click the Edit button
     * Append `;%USERPROFILE%\adb-fastboot\platform-tools` to the end of the existing Path definition (the semi-colon separates each path entry)
 4. On Windows 10:
     * Open the Start menu, and type "advanced system settings"
     * Select "View advanced system settings"
     * Click on the Advanced tab
     * Open the "Environment Variables" window
-    * Select the Path variable under "System Variables" and click the "Edit" button
+    * Select the `Path` variable under "System Variables" and click the "Edit" button
     * Click the "New" button
     * Insert `%USERPROFILE%\adb-fastboot\platform-tools` in the text field
 5. Download the [USB drivers](https://developer.android.com/studio/run/win-usb) and follow the instructions there.
