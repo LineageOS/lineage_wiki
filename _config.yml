@@ -60,7 +60,7 @@ defaults:
 
 sass:
   style: :compressed # You might prefer to minify using :compressed
-  sourcemap: true
+  sourcemap: always
 
 description: "The LineageOS Wiki"
 # the description is used in the feed.xml file
