@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 4500, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13'}
+before_recovery_install: samsung_qcom
+bluetooth: {spec: '5.0', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '64 MP'}
+- {flash: 'LED', info: '12 MP (ultrawide)'}
+- {flash: None, info: '5 MP (macro)'}
+- {flash: None, info: '5 MP (depth)'}
+codename: a52sxq
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
+current_branch: 20
+dimensions: {width: '75.1 mm (2.96 in)', height: '159.9 mm (6.3 in)', depth: '8.4 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_sm7325
+gpu: Qualcomm Adreno 642L
+image: a52sxq.png
+install_method: odin
+kernel: android_kernel_samsung_sm7325
+maintainers: [Simon1511]
+models: [SM-A528B, SM-A528N, SM-A528B/DS]
+name: Galaxy A52s 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+release: 2021
+screen: {size: '165.1 mm (6.5 in)', density: 407, resolution: '1080x2800', technology: 'Super AMOLED'}
+sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
+soc: Qualcomm SM7325 Snapdragon 778G
+storage: 128/256 GB
+tree: android_device_samsung_a52sxq
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [20]
+wifi: 802.11 a/b/g/n/ac/ax, Dual-band, Wi-Fi Direct, Hotspot
