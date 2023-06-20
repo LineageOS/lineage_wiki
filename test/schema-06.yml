@@ -311,6 +311,7 @@ definitions:
     - Qualcomm SM4350 Snapdragon 480
     - Qualcomm SM6115 Snapdragon 662
     - Qualcomm SM6150 Snapdragon 675
+    - Qualcomm SM6225 Snapdragon 680 4G
     - Qualcomm SM7125 Snapdragon 720G
     - Qualcomm SM7150-AA Snapdragon 730
     - Qualcomm SM7150-AB Snapdragon 730G
@@ -577,6 +578,7 @@ properties:
     - Kryo 240
     - Kryo 250
     - Kryo 260
+    - Kryo 265
     - Kryo 280
     - Kryo 360
     - Kryo 385
