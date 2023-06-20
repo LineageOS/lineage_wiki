@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {spec: '5.2', profiles: [A2DP]}
+cameras:
+- {flash: 'LED', info: '50 MP (Primary)'}
+- {flash: None, info: '8 MP (ultrawide)'}
+- {flash: None, info: '2 MP (depth)'}
+- {flash: None, info: '16 MP (Front Facing)'}
+codename: devon
+cpu: Kryo 265
+cpu_cores: '8'
+cpu_freq: 4 x 2.4 GHz & 4 x 1.9 GHz
+current_branch: 20
+dimensions: {width: '73.8 mm (2.91 in)', height: '161.8 mm (6.37 in)', depth: '8.5 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 610
+image: devon.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: android_kernel_motorola_sm6225
+maintainers: [Dhina17, mikeioannina]
+models: [XT2235-2]
+name: moto g32
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+ram: 4/6/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_reboot: fastboot_menu
+release: 2022-08
+screen: {size: '102.0 mm (6.5 in)', density: 405, resolution: '1080x2400', technology: 'IPS LCD'}
+sdcard: {sizeMax: '1 TB'}
+soc: Qualcomm SM6225 Snapdragon 680 4G
+storage: 64/128 GB UFS 2.2
+tree: android_device_motorola_devon
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, Dual band, Wi-Fi Direct, Hotspot

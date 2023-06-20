@@ -1,0 +1,41 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery:
+- A0001: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+- SM-6900F: {removable: True, capacity: 3000, tech: 'Li-Po'}
+bluetooth: {spec: 4.0 + LE}
+cameras:
+- {flash: 'LED', info: '16 MP'}
+- {flash: None, info: '2 MP'}
+codename: hawao
+cpu: Krait 400
+cpu_cores: '4'
+cpu_freq: 2.5 GHz
+current_branch: 16.0
+dimensions: {width: '69.2 mm (2.72 in)', height: '144.6 mm (5.69 in)', depth: '7.3 mm (0.29 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 330
+image: hawao.png
+install_method: heimdall
+kernel: android_kernel_lge_msm8974
+maintainers: [you, another person, a third person]
+models: [A0001, SM-G900F]
+name: Galaxy Note Sample
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
+  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
+  RGB ambient light, Infrared sensor, GPS, NFC]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+  When the blue text appears, release the buttons.
+release: 2014-04-11
+required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']
+screen: {size: '130 mm (5.1 in)', density: 432, resolution: '1920x1080', technology: 'Super AMOLED'}
+sdcard: {sizeMax: '128 GB'}
+soc: Qualcomm MSM8974AC Snapdragon 801
+storage: 16/32 GB
+tree: android_device_lge_hawao
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [13.0, 14.1, 15.1, 16.0]
+wifi: 802.11 a/b/g/n/ac
