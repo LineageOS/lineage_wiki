@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4ce41cd_a93bfbe1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-06-20T20:52:00Z",
+      "side": 1,
+      "message": "image needs prepare_image.sh script: https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "604d960d19199b08b27686dc1f5004b75b8e8c28",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
