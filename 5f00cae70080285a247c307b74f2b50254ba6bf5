@@ -22,6 +22,30 @@
       },
       "revId": "5f00cae70080285a247c307b74f2b50254ba6bf5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "00882c78_187cdae0",
+        "filename": "_data/devices/tangorpro.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-24T17:48:17Z",
+      "side": 1,
+      "message": "So, fun, specs sites all fail on this one, as they claim it does, but dock is POGO pins, not wireless, so, fun. Ran a QI pad over the back to check, it doesn\u0027t have it.",
+      "parentUuid": "18997424_b62b4799",
+      "range": {
+        "startLine": 24,
+        "startChar": 137,
+        "endLine": 24,
+        "endChar": 157
+      },
+      "revId": "5f00cae70080285a247c307b74f2b50254ba6bf5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

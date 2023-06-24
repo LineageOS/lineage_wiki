@@ -22,6 +22,30 @@
       },
       "revId": "68342aaadfa54979ec050354604724a2a461c4ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1bb6de79_ed357d4a",
+        "filename": "_data/devices/tangorpro.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-06-24T17:48:17Z",
+      "side": 1,
+      "message": "There\u0027s a reason I hadn\u0027t added people yet ;p\n\nCopied from panther, fixed now.",
+      "parentUuid": "e7e485e1_35396b5e",
+      "range": {
+        "startLine": 29,
+        "startChar": 0,
+        "endLine": 29,
+        "endChar": 117
+      },
+      "revId": "68342aaadfa54979ec050354604724a2a461c4ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
