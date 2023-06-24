@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a0da72_ba62e2be",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-06-24T07:40:23Z",
+      "side": 1,
+      "message": "someone didn\u0027t read the section about the picture... cropped etc",
+      "revId": "0ddcd3ec6096d199f6ba4af29d03c1dfe29844b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
