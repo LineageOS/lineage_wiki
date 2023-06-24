@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8827cdd6_dc85557a",
+        "filename": "_data/devices/tangorpro.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-06-24T06:26:07Z",
+      "side": 1,
+      "message": "neelc also wanted to be here",
+      "revId": "d267de65dfbf2724ae24af2823f41edcd372d5dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
