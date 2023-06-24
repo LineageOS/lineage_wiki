@@ -16,6 +16,24 @@
       "message": "same width and height pic is specifically mentioned in the section about the pictures",
       "revId": "d129a0945bb5bafcab0ae90bba483e240aec31f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d55830d8_c352c70c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2023-06-24T09:30:09Z",
+      "side": 1,
+      "message": "Fixed",
+      "parentUuid": "63c54ceb_52450b6a",
+      "revId": "d129a0945bb5bafcab0ae90bba483e240aec31f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
