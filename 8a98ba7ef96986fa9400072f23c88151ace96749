@@ -16,6 +16,24 @@
       "message": "GMS Google Mobile Services",
       "revId": "8a98ba7ef96986fa9400072f23c88151ace96749",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48a19fbc_b24c7639",
+        "filename": "pages/glossary.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2023-06-24T15:25:14Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "3758f9f9_df2bb97e",
+      "revId": "8a98ba7ef96986fa9400072f23c88151ace96749",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
