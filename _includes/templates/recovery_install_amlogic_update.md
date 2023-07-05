@@ -26,3 +26,18 @@ sudo ./aml-flash-tool.sh <aml_upgrade_package.img>
 ```
     {% include alerts/note.html content="These flash packages were built by LineageOS Developer Stricted from officially supported LineageOS repositories, by using `lunch` to select the device, then run `m aml_upgrade`." %}
 5. The script will flash the firmware and boot directly into an outdated but functional version of LineageOS. Please proceed with the installation instructions to complete the installation process.
+
+6. Put the device into Bootloader mode:
+```
+sudo ./tools/linux-x86/update bulkcmd "fastboot"
+```
+
+8. Unlock the device's bootloader:
+```
+fastboot fashing unlock
+```
+
+9. Reboot the device to the OS:
+```
+fastboot reboot
+```
