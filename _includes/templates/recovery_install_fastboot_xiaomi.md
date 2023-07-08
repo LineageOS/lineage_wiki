@@ -4,7 +4,6 @@
 
 {% include alerts/note.html content="The steps below only need to be run once per device. They **require** a machine running Windows 7 or newer." %}
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device! Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
-{% include alerts/tip.html content="It is highly recommended to have the latest official MIUI stable package installed on the device, before proceeding with unlock." %}
 
 1. Create a Mi account on [Xiaomi's website](https://global.account.xiaomi.com/pass/register). Beware that one account is only allowed to unlock one unique device every 30 days.
 2. Add a phone number to your Mi account.
@@ -24,8 +23,4 @@
 {% include templates/recovery_install_fastboot_ab.md %}
 {% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
-{% endif %}
-
-{% if device.no_oem_unlock_switch %}
-{% include alerts/tip.html content="It is highly recommended to have the latest official MIUI stable package installed on the device, before installing a custom recovery." %}
 {% endif %}
