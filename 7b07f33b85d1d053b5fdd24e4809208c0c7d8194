@@ -22,6 +22,30 @@
       },
       "revId": "7b07f33b85d1d053b5fdd24e4809208c0c7d8194",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c8dfaed_0299dd53",
+        "filename": "_includes/templates/recovery_install_amlogic_update.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-09T22:21:07Z",
+      "side": 1,
+      "message": "sure.",
+      "parentUuid": "f62ddf5f_02673883",
+      "range": {
+        "startLine": 26,
+        "startChar": 76,
+        "endLine": 26,
+        "endChar": 121
+      },
+      "revId": "7b07f33b85d1d053b5fdd24e4809208c0c7d8194",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
