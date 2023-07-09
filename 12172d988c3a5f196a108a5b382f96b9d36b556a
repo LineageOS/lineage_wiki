@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eadf2ae_1eae82eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2023-07-09T01:52:35Z",
+      "side": 1,
+      "message": "Update:\n1.Use the latest hd pictures\n2.The original size is 455*550 px, scaled to 414*500 px.",
+      "revId": "12172d988c3a5f196a108a5b382f96b9d36b556a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
