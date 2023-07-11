@@ -4,22 +4,22 @@ bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: None, info: '8 MP'}
 - {flash: None, info: '2 MP'}
-codename: dragon
+codename: sphynx
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 4 x 1.9 GHz
-current_branch: 15.1
+current_branch: 20
 dimensions: {width: '179.0 mm (7.05 in)', height: '242.0 mm (9.53 in)', depth: '7.0 mm (0.28 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: NVIDIA Maxwell 256-core
 image: dragon.png
 install_method: fastboot_nexus
-kernel: android_kernel_google_dragon
-maintainers: []
-name: Pixel C
+kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+maintainers: [npjohnson, electmon, webgeek1234]
+name: Pixel C (Linux 4.9)
 network: None
-note_title: Migration to `sphynx`
-note_content: LineageOS 20 and above for this device require utilizing NVidia's Linux 4.9 kernel, and an entirely different firmware/proprietary-files set. Due to this, in-place upgrades from users on `dragon` builds will not work, so we chose to rebrand the repartitioned device to `sphynx`. If you wish to proceed with installation, please visit `sphynx`'s [Wiki page](https://wiki.oddsolutions.us/devices/sphynx/).
+note_title: LineageOS 20 Beta Builds
+note_content: "LineageOS 20 for this device lacks support for the following components currently: Camera, Sensors, SELinux Enforcing"
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
@@ -28,9 +28,9 @@ release: 2015-12-08
 screen: {size: 10.2, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
 soc: NVIDIA Tegra X1 (T210)
 storage: 32/64 GB
-tree: android_device_google_dragon
+tree: android_device_google_sphynx
 type: tablet
 vendor: Google
 vendor_short: google
-versions: [14.1, 15.1]
+versions: [20]
 wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
