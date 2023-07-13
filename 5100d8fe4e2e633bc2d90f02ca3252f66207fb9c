@@ -45,6 +45,30 @@
       },
       "revId": "5100d8fe4e2e633bc2d90f02ca3252f66207fb9c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "119705c1_db112973",
+        "filename": "_data/devices/salami.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-07-13T22:28:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "feca278e_120ffdcb",
+      "range": {
+        "startLine": 19,
+        "startChar": 7,
+        "endLine": 19,
+        "endChar": 20
+      },
+      "revId": "5100d8fe4e2e633bc2d90f02ca3252f66207fb9c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
