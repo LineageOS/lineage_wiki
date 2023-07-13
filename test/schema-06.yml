@@ -161,6 +161,8 @@ definitions:
     - Qualcomm Adreno 680
     - Qualcomm Adreno 685
     - Qualcomm Adreno 690
+    - Qualcomm Adreno 730
+    - Qualcomm Adreno 740
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -328,6 +330,9 @@ definitions:
     - Qualcomm SM8250-AB Snapdragon 865+
     - Qualcomm SM8250-AC Snapdragon 870
     - Qualcomm SM8350 Snapdragon 888
+    - Qualcomm SM8450 Snapdragon 8 Gen1
+    - Qualcomm SM8475 Snapdragon 8+ Gen1
+    - Qualcomm SM8550 Snapdragon 8 Gen2
     - Samsung Exynos 4210
     - Samsung Exynos 4412
     - Samsung Exynos 5250
