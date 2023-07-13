@@ -2,7 +2,7 @@ architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
 bluetooth: {spec: '4.2'}
 cameras: []
-codename: radxa0
+codename: radxa0_tab
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
@@ -15,12 +15,11 @@ image: radxa0.png
 install_method: amlogic_update
 kernel: android_kernel_amlogic_linux-4.9
 maintainers: [bgcngm, npjohnson, stricted]
-name: Zero (Android TV)
+name: Zero (Tablet)
 network: None
 peripherals: None
 ram: 2/4 GB
 recovery_boot: Run `adb reboot recovery`.
-recovery_partition_name: recovery
 release: 2020-12-01
 screen: None
 sdcard: {sizeMax: '2 TB'}
