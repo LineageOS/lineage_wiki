@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+bluetooth: {spec: '5.3', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '50 MP (wide)'}
+- {flash: 'Dual LED (dual tone)', info: '32 MP (telephoto)'}
+- {flash: 'Dual LED (dual tone)', info: '48 MP (ultrawide)'}
+- {flash: None, info: '16 MP'}
+codename: salami
+cpu: Kryo 680
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 4 x 2.8 GHz + 3 x 2.0
+current_branch: 20
+dimensions: {width: '74.1 mm (2.92 in)', height: '163.1 mm (6.42 in)', depth: '8.5 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oplus_sm8550
+gpu: Qualcomm Adreno 740
+image: salami.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: android_kernel_oneplus_sm8550
+maintainers: [bgcngm]
+models: [CPH2447, CPH2449, CPH2451, PHB110]
+name: '11'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+ram: 8/12GB GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_reboot: fastboot_menu
+release: 2023-01
+screen: {size: '170.18 mm (6.7 in)', density: 525, resolution: '1440x3216', technology: 'Fluid 3.0 LTPO AMOLED', refresh_rate: 120}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 128 GB UFS3.1 / 256/512 GB UFS4.0
+tree: android_device_oneplus_salami
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [20]
+wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
