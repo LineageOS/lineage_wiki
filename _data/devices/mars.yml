@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+cameras:
+- {flash: 'LED', info: '50 MP (main)'}
+- {flash: 'LED', info: '8 MP (periscope telephoto)'}
+- {flash: 'LED', info: '13 MP (ultrawide)'}
+- {flash: None, info: '20 MP (front)'}
+codename: mars
+cpu: Kryo 680
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 20
+dimensions: {width: '74.6 mm (2.94 in)', height: '164.3 mm (6.46 in)', depth: '8.5 mm (0.33 in)'}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 660
+image: mars.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: android_kernel_xiaomi_sm8350
+maintainers: [Flower Sea]
+models: [M2102K1AC]
+name: Mi 11 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Color spectrum sensor, Dual SIM, Dual-frequency GNSS, Dual speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, IR blaster, Hall effect sensor, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG, Wi-Fi Display]
+ram: 8/12GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+release: 2021-03
+screen: {size: '172.97 mm (6.81 in)', density: 515, resolution: '1440x3200', technology: 'Super AMOLED', refresh_rate: 120}
+soc: Qualcomm SM8350 Snapdragon 888
+storage: 128/256 GB
+tree: android_device_xiaomi_mars
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [20]
+wifi: 802.11 a/b/g/n/ac/6e, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
