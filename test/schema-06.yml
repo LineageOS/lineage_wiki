@@ -637,6 +637,7 @@ properties:
       - enum:
         - fbe
         - fde
+        - repartition
   gpu:
     "$id": "/properties/gpu"
     oneOf:
