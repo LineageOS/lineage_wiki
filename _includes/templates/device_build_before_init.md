@@ -153,6 +153,10 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
+Due to their size, some repos are configured for [`lfs` or `Large File Storage`](https://git-lfs.com/). To make sure your distribution is prepared for this, run:
+```
+git lfs install
+```
 
 ### Turn on caching to speed up build
 
