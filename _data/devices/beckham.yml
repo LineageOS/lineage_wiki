@@ -24,7 +24,7 @@ models: [XT1929-2, XT1929-3, XT1929-4, XT1929-5, XT1929-6]
 name: moto z3 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Light sensor, GPS, Moto Mods]
-ram: 4 GB, 6 GB
+ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-06
