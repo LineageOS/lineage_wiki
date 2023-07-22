@@ -24,7 +24,7 @@ name: moto g7 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
-ram: 4 GB
+ram: 4 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2019-02

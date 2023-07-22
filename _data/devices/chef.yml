@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '16 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP'}
@@ -23,7 +23,7 @@ models: [XT1942-1, XT1942-2]
 name: one power
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio]
-ram: 4 GB, 6 GB
+ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-10-10

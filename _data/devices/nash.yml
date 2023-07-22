@@ -2,7 +2,7 @@ architecture: arm64
 battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
 before_install: {instructions: 'nash'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
@@ -24,7 +24,7 @@ models: [XT1789-02, XT1789-03, XT1789-04, XT1789-05, XT1789-06, XT1789-07]
 name: moto z2 force
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
-ram: 4 GB, 6 GB
+ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-07
 screen: {size: '83.4 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'P-OLED'}

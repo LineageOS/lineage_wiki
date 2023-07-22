@@ -2,7 +2,7 @@ architecture: arm64
 battery: {removable: False, capacity: 3200 , tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '9'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'Dual LED (dual tone)', info: '12 MP'}
 - {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
@@ -25,7 +25,7 @@ name: moto g6 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
-ram: 4/6 GB
+ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-05
