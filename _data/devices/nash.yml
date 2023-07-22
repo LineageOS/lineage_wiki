@@ -27,7 +27,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB, 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-07
-screen: {size: '83.4 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'Optic AMOLED'}
+screen: {size: '83.4 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'P-OLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB (UFS 2.1 2-LANE)
