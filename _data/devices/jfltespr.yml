@@ -4,7 +4,7 @@ bluetooth: {spec: '4.0'}
 cameras:
 - {flash: 'LED', info: '13 MP'}
 - {flash: None, info: '2 MP'}
-carrier: Verizon
+carrier: Sprint, US Cellular
 codename: jfltespr
 cpu: Krait 300
 cpu_cores: 4
