@@ -15,6 +15,7 @@ install_method: fastboot_nexus
 kernel: android_kernel_asus_fugu
 maintainers: []
 name: Nexus Player
+network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 1 GB

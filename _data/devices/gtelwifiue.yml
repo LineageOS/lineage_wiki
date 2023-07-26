@@ -18,6 +18,7 @@ kernel: android_kernel_samsung_msm8916
 maintainers: []
 models: [SM-T560NU]
 name: Galaxy Tab E 9.6 (WiFi)
+network: None
 no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB

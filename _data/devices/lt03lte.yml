@@ -17,6 +17,7 @@ install_method: heimdall
 kernel: android_kernel_samsung_lt03lte
 maintainers: []
 name: Galaxy Note 10.1 2014 (LTE)
+network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB

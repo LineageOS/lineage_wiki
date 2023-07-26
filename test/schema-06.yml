@@ -383,14 +383,17 @@ definitions:
       type: array
   valid_networks:
     description: All valid networks a device can support
-    enum:
-    - 2G GSM
-    - 2G CDMA
-    - 3G UMTS
-    - 3G CDMA2000
-    - 4G LTE
-    - 5G NR
-    type: string
+    items:
+      enum:
+      - 2G GSM
+      - 2G CDMA
+      - 3G UMTS
+      - 3G CDMA2000
+      - 4G LTE
+      - 5G NR
+      type: string
+    type: array
+    uniqueItems: True
   valid_peripherals:
     description: All valid peripherals a device can have
     items:
@@ -725,12 +728,17 @@ properties:
     minLength: 1
     type: string
   network:
-    "$id": "/properties/network"
-    items:
-      "$id": "/properties/network/items"
-      "$ref": "#/definitions/valid_networks"
-    minItems: 0
-    type: array
+    "$id": /properties/network
+    oneOf:
+    - "$ref": "#/definitions/valid_networks"
+    - items:
+        additionalProperties:
+          "$ref": "#/definitions/valid_networks"
+        description: Map of model number to valid networks
+        type: object
+      type: array
+    - enum:
+      - None
   peripherals:
     "$id": /properties/peripherals
     oneOf:
@@ -925,6 +933,7 @@ required:
 - kernel
 - maintainers
 - name
+- network
 - peripherals
 - release
 - screen
