@@ -18,6 +18,7 @@ kernel: android_kernel_samsung_exynos5420
 maintainers: []
 models: [SM-T700]
 name: Galaxy Tab S 8.4 Wi-Fi
+network: None
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader]
 ram: 3 GB

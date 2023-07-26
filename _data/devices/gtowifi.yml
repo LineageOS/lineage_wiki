@@ -20,6 +20,7 @@ kernel: android_kernel_samsung_sdm429
 maintainers: [ lifehackerhansol ]
 models: [SM-T290]
 name: Galaxy Tab A 8.0 (2019)
+network: None
 peripherals: [Accelerometer, GPS, Gyroscope]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
