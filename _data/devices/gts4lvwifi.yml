@@ -21,6 +21,7 @@ kernel: android_kernel_samsung_sdm670
 maintainers: [LuK1337, bgcngm]
 models: [SM-T720, SM-T720N]
 name: Galaxy Tab S5e (Wi-Fi)
+network: None
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

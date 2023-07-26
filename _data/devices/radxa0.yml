@@ -16,6 +16,7 @@ install_method: amlogic_update
 kernel: android_kernel_amlogic_linux-4.9
 maintainers: [npjohnson, stricted]
 name: Zero
+network: None
 peripherals: None
 ram: 2/4 GB
 recovery_boot: Run `adb reboot recovery`.
