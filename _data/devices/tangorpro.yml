@@ -30,7 +30,7 @@ screen: {size: '278.13 mm (10.95 in)', density: 276, resolution: '2560x1600', te
 soc: Google Tensor GS201
 storage: 128/256 GB
 tree: android_device_google_tangorpro
-type: phone
+type: tablet
 vendor: Google
 vendor_short: google
 versions: [20]
