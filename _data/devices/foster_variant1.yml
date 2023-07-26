@@ -16,6 +16,7 @@ kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
 models: [darcy, foster_e, foster_e_hdd, mdarcy]
 name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Android TV]
+network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
