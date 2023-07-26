@@ -19,6 +19,7 @@ kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: []
 models: [quill, lanai]
 name: Jetson TX2 NX [Tablet]
+network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 4/8 GB

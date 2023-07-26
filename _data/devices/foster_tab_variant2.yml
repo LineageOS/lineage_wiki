@@ -16,6 +16,7 @@ kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
 models: [jetson_cv]
 name: Jetson TX1 [Tablet]
+network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
