@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef5ab4c2_0e0ad826",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-07-26T14:17:42Z",
+      "side": 1,
+      "message": "Just set `[2G GSM, 3G UMTS, 4G LTE]` for all phones.",
+      "revId": "5c5897b39b120e6520419dd9765bee23034d36f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
