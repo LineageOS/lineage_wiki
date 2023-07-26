@@ -17,6 +17,7 @@ kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
 maintainers: [webgeek1234, npjohnson]
 models: [batuu]
 name: Jetson Nano 2GB [Tablet]
+network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB

@@ -19,6 +19,7 @@ kernel: android_kernel_samsung_msm8974
 maintainers: [haggertk]
 models: [SC-04F, SCL23]
 name: Galaxy S5 LTE (SC-04F/SCL23)
+network: None
 no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
   Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]

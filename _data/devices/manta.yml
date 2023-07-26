@@ -17,6 +17,7 @@ install_method: fastboot_nexus
 kernel: android_kernel_samsung_manta
 maintainers: []
 name: Nexus 10
+network: None
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, Barometer, Dual side NFC]
 ram: 2 GB
