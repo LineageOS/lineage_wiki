@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "13da1207_7977b261",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-07-26T14:03:32Z",
+      "side": 1,
+      "message": "Looks like there are actual phones with missing network...",
+      "revId": "9e18070a3fe9d05d60f8485107d3a2bc1b7d2546",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
