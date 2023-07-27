@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "22243a0b_8c1a10f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-27T15:01:44Z",
+      "side": 1,
+      "message": "don\u0027t forget cwirly in retired section.",
+      "revId": "0e1a8e018a60ccc23858a96feaa7274aafd51c38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "43a009ba_bfb6b122",
@@ -14,6 +31,30 @@
       "writtenOn": "2023-07-27T12:28:30Z",
       "side": 1,
       "message": "I think this section should also go, these branches have been inactive for years and the reviewers don\u0027t reflect current \"legacy\" branch reviewers.",
+      "range": {
+        "startLine": 163,
+        "startChar": 0,
+        "endLine": 172,
+        "endChar": 11
+      },
+      "revId": "0e1a8e018a60ccc23858a96feaa7274aafd51c38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49bd3398_2e40a52c",
+        "filename": "pages/contributors.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 172,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-07-27T15:01:44Z",
+      "side": 1,
+      "message": "on that note, there are several people we should discuss for those",
+      "parentUuid": "43a009ba_bfb6b122",
       "range": {
         "startLine": 163,
         "startChar": 0,
