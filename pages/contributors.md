@@ -19,16 +19,27 @@ the project and are committed to improving it.
 
 | Name | Nickname |
 |------|----------|
+| Bruno Martins | bgcngm |
+| Chirayu Desai | cdesai |
 | Kevin Haggerty | haggertk |
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
 | Rashed Abdel-Tawab | rashed |
-| Sam Mortimer | sam3000 |
-| Simon Shields | forkbomb |
 | Tom Powell | zifnab |
 | razorloves | razorloves |
 {: .table }
+
+### Retired Directors
+
+These individuals lead the project in the past, but have since stepped down.
+
+| Name | Nickname |
+|------|----------|
+| Abhisek Devkota | ciwrl |
+| Sam Mortimer | sam3000 |
+| Simon Shields | forkbomb |
+{: .table}
 
 ### Committers
 
@@ -36,8 +47,6 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
-| Bruno Martins | bgcngm |
-| Chirayu Desai | cdesai |
 | Danny Baumann | maniac103 |
 | Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
@@ -105,7 +114,7 @@ Infrastructure Managers are responsible for running the day-to-day infrastructur
 
 | Name | Nickname |
 |------|----------|
-| Simon Shields | fourkbomb |
+| Chirayu Desai | cdesai |
 | Tom Powell | zifnab |
 {: .table }
 
@@ -152,36 +161,6 @@ Global proofreaders can help out across all languages.
 
 ## Other projects
 
-### Legacy branch reviewers
-
-These people are responsible for reviewing changes on branches that no longer receive official builds (cm-11.0 and cm-13.0).
-
-| Name | Nickname |
-|------|----------|
-| Andreas Blaesius | android-andi |
-| Niks | niks255 |
-| Tim Schumacher | timschumi |
-{: .table }
-
-### Mirror manifest
-
-These people are responsible for [our mirror manifest](https://www.github.com/LineageOS/mirror).
-
-| Name | Nickname |
-|------|----------|
-| Harry Youd | harryyoud |
-{: .table }
-
-### Website
-
-These people are responsible for the content of [our website](https://www.lineageos.org/):
-
-| Name | Nickname |
-|------|----------|
-| Harry Youd | harryyoud |
-| Tom Powell | zifnab |
-{: .table }
-
 ### Wiki
 
 If you want to contribute to the wiki yourself, you can find instructions on how to do so [here]({{ "contributing.html" | relative_url }}).
@@ -191,7 +170,6 @@ The following people are responsible for the verification of the contents and th
 |------|----------|
 | Bruno Martins | bgcngm |
 | Michael W | baddaemon |
-| Simon Shields | fourkbomb |
 | Nolen Johnson | npjohnson |
 | razorloves | razorloves |
 {: .table }
