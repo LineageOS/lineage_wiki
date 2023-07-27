@@ -17,27 +17,36 @@ permalink: contributors.html
 Head Developers have extensive knowledge of the OS, and are project leads. These people have responsibility over the direction of
 the project and are committed to improving it.
 
-| Name | Nickname |
+| name | nickname |
 |------|----------|
+| Bruno Martins | bgcngm |
+| Chirayu Desai | cdesai |
 | Kevin Haggerty | haggertk |
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
 | Rashed Abdel-Tawab | rashed |
-| Sam Mortimer | sam3000 |
-| Simon Shields | forkbomb |
 | Tom Powell | zifnab |
 | razorloves | razorloves |
 {: .table }
 
+### Retired Directors
+
+These individuals lead the project in the past, but have since stepped down.
+
+| name | nickname |
+|------|----------|
+| Sam Mortimer | sam3000 |
+| Simon Shields | forkbomb |
+{: .table}
+
 ### Committers
+
 
 Committers are responsible for testing commits and merging them in high flowrate situations. These developers have merge rights across the board.
 
 | Name | Nickname |
 |------|----------|
-| Bruno Martins | bgcngm |
-| Chirayu Desai | cdesai |
 | Danny Baumann | maniac103 |
 | Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
@@ -105,7 +114,7 @@ Infrastructure Managers are responsible for running the day-to-day infrastructur
 
 | Name | Nickname |
 |------|----------|
-| Simon Shields | fourkbomb |
+| Chirayu Desai | cdesai |
 | Tom Powell | zifnab |
 {: .table }
 
@@ -161,25 +170,6 @@ These people are responsible for reviewing changes on branches that no longer re
 | Andreas Blaesius | android-andi |
 | Niks | niks255 |
 | Tim Schumacher | timschumi |
-{: .table }
-
-### Mirror manifest
-
-These people are responsible for [our mirror manifest](https://www.github.com/LineageOS/mirror).
-
-| Name | Nickname |
-|------|----------|
-| Harry Youd | harryyoud |
-{: .table }
-
-### Website
-
-These people are responsible for the content of [our website](https://www.lineageos.org/):
-
-| Name | Nickname |
-|------|----------|
-| Harry Youd | harryyoud |
-| Tom Powell | zifnab |
 {: .table }
 
 ### Wiki
