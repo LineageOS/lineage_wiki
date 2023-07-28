@@ -32,7 +32,6 @@ soc: Samsung Exynos 7880
 storage: 32/64 GB
 tree: android_device_samsung_a7y17lte
 type: phone
-uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [14.1, 16.0, 17.1, 18.1]
