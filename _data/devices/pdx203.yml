@@ -22,7 +22,7 @@ image: pdx203.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: android_kernel_sony_sm8250
-maintainers: [hellobbn]
+maintainers: []
 models: [XQ-AT72, XQ-AT52, XQ-AT51, XQ-AT42]
 name: 'Xperia 1 II'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
