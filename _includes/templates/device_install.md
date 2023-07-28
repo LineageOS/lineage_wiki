@@ -142,6 +142,9 @@ There are no recovery installation instructions for this discontinued device.
 ## Installing Add-Ons
 
 {% include alerts/note.html content="If you don't want to install any add-on (such as Google Apps), you can skip this whole section!" %}
+{% if device.is_ab_device or device.uses_twrp != true %}
+  {% include alerts/specific/note_signature_check.html %}
+{%- endif %}
 {% include alerts/warning.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 
 {%- if device.is_ab_device and device.uses_twrp %}
@@ -151,9 +154,6 @@ There are no recovery installation instructions for this discontinued device.
 2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` for all desired packages in sequence.
 {%- else %}
 1. Repeat the sideload steps above for all desired packages in sequence.
-{%- endif %}
-{% if device.is_ab_device or device.uses_twrp != true %}
-    {% include alerts/specific/note_signature_check.html %}
 {%- endif %}
 
 ## All set!
