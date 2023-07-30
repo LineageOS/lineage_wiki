@@ -29,7 +29,6 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 / 64 GB
 tree: android_device_zuk_z2_plus
 type: phone
-uses_twrp: true
 unlock_bootloader_guide: 'https://forum.xda-developers.com/lenovo-zuk-z2/how-to/z2-z2-plus-bootloader-unlock-twrp-t3615283'
 vendor: ZUK
 vendor_short: zuk
