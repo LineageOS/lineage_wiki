@@ -10,7 +10,13 @@ def json_to_yaml(json)
 end
 
 def yaml_to_json(yaml)
-   YAML.load_file(yaml).to_json
+  # Psych 4.0 uses safe_load as default, but maintain compatibility with older versions
+  kwargs = !(YAML.method(:load).parameters & [%i[key permitted_classes]]).empty?
+  if kwargs
+    YAML.load_file(yaml, permitted_classes: [Date]).to_json
+  else
+    YAML.load_file(yaml).to_json
+  end
 end
 
 def to_relative_path(path)
