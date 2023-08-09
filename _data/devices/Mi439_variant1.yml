@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 505
 image: Mi439_variant1.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
-kernel: android_kernel_xiaomi_sdm439
+kernel: android_kernel_xiaomi_msm8937
 maintainers: ["0xCAFEBABE"]
 models: [M1903C3EC, M1903C3EE, M1903C3EG, M1903C3EH, M1903C3EI, M1903C3ET]
 name: Redmi 7A
