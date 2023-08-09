@@ -10,7 +10,7 @@ def json_to_yaml(json)
 end
 
 def yaml_to_json(yaml)
-   YAML.load_file(yaml).to_json
+  YAML.safe_load_file(yaml, permitted_classes: [Date]).to_json
 end
 
 def to_relative_path(path)
