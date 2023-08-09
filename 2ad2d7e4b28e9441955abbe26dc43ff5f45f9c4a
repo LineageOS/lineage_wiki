@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db896ff4_a3265140",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18106
+      },
+      "writtenOn": "2023-08-09T17:44:03Z",
+      "side": 1,
+      "message": "Should be all good now with the variants",
+      "revId": "2ad2d7e4b28e9441955abbe26dc43ff5f45f9c4a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
