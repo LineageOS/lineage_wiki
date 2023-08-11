@@ -41,7 +41,7 @@ You should keep these keys safe, and store the passphrase in a secure location.
 
 ## Generating an install package
 
-{% include alerts/tip.html content="If you wish to preserve your data coming from a Lineage build you
+{% include alerts/tip.html content="If you wish to preserve your data coming from a LineageOS build you
 didn't build, see [Changing keys](#changing-keys)." %}
 
 ### Generating and signing target files

@@ -26,20 +26,20 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Lineage 17.1 (Android 10)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|Lineage 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|Lineage 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=nano)|
-|Lineage 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=nano)|
+|LineageOS 17.1 (Android 10)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|LineageOS 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|LineageOS 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|LineageOS 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=nano)|
+|LineageOS 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=nano)|
 {: .table }
 
 ### Android TV
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|Lineage 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=tvstock)|
-|Lineage 16.0 (Android 9.0)|[Open GApps](https://opengapps.org/?api=9.0&variant=tvstock)|
-|Lineage 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=178518) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/old))|
-|Lineage 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=tvstock)|
-|Lineage 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=tvstock)|
+|LineageOS 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=tvstock)|
+|LineageOS 16.0 (Android 9.0)|[Open GApps](https://opengapps.org/?api=9.0&variant=tvstock)|
+|LineageOS 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=178518) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/old))|
+|LineageOS 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=tvstock)|
+|LineageOS 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=tvstock)|
 {: .table }

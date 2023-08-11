@@ -13,7 +13,7 @@ tags:
 {% assign definitions = site.data.schema.definitions %}
 
 The LineageOS wiki provides instructions based on the assumption that your device has got its device tree/kernel
-under the [LineageOS GitHub organization](https://github.com/LineageOS), and that it supports building Lineage {{ definitions.valid_branches.enum[-2] }} or higher. If your device meets
+under the [LineageOS GitHub organization](https://github.com/LineageOS), and that it supports building LineageOS {{ definitions.valid_branches.enum[-2] }} or higher. If your device meets
 both those requirements, follow the instructions below to get your device set up.
 
 ## Setting up the wiki locally

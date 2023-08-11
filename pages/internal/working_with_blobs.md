@@ -34,7 +34,7 @@ libstock.so|sha1sum
 
 If the entry begins with a dash (```-```) then the vendor repository will declare a module that provides the blob.  This is needed if the blob is used to build another component in Android.  If the dash does not exist then the blob will simply be copied during the build.
 
-If the entry has a colon (```:```) with ```source``` and ```destination``` names, the extractor will check to see if the destination file exists.  If the destination file exists it will be extracted.  If not, the source filename will be extracted but saved to the destination name.  This allows you to pull either from a stock (unrenamed) dump or a Lineage dump/device while renaming it.
+If the entry has a colon (```:```) with ```source``` and ```destination``` names, the extractor will check to see if the destination file exists.  If the destination file exists it will be extracted.  If not, the source filename will be extracted but saved to the destination name.  This allows you to pull either from a stock (unrenamed) dump or a LineageOS dump/device while renaming it.
 
 The ```sha1sum```, is the checksum of the version of the blob that we want to "pin".  If the copy of that blob in the existing vendor tree does not match the ```sha1sum``` then it is ignored and extraction proceeds normally.  If it does match then it will be kept regardless of the contents of the device/dump you are pulling from.
 
