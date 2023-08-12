@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '8'}
 bluetooth: {spec: '4.1', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
@@ -15,7 +16,7 @@ download_boot: With the device powered off, hold <kbd>Power</kbd>.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 530
 image: z2_plus.png
-install_method: fastboot_custom
+install_method: fastboot_nexus
 kernel: android_kernel_zuk_msm8996
 maintainers: [DD3Boh]
 name: Z2 Plus
@@ -30,7 +31,6 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 / 64 GB
 tree: android_device_zuk_z2_plus
 type: phone
-unlock_bootloader_guide: 'https://forum.xda-developers.com/lenovo-zuk-z2/how-to/z2-z2-plus-bootloader-unlock-twrp-t3615283'
 vendor: ZUK
 vendor_short: zuk
 versions: [16.0, 17.1, 18.1, 19.1, 20]
