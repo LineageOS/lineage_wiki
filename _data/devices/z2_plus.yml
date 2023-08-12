@@ -8,10 +8,11 @@ codename: z2_plus
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {width: '68.9 mm (2.71 in)', height: '141.7 mm (5.58 in)', depth: '8.5 mm (0.33 in)'}
 download_boot: With the device powered off, hold <kbd>Power</kbd>.
   Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
+format_on_upgrade: true
 gpu: Qualcomm Adreno 530
 image: z2_plus.png
 install_method: fastboot_custom
@@ -32,5 +33,5 @@ type: phone
 unlock_bootloader_guide: 'https://forum.xda-developers.com/lenovo-zuk-z2/how-to/z2-z2-plus-bootloader-unlock-twrp-t3615283'
 vendor: ZUK
 vendor_short: zuk
-versions: [16.0, 17.1, 18.1, 19.1]
+versions: [16.0, 17.1, 18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot
