@@ -407,9 +407,14 @@ a {
 }
 
 .popup-content {
+  width: 100%;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
+
+  .check {
+    left: 1px !important;
+  }
 }
 
 .popup-close-action {
@@ -491,6 +496,25 @@ a {
       }
     }
   }
+}
+
+div[data-filter] {
+  input[type=range] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+
+  label {
+    color: #167c80;
+    cursor: pointer;
+  }
+}
+
+.device-filters-header {
+  color: #3e4857;
+  font-weight: 400;
+  margin-top: 0.75rem;
 }
 
 .variants {
