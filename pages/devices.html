@@ -8,45 +8,138 @@ search: exclude
 
 <script type="text/javascript">
 
-const IS_DISCONTINUED_VISIBLE = 'is_discontinued_visible'
+const DEVICES = JSON.parse(
+  decodeURIComponent('{{ site.data.devices | jsonify | url_encode }}'.replaceAll('+', ' '))
+);
 
-$(window).on('load', function()
-{
-  if (!isDiscontinuedVisible()) {
-    hideTablesIfNeeded();
-  } else {
-    $('.discontinued').toggleClass("hidden");
-    $('.form-check-input').prop('checked', true);
-  }
-});
+$(window).on('load', applyFilters);
 
-function toggleDiscontinued()
-{
-  setDiscontinuedVisible(!isDiscontinuedVisible())
-  $('.discontinued').toggleClass("hidden");
-  hideTablesIfNeeded();
-}
+function applyFilters() {
+  const checkBoxValue = (filter) =>
+    $(`div[data-filter=${filter}] input[type=checkbox]`)
+      .is(':checked');
+  const checkBoxValues = (filter) =>
+    [...$(`div[data-filter=${filter}] input[type=checkbox]`)]
+      .filter((e) => e.checked)
+      .map((e) => e.getAttribute("data-value"));
+  const rangeValue = (filter) =>
+    parseFloat($(`div[data-filter=${filter}] input[type=range]`).val());
 
-function hideTablesIfNeeded()
-{
+  let filters = [
+    // Global :: Show discontinued devices
+    (device) => {
+      let value = checkBoxValue("maintainers");
+      return value || device.maintainers.length > 0;
+    },
+
+    // Architecture
+    (device) => {
+      let value = checkBoxValues("architectures");
+      let cpu = device.architecture.cpu ?? device.architecture
+      return value.length === 0 || value.some(x => cpu === x);
+    },
+
+    // Device type
+    (device) => {
+      let value = checkBoxValues("types");
+      return value.length === 0 || value.some(x => device.type.includes(x));
+    },
+
+    // Networks
+    (device) => {
+      let value = checkBoxValues("networks");
+      return value.length === 0 || value.some(x => device.network.includes(x));
+    },
+
+    // Peripherals
+    (device) => {
+      let value = checkBoxValues("peripherals");
+      return value.length === 0 || value.some(x => device.peripherals.includes(x));
+    },
+
+    // Min screen size in inches
+    (device) => {
+      let value = rangeValue("screen-size-min");
+      let size = parseInt((device.screen.size ?? '0').split()[0]) * 0.0393701;
+      return value === 0 || (size > 0 && size >= value);
+    },
+
+    // Max screen size in inches
+    (device) => {
+      let value = rangeValue("screen-size-max");
+      let size = parseInt((device.screen.size ?? '0').split()[0]) * 0.0393701;
+      return value === 0 || (size > 0 && size <= value);
+    },
+
+    // Min release year
+    (device) => {
+      let value = rangeValue("release");
+      let years = typeof(device.release) === 'object'
+        ? device.release.map(x => parseInt(Object.values(x).toString().substring(0, 4)))
+        : [ parseInt(device.release.toString().substring(0, 4)) ]
+      return value === 0 || years.some(x => x >= value)
+    },
+
+    // Versions
+    (device) => {
+      let value = checkBoxValues("versions").map((x) => parseFloat(x));
+      return value.length === 0 || value.some(x => device.versions.includes(x))
+    },
+  ];
+
+  // Show all devices
+  $(".devices").show();
+  $(".devices .item").show();
+
+  // Hide devices not matching filters
+  $(".devices .item").each(function () {
+    let codename = $(this).attr("data-codename")
+    let variant = $(this).attr("data-variant")
+    if (variant.length > 0) {
+      codename += `_variant${$(this).attr("data-variant")}`
+    }
+
+    let device = DEVICES[codename]
+
+    // Filter out devices
+    for (filter of filters) {
+      if (!filter(device)) {
+        $(this).hide();
+        break;
+      }
+    }
+  })
+
+  // Hide empty vendors
   $(".devices").each(function () {
-    vendor = $(this).attr("data-vendor");
-    if ($(this).find("div:visible").length == 0 && $(this).is(":visible")) {
+    let vendor = $(this).attr("data-vendor");
+    if ($(this).find("div:visible").length == 0) {
       $("*[data-vendor=" + vendor + "]").hide();
     } else {
       $("*[data-vendor=" + vendor + "]").show();
     }
   });
+
+  // Hide vendors list
+  $("#vendor-list").show();
+
+  if ($("#vendor-list .vendor-container div[data-vendor]:visible").length <= 1) {
+    $("#vendor-list").hide();
+  }
+
+  // Show empty list placeholder
+  if ($(".devices .item:visible").length === 0) {
+    $("#empty-list").show();
+  } else {
+    $("#empty-list").hide();
+  }
+
+  // Hide popup
+  $("#popup-filters").addClass('closed').removeClass('active');
 }
 
-function isDiscontinuedVisible()
-{
-  return localStorage.getItem(IS_DISCONTINUED_VISIBLE) === '1';
-}
-
-function setDiscontinuedVisible(visible)
-{
-  localStorage.setItem(IS_DISCONTINUED_VISIBLE, visible ? '1' : '0');
+function showFilters() {
+  $("#popup-filters").addClass('active').removeClass('closed');
 }
 </script>
 
@@ -55,7 +148,7 @@ function setDiscontinuedVisible(visible)
   <h1>{{ page.title }}</h1>
 
   Rows with a lower opacity are no longer officially supported and the pages exist for reference only.<br/>
-  You can show them by checking the following checkbox:<br/><br/>
+  You can show them by enabling them in device filters below:<br/><br/>
 
 {%- assign devices = "" | split: " " %}
 {%- assign variants = "" | split: " " %}
@@ -72,24 +165,26 @@ function setDiscontinuedVisible(visible)
 {%- assign lastVendor = "" %}
 
 <div class="form-check form-check-inline">
-  <label class="form-check-label">
-    <input class="form-check-input" type="checkbox" onclick="toggleDiscontinued()">Show discontinued devices<span class="form-check-sign">
-        <span class="check"></span>
-    </span>
-  </label>
+  <button onclick="showFilters()" class="btn btn-primary">Show filters</button>
 </div><br/><br/>
 
-Select a vendor to jump to:<br/>
+<div id="vendor-list">
+  Select a vendor to jump to:<br/>
 
-<div class="vendor-container">
-{%- assign vendors = "" | split: " " %}
-{%- for device in sorted %}
-{%- if device.vendor != lastVendor %}
-{%- assign vendors = vendors | push: device.vendor %}
-{%- assign lastVendor = device.vendor %}
-  <div data-vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" data-vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
-{%- endif %}
-{%- endfor %}
+  <div class="vendor-container">
+    {%- assign vendors = "" | split: " " %}
+    {%- for device in sorted %}
+    {%- if device.vendor != lastVendor %}
+    {%- assign vendors = vendors | push: device.vendor %}
+    {%- assign lastVendor = device.vendor %}
+      <div data-vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" data-vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+</div>
+
+<div class="hidden" id="empty-list">
+  No devices matching selected filters!
 </div>
 
 {%- for device in sorted %}
@@ -169,7 +264,99 @@ Select a vendor to jump to:<br/>
 {%- endfor %}
 </div>
 
-<div class="page-overlay">
+{%- assign definitions = site.data.schema.definitions %}
+{%- assign properties = site.data.schema.properties %}
+
+<div class="page-overlay" id="popup-filters">
+  <div class="popup-overlay" style="min-width: 400px">
+    <div class="popup-content">
+      <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
+      <div class="popup-header" style="height: auto">
+        <span class="popup-title">Device filters</span><br/>
+      </div>
+      <div class="popup-body" style="max-height: 500px; overscroll-behavior: contain; overflow-y: auto">
+        <p class="device-filters-header">Global:</p>
+        <div data-filter="maintainers">
+          <label>
+            <input type="checkbox" />
+            Show discontinued devices
+          </label>
+        </div>
+
+        <p class="device-filters-header">Architecture:</p>
+        {% for value in definitions.valid_architectures.enum %}
+          <div data-filter="architectures">
+            <label>
+              <input type="checkbox" data-value="{{ value }}" />
+              {{ value }}
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Device type:</p>
+        {% for value in properties.type.enum %}
+          <div data-filter="types">
+            <label>
+              <input type="checkbox" data-value="{{ value }}" />
+              {{ value | capitalize }}
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Networks:</p>
+        {% for value in definitions.valid_networks.items.enum %}
+          <div data-filter="networks">
+            <label>
+              <input type="checkbox" data-value="{{ value }}" />
+              {{ value }}
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Peripherals:</p>
+        {% for value in definitions.valid_peripherals.items.enum %}
+          <div data-filter="peripherals">
+            <label>
+              <input type="checkbox" data-value="{{ value }}" />
+              {{ value }}
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Min screen size in inches:</p>
+        <div data-filter="screen-size-min">
+          <input type="range" min="0" max="13" step="0.1" value="0" />
+          <label />
+        </div>
+
+        <p class="device-filters-header">Max screen size in inches:</p>
+        <div data-filter="screen-size-max">
+          <input type="range" min="0" max="13" step="0.1" value="0" />
+          <label />
+        </div>
+
+        <p class="device-filters-header">Min release year:</p>
+        <div data-filter="release">
+          <input type="range" min="2010" />
+          <label />
+        </div>
+
+        <p class="device-filters-header">Versions:</p>
+        {% for value in definitions.valid_branches.enum %}
+          <div data-filter="versions">
+            <label>
+              <input type="checkbox" data-value="{{ value }}" />
+              {{ value }}
+            </label>
+          </div>
+        {% endfor %}
+      </div>
+      <button onclick="applyFilters()" class="btn btn-primary">Apply</button>
+    </div>
+  </div>
+</div>
+
+<div class="page-overlay" id="popup-variants">
   <div class="popup-overlay">
     <div class="popup-content">
       <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
@@ -212,13 +399,13 @@ $('*[data-variant=1]').each(function () {
   $(this).attr('onclick', '').unbind('click');
   $(this).on('click', function() {
     codename = $(this).attr('data-codename');
-    $('.page-overlay').addClass('active').removeClass('closed');
+    $('#popup-variants').addClass('active').removeClass('closed');
     // Replace relevant parts of dialog content
-    $('.popup-variants-list').html($(this).find('.variants-list').html());
-    $('.popup-subtitle').text(codename);
+    $('#popup-variants .popup-variants-list').html($(this).find('.variants-list').html());
+    $('#popup-variants .popup-subtitle').text(codename);
     $('#compare-link').attr('href', $(this).attr('data-url'));
     // don't remember last scroll position, always start at top
-    $('.popup-body').scrollTop(0);
+    $('#popup-variants .popup-body').scrollTop(0);
     // prevent scrolling the outside content until closed
     $('html, body').css({
       overflow: 'hidden',
@@ -230,5 +417,16 @@ $('*[data-variant=1]').each(function () {
         e.preventDefault();
     });
   });
+  // Screen size sliders
+  $('div[data-filter*=screen-size-] input').on('input', function() {
+    $(this).siblings('label').text(parseFloat($(this).val()) || "Unset");
+  });
+  $('div[data-filter*=screen-size-] input').trigger('input');
+  // Release year slider
+  $('div[data-filter=release] input').attr('max', new Date().getFullYear());
+  $('div[data-filter=release] input').on('input', function() {
+    $('div[data-filter=release] label').text($(this).val());
+  });
+  $('div[data-filter=release] input').trigger('input');
 });
 </script>
