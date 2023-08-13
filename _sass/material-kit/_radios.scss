@@ -116,7 +116,7 @@
       }
     }
 
-    .form-check-input:checked + .circle:before {
+    .form-check-input:checked + .circle:not(.no-ripple):before {
       animation: rippleOn .5s;
     }
 
