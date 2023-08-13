@@ -32,7 +32,7 @@
         padding-right: 10px;
         display: inline-block;
 
-        &:before {
+        &:not(.no-ripple):before {
             display: block;
             position: absolute;
             left: 0;
@@ -104,7 +104,7 @@
                 @include animation(checkbox-on $mdb-checkbox-animation-check forwards);
             }
 
-            & + .form-check-sign:before {
+            &:not(.no-ripple) + .form-check-sign:before {
             @include animation(rippleOn $mdb-checkbox-animation-ripple);
             }
 
@@ -115,11 +115,11 @@
         }
 
         &:not(:checked) {
-          & + .form-check-sign:before {
+          &:not(.no-ripple) + .form-check-sign:before {
             @include animation(rippleOff $mdb-checkbox-animation-ripple);
           }
 
-          & + .form-check-sign .check:after {
+          &:not(.no-ripple) + .form-check-sign .check:after {
             @include animation(rippleOff $mdb-checkbox-animation-ripple); // Ripple effect on uncheck
 
           }
