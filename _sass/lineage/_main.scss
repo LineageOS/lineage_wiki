@@ -407,6 +407,7 @@ a {
 }
 
 .popup-content {
+  width: 100%;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -491,6 +492,22 @@ a {
       }
     }
   }
+}
+
+div[data-filter] > label {
+  cursor: pointer;
+
+  input[type=checkbox] {
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+  }
+}
+
+.device-filters-header {
+  color: #3e4857;
+  font-weight: 400;
+  margin-top: 0.75rem;
 }
 
 .variants {
