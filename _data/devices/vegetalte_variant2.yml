@@ -24,7 +24,7 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 release: 2015
-screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 5.0, density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916T Snapdragon 412
 storage: 8/16 GB

@@ -25,7 +25,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, SNS integrati
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2013-07
-screen: {size: '109 mm (4.3 in)', density: 256, resolution: '540x960', technology: 'Super AMOLED'}
+screen: {size: 4.3, density: 256, resolution: '540x960', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 8/16 GB

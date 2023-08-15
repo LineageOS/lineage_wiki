@@ -24,7 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-09
-screen: {size: '132.1 mm (5.2 in)', density: 423, resolution: '1920x1080', technology: 'AMOLED'}
+screen: {size: 5.2, density: 423, resolution: '1920x1080', technology: 'AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 32 GB

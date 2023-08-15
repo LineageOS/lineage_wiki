@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2015-02-25
-screen: {size: '114 mm (4.5 in)', density: 245, resolution: '540x960', technology: 'IPS LCD'}
+screen: {size: 4.5, density: 245, resolution: '540x960', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8212 Snapdragon 200
 storage: 8 GB

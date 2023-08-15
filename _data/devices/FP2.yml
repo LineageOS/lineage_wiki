@@ -24,7 +24,7 @@ peripherals: [Compass, Accelerometer, Gyroscope, Light sensor, Dual SIM, FM radi
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 release: 2015-12
-screen: {size: '130 mm (5.1 in)', density: 446, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.1, density: 446, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AB-AB Snapdragon 801
 storage: 32 GB

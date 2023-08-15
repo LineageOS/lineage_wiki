@@ -22,7 +22,7 @@ peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016
-screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.0, density: 441, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 16/32 GB

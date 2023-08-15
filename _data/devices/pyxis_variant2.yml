@@ -29,7 +29,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-09
-screen: {size: '162.6 mm (6.31 in)', density: 403, resolution: '1080x2340', technology: 'AMOLED'}
+screen: {size: 6.31, density: 403, resolution: '1080x2340', technology: 'AMOLED'}
 sdcard: {sizeMax: '128 GB', slot: 'hybrid'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB

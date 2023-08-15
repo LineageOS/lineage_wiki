@@ -25,7 +25,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2016-10
-screen: {size: '139.7 mm (5.5 in)', density: 534, resolution: '1440x2560', technology: 'AMOLED'}
+screen: {size: 5.5, density: 534, resolution: '1440x2560', technology: 'AMOLED'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 tree: android_device_google_marlin

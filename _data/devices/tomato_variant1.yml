@@ -25,7 +25,7 @@ peripherals: [GPS, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014-12-18
-screen: {size: '139.7 mm (5.5 in)', density: 267, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 267, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16 GB

@@ -24,7 +24,7 @@ peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass,
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2012-05
-screen: {size: '256.5 mm (10.1 in)', density: 149, resolution: '800x1280', technology: 'PLS LCD'}
+screen: {size: 10.1, density: 149, resolution: '800x1280', technology: 'PLS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: TI OMAP4430
 storage: 8/16/32 GB

@@ -26,7 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 release: 2014-07-29
-screen: {size: '203 mm (8.0 in)', density: 294, resolution: '1920x1200', technology: 'IPS Retinal LCD'}
+screen: {size: 8.0, density: 294, resolution: '1920x1200', technology: 'IPS Retinal LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: NVIDIA Tegra K1 (T124)
 storage: 16/32 GB

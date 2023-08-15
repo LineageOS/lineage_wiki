@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
   Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 release: 2013-10-31
-screen: {size: '127 mm (5.0 in)', density: 445, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.0, density: 445, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB
 tree: android_device_lge_hammerhead

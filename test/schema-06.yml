@@ -175,7 +175,7 @@ definitions:
     properties:
       size:
         description: The size of the screen
-        "$ref": "#/definitions/dimension_string"
+        type: number
       density:
         description: Screen density
         minimum: 100
@@ -780,8 +780,8 @@ properties:
     - "$ref": "#/definitions/screen_data"
     - description: Array of maps of model numbers to screen data
       examples:
-      - SM-9000A: {size: '127 mm (5 in)', density: '400', resolution: '1024x768', technology: 'LCD'}
-      - SM-9000B: {size: '254 mm (10 in)', density: '800', resolution: '2048x1024', technology: 'AMOLED'}
+      - SM-9000A: {size: 5, density: '400', resolution: '1024x768', technology: 'LCD'}
+      - SM-9000B: {size: 10, density: '800', resolution: '2048x1024', technology: 'AMOLED'}
       items:
         additionalProperties:
           "$ref": "#/definitions/screen_data"

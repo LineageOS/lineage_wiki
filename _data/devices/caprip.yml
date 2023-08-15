@@ -30,7 +30,7 @@ ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2021-03
-screen: {size: '102.8 mm (6.5 in)', density: 269, resolution: '720x1600', technology: 'IPS LCD'}
+screen: {size: 6.5, density: 269, resolution: '720x1600', technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 64/128 GB eMMC 5.1

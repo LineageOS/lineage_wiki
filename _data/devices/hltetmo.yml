@@ -25,7 +25,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Th
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2013-09
-screen: {size: '144.78 mm (5.7 in)', density: 386, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {size: 5.7, density: 386, resolution: '1080x1920', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8974AB Snapdragon 801
 storage: 16/32/64 GB

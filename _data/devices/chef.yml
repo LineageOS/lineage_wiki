@@ -27,7 +27,7 @@ ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-10-10
-screen: {size: '157.48 mm (6.14 in)', density: 403, resolution: '2246x1080', technology: 'IPS LTPS LCD'}
+screen: {size: 6.14, density: 403, resolution: '2246x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM660 Snapdragon 636
 storage: 64 GB

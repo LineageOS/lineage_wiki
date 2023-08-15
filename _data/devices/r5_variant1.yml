@@ -29,7 +29,7 @@ ram: 2 GB (R5), 3 GB (R5s)
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014-12
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
-screen: {size: '132 mm (5.2 in)', density: 423, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {size: 5.2, density: 423, resolution: '1080x1920', technology: 'AMOLED'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16 GB
 tree: android_device_oppo_r5

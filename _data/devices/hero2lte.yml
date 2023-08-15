@@ -24,7 +24,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2016-03-18
-screen: {size: '139.7 mm (5.5 in)', density: 534, resolution: '2560x1440', technology: 'Super AMOLED'}
+screen: {size: 5.5, density: 534, resolution: '2560x1440', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos 8890
 storage: 32/64 GB

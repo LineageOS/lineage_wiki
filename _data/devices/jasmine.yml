@@ -25,7 +25,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-08
-screen: {size: '203.2 mm (8.0 in)', density: 189, resolution: '1280x800', technology: 'TFT LCD'}
+screen: {size: 8.0, density: 189, resolution: '1280x800', technology: 'TFT LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16 GB

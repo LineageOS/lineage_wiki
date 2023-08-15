@@ -25,7 +25,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 release: 2018-12
-screen: {size: '139.7 mm (5.5 in)', density: 245, resolution: '720x1440', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 245, resolution: '720x1440', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB

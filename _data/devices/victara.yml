@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
  On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2014-09-26
-screen: {size: '132 mm (5.2 in)', density: 424, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {size: 5.2, density: 424, resolution: '1080x1920', technology: 'AMOLED'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_motorola_victara

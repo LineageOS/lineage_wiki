@@ -28,7 +28,7 @@ ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 release: 2021-04
-screen: {size: '163.32 mm (6.43 in)', density: 409, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {size: 6.43, density: 409, resolution: '1080x2400', technology: 'AMOLED'}
 soc: Mediatek MT6785 Helio G95
 storage: 64/128 GB
 tree: android_device_xiaomi_rosemary

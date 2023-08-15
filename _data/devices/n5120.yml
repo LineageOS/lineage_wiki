@@ -24,7 +24,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.
 release: 2013-04
-screen: {size: '203 mm (8.0 in)', density: 189, resolution: '1280x800', technology: 'TFT LCD'}
+screen: {size: 8.0, density: 189, resolution: '1280x800', technology: 'TFT LCD'}
 sdcard: {sizeMax: '64 GB (microSD)'}
 soc: Samsung Exynos 4412
 storage: 16/32 GB

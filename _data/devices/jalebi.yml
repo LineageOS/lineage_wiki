@@ -24,7 +24,7 @@ peripherals: [Dual SIM]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-09
-screen: {size: '119 mm (4.7 in)', density: 312, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 4.7, density: 312, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB

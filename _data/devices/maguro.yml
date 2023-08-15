@@ -24,7 +24,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Voldume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2011-10
-screen: {size: '119.4 mm (4.7 in)', density: 316, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {size: 4.7, density: 316, resolution: '1280x720', technology: 'Super AMOLED'}
 soc: TI OMAP4460
 storage: 16 GB
 tree: android_device_samsung_maguro

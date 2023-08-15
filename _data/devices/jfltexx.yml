@@ -26,7 +26,7 @@ peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Ac
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Let go of <kbd>Power</kbd> immediately when the phone vibrates, but keep holding the two other keys.
 release: 2013-04
-screen: {size: '127 mm (5 in)', density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Super AMOLED'}
+screen: {size: 5, density: 440, resolution: '1920x1080', technology: 'Pentile RGBG Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16/32/64 GB

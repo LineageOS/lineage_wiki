@@ -31,7 +31,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "POCO" logo appears on the screen, then release.
 release: 2020-09-08
-screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '2400x1080', technology: 'IPS LCD'}
+screen: {size: 6.67, density: 395, resolution: '2400x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128/256 GB

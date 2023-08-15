@@ -23,7 +23,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 release: 2015-11
-screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 401, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB

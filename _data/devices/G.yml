@@ -25,7 +25,7 @@ peripherals: [GPS, Accelerometer, Dual SIM, Dual speakers, Fingerprint reader, G
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-10-03
-screen: {size: '139.7 mm (5.5 in)', density: 440, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 440, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB

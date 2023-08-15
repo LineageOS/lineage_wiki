@@ -29,7 +29,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2022-12
-screen: {size: '152.1 mm (5.99 in)', density: 403, resolution: '1080x2160', technology: 'AMOLED'}
+screen: {size: 5.99, density: 403, resolution: '1080x2160', technology: 'AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 128 GB UFS 2.1 2-LANE

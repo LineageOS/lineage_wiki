@@ -26,7 +26,7 @@ peripherals: [A-GPS, Accelerometer, BeiDou, Compass, DP over USB-C, Fingerprint 
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2020-06
-screen: {size: '152.4 mm (6 in)', density: 402, resolution: '1080x2160', technology: 'AMOLED', refresh_rate: 60}
+screen: {size: 6, density: 402, resolution: '1080x2160', technology: 'AMOLED', refresh_rate: 60}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128 GB UFS 2.1

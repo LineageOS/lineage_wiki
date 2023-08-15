@@ -23,7 +23,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS, GPS, G
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2019
-screen: {size: '144.8 mm (5.7 in)', density: 423, resolution: '2160x1080', technology: 'IPS LCD'}
+screen: {size: 5.7, density: 423, resolution: '2160x1080', technology: 'IPS LCD'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64 GB
 tree: android_device_nubia_TP1803

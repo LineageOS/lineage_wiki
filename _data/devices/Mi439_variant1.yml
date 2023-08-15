@@ -28,7 +28,7 @@ ram: 2 / 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the screen lights up, release the buttons.
 release: 2019-05-28
-screen: {size: '138 mm (5.45 in)', density: 295, resolution: '720x1440', technology: 'IPS LCD'}
+screen: {size: 5.45, density: 295, resolution: '720x1440', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM439 Snapdragon 439
 storage: 16 / 32 GB
