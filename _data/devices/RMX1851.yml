@@ -25,7 +25,7 @@ ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Use volume rockers to navigate and power button to choose between the modes.
 release: 2019-04-29
-screen: {size: '160 mm (6.3 in)', density: 409, resolution: '2340x1080', technology: 'IPS LCD'}
+screen: {size: 6.3, density: 409, resolution: '2340x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1

@@ -25,7 +25,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sens
 ram: 4/6 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-05
-screen: {size: '143 mm (5.65 in)', density: 428, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
+screen: {size: 5.65, density: 428, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB

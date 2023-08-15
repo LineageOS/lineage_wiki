@@ -27,7 +27,7 @@ ram: 3 GB, 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2019-02
-screen: {size: '157.5 mm (6.2 in)', density: 279, resolution: '720x1570', technology: 'IPS LTPS LCD'}
+screen: {size: 6.2, density: 279, resolution: '720x1570', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32 GB, 64 GB

@@ -24,7 +24,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-04
-screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
 tree: android_device_leeco_s2

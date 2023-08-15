@@ -23,7 +23,7 @@ peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-06
-screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 5, density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB

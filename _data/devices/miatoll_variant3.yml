@@ -31,7 +31,7 @@ ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When Xiaomi/Redmi splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
 release: 2020-05-05
-screen: {size: '169.4 mm (6.67 in)', density: 395, resolution: '1080x2400', technology: 'IPS LCD'}
+screen: {size: 6.67, density: 395, resolution: '1080x2400', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 64/128 GB

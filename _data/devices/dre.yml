@@ -31,7 +31,7 @@ ram: 4 GB LPDDR4x
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2021-06-21
-screen: {size: '164.8 mm (6.49 in)', density: 402, resolution: '1080x2400', technology: 'IPS LCD'}
+screen: {size: 6.49, density: 402, resolution: '1080x2400', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'sim'}
 soc: Qualcomm SM4350 Snapdragon 480
 storage: 64 GB UFS 2.1

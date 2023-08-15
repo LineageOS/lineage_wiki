@@ -24,7 +24,7 @@ peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity senso
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-08-28
-screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
+screen: {size: 5.5, density: 401, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 16/64 GB
 tree: android_device_oneplus_oneplus2

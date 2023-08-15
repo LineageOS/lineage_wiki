@@ -26,7 +26,7 @@ ram: 2 / 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the screen lights up, release the buttons.
 release: 2017-10-16
-screen: {size: '127 mm (5.0 in)', density: 294, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 5, density: 294, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16 / 32 GB

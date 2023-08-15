@@ -28,7 +28,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-09
-screen: {size: '152.1 mm (5.99 in)', density: 403, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {size: 5.99, density: 403, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128 GB UFS 2.1
 tree: android_device_nubia_nx606j

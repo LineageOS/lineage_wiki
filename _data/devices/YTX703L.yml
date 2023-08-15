@@ -25,7 +25,7 @@ peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, 
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-12
-screen: {size: '256.5 mm (10.1 in)', density: 299, resolution: '2560x1600', technology: 'IPS LCD'}
+screen: {size: 10.1, density: 299, resolution: '2560x1600', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB (SDHC) or 2 TB (SDXC)'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB

@@ -28,7 +28,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 release: 2016-10
-screen: {size: '144.78 mm (5.7 in)', density: 513, resolution: '2560x1440', technology: 'IPS LCD'}
+screen: {size: 5.7, density: 513, resolution: '2560x1440', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB

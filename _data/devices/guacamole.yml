@@ -30,7 +30,7 @@ ram: 6/8/12GB GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2019-05
-screen: {size: '169.418 mm (6.67 in)', density: 516, resolution: '1440x3120', technology: 'Fluid AMOLED'}
+screen: {size: 6.67, density: 516, resolution: '1440x3120', technology: 'Fluid AMOLED'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 tree: android_device_oneplus_guacamole

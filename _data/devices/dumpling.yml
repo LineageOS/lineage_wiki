@@ -25,7 +25,7 @@ ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2017-11
-screen: {size: '152.7 mm (6.01 in)', density: 401, resolution: '1080x2160', technology: 'Optic AMOLED'}
+screen: {size: 61, density: 401, resolution: '1080x2160', technology: 'Optic AMOLED'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1 2-LANE
 tree: android_device_oneplus_dumpling

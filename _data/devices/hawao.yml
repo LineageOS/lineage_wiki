@@ -29,7 +29,7 @@ ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2022-06
-screen: {size: '98.9 mm (6.4 in)', density: 411, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {size: 6.4, density: 411, resolution: '1080x2400', technology: 'AMOLED'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM6225 Snapdragon 680 4G
 storage: 64/128 GB UFS 2.2

@@ -24,7 +24,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2015-09
-screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5, density: 441, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 tree: android_device_xiaomi_libra

@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume 
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-07
 root_method: [kingroot]
-screen: {size: '203 mm (8.0 in)', density: 189, resolution: '1280x800', technology: 'IPS LCD'}
+screen: {size: 8, density: 189, resolution: '1280x800', technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 16 GB

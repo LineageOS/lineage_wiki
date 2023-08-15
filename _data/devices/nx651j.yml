@@ -29,7 +29,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2020-04
-screen: {size: '169 mm (6.65 in)', density: 388, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
+screen: {size: 6.65, density: 388, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128/256 GB UFS2.1
 tree: android_device_nubia_nx651j

@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
 recovery_reboot: fastboot_menu
 release: 2013-08-23
-screen: {size: '119.4 mm (4.7 in)', density: 316, resolution: '1280x720', technology: 'AMOLED'}
+screen: {size: 4.7, density: 316, resolution: '1280x720', technology: 'AMOLED'}
 soc: Qualcomm MSM8960DT Snapdragon S4 Pro
 storage: 16/32 GB
 tree: android_device_motorola_ghost

@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the device vibrates, then release.
 release: 2016
-screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {size: 5, density: 441, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8956 Snapdragon 650
 storage: 32/64 GB

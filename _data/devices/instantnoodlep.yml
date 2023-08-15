@@ -32,7 +32,7 @@ ram: 8/12GB GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2020-04
-screen: {size: '172.21 mm (6.78 in)', density: 513, resolution: '1440x3168', technology: 'Fluid AMOLED', refresh_rate: 120}
+screen: {size: 6.78, density: 513, resolution: '1440x3168', technology: 'Fluid AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0
 tree: android_device_oneplus_instantnoodlep

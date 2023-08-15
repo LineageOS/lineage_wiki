@@ -1,6 +1,6 @@
 {%- if modelname %}
 <b>{{ modelname }}</b><br/>
 {%- endif %}
-{{ screen_data.size }}<br/>
+{{ screen_data.size }} in ({{ screen_data.size | times: 25.4 | round: 2 | remove: ".0" }} mm)<br/>
 {{ screen_data.resolution }} ({{ screen_data.density }} PPI)<br/>
 {{ screen_data.technology }} {% if screen_data.refresh_rate %}(max. {{ screen_data.refresh_rate }} Hz){% endif %}

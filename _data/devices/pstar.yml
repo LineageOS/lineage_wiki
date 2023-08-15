@@ -30,7 +30,7 @@ ram: 6/8/12 GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2021-08
-screen: {size: '170.18 mm (6.7 in)', density: 385, resolution: '1080x2400', technology: 'OLED'}
+screen: {size: 6.7, density: 385, resolution: '1080x2400', technology: 'OLED'}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB UFS 3.1
 tree: android_device_motorola_pstar

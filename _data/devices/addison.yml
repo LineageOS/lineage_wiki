@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2016-09
-screen: {size: '140 mm (5.5 in)', density: 403, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {size: 5.5, density: 403, resolution: '1080x1920', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32 GB

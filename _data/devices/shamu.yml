@@ -25,7 +25,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Ha
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
 release: 2014-10-29
-screen: {size: '151 mm (5.96 in)', density: 493, resolution: '2560x1440', technology: 'Pentile RGBG AMOLED'}
+screen: {size: 5.96, density: 493, resolution: '2560x1440', technology: 'Pentile RGBG AMOLED'}
 soc: Qualcomm APQ8084 Snapdragon 805
 storage: 32/64 GB
 tree: android_device_moto_shamu

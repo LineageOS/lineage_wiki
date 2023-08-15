@@ -24,7 +24,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, G
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 release: 2015-11
-screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.5, density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 32 GB

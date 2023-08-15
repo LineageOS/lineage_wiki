@@ -23,7 +23,7 @@ peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1/2 GB
 recovery_boot: ''
 release: 2015-07
-screen: {size: '203 mm (8.0 in)', density: 189, resolution: '1280x800', technology: 'IPS LCD'}
+screen: {size: 8, density: 189, resolution: '1280x800', technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB

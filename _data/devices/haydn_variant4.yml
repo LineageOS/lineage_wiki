@@ -30,7 +30,7 @@ ram: 8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2021-05
-screen: {size: '166.37 mm (6.67 in)', density: 402, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 120}
+screen: {size: 6.67, density: 402, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 tree: android_device_xiaomi_haydn

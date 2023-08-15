@@ -29,7 +29,7 @@ ram: 12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2022-10
-screen: {size: '170.18 mm (6.7 in)', density: 512, resolution: '1440x3120', technology: 'AMOLED', refresh_rate: 120}
+screen: {size: 6.7, density: 512, resolution: '1440x3120', technology: 'AMOLED', refresh_rate: 120}
 soc: Google Tensor GS201
 storage: 128/256/512 GB
 tree: android_device_google_cheetah

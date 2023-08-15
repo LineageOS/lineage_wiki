@@ -28,7 +28,7 @@ ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2019-09
-screen: {size: '160.02 mm (6.3 in)', density: 537, resolution: '3040x1440', technology: 'AMOLED', refresh_rate: 90}
+screen: {size: 6.3, density: 537, resolution: '3040x1440', technology: 'AMOLED', refresh_rate: 90}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB
 tree: android_device_google_coral

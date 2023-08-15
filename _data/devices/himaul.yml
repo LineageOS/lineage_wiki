@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015-03
-screen: {size: '127 mm (5.0 in)', density: 441, resolution: '1080x1920', technology: 'Super LCD'}
+screen: {size: 5, density: 441, resolution: '1080x1920', technology: 'Super LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB

@@ -28,7 +28,7 @@ ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2018-04
-screen: {size: '159.512 mm (6.28 in)', density: 420, resolution: '1080x2280', technology: 'Optic AMOLED'}
+screen: {size: 6.28, density: 420, resolution: '1080x2280', technology: 'Optic AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_oneplus_enchilada

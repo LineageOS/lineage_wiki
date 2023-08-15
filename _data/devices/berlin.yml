@@ -30,7 +30,7 @@ ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2021-07-29
-screen: {size: '170.18 mm (6.7 in)', density: 385, resolution: '1080x2400', technology: 'OLED'}
+screen: {size: 6.7, density: 385, resolution: '1080x2400', technology: 'OLED'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 128 GB UFS 2.2
 tree: android_device_motorola_berlin

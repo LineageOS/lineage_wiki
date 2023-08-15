@@ -26,7 +26,7 @@ project_spectrum: "https://androidfilehost.com/?fid=673791459329053792"
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-11
-screen: {size: '139.7 mm (5.5 in)', density: 401, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {size: 5.5, density: 401, resolution: '1080x1920', technology: 'AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 32 GB

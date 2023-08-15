@@ -26,7 +26,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2019-02
-screen: {size: '152.4 mm (6 in)', density: 457, resolution: '1080x2520', technology: 'IPS LCD'}
+screen: {size: 6, density: 457, resolution: '1080x2520', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM660 Snapdragon 630
 storage: 64 GB
