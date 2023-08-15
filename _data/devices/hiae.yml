@@ -24,7 +24,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2015-10-20
-screen: {size: 5, density: 440, resolution: '1920x1080', technology: 'Super AMOLED'}
+screen: {size: 5, resolution: '1920x1080', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16/32 GB

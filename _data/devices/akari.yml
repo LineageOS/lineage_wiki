@@ -26,7 +26,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sens
 ram: 4 or 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-04
-screen: {size: 5.7, density: 424, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {size: 5.7, resolution: '1080x2160', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1

@@ -30,7 +30,7 @@ ram: 4 GB LPDDR4x
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2019-09-05
-screen: {size: 6.39, density: 403, resolution: '1080x2340', technology: 'Super AMOLED'}
+screen: {size: 6.39, resolution: '1080x2340', technology: 'Super AMOLED'}
 soc: Qualcomm SM6150 Snapdragon 675
 storage: 128 GB UFS 2.0
 tree: android_device_motorola_parker

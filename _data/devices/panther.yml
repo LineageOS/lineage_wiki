@@ -28,7 +28,7 @@ ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2022-10
-screen: {size: 6.3, density: 416, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
+screen: {size: 6.3, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
 soc: Google Tensor GS201
 storage: 128/256 GB
 tree: android_device_google_panther

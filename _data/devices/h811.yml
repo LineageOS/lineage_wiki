@@ -22,7 +22,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Co
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 release: 2015-06
-screen: {size: 5.5, density: 538, resolution: '2560x1440', technology: 'IPS LCD'}
+screen: {size: 5.5, resolution: '2560x1440', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB

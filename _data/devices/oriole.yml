@@ -28,7 +28,7 @@ ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2021-10
-screen: {size: 6.4, density: 411, resolution: '180x2400', technology: 'AMOLED', refresh_rate: 90}
+screen: {size: 6.4, resolution: '180x2400', technology: 'AMOLED', refresh_rate: 90}
 soc: Google Tensor GS101
 storage: 128/256 GB
 tree: android_device_google_oriole

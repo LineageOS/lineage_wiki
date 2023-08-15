@@ -25,7 +25,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, BeiDou, Galileo
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-10
-screen: {size: 5.72, density: 513, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
+screen: {size: 5.72, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1

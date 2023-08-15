@@ -23,7 +23,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint rea
 ram: 3/4 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-06
-screen: {size: 5.2, density: 423, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
+screen: {size: 5.2, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB

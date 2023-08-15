@@ -23,7 +23,7 @@ peripherals: [Fingerprint reader, GPS, Accelerometer, Gyroscope, Compass, Light 
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-10-14
-screen: {size: 5.5, density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 64 GB
 tree: android_device_zuk_ham

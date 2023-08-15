@@ -23,7 +23,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-04
-screen: {size: 5.7, density: 515, resolution: '2560x1440', technology: 'IPS LTPS LCD'}
+screen: {size: 5.7, resolution: '2560x1440', technology: 'IPS LTPS LCD'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64/128 GB
 tree: android_device_leeco_x2

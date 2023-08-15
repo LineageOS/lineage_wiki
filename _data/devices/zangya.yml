@@ -25,7 +25,7 @@ peripherals: [Depth Sensor, Dual SIM, Fingerprint reader, Accelerometer, Gyrosco
 ram: 3/4 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-05
-screen: {size: 5.65, density: 428, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
+screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM660 Snapdragon 636
 storage: 32/64 GB

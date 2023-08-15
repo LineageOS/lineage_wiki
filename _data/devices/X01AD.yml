@@ -25,7 +25,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 release: 2018-12
-screen: {size: 6.26, density: 269, resolution: '720x1520', technology: 'IPS LCD'}
+screen: {size: 6.26, resolution: '720x1520', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32/64 GB

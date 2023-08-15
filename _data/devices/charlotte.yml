@@ -25,7 +25,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2018-04
-screen: {size: 6.1, density: 408, resolution: '1080x2240', technology: 'AMOLED'}
+screen: {size: 6.1, resolution: '1080x2240', technology: 'AMOLED'}
 soc: HiSilicon Kirin 970
 storage: 128/256 GB
 tree: android_device_huawei_charlotte

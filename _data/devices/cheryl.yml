@@ -26,7 +26,7 @@ ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then insert a USB cable.
   Keep holding until the "Razer" logo appears on the screen, then release.
 release: 2017-11
-screen: {size: 5.7, density: 515, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
+screen: {size: 5.7, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB
 tree: android_device_razer_cheryl

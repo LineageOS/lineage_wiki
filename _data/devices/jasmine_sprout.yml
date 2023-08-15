@@ -26,7 +26,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-07
-screen: {size: 5.99, density: 403, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {size: 5.99, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64/128 GB
 tree: android_device_xiaomi_jasmine_sprout

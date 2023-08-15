@@ -28,7 +28,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-06
-screen: {size: 5.88, density: 423, resolution: '1080x2244', technology: 'AMOLED'}
+screen: {size: 5.88, resolution: '1080x2244', technology: 'AMOLED'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB
 tree: android_device_xiaomi_xmsirius

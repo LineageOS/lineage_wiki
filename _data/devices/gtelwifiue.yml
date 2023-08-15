@@ -24,7 +24,7 @@ peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-07
-screen: {size: 9.6, density: 157, resolution: '800x1280', technology: 'TFT LCD'}
+screen: {size: 9.6, resolution: '800x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

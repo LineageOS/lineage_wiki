@@ -137,8 +137,7 @@ The following list will mention Model-Value pairs where applicable.
 
 * `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. This property supports Model-Value pairs.
 
-* `screen`: Use `{size: '<screen size>', density: <number>, resolution: '<1234x567>', technology: ''}` with number for `size`,
-  a number for `density`, `1234x567` for `resolution` and a string for `technology`.
+* `screen`: Use `{size: '<screen size>', resolution: '<1234x567>', technology: ''}` with number for `size`, `1234x567` for `resolution` and a string for `technology`.
   Please look at other devices in order to use the same names for same technologies across all devices!
 
   This property supports Model-Value pairs.

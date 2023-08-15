@@ -23,7 +23,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Dual SIM, GPS
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-01
-screen: {size: 4.7, density: 312, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 4.7, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB

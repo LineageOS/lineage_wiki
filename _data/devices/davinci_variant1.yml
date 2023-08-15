@@ -27,7 +27,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2019-06-06
-screen: {size: 6.39, density: 403, resolution: '2340x1080', technology: 'AMOLED'}
+screen: {size: 6.39, resolution: '2340x1080', technology: 'AMOLED'}
 soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 64/128/256 GB
 tree: android_device_xiaomi_davinci

@@ -24,7 +24,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
   Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
 release: 2016-05
-screen: {size: 5.2, density: 565, resolution: '1440x2560', technology: 'Super LCD'}
+screen: {size: 5.2, resolution: '1440x2560', technology: 'Super LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB

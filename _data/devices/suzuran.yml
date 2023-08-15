@@ -24,7 +24,7 @@ peripherals: [Accelerometer, Fingerprint reader, Gyroscope, Proximity sensor, Li
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
-screen: {size: 5.2, density: 323, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {size: 5.2, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
