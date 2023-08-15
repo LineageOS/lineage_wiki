@@ -24,7 +24,7 @@ peripherals: [GPS, NFC, Light sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2014-06-06
-screen: {size: 5.5, density: 401, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_oneplus_bacon

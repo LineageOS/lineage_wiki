@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2015-10
 required_bootloader: ['crackling-13-ge86e772']
-screen: {size: 5, density: 294, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2018-05
-screen: {size: 6, density: 268, resolution: '1440x720', technology: 'IPS LCD'}
+screen: {size: 6, resolution: '1440x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 32 GB

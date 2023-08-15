@@ -23,7 +23,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
 release: 2015-09-29
-screen: {size: 5.2, density: 423, resolution: '1080x1920', technology: 'LCD'}
+screen: {size: 5.2, resolution: '1080x1920', technology: 'LCD'}
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 tree: android_device_lge_bullhead

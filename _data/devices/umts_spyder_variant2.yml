@@ -23,7 +23,7 @@ peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 release: 2011-11-11
-screen: {size: 4.3, density: 256, resolution: '540x960', technology: 'Super AMOLED'}
+screen: {size: 4.3, resolution: '540x960', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '32 GB (microSD)'}
 soc: TI OMAP4430
 storage: 16 GB

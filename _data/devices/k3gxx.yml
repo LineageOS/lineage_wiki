@@ -24,7 +24,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Th
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2014-03
-screen: {size: 5.1, density: 432, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {size: 5.1, resolution: '1080x1920', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos 5422
 storage: 16 GB

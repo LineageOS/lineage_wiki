@@ -29,7 +29,7 @@ ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
 release: 2018-07
-screen: {size: 6.21, density: 402, resolution: '1080x2248', technology: 'AMOLED'}
+screen: {size: 6.21, resolution: '1080x2248', technology: 'AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128 GB UFS2.1
 tree: android_device_xiaomi_ursa

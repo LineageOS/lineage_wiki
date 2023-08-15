@@ -25,7 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2014-05
-screen: {size: 4.7, density: 312, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 4.7, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB

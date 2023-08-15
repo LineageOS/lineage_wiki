@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
 recovery_reboot: fastboot_menu
 release: 2015-12-08
-screen: {size: 10.2, density: 308, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
+screen: {size: 10.2, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
 soc: NVIDIA Tegra X1 (T210)
 storage: 32/64 GB
 tree: android_device_google_dragon

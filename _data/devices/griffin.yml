@@ -23,7 +23,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2016-09
-screen: {size: 5.5, density: 535, resolution: '2560x1440', technology: 'AMOLED'}
+screen: {size: 5.5, resolution: '2560x1440', technology: 'AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB

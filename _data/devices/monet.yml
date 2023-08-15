@@ -29,7 +29,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2020-05
-screen: {size: 6.57, density: 401, resolution: '1080x2340', technology: 'AMOLED'}
+screen: {size: 6.57, resolution: '1080x2340', technology: 'AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 64/128/256 GB
 tree: android_device_xiaomi_monet

@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2013-11
-screen: {size: 4.5, density: 326, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {size: 4.5, resolution: '720x1280', technology: 'IPS LCD'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8/16 GB
 tree: android_device_motorola_falcon

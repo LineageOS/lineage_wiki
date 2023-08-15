@@ -25,7 +25,7 @@ peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass,
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2012-06-28
-screen: {size: 4.8, density: 306, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB

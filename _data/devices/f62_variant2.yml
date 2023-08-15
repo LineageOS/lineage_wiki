@@ -28,7 +28,7 @@ peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyrosc
 ram: 8 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2021-03-03
-screen: {size: 6.7, density: 393, resolution: '2400x1080', technology: 'Super AMOLED'}
+screen: {size: 6.7, resolution: '2400x1080', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '1 TB', slot: 'dedicated'}
 soc: Samsung Exynos 9825
 storage: 128/256 GB

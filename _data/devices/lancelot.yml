@@ -27,7 +27,7 @@ ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 release: 2020-06
-screen: {size: 6.53, density: 395, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {size: 6.53, resolution: '1080x2340', technology: 'IPS LCD'}
 soc: Mediatek MT6768 Helio G85
 storage: 32/64/128 GB
 tree: android_device_xiaomi_lancelot

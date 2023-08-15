@@ -28,7 +28,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2020-10
-screen: {size: 6.67, density: 395, resolution: '1080x2400', technology: 'IPS LCD', refresh_rate: 144}
+screen: {size: 6.67, resolution: '1080x2400', technology: 'IPS LCD', refresh_rate: 144}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
 tree: android_device_xiaomi_apollon

@@ -25,7 +25,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Release when boot logo appears.
 release: 2019-09
-screen: {size: 5.65, density: 427, resolution: '2160x1080', technology: 'IPS LCD'}
+screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '400 GB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB

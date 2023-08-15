@@ -26,7 +26,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2014-05
-screen: {size: 5.1, density: 432, resolution: '1920x1080', technology: 'Super AMOLED'}
+screen: {size: 5.1, resolution: '1920x1080', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB

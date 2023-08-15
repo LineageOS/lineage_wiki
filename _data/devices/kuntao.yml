@@ -23,7 +23,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint rea
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2016-11
-screen: {size: 5.5, density: 401, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {size: 5.5, resolution: '1080x1920', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32/64 GB

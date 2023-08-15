@@ -24,7 +24,7 @@ ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2016-06
-screen: {size: 5.5, density: 401, resolution: '1080x1920', technology: 'Optic AMOLED'}
+screen: {size: 5.5, resolution: '1080x1920', technology: 'Optic AMOLED'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS 2.0
 tree: android_device_oneplus_oneplus3

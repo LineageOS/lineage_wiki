@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 release: 2014-04
 root_method: [custom, 'https://forum.xda-developers.com/g2-mini/development/root-root-g2-mini-lollipop-t3123652']
-screen: {size: 4.8, density: 234, resolution: '540x960', technology: 'IPS LCD'}
+screen: {size: 4.8, resolution: '540x960', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB

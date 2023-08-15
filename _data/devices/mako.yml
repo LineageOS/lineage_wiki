@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2012-11-13
-screen: {size: 4.7, density: 320, resolution: '1280x768', technology: 'IPS LCD'}
+screen: {size: 4.7, resolution: '1280x768', technology: 'IPS LCD'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 8/16 GB
 tree: android_device_lge_mako

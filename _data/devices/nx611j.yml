@@ -27,7 +27,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2018-04
-screen: {size: 5.7, density: 424, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {size: 5.7, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB eMMC 5.1
 tree: android_device_nubia_nx611j

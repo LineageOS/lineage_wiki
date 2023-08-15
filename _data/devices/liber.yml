@@ -31,7 +31,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_reboot: fastboot_menu
 release: 2020-06
-screen: {size: 6.5, density: 396, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {size: 6.5, resolution: '1080x2340', technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc:
 - Europe: Qualcomm SM7150-AA Snapdragon 730

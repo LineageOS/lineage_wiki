@@ -30,7 +30,7 @@ ram: 4/6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_reboot: fastboot_menu
 release: 2020-05
-screen: {size: 6.7, density: 409, resolution: '1080x2520', technology: 'IPS LTPS LCD'}
+screen: {size: 6.7, resolution: '1080x2520', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 64/128 GB UFS 2.1

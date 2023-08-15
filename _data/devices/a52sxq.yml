@@ -28,7 +28,7 @@ peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyrosc
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2021
-screen: {size: 6.5, density: 407, resolution: '1080x2800', technology: 'Super AMOLED'}
+screen: {size: 6.5, resolution: '1080x2800', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 128/256 GB

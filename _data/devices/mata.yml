@@ -26,7 +26,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-08
-screen: {size: 5.71, density: 504, resolution: '1312x2560', technology: 'IPS LCD'}
+screen: {size: 5.71, resolution: '1312x2560', technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_essential_mata

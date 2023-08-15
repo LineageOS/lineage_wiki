@@ -32,7 +32,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sens
 ram: 6/8/12 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2020-07-21
-screen: {size: 6.67, density: 409, resolution: '2400x1080', technology: 'Fluid AMOLED'}
+screen: {size: 6.67, resolution: '2400x1080', technology: 'Fluid AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 64/128/256 GB
 tree: android_device_oneplus_avicii

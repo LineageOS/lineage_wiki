@@ -25,8 +25,8 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 release: 2015-11
 screen:
-- ZE500KL: {size: 5.5, density: 267, resolution: '720x1280', technology: 'IPS LCD'}
-- ZE550KL: {size: 6, density: 245, resolution: '720x1280', technology: 'IPS LCD'}
+- ZE500KL: {size: 5.5, resolution: '720x1280', technology: 'IPS LCD'}
+- ZE550KL: {size: 6, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: [Qualcomm MSM8939 Snapdragon 615, Qualcomm MSM8916 Snapdragon 410]
 storage: 16 GB

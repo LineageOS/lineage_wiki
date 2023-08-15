@@ -26,7 +26,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_reboot: fastboot_menu
 release: 2019-04
-screen: {size: 5.6, density: 441, resolution: '2220x1080', technology: 'AMOLED', refresh_rate: 60}
+screen: {size: 5.6, resolution: '2220x1080', technology: 'AMOLED', refresh_rate: 60}
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 tree: android_device_google_sargo

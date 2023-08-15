@@ -24,7 +24,7 @@ peripherals: [Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2014
-screen: {size: 8.4, density: 359, resolution: '1600x2560', technology: 'Super AMOLED'}
+screen: {size: 8.4, resolution: '1600x2560', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos 5420
 storage: 16/32 GB
