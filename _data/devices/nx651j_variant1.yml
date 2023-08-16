@@ -18,7 +18,7 @@ custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX651J'
 dimensions: {width: '78.5 mm (3.09 in)', height: '171.7 mm (6.76 in)', depth: '9.1 mm (0.36 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
-image: nx651j.png
+image: nx651j_variant1.png
 install_method: fastboot_nubia
 kernel: android_kernel_nubia_sm7250
 maintainers: [Cyborg2017]
@@ -34,6 +34,7 @@ soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128/256 GB UFS2.1
 tree: android_device_nubia_nx651j
 type: phone
+variant: 1
 vendor: Nubia
 vendor_short: nubia
 versions: [20]
