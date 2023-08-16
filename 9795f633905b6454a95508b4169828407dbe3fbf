@@ -16,6 +16,23 @@
       "message": "wait, example, show filters, uncheck hide discontinued devices, check x86 \u0026 x86_64 and note that fugu doesn\u0027t show?",
       "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ee3b482e_ea444495",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 64
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-16T19:21:17Z",
+      "side": 1,
+      "message": "mmm, never mind, release year defaults to 2017.\n\nWas that intentional?\n\nOne would think it would default to no value",
+      "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
