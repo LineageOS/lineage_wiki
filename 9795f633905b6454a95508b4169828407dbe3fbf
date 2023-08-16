@@ -33,6 +33,41 @@
       "message": "mmm, never mind, release year defaults to 2017.\n\nWas that intentional?\n\nOne would think it would default to no value",
       "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8663956c_1aaf4e16",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 64
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-08-16T19:30:37Z",
+      "side": 1,
+      "message": "r",
+      "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3acdf23_5c88de4e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 64
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-08-16T19:30:37Z",
+      "side": 1,
+      "message": "It defaults to 2010 here.",
+      "parentUuid": "ee3b482e_ea444495",
+      "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
