@@ -1,6 +1,5 @@
 architecture: arm64
 battery: {removable: False, capacity: 5100, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '11', ships_fw: True}
 before_recovery_install: {instructions: 'nubia', partitions: [dtbo, vbmeta]}
 bluetooth: {spec: '5', profiles: [A2DP]}
 cameras:
@@ -18,22 +17,23 @@ custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX651J'
 dimensions: {width: '78.5 mm (3.09 in)', height: '171.7 mm (6.76 in)', depth: '9.1 mm (0.36 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
-image: nx651j.png
+image: nx651j_variant2.png
 install_method: fastboot_nubia
 kernel: android_kernel_nubia_sm7250
 maintainers: [Cyborg2017]
-models: [NX651J]
-name: Play 5G
-peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, Proximity sensor, USB OTG, Wi-Fi Display]
+models: [NX651J-EEA]
+name: Red Magic 5G Lite
+peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-ram: 6/8 GB
+ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-release: 2020-04
-screen: {size: 6.65, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
+release: 2020-06
+screen: {size: 6.65, density: 388, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
 soc: Qualcomm SM7250 Snapdragon 765G
-storage: 128/256 GB UFS2.1
+storage: 256 GB UFS2.0
 tree: android_device_nubia_nx651j
 type: phone
+variant: 2
 vendor: Nubia
 vendor_short: nubia
 versions: [20]
