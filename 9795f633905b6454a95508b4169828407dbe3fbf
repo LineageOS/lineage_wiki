@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c09260d_5980ce15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 64
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-16T19:20:28Z",
+      "side": 1,
+      "message": "wait, example, show filters, uncheck hide discontinued devices, check x86 \u0026 x86_64 and note that fugu doesn\u0027t show?",
+      "revId": "9795f633905b6454a95508b4169828407dbe3fbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
