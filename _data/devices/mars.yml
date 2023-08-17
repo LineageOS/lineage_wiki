@@ -30,7 +30,7 @@ ram: 8/12GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2021-03
-screen: {size: 6.81, density: 515, resolution: '1440x3200', technology: 'Super AMOLED', refresh_rate: 120}
+screen: {size: 6.81, resolution: '1440x3200', technology: 'Super AMOLED', refresh_rate: 120}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 tree: android_device_xiaomi_mars
