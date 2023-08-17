@@ -411,10 +411,6 @@ function showFilters() {
 // Close the popup
 $('.popup-close-action, .page-overlay').on('click', function() {
   $('.page-overlay').addClass('closed');
-  $('html, body').css({
-    overflow: 'auto',
-    height: 'auto'
-  });
 });
 // Prevent popup close when clicking on the popup itself
 $('.popup-overlay').on('click', function(e) {
@@ -434,10 +430,6 @@ $('*[data-variant=1]').each(function () {
     $('#compare-link').attr('href', $(this).attr('data-url'));
     // don't remember last scroll position, always start at top
     $('#popup-variants .popup-body').scrollTop(0);
-    // prevent scrolling the outside content until closed
-    $('html, body').css({
-      overflow: 'hidden',
-    });
   });
   // Remove current click targets, they are just there as fallback solution
   $(this).find('a').each(function() {
