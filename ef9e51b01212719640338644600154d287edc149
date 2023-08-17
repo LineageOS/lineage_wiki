@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "787957cd_1f5464b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-08-17T01:34:09Z",
+      "side": 1,
+      "message": "What about doing it like this instead?\nJust a 1 line change and it works with old or new ruby and psych.\n\n\u003e -   YAML.load_file(yaml).to_json\n\u003e +   YAML.safe_load_file(yaml, permitted_classes: [Date]).to_json",
+      "revId": "ef9e51b01212719640338644600154d287edc149",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
