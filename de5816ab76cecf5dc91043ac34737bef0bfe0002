@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8ea9ae0b_e74f48d0",
+        "filename": "_includes/templates/device_build_before_init.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2023-08-17T10:57:48Z",
+      "side": 1,
+      "message": "\"versions\" is missing an \u0027s\u0027, and the dot at the end is in the inline code block by mistake.",
+      "revId": "de5816ab76cecf5dc91043ac34737bef0bfe0002",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
