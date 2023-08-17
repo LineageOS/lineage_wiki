@@ -113,6 +113,11 @@ a.anchorjs-link {
   }
 }
 
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
+
 // Toc
 #toc {
   background: #fafafa;
