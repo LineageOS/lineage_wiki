@@ -23,6 +23,10 @@
 2. Download [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) since your device uses retrofitted dynamic partitions.
 {%- endif %}
 3. Connect your device to your PC via USB if it isn't already.
+{%- if device.has_no_usb %}
+4. Boot into fastboot mode via a key combination:
+    * {{ device.download_boot }}
+{%- else %}
 4. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb -d reboot bootloader
@@ -32,6 +36,7 @@ adb -d reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
+{%- endif %}
 5. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
