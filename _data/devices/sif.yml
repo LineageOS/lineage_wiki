@@ -1,0 +1,38 @@
+architecture: arm64
+battery: None
+before_install: {instructions: 'sif'}
+bluetooth: {spec: '4.1'}
+cameras: []
+codename: sif
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 20
+dimensions: None
+download_boot: With the device unplugged, plug in the device while holding the <kbd>Pairing Button</kbd> until a menu is displayed.
+gpu: NVIDIA GM20B (Maxwell)
+has_no_usb: true
+image: sif.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
+maintainers: [webgeek1234, npjohnson]
+name: Shield TV (2019) [Android TV]
+network: None
+no_oem_unlock_switch: true
+peripherals: None
+quirks: [no_usb]
+ram: 2 GB
+recovery_boot: With the device powered off, hold the <kbd>Pairing Button</kbd> (the button above the HDMI port) and plug the device into power.
+  Next, click the <kbd>Pairing Button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>Pairing Button</kbd> to select this option.
+recovery_partition_name: recovery
+release: 2019-10-28
+screen: None
+sdcard: {sizeMax: '128 GB'}
+soc: NVIDIA Tegra X1+ (T210b01)
+storage: 8 GB
+tree: android_device_nvidia_sif
+type: Set top box
+vendor: NVIDIA
+vendor_short: nvidia
+versions: [20]
+wifi: 802.11 a/b/g/n/ac
