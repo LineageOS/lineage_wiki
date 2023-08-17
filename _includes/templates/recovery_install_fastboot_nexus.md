@@ -10,6 +10,10 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 1. Enable OEM unlock in the Developer options under device Settings, if present.
 {% endunless %}
 2. Connect the device to your PC via USB.
+{%- if device.has_no_usb %}
+3. Boot into fastboot mode via a key combination:
+    * {{ device.download_boot }}
+{%- else %}
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb -d reboot bootloader
@@ -19,6 +23,7 @@ adb -d reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
+{%- endif %}
 4. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
