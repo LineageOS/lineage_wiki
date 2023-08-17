@@ -496,6 +496,7 @@ definitions:
       - hardware_encryption
       - ims
       - nfc
+      - usb
     type: string
 properties:
   architecture:
@@ -715,6 +716,9 @@ properties:
         type: array
       - enum:
           - None
+  has_no_usb:
+    "$id": "/properties/has_no_usb"
+    type: boolean
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
