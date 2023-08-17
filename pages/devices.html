@@ -124,12 +124,12 @@ function applyFilters() {
 }
 
 function closeFilters() {
-  $("#popup-filters").addClass("closed").removeClass("active");
+  $("#popup-filters").trigger("close");
   applyFilters();
 }
 
 function showFilters() {
-  $("#popup-filters").addClass("active").removeClass("closed");
+  $("#popup-filters").trigger("open");
 }
 </script>
 
@@ -408,13 +408,25 @@ function showFilters() {
 </div>
 
 <script>
-// Close the popup
-$('.popup-close-action, .page-overlay').on('click', function() {
-  $('.page-overlay').addClass('closed');
+// Handle page overlay click and close events
+$('.page-overlay').on('click close', function() {
+  $(this).removeClass('active').addClass('closed');
   $('html, body').css({
     overflow: 'auto',
     height: 'auto'
   });
+});
+// Handle page overlay open event
+$('.page-overlay').on('open', function() {
+  $(this).addClass('active').removeClass('closed');
+  $('html, body').css({
+    overflow: 'hidden',
+  });
+});
+
+// Close the popup
+$('.popup-close-action').on('click', function() {
+  $(this).parents('.page-overlay').trigger('close');
 });
 // Prevent popup close when clicking on the popup itself
 $('.popup-overlay').on('click', function(e) {
@@ -427,17 +439,13 @@ $('*[data-variant=1]').each(function () {
   $(this).attr('onclick', '').unbind('click');
   $(this).on('click', function() {
     codename = $(this).attr('data-codename');
-    $('#popup-variants').addClass('active').removeClass('closed');
+    $('#popup-variants').trigger('open');
     // Replace relevant parts of dialog content
     $('#popup-variants .popup-variants-list').html($(this).find('.variants-list').html());
     $('#popup-variants .popup-subtitle').text(codename);
     $('#compare-link').attr('href', $(this).attr('data-url'));
     // don't remember last scroll position, always start at top
     $('#popup-variants .popup-body').scrollTop(0);
-    // prevent scrolling the outside content until closed
-    $('html, body').css({
-      overflow: 'hidden',
-    });
   });
   // Remove current click targets, they are just there as fallback solution
   $(this).find('a').each(function() {
