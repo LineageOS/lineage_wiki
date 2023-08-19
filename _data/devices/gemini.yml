@@ -13,7 +13,7 @@ current_branch: 19.1
 dimensions: {width: '69.2 mm (2.72 in)', height: '144.6 mm (5.69 in)', depth: '7.3 mm (0.29 in)'}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-format_on_upgrade: true
+format_on_upgrade: fbe
 gpu: Qualcomm Adreno 530
 image: gemini.png
 install_method: fastboot_xiaomi
