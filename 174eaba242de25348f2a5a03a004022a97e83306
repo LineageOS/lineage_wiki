@@ -16,6 +16,23 @@
       "message": "variant 2 doesn\u0027t have a fw requirement?",
       "revId": "174eaba242de25348f2a5a03a004022a97e83306",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1231836_23387287",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-19T00:57:45Z",
+      "side": 1,
+      "message": "this has merge conflicts and Michaels comment, fix and re-add me when ready.",
+      "revId": "174eaba242de25348f2a5a03a004022a97e83306",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
