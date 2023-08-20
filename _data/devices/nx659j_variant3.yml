@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX659J'
-dimensions: {width: '78 mm (3.07 in)', height: '168.6 mm (6.64 in)', depth: '9.8 mm (0.39 in)'}
+dimensions: {width: 78, height: 168.6, depth: 9.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 650
 image: nx659j_variant3.png

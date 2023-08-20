@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 16.0
-dimensions: {width: '169 mm (6.7 in)', height: '237.3 mm (9.3 in)', depth: '5.6 mm (0.22 in)'}
+dimensions: {width: 169, height: 237.3, depth: 5.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 510
 image: gts210.png

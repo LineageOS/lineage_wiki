@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: '74.8 mm (2.94 in)', height: '144.6 mm (5.69 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 74.8, height: 144.6, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: m216.png

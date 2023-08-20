@@ -15,7 +15,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '76.4 mm (3.01 in)', height: '163.7 mm (6.44 in)', depth: '7.8 mm (0.31 in)'}
+dimensions: {width: 76.4, height: 163.7, depth: 7.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm8250_vab

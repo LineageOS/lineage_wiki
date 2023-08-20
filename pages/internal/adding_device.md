@@ -115,7 +115,7 @@ The following list will mention Model-Value pairs where applicable.
   {{ properties.cpu.enum | join: ", " }}
   ```
 
-* `dimensions`: Use the format `{width: '', height: '', depth: ''}` with `123 mm (12.3 in)` being the proper format for each of them (including the exact whitespaces!).
+* `dimensions`: Use the format `{width: <w>, height: <h>, depth: <d>}` with each being the dimension in [mm]
 
   This property supports Model-Value pairs.
 

@@ -10,7 +10,7 @@ cpu: Krait 200
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 13.0
-dimensions: {width: '65.3 mm (2.57 in)', height: '129.3 mm (5.09 in)', depth: '10.4 mm (0.41 in)'}
+dimensions: {width: 65.3, height: 129.3, depth: 10.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 320
 image: ghost.png

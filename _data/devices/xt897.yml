@@ -11,7 +11,7 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_codename: asanti
-dimensions: {width: '66 mm (2.6 in)', height: '126.5 mm (4.98 in)', depth: '13.7 mm (0.54 in)'}
+dimensions: {width: 66, height: 126.5, depth: 13.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
 gpu: Qualcomm Adreno 225

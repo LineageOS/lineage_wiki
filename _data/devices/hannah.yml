@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.4 GHz
 current_branch: 18.1
-dimensions: {width: '75.3 mm (2.96 in)', height: '161.9 mm (6.37 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 75.3, height: 161.9, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
 image: hannah.png

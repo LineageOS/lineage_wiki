@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 15.1
-dimensions: {width: '68 mm (2.7 in)', height: '133 mm (5.2 in)', depth: '10.6 mm (0.42 in)'}
+dimensions: {width: 68, height: 133, depth: 10.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: huashan.png

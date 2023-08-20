@@ -13,7 +13,7 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
 current_branch: 20
-dimensions: {width: '75.73 mm (2.98 in)', height: '160.53 mm (6.32 in)', depth: '6.81 mm (0.26 in)'}
+dimensions: {width: 75.73, height: 160.53, depth: 6.81}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 642

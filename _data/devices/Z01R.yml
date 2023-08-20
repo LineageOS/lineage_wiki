@@ -10,7 +10,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4x2.7 GHz & 4x1.7 GHz
 current_branch: 20
-dimensions: {width: '75.7 mm (2.98 in)', height: '153 mm (6.02 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 75.7, height: 153, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 630

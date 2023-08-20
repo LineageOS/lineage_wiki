@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=11410963190603913507
-dimensions: {width: '77.3 mm (3.04 in)', height: '155.7 mm (6.13 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 77.3, height: 155.7, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 330
 image: ham.png

@@ -9,7 +9,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 2.0 GHz
 current_branch: 16.0
-dimensions: {width: '70.3 mm (2.77 in)', height: '145.6 mm (5.73 in)', depth: '8.3 mm (0.33 in)'}
+dimensions: {width: 70.3, height: 145.6, depth: 8.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 530

@@ -9,7 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 13.0
-dimensions: {width: '122.4 mm (4.8 in)', height: '193.7 mm (7.6 in)', depth: '10.5 mm (0.41 in)'}
+dimensions: {width: 122.4, height: 193.7, depth: 10.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 image: espresso3g.png

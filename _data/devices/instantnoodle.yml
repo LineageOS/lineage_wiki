@@ -13,7 +13,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '72.9 mm (2.87 in)', height: '160.2 mm (6.31 in)', depth: '8 mm (0.31 in)'}
+dimensions: {width: 72.9, height: 160.2, depth: 8}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8250
 gpu: Qualcomm Adreno 650

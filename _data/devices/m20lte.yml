@@ -12,7 +12,7 @@ cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2 x 1.8 GHz + 6 x 1.6 GHz
 current_branch: 18.1
-dimensions: {width: '74.5 mm (2.93 in)', height: '156.4 mm (6.16 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 74.5, height: 156.4, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G71 MP2
 image: m20lte.png

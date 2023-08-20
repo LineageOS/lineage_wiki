@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
-dimensions: {width: '76.6 mm (3.02 in)', height: '153 mm (6.02 in)', depth: '9.8 mm (0.39 in)'}
+dimensions: {width: 76.6, height: 153, depth: 9.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: athene.png

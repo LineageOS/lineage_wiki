@@ -9,7 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
-dimensions: {width: '71 mm (2.8 in)', height: '137 mm (5.4 in)', depth: '8.6 mm (0.339 in)'}
+dimensions: {width: 71, height: 137, depth: 8.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: i9300.png

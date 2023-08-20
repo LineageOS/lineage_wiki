@@ -10,7 +10,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/crossdevice-dev/sony/twrp-3-1-0-z5-z5c-z5p-t3571050
-dimensions: {width: '65 mm (2.6 in)', height: '127 mm (5 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 65, height: 127, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 430
 image: suzuran.png

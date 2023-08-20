@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
-dimensions: {width: '69.4 mm (2.73 in)', height: '143 mm (5.63 in)', depth: '8.4 mm (0.33 in)'}
+dimensions: {width: 69.4, height: 143, depth: 8.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Qualcomm Adreno 405

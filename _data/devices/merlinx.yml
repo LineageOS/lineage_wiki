@@ -12,7 +12,7 @@ cpu: Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '77.2 mm (3.04 in)', height: '162.3 mm (6.39 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 77.2, height: 162.3, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: ARM Mali-G52 MC2

@@ -12,7 +12,7 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '74.5 mm (2.93 in)', height: '156.8 mm (6.17 in)', depth: '8.7 mm (0.34 in)'}
+dimensions: {width: 74.5, height: 156.8, depth: 8.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 616

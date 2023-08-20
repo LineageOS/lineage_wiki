@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: '124.2 mm (4.89 in)', height: '210.8 mm (8.30 in)', depth: '9.9 mm (0.39 in)'}
+dimensions: {width: 124.2, height: 210.8, depth: 9.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer.
   Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
 gpu: Qualcomm Adreno 305

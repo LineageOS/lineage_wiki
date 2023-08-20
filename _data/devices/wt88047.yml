@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 17.1
-dimensions: {width: '67.2 mm (2.65 in)', height: '134 mm (5.28 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 67.2, height: 134, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: wt88047.png

@@ -13,7 +13,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '75.4 mm (2.97 in)', height: '163.3 mm (6.43 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 75.4, height: 163.3, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 650

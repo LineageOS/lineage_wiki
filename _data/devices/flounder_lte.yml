@@ -10,7 +10,7 @@ cpu_cores: '2'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
 custom_recovery_codename: flounder
-dimensions: {width: '153.68 mm (6.05 in)', height: '228.25 mm (8.99 in)', depth: '7.95 mm (0.31 in)'}
+dimensions: {width: 153.68, height: 228.25, depth: 7.95}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: NVIDIA Kepler DX1 192-core

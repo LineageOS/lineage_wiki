@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
 current_branch: 14.1
-dimensions: {width: '70.5 mm (2.78 in)', height: '143.4 mm (5.65 in)', depth: '6.8 mm (0.27 in)'}
+dimensions: {width: 70.5, height: 143.4, depth: 6.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP8
 image: zeroltexx.png

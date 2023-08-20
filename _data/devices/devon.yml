@@ -13,7 +13,7 @@ cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '73.8 mm (2.91 in)', height: '161.8 mm (6.37 in)', depth: '8.5 mm (0.33 in)'}
+dimensions: {width: 73.8, height: 161.8, depth: 8.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: devon.png

@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: '72 mm (2.83 in)', height: '149 mm (5.87 in)', depth: '7 mm (0.28 in)'}
+dimensions: {width: 72, height: 149, depth: 7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 418
 image: ether.png

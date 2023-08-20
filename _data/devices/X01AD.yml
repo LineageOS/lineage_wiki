@@ -10,7 +10,7 @@ cpu: Kryo 250
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 18.1
-dimensions: {width: '76.3 mm (3.00 in)', height: '158.4 mm (6.24 in)', depth: '7.7 mm (0.30 in)'}
+dimensions: {width: 76.3, height: 158.4, depth: 7.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 506

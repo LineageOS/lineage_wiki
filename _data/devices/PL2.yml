@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '75.8 mm (2.98 in)', height: '148.8 mm (5.86 in)', depth: '8.2 mm (0.32 in)'}
+dimensions: {width: 75.8, height: 148.8, depth: 8.2}
 download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508
 image: PL2.png

@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '68.8 mm (2.7 in)', height: '147.1 mm (5.79 in)', depth: '8.2 mm (0.32 in)'}
+dimensions: {width: 68.8, height: 147.1, depth: 8.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 640
 image: floral.png
