@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '73.2 mm (2.88 in)', height: '155.6 mm (6.13 in)', depth: '8.7 mm (0.34 in)'}
+dimensions: {width: 73.2, height: 155.6, depth: 8.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MC10
 image: panther.png

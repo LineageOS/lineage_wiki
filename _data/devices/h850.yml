@@ -11,7 +11,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
-dimensions: {width: '73.9 mm (2.91 in)', height: '149.4 mm (5.88 in)', depth: '7.7 mm (0.30 in)'}
+dimensions: {width: 73.9, height: 149.4, depth: 7.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
 image: g5.png

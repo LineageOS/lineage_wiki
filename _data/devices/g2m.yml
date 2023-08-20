@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/g2-mini/development/unified-twrp-recovery-3-0-0-lg-g2-mini-t3311316
-dimensions: {width: '66 mm (2.6 in)', height: '129.6 mm (5.1 in)', depth: '9.8 mm (0.39 in)'}
+dimensions: {width: 66, height: 129.6, depth: 9.8}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 305
 image: g2m.png

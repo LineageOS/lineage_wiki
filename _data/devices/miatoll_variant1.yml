@@ -13,7 +13,7 @@ cpu: Kryo 465
 cpu_cores: '8'
 cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
 current_branch: 20
-dimensions: {width: '76.6 mm (3.02 in)', height: '165.7 mm (6.52 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 76.6, height: 165.7, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 618

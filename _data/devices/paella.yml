@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
 custom_recovery_codename: piccolometal
-dimensions: {width: '70.5 mm (2.78 in)', height: '144.4 mm (5.69 in)', depth: '7.5 mm (0.3 in)'}
+dimensions: {width: 70.5, height: 144.4, depth: 7.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: paella.png

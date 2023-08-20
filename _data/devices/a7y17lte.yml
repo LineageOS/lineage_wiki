@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
 current_branch: 18.1
-dimensions: {width: '77.6 mm (3.06 in)', height: '156.8 mm (6.17 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 77.6, height: 156.8, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
 image: a7y17lte.png

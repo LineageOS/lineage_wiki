@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 19.1
-dimensions: {width: '70 mm (2.76 in)', height: '142 mm (5.59 in)', depth: '9.7 mm (0.38 in)'}
+dimensions: {width: 70, height: 142, depth: 9.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 508
 image: pioneer.png

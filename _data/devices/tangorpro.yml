@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '258 mm (10.2 in)', height: '169 mm (6.7 in)', depth: '8.1 mm (0.3 in)'}
+dimensions: {width: 258, height: 169, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MP7
 image: tangorpro.png

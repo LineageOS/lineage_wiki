@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 18.1
-dimensions: {width: '76 mm (2.99 in)', height: '153 mm (6.02 in)', depth: '8.3 mm (0.33 in)'}
+dimensions: {width: 76, height: 153, depth: 8.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: kuntao.png

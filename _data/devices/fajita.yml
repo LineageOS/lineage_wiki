@@ -12,7 +12,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '74.8 mm (2.94 in)', height: '157.5 mm (6.20 in)', depth: '8.2 mm (0.32 in)'}
+dimensions: {width: 74.8, height: 157.5, depth: 8.2}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sdm845
 gpu: Qualcomm Adreno 630

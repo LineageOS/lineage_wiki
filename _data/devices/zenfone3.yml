@@ -13,8 +13,8 @@ cpu_freq: 2.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://osdn.net/projects/aosp-zenfone3/releases/p16364
 dimensions:
-- ZE520KL: {width: '74 mm (2.9 in)', height: '146.9 mm (5.8 in)', depth: '7.7 mm (0.3 in)'}
-- ZE552KL: {width: '77.4 mm (3 in)', height: '152.6 mm (6 in)', depth: '7.7 mm (0.3 in)'}
+- ZE520KL: {width: 74, height: 146.9, depth: 7.7}
+- ZE552KL: {width: 77.4, height: 152.6, depth: 7.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: zenfone3.png

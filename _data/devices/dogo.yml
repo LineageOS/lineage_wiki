@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: '67.3 mm (2.65 in)', height: '131.3 mm (5.17 in)', depth: '10.5 mm (0.41 in)'}
+dimensions: {width: 67.3, height: 131.3, depth: 10.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: dogo.png

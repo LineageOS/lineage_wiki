@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '76.6 mm (3.02 in)', height: '162.9 mm (6.41 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 76.6, height: 162.9, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MC10
 image: cheetah.png

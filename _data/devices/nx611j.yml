@@ -11,7 +11,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX611J'
-dimensions: {width: '70.6 mm (2.78 in)', height: '148.0 mm (5.83 in)', depth: '7.6 mm (0.30 in)'}
+dimensions: {width: 70.6, height: 148.0, depth: 7.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 512
 has_recovery_partition: true

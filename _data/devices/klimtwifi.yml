@@ -9,7 +9,7 @@ cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
-dimensions: {width: '125.6 mm (4.9 in)', height: '212.8 mm (8.4 in)', depth: '6.6 mm (0.26 in)'}
+dimensions: {width: 125.6, height: 212.8, depth: 6.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: klimtwifi.png

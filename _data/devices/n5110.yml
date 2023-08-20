@@ -9,7 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: {width: '135.9 mm (5.35 in)', height: '210.8 mm (8.30 in)', depth: '8.0 mm (0.31 in)'}
+dimensions: {width: 135.9, height: 210.8, depth: 8.0}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: n5100.png

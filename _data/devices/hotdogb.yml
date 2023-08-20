@@ -13,7 +13,7 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
-dimensions: {width: '74.4 mm (2.93 in)', height: '160.9 mm (6.33 in)', depth: '8.1 mm (0.32 in)'}
+dimensions: {width: 74.4, height: 160.9, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8150_dynamic
 gpu: Qualcomm Adreno 640

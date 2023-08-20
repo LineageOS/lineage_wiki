@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.0 GHz
 current_branch: 14.1
-dimensions: {width: '65 mm (2.56 in)', height: '128.7 mm (5.07 in)', depth: '9.7 mm (0.38 in)'}
+dimensions: {width: 65, height: 128.7, depth: 9.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 305
 image: taoshan.png

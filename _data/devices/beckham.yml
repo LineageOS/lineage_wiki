@@ -12,7 +12,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 current_branch: 20
-dimensions: {width: '76.5 mm (3.01 in)', height: '156.5 mm (6.16 in)', depth: '6.8 mm (0.27 in)'}
+dimensions: {width: 76.5, height: 156.5, depth: 6.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 509
 image: beckham.png

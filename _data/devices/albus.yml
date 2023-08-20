@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 8 x 2.21 GHz
 current_branch: 18.1
-dimensions: {width: '76.2 mm (3 in)', height: '156.2 mm (6.1 in)', depth: '6 mm (0.24 in)'}
+dimensions: {width: 76.2, height: 156.2, depth: 6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: albus.png

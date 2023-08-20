@@ -12,7 +12,7 @@ cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '76.4 mm (3.01 in)', height: '164.2 mm (6.46 in)', depth: '7.4 mm (0.29 in)'}
+dimensions: {width: 76.4, height: 164.2, depth: 7.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_sm7325
 gpu: Qualcomm Adreno 642L

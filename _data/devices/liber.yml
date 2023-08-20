@@ -13,7 +13,7 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: '162.9 mm (6.41 in)', height: '76.4 mm (3.01 in)', depth: '9.6 mm (0.38 in)'}
+dimensions: {width: 162.9, height: 76.4, depth: 9.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
   Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 618

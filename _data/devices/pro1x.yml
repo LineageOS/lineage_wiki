@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '73.6 mm (2.90 in)', height: '154 mm (6.06 in)', depth: '13.98 mm (0.55 in)'}
+dimensions: {width: 73.6, height: 154, depth: 13.98}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 has_recovery_partition: true

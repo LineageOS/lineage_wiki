@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: {width: '69 mm (2.7 in)', height: '137 mm (5.4 in)', depth: '9.9 mm (0.39 in)'}
+dimensions: {width: 69, height: 137, depth: 9.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 305

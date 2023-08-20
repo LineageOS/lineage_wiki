@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX651J'
-dimensions: {width: '78.5 mm (3.09 in)', height: '171.7 mm (6.76 in)', depth: '9.1 mm (0.36 in)'}
+dimensions: {width: 78.5, height: 171.7, depth: 9.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: nx651j_variant2.png

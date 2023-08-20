@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 2.0 GHz
 current_branch: 20
-dimensions: {width: '124.4 mm (4.90 in)', height: '210 mm (8.27 in)', depth: '8 mm (0.31 in)'}
+dimensions: {width: 124.4, height: 210, depth: 8}
 download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_samsung_gtowifi
 gpu: Qualcomm Adreno 504
