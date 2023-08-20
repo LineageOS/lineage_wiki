@@ -16,6 +16,23 @@
       "message": "Ready for now.",
       "revId": "9c4823004fe78a15f0649b5af71f938f4c5b6f9e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a79daa17_ed0377b6",
+        "filename": "_data/devices/nx651j_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-08-20T11:42:42Z",
+      "side": 1,
+      "message": "remove density",
+      "revId": "9c4823004fe78a15f0649b5af71f938f4c5b6f9e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

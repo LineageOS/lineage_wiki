@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cfccef50_7b5436bb",
+        "filename": "_data/devices/nx651j_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-08-20T11:42:42Z",
+      "side": 0,
+      "message": "no fw requirement for variant2?",
+      "revId": "878974852de3baf4ceb4543f77a2b9b3582f975e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
