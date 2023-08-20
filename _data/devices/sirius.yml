@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 18.1
-dimensions: {width: '73.3 mm (2.89 in)', height: '146.8 mm (5.78 in)', depth: '8.2 mm (0.32 in)'}
+dimensions: {width: 73.3, height: 146.8, depth: 8.2}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 330
 image: sirius.png

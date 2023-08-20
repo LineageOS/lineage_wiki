@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922469
-dimensions: {width: '73 mm (2.87 in)', height: '142.4 mm (5.6 in)', depth: '8.2 mm (0.33 in)'}
+dimensions: {width: 73, height: 142.4, depth: 8.2}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 306

@@ -10,7 +10,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX609J'
-dimensions: {width: '74.9 mm (2.95 in)', height: '158.1 mm (6.22 in)', depth: '9.5 mm (0.37 in)'}
+dimensions: {width: 74.9, height: 158.1, depth: 9.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 has_recovery_partition: true

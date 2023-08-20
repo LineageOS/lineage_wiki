@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: '69.8 mm (2.75 in)', height: '131.7 mm (5.18 in)', depth: '9.8 mm (0.39 in)'}
+dimensions: {width: 69.8, height: 131.7, depth: 9.8}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: odin.png

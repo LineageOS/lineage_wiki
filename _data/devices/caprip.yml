@@ -14,7 +14,7 @@ cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz & 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '75.7 mm (2.98 in)', height: '165.2 mm (6.50 in)', depth: '9.1 mm (0.36 in)'}
+dimensions: {width: 75.7, height: 165.2, depth: 9.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: caprip.png

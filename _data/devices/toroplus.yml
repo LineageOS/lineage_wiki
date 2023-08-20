@@ -9,7 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 13.0
-dimensions: {width: '67.9 mm (2.7 in)', height: '135.5 mm (5.3 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 67.9, height: 135.5, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 gpu: PowerVR SGX540
 image: tuna.png

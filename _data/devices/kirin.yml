@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 19.1
-dimensions: {width: '68 mm (2.68 in)', height: '163 mm (6.42 in)', depth: '8.4 mm (0.33 in)'}
+dimensions: {width: 68, height: 163, depth: 8.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 508
 image: kirin.png

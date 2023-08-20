@@ -11,7 +11,7 @@ cpu_cores: 4
 cpu_freq: 1.9GHz
 current_branch: 18.1
 custom_recovery_link: https://www.androidfilehost.com/?fid=7161016148664832488
-dimensions: {width: '69.8 mm (2.7 in)', height: '136.6 mm (5.4 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 69.8, height: 136.6, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 320

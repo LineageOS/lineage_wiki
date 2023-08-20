@@ -14,7 +14,7 @@ cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '73.6 mm (2.90 in)', height: '163.2 mm (6.43 in)', depth: '8.7 mm (0.34 in)'}
+dimensions: {width: 73.6, height: 163.2, depth: 8.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8350
 gpu: Qualcomm Adreno 660

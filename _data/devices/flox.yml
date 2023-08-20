@@ -10,7 +10,7 @@ cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 18.1
-dimensions: {width: '120 mm (4.7 in)', height: '198.5 mm (7.8 in)', depth: '10.5 mm (0.41 in)'}
+dimensions: {width: 120, height: 198.5, depth: 10.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
 format_on_upgrade: true
 gpu: Qualcomm Adreno 320

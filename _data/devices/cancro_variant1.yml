@@ -9,7 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
-dimensions: {width: '73.6 mm (2.9 in)', height: '144 mm (5.7 in)', depth: '8.1 mm (0.32 in)'}
+dimensions: {width: 73.6, height: 144, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 330

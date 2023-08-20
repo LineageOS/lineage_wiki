@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '73.2 mm (2.88 in)', height: '156.2 mm (6.15 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 73.2, height: 156.2, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: barbet.png

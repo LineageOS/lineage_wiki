@@ -11,7 +11,7 @@ cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz & 6 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '160 mm (6.3 in)', height: '245 mm (9.65 in)', depth: '5.5 mm (0.22 in)'}
+dimensions: {width: 160, height: 245, depth: 5.5}
 download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_samsung_gts4lv
 gpu: Qualcomm Adreno 615

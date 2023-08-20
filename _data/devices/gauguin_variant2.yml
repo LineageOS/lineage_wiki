@@ -13,7 +13,7 @@ cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: '76.8 mm (3.02 in)', height: '165.4 mm (6.51 in)', depth: '9 mm (0.35 in)'}
+dimensions: {width: 76.8, height: 165.4, depth: 9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 619

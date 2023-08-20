@@ -13,7 +13,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '74 mm (2.9 in)', height: '153.9 mm (6.06 in)', depth: '8.2 mm (0.32 in)'}
+dimensions: {width: 74, height: 153.9, depth: 8.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: bramble.png

@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 current_branch: 20
-dimensions: {width: '69.96 mm (2.75 in)', height: '139.24 mm (5.48 in)', depth: '8.65 mm (0.34 in)'}
+dimensions: {width: 69.96, height: 139.24, depth: 8.65}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
 image: santoni.png

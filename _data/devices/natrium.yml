@@ -10,7 +10,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz + 2 x 2.19 GHz
 current_branch: 19.1
-dimensions: {width: '77.7 mm (3.06 in)', height: '154.6 mm (6.09 in)', depth: '8 mm (0.31 in)'}
+dimensions: {width: 77.7, height: 154.6, depth: 8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 format_on_upgrade: fbe

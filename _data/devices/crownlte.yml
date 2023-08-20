@@ -11,7 +11,7 @@ cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '76.4 mm (3.0 in)', height: '161.9 mm (6.3 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 76.4, height: 161.9, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
 image: crownlte.png

@@ -79,22 +79,19 @@ definitions:
     properties:
       width:
         description: Device width
-        "$ref": "#/definitions/dimension_string"
+        type: number
       height:
         description: Device height
-        "$ref": "#/definitions/dimension_string"
+        type: number
       depth:
         description: Device depth
-        "$ref": "#/definitions/dimension_string"
+        type: number
     required:
     - width
     - height
     - depth
     additionalProperties: False
     type: object
-  dimension_string:
-    pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
-    type: string
   gpu_data:
     enum:
     - ARM Mali-400 MP4
@@ -620,8 +617,8 @@ properties:
     - "$ref": "#/definitions/dimension_data"
     - description: Array of maps of model numbers to device dimensions
       examples:
-      - SM-9000A: {width: '127 mm (5 in)', height: '127 mm (5 in)', depth: '127 mm (5 in)'}
-      - SM-9000B: {width: '127 mm (5 in)', height: '127 mm (5 in)', depth: '127 mm (5 in)'}
+      - SM-9000A: {width: 127, height: 127, depth: 127}
+      - SM-9000B: {width: 127, height: 127, depth: 127}
       items:
         additionalProperties:
           "$ref": "#/definitions/dimension_data"

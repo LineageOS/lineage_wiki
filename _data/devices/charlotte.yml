@@ -10,7 +10,7 @@ cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
 current_branch: 16.0
-dimensions: {width: '73.9 mm (2.91 in)', height: '155 mm (6.1 in)', depth: '7.8 mm (0.31 in)'}
+dimensions: {width: 73.9, height: 155, depth: 7.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP12
 image: charlotte.png

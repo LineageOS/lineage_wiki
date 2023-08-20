@@ -11,7 +11,7 @@ cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.02 GHz + 4 x 1.46 GHz
 current_branch: 20
-dimensions: {width: '75.4 mm (2.96 in)', height: '156.5 mm (6.16 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 75.4, height: 156.5, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
 image: Mi439_variant2_4.png

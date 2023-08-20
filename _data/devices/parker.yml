@@ -14,7 +14,7 @@ cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 19.1
-dimensions: {width: '75 mm (2.95 in)', height: '158 mm (6.22 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 75, height: 158, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 612
 image: parker.png

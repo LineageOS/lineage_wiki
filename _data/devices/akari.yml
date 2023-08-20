@@ -11,7 +11,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '72 mm (2.83 in)', height: '153 mm (6.02 in)', depth: '11.1 mm (0.44 in)'}
+dimensions: {width: 72, height: 153, depth: 11.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 630
 image: akari.png

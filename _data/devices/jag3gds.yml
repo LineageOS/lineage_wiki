@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=962187416754466684
-dimensions: {width: '69.6 mm (2.74 in)', height: '137.7 mm (5.42 in)', depth: '10.3 mm (0.41 in)'}
+dimensions: {width: 69.6, height: 137.7, depth: 10.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 305
 image: jag3gds.png

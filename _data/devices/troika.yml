@@ -12,7 +12,7 @@ cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
 current_branch: 20
-dimensions: {width: '71.2 mm (2.8 in)', height: '160.1 mm (6.3 in)', depth: '9.2 mm (0.36 in)'}
+dimensions: {width: 71.2, height: 160.1, depth: 9.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP3
 image: troika.png
