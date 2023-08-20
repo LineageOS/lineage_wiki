@@ -33,6 +33,24 @@
       "message": "this has merge conflicts and Michaels comment, fix and re-add me when ready.",
       "revId": "174eaba242de25348f2a5a03a004022a97e83306",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a43dbcae_50e3f562",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24457
+      },
+      "writtenOn": "2023-08-20T11:29:50Z",
+      "side": 1,
+      "message": "for variant1: keep the device based on official A11 firmware + A11 kernel\nfor variant2: Only A10 firmware is officially released (but doesn\u0027t affect the kernel compatibility with variant1)",
+      "parentUuid": "59c5e467_a66e2815",
+      "revId": "174eaba242de25348f2a5a03a004022a97e83306",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
