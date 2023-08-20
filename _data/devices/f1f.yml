@@ -10,7 +10,7 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922613
-dimensions: {width: '71 mm (2.80 in)', height: '143.5 mm (5.65 in)', depth: '7.3 mm (0.29 in)'}
+dimensions: {width: 71, height: 143.5, depth: 7.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: f1f.png

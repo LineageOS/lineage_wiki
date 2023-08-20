@@ -10,7 +10,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 2 x 1.7 GHz
 current_branch: 14.1
-dimensions: {width: '111.1 mm (4.37 in)', height: '188 mm (7.4 in)', depth: '9.9 mm (0.39 in)'}
+dimensions: {width: 111.1, height: 188, depth: 9.9}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 305
 image: lt02ltespr.png

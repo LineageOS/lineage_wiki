@@ -10,7 +10,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '76.7 mm (3.02 in)', height: '157.9 mm (6.22 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 76.7, height: 157.9, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: taimen.png

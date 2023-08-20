@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
-dimensions: {width: '72 mm (2.8 in)', height: '146 mm (5.7 in)', depth: '6.9 mm (0.27 in)'}
+dimensions: {width: 72, height: 146, depth: 6.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 430
 image: ivy.png

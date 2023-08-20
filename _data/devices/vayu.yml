@@ -13,7 +13,7 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 19.1
-dimensions: {width: '76.8 mm (3.02 in)', height: '165.8 mm (6.53 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 76.8, height: 165.8, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 640

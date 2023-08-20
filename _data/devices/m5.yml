@@ -8,7 +8,7 @@ cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '85 mm (3.35 in)', height: '56 mm (2.2 in)', depth: '17 mm (0.67 in)'}
+dimensions: {width: 85, height: 56, depth: 17}
 download_boot: Press and hold the `SW5` button on the board, and plug into your PC.
 gpu: ARM Mali-G31 MP2
 image: m5.png

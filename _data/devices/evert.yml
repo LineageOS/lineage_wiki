@@ -12,7 +12,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 20
-dimensions: {width: '75.5 mm (2.9 in)', height: '160 mm (6.3 in)', depth: '8.0 mm (0.31 in)'}
+dimensions: {width: 75.5, height: 160, depth: 8.0}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508
 image: evert.png

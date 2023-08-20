@@ -13,7 +13,7 @@ cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 2,84 GHz
 current_branch: 20
-dimensions: {width: '76.45 mm (3.01 in)', height: '163.57 mm (6.44 in)', depth: '7.87 mm (0.31 in)'}
+dimensions: {width: 76.45, height: 163.57, depth: 7.87}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 660

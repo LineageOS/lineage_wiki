@@ -12,7 +12,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 18.1
-dimensions: {width: '70.9 mm (2.79 in)', height: '138.5 mm (5.45 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 70.9, height: 138.5, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 330
 image: g2.png

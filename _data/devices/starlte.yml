@@ -10,7 +10,7 @@ cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '68.7 mm (2.7 in)', height: '147.7 mm (5.8 in)', depth: '8.5 mm (0.33 in)'}
+dimensions: {width: 68.7, height: 147.7, depth: 8.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
 image: starlte.png

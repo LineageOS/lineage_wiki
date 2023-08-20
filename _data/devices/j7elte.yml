@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 17.1
-dimensions: {width: '78.7 mm (3.10 in)', height: '152.2 mm (5.99 in)', depth: '7.5 mm (0.30 in)'}
+dimensions: {width: 78.7, height: 152.2, depth: 7.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
 image: j7elte.png

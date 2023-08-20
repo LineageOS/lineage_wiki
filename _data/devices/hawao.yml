@@ -13,7 +13,7 @@ cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '73.5 mm (2.89 in)', height: '160.4 mm (6.31 in)', depth: '8 mm (0.31 in)'}
+dimensions: {width: 73.5, height: 160.4, depth: 8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: hawao.png

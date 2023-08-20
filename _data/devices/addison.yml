@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 18.1
-dimensions: {width: '76.4 mm (3.01 in)', height: '156.4 mm (6.16 in)', depth: '7 mm (0.28 in)'}
+dimensions: {width: 76.4, height: 156.4, depth: 7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: addison.png

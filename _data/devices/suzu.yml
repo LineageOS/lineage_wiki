@@ -10,7 +10,7 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: '69 mm (2.7 in)', height: '143 mm (5.6 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 69, height: 143, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 510
 image: suzu.png

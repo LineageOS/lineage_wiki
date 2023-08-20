@@ -9,7 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-dimensions: {width: '81.3 mm (3.20 in)', height: '156 mm (6.14 in)', depth: '7.7 mm (0.30 in)'}
+dimensions: {width: 81.3, height: 156, depth: 7.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
   A small green Android logo appears at the center of the screen.
 gpu: Qualcomm Adreno 330

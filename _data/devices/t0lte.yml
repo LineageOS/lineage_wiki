@@ -9,7 +9,7 @@ cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: {width: '80.50 mm (3.17 in)', height: '151.10 mm (5.95 in)', depth: '9.40 mm (0.37 in)'}
+dimensions: {width: 80.50, height: 151.10, depth: 9.40}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: t0lte.png

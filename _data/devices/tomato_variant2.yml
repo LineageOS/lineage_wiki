@@ -10,7 +10,7 @@ cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=889964283620777297
-dimensions: {width: '75.9 mm (3 in)', height: '152.9 mm (6 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 75.9, height: 152.9, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 405
 image: tomato.png

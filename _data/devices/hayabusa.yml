@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: '68.6 mm (2.7 in)', height: '131 mm (5.2 in)', depth: '8.6 mm (0.34 in)'}
+dimensions: {width: 68.6, height: 131, depth: 8.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 225
 image: hayabusa.png

@@ -10,7 +10,7 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '78.1 mm (3.07 in)', height: '159.7 mm (6.29 in)', depth: '7.6 mm (0.30 in)'}
+dimensions: {width: 78.1, height: 159.7, depth: 7.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: v30.png

@@ -10,7 +10,7 @@ cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '75.5 mm (2.97 in)', height: '162 mm (6.38 in)', depth: '10.5 mm (0.41 in)'}
+dimensions: {width: 75.5, height: 162, depth: 10.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 619
 has_recovery_partition: true

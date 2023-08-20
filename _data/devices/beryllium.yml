@@ -14,7 +14,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '75.3 mm (2.96 in)', height: '155.5 mm (6.12 in)', depth: '8.8 mm (0.35 in)'}
+dimensions: {width: 75.3, height: 155.5, depth: 8.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sdm845

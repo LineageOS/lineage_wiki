@@ -10,7 +10,7 @@ cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: '75.2 mm (2.96 in)', height: '159.2 mm (6.27 in)', depth: '8.1 mm (0.32 in)'}
+dimensions: {width: 75.2, height: 159.2, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 512

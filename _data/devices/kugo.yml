@@ -10,7 +10,7 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: '65 mm (2.6 in)', height: '129 mm (5.1 in)', depth: '9.5 mm (0.37 in)'}
+dimensions: {width: 65, height: 129, depth: 9.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 510
 image: kugo.png
