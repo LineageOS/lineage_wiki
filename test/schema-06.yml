@@ -370,19 +370,6 @@ definitions:
     - 19.1
     - 20
     type: number
-  valid_dimension:
-    oneOf:
-    - "$ref": "#/definitions/dimension_string"
-    - description: Array of maps of model numbers dimension
-      examples:
-      - SM-9000A: 254 mm (10 in)
-      - SM-9000B:  127 mm (5 in)
-      items:
-        additionalProperties:
-          "$ref": "#/definitions/dimension_string"
-        description: Map of model number to dimension
-        type: object
-      type: array
   valid_networks:
     description: All valid networks a device can support
     items:
