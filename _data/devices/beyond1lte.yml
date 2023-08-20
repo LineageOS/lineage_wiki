@@ -13,7 +13,7 @@ cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
 current_branch: 20
-dimensions: {width: '70.4 mm (2.77 in)', height: '149.9 mm (5.9 in)', depth: '7.8 mm (0.31 in)'}
+dimensions: {width: 70.4, height: 149.9, depth: 7.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9820
 gpu: ARM Mali-G76 MP12

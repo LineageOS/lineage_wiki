@@ -13,7 +13,7 @@ cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '71.1 mm (2.79 in)', height: '161.6 mm (6.36 in)', depth: '9.2 mm (0.36 in)'}
+dimensions: {width: 71.1, height: 161.6, depth: 9.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 has_recovery_partition: true

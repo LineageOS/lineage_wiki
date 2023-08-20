@@ -11,7 +11,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '65 mm (2.56 in)', height: '135 mm (5.31 in)', depth: '12.1 mm (0.48 in)'}
+dimensions: {width: 65, height: 135, depth: 12.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 630
 image: xz2c.png

@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.8 GHz + 2 x 2.25 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '75.9 mm (2.99 in)', height: '163.9 mm (6.45 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 75.9, height: 163.9, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G78 MP20
 image: raven.png

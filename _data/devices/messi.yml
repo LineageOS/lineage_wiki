@@ -12,7 +12,7 @@ cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '76.4 mm (3.01 in)', height: '156.5 mm (6.16 in)', depth: '6.8 mm (0.27 in)'}
+dimensions: {width: 76.4, height: 156.5, depth: 6.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: messi.png

@@ -9,7 +9,7 @@ cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 4 x 1.9 GHz
 current_branch: 15.1
-dimensions: {width: '179.0 mm (7.05 in)', height: '242.0 mm (9.53 in)', depth: '7.0 mm (0.28 in)'}
+dimensions: {width: 179.0, height: 242.0, depth: 7.0}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: NVIDIA Maxwell 256-core
 image: dragon.png

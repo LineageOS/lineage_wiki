@@ -8,7 +8,7 @@ cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: '65 mm (2.55 in)', height: '30 mm (1.18 in)', depth: '5 mm (0.20 in)'}
+dimensions: {width: 65, height: 30, depth: 5}
 download_boot: Press and hold the `USB BOOT` button on the board, and plug into your PC.
 gpu: ARM Mali-G31 MP2
 image: radxa0.png

@@ -9,7 +9,7 @@ cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 18.1
-dimensions: {width: '247 mm (9.7 in)', height: '179 mm (7 in)', depth: '4.7 mm (0.18 in)'}
+dimensions: {width: 247, height: 179, depth: 4.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 510
 image: YTX703.png

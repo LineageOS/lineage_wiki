@@ -11,7 +11,7 @@ cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: '73 mm (2.87 in)', height: '158 mm (6.22 in)', depth: '9.9 mm (0.39 in)'}
+dimensions: {width: 73, height: 158, depth: 9.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 630
 image: akatsuki.png

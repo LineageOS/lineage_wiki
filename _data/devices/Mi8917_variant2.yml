@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 current_branch: 20
-dimensions: {width: '70.1 mm (2.75 in)', height: '140.4 mm (5.52 in)', depth: '8.35 mm (0.32 in)'}
+dimensions: {width: 70.1, height: 140.4, depth: 8.35}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 308
 image: Mi8917_variant2.png

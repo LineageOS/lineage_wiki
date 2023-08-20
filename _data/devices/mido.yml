@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 16.0
-dimensions: {width: '76 mm (2.99 in)', height: '151 mm (5.94 in)', depth: '8.5 mm (0.35 in)'}
+dimensions: {width: 76, height: 151, depth: 8.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 506

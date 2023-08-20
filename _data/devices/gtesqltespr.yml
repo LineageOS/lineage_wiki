@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: '126.1 mm (5 in)', height: '212.1 mm (8.4 in)', depth: '8.9 mm (0.35 in)'}
+dimensions: {width: 126.1, height: 212.1, depth: 8.9}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: gtesqltespr.png

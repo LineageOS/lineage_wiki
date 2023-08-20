@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 17.1
-dimensions: {width: '72 mm (2.83 in)', height: '144.4 mm (5.69 in)', depth: '9.9 mm (0.39 in)'}
+dimensions: {width: 72, height: 144.4, depth: 9.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: harpia.png

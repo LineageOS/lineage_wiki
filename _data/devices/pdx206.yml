@@ -13,7 +13,7 @@ cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '68.0 mm (2.68 in)', height: '158.0 mm (6.22 in)', depth: '8.0 mm (0.31 in)'}
+dimensions: {width: 68.0, height: 158.0, depth: 8.0}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 650
 has_recovery_partition: true

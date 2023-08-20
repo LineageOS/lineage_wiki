@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: '149.5 mm (5.9 in)', height: '241.9 mm (9.5 in)', depth: '8.5 mm (0.33 in)'}
+dimensions: {width: 149.5, height: 241.9, depth: 8.5}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: gtelwifiue.png

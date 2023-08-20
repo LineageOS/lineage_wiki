@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 18.1
 custom_unlock_cmd: 'fastboot oem unlock-go'
-dimensions: {width: '73.9 mm (2.9 in)', height: '151.4 mm (6 in)', depth: '7.5 mm (0.3 in)'}
+dimensions: {width: 73.9, height: 151.4, depth: 7.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
 image: zl1.png

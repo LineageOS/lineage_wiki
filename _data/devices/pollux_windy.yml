@@ -9,7 +9,7 @@ cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: '266 mm (10.47 in)', height: '172 mm (6.77 in)', depth: '6.9 mm (0.27 in)'}
+dimensions: {width: 266, height: 172, depth: 6.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: pollux.png

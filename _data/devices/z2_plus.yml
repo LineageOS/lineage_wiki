@@ -10,7 +10,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
-dimensions: {width: '68.9 mm (2.71 in)', height: '141.7 mm (5.58 in)', depth: '8.5 mm (0.33 in)'}
+dimensions: {width: 68.9, height: 141.7, depth: 8.5}
 download_boot: With the device powered off, hold <kbd>Power</kbd>.
   Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
 format_on_upgrade: 20

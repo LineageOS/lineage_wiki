@@ -9,7 +9,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 18.1
-dimensions: {width: '74.7 mm (2.94 in)', height: '152.7 mm (6.01 in)', depth: '7.4 mm (0.29 in)'}
+dimensions: {width: 74.7, height: 152.7, depth: 7.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
 image: oneplus3.png

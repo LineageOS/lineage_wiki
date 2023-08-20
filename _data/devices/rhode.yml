@@ -13,7 +13,7 @@ cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: '74.5 mm (2.93 in)', height: '160.1 mm (6.30 in)', depth: '7.9 mm (0.31 in)'}
+dimensions: {width: 74.5, height: 160.1, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: rhode.png

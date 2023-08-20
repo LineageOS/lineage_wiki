@@ -11,7 +11,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
-dimensions: {width: '72 mm (2.83 in)', height: '146 mm (5.75 in)', depth: '7.3 mm (0.29 in)'}
+dimensions: {width: 72, height: 146, depth: 7.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330

@@ -10,7 +10,7 @@ cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: "fastboot oem 'setenv lock 10101000;save' && fastboot reboot bootloader && fastboot flashing unlock"
-dimensions: {width: '69 mm (2.7 in)', height: '69 mm (2.7 in)', depth: '15 mm (0.59 in)'}
+dimensions: {width: 69, height: 69, depth: 15}
 download_boot: Run `adb reboot bootloader`.
 gpu: ARM Mali-G31 MP2
 has_recovery_partition: true

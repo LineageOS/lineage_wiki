@@ -10,7 +10,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2 Ghz
 current_branch: 14.1
-dimensions: {width: '69.7 mm (2.74 in)', height: '144.6 mm (5.69 in)', depth: '9.6 mm (0.38 in)'}
+dimensions: {width: 69.7, height: 144.6, depth: 9.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Qualcomm Adreno 430

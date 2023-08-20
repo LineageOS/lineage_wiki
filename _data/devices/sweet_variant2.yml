@@ -15,7 +15,7 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '76.5 mm (3.01 in)', height: '164 mm (6.46 in)', depth: '8.1 mm (0.32 in)'}
+dimensions: {width: 76.5, height: 164, depth: 8.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm6150_km41

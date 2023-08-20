@@ -9,7 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 18.1
-dimensions: {width: '79.2 mm (3.12 in)', height: '151.2 mm (5.95 in)', depth: '8.3 mm (0.33 in)'}
+dimensions: {width: 79.2, height: 151.2, depth: 8.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330

@@ -1,6 +1,6 @@
 {%- if modelname %}
 <b>{{ modelname }}</b><br/>
 {%- endif %}
-{{ dimension_data.height }} (h)<br/>
-{{ dimension_data.width }} (w)<br/>
-{{ dimension_data.depth }} (d)
+{{ dimension_data.height }} mm ({{ dimension_data.height | divided_by: 25.4 | round: 2 | remove: ".0" }} in) (h)<br/>
+{{ dimension_data.width }} mm ({{ dimension_data.width | divided_by: 25.4 | round: 2 | remove: ".0" }} in) (w)<br/>
+{{ dimension_data.depth }} mm ({{ dimension_data.depth | divided_by: 25.4 | round: 2 | remove: ".0" }} in) (d)

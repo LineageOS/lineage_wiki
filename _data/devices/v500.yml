@@ -9,7 +9,7 @@ cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-dimensions: {width: '126.5 mm (4.98 in)', height: '216.8 mm (8.54 in)', depth: '8.3 mm (0.33 in)'}
+dimensions: {width: 126.5, height: 216.8, depth: 8.3}
 download_boot: ''
 gpu: Qualcomm Adreno 320
 image: v500.png

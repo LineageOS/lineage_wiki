@@ -14,7 +14,7 @@ cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: '76.8 mm (3.02 in)', height: '165.3 mm (6.51 in)', depth: '9.4 mm (0.37 in)'}
+dimensions: {width: 76.8, height: 165.3, depth: 9.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_surya

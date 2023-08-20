@@ -10,7 +10,7 @@ cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 3 x 2.42 GHz + 1 x 2.84
 current_branch: 20
-dimensions: {width: '70.6 mm (2.78 in)', height: '148 mm (5.83 in)', depth: '7.6 mm (0.30 in)'}
+dimensions: {width: 70.6, height: 148, depth: 7.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 640
 image: TP1803.png

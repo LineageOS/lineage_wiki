@@ -13,7 +13,7 @@ cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: '74.9 mm (2.97 in)', height: '163.9 mm (6.43 in)', depth: '7.9 mm (0.35 in)'}
+dimensions: {width: 74.9, height: 163.9, depth: 7.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 620
