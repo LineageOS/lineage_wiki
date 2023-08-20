@@ -10,6 +10,7 @@ definitions:
     required:
     - cpu
     - userspace
+    additionalProperties: False
     type: object
   battery_data:
     description: The format required for battery
@@ -28,6 +29,7 @@ definitions:
     required:
     - capacity
     - removable
+    additionalProperties: False
     type: object
   before_install_format:
     description: The format for the before_install property
@@ -41,6 +43,7 @@ definitions:
         type: boolean
     required:
     - instructions
+    additionalProperties: False
     type: object
   before_recovery_install_format:
     description: The format for the before_recovery_install property
@@ -51,6 +54,7 @@ definitions:
         type: array
     required:
     - instructions
+    additionalProperties: False
     type: object
   camera_data:
     description: The format for the camera property
@@ -69,6 +73,7 @@ definitions:
     required:
     - info
     - flash
+    additionalProperties: False
   dimension_data:
     description: The format required for device dimensions
     properties:
@@ -85,6 +90,7 @@ definitions:
     - width
     - height
     - depth
+    additionalProperties: False
     type: object
   dimension_string:
     pattern: ^\d+(\.\d+)? mm \(\d+(\.\d+)? in\)$
@@ -190,6 +196,7 @@ definitions:
     - size
     - resolution
     - technology
+    additionalProperties: False
     type: object
   screen_technologies:
     enum:
@@ -230,6 +237,7 @@ definitions:
         - sim
     required:
     - sizeMax
+    additionalProperties: False
     type: object
   soc_data:
     enum:
@@ -528,6 +536,7 @@ properties:
         type: string
     required:
     - spec
+    additionalProperties: False
     type: object
   cameras:
     "$id": "/properties/cameras"
