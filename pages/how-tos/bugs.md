@@ -17,7 +17,14 @@ tags:
 
 ## Reporting a bug
 
-We use Gitlab Issues as our bug tracker. Before you submit a bug, please search to verify that someone else hasn't reported it already. If they have, avoid commenting with "+1" or "Me too!", as this just creates more work for us.
+We use Gitlab Issues as our bug tracker. Before you submit a bug, please search to verify that someone else hasn't reported it already.
+
+Please do not:
+- post "Me too" or "+1" messages on existing reports
+- comment your device as affected on a report for a different device - different devices have different maintainers
+- ask if it is fixed already - if the report is still open it probably is not!
+- ask for status updates - we don't give any (no ETA!)
+- ping people/maintainers: it's not going to get fixed faster that way
 
 We accept bugs on the following:
 
