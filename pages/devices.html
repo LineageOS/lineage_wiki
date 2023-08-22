@@ -49,13 +49,13 @@ function applyFilters() {
     // Networks
     (device) => {
       let value = checkBoxValues("networks");
-      return value.length === 0 || value.some(x => device.network.includes(x));
+      return value.length === 0 || value.every(x => device.network.includes(x));
     },
 
     // Peripherals
     (device) => {
       let value = checkBoxValues("peripherals");
-      return value.length === 0 || value.some(x => device.peripherals.includes(x));
+      return value.length === 0 || value.every(x => device.peripherals.includes(x));
     },
 
     // SDCard slot
