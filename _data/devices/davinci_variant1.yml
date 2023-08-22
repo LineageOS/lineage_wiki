@@ -20,7 +20,7 @@ dimensions: {width: '74.3 mm (2.93 in)', height: '156.7 mm (6.17 in)', depth: '8
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm6150_km4
-format_on_upgrade: true
+format_on_upgrade: 20
 gpu: Qualcomm Adreno 618
 image: davinci.png
 install_method: fastboot_xiaomi
