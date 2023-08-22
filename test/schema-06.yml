@@ -639,10 +639,12 @@ properties:
     type: string
   format_on_upgrade:
     "$id": "/properties/format_on_upgrade"
-    enum:
-      - true
-      - false
-      - fbe
+    oneOf:
+      - "$ref": "#/definitions/valid_branches"
+      - enum:
+        - true
+        - false
+        - fbe
   gpu:
     "$id": "/properties/gpu"
     oneOf:

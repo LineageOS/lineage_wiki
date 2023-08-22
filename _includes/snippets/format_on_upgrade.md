@@ -8,6 +8,8 @@
 8. If your device is not FBE encrypted, wipe your data partition (this is usually named "Wipe", or "Format").
     {% include alerts/note.html content="You can check if it's FBE encrypted by running the following command: `adb shell getprop ro.crypto.type`.
     If the output of this is `file`, then your device is FBE encrypted!" %}
+{%- elsif device.format_on_upgrade < device.current_branch %}
+8. If your device is running LineageOS version older than {{ device.format_on_upgrade | precision: 1 }}, wipe your data partition (this is usually named "Wipe", or "Format").
 {%- else %}
 8. Wipe your data partition (this is usually named "Wipe", or "Format")
 {%- endif %}
