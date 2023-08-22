@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about rosemary
+title: Info about rosemary variants
 folder: info
-layout: deviceinfo
 permalink: /devices/rosemary/
+redirect_from:
+- /devices/rosemary/install
+- /devices/rosemary/update
 device: rosemary
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
