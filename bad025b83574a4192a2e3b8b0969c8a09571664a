@@ -94,6 +94,30 @@
       },
       "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "334e07f4_83478b9a",
+        "filename": "_data/devices/messi.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-08-24T14:20:40Z",
+      "side": 1,
+      "message": "No, I\u0027m more worried about clueless users coming and not being able to install it.",
+      "parentUuid": "f0ac1e4c_f109a924",
+      "range": {
+        "startLine": 21,
+        "startChar": 15,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
