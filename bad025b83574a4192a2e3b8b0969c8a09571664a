@@ -70,6 +70,30 @@
       },
       "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f0ac1e4c_f109a924",
+        "filename": "_data/devices/messi.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-08-24T14:19:57Z",
+      "side": 1,
+      "message": "(if you\u0027re worried about maintenance of it)",
+      "parentUuid": "b1cc7a7d_c15ed228",
+      "range": {
+        "startLine": 21,
+        "startChar": 15,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
