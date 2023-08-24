@@ -46,6 +46,30 @@
       },
       "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1cc7a7d_c15ed228",
+        "filename": "_data/devices/messi.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-08-24T14:19:24Z",
+      "side": 1,
+      "message": "fwiw, it\u0027 pretty low hanging fruit, it\u0027s 90% of nash and msm8998-common",
+      "parentUuid": "85a6fa71_37f798a4",
+      "range": {
+        "startLine": 21,
+        "startChar": 15,
+        "endLine": 21,
+        "endChar": 20
+      },
+      "revId": "bad025b83574a4192a2e3b8b0969c8a09571664a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
