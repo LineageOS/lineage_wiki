@@ -2,7 +2,7 @@ architecture: arm
 battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: None, info: '13 MP'}
+- {flash: 'LED', info: '13 MP'}
 - {flash: None, info: '2 MP'}
 codename: ks01lte
 cpu: Krait 400
