@@ -70,6 +70,24 @@
       "parentUuid": "a525163b_93012a90",
       "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4e67e8f3_0d8bc798",
+        "filename": "pages/glossary.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-26T21:49:06Z",
+      "side": 1,
+      "message": "eh, discord convo, I get where you\u0027re coming from, removed.",
+      "parentUuid": "d4a6da10_104fe3de",
+      "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
