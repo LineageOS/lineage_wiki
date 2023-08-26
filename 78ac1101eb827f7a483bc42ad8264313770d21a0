@@ -46,6 +46,30 @@
       },
       "revId": "78ac1101eb827f7a483bc42ad8264313770d21a0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c589aca2_b6ce8bfb",
+        "filename": "pages/glossary.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-08-26T21:38:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "98a9f817_eab3ce5b",
+      "range": {
+        "startLine": 36,
+        "startChar": 65,
+        "endLine": 36,
+        "endChar": 127
+      },
+      "revId": "78ac1101eb827f7a483bc42ad8264313770d21a0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }

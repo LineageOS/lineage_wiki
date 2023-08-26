@@ -34,6 +34,24 @@
       "parentUuid": "5a385283_11a6a93f",
       "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a525163b_93012a90",
+        "filename": "pages/glossary.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-08-26T21:38:48Z",
+      "side": 1,
+      "message": "The concept of a \"soft brick\" only comes from users that don\u0027t know the correct terminology. I wouldn\u0027t prove them correct for joining in using it...\nA brick is more of a \"can now be used as a paperweight\" - everything else is probably a bootloop or smth else",
+      "parentUuid": "5a385283_11a6a93f",
+      "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
