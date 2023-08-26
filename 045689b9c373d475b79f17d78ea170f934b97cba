@@ -52,6 +52,24 @@
       "parentUuid": "5a385283_11a6a93f",
       "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4a6da10_104fe3de",
+        "filename": "pages/glossary.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-26T21:44:55Z",
+      "side": 1,
+      "message": "I like the enthusiasm but I disagree here - something to be said for common understanding - and most in XDA crowd understand soft brick to mean something diff from hard brick",
+      "parentUuid": "a525163b_93012a90",
+      "revId": "045689b9c373d475b79f17d78ea170f934b97cba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
