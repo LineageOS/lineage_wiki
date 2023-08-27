@@ -51,6 +51,23 @@
       "parentUuid": "febec329_8bc07846",
       "revId": "b945bd45198b4ae25bb473ee4e879ab7cbfd766e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4083d016_fda7b81e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-08-27T01:19:08Z",
+      "side": 1,
+      "message": "please update name here: https://github.com/LineageOS/hudson/blob/master/updater/devices.json",
+      "revId": "b945bd45198b4ae25bb473ee4e879ab7cbfd766e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
