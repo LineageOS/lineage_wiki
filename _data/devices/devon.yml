@@ -32,7 +32,7 @@ release: 2022-08
 screen: {size: 6.5, resolution: '1080x2400', technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM6225 Snapdragon 680 4G
-storage: 64/128 GB UFS 2.2
+storage: 64/128/256 GB UFS 2.2
 tree: android_device_motorola_devon
 type: phone
 vendor: Motorola
