@@ -16,6 +16,23 @@
       "message": "This is my very first attempt to change something at the wiki. If I\u0027ve done anything wrong please let me know.",
       "revId": "2cb3e63587d65f695d3f73775363e6d86b4ad653",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9503aaa_914e2680",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-08-27T20:58:46Z",
+      "side": 1,
+      "message": "confirmed, thx: https://www.reddit.com/r/MotoG/comments/15duoas/i_call_it_the_super_g32/",
+      "revId": "2cb3e63587d65f695d3f73775363e6d86b4ad653",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
