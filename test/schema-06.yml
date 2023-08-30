@@ -636,6 +636,7 @@ properties:
       - "$ref": "#/definitions/valid_branches"
       - enum:
         - fbe
+        - fde
   gpu:
     "$id": "/properties/gpu"
     oneOf:
