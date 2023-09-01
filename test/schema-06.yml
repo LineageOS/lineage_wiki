@@ -95,6 +95,7 @@ definitions:
   gpu_data:
     enum:
     - ARM Mali-400 MP4
+    - ARM Mali-450 MP3
     - ARM Mali-G31 MP2
     - ARM Mali-G52 MC2
     - ARM Mali-G71 MP2
@@ -238,6 +239,7 @@ definitions:
     type: object
   soc_data:
     enum:
+    - Amlogic s905x
     - Amlogic S905x2
     - Amlogic S905y2
     - Amlogic S905y3
