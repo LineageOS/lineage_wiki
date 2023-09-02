@@ -24,9 +24,6 @@ ram: 2 GB
 recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Recovery menu is displayed.
 release: 2020-09-22
 screen: None
-screen_ppi:
-screen_res:
-screen_tech:
 soc: Amlogic S905y2
 storage: 8 GB
 tree: android_device_askey_deadpool

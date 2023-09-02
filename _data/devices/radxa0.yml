@@ -22,9 +22,6 @@ ram: 2/4 GB
 recovery_boot: Run `adb reboot recovery`.
 release: 2020-12-01
 screen: None
-screen_ppi:
-screen_res:
-screen_tech:
 sdcard: {sizeMax: '2 TB'}
 soc: Amlogic S905y2
 storage: 8/16/32/64/128 GB
