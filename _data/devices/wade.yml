@@ -26,8 +26,6 @@ recovery_boot: Run `adb reboot recovery`.
 recovery_reboot: fastboot_boot
 release: 2021-06-01
 screen: None
-screen_ppi:
-screen_res:
 screen_tech:
 soc: Amlogic S905x2
 storage: 8 GB

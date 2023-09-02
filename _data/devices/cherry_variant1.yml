@@ -13,7 +13,7 @@ custom_recovery_link: https://forum.xda-developers.com/honor-4x/development/reco
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
-gsm: GSM 900 /1800 / 1900
+ GSM 900 /1800 / 1900
 image: cherry.png
 install_method: fastboot_huawei
 is_unlockable: false
