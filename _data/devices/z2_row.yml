@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '8'}
+bluetooth: {spec: '4.1', profiles: [A2DP]}
+cameras:
+- {flash: 'Dual LED (dual tone)', info: '13 MP'}
+- {flash: None, info: '8 MP'}
+codename: z2_row
+cpu: Kryo
+cpu_cores: '4'
+cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
+current_branch: 20
+dimensions: {width: 70.5, height: 145.4, depth: 7.5}
+download_boot: With the device powered off, hold <kbd>Power</kbd>.
+  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
+gpu: Qualcomm Adreno 530
+image: z2_row.png
+install_method: fastboot_nexus
+kernel: android_kernel_zuk_msm8996
+maintainers: [DD3Boh]
+name: Z2 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+ram: 4 GB LPDDR4 / 6 GB LPDDR4
+recovery_boot: With the device powered off, hold <kbd>Power</kbd>.
+  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on recovery and <kbd>Power</kbd> to choose.
+release: 2016-06
+screen: {size: 5.2, resolution: '1920x1080', technology: 'Super AMOLED'}
+soc: Qualcomm MSM8996 Snapdragon 820
+storage: 64 / 128 GB
+tree: android_device_zuk_z2_row
+type: phone
+vendor: ZUK
+vendor_short: zuk
+versions: [20]
+wifi: 802.11 a/b/g/n/ac, dual-band, WiFi Direct, DLNA, hotspot
