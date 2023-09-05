@@ -33,4 +33,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [13.0, 14.1]
-wifi: 802.11 b/g/n, Hotspot
+wifi: 802.11 b/g/n

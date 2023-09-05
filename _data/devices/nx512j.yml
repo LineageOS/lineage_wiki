@@ -32,4 +32,4 @@ uses_twrp: true
 vendor: Nubia
 vendor_short: nubia
 versions: [14.1]
-wifi: 802.11 b/g/n/ac Dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

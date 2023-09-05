@@ -32,4 +32,4 @@ uses_twrp: true
 vendor: ZUK
 vendor_short: zuk
 versions: [14.1, 15.1, 16.0]
-wifi: 802.11 a/b/g/n/ac, Dual-band, Hotspot
+wifi: 802.11 a/b/g/n/ac

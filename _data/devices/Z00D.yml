@@ -33,4 +33,4 @@ uses_twrp: true
 vendor: ASUS
 vendor_short: asus
 versions: [14.1]
-wifi: Wi-Fi 802.11 a/b/g/n/ac, Wi-Fi Direct, hotspot
+wifi: 802.11 a/b/g/n/ac

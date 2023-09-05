@@ -36,4 +36,4 @@ uses_twrp: true
 vendor: LG
 vendor_short: lge
 versions: [14.1]
-wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 b/g/n

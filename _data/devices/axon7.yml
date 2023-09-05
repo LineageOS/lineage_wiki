@@ -34,4 +34,4 @@ unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7/how-to/guide-h
 vendor: ZTE
 vendor_short: zte
 versions: [14.1, 15.1]
-wifi: 802.11 b/g/n/ac, Dual-band, WiFi Direct, Hotspot
+wifi: 802.11 a/b/g/n/ac

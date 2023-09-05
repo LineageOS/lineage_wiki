@@ -21,7 +21,7 @@ maintainers: ["0xCAFEBABE"]
 models: [MCE3B, MCG3B, MCI3B, MCT3B]
 name: Redmi 5A
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, IR blaster]
 ram: 2 / 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the screen lights up, release the buttons.

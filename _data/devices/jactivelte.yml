@@ -35,4 +35,4 @@ type: phone
 vendor: Samsung
 vendor_short: samsung
 versions: [16.0, 17.1, 18.1]
-wifi: 802.11 a/b/g/n/ac, DLNA, Wi-Fi Display
+wifi: 802.11 a/b/g/n/ac

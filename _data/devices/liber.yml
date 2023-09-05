@@ -43,4 +43,4 @@ vendor: Motorola
 vendor_short: motorola
 versions: [19.1]
 width: 76.4 mm (3.01 in)
-wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n/ac

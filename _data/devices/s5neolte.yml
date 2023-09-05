@@ -21,7 +21,7 @@ name: Galaxy S5 Neo
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, GLONASS,
     GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light,
-    Sensor hub, USB OTG, Wi-Fi Display]
+    Sensor hub, USB OTG]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2015-08

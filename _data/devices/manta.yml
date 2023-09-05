@@ -32,4 +32,4 @@ uses_twrp: true
 vendor: Google
 vendor_short: samsung
 versions: [13.0]
-wifi: 802.11 b/g/n, Wi-Fi Direct, DLNA
+wifi: 802.11 b/g/n

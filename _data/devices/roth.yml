@@ -33,4 +33,4 @@ uses_twrp: true
 vendor: NVIDIA
 vendor_short: nvidia
 versions: [13.0]
-wifi: 802.11n 2x2 Mimo 2.4 GHz and 5 GHz
+wifi: 802.11 b/g/n

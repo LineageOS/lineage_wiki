@@ -20,7 +20,7 @@ maintainers: ["0xCAFEBABE"]
 models: [MDI6S]
 name: Redmi Y1 Prime
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, Wi-Fi Display, IR blaster, Fingerprint reader]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, IR blaster, Fingerprint reader]
 ram: 3 / 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the screen lights up, release the buttons.

@@ -36,4 +36,4 @@ variant: 2
 vendor: YU
 vendor_short: yu
 versions: [13.0, 14.1]
-wifi: 802.11 2.4GHz b/g/n 5GHz n/ac, Wi-Fi Direct, Wi-Fi Display, Hotspot
+wifi: 802.11 a/b/g/n/ac
