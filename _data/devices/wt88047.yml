@@ -33,4 +33,4 @@ uses_twrp: true
 vendor: Wingtech
 vendor_short: wingtech
 versions: [14.1, 15.1, 17.1]
-wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
+wifi: 802.11 b/g/n

@@ -35,4 +35,4 @@ unlock_bootloader_guide: 'https://forum.xda-developers.com/k920/how-to/guide-unl
 vendor: Lenovo
 vendor_short: lenovo
 versions: [14.1]
-wifi: 802.11 a/b/g/n/ac dual band, Hotspot
+wifi: 802.11 a/b/g/n/ac

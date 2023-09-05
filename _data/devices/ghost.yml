@@ -34,4 +34,4 @@ uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0]
-wifi: 802.11 a/b/g/n/ac, Dual-band, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

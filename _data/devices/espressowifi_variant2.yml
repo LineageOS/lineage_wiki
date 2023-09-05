@@ -35,4 +35,4 @@ variant: 2
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0]
-wifi: 802.11 a/b/g/n, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n

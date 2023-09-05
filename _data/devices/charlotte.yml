@@ -34,4 +34,4 @@ uses_twrp: true
 vendor: Huawei
 vendor_short: huawei
 versions: [16.0]
-wifi: 802.11 a/b/g/n/ac, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n/ac

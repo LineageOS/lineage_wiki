@@ -36,4 +36,4 @@ uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: Wi-Fi 802.11 b/g/n, Hotspot
+wifi: 802.11 b/g/n

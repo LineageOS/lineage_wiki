@@ -36,4 +36,4 @@ uses_twrp: true
 vendor: Motorola
 vendor_short: motorola
 versions: [13.0, 14.1]
-wifi: 802.11 2.4GHz b/g/n
+wifi: 802.11 b/g/n

@@ -35,4 +35,4 @@ uses_twrp: true
 vendor: OPPO
 vendor_short: oppo
 versions: [16.0]
-wifi: 802.11 a/b/g/n/ac, Dual-band
+wifi: 802.11 a/b/g/n/ac

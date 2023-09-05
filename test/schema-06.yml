@@ -439,7 +439,6 @@ definitions:
       - Thermometer
       - Ultrasound proximity sensor
       - USB OTG
-      - Wi-Fi Display
       type: string
     type: array
     uniqueItems: True
@@ -907,6 +906,15 @@ properties:
       "$ref": "#/definitions/valid_branches"
     minItems: 1
     type: array
+  wifi:
+    "$id": "/properties/wifi"
+    enum:
+    - None
+    - 802.11 b/g/n
+    - 802.11 b/g/n/ac
+    - 802.11 a/b/g/n
+    - 802.11 a/b/g/n/ac
+    - 802.11 a/b/g/n/ac/ax
 required:
 - architecture
 - battery
@@ -933,5 +941,6 @@ required:
 - vendor
 - vendor_short
 - versions
+- wifi
 title: device
 type: object

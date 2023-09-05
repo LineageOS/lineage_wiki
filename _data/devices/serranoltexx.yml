@@ -35,4 +35,4 @@ uses_twrp: true
 vendor: Samsung
 vendor_short: samsung
 versions: [13.0, 14.1]
-wifi: 802.11 a/b/g/n, Dual-band, DLNA, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n

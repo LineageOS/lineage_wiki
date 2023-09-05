@@ -33,4 +33,4 @@ type: phone
 vendor: Fairphone
 vendor_short: fairphone
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
-wifi: 802.11 b/g/n/ac
+wifi: 802.11 a/b/g/n/ac

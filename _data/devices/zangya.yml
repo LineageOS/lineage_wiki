@@ -35,4 +35,4 @@ uses_twrp: true
 vendor: BQ
 vendor_short: bq
 versions: [16.0]
-wifi: 802.11 b/g/n/ac, Dual band, Wi-Fi Direct, Wi-Fi Hotspot
+wifi: 802.11 b/g/n/ac

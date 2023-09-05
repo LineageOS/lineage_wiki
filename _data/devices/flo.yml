@@ -35,4 +35,4 @@ uses_twrp: true
 vendor: Google
 vendor_short: asus
 versions: [14.1]
-wifi: 802.11 a/b/g/n @ 2.4 GHz & 5 GHz
+wifi: 802.11 a/b/g/n

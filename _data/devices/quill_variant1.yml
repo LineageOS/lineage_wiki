@@ -34,4 +34,4 @@ variant: 1
 vendor: NVIDIA
 vendor_short: nvidia
 versions: [17.1]
-wifi: 802.11ac 2x2 Mimo 2.4 GHz and 5 GHz
+wifi: 802.11 a/b/g/n/ac

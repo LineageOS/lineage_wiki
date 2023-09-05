@@ -33,4 +33,4 @@ type: phone
 vendor: Motorola
 vendor_short: motorola
 versions: [17.1, 18.1]
-wifi: 802.11 b/g/n, Wi-Fi Direct, Hotspot
+wifi: 802.11 b/g/n
