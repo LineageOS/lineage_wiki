@@ -34,4 +34,4 @@ uses_twrp: true
 vendor: HTC
 vendor_short: htc
 versions: [14.1]
-wifi: Dual-band Wi-Fi 802.11 a/b/g/n/ac
+wifi: 802.11 a/b/g/n/ac

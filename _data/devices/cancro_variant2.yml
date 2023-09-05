@@ -35,4 +35,4 @@ variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [14.1]
-wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

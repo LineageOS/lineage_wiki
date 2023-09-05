@@ -32,4 +32,4 @@ uses_twrp: true
 vendor: Google
 vendor_short: google
 versions: [14.1]
-wifi: 802.11 b, g, n
+wifi: 802.11 b/g/n

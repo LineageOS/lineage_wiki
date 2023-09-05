@@ -22,7 +22,7 @@ name: Galaxy A7 (2017)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS,
     GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light,
-    Sensor hub, USB OTG, Wi-Fi Display]
+    Sensor hub, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 release: 2017-01-02

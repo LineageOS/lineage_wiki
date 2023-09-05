@@ -34,4 +34,4 @@ type: phone
 vendor: ASUS
 vendor_short: asus
 versions: [16.0, 18.1]
-wifi: 802.11 b/g/n, Wi-Fi Direct, Wi-Fi Display, Hotspot
+wifi: 802.11 b/g/n

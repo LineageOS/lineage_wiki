@@ -32,4 +32,4 @@ uses_twrp: true
 vendor: OnePlus
 vendor_short: oneplus
 versions: [14.1]
-wifi: 802.11 b/g/n, Hotspot
+wifi: 802.11 b/g/n

@@ -33,4 +33,4 @@ type: phone
 vendor: LG
 vendor_short: lge
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
-wifi: 802.11 a/b/g/n/ac, Dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

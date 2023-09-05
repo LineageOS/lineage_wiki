@@ -34,4 +34,4 @@ type: phone
 vendor: Sony
 vendor_short: sony
 versions: [18.1]
-wifi: Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

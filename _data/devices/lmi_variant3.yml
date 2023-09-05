@@ -24,7 +24,7 @@ maintainers: []
 models: [M2001J11C, M2001J11E]
 name: Redmi K30 Pro Zoom Edition
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
@@ -38,4 +38,4 @@ variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
 versions: [18.1, 19.1, 20]
-wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Wi-Fi Display, DLNA, Hotspot
+wifi: 802.11 a/b/g/n/ac

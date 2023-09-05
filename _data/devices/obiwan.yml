@@ -23,7 +23,7 @@ maintainers: []
 models: [ZS661KS]
 name: ROG Phone 3
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, BeiDou, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG, Wi-Fi Display]
+peripherals: [A-GPS, Accelerometer, BeiDou, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8/12/16 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Then select recovery from bootloader using the hardware keys.
 recovery_reboot: fastboot_menu
@@ -36,4 +36,4 @@ type: phone
 vendor: ASUS
 vendor_short: asus
 versions: [18.1]
-wifi: 802.11 a/b/g/n/ac/6, Dual-band, Wi-Fi Direct, Hotspot
+wifi: 802.11 a/b/g/n/ac

@@ -35,4 +35,4 @@ variant: 2
 vendor: BQ
 vendor_short: bq
 versions: [14.1]
-wifi: 802.11 b/g/n, Hotspot
+wifi: 802.11 b/g/n

@@ -36,4 +36,4 @@ variant: 2
 vendor: Motorola
 vendor_short: motorola
 versions: [14.1]
-wifi: 802.11 a/g/b/n/ac + MIMO
+wifi: 802.11 a/b/g/n/ac

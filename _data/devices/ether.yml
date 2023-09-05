@@ -32,4 +32,4 @@ type: phone
 vendor: Nextbit
 vendor_short: nextbit
 versions: [14.1, 15.1, 16.0, 17.1, 18.1]
-wifi: 802.11 a/b/g/n/ac, Dual-band
+wifi: 802.11 a/b/g/n/ac
