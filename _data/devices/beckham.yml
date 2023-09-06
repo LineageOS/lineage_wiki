@@ -19,7 +19,7 @@ image: beckham.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_msm8998
-maintainers: [Jleeblanch, jro1979]
+maintainers: [jro1979]
 models: [XT1929-2, XT1929-3, XT1929-4, XT1929-5, XT1929-6]
 name: moto z3 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
