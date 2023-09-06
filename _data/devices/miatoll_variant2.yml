@@ -21,7 +21,7 @@ has_recovery_partition: true
 image: miatoll.png
 install_method: fastboot_xiaomi
 kernel: android_kernel_xiaomi_sm6250
-maintainers: [dereference23]
+maintainers: [dereference23, ItsVixano]
 models: [M2003J6A1G, M2003J6A1R]
 name: Redmi Note 9S
 network: [2G GSM, 3G UMTS, 4G LTE]
