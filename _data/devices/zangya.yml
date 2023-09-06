@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 release: 2018-05
 screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
-soc: Qualcomm SDM660 Snapdragon 636
+soc: Qualcomm SDM636 Snapdragon 636
 storage: 32/64 GB
 tree: android_device_bq_zangya
 type: phone
