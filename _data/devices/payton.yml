@@ -19,7 +19,7 @@ image: payton.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_msm8998
-maintainers: [erfanoabdi, ThEMarD]
+maintainers: [erfanoabdi, ThEMarD, electimon]
 models: [XT1900-1, XT1900-2, XT1900-3, XT1900-4, XT1900-5, XT1900-6, XT1900-7]
 name: moto x4
 network: [2G GSM, 3G UMTS, 4G LTE]
