@@ -297,9 +297,9 @@ definitions:
     - Qualcomm MSM8998 Snapdragon 835
     - Qualcomm SDM429 Snapdragon 429
     - Qualcomm SDM439 Snapdragon 439
+    - Qualcomm SDM630 Snapdragon 630
     - Qualcomm SDM632 Snapdragon 632
-    - Qualcomm SDM660 Snapdragon 630
-    - Qualcomm SDM660 Snapdragon 636
+    - Qualcomm SDM636 Snapdragon 636
     - Qualcomm SDM660 Snapdragon 660
     - Qualcomm SDM665 Snapdragon 665
     - Qualcomm SDM670 Snapdragon 670

@@ -31,7 +31,7 @@ recovery_reboot: fastboot_menu
 release: 2018-05
 screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
-soc: Qualcomm SDM660 Snapdragon 630
+soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB
 tree: android_device_motorola_evert
 type: phone
