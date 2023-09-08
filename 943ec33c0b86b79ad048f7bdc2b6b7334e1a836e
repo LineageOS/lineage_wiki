@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "718037f6_d0d3b6c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-09-08T05:50:42Z",
+      "side": 1,
+      "message": "Our extract-utils.py supports extracting directly from a lineage ota zip, so we could do away with this page entirely. Then, in the lineage build extract steps, just add the option to run ```./extract-files.sh /path/to/lineage-*.zip```",
+      "revId": "943ec33c0b86b79ad048f7bdc2b6b7334e1a836e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
