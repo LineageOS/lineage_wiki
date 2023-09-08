@@ -175,40 +175,32 @@ rm -rf ~/android/system_dump/
 
 ## Extracting proprietary blobs from payload-based OTAs
 
-Create a temporary directory to extract the content of the zip and move there:
+Create a temporary directory to extract the contents of the zip and move there:
 
 ```
 mkdir ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract the `payload.bin` file from the LineageOS installation zip file:
+To use the payload.bin extractor you will need python3-protobuf, if you do not already have it:
 
 ```
-unzip /path/to/lineage-*.zip payload.bin
-```
-where `/path/to/` is the path to the installable zip.
-
-You will now need to use a tool called `update-payload-extractor`.
-
-To use the tool, you will need python-protobuf, if you do not already have it:
-
-```
-sudo apt-get install python-protobuf
+sudo apt-get install python3-protobuf
 ```
 
-You can now extract the `.img` files from the payload:
+You will now clone the repos needed to use the payload.bin extractor:
 
-* If you have a LineageOS build tree checked out already, you can just run the script to extract the payload:
-  ```
-  python /path/to/lineage-tree/lineage/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
-  ```
+```
+git clone https://github.com/LineageOS/android_tools_extract-utils android/tools/extract-utils
+git clone https://github.com/LineageOS/android_system_update_engine android/system/update_engine
+```
 
-* If you don't have a LineageOS build tree checked out, you can clone our scripts repo, and then run the script to extract the payload:
-  ```
-  git clone https://github.com/LineageOS/scripts
-  python /path/to/scripts/update-payload-extractor/extract.py payload.bin --output_dir ./
-  ```
+Extract the `.img` files from the payload.bin that's inside the lineage-*.zip:
+
+```
+python3 android/tools/extract-utils/extract_ota.py path/to/lineage-*.zip
+```
+where `path/to/` is the path to the installable zip.
 
 It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
 
