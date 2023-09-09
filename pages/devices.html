@@ -52,6 +52,12 @@ function applyFilters() {
       return value.length === 0 || value.every(x => device.network.includes(x));
     },
 
+    // Wi-Fi
+    (device) => {
+      let value = checkBoxValues("wifi");
+      return value.length === 0 || value.some(x => device.wifi.includes(x));
+    },
+
     // Peripherals
     (device) => {
       let value = checkBoxValues("peripherals");
@@ -305,6 +311,20 @@ function showFilters() {
         <p class="device-filters-header">Networks:</p>
         {% for value in definitions.valid_networks.items.enum %}
           <div class="form-check" data-filter="networks">
+            <label class="form-check-label">
+              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+              {{ value }}
+              <span class="form-check-sign no-ripple">
+                  <span class="check" />
+              </span>
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Wi-Fi:</p>
+        {% assign wifi_values = properties.wifi.enum | shift %}
+        {% for value in wifi_values %}
+          <div class="form-check" data-filter="wifi">
             <label class="form-check-label">
               <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
               {{ value }}
