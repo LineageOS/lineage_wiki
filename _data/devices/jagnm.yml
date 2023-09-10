@@ -20,6 +20,7 @@ maintainers: []
 name: G3 Beat
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [NFC, GPS, Accelerometer, Compass, Proximity sensor, FM radio]
+quirks: [IMS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
