@@ -442,6 +442,11 @@ definitions:
       type: string
     type: array
     uniqueItems: True
+  valid_quirks:
+    description: All valid quirks a device can have
+    enum:
+    - IMS
+    type: string
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -740,6 +745,13 @@ properties:
       type: array
     - enum:
       - None
+  quirks:
+    "$id": "/properties/quirks"
+    items:
+      "$id": "/properties/quirks/items"
+      "$ref": "#/definitions/valid_quirks"
+    minItems: 0
+    type: array
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string
