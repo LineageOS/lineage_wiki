@@ -22,6 +22,7 @@ models: [GT-I9301I, GT-I9301Q]
 name: Galaxy S III Neo (Sony Camera)
 network: [2G GSM, 2G CDMA, 3G UMTS]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+quirks: [nfc]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.

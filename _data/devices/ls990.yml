@@ -21,6 +21,7 @@ maintainers: []
 name: G3 (Sprint)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Compass, Gyroscope, Infrared sensor, Proximity sensor, FM radio]
+quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and then hold them again.

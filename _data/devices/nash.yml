@@ -24,6 +24,7 @@ models: [XT1789-02, XT1789-03, XT1789-04, XT1789-05, XT1789-06, XT1789-07]
 name: moto z2 force
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+quirks: [aux_cameras]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 release: 2017-07

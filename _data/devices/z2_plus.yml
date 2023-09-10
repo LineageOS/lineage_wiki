@@ -22,6 +22,7 @@ maintainers: [DD3Boh]
 name: Z2 Plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
+quirks: [fde]
 ram: 3 GB LPDDR4 / 4 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Power</kbd>.
   Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on recovery and <kbd>Power</kbd> to choose.
