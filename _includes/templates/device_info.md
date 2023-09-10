@@ -65,6 +65,18 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% endif %}
 {% endif %}
 
+{%- if device.quirks != 'None' %}
+## Known quirks
+
+{% for quirk in device.quirks %}
+- [{{ quirk }}](/quirks/{{ quirk | downcase }})
+{%- unless forloop.last -%}
+<br/>
+{%- endunless %}
+{% endfor -%}
+
+{%- endif %}
+
 ## Find help online
 
 You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
