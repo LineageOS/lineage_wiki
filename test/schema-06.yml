@@ -740,6 +740,10 @@ properties:
       type: array
     - enum:
       - None
+  quirks:
+    "$id": "/properties/quirks"
+    items:
+    - IMS
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string
