@@ -20,6 +20,7 @@ name: Jetson Nano [Android TV]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
+quirks: [atv_remote_mic, ims]
 ram: 4 GB
 recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
 release: 2019-03-18

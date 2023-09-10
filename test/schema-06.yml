@@ -442,6 +442,18 @@ definitions:
       type: string
     type: array
     uniqueItems: True
+  valid_quirks:
+    description: All valid quirks a device can have
+    enum:
+    - ant
+    - atv_remote_mic
+    - aux_cameras
+    - dock
+    - fde
+    - hardware_encryption
+    - ims
+    - nfc
+    type: string
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -740,6 +752,12 @@ properties:
       type: array
     - enum:
       - None
+  quirks:
+    "$id": "/properties/quirks"
+    items:
+      "$id": "/properties/quirks/items"
+      "$ref": "#/definitions/valid_quirks"
+    type: array
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string

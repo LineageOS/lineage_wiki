@@ -23,6 +23,7 @@ name: Galaxy S5 Sport
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, RGB ambient light, Infrared sensor]
+quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2014-06-23
