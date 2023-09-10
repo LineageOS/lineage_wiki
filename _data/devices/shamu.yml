@@ -19,9 +19,8 @@ kernel: android_kernel_moto_shamu
 maintainers: [Elektroschmock, npjohnson]
 name: Nexus 6
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-note_title: ANT+ and IMS support
-note_content: LineageOS 16.0 and above for this device do not support ANT+ and IMS (VoLTE, VoWi-Fi, Carrier video calling), due to compatibility issues with proprietary components.
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, NFC, Qi wireless charging, Dual front speakers]
+quirks: [ant, ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
 release: 2014-10-29

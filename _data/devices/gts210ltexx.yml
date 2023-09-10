@@ -20,6 +20,7 @@ models: [SM-T815]
 name: Galaxy Tab S2 9.7 (LTE)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Compass, GPS]
+quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2015-09

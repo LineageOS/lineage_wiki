@@ -164,6 +164,12 @@ There are some optional properties which you might not need, but in case you do,
 * `format_on_upgrade`: Used if the device needs to wiped on major LineageOS version due to unfixable device specific issues.
 * `is_ab_device`: Used if the device has an A/B partition scheme.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
+* `quirks`: List of known quirks (make sure they aren't violating the [charter](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md) or are exempted!). An array of one or more of the following (if unclear, click the links):
+
+  {%- for item in definitions.valid_quirks.enum %}
+  [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
+  {%- endfor %}
+
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
 
   ```
