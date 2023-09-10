@@ -26,6 +26,7 @@ models: [SM-N975F, SM-N975F/DS]
 name: Galaxy Note10+
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Qi wireless charging, Qi reverse wireless charging]
+quirks: [ims]
 ram: 12 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2019-08-23

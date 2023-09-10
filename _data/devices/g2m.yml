@@ -20,6 +20,7 @@ maintainers: []
 name: 'G2 Mini'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
+quirks: [ims]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and then hold them again. Choose 'Yes' twice to confirm.

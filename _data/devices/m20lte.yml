@@ -23,6 +23,7 @@ models: [SM-M205F, SM-M205FN, SM-M205G, SM-M205M, SM-M205N]
 name: Galaxy M20
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+quirks: [ims]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2019-01-28
