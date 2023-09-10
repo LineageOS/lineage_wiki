@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   RGB ambient light, Infrared sensor, GPS, NFC]
+quirks: [IMS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.

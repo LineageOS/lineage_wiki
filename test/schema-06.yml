@@ -442,6 +442,18 @@ definitions:
       type: string
     type: array
     uniqueItems: True
+  valid_quirks:
+    description: All valid quirks a device can have
+    enum:
+    - ANT
+    - Auxillary/Periphial Cameras
+    - Docking Station
+    - File Encryption Support
+    - Hardware Backed Encryption
+    - IMS
+    - In-Remote Microphone
+    - NFC
+    type: string
 properties:
   architecture:
     "$id": "/properties/architecture"
@@ -740,6 +752,12 @@ properties:
       type: array
     - enum:
       - None
+  quirks:
+    "$id": "/properties/quirks"
+    items:
+      "$id": "/properties/quirks/items"
+      "$ref": "#/definitions/valid_quirks"
+    type: array
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string

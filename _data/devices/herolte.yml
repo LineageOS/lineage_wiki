@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
   Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
   RGB ambient light, Infrared sensor]
+quirks: [IMS]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 release: 2016-03-18
