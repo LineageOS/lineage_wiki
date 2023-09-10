@@ -26,6 +26,7 @@ network: [2G CDMA, 2G GSM, 3G UMTS, 4G LTE]
 note_title: File Encryption Support
 note_content: As of Android 13, Full Disk Encryption (FDE) has been deprecated. As this device only supports FDE, this device has been exempted from file encryption requirements as detailed [here](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md#exceptions).
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, IR blaster, Infrared sensor, Mobility DisplayPort (MyDP), NFC, USB OTG]
+quirks: [fde, ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 release: 2016-02

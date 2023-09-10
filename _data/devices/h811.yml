@@ -19,6 +19,7 @@ maintainers: []
 name: G4 (T-Mobile)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, FM radio]
+quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 release: 2015-06

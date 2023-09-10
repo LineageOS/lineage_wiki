@@ -21,6 +21,7 @@ name: Galaxy Tab S 10.5 LTE
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [ Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader ]
+quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 required_bootloader: ['T805ZHU1CQB1']

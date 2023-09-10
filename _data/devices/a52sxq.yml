@@ -25,6 +25,7 @@ models: [SM-A528B, SM-A528N, SM-A528B/DS]
 name: Galaxy A52s 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+quirks: [ims]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2021

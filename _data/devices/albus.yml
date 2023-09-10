@@ -21,6 +21,7 @@ name: moto z2 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
   Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+quirks: [aux_cameras]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2017-06
