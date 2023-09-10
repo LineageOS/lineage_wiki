@@ -20,6 +20,7 @@ models: [XT1635-01, XT1635-02, XT1635-03]
 name: moto z play
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
+quirks: [aux_cameras]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
