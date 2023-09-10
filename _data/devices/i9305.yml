@@ -21,6 +21,7 @@ name: Galaxy S III (LTE / International)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+quirks: [IMS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-10
