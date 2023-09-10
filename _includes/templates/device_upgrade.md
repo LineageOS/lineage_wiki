@@ -14,6 +14,10 @@ This device does not have more than one version so far, therefore we can't provi
 
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
 2. You actually want to upgrade your device to the newest version - if you wish to downgrade to an earlier version of LineageOS, follow your [device's]({{ device | device_link: "/install" | relative_url }}) instructions for installing LineageOS the first time.
+{%- if device.quirks != 'None' %}
+{%- capture link %}{{ device | device_link | absolute_url | append: "#known+quirks" }}{% endcapture %}
+3. You are aware of this device's [known quirks]({{ site.baseurl | append: link }})
+{%- endif %}
 
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 {% unless device.before_install.ships_fw %}

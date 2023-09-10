@@ -25,6 +25,7 @@ models: [SM-A725F, SM-A725M, SM-A725F/DS, SM-A725M/DS]
 name: Galaxy A72
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+quirks: [IMS]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 release: 2021

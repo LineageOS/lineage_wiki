@@ -21,6 +21,7 @@ maintainers: []
 name: G2 (International)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+quirks: [IMS]
 ram: 2 GB
 recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
