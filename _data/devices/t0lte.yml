@@ -21,6 +21,7 @@ name: Galaxy Note 2 (LTE)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
+quirks: [IMS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 release: 2012-09
