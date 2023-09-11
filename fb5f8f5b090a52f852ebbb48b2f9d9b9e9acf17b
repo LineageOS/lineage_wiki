@@ -22,6 +22,29 @@
       },
       "revId": "fb5f8f5b090a52f852ebbb48b2f9d9b9e9acf17b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57ac18d5_a3e744b4",
+        "filename": "pages/quirks/nfc.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-11T10:39:36Z",
+      "side": 1,
+      "message": "/",
+      "range": {
+        "startLine": 17,
+        "startChar": 97,
+        "endLine": 17,
+        "endChar": 98
+      },
+      "revId": "fb5f8f5b090a52f852ebbb48b2f9d9b9e9acf17b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
