@@ -22,6 +22,30 @@
       },
       "revId": "2036c42619c5ad963c5d8ec4f2b9808e6593bff3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b42101f0_4ec8520f",
+        "filename": "_data/devices/violet.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 32613
+      },
+      "writtenOn": "2023-09-11T03:59:16Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "02b23d08_ec50bc41",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 26
+      },
+      "revId": "2036c42619c5ad963c5d8ec4f2b9808e6593bff3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
