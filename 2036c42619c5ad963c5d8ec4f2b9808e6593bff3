@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "02b23d08_ec50bc41",
+        "filename": "_data/devices/violet.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-09-11T02:53:50Z",
+      "side": 1,
+      "message": "this is wrong. lineage supported model numbers go here, if need be.",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 26
+      },
+      "revId": "2036c42619c5ad963c5d8ec4f2b9808e6593bff3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
