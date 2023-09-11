@@ -22,6 +22,30 @@
       },
       "revId": "e74c3068ebcc65750ffbc50071f44919de0076cf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a35b19e_0d3fdf4d",
+        "filename": "_data/devices/violet.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 32613
+      },
+      "writtenOn": "2023-09-11T11:20:11Z",
+      "side": 1,
+      "message": "i could not get hold of the china variant modelname",
+      "parentUuid": "b6b12302_7e09cd6e",
+      "range": {
+        "startLine": 28,
+        "startChar": 9,
+        "endLine": 28,
+        "endChar": 17
+      },
+      "revId": "e74c3068ebcc65750ffbc50071f44919de0076cf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
