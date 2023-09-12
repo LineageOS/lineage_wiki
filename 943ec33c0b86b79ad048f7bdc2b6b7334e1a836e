@@ -16,6 +16,23 @@
       "message": "Our extract-utils.py supports extracting directly from a lineage ota zip, so we could do away with this page entirely. Then, in the lineage build extract steps, just add the option to run ```./extract-files.sh /path/to/lineage-*.zip```",
       "revId": "943ec33c0b86b79ad048f7bdc2b6b7334e1a836e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "310e6682_124a185a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-09-12T18:23:43Z",
+      "side": 1,
+      "message": "Our payload extractor is only in branches 19 and 20, so these steps wont work in all cases.\nI\u0027ll push a new ps here in a few to address that.",
+      "revId": "943ec33c0b86b79ad048f7bdc2b6b7334e1a836e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
