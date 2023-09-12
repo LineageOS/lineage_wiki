@@ -1,0 +1,234 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "399197b3_495d3845",
+        "filename": "pages/quirks/atv_remote_mic.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 8,
+        "startChar": 6,
+        "endLine": 8,
+        "endChar": 23
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8097a66f_1379aeaf",
+        "filename": "pages/quirks/atv_remote_mic.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 10,
+        "startChar": 90,
+        "endLine": 10,
+        "endChar": 113
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e377261c_7ef80c01",
+        "filename": "pages/quirks/aux_cameras.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 8,
+        "startChar": 13,
+        "endLine": 8,
+        "endChar": 31
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc22eac7_09a042e3",
+        "filename": "pages/quirks/dock.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 10,
+        "startChar": 28,
+        "endLine": 10,
+        "endChar": 44
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63102d7a_0bae3587",
+        "filename": "pages/quirks/dock.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 11,
+        "startChar": 91,
+        "endLine": 11,
+        "endChar": 107
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a3deef57_da874bdc",
+        "filename": "pages/quirks/fde.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 3,
+        "startChar": 21,
+        "endLine": 3,
+        "endChar": 39
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8f4d4981_3a10f03c",
+        "filename": "pages/quirks/fde.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 8,
+        "startChar": 8,
+        "endLine": 8,
+        "endChar": 26
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "59244a59_10ecdd42",
+        "filename": "pages/quirks/hardware_encryption.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 3,
+        "startChar": 25,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbad2939_5702b7bc",
+        "filename": "pages/quirks/hardware_encryption.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 8,
+        "startChar": 12,
+        "endLine": 8,
+        "endChar": 29
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2a967e95_bb728fdb",
+        "filename": "pages/quirks/hardware_encryption.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-09-12T17:59:28Z",
+      "side": 1,
+      "message": "lowercase",
+      "range": {
+        "startLine": 10,
+        "startChar": 14,
+        "endLine": 10,
+        "endChar": 40
+      },
+      "revId": "1084a7c61a638b783b398e8099b7c540486322e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
