@@ -16,6 +16,23 @@
       "message": "A fork of the latter of these is in progress on Devrel-int, makes sense to merge.",
       "revId": "f9ccb01332692a322c45f78ae89b3fcdd0cdd89b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "85c4a688_625790ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-09-15T08:15:50Z",
+      "side": 1,
+      "message": "might make sense to include cape too (8+ gen 1)",
+      "revId": "f9ccb01332692a322c45f78ae89b3fcdd0cdd89b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
