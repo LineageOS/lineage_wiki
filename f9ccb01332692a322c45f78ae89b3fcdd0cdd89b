@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19e9d07c_d5e9e4e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-09-15T03:35:33Z",
+      "side": 1,
+      "message": "A fork of the latter of these is in progress on Devrel-int, makes sense to merge.",
+      "revId": "f9ccb01332692a322c45f78ae89b3fcdd0cdd89b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
