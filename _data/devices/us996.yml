@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {removable: True, capacity: 3200, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '7.0'}
+before_install: {instructions: 'us996', version: '7.0'}
 bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
 cameras:
 - {flash: 'LED', info: '16 MP'}
@@ -23,8 +23,6 @@ kernel: android_kernel_lge_msm8996
 maintainers: [aleasto, AShiningRay, npjohnson, ROMSG, xxseva44, x86cpu]
 name: V20 (GSM Unlocked)
 network: [2G GSM, 3G UMTS, 4G LTE]
-note_title: Model Identification
-note_content: us996 builds are only for devices that were officially bootloader unlocked.
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, IR blaster, Infrared sensor, Mobility DisplayPort (MyDP), NFC, USB OTG]
 quirks: [fde, ims]
 ram: 4 GB
