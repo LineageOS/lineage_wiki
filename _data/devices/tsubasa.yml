@@ -1,5 +1,6 @@
 architecture: arm
 battery: {removable: True, capacity: 1700, tech: 'Li-Ion'}
+before_lineage_install: legacy_xperia
 bluetooth: {spec: '4.0', profiles: [A2DP]}
 cameras:
 - {flash: 'LED', info: '13 MP'}
@@ -19,12 +20,6 @@ kernel: android_kernel_sony_msm8x60
 maintainers: []
 name: Xperia V
 network: [2G GSM, 3G UMTS, 4G LTE]
-note_content: '**unify_userdata.zip**: The internal physical SDCard partition and the apps data partition of the device have been merged into a common UserData partition. The Unification process will require you to empty the SDCard partition, flash the *unify_userdata* zip and follow the instructions. Every time your files could get lost (Data, internal SDCard, ...), a warning will be shown to explain the issue and the flash will be aborted. You will then be able to flash the zip once again to accept the previously aborted process and unify the UserData. Then flash the ROM as usual.<br /><br />
-**restore_sdcard.zip**: In order to revert the UserData partition unification, and be able to flash an older ROM, you will need to flash the *restore_sdcard* zip. A factory reset will be needed to reverse the process, all data will be lost. Follow the instructions given by the zip and reflash the zip to accept warnings you might get.<br /><br />
-**recovery image**: An older stable version of the recovery is also available if you encounter issues during the process.'
-note_link: Download the UserData Unification packages
-note_title: UserData partitions unification starting from CM-13.0
-note_url: https://mega.nz/#F!mttySaCY!IcRH1F_xeBdK_i1gpTOjqg
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
