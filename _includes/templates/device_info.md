@@ -47,6 +47,10 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 - [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ device | device_link: "/upgrade" | relative_url }})
 {%- endif -%}
 
+{% if device.migrated_to and device.migrated_to != "" %}
+{% include templates/device_migrated_to.md %}
+{% endif %}
+
 {% if device.note_title and device.note_title != "" %}
 {% include templates/device_info_note.md %}
 {% endif %}
