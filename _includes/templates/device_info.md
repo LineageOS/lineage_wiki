@@ -1,5 +1,10 @@
 {% assign device = site.data.devices[page.device] %}
-{% if device.maintainers == empty %}
+
+{% if device.migrated_to and device.migrated_to != "" %}
+{% include templates/device_migrated_to.md %}
+{% endif %}
+ 
+{% if device.maintainers == empty and device.migrated_to == empty %}
 {% include alerts/specific/warning_discontinued_device.html %}
 {% endif %}
 {% if device.is_unlockable == false %}
