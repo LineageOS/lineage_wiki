@@ -175,6 +175,20 @@ definitions:
     type:
     - integer
     - string
+  migration_data:
+    description: The format required for migration information
+    properties:
+      codename:
+        description: The new device codename
+        type: string
+      version:
+        description: LineageOS version that mandated the migration
+        "$ref": "#/definitions/valid_branches"
+    required:
+    - codename
+    - version
+    additionalProperties: False
+    type: object
   screen_data:
     description: The format required for screen information
     properties:
@@ -726,6 +740,9 @@ properties:
     "$id": "/properties/maintainers"
     minItems: 0
     type: array
+  migrated_to:
+    "$id": "/properties/migrated_to"
+    "$ref": "#/definitions/migration_data"
   models:
     "$id": "/properties/models"
     type: array
