@@ -103,6 +103,10 @@ function applyFilters() {
   // Hide devices not matching filters
   $(".devices .item").each(function () {
     let codename = $(this).attr("data-codename");
+    if (codename === undefined) {
+      $(this).addClass("hidden");
+      return;
+    }
     let variant = $(this).attr("data-variant");
     if (variant.length > 0) {
       codename += `_variant${$(this).attr("data-variant")}`;
@@ -118,8 +122,12 @@ function applyFilters() {
 
   // Hide empty vendors
   $(".devices").each(function() {
+    console.log($(`*[data-vendor="${$(this).attr("data-vendor")}"]`).find("div:visible").length)
     $(`*[data-vendor="${$(this).attr("data-vendor")}"]`)
-      .toggle($(this).find("div:visible").length > 0);
+      .toggle($(this).find("div:visible").length > 1);
+    if ($(`*[data-vendor="${$(this).attr("data-vendor")}"]`).find("div:visible").length > 1) {
+      $(this).find(`*[data-variant="unknown"]`).removeClass("hidden");
+    }
   });
 
   // Hide vendors list
@@ -255,6 +263,27 @@ function showFilters() {
 </div>
 
 {%- if sorted[forloop.index].vendor != lastVendor %}
+
+{%- if jekyll.environment == "development" or jekyll.environment == "production" %}
+{%- capture imagePath %}{{ site.baseurl }}/images/devices/small/unknown.png{% endcapture %}
+{%- else %}
+{%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/small/unknown.png" }}{% endcapture %}
+{%- endif %}
+{%- assign url = "devices/unknown" | relative_url %}
+<div class="item" onClick="location.href='{{ url }}'" data-variant="unknown" data-url="{{ url }}">
+  <div class="deviceimage">
+    <a href="{{ url }}"><img src="{{ imagePath }}" alt="unknown device" loading="lazy" /></a>
+  </div>
+  <div class="name">
+    <a href="{{ url }}">
+      <span class="devicename">Other model</span>
+    </a><br>
+    <a href="{{ url }}">
+      <span class="codename">Other codename</span>
+    </a>
+  </div>
+</div>
+
 </div> <!-- div class="devices" -->
 {% endif %}
 {%- endfor %}
