@@ -5,6 +5,10 @@
 {%- assign custom_recovery_codename = device.codename %}
 {%- endif %}
 
+{% if device.migrated_to and device.migrated_to != "" %}
+{% include templates/device_migrated_to.mdd %}
+{% endif %}
+
 {%- assign versions_count = device.versions|size -%}
 {%- if versions_count < 2 %}
 This device does not have more than one version so far, therefore we can't provide you with upgrade instructions!

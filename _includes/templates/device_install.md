@@ -1,6 +1,10 @@
 {% assign device = site.data.devices[page.device] %}
 {% assign current_branch = device.current_branch %}
 
+{% if device.migrated_to and device.migrated_to != "" %}
+{% include templates/device_migrated_to.mdd %}
+{% endif %}
+
 {% capture install_content -%}
 The provided instructions are for LineageOS {{ current_branch }}. These will only work if you follow every section and step precisely. <br/>
 Do **not** continue after something fails!
