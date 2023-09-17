@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "84a7ea65_8ce44766",
+        "filename": "_data/devices/deb.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-09-17T21:37:26Z",
+      "side": 1,
+      "message": "nice catch",
+      "parentUuid": "3a80f253_218637fa",
+      "range": {
+        "startLine": 19,
+        "startChar": 41,
+        "endLine": 19,
+        "endChar": 43
+      },
+      "revId": "1b239cae6961c5b2c5364e026e823a3e3f2f05c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "23c8c2d8_6fe30444",
@@ -37,6 +61,30 @@
       "writtenOn": "2023-09-17T21:36:18Z",
       "side": 1,
       "message": "trailing space",
+      "range": {
+        "startLine": 5,
+        "startChar": 453,
+        "endLine": 5,
+        "endChar": 454
+      },
+      "revId": "1b239cae6961c5b2c5364e026e823a3e3f2f05c0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2db7005c_a789e170",
+        "filename": "_includes/templates/device_migrated_to.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-09-17T21:37:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "23c8c2d8_6fe30444",
       "range": {
         "startLine": 5,
         "startChar": 453,
