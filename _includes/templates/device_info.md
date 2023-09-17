@@ -65,7 +65,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% endif %}
 {% endif %}
 
-{%- if device.quirks != 'None' %}
+{%- if device.quirks and device.quirks != empty %}
 ## Known quirks
 
 {%- for quirk in device.quirks %}
