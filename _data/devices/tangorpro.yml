@@ -23,7 +23,6 @@ maintainers: [LuK1337, mikeioannina, npjohnson, neelc]
 name: Pixel Tablet
 network: None
 peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, Light sensor, USB OTG]
-quirks: [dock]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
