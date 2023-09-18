@@ -26,9 +26,9 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|LineageOS 17.1 (Android 10)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|LineageOS 16.0 (Android 9.0)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|LineageOS 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=170282) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|LineageOS 17.1 (Android 10)|MindTheGapps ([ARM](https://github.com/MindTheGapps/10.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/10.0.0-arm64/releases/latest))|
+|LineageOS 16.0 (Android 9.0)|MindTheGapps ([ARM](https://github.com/MindTheGapps/9.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/9.0.0-arm64/releases/latest), [x86](https://github.com/MindTheGapps/9.0.0-x86/releases/latest))|
+|LineageOS 15.1 (Android 8.1)|MindTheGapps ([ARM](https://github.com/MindTheGapps/8.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/8.1.0-arm64/releases/latest), [x86](https://github.com/MindTheGapps/8.1.0-x86/releases/latest))|
 |LineageOS 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=nano)|
 |LineageOS 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=nano)|
 {: .table }
@@ -39,7 +39,7 @@ These packages are only dependent on your OS version and architecture, which can
 |--------------------------|-------------------------------------------------------|
 |LineageOS 17.1 (Android 10)|[Open GApps](https://opengapps.org/?api=10.0&variant=tvstock)|
 |LineageOS 16.0 (Android 9.0)|[Open GApps](https://opengapps.org/?api=9.0&variant=tvstock)|
-|LineageOS 15.1 (Android 8.1)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=178518) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/old))|
+|LineageOS 15.1 (Android 8.1)|MindTheGapps ([ARM](https://github.com/MindTheGapps/8.1.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/8.1.0-arm64-ATV/releases/latest), [x86](https://github.com/MindTheGapps/8.1.0-x86-ATV/releases/latest))|
 |LineageOS 14.1 (Android 7.1)|[Open GApps](https://opengapps.org/?api=7.1&variant=tvstock)|
 |LineageOS 13.0 (Android 6.0)|[Open GApps](https://opengapps.org/?api=6.0&variant=tvstock)|
 {: .table }

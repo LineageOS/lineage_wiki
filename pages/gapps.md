@@ -32,9 +32,9 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|LineageOS 20 (Android 13)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|LineageOS 19 (Android 12L)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
-|LineageOS 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=322935&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))|
+|LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest))|
+|LineageOS 19 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64/releases/latest))|
+|LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64/releases/latest))|
 |Older versions|[See here](gapps/old.html)|
 {: .table }
 
@@ -42,8 +42,8 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
-|LineageOS 20 (Android 13)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/AndroidTV))|
-|LineageOS 19 (Android 12L)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/AndroidTV))|
-|LineageOS 18.1 (Android 11)|[MindTheGapps](https://androidfilehost.com/?w=files&flid=334254&sort_by=name&sort_dir=DESC) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps/AndroidTV))|
+|LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64-ATV/releases/latest))|
+|LineageOS 19 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64-ATV/releases/latest))|
+|LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64-ATV/releases/latest))|
 |Older versions|[See here](gapps/old.html)|
 {: .table }
