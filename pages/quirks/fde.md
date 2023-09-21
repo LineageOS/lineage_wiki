@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - File encryption support
 permalink: quirks/fde
+search: exclude
 toc: false
 ---
 
