@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - ATV In-Remote Microphone
 permalink: quirks/atv_remote_mic
+search: exclude
 toc: false
 ---
 

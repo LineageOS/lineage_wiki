@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - IMS
 permalink: quirks/ims
+search: exclude
 toc: false
 ---
 

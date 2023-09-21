@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - Auxillary/Peripheral Cameras
 permalink: quirks/aux_cameras
+search: exclude
 toc: false
 ---
 
