@@ -6,6 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
+    {%- if page.robots %}
+    <meta name="robots" content="{{ page.robots }}">
+    {%- endif %}
+
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
     {%- assign cacheBust = site.time | date:'?v=%s' %}

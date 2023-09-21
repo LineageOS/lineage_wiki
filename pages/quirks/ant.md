@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - ANT+
 permalink: quirks/ant
+robots: noindex
 search: exclude
 toc: false
 ---
