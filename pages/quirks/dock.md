@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - Docking Station
 permalink: quirks/dock
+robots: noindex
 search: exclude
 toc: false
 ---

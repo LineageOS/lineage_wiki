@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Quirks - Hardware backed encryption
 permalink: quirks/hardware_encryption
+robots: noindex
 search: exclude
 toc: false
 ---
