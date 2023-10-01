@@ -25,6 +25,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS,  GPS, Gyroscope, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
  Keep holding both buttons until the words "Fastboot Mode" appear on the screen, then release.
  Now with the volume rocker select "Recovery mode", then press <kbd>Power</kbd>.
 release: 2019-05-16

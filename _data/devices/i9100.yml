@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: None
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2011-02-11
 screen: {size: 4.3, resolution: '800x480', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '32 GB'}

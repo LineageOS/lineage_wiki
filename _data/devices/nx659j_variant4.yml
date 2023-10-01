@@ -27,6 +27,7 @@ peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequ
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 ram: 8/12/16 GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2020-08
 screen: {size: 6.65, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
 soc: Qualcomm SM8250 Snapdragon 865

@@ -29,6 +29,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Ultrasound proximity sensor, Compass, NFC, GPS, Qi wireless charging]
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2018-04
 screen: {size: 5.99, resolution: '1080x2160', technology: 'IPS LCD'}

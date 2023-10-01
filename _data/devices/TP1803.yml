@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG]
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2019
 screen: {size: 5.7, resolution: '2160x1080', technology: 'IPS LCD'}
 soc: Qualcomm SM8150 Snapdragon 855

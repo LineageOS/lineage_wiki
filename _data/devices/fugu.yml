@@ -20,6 +20,7 @@ no_oem_unlock_switch: true
 peripherals: None
 ram: 1 GB
 recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
+recovery_partition_name: recovery
   Tap the <kbd>Bottom Button</kbd> until recovery is selected. Press the <kbd>Bottom Button</kbd> for two seconds to select.
 release: 2014-10
 screen: None

@@ -26,6 +26,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, BeiDou, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8/12/16 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Then select recovery from bootloader using the hardware keys.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-08
 screen: {size: 6.59, resolution: '1080x2340', technology: 'Super AMOLED', refresh_rate: 144}

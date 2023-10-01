@@ -24,6 +24,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then insert a USB cable.
+recovery_partition_name: boot
   Keep holding until the "Razer" logo appears on the screen, then release.
 release: 2017-11
 screen: {size: 5.7, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}

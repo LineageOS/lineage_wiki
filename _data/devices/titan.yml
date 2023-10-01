@@ -23,6 +23,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2014-06

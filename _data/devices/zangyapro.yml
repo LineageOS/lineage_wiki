@@ -24,6 +24,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall effect sensor, A-GPS, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, FM radio, NFC, USB OTG]
 ram: 4/6 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
 release: 2018-05
 screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}

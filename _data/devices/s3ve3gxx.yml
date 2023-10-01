@@ -25,6 +25,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 quirks: [nfc]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   When the blue text appears, release the buttons.
 release: 2014-04-11
 required_bootloader: ['GT-I9301I = I9301IXCUARA1', 'GT-I9301Q = I9301QXXUAHN1']

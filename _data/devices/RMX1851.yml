@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio, USB OTG]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   Use volume rockers to navigate and power button to choose between the modes.
 release: 2019-04-29
 screen: {size: 6.3, resolution: '2340x1080', technology: 'IPS LCD'}

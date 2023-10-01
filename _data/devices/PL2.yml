@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS]
 ram: 3/4 GB LPDDR4X
 recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
  Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep
  holding <kbd>Volume Up</kbd>.
 release: 2018

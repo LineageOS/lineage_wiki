@@ -25,6 +25,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
   Hall effect sensor, Sensor hub, Light sensor, Essential Accessories]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
 release: 2017-08
 screen: {size: 5.71, resolution: '1312x2560', technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835

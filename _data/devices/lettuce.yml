@@ -24,6 +24,7 @@ no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-05-12
 screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}

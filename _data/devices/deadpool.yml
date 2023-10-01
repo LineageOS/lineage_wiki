@@ -22,6 +22,7 @@ network: None
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Recovery menu is displayed.
+recovery_partition_name: recovery
 release: 2020-09-22
 screen: None
 soc: Amlogic S905y2
