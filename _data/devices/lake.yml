@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
-- {flash: None, info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+  - {flash: None, info: '12 MP'}
 codename: lake
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 current_branch: 20
-dimensions: {width: 75.3, height: 157, depth: 8.3}
+dimensions: {depth: 8.3, height: 157, width: 75.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 509
 image: lake.png
@@ -22,14 +22,13 @@ maintainers: [jro1979, npjohnson]
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
 name: moto g7 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-02
-screen: {size: 6.2, resolution: '1080x2270', technology: 'IPS LTPS LCD'}
+screen: {resolution: '1080x2270', size: 6.2, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB

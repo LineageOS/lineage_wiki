@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 4600, tech: 'Li-Po'}
+battery: {capacity: 4600, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '1.3 MP'}
 codename: v500
 cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-dimensions: {width: 126.5, height: 216.8, depth: 8.3}
+dimensions: {depth: 8.3, height: 216.8, width: 126.5}
 download_boot: ''
 gpu: Qualcomm Adreno 320
 image: v500.png
@@ -20,13 +20,12 @@ name: G Pad 8.3
 network: None
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
-  When prompted to erase all user data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>. When prompted to erase all user data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2013-10-14
 root_method: [custom, 'https://forum.xda-developers.com/lg-g-pad-83/general/guide-root-twrp-customrom-kot49i-v50020d-t2894277']
-screen: {size: 8.3, resolution: '1920x1200', technology: 'IPS LCD'}
+screen: {resolution: '1920x1200', size: 8.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16 GB

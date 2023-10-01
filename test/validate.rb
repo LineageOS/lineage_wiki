@@ -3,6 +3,7 @@
 require 'json'
 require 'json-schema'
 require 'yaml'
+require 'yalphabetize'
 
 
 def json_to_yaml(json)
@@ -60,6 +61,12 @@ def validate_template(template, path, codename)
   end
 end
 
+def validate_yaml_lint(path)
+  reader_class = Yalphabetize::Reader.new(path).to_ast
+  order_checker_class = Yalphabetize::OrderCheckers::CapitalizedFirstThenAlphabetical
+  return !Yalphabetize::OffenceDetector.new(reader_class, order_checker_class: order_checker_class).offences?
+end
+
 trap "SIGINT" do
   puts "Aborted by user"
   exit 130
@@ -89,6 +96,15 @@ info_template = load_template('info.md')
 install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
+
+Dir.glob(wiki_dir + '**/*.yml').each do |filename|
+  next if filename == wiki_dir + "_config.yml"
+
+  if !validate_yaml_lint(filename)
+    puts to_relative_path(filename) + ': YAML document is not linted properly, use yalphabetize -a'
+    at_exit { exit false }
+  end
+end
 
 Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename

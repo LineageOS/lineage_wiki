@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: None, info: '5 MP or 8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: None, info: '5 MP or 8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: P024
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -24,7 +24,7 @@ ram: 1/2 GB
 recovery_boot: ''
 recovery_partition_name: recovery
 release: 2015-07
-screen: {size: 8, resolution: '1280x800', technology: 'IPS LCD'}
+screen: {resolution: '1280x800', size: 8, technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB

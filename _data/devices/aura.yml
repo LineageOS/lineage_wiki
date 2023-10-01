@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: None, info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: None, info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: aura
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 79, height: 158.5, depth: 8.5}
+dimensions: {depth: 8.5, height: 158.5, width: 79}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 630
 image: aura.png
@@ -26,7 +26,7 @@ ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2018-10
-screen: {size: 5.72, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1440x2560', size: 5.72, technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1

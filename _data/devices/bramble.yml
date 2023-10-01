@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 3885, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 3885, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12.2 MP'}
-- {flash: None, info: '16 MP (ultrawide)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12.2 MP'}
+  - {flash: None, info: '16 MP (ultrawide)'}
+  - {flash: None, info: '8 MP'}
 codename: bramble
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 74, height: 153.9, depth: 8.2}
+dimensions: {depth: 8.2, height: 153.9, width: 74}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: bramble.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2020-10
-screen: {size: 6.2, resolution: '2340x1080', technology: 'AMOLED', refresh_rate: 60}
+screen: {refresh_rate: 60, resolution: '2340x1080', size: 6.2, technology: 'AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 128 GB
 tree: android_device_google_bramble

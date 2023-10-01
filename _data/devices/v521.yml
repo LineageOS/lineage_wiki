@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4650, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 4650, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '5 MP'}
 carrier: T-Mobile
 codename: v521
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
 current_branch: 14.1
-dimensions: {width: 121.9, height: 210.8, depth: 7.9}
+dimensions: {depth: 7.9, height: 210.8, width: 121.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: v521.png
@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition_name: recovery
 release: 2016-06
-screen: {size: 8, resolution: '1200x1920', technology: 'IPS LCD'}
+screen: {resolution: '1200x1920', size: 8, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16 GB

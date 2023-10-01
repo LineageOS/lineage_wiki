@@ -1,16 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 1980, tech: 'Li-Po'}
+battery: {capacity: 1980, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: None, info: '5 MP'}
+  - {flash: None, info: '5 MP'}
 codename: condor
 cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
 dimensions: None
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Qualcomm Adreno 302
 image: condor.png
 install_method: fastboot_motorola
@@ -21,12 +20,11 @@ name: moto e
 network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2014-05-13
-screen: {size: 4.3, resolution: '540x960', technology: 'IPS LCD'}
+screen: {resolution: '540x960', size: 4.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8212 Snapdragon 200
 storage: 4 GB

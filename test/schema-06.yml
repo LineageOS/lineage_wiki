@@ -2,17 +2,18 @@
 "$schema": http://json-schema.org/draft-06/schema#
 definitions:
   architecture_data:
+    additionalProperties: False
     properties:
       cpu:
         "$ref": "#/definitions/valid_architectures"
       userspace:
         "$ref": "#/definitions/valid_architectures"
     required:
-    - cpu
-    - userspace
-    additionalProperties: False
+      - cpu
+      - userspace
     type: object
   battery_data:
+    additionalProperties: False
     description: The format required for battery
     properties:
       capacity:
@@ -24,28 +25,28 @@ definitions:
       tech:
         description: The battery technology
         enum:
-        - Li-Ion
-        - Li-Po
+          - Li-Ion
+          - Li-Po
     required:
-    - capacity
-    - removable
-    additionalProperties: False
+      - capacity
+      - removable
     type: object
   before_install_format:
+    additionalProperties: False
     description: The format for the before_install property
     properties:
       instructions:
         type: string
-      version:
-        type: string
       ships_fw:
         description: Defines whether the device ships firmware
         type: boolean
+      version:
+        type: string
     required:
-    - instructions
-    additionalProperties: False
+      - instructions
     type: object
   before_recovery_install_format:
+    additionalProperties: False
     description: The format for the before_recovery_install property
     properties:
       instructions:
@@ -53,189 +54,189 @@ definitions:
       partitions:
         type: array
     required:
-    - instructions
-    additionalProperties: False
+      - instructions
     type: object
   camera_data:
+    additionalProperties: False
     description: The format for the camera property
     properties:
+      flash:
+        enum:
+          - Dual LED
+          - Dual LED (dual tone)
+          - LED
+          - None
+        type: string
       info:
         description: The camera info (in MP)
         pattern: ^(\d+(\.\d{1,2})? MP( \(.*\))?( or )?)+$
         type: string
-      flash:
-        enum:
-        - Dual LED
-        - Dual LED (dual tone)
-        - LED
-        - None
-        type: string
     required:
-    - info
-    - flash
-    additionalProperties: False
+      - info
+      - flash
   dimension_data:
+    additionalProperties: False
     description: The format required for device dimensions
     properties:
-      width:
-        description: Device width
+      depth:
+        description: Device depth
         type: number
       height:
         description: Device height
         type: number
-      depth:
-        description: Device depth
+      width:
+        description: Device width
         type: number
     required:
-    - width
-    - height
-    - depth
-    additionalProperties: False
+      - width
+      - height
+      - depth
     type: object
   gpu_data:
     enum:
-    - ARM Mali-400 MP4
-    - ARM Mali-G31 MP2
-    - ARM Mali-G52 MC2
-    - ARM Mali-G71 MP2
-    - ARM Mali-G72 MP12
-    - ARM Mali-G72 MP18
-    - ARM Mali-G72 MP3
-    - ARM Mali-G76 MC4
-    - ARM Mali-G76 MP12
-    - ARM Mali-G78 MP20
-    - ARM Mali-G710 MC10
-    - ARM Mali-G710 MP7
-    - ARM Mali-T604 MP4
-    - ARM Mali-T628 MP6
-    - ARM Mali-T720 MP2
-    - ARM Mali-T760 MP6
-    - ARM Mali-T760 MP8
-    - ARM Mali-T830 MP2
-    - ARM Mali-T830 MP3
-    - ARM Mali-T880 MP12
-    - NVIDIA GK20A (Kepler)
-    - NVIDIA GM20B (Maxwell)
-    - NVIDIA GP10B (Pascal)
-    - NVIDIA Kepler DX1 192-core
-    - NVIDIA Maxwell 256-core
-    - NVIDIA Tegra 4
-    - PowerVR G6430
-    - PowerVR SGX540
-    - PowerVR SGX544MP2
-    - Qualcomm Adreno 225
-    - Qualcomm Adreno 302
-    - Qualcomm Adreno 305
-    - Qualcomm Adreno 306
-    - Qualcomm Adreno 308
-    - Qualcomm Adreno 320
-    - Qualcomm Adreno 330
-    - Qualcomm Adreno 405
-    - Qualcomm Adreno 418
-    - Qualcomm Adreno 420
-    - Qualcomm Adreno 430
-    - Qualcomm Adreno 504
-    - Qualcomm Adreno 505
-    - Qualcomm Adreno 506
-    - Qualcomm Adreno 508
-    - Qualcomm Adreno 509
-    - Qualcomm Adreno 510
-    - Qualcomm Adreno 512
-    - Qualcomm Adreno 530
-    - Qualcomm Adreno 540
-    - Qualcomm Adreno 605
-    - Qualcomm Adreno 610
-    - Qualcomm Adreno 612
-    - Qualcomm Adreno 615
-    - Qualcomm Adreno 616
-    - Qualcomm Adreno 618
-    - Qualcomm Adreno 619
-    - Qualcomm Adreno 620
-    - Qualcomm Adreno 630
-    - Qualcomm Adreno 640
-    - Qualcomm Adreno 642
-    - Qualcomm Adreno 642L
-    - Qualcomm Adreno 650
-    - Qualcomm Adreno 660
-    - Qualcomm Adreno 675
-    - Qualcomm Adreno 680
-    - Qualcomm Adreno 685
-    - Qualcomm Adreno 690
-    - Qualcomm Adreno 730
-    - Qualcomm Adreno 740
+      - ARM Mali-400 MP4
+      - ARM Mali-G31 MP2
+      - ARM Mali-G52 MC2
+      - ARM Mali-G71 MP2
+      - ARM Mali-G72 MP12
+      - ARM Mali-G72 MP18
+      - ARM Mali-G72 MP3
+      - ARM Mali-G76 MC4
+      - ARM Mali-G76 MP12
+      - ARM Mali-G78 MP20
+      - ARM Mali-G710 MC10
+      - ARM Mali-G710 MP7
+      - ARM Mali-T604 MP4
+      - ARM Mali-T628 MP6
+      - ARM Mali-T720 MP2
+      - ARM Mali-T760 MP6
+      - ARM Mali-T760 MP8
+      - ARM Mali-T830 MP2
+      - ARM Mali-T830 MP3
+      - ARM Mali-T880 MP12
+      - NVIDIA GK20A (Kepler)
+      - NVIDIA GM20B (Maxwell)
+      - NVIDIA GP10B (Pascal)
+      - NVIDIA Kepler DX1 192-core
+      - NVIDIA Maxwell 256-core
+      - NVIDIA Tegra 4
+      - PowerVR G6430
+      - PowerVR SGX540
+      - PowerVR SGX544MP2
+      - Qualcomm Adreno 225
+      - Qualcomm Adreno 302
+      - Qualcomm Adreno 305
+      - Qualcomm Adreno 306
+      - Qualcomm Adreno 308
+      - Qualcomm Adreno 320
+      - Qualcomm Adreno 330
+      - Qualcomm Adreno 405
+      - Qualcomm Adreno 418
+      - Qualcomm Adreno 420
+      - Qualcomm Adreno 430
+      - Qualcomm Adreno 504
+      - Qualcomm Adreno 505
+      - Qualcomm Adreno 506
+      - Qualcomm Adreno 508
+      - Qualcomm Adreno 509
+      - Qualcomm Adreno 510
+      - Qualcomm Adreno 512
+      - Qualcomm Adreno 530
+      - Qualcomm Adreno 540
+      - Qualcomm Adreno 605
+      - Qualcomm Adreno 610
+      - Qualcomm Adreno 612
+      - Qualcomm Adreno 615
+      - Qualcomm Adreno 616
+      - Qualcomm Adreno 618
+      - Qualcomm Adreno 619
+      - Qualcomm Adreno 620
+      - Qualcomm Adreno 630
+      - Qualcomm Adreno 640
+      - Qualcomm Adreno 642
+      - Qualcomm Adreno 642L
+      - Qualcomm Adreno 650
+      - Qualcomm Adreno 660
+      - Qualcomm Adreno 675
+      - Qualcomm Adreno 680
+      - Qualcomm Adreno 685
+      - Qualcomm Adreno 690
+      - Qualcomm Adreno 730
+      - Qualcomm Adreno 740
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
-    - YYYY
-    - YYYY-MM
-    - YYYY-MM-DD
+      - YYYY
+      - YYYY-MM
+      - YYYY-MM-DD
     maximum: 2030
     minimum: 1990
     pattern: ^\d{4}((-\d{2})?-\d{2})?$
     type:
-    - integer
-    - string
+      - integer
+      - string
   migration_data:
+    additionalProperties: False
     description: The format required for migration information
     properties:
       codename:
         description: The new device codename
         type: string
       version:
-        description: LineageOS version that mandated the migration
         "$ref": "#/definitions/valid_branches"
+        description: LineageOS version that mandated the migration
     required:
-    - codename
-    - version
-    additionalProperties: False
+      - codename
+      - version
     type: object
   screen_data:
+    additionalProperties: False
     description: The format required for screen information
     properties:
-      size:
-        description: The size of the screen
-        type: number
+      refresh_rate:
+        description: Maximum screen refresh rate [Hz]
+        type: integer
       resolution:
         description: Screen resolution
         pattern: ^\d+x\d+$
         type: string
+      size:
+        description: The size of the screen
+        type: number
       technology:
-        description: Screen technology
         "$ref": "#/definitions/screen_technologies"
-      refresh_rate:
-        description: Maximum screen refresh rate [Hz]
-        type: integer
+        description: Screen technology
     required:
-    - size
-    - resolution
-    - technology
-    additionalProperties: False
+      - size
+      - resolution
+      - technology
     type: object
   screen_technologies:
     enum:
-    - OLED
-    - P-OLED
-    - AMOLED
-    - Dynamic AMOLED
-    - Fluid AMOLED
-    - Fluid 2.0 LTPO AMOLED
-    - Optic AMOLED
-    - Super AMOLED
-    - Pentile RGBG AMOLED
-    - Pentile RGBG Super AMOLED
-    - IPS LCD
-    - IPS LTPS LCD
-    - IPS Retinal LCD
-    - IPS+ LCD
-    - Super IPS+ LCD
-    - LCD
-    - Super LCD
-    - PLS LCD
-    - Super PLS LCD
-    - Super clear LCD
-    - TFT LCD
+      - OLED
+      - P-OLED
+      - AMOLED
+      - Dynamic AMOLED
+      - Fluid AMOLED
+      - Fluid 2.0 LTPO AMOLED
+      - Optic AMOLED
+      - Super AMOLED
+      - Pentile RGBG AMOLED
+      - Pentile RGBG Super AMOLED
+      - IPS LCD
+      - IPS LTPS LCD
+      - IPS Retinal LCD
+      - IPS+ LCD
+      - Super IPS+ LCD
+      - LCD
+      - Super LCD
+      - PLS LCD
+      - Super PLS LCD
+      - Super clear LCD
+      - TFT LCD
     type: string
   sdcard_data:
+    additionalProperties: False
     description: The format required for the sdcard property
     properties:
       sizeMax:
@@ -245,157 +246,156 @@ definitions:
       slot:
         description: where the sdcard is inserted
         enum:
-        - dedicated
-        - hybrid
-        - sim
+          - dedicated
+          - hybrid
+          - sim
     required:
-    - sizeMax
-    additionalProperties: False
+      - sizeMax
     type: object
   soc_data:
     enum:
-    - Amlogic S905x2
-    - Amlogic S905y2
-    - Amlogic S905y3
-    - Google Tensor GS101
-    - Google Tensor GS201
-    - HiSilicon Kirin 659
-    - HiSilicon Kirin 970
-    - Intel Atom Z2560
-    - Intel Atom Z3560
-    - Intel Atom Z3580
-    - Mediatek MT6768 Helio G85
-    - Mediatek MT6785 Helio G95
-    - NVIDIA Tegra 4 (T114)
-    - NVIDIA Tegra K1 (T124)
-    - NVIDIA Tegra X1 (T210)
-    - NVIDIA Tegra X1+ (T210b01)
-    - NVIDIA Tegra X2 (T186)
-    - Qualcomm APQ8064 Snapdragon S4 Pro
-    - Qualcomm APQ8064T Snapdragon 600
-    - Qualcomm APQ8076 Snapdragon 652
-    - Qualcomm APQ8084 Snapdragon 805
-    - Qualcomm MSM8210 Snapdragon 200
-    - Qualcomm MSM8212 Snapdragon 200
-    - Qualcomm MSM8226 Snapdragon 400
-    - Qualcomm MSM8227 Snapdragon S4 Plus
-    - Qualcomm MSM8230 Snapdragon 400
-    - Qualcomm MSM8260A Snapdragon S4
-    - Qualcomm MSM8916 Snapdragon 410
-    - Qualcomm MSM8916T Snapdragon 412
-    - Qualcomm MSM8917 Snapdragon 425
-    - Qualcomm MSM8926 Snapdragon 400
-    - Qualcomm MSM8928 Snapdragon 400
-    - Qualcomm MSM8929 Snapdragon 415
-    - Qualcomm MSM8930AB Snapdragon 400
-    - Qualcomm MSM8937 Snapdragon 430
-    - Qualcomm MSM8939 Snapdragon 615
-    - Qualcomm MSM8939v2 Snapdragon 616
-    - Qualcomm MSM8940 Snapdragon 435
-    - Qualcomm MSM8952 Snapdragon 617
-    - Qualcomm MSM8953 Pro Snapdragon 626
-    - Qualcomm MSM8953 Snapdragon 625
-    - Qualcomm MSM8956 Snapdragon 650
-    - Qualcomm MSM8960 Snapdragon S4
-    - Qualcomm MSM8960 Snapdragon S4 Plus
-    - Qualcomm MSM8960DT Snapdragon S4 Pro
-    - Qualcomm MSM8960T Snapdragon S4 Pro
-    - Qualcomm MSM8974 Snapdragon 800
-    - Qualcomm MSM8974AB Snapdragon 801
-    - Qualcomm MSM8974AB-AB Snapdragon 801
-    - Qualcomm MSM8974AC Snapdragon 801
-    - Qualcomm MSM8974PRO Snapdragon 801
-    - Qualcomm MSM8976 Snapdragon 652
-    - Qualcomm MSM8992 Snapdragon 808
-    - Qualcomm MSM8994 Snapdragon 810
-    - Qualcomm MSM8996 Pro Snapdragon 821
-    - Qualcomm MSM8996 Snapdragon 820
-    - Qualcomm MSM8998 Snapdragon 835
-    - Qualcomm SDM429 Snapdragon 429
-    - Qualcomm SDM439 Snapdragon 439
-    - Qualcomm SDM630 Snapdragon 630
-    - Qualcomm SDM632 Snapdragon 632
-    - Qualcomm SDM636 Snapdragon 636
-    - Qualcomm SDM660 Snapdragon 660
-    - Qualcomm SDM665 Snapdragon 665
-    - Qualcomm SDM670 Snapdragon 670
-    - Qualcomm SDM710 Snapdragon 710
-    - Qualcomm SDM712 Snapdragon 712
-    - Qualcomm SDM835 Snapdragon 835
-    - Qualcomm SDM845 Snapdragon 845
-    - Qualcomm SM4350 Snapdragon 480
-    - Qualcomm SM6115 Snapdragon 662
-    - Qualcomm SM6150 Snapdragon 675
-    - Qualcomm SM6225 Snapdragon 680 4G
-    - Qualcomm SM7125 Snapdragon 720G
-    - Qualcomm SM7150-AA Snapdragon 730
-    - Qualcomm SM7150-AB Snapdragon 730G
-    - Qualcomm SM7150-AC Snapdragon 732G
-    - Qualcomm SM7225 Snapdragon 750G
-    - Qualcomm SM7225 Snapdragon 750G 5G
-    - Qualcomm SM7250 Snapdragon 765G
-    - Qualcomm SM7325 Snapdragon 778G 5G
-    - Qualcomm SM7325-AE Snapdragon 778G+ 5G
-    - Qualcomm SM7350-AB Snapdragon 780G 5G
-    - Qualcomm SM8150 Snapdragon 855
-    - Qualcomm SM8150-AC Snapdragon 855+
-    - Qualcomm SM8150-AC Snapdragon 860
-    - Qualcomm SM8250 Snapdragon 865
-    - Qualcomm SM8250-AB Snapdragon 865+
-    - Qualcomm SM8250-AC Snapdragon 870
-    - Qualcomm SM8350 Snapdragon 888
-    - Qualcomm SM8450 Snapdragon 8 Gen1
-    - Qualcomm SM8475 Snapdragon 8+ Gen1
-    - Qualcomm SM8550 Snapdragon 8 Gen2
-    - Samsung Exynos 4210
-    - Samsung Exynos 4412
-    - Samsung Exynos 5250
-    - Samsung Exynos 5420
-    - Samsung Exynos 5422
-    - Samsung Exynos 5433
-    - Samsung Exynos 7420
-    - Samsung Exynos 7578
-    - Samsung Exynos 7580
-    - Samsung Exynos 7880
-    - Samsung Exynos 7904
-    - Samsung Exynos 8890
-    - Samsung Exynos 9609
-    - Samsung Exynos 9611
-    - Samsung Exynos 9810
-    - Samsung Exynos 9820
-    - Samsung Exynos 9825
-    - TI OMAP4430
-    - TI OMAP4460
+      - Amlogic S905x2
+      - Amlogic S905y2
+      - Amlogic S905y3
+      - Google Tensor GS101
+      - Google Tensor GS201
+      - HiSilicon Kirin 659
+      - HiSilicon Kirin 970
+      - Intel Atom Z2560
+      - Intel Atom Z3560
+      - Intel Atom Z3580
+      - Mediatek MT6768 Helio G85
+      - Mediatek MT6785 Helio G95
+      - NVIDIA Tegra 4 (T114)
+      - NVIDIA Tegra K1 (T124)
+      - NVIDIA Tegra X1 (T210)
+      - NVIDIA Tegra X1+ (T210b01)
+      - NVIDIA Tegra X2 (T186)
+      - Qualcomm APQ8064 Snapdragon S4 Pro
+      - Qualcomm APQ8064T Snapdragon 600
+      - Qualcomm APQ8076 Snapdragon 652
+      - Qualcomm APQ8084 Snapdragon 805
+      - Qualcomm MSM8210 Snapdragon 200
+      - Qualcomm MSM8212 Snapdragon 200
+      - Qualcomm MSM8226 Snapdragon 400
+      - Qualcomm MSM8227 Snapdragon S4 Plus
+      - Qualcomm MSM8230 Snapdragon 400
+      - Qualcomm MSM8260A Snapdragon S4
+      - Qualcomm MSM8916 Snapdragon 410
+      - Qualcomm MSM8916T Snapdragon 412
+      - Qualcomm MSM8917 Snapdragon 425
+      - Qualcomm MSM8926 Snapdragon 400
+      - Qualcomm MSM8928 Snapdragon 400
+      - Qualcomm MSM8929 Snapdragon 415
+      - Qualcomm MSM8930AB Snapdragon 400
+      - Qualcomm MSM8937 Snapdragon 430
+      - Qualcomm MSM8939 Snapdragon 615
+      - Qualcomm MSM8939v2 Snapdragon 616
+      - Qualcomm MSM8940 Snapdragon 435
+      - Qualcomm MSM8952 Snapdragon 617
+      - Qualcomm MSM8953 Pro Snapdragon 626
+      - Qualcomm MSM8953 Snapdragon 625
+      - Qualcomm MSM8956 Snapdragon 650
+      - Qualcomm MSM8960 Snapdragon S4
+      - Qualcomm MSM8960 Snapdragon S4 Plus
+      - Qualcomm MSM8960DT Snapdragon S4 Pro
+      - Qualcomm MSM8960T Snapdragon S4 Pro
+      - Qualcomm MSM8974 Snapdragon 800
+      - Qualcomm MSM8974AB Snapdragon 801
+      - Qualcomm MSM8974AB-AB Snapdragon 801
+      - Qualcomm MSM8974AC Snapdragon 801
+      - Qualcomm MSM8974PRO Snapdragon 801
+      - Qualcomm MSM8976 Snapdragon 652
+      - Qualcomm MSM8992 Snapdragon 808
+      - Qualcomm MSM8994 Snapdragon 810
+      - Qualcomm MSM8996 Pro Snapdragon 821
+      - Qualcomm MSM8996 Snapdragon 820
+      - Qualcomm MSM8998 Snapdragon 835
+      - Qualcomm SDM429 Snapdragon 429
+      - Qualcomm SDM439 Snapdragon 439
+      - Qualcomm SDM630 Snapdragon 630
+      - Qualcomm SDM632 Snapdragon 632
+      - Qualcomm SDM636 Snapdragon 636
+      - Qualcomm SDM660 Snapdragon 660
+      - Qualcomm SDM665 Snapdragon 665
+      - Qualcomm SDM670 Snapdragon 670
+      - Qualcomm SDM710 Snapdragon 710
+      - Qualcomm SDM712 Snapdragon 712
+      - Qualcomm SDM835 Snapdragon 835
+      - Qualcomm SDM845 Snapdragon 845
+      - Qualcomm SM4350 Snapdragon 480
+      - Qualcomm SM6115 Snapdragon 662
+      - Qualcomm SM6150 Snapdragon 675
+      - Qualcomm SM6225 Snapdragon 680 4G
+      - Qualcomm SM7125 Snapdragon 720G
+      - Qualcomm SM7150-AA Snapdragon 730
+      - Qualcomm SM7150-AB Snapdragon 730G
+      - Qualcomm SM7150-AC Snapdragon 732G
+      - Qualcomm SM7225 Snapdragon 750G
+      - Qualcomm SM7225 Snapdragon 750G 5G
+      - Qualcomm SM7250 Snapdragon 765G
+      - Qualcomm SM7325 Snapdragon 778G 5G
+      - Qualcomm SM7325-AE Snapdragon 778G+ 5G
+      - Qualcomm SM7350-AB Snapdragon 780G 5G
+      - Qualcomm SM8150 Snapdragon 855
+      - Qualcomm SM8150-AC Snapdragon 855+
+      - Qualcomm SM8150-AC Snapdragon 860
+      - Qualcomm SM8250 Snapdragon 865
+      - Qualcomm SM8250-AB Snapdragon 865+
+      - Qualcomm SM8250-AC Snapdragon 870
+      - Qualcomm SM8350 Snapdragon 888
+      - Qualcomm SM8450 Snapdragon 8 Gen1
+      - Qualcomm SM8475 Snapdragon 8+ Gen1
+      - Qualcomm SM8550 Snapdragon 8 Gen2
+      - Samsung Exynos 4210
+      - Samsung Exynos 4412
+      - Samsung Exynos 5250
+      - Samsung Exynos 5420
+      - Samsung Exynos 5422
+      - Samsung Exynos 5433
+      - Samsung Exynos 7420
+      - Samsung Exynos 7578
+      - Samsung Exynos 7580
+      - Samsung Exynos 7880
+      - Samsung Exynos 7904
+      - Samsung Exynos 8890
+      - Samsung Exynos 9609
+      - Samsung Exynos 9611
+      - Samsung Exynos 9810
+      - Samsung Exynos 9820
+      - Samsung Exynos 9825
+      - TI OMAP4430
+      - TI OMAP4460
     type: string
   valid_architectures:
     enum:
-    - arm
-    - arm64
-    - x86
-    - x86_64
+      - arm
+      - arm64
+      - x86
+      - x86_64
     type: string
   valid_branches:
     description: Valid branches a device can be on
     enum:
-    - 13.0
-    - 14.1
-    - 15.1
-    - 16.0
-    - 17.1
-    - 18.1
-    - 19.1
-    - 20
+      - 13.0
+      - 14.1
+      - 15.1
+      - 16.0
+      - 17.1
+      - 18.1
+      - 19.1
+      - 20
     type: number
   valid_networks:
     description: All valid networks a device can support
     items:
       enum:
-      - 2G GSM
-      - 2G CDMA
-      - 3G UMTS
-      - 3G CDMA2000
-      - 4G LTE
-      - 5G NR
+        - 2G GSM
+        - 2G CDMA
+        - 3G UMTS
+        - 3G CDMA2000
+        - 4G LTE
+        - 5G NR
       type: string
     type: array
     uniqueItems: True
@@ -403,101 +403,101 @@ definitions:
     description: All valid peripherals a device can have
     items:
       enum:
-      - A-GPS
-      - Accelerometer
-      - Audio Coprocessor
-      - Barometer
-      - Color spectrum sensor
-      - Compass
-      - DP over USB-C
-      - Depth Sensor
-      - Dot Projector
-      - Dual SIM
-      - Dual front speakers
-      - Dual speakers
-      - Dual side NFC
-      - Dual-frequency GNSS
-      - Essential Accessories
-      - FM radio
-      - Fingerprint reader
-      - BeiDou
-      - Galileo
-      - GLONASS
-      - GPS
-      - NAVIC
-      - SBAS
-      - QZSS
-      - Gesture sensor
-      - Google Assist Button
-      - Gyroscope
-      - HDMI
-      - Hall effect sensor
-      - Hardware keyboard
-      - Heart rate sensor
-      - Hygrometer
-      - IR blaster
-      - IR camera
-      - Iceview Cases
-      - Infrared sensor
-      - Light sensor
-      - MHL
-      - MHL 2.0
-      - MHL HDMI
-      - Mobility DisplayPort (MyDP)
-      - Motion Coprocessor
-      - Moto Mods
-      - NFC
-      - Pedometer
-      - Proximity sensor
-      - Qi wireless charging
-      - Qi reverse wireless charging
-      - Radar
-      - RGB ambient light
-      - SNS integration
-      - Sensor hub
-      - Thermometer
-      - Ultrasound proximity sensor
-      - USB OTG
+        - A-GPS
+        - Accelerometer
+        - Audio Coprocessor
+        - Barometer
+        - Color spectrum sensor
+        - Compass
+        - DP over USB-C
+        - Depth Sensor
+        - Dot Projector
+        - Dual SIM
+        - Dual front speakers
+        - Dual speakers
+        - Dual side NFC
+        - Dual-frequency GNSS
+        - Essential Accessories
+        - FM radio
+        - Fingerprint reader
+        - BeiDou
+        - Galileo
+        - GLONASS
+        - GPS
+        - NAVIC
+        - SBAS
+        - QZSS
+        - Gesture sensor
+        - Google Assist Button
+        - Gyroscope
+        - HDMI
+        - Hall effect sensor
+        - Hardware keyboard
+        - Heart rate sensor
+        - Hygrometer
+        - IR blaster
+        - IR camera
+        - Iceview Cases
+        - Infrared sensor
+        - Light sensor
+        - MHL
+        - MHL 2.0
+        - MHL HDMI
+        - Mobility DisplayPort (MyDP)
+        - Motion Coprocessor
+        - Moto Mods
+        - NFC
+        - Pedometer
+        - Proximity sensor
+        - Qi wireless charging
+        - Qi reverse wireless charging
+        - Radar
+        - RGB ambient light
+        - SNS integration
+        - Sensor hub
+        - Thermometer
+        - Ultrasound proximity sensor
+        - USB OTG
       type: string
     type: array
     uniqueItems: True
   valid_quirks:
     description: All valid quirks a device can have
     enum:
-    - ant
-    - atv_remote_mic
-    - aux_cameras
-    - dock
-    - fde
-    - hardware_encryption
-    - ims
-    - nfc
+      - ant
+      - atv_remote_mic
+      - aux_cameras
+      - dock
+      - fde
+      - hardware_encryption
+      - ims
+      - nfc
     type: string
 properties:
   architecture:
     "$id": "/properties/architecture"
     description: The CPU architecture of the device.
     oneOf:
-    - "$ref": "#/definitions/architecture_data"
-      description: An object to provide different architectures for cpu and userspace
-    - "$ref": "#/definitions/valid_architectures"
-      description: A string defining the architecture of cpu AND userspace
+      - "$ref": "#/definitions/architecture_data"
+        description: An object to provide different architectures for cpu and userspace
+      - "$ref": "#/definitions/valid_architectures"
+        description: A string defining the architecture of cpu AND userspace
   battery:
     "$id": "/properties/battery"
     oneOf:
-    - "$ref": "#/definitions/battery_data"
-    - description: Array of maps of model numbers to battery data
-      examples:
-      - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
-      - SM-9000B:  {removable: False, size: 3500, tech: 'Li-Po'}
-      items:
-        additionalProperties:
-          "$ref": "#/definitions/battery_data"
-        description: Map of model number to battery_data
-        type: object
-      type: array
-    - enum:
-      - None
+      - "$ref": "#/definitions/battery_data"
+      - description: Array of maps of model numbers to battery data
+        examples:
+          - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
+          - SM-9000B: {removable: False, size: 3500, tech: 'Li-Po'}
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/battery_data"
+          description: Map of model number to battery_data
+          type: object
+        type: array
+      - enum:
+          - None
   before_install:
     "$id": "/properties/before_install"
     "$ref": "#/definitions/before_install_format"
@@ -508,49 +508,49 @@ properties:
   before_recovery_install:
     "$id": "/properties/before_recovery_install"
     oneOf:
-    - "$ref": "#/definitions/before_recovery_install_format"
-    - minLength: 3
-      type: string
+      - "$ref": "#/definitions/before_recovery_install_format"
+      - minLength: 3
+        type: string
   bluetooth:
     "$id": "/properties/bluetooth"
+    additionalProperties: False
     properties:
       profiles:
         items:
           description: Bluetooth profile
           enum:
-          - A2DP
-          - A2DP + aptX
-          - A2DP + aptX HD
+            - A2DP
+            - A2DP + aptX
+            - A2DP + aptX HD
           type: string
         minItems: 1
         type: array
       spec:
         description: Bluetooth specification
         enum:
-        - None
-        - '1.0'
-        - '1.0B'
-        - '1.1'
-        - '1.2'
-        - '2.0'
-        - '2.0 + EDR'
-        - '2.1'
-        - '2.1 + EDR'
-        - '3.0'
-        - '3.0 + HS'
-        - '4.0'
-        - '4.0 + LE'
-        - '4.1'
-        - '4.2'
-        - '5'
-        - '5.1'
-        - '5.2'
-        - '5.3'
-        - '5.4'
+          - None
+          - '1.0'
+          - '1.0B'
+          - '1.1'
+          - '1.2'
+          - '2.0'
+          - '2.0 + EDR'
+          - '2.1'
+          - '2.1 + EDR'
+          - '3.0'
+          - '3.0 + HS'
+          - '4.0'
+          - '4.0 + LE'
+          - '4.1'
+          - '4.2'
+          - '5'
+          - '5.1'
+          - '5.2'
+          - '5.3'
+          - '5.4'
         type: string
     required:
-    - spec
-    additionalProperties: False
+      - spec
     type: object
   cameras:
     "$id": "/properties/cameras"
@@ -568,61 +568,61 @@ properties:
   cpu:
     "$id": "/properties/cpu"
     enum:
-    - Cortex-A15
-    - Cortex-A15 & Cortex-A7
-    - Cortex-A53
-    - Cortex-A53 & Cortex-A53
-    - Cortex-A53 & Cortex-A57
-    - Cortex-A53 & Cortex-A72
-    - Cortex-A57
-    - Cortex-A7
-    - Cortex-A72
-    - Cortex-A73 & Cortex-A53
-    - Cortex-A75 & Cortex-A55
-    - Cortex-A76 & Cortex-A55
-    - Cortex-A9
-    - Cortex-X1 & Cortex-A76 & Cortex-A55
-    - Cortex-X1 & Cortex-A78 & Cortex-A55
-    - Denver
-    - Denver 2 & Cortex-A57
-    - Exynos M1 & Cortex-A53
-    - Exynos M3 & Cortex-A55
-    - Exynos M4 & Cortex-A75 & Cortex-A55
-    - Intel Atom
-    - Krait
-    - Krait 200
-    - Krait 300
-    - Krait 400
-    - Krait 450
-    - Kryo
-    - Kryo 240
-    - Kryo 250
-    - Kryo 260
-    - Kryo 265
-    - Kryo 280
-    - Kryo 360
-    - Kryo 385
-    - Kryo 460
-    - Kryo 465
-    - Kryo 465 Gold & Kryo 465 Silver
-    - Kryo 468
-    - Kryo 470
-    - Kryo 475
-    - Kryo 485
-    - Kryo 490
-    - Kryo 495
-    - Kryo 560
-    - Kryo 570
-    - Kryo 585
-    - Kryo 670
-    - Kryo 680
+      - Cortex-A15
+      - Cortex-A15 & Cortex-A7
+      - Cortex-A53
+      - Cortex-A53 & Cortex-A53
+      - Cortex-A53 & Cortex-A57
+      - Cortex-A53 & Cortex-A72
+      - Cortex-A57
+      - Cortex-A7
+      - Cortex-A72
+      - Cortex-A73 & Cortex-A53
+      - Cortex-A75 & Cortex-A55
+      - Cortex-A76 & Cortex-A55
+      - Cortex-A9
+      - Cortex-X1 & Cortex-A76 & Cortex-A55
+      - Cortex-X1 & Cortex-A78 & Cortex-A55
+      - Denver
+      - Denver 2 & Cortex-A57
+      - Exynos M1 & Cortex-A53
+      - Exynos M3 & Cortex-A55
+      - Exynos M4 & Cortex-A75 & Cortex-A55
+      - Intel Atom
+      - Krait
+      - Krait 200
+      - Krait 300
+      - Krait 400
+      - Krait 450
+      - Kryo
+      - Kryo 240
+      - Kryo 250
+      - Kryo 260
+      - Kryo 265
+      - Kryo 280
+      - Kryo 360
+      - Kryo 385
+      - Kryo 460
+      - Kryo 465
+      - Kryo 465 Gold & Kryo 465 Silver
+      - Kryo 468
+      - Kryo 470
+      - Kryo 475
+      - Kryo 485
+      - Kryo 490
+      - Kryo 495
+      - Kryo 560
+      - Kryo 570
+      - Kryo 585
+      - Kryo 670
+      - Kryo 680
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
     minimum: 1
     type:
-    - integer
-    - string
+      - integer
+      - string
   cpu_freq:
     "$id": "/properties/cpu_freq"
     minLength: 3
@@ -635,8 +635,8 @@ properties:
     type: string
   custom_recovery_link:
     "$id": "/properties/custom_recovery_link"
-    type: string
     pattern: ^https?:\/\/(.*)
+    type: string
   custom_unlock_cmd:
     "$id": "/properties/custom_unlock_cmd"
     minLength: 10
@@ -644,19 +644,19 @@ properties:
   dimensions:
     "$id": "/properties/dimensions"
     oneOf:
-    - "$ref": "#/definitions/dimension_data"
-    - description: Array of maps of model numbers to device dimensions
-      examples:
-      - SM-9000A: {width: 127, height: 127, depth: 127}
-      - SM-9000B: {width: 127, height: 127, depth: 127}
-      items:
-        additionalProperties:
-          "$ref": "#/definitions/dimension_data"
-        description: Map of model number to device dimensions
-        type: object
-      type: array
-    - enum:
-      - None
+      - "$ref": "#/definitions/dimension_data"
+      - description: Array of maps of model numbers to device dimensions
+        examples:
+          - SM-9000A: {depth: 127, height: 127, width: 127}
+          - SM-9000B: {depth: 127, height: 127, width: 127}
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/dimension_data"
+          description: Map of model number to device dimensions
+          type: object
+        type: array
+      - enum:
+          - None
   download_boot:
     "$id": "/properties/download_boot"
     type: string
@@ -665,31 +665,31 @@ properties:
     oneOf:
       - "$ref": "#/definitions/valid_branches"
       - enum:
-        - fbe
-        - fde
-        - repartition
+          - fbe
+          - fde
+          - repartition
   gpu:
     "$id": "/properties/gpu"
     oneOf:
-    - "$ref": "#/definitions/gpu_data"
-    - items:
-        "$id": "/properties/gpu/items"
-        "$ref": "#/definitions/gpu_data"
-      minItems: 2
-      uniqueItems: True
-      type: array
-    - description: Array of maps of model numbers to GPU data
-      examples:
-      - SM-9000A: Qualcomm Adreno 306
-      - SM-9000B: Qualcomm Adreno 405
-      items:
-        additionalProperties:
+      - "$ref": "#/definitions/gpu_data"
+      - items:
+          "$id": "/properties/gpu/items"
           "$ref": "#/definitions/gpu_data"
-        description: Map of model number to gpu_data
-        type: object
-      type: array
-    - enum:
-      - None
+        minItems: 2
+        type: array
+        uniqueItems: True
+      - description: Array of maps of model numbers to GPU data
+        examples:
+          - SM-9000A: Qualcomm Adreno 306
+          - SM-9000B: Qualcomm Adreno 405
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/gpu_data"
+          description: Map of model number to gpu_data
+          type: object
+        type: array
+      - enum:
+          - None
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -697,29 +697,29 @@ properties:
   install_method:
     "$id": "/properties/install_method"
     enum:
-    - apx
-    - amlogic_update
-    - dd
-    - edl_custom
-    - fastboot_custom
-    - fastboot_fairphone
-    - fastboot_generic
-    - fastboot_htc
-    - fastboot_huawei
-    - fastboot_lenovo
-    - fastboot_lg
-    - fastboot_motorola
-    - fastboot_nexus
-    - fastboot_nokia
-    - fastboot_nubia
-    - fastboot_oppo
-    - fastboot_sony
-    - fastboot_realme
-    - fastboot_unlocked
-    - fastboot_xiaomi
-    - fastboot_zenfone
-    - heimdall
-    - odin
+      - apx
+      - amlogic_update
+      - dd
+      - edl_custom
+      - fastboot_custom
+      - fastboot_fairphone
+      - fastboot_generic
+      - fastboot_htc
+      - fastboot_huawei
+      - fastboot_lenovo
+      - fastboot_lg
+      - fastboot_motorola
+      - fastboot_nexus
+      - fastboot_nokia
+      - fastboot_nubia
+      - fastboot_oppo
+      - fastboot_sony
+      - fastboot_realme
+      - fastboot_unlocked
+      - fastboot_xiaomi
+      - fastboot_zenfone
+      - heimdall
+      - odin
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean
@@ -750,27 +750,27 @@ properties:
   network:
     "$id": /properties/network
     oneOf:
-    - "$ref": "#/definitions/valid_networks"
-    - items:
-        additionalProperties:
-          "$ref": "#/definitions/valid_networks"
-        description: Map of model number to valid networks
-        type: object
-      type: array
-    - enum:
-      - None
+      - "$ref": "#/definitions/valid_networks"
+      - items:
+          additionalProperties:
+            "$ref": "#/definitions/valid_networks"
+          description: Map of model number to valid networks
+          type: object
+        type: array
+      - enum:
+          - None
   peripherals:
     "$id": /properties/peripherals
     oneOf:
-    - "$ref": "#/definitions/valid_peripherals"
-    - items:
-        additionalProperties:
-          "$ref": "#/definitions/valid_peripherals"
-        description: Map of model number to valid peripherals
-        type: object
-      type: array
-    - enum:
-      - None
+      - "$ref": "#/definitions/valid_peripherals"
+      - items:
+          additionalProperties:
+            "$ref": "#/definitions/valid_peripherals"
+          description: Map of model number to valid peripherals
+          type: object
+        type: array
+      - enum:
+          - None
   quirks:
     "$id": "/properties/quirks"
     items:
@@ -783,24 +783,24 @@ properties:
   recovery_partition_name:
     "$id": "/properties/recovery_partition_name"
     enum:
-    - boot
-    - recovery
-    - vendor_boot
+      - boot
+      - recovery
+      - vendor_boot
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
     oneOf:
-    - "$ref": "#/definitions/iso8601_reduced_precision_date"
-    - description: Array of maps of model numbers to release dates
-      examples:
-      - SM-9000A: 2015-10-02
-      - SM-9000B: 2015-11-02
-      items:
-        additionalProperties:
-          "$ref": "#/definitions/iso8601_reduced_precision_date"
-        description: Map of model number to release date
-        type: object
-      type: array
+      - "$ref": "#/definitions/iso8601_reduced_precision_date"
+      - description: Array of maps of model numbers to release dates
+        examples:
+          - SM-9000A: 2015-10-02
+          - SM-9000B: 2015-11-02
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/iso8601_reduced_precision_date"
+          description: Map of model number to release date
+          type: object
+        type: array
   required_bootloader:
     "$id": "/properties/required_bootloader"
     minItems: 1
@@ -808,44 +808,44 @@ properties:
   screen:
     "$id": "/properties/screen"
     oneOf:
-    - "$ref": "#/definitions/screen_data"
-    - description: Array of maps of model numbers to screen data
-      examples:
-      - SM-9000A: {size: 5, resolution: '1024x768', technology: 'LCD'}
-      - SM-9000B: {size: 10, resolution: '2048x1024', technology: 'AMOLED'}
-      items:
-        additionalProperties:
-          "$ref": "#/definitions/screen_data"
-        description: Map of model number to screen_data
-        type: object
-      type: array
-    - enum:
-      - None
+      - "$ref": "#/definitions/screen_data"
+      - description: Array of maps of model numbers to screen data
+        examples:
+          - SM-9000A: {resolution: '1024x768', size: 5, technology: 'LCD'}
+          - SM-9000B: {resolution: '2048x1024', size: 10, technology: 'AMOLED'}
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/screen_data"
+          description: Map of model number to screen_data
+          type: object
+        type: array
+      - enum:
+          - None
   sdcard:
     "$id": "/properties/sdcard"
     "$ref": "#/definitions/sdcard_data"
   soc:
     "$id": "/properties/soc"
     oneOf:
-    - "$ref": "#/definitions/soc_data"
-    - items:
-        "$id": "/properties/soc/items"
-        "$ref": "#/definitions/soc_data"
-      minItems: 2
-      uniqueItems: True
-      type: array
-    - description: Array of maps of model numbers to SoC data
-      examples:
-      - SM-9000A: Qualcomm SM8150 Snapdragon 855
-      - SM-9000B: Qualcomm SM8150-AC Snapdragon 855+
-      items:
-        additionalProperties:
+      - "$ref": "#/definitions/soc_data"
+      - items:
+          "$id": "/properties/soc/items"
           "$ref": "#/definitions/soc_data"
-        description: Map of model number to soc_data
-        type: object
-      type: array
-    - enum:
-      - None
+        minItems: 2
+        type: array
+        uniqueItems: True
+      - description: Array of maps of model numbers to SoC data
+        examples:
+          - SM-9000A: Qualcomm SM8150 Snapdragon 855
+          - SM-9000B: Qualcomm SM8150-AC Snapdragon 855+
+        items:
+          additionalProperties:
+            "$ref": "#/definitions/soc_data"
+          description: Map of model number to soc_data
+          type: object
+        type: array
+      - enum:
+          - None
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$
@@ -853,97 +853,97 @@ properties:
   type:
     "$id": "/properties/type"
     enum:
-    - Devkit
-    - Handheld game console
-    - Set top box
-    - phone
-    - phone (slider)
-    - tablet
+      - Devkit
+      - Handheld game console
+      - Set top box
+      - phone
+      - phone (slider)
+      - tablet
   uses_twrp:
     "$id": "/properties/uses_twrp"
     enum:
-    - true
+      - true
   vendor:
     "$id": "/properties/vendor"
     enum:
-    - 10.or
-    - ARK
-    - Askey
-    - ASUS
-    - Banana Pi
-    - BQ
-    - Dynalink
-    - Essential
-    - Fairphone
-    - F(x)tec
-    - Google
-    - HardKernel
-    - HTC
-    - Huawei
-    - LG
-    - LeEco
-    - Lenovo
-    - Motorola
-    - Nextbit
-    - Nokia
-    - Nothing
-    - Nubia
-    - NVIDIA
-    - OPPO
-    - OnePlus
-    - Radxa
-    - Razer
-    - Realme
-    - Samsung
-    - SHIFT
-    - Sony
-    - Walmart
-    - Wileyfox
-    - Wingtech
-    - Xiaomi
-    - Yandex
-    - YU
-    - ZTE
-    - ZUK
+      - 10.or
+      - ARK
+      - Askey
+      - ASUS
+      - Banana Pi
+      - BQ
+      - Dynalink
+      - Essential
+      - Fairphone
+      - F(x)tec
+      - Google
+      - HardKernel
+      - HTC
+      - Huawei
+      - LG
+      - LeEco
+      - Lenovo
+      - Motorola
+      - Nextbit
+      - Nokia
+      - Nothing
+      - Nubia
+      - NVIDIA
+      - OPPO
+      - OnePlus
+      - Radxa
+      - Razer
+      - Realme
+      - Samsung
+      - SHIFT
+      - Sony
+      - Walmart
+      - Wileyfox
+      - Wingtech
+      - Xiaomi
+      - Yandex
+      - YU
+      - ZTE
+      - ZUK
   vendor_short:
     "$id": "/properties/vendor_short"
     enum:
-    - 10or
-    - amlogic
-    - ark
-    - askey
-    - asus
-    - bq
-    - essential
-    - fairphone
-    - fxtec
-    - google
-    - htc
-    - huawei
-    - leeco
-    - lenovo
-    - lge
-    - moto
-    - motorola
-    - nextbit
-    - nokia
-    - nothing
-    - nubia
-    - nvidia
-    - oneplus
-    - oppo
-    - razer
-    - realme
-    - samsung
-    - shift
-    - sony
-    - wileyfox
-    - wingtech
-    - xiaomi
-    - yandex
-    - yu
-    - zte
-    - zuk
+      - 10or
+      - amlogic
+      - ark
+      - askey
+      - asus
+      - bq
+      - essential
+      - fairphone
+      - fxtec
+      - google
+      - htc
+      - huawei
+      - leeco
+      - lenovo
+      - lge
+      - moto
+      - motorola
+      - nextbit
+      - nokia
+      - nothing
+      - nubia
+      - nvidia
+      - oneplus
+      - oppo
+      - razer
+      - realme
+      - samsung
+      - shift
+      - sony
+      - wileyfox
+      - wingtech
+      - xiaomi
+      - yandex
+      - yu
+      - zte
+      - zuk
   versions:
     "$id": "/properties/versions"
     items:
@@ -954,38 +954,38 @@ properties:
   wifi:
     "$id": "/properties/wifi"
     enum:
-    - None
-    - 802.11 b/g/n
-    - 802.11 b/g/n/ac
-    - 802.11 a/b/g/n
-    - 802.11 a/b/g/n/ac
-    - 802.11 a/b/g/n/ac/ax
+      - None
+      - 802.11 b/g/n
+      - 802.11 b/g/n/ac
+      - 802.11 a/b/g/n
+      - 802.11 a/b/g/n/ac
+      - 802.11 a/b/g/n/ac/ax
 required:
-- architecture
-- battery
-- bluetooth
-- codename
-- cpu
-- cpu_cores
-- cpu_freq
-- current_branch
-- dimensions
-- gpu
-- image
-- install_method
-- kernel
-- maintainers
-- name
-- network
-- peripherals
-- release
-- screen
-- soc
-- tree
-- type
-- vendor
-- vendor_short
-- versions
-- wifi
+  - architecture
+  - battery
+  - bluetooth
+  - codename
+  - cpu
+  - cpu_cores
+  - cpu_freq
+  - current_branch
+  - dimensions
+  - gpu
+  - image
+  - install_method
+  - kernel
+  - maintainers
+  - name
+  - network
+  - peripherals
+  - release
+  - screen
+  - soc
+  - tree
+  - type
+  - vendor
+  - vendor_short
+  - versions
+  - wifi
 title: device
 type: object

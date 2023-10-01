@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '64 MP'}
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: None, info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '64 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: None, info: '12 MP'}
 codename: sake
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 68.5, height: 148, depth: 8.9}
+dimensions: {depth: 8.9, height: 148, width: 68.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 660
 image: sake.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-05
-screen: {size: 5.9, resolution: '1080x2400', technology: 'Super AMOLED', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 5.9, technology: 'Super AMOLED'}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB UFS3.1
 tree: android_device_asus_sake

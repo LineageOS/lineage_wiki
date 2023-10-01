@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: True, capacity: 3300, tech: 'Li-Po'}
+battery: {capacity: 3300, removable: True, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '9.0'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: h932
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 78.1, height: 159.7, depth: 7.6}
+dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: v30.png
@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition: /dev/block/bootdevice/by-name/recovery
 recovery_partition_name: recovery
 release: 2017-08
-screen: {size: 6, resolution: '2880x1440', technology: 'P-OLED'}
+screen: {resolution: '2880x1440', size: 6, technology: 'P-OLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB

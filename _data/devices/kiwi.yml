@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: kiwi
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz + 4 x 1.2 GHz
 current_branch: 17.1
-dimensions: {width: 76.3, height: 151.3, depth: 8.2}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding buttons until the "Honor" logo appears, then release all buttons.
+dimensions: {depth: 8.2, height: 151.3, width: 76.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding buttons until the "Honor" logo appears, then release all buttons.
 gpu: Qualcomm Adreno 405
 image: kiwi.png
 install_method: fastboot_huawei
@@ -23,11 +22,10 @@ name: Honor 5X
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall effect sensor]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding buttons until the "Honor" logo appears, then release all buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding buttons until the "Honor" logo appears, then release all buttons.
 recovery_partition_name: recovery
 release: 2015-11
-screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939v2 Snapdragon 616
 storage: 16 GB

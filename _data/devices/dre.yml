@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta, vendor_boot]}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX]}
 before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '13 MP (main)'}
-- {flash: 'LED', info: '2 MP (macro)'}
-- {flash: 'LED', info: '2 MP (depth)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '13 MP (main)'}
+  - {flash: 'LED', info: '2 MP (macro)'}
+  - {flash: 'LED', info: '2 MP (depth)'}
+  - {flash: None, info: '16 MP'}
 codename: dre
 cpu: Kryo 460
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 74.9, height: 163.1, depth: 8.3}
+dimensions: {depth: 8.3, height: 163.1, width: 74.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm4350
 gpu: Qualcomm Adreno 619
@@ -32,7 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-06-21
-screen: {size: 6.49, resolution: '1080x2400', technology: 'IPS LCD'}
+screen: {resolution: '1080x2400', size: 6.49, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'sim'}
 soc: Qualcomm SM4350 Snapdragon 480
 storage: 64 GB UFS 2.1

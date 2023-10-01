@@ -1,21 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '64 MP (wide)'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '5 MP (macro)'}
-- {flash: None, info: '2 MP (depth)'}
+  - {flash: 'LED', info: '64 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '2 MP (depth)'}
 codename: liber
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: 162.9, height: 76.4, depth: 9.6}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume
-  Down</kbd> + <kbd>Power</kbd>.
+dimensions: {depth: 9.6, height: 76.4, width: 162.9}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 618
 has_recovery_partition: true
 image: liber.png
@@ -32,11 +31,11 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-06
-screen: {size: 6.5, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {resolution: '1080x2340', size: 6.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc:
-- Europe: Qualcomm SM7150-AA Snapdragon 730
-- India: Qualcomm SM7150-AB Snapdragon 730G
+  - Europe: Qualcomm SM7150-AA Snapdragon 730
+  - India: Qualcomm SM7150-AB Snapdragon 730G
 storage: 128 GB UFS 2.1
 tree: android_device_motorola_liber
 type: phone

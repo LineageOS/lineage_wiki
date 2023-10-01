@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 6000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
+battery: {capacity: 6000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '8.1 MP'}
-- {flash: None, info: '5.1 MP'}
+  - {flash: 'LED', info: '8.1 MP'}
+  - {flash: None, info: '5.1 MP'}
 codename: karin_windy
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?w=files&flid=67717
-dimensions: {width: 254, height: 167, depth: 6.1}
+dimensions: {depth: 6.1, height: 167, width: 254}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 430
 image: karin.png
@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-10
-screen: {size: 10.1, resolution: '2560x1600', technology: 'IPS LCD'}
+screen: {resolution: '2560x1600', size: 10.1, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 16/32 GB

@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: True, capacity: 3300, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3300, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 carrier: T-Mobile
 codename: h872
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.4 GHz + 2 x 2.1 GHz
 current_branch: 20
-dimensions: {width: 71.9, height: 148.9, depth: 7.9}
+dimensions: {depth: 7.9, height: 148.9, width: 71.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
@@ -28,7 +28,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition_name: recovery
 release: 2017-02
-screen: {size: 5.7, resolution: '2880x1440', technology: 'IPS LCD'}
+screen: {resolution: '2880x1440', size: 5.7, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32 GB

@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 8220, tech: 'Li-Po'}
+battery: {capacity: 8220, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '2.1 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '2.1 MP'}
 codename: lt03lte
 cpu: Krait 400
 cpu_cores: '4'
@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2013-10
-screen: {size: 10.1, resolution: '1600x2560', technology: 'TFT LCD'}
+screen: {resolution: '1600x2560', size: 10.1, technology: 'TFT LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB

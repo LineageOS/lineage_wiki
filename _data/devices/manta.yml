@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 9000, tech: 'Li-Po'}
-bluetooth: {spec: '3.0', profiles: [A2DP]}
+battery: {capacity: 9000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '3.0'}
 cameras:
-- {flash: 'LED', info: '5 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: None, info: '1.9 MP'}
 codename: manta
 cpu: Cortex-A15
 cpu_cores: '2'
@@ -24,7 +24,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2012-11-13
-screen: {size: 10, resolution: '2560x1600', technology: 'Super PLS LCD'}
+screen: {resolution: '2560x1600', size: 10, technology: 'Super PLS LCD'}
 soc: Samsung Exynos 5250
 storage: 16/32 GB
 tree: android_device_samsung_manta

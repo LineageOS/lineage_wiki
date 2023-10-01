@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '7.1'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP (Rear)'}
-- {flash: None, info: '5 MP (Front)'}
+  - {flash: 'LED', info: '13 MP (Rear)'}
+  - {flash: None, info: '5 MP (Front)'}
 codename: Mi8917
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
 current_branch: 20
-dimensions: {width: 70.1, height: 140.4, depth: 8.35}
+dimensions: {depth: 8.35, height: 140.4, width: 70.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 308
 image: Mi8917_variant2.png
@@ -23,11 +23,10 @@ name: Redmi 5A
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, IR blaster]
 ram: 2 / 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  When the screen lights up, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the screen lights up, release the buttons.
 recovery_partition_name: recovery
 release: 2017-10-16
-screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16 / 32 GB

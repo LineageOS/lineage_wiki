@@ -1,21 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '5 MP (macro)'}
-- {flash: None, info: '2 MP (bokeh)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '2 MP (bokeh)'}
+  - {flash: None, info: '16 MP'}
 codename: miatoll
 cpu: Kryo 465
 cpu_cores: '8'
 cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
 current_branch: 20
-dimensions: {width: 76.6, height: 165.7, depth: 8.8}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.8, height: 165.7, width: 76.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 618
 has_recovery_partition: true
 image: miatoll.png
@@ -25,14 +24,12 @@ maintainers: [dereference23, ItsVixano]
 models: [M2003J6CI]
 name: POCO M2 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader,
-  BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  When Xiaomi/POCO splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When Xiaomi/POCO splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
 recovery_partition_name: recovery
 release: 2020-07-14
-screen: {size: 6.67, resolution: '1080x2400', technology: 'IPS LCD'}
+screen: {resolution: '1080x2400', size: 6.67, technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 64/128 GB

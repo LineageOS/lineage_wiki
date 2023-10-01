@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 3080, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: libra
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz & 2 x 1.82 GHz
 current_branch: 14.1
-dimensions: {width: 69.6, height: 138.1, depth: 7.8}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.8, height: 138.1, width: 69.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 418
 image: libra.png
 install_method: fastboot_xiaomi
@@ -21,11 +20,10 @@ name: Mi 4c
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2015-09
-screen: {size: 5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5, technology: 'IPS LCD'}
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 16/32 GB
 tree: android_device_xiaomi_libra

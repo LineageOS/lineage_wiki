@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 3430, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 3430, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: None, info: '16 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12.2 MP'}
+  - {flash: None, info: '16 MP'}
+  - {flash: None, info: '8 MP'}
 codename: flame
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 68.8, height: 147.1, depth: 8.2}
+dimensions: {depth: 8.2, height: 147.1, width: 68.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 640
 image: floral.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-09
-screen: {size: 5.7, resolution: '2280x1080', technology: 'AMOLED', refresh_rate: 90}
+screen: {refresh_rate: 90, resolution: '2280x1080', size: 5.7, technology: 'AMOLED'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128 GB
 tree: android_device_google_flame

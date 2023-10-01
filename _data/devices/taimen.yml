@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3520, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3520, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12.2 MP'}
+  - {flash: None, info: '8 MP'}
 codename: taimen
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 76.7, height: 157.9, depth: 7.9}
+dimensions: {depth: 7.9, height: 157.9, width: 76.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: taimen.png
@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2017-10
-screen: {size: 6, resolution: '1440x2880', technology: 'AMOLED'}
+screen: {resolution: '1440x2880', size: 6, technology: 'AMOLED'}
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_google_taimen
