@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 2230, tech: 'Li-Ion'}
+battery: {capacity: 2230, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '5 MP'}
 codename: lettuce
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922469
-dimensions: {width: 73, height: 142.4, depth: 8.2}
+dimensions: {depth: 8.2, height: 142.4, width: 73}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: 16.0
 gpu: Qualcomm Adreno 306
@@ -26,7 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-05-12
-screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {resolution: '1280x720', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

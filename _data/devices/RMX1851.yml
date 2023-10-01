@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 4045, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 4045, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '16 MP (w/ 5 MP depth sensor)'}
-- {flash: None, info: '25 MP'}
+  - {flash: 'LED', info: '16 MP (w/ 5 MP depth sensor)'}
+  - {flash: None, info: '25 MP'}
 codename: RMX1851
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 16.0
 dimensions: None
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Use volume rockers to navigate and power button to choose between the modes.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Use volume rockers to navigate and power button to choose between the modes.
 gpu: Qualcomm Adreno 616
-install_method: fastboot_realme
 image: RMX1851.png
+install_method: fastboot_realme
 kernel: android_kernel_realme_sdm710
 maintainers: []
 models: [RMX1851]
@@ -22,11 +21,10 @@ name: 3 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, FM radio, USB OTG]
 ram: 4/6 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Use volume rockers to navigate and power button to choose between the modes.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Use volume rockers to navigate and power button to choose between the modes.
 recovery_partition_name: recovery
 release: 2019-04-29
-screen: {size: 6.3, resolution: '2340x1080', technology: 'IPS LCD'}
+screen: {resolution: '2340x1080', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB eMMC5.1

@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP'}
 codename: albus
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 8 x 2.21 GHz
 current_branch: 18.1
-dimensions: {width: 76.2, height: 156.2, depth: 6}
+dimensions: {depth: 6, height: 156.2, width: 76.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: albus.png
@@ -19,14 +19,13 @@ maintainers: [marcost2]
 models: [XT1710-01, XT1710-02, XT1710-07, XT1710-08, XT1710-09, XT1710-10, XT1710-11]
 name: moto z2 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
 quirks: [aux_cameras]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-06
-screen: {size: 5.5, resolution: '1920x1080', technology: 'Super AMOLED'}
+screen: {resolution: '1920x1080', size: 5.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB

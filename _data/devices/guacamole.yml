@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
-- {flash: 'Dual LED (dual tone)', info: '8 MP (telephoto)'}
-- {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
+  - {flash: None, info: '16 MP'}
 codename: guacamole
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
-dimensions: {width: 75.9, height: 162.6, depth: 8.8}
+dimensions: {depth: 8.8, height: 162.6, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8150
 gpu: Qualcomm Adreno 640
@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-05
-screen: {size: 6.67, resolution: '1440x3120', technology: 'Fluid AMOLED'}
+screen: {resolution: '1440x3120', size: 6.67, technology: 'Fluid AMOLED'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256 GB UFS3.0
 tree: android_device_oneplus_guacamole

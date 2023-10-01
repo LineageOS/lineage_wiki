@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3800, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3800, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: None, info: '8 MP'}
 codename: nx619j
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX619J'
-dimensions: {width: 75.0, height: 158.2, depth: 9.9}
+dimensions: {depth: 9.9, height: 158.2, width: 75.0}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 630
 has_recovery_partition: true
@@ -21,13 +21,12 @@ maintainers: [Cyborg2017]
 models: [NX619J]
 name: 'Red Magic Mars'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass,
-  Hall effect sensor, Light sensor, GPS, USB OTG]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall effect sensor, Light sensor, GPS, USB OTG]
 ram: 6/8/10 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2018-12
-screen: {size: 6, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 6, technology: 'IPS LCD'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS 2.1
 tree: android_device_nubia_nx619j

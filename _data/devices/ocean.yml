@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Ion'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: ocean
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.3, height: 159.4, depth: 9.3}
+dimensions: {depth: 9.3, height: 159.4, width: 75.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: ocean.png
@@ -21,14 +21,13 @@ maintainers: [SyberHexen, erfanoabdi, npjohnson]
 models: [XT1955-1, XT1955-2, XT1955-4, XT1955-5, XT1955-7]
 name: moto g7 power
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 3 GB, 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-02
-screen: {size: 6.2, resolution: '720x1570', technology: 'IPS LTPS LCD'}
+screen: {resolution: '720x1570', size: 6.2, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32 GB, 64 GB

@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 3000, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: True, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: find7
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz/2.5 GHz
 current_branch: 16.0
-dimensions: {width: 75, height: 152.6, depth: 9.2}
+dimensions: {depth: 9.2, height: 152.6, width: 75}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 330
 image: find7.png
@@ -24,7 +24,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014-05-19
-screen: {size: 5.5, resolution: '1440x2560', technology: 'IPS LCD'}
+screen: {resolution: '1440x2560', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: [Qualcomm MSM8974AB Snapdragon 801, Qualcomm MSM8974AC Snapdragon 801]
 storage: 16/32 GB

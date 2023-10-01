@@ -1,9 +1,9 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: Z00T
 cpu: Cortex-A53
 cpu_cores: '8'
@@ -20,11 +20,10 @@ name: Zenfone 2 Laser (1080p)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery
 release: 2015-11
-screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB

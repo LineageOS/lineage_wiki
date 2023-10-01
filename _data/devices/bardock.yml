@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+battery: {capacity: 3100, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'LED', info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: 'LED', info: '8 MP'}
 codename: bardock
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 20
-dimensions: {width: 72.7, height: 146.5, depth: 7.9}
+dimensions: {depth: 7.9, height: 146.5, width: 72.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: fbe
 gpu: Qualcomm Adreno 506
@@ -24,7 +24,7 @@ ram: 3/4 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-06
-screen: {size: 5.2, resolution: '1920x1080', technology: 'IPS LTPS LCD'}
+screen: {resolution: '1920x1080', size: 5.2, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB

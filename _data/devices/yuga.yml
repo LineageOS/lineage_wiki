@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 2330, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 2330, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '13.1 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '13.1 MP'}
+  - {flash: None, info: '2 MP'}
 codename: yuga
 cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: 71, height: 139, depth: 7.9}
+dimensions: {depth: 7.9, height: 139, width: 71}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: yuga.png
@@ -24,7 +24,7 @@ ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot
 release: 2013-02
-screen: {size: 5, resolution: '1080x1920', technology: 'TFT LCD'}
+screen: {resolution: '1080x1920', size: 5, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 16 GB

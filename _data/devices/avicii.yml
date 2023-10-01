@@ -1,21 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 4115, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+battery: {capacity: 4115, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '48 MP'}
-- {flash: 'LED', info: '8 MP (Ultra Wide)'}
-- {flash: 'LED', info: '5 MP (Depth)'}
-- {flash: 'LED', info: '2 MP (Macro)'}
-- {flash: None, info: '32 MP'}
-- {flash: None, info: '8 MP (Ultra Wide)'}
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: 'LED', info: '8 MP (Ultra Wide)'}
+  - {flash: 'LED', info: '5 MP (Depth)'}
+  - {flash: 'LED', info: '2 MP (Macro)'}
+  - {flash: None, info: '32 MP'}
+  - {flash: None, info: '8 MP (Ultra Wide)'}
 codename: avicii
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
 current_branch: 20
-dimensions: {width: 73.3, height: 158.3, depth: 8.2}
+dimensions: {depth: 8.2, height: 158.3, width: 73.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm7250
 gpu: Qualcomm Adreno 620
@@ -33,7 +33,7 @@ ram: 6/8/12 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2020-07-21
-screen: {size: 6.67, resolution: '2400x1080', technology: 'Fluid AMOLED'}
+screen: {resolution: '2400x1080', size: 6.67, technology: 'Fluid AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 64/128/256 GB
 tree: android_device_oneplus_avicii

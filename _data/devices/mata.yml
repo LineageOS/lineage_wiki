@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3040 , tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 3040, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '13 MP'}
-- {flash: 'Dual LED (dual tone)', info: '13 MP (monochromatic)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP (monochromatic)'}
+  - {flash: None, info: '8 MP'}
 codename: mata
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 71.1, height: 141.5, depth: 7.8}
+dimensions: {depth: 7.8, height: 141.5, width: 71.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: mata.png
@@ -21,13 +21,12 @@ kernel: android_kernel_essential_msm8998
 maintainers: [haggertk, intervigil, npjohnson, rashed]
 name: PH-1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, Essential Accessories]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Essential Accessories]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2017-08
-screen: {size: 5.71, resolution: '1312x2560', technology: 'IPS LCD'}
+screen: {resolution: '1312x2560', size: 5.71, technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_essential_mata

@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 2300, tech: 'Li-Po'}
+battery: {capacity: 2300, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '4 MP'}
-- {flash: None, info: '2.1 MP'}
+  - {flash: 'LED', info: '4 MP'}
+  - {flash: None, info: '2.1 MP'}
 carrier: Verizon Wireless
 codename: m7vzw
 cpu: Krait 300
 cpu_cores: '4'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
-dimensions: {width: 68.2, height: 137.4, depth: 9.3}
+dimensions: {depth: 9.3, height: 137.4, width: 68.2}
 download_boot: ''
 gpu: Qualcomm Adreno 320
 image: m7.png
@@ -24,7 +24,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2013-03
-screen: {size: 4.7, resolution: '1080x1920', technology: 'Super LCD'}
+screen: {resolution: '1080x1920', size: 4.7, technology: 'Super LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 32/64 GB

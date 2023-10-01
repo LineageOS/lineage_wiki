@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3350, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3350, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: None, info: '24 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: None, info: '24 MP'}
 codename: platina
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 18.1
-dimensions: {width: 75.8, height: 156.4, depth: 7.58}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.58, height: 156.4, width: 75.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 512
 image: platina.png
 install_method: fastboot_xiaomi
@@ -22,11 +21,10 @@ name: Mi 8 Lite
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS]
 ram: 4 GB / 6 GB (LPDDR4X)
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-09
-screen: {size: 6.26, resolution: '2280x1080', technology: 'IPS LCD'}
+screen: {resolution: '2280x1080', size: 6.26, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64 / 128 GB eMMC 5.1 flash storage

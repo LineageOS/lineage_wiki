@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 2900, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
+battery: {capacity: 2900, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '23 MP'}
-- {flash: None, info: '5.1 MP'}
+  - {flash: 'LED', info: '23 MP'}
+  - {flash: None, info: '5.1 MP'}
 codename: sumire
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 Ghz + 4 x 2.0 Ghz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/devdb/project/dl/?id=26670
-dimensions: {width: 65, height: 146, depth: 7.3}
+dimensions: {depth: 7.3, height: 146, width: 65}
 download_boot: With the device powered down, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 430
 image: sumire.png
@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and <kbd>Power</kbd> buttons.
 recovery_partition_name: recovery
 release: 2015-09
-screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB (microSD)'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB

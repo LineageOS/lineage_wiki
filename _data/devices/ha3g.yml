@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 3200, tech: 'Li-Ion'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 3200, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '2 MP'}
 codename: ha3g
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
-dimensions: {width: 79.2, height: 151.2, depth: 8.3}
+dimensions: {depth: 8.3, height: 151.2, width: 79.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: ha3g.png
@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2013-09
-screen: {size: 5.7, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {resolution: '1080x1920', size: 5.7, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos 5420
 storage: 16/32 GB

@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 4100, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: santoni
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 current_branch: 16.0
-dimensions: {width: 70, height: 139.2, depth: 8.7}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.7, height: 139.2, width: 70}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 505
 image: santoni.png
 install_method: fastboot_xiaomi
@@ -20,12 +19,12 @@ maintainers: []
 migrated_to: {codename: 'Mi8937', version: 19.1}
 name: Redmi 4(X)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader , Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, IR blaster, FM radio, GPS]
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-05
-screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8940 Snapdragon 435
 storage: 16/32/64 GB

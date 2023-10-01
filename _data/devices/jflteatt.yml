@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+battery: {capacity: 2600, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '2 MP'}
 carrier: AT&T
 codename: jflteatt
 cpu: Krait 300
@@ -11,7 +11,7 @@ cpu_cores: 4
 cpu_freq: 1.9GHz
 current_branch: 18.1
 custom_recovery_link: https://www.androidfilehost.com/?fid=7161016148664832487
-dimensions: {width: 69.8, height: 136.6, depth: 7.9}
+dimensions: {depth: 7.9, height: 136.6, width: 69.8}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 320
@@ -23,8 +23,7 @@ models: [SGH-I337]
 name: Galaxy S4 (SGH-I337)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer,
-  Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
+peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Let go of <kbd>Power</kbd> immediately when the phone vibrates, but keep holding the two other keys.
@@ -33,7 +32,7 @@ recovery_partition_name: recovery
 release: 2013-04
 required_bootloader: ['I337UCUAMDB', 'I337UCUAMDL']
 root_method: [towelroot]
-screen: {size: 5, resolution: '1920x1080', technology: 'Pentile RGBG Super AMOLED'}
+screen: {resolution: '1920x1080', size: 5, technology: 'Pentile RGBG Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16/32 GB

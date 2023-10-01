@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 3300, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3300, removable: True, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: joan
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 78.1, height: 159.7, depth: 7.6}
+dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: v30.png
@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2017-08
 required_bootloader: ['US99830b', 'H93031a', 'H930DS30c']
-screen: {size: 6, resolution: '2880x1440', technology: 'P-OLED'}
+screen: {resolution: '2880x1440', size: 6, technology: 'P-OLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB

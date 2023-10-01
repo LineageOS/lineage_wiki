@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: True, capacity: 2600, tech: 'Li-Ion'}
+battery: {capacity: 2600, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '2 MP'}
 codename: ks01lte
 cpu: Krait 400
 cpu_cores: '4'
@@ -20,14 +20,13 @@ models: [GT-I9506]
 name: Galaxy S4 LTE-A (GT-I9506)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer, Gesture sensor,
-  Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
+peripherals: [GPS, GLONASS, NFC, Infrared sensor, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2013-10
-screen: {size: 5, resolution: '1920x1080', technology: 'Pentile RGBG Super AMOLED'}
+screen: {resolution: '1920x1080', size: 5, technology: 'Pentile RGBG Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16 GB

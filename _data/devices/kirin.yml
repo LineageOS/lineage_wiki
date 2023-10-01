@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 2870, tech: 'Li-Ion'}
+battery: {capacity: 2870, removable: False, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: None, info: '8 MP'}
 codename: kirin
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 19.1
-dimensions: {width: 68, height: 163, depth: 8.4}
+dimensions: {depth: 8.4, height: 163, width: 68}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 508
 image: kirin.png
@@ -27,7 +27,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2019-02
-screen: {size: 6, resolution: '1080x2520', technology: 'IPS LCD'}
+screen: {resolution: '1080x2520', size: 6, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB

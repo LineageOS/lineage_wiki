@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 4050, tech: 'Li-Ion'}
+battery: {capacity: 4050, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: mt2
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -24,7 +24,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014-01
-screen: {size: 6.1, resolution: '1280x720', technology: 'IPS+ LCD'}
+screen: {resolution: '1280x720', size: 6.1, technology: 'IPS+ LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8928 Snapdragon 400
 storage: 16 GB

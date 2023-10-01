@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 3050, tech: 'Li-Po'}
+battery: {capacity: 3050, removable: False, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
-- {flash: 'Dual LED', info: '5 MP'}
-- {flash: 'LED', info: '5 MP'}
+  - {flash: 'Dual LED', info: '16 MP'}
+  - {flash: 'Dual LED', info: '5 MP'}
+  - {flash: 'LED', info: '5 MP'}
 codename: Amber
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 17.1
 custom_unlock_cmd: 'fastboot oem yandex_unlock'
-dimensions: {width: 72.5, height: 150.1, depth: 8.3}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Release  <kbd>Power</kbd> after vibro and keep holding <kbd>Volume Down</kbd> until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.3, height: 150.1, width: 72.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release <kbd>Power</kbd> after vibro and keep holding <kbd>Volume Down</kbd> until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 508
 image: Amber.png
 install_method: fastboot_nexus
@@ -25,11 +24,10 @@ name: 'Phone'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Release  <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
 recovery_partition_name: boot
 release: 2018-12
-screen: {size: 5.65, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 5.65, technology: 'IPS LCD'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64 GB
 tree: android_device_yandex_Amber

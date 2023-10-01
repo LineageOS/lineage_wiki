@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: None, info: '3 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: None, info: '3 MP'}
+  - {flash: None, info: '1.3 MP'}
 carrier: Sprint
 codename: lt02ltespr
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 2 x 1.7 GHz
 current_branch: 14.1
-dimensions: {width: 111.1, height: 188, depth: 9.9}
+dimensions: {depth: 9.9, height: 188, width: 111.1}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 305
 image: lt02ltespr.png
@@ -27,7 +27,7 @@ ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-09
-screen: {size: 7, resolution: '1024x600', technology: 'TFT LCD'}
+screen: {resolution: '1024x600', size: 7, technology: 'TFT LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 16 GB

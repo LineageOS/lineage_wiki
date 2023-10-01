@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3400, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 3400, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: None, info: '5 MP'}
 codename: chiron
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 75.5, height: 151.8, depth: 7.7}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.7, height: 151.8, width: 75.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 540
 image: chiron.png
 install_method: fastboot_xiaomi
@@ -21,11 +20,10 @@ name: 'Mi MIX 2'
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Ultrasound proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2017-09
-screen: {size: 5.99, resolution: '2160x1080', technology: 'IPS LCD', refresh_rate: 60}
+screen: {refresh_rate: 60, resolution: '2160x1080', size: 5.99, technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128/256 GB
 tree: android_device_xiaomi_chiron

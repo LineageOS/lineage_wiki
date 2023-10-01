@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 5000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 5000, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '2 MP'}
 carrier: Sprint
 codename: gtesqltespr
 cpu: Cortex-A53
 cpu_cores: 4
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: 126.1, height: 212.1, depth: 8.9}
+dimensions: {depth: 8.9, height: 212.1, width: 126.1}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: gtesqltespr.png
@@ -27,7 +27,7 @@ ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-01
-screen: {size: 8, resolution: '800x1280', technology: 'TFT LCD'}
+screen: {resolution: '800x1280', size: 8, technology: 'TFT LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

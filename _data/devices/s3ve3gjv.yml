@@ -1,16 +1,16 @@
 architecture: {cpu: 'arm', userspace: 'arm'}
-battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
+battery: {capacity: 2100, removable: True, tech: 'Li-Ion'}
 before_install: {instructions: 's3ve3g'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: s3ve3gjv
 cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 18.1
-dimensions: {width: 70.7, height: 136.6, depth: 8.6}
+dimensions: {depth: 8.6, height: 136.6, width: 70.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 305
@@ -24,12 +24,11 @@ network: [2G GSM, 2G CDMA, 3G UMTS]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 quirks: [nfc]
 ram: 1.5 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-  When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2014-04-11
 required_bootloader: ['GT-I9301I = I9301IXCUARA1', 'GT-I9301Q = I9301QXXUAHN1']
-screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {resolution: '1280x720', size: 4.8, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8/16 GB

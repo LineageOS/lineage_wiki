@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 2900, tech: 'Li-Po'}
+battery: {capacity: 2900, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: 'LED', info: '5 MP'}
 codename: paella
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.4 GHz
 current_branch: 14.1
 custom_recovery_codename: piccolometal
-dimensions: {width: 70.5, height: 144.4, depth: 7.5}
+dimensions: {depth: 7.5, height: 144.4, width: 70.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: paella.png
@@ -24,7 +24,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015
-screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916T Snapdragon 412
 storage: 16/32 GB

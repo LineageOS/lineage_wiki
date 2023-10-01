@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3800, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3800, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '24 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '24 MP'}
+  - {flash: None, info: '8 MP'}
 codename: nx609j
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX609J'
-dimensions: {width: 74.9, height: 158.1, depth: 9.5}
+dimensions: {depth: 9.5, height: 158.1, width: 74.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 has_recovery_partition: true
@@ -21,13 +21,12 @@ maintainers: [Cyborg2017]
 models: [NX609J]
 name: 'Red Magic'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, USB OTG]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall effect sensor, Sensor hub, Light sensor, GPS, USB OTG]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2018-04
-screen: {size: 6, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 6, technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64/128 GB UFS 2.1
 tree: android_device_nubia_nx609j

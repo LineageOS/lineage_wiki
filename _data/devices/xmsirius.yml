@@ -1,19 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 3120, tech: 'Li-Po'}
+battery: {capacity: 3120, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: 'Dual LED', info: '5 MP (depth)'}
-- {flash: None, info: '20 MP (front)'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: 'Dual LED', info: '5 MP (depth)'}
+  - {flash: None, info: '20 MP (front)'}
 codename: xmsirius
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 73.1, height: 147.3, depth: 7.5}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.5, height: 147.3, width: 73.1}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 616
 image: xmsirius.png
 install_method: fastboot_xiaomi
@@ -25,11 +24,10 @@ name: Mi 8 SE
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-06
-screen: {size: 5.88, resolution: '1080x2244', technology: 'AMOLED'}
+screen: {resolution: '1080x2244', size: 5.88, technology: 'AMOLED'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 64/128 GB
 tree: android_device_xiaomi_xmsirius

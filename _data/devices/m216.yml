@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 2300, tech: 'Li-Ion'}
+battery: {capacity: 2300, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP (LTE) or 8 MP (3G)'}
-- {flash: None, info: '5 MP or 8 MP'}
+  - {flash: 'LED', info: '13 MP (LTE) or 8 MP (3G)'}
+  - {flash: None, info: '5 MP or 8 MP'}
 codename: m216
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: 74.8, height: 144.6, depth: 8.8}
+dimensions: {depth: 8.8, height: 144.6, width: 74.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: m216.png
@@ -27,7 +27,7 @@ recovery_partition: /dev/block/bootdevice/by-name/recovery
 recovery_partition_name: recovery
 release: 2016-01
 root_method: [custom, 'https://forum.xda-developers.com/lg-k10/how-to/root-lg-k10-420ds-t3479902']
-screen: {size: 5.3, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 5.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

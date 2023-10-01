@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 3200 , tech: 'Li-Ion'}
+battery: {capacity: 3200, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '9'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
-- {flash: 'LED', info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+  - {flash: 'LED', info: '8 MP'}
 codename: evert
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 20
-dimensions: {width: 75.5, height: 160, depth: 8.0}
+dimensions: {depth: 8.0, height: 160, width: 75.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508
 image: evert.png
@@ -23,14 +23,13 @@ maintainers: [jro1979]
 models: [XT1926-2, XT1926-3, XT1926-5, XT1926-6, XT1926-7, XT1926-8, XT1926-9]
 name: moto g6 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-05
-screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 64/128 GB

@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 1785, tech: 'Li-Ion'}
+battery: {capacity: 1785, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.3 MP'}
 carrier: Sprint
 codename: xt897
 cpu: Cortex-A9
@@ -11,9 +11,8 @@ cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_codename: asanti
-dimensions: {width: 66, height: 126.5, depth: 13.7}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
+dimensions: {depth: 13.7, height: 126.5, width: 66}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Quickly highlight 'AP fastboot' from the menu using the <kbd>Volume Down</kbd> button, and push the <kbd>Volume Up</kbd>.
 gpu: Qualcomm Adreno 225
 image: xt897.png
 install_method: fastboot_motorola
@@ -27,7 +26,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2012-08-19
-screen: {size: 4.3, resolution: '540x960', technology: 'TFT LCD'}
+screen: {resolution: '540x960', size: 4.3, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB (microSD)'}
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 8 GB

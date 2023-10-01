@@ -1,17 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 3120, tech: 'Li-Po'}
+battery: {capacity: 3120, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: piccolo
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.0 GHz + 4 x 1.5 GHz
 current_branch: 14.1
-dimensions: {width: 69.4, height: 143, depth: 8.4}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
+dimensions: {depth: 8.4, height: 143, width: 69.4}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Down</kbd>.
 gpu: Qualcomm Adreno 405
 image: piccolo.png
 install_method: fastboot_nexus
@@ -21,11 +20,10 @@ name: Aquaris M5
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, Hall effect sensor, GPS, FM radio, NFC, USB OTG]
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 recovery_partition_name: recovery
 release: 2015-08
-screen: {size: 5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
