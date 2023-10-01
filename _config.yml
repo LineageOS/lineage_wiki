@@ -1,19 +1,15 @@
-
-output: web
-# this property is useful for conditional filtering of content that is separate from the PDF.
-
-title: LineageOS Wiki
-# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
-
+collections:
+  tooltips:
+    output: true
 company_name: The LineageOS Project
-# this appears in the footer
-
-host: 127.0.0.1
-# the preview server used. Leave as is.
-
-port: 4000
-# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
-
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      search: true
+description: "The LineageOS Wiki"
 exclude:
   - .idea/
   - .gitignore
@@ -26,47 +22,20 @@ exclude:
   - scripts/
   - test/
   - vendor/
-
-# these are the files and directories that jekyll will exclude from the build
-
 highlighter: rouge
-# library used for syntax highlighting
-
-markdown: kramdown
+host: 127.0.0.1
 kramdown:
- input: GFM
- auto_ids: true
- hard_wrap: false
- syntax_highlighter: rouge
-
-# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
-
-collections:
-  tooltips:
-    output: true
-# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-      search: true
-
-# these are defaults used for the frontmatter for these file types
-
-
-sass:
-  style: :compressed # You might prefer to minify using :compressed
-  sourcemap: always
-
-description: "The LineageOS Wiki"
-# the description is used in the feed.xml file
-
-# needed for sitemap.xml file only
-url: https://wiki.lineageos.org
-
+  auto_ids: true
+  hard_wrap: false
+  input: GFM
+  syntax_highlighter: rouge
+markdown: kramdown
+output: web
 plugins:
   - jekyll-redirect-from
+port: 4000
+sass:
+  sourcemap: always
+  style: :compressed
+title: LineageOS Wiki
+url: https://wiki.lineageos.org

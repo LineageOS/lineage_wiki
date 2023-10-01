@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'pme'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: None, info: '5 MP'}
 codename: pme
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2x2.15 GHz, 2x1.6 GHz
 current_branch: 14.1
-dimensions: {width: 71.9, height: 145.9, depth: 9}
+dimensions: {depth: 9, height: 145.9, width: 71.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Qualcomm Adreno 530
 image: pme.png
@@ -21,11 +21,10 @@ name: '10'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Iceview Cases, Hall effect sensor]
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
-  Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
 recovery_partition_name: recovery
 release: 2016-05
-screen: {size: 5.2, resolution: '1440x2560', technology: 'Super LCD'}
+screen: {resolution: '1440x2560', size: 5.2, technology: 'Super LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB

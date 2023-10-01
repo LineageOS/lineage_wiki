@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '12 MP (wide)'}
-- {flash: 'LED', info: '12 MP (telephoto)'}
-- {flash: 'LED', info: '12 MP (ultrawide)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP (wide)'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '8 MP'}
 codename: pdx215
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 71.1, height: 165.1, depth: 8.2}
+dimensions: {depth: 8.2, height: 165.1, width: 71.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 660
 has_recovery_partition: false
@@ -31,7 +31,7 @@ ram: 8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2021-04
-screen: {size: 6.5, resolution: '3840x1644', technology: 'OLED'}
+screen: {resolution: '3840x1644', size: 6.5, technology: 'OLED'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 256/512 GB UFS3.0

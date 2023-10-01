@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
-- {flash: 'Dual LED', info: '5 MP (or 2 MP, depth)'}
-- {flash: None, info: '13 MP'}
+  - {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
+  - {flash: 'Dual LED', info: '5 MP (or 2 MP, depth)'}
+  - {flash: None, info: '13 MP'}
 codename: lavender
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: 75.2, height: 159.2, depth: 8.1}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.1, height: 159.2, width: 75.2}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 512
 image: lavender.png
 install_method: fastboot_xiaomi
@@ -22,11 +21,10 @@ name: 'Redmi Note 7'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2019-01
-screen: {size: 6.3, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {resolution: '1080x2340', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 32/64/128 GB

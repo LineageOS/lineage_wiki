@@ -1,21 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
-- {flash: 'Dual LED', info: '8 MP (ultrawide)'}
-- {flash: 'Dual LED', info: '2 MP (macro)'}
-- {flash: 'Dual LED', info: '2 MP (depth)'}
-- {flash: None, info: '13 MP'}
+  - {flash: 'Dual LED', info: '48 MP (or 12 MP)'}
+  - {flash: 'Dual LED', info: '8 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '2 MP (macro)'}
+  - {flash: 'Dual LED', info: '2 MP (depth)'}
+  - {flash: None, info: '13 MP'}
 codename: ginkgo
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: 75.4, height: 161.1, depth: 8.6}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.6, height: 161.1, width: 75.4}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 610
 image: ginkgo.png
 install_method: fastboot_xiaomi
@@ -25,11 +24,10 @@ name: 'Redmi Note 8'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2019-08
-screen: {size: 6.3, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {resolution: '1080x2340', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB

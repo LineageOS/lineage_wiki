@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 2500, tech: 'Li-Po'}
+battery: {capacity: 2500, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: tomato
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=889964283620777297
-dimensions: {width: 75.9, height: 152.9, depth: 8.9}
+dimensions: {depth: 8.9, height: 152.9, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 405
 image: tomato.png
@@ -26,7 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014-12-18
-screen: {size: 5.5, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {resolution: '1280x720', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16 GB

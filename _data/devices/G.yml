@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '13 MP (Rear)'}
-- {flash: None, info: '13 MP (Monochrome sensor)'}
-- {flash: 'LED', info: '16 MP (Front)'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP (Rear)'}
+  - {flash: None, info: '13 MP (Monochrome sensor)'}
+  - {flash: 'LED', info: '16 MP (Front)'}
 codename: G
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 8 x 2.2 GHz
 current_branch: 20
-dimensions: {width: 76, height: 155, depth: 9.0}
+dimensions: {depth: 9.0, height: 155, width: 76}
 download_boot: Our device doesn't have button mapping for bootloader, thus instead reboot to bootloader from recovery.
 gpu: Qualcomm Adreno 506
 image: G.png
@@ -26,7 +26,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-10-03
-screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8953 Pro Snapdragon 626
 storage: 32/64 GB

@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 4500, tech: 'Li-Ion'}
+battery: {capacity: 4500, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '50 MP (wide) + 50 MP (ultrawide)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '50 MP (wide) + 50 MP (ultrawide)'}
+  - {flash: None, info: '16 MP'}
 codename: Spacewar
 cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.5 GHz + 3 x 2.4 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 75.8, height: 159.2, depth: 8.3}
+dimensions: {depth: 8.3, height: 159.2, width: 75.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 642L
 image: Spacewar.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2022-07-12
-screen: {size: 6.55, resolution: '1080x2400', technology: 'OLED', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.55, technology: 'OLED'}
 soc: Qualcomm SM7325-AE Snapdragon 778G+ 5G
 storage: 128/256 GB
 tree: android_device_nothing_Spacewar

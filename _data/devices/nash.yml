@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 2730 , tech: 'Li-Ion'}
+battery: {capacity: 2730, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'nash'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP'}
 codename: nash
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 76, height: 155.8, depth: 6.1}
+dimensions: {depth: 6.1, height: 155.8, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: nash.png
@@ -29,7 +29,7 @@ ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2017-07
-screen: {size: 5.5, resolution: '1440x2560', technology: 'P-OLED'}
+screen: {resolution: '1440x2560', size: 5.5, technology: 'P-OLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB (UFS 2.1 2-LANE)

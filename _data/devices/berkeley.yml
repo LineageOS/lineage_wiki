@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3750, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3750, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '13 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '13 MP'}
 codename: berkeley
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
 current_branch: 16.0
-dimensions: {width: 75, height: 157, depth: 7}
+dimensions: {depth: 7, height: 157, width: 75}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP12
 image: berkeley.png
@@ -26,7 +26,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2018-01
-screen: {size: 5.99, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 5.99, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: HiSilicon Kirin 970
 storage: 64/128 GB

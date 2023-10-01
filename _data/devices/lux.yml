@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 3630, tech: 'Li-Ion'}
+battery: {capacity: 3630, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '7.1.1'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED', info: '21 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '21 MP'}
+  - {flash: None, info: '5 MP'}
 codename: lux
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.7 GHz
 current_branch: 17.1
-dimensions: {width: 75, height: 148, depth: 10.9}
+dimensions: {depth: 10.9, height: 148, width: 75}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: lux.png
@@ -22,12 +22,11 @@ name: moto x play
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: None
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2015-08
-screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB

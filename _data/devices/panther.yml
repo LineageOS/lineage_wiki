@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13.0', ships_fw: True}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13.0'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '50 MP'}
-- {flash: None, info: '12 MP (ultrawide)'}
-- {flash: None, info: '10.8 MP'}
+  - {flash: 'LED', info: '50 MP'}
+  - {flash: None, info: '12 MP (ultrawide)'}
+  - {flash: None, info: '10.8 MP'}
 codename: panther
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 73.2, height: 155.6, depth: 8.7}
+dimensions: {depth: 8.7, height: 155.6, width: 73.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MC10
 image: panther.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2022-10
-screen: {size: 6.3, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
+screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.3, technology: 'AMOLED'}
 soc: Google Tensor GS201
 storage: 128/256 GB
 tree: android_device_google_panther

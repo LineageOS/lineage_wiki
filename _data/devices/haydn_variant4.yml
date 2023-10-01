@@ -1,21 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4520, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '108 MP'}
-- {flash: 'LED', info: '8 MP (ultrawide)'}
-- {flash: 'LED', info: '5 MP (telemacro)'}
-- {flash: None, info: '20 MP'}
+  - {flash: 'LED', info: '108 MP'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '5 MP (telemacro)'}
+  - {flash: None, info: '20 MP'}
 codename: haydn
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 2,84 GHz
 current_branch: 20
-dimensions: {width: 76.45, height: 163.57, depth: 7.87}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.87, height: 163.57, width: 76.45}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 660
 image: haydn.png
 install_method: fastboot_xiaomi
@@ -27,11 +26,10 @@ name: Mi 11X Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, Infrared sensor, Light sensor, Ultrasound proximity sensor, USB OTG]
 ram: 8/12 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: boot
 release: 2021-05
-screen: {size: 6.67, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 128/256 GB
 tree: android_device_xiaomi_haydn

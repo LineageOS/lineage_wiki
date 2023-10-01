@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 2680, tech: 'Li-Ion'}
+battery: {capacity: 2680, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: ether
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 18.1
-dimensions: {width: 72, height: 149, depth: 7}
+dimensions: {depth: 7, height: 149, width: 72}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 418
 image: ether.png
@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-02
-screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LCD'}
 soc: Qualcomm MSM8992 Snapdragon 808
 storage: 32 GB
 tree: android_device_nextbit_ether

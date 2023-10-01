@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3700, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3700, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12.2 MP'}
+  - {flash: None, info: '8 MP'}
 codename: bonito
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
 current_branch: 19.1
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 76.2, height: 160.0, depth: 7.6}
+dimensions: {depth: 7.6, height: 160.0, width: 76.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 615
 image: b4s4.png
@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-04
-screen: {size: 6, resolution: '2160x1080', technology: 'AMOLED', refresh_rate: 60}
+screen: {refresh_rate: 60, resolution: '2160x1080', size: 6, technology: 'AMOLED'}
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64 GB
 tree: android_device_google_bonito

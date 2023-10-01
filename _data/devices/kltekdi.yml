@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 2800, tech: 'Li-Ion'}
+battery: {capacity: 2800, removable: True, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '6.0.1'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: None, info: '2 MP'}
 codename: kltekdi
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
-dimensions: {width: 72.5, height: 142, depth: 8.1}
+dimensions: {depth: 8.1, height: 142, width: 72.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 330
 image: klte.png
@@ -21,14 +21,13 @@ models: [SC-04F, SCL23]
 name: Galaxy S5 LTE (SC-04F/SCL23)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
-  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2014-05
-screen: {size: 5.1, resolution: '1920x1080', technology: 'Super AMOLED'}
+screen: {resolution: '1920x1080', size: 5.1, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB

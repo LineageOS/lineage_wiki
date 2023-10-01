@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 4030, tech: 'Li-Po'}
+battery: {capacity: 4030, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '48 MP'}
-- {flash: 'Dual LED', info: '8 MP (wideangle)'}
-- {flash: 'Dual LED', info: '2 MP (depth)'}
-- {flash: None, info: '32 MP (front)'}
+  - {flash: 'Dual LED', info: '48 MP'}
+  - {flash: 'Dual LED', info: '8 MP (wideangle)'}
+  - {flash: 'Dual LED', info: '2 MP (depth)'}
+  - {flash: None, info: '32 MP (front)'}
 codename: vela
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 74.5, height: 156.8, depth: 8.7}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.7, height: 156.8, width: 74.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 616
 image: pyxis.png
 install_method: fastboot_xiaomi
@@ -26,11 +25,10 @@ name: Mi CC9 Meitu Edition
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2019-07
-screen: {size: 6.31, resolution: '1080x2340', technology: 'AMOLED'}
+screen: {resolution: '1080x2340', size: 6.31, technology: 'AMOLED'}
 sdcard: {sizeMax: '128 GB', slot: 'hybrid'}
 soc: Qualcomm SDM710 Snapdragon 710
 storage: 256 GB

@@ -1,22 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP (Primary)'}
-- {flash: 'Dual LED (dual tone)', info: '8 MP (Telephoto)'}
-- {flash: 'Dual LED (dual tone)', info: '16 MP (Wide-angle)'}
-- {flash: 'Dual LED (dual tone)', info: '2 MP (Dedicated video camera)'}
-- {flash: None, info: '32 MP (Front Facing)'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (Primary)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (Telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP (Wide-angle)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (Dedicated video camera)'}
+  - {flash: None, info: '32 MP (Front Facing)'}
 codename: zippo
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
 custom_unlock_cmd: fastboot oem unlock-go
-dimensions: {width: 74.6, height: 157.5, depth: 8.7}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.7, height: 157.5, width: 74.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 640
 image: zippo.png
 install_method: fastboot_lenovo
@@ -28,11 +27,10 @@ name: Z6 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
 ram: 6/8/12 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
 recovery_partition_name: recovery
 release: 2019-09-11
-screen: {size: 6.39, resolution: '1080x2340', technology: 'Super AMOLED'}
+screen: {resolution: '1080x2340', size: 6.39, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128/256/512 GB

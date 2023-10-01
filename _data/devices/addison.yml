@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 3510, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 3510, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
-- {flash: 'LED', info: '5 MP'}
+  - {flash: 'Dual LED', info: '16 MP'}
+  - {flash: 'LED', info: '5 MP'}
 codename: addison
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 18.1
-dimensions: {width: 76.4, height: 156.4, depth: 7}
+dimensions: {depth: 7, height: 156.4, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: addison.png
@@ -22,12 +22,11 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proximity sensor, Compass, NFC, GPS]
 quirks: [aux_cameras]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2016-09
-screen: {size: 5.5, resolution: '1080x1920', technology: 'Super AMOLED'}
+screen: {resolution: '1080x1920', size: 5.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32 GB

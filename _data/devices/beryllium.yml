@@ -1,22 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'POCO F1 Global', firmware: 'V12.0.3.0.QEJMIXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJMIXM/miui_POCOF1Global_V12.0.3.0.QEJMIXM_cf3fccffce_10.0.zip'}
-- {device: 'POCO F1 Russia', firmware: 'V12.0.3.0.QEJRUXM', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJRUXM/miui_POCOF1RUGlobal_V12.0.3.0.QEJRUXM_ac5b1649fc_10.0.zip'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+  - {device: 'POCO F1 Global', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJMIXM/miui_POCOF1Global_V12.0.3.0.QEJMIXM_cf3fccffce_10.0.zip', firmware: 'V12.0.3.0.QEJMIXM'}
+  - {device: 'POCO F1 Russia', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEJRUXM/miui_POCOF1RUGlobal_V12.0.3.0.QEJRUXM_ac5b1649fc_10.0.zip', firmware: 'V12.0.3.0.QEJRUXM'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP'}
+  - {flash: None, info: '5 MP'}
 codename: beryllium
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.3, height: 155.5, depth: 8.8}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.8, height: 155.5, width: 75.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sdm845
 format_on_upgrade: fbe
 gpu: Qualcomm Adreno 630
@@ -28,11 +27,10 @@ name: Poco F1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio]
 ram: 6/8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-08
-screen: {size: 6.18, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 6.18, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1

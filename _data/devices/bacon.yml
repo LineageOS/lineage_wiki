@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
+battery: {capacity: 3100, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: bacon
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
-dimensions: {width: 75.9, height: 152.9, depth: 8.9}
+dimensions: {depth: 8.9, height: 152.9, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330
@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014-06-06
-screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.5, technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_oneplus_bacon

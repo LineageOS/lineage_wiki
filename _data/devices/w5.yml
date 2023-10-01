@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2040, tech: 'Li-Ion'}
+battery: {capacity: 2040, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '5 MP'}
-- {flash: None, info: '0.3 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: None, info: '0.3 MP'}
 codename: w5
 cpu: Cortex-A7
 cpu_cores: '2'
@@ -20,14 +20,12 @@ name: Optimus L70
 network: [2G GSM, 3G UMTS]
 peripherals: [GPS, Accelerometer, Compass, Proximity sensor, FM radio]
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed, then
-  immediately hold it again.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release the <kbd>Power</kbd> button for a brief second when the LG logo is displayed, then immediately hold it again.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2014-04
 root_method: [custom, 'https://forum.xda-developers.com/showthread.php?t=2732311']
-screen: {size: 4.5, resolution: '480x800', technology: 'IPS LCD'}
+screen: {resolution: '480x800', size: 4.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8210 Snapdragon 200
 storage: 4 GB

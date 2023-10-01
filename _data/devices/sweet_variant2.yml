@@ -1,23 +1,22 @@
 architecture: arm64
-battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'Redmi Note 10 Pro India', firmware: 'V14.0.1.0.TKFINXM', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKFINXM/miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0.zip'}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+  - {device: 'Redmi Note 10 Pro India', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TKFINXM/miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0.zip', firmware: 'V14.0.1.0.TKFINXM'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: 'LED', info: '8 MP (ultrawide)'}
-- {flash: 'LED', info: '5 MP (macro)'}
-- {flash: 'LED', info: '2 MP (depth)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '5 MP (macro)'}
+  - {flash: 'LED', info: '2 MP (depth)'}
+  - {flash: None, info: '16 MP'}
 codename: sweet
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 76.5, height: 164, depth: 8.1}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.1, height: 164, width: 76.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm6150_km41
 gpu: Qualcomm Adreno 618
 image: sweet.png
@@ -29,11 +28,10 @@ name: Redmi Note 10 Pro (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Infrared sensor, Light sensor, Ultrasound proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2021-03
-screen: {size: 6.67, resolution: '2400x1080', technology: 'AMOLED', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '2400x1080', size: 6.67, technology: 'AMOLED'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128 GB

@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: starlte
 cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 68.7, height: 147.7, depth: 8.5}
+dimensions: {depth: 8.5, height: 147.7, width: 68.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
 image: starlte.png
@@ -20,14 +20,13 @@ maintainers: [baddar90]
 models: [SM-G960F, SM-G960F/DS, SM-G960N]
 name: Galaxy S9
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
-  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
 quirks: [ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2018-03-11
-screen: {size: 5.8, resolution: '2960x1440', technology: 'Super AMOLED'}
+screen: {resolution: '2960x1440', size: 5.8, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 64 GB

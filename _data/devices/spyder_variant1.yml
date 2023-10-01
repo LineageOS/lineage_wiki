@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 1780, tech: 'Li-Ion'}
+battery: {capacity: 1780, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 carrier: Verizon Wireless
 codename: spyder
 cpu: Cortex-A9
@@ -25,7 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 recovery_partition_name: recovery
 release: 2011-11-11
-screen: {size: 4.3, resolution: '540x960', technology: 'Super AMOLED'}
+screen: {resolution: '540x960', size: 4.3, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '32 GB (microSD)'}
 soc: TI OMAP4430
 storage: 16 GB

@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 6700, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 6700, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.6 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.6 MP'}
 codename: flounder_lte
 cpu: Denver
 cpu_cores: '2'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
 custom_recovery_codename: flounder
-dimensions: {width: 153.68, height: 228.25, depth: 7.95}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+dimensions: {depth: 7.95, height: 228.25, width: 153.68}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: NVIDIA Kepler DX1 192-core
 image: flounder.png
 install_method: fastboot_nexus
@@ -22,11 +21,10 @@ name: Nexus 9 (LTE)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Light sensor, Gyroscope, Hall effect sensor, GPS]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery
 release: 2014-11-03
-screen: {size: 8.9, resolution: '2048x1536', technology: 'IPS LCD'}
+screen: {resolution: '2048x1536', size: 8.9, technology: 'IPS LCD'}
 soc: NVIDIA Tegra K1 (T124)
 storage: 32 GB
 tree: android_device_htc_flounder_lte
