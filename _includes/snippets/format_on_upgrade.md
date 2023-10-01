@@ -2,8 +2,10 @@
 
 {% if device.recovery_partition_name %}
 {% assign recovery_partition_name = device.recovery_partition_name %}
-{% else %}
+{% if device.is_ab_device and device.has_recovery_partition != true %}
 {% assign recovery_partition_name = "boot" %}
+{% else %}
+{% assign recovery_partition_name = "recovery" %}
 {% endif %}
 
 {%- unless device.format_on_upgrade %}
@@ -23,7 +25,7 @@
 {%- elsif device.format_on_upgrade == "repartition" %}
 8. If your device has not yet been repartitioned, select "Advanced", then "Reboot to Bootloader".
     {% include alerts/note.html content="If you are uncertain if your device has been repartitioned, it likely has not!" %}
-9. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
+9. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ recovery_partition_name }}.img`.
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
 10. Now, use the volume buttons to select "Advanced", and then "Enable ADB".
 11. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
