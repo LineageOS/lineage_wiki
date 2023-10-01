@@ -29,6 +29,7 @@ quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Let go of <kbd>Power</kbd> immediately when the phone vibrates, but keep holding the two other keys.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition_name: recovery
 release: 2013-04
 required_bootloader: ['I337UCUAMDB', 'I337UCUAMDL']
 root_method: [towelroot]

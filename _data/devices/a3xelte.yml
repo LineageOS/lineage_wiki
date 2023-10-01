@@ -25,6 +25,7 @@ peripherals: [A-GPS, Accelerometer, Compass, GLONASS,
 quirks: [ims]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-12
 screen: {size: 4.7, resolution: '1280x720', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}

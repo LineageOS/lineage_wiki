@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2012-05
 screen: {size: 7, resolution: '600x1024', technology: 'PLS LCD'}
 sdcard: {sizeMax: '32 GB'}

@@ -24,6 +24,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Color spectrum sensor, Compass, D
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the device vibrates, then release.
+recovery_partition_name: recovery
 release: 2016
 screen: {size: 4.6, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}

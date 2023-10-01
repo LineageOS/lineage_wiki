@@ -22,6 +22,7 @@ network: None
 peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2016
 screen: {size: 8, resolution: '1536x2048', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}

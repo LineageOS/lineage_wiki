@@ -26,6 +26,7 @@ peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proxim
 quirks: [ims]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2019-01-28
 screen: {size: 6.3, resolution: '2340x1080', technology: 'PLS LCD'}
 sdcard: {sizeMax: '512 GB'}

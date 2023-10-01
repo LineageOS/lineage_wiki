@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: [Accelerometer, Compass, GPS, Gyroscope]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2013
 screen: {size: 10.1, resolution: '2560x1600', technology: 'Super LCD'}
 sdcard: {sizeMax: '64 GB'}

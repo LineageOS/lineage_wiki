@@ -20,6 +20,7 @@ network: None
 peripherals: None
 ram: 2/4 GB
 recovery_boot: Run `adb reboot recovery`.
+recovery_partition_name: recovery
 release: 2020-12-01
 screen: None
 sdcard: {sizeMax: '2 TB'}

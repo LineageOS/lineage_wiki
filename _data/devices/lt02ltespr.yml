@@ -25,6 +25,7 @@ peripherals: [IR blaster, Accelerometer, Light sensor, Compass]
 quirks: [ims]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2016-09
 screen: {size: 7, resolution: '1024x600', technology: 'TFT LCD'}
 sdcard: {sizeMax: '2 TB'}

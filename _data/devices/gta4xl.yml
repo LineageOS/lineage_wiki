@@ -26,6 +26,7 @@ peripherals: [Accelerometer, GPS, Gyroscope]
 quirks: [ims]
 ram: 4 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
 release: 2020-04-02
 screen: {size: 10.4, resolution: '1200x2000', technology: 'TFT LCD'}
 sdcard: {sizeMax: '1 TB'}

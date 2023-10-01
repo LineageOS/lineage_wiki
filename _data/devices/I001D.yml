@@ -28,6 +28,7 @@ ram: 8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the words "Fastboot Mode" appear on the screen, then release.
  Now with the volume rocker select "Recovery mode", then press <kbd>Power</kbd>.
+recovery_partition_name: boot
 release: 2019-09
 screen: {size: 6.59, resolution: '2340x1080', technology: 'AMOLED'}
 soc: Qualcomm SM8150-AC Snapdragon 855+

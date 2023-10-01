@@ -25,6 +25,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sens
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2016-04
 screen: {size: 5.15, resolution: '1080x1920', technology: 'IPS LCD'}
 soc: Qualcomm MSM8996 Snapdragon 820

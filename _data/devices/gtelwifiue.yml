@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-07
 screen: {size: 9.6, resolution: '800x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '256 GB'}

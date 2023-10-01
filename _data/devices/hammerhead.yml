@@ -25,6 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
   Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2013-10-31
 screen: {size: 5, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974 Snapdragon 800

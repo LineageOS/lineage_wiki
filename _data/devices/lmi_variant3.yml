@@ -28,6 +28,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fing
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2020-03
 screen: {size: 6.67, resolution: '1080x2400', technology: 'AMOLED'}
 soc: Qualcomm SM8250 Snapdragon 865

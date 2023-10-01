@@ -23,6 +23,7 @@ peripherals: [A-GPS, Accelerometer, Dual SIM, GLONASS, GPS, Gyroscope, Hall effe
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2015-09
 screen: {size: 5, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8992 Snapdragon 808

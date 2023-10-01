@@ -24,6 +24,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint re
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2018-04
 screen: {size: 5.99, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM660 Snapdragon 660

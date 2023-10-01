@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1/2 GB
 recovery_boot: ''
+recovery_partition_name: recovery
 release: 2015-07
 screen: {size: 8, resolution: '1280x800', technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}

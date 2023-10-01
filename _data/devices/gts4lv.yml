@@ -26,6 +26,7 @@ peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 quirks: [ims]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2019
 screen: {size: 10.5, resolution: '1600x2560', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '512 GB'}

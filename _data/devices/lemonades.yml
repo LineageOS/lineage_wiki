@@ -31,6 +31,7 @@ network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8/12GB GB LPDDR4X/LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2021-04
 screen: {size: 6.55, resolution: '1080x2400', technology: 'Fluid AMOLED', refresh_rate: 120}

@@ -57,7 +57,7 @@ fastboot oem unlock <your_unlock_code>
 {%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {%- elsif device.maintainers != empty %}
-1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
+1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
 {%- else %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
@@ -103,10 +103,6 @@ exit
 ```
 {% else %}
 
-{% if device.is_ab_device and device.has_recovery_partition != true %}
-{% include templates/recovery_install_fastboot_ab.md %}
-{% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
-{% endif %}
 
 {% endif %}

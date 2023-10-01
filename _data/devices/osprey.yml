@@ -26,6 +26,7 @@ peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2015-07
 screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}

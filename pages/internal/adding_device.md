@@ -135,6 +135,12 @@ The following list will mention Model-Value pairs where applicable.
   {{ definitions.valid_peripherals.items.enum | join: ", " }}
   ```
 
+* `recovery_partition_name`: A partition name recovery image is flashed to, can be one of:
+
+  ```
+  {{ properties.recovery_partition_name.enum | join: ', ' }}
+  ```
+
 * `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. This property supports Model-Value pairs.
 
 * `screen`: Use `{size: '<screen size>', resolution: '<1234x567>', technology: ''}` with number for `size`, `1234x567` for `resolution` and one of the following values for `technology`:
