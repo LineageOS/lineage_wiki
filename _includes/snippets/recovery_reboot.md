@@ -1,7 +1,9 @@
 {%- if device.recovery_partition_name %}
     {%- assign recovery_partition_name = device.recovery_partition_name %}
-{%- else %}
+{%- if device.is_ab_device and device.has_recovery_partition != true %}
     {%- assign recovery_partition_name = "boot" %}
+{%- else %}
+    {%- assign recovery_partition_name = "recovery" %}
 {%- endif %}
 
 {%- case device.recovery_reboot %}
