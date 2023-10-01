@@ -9,12 +9,12 @@
 
 {%- if device.custom_recovery_link %}
 {%- assign is_lineage_recovery = device.custom_lineage_recovery %}
-1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the recovery file and rename it to `recovery.img`.
+1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the recovery file and rename it to `{{ device.recovery_partition_name }}.img`.
 {%- elsif device.uses_twrp %}
-1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img` and rename it to `recovery.img`.
+1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img` and rename it to `{{ device.recovery_partition_name }}.img`.
 {%- elsif device.maintainers != empty %}
 {%- assign is_lineage_recovery = true %}
-1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `recovery.img`.
+1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
 {%- else %}
 {%- assign is_lineage_recovery = true %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
@@ -39,7 +39,7 @@ fastboot devices
 ```
    If you don't get any output or an error:
    * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
+   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
 {%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
@@ -52,12 +52,12 @@ fastboot wipe-super super_empty.img
 {% if device.needs_fastboot_boot %}
 7. Temporarily boot recovery on your device:
 ```
-fastboot boot recovery.img
+fastboot boot {{ device.recovery_partition_name }}.img
 ```
 {% else %}
 7. Flash recovery onto your device:
 ```
-fastboot flash recovery recovery.img
+fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition_name }}.img
 ```
 8. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}

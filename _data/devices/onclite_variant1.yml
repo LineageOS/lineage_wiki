@@ -24,6 +24,7 @@ peripherals: [Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Gali
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2019-03
 screen: {size: 6.26, resolution: '1520x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}

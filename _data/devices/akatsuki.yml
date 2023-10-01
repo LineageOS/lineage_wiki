@@ -25,6 +25,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
 ram: 4 or 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
 release: 2018-10
 screen: {size: 6, resolution: '1440x2880', technology: 'P-OLED'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}

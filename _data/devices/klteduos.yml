@@ -26,6 +26,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_partition_name: recovery
 release:
 - SM-G900FD: 2014-06
 - SM-G900MD: 2014-07

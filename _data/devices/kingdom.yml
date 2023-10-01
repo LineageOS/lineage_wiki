@@ -24,6 +24,7 @@ peripherals: [GPS, NFC, FM radio, Hall effect sensor, Light sensor, Proximity se
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
   Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
+recovery_partition_name: recovery
 release: 2014-09
 screen: {size: 6, resolution: '2560x1440', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801

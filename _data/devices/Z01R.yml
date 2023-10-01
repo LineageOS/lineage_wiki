@@ -25,6 +25,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM r
 ram: 4/6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press and hold the power button to reboot to recovery.
+recovery_partition_name: boot
 release: 2018-06
 screen: {size: 6.2, resolution: '2246x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}

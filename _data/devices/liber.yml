@@ -29,6 +29,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, GPS]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-06
 screen: {size: 6.5, resolution: '1080x2340', technology: 'IPS LCD'}

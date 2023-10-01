@@ -24,6 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS]
 ram: 4 GB / 6 GB (LPDDR4X)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2018-09
 screen: {size: 6.26, resolution: '2280x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}

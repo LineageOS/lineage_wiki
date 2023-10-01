@@ -690,9 +690,6 @@ properties:
       type: array
     - enum:
       - None
-  has_recovery_partition:
-    "$id": "/properties/has_recovery_partition"
-    type: boolean
   image:
     "$id": "/properties/image"
     pattern: ^\w*\.(png|jpg)$
@@ -783,6 +780,12 @@ properties:
   recovery_boot:
     "$id": "/properties/recovery_boot"
     type: string
+  recovery_partition_name:
+    "$id": "/properties/recovery_partition_name"
+    enum:
+    - boot
+    - recovery
+    - vendor_boot
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format

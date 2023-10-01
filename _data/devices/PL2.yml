@@ -25,6 +25,7 @@ ram: 3/4 GB LPDDR4X
 recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep
  holding <kbd>Volume Up</kbd>.
+recovery_partition_name: boot
 release: 2018
 screen: {size: 5.46, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

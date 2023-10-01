@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
+recovery_partition_name: boot
 release: 2012-09
 screen: {size: 4.3, resolution: '720x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}

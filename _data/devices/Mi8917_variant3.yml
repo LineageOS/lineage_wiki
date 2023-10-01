@@ -24,6 +24,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the screen lights up, release the buttons.
+recovery_partition_name: recovery
 release: 2017-08-21
 screen: {size: 5.5, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

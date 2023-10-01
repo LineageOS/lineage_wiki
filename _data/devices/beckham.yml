@@ -27,6 +27,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 quirks: [aux_cameras]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-06
 screen: {size: 6.2, resolution: '1080x2160', technology: 'Super AMOLED'}

@@ -23,6 +23,7 @@ peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
+recovery_partition_name: recovery
 release: 2014
 screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}

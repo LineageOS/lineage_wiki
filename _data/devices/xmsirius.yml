@@ -27,6 +27,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fing
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2018-06
 screen: {size: 5.88, resolution: '1080x2244', technology: 'AMOLED'}
 soc: Qualcomm SDM710 Snapdragon 710

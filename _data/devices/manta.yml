@@ -22,6 +22,7 @@ no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, Barometer, Dual side NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2012-11-13
 screen: {size: 10, resolution: '2560x1600', technology: 'Super PLS LCD'}
 soc: Samsung Exynos 5250

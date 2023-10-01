@@ -23,6 +23,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 release: 2015-11
 screen:
 - ZE500KL: {size: 5.5, resolution: '720x1280', technology: 'IPS LCD'}

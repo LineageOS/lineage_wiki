@@ -23,6 +23,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Compass, GPS]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-09
 screen: {size: 9.7, resolution: '1536x2048', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '128 GB'}

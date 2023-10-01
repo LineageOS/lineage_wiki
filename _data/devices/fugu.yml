@@ -21,6 +21,7 @@ peripherals: None
 ram: 1 GB
 recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Bottom Button</kbd> until a menu is displayed.
   Tap the <kbd>Bottom Button</kbd> until recovery is selected. Press the <kbd>Bottom Button</kbd> for two seconds to select.
+recovery_partition_name: recovery
 release: 2014-10
 screen: None
 soc: Intel Atom Z3560

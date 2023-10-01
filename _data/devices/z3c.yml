@@ -26,6 +26,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, FM 
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  Keep holding both buttons until the device vibrates, then release.
+recovery_partition_name: recovery
 release: 2014-09-04
 screen: {size: 4.6, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

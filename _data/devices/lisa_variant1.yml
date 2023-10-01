@@ -29,6 +29,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequ
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: boot
 release: 2021-09
 screen: {size: 6.67, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
