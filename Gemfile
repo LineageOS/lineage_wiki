@@ -19,3 +19,5 @@ group :jekyll_plugins do
    gem 'rouge', '= 4.1.2'
    gem 'webrick', '= 1.8.1'
 end
+
+gem "yalphabetize", "~> 0.7.0"
