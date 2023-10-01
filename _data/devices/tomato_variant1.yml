@@ -24,6 +24,7 @@ no_oem_unlock_switch: true
 peripherals: [GPS, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2014-12-18
 screen: {size: 5.5, resolution: '1280x720', technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}

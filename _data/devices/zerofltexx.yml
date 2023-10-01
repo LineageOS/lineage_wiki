@@ -26,6 +26,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   When the blue text appears, release the buttons.
 release: 2015-04
 screen: {size: 5.1, resolution: '2560x1440', technology: 'Super AMOLED'}

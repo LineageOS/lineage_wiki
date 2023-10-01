@@ -21,6 +21,7 @@ no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold Back + <kbd>Home</kbd> and tap <kbd>Power</kbd>,
+recovery_partition_name: recovery
   then release once menu is displayed. Tap <kbd>Home</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 release: 2013-07-31
 screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}

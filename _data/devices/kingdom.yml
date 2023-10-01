@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [GPS, NFC, FM radio, Hall effect sensor, Light sensor, Proximity sensor, Accelerometer, Gyroscope, Compass, RGB ambient light]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd>.
+recovery_partition_name: recovery
   Then press and hold the <kbd>Power</kbd> button until the "Lenovo" logo appears.
 release: 2014-09
 screen: {size: 6, resolution: '2560x1440', technology: 'IPS LCD'}

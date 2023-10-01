@@ -21,6 +21,7 @@ no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-01
 screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

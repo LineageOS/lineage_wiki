@@ -24,6 +24,7 @@ quirks: [ims]
 ram: 1.5 GB / 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition: /dev/block/bootdevice/by-name/recovery
+recovery_partition_name: recovery
 release: 2016-01
 root_method: [custom, 'https://forum.xda-developers.com/lg-k10/how-to/root-lg-k10-420ds-t3479902']
 screen: {size: 5.3, resolution: '720x1280', technology: 'IPS LCD'}

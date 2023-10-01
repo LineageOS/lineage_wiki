@@ -27,6 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
   When the LG logo appears, release both buttons and then hold them again.
   Then answer YES to erase all user data & restore default settings (If you have LineageOS Recovery installed it will not delete anything).
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition_name: recovery
 release: 2014-06
 required_bootloader: ['VS98510B', 'VS98512B']
 root_method: [custom, 'http://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']

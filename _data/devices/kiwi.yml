@@ -24,6 +24,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Light sensor, Compass, GPS, Hall effect sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   Keep holding buttons until the "Honor" logo appears, then release all buttons.
 release: 2015-11
 screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}

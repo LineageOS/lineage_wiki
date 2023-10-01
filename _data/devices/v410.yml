@@ -25,6 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again.
   When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition_name: recovery
 release: 2014-05
 root_method: [towelroot]
 screen: {size: 7, resolution: '1280x800', technology: 'IPS LCD'}

@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd>.
+recovery_partition_name: recovery
   Then press and hold <kbd>Power</kbd> until a boot menu appears.
   Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 release: 2013-10-31

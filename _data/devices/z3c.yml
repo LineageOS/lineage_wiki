@@ -25,6 +25,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, Light sensor, MHL, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
  Keep holding both buttons until the device vibrates, then release.
 release: 2014-09-04
 screen: {size: 4.6, resolution: '1280x720', technology: 'IPS LCD'}

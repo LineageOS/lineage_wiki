@@ -24,6 +24,7 @@ network: None
 peripherals: [A-GPS, Accelerometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, MHL, NFC, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
  Keep holding both buttons until the device vibrates, then release.
 release: 2014-03-26
 screen: {size: 10.1, resolution: '1920x1080', technology: 'IPS LCD'}

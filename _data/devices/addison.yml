@@ -23,6 +23,7 @@ peripherals: [Accelerometer, Light sensor, Fingerprint reader, Gyroscope, Proxim
 quirks: [aux_cameras]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2016-09

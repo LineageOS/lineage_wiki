@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
 recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
+recovery_partition_name: boot
 release: 2013-06
 screen: {size: 4, resolution: '480x854', technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}

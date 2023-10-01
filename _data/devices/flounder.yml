@@ -22,6 +22,7 @@ network: None
 peripherals: [Accelerometer, Light sensor, Gyroscope, Hall effect sensor, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+recovery_partition_name: recovery
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2014-11-03
 screen: {size: 8.9, resolution: '2048x1536', technology: 'IPS LCD'}

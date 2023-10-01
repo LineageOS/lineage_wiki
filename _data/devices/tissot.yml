@@ -24,6 +24,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, GLONASS, IR blaster, Light sensor, FM radio, Dual SIM]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
   Keep holding both buttons until the "MI" logo appears on the screen, then release.
 release: 2017-10
 screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}

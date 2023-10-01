@@ -23,6 +23,7 @@ no_oem_unlock_switch: true
 peripherals: [GPS, NFC, Light sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2014-06-06
 screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801

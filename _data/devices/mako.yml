@@ -22,6 +22,7 @@ no_oem_unlock_switch: true
 peripherals: [GPS, Mobility DisplayPort (MyDP), Proximity sensor, NFC, Qi wireless charging]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+recovery_partition_name: recovery
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_reboot: fastboot_menu
 release: 2012-11-13

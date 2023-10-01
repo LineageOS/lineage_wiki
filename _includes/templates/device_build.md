@@ -111,11 +111,7 @@ cd $OUT
 
 There you'll find all the files that were created. The two files of more interest are:
 
-{% if device.is_ab_device %}
-1. `boot.img`, which is the LineageOS boot image, and contains the recovery-ramdisk.
-{% else %}
-1. `recovery.img`, which is the LineageOS recovery image.
-{% endif %}
+1. `{{ device.recovery_partition_name }}.img`, which is the LineageOS recovery image.
 2. `lineage-{{ device.current_branch | precision: 1 }}-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-{{ device.codename }}.zip`, which is the LineageOS
 installer package.
 

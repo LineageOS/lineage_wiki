@@ -25,6 +25,7 @@ peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
 quirks: [ims]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2016-01
 screen: {size: 8, resolution: '800x1280', technology: 'TFT LCD'}
 sdcard: {sizeMax: '128 GB'}

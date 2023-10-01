@@ -27,6 +27,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity 
   Hall effect sensor, Light sensor, GPS, USB OTG]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2018-09
 screen: {size: 5.99, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM845 Snapdragon 845

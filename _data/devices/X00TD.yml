@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
   Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 release: 2018-05
 screen: {size: 5.99, resolution: '2160x1080', technology: 'IPS LCD'}

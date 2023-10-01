@@ -27,6 +27,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
   Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-05
 screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LCD'}

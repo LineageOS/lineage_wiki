@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, NFC, IR blaster]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
+recovery_partition_name: recovery
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 release: 2014-03
 screen: {size: 5, resolution: '1080x1920', technology: 'Super LCD'}
