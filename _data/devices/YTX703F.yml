@@ -1,21 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 9600, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 9600, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: None, info: '13 MP'}
-- {flash: None, info: '5 MP (front)'}
+  - {flash: None, info: '13 MP'}
+  - {flash: None, info: '5 MP (front)'}
 codename: YTX703F
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.4 GHz
 current_branch: 18.1
 custom_recovery_codename: yt_x703f
-dimensions: {width: 247, height: 179, depth: 4.7}
+custom_unlock_cmd: 'fastboot oem unlock-go'
+dimensions: {depth: 4.7, height: 179, width: 247}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 510
 image: YTX703.png
 install_method: fastboot_lenovo
-custom_unlock_cmd: 'fastboot oem unlock-go'
 kernel: android_kernel_lenovo_msm8976
 maintainers: []
 models: [YTX703F]
@@ -26,7 +26,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-12
-screen: {size: 10.1, resolution: '2560x1600', technology: 'IPS LCD'}
+screen: {resolution: '2560x1600', size: 10.1, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB (SDHC) or 2 TB (SDXC)'}
 soc: Qualcomm APQ8076 Snapdragon 652
 storage: 32 GB

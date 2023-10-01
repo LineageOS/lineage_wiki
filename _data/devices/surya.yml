@@ -1,22 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 5160, tech: 'Li-Po'}
+battery: {capacity: 5160, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'POCO X3 NFC (surya) / POCO X3 (Karna)', firmware: 'V13.0.4.0.SJGEUXM', download_link: 'https://bigota.d.miui.com/V13.0.4.0.SJGEUXM/miui_SURYAEEAGlobal_V13.0.4.0.SJGEUXM_8e3e6f06c8_12.0.zip'}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+  - {device: 'POCO X3 NFC (surya) / POCO X3 (Karna)', download_link: 'https://bigota.d.miui.com/V13.0.4.0.SJGEUXM/miui_SURYAEEAGlobal_V13.0.4.0.SJGEUXM_8e3e6f06c8_12.0.zip', firmware: 'V13.0.4.0.SJGEUXM'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '48 MP'}
-- {flash: 'LED', info: '8 MP'}
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '20 MP'}
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '20 MP'}
 codename: surya
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 76.8, height: 165.3, depth: 9.4}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 9.4, height: 165.3, width: 76.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_surya
 gpu: Qualcomm Adreno 618
 image: surya.png
@@ -28,11 +27,10 @@ name: POCO X3 NFC
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2020-09-08
-screen: {size: 6.67, resolution: '2400x1080', technology: 'IPS LCD'}
+screen: {resolution: '2400x1080', size: 6.67, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128/256 GB

@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4400, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+battery: {capacity: 4400, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: None, info: '5 MP'}
 codename: lithium
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz + 2 x 2.19 GHz
 current_branch: 18.1
 custom_recovery_link: https://androidfilehost.com/?fid=890278863836293784
-dimensions: {width: 81.9, height: 158.8, depth: 7.9}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.9, height: 158.8, width: 81.9}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 530
 image: lithium.png
 install_method: fastboot_xiaomi
@@ -22,11 +21,10 @@ name: Mi MIX
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Ultrasound proximity sensor, Compass, NFC, GPS]
 ram: 4/6 GB LPDDR4
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2016-10
-screen: {size: 6.4, resolution: '1080x2040', technology: 'IPS LCD'}
+screen: {resolution: '1080x2040', size: 6.4, technology: 'IPS LCD'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 128/256 GB UFS2.0
 tree: android_device_xiaomi_lithium

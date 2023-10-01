@@ -1,19 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '20 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '20 MP'}
+  - {flash: None, info: '2 MP'}
 codename: twolip
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz + 4 x 1.6 GHz
 current_branch: 18.1
-dimensions: {width: 76.4, height: 157.9, depth: 8.3}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.3, height: 157.9, width: 76.4}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 509
 image: twolip.png
 install_method: fastboot_xiaomi
@@ -23,11 +22,10 @@ name: 'Redmi Note 6 Pro'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Pedometer, Proximity sensor, USB OTG]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-10
-screen: {size: 6.26, resolution: '1080x2280', technology: 'IPS LCD'}
+screen: {resolution: '1080x2280', size: 6.26, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32/64 GB

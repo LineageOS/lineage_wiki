@@ -1,6 +1,6 @@
 architecture: arm64
-battery: {removable: false, capacity: 4820, tech: 'Li-Po'}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX]}
+battery: {capacity: 4820, removable: false, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX], spec: '5.1'}
 cameras:
   - {flash: 'Dual LED', info: '108 MP'}
   - {flash: 'Dual LED', info: '64 MP'}
@@ -13,9 +13,8 @@ cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 19.1
-dimensions: {width: 76.8, height: 165.4, depth: 9}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 9, height: 165.4, width: 76.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 619
 image: gauguin.png
 install_method: fastboot_xiaomi
@@ -26,11 +25,10 @@ name: Mi 10T Lite
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2020-10
-screen: {size: 6.67, resolution: '2400x1080', technology: 'IPS LCD'}
+screen: {resolution: '2400x1080', size: 6.67, technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SM7225 Snapdragon 750G 5G
 storage: 64/128/256 GB

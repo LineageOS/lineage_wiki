@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 1900, tech: 'Li-Ion'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 1900, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.9 MP'}
 codename: serranodsdd
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 14.1
 custom_recovery_link: http://www.mediafire.com/file/4m9u74p8akndor8/recovery.img
-dimensions: {width: 61.3, height: 124.6, depth: 8.9}
+dimensions: {depth: 8.9, height: 124.6, width: 61.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 305
 image: serranoltexx.png
@@ -26,7 +26,7 @@ ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2013-07
-screen: {size: 4.3, resolution: '540x960', technology: 'Super AMOLED'}
+screen: {resolution: '540x960', size: 4.3, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 8 GB

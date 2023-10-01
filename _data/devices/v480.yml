@@ -1,17 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 4200, tech: 'Li-Ion'}
+battery: {capacity: 4200, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '1.3 MP'}
 codename: v480
 cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: 124.2, height: 210.8, depth: 9.9}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer.
-  Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
+dimensions: {depth: 9.9, height: 210.8, width: 124.2}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect it to the computer. Keep holding <kbd>Volume Up</kbd> until the firmware update screen appears.
 gpu: Qualcomm Adreno 305
 image: v480.png
 install_method: dd
@@ -21,13 +20,12 @@ name: G Pad 8.0 (Wi-Fi)
 network: None
 peripherals: [Accelerometer, Compass, GPS, Pedometer]
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again.
-  When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold them again. When prompted to erase all user data, choose 'Yes'. Once again choose 'Yes' to confirm and then device will boot to recovery.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2014-07
 root_method: [kingroot]
-screen: {size: 8, resolution: '1280x800', technology: 'IPS LCD'}
+screen: {resolution: '1280x800', size: 8, technology: 'IPS LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 16 GB

@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
 before_recovery_install: samsung_universal7904
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP (ultrawide)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '5 MP (ultrawide)'}
+  - {flash: None, info: '8 MP'}
 codename: m20lte
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2 x 1.8 GHz + 6 x 1.6 GHz
 current_branch: 18.1
-dimensions: {width: 74.5, height: 156.4, depth: 8.8}
+dimensions: {depth: 8.8, height: 156.4, width: 74.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G71 MP2
 image: m20lte.png
@@ -28,7 +28,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2019-01-28
-screen: {size: 6.3, resolution: '2340x1080', technology: 'PLS LCD'}
+screen: {resolution: '2340x1080', size: 6.3, technology: 'PLS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Samsung Exynos 7904
 storage: 32/64 GB

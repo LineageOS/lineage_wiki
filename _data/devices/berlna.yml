@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '108 MP (wide)'}
-- {flash: 'Dual LED (dual tone)', info: '8 MP (ultrawide)'}
-- {flash: 'Dual LED (dual tone)', info: '2 MP (depth)'}
-- {flash: None, info: '32 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '108 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (depth)'}
+  - {flash: None, info: '32 MP (wide)'}
 codename: berlna
 cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 75.6, height: 169, depth: 9}
+dimensions: {depth: 9, height: 169, width: 75.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 642L
 image: berlna.png
@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-08-19
-screen: {size: 6.8, resolution: '1080x2460', technology: 'IPS LCD'}
+screen: {resolution: '1080x2460', size: 6.8, technology: 'IPS LCD'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 256 GB UFS 2.2
 tree: android_device_motorola_berlna

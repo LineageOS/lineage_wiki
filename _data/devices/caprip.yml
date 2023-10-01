@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '64 MP (Primary)'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '2 MP (depth)'}
-- {flash: None, info: '2 MP (macro)'}
-- {flash: None, info: '13 MP (Front Facing)'}
+  - {flash: 'LED', info: '64 MP (Primary)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (depth)'}
+  - {flash: None, info: '2 MP (macro)'}
+  - {flash: None, info: '13 MP (Front Facing)'}
 codename: caprip
 cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz & 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.7, height: 165.2, depth: 9.1}
+dimensions: {depth: 9.1, height: 165.2, width: 75.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: caprip.png
@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-03
-screen: {size: 6.5, resolution: '720x1600', technology: 'IPS LCD'}
+screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 64/128 GB eMMC 5.1

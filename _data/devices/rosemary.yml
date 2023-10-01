@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '11', ships_fw: True}
-bluetooth: {spec: '5.1', profiles: [A2DP]}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '11'}
+bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '64 MP (wide)'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '2 MP (macro)'}
-- {flash: None, info: '2 MP (depth)'}
+  - {flash: 'LED', info: '64 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (macro)'}
+  - {flash: None, info: '2 MP (depth)'}
 codename: rosemary
 cpu: Cortex-A76 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz + 6 x 2.0 GHz
 current_branch: 20
-dimensions: {width: 74.5, height: 160.5, depth: 8.3}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.3, height: 160.5, width: 74.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: ARM Mali-G76 MC4
 image: rosemary.png
 install_method: fastboot_xiaomi
@@ -25,11 +24,10 @@ name: Redmi Note 10S
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
 ram: 4/6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 recovery_partition_name: boot
 release: 2021-04
-screen: {size: 6.43, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {resolution: '1080x2400', size: 6.43, technology: 'AMOLED'}
 soc: Mediatek MT6785 Helio G95
 storage: 64/128 GB
 tree: android_device_xiaomi_rosemary

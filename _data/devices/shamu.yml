@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 3220, tech: 'Li-Po'}
+battery: {capacity: 3220, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '2.1 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '2.1 MP'}
 codename: shamu
 cpu: Krait 450
 cpu_cores: '4'
 cpu_freq: 2.7 GHz
 current_branch: 18.1
-dimensions: {width: 83, height: 159.3, depth: 10.1}
+dimensions: {depth: 10.1, height: 159.3, width: 83}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 420
@@ -25,7 +25,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Then use the menu to select Recovery.
 recovery_partition_name: recovery
 release: 2014-10-29
-screen: {size: 5.96, resolution: '2560x1440', technology: 'Pentile RGBG AMOLED'}
+screen: {resolution: '2560x1440', size: 5.96, technology: 'Pentile RGBG AMOLED'}
 soc: Qualcomm APQ8084 Snapdragon 805
 storage: 32/64 GB
 tree: android_device_moto_shamu

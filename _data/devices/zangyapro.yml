@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+battery: {capacity: 3100, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
-- {flash: 'LED', info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP (depth)'}
+  - {flash: 'LED', info: '8 MP'}
 codename: zangyapro
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=4349826312261701360
-dimensions: {width: 72.3, height: 150.7, depth: 8.35}
+dimensions: {depth: 8.35, height: 150.7, width: 72.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 512
 image: zangyapro.png
@@ -26,7 +26,7 @@ ram: 4/6 GB LPDDR3
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 release: 2018-05
-screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LTPS LCD'}
+screen: {resolution: '2160x1080', size: 5.65, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB

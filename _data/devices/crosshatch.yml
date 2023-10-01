@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3430, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3430, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12.2 MP'}
+  - {flash: None, info: '8 MP'}
 codename: crosshatch
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.5 GHz + 4 x 1.6 GHz
 current_branch: 19.1
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 76.7, height: 158, depth: 7.9}
+dimensions: {depth: 7.9, height: 158, width: 76.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 630
 image: crosshatch.png
@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-10
-screen: {size: 6.3, resolution: '2960x1440', technology: 'AMOLED', refresh_rate: 60}
+screen: {refresh_rate: 60, resolution: '2960x1440', size: 6.3, technology: 'AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128 GB
 tree: android_device_google_crosshatch

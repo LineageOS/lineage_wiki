@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '10'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: crownlte
 cpu: Exynos M3 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 76.4, height: 161.9, depth: 8.8}
+dimensions: {depth: 8.8, height: 161.9, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP18
 image: crownlte.png
@@ -21,14 +21,13 @@ maintainers: [baddar90]
 models: [SM-N960F, SM-N960F/DS, SM-N960N]
 name: Galaxy Note 9
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
-  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
 quirks: [ims]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2018-08-09
-screen: {size: 6.4, resolution: '2960x1440', technology: 'Super AMOLED'}
+screen: {resolution: '2960x1440', size: 6.4, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 128/512 GB

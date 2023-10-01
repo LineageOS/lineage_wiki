@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '8 MP'}
-- {flash: 'LED', info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: 'LED', info: '8 MP'}
 codename: X00P
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.4 GHz
 current_branch: 18.1
-dimensions: {width: 70.9, height: 147.3, depth: 8.7}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.7, height: 147.3, width: 70.9}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 505
 image: X00P.png
 install_method: fastboot_zenfone
@@ -22,11 +21,10 @@ name: Zenfone Max M1
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
 ram: 2/3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-12
-screen: {size: 5.5, resolution: '720x1440', technology: 'IPS LCD'}
+screen: {resolution: '720x1440', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB

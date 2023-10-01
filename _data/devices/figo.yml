@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '2 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '2 MP'}
+  - {flash: None, info: '8 MP'}
 codename: figo
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.36 GHz + 4 x 1.7 GHz
 current_branch: 16.0
-dimensions: {width: 72.1, height: 150.1, depth: 7.8}
+dimensions: {depth: 7.8, height: 150.1, width: 72.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP2
 image: figo.png
@@ -26,7 +26,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-12
-screen: {size: 5.65, resolution: '1080x2160', technology: 'IPS LCD'}
+screen: {resolution: '1080x2160', size: 5.65, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: HiSilicon Kirin 659
 storage: 32/64/128 GB

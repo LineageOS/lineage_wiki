@@ -1,21 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
-- {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP (macro)'}
-- {flash: 'Dual LED (dual tone)', info: '2 MP (depth)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP (macro)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (depth)'}
+  - {flash: None, info: '16 MP'}
 codename: lemonades
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 74.1, height: 161, depth: 8.4}
+dimensions: {depth: 8.4, height: 161, width: 74.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8250
 gpu: Qualcomm Adreno 650
@@ -34,7 +34,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2021-04
-screen: {size: 6.55, resolution: '1080x2400', technology: 'Fluid AMOLED', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.55, technology: 'Fluid AMOLED'}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB UFS3.1
 tree: android_device_oneplus_lemonades

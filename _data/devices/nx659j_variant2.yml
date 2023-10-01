@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4500, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '10', ships_fw: True}
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '10'}
 before_recovery_install: {instructions: 'nubia', partitions: [dtbo, vbmeta]}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '64 MP (wide)'}
-- {flash: 'LED', info: '8 MP (ultrawide)'}
-- {flash: 'LED', info: '2 MP (macro)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '64 MP (wide)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '2 MP (macro)'}
+  - {flash: None, info: '8 MP'}
 codename: nx659j
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX659J'
-dimensions: {width: 78, height: 168.6, depth: 9.8}
+dimensions: {depth: 9.8, height: 168.6, width: 78}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 650
 image: nx659j_variant1.png
@@ -23,13 +23,13 @@ kernel: android_kernel_nubia_sm8250
 maintainers: [DD3Boh]
 models: [NX659J, NX659J-EEA, NX659J-UN]
 name: Red Magic 5G (China)
-peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 ram: 8/12/16 GB LPDDR5
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2020-03
-screen: {size: 6.65, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
+screen: {refresh_rate: 144, resolution: '1080x2340', size: 6.65, technology: 'AMOLED'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0
 tree: android_device_nubia_nx659j

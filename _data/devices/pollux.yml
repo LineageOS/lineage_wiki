@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 6000, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 6000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8.1 MP'}
-- {flash: None, info: '2.2 MP'}
+  - {flash: 'LED', info: '8.1 MP'}
+  - {flash: None, info: '2.2 MP'}
 codename: pollux
 cpu: Krait
 cpu_cores: '4'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: 266, height: 172, depth: 6.9}
+dimensions: {depth: 6.9, height: 172, width: 266}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: pollux.png
@@ -24,7 +24,7 @@ ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot
 release: 2013-02
-screen: {size: 10.1, resolution: '1200x1920', technology: 'TFT LCD'}
+screen: {resolution: '1200x1920', size: 10.1, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 16 GB

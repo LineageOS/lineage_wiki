@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3300, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP (Primary)'}
-- {flash: 'Dual LED (dual tone)', info: '8 MP (Wide)'}
-- {flash: None, info: '8 MP (Selfie)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (Primary)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (Wide)'}
+  - {flash: None, info: '8 MP (Selfie)'}
 codename: Z01R
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4x2.7 GHz & 4x1.7 GHz
 current_branch: 20
-dimensions: {width: 75.7, height: 153, depth: 7.9}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.9, height: 153, width: 75.7}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 630
 image: Z01R.png
 install_method: fastboot_zenfone
@@ -23,11 +22,10 @@ name: Zenfone 5Z (ZS620KL)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light, USB OTG]
 ram: 4/6/8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press and hold the power button to reboot to recovery.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press and hold the power button to reboot to recovery.
 recovery_partition_name: boot
 release: 2018-06
-screen: {size: 6.2, resolution: '2246x1080', technology: 'IPS LCD'}
+screen: {resolution: '2246x1080', size: 6.2, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1

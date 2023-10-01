@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 7000, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 7000, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: samsung_exynos9xxx
-bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: 'LED', info: '12 MP (ultrawide)'}
-- {flash: None, info: '5 MP (depth)'}
-- {flash: None, info: '5 MP (macro)'}
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (depth)'}
+  - {flash: None, info: '5 MP (macro)'}
 codename: f62
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
 current_branch: 20
-dimensions: {width: 76.3, height: 163.9, depth: 9.5}
+dimensions: {depth: 9.5, height: 163.9, width: 76.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9825-r
 gpu: ARM Mali-G76 MP12
@@ -30,7 +30,7 @@ ram: 8 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2021-03-03
-screen: {size: 6.7, resolution: '2400x1080', technology: 'Super AMOLED'}
+screen: {resolution: '2400x1080', size: 6.7, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '1 TB', slot: 'dedicated'}
 soc: Samsung Exynos 9825
 storage: 128/256 GB

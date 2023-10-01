@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'Dual LED', info: '64 MP'}
-- {flash: 'Dual LED', info: '13 MP (ultrawide)'}
-- {flash: 'Dual LED', info: '5 MP (macro)'}
-- {flash: None, info: '20 MP'}
+  - {flash: 'Dual LED', info: '64 MP'}
+  - {flash: 'Dual LED', info: '13 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '5 MP (macro)'}
+  - {flash: None, info: '20 MP'}
 codename: apollon
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 76.4, height: 165.1, depth: 9.3}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 9.3, height: 165.1, width: 76.4}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 650
 image: apollon.png
 install_method: fastboot_xiaomi
@@ -25,11 +24,10 @@ name: Redmi K30S Ultra
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2020-11
-screen: {size: 6.67, resolution: '1080x2400', technology: 'IPS LCD', refresh_rate: 144}
+screen: {refresh_rate: 144, resolution: '1080x2400', size: 6.67, technology: 'IPS LCD'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
 tree: android_device_xiaomi_apollon

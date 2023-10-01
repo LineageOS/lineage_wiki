@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '5 MP (depth)'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '5 MP (depth)'}
+  - {flash: None, info: '8 MP'}
 codename: river
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.3, height: 157, depth: 8.0}
+dimensions: {depth: 8.0, height: 157, width: 75.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 506
 image: river.png
@@ -22,14 +22,13 @@ maintainers: [erfanoabdi, npjohnson, SyberHexen]
 models: [XT1962-01, XT1962-04, XT1962-05, XT1962-06]
 name: moto g7
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-02
-screen: {size: 6.2, resolution: '1080x2270', technology: 'IPS LTPS LCD'}
+screen: {resolution: '1080x2270', size: 6.2, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB

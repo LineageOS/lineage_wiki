@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4300, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12', ships_fw: True}
+battery: {capacity: 4300, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
 before_recovery_install: samsung_exynos9xxx
-bluetooth: {spec: '5', profiles: [A2DP + aptX]}
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '12 MP (telephoto)'}
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '0.3 MP (TOF 3D)'}
-- {flash: None, info: '10 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: None, info: '0.3 MP (TOF 3D)'}
+  - {flash: None, info: '10 MP'}
 codename: d2x
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.40 + 4 x 1.95 GHz
 current_branch: 20
-dimensions: {width: 77.2, height: 162.3, depth: 7.9}
+dimensions: {depth: 7.9, height: 162.3, width: 77.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9820_5G
 gpu: ARM Mali-G76 MP12
@@ -31,7 +31,7 @@ ram: 12 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2019-08-23
-screen: {size: 6.8, resolution: '3040x1440', technology: 'Dynamic AMOLED'}
+screen: {resolution: '3040x1440', size: 6.8, technology: 'Dynamic AMOLED'}
 sdcard: {sizeMax: '512 GB'}
 soc: Samsung Exynos 9825
 storage: 256/512 GB

@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3200, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+battery: {capacity: 3200, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: None, info: '4 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: None, info: '4 MP'}
 codename: capricorn
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 2.0 GHz
 current_branch: 16.0
-dimensions: {width: 70.3, height: 145.6, depth: 8.3}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.3, height: 145.6, width: 70.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 530
 image: capricorn.png
 install_method: fastboot_xiaomi
@@ -21,11 +20,10 @@ name: Mi 5s
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, GPS]
 ram: 3/4 GB LPDDR4
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2016-10
-screen: {size: 5.15, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.15, technology: 'IPS LCD'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/64/128 GB UFS 2.0
 tree: android_device_xiaomi_capricorn

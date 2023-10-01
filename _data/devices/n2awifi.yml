@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 8220, tech: 'Li-Ion'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 8220, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '2.1 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '2.1 MP'}
 codename: n2awifi
 cpu: Cortex-A15 & Cortex-A7
 cpu_cores: '8'
 cpu_freq: 4 x 1.9 GHz & 4 x 1.3 GHz
 current_branch: 14.1
-dimensions: {width: 177.3, height: 247.3, depth: 6.6}
+dimensions: {depth: 6.6, height: 247.3, width: 177.3}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: n2awifi.png
@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014
-screen: {size: 10.1, resolution: '2560x1600', technology: 'Super LCD'}
+screen: {resolution: '2560x1600', size: 10.1, technology: 'Super LCD'}
 sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos 5420
 storage: 16/32 GB

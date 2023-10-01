@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 5100, tech: 'Li-Ion'}
+battery: {capacity: 5100, removable: False, tech: 'Li-Ion'}
 before_recovery_install: {instructions: 'nubia', partitions: [dtbo, vbmeta]}
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '48 MP (wide)'}
-- {flash: 'LED', info: '8 MP (ultrawide)'}
-- {flash: 'LED', info: '2 MP (macro)'}
-- {flash: 'LED', info: '2 MP (depth)'}
-- {flash: None, info: '12 MP'}
+  - {flash: 'LED', info: '48 MP (wide)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '2 MP (macro)'}
+  - {flash: 'LED', info: '2 MP (depth)'}
+  - {flash: None, info: '12 MP'}
 codename: nx651j
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX651J'
-dimensions: {width: 78.5, height: 171.7, depth: 9.1}
+dimensions: {depth: 9.1, height: 171.7, width: 78.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: nx651j_variant2.png
@@ -23,13 +23,13 @@ kernel: android_kernel_nubia_sm7250
 maintainers: [Cyborg2017]
 models: [NX651J-EEA]
 name: Red Magic 5G Lite
-peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2020-06
-screen: {size: 6.65, resolution: '1080x2340', technology: 'AMOLED', refresh_rate: 144}
+screen: {refresh_rate: 144, resolution: '1080x2340', size: 6.65, technology: 'AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
 storage: 256 GB UFS2.0
 tree: android_device_nubia_nx651j

@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 2770, tech: 'Li-Ion'}
+battery: {capacity: 2770, removable: False, tech: 'Li-Ion'}
 before_lineage_install: m1s1
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: sailfish
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 69.5, height: 143.8, depth: 8.5}
+dimensions: {depth: 8.5, height: 143.8, width: 69.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: repartition
 gpu: Qualcomm Adreno 530
@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2016-10
-screen: {size: 5, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {resolution: '1080x1920', size: 5, technology: 'AMOLED'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/128 GB
 tree: android_device_google_sailfish

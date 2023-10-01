@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2525, tech: 'Li-Po'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 2525, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '8 MP'}
 codename: onyx
 cpu: Krait 400
 cpu_cores: '4'
@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-11
-screen: {size: 5, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {resolution: '1080x1920', size: 5, technology: 'AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB

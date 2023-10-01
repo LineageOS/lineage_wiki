@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: cherry
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -25,7 +25,7 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2014-10
-screen: {size: 5.5, resolution: '1280x720', technology: 'IPS+ LCD'}
+screen: {resolution: '1280x720', size: 5.5, technology: 'IPS+ LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB

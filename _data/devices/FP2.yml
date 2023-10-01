@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 2420, tech: 'Li-Ion'}
+battery: {capacity: 2420, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '5 MP'}
 codename: FP2
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 18.1
-dimensions: {width: 73, height: 143, depth: 11}
+dimensions: {depth: 11, height: 143, width: 73}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330
@@ -25,7 +25,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 recovery_partition_name: recovery
 release: 2015-12
-screen: {size: 5.1, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.1, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AB-AB Snapdragon 801
 storage: 32 GB

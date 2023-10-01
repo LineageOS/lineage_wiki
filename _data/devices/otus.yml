@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2390, tech: 'Li-Ion'}
+battery: {capacity: 2390, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '0.3 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '0.3 MP'}
 codename: otus
 cpu: Cortex-A7
 cpu_cores: '4'
@@ -11,8 +11,7 @@ cpu_freq: 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/showthread.php?t=3084849
 dimensions: None
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Qualcomm Adreno 302
 image: otus.png
 install_method: fastboot_motorola
@@ -23,12 +22,11 @@ name: moto e (2015)
 network: [2G GSM, 3G UMTS]
 peripherals: [Accelerometer, Proximity sensor]
 ram: 1 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2015-02-25
-screen: {size: 4.5, resolution: '540x960', technology: 'IPS LCD'}
+screen: {resolution: '540x960', size: 4.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8212 Snapdragon 200
 storage: 8 GB

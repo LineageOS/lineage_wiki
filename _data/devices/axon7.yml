@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3250, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 3250, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '20 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '20 MP'}
+  - {flash: None, info: '8 MP'}
 codename: axon7
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 15.1
 custom_recovery_link: 'https://androidfilehost.com/?w=files&flid=274875'
-dimensions: {width: 75, height: 151.7, depth: 7.9}
+dimensions: {depth: 7.9, height: 151.7, width: 75}
 download_boot: With the device powered off, hold <kbd>Power</kbd> and when the unlock warning appears use the volume buttons to navigate to the fastboot option.
 gpu: Qualcomm Adreno 530
 image: axon7.png
@@ -24,14 +24,14 @@ ram: 4 GB LPDDR4 (Standard edition) / 6 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-06
-screen: {size: 5.5, resolution: '2560x1440', technology: 'AMOLED'}
+screen: {resolution: '2560x1440', size: 5.5, technology: 'AMOLED'}
 sdcard: {sizeMax: '256 GB', slot: 'sim'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
 tree: android_device_zte_axon7
 type: phone
-uses_twrp: true
 unlock_bootloader_guide: 'https://forum.xda-developers.com/axon-7/how-to/guide-how-to-unlock-bootloader-stay-t3461165'
+uses_twrp: true
 vendor: ZTE
 vendor_short: zte
 versions: [14.1, 15.1]

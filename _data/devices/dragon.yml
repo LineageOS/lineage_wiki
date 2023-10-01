@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 9240, tech: 'Li-Po'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 9240, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: None, info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: None, info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: dragon
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 4 x 1.9 GHz
 current_branch: 15.1
-dimensions: {width: 179.0, height: 242.0, depth: 7.0}
+dimensions: {depth: 7.0, height: 242.0, width: 179.0}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: NVIDIA Maxwell 256-core
 image: dragon.png
@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2015-12-08
-screen: {size: 10.2, resolution: '2560x1800', technology: 'IPS LTPS LCD'}
+screen: {resolution: '2560x1800', size: 10.2, technology: 'IPS LTPS LCD'}
 soc: NVIDIA Tegra X1 (T210)
 storage: 32/64 GB
 tree: android_device_google_dragon
