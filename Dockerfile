@@ -8,4 +8,4 @@ RUN bundle install
 
 VOLUME /src
 EXPOSE 4000
-ENTRYPOINT bundle exec ruby test/validate.rb && bundle exec jekyll serve --host 0.0.0.0 --incremental
+ENTRYPOINT bundle exec ruby test/validate.rb && bundle exec yalphabetize _data/devices/*.yml && bundle exec jekyll serve --host 0.0.0.0 --incremental
