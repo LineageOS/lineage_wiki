@@ -23,6 +23,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-10
 required_bootloader: ['crackling-13-ge86e772']
 screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}

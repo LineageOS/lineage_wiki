@@ -26,6 +26,7 @@ quirks: [fde, ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition: /dev/block/bootdevice/by-name/recovery
+recovery_partition_name: recovery
 release: 2017-08
 screen: {size: 6, resolution: '2880x1440', technology: 'P-OLED'}
 sdcard: {sizeMax: '2 TB'}

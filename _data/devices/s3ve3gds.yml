@@ -25,6 +25,7 @@ quirks: [nfc]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
+recovery_partition_name: recovery
 release: 2014-04-11
 required_bootloader: ['I9300IDDUBQE2']
 screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}

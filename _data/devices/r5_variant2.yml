@@ -27,6 +27,7 @@ project_spectrum: "https://androidfilehost.com/?fid=962021903579484169"
 project_spectrum_recovery: "https://androidfilehost.com/?fid=889964283620757488"
 ram: 2 GB (R5), 3 GB (R5s)
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2015-08
 required_bootloader_link: "https://www.androidfilehost.com/?fid=24566382913912839"
 screen: {size: 5.2, resolution: '1080x1920', technology: 'AMOLED'}

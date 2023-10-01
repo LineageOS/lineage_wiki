@@ -1,13 +1,5 @@
 {% assign device = site.data.devices[page.device] %}
 
-{% if device.recovery_partition_name %}
-{% assign recovery_partition_name = device.recovery_partition_name %}
-{% elsif device.is_ab_device and device.has_recovery_partition != true %}
-{% assign recovery_partition_name = "boot" %}
-{% else %}
-{% assign recovery_partition_name = "recovery" %}
-{% endif %}
-
 {%- unless device.format_on_upgrade %}
 {% include alerts/note.html content="Following these instructions will **not** wipe your data. It is, however, recommended to save important data before doing so, anyway!" %}
 {%- endunless %}
@@ -25,7 +17,7 @@
 {%- elsif device.format_on_upgrade == "repartition" %}
 8. If your device has not yet been repartitioned, select "Advanced", then "Reboot to Bootloader".
     {% include alerts/note.html content="If you are uncertain if your device has been repartitioned, it likely has not!" %}
-9. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ recovery_partition_name }}.img`.
+9. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
 10. Now, use the volume buttons to select "Advanced", and then "Enable ADB".
 11. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
@@ -49,7 +41,7 @@ fastboot devices
 
 13. Flash a recovery on your device by typing:
 ```
-fastboot flash {{ recovery_partition_name }} {{ recovery_partition_name }}.img
+fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition_name }}.img
 ```
     {% include alerts/note.html content="Outdated fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must update `fastboot` to a release newer than or equal to `31.0.2`. Alternatively, you can manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
 14. Now reboot into recovery to verify the installation.

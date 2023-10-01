@@ -22,6 +22,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2014-01
 screen: {size: 6.1, resolution: '1280x720', technology: 'IPS+ LCD'}
 sdcard: {sizeMax: '64 GB'}

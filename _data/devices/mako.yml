@@ -23,6 +23,7 @@ peripherals: [GPS, Mobility DisplayPort (MyDP), Proximity sensor, NFC, Qi wirele
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2012-11-13
 screen: {size: 4.7, resolution: '1280x768', technology: 'IPS LCD'}

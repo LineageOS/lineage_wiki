@@ -26,6 +26,7 @@ peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Acceler
 quirks: [ims]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
+recovery_partition_name: recovery
 release: 2018-08-09
 screen: {size: 6.4, resolution: '2960x1440', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '400 GB'}

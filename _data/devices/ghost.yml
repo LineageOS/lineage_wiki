@@ -23,6 +23,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall effect sensor, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2013-08-23
 screen: {size: 4.7, resolution: '1280x720', technology: 'AMOLED'}

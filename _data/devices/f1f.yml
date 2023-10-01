@@ -24,6 +24,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, GLONASS, GPS, Gyroscope, 
 project_spectrum: "https://androidfilehost.com/?fid=1395089523397927064"
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2016-01
 screen: {size: 5, resolution: '720x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

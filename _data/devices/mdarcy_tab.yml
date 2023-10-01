@@ -23,6 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
   Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
   Tap the <kbd>Y button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>A button</kbd> to select this option.
+recovery_partition_name: recovery
 release: 2019-10-28
 screen: None
 soc: NVIDIA Tegra X1+ (T210b01)

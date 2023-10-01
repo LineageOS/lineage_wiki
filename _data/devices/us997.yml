@@ -26,6 +26,7 @@ peripherals: [Fingerprint reader, Accelerometer, Barometer, Gyroscope, Proximity
 quirks: [fde, ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_partition_name: recovery
 release: 2017-02
 screen: {size: 5.7, resolution: '2880x1440', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}

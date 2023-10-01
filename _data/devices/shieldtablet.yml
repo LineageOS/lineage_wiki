@@ -25,6 +25,7 @@ peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>,
   then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 release: 2014-07-29
 screen: {size: 8, resolution: '1920x1200', technology: 'IPS Retinal LCD'}
 sdcard: {sizeMax: '128 GB'}

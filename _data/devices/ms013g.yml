@@ -24,6 +24,7 @@ peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
+recovery_partition_name: recovery
 release: 2013-11-25
 required_bootloader: ['SM-G7102 = G7102DDSBQF1']
 screen: {size: 5.25, resolution: '1280x720', technology: 'TFT LCD'}
