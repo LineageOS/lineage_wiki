@@ -3,6 +3,7 @@
 require 'json'
 require 'json-schema'
 require 'yaml'
+require 'yalphabetize'
 
 
 def json_to_yaml(json)
@@ -90,6 +91,9 @@ install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
 
+# Suppress yalphabetize logger
+Yalphabetize::Logger::DEFAULT_OUTPUT = File.open(File::NULL, "w")
+
 Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
@@ -98,6 +102,11 @@ Dir.entries(device_dir).sort.each do |filename|
 
     if !device_json["maintainers"].empty? and device_json["uses_twrp"]
       puts to_relative_path(device_path) + ': uses_twrp cannot be used for a supported device'
+      at_exit { exit false }
+    end
+
+    if Yalphabetize::CLI.call([device_path])
+      puts to_relative_path(device_path) + ': is not sorted alphabetically, use yalphabetize -a'
       at_exit { exit false }
     end
 
