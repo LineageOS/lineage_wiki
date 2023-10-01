@@ -19,8 +19,4 @@
 
 {% include snippets/before_recovery_install.md %}
 
-{% if device.is_ab_device and device.has_recovery_partition != true %}
-{% include templates/recovery_install_fastboot_ab.md %}
-{% else %}
 {% include templates/recovery_install_fastboot_generic.md %}
-{% endif %}

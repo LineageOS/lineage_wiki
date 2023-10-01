@@ -23,6 +23,7 @@ peripherals: [Iceview Cases, Hall effect sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
   Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
+recovery_partition_name: recovery
 release: 2016-05
 screen: {size: 5.2, resolution: '1440x2560', technology: 'Super LCD'}
 sdcard: {sizeMax: '256 GB'}

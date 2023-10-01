@@ -26,6 +26,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-10-31
 screen: {size: 6.3, resolution: '1080x2520', technology: 'IPS LCD'}

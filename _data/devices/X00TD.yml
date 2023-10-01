@@ -24,6 +24,7 @@ peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS,
 ram: 3/4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
+recovery_partition_name: recovery
 release: 2018-05
 screen: {size: 5.99, resolution: '2160x1080', technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}

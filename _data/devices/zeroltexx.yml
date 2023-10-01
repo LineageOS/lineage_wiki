@@ -27,6 +27,7 @@ quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
   When the blue text appears, release the buttons.
+recovery_partition_name: recovery
 release: 2015-04
 screen: {size: 5.1, resolution: '2560x1440', technology: 'Super AMOLED'}
 soc: Samsung Exynos 7420

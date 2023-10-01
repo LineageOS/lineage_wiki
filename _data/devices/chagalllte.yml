@@ -24,6 +24,7 @@ peripherals: [ Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader ]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 required_bootloader: ['T805ZHU1CQB1']
 release: 2014
 screen: {size: 10.5, resolution: '2560x1600', technology: 'Super AMOLED'}

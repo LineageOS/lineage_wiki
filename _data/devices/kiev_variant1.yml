@@ -27,6 +27,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, FM radio, Galileo, GLONASS, Google Assist Button, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-05
 screen: {size: 6.7, resolution: '1080x2400', technology: 'IPS LTPS LCD'}

@@ -27,6 +27,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, GLONA
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   Release  <kbd>Power</kbd> after vibro and keep holding both buttons until the "Yandex" logo appears on the screen, then release.
+recovery_partition_name: boot
 release: 2018-12
 screen: {size: 5.65, resolution: '1080x2160', technology: 'IPS LCD'}
 soc: Qualcomm SDM630 Snapdragon 630

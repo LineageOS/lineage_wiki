@@ -26,6 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
   When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
+recovery_partition_name: recovery
 release: 2013-09-12
 root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
 screen: {size: 5.2, resolution: '1920x1080', technology: 'IPS LCD'}

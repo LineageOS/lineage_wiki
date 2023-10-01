@@ -24,6 +24,7 @@ peripherals: None
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
   Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 release: 2013-07-26
 screen: {size: 7, resolution: '1920x1200', technology: 'IPS LCD'}
 soc: Qualcomm MSM8960T Snapdragon S4 Pro

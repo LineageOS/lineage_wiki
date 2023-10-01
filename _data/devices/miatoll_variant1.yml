@@ -30,6 +30,7 @@ peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, FM r
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   When Xiaomi/POCO splash appears, release <kbd>Power</kbd> and keep pressed <kbd>Volume Up</kbd> until recovery appears.
+recovery_partition_name: recovery
 release: 2020-07-14
 screen: {size: 6.67, resolution: '1080x2400', technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}

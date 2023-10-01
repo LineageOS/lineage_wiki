@@ -24,6 +24,7 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2017-12
 screen: {size: 5.65, resolution: '1080x2160', technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}

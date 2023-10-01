@@ -24,6 +24,7 @@ no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, Barometer]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2012-05
 screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}

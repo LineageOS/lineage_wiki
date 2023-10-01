@@ -22,6 +22,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
 ram: 2/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
   On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
+recovery_partition_name: recovery
 release: 2015-03
 screen: {size: 5.5, resolution: '1080x1920', technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}

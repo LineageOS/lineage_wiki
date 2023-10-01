@@ -25,6 +25,7 @@ network: [2G CDMA, 3G CDMA2000, 4G LTE]
 peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2012-08-19
 screen: {size: 4.3, resolution: '540x960', technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB (microSD)'}

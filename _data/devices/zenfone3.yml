@@ -28,6 +28,7 @@ peripherals: [A-GPS, Accelerometer, Barometer, Light sensor, Compass, Dual SIM, 
   Gyroscope, Hall effect sensor, IR camera, Proximity sensor]
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
 release: 2016-05-30
 screen:
 - ZE520KL: {size: 5.2, resolution: '1080x1920', technology: 'Super IPS+ LCD'}

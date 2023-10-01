@@ -24,6 +24,7 @@ peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Th
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
  On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2014-09-26
 screen: {size: 5.2, resolution: '1080x1920', technology: 'AMOLED'}
