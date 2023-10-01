@@ -1,21 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4250, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13', ships_fw: True}
+battery: {capacity: 4250, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'Dual LED', info: '64 MP'}
-- {flash: 'Dual LED', info: '8 MP (ultrawide)'}
-- {flash: 'Dual LED', info: '5 MP (telemacro)'}
-- {flash: None, info: '20 MP'}
+  - {flash: 'Dual LED', info: '64 MP'}
+  - {flash: 'Dual LED', info: '8 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '5 MP (telemacro)'}
+  - {flash: None, info: '20 MP'}
 codename: renoir
 cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 2.4 GHz
 current_branch: 20
-dimensions: {width: 75.73, height: 160.53, depth: 6.81}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 6.81, height: 160.53, width: 75.73}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 642
 image: renoir.png
 install_method: fastboot_xiaomi
@@ -27,11 +26,10 @@ name: Mi 11 Lite 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, Infrared sensor, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: boot
 release: 2021-03
-screen: {size: 6.67, resolution: '1080x2400', technology: 'AMOLED', refresh_rate: 90}
+screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM7350-AB Snapdragon 780G 5G
 storage: 128 GB

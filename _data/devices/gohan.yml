@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 3100, tech: 'Li-Po'}
+battery: {capacity: 3100, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '16 MP'}
+  - {flash: None, info: '8 MP'}
 codename: gohan
 cpu: Cortex-A72
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 14.1
-dimensions: {width: 70, height: 145, depth: 7.7}
+dimensions: {depth: 7.7, height: 145, width: 70}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 510
 image: gohan.png
@@ -23,7 +23,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016
-screen: {size: 5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 16/32 GB

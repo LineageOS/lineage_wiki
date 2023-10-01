@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2100, tech: 'Li-Ion'}
+battery: {capacity: 2100, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.9 MP'}
 carrier: AT&T, Bell, Rogers, Telus
 codename: d2att
 cpu: Krait
@@ -27,7 +27,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2012-06-28
-screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {resolution: '1280x720', size: 4.8, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm MSM8960 Snapdragon S4 Plus
 storage: 16 GB

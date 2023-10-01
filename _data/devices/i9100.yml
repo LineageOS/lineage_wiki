@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: True, capacity: 1650, tech: 'Li-Ion'}
+battery: {capacity: 1650, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: 3.0 + HS}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.9 MP'}
 codename: i9100
 cpu: Cortex-A9
 cpu_cores: '2'
@@ -25,7 +25,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2011-02-11
-screen: {size: 4.3, resolution: '800x480', technology: 'Super AMOLED'}
+screen: {resolution: '800x480', size: 4.3, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '32 GB'}
 soc: Samsung Exynos 4210
 storage: 16/32 GB

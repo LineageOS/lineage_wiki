@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 4600, tech: 'Li-Ion'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 4600, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '1.3 MP'}
 codename: n5120
 cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: {width: 135.9, height: 210.8, depth: 8.0}
+dimensions: {depth: 8.0, height: 210.8, width: 135.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: n5100.png
@@ -26,7 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.
 recovery_partition_name: recovery
 release: 2013-04
-screen: {size: 8, resolution: '1280x800', technology: 'TFT LCD'}
+screen: {resolution: '1280x800', size: 8, technology: 'TFT LCD'}
 sdcard: {sizeMax: '64 GB (microSD)'}
 soc: Samsung Exynos 4412
 storage: 16/32 GB

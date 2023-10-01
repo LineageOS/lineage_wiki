@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 3000, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '5'}
 cameras:
-- {flash: 'LED', info: '48 MP'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: None, info: '16 MP'}
 codename: FP3
 cpu: Kryo 250
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 20
-dimensions: {width: 71.8, height: 158, depth: 9.89}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
- Release when boot logo appears.
+dimensions: {depth: 9.89, height: 158, width: 71.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 gpu: Qualcomm Adreno 506
 image: FP3.png
 install_method: fastboot_fairphone
@@ -22,11 +21,10 @@ name: '3+'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS, Galileo, GLONASS, Light sensor, RGB ambient light, Dual SIM]
 ram: 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Release when boot logo appears.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 recovery_partition_name: boot
 release: 2019-09
-screen: {size: 5.65, resolution: '2160x1080', technology: 'IPS LCD'}
+screen: {resolution: '2160x1080', size: 5.65, technology: 'IPS LCD'}
 sdcard: {sizeMax: '400 GB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 64 GB

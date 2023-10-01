@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 3600, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX]}
+battery: {capacity: 3600, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '5 MP'}
 codename: hero2lte
 cpu: Exynos M1 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.3 GHz + 4 x 1.6 GHz
 current_branch: 14.1
-dimensions: {width: 72.6, height: 150.9, depth: 7.7}
+dimensions: {depth: 7.7, height: 150.9, width: 72.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T880 MP12
 image: hero2lte.png
@@ -19,14 +19,13 @@ maintainers: []
 models: [SM-G935F, SM-G935FD, SM-G935S, SM-G935K, SM-G935L, SM-G935W8]
 name: Galaxy S7 Edge
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor,
-  Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light]
 quirks: [ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2016-03-18
-screen: {size: 5.5, resolution: '2560x1440', technology: 'Super AMOLED'}
+screen: {resolution: '2560x1440', size: 5.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos 8890
 storage: 32/64 GB

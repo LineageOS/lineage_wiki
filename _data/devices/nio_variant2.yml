@@ -1,21 +1,21 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'Dual LED', info: '64 MP (wide)'}
-- {flash: None, info: '16 MP (ultrawide)'}
-- {flash: None, info: '2 MP (depth)'}
-- {flash: None, info: '0.3 MP (TOF 3D)'}
-- {flash: None, info: '16 MP (wide)'}
-- {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '64 MP (wide)'}
+  - {flash: None, info: '16 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (depth)'}
+  - {flash: None, info: '0.3 MP (TOF 3D)'}
+  - {flash: None, info: '16 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
 codename: nio
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 74, height: 168.4, depth: 9.7}
+dimensions: {depth: 9.7, height: 168.4, width: 74}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 650
 image: nio.png
@@ -32,7 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-02
-screen: {size: 6.7, resolution: '1080x2520', technology: 'IPS LCD'}
+screen: {resolution: '1080x2520', size: 6.7, technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB UFS 3.1

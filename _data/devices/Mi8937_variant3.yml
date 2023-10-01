@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
+battery: {capacity: 4100, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP (Rear)'}
-- {flash: None, info: '5 MP (Front)'}
+  - {flash: 'LED', info: '13 MP (Rear)'}
+  - {flash: None, info: '5 MP (Front)'}
 codename: Mi8937
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.4 GHz & 4 x 1.1 GHz
 current_branch: 20
-dimensions: {width: 69.96, height: 139.24, depth: 8.65}
+dimensions: {depth: 8.65, height: 139.24, width: 69.96}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 505
 image: santoni.png
@@ -22,11 +22,10 @@ name: Redmi 4 (India)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG, IR blaster, Fingerprint reader]
 ram: 2 / 3 / 4 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the screen lights up, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the screen lights up, release the buttons.
 recovery_partition_name: recovery
 release: 2017-02-28
-screen: {size: 5, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8940 Snapdragon 435
 storage: 16 / 32 / 64 GB

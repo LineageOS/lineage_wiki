@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: 'Dual LED', info: '12 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: 'Dual LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
 codename: cheryl
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 77.7, height: 158.5, depth: 8}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable.
-  Keep holding until the word "Download" appears on the screen, then release.
+dimensions: {depth: 8, height: 158.5, width: 77.7}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable. Keep holding until the word "Download" appears on the screen, then release.
 gpu: Qualcomm Adreno 540
 image: cheryl.png
 install_method: fastboot_nexus
@@ -23,11 +22,10 @@ name: 'Phone'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then insert a USB cable.
-  Keep holding until the "Razer" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then insert a USB cable. Keep holding until the "Razer" logo appears on the screen, then release.
 recovery_partition_name: boot
 release: 2017-11
-screen: {size: 5.7, resolution: '1440x2560', technology: 'IPS LCD', refresh_rate: 120}
+screen: {refresh_rate: 120, resolution: '1440x2560', size: 5.7, technology: 'IPS LCD'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB
 tree: android_device_razer_cheryl

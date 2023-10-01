@@ -1,23 +1,22 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-- {device: 'Mi 8 Pro China', firmware: 'V12.5.2.0.QECCNXM', download_link: 'https://bigota.d.miui.com/V12.5.2.0.QECCNXM/miui_MI8UD_V12.5.2.0.QECCNXM_c300f2cfad_10.0.zip'}
-- {device: 'Mi 8 Pro Global', firmware: 'V12.0.2.0.QECMIXM', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECMIXM/miui_MI8UDGlobal_V12.0.2.0.QECMIXM_1bea455dd7_10.0.zip'}
-- {device: 'Mi 8 Pro Russia', firmware: 'V12.0.2.0.QECRUXM', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.2.0.QECRUXM_3d07155d93_10.0.zip'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+  - {device: 'Mi 8 Pro China', download_link: 'https://bigota.d.miui.com/V12.5.2.0.QECCNXM/miui_MI8UD_V12.5.2.0.QECCNXM_c300f2cfad_10.0.zip', firmware: 'V12.5.2.0.QECCNXM'}
+  - {device: 'Mi 8 Pro Global', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECMIXM/miui_MI8UDGlobal_V12.0.2.0.QECMIXM_1bea455dd7_10.0.zip', firmware: 'V12.0.2.0.QECMIXM'}
+  - {device: 'Mi 8 Pro Russia', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.2.0.QECRUXM_3d07155d93_10.0.zip', firmware: 'V12.0.2.0.QECRUXM'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '20 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '20 MP'}
 codename: equuleus
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 74.8, height: 154.9, depth: 7.6}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.6, height: 154.9, width: 74.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sdm845
 gpu: Qualcomm Adreno 630
 image: equuleus.png
@@ -28,11 +27,10 @@ name: Mi 8 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Barometer, Gyroscope, Hall effect sensor, Light sensor, Proximity sensor, Compass, Dual-frequency GNSS, IR camera]
 ram: 6/8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-09
-screen: {size: 6.21, resolution: '1080x2248', technology: 'AMOLED'}
+screen: {resolution: '1080x2248', size: 6.21, technology: 'AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 128 GB UFS2.1
 tree: android_device_xiaomi_equuleus

@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 2100, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED', info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'Dual LED', info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: peach
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: {width: 73, height: 145.5, depth: 9}
+dimensions: {depth: 9, height: 145.5, width: 73}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: peach.png
@@ -23,7 +23,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-07
-screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {resolution: '1280x720', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB

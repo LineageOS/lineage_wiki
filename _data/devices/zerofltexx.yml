@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 2550, tech: 'Li-Ion'}
+battery: {capacity: 2550, removable: False, tech: 'Li-Ion'}
 bluetooth: {spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: None, info: '5 MP'}
 codename: zerofltexx
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
 current_branch: 14.1
-dimensions: {width: 70.5, height: 143.4, depth: 6.8}
+dimensions: {depth: 6.8, height: 143.4, width: 70.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP8
 image: zerofltexx.png
@@ -20,16 +20,13 @@ models: [SM-G920F]
 name: Galaxy S6
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer,
-  Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor,
-  RGB ambient light, Infrared sensor, GPS, NFC]
+peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, Infrared sensor, GPS, NFC]
 quirks: [ims]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
-  When the blue text appears, release the buttons.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery
 release: 2015-04
-screen: {size: 5.1, resolution: '2560x1440', technology: 'Super AMOLED'}
+screen: {resolution: '2560x1440', size: 5.1, technology: 'Super AMOLED'}
 soc: Samsung Exynos 7420
 storage: 32/64/128 GB
 tree: android_device_samsung_zerofltexx

@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: False, capacity: 2370, tech: 'Li-Ion'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 2370, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '0.3 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '0.3 MP'}
 codename: huashan
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.7 GHz
 current_branch: 15.1
-dimensions: {width: 68, height: 133, depth: 10.6}
+dimensions: {depth: 10.6, height: 133, width: 68}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 320
 image: huashan.png
@@ -24,7 +24,7 @@ ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot
 release: 2013-04
-screen: {size: 4.6, resolution: '720x1280', technology: 'TFT LCD'}
+screen: {resolution: '720x1280', size: 4.6, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8960T Snapdragon S4 Pro
 storage: 8 GB

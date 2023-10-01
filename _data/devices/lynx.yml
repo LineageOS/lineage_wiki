@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 4385, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '13.0', ships_fw: True}
+battery: {capacity: 4385, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13.0'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
-bluetooth: {spec: '5.3', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: None, info: '13 MP (ultrawide)'}
-- {flash: None, info: '13 MP (front)'}
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: None, info: '13 MP (ultrawide)'}
+  - {flash: None, info: '13 MP (front)'}
 codename: lynx
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 72.9, height: 152, depth: 9}
+dimensions: {depth: 9, height: 152, width: 72.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MP7
 image: lynx.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2023-05
-screen: {size: 6.1, resolution: '1080x2400', technology: 'OLED', refresh_rate: 90}
+screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.1, technology: 'OLED'}
 soc: Google Tensor GS201
 storage: 128 GB
 tree: android_device_google_lynx

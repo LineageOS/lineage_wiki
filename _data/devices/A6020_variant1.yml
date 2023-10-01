@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 2750, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 2750, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: A6020
 cpu: Cortex-A53 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
 custom_recovery_link: https://forum.xda-developers.com/vibe-k5/development/recovery-twrp-3-0-2-0-lenovo-vibe-k5-t3391100/
-dimensions: {width: 71, height: 142, depth: 8}
+dimensions: {depth: 8, height: 142, width: 71}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: A6020.png
@@ -25,7 +25,7 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-04
-screen: {size: 5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB', slot: 'dedicated'}
 soc: Qualcomm MSM8929 Snapdragon 415
 storage: 16 GB

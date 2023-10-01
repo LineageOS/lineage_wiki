@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '40 MP'}
-- {flash: 'LED', info: '20 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '40 MP'}
+  - {flash: 'LED', info: '20 MP'}
+  - {flash: None, info: '8 MP'}
 codename: charlotte
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
 current_branch: 16.0
-dimensions: {width: 73.9, height: 155, depth: 7.8}
+dimensions: {depth: 7.8, height: 155, width: 73.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP12
 image: charlotte.png
@@ -26,7 +26,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2018-04
-screen: {size: 6.1, resolution: '1080x2240', technology: 'AMOLED'}
+screen: {resolution: '1080x2240', size: 6.1, technology: 'AMOLED'}
 soc: HiSilicon Kirin 970
 storage: 128/256 GB
 tree: android_device_huawei_charlotte

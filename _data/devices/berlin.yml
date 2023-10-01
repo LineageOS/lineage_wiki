@@ -1,20 +1,20 @@
 architecture: arm64
-battery: {removable: False, capacity: 4000 , tech: 'Li-Po'}
+battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '108 MP'}
-- {flash: None, info: '8 MP (telephoto)'}
-- {flash: None, info: '16 MP (ultrawide)'}
-- {flash: None, info: '32 MP (wide)'}
+  - {flash: 'LED', info: '108 MP'}
+  - {flash: None, info: '8 MP (telephoto)'}
+  - {flash: None, info: '16 MP (ultrawide)'}
+  - {flash: None, info: '32 MP (wide)'}
 codename: berlin
 cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 76, height: 163, depth: 7}
+dimensions: {depth: 7, height: 163, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 642L
 image: berlin.png
@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-07-29
-screen: {size: 6.7, resolution: '1080x2400', technology: 'OLED'}
+screen: {resolution: '1080x2400', size: 6.7, technology: 'OLED'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 128 GB UFS 2.2
 tree: android_device_motorola_berlin

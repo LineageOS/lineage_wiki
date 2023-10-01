@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 7040, tech: 'Li-Po'}
+battery: {capacity: 7040, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
 before_recovery_install: samsung_qcom
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: None, info: '13 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: None, info: '13 MP'}
+  - {flash: None, info: '8 MP'}
 codename: gts4lv
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz & 6 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 160, height: 245, depth: 5.5}
+dimensions: {depth: 5.5, height: 245, width: 160}
 download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_samsung_gts4lv
 gpu: Qualcomm Adreno 615
@@ -28,7 +28,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2019
-screen: {size: 10.5, resolution: '1600x2560', technology: 'Super AMOLED'}
+screen: {resolution: '1600x2560', size: 10.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '512 GB'}
 soc: Qualcomm SDM670 Snapdragon 670
 storage: 64/128 GB

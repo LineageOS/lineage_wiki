@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3450, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 3450, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12.3 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12.3 MP'}
+  - {flash: None, info: '8 MP'}
 codename: angler
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 1.55 GHz & 2.0 GHz
 current_branch: 15.1
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 77.8, height: 159.3, depth: 7.3}
+dimensions: {depth: 7.3, height: 159.3, width: 77.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 430
 image: angler.png
@@ -24,7 +24,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.
 recovery_partition_name: recovery
 release: 2015-09-29
-screen: {size: 5.7, resolution: '1440x2560', technology: 'AMOLED'}
+screen: {resolution: '1440x2560', size: 5.7, technology: 'AMOLED'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32/64/128 GB
 tree: android_device_huawei_angler

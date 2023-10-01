@@ -1,15 +1,15 @@
 architecture: arm
-battery: {removable: True, capacity: 3100, tech: 'Li-Ion'}
+battery: {capacity: 3100, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.9 MP'}
 codename: t0lte
 cpu: Cortex-A9
 cpu_cores: '4'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: {width: 80.50, height: 151.10, depth: 9.40}
+dimensions: {depth: 9.40, height: 151.10, width: 80.50}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: t0lte.png
@@ -26,7 +26,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2012-09
-screen: {size: 5.5, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {resolution: '1280x720', size: 5.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos 4412
 storage: 16/32/64 GB

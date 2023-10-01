@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: None, info: '8 MP'}
 codename: PL2
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.8, height: 148.8, depth: 8.2}
+dimensions: {depth: 8.2, height: 148.8, width: 75.8}
 download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508
 image: PL2.png
@@ -22,12 +22,10 @@ name: '6.1 (2018)'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS]
 ram: 3/4 GB LPDDR4X
-recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep
- holding <kbd>Volume Up</kbd>.
+recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep holding <kbd>Volume Up</kbd>.
 recovery_partition_name: boot
 release: 2018
-screen: {size: 5.46, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5.46, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64 GB

@@ -1,17 +1,17 @@
 architecture: arm
-battery: {removable: False, capacity: 2600, tech: 'Li-Ion'}
+battery: {capacity: 2600, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'shinano'}
 before_recovery_install: shinano
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
+bluetooth: {profiles: [A2DP + aptX], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '20.7 MP'}
-- {flash: None, info: '2.2 MP'}
+  - {flash: 'LED', info: '20.7 MP'}
+  - {flash: None, info: '2.2 MP'}
 codename: z3c
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 18.1
-dimensions: {width: 64.9, height: 127.3, depth: 8.6}
+dimensions: {depth: 8.6, height: 127.3, width: 64.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330
@@ -24,11 +24,10 @@ name: Xperia Z3 Compact
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, Light sensor, MHL, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
- Keep holding both buttons until the device vibrates, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the device vibrates, then release.
 recovery_partition_name: recovery
 release: 2014-09-04
-screen: {size: 4.6, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {resolution: '1280x720', size: 4.6, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB

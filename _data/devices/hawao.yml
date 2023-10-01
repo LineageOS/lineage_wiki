@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000 , tech: 'Li-Po'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {spec: '5.2', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5.2'}
 cameras:
-- {flash: 'LED', info: '50 MP (Primary)'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '2 MP (depth)'}
-- {flash: None, info: '16 MP (Front Facing)'}
+  - {flash: 'LED', info: '50 MP (Primary)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (depth)'}
+  - {flash: None, info: '16 MP (Front Facing)'}
 codename: hawao
 cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.4 GHz & 4 x 1.9 GHz
 current_branch: 20
-dimensions: {width: 73.5, height: 160.4, depth: 8}
+dimensions: {depth: 8, height: 160.4, width: 73.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 image: hawao.png
@@ -30,7 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2022-06
-screen: {size: 6.4, resolution: '1080x2400', technology: 'AMOLED'}
+screen: {resolution: '1080x2400', size: 6.4, technology: 'AMOLED'}
 sdcard: {sizeMax: '1 TB'}
 soc: Qualcomm SM6225 Snapdragon 680 4G
 storage: 64/128 GB UFS 2.2

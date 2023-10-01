@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 2700, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+battery: {capacity: 2700, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED', info: '12.2 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '12.2 MP'}
+  - {flash: None, info: '8 MP'}
 codename: walleye
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 69.7, height: 145.7, depth: 7.8}
+dimensions: {depth: 7.8, height: 145.7, width: 69.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
 image: walleye.png
@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2017-10
-screen: {size: 5, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {resolution: '1080x1920', size: 5, technology: 'AMOLED'}
 soc: Qualcomm SDM835 Snapdragon 835
 storage: 64/128 GB
 tree: android_device_google_muskie

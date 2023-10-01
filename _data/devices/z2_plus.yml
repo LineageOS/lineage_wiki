@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+battery: {capacity: 3500, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '8'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '8 MP'}
 codename: z2_plus
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
-dimensions: {width: 68.9, height: 141.7, depth: 8.5}
-download_boot: With the device powered off, hold <kbd>Power</kbd>.
-  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
+dimensions: {depth: 8.5, height: 141.7, width: 68.9}
+download_boot: With the device powered off, hold <kbd>Power</kbd>. Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
 format_on_upgrade: 20
 gpu: Qualcomm Adreno 530
 image: z2_plus.png
@@ -24,11 +23,10 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS]
 quirks: [fde]
 ram: 3 GB LPDDR4 / 4 GB LPDDR4
-recovery_boot: With the device powered off, hold <kbd>Power</kbd>.
-  Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on recovery and <kbd>Power</kbd> to choose.
+recovery_boot: With the device powered off, hold <kbd>Power</kbd>. Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on recovery and <kbd>Power</kbd> to choose.
 recovery_partition_name: recovery
 release: 2016-06
-screen: {size: 5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5, technology: 'IPS LCD'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 / 64 GB
 tree: android_device_zuk_z2_plus

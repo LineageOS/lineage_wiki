@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2300, tech: 'Li-Po'}
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+battery: {capacity: 2300, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '2 MP'}
 codename: victara
 cpu: Krait 400
 cpu_cores: '4'
@@ -22,12 +22,11 @@ name: moto x (2014)
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Thermometer]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
- On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Volume Up</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to Recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2014-09-26
-screen: {size: 5.2, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {resolution: '1080x1920', size: 5.2, technology: 'AMOLED'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_motorola_victara

@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '8.0'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: None, info: '16 MP'}
 codename: a5y17lte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.9 GHz
 current_branch: 18.1
-dimensions: {width: 71.4, height: 146.1, depth: 7.9}
+dimensions: {depth: 7.9, height: 146.1, width: 71.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
 image: a5y17lte.png
@@ -20,15 +20,13 @@ maintainers: [filiprrs]
 models: [SM-A520F, SM-A520F/DS, SM-A520K, SM-A520L, SM-A520S, SM-A520W]
 name: Galaxy A5 (2017)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS,
-    GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light,
-    Sensor hub, USB OTG]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gesture sensor, Gyroscope, NFC, Pedometer, Proximity sensor, RGB ambient light, Sensor hub, USB OTG]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2017-01-02
-screen: {size: 5.2, resolution: '1920x1080', technology: 'Super AMOLED'}
+screen: {resolution: '1920x1080', size: 5.2, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos 7880
 storage: 32/64 GB
