@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 2200, tech: 'Li-Po'}
+battery: {capacity: 2200, removable: True, tech: 'Li-Po'}
 before_lineage_install: wt88047
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: wt88047
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 17.1
-dimensions: {width: 67.2, height: 134, depth: 9.4}
+dimensions: {depth: 9.4, height: 134, width: 67.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: wt88047.png
@@ -24,7 +24,7 @@ ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-01
-screen: {size: 4.7, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 4.7, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB

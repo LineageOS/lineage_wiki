@@ -1,17 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4850, tech: 'Li-Ion'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 4850, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: None, info: '5 MP'}
 codename: hydrogen
 cpu: Cortex-A53 & Cortex-A72
 cpu_cores: '6'
 cpu_freq: 4 x 1.4 GHz & 2 x 1.8 GHz
 current_branch: 14.1
-dimensions: {width: 88.3, height: 173.1, depth: 7.5}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 7.5, height: 173.1, width: 88.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 510
 image: hydrogen.png
 install_method: fastboot_xiaomi
@@ -21,11 +20,10 @@ name: Mi Max
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Infrared sensor, FM radio]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2016-05
-screen: {size: 6.44, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 6.44, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8956 Snapdragon 650
 storage: 32/64 GB

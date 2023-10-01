@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 3000 , tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '9'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '12 MP'}
-- {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
-- {flash: 'Dual LED (dual tone)', info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (monochromatic)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP'}
 codename: payton
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
 current_branch: 20
-dimensions: {width: 73.4, height: 148.4, depth: 8.0}
+dimensions: {depth: 8.0, height: 148.4, width: 73.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508
 image: payton.png
@@ -23,14 +23,13 @@ maintainers: [erfanoabdi, ThEMarD, electimon]
 models: [XT1900-1, XT1900-2, XT1900-3, XT1900-4, XT1900-5, XT1900-6, XT1900-7]
 name: moto x4
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC,
-  Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
 ram: 3/4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2017-10
-screen: {size: 5.2, resolution: '1080x1920', technology: 'IPS LTPS LCD'}
+screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64/128 GB

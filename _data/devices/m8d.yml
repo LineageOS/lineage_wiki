@@ -1,18 +1,17 @@
 architecture: arm
-battery: {removable: False, capacity: 2600, tech: 'Li-Po'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 2600, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '4 MP (dual)'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'LED', info: '4 MP (dual)'}
+  - {flash: None, info: '5 MP'}
 codename: m8d
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 17.1
 custom_recovery_codename: m8
-dimensions: {width: 70.6, height: 146.36, depth: 9.35}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
+dimensions: {depth: 9.35, height: 146.36, width: 70.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "FASTBOOT" and press <kbd>Power</kbd> to select.
 gpu: Qualcomm Adreno 320
 image: m8.png
 install_method: fastboot_htc
@@ -22,11 +21,10 @@ name: One (M8) Dual SIM
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, NFC, IR blaster]
 ram: 2 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons.
-  Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery
 release: 2014-06
-screen: {size: 4.7, resolution: '1080x1920', technology: 'Super LCD'}
+screen: {resolution: '1080x1920', size: 4.7, technology: 'Super LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AB Snapdragon 801
 storage: 16 GB

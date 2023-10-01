@@ -1,18 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Po'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: 'LED', info: '8 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: 'LED', info: '8 MP'}
 codename: X00TD
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 20
-dimensions: {width: 76, height: 159, depth: 8.5}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.5, height: 159, width: 76}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 509
 image: X00TD.png
 install_method: fastboot_zenfone
@@ -22,11 +21,10 @@ name: Zenfone Max Pro M1
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Proximity sensor, Compass, GPS, FM radio]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2018-05
-screen: {size: 5.99, resolution: '2160x1080', technology: 'IPS LCD'}
+screen: {resolution: '2160x1080', size: 5.99, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 32/64 GB

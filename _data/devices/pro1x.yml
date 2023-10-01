@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 3200, tech: 'Li-Po'}
-before_install:  {instructions: 'fxtec'}
+battery: {capacity: 3200, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'fxtec'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
-bluetooth: {spec: '5.1', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: 'LED', info: '5 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '5 MP'}
+  - {flash: None, info: '8 MP'}
 codename: pro1x
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {width: 73.6, height: 154, depth: 13.98}
+dimensions: {depth: 13.98, height: 154, width: 73.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
 has_recovery_partition: true
@@ -30,7 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2022-12
-screen: {size: 5.99, resolution: '1080x2160', technology: 'AMOLED'}
+screen: {resolution: '1080x2160', size: 5.99, technology: 'AMOLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 128 GB UFS 2.1 2-LANE

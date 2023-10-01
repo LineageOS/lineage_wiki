@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4070, tech: 'Li-Po'}
-bluetooth: {spec: '4.2', profiles: [A2DP]}
+battery: {capacity: 4070, removable: False, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: None, info: '8 MP'}
 codename: zl1
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz + 2 x 1.6 GHz
 current_branch: 18.1
 custom_unlock_cmd: 'fastboot oem unlock-go'
-dimensions: {width: 73.9, height: 151.4, depth: 7.5}
+dimensions: {depth: 7.5, height: 151.4, width: 73.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 530
 image: zl1.png
@@ -25,7 +25,7 @@ ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2016-10
-screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.5, technology: 'IPS LCD'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32/64/128 GB
 tree: android_device_leeco_zl1

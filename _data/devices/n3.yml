@@ -1,14 +1,14 @@
 architecture: arm
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '16 MP'}
+  - {flash: 'Dual LED', info: '16 MP'}
 codename: n3
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.3 GHz
 current_branch: 14.1
-dimensions: {width: 77, height: 161.2, depth: 8.7}
+dimensions: {depth: 8.7, height: 161.2, width: 77}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 330
 image: n3.png
@@ -23,7 +23,7 @@ ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-01
-screen: {size: 5.5, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 32 GB

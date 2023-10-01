@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: False, capacity: 2000, tech: 'Li-Po'}
+battery: {capacity: 2000, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: None, info: '8 MP'}
-- {flash: None, info: '2 MP'}
+  - {flash: None, info: '8 MP'}
+  - {flash: None, info: '2 MP'}
 codename: jalebi
 cpu: Cortex-A53
 cpu_cores: '4'
@@ -11,8 +11,7 @@ cpu_freq: 1.2 Ghz
 current_branch: 14.1
 custom_recovery_link: https://androidfilehost.com/?fid=889964283620777296
 dimensions: None
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
- Then select "reboot to bootloader".
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Then select "reboot to bootloader".
 gpu: Qualcomm Adreno 306
 image: jalebi.png
 install_method: fastboot_nexus
@@ -25,7 +24,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-09
-screen: {size: 4.7, resolution: '720x1280', technology: 'IPS LCD'}
+screen: {resolution: '720x1280', size: 4.7, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB

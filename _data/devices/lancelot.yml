@@ -1,20 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5020, tech: 'Li-Po'}
+battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '13 MP (wide)'}
-- {flash: None, info: '8 MP (ultrawide)'}
-- {flash: None, info: '5 MP (macro)'}
-- {flash: None, info: '2 MP (depth)'}
+  - {flash: 'LED', info: '13 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '2 MP (depth)'}
 codename: lancelot
 cpu: Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 77, height: 163.3, depth: 9.1}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 9.1, height: 163.3, width: 77}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: ARM Mali-G52 MC2
 image: lancelot.png
 install_method: fastboot_xiaomi
@@ -24,11 +23,10 @@ name: Redmi 9
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Light sensor, Proximity sensor, Compass, GPS, Galileo, GLONASS]
 ram: 3/4/6 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2020-06
-screen: {size: 6.53, resolution: '1080x2340', technology: 'IPS LCD'}
+screen: {resolution: '1080x2340', size: 6.53, technology: 'IPS LCD'}
 soc: Mediatek MT6768 Helio G85
 storage: 32/64/128 GB
 tree: android_device_xiaomi_lancelot

@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 3500, tech: 'Li-Po'}
+battery: {capacity: 3500, removable: False, tech: 'Li-Po'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vbmeta, dtbo]}
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'LED', info: '12 MP'}
-- {flash: None, info: '16 MP'}
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '12 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '16 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '12 MP'}
 codename: troika
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
 current_branch: 20
-dimensions: {width: 71.2, height: 160.1, depth: 9.2}
+dimensions: {depth: 9.2, height: 160.1, width: 71.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP3
 image: troika.png
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-10-31
-screen: {size: 6.3, resolution: '1080x2520', technology: 'IPS LCD'}
+screen: {resolution: '1080x2520', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '512 GB'}
 soc: Samsung Exynos 9609
 storage: 128 GB

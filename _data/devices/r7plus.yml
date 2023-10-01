@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: False, capacity: 4100, tech: 'Li-Po'}
+battery: {capacity: 4100, removable: False, tech: 'Li-Po'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '8 MP'}
 codename: r7plus
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz and 1.0 GHz
 current_branch: 16.0
 custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922694
-dimensions: {width: 82, height: 158, depth: 7.8}
+dimensions: {depth: 7.8, height: 158, width: 82}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 16.0
 gpu: Qualcomm Adreno 405
@@ -26,7 +26,7 @@ ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-05
-screen: {size: 6, resolution: '1080x1920', technology: 'AMOLED'}
+screen: {resolution: '1080x1920', size: 6, technology: 'AMOLED'}
 sdcard: {sizeMax: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 32/64 GB

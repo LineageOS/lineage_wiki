@@ -1,15 +1,15 @@
 architecture: arm64
-battery: {removable: False, capacity: 2930, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP + aptX]}
+battery: {capacity: 2930, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '20.7 MP'}
-- {flash: None, info: '5.1 MP'}
+  - {flash: 'LED', info: '20.7 MP'}
+  - {flash: None, info: '5.1 MP'}
 codename: ivy
 cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 Ghz + 4 x 1.5 Ghz
 current_branch: 14.1
-dimensions: {width: 72, height: 146, depth: 6.9}
+dimensions: {depth: 6.9, height: 146, width: 72}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 430
 image: ivy.png
@@ -23,7 +23,7 @@ ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-06
-screen: {size: 5.2, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.2, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB

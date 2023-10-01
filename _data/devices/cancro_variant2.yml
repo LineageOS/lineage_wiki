@@ -1,17 +1,16 @@
 architecture: arm
-battery: {removable: False, capacity: 3080, tech: 'Li-Ion'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 3080, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '7.99 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '7.99 MP'}
 codename: cancro
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 14.1
-dimensions: {width: 68.5, height: 139.2, depth: 8.9}
-download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+dimensions: {depth: 8.9, height: 139.2, width: 68.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 330
 image: cancro.png
 install_method: fastboot_xiaomi
@@ -22,11 +21,10 @@ network: [2G GSM, 2G CDMA, 3G UMTS]
 no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-  Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
 release: 2014-08
-screen: {size: 5, resolution: '1080x1920', technology: 'IPS LCD'}
+screen: {resolution: '1080x1920', size: 5, technology: 'IPS LCD'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/64 GB
 tree: android_device_xiaomi_cancro

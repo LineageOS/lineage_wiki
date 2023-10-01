@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: True, capacity: 3200, tech: 'Li-Ion'}
+battery: {capacity: 3200, removable: True, tech: 'Li-Ion'}
 before_install: {instructions: 'us996', version: '7.0'}
-bluetooth: {spec: '4.2', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
-- {flash: 'LED', info: '16 MP'}
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '8 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '8 MP'}
 carrier: Unlocked (US)
 codename: us996d
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
-dimensions: {width: 78.1, height: 159.7, depth: 7.6}
+dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable.
 format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
@@ -29,7 +29,7 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition_name: recovery
 release: 2016-10
-screen: {size: 5.7, resolution: '2560x1440', technology: 'IPS LCD'}
+screen: {resolution: '2560x1440', size: 5.7, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB

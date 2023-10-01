@@ -1,15 +1,15 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
-battery: {removable: True, capacity: 3000, tech: 'Li-Ion'}
-bluetooth: {spec: '4.1', profiles: [A2DP]}
+battery: {capacity: 3000, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: 'LED', info: '5 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '5 MP'}
 codename: j7elte
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 17.1
-dimensions: {width: 78.7, height: 152.2, depth: 7.5}
+dimensions: {depth: 7.5, height: 152.2, width: 78.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
 image: j7elte.png
@@ -25,7 +25,7 @@ ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2015-06
-screen: {size: 5.5, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {resolution: '1280x720', size: 5.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '256 GB'}
 soc: Samsung Exynos 7580
 storage: 16 GB

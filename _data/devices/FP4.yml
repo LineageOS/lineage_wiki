@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 3905, tech: 'Li-Ion'}
-bluetooth: {spec: '5.1', profiles: [A2DP + aptX HD]}
+battery: {capacity: 3905, removable: True, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '48 MP'}
-- {flash: 'Dual LED (dual tone)', info: '48 MP'}
-- {flash: None, info: '25 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP'}
+  - {flash: None, info: '25 MP'}
 codename: FP4
 cpu: Kryo 570
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 75.5, height: 162, depth: 10.5}
+dimensions: {depth: 10.5, height: 162, width: 75.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 619
 has_recovery_partition: true
@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2021-10
-screen: {size: 6.3, resolution: '2340x1080', technology: 'IPS LCD'}
+screen: {resolution: '2340x1080', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm SM7225 Snapdragon 750G
 storage: 128/256 GB UFS 2.1

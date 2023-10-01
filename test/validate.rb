@@ -3,6 +3,7 @@
 require 'json'
 require 'json-schema'
 require 'yaml'
+require 'yalphabetize'
 
 
 def json_to_yaml(json)
@@ -60,6 +61,12 @@ def validate_template(template, path, codename)
   end
 end
 
+def validate_yaml_lint(path)
+  reader_class = Yalphabetize::Reader.new(path).to_ast
+  order_checker_class = Yalphabetize::OrderCheckers::CapitalizedFirstThenAlphabetical
+  return !Yalphabetize::OffenceDetector.new(reader_class, order_checker_class: order_checker_class).offences?
+end
+
 trap "SIGINT" do
   puts "Aborted by user"
   exit 130
@@ -90,6 +97,11 @@ install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
 
+if !validate_yaml_lint(wiki_dir + 'device_sample/sample.yml')
+  puts 'device_sample/sample.yml: YAML document is not linted properly, use yalphabetize -a'
+  at_exit { exit false }
+end
+
 Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
@@ -98,6 +110,11 @@ Dir.entries(device_dir).sort.each do |filename|
 
     if !device_json["maintainers"].empty? and device_json["uses_twrp"]
       puts to_relative_path(device_path) + ': uses_twrp cannot be used for a supported device'
+      at_exit { exit false }
+    end
+
+    if !validate_yaml_lint(device_path)
+      puts to_relative_path(device_path) + ': YAML document is not linted properly, use yalphabetize -a'
       at_exit { exit false }
     end
 

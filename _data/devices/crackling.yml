@@ -1,16 +1,16 @@
 architecture: arm64
-battery: {removable: True, capacity: 2500, tech: 'Li-Ion'}
+battery: {capacity: 2500, removable: True, tech: 'Li-Ion'}
 before_lineage_install: crackling
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:
-- {flash: 'Dual LED', info: '13 MP'}
-- {flash: None, info: '5 MP'}
+  - {flash: 'Dual LED', info: '13 MP'}
+  - {flash: None, info: '5 MP'}
 codename: crackling
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 17.1
-dimensions: {width: 71, height: 141.15, depth: 9.37}
+dimensions: {depth: 9.37, height: 141.15, width: 71}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: 16.0
 gpu: Qualcomm Adreno 306
@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2015-10
 required_bootloader: ['crackling-13-ge86e772']
-screen: {size: 5, resolution: '1280x720', technology: 'IPS LCD'}
+screen: {resolution: '1280x720', size: 5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB

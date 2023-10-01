@@ -1,17 +1,17 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: '5 MP'}
-- {flash: 'LED', info: '12 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '5 MP'}
+  - {flash: 'LED', info: '12 MP'}
 codename: chef
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
 current_branch: 20
-dimensions: {width: 76, height: 158.258, depth: 8.4}
+dimensions: {depth: 8.4, height: 158.258, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 509
 image: chef.png
@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-10-10
-screen: {size: 6.14, resolution: '2246x1080', technology: 'IPS LTPS LCD'}
+screen: {resolution: '2246x1080', size: 6.14, technology: 'IPS LTPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB

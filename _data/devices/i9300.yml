@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 2100, tech: 'Li-Ion'}
+battery: {capacity: 2100, removable: True, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '8 MP'}
-- {flash: None, info: '1.9 MP'}
+  - {flash: 'LED', info: '8 MP'}
+  - {flash: None, info: '1.9 MP'}
 codename: i9300
 cpu: Cortex-A9
 cpu_cores: 4
 cpu_freq: 1.4GHz
 current_branch: 14.1
 custom_recovery_link: https://dl.twrp.me/i9300/twrp-3.2.3-0-i9300.img
-dimensions: {width: 70.6, height: 136.6, depth: 8.6}
+dimensions: {depth: 8.6, height: 136.6, width: 70.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: i9300.png
@@ -26,7 +26,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2012-05
-screen: {size: 4.8, resolution: '1280x720', technology: 'Super AMOLED'}
+screen: {resolution: '1280x720', size: 4.8, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Samsung Exynos 4412
 storage: 16/32 GB

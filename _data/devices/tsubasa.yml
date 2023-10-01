@@ -1,16 +1,16 @@
 architecture: arm
-battery: {removable: True, capacity: 1700, tech: 'Li-Ion'}
+battery: {capacity: 1700, removable: True, tech: 'Li-Ion'}
 before_lineage_install: legacy_xperia
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '1.3 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '1.3 MP'}
 codename: tsubasa
 cpu: Krait
 cpu_cores: '2'
 cpu_freq: 1.5 GHz
 current_branch: 15.1
-dimensions: {width: 65, height: 129, depth: 10.7}
+dimensions: {depth: 10.7, height: 129, width: 65}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 225
 image: tsubasa.png
@@ -25,7 +25,7 @@ ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot
 release: 2012-09
-screen: {size: 4.3, resolution: '720x1280', technology: 'TFT LCD'}
+screen: {resolution: '720x1280', size: 4.3, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8960 Snapdragon S4
 storage: 8 GB

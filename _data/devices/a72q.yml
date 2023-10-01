@@ -1,19 +1,19 @@
 architecture: arm64
-battery: {removable: False, capacity: 5000, tech: 'Li-Ion'}
+battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
 before_recovery_install: samsung_qcom
-bluetooth: {spec: '5', profiles: [A2DP]}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '64 MP'}
-- {flash: 'LED', info: '12 MP (ultrawide)'}
-- {flash: 'LED', info: '8 MP (telephoto)'}
-- {flash: None, info: '5 MP (macro)'}
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: 'LED', info: '8 MP (telephoto)'}
+  - {flash: None, info: '5 MP (macro)'}
 codename: a72q
 cpu: Kryo 465 Gold & Kryo 465 Silver
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
 current_branch: 20
-dimensions: {width: 77.4, height: 165, depth: 8.4}
+dimensions: {depth: 8.4, height: 165, width: 77.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_sm7125
 gpu: Qualcomm Adreno 618
@@ -30,7 +30,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2021
-screen: {size: 6.7, resolution: '1080x2800', technology: 'Super AMOLED'}
+screen: {resolution: '1080x2800', size: 6.7, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 128/256 GB

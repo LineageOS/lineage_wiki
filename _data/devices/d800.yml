@@ -1,18 +1,18 @@
 architecture: arm
-battery: {removable: False, capacity: 3000, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'g2-common'}
 before_recovery_install: g2-common
-bluetooth: {spec: 4.0 + LE, profiles: [A2DP + aptX]}
+bluetooth: {profiles: [A2DP + aptX], spec: 4.0 + LE}
 cameras:
-- {flash: 'LED', info: '13 MP'}
-- {flash: None, info: '2.1 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '2.1 MP'}
 carrier: AT&T
 codename: d800
 cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.26 GHz
 current_branch: 18.1
-dimensions: {width: 70.9, height: 138.5, depth: 8.9}
+dimensions: {depth: 8.9, height: 138.5, width: 70.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 330
 image: g2.png
@@ -24,13 +24,12 @@ network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 quirks: [ims]
 ram: 2 GB
-recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
+recovery_boot: With the device powered off and usb unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the LG logo appears, release both buttons and hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2013-09-12
 root_method: [custom, 'https://forum.xda-developers.com/lg-g3/general/guide-root-lg-firmwares-kitkat-lollipop-t3056951']
-screen: {size: 5.2, resolution: '1920x1080', technology: 'IPS LCD'}
+screen: {resolution: '1920x1080', size: 5.2, technology: 'IPS LCD'}
 soc: Qualcomm MSM8974 Snapdragon 800
 storage: 16/32 GB
 tree: android_device_lge_d800

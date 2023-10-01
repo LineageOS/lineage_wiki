@@ -1,9 +1,9 @@
 architecture: arm64
-battery: {removable: False, capacity: 3500, tech: 'Li-Ion'}
-bluetooth: {spec: '5', profiles: [A2DP]}
+battery: {capacity: 3500, removable: False, tech: 'Li-Ion'}
+bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
-- {flash: 'LED', info: '16 MP (w/ 2 MP depth sensor)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'LED', info: '16 MP (w/ 2 MP depth sensor)'}
+  - {flash: None, info: '16 MP'}
 codename: RMX1801
 cpu: Kryo 260
 cpu_cores: '8'
@@ -11,23 +11,21 @@ cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 17.1
 custom_recovery_link: https://sourceforge.net/projects/twrp-rmx1801/files/rmx1801/twrp-3.3.1-20200405-RMX1801.img/download
 dimensions: None
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Use volume rockers to navigate and power button to choose between the modes.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Use volume rockers to navigate and power button to choose between the modes.
 gpu: Qualcomm Adreno 512
-install_method: fastboot_realme
 image: RMX1801.png
+install_method: fastboot_realme
 kernel: android_kernel_realme_sdm660
 maintainers: []
 models: [RMX1801]
 name: 2 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS,  USB OTG]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Light sensor, GPS, USB OTG]
 ram: 4/6/8 GB LPDDR4X
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-  Use volume rockers to navigate and power button to choose between the modes.
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Use volume rockers to navigate and power button to choose between the modes.
 recovery_partition_name: recovery
 release: 2018-10-11
-screen: {size: 6.3, resolution: '2340x1080', technology: 'IPS LCD'}
+screen: {resolution: '2340x1080', size: 6.3, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
 soc: Qualcomm SDM660 Snapdragon 660
 storage: 64/128 GB eMMC5.1

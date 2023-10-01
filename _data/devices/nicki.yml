@@ -1,9 +1,9 @@
 architecture: arm
-battery: {removable: True, capacity: 1750, tech: 'Li-Po'}
-bluetooth: {spec: '4.0', profiles: [A2DP]}
+battery: {capacity: 1750, removable: True, tech: 'Li-Po'}
+bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
-- {flash: None, info: '5 MP'}
-- {flash: None, info: '0.3 MP'}
+  - {flash: None, info: '5 MP'}
+  - {flash: None, info: '0.3 MP'}
 codename: nicki
 cpu: Krait
 cpu_cores: '2'
@@ -24,7 +24,7 @@ ram: 1 GB
 recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.
 recovery_partition_name: boot
 release: 2013-06
-screen: {size: 4, resolution: '480x854', technology: 'TFT LCD'}
+screen: {resolution: '480x854', size: 4, technology: 'TFT LCD'}
 sdcard: {sizeMax: '32 GB'}
 soc: Qualcomm MSM8227 Snapdragon S4 Plus
 storage: 4 GB

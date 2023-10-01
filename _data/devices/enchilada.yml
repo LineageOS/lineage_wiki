@@ -1,18 +1,18 @@
 architecture: arm64
-battery: {removable: False, capacity: 3300, tech: 'Li-Po'}
+battery: {capacity: 3300, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '11'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {spec: '5', profiles: [A2DP + aptX HD]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
-- {flash: 'Dual LED (dual tone)', info: '16 MP'}
-- {flash: 'Dual LED (dual tone)', info: '20 MP (16 MP effective)'}
-- {flash: None, info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '20 MP (16 MP effective)'}
+  - {flash: None, info: '16 MP'}
 codename: enchilada
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
-dimensions: {width: 75.3, height: 155.7, depth: 7.8}
+dimensions: {depth: 7.8, height: 155.7, width: 75.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sdm845
 gpu: Qualcomm Adreno 630
@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-04
-screen: {size: 6.28, resolution: '1080x2280', technology: 'Optic AMOLED'}
+screen: {resolution: '1080x2280', size: 6.28, technology: 'Optic AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64/128/256 GB UFS2.1
 tree: android_device_oneplus_enchilada
