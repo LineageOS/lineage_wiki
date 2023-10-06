@@ -101,10 +101,12 @@ Different versions of LineageOS require different JDK (Java Development Kit) ver
 
 #### Python
 
-For building LineageOS 17.1 and above, you will need `python3` as your system\`s default. You can check this by calling `python --version`.
+Different versions of LineageOS require different default Python versions.
 
-If you are building any of the older branches, `python2` is required instead.
-There are various methods to using it, e.g. [symlinking it manually](https://stackoverflow.com/a/66129356) or creating a [virtualenv](https://pypi.org/project/virtualenv/) for it.
+* LineageOS 17.1+: Python 3 (install `python-is-python3`)
+* LineageOS 11.0-16.0: Python 2 (install `python-is-python2`)
+
+If your default is `python3`, but you're building branch that requires `python3`, there are various methods to using it, e.g. [symlinking it manually](https://stackoverflow.com/a/66129356) or creating a [virtualenv](https://pypi.org/project/virtualenv/) for it.
 We recommend the latter:
 
 Generate the virtualenv once using `virtualenv --python=python2 ~/.lineage_venv`. Afterwards, activate it in each terminal where you need `python2` as default by running `~/.lineage_venv/bin/activate`.
