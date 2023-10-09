@@ -468,6 +468,7 @@ definitions:
       - atv_remote_mic
       - aux_cameras
       - dock
+      - esim
       - fde
       - hardware_encryption
       - ims
