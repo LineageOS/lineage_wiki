@@ -9,9 +9,10 @@ codename: tissot
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {depth: 7.3, height: 155.4, width: 75.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+format_on_upgrade: true
 gpu: Qualcomm Adreno 506
 image: tissot.png
 install_method: fastboot_nexus
@@ -33,5 +34,5 @@ tree: android_device_xiaomi_tissot
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [15.1, 16.0, 17.1, 18.1, 19.1]
+versions: [15.1, 16.0, 17.1, 18.1, 19.1, 20]
 wifi: 802.11 a/b/g/n/ac
