@@ -67,11 +67,7 @@ command directly in the Terminal." %}
 
 To build LineageOS, you'll need:
 
-* `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick
-   lib32ncurses5-dev lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libncurses5 libncurses5-dev
-   libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync
-   schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}
-   zip zlib1g-dev`
+* `bc bison build-essential ccache curl flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick lib32readline-dev lib32z1-dev libelf-dev liblz4-tool libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc {% if cpu_architecture contains 'x86' %}yasm {% endif %}zip zlib1g-dev`
 
 {% if device.versions contains 13.0 %}
 To build LineageOS 13.0, you'll also need:
@@ -79,7 +75,18 @@ To build LineageOS 13.0, you'll also need:
 * `maven`
 {% endif %}
 
-For Ubuntu versions older than 20.04 (focal), install also:
+For Ubuntu 23.10 (mantic), install `libncurses5` from 23.04 (lunar) as follows:
+
+```
+wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
+wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
+```
+
+While for Ubuntu versions older than 23.10 (mantic), install also:
+
+* `lib32ncurses5-dev libncurses5 libncurses5-dev`
+
+Additionally, for Ubuntu versions older than 20.04 (focal), install also:
 
 * `libwxgtk3.0-dev`
 
