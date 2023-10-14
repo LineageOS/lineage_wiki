@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bd94216_6789beff",
+        "filename": "pages/quirks/esim.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2023-10-14T05:56:24Z",
+      "side": 1,
+      "message": "source",
+      "range": {
+        "startLine": 17,
+        "startChar": 61,
+        "endLine": 17,
+        "endChar": 66
+      },
+      "revId": "c134163702b7338b33d114123d01f106bff01fd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
