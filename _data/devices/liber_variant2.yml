@@ -12,7 +12,7 @@ codename: liber
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {depth: 9.6, height: 76.4, width: 162.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 618
@@ -21,7 +21,7 @@ image: liber.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_sm6150
-maintainers: [William]
+maintainers: [William, Hasaber8]
 models: [XT2067-2]
 name: one fusion+ (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -40,6 +40,6 @@ type: phone
 variant: 2
 vendor: Motorola
 vendor_short: motorola
-versions: [19.1]
+versions: [19.1, 20]
 width: 76.4 mm (3.01 in)
 wifi: 802.11 a/b/g/n/ac
