@@ -22,6 +22,30 @@
       },
       "revId": "c134163702b7338b33d114123d01f106bff01fd7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a20b1ca7_8185ccf8",
+        "filename": "pages/quirks/esim.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-15T17:12:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bd94216_6789beff",
+      "range": {
+        "startLine": 17,
+        "startChar": 61,
+        "endLine": 17,
+        "endChar": 66
+      },
+      "revId": "c134163702b7338b33d114123d01f106bff01fd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
