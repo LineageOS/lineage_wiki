@@ -12,7 +12,7 @@ codename: liber
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
-current_branch: 19.1
+current_branch: 20
 dimensions: {depth: 9.6, height: 76.4, width: 162.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 618
