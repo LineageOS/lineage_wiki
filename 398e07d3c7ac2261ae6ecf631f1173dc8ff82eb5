@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8669d3e9_55d0b208",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-15T18:43:33Z",
+      "side": 1,
+      "message": "both apply to Parker",
+      "revId": "398e07d3c7ac2261ae6ecf631f1173dc8ff82eb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "facd82e3_cd236098",
+        "filename": "_data/devices/liber.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-15T18:43:33Z",
+      "side": 1,
+      "message": "still accurate?",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 74
+      },
+      "revId": "398e07d3c7ac2261ae6ecf631f1173dc8ff82eb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d84cada_4fbc56dc",
+        "filename": "_data/devices/liber.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-10-15T18:43:33Z",
+      "side": 1,
+      "message": "add 20",
+      "range": {
+        "startLine": 44,
+        "startChar": 1,
+        "endLine": 44,
+        "endChar": 16
+      },
+      "revId": "398e07d3c7ac2261ae6ecf631f1173dc8ff82eb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
