@@ -13,7 +13,7 @@ cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
 dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: fbe
+format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
 image: v20.png
 install_method: fastboot_custom
