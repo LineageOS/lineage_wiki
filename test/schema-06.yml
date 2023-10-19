@@ -667,7 +667,6 @@ properties:
       - "$ref": "#/definitions/valid_branches"
       - enum:
           - fbe
-          - fde
           - repartition
   gpu:
     "$id": "/properties/gpu"

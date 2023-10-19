@@ -13,7 +13,7 @@ cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
 dimensions: {depth: 7.7, height: 149.4, width: 73.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: fde
+format_on_upgrade: fbe
 gpu: Qualcomm Adreno 530
 image: g5.png
 install_method: fastboot_lg
