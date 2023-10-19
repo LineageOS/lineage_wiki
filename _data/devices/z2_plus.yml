@@ -12,7 +12,7 @@ cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 20
 dimensions: {depth: 8.5, height: 141.7, width: 68.9}
 download_boot: With the device powered off, hold <kbd>Power</kbd>. Keep holding until the phone powers on and shows the bootloader menu. Use <kbd>Volume Down</kbd> to navigate until on fastboot and <kbd>Power</kbd> to choose.
-format_on_upgrade: 20
+format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
 image: z2_plus.png
 install_method: fastboot_nexus
