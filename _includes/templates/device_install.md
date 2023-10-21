@@ -24,7 +24,7 @@ Do **not** continue after something fails!
 {%- if device.type == "phone" %}
     {% include alerts/warning.html content="Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on LineageOS either! Additionally, some devices require that VoLTE/VoWiFi be utilized once on stock to provision IMS." %}
 {%- endif %}
-6. LineageOS is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md) you are installing this at your own risk!
+6. LineageOS is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) you are installing this at your own risk!
 
 {%- if device.before_install %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}

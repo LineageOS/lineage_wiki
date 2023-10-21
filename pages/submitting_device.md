@@ -10,9 +10,9 @@ ask that you meet some important prerequisites and then get in touch with our de
 
 ### Device
 
-**Your device MUST meet the requirements of our charter** - Presented in [device support requirements](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md).
+**Your device MUST meet the requirements of our charter** - Presented in [device support requirements](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md).
 
-{% include alerts/note.html content="We are willing to make exceptions to _some_ of these rules, however, any exceptions will be per device, and issues must be detailed in full. See charter's entry on [Attaining exceptions](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md#attaining-exceptions) for more details." %}
+{% include alerts/note.html content="We are willing to make exceptions to _some_ of these rules, however, any exceptions will be per device, and issues must be detailed in full. See charter's entry on [Attaining exceptions](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md#attaining-exceptions) for more details." %}
 
 ### Maintainer
 

@@ -26,4 +26,4 @@ python3 update_verifier.py lineageos_pubkey /path/to/zip
 
 If the script reports `verified successfully`, the ZIP file signature is valid.
 
-To verify the contents of this page, you can look on [our GitHub](https://github.com/lineageos/lineage_wiki/blob/master/pages/verifying_builds.md).
+To verify the contents of this page, you can look on [our GitHub](https://github.com/lineageos/lineage_wiki/blob/main/pages/verifying_builds.md).

@@ -209,7 +209,7 @@ After you've done this, you can push your commits to Gerrit:
 
 ```
 git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/lineage_wiki
-git push gerrit HEAD:refs/for/master
+git push gerrit HEAD:refs/for/main
 ```
 
 You can add the "Wiki Editors" group as reviewers (click on the little person to the right of "reviewers").
@@ -217,7 +217,7 @@ Someone will either: comment on the patch, asking for clarification or pointing 
 You can reply to them, or [fix any issues they point out](#fixing-mistakes), and then re-run:
 
 ```
-git push gerrit HEAD:refs/for/master
+git push gerrit HEAD:refs/for/main
 ```
 
 Eventually, when your change looks _perfect_, someone will approve it, and submit it to the wiki. Awesome!

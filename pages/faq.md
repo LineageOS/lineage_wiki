@@ -81,7 +81,7 @@ permalink: faq.html
  - If it's on [this list]({{ "/devices/" | relative_url }}), we do, otherwise not.
 
 ## Does a specific feature or hardware work on my device?
- - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/master/device-support-requirements.md).
+ - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md).
  - If something doesn't work, look into [How to submit a bug]({{ "how-to/bugreport" | relative_url }})
 
 ## Does someone else have _this_ issue
