@@ -16,6 +16,24 @@
       "message": "you could have just moved your change.",
       "revId": "9037a54e81e7a135d484e0375dbc157ac3fe82d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be394b25_48b1361a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2023-10-26T18:07:01Z",
+      "side": 1,
+      "message": "yep, but I forgot to do so before pushing the revised commit so now I got 2 on gerrit. I\u0027ll try to watch out for this if I have another time I restore some old commit again",
+      "parentUuid": "ab8fdc41_bb2731ad",
+      "revId": "9037a54e81e7a135d484e0375dbc157ac3fe82d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
