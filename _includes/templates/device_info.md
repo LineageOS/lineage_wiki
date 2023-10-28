@@ -82,7 +82,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {%- continue %}
 {%- endif %}
 {%- assign title = match.title | remove: "Quirks - " %}
-- [{{ title }}]({{ match.url }})
+- [{{ title }}]({{ match.url | relative_url }})
 {%- endfor -%}
 
 {%- endif %}
