@@ -16,7 +16,7 @@ image: land.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: android_kernel_xiaomi_msm8937
-maintainers: ["0xCAFEBABE"]
+maintainers: []
 models: ["2016036", "2016035", "2016033"]
 name: Redmi 3X
 network: [2G GSM, 3G UMTS, 4G LTE]
