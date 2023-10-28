@@ -8,9 +8,10 @@ codename: Mi8917
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 4 x 1.4 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 7.55, height: 153, width: 76.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: 21
 gpu: Qualcomm Adreno 308
 image: Mi8917_variant3_4.png
 install_method: fastboot_xiaomi
@@ -34,5 +35,5 @@ type: phone
 variant: 3
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [19.1, 20]
+versions: [19.1, 20, 21]
 wifi: 802.11 b/g/n
