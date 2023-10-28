@@ -72,10 +72,15 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% endif %}
 {% endif %}
 
-{%- if device.quirks and device.quirks != empty %}
+{% assign quirks = "snet" | split: ',' %}
+{% if device.quirks and device.quirks != empty %}
+    {% assign quirks = quirks | concat: device.quirks %}
+    {% assign quirks = quirks | sort %}
+{% endif %}
+
 ## Known quirks
 
-{%- for quirk in device.quirks %}
+{%- for quirk in quirks %}
 {%- capture url %}/quirks/{{ quirk | downcase }}{% endcapture %}
 {%- assign match = site.pages | find: "url": url %}
 {%- if match == nil %}
@@ -83,9 +88,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {%- endif %}
 {%- assign title = match.title | remove: "Quirks - " %}
 - [{{ title }}]({{ match.url }})
-{%- endfor -%}
-
-{%- endif %}
+{%- endfor %}
 
 ## Find help online
 
