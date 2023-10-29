@@ -1,4 +1,4 @@
-FROM docker.io/ruby:3.0
+FROM docker.io/ruby:3.2
 
 WORKDIR /src
 ADD Gemfile /src
