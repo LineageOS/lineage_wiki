@@ -1,0 +1,10 @@
+soc_vendors:
+  - Amlogic
+  - Exynos
+  - Intel
+  - Kirin
+  - Mediatek
+  - OMAP
+  - Snapdragon
+  - Tegra
+  - Tensor
