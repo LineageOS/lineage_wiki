@@ -33,12 +33,11 @@ recovery_reboot: fastboot_menu
 release: 2020-06
 screen: {resolution: '1080x2340', size: 6.5, technology: 'IPS LCD'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
-soc:
-  - Europe: Qualcomm SM7150-AA Snapdragon 730
-  - India: Qualcomm SM7150-AB Snapdragon 730G
+soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 128 GB UFS 2.1
 tree: android_device_motorola_liber
 type: phone
+variant: 1
 vendor: Motorola
 vendor_short: motorola
 versions: [19.1]
