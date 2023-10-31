@@ -40,6 +40,12 @@ function applyFilters() {
       return value.length === 0 || value.some(x => cpu === x);
     },
 
+    // SoC vendor
+    (device) => {
+      let value = checkBoxValues("soc_vendors");
+      return value.length === 0 || value.some(x => device.soc.includes(x));
+    },
+
     // Device type
     (device) => {
       let value = checkBoxValues("types");
@@ -317,6 +323,19 @@ function showFilters() {
         <p class="device-filters-header">Architecture:</p>
         {% for value in definitions.valid_architectures.enum %}
         <div class="form-check" data-filter="architectures">
+          <label class="form-check-label">
+              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+              {{ value }}
+              <span class="form-check-sign no-ripple">
+                  <span class="check" />
+              </span>
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">SoC vendor:</p>
+        {% for value in definitions.soc_vendors.enum %}
+        <div class="form-check" data-filter="soc_vendors">
           <label class="form-check-label">
               <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
               {{ value }}

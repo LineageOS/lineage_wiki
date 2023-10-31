@@ -368,6 +368,18 @@ definitions:
       - TI OMAP4430
       - TI OMAP4460
     type: string
+  soc_vendors:
+    enum:
+      - Amlogic
+      - Exynos
+      - Intel
+      - Kirin
+      - Mediatek
+      - OMAP
+      - Snapdragon
+      - Tegra
+      - Tensor
+    type: string
   valid_architectures:
     enum:
       - arm
