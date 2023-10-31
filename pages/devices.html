@@ -122,7 +122,6 @@ function applyFilters() {
 
   // Hide empty vendors
   $(".devices").each(function() {
-    console.log($(`*[data-vendor="${$(this).attr("data-vendor")}"]`).find("div:visible").length)
     $(`*[data-vendor="${$(this).attr("data-vendor")}"]`)
       .toggle($(this).find("div:visible").length > 1);
     if ($(`*[data-vendor="${$(this).attr("data-vendor")}"]`).find("div:visible").length > 1) {
