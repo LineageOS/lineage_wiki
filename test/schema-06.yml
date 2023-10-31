@@ -828,26 +828,9 @@ properties:
     "$ref": "#/definitions/sdcard_data"
   soc:
     "$id": "/properties/soc"
-    oneOf:
-      - "$ref": "#/definitions/soc_data"
-      - items:
-          "$id": "/properties/soc/items"
-          "$ref": "#/definitions/soc_data"
-        minItems: 2
-        type: array
-        uniqueItems: True
-      - description: Array of maps of model numbers to SoC data
-        examples:
-          - SM-9000A: Qualcomm SM8150 Snapdragon 855
-          - SM-9000B: Qualcomm SM8150-AC Snapdragon 855+
-        items:
-          additionalProperties:
-            "$ref": "#/definitions/soc_data"
-          description: Map of model number to soc_data
-          type: object
-        type: array
-      - enum:
-          - None
+    items:
+      "$id": "/properties/soc/items"
+      "$ref": "#/definitions/soc_data"
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$
