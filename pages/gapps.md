@@ -24,8 +24,6 @@ This also applies when you experience issues and want to try an older or other p
 
 These packages are only dependent on your OS version and architecture, which can be found on each device specific info page in this wiki ([Device overview]({{ "devices/" | relative_url }})).
 
-{% include alerts/note.html content="Filenames of MindTheGapps are of the format `MindTheGapps-<AndroidVersion>-<architecture>-<date>_<time>.zip` (with Android 12L being 12.1), choose carefully!" %}
-
 {% include alerts/warning.html content="Users often experience issues when deviating from the packages listed below. Be warned!" %}
 
 ### Mobile
