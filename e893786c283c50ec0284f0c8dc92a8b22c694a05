@@ -70,6 +70,24 @@
       "parentUuid": "74a6574b_e0ceeb8a",
       "revId": "e893786c283c50ec0284f0c8dc92a8b22c694a05",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d7285556_b4ad9aaa",
+        "filename": "_data/devices/liber_variant1.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-03T20:54:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8df4cbf7_4d802b10",
+      "revId": "e893786c283c50ec0284f0c8dc92a8b22c694a05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
