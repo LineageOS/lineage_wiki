@@ -16,6 +16,24 @@
       "message": "is this still true?",
       "revId": "e893786c283c50ec0284f0c8dc92a8b22c694a05",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d96a3a46_82a1b6cf",
+        "filename": "_data/devices/liber_variant1.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 23396
+      },
+      "writtenOn": "2023-11-03T20:40:05Z",
+      "side": 1,
+      "message": "He\u0027s still there, and I do have my device back too",
+      "parentUuid": "fe1f5d66_fdfdd8b0",
+      "revId": "e893786c283c50ec0284f0c8dc92a8b22c694a05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
