@@ -16,6 +16,24 @@
       "message": "Not really nice, but I prefer this to hardcoding the list of vendors in the page",
       "revId": "933a9551e42c09e05b62cce96c8e2bcd075092dd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f5ad706e_e2b425b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-03T14:16:14Z",
+      "side": 1,
+      "message": "I think it\u0027s more user friendly to replace Samsung with Exynos and same for HiSillicon.",
+      "parentUuid": "478fbc25_a26b0f85",
+      "revId": "933a9551e42c09e05b62cce96c8e2bcd075092dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
