@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fe1f5d66_fdfdd8b0",
+        "filename": "_data/devices/liber_variant1.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-03T20:38:38Z",
+      "side": 1,
+      "message": "is this still true?",
+      "revId": "e893786c283c50ec0284f0c8dc92a8b22c694a05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
