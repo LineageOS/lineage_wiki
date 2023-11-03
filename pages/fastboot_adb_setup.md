@@ -25,7 +25,7 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
     * In the Advanced section, click the Environment Variables button
     * In the Environment Variables window, highlight the `Path` variable in the Systems Variable section and click the Edit button
     * Append `;%USERPROFILE%\adb-fastboot\platform-tools` to the end of the existing Path definition (the semi-colon separates each path entry)
-4. On Windows 10:
+4. On Windows 10 or newer:
     * Open the Start menu, and type "advanced system settings"
     * Select "View advanced system settings"
     * Click on the Advanced tab
