@@ -134,6 +134,10 @@ function applyFilters() {
 
   // Show empty list placeholder
   $("#empty-list").toggle($(".devices:visible").length === 0);
+
+  // Update number of devices found
+  $("#device-count").toggle($(".devices:visible").length > 0);
+  $("#device-count").text("Devices (%1): " + $(".devices .item:visible[data-variant!=unknown]").length)
 }
 
 function closeFilters() {
@@ -188,6 +192,9 @@ function showFilters() {
 
 <div id="empty-list" style="display: none">
   No devices matching selected filters!
+</div>
+
+<div id="device-count" class="h2" />
 </div>
 
 {%- for device in sorted %}
