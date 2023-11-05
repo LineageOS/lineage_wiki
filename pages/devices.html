@@ -134,6 +134,10 @@ function applyFilters() {
 
   // Show empty list placeholder
   $("#empty-list").toggle($(".devices:visible").length === 0);
+
+  // Update number of devices found
+  $("#filtered-devices").text(`${$(".devices .item:visible[data-variant!=unknown]").length}`);
+  $("#total-devices").text(`${$(".devices .item[data-variant!=unknown]").length}`);
 }
 
 function closeFilters() {
@@ -168,7 +172,7 @@ function showFilters() {
 {%- assign lastVendor = "" %}
 
 <div class="form-check form-check-inline">
-  <button onclick="showFilters()" class="btn btn-primary">Show filters</button>
+  <button onclick="showFilters()" class="btn btn-primary" aria-label="Filter devices">Filter (<span id="filtered-devices">0</span> of <span id="total-devices">0</span> shown)</button>
 </div><br/><br/>
 
 <div id="vendor-list">
