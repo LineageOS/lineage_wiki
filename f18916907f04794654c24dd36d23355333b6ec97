@@ -22,6 +22,30 @@
       },
       "revId": "f18916907f04794654c24dd36d23355333b6ec97",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "82b0e623_c559dcfd",
+        "filename": "pages/contributors.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-08T17:53:13Z",
+      "side": 1,
+      "message": "The group on Gerrit is actually called \"Reviewers\" - not Trusted Reviewers, so I was just aligning it partially, but half measures, meh. I\u0027ll follow up.",
+      "parentUuid": "ad0be76c_dc5d8b83",
+      "range": {
+        "startLine": 57,
+        "startChar": 12,
+        "endLine": 57,
+        "endChar": 13
+      },
+      "revId": "f18916907f04794654c24dd36d23355333b6ec97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
