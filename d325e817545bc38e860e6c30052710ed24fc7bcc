@@ -34,6 +34,24 @@
       "parentUuid": "22efec02_341909fb",
       "revId": "d325e817545bc38e860e6c30052710ed24fc7bcc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b11538f_eedfec7b",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-08T17:00:20Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "e046cba0_35d2525e",
+      "revId": "d325e817545bc38e860e6c30052710ed24fc7bcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
