@@ -10,7 +10,7 @@ codename: chef
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 20
+current_branch: 19.1
 dimensions: {depth: 8.4, height: 158.258, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 509
@@ -18,7 +18,7 @@ image: chef.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: android_kernel_motorola_msm8998
-maintainers: [Hasaber8]
+maintainers: []
 models: [XT1942-1, XT1942-2]
 name: one power
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -36,5 +36,5 @@ tree: android_device_motorola_chef
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1, 18.1, 19.1, 20]
+versions: [17.1, 18.1, 19.1]
 wifi: 802.11 a/b/g/n/ac
