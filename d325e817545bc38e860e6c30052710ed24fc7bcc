@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22efec02_341909fb",
+        "filename": "_data/devices/chef.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-08T16:35:07Z",
+      "side": 1,
+      "message": "do we really want to pretend 20 was never shipped?",
+      "revId": "d325e817545bc38e860e6c30052710ed24fc7bcc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
