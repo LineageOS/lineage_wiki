@@ -16,6 +16,23 @@
       "message": "I think that we usually don\u0027t remove all files, just the maintainer and current branch.",
       "revId": "82ef73ca3eef91b4dea15273636a85a3d532a173",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d45678c7_2850f5fc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-11-08T16:32:03Z",
+      "side": 1,
+      "message": "kk",
+      "revId": "82ef73ca3eef91b4dea15273636a85a3d532a173",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
