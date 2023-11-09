@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3fc0d59a_1acd0b98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-11-09T20:11:32Z",
+      "side": 1,
+      "message": "This is what I used to create all the variants. Since we had others either add new devices with variants since then or some to split later as well I/we might provide the script as well.\nUsage is easy: Just call it (no parameters, script will ask), or call it \"generate_variants.py \u003ccodename\u003e \u003cnumer of desired variants\u003e\".\nTakes existing devices only, ofc",
+      "revId": "1baa7b8e7cc618d2819e91dabb6157c30041fcf8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
