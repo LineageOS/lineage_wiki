@@ -4,5 +4,6 @@ title: Upgrade LineageOS on nash
 folder: upgrade
 permalink: /devices/nash/upgrade
 device: nash
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
