@@ -4,7 +4,7 @@
 * A {{ device.vendor }} {{ device.name }}.
 {%- endif %}
 * A relatively recent x86_64 computer:
-  * Linux, macOS, or Windows - these instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
+  * Linux, macOS, or Windows - these instructions are tested using Ubuntu 22.04 LTS, so we recommend going with that.
   * A reasonable amount of RAM (16 GB to build up to `lineage-17.1`, 32 GB or more for `lineage-18.1` and up). The less RAM you have, the longer the build will take. Enabling ZRAM can be helpful.
   * A reasonable amount of Storage (200 GB to build up to `lineage-17.1`, 300 GB for `lineage-18.1` and up). You might require more free space for enabling `ccache` or building for multiple devices. Using SSDs results in considerably faster build times than traditional hard drives.
 * A decent internet connection and reliable electricity. :)
