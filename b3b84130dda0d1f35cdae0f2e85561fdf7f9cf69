@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff77e7dd_2994b918",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2023-11-14T18:05:38Z",
+      "side": 1,
+      "message": "Oups - Done. Looks like those lines did not do anything on samsung_qcom.",
+      "revId": "b3b84130dda0d1f35cdae0f2e85561fdf7f9cf69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

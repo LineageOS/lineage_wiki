@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e48fee68_41819c95",
+        "filename": "_data/devices/gta4l.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2023-11-14T18:05:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8aa17bcf_3d846523",
+      "revId": "aa830f7c186b09acc0e74480c883cfbf2e7ac11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "da4ec702_c271e58f",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c63e709_a505e379",
+        "filename": "_data/devices/gta4l.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2023-11-14T18:05:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da4ec702_c271e58f",
+      "revId": "aa830f7c186b09acc0e74480c883cfbf2e7ac11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d9e03a9e_d3c93b5b",
@@ -48,6 +84,24 @@
       "writtenOn": "2023-11-14T08:39:40Z",
       "side": 1,
       "message": "really?",
+      "revId": "aa830f7c186b09acc0e74480c883cfbf2e7ac11f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "08b3344e_82535ae6",
+        "filename": "_data/devices/gta4l.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2023-11-14T18:05:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d9e03a9e_d3c93b5b",
       "revId": "aa830f7c186b09acc0e74480c883cfbf2e7ac11f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
