@@ -17,7 +17,6 @@ dimensions: {depth: 8, height: 160.2, width: 72.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8250
 gpu: Qualcomm Adreno 650
-has_recovery_partition: true
 image: instantnoodle.png
 install_method: fastboot_nexus
 is_ab_device: true

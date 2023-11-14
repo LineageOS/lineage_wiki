@@ -14,7 +14,6 @@ custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.5, height: 159.8, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 630
-has_recovery_partition: true
 image: axolotl.png
 install_method: fastboot_nexus
 is_ab_device: true

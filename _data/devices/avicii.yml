@@ -19,7 +19,6 @@ dimensions: {depth: 8.2, height: 158.3, width: 73.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm7250
 gpu: Qualcomm Adreno 620
-has_recovery_partition: true
 image: avicii.png
 install_method: fastboot_nexus
 is_ab_device: true

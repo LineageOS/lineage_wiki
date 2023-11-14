@@ -17,7 +17,6 @@ dimensions: {depth: 8.8, height: 162.6, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8150_dynamic
 gpu: Qualcomm Adreno 640
-has_recovery_partition: true
 image: guacamole.png
 install_method: fastboot_nexus
 is_ab_device: true

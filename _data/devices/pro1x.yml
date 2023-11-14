@@ -16,7 +16,6 @@ custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 13.98, height: 154, width: 73.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
-has_recovery_partition: true
 image: pro1x.png
 install_method: fastboot_nexus
 is_ab_device: true

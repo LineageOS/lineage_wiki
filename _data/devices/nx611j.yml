@@ -14,7 +14,6 @@ custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX611J'
 dimensions: {depth: 7.6, height: 148.0, width: 70.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 512
-has_recovery_partition: true
 image: nx611j.png
 install_method: fastboot_nexus
 kernel: android_kernel_nubia_sdm660

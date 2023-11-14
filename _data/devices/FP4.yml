@@ -13,7 +13,6 @@ current_branch: 20
 dimensions: {depth: 10.5, height: 162, width: 75.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 619
-has_recovery_partition: true
 image: FP4.png
 install_method: fastboot_fairphone
 is_ab_device: true

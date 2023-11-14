@@ -13,7 +13,6 @@ custom_unlock_cmd: "fastboot oem 'setenv lock 10101000;save' && fastboot reboot 
 dimensions: {depth: 15, height: 69, width: 69}
 download_boot: Run `adb reboot bootloader`.
 gpu: ARM Mali-G31 MP2
-has_recovery_partition: true
 image: wade.png
 install_method: fastboot_nexus
 kernel: android_kernel_amlogic_linux-4.9

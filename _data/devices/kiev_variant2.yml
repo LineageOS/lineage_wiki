@@ -15,7 +15,6 @@ current_branch: 20
 dimensions: {depth: 9.9, height: 166.1, width: 76.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 619
-has_recovery_partition: true
 image: kiev.png
 install_method: fastboot_motorola
 is_ab_device: true

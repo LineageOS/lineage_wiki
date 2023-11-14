@@ -14,7 +14,6 @@ current_branch: 18.1
 dimensions: {depth: 9.9, height: 171, width: 78}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 650
-has_recovery_partition: true
 image: obiwan.png
 install_method: fastboot_zenfone
 is_ab_device: true
