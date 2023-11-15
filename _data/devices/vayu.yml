@@ -1,6 +1,14 @@
 architecture: arm64
 battery: {capacity: 5160, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '13'}
+before_install_device_variants:
+  - {device: 'POCO X3 Pro EEA', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TJUEUXM/miui_VAYUEEAGlobal_V14.0.2.0.TJUEUXM_f91bef7f04_13.0.zip', firmware: 'V14.0.2.0.TJUEUXM'}
+  - {device: 'POCO X3 Pro Global', download_link: 'https://bigota.d.miui.com/V14.0.3.0.TJUMIXM/miui_VAYUGlobal_V14.0.3.0.TJUMIXM_6be397120d_13.0.zip', firmware: 'V14.0.3.0.TJUMIXM'}
+  - {device: 'POCO X3 Pro India', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TJUINXM/miui_VAYUINGlobal_V14.0.2.0.TJUINXM_2dda7ea924_13.0.zip', firmware: 'V14.0.2.0.TJUINXM'}
+  - {device: 'POCO X3 Pro Indonesia', download_link: 'https://bigota.d.miui.com/V14.0.3.0.TJUIDXM/miui_VAYUIDGlobal_V14.0.3.0.TJUIDXM_4237a9eab2_13.0.zip', firmware: 'V14.0.3.0.TJUIDXM'}
+  - {device: 'POCO X3 Pro Russia', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TJURUXM/miui_VAYURUGlobal_V14.0.1.0.TJURUXM_6e52afdaf9_13.0.zip', firmware: 'V14.0.1.0.TJURUXM'}
+  - {device: 'POCO X3 Pro Taiwan', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TJUTWXM/miui_VAYUTWGlobal_V14.0.2.0.TJUTWXM_55d59878ca_13.0.zip', firmware: 'V14.0.2.0.TJUTWXM'}
+  - {device: 'POCO X3 Pro Turkey', download_link: 'https://bigota.d.miui.com/V14.0.1.0.TJUTRXM/miui_VAYUTRGlobal_V14.0.1.0.TJUTRXM_8e2b4b7ef8_13.0.zip', firmware: 'V14.0.1.0.TJUTRXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '48 MP'}
@@ -15,6 +23,7 @@ cpu_freq: 1 x 2.96 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
 dimensions: {depth: 9.4, height: 165.8, width: 76.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm8150
 gpu: Qualcomm Adreno 640
 image: vayu.png
 install_method: fastboot_xiaomi
