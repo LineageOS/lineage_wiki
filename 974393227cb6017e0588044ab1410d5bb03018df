@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28c72886_8f205072",
+        "filename": "pages/devices.html",
+        "patchSetId": 2
+      },
+      "lineNbr": 197,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-15T16:45:34Z",
+      "side": 1,
+      "message": "\u003cdiv id\u003d\"device-count\" class\u003d\"h2\" /\u003e",
+      "revId": "974393227cb6017e0588044ab1410d5bb03018df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
