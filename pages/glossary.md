@@ -58,6 +58,10 @@ toc: false
 - A term describing that an OS has no software parts from, or that attempt to connect to Google
 - LineageOS is not explicitly degoogled, we simply don't ship [GApps](#gapps) due to licensing
 
+#### Factory reset
+
+- Despite the name containing "factory", performing such a reset is returning the device into a state "without user modifications", not back to the [Stock ROM](#stock-rom)
+
 #### Firmware
 
 - Included in the [Stock ROM](#stock-rom) - A layer of software required to allow the OS to interface with the hardware
@@ -71,6 +75,13 @@ toc: false
 #### OEM
 
 - Original Equipment Manufacturer, the one who sells and manages software on a give device (e.g. Samsung, Motorola, Google)
+
+#### Root
+
+- People sometimes wrongfully use this when they mean [Unlocking](#Unlocked)
+- Refers to being able to access and modify the contents of read-only partitions via apps or a shell (usually involving a "superuser" (su) binary)
+- Some apps "detect" root access on LineageOS (which does not come rooted!) when they actually mean "modified device"
+- LineageOS does not offer any rooting solution (despite `adb root`) and does not provide support to install any
 
 #### Stock ROM
 
