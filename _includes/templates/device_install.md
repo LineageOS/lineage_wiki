@@ -114,7 +114,7 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package.
 {%- endif %}
-    * _(Optionally)_: If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from the [here]({{ "gapps.html" | relative_url }}).
+    * _(Optionally)_: If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps.html" | relative_url }}).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
     {% if device.vendor == "LG" %}
