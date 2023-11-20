@@ -755,6 +755,20 @@ span.codename {
   .variants {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .page-overlay {
+    padding: 0;
+  }
+
+  .popup-content {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup-overlay {
+    min-width: 500px;
+  }
 }
 
 .link-in-code {
