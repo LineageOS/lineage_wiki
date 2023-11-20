@@ -16,6 +16,29 @@
       "message": "This looks much better inside the button than as its own header",
       "revId": "57bea410290122f4ff9261c7ed5a5d660a088264",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc51e99a_65978574",
+        "filename": "pages/devices.html",
+        "patchSetId": 7
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2023-11-20T07:36:58Z",
+      "side": 1,
+      "message": "stray /",
+      "range": {
+        "startLine": 175,
+        "startChar": 158,
+        "endLine": 175,
+        "endChar": 159
+      },
+      "revId": "57bea410290122f4ff9261c7ed5a5d660a088264",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
