@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e59c53fc_95d0b6da",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2023-11-23T12:57:46Z",
+      "side": 1,
+      "message": "Considered keeping both the new warning as well as the unlock instructions (to help users remember whether they already did that), but that felt a bit overloaded.",
+      "revId": "0babd6a7799bd413f9f7a6d3f82dabbcc0aaaae6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
