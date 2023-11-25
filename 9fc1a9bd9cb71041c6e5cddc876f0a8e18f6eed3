@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ed9a4518_2bfc7ee2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-11-25T11:50:32Z",
+      "side": 1,
+      "message": "Doesn\u0027t work, we have to somehow have a `vendor` field on SoC enum, idk if there\u0027s a way to set a value for enums",
+      "revId": "9fc1a9bd9cb71041c6e5cddc876f0a8e18f6eed3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
