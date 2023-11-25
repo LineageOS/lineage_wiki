@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d64461d5_e9e07ae7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-11-25T14:59:43Z",
+      "side": 1,
+      "message": "- The soc_vendors isn\u0027t use for validation, it should be moved to another file\n- The name is inaccurate (though I have no alternative rn)",
+      "revId": "d1c6876cc95047d6826319cfaba0637a2173e450",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
