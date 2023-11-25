@@ -34,6 +34,24 @@
       "parentUuid": "ed9a4518_2bfc7ee2",
       "revId": "9fc1a9bd9cb71041c6e5cddc876f0a8e18f6eed3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "413b15a9_568e1db5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2023-11-25T14:56:41Z",
+      "side": 1,
+      "message": "My bad, forgot to uncheck the hide discontinued devices toggle",
+      "parentUuid": "d84d23f1_99ade844",
+      "revId": "9fc1a9bd9cb71041c6e5cddc876f0a8e18f6eed3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
