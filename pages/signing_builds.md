@@ -28,9 +28,13 @@ com.android.bluetooth
 com.android.btservices
 com.android.cellbroadcast
 com.android.compos
+com.android.configinfrastructure
 com.android.connectivity.resources
 com.android.conscrypt
+com.android.devicelock
 com.android.extservices
+com.android.hardware.wifi
+com.android.healthfitness
 com.android.hotspot2.osulogin
 com.android.i18n
 com.android.ipsec
@@ -44,12 +48,14 @@ com.android.ondevicepersonalization
 com.android.os.statsd
 com.android.permission
 com.android.resolv
+com.android.rkpd
 com.android.runtime
 com.android.safetycenter.resources
 com.android.scheduling
 com.android.sdkext
 com.android.support.apexer
 com.android.telephony
+com.android.telephonymodules
 com.android.tethering
 com.android.tzdata
 com.android.uwb
@@ -59,6 +65,7 @@ com.android.vndk.current
 com.android.wifi
 com.android.wifi.dialog
 com.android.wifi.resources
+com.google.pixel.vibrator.hal
 com.qorvo.uwb
 {% endcapture %}
 {% assign apexes = apexes | newline_to_br | strip_newlines | replace: "<br />", " " | strip %}
