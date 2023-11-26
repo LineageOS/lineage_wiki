@@ -30,7 +30,7 @@ ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2021
-screen: {resolution: '1080x2800', size: 6.5, technology: 'Super AMOLED'}
+screen: {resolution: '1080x2400', size: 6.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 128/256 GB
