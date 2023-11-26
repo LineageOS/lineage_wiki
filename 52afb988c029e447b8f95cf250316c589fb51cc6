@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bd73888_b096dd25",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2023-11-26T22:01:08Z",
+      "side": 1,
+      "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\nlooks like you didn\u0027t run the script? picture with exactly 500x500 is usually wrong and this one is, since it has extraneous space",
+      "revId": "52afb988c029e447b8f95cf250316c589fb51cc6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
