@@ -28,9 +28,12 @@ com.android.bluetooth
 com.android.btservices
 com.android.cellbroadcast
 com.android.compos
+com.android.configinfrastructure
 com.android.connectivity.resources
 com.android.conscrypt
+com.android.devicelock
 com.android.extservices
+com.android.healthfitness
 com.android.hotspot2.osulogin
 com.android.i18n
 com.android.ipsec
@@ -44,6 +47,7 @@ com.android.ondevicepersonalization
 com.android.os.statsd
 com.android.permission
 com.android.resolv
+com.android.rkpd
 com.android.runtime
 com.android.safetycenter.resources
 com.android.scheduling
