@@ -58,7 +58,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
 {%- for version in device.versions %}
 {%- if version < 17.1 %}
 {%- capture adbRoot -%}
-3. Additionally if you are on LineageOS 16.0 or below, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb root`
+3. Additionally if you are on LineageOS 16.0 or below, open Settings, then "System", then "Developer Options", then select "Root Access Options", and finally "ADB Only". Now, run `adb -d root`
 {%- endcapture -%}
 {%- break %}
 {%- endif %}
@@ -80,7 +80,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {{ adbRoot }}
 {%- if device.format_on_upgrade %}
-4. Reboot into recovery by running `adb reboot recovery`, or by performing the following:
+4. Reboot into recovery by running `adb -d reboot recovery`, or by performing the following:
     * {{ device.recovery_boot }}
 {{ wiping_instructions }}
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
@@ -88,18 +88,18 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 6. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
 {%- endif %}
-4. Run `adb reboot sideload`.
+4. Run `adb -d reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
-5. Run `adb sideload /path/to/zip` (inserting the path to your LineageOS package).
+5. Run `adb -d sideload /path/to/zip` (inserting the path to your LineageOS package).
     {% include alerts/specific/tip_adb_flash_success.html %}
 {%- if device.is_ab_device and device.uses_twrp %}
-6. _(Optionally)_: If you want to install any add-ons, run `adb reboot sideload` once more, then `adb sideload /path/to/zip` those packages in sequence.
+6. _(Optionally)_: If you want to install any add-ons, run `adb -d reboot sideload` once more, then `adb -d sideload /path/to/zip` those packages in sequence.
 {%- elsif device.is_ab_device %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload /path/to/zip` those packages in sequence.
 {%- elsif device.uses_twrp %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb sideload /path/to/zip` those packages in sequence.
+6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then `adb -d sideload /path/to/zip` those packages in sequence.
 {%- else %}
-6. _(Optionally)_: If you want to install any add-ons, click `Apply Update`, then `Apply from ADB`, then `adb sideload /path/to/zip` those packages in sequence.
+6. _(Optionally)_: If you want to install any add-ons, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload /path/to/zip` those packages in sequence.
 {%- endif %}
     {% include alerts/note.html content="If you previously had any Google Apps add-on package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 {% if device.is_ab_device or device.uses_twrp != true %}
@@ -107,7 +107,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- endif %}
 
 {% if device.uses_twrp and device.is_ab_device != true %}
-7. Once you have installed everything successfully, run `adb reboot`.
+7. Once you have installed everything successfully, run `adb -d reboot`.
 {% else %}
 7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}

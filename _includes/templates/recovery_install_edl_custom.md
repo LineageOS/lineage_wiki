@@ -19,7 +19,7 @@
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
-adb reboot edl
+adb -d reboot edl
 ```
     {% if device.edl_boot %}
     You can also boot into edl mode via a key combination:

@@ -11,4 +11,4 @@
 2. Download the relevant firmware zip file from [here](https://www.androidfilehost.com/?w=files&flid=303434).
 3. Sideload the firmware `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`.
+    * On the host machine, sideload the package using: `adb -d sideload filename.zip`.

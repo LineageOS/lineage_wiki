@@ -8,7 +8,7 @@
 3. On the device, select "Advanced", then "ADB Sideload" and swipe to proceed.
 4. Open Terminal (Linux/macOS), or PowerShell (Windows), run the following command within it:
 ```
-adb sideload /path/to/unify_userdata.zip
+adb -d sideload /path/to/unify_userdata.zip
 ```
     {% include alerts/tip.html content="The file path will not be named identically to what stands in this command, so adjust accordingly." %}
 5. This will display a warning and then exit. At this point, to confirm the action please repeat steaps 3 & 4.

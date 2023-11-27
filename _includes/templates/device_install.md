@@ -36,7 +36,7 @@ Do **not** continue after something fails!
 
 {%- capture bootloader %}
 Your device must be on bootloader version {% for el in device.required_bootloader %} {% if forloop.last %} `{{ el }}` {% else %} `{{ el }}` / {% endif %} {% endfor %}, otherwise the instructions found in this page will not work.
-The current bootloader version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window.
+The current bootloader version can be checked by running the command `getprop ro.bootloader` in a terminal app or an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window.
 {% endcapture %}
 {% include alerts/warning.html content=bootloader %}
 {%- endif %}
@@ -129,14 +129,14 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif %}
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`.
+    * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
 5. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
-    * On the host machine, sideload the package using: `adb sideload filename.zip`.
+    * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
         {% include alerts/specific/note_retrofit_sideload_failed.html %}
@@ -152,10 +152,10 @@ There are no recovery installation instructions for this discontinued device.
 {% include alerts/warning.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
 
 {%- if device.is_ab_device and device.uses_twrp %}
-1. Even though you are already in recovery, run `adb reboot sideload`, then `adb sideload filename.zip` for all desired packages in sequence.
+1. Even though you are already in recovery, run `adb -d reboot sideload`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- elsif device.is_ab_device %}
 1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
-2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb sideload filename.zip` for all desired packages in sequence.
+2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- else %}
 1. Repeat the sideload steps above for all desired packages in sequence.
 {%- endif %}
@@ -165,7 +165,7 @@ There are no recovery installation instructions for this discontinued device.
 Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
 
 {%- if device.uses_twrp and device.is_ab_device != true %}
-* Run `adb reboot`.
+* Run `adb -d reboot`.
 {%- else %}
 * Click the back arrow in the top left of the screen, then "Reboot system now".
 {%- endif %}

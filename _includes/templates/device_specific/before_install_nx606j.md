@@ -7,7 +7,7 @@
 3. Connect your device to your PC via USB.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
-adb reboot edl
+adb -d reboot edl
 ```
 5. Flash abl onto your device:
 ```

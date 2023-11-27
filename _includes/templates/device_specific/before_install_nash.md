@@ -1,6 +1,6 @@
 ## Firmware Requirements
 
-Before following these instructions please ensure that the device is on the latest firmware available for your variant. To discern this, run the command `adb shell getprop ro.boot.hardware.sku`. Please refer to the table below to discern what the latest firmware for your variant is:
+Before following these instructions please ensure that the device is on the latest firmware available for your variant. To discern this, run the command `adb -d shell getprop ro.boot.hardware.sku`. Please refer to the table below to discern what the latest firmware for your variant is:
 
 | Variant | Version |
 |---------|---------|
