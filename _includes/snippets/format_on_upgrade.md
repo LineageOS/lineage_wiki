@@ -7,12 +7,12 @@
 {%- capture wiping_instructions %}
 {%- if device.format_on_upgrade == "fbe" %}
 8. If your device is not FBE encrypted, wipe your data partition (this is usually named "Wipe", or "Format").
-    {% include alerts/note.html content="You can check if it's FBE encrypted by running the following command: `adb shell getprop ro.crypto.type`.
+    {% include alerts/note.html content="You can check if it's FBE encrypted by running the following command: `adb -d shell getprop ro.crypto.type`.
     If the output of this is `file`, then your device is FBE encrypted!" %}
 {%- elsif device.format_on_upgrade == "fde" %}
 8. If your device is FDE encrypted, you will need to wipe your data partition (this is usually named "Wipe", or "Format").
     {% include alerts/note.html content="This is due to the fact that Android 13 dropped support for FDE (Full Disk Encryption)." %}
-    {% include alerts/note.html content="You can check if it's FDE encrypted by running the following command: `adb shell getprop ro.crypto.state`.
+    {% include alerts/note.html content="You can check if it's FDE encrypted by running the following command: `adb -d shell getprop ro.crypto.state`.
     If the output of this is `encrypted`, then your device is FDE encrypted!" %}
 {%- elsif device.format_on_upgrade == "repartition" %}
 8. If your device has not yet been repartitioned, select "Advanced", then "Reboot to Bootloader".
@@ -22,7 +22,7 @@
 10. Now, use the volume buttons to select "Advanced", and then "Enable ADB".
 11. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
-adb reboot bootloader
+adb -d reboot bootloader
 ```
     {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:

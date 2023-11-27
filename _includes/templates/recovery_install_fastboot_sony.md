@@ -21,7 +21,7 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 3. Connect the device to your PC via USB.
 4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
-adb reboot bootloader
+adb -d reboot bootloader
 ```
     {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
@@ -64,7 +64,7 @@ fastboot oem unlock <your_unlock_code>
 2. Connect your device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
-adb reboot bootloader
+adb -d reboot bootloader
 ```
     {% if device.download_boot %}
     You can also boot into fastboot mode via a key combination:
@@ -87,17 +87,17 @@ fastboot reboot
 ```
 7. Push the TWRP image to your device:
 ```
-adb push twrp-x.x.x-x-{{ custom_recovery_codename }}.img /sdcard
+adb -d push twrp-x.x.x-x-{{ custom_recovery_codename }}.img /sdcard
 ```
 8. Enter shell on the device:
 ```
-adb shell
+adb -d shell
 ```
 9. Flash TWRP to `recovery` permanently:
 ```
 dd if=/sdcard/twrp-x.x.x-x-{{ custom_recovery_codename }}.img of=/dev/block/platform/msm_sdcc.1/by-name/FOTAKernel
 ```
-10. Exit the adb shell:
+10. Exit the adb -d shell:
 ```
 exit
 ```

@@ -18,7 +18,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 3. Connect the device to your PC via USB cable.
 4. Reboot to bootloader by typing:
 ```
-adb reboot bootloader
+adb -d reboot bootloader
 ```
 5. Unlock the device by typing:
 ```

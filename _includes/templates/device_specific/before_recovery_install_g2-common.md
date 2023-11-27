@@ -5,10 +5,10 @@ In order to be able to boot a custom recovery and LineageOS you need to downgrad
 2. Place `aboot.bin` and `laf.bin` on the root of `/sdcard`:
    * Using adb:
 ```
-adb push aboot.bin /sdcard/aboot.bin
-adb push laf.bin /sdcard/laf.bin
+adb -d push aboot.bin /sdcard/aboot.bin
+adb -d push laf.bin /sdcard/laf.bin
 ```
-3. Now, open an `adb shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
+3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
 ```
 su
 dd if=/sdcard/aboot.bin of=/dev/block/platform/msm_sdcc.1/by-name/aboot
