@@ -16,6 +16,24 @@
       "message": "For Pixels I also have\n\n```\ncom.android.hardware.wifi\ncom.android.telephonymodules\ncom.google.pixel.vibrator.hal\n```",
       "revId": "98a9fbcde71e136ee88e5b9b5115927c39cdd640",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "784979f6_3c545b6f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-28T21:51:05Z",
+      "side": 1,
+      "message": "add them then ^^",
+      "parentUuid": "22ca0af9_d051e429",
+      "revId": "98a9fbcde71e136ee88e5b9b5115927c39cdd640",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
