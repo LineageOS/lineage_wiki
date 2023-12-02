@@ -45,3 +45,9 @@ These packages are only dependent on your OS version and architecture, which can
 |LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64-ATV/releases/latest))|
 |Older versions|[See here](gapps/old.html)|
 {: .table }
+
+#### (Android TV only) GApps Variants
+Android TV MindTheGapps packages have two variants `full` and `minimal`:
+
+* `full` includes the Google Android TV (note, not Google TV) launcher and reccomendations applications.
+* `minimal` does not include the Google Android TV launcher and reccomendations, and utilizes an Android 9 era non-GMS launcher.
