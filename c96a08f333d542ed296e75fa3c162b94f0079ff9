@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d770d59b_e5c5b265",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14048
+      },
+      "writtenOn": "2023-12-02T05:52:57Z",
+      "side": 1,
+      "message": "Wording sounds good to me. Needs to hold pending the first upload of these variants.",
+      "revId": "c96a08f333d542ed296e75fa3c162b94f0079ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
