@@ -16,6 +16,75 @@
       "message": "Wording sounds good to me. Needs to hold pending the first upload of these variants.",
       "revId": "c96a08f333d542ed296e75fa3c162b94f0079ff9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8872cdcb_1d085675",
+        "filename": "pages/gapps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-02T09:47:11Z",
+      "side": 1,
+      "message": "recommendations",
+      "range": {
+        "startLine": 52,
+        "startChar": 75,
+        "endLine": 52,
+        "endChar": 90
+      },
+      "revId": "c96a08f333d542ed296e75fa3c162b94f0079ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f0cd0482_f8e856ad",
+        "filename": "pages/gapps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-02T09:47:11Z",
+      "side": 1,
+      "message": "recommendations",
+      "range": {
+        "startLine": 53,
+        "startChar": 54,
+        "endLine": 53,
+        "endChar": 69
+      },
+      "revId": "c96a08f333d542ed296e75fa3c162b94f0079ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "342b0b06_d78c811d",
+        "filename": "pages/gapps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-12-02T09:47:11Z",
+      "side": 1,
+      "message": "recommendations",
+      "range": {
+        "startLine": 55,
+        "startChar": 169,
+        "endLine": 55,
+        "endChar": 184
+      },
+      "revId": "c96a08f333d542ed296e75fa3c162b94f0079ff9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
