@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 20
 dimensions: {depth: 7, height: 157.4, width: 247.6}
-download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_samsung_gta4l
 gpu: Qualcomm Adreno 610
 image: gta4l.png
