@@ -16,6 +16,24 @@
       "message": "really? Here I can just long press with USB and eventually it\u0027ll boot to DL.",
       "revId": "2ca3d13ce0ddbbca15aea137958b76df5b892b34",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d57fa424_a9b49403",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2023-12-03T21:38:17Z",
+      "side": 1,
+      "message": "gtowifi is kind of stupid. Flatly refuses to get to DL mode any other way. I think it\u0027s a Wingtech thing (this device is just an ODM with Samsung logo and other Samsung things stitched on it.)\n\ngta4l is probably the same (as that\u0027s also Wingtech), but we should wait and see what Christian has to say about that.",
+      "parentUuid": "97894613_b0fc6d84",
+      "revId": "2ca3d13ce0ddbbca15aea137958b76df5b892b34",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
