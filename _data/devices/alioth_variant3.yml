@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True}
 before_install_device_variants:
   - {device: 'Mi 11X India', download_link: 'https://bigota.d.miui.com/V14.0.2.0.TKHINXM/miui_ALIOTHINGlobal_V14.0.2.0.TKHINXM_f9ee9089e7_13.0.zip', firmware: 'V14.0.2.0.TKHINXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}

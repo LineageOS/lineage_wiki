@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True}
 before_install_device_variants:
   - {device: 'POCO F3 EEA', download_link: 'https://bigota.d.miui.com/V14.0.7.0.TKHEUXM/miui_ALIOTHEEAGlobal_V14.0.7.0.TKHEUXM_4f54362c0d_13.0.zip', firmware: 'V14.0.7.0.TKHEUXM'}
   - {device: 'POCO F3 Global', download_link: 'https://bigota.d.miui.com/V14.0.4.0.TKHMIXM/miui_ALIOTHGlobal_V14.0.4.0.TKHMIXM_b9ed940850_13.0.zip', firmware: 'V14.0.4.0.TKHMIXM'}
