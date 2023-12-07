@@ -21,6 +21,7 @@ maintainers: [ikeramat]
 models: [GT-I9301I, GT-I9301Q]
 name: Galaxy S III Neo (Samsung Camera)
 network: [2G GSM, 2G CDMA, 3G UMTS]
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
 quirks: [nfc]
 ram: 1.5 GB
