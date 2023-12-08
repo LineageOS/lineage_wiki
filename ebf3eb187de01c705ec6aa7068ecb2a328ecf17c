@@ -39,6 +39,30 @@
       },
       "revId": "ebf3eb187de01c705ec6aa7068ecb2a328ecf17c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3ce587a_c8a1e6d9",
+        "filename": "pages/gapps.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-12-08T17:46:18Z",
+      "side": 1,
+      "message": "No I wrote it right. The application included is in fact called \"Recommendations\"",
+      "parentUuid": "aa233b34_8361fafd",
+      "range": {
+        "startLine": 52,
+        "startChar": 75,
+        "endLine": 52,
+        "endChar": 90
+      },
+      "revId": "ebf3eb187de01c705ec6aa7068ecb2a328ecf17c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
