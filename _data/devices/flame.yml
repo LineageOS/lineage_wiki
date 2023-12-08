@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 3430, removable: False, tech: 'Li-Po'}
+battery: {capacity: 2800, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
