@@ -156,6 +156,8 @@ There are no recovery installation instructions for this discontinued device.
 {%- elsif device.is_ab_device %}
 1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
 2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+{%- elsif device.uses_twrp != true %}
+1. Click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- else %}
 1. Repeat the sideload steps above for all desired packages in sequence.
 {%- endif %}
