@@ -16,6 +16,23 @@
       "message": "removed gtowifi.",
       "revId": "47ff7c4b5b0f85553fb86887fdea9a9c7911c30d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a3453d6_3e67ad3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2023-12-09T21:14:57Z",
+      "side": 1,
+      "message": "Works on gta4lwifi and gta4l (SM-T500 and SM-T505)",
+      "revId": "47ff7c4b5b0f85553fb86887fdea9a9c7911c30d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
