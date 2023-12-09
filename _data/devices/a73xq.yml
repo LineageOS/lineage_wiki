@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13'}
+before_recovery_install: samsung_qcom
+bluetooth: {profiles: [A2DP], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '108 MP'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '5 MP (depth)'}
+codename: a73xq
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 3 x 2.2 GHz & 4 x 1.9 GHz
+current_branch: 20
+dimensions: {depth: 7.6, height: 163.7, width: 76.1}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_sm7325
+gpu: Qualcomm Adreno 642L
+image: a73xq.png
+install_method: odin
+kernel: android_kernel_samsung_sm7325
+maintainers: [Simon1511]
+models: [SM-A736B, SM-A736B/DS]
+name: Galaxy A73 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+quirks: [ims]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2022
+screen: {resolution: '1080x2400', size: 6.7, technology: 'Super AMOLED'}
+sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
+soc: Qualcomm SM7325 Snapdragon 778G 5G
+storage: 128/256 GB
+tree: android_device_samsung_a73xq
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [20]
+wifi: 802.11 a/b/g/n/ac/ax
