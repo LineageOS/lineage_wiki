@@ -24,7 +24,7 @@ kernel: android_kernel_oneplus_sm8250
 maintainers: [jabashque]
 models: [IN2010, IN2011, IN2013, IN2015]
 name: '8'
-network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8/12GB GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
