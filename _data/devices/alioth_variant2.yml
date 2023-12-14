@@ -1,8 +1,6 @@
 architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
-before_install_device_variants:
-  - {device: 'Redmi K40 China', download_link: 'https://bigota.d.miui.com/V14.0.4.0.TKHCNXM/miui_ALIOTH_V14.0.4.0.TKHCNXM_a249736c6c_13.0.zip', firmware: 'V14.0.4.0.TKHCNXM'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
@@ -17,7 +15,6 @@ cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
 current_branch: 20
 dimensions: {depth: 7.8, height: 163.7, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-firmware_update: firmware_update_xiaomi_sm8250_vab
 gpu: Qualcomm Adreno 650
 image: alioth.png
 install_method: fastboot_xiaomi
