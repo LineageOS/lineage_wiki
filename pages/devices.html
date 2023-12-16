@@ -278,7 +278,7 @@ function showFilters() {
 {%- else %}
 {%- capture imagePath %}{{ "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/small/unknown.png" }}{% endcapture %}
 {%- endif %}
-{%- assign url = "devices/unknown" | relative_url %}
+{%- assign url = "devices/unknown/" | relative_url %}
 <div class="item" onClick="location.href='{{ url }}'" data-variant="unknown" data-url="{{ url }}">
   <div class="deviceimage">
     <a href="{{ url }}"><img src="{{ imagePath }}" alt="unknown device" loading="lazy" /></a>
