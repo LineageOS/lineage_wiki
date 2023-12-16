@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Unknown device
-permalink: /devices/unknown
+permalink: /devices/unknown/
 search: exclude
 toc: false
 ---
