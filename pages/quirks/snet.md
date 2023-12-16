@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Quirks - Device integrity
-permalink: quirks/snet
+permalink: quirks/snet/
 toc: false
 ---
 

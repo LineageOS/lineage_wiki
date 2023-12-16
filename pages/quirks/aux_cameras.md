@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Quirks - Auxillary/Peripheral Cameras
-permalink: quirks/aux_cameras
+permalink: quirks/aux_cameras/
 robots: noindex
 search: exclude
 toc: false

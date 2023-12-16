@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Quirks - NFC
-permalink: quirks/nfc
+permalink: quirks/nfc/
 robots: noindex
 search: exclude
 toc: false
