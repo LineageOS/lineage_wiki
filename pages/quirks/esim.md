@@ -1,16 +1,16 @@
 ---
 sidebar: home_sidebar
-title: Quirks - ESIM
+title: Quirks - eSIM
 permalink: quirks/esim
 robots: noindex
 search: exclude
 toc: false
 ---
 
-## ESIM
+## eSIM
 
-To read about ESIM in general, see [here](https://en.wikipedia.org/wiki/ESIM).
-You have been redirected here because LineageOS builds for your device do not support ESIM functions.
+To read about eSIM in general, see [here](https://en.wikipedia.org/wiki/eSIM).
+You have been redirected here because LineageOS builds for your device do not support eSIM functions.
 
 ### Why is that?
 
