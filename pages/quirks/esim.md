@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Quirks - eSIM
-permalink: quirks/esim
+permalink: quirks/esim/
 robots: noindex
 search: exclude
 toc: false

@@ -81,7 +81,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% endif %}
 
 {%- for quirk in quirks %}
-{%- capture url %}/quirks/{{ quirk | downcase }}{% endcapture %}
+{%- capture url %}/quirks/{{ quirk | downcase }}/{% endcapture %}
 {%- assign match = site.pages | find: "url": url %}
 {%- if match == nil %}
 {%- continue %}

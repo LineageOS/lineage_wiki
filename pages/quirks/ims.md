@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Quirks - IMS
-permalink: quirks/ims
+permalink: quirks/ims/
 robots: noindex
 search: exclude
 toc: false
