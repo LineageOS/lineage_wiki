@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Google apps
-permalink: gapps.html
+permalink: gapps/
 ---
 Google apps are the proprietary Google-branded applications that come pre-installed with most Android devices, such as the Play Store, Gmail, Maps, etc.
 Due to licensing restrictions, these apps cannot come pre-installed with LineageOS and must be installed separately. The Google apps are not required to
@@ -33,7 +33,7 @@ These packages are only dependent on your OS version and architecture, which can
 |LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest))|
 |LineageOS 19 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64/releases/latest))|
 |LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64/releases/latest))|
-|Older versions|[See here](gapps/old.html)|
+|Older versions|[See here]({{ "gapps/old" | relative_url }})|
 {: .table }
 
 ### Android TV
@@ -43,5 +43,5 @@ These packages are only dependent on your OS version and architecture, which can
 |LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64-ATV/releases/latest))|
 |LineageOS 19 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64-ATV/releases/latest))|
 |LineageOS 18.1 (Android 11)|MindTheGapps ([ARM](https://github.com/MindTheGapps/11.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/11.0.0-arm64-ATV/releases/latest))|
-|Older versions|[See here](gapps/old.html)|
+|Older versions|[See here]({{ "gapps/old" | relative_url }})|
 {: .table }

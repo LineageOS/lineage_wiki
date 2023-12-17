@@ -72,10 +72,10 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- else %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS install package.
 {%- endif %}
-2. If you are currently using (or now want to use) an application package add-on such as [Google Apps]({{ "gapps.html" | relative_url }}), you have the following options:
-    - keep using them: Download the appropriate version [now]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
+2. If you are currently using (or now want to use) an application package add-on such as [Google Apps]({{ "gapps" | relative_url }}), you have the following options:
+    - keep using them: Download the appropriate version [now]({{ "gapps" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
     - remove them: You can only do so by performing a factory reset, which will also remove all your data.
-    - start using them: You can only do so by performing a factory reset, which will also remove all your data. Download the appropriate version [now]({{ "gapps.html" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
+    - start using them: You can only do so by performing a factory reset, which will also remove all your data. Download the appropriate version [now]({{ "gapps" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 3. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {{ adbRoot }}
