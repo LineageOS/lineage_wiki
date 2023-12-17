@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: How to translate
 folder: how-tos
 redirect_from: translate-howto.html
-permalink: /how-to/translate
+permalink: /how-to/translate/
 tags:
  - how-to
 ---

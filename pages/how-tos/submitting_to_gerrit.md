@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: How to submit a patch
 folder: how-tos
 redirect_from: submitting-patch-howto.html
-permalink: /how-to/submitting-patches
+permalink: /how-to/submitting-patches/
 tags:
  - how-to
 ---

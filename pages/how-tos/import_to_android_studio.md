@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: How to import the sources to Android Studio
 folder: how-tos
 redirect_from: import-android-studio-howto.html
-permalink: /how-to/import-to-android-studio
+permalink: /how-to/import-to-android-studio/
 tags:
  - how-to
 ---

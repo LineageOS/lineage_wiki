@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: How to submit a bug report
 folder: how-tos
 redirect_from: bugreport-howto.html
-permalink: /how-to/bugreport
+permalink: /how-to/bugreport/
 tags:
  - how-to
 ---

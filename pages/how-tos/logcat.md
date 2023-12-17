@@ -3,7 +3,7 @@ sidebar: home_sidebar
 title: How to capture logs
 folder: how-tos
 redirect_from: logcat.html
-permalink: /how-to/logcat
+permalink: /how-to/logcat/
 tags:
  - how-to
 ---
