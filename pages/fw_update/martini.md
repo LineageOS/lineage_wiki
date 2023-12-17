@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on martini
 folder: fw_update
-permalink: /devices/martini/fw_update
+permalink: /devices/martini/fw_update/
 device: martini
 ---
 {% assign device = site.data.devices[page.device] %}

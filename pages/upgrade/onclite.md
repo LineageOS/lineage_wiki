@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Upgrade LineageOS on onclite
 folder: upgrade
-permalink: /devices/onclite/upgrade
+permalink: /devices/onclite/upgrade/
 device: onclite
 toc: false
 ---

@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on ursa
 folder: fw_update
-permalink: /devices/ursa/fw_update
+permalink: /devices/ursa/fw_update/
 device: ursa
 ---
 {% assign device = site.data.devices[page.device] %}

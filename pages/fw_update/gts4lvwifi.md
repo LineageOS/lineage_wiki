@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on gts4lvwifi
 folder: fw_update
-permalink: /devices/gts4lvwifi/fw_update
+permalink: /devices/gts4lvwifi/fw_update/
 device: gts4lvwifi
 ---
 {% assign device = site.data.devices[page.device] %}

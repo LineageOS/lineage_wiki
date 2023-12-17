@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on gta4lwifi
 folder: fw_update
-permalink: /devices/gta4lwifi/fw_update
+permalink: /devices/gta4lwifi/fw_update/
 device: gta4lwifi
 ---
 {% assign device = site.data.devices[page.device] %}

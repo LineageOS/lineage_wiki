@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on alioth
 folder: fw_update
-permalink: /devices/alioth/fw_update/variant2
+permalink: /devices/alioth/fw_update/variant2/
 device: alioth_variant2
 ---
 {% assign device = site.data.devices[page.device] %}

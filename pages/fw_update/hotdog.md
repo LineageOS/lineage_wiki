@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on hotdog
 folder: fw_update
-permalink: /devices/hotdog/fw_update
+permalink: /devices/hotdog/fw_update/
 device: hotdog
 ---
 {% assign device = site.data.devices[page.device] %}

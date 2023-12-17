@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on enchilada
 folder: fw_update
-permalink: /devices/enchilada/fw_update
+permalink: /devices/enchilada/fw_update/
 device: enchilada
 ---
 {% assign device = site.data.devices[page.device] %}

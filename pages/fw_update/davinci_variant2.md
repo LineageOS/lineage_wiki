@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on davinci
 folder: fw_update
-permalink: /devices/davinci/fw_update/variant2
+permalink: /devices/davinci/fw_update/variant2/
 device: davinci_variant2
 ---
 {% assign device = site.data.devices[page.device] %}

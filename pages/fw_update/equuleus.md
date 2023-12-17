@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update firmware on equuleus
 folder: fw_update
-permalink: /devices/equuleus/fw_update
+permalink: /devices/equuleus/fw_update/
 device: equuleus
 ---
 {% assign device = site.data.devices[page.device] %}

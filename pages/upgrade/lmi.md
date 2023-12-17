@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Upgrade LineageOS on lmi
 folder: upgrade
-permalink: /devices/lmi/upgrade
+permalink: /devices/lmi/upgrade/
 device: lmi
 toc: false
 ---
