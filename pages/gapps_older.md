@@ -1,7 +1,7 @@
 ---
 sidebar: home_sidebar
 title: Google apps for older versions
-permalink: gapps/old
+permalink: gapps/old/
 ---
 
 ## Note regarding Open GApps
