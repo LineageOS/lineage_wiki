@@ -2,6 +2,7 @@
 sidebar: home_sidebar
 title: Google apps
 permalink: gapps/
+redirect_from: gapps.html
 ---
 Google apps are the proprietary Google-branded applications that come pre-installed with most Android devices, such as the Play Store, Gmail, Maps, etc.
 Due to licensing restrictions, these apps cannot come pre-installed with LineageOS and must be installed separately. The Google apps are not required to
