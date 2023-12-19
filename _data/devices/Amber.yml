@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 508
 image: Amber.png
 install_method: fastboot_nexus
 is_ab_device: true
-kernel: android_kernel_yandex_Amber
+kernel: android_kernel_yandex_sdm660
 maintainers: []
 name: 'Phone'
 network: [2G GSM, 3G UMTS, 4G LTE]
