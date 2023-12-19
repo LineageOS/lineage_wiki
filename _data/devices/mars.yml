@@ -19,7 +19,7 @@ gpu: Qualcomm Adreno 660
 image: mars.png
 install_method: fastboot_xiaomi
 is_ab_device: true
-kernel: android_kernel_xiaomi_sm8350
+kernel: {repo: android_kernel_xiaomi_sm8350, version: '5.4'}
 maintainers: [Flower Sea]
 models: [M2102K1AC]
 name: Mi 11 Pro

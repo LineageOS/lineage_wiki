@@ -17,7 +17,7 @@ firmware_update: firmware_update_samsung_gta4xl
 gpu: ARM Mali-G72 MP3
 image: gta4xl.png
 install_method: heimdall
-kernel: android_kernel_samsung_gta4xl
+kernel: {repo: android_kernel_samsung_gta4xl, version: '4.14'}
 maintainers: [haggertk, Linux4]
 models: [SM-P615]
 name: Galaxy Tab S6 Lite (LTE)

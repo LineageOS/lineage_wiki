@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while bo
 gpu: Qualcomm Adreno 530
 image: pme.png
 install_method: fastboot_htc
-kernel: android_kernel_htc_msm8996
+kernel: {repo: android_kernel_htc_msm8996, version: '3.18'}
 maintainers: []
 name: '10'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

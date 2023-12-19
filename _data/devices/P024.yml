@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 306
 image: P024.png
 install_method: fastboot_nexus
-kernel: android_kernel_asus_P024
+kernel: {repo: android_kernel_asus_P024, version: '3.10'}
 maintainers: []
 name: ZenPad 8.0 (Z380KL)
 network: [2G GSM, 3G UMTS, 4G LTE]

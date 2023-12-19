@@ -16,7 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Qualcomm Adreno 330
 image: sample.png
 install_method: heimdall
-kernel: android_kernel_lge_msm8974
+kernel: {repo: android_kernel_lge_msm8974, version: '3.4'}
 maintainers: [you, another person, a third person]
 models: [A0001, SM-G900F]
 name: Galaxy Note Sample

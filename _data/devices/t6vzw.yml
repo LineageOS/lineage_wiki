@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 320
 image: t6.png
 install_method: fastboot_htc
-kernel: android_kernel_htc_msm8960
+kernel: {repo: android_kernel_htc_msm8960, version: '3.4'}
 maintainers: []
 name: One Max (Verizon)
 network: [2G CDMA, 3G UMTS, 4G LTE]

@@ -16,7 +16,7 @@ gpu: ARM Mali-G72 MP12
 image: charlotte.png
 install_method: fastboot_huawei
 is_unlockable: false
-kernel: android_kernel_huawei_kirin970
+kernel: {repo: android_kernel_huawei_kirin970, version: '4.9'}
 maintainers: []
 models: [CLT-AL00, CLT-AL01, CLT-L04, CLT-L09, CLT-L29, CLT-TL00, CLT-TL01]
 name: P20 Pro

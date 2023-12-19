@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 510
 image: gohan.png
 install_method: fastboot_nexus
-kernel: android_kernel_bq_msm8976
+kernel: {repo: android_kernel_bq_msm8976, version: '3.10'}
 maintainers: []
 name: Aquaris X5 Plus
 network: [2G GSM, 3G UMTS, 4G LTE]

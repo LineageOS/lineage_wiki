@@ -15,7 +15,7 @@ format_on_upgrade: fbe
 gpu: Qualcomm Adreno 530
 image: gemini.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_msm8996
+kernel: {repo: android_kernel_xiaomi_msm8996, version: '4.4'}
 maintainers: [bgcngm, ikeramat]
 name: Mi 5
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

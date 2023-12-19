@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 405
 image: athene.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_msm8952
+kernel: {repo: android_kernel_motorola_msm8952, version: '3.10'}
 maintainers: []
 models: [XT1622, XT1624, XT1625, XT1626, XT1640, XT1641, XT1642, XT1643, XT1644]
 name: moto g4

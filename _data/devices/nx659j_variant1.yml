@@ -19,7 +19,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 650
 image: nx659j_variant1.png
 install_method: fastboot_nubia
-kernel: android_kernel_nubia_sm8250
+kernel: {repo: android_kernel_nubia_sm8250, version: '4.19'}
 maintainers: [DD3Boh]
 models: [NX659J, NX659J-EEA, NX659J-UN]
 name: Red Magic 5G (Global)

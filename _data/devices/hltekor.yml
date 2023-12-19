@@ -15,7 +15,7 @@ format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330
 image: hlte.png
 install_method: odin
-kernel: android_kernel_samsung_msm8974
+kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
 maintainers: [haggertk, npjohnson]
 models: [SM-N900K, SM-N900L, SM-N900S]
 name: Galaxy Note 3 LTE (N900K/L/S)

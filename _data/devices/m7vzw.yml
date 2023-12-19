@@ -15,7 +15,7 @@ download_boot: ''
 gpu: Qualcomm Adreno 320
 image: m7.png
 install_method: fastboot_htc
-kernel: android_kernel_htc_msm8960
+kernel: {repo: android_kernel_htc_msm8960, version: '3.4'}
 maintainers: []
 name: One (Verizon)
 network: [2G CDMA, 3G CDMA2000, 4G LTE]

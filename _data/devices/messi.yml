@@ -19,7 +19,7 @@ image: messi.png
 install_method: fastboot_motorola
 is_ab_device: true
 is_unlockable: false
-kernel: android_kernel_motorola_msm8998
+kernel: {repo: android_kernel_motorola_msm8998, version: '4.4'}
 maintainers: [npjohnson]
 models: [XT1929-15, XT1929-17]
 name: moto z3

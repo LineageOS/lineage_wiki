@@ -16,7 +16,7 @@ firmware_update: firmware_update_samsung_gtowifi
 gpu: Qualcomm Adreno 504
 image: gtowifi.png
 install_method: odin
-kernel: android_kernel_samsung_sdm429
+kernel: {repo: android_kernel_samsung_sdm429, version: '4.9'}
 maintainers: [lifehackerhansol]
 models: [SM-T290]
 name: Galaxy Tab A 8.0 (2019)

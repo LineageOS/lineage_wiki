@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: NVIDIA Maxwell 256-core
 image: dragon.png
 install_method: fastboot_nexus
-kernel: android_kernel_google_dragon
+kernel: {repo: android_kernel_google_dragon, version: '3.18'}
 maintainers: []
 name: Pixel C
 network: None

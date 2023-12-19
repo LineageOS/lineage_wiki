@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 630
 image: aurora.png
 install_method: fastboot_sony
 is_ab_device: true
-kernel: android_kernel_sony_sdm845
+kernel: {repo: android_kernel_sony_sdm845, version: '4.9'}
 maintainers: [dtrunk90]
 models: [H8116, H8166]
 name: Xperia XZ2 Premium

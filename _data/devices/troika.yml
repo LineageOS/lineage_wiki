@@ -18,7 +18,7 @@ gpu: ARM Mali-G72 MP3
 image: troika.png
 install_method: fastboot_motorola
 is_ab_device: true
-kernel: android_kernel_motorola_exynos9610
+kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
 maintainers: [Stricted, npjohnson]
 models: [XT2013-1, XT2013-2, XT2013-3, XT2013-4]
 name: one action

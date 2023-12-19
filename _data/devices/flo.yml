@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 320
 image: flo.png
 install_method: fastboot_nexus
-kernel: android_kernel_google_msm
+kernel: {repo: android_kernel_google_msm, version: '3.4'}
 maintainers: []
 migrated_to: {codename: 'flox', version: 18.1}
 name: Nexus 7 (Wi-Fi, 2013 version)

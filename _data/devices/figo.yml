@@ -16,7 +16,7 @@ gpu: ARM Mali-T830 MP2
 image: figo.png
 install_method: fastboot_huawei
 is_unlockable: false
-kernel: android_kernel_huawei_hi6250
+kernel: {repo: android_kernel_huawei_hi6250, version: '4.9'}
 maintainers: []
 models: [FIG-LX1, FIG-LA1, FIG-LX2, FIG-LX3, FIG-TL10, FIG-AL10]
 name: P Smart

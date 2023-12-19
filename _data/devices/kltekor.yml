@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Qualcomm Adreno 330
 image: klte.png
 install_method: odin
-kernel: android_kernel_samsung_msm8974
+kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
 maintainers: [haggertk]
 models: [SM-G900K, SM-G900L, SM-G900S]
 name: Galaxy S5 LTE (G900K/L/S)

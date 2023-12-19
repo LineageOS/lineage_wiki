@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: [Qualcomm Adreno 306, Qualcomm Adreno 405]
 image: Z00T.png
 install_method: fastboot_zenfone
-kernel: android_kernel_asus_msm8916
+kernel: {repo: android_kernel_asus_msm8916, version: '3.10'}
 maintainers: []
 models: [ZE500KL, ZE550KL]
 name: Zenfone 2 Laser (720p)

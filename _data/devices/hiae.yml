@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Qualcomm Adreno 405
 image: hiae.png
 install_method: fastboot_htc
-kernel: android_kernel_htc_msm8952
+kernel: {repo: android_kernel_htc_msm8952, version: '3.10'}
 maintainers: []
 models: [2PQ9120, 2PQ9100]
 name: One A9

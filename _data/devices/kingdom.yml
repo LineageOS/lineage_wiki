@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>V
 gpu: Qualcomm Adreno 330
 image: kingdom.png
 install_method: fastboot_custom
-kernel: android_kernel_lenovo_msm8974
+kernel: {repo: android_kernel_lenovo_msm8974, version: '3.4'}
 maintainers: []
 models: [kingdom_row (ROW), kingdomt (CN)]
 name: Vibe Z2 Pro

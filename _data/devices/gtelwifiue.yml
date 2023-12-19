@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: Qualcomm Adreno 306
 image: gtelwifiue.png
 install_method: heimdall
-kernel: android_kernel_samsung_msm8916
+kernel: {repo: android_kernel_samsung_msm8916, version: '3.10'}
 maintainers: []
 models: [SM-T560NU]
 name: Galaxy Tab E 9.6 (WiFi)

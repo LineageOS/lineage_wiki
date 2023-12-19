@@ -16,7 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: Qualcomm Adreno 330
 image: kltesprsports.png
 install_method: heimdall
-kernel: android_kernel_samsung_msm8974
+kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
 maintainers: []
 models: [SM-G860P]
 name: Galaxy S5 Sport

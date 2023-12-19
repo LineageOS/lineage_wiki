@@ -20,7 +20,7 @@ firmware_update: firmware_update_samsung_exynos9820_5G
 gpu: ARM Mali-G76 MP12
 image: d2s.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos9820
+kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
 maintainers: [Linux4]
 models: [SM-N976B, SM-N976N]
 name: Galaxy Note10+ 5G

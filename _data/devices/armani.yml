@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 305
 image: armani.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_armani
+kernel: {repo: android_kernel_xiaomi_armani, version: '3.4'}
 maintainers: []
 name: Redmi 1S
 network: [2G GSM, 3G UMTS]

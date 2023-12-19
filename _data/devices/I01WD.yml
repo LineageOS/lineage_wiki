@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 640
 image: I01WD.png
 install_method: fastboot_zenfone
 is_ab_device: true
-kernel: android_kernel_asus_sm8150
+kernel: {repo: android_kernel_asus_sm8150, version: '4.14'}
 maintainers: []
 name: Zenfone 6 (ZS630KL)
 network: [2G GSM, 3G UMTS, 4G LTE]

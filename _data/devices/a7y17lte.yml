@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T830 MP3
 image: a7y17lte.png
 install_method: heimdall
-kernel: android_kernel_samsung_universal7880
+kernel: {repo: android_kernel_samsung_universal7880, version: '3.18'}
 maintainers: [filiprrs]
 models: [SM-A720F, SM-A720F/DS, SM-A720S]
 name: Galaxy A7 (2017)

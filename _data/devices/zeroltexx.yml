@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T760 MP8
 image: zeroltexx.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos7420
+kernel: {repo: android_kernel_samsung_exynos7420, version: '3.10'}
 maintainers: []
 models: [SM-G925F]
 name: Galaxy S6 Edge
