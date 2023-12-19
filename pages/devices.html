@@ -99,10 +99,16 @@ function applyFilters() {
       return years.some(x => x >= value);
     },
 
-    // Versions
+    // LineageOS versions
     (device) => {
       let value = checkBoxValues("versions").map((x) => parseFloat(x));
       return value.length === 0 || value.some(x => device.versions.includes(x));
+    },
+
+    // Kernel versions
+    (device) => {
+      let value = checkBoxValues("kernel_versions");
+      return value.length === 0 || value.some(x => device.kernel.version.includes(x));
     },
   ];
 
@@ -437,9 +443,22 @@ function showFilters() {
           <label />
         </div>
 
-        <p class="device-filters-header">Versions:</p>
+        <p class="device-filters-header">LineageOS versions:</p>
         {% for value in definitions.valid_branches.enum %}
           <div class="form-check" data-filter="versions">
+            <label class="form-check-label">
+              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+              {{ value }}
+              <span class="form-check-sign no-ripple">
+                  <span class="check" />
+              </span>
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">Kernel versions:</p>
+        {% for value in definitions.valid_kernel_versions.enum %}
+          <div class="form-check" data-filter="kernel_versions">
             <label class="form-check-label">
               <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
               {{ value }}
