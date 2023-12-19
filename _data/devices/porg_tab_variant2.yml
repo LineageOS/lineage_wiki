@@ -13,7 +13,7 @@ flash_codename: p3450
 gpu: NVIDIA GM20B (Maxwell)
 image: porg.png
 install_method: apx
-kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+kernel: android_kernel_nvidia_kernel
 maintainers: [webgeek1234, npjohnson]
 models: [batuu]
 name: Jetson Nano 2GB [Tablet]
