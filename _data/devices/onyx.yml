@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 330
 image: onyx.png
 install_method: fastboot_nexus
-kernel: android_kernel_oneplus_onyx
+kernel: {repo: android_kernel_oneplus_onyx, version: '3.4'}
 maintainers: []
 name: X
 network: [2G GSM, 3G UMTS, 4G LTE]

@@ -15,7 +15,7 @@ gpu: NVIDIA GP10B (Pascal)
 image: quill.png
 install_method: apx
 is_ab_device: true
-kernel: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9
+kernel: {repo: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9, version: '4.9'}
 maintainers: []
 models: [quill, lanai]
 name: Jetson TX2 [Android TV]

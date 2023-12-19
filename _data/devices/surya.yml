@@ -20,7 +20,7 @@ firmware_update: firmware_update_xiaomi_surya
 gpu: Qualcomm Adreno 618
 image: surya.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_surya
+kernel: {repo: android_kernel_xiaomi_surya, version: '4.14'}
 maintainers: [Shimitar, TheStrechh]
 models: [M2007J20CG, M2007J20CI]
 name: POCO X3 NFC

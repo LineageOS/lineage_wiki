@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>B
 gpu: ARM Mali-G72 MP18
 image: starlte.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos9810
+kernel: {repo: android_kernel_samsung_exynos9810, version: '4.9'}
 maintainers: [baddar90]
 models: [SM-G960F, SM-G960F/DS, SM-G960N]
 name: Galaxy S9

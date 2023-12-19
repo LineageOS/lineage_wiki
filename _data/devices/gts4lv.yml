@@ -17,7 +17,7 @@ firmware_update: firmware_update_samsung_gts4lv
 gpu: Qualcomm Adreno 615
 image: gts4lv.png
 install_method: odin
-kernel: android_kernel_samsung_sdm670
+kernel: {repo: android_kernel_samsung_sdm670, version: '4.9'}
 maintainers: [bgcngm, LuK1337]
 models: [SM-T725, SM-T725C, SM-T725N, SM-T727]
 name: Galaxy Tab S5e (LTE)

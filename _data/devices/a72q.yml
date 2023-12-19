@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_sm7125
 gpu: Qualcomm Adreno 618
 image: a72q.png
 install_method: odin
-kernel: android_kernel_samsung_sm7125
+kernel: {repo: android_kernel_samsung_sm7125, version: '4.14'}
 maintainers: [Simon1511]
 models: [SM-A725F, SM-A725M, SM-A725F/DS, SM-A725M/DS]
 name: Galaxy A72

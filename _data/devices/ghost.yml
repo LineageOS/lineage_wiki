@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 320
 image: ghost.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_ghost
+kernel: {repo: android_kernel_motorola_ghost, version: '3.4'}
 maintainers: []
 models: [xt1052, xt1053, xt1055, xt1056, xt1058, xt1060]
 name: moto x

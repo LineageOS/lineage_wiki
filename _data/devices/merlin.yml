@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 405
 image: merlin.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_msm8916
+kernel: {repo: android_kernel_motorola_msm8916, version: '3.10'}
 maintainers: []
 models: [XT1556, XT1557]
 name: moto g3 turbo

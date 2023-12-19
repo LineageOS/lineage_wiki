@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_sm7325
 gpu: Qualcomm Adreno 642L
 image: a73xq.png
 install_method: odin
-kernel: android_kernel_samsung_sm7325
+kernel: {repo: android_kernel_samsung_sm7325, version: '5.4'}
 maintainers: [Simon1511]
 models: [SM-A736B, SM-A736B/DS]
 name: Galaxy A73 5G

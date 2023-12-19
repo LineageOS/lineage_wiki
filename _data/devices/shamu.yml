@@ -15,7 +15,7 @@ format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 420
 image: shamu.png
 install_method: fastboot_nexus
-kernel: android_kernel_moto_shamu
+kernel: {repo: android_kernel_moto_shamu, version: '3.10'}
 maintainers: [Elektroschmock, npjohnson]
 name: Nexus 6
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

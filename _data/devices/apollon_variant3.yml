@@ -17,7 +17,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 650
 image: apollon.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_sm8250
+kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
 maintainers: [Ramisky, SebaUbuntu]
 models: [M2007J3SC]
 name: Redmi K30S Ultra

@@ -14,7 +14,7 @@ download_boot: ''
 gpu: Qualcomm Adreno 320
 image: v500.png
 install_method: dd
-kernel: android_kernel_lge_v500
+kernel: {repo: android_kernel_lge_v500, version: '3.4'}
 maintainers: []
 name: G Pad 8.3
 network: None

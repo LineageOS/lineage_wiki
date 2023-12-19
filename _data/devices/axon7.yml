@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Power</kbd> and when the u
 gpu: Qualcomm Adreno 530
 image: axon7.png
 install_method: fastboot_custom
-kernel: android_kernel_zte_msm8996
+kernel: {repo: android_kernel_zte_msm8996, version: '3.18'}
 maintainers: []
 name: 'Axon 7'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

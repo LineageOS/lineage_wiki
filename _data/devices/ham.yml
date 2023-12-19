@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>V
 gpu: Qualcomm Adreno 330
 image: ham.png
 install_method: fastboot_nexus
-kernel: android_kernel_cyanogen_msm8974
+kernel: {repo: android_kernel_cyanogen_msm8974, version: '3.4'}
 maintainers: []
 name: Z1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

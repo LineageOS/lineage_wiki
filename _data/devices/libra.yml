@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 418
 image: libra.png
 install_method: fastboot_xiaomi
-kernel: android_kernel_xiaomi_msm8992
+kernel: {repo: android_kernel_xiaomi_msm8992, version: '3.10'}
 maintainers: []
 name: Mi 4c
 network: [2G GSM, 3G UMTS, 4G LTE]

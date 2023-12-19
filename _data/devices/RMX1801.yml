@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Qualcomm Adreno 512
 image: RMX1801.png
 install_method: fastboot_realme
-kernel: android_kernel_realme_sdm660
+kernel: {repo: android_kernel_realme_sdm660, version: '4.4'}
 maintainers: []
 models: [RMX1801]
 name: 2 Pro

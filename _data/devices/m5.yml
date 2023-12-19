@@ -13,7 +13,7 @@ download_boot: Press and hold the `SW5` button on the board, and plug into your 
 gpu: ARM Mali-G31 MP2
 image: m5.png
 install_method: amlogic_update
-kernel: android_kernel_amlogic_linux-4.9
+kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [stricted]
 name: M5 (Android TV)
 network: None

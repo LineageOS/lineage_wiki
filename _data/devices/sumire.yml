@@ -15,7 +15,7 @@ download_boot: With the device powered down, hold <kbd>Volume Up</kbd> and conne
 gpu: Qualcomm Adreno 430
 image: sumire.png
 install_method: fastboot_sony
-kernel: android_kernel_sony_msm8994
+kernel: {repo: android_kernel_sony_msm8994, version: '3.10'}
 maintainers: []
 models: [E6653, E6683, E6633]
 name: Xperia Z5

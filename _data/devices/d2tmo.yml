@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: Qualcomm Adreno 225
 image: i9300.png
 install_method: heimdall
-kernel: android_kernel_samsung_d2
+kernel: {repo: android_kernel_samsung_d2, version: '3.4'}
 maintainers: []
 models: [SGH-T999]
 name: Galaxy S III (T-Mobile)

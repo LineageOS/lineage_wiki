@@ -12,7 +12,7 @@ download_boot: With the device unplugged, plug in the device while holding the <
 gpu: PowerVR G6430
 image: fugu.png
 install_method: fastboot_nexus
-kernel: android_kernel_asus_fugu
+kernel: {repo: android_kernel_asus_fugu, version: '3.10'}
 maintainers: []
 name: Nexus Player
 network: None

@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T720 MP2
 image: s5neolte.png
 install_method: heimdall
-kernel: android_kernel_samsung_universal7580
+kernel: {repo: android_kernel_samsung_universal7580, version: '3.10'}
 maintainers: []
 models: [SM-G903F, SM-G903F/DS, SM-G903M, SM-G903W]
 name: Galaxy S5 Neo

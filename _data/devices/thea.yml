@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 305
 image: thea.png
 install_method: fastboot_motorola
-kernel: android_kernel_motorola_msm8226
+kernel: {repo: android_kernel_motorola_msm8226, version: '3.4'}
 maintainers: []
 models: [XT1072, XT1077, XT1078, XT1079]
 name: moto g LTE (2014)

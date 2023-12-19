@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: ARM Mali-400 MP4
 image: i9300.png
 install_method: heimdall
-kernel: android_kernel_samsung_smdk4412
+kernel: {repo: android_kernel_samsung_smdk4412, version: '3.0'}
 maintainers: []
 models: [GT-I9300, GT-I9300T]
 name: Galaxy S III (International)

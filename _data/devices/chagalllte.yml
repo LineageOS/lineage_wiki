@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: ARM Mali-T628 MP6
 image: chagalllte.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos5420
+kernel: {repo: android_kernel_samsung_exynos5420, version: '3.4'}
 maintainers: []
 models: [SM-T805]
 name: Galaxy Tab S 10.5 LTE

@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 509
 image: chef.png
 install_method: fastboot_motorola
 is_ab_device: true
-kernel: android_kernel_motorola_msm8998
+kernel: {repo: android_kernel_motorola_msm8998, version: '4.4'}
 maintainers: []
 models: [XT1942-1, XT1942-2]
 name: one power

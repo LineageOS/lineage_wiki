@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: Qualcomm Adreno 305
 image: lt02ltespr.png
 install_method: heimdall
-kernel: android_kernel_samsung_msm8930-common
+kernel: {repo: android_kernel_samsung_msm8930-common, version: '3.4'}
 maintainers: []
 models: [SM-T217S]
 name: Galaxy Tab 3 7.0 LTE

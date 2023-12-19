@@ -19,7 +19,7 @@ gpu: Qualcomm Adreno 640
 image: heart.png
 install_method: fastboot_lenovo
 install_variant: lenovo_unlock_url
-kernel: android_kernel_lenovo_sm8150
+kernel: {repo: android_kernel_lenovo_sm8150, version: '4.14'}
 maintainers: [themard, optionaltoast]
 models: [L78032]
 name: Z5 Pro GT

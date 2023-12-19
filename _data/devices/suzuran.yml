@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connec
 gpu: Qualcomm Adreno 430
 image: suzuran.png
 install_method: fastboot_sony
-kernel: android_kernel_sony_msm8994
+kernel: {repo: android_kernel_sony_msm8994, version: '3.10'}
 maintainers: []
 models: [E5803, E5823]
 name: Xperia Z5 Compact

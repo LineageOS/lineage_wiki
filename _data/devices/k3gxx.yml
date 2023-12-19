@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>H
 gpu: ARM Mali-T628 MP6
 image: k3gxx.png
 install_method: heimdall
-kernel: android_kernel_samsung_k3gxx
+kernel: {repo: android_kernel_samsung_k3gxx, version: '3.10'}
 maintainers: []
 models: [SM-G900H]
 name: Galaxy S5 (International 3G)

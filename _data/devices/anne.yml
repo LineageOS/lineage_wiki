@@ -16,7 +16,7 @@ gpu: ARM Mali-T830 MP2
 image: anne.png
 install_method: fastboot_huawei
 is_unlockable: false
-kernel: android_kernel_huawei_hi6250
+kernel: {repo: android_kernel_huawei_hi6250, version: '4.9'}
 maintainers: []
 models: [ANE-LX1, ANE-LX2, ANE-LX3, ANE-LX2J, ANE-AL00, ANE-L23, ANE-L22, ANE-L21]
 name: P20 Lite

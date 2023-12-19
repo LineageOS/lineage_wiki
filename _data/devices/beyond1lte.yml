@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_exynos9820
 gpu: ARM Mali-G76 MP12
 image: beyond1lte.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos9820
+kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
 maintainers: [Linux4]
 models: [SM-G973F, SM-G973F/DS, SM-G973N]
 name: Galaxy S10

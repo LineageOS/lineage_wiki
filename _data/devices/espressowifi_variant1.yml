@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: PowerVR SGX540
 image: espresso3g.png
 install_method: heimdall
-kernel: android_kernel_samsung_espresso10
+kernel: {repo: android_kernel_samsung_espresso10, version: '3.0'}
 maintainers: []
 models: [P3110, P3113, P5110, P5113]
 name: Galaxy Tab 2 7.0 (Wi-Fi / Wi-Fi + IR)

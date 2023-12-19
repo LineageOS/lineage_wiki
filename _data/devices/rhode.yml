@@ -19,7 +19,7 @@ gpu: Qualcomm Adreno 610
 image: rhode.png
 install_method: fastboot_motorola
 is_ab_device: true
-kernel: android_kernel_motorola_sm6225
+kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
 maintainers: [Dhina17, mikeioannina]
 models: [XT2221-1]
 name: moto g52

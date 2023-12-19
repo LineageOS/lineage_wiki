@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_exynos9820
 gpu: ARM Mali-G76 MP12
 image: d1.png
 install_method: heimdall
-kernel: android_kernel_samsung_exynos9820
+kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
 maintainers: [Linux4]
 models: [SM-N970F, SM-N970F/DS]
 name: Galaxy Note10

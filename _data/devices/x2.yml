@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 530
 image: x2.png
 install_method: fastboot_nexus
-kernel: android_kernel_leeco_msm8996
+kernel: {repo: android_kernel_leeco_msm8996, version: '3.18'}
 maintainers: [tortel, ThEMarD]
 models: [LEX820, LEX821, LEX822, LEX829]
 name: Le Max2

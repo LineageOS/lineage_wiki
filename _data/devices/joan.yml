@@ -15,7 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 540
 image: v30.png
 install_method: fastboot_lg
-kernel: android_kernel_lge_msm8998
+kernel: {repo: android_kernel_lge_msm8998, version: '4.4'}
 maintainers: [lifehackerhansol, SGCMarkus]
 models: [H930, H930DS, US998]
 name: V30 (Unlocked)

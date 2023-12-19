@@ -18,7 +18,7 @@ format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
 image: v20.png
 install_method: fastboot_custom
-kernel: android_kernel_lge_msm8996
+kernel: {repo: android_kernel_lge_msm8996, version: '4.4'}
 maintainers: [aleasto, AShiningRay, npjohnson, ROMSG, xxseva44, x86cpu]
 name: V20 (Sprint)
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]

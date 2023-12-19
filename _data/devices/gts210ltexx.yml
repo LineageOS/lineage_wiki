@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 gpu: ARM Mali-T760 MP6
 image: gts210.png
 install_method: heimdall
-kernel: android_kernel_samsung_gts2
+kernel: {repo: android_kernel_samsung_gts2, version: '3.10'}
 maintainers: []
 models: [SM-T815]
 name: Galaxy Tab S2 9.7 (LTE)

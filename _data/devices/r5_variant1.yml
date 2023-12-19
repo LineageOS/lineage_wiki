@@ -16,7 +16,7 @@ format_on_upgrade: 16.0
 gpu: Qualcomm Adreno 405
 image: r5.png
 install_method: fastboot_oppo
-kernel: android_kernel_oppo_msm8939
+kernel: {repo: android_kernel_oppo_msm8939, version: '3.10'}
 maintainers: []
 models: [R8106, R8106s]
 name: R5 (International)
