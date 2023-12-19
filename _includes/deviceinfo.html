@@ -285,6 +285,14 @@
         </td>
     </tr>
     {%- endif %}
+    <tr>
+        <th scope="row">Kernel version</th>
+        <td>
+            <ul>
+                <li>{{ device.kernel.version }} (<a href="https://github.com/LineageOS/{{ device.kernel.repo }}">source code</a>)</li>
+            </ul>
+        </td>
+    </tr>
     {%- if device.models %}
     <tr>
         <th scope="row"><a name="supported-models">Supported models</a></th>
