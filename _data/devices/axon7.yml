@@ -36,3 +36,4 @@ vendor: ZTE
 vendor_short: zte
 versions: [14.1, 15.1]
 wifi: 802.11 b/g/n/ac
+kernel_branch: 3.18

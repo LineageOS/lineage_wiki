@@ -35,3 +35,4 @@ vendor: Sony
 vendor_short: sony
 versions: [14.1, 15.1]
 wifi: 802.11 b/g/n
+kernel_branch: 3.4

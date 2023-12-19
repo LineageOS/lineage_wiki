@@ -36,3 +36,4 @@ vendor: LG
 vendor_short: lge
 versions: [14.1]
 wifi: 802.11 b/g/n
+kernel_branch: N/A

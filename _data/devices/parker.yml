@@ -40,3 +40,4 @@ vendor: Motorola
 vendor_short: motorola
 versions: [19.1]
 wifi: 802.11 a/b/g/n/ac
+kernel_branch: 4.14

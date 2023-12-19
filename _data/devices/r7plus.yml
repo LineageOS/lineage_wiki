@@ -37,3 +37,4 @@ vendor: OPPO
 vendor_short: oppo
 versions: [14.1, 15.1, 16.0]
 wifi: 802.11 a/b/g/n/ac
+kernel_branch: 3.10

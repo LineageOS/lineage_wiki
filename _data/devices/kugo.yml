@@ -35,3 +35,4 @@ vendor: Sony
 vendor_short: sony
 versions: [18.1]
 wifi: 802.11 a/b/g/n/ac
+kernel_branch: 3.10

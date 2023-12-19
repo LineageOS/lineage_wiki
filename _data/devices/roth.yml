@@ -33,3 +33,4 @@ vendor: NVIDIA
 vendor_short: nvidia
 versions: [13.0]
 wifi: 802.11 a/b/g/n
+kernel_branch: N/A

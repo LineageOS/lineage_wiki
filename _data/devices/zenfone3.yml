@@ -42,3 +42,4 @@ vendor: ASUS
 vendor_short: asus
 versions: [16.0]
 wifi: 802.11 a/b/g/n/ac
+kernel_branch: 3.18

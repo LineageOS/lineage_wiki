@@ -37,3 +37,4 @@ vendor: Samsung
 vendor_short: samsung
 versions: [14.1]
 wifi: 802.11 b/g/n
+kernel_branch: N/A

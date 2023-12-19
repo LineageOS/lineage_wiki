@@ -34,3 +34,4 @@ vendor: NVIDIA
 vendor_short: nvidia
 versions: [17.1, 18.1]
 wifi: None
+kernel_branch: N/A

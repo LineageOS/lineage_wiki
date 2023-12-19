@@ -36,3 +36,4 @@ vendor: Samsung
 vendor_short: samsung
 versions: [17.1]
 wifi: 802.11 b/g/n
+kernel_branch: 3.10

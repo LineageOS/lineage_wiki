@@ -35,3 +35,4 @@ vendor: Motorola
 vendor_short: motorola
 versions: [17.1, 18.1]
 wifi: 802.11 a/b/g/n
+kernel_branch: 3.18
