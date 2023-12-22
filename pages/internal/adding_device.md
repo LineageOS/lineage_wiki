@@ -127,7 +127,7 @@ The following list will mention Model-Value pairs where applicable.
   {{ properties.install_method.enum | join: ", " }}
   ```
 
-* `kernel`: The repo name of the kernel - for example, `android_kernel_oneplus_msm8974`.
+* `kernel`: Use the format `{repo: <repository name>, version: '<major.minor>'}`.
 * `network`: The frequencies and channels for the various network technologies. You can look them up [here](https://www.frequencycheck.com/models/). Keep the non-available technologies empty.
 * `peripherals`: A list of peripherals available on the device, can be any of the following list:
 
