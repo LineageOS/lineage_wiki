@@ -972,6 +972,7 @@ properties:
       - 802.11 a/b/g/n
       - 802.11 a/b/g/n/ac
       - 802.11 a/b/g/n/ac/ax
+      - 802.11 a/b/g/n/ac/ax/be
 required:
   - architecture
   - battery
