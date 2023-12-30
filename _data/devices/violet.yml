@@ -27,7 +27,7 @@ maintainers: [jashvakharia, raghavt20]
 models: [M1901F7S, M1901F7BE]
 name: Redmi Note 7 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Infrared sensor, Light sensor, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Proximity sensor, USB OTG]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 recovery_partition_name: recovery
