@@ -68,7 +68,7 @@ com.android.wifi.resources
 com.google.pixel.vibrator.hal
 com.qorvo.uwb
 {% endcapture %}
-{% assign apexes = apexes | newline_to_br | strip_newlines | replace: "<br />", " " | strip %}
+{% assign apexes = apexes | newline_to_br | strip_newlines | replace: "<br />", " " | strip | split: " " %}
 
 LineageOS 19.1 and above will also require APEXes be re-signed.
 Each APEX file is signed with two keys: one for the mini file system image within an APEX and the other for the entire APEX.
@@ -80,7 +80,7 @@ sed -i 's|2048|4096|g' ~/.android-certs/make_key
 ```
 Then generate the APEX keys altering the `subject` line to reflect your information. You will need to enter twice the passphrase for each APEX.
 ```
-for apex in {{ apexes }}; do \
+for apex in {{ apexes | join: " " }}; do \
     subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN='$apex'/emailAddress=android@android.com'; \
     ~/.android-certs/make_key ~/.android-certs/$apex "$subject"; \
     openssl pkcs8 -in ~/.android-certs/$apex.pk8 -inform DER -out ~/.android-certs/$apex.pem; \
@@ -133,6 +133,8 @@ croot
 sign_target_files_apks -o -d ~/.android-certs \
     {%- for apex in apexes %}
     --extra_apks {{ apex }}.apex=$HOME/.android-certs/{{ apex }} \
+    {%- endfor %}
+    {%- for apex in apexes %}
     --extra_apex_payload_key {{ apex }}.apex=$HOME/.android-certs/{{ apex }}.pem \
     {%- endfor %}
     $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
