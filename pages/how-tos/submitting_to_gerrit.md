@@ -84,6 +84,11 @@ Otherwise, it should show:
 Connection to review.lineageos.org closed.
 ```
 
+To avoid trouble caused by duplicated `Change-Id:` trailers in commit messages, especially when cherry-picking changes, you should make that a known trailer to git:
+```
+git config --global trailer.changeid.key "Change-Id"
+```
+
 The steps above have to be performed only once.
 
 
