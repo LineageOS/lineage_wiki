@@ -168,6 +168,11 @@ Due to their size, some repos are configured for [`lfs` or `Large File Storage`]
 git lfs install
 ```
 
+To avoid trouble caused by duplicated `Change-Id:` trailers in commit messages, especially when cherry-picking changes, you should make that a known trailer to git:
+```
+git config --global trailer.changeid.key "Change-Id"
+```
+
 ### Turn on caching to speed up build
 
 Make use of [`ccache`](https://ccache.samba.org/) if you want to speed up subsequent builds by running:
