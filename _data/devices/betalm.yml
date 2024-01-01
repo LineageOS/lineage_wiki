@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 3550, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: None, info: '8 MP'}
+codename: betalm
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 20
+dimensions: {depth: 8, height: 155.3, width: 76.6}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then connect a USB cable.
+gpu: Qualcomm Adreno 640
+image: betalm.png
+install_method: fastboot_lg
+is_ab_device: true
+kernel: {repo: android_kernel_lge_sm8150, version: '4.14'}
+maintainers: [jmpfbmx]
+models: [LM-G810EA, LM-G810EAW, LM-G810RA]
+name: G8s ThinQ
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
+quirks: [ims]
+ram: 6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_partition_name: boot
+release: 2019-06
+screen: {resolution: '2248x1440', size: 6.2, technology: 'P-OLED'}
+sdcard: {sizeMax: '2 TB'}
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 64GB, 128 GB
+tree: android_device_lge_betalm
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [20]
+wifi: 802.11 a/b/g/n/ac
