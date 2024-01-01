@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 3500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '16 MP'}
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: None, info: '8 MP'}
+codename: alphaplus
+cpu: Kryo 485
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
+current_branch: 20
+dimensions: {depth: 8.4, height: 151.9, width: 71.8}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then connect a USB cable.
+gpu: Qualcomm Adreno 640
+image: alphaplus.png
+install_method: dd
+is_ab_device: true
+kernel: {repo: android_kernel_lge_sm8150, version: '4.14'}
+maintainers: [Igor121]
+models: [LM-G810N]
+name: G8 ThinQ (Korea)
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
+quirks: [ims]
+ram: 6 GB
+recovery_boot: Run `adb reboot recovery`.
+recovery_partition: /dev/block/bootdevice/by-name/boot
+recovery_partition_name: boot
+release: 2019-02
+screen: {resolution: '3120x1440', size: 6.1, technology: 'P-OLED'}
+sdcard: {sizeMax: '2 TB'}
+soc: Qualcomm SM8150 Snapdragon 855
+storage: 128 GB
+tree: android_device_lge_alphaplus
+type: phone
+vendor: LG
+vendor_short: lge
+versions: [20]
+wifi: 802.11 a/b/g/n/ac
