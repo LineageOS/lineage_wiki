@@ -40,10 +40,18 @@
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly." %}
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
+{%- if device.is_ab_device %}
+```
+su
+dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}_a
+dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}_b
+```
+{%- else %}
 ```
 su
 dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}
 ```
+{%- endif %}
 4. Reboot into recovery.
     * From the same shell, type the following command:
 ```
