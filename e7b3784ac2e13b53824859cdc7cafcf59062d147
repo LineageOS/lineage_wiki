@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2529900_c6341f10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20587
+      },
+      "writtenOn": "2024-01-01T13:15:14Z",
+      "side": 1,
+      "message": "This happens often enough to document it in the wiki. See e.g. https://review.lineageos.org/c/LineageOS/android_vendor_qcom_opensource_system_bt/+/358272 which I mentioned in Discord.",
+      "revId": "e7b3784ac2e13b53824859cdc7cafcf59062d147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
