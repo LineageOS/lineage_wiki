@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ef670d6_bb0526fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T02:54:03Z",
+      "side": 1,
+      "message": "According to some online sources, this device may need OEM unlocking (only on this particular model and no other klte devices.) That would invalidate the wiki instructions, if ever so slightly.\n\nI am quickly going to check if that is indeed the case.",
+      "revId": "07f410239f10f0428df6dfcb9988e75f20578547",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
