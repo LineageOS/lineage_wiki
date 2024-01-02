@@ -17,8 +17,8 @@ image: jflte.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_jf, version: '3.4'}
 maintainers: [arco, npjohnson, side]
-models: [GT-I9505, SGH-I337M, SGH-M919]
-name: Galaxy S4 (GT-I9505, SGH-I337M, SGH-M919)
+models: [GT-I9505, SGH-I337M, SGH-M919, SGH-M919V]
+name: Galaxy S4 (GT-I9505, SGH-I337M, SGH-M919/V)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [GPS, GLONASS, NFC, IR blaster, USB OTG, MHL 2.0, MHL HDMI, Accelerometer, Barometer, Gesture sensor, Gyroscope, Hall effect sensor, Hygrometer, Proximity sensor, Light sensor, Thermometer]
