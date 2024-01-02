@@ -17,8 +17,8 @@ image: klte.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
 maintainers: [haggertk]
-models: [SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900V, SM-G900W8]
-name: Galaxy S5 LTE (G900F/M/R4/R7/T/V/W8)
+models: [SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900T3, SM-G900V, SM-G900W8]
+name: Galaxy S5 LTE (G900F/M/R4/R7/T/T3/V/W8)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
 peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, IR blaster]
