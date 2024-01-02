@@ -16,6 +16,23 @@
       "message": "According to some online sources, this device may need OEM unlocking (only on this particular model and no other klte devices.) That would invalidate the wiki instructions, if ever so slightly.\n\nI am quickly going to check if that is indeed the case.",
       "revId": "07f410239f10f0428df6dfcb9988e75f20578547",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d3a9fdd_ea862890",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-01-02T03:18:17Z",
+      "side": 1,
+      "message": "went from stock -\u003e flashing recovery, download mode didn\u0027t complain",
+      "revId": "07f410239f10f0428df6dfcb9988e75f20578547",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
