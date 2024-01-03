@@ -1,6 +1,11 @@
 {% assign device = site.data.devices[page.device] %}
 {% assign current_branch = device.current_branch %}
 
+
+<script src="{{ site.baseurl }}/assets/js/pagination.js{{ cacheBust }}"></script>
+
+<div id="paginated-content" markdown="1">
+
 {% if device.migrated_to and device.migrated_to != "" %}
 {% include templates/device_migrated_to.md %}
 {% endif %}
@@ -40,26 +45,6 @@ The current bootloader version can be checked by running the command `getprop ro
 {% endcapture %}
 {% include alerts/warning.html content=bootloader %}
 {%- endif %}
-
-<script>
-$(function() {
-  if (window.location.hash.length === 0) {
-    toggleBlur()
-  }
-})
-
-function toggleBlur() {
-  $('#blurred').toggleClass('blurred')
-  $('#unblur').toggle()
-}
-</script>
-
-<div id="unblur" style="display: none;">
-  By clicking the following button you are confirming that you've met all of the basic requirements and read the warnings.<br/>
-  <button onclick="toggleBlur()" class="btn btn-primary">Show instructions</button>
-</div>
-
-<div id="blurred" markdown="1">
 
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 ## Checking the correct firmware
@@ -183,9 +168,13 @@ If it takes longer, you may have missed a step, otherwise feel free to [get assi
 {% include alerts/specific/warning_recovery_app.html %}
 {% endif %}
 
+</div>
+
+<button class="btn btn-primary" onClick="previousPage()" id="previous-page">Previous step</button>
+<button class="btn btn-primary" onClick="nextPage()" id="next-page">Next step</button>
+
 ## Get assistance
 
 After you've double checked that you followed the steps precisely, didn't skip any and still have questions or got stuck, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
 [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
 
-</div>
