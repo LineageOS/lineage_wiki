@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 330
 image: castor.png
 install_method: fastboot_sony
 kernel: {repo: android_kernel_sony_msm8974, version: '3.4'}
-maintainers: [snc]
+maintainers: [qsnc]
 models: [SGP511, SGP512]
 name: Xperia Tablet Z2 Wi-Fi
 network: None
