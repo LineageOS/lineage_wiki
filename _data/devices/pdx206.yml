@@ -21,7 +21,7 @@ image: pdx206.png
 install_method: fastboot_sony
 is_ab_device: true
 kernel: {repo: android_kernel_sony_sm8250, version: '4.19'}
-maintainers: []
+maintainers: [kyasu, hellobbn]
 models: [XQ-AS72, XQ-AS62, XQ-AS52, XQ-AS42]
 name: 'Xperia 5 II'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
