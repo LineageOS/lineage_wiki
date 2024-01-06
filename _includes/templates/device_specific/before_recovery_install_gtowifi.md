@@ -17,7 +17,7 @@
 1. Download and install the necessary drivers.
     * Download the newest Samsung drivers from [here](https://developer.samsung.com/mobile/android-usb-driver.html).
     * Install `SAMSUNG_USB_Driver_for_Mobile_Phones.exe`.
-1. Download [this](https://androidfilehost.com/?fid=4349826312261712202) version of Odin.
+1. Download [this](https://undocumented.software/Odin_3.13.1.zip) version of Odin.
 1. Extract "Odin_3.13.1.zip".
 1. Run `Odin3 v3.13.1` found in the newly extracted "Odin_3.13.1" folder.
 1. Check the box labeled next to the button labeled "BL", and then click the "BL" button.
