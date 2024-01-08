@@ -639,6 +639,7 @@ properties:
       - Kryo 585
       - Kryo 670
       - Kryo 680
+      - Kryo 780
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
@@ -913,6 +914,7 @@ properties:
       - Realme
       - Samsung
       - SHIFT
+      - Solana
       - Sony
       - Walmart
       - Wileyfox
@@ -949,6 +951,7 @@ properties:
       - nvidia
       - oneplus
       - oppo
+      - osom
       - razer
       - realme
       - samsung
