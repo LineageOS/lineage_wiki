@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 4110, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot, vendor_dlkm]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawidee)'}
+  - {flash: None, info: '16 MP'}
+codename: ingot
+cpu: Kryo 780
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.5 GHz + 4 x 1.8 GHz
+current_branch: 21
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.4, height: 164, width: 75.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 730
+image: ingot.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_osom_sm8475, version: '5.10'}
+maintainers: [mikeioannina, npjohnson]
+name: 'Saga'
+network: [3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+ram: 12 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2023-05
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.55, technology: 'Fluid AMOLED'}
+soc: Qualcomm SM8475 Snapdragon 8+ Gen1
+storage: 512 GB UFS3.1
+tree: android_device_osom_ingot
+type: phone
+vendor: Solana
+vendor_short: osom
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
