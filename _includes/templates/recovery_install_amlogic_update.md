@@ -9,7 +9,7 @@ This generation of Amlogic devices include a unique boot mode called "Burn Mode"
 
 {% include alerts/note.html content="Please note regardless of the board you have, this firmware requires an eMMC module and **will not** work with only an SD Card. We will not change this due to performance requirements." %}
 
-1. Download `aml_install_package.img` file from [here](https://download.ods.ninja/Android/firmware/{{ device.codename }}/).
+1. Download `aml_install_package.img` file from [here](https://download.ods.ninja/Android/firmware/{{ device.codename }}/static).
 2. Power off the device, and boot it into burn mode:
     * {{ device.download_boot }}
 3. Download and install `aml-flash-tool`:
