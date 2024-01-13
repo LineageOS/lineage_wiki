@@ -170,8 +170,10 @@ If it takes longer, you may have missed a step, otherwise feel free to [get assi
 
 </div>
 
-<button class="btn btn-primary" onClick="previousPage()" id="previous-page">Previous step</button>
-<button class="btn btn-primary" onClick="nextPage()" id="next-page">Next step</button>
+<div id="pagination" style="display: none">
+    <button class="btn btn-primary" onClick="previousPage()" id="previous-page">Previous step</button>
+    <button class="btn btn-primary" onClick="nextPage()" id="next-page">Next step</button>
+</div>
 
 ## Get assistance
 
