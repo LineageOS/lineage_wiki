@@ -78,6 +78,9 @@ function displayCurrentPage() {
         $(window).scrollTop(0);
     }
 
+    // Show pagination
+    $("#pagination").show();
+
     // Show or hide the "Previous" and "Next" buttons
     $("#previous-page").show();
     $("#next-page").show();
