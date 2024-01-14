@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "77f6fffb_692db616",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-01-14T12:37:31Z",
+      "side": 1,
+      "message": "first line (~50 chars), then empty line, then details, max. 80 chars per line\nshould be fine if you move the stuff in braces two lines down - see https://wiki.lineageos.org/how-to/submitting-patches/#uploading-your-changes",
+      "revId": "97ed2fcc06134faecde4c468c0119d5e0543febe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
