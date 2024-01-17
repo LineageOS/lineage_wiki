@@ -24,6 +24,10 @@ The following branches have been tested for building emulator images:
 * lineage-18.1
 * lineage-19.1
 * lineage-20.0
+<<<<<<< PATCH SET (f64a88 wiki: LineageOS 21)
+* lineage-21.0
+=======
+>>>>>>> BASE      (1874dc wiki: add Lineage-20.0 to the emulator supported versions li)
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
