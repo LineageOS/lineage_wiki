@@ -5,7 +5,7 @@
 In some cases, the inactive slot can be unpopulated or contain much older firmware than the active slot, leading to various issues including a potential hard-brick. We can ensure none of that will happen by copying the contents of the active slot to the inactive slot.
 
 To do this, sideload the `copy-partitions-20220613-signed.zip` package by doing the following:
-1. Download the `copy-partitions-20220613-signed.zip` file from [here](https://mirrorbits.lineageos.org/tools/copy-partitions-20220613-signed.zip). It should have a MD5 sum of `79f2f860830f023b7030c29bfbea7737` or a SHA-256 sum of `92f03b54dc029e9ca2d68858c14b649974838d73fdb006f9a07a503f2eddd2cd`.
+1. Download the `copy-partitions-20220613-signed.zip` file from [here](https://mirrorbits.lineageos.org/tools/copy-partitions-20220613-signed.zip).
 {%- if device.uses_twrp %}
 2. Sideload the `copy-partitions-20220613-signed.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload
