@@ -19,7 +19,7 @@ image: tangorpro.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_google_gs201, version: '5.10'}
-maintainers: [LuK1337, mikeioannina, npjohnson, neelc]
+maintainers: [LuK1337, [mikeioannina, mikeNG], npjohnson, neelc]
 name: Pixel Tablet
 network: None
 peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, Light sensor, USB OTG]

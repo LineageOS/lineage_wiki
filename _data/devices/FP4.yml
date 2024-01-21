@@ -17,7 +17,7 @@ image: FP4.png
 install_method: fastboot_fairphone
 is_ab_device: true
 kernel: {repo: android_kernel_fairphone_sm7225, version: '4.19'}
-maintainers: [mikeioannina]
+maintainers: [[mikeioannina, mikeNG]]
 models: [FP4]
 name: '4'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

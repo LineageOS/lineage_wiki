@@ -270,7 +270,8 @@
         <th scope="row">Maintainer{% if device.maintainers.size > 1 %}s{% endif %}</th>
         <td>
             <ul>
-                {%- for el in device.maintainers %}
+                {%- assign maintainers = device | device_maintainers %}
+                {%- for el in maintainers %}
                     <li>{{ el }}</li>
                 {%- endfor %}
             </ul>

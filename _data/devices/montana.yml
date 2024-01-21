@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 505
 image: montana.png
 install_method: fastboot_motorola
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
-maintainers: [Jarl-Penguin, wiktorek140]
+maintainers: [[Jarl-Penguin, JarlPenguin], wiktorek140]
 models: [XT1790, XT1791, XT1792, XT1793, XT1794, XT1795, XT1797, XT1799-2]
 name: moto g5s
 network: [2G GSM, 3G UMTS, 4G LTE]

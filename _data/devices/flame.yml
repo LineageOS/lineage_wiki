@@ -20,7 +20,7 @@ image: floral.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_google_msm-4.14, version: '4.14'}
-maintainers: [cdesai, Eamo5, mikeioannina, npjohnson]
+maintainers: [cdesai, Eamo5, [mikeioannina, mikeNG], npjohnson]
 name: Pixel 4
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Accelerometer, Barometer, BeiDou, Compass, Depth Sensor, Dot Projector, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Radar, USB OTG]

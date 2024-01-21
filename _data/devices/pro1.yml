@@ -19,7 +19,7 @@ image: pro1.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_fxtec_msm8998, version: '4.4'}
-maintainers: [BadDaemon, bgcngm, intervigil, mccreary, npjohnson, tdm]
+maintainers: [BadDaemon, bgcngm, [intervigil, intervigilium], mccreary, npjohnson, tdm]
 name: 'Pro¹'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Hardware keyboard, Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]

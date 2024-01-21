@@ -21,7 +21,7 @@ image: lemonade.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8350, version: '5.4'}
-maintainers: [mikeioannina, tangalbert919, ZVNexus]
+maintainers: [[mikeioannina, mikeNG], tangalbert919, ZVNexus]
 models: [LE2110, LE2111, LE2113, LE2115]
 name: '9'
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]

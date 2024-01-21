@@ -21,7 +21,7 @@ image: martini.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8350, version: '5.4'}
-maintainers: [mikeioannina]
+maintainers: [[mikeioannina, mikeNG]]
 models: [MT2110, MT2111]
 name: '9RT'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

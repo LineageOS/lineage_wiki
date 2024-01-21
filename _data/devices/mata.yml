@@ -18,7 +18,7 @@ image: mata.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_essential_msm8998, version: '4.4'}
-maintainers: [haggertk, intervigil, npjohnson, rashed]
+maintainers: [haggertk, [intervigil, intervigilium], npjohnson, rashed]
 name: PH-1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Essential Accessories]
