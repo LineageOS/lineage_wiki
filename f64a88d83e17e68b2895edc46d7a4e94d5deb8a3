@@ -22,6 +22,30 @@
       },
       "revId": "f64a88d83e17e68b2895edc46d7a4e94d5deb8a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2ba7d05a_4d11335c",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 32911
+      },
+      "writtenOn": "2024-01-23T13:09:05Z",
+      "side": 1,
+      "message": "done in https://review.lineageos.org/c/LineageOS/lineage_wiki/+/380752",
+      "parentUuid": "3c98e113_ca89852b",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 14
+      },
+      "revId": "f64a88d83e17e68b2895edc46d7a4e94d5deb8a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
