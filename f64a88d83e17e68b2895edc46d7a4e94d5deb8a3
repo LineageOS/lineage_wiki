@@ -70,6 +70,30 @@
       },
       "revId": "f64a88d83e17e68b2895edc46d7a4e94d5deb8a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "288b651d_1e3d3be7",
+        "filename": "pages/emulator.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 32911
+      },
+      "writtenOn": "2024-01-23T14:47:28Z",
+      "side": 1,
+      "message": "the commit has now been merged",
+      "parentUuid": "1d6d6aec_304dbec2",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 26,
+        "endChar": 14
+      },
+      "revId": "f64a88d83e17e68b2895edc46d7a4e94d5deb8a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
