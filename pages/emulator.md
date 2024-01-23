@@ -23,6 +23,7 @@ The following branches have been tested for building emulator images:
 * lineage-17.1
 * lineage-18.1
 * lineage-19.1
+* lineage-20.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
