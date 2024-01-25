@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "145acc62_f05c8899",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-25T06:52:30Z",
+      "side": 1,
+      "message": "Don\u0027t have a device running Automotive at the moment, so unsure if it displays IP, etc. pls confirm, if not I can remove the reference to it all together.\n\nI did confirm that ATV (all versions) and 16.0 (Berkeley) show the IP once the option is checked.",
+      "revId": "e76840008bb83c83ab894143528387826ada8f1b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
