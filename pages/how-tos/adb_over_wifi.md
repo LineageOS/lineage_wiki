@@ -17,7 +17,7 @@ In some cases it might be required to get adb access to your device without plug
 otherwise any command used after connection won't get through to the correct device" %}
 
 
-## For your device running LineageOS 18.1+
+## For your mobile device running LineageOS 18.1+
 
 ### On your device
 
@@ -41,15 +41,12 @@ Additionally you will get a notification on your device.
 {% include alerts/note.html content="This method is supported natively since Android 11." %}
 
 
-## For your device running LineageOS 17.1 or lower
+## For your Android TV/Android Automotive device running LineageOS 16.0+, or mobile device running LineageOS 17.1 or lower
 
 ### On your device
 
-1. Pull down the status bar menu (full expansion)
-2. Press the small pencil-icon to edit your QS tile
-3. Find the "Adb over Network" tile and drag it to the area on top
-4. Connect to the same wifi network as your computer
-5. Activate the tile by pressing it once
+1. Go to the developer settings
+2. Check `ADB Over Network`
 
 You will now see the device's IP address below the tile which you'll need for the next step
 
