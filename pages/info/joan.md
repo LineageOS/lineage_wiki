@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about joan
+title: Info about joan variants
 folder: info
-layout: deviceinfo
 permalink: /devices/joan/
+redirect_from:
+- /devices/joan/install
+- /devices/joan/update
 device: joan
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
