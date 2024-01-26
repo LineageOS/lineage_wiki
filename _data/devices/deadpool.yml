@@ -1,6 +1,6 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
-before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
 before_recovery_install: g12
 bluetooth: {spec: '4.2'}
 cameras: []
@@ -8,7 +8,7 @@ codename: deadpool
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
-current_branch: 20
+current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 15, height: 69, width: 69}
 download_boot: 'adb reboot recovery'
@@ -31,5 +31,5 @@ tree: android_device_askey_deadpool
 type: Set top box
 vendor: Google
 vendor_short: askey
-versions: [19.1, 20]
+versions: [19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
