@@ -6,7 +6,7 @@ cameras:
   - {flash: 'LED', info: '16 MP'}
   - {flash: 'LED', info: '13 MP'}
   - {flash: None, info: '5 MP'}
-codename: h932
+codename: joan
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
@@ -17,8 +17,7 @@ gpu: Qualcomm Adreno 540
 image: v30.png
 install_method: dd
 kernel: {repo: android_kernel_lge_msm8998, version: '4.4'}
-maintainers: []
-migrated_to: {codename: 'joan', version: 21}
+maintainers: [lifehackerhansol, SGCMarkus]
 models: [H932]
 name: V30 (T-Mobile)
 network: [2G GSM, 3G UMTS, 4G LTE]
@@ -33,9 +32,10 @@ screen: {resolution: '2880x1440', size: 6, technology: 'P-OLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB
-tree: android_device_lge_h932
+tree: android_device_lge_joan
 type: phone
+variant: 2
 vendor: LG
 vendor_short: lge
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
