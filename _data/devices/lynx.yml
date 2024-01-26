@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4385, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13.0'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
@@ -11,7 +11,7 @@ codename: lynx
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 9, height: 152, width: 72.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -19,7 +19,7 @@ gpu: ARM Mali-G710 MP7
 image: lynx.png
 install_method: fastboot_nexus
 is_ab_device: true
-kernel: {repo: android_kernel_google_gs201, version: '5.10'}
+kernel: {version: '5.10'}
 maintainers: [mikeioannina, niclimcy]
 name: Pixel 7a
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
@@ -36,5 +36,5 @@ tree: android_device_google_lynx
 type: phone
 vendor: Google
 vendor_short: google
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac/ax
