@@ -10,7 +10,7 @@ codename: sunfish
 cpu: Kryo 470
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.2, height: 144, width: 69.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -35,5 +35,5 @@ tree: android_device_google_sunfish
 type: phone
 vendor: Google
 vendor_short: google
-versions: [18.1, 19.1, 20]
+versions: [18.1, 19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
