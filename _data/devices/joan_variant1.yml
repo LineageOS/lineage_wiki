@@ -33,7 +33,8 @@ soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB
 tree: android_device_lge_joan
 type: phone
+variant: 1
 vendor: LG
 vendor_short: lge
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
