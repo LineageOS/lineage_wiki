@@ -16,6 +16,24 @@
       "message": "typo 😞",
       "revId": "9f715cb22b3ae010f4aece6dbf49648432d971d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2f25ce85_04612436",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-26T00:30:37Z",
+      "side": 1,
+      "message": "whoops",
+      "parentUuid": "011d1a3e_56a5d337",
+      "revId": "9f715cb22b3ae010f4aece6dbf49648432d971d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
