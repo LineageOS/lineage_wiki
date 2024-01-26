@@ -13,7 +13,7 @@ codename: pdx214
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8.2, height: 157, width: 68}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 660
@@ -38,5 +38,5 @@ tree: android_device_sony_pdx214
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac/ax
