@@ -16,6 +16,24 @@
       "message": "Android Automotive doesn\u0027t have \"ADB over network\" feature ported.",
       "revId": "cd19e17565bd2cf3db96c98b692d3e9248fa94ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aefda7dd_75209572",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-27T03:07:18Z",
+      "side": 1,
+      "message": "weird... ADB over Wi-Fi, thats a proper AOSP thing now right?",
+      "parentUuid": "27581ea2_8ef140d2",
+      "revId": "cd19e17565bd2cf3db96c98b692d3e9248fa94ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
