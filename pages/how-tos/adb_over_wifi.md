@@ -41,7 +41,7 @@ Additionally you will get a notification on your device.
 {% include alerts/note.html content="This method is supported natively since Android 11." %}
 
 
-## For your Android TV/Android Automotive device running LineageOS 16.0+, or mobile device running LineageOS 17.1 or lower
+## For your Android TV device running LineageOS 16.0+, or mobile device running LineageOS 17.1 or lower
 
 ### On your device
 
