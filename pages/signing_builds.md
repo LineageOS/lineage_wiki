@@ -78,7 +78,10 @@ file and edit to use SHA256_RSA4096.
 cp ./development/tools/make_key ~/.android-certs/
 sed -i 's|2048|4096|g' ~/.android-certs/make_key
 ```
-Then generate the APEX keys altering the `subject` line to reflect your information. You will need to enter twice the passphrase for each APEX.
+Then generate the APEX keys altering the `subject` line to reflect your information.
+
+### Generate keys with a password
+You will need to enter the passphrase twice for each APEX key generated.
 ```
 for apex in {{ apexes }}; do \
     subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN='$apex'/emailAddress=android@android.com'; \
@@ -88,6 +91,18 @@ done
 ```
 
 You should keep these keys safe, and store the passphrase in a secure location.
+
+### Generate keys without a password
+You will need to enter the blank passphrase twice for each APEX key generated.
+```
+for apex in {{ apexes }}; do \
+    subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN='$apex'/emailAddress=android@android.com'; \
+    ~/.android-certs/make_key ~/.android-certs/$apex "$subject"; \
+    openssl pkcs8 -in ~/.android-certs/$apex.pk8 -inform DER -nocrypt -out ~/.android-certs/$apex.pem; \
+done
+```
+
+You should keep these keys safe.
 
 ## Generating an install package
 
