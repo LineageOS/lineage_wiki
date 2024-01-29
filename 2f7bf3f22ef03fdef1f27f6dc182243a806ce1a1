@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b44cac3_37e94e44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-01-29T23:00:08Z",
+      "side": 1,
+      "message": "maybe add an explainer as to why you\u0027d do either for the less versed?",
+      "revId": "2f7bf3f22ef03fdef1f27f6dc182243a806ce1a1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
