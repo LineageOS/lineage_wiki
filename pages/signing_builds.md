@@ -85,7 +85,7 @@ Then generate the APEX keys altering the `subject` line below to reflect your in
 ### Generate keys without a password
 You will need to enter the blank passphrase twice for each APEX key generated.
 ```
-for apex in {{ apexes }}; do \
+for apex in {{ apexes | join: " " }}; do \
     subject='/C=US/ST=California/L=Mountain View/O=Android/OU=Android/CN='$apex'/emailAddress=android@android.com'; \
     ~/.android-certs/make_key ~/.android-certs/$apex "$subject"; \
     openssl pkcs8 -in ~/.android-certs/$apex.pk8 -inform DER -nocrypt -out ~/.android-certs/$apex.pem; \
