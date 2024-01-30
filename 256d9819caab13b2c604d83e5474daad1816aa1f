@@ -16,6 +16,24 @@
       "message": "I flipped the order, passwordless first.\n\nAs the average person isn\u0027t going to want protected keys, nor do they need them.",
       "revId": "256d9819caab13b2c604d83e5474daad1816aa1f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f5004537_d8c87932",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25889
+      },
+      "writtenOn": "2024-01-30T01:56:02Z",
+      "side": 1,
+      "message": "I thought about that as well but wasn\u0027t sure what the project stance on passwordless keys was 😊\n\nLooks like you missed moving line 107 up with the paswordless chunk, so there is a duplicate \"You should keep...\" line after the password section.",
+      "parentUuid": "6a8229f2_4c60c692",
+      "revId": "256d9819caab13b2c604d83e5474daad1816aa1f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
