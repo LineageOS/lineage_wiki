@@ -17,7 +17,7 @@ image: wade.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
-name: TV Box (4K)
+name: TV Box 4K (2021)
 network: None
 peripherals: None
 ram: 2 GB
