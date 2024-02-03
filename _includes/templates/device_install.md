@@ -49,11 +49,11 @@ The current bootloader version can be checked by running the command `getprop ro
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 ## Checking the correct firmware
 
-Installation on your device requires a specific firmware version to be installed before you continue.
+Installation on your device requires a specific [firmware]({{ "glossary/#firmware" | absolute_url }}){: .glossary} version to be installed before you continue.
 
 {%- if device.before_install.version %}
 - Firmware refers to a device-specific set of images that are included in, and updated by the stock OS
-- LineageOS builds for this device require an Android {{ device.before_install.version }} version of the stock OS to be installed prior to following the installation guide
+- LineageOS builds for this device require an Android {{ device.before_install.version }} version of the [stock OS]({{ "glossary/#stock-rom" | absolute_url }}){: .glossary} to be installed prior to following the installation guide
 - Please ensure that you are checking the **Android** version, and not the vendor OS version
 {%- endif %}
 - Being on another custom ROM, including unofficial builds of the same version of LineageOS, does not ensure that this requirement has been fulfilled

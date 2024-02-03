@@ -760,3 +760,8 @@ span.codename {
 .link-in-code {
   font-size: 87.5%;
 }
+
+.glossary::after {
+  font-family: "Material Icons";
+  content: 'help_outline';
+}
