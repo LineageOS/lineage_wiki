@@ -16,6 +16,24 @@
       "message": "all down from here is unrelated, isn\u0027t it? (and wrong as well)",
       "revId": "044dde9f77b5d0002c4c9a8cc450645d0bcc102d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d59bef6d_75d0f4c2",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 145,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-02-03T12:14:45Z",
+      "side": 0,
+      "message": "eh, I guess i did the wrong git checkout.",
+      "parentUuid": "de881891_4f74e6c1",
+      "revId": "044dde9f77b5d0002c4c9a8cc450645d0bcc102d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
