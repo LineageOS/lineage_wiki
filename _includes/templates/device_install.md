@@ -133,9 +133,6 @@ There are no recovery installation instructions for this discontinued device.
 ## Installing Add-Ons
 
 {% include alerts/note.html content="If you don't want to install any add-on (such as Google Apps), you can skip this whole section!" %}
-{% if device.is_ab_device or device.uses_twrp != true %}
-  {% include alerts/specific/note_signature_check.html %}
-{%- endif %}
 
 {%- capture gapps_note %}
 If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps" | relative_url }}).
@@ -152,6 +149,9 @@ This add-on needs to be installed **before** booting into LineageOS for the firs
 1. Click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- else %}
 1. Repeat the sideload steps above for all desired packages in sequence.
+{%- endif %}
+{%- if device.is_ab_device or device.uses_twrp != true %}
+<br/>When presented with a screen that says `Signature verification failed`, click `Continue`. It is expected as add-ons aren't signed with LineageOS's official key!
 {%- endif %}
 
 ## All set!
