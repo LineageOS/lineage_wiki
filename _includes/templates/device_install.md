@@ -122,6 +122,9 @@ There are no recovery installation instructions for this discontinued device.
 5. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
+{%- if current_branch >= 20 %}
+        {% include alerts/specific/tip_ab_reboot_recovery.html %}
+{%- endif %}
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
         {% include alerts/specific/note_retrofit_sideload_failed.html %}
@@ -138,7 +141,7 @@ There are no recovery installation instructions for this discontinued device.
 
 {%- if device.is_ab_device and device.uses_twrp %}
 1. Even though you are already in recovery, run `adb -d reboot sideload`, then `adb -d sideload filename.zip` for all desired packages in sequence.
-{%- elsif device.is_ab_device %}
+{%- elsif device.is_ab_device and current_branch < 20 %}
 1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
 2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- elsif device.uses_twrp != true %}
