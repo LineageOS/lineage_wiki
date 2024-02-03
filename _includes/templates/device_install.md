@@ -99,7 +99,6 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package.
 {%- endif %}
-    * _(Optionally)_: If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps" | relative_url }}).
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
     {% if device.vendor == "LG" %}
@@ -137,17 +136,22 @@ There are no recovery installation instructions for this discontinued device.
 {% if device.is_ab_device or device.uses_twrp != true %}
   {% include alerts/specific/note_signature_check.html %}
 {%- endif %}
-{% include alerts/warning.html content="If you want the Google Apps add-on on your device, you must follow this step **before** booting into LineageOS for the first time!" %}
+
+{%- capture gapps_note %}
+If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps" | relative_url }}).
+This add-on needs to be installed **before** booting into LineageOS for the first time!
+{%- endcapture %}
+{% include alerts/warning.html content=gapps_note %}
 
 {%- if device.is_ab_device and device.uses_twrp %}
 1. Even though you are already in recovery, run `adb -d reboot sideload`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- elsif device.is_ab_device and current_branch < 20 %}
-1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
-2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+2. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
+3. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- elsif device.uses_twrp != true %}
-1. Click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+2. Click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
 {%- else %}
-1. Repeat the sideload steps above for all desired packages in sequence.
+2. Repeat the sideload steps above for all desired packages in sequence.
 {%- endif %}
 
 ## All set!
