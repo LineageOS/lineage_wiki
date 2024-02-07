@@ -54,7 +54,11 @@ breakfast {{ device.codename }}
 ```
 
 This will download your device's [device specific configuration](https://github.com/LineageOS/{{ device.tree }}) and
+{%- if device.kernel.repo %}
 [kernel](https://github.com/LineageOS/{{ device.kernel.repo }}).
+{%- else %}
+kernel.
+{%- endif %}
 
 {% include alerts/important.html content="Some devices require a vendor directory to be populated before breakfast will succeed. If you receive an error here about vendor
 makefiles, jump down to [_Extract proprietary blobs_](#extract-proprietary-blobs). The first portion of breakfast should have succeeded, and after completing you can [rerun
