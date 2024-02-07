@@ -758,7 +758,6 @@ properties:
         "$ref": "#/definitions/valid_kernel_versions"
         description: Kernel version
     required:
-      - repo
       - version
     type: object
   maintainers:
