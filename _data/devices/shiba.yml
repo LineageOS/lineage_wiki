@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 4575, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '50 MP'}
+  - {flash: None, info: '12 MP (ultrawide)'}
+  - {flash: None, info: '10.5 MP'}
+codename: shiba
+cpu: Cortex-X3 & Cortex-A715 & Cortex-A510
+cpu_cores: '9'
+cpu_freq: 1x 3.0 GHz + 4 x 2.45 GHz + 4 x 2.14 GHz
+current_branch: 21
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.9, height: 150.5, width: 70.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G715s MC10
+image: shiba.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {version: '5.15'}
+maintainers: [mikeioannina]
+name: Pixel 8
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2023-10
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.2, technology: 'AMOLED'}
+soc: Google Tensor G3
+storage: 128/256 GB
+tree: android_device_google_shiba
+type: phone
+vendor: Google
+vendor_short: google
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
