@@ -48,8 +48,7 @@ heimdall print-pit
 {{ custom_root_instructions }}
 {% endif %}
 
-## Installing a custom recovery using `heimdall`
-
+{%- capture install_content %}
 {%- if device.custom_recovery_link %}
 {%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the recovery file and rename it to `{{ device.recovery_partition_name }}.img`.
@@ -79,3 +78,11 @@ heimdall flash --{{ device.recovery_partition_name | upcase }} {{ device.recover
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the stock ROM will overwrite the custom recovery with the stock recovery, and you'll need to flash it again." %}
 {%- include snippets/recovery_logo_note.md %}
+{%- endcapture %}
+
+{%- if is_lineage_recovery %}
+## Installing Lineage Recovery using `heimdall`
+{%- else %}
+## Installing a custom recovery using `heimdall`
+{%- endif %}
+{{ install_content }}

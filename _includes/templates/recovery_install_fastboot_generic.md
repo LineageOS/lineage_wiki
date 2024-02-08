@@ -5,8 +5,7 @@
 {% assign custom_recovery_codename = device.codename %}
 {% endif %}
 
-## Installing a custom recovery using `fastboot`
-
+{%- capture install_content %}
 {%- if device.custom_recovery_link %}
 {%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}). Simply download the recovery file and rename it to `{{ device.recovery_partition_name }}.img`.
@@ -70,3 +69,11 @@ fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition
     {%- endif %}
 {%- include snippets/recovery_logo_note.md %}
 {% endif %}
+{%- endcapture %}
+
+{%- if is_lineage_recovery %}
+## Installing Lineage Recovery using `fastboot`
+{%- else %}
+## Installing a custom recovery using `fastboot`
+{%- endif %}
+{{ install_content }}
