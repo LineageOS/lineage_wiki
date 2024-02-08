@@ -23,13 +23,14 @@
 
 {% include snippets/before_recovery_install.md %}
 
-## Installing a custom recovery using `dd`
-
+{%- capture install_content %}
 {%- if device.custom_recovery_link %}
+{%- assign is_lineage_recovery = device.custom_lineage_recovery %}
 1. Download a custom recovery - you can download one [here]({{ device.custom_recovery_link }}).
 {%- elsif device.uses_twrp %}
 1. Download a custom recovery - you can download [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
 {%- elsif device.maintainers != empty %}
+{%- assign is_lineage_recovery = true %}
 1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
 {%- else %}
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
@@ -48,3 +49,11 @@ dd if=/sdcard/<recovery_filename>.img of={{ device.recovery_partition }}
 ```
 reboot recovery
 ```
+{%- endcapture %}
+
+{%- if is_lineage_recovery %}
+## Installing Lineage Recovery using `dd`
+{%- else %}
+## Installing a custom recovery using `dd`
+{%- endif %}
+{{ install_content }}

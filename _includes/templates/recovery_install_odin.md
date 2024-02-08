@@ -23,8 +23,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 {{ custom_root_instructions }}
 {% endif %}
 
-## Installing a custom recovery using `Odin`
-
+{%- capture install_content %}
 {% include alerts/note.html content="If this device's install instructions already had you download Odin/Enable OEM Unlocking earlier in the installation process, you can skip the steps for enabling OEM Unlock, as well as for downloading and extracting the drivers and Odin." %}
 
 {% unless device.no_oem_unlock_switch %}
@@ -75,3 +74,11 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
 {%- include snippets/recovery_logo_note.md %}
+{%- endcapture %}
+
+{%- if is_lineage_recovery %}
+## Installing Lineage Recovery using `Odin`
+{%- else %}
+## Installing a custom recovery using `Odin`
+{%- endif %}
+{{ install_content }}
