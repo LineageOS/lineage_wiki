@@ -106,6 +106,7 @@ definitions:
       - ARM Mali-G78 MP20
       - ARM Mali-G710 MC10
       - ARM Mali-G710 MP7
+      - ARM Mali-G715s MC10
       - ARM Mali-T604 MP4
       - ARM Mali-T628 MP6
       - ARM Mali-T720 MP2
@@ -259,6 +260,7 @@ definitions:
       - Amlogic S905y3
       - Google Tensor GS101
       - Google Tensor GS201
+      - Google Tensor G3
       - HiSilicon Kirin 659
       - HiSilicon Kirin 970
       - Intel Atom Z2560
@@ -600,6 +602,7 @@ properties:
       - Cortex-A9
       - Cortex-X1 & Cortex-A76 & Cortex-A55
       - Cortex-X1 & Cortex-A78 & Cortex-A55
+      - Cortex-X3 & Cortex-A715 & Cortex-A510
       - Denver
       - Denver 2 & Cortex-A57
       - Exynos M1 & Cortex-A53
@@ -866,6 +869,7 @@ properties:
     enum:
       - Devkit
       - Handheld game console
+      - foldable
       - Set top box
       - phone
       - phone (slider)
