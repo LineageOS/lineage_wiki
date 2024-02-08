@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 5821, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: None, info: '10.8 MP (telephoto)'}
+  - {flash: None, info: '10.8 MP (ultrawide)'}
+  - {flash: None, info: '8 MP'}
+codename: felix
+cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
+current_branch: 21
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 5.8, height: 158.7, width: 138.7}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G710 MC10
+image: felix.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_google_gs201, version: '5.10'}
+maintainers: [mikeioannina]
+name: Pixel Fold
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2023-06
+screen: {refresh_rate: 120, resolution: '1840x2208', size: 7.6, technology: 'OLED'}
+soc: Google Tensor GS201
+storage: 128/256/512 GB
+tree: android_device_google_felix
+type: foldable
+vendor: Google
+vendor_short: google
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
