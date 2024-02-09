@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a8be53bb_a376a96d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28837
+      },
+      "writtenOn": "2024-02-09T08:50:49Z",
+      "side": 1,
+      "message": "Updated with latest FW versions.\nGood to go for me",
+      "revId": "93f6cc6319446f810095b019f64d2c33430e8507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
