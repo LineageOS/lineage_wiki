@@ -10,7 +10,7 @@
  ```
  wget https://github.com/khadas/utils/raw/master/aml-flash-tool/tools/linux-x86/update
  chmod +x update
- sudo ./update bulkcmd "setenv lock 10101000"
+ sudo ./update bulkcmd "setenv lock 10100000"
  sudo ./update bulkcmd "saveenv"
  sudo ./update bulkcmd "reboot bootloader"
  rm ./update
