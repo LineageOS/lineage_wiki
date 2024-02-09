@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 20
-custom_unlock_cmd: "fastboot oem 'setenv lock 10101000;save' && fastboot reboot bootloader && fastboot flashing unlock"
+custom_unlock_cmd: "fastboot oem 'setenv lock 10100000;saveenv;save' && fastboot reboot bootloader && fastboot flashing unlock"
 dimensions: {depth: 15, height: 69, width: 69}
 download_boot: Run `adb reboot bootloader`.
 gpu: ARM Mali-G31 MP2
