@@ -26,7 +26,7 @@
  [AmlUsbRom]Inf:bulkInReply
  ERR: AmlUsbBulkCmd failed!
  ```
- {% include alerts/note.html content="Please note that the failure of the final command is expected, and your device should now be booted into fastboot mode." %}
+    {% include alerts/note.html content="Please note that the failure of the final command is expected, and your device should now be booted into fastboot mode." %}
  5. Re-run the following command to ascertain the device's current bootloader lock state:
  ```
  fastboot getvar unlocked
