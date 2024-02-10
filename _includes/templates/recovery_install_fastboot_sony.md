@@ -8,14 +8,13 @@ This also includes your DRM keys, which are stored in the Trim Area partition (a
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed.
 If you wish to backup the TA partition first, you can find tutorials related to your device on the internet." %}
 
-{% if device.install_variant and device.install_variant contains "sony_unlock_contacts" %}
+{%- if device.install_variant and device.install_variant contains "sony_unlock_contacts" %}
 1. Open the `Contacts` app.
 2. Click on the menu button in the top right.
 3. Click on `Settings`.
 4. Long press (for about 5 seconds) somewhere in the empty space just above navigation bar, then release your finger. A button named `Enter service code` will then appear in the same area (this may take a few attempts).
 5. Click on `Enter service code`. A dialer will appear.
-{% endif %}
-
+{%- endif %}
 1. On the device, dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes`.
 3. Connect the device to your PC via USB.
