@@ -29,7 +29,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Ultrasound proximity sensor, Compass, NFC, Dual-frequency GNSS, GPS, Qi wireless charging]
 ram: 6/8/10 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
-recovery_partition_name: boot
+recovery_partition_name: recovery
 release: 2018-11
 screen: {resolution: '1080x2340', size: 6.39, technology: 'AMOLED'}
 soc: Qualcomm SDM845 Snapdragon 845
