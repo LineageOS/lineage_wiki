@@ -31,7 +31,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     2. Run `zadig.exe` found in your extracted Heimdall directory.
         {% include alerts/note.html content="For the interested, source and documentation for zadig.exe can be found [here](https://github.com/pbatard/libwdi/releases)." %}
     3. Choose **Options** &raquo; **List all devices** from the menu.
-    4. Select **Samsung USB Composite Device** or **MSM8x60** or **Gadget Serial** or **Device Name** from the drop down menu.
+    4. Select device with USB ID **04E8 685D** from the drop down menu.
     5. Click **Replace Driver**, then selecting **Install Driver** from the drop down list built into the button.
     6. If you are prompted with a warning that the installer is unable to verify the publisher of the driver, select **Install this driver anyway**. You may receive two more prompts about security. Select the options that accept the warnings and allow you to carry on.
 6. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
