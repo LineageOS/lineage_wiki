@@ -63,10 +63,21 @@ lunch <target>
 | TV                            | GSI          | `lineage_gsi_tv_<arch>-eng`    | `arm`, `arm64`, `x86` and `x86_64` |
 | Automotive                    | Emulator     | `lineage_sdk_car_<arch>-eng`   | `arm64` and `x86_64`               |
 | Automotive                    | GSI          | `lineage_gsi_car_<arch>-eng`   | `arm64` and `x86_64`               |
+|-------------------------------|--------------|--------------------------------|------------------------------------|
+| **LineageOS 21 and above**    |              |                                |                                    |
+|-------------------------------|--------------|--------------------------------|------------------------------------|
+| Phone                         | Emulator     | `lineage_sdk_phone_<arch>-eng` | `arm64`, `x86` and `x86_64`        |
+| Phone                         | GSI          | `lineage_gsi_<arch>-eng`       | `arm`, `arm64`, `x86` and `x86_64` |
+| TV                            | Emulator     | `lineage_sdk_tv_<arch>-eng`    | `arm` and `x86`                    |
+| TV                            | GSI          | `lineage_gsi_tv_<arch>-eng`    | `arm`, `arm64`, `x86` and `x86_64` |
+| Automotive                    | Emulator     | `lineage_sdk_car_<arch>-eng`   | `arm64` and `x86_64`               |
+| Automotive                    | GSI          | `lineage_gsi_car_<arch>-eng`   | `arm64` and `x86_64`               |
 {: .table }
 
 
 For starting, `x86` or `x86_64` is recommended, as your computer can run it natively using hardware acceleration.
+
+{% include alerts/tip.html content="If you're running an ARM computer such as an Apple Silicon Mac, you should choose `arm64` for supported LineageOS Versions.<br> This will significanly improve the emulator performance compared to using `x86_64` builds via a translation layer such as Rosetta 2." %}
 
 Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communication with the emulator will need to be enabled first.
 
