@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {capacity: 4310, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'nx'}
+bluetooth: {spec: '4.1'}
+cameras: []
+codename: nx_tab
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 1.9 GHz
+current_branch: 21
+dimensions: {depth: 13.9, height: 102, width: 239}
+gpu: NVIDIA GM20B (Maxwell)
+image: nx.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_nvidia_kernel-nx, version: '4.9'}
+maintainers: [makinbacon, npjohnson, webgeek1234]
+models: [modin]
+name: Switch v2 [Tablet]
+network: None
+no_oem_unlock_switch: true
+peripherals: [Accelerometer, Gyroscope, Sensor hub, Light sensor, Dock, Joycons]
+ram: 4 GB
+recovery_boot: Boot to Hekate, then select "More Configs", then hold <kbd>Volume Up</kbd> and select the `LineageOS` entry.
+recovery_partition_name: recovery
+release: 2019-09-20
+screen: {resolution: '1280x720', size: 6.2, technology: 'LCD'}
+sdcard: {sizeMax: '2 TB'}
+soc: NVIDIA Tegra X1+ (T210b01)
+storage: 32 GB
+tree: android_device_nintendo_nx_tab
+type: tablet
+variant: 2
+vendor: Nintendo
+vendor_short: nintendo
+versions: [21]
+wifi: 802.11 a/b/g/n/ac
