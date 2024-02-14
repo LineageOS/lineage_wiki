@@ -10,7 +10,7 @@ codename: us997
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.4 GHz + 2 x 2.1 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 7.9, height: 148.9, width: 71.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: fde
@@ -36,5 +36,5 @@ tree: android_device_lge_us997
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [14.1, 19.1, 20]
+versions: [14.1, 19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
