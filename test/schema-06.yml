@@ -436,6 +436,7 @@ definitions:
         - Compass
         - DP over USB-C
         - Depth Sensor
+        - Dock
         - Dot Projector
         - Dual SIM
         - Dual front speakers
@@ -464,6 +465,7 @@ definitions:
         - IR camera
         - IR receiver
         - Iceview Cases
+        - Joycons
         - Light sensor
         - MHL
         - MHL 2.0
@@ -753,6 +755,7 @@ properties:
       - fastboot_xiaomi
       - fastboot_zenfone
       - heimdall
+      - nintendo
       - odin
       - oor
   is_ab_device:
@@ -914,6 +917,7 @@ properties:
       - Lenovo
       - Motorola
       - Nextbit
+      - Nintendo
       - Nokia
       - Nothing
       - Nubia
@@ -955,6 +959,7 @@ properties:
       - moto
       - motorola
       - nextbit
+      - nintendo
       - nokia
       - nothing
       - nubia
