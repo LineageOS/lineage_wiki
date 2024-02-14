@@ -436,6 +436,7 @@ definitions:
         - Compass
         - DP over USB-C
         - Depth Sensor
+        - Dock
         - Dot Projector
         - Dual SIM
         - Dual front speakers
@@ -464,6 +465,7 @@ definitions:
         - IR camera
         - IR receiver
         - Iceview Cases
+        - Joycons
         - Light sensor
         - MHL
         - MHL 2.0
