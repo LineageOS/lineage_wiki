@@ -6,7 +6,7 @@ codename: odroidc4
 cpu: Cortex-A55
 cpu_cores: '4'
 cpu_freq: 2.016 GHz
-current_branch: 20
+current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 10, height: 56, width: 85}
 download_boot: Attach a blank eMMC module to the device, and plug into your PC.
@@ -30,5 +30,5 @@ tree: android_device_hardkernel_odroidc4
 type: Devkit
 vendor: HardKernel
 vendor_short: amlogic
-versions: [20]
+versions: [20, 21]
 wifi: None
