@@ -9,7 +9,7 @@ codename: joan
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540
