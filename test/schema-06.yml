@@ -489,6 +489,7 @@ definitions:
       - aux_cameras
       - dock
       - esim
+      - face_unlock
       - fde
       - hardware_encryption
       - ims
