@@ -10,7 +10,7 @@ codename: kane
 cpu: Cortex-A73 & Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8.7, height: 160.1, width: 71.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G72 MP3
@@ -37,5 +37,5 @@ type: phone
 variant: 2
 vendor: Motorola
 vendor_short: motorola
-versions: [18.1, 19.1, 20]
+versions: [18.1, 19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
