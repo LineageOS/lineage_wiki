@@ -5,8 +5,13 @@ cameras: []
 codename: odroidc4
 cpu: Cortex-A55
 cpu_cores: '4'
+<<<<<<< PATCH SET (ad2585 devices: Promote the G12 family of devices [Android TV])
+cpu_freq: 1.8 GHz
+current_branch: 21
+=======
 cpu_freq: 2.016 GHz
 current_branch: 20
+>>>>>>> BASE      (b94659 wiki: kiwiirc.com -> web.libera.chat)
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 10, height: 56, width: 85}
 download_boot: Attach a blank eMMC module to the device, and plug into your PC.
@@ -30,5 +35,10 @@ tree: android_device_hardkernel_odroidc4
 type: Devkit
 vendor: HardKernel
 vendor_short: amlogic
+<<<<<<< PATCH SET (ad2585 devices: Promote the G12 family of devices [Android TV])
+versions: [20, 21]
+wifi: 802.11 a/b/g/n/ac
+=======
 versions: [20]
 wifi: None
+>>>>>>> BASE      (b94659 wiki: kiwiirc.com -> web.libera.chat)
