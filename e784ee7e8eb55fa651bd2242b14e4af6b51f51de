@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bbd625c_83c37506",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2024-02-16T21:39:00Z",
+      "side": 1,
+      "message": "5.10",
+      "range": {
+        "startLine": 22,
+        "startChar": 53,
+        "endLine": 22,
+        "endChar": 56
+      },
+      "revId": "e784ee7e8eb55fa651bd2242b14e4af6b51f51de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
