@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "16e7dd61_6ed1be43",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2024-02-16T21:49:08Z",
+      "side": 1,
+      "message": "I wish it had GSM, remove :(",
+      "range": {
+        "startLine": 25,
+        "startChar": 10,
+        "endLine": 25,
+        "endChar": 16
+      },
+      "revId": "6ebcc1ba2e69248504e8401307eaa9472b67115e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3c8b2f7d_a74e1d25",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2024-02-16T21:49:08Z",
+      "side": 1,
+      "message": "does not",
+      "range": {
+        "startLine": 26,
+        "startChar": 229,
+        "endLine": 26,
+        "endChar": 257
+      },
+      "revId": "6ebcc1ba2e69248504e8401307eaa9472b67115e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
