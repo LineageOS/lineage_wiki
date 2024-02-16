@@ -22,6 +22,30 @@
       },
       "revId": "e784ee7e8eb55fa651bd2242b14e4af6b51f51de",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2fb0600_58cdef08",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-16T21:45:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bbd625c_83c37506",
+      "range": {
+        "startLine": 22,
+        "startChar": 53,
+        "endLine": 22,
+        "endChar": 56
+      },
+      "revId": "e784ee7e8eb55fa651bd2242b14e4af6b51f51de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
