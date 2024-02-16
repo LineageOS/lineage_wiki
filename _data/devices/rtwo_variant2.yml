@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 4600, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED', info: '50 MP (Primary)'}
+  - {flash: 'Dual LED', info: '50 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '12 MP (telephoto)'}
+  - {flash: None, info: '32 MP (Front Facing)'}
+codename: rtwo
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 21
+dimensions: {depth: 8.6, height: 161.2, width: 74}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 740
+image: rtwo.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm8550, version: '5.15'}
+maintainers: [sgcmarkus, themard]
+models: [XT2301-5]
+name: moto X40
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+ram: 12 GB LPDDR5X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2023-04
+screen: {refresh_rate: 165, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 256/512 GB UFS 4.0
+tree: android_device_motorola_rtwo
+type: phone
+variant: 2
+vendor: Motorola
+vendor_short: motorola
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
