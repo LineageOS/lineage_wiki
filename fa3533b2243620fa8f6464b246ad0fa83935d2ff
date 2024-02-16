@@ -22,6 +22,30 @@
       },
       "revId": "fa3533b2243620fa8f6464b246ad0fa83935d2ff",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39355893_18ca583e",
+        "filename": "pages/quirks/face_unlock.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-16T20:08:06Z",
+      "side": 1,
+      "message": "Whoops. Done.",
+      "parentUuid": "c7a77291_a0150dec",
+      "range": {
+        "startLine": 10,
+        "startChar": 3,
+        "endLine": 10,
+        "endChar": 6
+      },
+      "revId": "fa3533b2243620fa8f6464b246ad0fa83935d2ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
