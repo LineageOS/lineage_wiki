@@ -13,6 +13,7 @@ cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
 current_branch: 21
+custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.5, height: 163.1, width: 74.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8550
