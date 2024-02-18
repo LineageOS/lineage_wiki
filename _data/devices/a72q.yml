@@ -12,7 +12,7 @@ codename: a72q
 cpu: Kryo 465 Gold & Kryo 465 Silver
 cpu_cores: '8'
 cpu_freq: 2 x 2.3 GHz & 6 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8.4, height: 165, width: 77.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_sm7125
@@ -38,5 +38,5 @@ tree: android_device_samsung_a72q
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [19.1, 20]
+versions: [19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
