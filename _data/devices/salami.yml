@@ -27,7 +27,7 @@ models: [CPH2447, CPH2449, CPH2451, PHB110]
 name: '11 5G'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
-ram: 8/12GB GB LPDDR5
+ram: 8/12/16 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
