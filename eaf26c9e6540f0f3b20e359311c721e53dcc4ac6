@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "65cadc88_3be978e2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-02-19T20:27:46Z",
+      "side": 1,
+      "message": "Since when vendor_short \u003d\u003d manufacturer?",
+      "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
