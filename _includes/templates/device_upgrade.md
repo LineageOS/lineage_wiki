@@ -78,7 +78,9 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     - start using them: You can only do so by performing a factory reset, which will also remove all your data. Download the appropriate version [now]({{ "gapps" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 3. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
 4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+{%- if adbRoot %}
 {{ adbRoot }}
+{%- endif %}
 {%- if device.format_on_upgrade %}
 4. Reboot into recovery by running `adb -d reboot recovery`, or by performing the following:
     * {{ device.recovery_boot }}
