@@ -56,6 +56,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ec55a5a9_f5b7ddd4",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-02-19T23:52:03Z",
+      "side": 1,
+      "message": "vendor_dlkm is a dynamic partition, it shouldn\u0027t be here?",
+      "range": {
+        "startLine": 4,
+        "startChar": 100,
+        "endLine": 4,
+        "endChar": 111
+      },
+      "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "46e70a0a_1ae61b71",
         "filename": "_data/devices/ingot.yml",
         "patchSetId": 9
