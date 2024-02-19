@@ -1,5 +1,7 @@
 ## EFS/Persist Backup
 
+{% include alerts/warning.html content="The following only need to be run once, if you ran the repartition script during the installation guide, you do not need to do it again. If you are uncertain if you have ran it before, running it again is harmless." %}
+
 {% include alerts/warning.html content="Before processing repartition further we highly recommend you backup persist and EFS using adb or you might lose your IMEI/WIFI + BT mac addresses" %}
 1. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
