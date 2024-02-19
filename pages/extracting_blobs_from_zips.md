@@ -191,16 +191,24 @@ sudo apt-get install python3-protobuf
 You will now clone the repos needed to use the payload.bin extractor:
 
 ```
+git clone https://github.com/LineageOS/android_prebuilts_extract-tools android/prebuilts/extract-tools
 git clone https://github.com/LineageOS/android_tools_extract-utils android/tools/extract-utils
 git clone https://github.com/LineageOS/android_system_update_engine android/system/update_engine
 ```
 
-Extract the `.img` files from the payload.bin that's inside the lineage-*.zip:
+Extract the the payload.bin that's inside the lineage-*.zip:
 
 ```
-python3 android/tools/extract-utils/extract_ota.py path/to/lineage-*.zip
+unzip path/to/lineage-*.zip
 ```
 where `path/to/` is the path to the installable zip.
+
+Now, extract the the `.img` files inside the payload.bin:
+
+```
+./android/prebuilts/extract-tools/ota_extractor --payload path/to/payload.bin
+```
+where `path/to/` is the path to freshly extracted payload.bin.
 
 It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
 
