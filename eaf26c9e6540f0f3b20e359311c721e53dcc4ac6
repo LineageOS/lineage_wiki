@@ -16,6 +16,24 @@
       "message": "Since when vendor_short \u003d\u003d manufacturer?",
       "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cefe0bdd_ced9fc37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-19T22:33:11Z",
+      "side": 1,
+      "message": "vendor short is for vendor/ path, of which we use vendor/osom",
+      "parentUuid": "65cadc88_3be978e2",
+      "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
