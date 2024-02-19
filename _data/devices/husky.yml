@@ -32,7 +32,7 @@ recovery_reboot: fastboot_menu
 release: 2023-10
 screen: {refresh_rate: 120, resolution: '1344x2992', size: 6.7, technology: 'AMOLED'}
 soc: Google Tensor G3
-storage: 128/256/512 GB
+storage: 128/256/512/1024 GB
 tree: android_device_google_husky
 type: phone
 vendor: Google
