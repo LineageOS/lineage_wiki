@@ -27,7 +27,7 @@
 4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/cm-{{ device.current_branch }}/push-update.sh && chmod +x push-update.sh`
 {%- else %}
 4. Run `wget https://raw.githubusercontent.com/LineageOS/android_packages_apps_Updater/lineage-{{ device.current_branch | precision: 1 }}/push-update.sh && chmod +x push-update.sh`
-{% endif %}
+{%- endif %}
 5. Run: `./push-update.sh /path/to/zip`
 {%- if device.is_ab_device %}
 6. Open Settings, navigate to "System", then "Updater". click "Install". Once the update process has finished, the device will display a "Reboot" button, you may need to go into the Updater menu in Settings, "System" to see it. This will reboot you into the updated system.
