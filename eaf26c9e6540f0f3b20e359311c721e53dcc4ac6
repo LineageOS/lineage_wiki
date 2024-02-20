@@ -77,6 +77,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b3a590c1_bbdae3db",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-20T00:59:05Z",
+      "side": 1,
+      "message": "Done - but the pixel 7/8/fold have this.\n\nShould be fixed.",
+      "parentUuid": "ec55a5a9_f5b7ddd4",
+      "range": {
+        "startLine": 4,
+        "startChar": 100,
+        "endLine": 4,
+        "endChar": 111
+      },
+      "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46e70a0a_1ae61b71",
@@ -90,6 +114,30 @@
       "writtenOn": "2024-02-19T23:43:04Z",
       "side": 1,
       "message": "ultrawideeeeeeee",
+      "range": {
+        "startLine": 8,
+        "startChar": 50,
+        "endLine": 8,
+        "endChar": 60
+      },
+      "revId": "eaf26c9e6540f0f3b20e359311c721e53dcc4ac6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74467bec_44ebb1d2",
+        "filename": "_data/devices/ingot.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-20T00:59:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "46e70a0a_1ae61b71",
       "range": {
         "startLine": 8,
         "startChar": 50,
