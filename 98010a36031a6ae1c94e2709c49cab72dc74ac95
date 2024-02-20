@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b9d0fe8_3f7810a2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-20T18:41:33Z",
+      "side": 1,
+      "message": "Hate it, can revert if we figure out Wi-Fi AIDL migration.",
+      "revId": "98010a36031a6ae1c94e2709c49cab72dc74ac95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
