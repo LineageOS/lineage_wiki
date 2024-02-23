@@ -51,7 +51,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
 | Michael W. | baddaemon |
-| Paul Keith | javelinanddart |
+| Joseph Annareddy | javelinanddart |
 {: .table }
 
 ### Reviewers

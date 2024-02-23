@@ -7,7 +7,7 @@ global_proofreaders:
     nick: Vlad_Koldobskiy
   - name: Ricardo Cerqueira
     nick: arcee
-  - name: Paul Keith
+  - name: Joseph Annareddy
     nick: javelinanddart
 languages:
   - name: Albanian
@@ -103,7 +103,7 @@ languages:
   - name: Persian
     proofreaders: ['Erfan Abdi (erfangplus)']
   - name: Pirate English
-    proofreaders: ['Paul Keith (javelinanddart)']
+    proofreaders: ['Joseph Annareddy (javelinanddart)']
   - name: Polish
     proofreaders: ['Mateusz (godlesplay)']
   - name: Portuguese
