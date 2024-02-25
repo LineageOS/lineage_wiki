@@ -16,6 +16,24 @@
       "message": "that image, please look at it with a dark background...",
       "revId": "77a99e491a6ee01f654c452e36ba41749c72c1d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "adbcaaef_ecee6d3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-02-25T12:45:12Z",
+      "side": 1,
+      "message": "Tried background-color: black, and yeah that was definitely awful.\n\nWith some difficulty, I got a better image.",
+      "parentUuid": "df7e20b3_a41f24e7",
+      "revId": "77a99e491a6ee01f654c452e36ba41749c72c1d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
