@@ -6,7 +6,7 @@ codename: quill_tab
 cpu: Denver 2 & Cortex-A57
 cpu_cores: '2+4'
 cpu_freq: 2.0 GHz
-current_branch: 17.1
+current_branch: 20
 dimensions: None
 download_boot: With the device off, press the <kbd>FRC REC</kbd> button, then tap <kbd>POWER</kbd>. Release <kbd>FRC REC</kbd> once apx enumerates.
 flash_download_instructions: It will be named `p2771_flash_package.tar.xz`.
@@ -15,24 +15,24 @@ gpu: NVIDIA GP10B (Pascal)
 image: quill.png
 install_method: apx
 is_ab_device: true
-kernel: {repo: android_kernel_nvidia_linux-4.9_kernel_kernel-4.9, version: '4.9'}
-maintainers: []
-models: [quill, lanai]
+kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
+maintainers: [webgeek1234]
+models: [quill]
 name: Jetson TX2 [Tablet]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
-ram: 4/8 GB
+ram: 8 GB
 recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
 recovery_partition_name: recovery
 release: 2017-03-14
 screen: None
 soc: NVIDIA Tegra X2 (T186)
-storage: 16 GB/Sdcard
+storage: 16 GB
 tree: android_device_nvidia_quill_tab
 type: Devkit
 variant: 1
 vendor: NVIDIA
 vendor_short: nvidia
-versions: [17.1]
+versions: [17.1, 20]
 wifi: 802.11 a/b/g/n/ac
