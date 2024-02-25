@@ -6,7 +6,7 @@ codename: porg
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 18.1
+current_branch: 20
 dimensions: None
 download_boot: With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
 flash_codename: p3450
@@ -32,5 +32,5 @@ type: Devkit
 variant: 2
 vendor: NVIDIA
 vendor_short: nvidia
-versions: [17.1, 18.1]
+versions: [17.1, 18.1, 20]
 wifi: None
