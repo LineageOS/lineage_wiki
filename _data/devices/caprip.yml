@@ -13,7 +13,7 @@ codename: caprip
 cpu: Kryo 265
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz & 4 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 9.1, height: 165.2, width: 75.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
@@ -21,7 +21,7 @@ image: caprip.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
-maintainers: []
+maintainers: [mikeioannina]
 models: [XT2129-1, XT2129-2]
 name: moto g30
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
@@ -39,5 +39,5 @@ tree: android_device_motorola_caprip
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
