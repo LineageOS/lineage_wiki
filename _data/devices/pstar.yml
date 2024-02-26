@@ -21,7 +21,7 @@ image: pstar.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm8250, version: '4.19'}
-maintainers: [npjohnson, SGCMarkus]
+maintainers: []
 models: [XT2153-1]
 name: edge 20 pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
