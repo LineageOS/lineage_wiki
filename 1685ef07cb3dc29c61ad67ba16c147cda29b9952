@@ -22,6 +22,30 @@
       },
       "revId": "1685ef07cb3dc29c61ad67ba16c147cda29b9952",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a8edbef_2c9b1e20",
+        "filename": "_data/devices/zangya.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 29578
+      },
+      "writtenOn": "2024-02-27T15:48:52Z",
+      "side": 1,
+      "message": "Done.\nThanks for letting me know.",
+      "parentUuid": "900aa48d_c5a8bdfe",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 74
+      },
+      "revId": "1685ef07cb3dc29c61ad67ba16c147cda29b9952",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
