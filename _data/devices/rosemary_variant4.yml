@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install_device_variants:
-  - {device: 'Poco M5s Global', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SFFMIXM/miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip', firmware: 'V13.0.5.0.SFFMIXM'}
+  - {device: 'Poco M5s Global', download_link: 'https://cdn-ota.azureedge.net/V13.0.5.0.SFFMIXM/miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip', firmware: 'V13.0.5.0.SFFMIXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:

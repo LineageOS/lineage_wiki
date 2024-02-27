@@ -2,9 +2,9 @@ architecture: arm64
 battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-  - {device: 'Mi 8 Pro China', download_link: 'https://bigota.d.miui.com/V12.5.2.0.QECCNXM/miui_MI8UD_V12.5.2.0.QECCNXM_c300f2cfad_10.0.zip', firmware: 'V12.5.2.0.QECCNXM'}
-  - {device: 'Mi 8 Pro Global', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECMIXM/miui_MI8UDGlobal_V12.0.2.0.QECMIXM_1bea455dd7_10.0.zip', firmware: 'V12.0.2.0.QECMIXM'}
-  - {device: 'Mi 8 Pro Russia', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.2.0.QECRUXM_3d07155d93_10.0.zip', firmware: 'V12.0.2.0.QECRUXM'}
+  - {device: 'Mi 8 Pro China', download_link: 'https://cdn-ota.azureedge.net/V12.5.2.0.QECCNXM/miui_MI8UD_V12.5.2.0.QECCNXM_c300f2cfad_10.0.zip', firmware: 'V12.5.2.0.QECCNXM'}
+  - {device: 'Mi 8 Pro Global', download_link: 'https://cdn-ota.azureedge.net/V12.0.2.0.QECMIXM/miui_MI8UDGlobal_V12.0.2.0.QECMIXM_1bea455dd7_10.0.zip', firmware: 'V12.0.2.0.QECMIXM'}
+  - {device: 'Mi 8 Pro Russia', download_link: 'https://cdn-ota.azureedge.net/V12.0.2.0.QECRUXM/miui_MI8ProRUGlobal_V12.0.2.0.QECRUXM_3d07155d93_10.0.zip', firmware: 'V12.0.2.0.QECRUXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '12 MP'}

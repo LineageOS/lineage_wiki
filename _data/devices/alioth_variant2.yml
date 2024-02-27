@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-  - {device: 'Redmi K40 China', download_link: 'https://bigota.d.miui.com/V14.0.4.0.TKHCNXM/miui_ALIOTH_V14.0.4.0.TKHCNXM_a249736c6c_13.0.zip', firmware: 'V14.0.4.0.TKHCNXM'}
+  - {device: 'Redmi K40 China', download_link: 'https://cdn-ota.azureedge.net/V14.0.4.0.TKHCNXM/miui_ALIOTH_V14.0.4.0.TKHCNXM_a249736c6c_13.0.zip', firmware: 'V14.0.4.0.TKHCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:

@@ -2,9 +2,9 @@ architecture: arm64
 battery: {capacity: 3200, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw'}
 before_install_device_variants:
-  - {device: 'Mi MIX 3 China', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEECNXM/miui_MIMIX3_V12.0.3.0.QEECNXM_b96755549d_10.0.zip', firmware: 'V12.0.3.0.QEECNXM'}
-  - {device: 'Mi MIX 3 Global', download_link: 'https://bigota.d.miui.com/V12.0.2.0.QEEMIXM/miui_MIMIX3Global_V12.0.2.0.QEEMIXM_9b2eb453df_10.0.zip', firmware: 'V12.0.2.0.QEEMIXM'}
-  - {device: 'Mi MIX 3 Russia', download_link: 'https://bigota.d.miui.com/V12.0.3.0.QEERUXM/miui_MIMIX3RUGlobal_V12.0.3.0.QEERUXM_00b3aac8c0_10.0.zip', firmware: 'V12.0.3.0.QEERUXM'}
+  - {device: 'Mi MIX 3 China', download_link: 'https://cdn-ota.azureedge.net/V12.0.3.0.QEECNXM/miui_MIMIX3_V12.0.3.0.QEECNXM_b96755549d_10.0.zip', firmware: 'V12.0.3.0.QEECNXM'}
+  - {device: 'Mi MIX 3 Global', download_link: 'https://cdn-ota.azureedge.net/V12.0.2.0.QEEMIXM/miui_MIMIX3Global_V12.0.2.0.QEEMIXM_9b2eb453df_10.0.zip', firmware: 'V12.0.2.0.QEEMIXM'}
+  - {device: 'Mi MIX 3 Russia', download_link: 'https://cdn-ota.azureedge.net/V12.0.3.0.QEERUXM/miui_MIMIX3RUGlobal_V12.0.3.0.QEERUXM_00b3aac8c0_10.0.zip', firmware: 'V12.0.3.0.QEERUXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'Dual LED (dual tone)', info: '12 MP'}
