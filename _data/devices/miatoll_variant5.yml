@@ -1,6 +1,8 @@
 architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_install_device_variants:
+- {device: 'Redmi Note 9 Pro Max', download_link: 'https://cdn-ota.azureedge.net/V14.0.2.0.SJXINXM/miui_EXCALIBURINGlobal_V14.0.2.0.SJXINXM_19c8eaf37a_12.0.zip', firmware: 'V14.0.2.0.SJXINXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '64 MP'}
@@ -15,6 +17,7 @@ cpu_freq: 6 x 1.8 GHz + 2 x 2.3 GHz
 current_branch: 20
 dimensions: {depth: 8.8, height: 165.7, width: 76.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_miatoll
 gpu: Qualcomm Adreno 618
 image: miatoll.png
 install_method: fastboot_xiaomi
