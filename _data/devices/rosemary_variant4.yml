@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install_device_variants:
+  - {device: 'Poco M5s Global', download_link: 'https://bigota.d.miui.com/V13.0.5.0.SFFMIXM/miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip', firmware: 'V13.0.5.0.SFFMIXM'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
+bluetooth: {profiles: [A2DP], spec: '5.1'}
+cameras:
+  - {flash: 'LED', info: '64 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (macro)'}
+  - {flash: None, info: '2 MP (depth)'}
+codename: rosemary
+cpu: Cortex-A76 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.05 GHz + 6 x 2.0 GHz
+current_branch: 21
+dimensions: {depth: 8.3, height: 160.5, width: 74.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_rosemary
+gpu: ARM Mali-G76 MC4
+image: rosemary.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_mt6785, version: '4.14'}
+maintainers: [surblazer]
+name: Poco M5s
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
+ram: 4/6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
+recovery_partition_name: boot
+release: 2022-09
+screen: {resolution: '1080x2400', size: 6.43, technology: 'AMOLED'}
+soc: Mediatek MT6785 Helio G95
+storage: 64/128/256 GB
+tree: android_device_xiaomi_rosemary
+type: phone
+variant: 4
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [20, 21]
+wifi: 802.11 a/b/g/n/ac
