@@ -1,8 +1,6 @@
 architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
-before_install_device_variants:
-  - {device: 'Redmi Note 10S Global', download_link: 'https://cdn-ota.azureedge.net/V14.0.7.0.TKLMIXM/miui_ROSEMARYGlobal_V14.0.7.0.TKLMIXM_fbe684c2dc_13.0.zip', firmware: 'V14.0.7.0.TKLMIXM'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '11'}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '64 MP (wide)'}
@@ -13,10 +11,9 @@ codename: rosemary
 cpu: Cortex-A76 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.05 GHz + 6 x 2.0 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 8.3, height: 160.5, width: 74.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-firmware_update: firmware_update_xiaomi_rosemary
 gpu: ARM Mali-G76 MC4
 image: rosemary.png
 install_method: fastboot_xiaomi
@@ -38,5 +35,5 @@ type: phone
 variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [20, 21]
+versions: [20]
 wifi: 802.11 a/b/g/n/ac
