@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 530
 image: oneplus3.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_oneplus_msm8996, version: '3.18'}
-maintainers: [dianlujitao, timschumi]
+maintainers: []
 models: [A3000, A3003]
 name: '3'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

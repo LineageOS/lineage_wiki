@@ -16,7 +16,7 @@ gpu: ARM Mali-T830 MP3
 image: a5y17lte.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_universal7880, version: '3.18'}
-maintainers: [filiprrs]
+maintainers: []
 models: [SM-A520F, SM-A520F/DS, SM-A520K, SM-A520L, SM-A520S, SM-A520W]
 name: Galaxy A5 (2017)
 network: [2G GSM, 3G UMTS, 4G LTE]

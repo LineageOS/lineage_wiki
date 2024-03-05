@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 418
 image: ether.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nextbit_msm8992, version: '3.10'}
-maintainers: [javelinanddart, npjohnson]
+maintainers: []
 name: Robin
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall effect sensor, Proximity sensor, Fingerprint reader, NFC]

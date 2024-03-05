@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 330
 image: klte.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
-maintainers: [haggertk]
+maintainers: []
 models: [SM-G900AZ, SM-S902L]
 name: Galaxy S5 LTE (G900AZ/S902L)
 network: [2G GSM, 3G UMTS, 4G LTE]

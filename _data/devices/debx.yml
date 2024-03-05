@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 320
 image: flo.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_google_msm, version: '3.4'}
-maintainers: [npjohnson, surblazer, Elektroschmock, hpnightowl, ROMSG]
+maintainers: []
 name: Nexus 7 2013 (LTE, Repartitioned)
 needs_fastboot_boot: true
 network: [2G GSM, 3G UMTS, 4G LTE]

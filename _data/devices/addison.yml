@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 506
 image: addison.png
 install_method: fastboot_motorola
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
-maintainers: [marcost2, npjohnson]
+maintainers: []
 models: [XT1635-01, XT1635-02, XT1635-03]
 name: moto z play
 network: [2G GSM, 3G UMTS, 4G LTE]

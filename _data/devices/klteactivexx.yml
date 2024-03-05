@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 330
 image: klteactivexx.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
-maintainers: [javelinanddart, npjohnson]
+maintainers: []
 models: [SM-G870F]
 name: Galaxy S5 Active (G870F)
 network: [2G GSM, 3G UMTS, 4G LTE]

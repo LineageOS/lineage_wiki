@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 320
 image: jflte.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_jf, version: '3.4'}
-maintainers: [arco, npjohnson, side]
+maintainers: []
 models: [GT-I9505, SGH-I337M, SGH-M919, SGH-M919V]
 name: Galaxy S4 (GT-I9505, SGH-I337M, SGH-M919/V)
 network: [2G GSM, 3G UMTS, 4G LTE]

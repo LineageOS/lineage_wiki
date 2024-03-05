@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 330
 image: hlte.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_msm8974, version: '3.4'}
-maintainers: [haggertk, npjohnson]
+maintainers: []
 models: [SM-N900T, SM-N900V, SM-N900W8]
 name: Galaxy Note 3 LTE (N900T/V/W8)
 network: [2G GSM, 3G UMTS, 4G LTE]

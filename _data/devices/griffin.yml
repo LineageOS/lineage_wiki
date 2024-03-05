@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 530
 image: griffin.png
 install_method: fastboot_motorola
 kernel: {repo: android_kernel_motorola_msm8996, version: '3.18'}
-maintainers: [erfanoabdi, npjohnson]
+maintainers: []
 models: [XT1650-03, XT1650-05]
 name: moto z
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

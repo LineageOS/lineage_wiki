@@ -13,7 +13,7 @@ gpu: NVIDIA GM20B (Maxwell)
 image: foster.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
-maintainers: [webgeek1234, npjohnson]
+maintainers: []
 models: [darcy, foster_e, foster_e_hdd, mdarcy]
 name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Tablet]
 network: None

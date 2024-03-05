@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 506
 image: albus.png
 install_method: fastboot_motorola
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
-maintainers: [marcost2]
+maintainers: []
 models: [XT1710-01, XT1710-02, XT1710-07, XT1710-08, XT1710-09, XT1710-10, XT1710-11]
 name: moto z2 play
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

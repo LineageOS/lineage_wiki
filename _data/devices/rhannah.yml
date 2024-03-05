@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 308
 image: hannah.png
 install_method: fastboot_motorola
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
-maintainers: [Jarl-Penguin, karthick111, electimon, wh0dat]
+maintainers: []
 models: [XT1924-1, XT1924-2, XT1924-4, XT1924-5]
 name: 'moto e5 plus (XT1924-1/2/4/5)'
 network: [2G GSM, 3G UMTS, 4G LTE]

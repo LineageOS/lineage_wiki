@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 330
 image: z3.png
 install_method: fastboot_sony
 kernel: {repo: android_kernel_sony_msm8974, version: '3.4'}
-maintainers: [Tom1000, Myself5]
+maintainers: []
 models: [D6603]
 name: Xperia Z3
 network: [2G GSM, 3G UMTS, 4G LTE]

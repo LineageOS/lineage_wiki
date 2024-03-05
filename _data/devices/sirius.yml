@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 330
 image: sirius.png
 install_method: fastboot_sony
 kernel: {repo: android_kernel_sony_msm8974, version: '3.4'}
-maintainers: [ArianK16a]
+maintainers: []
 models: [D6502, D6503]
 name: Xperia Z2
 network: [2G GSM, 3G UMTS, 4G LTE]

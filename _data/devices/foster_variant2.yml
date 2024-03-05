@@ -13,7 +13,7 @@ gpu: NVIDIA GM20B (Maxwell)
 image: foster.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
-maintainers: [webgeek1234, npjohnson]
+maintainers: []
 models: [jetson_cv]
 name: Jetson TX1 [Android TV]
 network: None
