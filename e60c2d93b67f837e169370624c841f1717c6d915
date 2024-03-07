@@ -16,6 +16,24 @@
       "message": "why was it actually removed?",
       "revId": "e60c2d93b67f837e169370624c841f1717c6d915",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "511faac2_d7c934c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26349
+      },
+      "writtenOn": "2024-03-07T10:41:06Z",
+      "side": 1,
+      "message": "Oops, my bad",
+      "parentUuid": "a4165e29_d9fe2d3b",
+      "revId": "e60c2d93b67f837e169370624c841f1717c6d915",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
