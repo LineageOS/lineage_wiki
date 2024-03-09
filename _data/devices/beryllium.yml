@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1}
 before_install_device_variants:
   - {device: 'POCO F1 Global', download_link: 'https://cdn-ota.azureedge.net/V12.0.3.0.QEJMIXM/miui_POCOF1Global_V12.0.3.0.QEJMIXM_cf3fccffce_10.0.zip', firmware: 'V12.0.3.0.QEJMIXM'}
   - {device: 'POCO F1 Russia', download_link: 'https://cdn-ota.azureedge.net/V12.0.3.0.QEJRUXM/miui_POCOF1RUGlobal_V12.0.3.0.QEJRUXM_ac5b1649fc_10.0.zip', firmware: 'V12.0.3.0.QEJRUXM'}

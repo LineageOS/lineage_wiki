@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '7.1'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1, version: '7.1'}
 bluetooth: {spec: '4.1'}
 cameras:
   - {flash: 'LED', info: '13 MP (Rear)'}

@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4820, removable: false, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '12'}
 bluetooth: {profiles: [A2DP + aptX], spec: '5.1'}
 cameras:
   - {flash: 'Dual LED', info: '64 MP'}

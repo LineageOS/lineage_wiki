@@ -37,6 +37,8 @@ definitions:
     properties:
       instructions:
         type: string
+      lineage_version:
+        type: number
       ships_fw:
         description: Defines whether the device ships firmware
         type: boolean
