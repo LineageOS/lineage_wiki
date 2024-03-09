@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 3540, removable: False, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '10'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 18.1, version: '10'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
