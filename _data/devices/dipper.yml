@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 3400, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1}
 before_install_device_variants:
   - {device: 'Mi 8 China', download_link: 'https://cdn-ota.azureedge.net/V12.5.2.0.QEACNXM/miui_MI8_V12.5.2.0.QEACNXM_f5ec813d1c_10.0.zip', firmware: 'V12.5.2.0.QEACNXM'}
   - {device: 'Mi 8 Global', download_link: 'https://cdn-ota.azureedge.net/V12.0.3.0.QEAMIXM/miui_MI8Global_V12.0.3.0.QEAMIXM_7619340f8c_10.0.zip', firmware: 'V12.0.3.0.QEAMIXM'}

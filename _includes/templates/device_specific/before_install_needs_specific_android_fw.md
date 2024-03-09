@@ -1,4 +1,11 @@
+{%- assign skip = false %}
+{%- if device.before_install.lineage_version > 0 and device.before_install.lineage_version == device.versions[0] %}
+{%- assign skip = true %}
+{%- endif %}
+
+{%- unless skip == true %}
 {% capture content -%}
+
 Before following these instructions please ensure that the device is currently using
 {%- if device.before_install_device_variants and device.before_install_device_variants.size > 0 %}
 the firmware version mentioned below. If your current installation is newer or older than the required version, please upgrade or downgrade to the required version before proceeding
@@ -11,6 +18,10 @@ If your current installation is newer or older than **Android {{ device.before_i
 by following [this guide]({{ device | device_link: "/fw_update" | relative_url }}).
 {%- else %}
 (guides can be found on the internet!).
+{%- endif %}
+{%- if device.before_install.lineage_version > 0 %}
+<br/><br/>
+This requirement is already met when you are upgrading from **LineageOS {{ device.before_install.lineage_version }}** or newer!
 {%- endif %}
 {%- endcapture %}
 
@@ -28,3 +39,4 @@ by following [this guide]({{ device | device_link: "/fw_update" | relative_url }
 </tbody>
 </table>
 {%- endif %}
+{%- endunless %}
