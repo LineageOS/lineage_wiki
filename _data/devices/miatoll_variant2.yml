@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12', lineage_version: 19.1}
 before_install_device_variants:
 - {device: 'Redmi Note 9S', download_link: 'https://cdn-ota.azureedge.net/V14.0.4.0.SJWMIXM/miui_CURTANAGlobal_V14.0.4.0.SJWMIXM_e2b5a2bc43_12.0.zip', firmware: 'V14.0.4.0.SJWMIXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}

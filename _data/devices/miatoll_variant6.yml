@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '12'}
+before_install: {instructions: 'needs_specific_android_fw', version: '12', lineage_version: 19.1}
 before_install_device_variants:
 - {device: 'Redmi Note 10 Lite', download_link: 'https://cdn-ota.azureedge.net/V14.0.6.0.SJWINRF/miui_CURTANAINRFGlobal_V14.0.6.0.SJWINRF_2482f984a4_12.0.zip', firmware: 'V14.0.6.0.SJWINRF'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}

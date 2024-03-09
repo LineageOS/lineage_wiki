@@ -42,6 +42,8 @@ definitions:
         type: boolean
       version:
         type: string
+      lineage_version:
+        type: string
     required:
       - instructions
     type: object

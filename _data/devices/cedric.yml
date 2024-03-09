@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 2800, removable: True, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', version: '8.1'}
+before_install: {instructions: 'needs_specific_android_fw', version: '8.1', lineage_version: 17.1}
 bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
   - {flash: 'LED', info: '13 MP'}
