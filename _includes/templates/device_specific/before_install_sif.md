@@ -5,7 +5,7 @@ Out of the box, this device has no USB port, but has an unpopulated header on th
 By purchasing a verical Micro-USB (Type-B) female header like [this one](https://www.digikey.com/en/products/detail/würth-elektronik/614105150621/5047748), or any part matching or similar enough to a `Würth Elektronik (VA) / 614105150621`.
 and either soldering or using hot-air to seat the USB port on the pins, you can still unlock the bootloader and install LineageOS on this device.
 
-{% include alerts/warning.html content="If you lack soldering/hot-air station skills, this project is not a good project for learners, and you are very likely to damage the device irreparably. It is highly reccomended to practice soldering/hot-air station skills extensively before attempting." %}
+{% include alerts/warning.html content="If you lack soldering/hot-air station skills, this project is not a good project for learners, and you are very likely to damage the device irreparably. It is highly recommended to practice soldering/hot-air station skills extensively before attempting." %}
 
 To install the header, first remove all cables attached to the device, and the Micro SD card. Then use a Torx T4 screwdriver to remove the two screws shown here:
 
