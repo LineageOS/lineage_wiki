@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "88fa239e_f6828c13",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 15
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-03-10T18:00:19Z",
+      "side": 1,
+      "message": "note to reviewers - images _are_ broken in this right now, but won\u0027t be when merged.\n\nFor some reason outside of the device_info template the standard image path vars didn\u0027t work.",
+      "revId": "1d26154c76d35bc5ed1ad78396c3c3eb7d3d984e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
