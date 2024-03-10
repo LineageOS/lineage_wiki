@@ -4,12 +4,7 @@
 
     <tr class="image">
       <td colspan="2" style="border-top: 0px;">
-      {% if jekyll.environment == "development" or jekyll.environment == "production" %}
-      {% assign img_src = "images/devices/" | append: device.image | relative_url %}
-      {% else %}
-      {% assign img_src = "https://raw.githubusercontent.com/LineageOS/lineage_wiki/" | append: jekyll.environment | append: "/images/devices/" | append: device.image %}
-      {% endif %}
-      <img src="{{ img_src }}" />
+      <img src="{{ "images/devices/" | append: device.image | relative_url }}" />
       <br/><br/>
       <b>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</b>
       </td>
