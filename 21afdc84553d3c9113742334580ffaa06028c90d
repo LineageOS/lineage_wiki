@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d797fb3_067bfc04",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25355
+      },
+      "writtenOn": "2024-03-19T02:15:17Z",
+      "side": 1,
+      "message": "Hi, this change goes with https://review.lineageos.org/c/LineageOS/android_device_google_pantah/+/386535",
+      "revId": "21afdc84553d3c9113742334580ffaa06028c90d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
