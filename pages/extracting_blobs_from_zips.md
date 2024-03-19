@@ -224,8 +224,9 @@ sudo mount -o ro system_ext.img system/system_ext/
 Move to the root directory of the sources of your device and run `extract-files.sh` as follows:
 
 ```
-./extract-files.sh ~/android/system_dump/
+./extract-files.sh ~/android/system_dump/system/
 ```
+The trailing `/` is not optional!
 
 This will tell `extract-files.sh` to extract the proprietary blobs from the mounted system dump rather than a connected device.
 
@@ -234,4 +235,5 @@ Once it is done, unmount the system dump and remove the now unnecessary files:
 ```
 sudo umount -R ~/android/system_dump/system/
 rm -rf ~/android/system_dump/
+rm -rf ~/android/lineage/android/system/update_engine
 ```
