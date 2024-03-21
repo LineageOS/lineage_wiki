@@ -40,38 +40,38 @@ source build/envsetup.sh
 Select the build target by running the following command, where `<target>` is one of the entries in the table below:
 
 ```
-lunch <target>
+breakfast <target> eng
 ```
 
 |                               |              |  Build targets                 |  Supported `<arch>`                |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
 | **LineageOS 17 and below**    |              |                                |                                    |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
-| Phone                         | Emulator/GSI | `lineage_<arch>-eng`           | `arm`, `arm64`, `x86` and `x86_64` |
+| Phone                         | Emulator/GSI | `<arch>`                       | `arm`, `arm64`, `x86` and `x86_64` |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
 | **LineageOS 18.1**            |              |                                |                                    |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
-| Phone                         | Emulator/GSI | `lineage_<arch>-eng`           | `arm`, `arm64`, `x86` and `x86_64` |
-| TV                            | Emulator/GSI | `lineage_tv_<arch>-eng`        | `arm`, `arm64`, `x86` and `x86_64` |
-| Automotive                    | Emulator/GSI | `lineage_car_<arch>-eng`       | `arm64` and `x86_64`               |
+| Phone                         | Emulator/GSI | `<arch>`                       | `arm`, `arm64`, `x86` and `x86_64` |
+| TV                            | Emulator/GSI | `tv_<arch>`                    | `arm`, `arm64`, `x86` and `x86_64` |
+| Automotive                    | Emulator/GSI | `car_<arch>`                   | `arm64` and `x86_64`               |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
 | **LineageOS 19 and above**    |              |                                |                                    |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
-| Phone                         | Emulator     | `lineage_sdk_phone_<arch>-eng` | `x86` and `x86_64`                 |
-| Phone                         | GSI          | `lineage_gsi_<arch>-eng`       | `arm`, `arm64`, `x86` and `x86_64` |
-| TV                            | Emulator     | `lineage_sdk_tv_<arch>-eng`    | `arm` and `x86`                    |
-| TV                            | GSI          | `lineage_gsi_tv_<arch>-eng`    | `arm`, `arm64`, `x86` and `x86_64` |
-| Automotive                    | Emulator     | `lineage_sdk_car_<arch>-eng`   | `arm64` and `x86_64`               |
-| Automotive                    | GSI          | `lineage_gsi_car_<arch>-eng`   | `arm64` and `x86_64`               |
+| Phone                         | Emulator     | `sdk_phone_<arch>`             | `x86` and `x86_64`                 |
+| Phone                         | GSI          | `gsi_<arch>`                   | `arm`, `arm64`, `x86` and `x86_64` |
+| TV                            | Emulator     | `sdk_tv_<arch>`                | `arm` and `x86`                    |
+| TV                            | GSI          | `gsi_tv_<arch>`                | `arm`, `arm64`, `x86` and `x86_64` |
+| Automotive                    | Emulator     | `sdk_car_<arch>`               | `arm64` and `x86_64`               |
+| Automotive                    | GSI          | `gsi_car_<arch>`               | `arm64` and `x86_64`               |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
 | **LineageOS 21 and above**    |              |                                |                                    |
 |-------------------------------|--------------|--------------------------------|------------------------------------|
-| Phone                         | Emulator     | `lineage_sdk_phone_<arch>-eng` | `arm64`, `x86` and `x86_64`        |
-| Phone                         | GSI          | `lineage_gsi_<arch>-eng`       | `arm`, `arm64`, `x86` and `x86_64` |
-| TV                            | Emulator     | `lineage_sdk_tv_<arch>-eng`    | `arm` and `x86`                    |
-| TV                            | GSI          | `lineage_gsi_tv_<arch>-eng`    | `arm`, `arm64`, `x86` and `x86_64` |
-| Automotive                    | Emulator     | `lineage_sdk_car_<arch>-eng`   | `arm64` and `x86_64`               |
-| Automotive                    | GSI          | `lineage_gsi_car_<arch>-eng`   | `arm64` and `x86_64`               |
+| Phone                         | Emulator     | `sdk_phone_<arch>`             | `arm64`, `x86` and `x86_64`        |
+| Phone                         | GSI          | `gsi_<arch>`                   | `arm`, `arm64`, `x86` and `x86_64` |
+| TV                            | Emulator     | `sdk_tv_<arch>`                | `arm` and `x86`                    |
+| TV                            | GSI          | `gsi_tv_<arch>`                | `arm`, `arm64`, `x86` and `x86_64` |
+| Automotive                    | Emulator     | `sdk_car_<arch>`               | `arm64` and `x86_64`               |
+| Automotive                    | GSI          | `gsi_car_<arch>`               | `arm64` and `x86_64`               |
 {: .table }
 
 
