@@ -2,8 +2,8 @@ architecture: arm64
 battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Redmi Note 7 Pro (India)', download_link: 'https://cdn-ota.azureedge.net/V12.5.1.0.QFHINXM/miui_VIOLETINGlobal_V12.5.1.0.QFHINXM_125bf9d2a7_10.0.zip', firmware: 'V12.5.1.0.QFHINXM'}
-  - {device: 'Redmi Note 7 Pro (China)', download_link: 'https://cdn-ota.azureedge.net/V12.5.4.0.QFHCNXM/miui_VIOLET_V12.5.4.0.QFHCNXM_8706bb89a6_10.0.zip', firmware: 'V12.5.4.0.QFHCNXM'}
+  - {device: 'Redmi Note 7 Pro (India)', download_link: 'https://bn.d.miui.com/V12.5.1.0.QFHINXM/miui_VIOLETINGlobal_V12.5.1.0.QFHINXM_125bf9d2a7_10.0.zip', firmware: 'V12.5.1.0.QFHINXM'}
+  - {device: 'Redmi Note 7 Pro (China)', download_link: 'https://bn.d.miui.com/V12.5.4.0.QFHCNXM/miui_VIOLET_V12.5.4.0.QFHCNXM_8706bb89a6_10.0.zip', firmware: 'V12.5.4.0.QFHCNXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'Dual LED', info: '48 MP'}

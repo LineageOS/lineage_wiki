@@ -2,9 +2,9 @@ architecture: arm64
 battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Mi 9T (Global)', download_link: 'https://cdn-ota.azureedge.net/V12.1.4.0.RFJMIXM/miui_DAVINCIGlobal_V12.1.4.0.RFJMIXM_e0ac13ed89_11.0.zip', firmware: 'V12.1.4.0.RFJMIXM'}
-  - {device: 'Mi 9T (EEA)', download_link: 'https://cdn-ota.azureedge.net/V12.1.1.0.RFJEUXM/miui_DAVINCIEEAGlobal_V12.1.1.0.RFJEUXM_2acd940e23_11.0.zip', firmware: 'V12.1.1.0.RFJEUXM'}
-  - {device: 'Mi 9T (Russia)', download_link: 'https://cdn-ota.azureedge.net/V12.1.2.0.RFJRUXM/miui_DAVINCIRUGlobal_V12.1.2.0.RFJRUXM_a69a4cd4e6_11.0.zip', firmware: 'V12.1.2.0.RFJRUXM'}
+  - {device: 'Mi 9T (Global)', download_link: 'https://bn.d.miui.com/V12.1.4.0.RFJMIXM/miui_DAVINCIGlobal_V12.1.4.0.RFJMIXM_e0ac13ed89_11.0.zip', firmware: 'V12.1.4.0.RFJMIXM'}
+  - {device: 'Mi 9T (EEA)', download_link: 'https://bn.d.miui.com/V12.1.1.0.RFJEUXM/miui_DAVINCIEEAGlobal_V12.1.1.0.RFJEUXM_2acd940e23_11.0.zip', firmware: 'V12.1.1.0.RFJEUXM'}
+  - {device: 'Mi 9T (Russia)', download_link: 'https://bn.d.miui.com/V12.1.2.0.RFJRUXM/miui_DAVINCIRUGlobal_V12.1.2.0.RFJRUXM_a69a4cd4e6_11.0.zip', firmware: 'V12.1.2.0.RFJRUXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'Dual LED', info: '48 MP'}

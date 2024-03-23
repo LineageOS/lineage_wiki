@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Redmi Note 10 Pro Max India', download_link: 'https://cdn-ota.azureedge.net/V14.0.1.0.TKFINXM/miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0.zip', firmware: 'V14.0.1.0.TKFINXM'}
+  - {device: 'Redmi Note 10 Pro Max India', download_link: 'https://bn.d.miui.com/V14.0.1.0.TKFINXM/miui_SWEETININGlobal_V14.0.1.0.TKFINXM_022ce09a45_13.0.zip', firmware: 'V14.0.1.0.TKFINXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '108 MP'}

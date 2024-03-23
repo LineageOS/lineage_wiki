@@ -2,12 +2,12 @@ architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Redmi Note 10 Pro Global', download_link: 'https://cdn-ota.azureedge.net/V14.0.2.0.TKFMIXM/miui_SWEETGlobal_V14.0.2.0.TKFMIXM_897d928055_13.0.zip', firmware: 'V14.0.2.0.TKFMIXM'}
-  - {device: 'Redmi Note 10 Pro EEA', download_link: 'https://cdn-ota.azureedge.net/V14.0.3.0.TKFEUXM/miui_SWEETEEAGlobal_V14.0.3.0.TKFEUXM_d1f402084b_13.0.zip', firmware: 'V14.0.3.0.TKFEUXM'}
-  - {device: 'Redmi Note 10 Pro Russia', download_link: 'https://cdn-ota.azureedge.net/V14.0.1.0.TKFRUXM/miui_SWEETRUGlobal_V14.0.1.0.TKFRUXM_2f3c9c4717_13.0.zip', firmware: 'V14.0.1.0.TKFRUXM'}
-  - {device: 'Redmi Note 10 Pro Turkey', download_link: 'https://cdn-ota.azureedge.net/V14.0.1.0.TKFTRXM/miui_SWEETTRGlobal_V14.0.1.0.TKFTRXM_000bed12bc_13.0.zip', firmware: 'V14.0.1.0.TKFTRXM'}
-  - {device: 'Redmi Note 10 Pro Indonesia', download_link: 'https://cdn-ota.azureedge.net/V14.0.2.0.TKFIDXM/miui_SWEETIDGlobal_V14.0.2.0.TKFIDXM_df828d33c5_13.0.zip', firmware: 'V14.0.2.0.TKFIDXM'}
-  - {device: 'Redmi Note 10 Pro Taiwan', download_link: 'https://cdn-ota.azureedge.net/V14.0.1.0.TKFTWXM/miui_SWEETTWGlobal_V14.0.1.0.TKFTWXM_06e7a5768c_13.0.zip', firmware: 'V14.0.1.0.TKFTWXM'}
+  - {device: 'Redmi Note 10 Pro Global', download_link: 'https://bn.d.miui.com/V14.0.2.0.TKFMIXM/miui_SWEETGlobal_V14.0.2.0.TKFMIXM_897d928055_13.0.zip', firmware: 'V14.0.2.0.TKFMIXM'}
+  - {device: 'Redmi Note 10 Pro EEA', download_link: 'https://bn.d.miui.com/V14.0.3.0.TKFEUXM/miui_SWEETEEAGlobal_V14.0.3.0.TKFEUXM_d1f402084b_13.0.zip', firmware: 'V14.0.3.0.TKFEUXM'}
+  - {device: 'Redmi Note 10 Pro Russia', download_link: 'https://bn.d.miui.com/V14.0.1.0.TKFRUXM/miui_SWEETRUGlobal_V14.0.1.0.TKFRUXM_2f3c9c4717_13.0.zip', firmware: 'V14.0.1.0.TKFRUXM'}
+  - {device: 'Redmi Note 10 Pro Turkey', download_link: 'https://bn.d.miui.com/V14.0.1.0.TKFTRXM/miui_SWEETTRGlobal_V14.0.1.0.TKFTRXM_000bed12bc_13.0.zip', firmware: 'V14.0.1.0.TKFTRXM'}
+  - {device: 'Redmi Note 10 Pro Indonesia', download_link: 'https://bn.d.miui.com/V14.0.2.0.TKFIDXM/miui_SWEETIDGlobal_V14.0.2.0.TKFIDXM_df828d33c5_13.0.zip', firmware: 'V14.0.2.0.TKFIDXM'}
+  - {device: 'Redmi Note 10 Pro Taiwan', download_link: 'https://bn.d.miui.com/V14.0.1.0.TKFTWXM/miui_SWEETTWGlobal_V14.0.1.0.TKFTWXM_06e7a5768c_13.0.zip', firmware: 'V14.0.1.0.TKFTWXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '108 MP'}

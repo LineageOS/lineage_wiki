@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Mi 11X India', download_link: 'https://cdn-ota.azureedge.net/V14.0.2.0.TKHINXM/miui_ALIOTHINGlobal_V14.0.2.0.TKHINXM_f9ee9089e7_13.0.zip', firmware: 'V14.0.2.0.TKHINXM'}
+  - {device: 'Mi 11X India', download_link: 'https://bn.d.miui.com/V14.0.2.0.TKHINXM/miui_ALIOTHINGlobal_V14.0.2.0.TKHINXM_f9ee9089e7_13.0.zip', firmware: 'V14.0.2.0.TKHINXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
