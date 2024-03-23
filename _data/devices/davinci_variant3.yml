@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
-  - {device: 'Redmi K20 (India)', download_link: 'https://cdn-ota.azureedge.net/V12.1.4.0.RFJINXM/miui_DAVINCIININGlobal_V12.1.4.0.RFJINXM_5db1a0c666_11.0.zip', firmware: 'V12.1.4.0.RFJINXM'}
+  - {device: 'Redmi K20 (India)', download_link: 'https://bn.d.miui.com/V12.1.4.0.RFJINXM/miui_DAVINCIININGlobal_V12.1.4.0.RFJINXM_5db1a0c666_11.0.zip', firmware: 'V12.1.4.0.RFJINXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'Dual LED', info: '48 MP'}

@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1, version: '12'}
 before_install_device_variants:
-  - {device: 'Redmi Note 9 Pro (Global)', download_link: 'https://cdn-ota.azureedge.net/V14.0.3.0.SJZMIXM/miui_JOYEUSEGlobal_V14.0.3.0.SJZMIXM_df17e3fabf_12.0.zip', firmware: 'V14.0.3.0.SJZMIXM'}
+  - {device: 'Redmi Note 9 Pro (Global)', download_link: 'https://bn.d.miui.com/V14.0.3.0.SJZMIXM/miui_JOYEUSEGlobal_V14.0.3.0.SJZMIXM_df17e3fabf_12.0.zip', firmware: 'V14.0.3.0.SJZMIXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '64 MP'}

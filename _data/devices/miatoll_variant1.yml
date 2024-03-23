@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1, version: '12'}
 before_install_device_variants:
-  - {device: 'POCO M2 Pro', download_link: 'https://cdn-ota.azureedge.net/V14.0.5.0.SJPINXM/miui_GRAMINGlobal_V14.0.5.0.SJPINXM_b9725c87b1_12.0.zip', firmware: 'V14.0.5.0.SJPINXM'}
+  - {device: 'POCO M2 Pro', download_link: 'https://bn.d.miui.com/V14.0.5.0.SJPINXM/miui_GRAMINGlobal_V14.0.5.0.SJPINXM_b9725c87b1_12.0.zip', firmware: 'V14.0.5.0.SJPINXM'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '64 MP'}
