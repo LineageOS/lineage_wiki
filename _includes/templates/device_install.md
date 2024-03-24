@@ -136,9 +136,6 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- endif %}
-{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-        {% include alerts/specific/note_retrofit_sideload_failed.html %}
-{%- endif %}
 {%- endif %}
 
 ## Installing Add-Ons
