@@ -19,12 +19,9 @@
 1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
-{%- if device.maintainers != empty and device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-2. Download [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) since your device uses retrofitted dynamic partitions.
-{%- endif %}
-3. Connect your device to your PC via USB if it isn't already.
+2. Connect your device to your PC via USB if it isn't already.
 {%- if device.has_no_usb %}
-4. Boot into fastboot mode via a key combination:
+3. Boot into fastboot mode via a key combination:
     * {{ device.download_boot }}
 {%- else %}
 4. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
@@ -46,13 +43,6 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
-{%- if device.is_retrofit_dynamic_partitions and device.is_ab_device != true %}
-6. Flash empty super image:
-```
-fastboot wipe-super super_empty.img
-```
-    {% include alerts/specific/note_retrofit_fastboot_wipe_super_failed.html %}
-{%- endif %}
 {% if device.needs_fastboot_boot %}
 7. Temporarily boot recovery on your device:
 ```

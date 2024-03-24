@@ -15,7 +15,6 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 640
 image: TP1803.png
 install_method: fastboot_unlocked
-is_retrofit_dynamic_partitions: true
 kernel: {repo: android_kernel_nubia_sm8150, version: '4.14'}
 maintainers: [ArianK16a, npjohnson]
 name: 'Mini 5G'
