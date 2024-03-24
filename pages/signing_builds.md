@@ -33,6 +33,10 @@ com.android.connectivity.resources
 com.android.conscrypt
 com.android.devicelock
 com.android.extservices
+com.android.graphics.pdf
+com.android.hardware.biometrics.face.virtual
+com.android.hardware.biometrics.fingerprint.virtual
+com.android.hardware.cas
 com.android.hardware.wifi
 com.android.healthfitness
 com.android.hotspot2.osulogin
@@ -154,7 +158,7 @@ sign_target_files_apks -o -d ~/.android-certs \
     {%- for apex in apexes %}
     --extra_apex_payload_key {{ apex }}.apex=$HOME/.android-certs/{{ apex }}.pem \
     {%- endfor %}
-    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
+    $OUT/obj/PACKAGING/target_files_intermediates/*-target_files*.zip \
     signed-target_files.zip
 ```
 
