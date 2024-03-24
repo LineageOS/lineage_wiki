@@ -15,7 +15,6 @@ download_boot: Our device doesn't have button mapping for bootloader, thus inste
 gpu: Qualcomm Adreno 506
 image: G.png
 install_method: fastboot_generic
-is_retrofit_dynamic_partitions: true
 kernel: {repo: android_kernel_10or_G, version: '4.9'}
 maintainers: ["kardebayan"]
 models: [G]
