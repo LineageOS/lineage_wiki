@@ -66,7 +66,7 @@ breakfast <target> eng
 |-------------------------------|--------------|--------------------|------------------------------------|
 | **LineageOS 21 and above**    |              |                    |                                    |
 |-------------------------------|--------------|--------------------|------------------------------------|
-| Phone                         | Emulator     | `sdk_phone_<arch>` | `arm64`, `x86` and `x86_64`        |
+| Phone                         | Emulator     | `sdk_phone_<arch>` | `arm64` and `x86_64`               |
 | Phone                         | GSI          | `gsi_<arch>`       | `arm`, `arm64`, `x86` and `x86_64` |
 | TV                            | Emulator     | `sdk_tv_<arch>`    | `arm` and `x86`                    |
 | TV                            | GSI          | `gsi_tv_<arch>`    | `arm`, `arm64`, `x86` and `x86_64` |
