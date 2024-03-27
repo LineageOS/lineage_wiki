@@ -1,6 +1,7 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, ships_fw: True, version: '12'}
+before_install: g12
 before_recovery_install: g12
 bluetooth: {spec: '4.2'}
 cameras: []
