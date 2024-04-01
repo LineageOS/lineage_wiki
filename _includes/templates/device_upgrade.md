@@ -41,20 +41,6 @@ This device does not have more than one version so far, therefore we can't provi
 
 {%- include snippets/format_on_upgrade.md %}
 
-{%- unless device.is_ab_device %}
-{%- capture recovery_update %}
-{%- if device.custom_recovery_link %}
-1. Verify your device is using [this]({{ device.custom_recovery_link }}) recovery.
-{%- elsif device.uses_twrp %}
-1. Verify your device is using the latest [TWRP](https://dl.twrp.me/{{ custom_recovery_codename }}). Simply download the latest recovery file, named something like `twrp-x.x.x-x-{{ custom_recovery_codename }}.img`.
-{%- else %}
-1. Verify your device is using the latest [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
-{%- endif %}
-Follow your [device's installation guide]({{ device | device_link: "/install" | relative_url }}) to see how you can update your recovery image.
-    {% include alerts/important.html content="These instructions may not work if you choose to use a different recovery!" %}
-{%- endcapture %}
-{%- endunless %}
-
 {%- for version in device.versions %}
 {%- if version < 17.1 %}
 {%- capture adbRoot -%}
@@ -66,7 +52,6 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
 
 The updater app does not support upgrades from one version of LineageOS to another, and will block installation to any update for a different version. Upgrading manually requires similar steps to installing LineageOS for the first time.
 
-{{ recovery_update }}
 {%- if device.maintainers != empty %}
 1. Download the [LineageOS install package](https://download.lineageos.org/devices/{{ device.codename }}) that you'd like to install or [build]({{ device | device_link: "/build" | relative_url }}) the package yourself.
 {%- else %}
