@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66c70b15_f2311e3c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-02T18:26:44Z",
+      "side": 1,
+      "message": "needs to be guarded for enablement at least.\n\n2 cases of shipping devices that need it.",
+      "revId": "b917d5734f9804e2fc03ac6d481fc192f0fd1dad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
