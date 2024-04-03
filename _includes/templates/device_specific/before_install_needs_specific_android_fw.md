@@ -1,5 +1,5 @@
 {%- assign skip = false %}
-{%- if device.before_install.lineage_version > 0 and device.before_install.lineage_version == device.versions[0] %}
+{%- if page.folder == "upgrade" and device.before_install.lineage_version > 0 and device.before_install.lineage_version == device.versions[0] %}
 {%- assign skip = true %}
 {%- endif %}
 
@@ -20,8 +20,10 @@ by following [this guide]({{ device | device_link: "/fw_update" | relative_url }
 (guides can be found on the internet!).
 {%- endif %}
 {%- if device.before_install.lineage_version > 0 %}
+{%- if page.folder == "upgrade" %}
 <br/><br/>
 This requirement is already met when you are upgrading from **LineageOS {{ device.before_install.lineage_version }}** or newer!
+{%- endif %}
 {%- endif %}
 {%- endcapture %}
 
