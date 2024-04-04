@@ -16,6 +16,24 @@
       "message": "once eorofs is merged",
       "revId": "e8e66d6583adda4485291b06aa20e6f9132ad5ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e3a953e1_eca05b39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28871
+      },
+      "writtenOn": "2024-04-04T12:42:35Z",
+      "side": 1,
+      "message": "erofs has been merged.\nhttps://github.com/LineageOS/android_kernel_xiaomi_sm8250/commit/78d0ea11a5d27ae388b01f3a9e1635de2f15be47",
+      "parentUuid": "f04ba4ee_95fce170",
+      "revId": "e8e66d6583adda4485291b06aa20e6f9132ad5ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
