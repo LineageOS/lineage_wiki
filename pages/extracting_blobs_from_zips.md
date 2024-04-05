@@ -206,7 +206,7 @@ where `path/to/` is the path to the installable zip.
 Now, extract the the `.img` files inside the payload.bin:
 
 ```
-./android/prebuilts/extract-tools/ota_extractor --payload path/to/payload.bin
+./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload path/to/payload.bin
 ```
 where `path/to/` is the path to freshly extracted payload.bin.
 
