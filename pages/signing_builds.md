@@ -18,6 +18,16 @@ for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandb
 done
 ```
 
+{% capture apexapks %}
+AdServicesApk
+HalfSheetUX
+OsuLogin
+SafetyCenterResources
+ServiceConnectivityResources
+ServiceUwbResources
+ServiceWifiResources
+WifiDialog
+{% endcapture %}
 {% capture apexes %}
 com.android.adbd
 com.android.adservices
@@ -74,6 +84,7 @@ com.google.pixel.camera.hal
 com.google.pixel.vibrator.hal
 com.qorvo.uwb
 {% endcapture %}
+{% assign apexapks = apexapks | newline_to_br | strip_newlines | replace: "<br />", " " | strip | split: " " %}
 {% assign apexes = apexes | newline_to_br | strip_newlines | replace: "<br />", " " | strip | split: " " %}
 
 LineageOS 19.1 and above will also require APEXes be re-signed.
@@ -154,6 +165,9 @@ Signing process for LineageOS versions 19.1 and above:
 ```
 croot
 sign_target_files_apks -o -d ~/.android-certs \
+    {%- for apexapk in apexapks %}
+    --extra_apks {{ apexapk }}.apk=$HOME/.android-certs/releasekey \
+    {%- endfor %}
     {%- for apex in apexes %}
     --extra_apks {{ apex }}.apex=$HOME/.android-certs/{{ apex }} \
     {%- endfor %}
