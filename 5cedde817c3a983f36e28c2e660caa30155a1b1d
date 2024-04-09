@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83426758_ff4a44ed",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-09T20:09:01Z",
+      "side": 1,
+      "message": "adding luk as he\u0027s the one that originally said not to get infra keys for that apex",
+      "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "01618c3e_6c3ff49b",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-04-09T20:09:01Z",
+      "side": 1,
+      "message": "is this really needed? It was there in the past but not something we were supposed to build/resign?",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 34
+      },
+      "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
