@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "379fa8f8_cfdfec2e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2024-04-09T17:31:46Z",
+      "side": 1,
+      "message": "heart and zippo are ready for lineage-21 and thank you to Einar for helping co-maintain zippo\n\nmatching hudson commit:\nhttps://review.lineageos.org/c/LineageOS/hudson/+/389110",
+      "revId": "8658ec550288afdc3b8bdf6f9dd4439435ddc9e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
