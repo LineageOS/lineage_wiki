@@ -18,6 +18,16 @@ for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandb
 done
 ```
 
+{% capture apexapks %}
+AdServicesApk
+HalfSheetUX
+OsuLogin
+SafetyCenterResources
+ServiceConnectivityResources
+ServiceUwbResources
+ServiceWifiResources
+WifiDialog
+{% endcapture %}
 {% capture apexes %}
 com.android.adbd
 com.android.adservices
@@ -154,6 +164,9 @@ Signing process for LineageOS versions 19.1 and above:
 ```
 croot
 sign_target_files_apks -o -d ~/.android-certs \
+    {%- for apexapk in apexapks %}
+    --extra_apks {{ apexapk }}.apex=$HOME/.android-certs/releasekey \
+    {%- endfor %}
     {%- for apex in apexes %}
     --extra_apks {{ apex }}.apex=$HOME/.android-certs/{{ apex }} \
     {%- endfor %}
