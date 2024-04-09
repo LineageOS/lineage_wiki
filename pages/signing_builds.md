@@ -154,6 +154,14 @@ Signing process for LineageOS versions 19.1 and above:
 ```
 croot
 sign_target_files_apks -o -d ~/.android-certs \
+    --extra_apks AdServicesApk.apk=$HOME/.android-certs/releasekey \
+    --extra_apks HalfSheetUX.apk=$HOME/.android-certs/releasekey \
+    --extra_apks OsuLogin.apk=$HOME/.android-certs/releasekey \
+    --extra_apks SafetyCenterResources.apk=$HOME/.android-certs/releasekey \
+    --extra_apks ServiceConnectivityResources.apk=$HOME/.android-certs/releasekey \
+    --extra_apks ServiceUwbResources.apk=$HOME/.android-certs/releasekey \
+    --extra_apks ServiceWifiResources.apk=$HOME/.android-certs/releasekey \
+    --extra_apks WifiDialog.apk=$HOME/.android-certs/releasekey \
     {%- for apex in apexes %}
     --extra_apks {{ apex }}.apex=$HOME/.android-certs/{{ apex }} \
     {%- endfor %}
