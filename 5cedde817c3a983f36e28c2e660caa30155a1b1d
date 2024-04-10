@@ -39,6 +39,30 @@
       },
       "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "15484740_3b03c19b",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-04-10T07:33:20Z",
+      "side": 1,
+      "message": "find $OUT | grep com.android.vndk.current.on_vendor",
+      "parentUuid": "01618c3e_6c3ff49b",
+      "range": {
+        "startLine": 69,
+        "startChar": 0,
+        "endLine": 69,
+        "endChar": 34
+      },
+      "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
