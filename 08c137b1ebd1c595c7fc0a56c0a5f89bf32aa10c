@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4582f2e3_271042d3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-04-12T17:05:52Z",
+      "side": 1,
+      "message": "no need to edit, i\u0027ll resync it myself before merge.",
+      "revId": "08c137b1ebd1c595c7fc0a56c0a5f89bf32aa10c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
