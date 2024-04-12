@@ -19,7 +19,7 @@ image: grus.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: {repo: android_kernel_xiaomi_sdm710, version: '4.9'}
-maintainers: [SebaUbuntu]
+maintainers: []
 models: [M1903F2G, M1903F2A]
 name: Mi 9 SE
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
