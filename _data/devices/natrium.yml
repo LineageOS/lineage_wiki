@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 530
 image: natrium.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_msm8996, version: '4.4'}
-maintainers: [LuK1337]
+maintainers: []
 name: Mi 5s Plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]

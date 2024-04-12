@@ -19,7 +19,7 @@ image: nash.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_msm8998, version: '4.4'}
-maintainers: [erfanoabdi, npjohnson, qsnc]
+maintainers: []
 models: [XT1789-02, XT1789-03, XT1789-04, XT1789-05, XT1789-06, XT1789-07]
 name: moto z (2018)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
