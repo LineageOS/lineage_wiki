@@ -111,6 +111,24 @@
       },
       "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6eeaf967_10a7b1fd",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-04-12T07:02:50Z",
+      "side": 1,
+      "message": "prior to QPR2 it was the maintainer\u0027s choice that we didn\u0027t consider important enough, now that it\u0027s built out of box, it\u0027s ok.",
+      "parentUuid": "cf63833e_96a93f3b",
+      "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
