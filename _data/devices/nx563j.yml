@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 540
 image: nx563j.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nubia_msm8998, version: '4.4'}
-maintainers: [BeYkeRYkt, Cyborg2017]
+maintainers: []
 name: 'Z17'
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]

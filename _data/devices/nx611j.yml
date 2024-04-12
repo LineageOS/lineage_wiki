@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 512
 image: nx611j.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nubia_sdm660, version: '4.4'}
-maintainers: [Cyborg2017]
+maintainers: []
 models: [NX611J, M3]
 name: 'Z18 Mini'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
