@@ -19,7 +19,7 @@ image: kane.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
-maintainers: [Stricted, npjohnson]
+maintainers: []
 models: [XT1970-1, XT1970-2, XT1970-3]
 name: one vision
 network: [2G GSM, 3G UMTS, 4G LTE]

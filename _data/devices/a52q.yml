@@ -20,7 +20,7 @@ gpu: Qualcomm Adreno 618
 image: a52q.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_sm7125, version: '4.14'}
-maintainers: [Simon1511]
+maintainers: []
 models: [SM-A525F, SM-A525M, SM-A525F/DS, SM-A525M/DS]
 name: Galaxy A52 4G
 network: [2G GSM, 3G UMTS, 4G LTE]

@@ -20,7 +20,7 @@ gpu: Qualcomm Adreno 620
 image: nx651j_variant2.png
 install_method: fastboot_nubia
 kernel: {repo: android_kernel_nubia_sm7250, version: '4.19'}
-maintainers: [Cyborg2017]
+maintainers: []
 models: [NX651J-EEA]
 name: Red Magic 5G Lite
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

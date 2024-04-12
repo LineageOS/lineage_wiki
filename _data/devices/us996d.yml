@@ -20,7 +20,7 @@ image: v20.png
 install_method: fastboot_lg
 is_unlockable: false
 kernel: {repo: android_kernel_lge_msm8996, version: '4.4'}
-maintainers: [aleasto, AShiningRay, npjohnson, ROMSG, xxseva44, x86cpu]
+maintainers: []
 name: V20 (GSM Unlocked - DirtySanta)
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, IR blaster, Mobility DisplayPort (MyDP), NFC, USB OTG]
