@@ -9,7 +9,7 @@ codename: sagit
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 7.5, height: 145.2, width: 70.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 540
