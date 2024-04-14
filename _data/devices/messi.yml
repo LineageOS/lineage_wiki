@@ -11,7 +11,7 @@ codename: messi
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 6.8, height: 156.5, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 540

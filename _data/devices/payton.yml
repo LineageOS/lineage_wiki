@@ -11,7 +11,7 @@ codename: payton
 cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.2 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 8.0, height: 148.4, width: 73.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 508

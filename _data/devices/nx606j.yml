@@ -10,7 +10,7 @@ codename: nx606j
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
-current_branch: 21
+current_branch: 20
 custom_unlock_cmd: 'fastboot oem nubia_unlock NUBIA_NX616J'
 dimensions: {depth: 8.6, height: 148.6, width: 72.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
