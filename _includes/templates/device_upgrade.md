@@ -24,6 +24,17 @@ This device does not have more than one version so far, therefore we can't provi
 3. You are aware of this device's [known quirks]({{ site.baseurl | append: link }})
 {%- endif %}
 
+{%- assign highest_branch = device.versions.last -%}
+{%- if highest_branch != device.current_branch -%}
+{% capture downgrade_warning -%}
+This device is currently supported on LineageOS {{ device.current_branch }}, after previously having LineageOS {{ highest_branch }}. <br/>
+These instructions are **not intended for downgrades**, even if the Updater explicitly says to follow them. <br/>
+Users on LineageOS {{ highest_branch }} that wish to install a newer build of LineageOS {{ device.current_branch }} need to follow the [instructions for installing LineageOS the first time]({{ device | device_link: "/install" | relative_url }}).
+{%- endcapture %}
+
+{% include alerts/warning.html content=downgrade_warning %}
+{%- endif -%}
+
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 {% unless device.before_install.ships_fw %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}
