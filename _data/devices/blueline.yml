@@ -9,7 +9,7 @@ codename: blueline
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.5 GHz + 4 x 1.6 GHz
-current_branch: 21
+current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 7.9, height: 145.6, width: 68.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

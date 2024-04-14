@@ -9,7 +9,7 @@ codename: taimen
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.35 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 7.9, height: 157.9, width: 76.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -22,7 +22,6 @@ maintainers: []
 name: Pixel 2 XL
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [Accelerometer, Barometer, BeiDou, Compass, Dual front speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
-quirks: [esim]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: boot
