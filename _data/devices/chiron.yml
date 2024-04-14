@@ -8,14 +8,14 @@ codename: chiron
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 7.7, height: 151.8, width: 75.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 540
 image: chiron.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_msm8998, version: '4.4'}
-maintainers: []
+maintainers: [mikeioannina]
 name: 'Mi MIX 2'
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Ultrasound proximity sensor, USB OTG]
@@ -30,5 +30,5 @@ tree: android_device_xiaomi_chiron
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [15.1, 16.0, 17.1, 18.1, 20, 21]
+versions: [15.1, 16.0, 17.1, 18.1, 20]
 wifi: 802.11 a/b/g/n/ac
