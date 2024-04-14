@@ -9,7 +9,7 @@ codename: mata
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 7.8, height: 141.5, width: 71.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
