@@ -9,7 +9,7 @@ codename: bonito
 cpu: Kryo 360
 cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.7 GHz
-current_branch: 21
+current_branch: 20
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 7.6, height: 160.0, width: 76.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

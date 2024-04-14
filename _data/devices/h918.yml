@@ -11,7 +11,7 @@ codename: h918
 cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
-current_branch: 21
+current_branch: 20
 dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then insert a USB cable.
 format_on_upgrade: fde
