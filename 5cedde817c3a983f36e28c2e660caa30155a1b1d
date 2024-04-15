@@ -129,6 +129,24 @@
       "parentUuid": "cf63833e_96a93f3b",
       "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb24af79_c5d9f867",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 33650
+      },
+      "writtenOn": "2024-04-15T05:11:18Z",
+      "side": 1,
+      "message": "since that update, i have been getting stuck at OTA Package whenvere i try to build...",
+      "parentUuid": "6eeaf967_10a7b1fd",
+      "revId": "5cedde817c3a983f36e28c2e660caa30155a1b1d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []

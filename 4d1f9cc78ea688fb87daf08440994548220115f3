@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "319ced62_2f91e209",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33650
+      },
+      "writtenOn": "2024-04-15T05:11:18Z",
+      "side": 1,
+      "message": "Since QPR2 releasetools updates, i have been getting stuck at ( OTA Package ) stage \n\nit finishes the ( add_img_to_target_files.py ) then it starts making the OTA Package, and it will be stuck there forever,\ni tried to build A13 again, and it worked flawlessly\nthis is A14 QPR2 related.",
+      "revId": "4d1f9cc78ea688fb87daf08440994548220115f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
