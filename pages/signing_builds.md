@@ -46,6 +46,7 @@ com.android.extservices
 com.android.graphics.pdf
 com.android.hardware.biometrics.face.virtual
 com.android.hardware.biometrics.fingerprint.virtual
+com.android.hardware.boot
 com.android.hardware.cas
 com.android.hardware.wifi
 com.android.healthfitness
