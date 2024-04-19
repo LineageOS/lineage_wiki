@@ -98,7 +98,7 @@ sed -i 's|2048|4096|g' ~/.android-certs/make_key
 ```
 Then generate the APEX keys altering the `subject` line below to reflect your information.
 
-{% include alerts/note.html content="Signing keys are usually password protected to ensure if they are accessed by unauthorized individuals they cannot be used to sign packages without knowledge of the password as well.  In this case to sign a LineageOS build, it requires you to setup a password file as described later on this page, which can be securely stored and retrieved as part of your build process.  Alternatively you can create the signing keys without a password by pressing enter when prompted by `make_keys`, however this leaves your private keys unprotected if accessed by unauthorized individuals and you should take precautions to protect them and your build system from unauthorized access." %}
+{% include alerts/note.html content="Signing keys are usually password protected to ensure if they are accessed by unauthorized individuals they cannot be used to sign packages without knowledge of the password as well.  In this case to sign a LineageOS build, it requires you to setup a password file as described later on this page, which can be securely stored and retrieved as part of your build process.  Alternatively you can create the signing keys without a password by pressing enter when prompted by `make_key`, however this leaves your private keys unprotected if accessed by unauthorized individuals and you should take precautions to protect them and your build system from unauthorized access." %}
 
 ### Generate keys without a password
 You will need to enter the blank passphrase twice for each APEX key generated.
