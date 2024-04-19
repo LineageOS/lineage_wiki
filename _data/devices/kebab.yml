@@ -23,7 +23,7 @@ image: kebab.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8250, version: '4.19'}
-maintainers: [LuK1337]
+maintainers: [LuK1337, mikeioannina]
 models: [KB2000, KB2001, KB2003, KB2005]
 name: '8T'
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
