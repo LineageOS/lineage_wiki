@@ -14,13 +14,12 @@ cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
 current_branch: 21
 dimensions: {depth: 9.2, height: 160.1, width: 71.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: 21
 gpu: ARM Mali-G72 MP3
 image: troika.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
-maintainers: []
+maintainers: [Stricted, npjohnson]
 models: [XT2013-1, XT2013-2, XT2013-3, XT2013-4]
 name: one action
 network: [2G GSM, 3G UMTS, 4G LTE]

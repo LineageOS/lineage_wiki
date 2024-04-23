@@ -13,13 +13,12 @@ cpu_freq: 4 x 2.2 GHz + 4 x 1.6 GHz
 current_branch: 21
 dimensions: {depth: 8.7, height: 160.1, width: 71.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-format_on_upgrade: 21
 gpu: ARM Mali-G72 MP3
 image: kane.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
-maintainers: []
+maintainers: [Stricted, npjohnson]
 models: [XT1970-1, XT1970-2, XT1970-3]
 name: one vision
 network: [2G GSM, 3G UMTS, 4G LTE]
