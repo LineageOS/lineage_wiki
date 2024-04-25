@@ -15,10 +15,6 @@
 {% when 'kingroot' %}
 1. Download KingRoot from [here](https://kingroot.net/).
    1. Install and run the apk to achieve root. Ensure you have a working Internet connection.
-{% when 'towelroot' %}
-1. Download TowelRoot from [here](https://towelroot.com/).
-   1. Click the large lambda symbol to download the apk.
-   2. Install and run the apk to achieve root.
 {% endcase %}
 
 {% include snippets/before_recovery_install.md %}
