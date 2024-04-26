@@ -48,7 +48,6 @@ adb -d pull /data/local/tmp/aboot.img
 ./oor -p ./aboot.img recovery.img recovery.oor.img
 adb -d push recovery.oor.img /data/local/tmp/recovery.oor.img`
 ```
-NOTE: BL version
 6. Now, run the following command to flash the recovery image on your device:
 ```
 adb -d shell su -c dd if=/data/local/tmp/recovery.oor.img of={{ device.recovery_partition }}
