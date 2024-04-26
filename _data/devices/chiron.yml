@@ -15,7 +15,7 @@ gpu: Qualcomm Adreno 540
 image: chiron.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_msm8998, version: '4.4'}
-maintainers: []
+maintainers: [mikeioannina]
 name: 'Mi MIX 2'
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Ultrasound proximity sensor, USB OTG]
