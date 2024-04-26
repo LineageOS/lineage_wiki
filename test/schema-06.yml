@@ -749,6 +749,7 @@ properties:
       - fastboot_zenfone
       - heimdall
       - odin
+      - oor
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean

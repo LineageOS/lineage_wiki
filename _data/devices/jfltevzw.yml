@@ -10,13 +10,12 @@ cpu: Krait 300
 cpu_cores: 4
 cpu_freq: 1.9GHz
 current_branch: 18.1
-custom_recovery_link: https://www.androidfilehost.com/?fid=7161016148664832488
 dimensions: {depth: 7.9, height: 136.6, width: 69.8}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 320
 image: jflte.png
-install_method: dd
+install_method: oor
 kernel: {repo: android_kernel_samsung_jf, version: '3.4'}
 maintainers: []
 models: [SCH-I545]
@@ -30,8 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume U
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2013-04
-required_bootloader: ['I545VRUAMDK']
-root_method: [towelroot]
+root_method: [kingroot]
 screen: {resolution: '1920x1080', size: 5, technology: 'Pentile RGBG Super AMOLED'}
 sdcard: {sizeMax: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
