@@ -600,6 +600,7 @@ properties:
       - Cortex-A53 & Cortex-A53
       - Cortex-A53 & Cortex-A57
       - Cortex-A53 & Cortex-A72
+      - Cortex-A55
       - Cortex-A57
       - Cortex-A7
       - Cortex-A72
