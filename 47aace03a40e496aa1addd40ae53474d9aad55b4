@@ -34,6 +34,24 @@
       "parentUuid": "3071bd0e_89116992",
       "revId": "47aace03a40e496aa1addd40ae53474d9aad55b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd16824_e9e6ac29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-04-27T21:18:55Z",
+      "side": 1,
+      "message": "Indeed, gotta change the schema",
+      "parentUuid": "04c2d4c8_7d8eac2d",
+      "revId": "47aace03a40e496aa1addd40ae53474d9aad55b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
