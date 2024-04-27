@@ -1,11 +1,11 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
-bluetooth: {spec: '4.2'}
+bluetooth: {spec: None}
 cameras: []
 codename: odroidc4_tab
-cpu: Cortex-A53
+cpu: Cortex-A55
 cpu_cores: '4'
-cpu_freq: 1.8 GHz
+cpu_freq: 2.016 GHz
 current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 10, height: 56, width: 85}
@@ -14,10 +14,10 @@ gpu: ARM Mali-G31 MP2
 image: odroidc4.png
 install_method: amlogic_update
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
-maintainers: [npjohnson, stricted]
+maintainers: [bgcngm, npjohnson, stricted]
 name: ODROID-C4 (Tablet)
 network: None
-peripherals: None
+peripherals: [IR blaster, HDMI, RJ45 Ethernet port, USB OTG]
 ram: 4 GB
 recovery_boot: Run `adb reboot recovery`.
 recovery_partition_name: recovery
@@ -31,4 +31,4 @@ type: Devkit
 vendor: HardKernel
 vendor_short: amlogic
 versions: [20, 21]
-wifi: 802.11 a/b/g/n/ac
+wifi: None
