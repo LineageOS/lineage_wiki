@@ -17,7 +17,7 @@ kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [bgcngm, npjohnson, stricted]
 name: Zero (Tablet)
 network: None
-peripherals: None
+peripherals: [HDMI, USB OTG]
 ram: 2/4 GB
 recovery_boot: Run `adb reboot recovery`.
 recovery_partition_name: recovery
