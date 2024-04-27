@@ -460,6 +460,7 @@ definitions:
         - Hygrometer
         - IR blaster
         - IR camera
+        - IR receiver
         - Iceview Cases
         - Light sensor
         - MHL
