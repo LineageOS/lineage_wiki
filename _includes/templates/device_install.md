@@ -199,5 +199,5 @@ If it takes longer, you may have missed a step, otherwise feel free to [get assi
 ## Get assistance
 
 After you've double checked that you followed the steps precisely, didn't skip any and still have questions or got stuck, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
-[#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
+[#LineageOS on Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos).
 

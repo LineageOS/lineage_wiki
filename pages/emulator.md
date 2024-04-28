@@ -125,4 +125,4 @@ As long as you **haven't** moved the folder directly into `system-images`, the e
 
 ## To get assistance
 
-* [#LineageOS-dev](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Libera.Chat [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
+* [#LineageOS-dev](https://web.libera.chat/gamja/?channel=#lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Libera.Chat [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.

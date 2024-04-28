@@ -85,4 +85,4 @@ and `adb logcat -C` to view logs in colour
 
 ## Need help?
 
-You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on Libera.Chat](https://kiwiirc.com/nextclient/irc.libera.chat#lineageos).
+You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos).
