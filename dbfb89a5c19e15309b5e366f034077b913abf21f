@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9944de9_42b52623",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-05-06T16:10:34Z",
+      "side": 1,
+      "message": "Doesn\u0027t PL2 ship firmware? https://github.com/LineageOS/android_device_nokia_PL2/blob/lineage-21/proprietary-firmware.txt",
+      "revId": "dbfb89a5c19e15309b5e366f034077b913abf21f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
