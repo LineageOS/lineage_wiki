@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
 bluetooth: {profiles: [A2DP], spec: '5'}
+before_lineage_install: ab_copy_partitions
 cameras:
   - {flash: 'Dual LED (dual tone)', info: '16 MP'}
   - {flash: None, info: '8 MP'}
