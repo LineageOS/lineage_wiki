@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
 current_branch: 20
 dimensions: {depth: 8, height: 155.3, width: 76.6}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then connect a USB cable.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 640
 image: betalm.png
 install_method: fastboot_lg
