@@ -19,7 +19,7 @@ image: troika.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
-maintainers: [Stricted, npjohnson]
+maintainers: []
 models: [XT2013-1, XT2013-2, XT2013-3, XT2013-4]
 name: one action
 network: [2G GSM, 3G UMTS, 4G LTE]
