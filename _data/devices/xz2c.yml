@@ -10,7 +10,7 @@ codename: xz2c
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.7 GHz + 4 x 1.7 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 12.1, height: 135, width: 65}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 630
@@ -35,5 +35,5 @@ tree: android_device_sony_xz2c
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [17.1, 18.1, 19.1, 20]
+versions: [17.1, 18.1, 19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
