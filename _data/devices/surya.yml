@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5160, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, ships_fw: True}
 before_install_device_variants:
   - {device: 'POCO X3 NFC Global (surya)', download_link: 'https://bn.d.miui.com/V14.0.2.0.SJGMIXM/miui_SURYAGlobal_V14.0.2.0.SJGMIXM_9aaad01ef3_12.0.zip', firmware: 'V14.0.2.0.SJGMIXM'}
   - {device: 'POCO X3 NFC EEA (surya)', download_link: 'https://bn.d.miui.com/V14.0.5.0.SJGEUXM/miui_SURYAEEAGlobal_V14.0.5.0.SJGEUXM_b6b33a8d86_12.0.zip', firmware: 'V14.0.5.0.SJGEUXM'}
