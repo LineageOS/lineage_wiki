@@ -1,10 +1,6 @@
 architecture: arm64
 battery: {capacity: 5160, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
-before_install_device_variants:
-  - {device: 'POCO X3 NFC Global (surya)', download_link: 'https://bn.d.miui.com/V14.0.2.0.SJGMIXM/miui_SURYAGlobal_V14.0.2.0.SJGMIXM_9aaad01ef3_12.0.zip', firmware: 'V14.0.2.0.SJGMIXM'}
-  - {device: 'POCO X3 NFC EEA (surya)', download_link: 'https://bn.d.miui.com/V14.0.5.0.SJGEUXM/miui_SURYAEEAGlobal_V14.0.5.0.SJGEUXM_b6b33a8d86_12.0.zip', firmware: 'V14.0.5.0.SJGEUXM'}
-  - {device: 'POCO X3 India (karna)', download_link: 'https://bn.d.miui.com/V13.0.1.0.SJGINXM/miui_SURYAINGlobal_V13.0.1.0.SJGINXM_967fb3e39c_12.0.zip', firmware: 'V13.0.1.0.SJGINXM'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, lineage_version: 21}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '48 MP'}
@@ -18,7 +14,6 @@ cpu_freq: 2 x 2.3 GHz + 6 x 1.8 GHz
 current_branch: 21
 dimensions: {depth: 9.4, height: 165.3, width: 76.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
-firmware_update: firmware_update_xiaomi_surya
 gpu: Qualcomm Adreno 618
 image: surya.png
 install_method: fastboot_xiaomi
@@ -34,6 +29,7 @@ recovery_partition_name: recovery
 release: 2020-09-08
 screen: {resolution: '2400x1080', size: 6.67, technology: 'IPS LCD'}
 sdcard: {sizeMax: '256 GB'}
+ships_fw: True 
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128/256 GB
 tree: android_device_xiaomi_surya
