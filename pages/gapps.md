@@ -55,4 +55,4 @@ Android TV MindTheGapps packages have two variants `full` and `minimal`:
 * `full` includes the Google Android TV (note, not Google TV) launcher and recommendations applications.
 * `minimal` does not replace the included launcher or recommendations, by default LineageOS ATV builds utilize an Android 10 era non-GMS launcher.
 
-{% include alerts/note.html content="All shipping devices fit either of these packages, they only exist to provide users the options of opt-ing out of Google's launcher/recommendations." %}
+{% include alerts/note.html content="All shipping devices fit either of these packages, they only exist to provide users the option of opt-ing out of Google's launcher/recommendations." %}
