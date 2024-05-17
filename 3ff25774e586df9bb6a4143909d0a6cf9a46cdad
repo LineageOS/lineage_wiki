@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c2ece05e_1b311ab4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-05-17T23:25:30Z",
+      "side": 1,
+      "message": "funny, no other G12 has IR receiver. remotes have blasters but that feels weird to include as a peripheral? idk",
+      "revId": "3ff25774e586df9bb6a4143909d0a6cf9a46cdad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
