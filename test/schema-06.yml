@@ -654,6 +654,7 @@ properties:
       - Cortex-A55
       - Cortex-A57
       - Cortex-A7
+      - Cortex-A710 & Cortex-A510
       - Cortex-A72
       - Cortex-A73 & Cortex-A53
       - Cortex-A75 & Cortex-A55
@@ -661,6 +662,7 @@ properties:
       - Cortex-A9
       - Cortex-X1 & Cortex-A76 & Cortex-A55
       - Cortex-X1 & Cortex-A78 & Cortex-A55
+      - Cortex-X2 & Cortex-A710 & Cortex-A510
       - Cortex-X3 & Cortex-A715 & Cortex-A510
       - Cortex-X4 & Cortex-A720 & Cortex-A520
       - Denver
