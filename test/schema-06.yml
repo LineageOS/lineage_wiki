@@ -158,6 +158,7 @@ definitions:
       - Qualcomm Adreno 640
       - Qualcomm Adreno 642
       - Qualcomm Adreno 642L
+      - Qualcomm Adreno 643L
       - Qualcomm Adreno 650
       - Qualcomm Adreno 660
       - Qualcomm Adreno 675
@@ -316,6 +317,7 @@ definitions:
       - Qualcomm MSM8996 Pro Snapdragon 821
       - Qualcomm MSM8996 Snapdragon 820
       - Qualcomm MSM8998 Snapdragon 835
+      - Qualcomm QCM6490
       - Qualcomm SDM429 Snapdragon 429
       - Qualcomm SDM439 Snapdragon 439
       - Qualcomm SDM630 Snapdragon 630
