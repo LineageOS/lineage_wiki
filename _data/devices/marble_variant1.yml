@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '64 MP (wide angle)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (ultra-wide angle)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (macro)'}
+  - {flash: None, info: '16 MP (front)'}
+codename: marble
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 2.91 GHz + 3 x 2.49 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 7.9, height: 161.1, width: 75}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 725
+image: marble.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm8450, version: '5.10'}
+maintainers: [Adrianyyy, ArianK16a]
+models: [23049PCD8G]
+name: POCO F5 (Global)
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 8/12 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
+release: 2023-05-09
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
+soc: Qualcomm SM7475-AB Snapdragon 7+ Gen 2
+storage: 256 GB UFS 3.1
+tree: android_device_xiaomi_marble
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac/ax
