@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (wide angle)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (ultra-wide angle)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (macro)'}
+  - {flash: 'Dual LED (dual tone)', info: '32 MP (front main)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (front depth)'}
+codename: ziyi
+cpu: Cortex-A710 & Cortex-A510
+cpu_cores: '8'
+cpu_freq: 1 x 2.4 GHz + 3 x 2.36 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 7.2, height: 159.2, width: 72.7}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+gpu: Qualcomm Adreno 644
+image: ziyi.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm8450, version: '5.10'}
+maintainers: [Adrianyyy, ArianK16a]
+models: [2210129SG]
+name: 13 Lite
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 8 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
+release: 2023-03-08
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.55, technology: 'AMOLED'}
+soc: Qualcomm SM7450-AB Snapdragon 7 Gen 1
+storage: 128/256 GB UFS 2.2
+tree: android_device_xiaomi_ziyi
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac/ax
