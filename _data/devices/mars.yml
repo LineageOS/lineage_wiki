@@ -12,7 +12,7 @@ codename: mars
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8.5, height: 164.3, width: 74.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 660
@@ -36,5 +36,5 @@ tree: android_device_xiaomi_mars
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac/ax
