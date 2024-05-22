@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 540
 image: cheeseburger.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_oneplus_msm8998, version: '4.4'}
-maintainers: [trautamaki]
+maintainers: [qsnc]
 name: '5'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, BeiDou, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
