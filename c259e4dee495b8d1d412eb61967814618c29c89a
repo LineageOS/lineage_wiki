@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebd1e0bc_57187e39",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-05-28T06:57:56Z",
+      "side": 1,
+      "message": "Getting there - but need to remove installation of recovery via fastboot and retailor for ini/recovery installation.",
+      "revId": "c259e4dee495b8d1d412eb61967814618c29c89a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
