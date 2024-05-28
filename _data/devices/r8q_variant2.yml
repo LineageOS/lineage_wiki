@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '13'}
+before_recovery_install: samsung_qcom
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '13 MP'}
+  - {flash: 'LED', info: '8 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '32 MP'}
+codename: r8q
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 21
+dimensions: {depth: 8.4, height: 159.8 , width: 74.5}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_sm8250
+gpu: Qualcomm Adreno 650
+image: r8q.png
+install_method: odin
+kernel: {repo: android_kernel_samsung_sm8250, version: '4.19'}
+maintainers: [ata-kaner]
+models: [SM-G781B, SM-G781B/DS]
+name: Galaxy S20 FE 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Qi wireless charging, Qi reverse wireless charging]
+quirks: [ims]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2020-10-02
+screen: {resolution: '2400x1080', size: 6.5, technology: 'Super AMOLED'}
+sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB
+tree: android_device_samsung_r8q
+type: phone
+variant: 2
+vendor: Samsung
+vendor_short: samsung
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
