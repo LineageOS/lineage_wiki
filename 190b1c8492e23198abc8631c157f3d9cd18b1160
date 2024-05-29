@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8405e212_503498be",
+        "filename": "_data/devices/surya.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-05-29T06:30:24Z",
+      "side": 1,
+      "message": "just fyi, lineage_version signifies when required firmware version was last changed, unless you modify links above, it stays at 20.",
+      "revId": "190b1c8492e23198abc8631c157f3d9cd18b1160",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
