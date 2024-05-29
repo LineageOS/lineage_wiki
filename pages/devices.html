@@ -33,6 +33,12 @@ function applyFilters() {
       return !value || device.maintainers.length > 0;
     },
 
+    // Global :: Show devices without official BL unlock method
+    (device) => {
+      let value = checkBoxValue("is_unlockable");
+      return !value || device.is_unlockable !== false;
+    },
+
     // Architecture
     (device) => {
       let value = checkBoxValues("architectures");
@@ -309,6 +315,15 @@ function showFilters() {
           <label class="form-check-label">
             <input class="form-check-input no-ripple" type="checkbox" checked>
             Hide discontinued devices
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
+            </span>
+          </label>
+        </div>
+        <div class="form-check" data-filter="is_unlockable">
+          <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox">
+            Hide devices without official BL unlock method
             <span class="form-check-sign no-ripple">
                 <span class="check" />
             </span>
