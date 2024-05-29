@@ -14,6 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connec
 gpu: Qualcomm Adreno 305
 image: v400.png
 install_method: dd
+is_unlockable: false
 kernel: {repo: android_kernel_lge_v4xx, version: '3.4'}
 maintainers: []
 name: G Pad 7.0 WiFi

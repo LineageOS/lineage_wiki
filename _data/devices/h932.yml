@@ -16,6 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 540
 image: v30.png
 install_method: dd
+is_unlockable: false
 kernel: {repo: android_kernel_lge_msm8998, version: '4.4'}
 maintainers: []
 migrated_to: {codename: 'joan', version: 21}
