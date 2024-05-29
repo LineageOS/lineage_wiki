@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 512
 image: X01BD.png
 install_method: fastboot_zenfone
+is_unlockable: false
 kernel: {repo: android_kernel_asus_sdm660, version: '4.4'}
 maintainers: []
 name: Zenfone Max Pro M2

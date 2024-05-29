@@ -18,6 +18,7 @@ gpu: Qualcomm Adreno 640
 image: I001D.png
 install_method: fastboot_zenfone
 is_ab_device: true
+is_unlockable: false
 kernel: {repo: android_kernel_asus_I001, version: '4.14'}
 maintainers: []
 name: ROG Phone 2 (ZS660KL)

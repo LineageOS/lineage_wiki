@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 506
 image: X01AD.png
 install_method: fastboot_zenfone
+is_unlockable: false
 kernel: {repo: android_kernel_asus_X01AD, version: '4.9'}
 maintainers: []
 name: Zenfone Max M2

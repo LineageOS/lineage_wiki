@@ -16,6 +16,7 @@ gpu: Qualcomm Adreno 630
 image: Z01R.png
 install_method: fastboot_zenfone
 is_ab_device: true
+is_unlockable: false
 kernel: {repo: android_kernel_asus_sdm845, version: '4.9'}
 maintainers: [rohanpurohit, Jackeagle, ThEMarD]
 name: Zenfone 5Z (ZS620KL)

@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 gpu: Qualcomm Adreno 505
 image: X00P.png
 install_method: fastboot_zenfone
+is_unlockable: false
 kernel: {repo: android_kernel_asus_msm8937, version: '3.18'}
 maintainers: []
 name: Zenfone Max M1

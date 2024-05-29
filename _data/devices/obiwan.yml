@@ -17,6 +17,7 @@ gpu: Qualcomm Adreno 650
 image: obiwan.png
 install_method: fastboot_zenfone
 is_ab_device: true
+is_unlockable: false
 kernel: {repo: android_kernel_asus_sm8250, version: '4.19'}
 maintainers: []
 models: [ZS661KS]
