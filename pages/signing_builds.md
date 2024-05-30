@@ -192,6 +192,14 @@ ota_from_target_files -k ~/.android-certs/releasekey \
 
 Then, install the zip in recovery as you normally would.
 
+### Generating the image files
+
+Alternatively, if you want to generate signed images to flash from fastboot, run:
+
+```
+img_from_target_files signed-target_files.zip signed-img.zip
+```
+
 ## Changing keys
 
 ### Using a migration build
