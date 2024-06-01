@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, version: '14'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'LED', info: '48 MP (wide)'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '12 MP'}
+codename: pdx234
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 21
+dimensions: {depth: 8.3, height: 165, width: 71}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+gpu: Qualcomm Adreno 740
+image: pdx234.png
+install_method: fastboot_sony
+is_ab_device: true
+kernel: {repo: android_kernel_sony_sm8550, version: '5.15'}
+maintainers: [hellobbn]
+models: [XQ-DQ72]
+name: 'Xperia 1 V'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2023-05
+screen: {refresh_rate: 120, resolution: '3840x1644', size: 6.5, technology: 'OLED'}
+sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 256/512 GB UFS3.1
+tree: android_device_sony_pdx234
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax/be
