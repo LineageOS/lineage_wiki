@@ -20,7 +20,7 @@
 ## Repartition
 {% include alerts/warning.html content="This step is not optional, the device will not boot LineageOS without repartitioning first!" %}
 {% include alerts/warning.html content="This process will wipe all data on the device, including your internal storage!" %}
-1. Download the flashable repartition script from [here](https://download.ods.ninja/Android/firmware/m1s1/repartition-ogpixel-32gb.zip) for 32 GB models, and [here](https://download.ods.ninja/Android/firmware/m1s1/repartition-ogpixel-128gb.zip) for 128 GB models.
+1. Download the flashable repartition script from [here](https://blob.lineageos.org/downloads/repartition-ogpixel-32gb.zip) for 32 GB models, and [here](https://blob.lineageos.org/downloads/repartition-ogpixel-128gb.zip) for 128 GB models.
 2. Rename the downloaded zip file to `repartition.zip`.
 3. On your device's screen, choose "Apply Update", then "From ADB".
 4. From your Terminal/PowerShell, run `adb -d sideload /path/to/repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.

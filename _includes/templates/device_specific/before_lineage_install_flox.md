@@ -18,7 +18,7 @@
 ## Repartition
 {% include alerts/warning.html content="This step is not optional, the device will not boot LineageOS without repartitioning first!" %}
 {% include alerts/warning.html content="This process will wipe all data on the device, including your internal storage!" %}
-1. Download the flashable repartition script from [here](https://download.ods.ninja/Android/firmware/flox/flo-deb_clamor_repartition_20201203.zip).
+1. Download the flashable repartition script from [here](https://blob.lineageos.org/downloads/flo-deb_clamor_repartition_20201203.zip).
 2. On your device's screen, choose "Apply Update", then "From ADB".
 3. From your Terminal/PowerShell, run `adb -d sideload /path/to/flo-deb_clamor_repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
     {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
