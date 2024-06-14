@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0d4ac06b_d113da68",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-06-14T14:22:55Z",
+      "side": 0,
+      "message": "before someone asks, we can\u0027t now move to boot_stack as we still need the custom unlock instructions above and one can\u0027t do two before_recovery_installs",
+      "revId": "c8fc5d36a668db5c36c2a74b314fc09262369746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
