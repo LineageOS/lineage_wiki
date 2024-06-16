@@ -19,10 +19,12 @@ by following [this guide]({{ device | device_link: "/fw_update" | relative_url }
 {%- else %}
 (guides can be found on the internet!).
 {%- endif %}
+{%- unless page.folder == "install" %}
 {%- if device.before_install.lineage_version > 0 %}
 <br/><br/>
 This requirement is already met when you are upgrading from **LineageOS {{ device.before_install.lineage_version }}** or newer!
 {%- endif %}
+{%- endunless %}
 {%- endcapture %}
 
 {% include alerts/warning.html content=content %}
