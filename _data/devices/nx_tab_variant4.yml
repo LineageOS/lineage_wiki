@@ -6,7 +6,7 @@ codename: nx_tab
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 14, height: 102, width: 242}
 gpu: NVIDIA GM20B (Maxwell)
 image: nx_oled.png
