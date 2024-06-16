@@ -63,4 +63,5 @@ Both pairing data are HOS based!
 4. Now, make your partition scheme selections based on your needs, as well as any other operating systems you may plan to install alongside Android.
     {% include alerts/note.html content="Please give Android no less than roughly 10 GB to ensure that enough space is present." %}
 5. When content with your selections, click "Next Step" in the bottom-right of the screen, then when ready click "Start", then follow the on-screen instructions to proceed with the partitioning process.
+    {% include alerts/warning.html content="Please ensure that you select 'Dynamic: Android 13+' when prompted." %}
 6. When the process is complete, select "Flash Android" and accept the prompt to reboot to recovery.
