@@ -61,6 +61,7 @@ Both pairing data are HOS based!
     {% include alerts/warning.html content="Please note that the files you have just copied in prior steps will be backed up and restored onto the SD Card by Hekate." %}
 3. In Hekate, select "Tools" in the top-center of the screen, then "Partition SD Card", then click "OK" when prompted.
 4. Now, make your partition scheme selections based on your needs, as well as any other operating systems you may plan to install alongside Android.
-    {% include alerts/note.html content="Please give Android no less than roughly 10 GB to ensure that enough space is present." %}
+    {% include alerts/warning.html content="Please ensure that you select 'Dynamic: Andorid 13+' when prompted." %}
 5. When content with your selections, click "Next Step" in the bottom-right of the screen, then when ready click "Start", then follow the on-screen instructions to proceed with the partitioning process.
+    {% include alerts/note.html content="Please give Android no less than roughly 10 GB to ensure that enough space is present." %}
 6. When the process is complete, select "Flash Android" and accept the prompt to reboot to recovery.
