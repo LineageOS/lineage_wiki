@@ -21,7 +21,7 @@ Additionally, we support two installation locations:
 
 This guide will detail SD Card installation, if you wish to install Android to the eMMC, you will need to consult external resources.
 
-Additionally, his guide will not detail exploiting or ModChipping your Switch, or the installation of Hekate, so please go select the applicable/preferred installation configuration to your device, and come back when Hekate `v6.1.0` or newer is booted on the device.
+Additionally, this guide will not detail exploiting or ModChipping your Switch, or the installation of Hekate, so please go select the applicable/preferred installation configuration to your device, and come back when Hekate `v6.1.0` or newer is booted on the device.
 
 ## Preparing the SD Card
 1. In Hekate, select "Tools" in the top-center of the screen, then click "USB Tools" in the bottom right, finally selecting "SD Card" under the "USB Mass Storage" header in the top-left of the screen.
