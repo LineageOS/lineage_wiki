@@ -15,3 +15,5 @@ There are two possibilities to get the latest firmware:
   ```
 heimdall flash --CM cm.bin --DQMDBG dqmdbg.img --KEYSTORAGE keystorage.bin --RADIO modem.bin --RADIO2 modem_5g.bin --CP_DEBUG modem_debug.bin --CP2_DEBUG modem_debug_5g.bin --PARAM param.bin --BOOTLOADER sboot.bin --UH uh.bin --UP_PARAM up_param.bin
   ```
+
+{% include snippets/fw_update_success.md %}
