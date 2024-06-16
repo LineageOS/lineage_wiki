@@ -9,3 +9,5 @@
 {%- else %}
 1. Download the latest firmware for your device from official [website](https://new.c.mi.com/global/miuidownload/index).
 {%- endif %}
+
+{% include snippets/fw_update_success.md %}

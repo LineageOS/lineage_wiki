@@ -14,3 +14,5 @@
    ```
    fastboot reboot
    ```
+
+{% include snippets/fw_update_success.md %}
