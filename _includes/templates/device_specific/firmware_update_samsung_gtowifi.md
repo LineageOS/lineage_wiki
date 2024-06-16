@@ -9,3 +9,5 @@
 1. Download [this](https://sourceforge.net/projects/lifehackerhansol-android/files/gto-unlock/1-downgrade-aboot.tar) downgrade package.
    {% include alerts/warning.html content="If you skip this step, your device will not boot!" %}
 1. Flash this file via Odin using the BL option.
+
+{% include snippets/fw_update_success.md %}

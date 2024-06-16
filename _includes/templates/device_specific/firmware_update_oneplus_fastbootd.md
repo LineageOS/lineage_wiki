@@ -14,3 +14,5 @@
    ```
    {{- include.content -}}
    ```
+
+{% include snippets/fw_update_success.md %}
