@@ -6,12 +6,12 @@ Configuration 1:
 * An original, exploitable "v1" Nintendo Switch with your preferred JoyCons attached during installation
     {% include alerts/note.html content="This can usually be identified by the model number 'MOD.' on the rear of the device. *Most* `HAC-001` models are exploitable (you can check if your particular device is compatible [here](https://suchmememanyskill.github.io/guides/switchserials/)), while `HAC-001(-01)`, or any other model number is not, and therefore you must use Configuration 2." %}
 * An RCM Jig such as [this one](https://www.amazon.com/Nintendo-Switch-Short-Connector-Recovery/dp/B07J9JJRRG))
-* Hekate `v6.1.0` loaded via a Fusee launcher such as [this one](https://webrcm.github.io)
+* Hekate `v6.1.0` or newer loaded via a Fusee launcher such as [this one](https://webrcm.github.io)
     {% include alerts/warning.html content="This configuration requires that the Fusee launcher be ran every time you wish to boot Android! With this in mind, Configuration 2 is heavily preferred." %}
 
 Configuration 2:
 * A hard-modded (often called "ModChipped") Switch v1 / v2 / Lite / OLED with your preferred JoyCons attached during installation
-* Hekate `v6.1.0` on your SD Card, and loaded by your ModChip
+* Hekate `v6.1.0` or newer on your SD Card, and loaded by your ModChip
 
 Additionally, we support two installation locations:
 * SD Card
