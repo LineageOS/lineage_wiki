@@ -17,8 +17,9 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 {%- endif %}
 1. On the device, dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes`.
-3. Connect the device to your PC via USB.
-4. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+3. Go to `System Settings` > `About Phone` and record the first IMEI number, which is necessary to get an unlock code from Sony in a later step.
+4. Connect the device to your PC via USB.
+5. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb -d reboot bootloader
 ```
@@ -27,13 +28,13 @@ adb -d reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
-5. Once the device is in fastboot mode, verify your PC finds it by typing:
+6. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-6. Follow the instructions on [Sony's official unlocking website](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
-7. Use your code to unlock the bootloader of your device:
+7. Follow the instructions on [Sony's official unlocking website](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
+8. Use your code to unlock the bootloader of your device:
 ```
 fastboot oem unlock <your_unlock_code>
 ```
