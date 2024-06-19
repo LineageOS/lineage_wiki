@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3e4bc49_f409511d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33868
+      },
+      "writtenOn": "2024-06-19T03:29:46Z",
+      "side": 1,
+      "message": "added record-the-IMEI step to Sony unlocking",
+      "revId": "d203aa152187d661fabca3dd2f78baef7ff1be3f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
