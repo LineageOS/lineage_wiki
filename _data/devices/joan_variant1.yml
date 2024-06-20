@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {capacity: 3300, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '9.0'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
   - {flash: 'LED', info: '16 MP'}
@@ -27,7 +28,6 @@ ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition_name: recovery
 release: 2017-08
-required_bootloader: ['US99830b', 'H93031a', 'H930DS30c']
 screen: {resolution: '2880x1440', size: 6, technology: 'P-OLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
