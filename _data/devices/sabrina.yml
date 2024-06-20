@@ -23,6 +23,7 @@ peripherals: None
 ram: 2 GB
 recovery_boot: Run `adb reboot recovery`.
 recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
 release: 2020-09-01
 screen: None
 screen_ppi:
