@@ -16,6 +16,23 @@
       "message": "supposedly works, please verify on your end.",
       "revId": "3b0d11dcba7ec7db7413170418288352f7e2de71",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7734c023_5652569f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2024-06-20T14:48:07Z",
+      "side": 1,
+      "message": "works fine on my unit.",
+      "revId": "3b0d11dcba7ec7db7413170418288352f7e2de71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
