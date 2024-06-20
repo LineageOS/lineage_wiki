@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ba700dbf_4fc7e2b9",
+        "filename": "_data/devices/joan_variant3.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-06-20T21:07:06Z",
+      "side": 1,
+      "message": "heavily opposed to this abomination. variants were made to get rid of stupidly long lists",
+      "revId": "c9baad9cad82da5ed6a6ef32418e6f50ec3f810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
