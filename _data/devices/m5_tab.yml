@@ -19,8 +19,8 @@ name: M5 (Tablet)
 network: None
 peripherals: None
 ram: 4 GB
-recovery_boot: Run `adb reboot recovery`.
 recovery_partition_name: recovery
+recovery_reboot: none
 release: 2020-12-01
 screen: None
 sdcard: {sizeMax: '2 TB'}

@@ -21,7 +21,6 @@ name: onn. TV Box 4K (2021)
 network: None
 peripherals: None
 ram: 2 GB
-recovery_boot: Run `adb reboot recovery`.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_boot
 release: 2021-06-01
