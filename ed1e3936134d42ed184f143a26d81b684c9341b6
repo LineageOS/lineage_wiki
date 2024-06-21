@@ -16,6 +16,23 @@
       "message": "Both of the maintainers still don\u0027t have the permissions yet tho",
       "revId": "ed1e3936134d42ed184f143a26d81b684c9341b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c9ec611_1fe3256d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-06-21T09:31:13Z",
+      "side": 1,
+      "message": "can you also add `recovery_reboot: fastboot_reboot` or `recovery_reboot: fastboot_boot` here?",
+      "revId": "ed1e3936134d42ed184f143a26d81b684c9341b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
