@@ -33,6 +33,24 @@
       "message": "can you also add `recovery_reboot: fastboot_reboot` or `recovery_reboot: fastboot_boot` here?",
       "revId": "ed1e3936134d42ed184f143a26d81b684c9341b6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ffffb98_a763012f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-06-21T09:31:30Z",
+      "side": 1,
+      "message": "preferably the first one, if it works.",
+      "parentUuid": "7c9ec611_1fe3256d",
+      "revId": "ed1e3936134d42ed184f143a26d81b684c9341b6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
