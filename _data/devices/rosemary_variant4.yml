@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
 before_install_device_variants:
-  - {device: 'Poco M5s Global', download_link: 'https://bn.d.miui.com/V13.0.5.0.SFFMIXM/miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip', firmware: 'V13.0.5.0.SFFMIXM'}
+  - {device: 'POCO M5s Global', download_link: 'https://bn.d.miui.com/V13.0.5.0.SFFMIXM/miui_ROSEMARYPGlobal_V13.0.5.0.SFFMIXM_86427645e5_12.0.zip', firmware: 'V13.0.5.0.SFFMIXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
@@ -24,7 +24,7 @@ install_method: fastboot_xiaomi
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_mt6785, version: '4.14'}
 maintainers: [surblazer]
-name: Poco M5s
+name: POCO M5s
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
 ram: 4/6/8 GB
