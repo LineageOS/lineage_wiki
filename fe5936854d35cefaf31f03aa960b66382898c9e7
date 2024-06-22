@@ -52,6 +52,24 @@
       "parentUuid": "ea42aaab_1c7c6001",
       "revId": "fe5936854d35cefaf31f03aa960b66382898c9e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "741df30a_98fea6e2",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-06-22T04:11:32Z",
+      "side": 1,
+      "message": "we support building cm-13, which uses cyngn, other two are fine to leave.",
+      "parentUuid": "b0d99a26_debd95d8",
+      "revId": "fe5936854d35cefaf31f03aa960b66382898c9e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
