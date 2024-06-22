@@ -20,12 +20,12 @@ install_method: fastboot_motorola
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8998, version: '4.4'}
-maintainers: []
+maintainers: [npjohnson]
 models: [XT1929-15, XT1929-17]
 name: moto z3
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
-quirks: [aux_cameras]
+quirks: [aux_cameras, ims]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
