@@ -2,11 +2,11 @@ architecture: arm64
 battery: {capacity: 4575, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
-bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
-  - {flash: 'LED', info: '50 MP'}
-  - {flash: None, info: '12 MP (ultrawide)'}
-  - {flash: None, info: '10.5 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '10.5 MP (front)'}
 codename: shiba
 cpu: Cortex-X3 & Cortex-A715 & Cortex-A510
 cpu_cores: '9'
