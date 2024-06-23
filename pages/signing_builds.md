@@ -20,7 +20,10 @@ done
 
 {% capture apexapks %}
 AdServicesApk
+FederatedCompute
 HalfSheetUX
+HealthConnectBackupRestore
+HealthConnectController
 OsuLogin
 SafetyCenterResources
 ServiceConnectivityResources
