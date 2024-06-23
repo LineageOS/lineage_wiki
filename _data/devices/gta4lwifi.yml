@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 610
 image: gta4lwifi.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_sm6115, version: '4.19'}
-maintainers: [chrmhoffmann]
+maintainers: []
 models: [SM-T500]
 name: 'Galaxy Tab A7 10.4 2020 (Wi-Fi)'
 network: None

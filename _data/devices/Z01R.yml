@@ -18,7 +18,7 @@ install_method: fastboot_zenfone
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_asus_sdm845, version: '4.9'}
-maintainers: [rohanpurohit, Jackeagle, ThEMarD]
+maintainers: []
 name: Zenfone 5Z (ZS620KL)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, FM radio, Fingerprint reader, GLONASS, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light, USB OTG]

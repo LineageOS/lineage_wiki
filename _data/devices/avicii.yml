@@ -23,7 +23,7 @@ image: avicii.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm7250, version: '4.19'}
-maintainers: [MajorP93, KakatkarAkshay]
+maintainers: []
 models: [AC2001, AC2003]
 name: Nord
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

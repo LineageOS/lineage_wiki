@@ -20,7 +20,7 @@ image: haydn.png
 install_method: fastboot_xiaomi
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8350, version: '5.4'}
-maintainers: [AdarshGrewal, erfanoabdi]
+maintainers: []
 models: [M2012K11G]
 name: Mi 11i
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]

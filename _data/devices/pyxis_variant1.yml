@@ -19,7 +19,7 @@ image: pyxis.png
 install_method: fastboot_xiaomi
 is_retrofit_dynamic_partitions: true
 kernel: {repo: android_kernel_xiaomi_sdm710, version: '4.9'}
-maintainers: [ceracz]
+maintainers: []
 models: [M1904F3BC]
 name: Mi CC 9
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]

@@ -23,7 +23,7 @@ image: rosemary.png
 install_method: fastboot_xiaomi
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_mt6785, version: '4.14'}
-maintainers: [surblazer]
+maintainers: []
 name: Redmi Note 10S NFC
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
