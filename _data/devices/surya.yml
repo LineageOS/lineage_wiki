@@ -23,7 +23,7 @@ gpu: Qualcomm Adreno 618
 image: surya.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_surya, version: '4.14'}
-maintainers: []
+maintainers: [Shimitar, TheStrechh]
 models: [M2007J20CG, M2007J20CI]
 name: POCO X3 NFC
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
