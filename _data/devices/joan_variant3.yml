@@ -18,7 +18,7 @@ image: v30.png
 install_method: dd
 is_unlockable: false
 kernel: {repo: android_kernel_lge_msm8998, version: '4.4'}
-maintainers: [lifehackerhansol, SGCMarkus]
+maintainers: []
 models: [H931, H933, LS998, V300L, V300K, V300S, VS996]
 name: V30 (Other)
 network: [2G GSM, 3G UMTS, 4G LTE]
