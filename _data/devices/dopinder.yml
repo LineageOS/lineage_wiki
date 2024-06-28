@@ -16,7 +16,7 @@ gpu: ARM Mali-G31 MP2
 image: dopinder.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
-maintainers: []
+maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
 name: onn. TV Box 4K (2021)
 network: None
 peripherals: None
