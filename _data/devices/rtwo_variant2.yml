@@ -21,7 +21,7 @@ image: rtwo.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm8550, version: '5.15'}
-maintainers: []
+maintainers: [sgcmarkus, themard]
 models: [XT2301-5]
 name: moto X40
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
