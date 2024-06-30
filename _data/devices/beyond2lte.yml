@@ -13,7 +13,7 @@ codename: beyond2lte
 cpu: Exynos M4 & Cortex-A75 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.31 + 4 x 1.95 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 7.8, height: 157.6, width: 74.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9820
@@ -39,5 +39,5 @@ tree: android_device_samsung_beyond2lte
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [18.1, 19.1, 20]
+versions: [18.1, 19.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac/ax
