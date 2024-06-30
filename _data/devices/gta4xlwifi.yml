@@ -14,6 +14,7 @@ current_branch: 21
 dimensions: {depth: 7.0, height: 244.5, width: 154.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_gta4xlwifi
+format_on_upgrade: 21
 gpu: ARM Mali-G72 MP3
 image: gta4xl.png
 install_method: heimdall
