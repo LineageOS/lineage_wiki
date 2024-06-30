@@ -16,6 +16,7 @@ current_branch: 21
 dimensions: {depth: 9.5, height: 163.9, width: 76.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9825-r
+format_on_upgrade: 21
 gpu: ARM Mali-G76 MP12
 image: f62.png
 install_method: heimdall

@@ -17,6 +17,7 @@ current_branch: 21
 dimensions: {depth: 7.9, height: 162.6, width: 77.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_exynos9820_5G
+format_on_upgrade: 21
 gpu: ARM Mali-G76 MP12
 image: beyondx.png
 install_method: heimdall
