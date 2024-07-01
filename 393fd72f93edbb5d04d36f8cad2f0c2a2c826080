@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "249c3005_b70facd8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32153
+      },
+      "writtenOn": "2024-07-01T22:11:55Z",
+      "side": 1,
+      "message": "Dear Wiki Editors,\nPlease review my small change. I propose splitting the rear cameras of NP1.",
+      "revId": "393fd72f93edbb5d04d36f8cad2f0c2a2c826080",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
