@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6466611b_f8b6f92b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32153
+      },
+      "writtenOn": "2024-07-01T21:48:59Z",
+      "side": 1,
+      "message": "Dear Wiki Editors,\nPlease review my small change. I added the info about the refresh rate supported by Fairphone 5.",
+      "revId": "c05cf4b245f54a534410ad067e0ecf5fc7b2643b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
