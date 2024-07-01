@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d03b0d68_c4fa9609",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32153
+      },
+      "writtenOn": "2024-07-01T21:21:50Z",
+      "side": 1,
+      "message": "Dear Wiki Editors,\nPlease review my small change. I added the info about the front camera of the Redmi 12C and its variants.",
+      "revId": "1671f011c57e8cf9377cf05b5ddaa3e8f87a09e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
