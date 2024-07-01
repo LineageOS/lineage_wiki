@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5fb331c_152209b4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32153
+      },
+      "writtenOn": "2024-07-01T22:33:38Z",
+      "side": 1,
+      "message": "Dear Wiki Editors,\nPlease review my small change. I added the info about the refresh rate of several Samsung devices.",
+      "revId": "6d9226284e9c7087f3a8eceee6da7be190b14016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
