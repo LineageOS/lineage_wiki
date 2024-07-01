@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2023-08
-screen: {resolution: '1224x2700', size: 6.46, technology: 'OLED'}
+screen: {refresh_rate: 90, resolution: '1224x2700', size: 6.46, technology: 'OLED'}
 sdcard: {sizeMax: '2 TB'}
 soc: Qualcomm QCM6490
 storage: 256 GB UFS 2.2
