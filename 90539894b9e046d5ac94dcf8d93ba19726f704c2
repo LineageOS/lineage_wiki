@@ -16,6 +16,23 @@
       "message": "thank you for the contributions and taking care to format commit msg!",
       "revId": "90539894b9e046d5ac94dcf8d93ba19726f704c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45ac4006_409ea7cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32153
+      },
+      "writtenOn": "2024-07-01T21:38:05Z",
+      "side": 1,
+      "message": "Dear Wiki Editors,\nPlease review my small change. I added the info about the refresh rate supported by Samsung Galaxy S20 FE (both 4G and 5G variants).",
+      "revId": "90539894b9e046d5ac94dcf8d93ba19726f704c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
