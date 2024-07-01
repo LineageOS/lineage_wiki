@@ -4,6 +4,7 @@ bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '50 MP (wide)'}
   - {flash: None, info: '0.08 MP (depth)'}
+  - {flash: None, info: '5 MP (front)'}
 codename: earth
 cpu: Cortex-A75 & Cortex-A55
 cpu_cores: '8'
