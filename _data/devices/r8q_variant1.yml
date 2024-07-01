@@ -30,7 +30,7 @@ ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2021-04-23
-screen: {resolution: '2400x1080', size: 6.5, technology: 'Super AMOLED'}
+screen: {refresh_rate: 120, resolution: '2400x1080', size: 6.5, technology: 'Super AMOLED'}
 sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB
