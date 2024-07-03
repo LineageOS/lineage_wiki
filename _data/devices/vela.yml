@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 616
 image: pyxis.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_sdm710, version: '4.9'}
-maintainers: []
+maintainers: ["0xCAFEBABE"]
 models: [M1904F3BT]
 name: Mi CC9 Meitu Edition
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
