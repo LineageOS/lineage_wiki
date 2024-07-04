@@ -7,7 +7,7 @@ cameras:
   - {flash: 'LED', info: '16 MP (wide)'}
   - {flash: 'LED', info: '16 MP (ultrawide)'}
   - {flash: 'None', info: '8 MP (front)'}
-codename: judyln
+codename: g710n
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
@@ -21,8 +21,8 @@ is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sdm845, version: '4.9'}
 maintainers: [lifehackerhansol]
-models: [LM-G710AWM, LM-G710EM, LM-G710EMW]
-name: G7 ThinQ (G710AWM/EM/EMW)
+models: [LM-G710N]
+name: G7 ThinQ (G710N)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
 quirks: [ims]
@@ -35,9 +35,8 @@ screen: {resolution: '3120x1440', size: 6.1, technology: 'IPS LCD'}
 sdcard: {size_max: '2 TB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1
-tree: android_device_lge_judyln
+tree: android_device_lge_g710n
 type: phone
-variant: 1
 vendor: LG
 vendor_short: lge
 versions: [21]
