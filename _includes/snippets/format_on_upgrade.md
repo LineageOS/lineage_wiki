@@ -6,11 +6,11 @@
 
 {%- capture wiping_instructions %}
 {%- if device.format_on_upgrade == "fbe" %}
-8. If your device is not FBE encrypted, wipe your data partition (this is usually named "Wipe", or "Format").
+8. If your device is not FBE encrypted, wipe your data partition (this is usually named "Wipe", "Format", or "Factory reset").
     {% include alerts/note.html content="You can check if it's FBE encrypted by running the following command: `adb -d wait-for-device shell getprop ro.crypto.type`.
     If the output of this is `file`, then your device is FBE encrypted!" %}
 {%- elsif device.format_on_upgrade == "fde" %}
-8. If your device is FDE encrypted, you will need to wipe your data partition (this is usually named "Wipe", or "Format").
+8. If your device is FDE encrypted, you will need to wipe your data partition (this is usually named "Wipe", "Format", or "Factory reset").
     {% include alerts/note.html content="This is due to the fact that Android 13 dropped support for FDE (Full Disk Encryption)." %}
     {% include alerts/note.html content="You can check if it's FDE encrypted by running the following command: `adb -d wait-for-device shell getprop ro.crypto.state`.
     If the output of this is `encrypted`, then your device is FDE encrypted!" %}
@@ -56,10 +56,10 @@ fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition
 {% capture path %}templates/device_specific/before_lineage_install_{{ device.before_lineage_install }}.md{% endcapture %}
 {% include {{ path }} %}
 {%- endif %}
-15. Wipe your data partition (this is usually named "Wipe", or "Format")
+15. Wipe your data partition (this is usually named "Wipe", "Format", or "Factory reset")
 {%- elsif device.format_on_upgrade < device.current_branch %}
-8. If your device is running LineageOS version older than {{ device.format_on_upgrade | precision: 1 }}, wipe your data partition (this is usually named "Wipe", or "Format").
+8. If your device is running LineageOS version older than {{ device.format_on_upgrade | precision: 1 }}, wipe your data partition (this is usually named "Wipe", "Format", or "Factory reset").
 {%- else %}
-8. Wipe your data partition (this is usually named "Wipe", or "Format")
+8. Wipe your data partition (this is usually named "Wipe", "Format", or "Factory reset")
 {%- endif %}
 {%- endcapture %}
