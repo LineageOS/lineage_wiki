@@ -52,6 +52,26 @@ function applyFilters() {
       return value.length === 0 || value.some(x => device.soc.includes(x));
     },
 
+    // SoC
+    (device) => {
+      let value = checkBoxValues("soc");
+      if (typeof(device.soc) === "string") {
+        return value.length === 0 || value.some(x => device.soc === x);
+      } else {
+        return value.length === 0 || value.some(x => device.soc.includes(x));
+      }
+    },
+
+    // GPU
+    (device) => {
+      let value = checkBoxValues("gpu");
+      if (typeof(device.gpu) === "string") {
+        return value.length === 0 || value.some(x => device.gpu === x);
+      } else {
+        return value.length === 0 || value.some(x => device.gpu.includes(x));
+      }
+    },
+
     // Device type
     (device) => {
       let value = checkBoxValues("types");
@@ -346,6 +366,32 @@ function showFilters() {
         <p class="device-filters-header">SoC vendor:</p>
         {% for value in site.data.device_filters.soc_vendors %}
         <div class="form-check" data-filter="soc_vendors">
+          <label class="form-check-label">
+              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+              {{ value }}
+              <span class="form-check-sign no-ripple">
+                  <span class="check" />
+              </span>
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">SoC:</p>
+        {% for value in definitions.soc_data.enum %}
+        <div class="form-check" data-filter="soc">
+          <label class="form-check-label">
+              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+              {{ value }}
+              <span class="form-check-sign no-ripple">
+                  <span class="check" />
+              </span>
+            </label>
+          </div>
+        {% endfor %}
+
+        <p class="device-filters-header">GPU:</p>
+        {% for value in definitions.gpu_data.enum %}
+        <div class="form-check" data-filter="gpu">
           <label class="form-check-label">
               <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
               {{ value }}
