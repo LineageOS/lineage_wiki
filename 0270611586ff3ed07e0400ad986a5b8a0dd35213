@@ -70,6 +70,30 @@
       },
       "revId": "0270611586ff3ed07e0400ad986a5b8a0dd35213",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d32ebc7_3531554a",
+        "filename": "pages/devices.html",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-10T14:12:51Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "81976b1e_3ed8aeec",
+      "range": {
+        "startLine": 58,
+        "startChar": 6,
+        "endLine": 60,
+        "endChar": 72
+      },
+      "revId": "0270611586ff3ed07e0400ad986a5b8a0dd35213",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
