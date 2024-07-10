@@ -42,7 +42,7 @@
     </tr>
     <tr>
         <th scope="row">SoC</th>
-        <td>{{ device.soc }}</td>
+        <td>{{ device.soc | join: ' / ' }}</td>
     </tr>
     <tr>
         <th scope="row">RAM</th>
