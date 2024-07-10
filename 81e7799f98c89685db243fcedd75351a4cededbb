@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9e04c515_b76893d1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-10T13:54:16Z",
+      "side": 1,
+      "message": "\u003eleave them?\n\nI would do this just to discourage people adding useless stuff every time a new SoC gets released, whoever adds a device that uses a new SoC, they can add it\n\nElse it\u0027s fine",
+      "revId": "81e7799f98c89685db243fcedd75351a4cededbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
