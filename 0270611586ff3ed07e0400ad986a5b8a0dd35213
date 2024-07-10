@@ -46,6 +46,30 @@
       },
       "revId": "0270611586ff3ed07e0400ad986a5b8a0dd35213",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81976b1e_3ed8aeec",
+        "filename": "pages/devices.html",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-07-10T14:10:46Z",
+      "side": 1,
+      "message": "it should, which is why i left it this way",
+      "parentUuid": "e84cce91_ede4d71d",
+      "range": {
+        "startLine": 58,
+        "startChar": 6,
+        "endLine": 60,
+        "endChar": 72
+      },
+      "revId": "0270611586ff3ed07e0400ad986a5b8a0dd35213",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
