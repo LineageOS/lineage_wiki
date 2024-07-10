@@ -28,7 +28,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2019-03
 screen: {resolution: '720x1512', size: 5.7, technology: 'IPS LCD'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Qualcomm SDM632 Snapdragon 632
 storage: 32 GB
 tree: android_device_motorola_channel

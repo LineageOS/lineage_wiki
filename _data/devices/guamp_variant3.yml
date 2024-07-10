@@ -31,7 +31,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-08
 screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 64/128 GB eMMC 5.1
 tree: android_device_motorola_guamp

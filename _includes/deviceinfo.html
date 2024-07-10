@@ -133,7 +133,7 @@
     {%- if device.sdcard %}
     <tr>
         <th scope="row">SD card</th>
-        <td>Up to {{ device.sdcard.sizeMax }}
+        <td>Up to {{ device.sdcard.size_max }}
         {%- if device.sdcard.slot %}
         <br/>
         {%- case device.sdcard.slot %}

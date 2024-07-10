@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2020-09
 screen: {resolution: '2000x1200', size: 10.4, technology: 'TFT LCD'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 32 GB
 tree: android_device_samsung_gta4l

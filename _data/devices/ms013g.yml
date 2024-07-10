@@ -27,7 +27,7 @@ recovery_partition_name: recovery
 release: 2013-11-25
 required_bootloader: ['SM-G7102 = G7102DDSBQF1']
 screen: {resolution: '1280x720', size: 5.25, technology: 'TFT LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8 GB
 tree: android_device_samsung_ms013g

@@ -30,7 +30,7 @@ recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2023-08
 screen: {refresh_rate: 90, resolution: '1224x2700', size: 6.46, technology: 'OLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm QCM6490
 storage: 256 GB UFS 2.2
 tree: android_device_fairphone_FP5

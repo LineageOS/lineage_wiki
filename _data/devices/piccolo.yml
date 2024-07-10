@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2015-08
 screen: {resolution: '1080x1920', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
 tree: android_device_bq_piccolo

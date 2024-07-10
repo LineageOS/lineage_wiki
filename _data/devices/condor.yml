@@ -25,7 +25,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2014-05-13
 screen: {resolution: '540x960', size: 4.3, technology: 'IPS LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8212 Snapdragon 200
 storage: 4 GB
 tree: android_device_motorola_condor

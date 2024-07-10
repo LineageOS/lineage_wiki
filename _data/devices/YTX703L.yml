@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2016-12
 screen: {resolution: '2560x1600', size: 10.1, technology: 'IPS LCD'}
-sdcard: {sizeMax: '32 GB (SDHC) or 2 TB (SDXC)'}
+sdcard: {size_max: '32 GB (SDHC) or 2 TB (SDXC)'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32 GB
 tree: android_device_lenovo_YTX703-common

@@ -31,7 +31,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2022-04
 screen: {resolution: '1080x2400', size: 6.6, technology: 'P-OLED'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6225 Snapdragon 680 4G
 storage: 64/128/256 GB UFS 2.2
 tree: android_device_motorola_rhode

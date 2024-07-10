@@ -33,7 +33,7 @@ recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Bixby</kb
 recovery_partition_name: recovery
 release: 2019-03-08
 screen: {resolution: '3040x1440', size: 6.4, technology: 'Dynamic AMOLED'}
-sdcard: {sizeMax: '512 GB'}
+sdcard: {size_max: '512 GB'}
 soc: Samsung Exynos 9820
 storage: 128/512/1024 GB
 tree: android_device_samsung_beyond2lte

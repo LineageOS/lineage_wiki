@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2012-04
 screen: {resolution: '800x1280', size: 10.1, technology: 'PLS LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: TI OMAP4430
 storage: 8/16/32 GB
 tree: android_device_samsung_espresso3g

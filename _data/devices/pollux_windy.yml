@@ -25,7 +25,7 @@ recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lightin
 recovery_partition_name: boot
 release: 2013-02
 screen: {resolution: '1200x1920', size: 10.1, technology: 'TFT LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 16/32 GB
 tree: android_device_sony_pollux_windy

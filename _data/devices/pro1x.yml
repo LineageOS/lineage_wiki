@@ -30,7 +30,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2022-12
 screen: {resolution: '1080x2160', size: 5.99, technology: 'AMOLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_fxtec_pro1x

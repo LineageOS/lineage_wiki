@@ -25,7 +25,7 @@ recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lightin
 recovery_partition_name: boot
 release: 2013-02
 screen: {resolution: '1080x1920', size: 5, technology: 'TFT LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm APQ8064 Snapdragon S4 Pro
 storage: 16 GB
 tree: android_device_sony_yuga

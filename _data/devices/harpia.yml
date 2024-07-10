@@ -28,7 +28,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2016-05
 screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '128 GB'}
+sdcard: {size_max: '128 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_motorola_harpia

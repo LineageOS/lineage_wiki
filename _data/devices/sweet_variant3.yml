@@ -32,7 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2021-03
 screen: {refresh_rate: 120, resolution: '2400x1080', size: 6.67, technology: 'AMOLED'}
-sdcard: {sizeMax: '512 GB'}
+sdcard: {size_max: '512 GB'}
 soc: Qualcomm SM7150-AC Snapdragon 732G
 storage: 64/128 GB
 tree: android_device_xiaomi_sweet

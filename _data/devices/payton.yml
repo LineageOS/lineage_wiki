@@ -31,7 +31,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2017-10
 screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LTPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm SDM630 Snapdragon 630
 storage: 32/64/128 GB
 tree: android_device_motorola_payton

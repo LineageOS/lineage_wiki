@@ -26,7 +26,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2016-05
 screen: {resolution: '1080x1920', size: 5.5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16/32/64 GB
 tree: android_device_motorola_athene

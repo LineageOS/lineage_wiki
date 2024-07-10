@@ -31,7 +31,7 @@ recovery_partition_name: recovery
 release: 2013-04
 root_method: [kingroot]
 screen: {resolution: '1920x1080', size: 5, technology: 'Pentile RGBG Super AMOLED'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16/32 GB
 tree: android_device_samsung_jfltevzw

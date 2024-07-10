@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2015-11
 screen: {resolution: '1080x1920', size: 5, technology: 'AMOLED'}
-sdcard: {sizeMax: '128 GB'}
+sdcard: {size_max: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16 GB
 tree: android_device_oneplus_onyx

@@ -30,7 +30,7 @@ recovery_partition: /dev/block/bootdevice/by-name/recovery
 recovery_partition_name: recovery
 release: 2017-08
 screen: {resolution: '2880x1440', size: 6, technology: 'P-OLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB
 tree: android_device_lge_joan

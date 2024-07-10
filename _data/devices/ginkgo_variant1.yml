@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2019-08
 screen: {resolution: '1080x2340', size: 6.3, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm SDM665 Snapdragon 665
 storage: 32/64/128 GB
 tree: android_device_xiaomi_ginkgo
