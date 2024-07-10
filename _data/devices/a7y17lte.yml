@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 recovery_partition_name: recovery
 release: 2017-01-02
 screen: {resolution: '1920x1080', size: 5.2, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Samsung Exynos 7880
 storage: 32/64 GB
 tree: android_device_samsung_a7y17lte

@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2022
 screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.7, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '512 GB', slot: 'hybrid'}
+sdcard: {size_max: '512 GB', slot: 'hybrid'}
 soc: Qualcomm SM7325 Snapdragon 778G 5G
 storage: 128/256 GB
 tree: android_device_samsung_a73xq

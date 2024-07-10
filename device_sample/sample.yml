@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 release: 2014-04-11
 required_bootloader: ['T713XXU2BQCO', 'T713XXU2BQCP']
 screen: {resolution: '1920x1080', size: 5.1, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '128 GB'}
+sdcard: {size_max: '128 GB'}
 soc: Qualcomm MSM8974AC Snapdragon 801
 storage: 16/32 GB
 tree: android_device_lge_sample

@@ -25,7 +25,7 @@ recovery_boot: ''
 recovery_partition_name: recovery
 release: 2015-07
 screen: {resolution: '1280x800', size: 8, technology: 'IPS LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8/16 GB
 tree: android_device_asus_P024

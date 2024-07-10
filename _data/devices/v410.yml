@@ -27,7 +27,7 @@ recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery
 recovery_partition_name: recovery
 release: 2014-05
 screen: {resolution: '1280x800', size: 7, technology: 'IPS LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 
 tree: android_device_lge_v410

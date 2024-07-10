@@ -30,7 +30,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_boot
 release: 2019-05-28
 screen: {resolution: '720x1440', size: 5.45, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm SDM439 Snapdragon 439
 storage: 16 / 32 GB
 tree: android_device_xiaomi_Mi439

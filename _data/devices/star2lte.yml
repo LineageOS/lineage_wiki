@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bix
 recovery_partition_name: recovery
 release: 2018-03-11
 screen: {resolution: '2960x1440', size: 6.2, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '400 GB'}
+sdcard: {size_max: '400 GB'}
 soc: Samsung Exynos 9810
 storage: 64/128/256 GB
 tree: android_device_samsung_star2lte

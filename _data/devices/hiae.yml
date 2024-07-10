@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2015-10-20
 screen: {resolution: '1920x1080', size: 5, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16/32 GB
 tree: android_device_htc_hiae

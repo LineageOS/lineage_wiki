@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2016-06
 screen: {resolution: '2560x1440', size: 5.5, technology: 'AMOLED'}
-sdcard: {sizeMax: '256 GB', slot: 'sim'}
+sdcard: {size_max: '256 GB', slot: 'sim'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB UFS2.0 (Standard edition) / 128 GB UFS2.0 (Exclusive edition)
 tree: android_device_zte_axon7

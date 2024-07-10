@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 release: 2018-10
 screen: {resolution: '1440x2880', size: 6, technology: 'P-OLED'}
-sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SDM845 Snapdragon 845
 storage: 64 GB UFS2.1
 tree: android_device_sony_akatsuki

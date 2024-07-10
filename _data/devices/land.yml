@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 recovery_partition_name: recovery
 release: 2016-06
 screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 16/32 GB
 tree: android_device_xiaomi_land

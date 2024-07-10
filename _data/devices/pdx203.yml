@@ -32,7 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2020-05
 screen: {resolution: '3840x1644', size: 6.5, technology: 'OLED'}
-sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
 soc: Qualcomm SM8250 Snapdragon 865
 storage: 128/256 GB UFS3.0
 tree: android_device_sony_pdx203

@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, boot the device and press <kbd>Volum
 recovery_partition_name: boot
 release: 2013-06
 screen: {resolution: '480x854', size: 4, technology: 'TFT LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8227 Snapdragon S4 Plus
 storage: 4 GB
 tree: android_device_sony_nicki

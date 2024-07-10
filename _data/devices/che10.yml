@@ -30,7 +30,7 @@ release: 2014-10
 screen:
   - Honor 4X: {resolution: '1280x720', size: 5.5, technology: 'IPS+ LCD'}
   - Honor 4X: {resolution: '1280x720', size: 5.5, technology: 'IPS+ LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 8 GB
 tree: android_device_huawei_che10

@@ -34,7 +34,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-02
 screen: {resolution: '1080x2520', size: 6.7, technology: 'IPS LCD'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM8250-AC Snapdragon 870
 storage: 128/256 GB UFS 3.1
 tree: android_device_motorola_nio

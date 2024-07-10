@@ -28,7 +28,7 @@ recovery_partition_name: recovery
 release: 2014
 required_bootloader: ['T805ZHU1CQB1']
 screen: {resolution: '2560x1600', size: 10.5, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Samsung Exynos 5420
 storage: 16/32 GB
 tree: android_device_samsung_chagalllte

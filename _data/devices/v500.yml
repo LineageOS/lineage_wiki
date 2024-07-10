@@ -26,7 +26,7 @@ recovery_partition_name: recovery
 release: 2013-10-14
 root_method: [custom, 'https://forum.xda-developers.com/lg-g-pad-83/general/guide-root-twrp-customrom-kot49i-v50020d-t2894277']
 screen: {resolution: '1920x1200', size: 8.3, technology: 'IPS LCD'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm APQ8064T Snapdragon 600
 storage: 16 GB
 tree: android_device_lge_v500

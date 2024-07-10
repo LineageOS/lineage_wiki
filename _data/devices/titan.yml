@@ -26,7 +26,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2014-06
 screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8226 Snapdragon 400
 storage: 8/16 GB
 tree: android_device_motorola_titan
