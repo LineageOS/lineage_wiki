@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2016-05
 screen: {resolution: '1080x1920', size: 6.44, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB', slot: 'hybrid'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
 soc: Qualcomm MSM8956 Snapdragon 650
 storage: 32/64 GB
 tree: android_device_xiaomi_hydrogen

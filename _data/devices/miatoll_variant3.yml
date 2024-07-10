@@ -33,7 +33,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_reboot
 release: 2020-05-05
 screen: {resolution: '1080x2400', size: 6.67, technology: 'IPS LCD'}
-sdcard: {sizeMax: '512 GB'}
+sdcard: {size_max: '512 GB'}
 soc: Qualcomm SM7125 Snapdragon 720G
 storage: 64/128 GB
 tree: android_device_xiaomi_miatoll

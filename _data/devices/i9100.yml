@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 recovery_partition_name: recovery
 release: 2011-02-11
 screen: {resolution: '800x480', size: 4.3, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Samsung Exynos 4210
 storage: 16/32 GB
 tree: android_device_samsung_i9100

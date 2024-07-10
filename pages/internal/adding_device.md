@@ -182,7 +182,7 @@ There are some optional properties which you might not need, but in case you do,
   required_bootloader: [Version1, Version2]
   ```
 * `sdcard`: Format: `{maxSize: '<size>'}` or `{maxSize: '<size>', slot: '<slot>'}` with
-  - `size` being a string like `32 GB` (checked against a pattern `{{ definitions.sdcard_data.properties.sizeMax.pattern }}`) and
+  - `size` being a string like `32 GB` (checked against a pattern `{{ definitions.sdcard_data.properties.size_max.pattern }}`) and
   - `slot` being one of
     ```
     {{ definitions.sdcard_data.properties.slot.enum | join: ", " }}

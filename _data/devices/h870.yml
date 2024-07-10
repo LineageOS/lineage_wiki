@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2017-02
 screen: {resolution: '2880x1440', size: 5.7, technology: 'IPS LCD'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32 GB
 tree: android_device_lge_h870

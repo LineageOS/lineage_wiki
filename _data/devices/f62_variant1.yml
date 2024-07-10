@@ -32,7 +32,7 @@ recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kb
 recovery_partition_name: recovery
 release: 2021-02-22
 screen: {resolution: '2400x1080', size: 6.7, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '1 TB', slot: 'dedicated'}
+sdcard: {size_max: '1 TB', slot: 'dedicated'}
 soc: Samsung Exynos 9825
 storage: 128 GB
 tree: android_device_samsung_f62

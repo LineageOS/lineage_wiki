@@ -30,7 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 release: 2017-07
 screen: {resolution: '1440x2560', size: 5.5, technology: 'P-OLED'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 64 GB, 128 GB (UFS 2.1 2-LANE)
 tree: android_device_motorola_nash

@@ -30,7 +30,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: recovery
 release: 2016-02
 screen: {resolution: '2560x1440', size: 5.3, technology: 'IPS LCD'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32 GB
 tree: android_device_lge_rs988

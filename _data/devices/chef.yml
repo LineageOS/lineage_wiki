@@ -29,7 +29,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2018-10-10
 screen: {resolution: '2246x1080', size: 6.14, technology: 'IPS LTPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm SDM636 Snapdragon 636
 storage: 64 GB
 tree: android_device_motorola_chef

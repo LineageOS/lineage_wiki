@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 recovery_partition_name: recovery
 release: 2016-03-18
 screen: {resolution: '2560x1440', size: 5.5, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Samsung Exynos 8890
 storage: 32/64 GB
 tree: android_device_samsung_hero2lte

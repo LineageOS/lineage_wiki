@@ -24,7 +24,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2015
 screen: {resolution: '720x1280', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8916T Snapdragon 412
 storage: 8/16 GB
 tree: android_device_bq_vegetalte

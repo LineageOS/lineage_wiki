@@ -27,7 +27,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2016-09
 screen: {resolution: '1080x1920', size: 5.5, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8953 Snapdragon 625
 storage: 32 GB
 tree: android_device_motorola_addison

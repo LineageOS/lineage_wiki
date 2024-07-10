@@ -244,7 +244,7 @@ definitions:
     additionalProperties: False
     description: The format required for the sdcard property
     properties:
-      sizeMax:
+      size_max:
         description: Maximum size for a sdcard
         pattern: '^(\d+ (GB|TB)( \([^)]*\)( or )?)?)+$'
         type: string
@@ -255,7 +255,7 @@ definitions:
           - hybrid
           - sim
     required:
-      - sizeMax
+      - size_max
     type: object
   soc_data:
     enum:

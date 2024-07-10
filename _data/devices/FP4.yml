@@ -30,7 +30,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2021-10
 screen: {resolution: '2340x1080', size: 6.3, technology: 'IPS LCD'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM7225 Snapdragon 750G
 storage: 128/256 GB UFS 2.1
 tree: android_device_fairphone_FP4

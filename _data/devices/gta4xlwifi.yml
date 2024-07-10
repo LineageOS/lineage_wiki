@@ -29,7 +29,7 @@ recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kb
 recovery_partition_name: recovery
 release: 2020-04-02
 screen: {resolution: '1200x2000', size: 10.4, technology: 'TFT LCD'}
-sdcard: {sizeMax: '1 TB'}
+sdcard: {size_max: '1 TB'}
 soc: Samsung Exynos 9611
 storage: 64/128 GB
 tree: android_device_samsung_gta4xlwifi

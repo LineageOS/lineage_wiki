@@ -23,7 +23,7 @@ recovery_partition_name: recovery
 recovery_reboot: none
 release: 2020-12-01
 screen: None
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Amlogic S905y3
 storage: 16 GB
 tree: android_device_hardkernel_odroidc4
