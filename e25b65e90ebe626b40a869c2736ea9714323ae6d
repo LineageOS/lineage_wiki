@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c36c473f_bc7b4ac9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-07-10T13:24:05Z",
+      "side": 1,
+      "message": "doesn\u0027t seem like anyone uses this feature, also device filters don\u0027t support it.",
+      "revId": "e25b65e90ebe626b40a869c2736ea9714323ae6d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
