@@ -42,7 +42,18 @@
     </tr>
     <tr>
         <th scope="row">SoC</th>
-        <td>{{ device.soc }}</td>
+        <td>
+            {%- if device.soc.first -%}
+                {%- for soc in device.soc -%}
+                    {{ soc }}
+                    {%- unless forloop.last %}
+                        /
+                    {% endunless -%}
+                {%- endfor -%}
+            {%- else -%}
+                {{ device.soc }}
+            {%- endif -%}
+        </td>
     </tr>
     <tr>
         <th scope="row">RAM</th>
