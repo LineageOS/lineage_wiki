@@ -329,7 +329,6 @@ definitions:
       - Qualcomm SM6115 Snapdragon 662
       - Qualcomm SM6150 Snapdragon 675
       - Qualcomm SM6225 Snapdragon 680 4G
-      - Qualcomm SM6375 Snapdragon 695
       - Qualcomm SM7125 Snapdragon 720G
       - Qualcomm SM7150-AA Snapdragon 730
       - Qualcomm SM7150-AB Snapdragon 730G
@@ -348,7 +347,6 @@ definitions:
       - Qualcomm SM8250-AC Snapdragon 870
       - Qualcomm SM8350 Snapdragon 888
       - Qualcomm SM8350-AC Snapdragon 888+
-      - Qualcomm SM8450 Snapdragon 8 Gen1
       - Qualcomm SM8475 Snapdragon 8+ Gen1
       - Qualcomm SM8550 Snapdragon 8 Gen2
       - Samsung Exynos 4210
