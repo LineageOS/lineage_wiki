@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 recovery_partition_name: recovery
 release: 2015-05-12
 screen: {resolution: '1280x720', size: 5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '32 GB'}
+sdcard: {size_max: '32 GB'}
 soc: Qualcomm MSM8916 Snapdragon 410
 storage: 16 GB
 tree: android_device_yu_lettuce

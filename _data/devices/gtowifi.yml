@@ -28,7 +28,7 @@ recovery_partition_name: recovery
 release: 2019
 required_bootloader: ['T290XXU3CVG3']
 screen: {resolution: '800x1280', size: 8, technology: 'TFT LCD'}
-sdcard: {sizeMax: '512 GB'}
+sdcard: {size_max: '512 GB'}
 soc: Qualcomm SDM429 Snapdragon 429
 storage: 32/64 GB
 tree: android_device_samsung_gtowifi

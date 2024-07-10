@@ -33,7 +33,7 @@ recovery_partition: /dev/block/bootdevice/by-name/boot
 recovery_partition_name: boot
 release: 2019-02
 screen: {resolution: '3120x1440', size: 6.1, technology: 'P-OLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 128 GB
 tree: android_device_lge_alphaplus

@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Hom
 recovery_partition_name: recovery
 release: 2013-07
 screen: {resolution: '540x960', size: 4.3, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '64 GB'}
+sdcard: {size_max: '64 GB'}
 soc: Qualcomm MSM8930AB Snapdragon 400
 storage: 8/16 GB
 tree: android_device_samsung_serranoltexx

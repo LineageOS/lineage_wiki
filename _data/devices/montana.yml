@@ -27,7 +27,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2017-08
 screen: {resolution: '1920x1080', size: 5.2, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8937 Snapdragon 430
 storage: 32/64 GB
 tree: android_device_motorola_montana

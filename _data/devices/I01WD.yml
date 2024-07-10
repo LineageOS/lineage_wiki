@@ -28,7 +28,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: boot
 release: 2019-05-16
 screen: {resolution: '2340x1080', size: 6.4, technology: 'IPS LCD'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64/128/256 GB UFS2.1
 tree: android_device_asus_I01WD

@@ -31,7 +31,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2020-06
 screen: {resolution: '1080x2340', size: 6.5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM7150-AB Snapdragon 730G
 storage: 128 GB UFS 2.1
 tree: android_device_motorola_liber

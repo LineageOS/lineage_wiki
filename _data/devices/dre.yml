@@ -33,7 +33,7 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2021-06-21
 screen: {resolution: '1080x2400', size: 6.49, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB', slot: 'sim'}
+sdcard: {size_max: '256 GB', slot: 'sim'}
 soc: Qualcomm SM4350 Snapdragon 480
 storage: 64 GB UFS 2.1
 tree: android_device_oneplus_dre

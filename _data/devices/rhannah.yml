@@ -26,7 +26,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2018-05
 screen: {resolution: '1440x720', size: 6, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8917 Snapdragon 425
 storage: 16/32 GB
 tree: android_device_motorola_rhannah

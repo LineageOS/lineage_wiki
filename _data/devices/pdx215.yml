@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 release: 2021-04
 screen: {resolution: '3840x1644', size: 6.5, technology: 'OLED'}
-sdcard: {sizeMax: '1 TB', slot: 'hybrid'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
 soc: Qualcomm SM8350 Snapdragon 888
 storage: 256/512 GB UFS3.0
 tree: android_device_sony_pdx215

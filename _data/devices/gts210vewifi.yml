@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume U
 recovery_partition_name: recovery
 release: 2016
 screen: {resolution: '1536x2048', size: 9.7, technology: 'Super AMOLED'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8976 Snapdragon 652
 storage: 32/64 GB
 tree: android_device_samsung_gts210vewifi

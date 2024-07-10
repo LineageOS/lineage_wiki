@@ -26,7 +26,7 @@ recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and
 recovery_partition_name: recovery
 release: 2015-09
 screen: {resolution: '1080x1920', size: 5.2, technology: 'IPS LCD'}
-sdcard: {sizeMax: '256 GB (microSD)'}
+sdcard: {size_max: '256 GB (microSD)'}
 soc: Qualcomm MSM8994 Snapdragon 810
 storage: 32 GB
 tree: android_device_sony_sumire

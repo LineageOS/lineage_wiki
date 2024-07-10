@@ -32,7 +32,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 recovery_partition_name: boot
 release: 2019-06
 screen: {resolution: '2248x1440', size: 6.2, technology: 'P-OLED'}
-sdcard: {sizeMax: '2 TB'}
+sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM8150 Snapdragon 855
 storage: 64GB, 128 GB
 tree: android_device_lge_betalm

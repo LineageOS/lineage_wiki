@@ -25,7 +25,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while bo
 recovery_partition_name: recovery
 release: 2016-05
 screen: {resolution: '1440x2560', size: 5.2, technology: 'Super LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8996 Snapdragon 820
 storage: 32/64 GB
 tree: android_device_htc_pme

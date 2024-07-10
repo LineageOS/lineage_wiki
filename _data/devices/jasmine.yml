@@ -27,7 +27,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: recovery
 release: 2016-08
 screen: {resolution: '1280x800', size: 8, technology: 'TFT LCD'}
-sdcard: {sizeMax: '256 GB'}
+sdcard: {size_max: '256 GB'}
 soc: Qualcomm MSM8952 Snapdragon 617
 storage: 16 GB
 tree: android_device_zte_jasmine

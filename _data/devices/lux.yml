@@ -27,7 +27,7 @@ recovery_partition_name: recovery
 recovery_reboot: fastboot_menu
 release: 2015-08
 screen: {resolution: '1080x1920', size: 5.5, technology: 'IPS LCD'}
-sdcard: {sizeMax: '128 GB'}
+sdcard: {size_max: '128 GB'}
 soc: Qualcomm MSM8939 Snapdragon 615
 storage: 16/32 GB
 tree: android_device_motorola_lux
