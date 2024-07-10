@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "069ab438_cb35df8c",
+        "filename": "pages/devices.html",
+        "patchSetId": 7
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-10T14:09:29Z",
+      "side": 1,
+      "message": "```\nreturn value.length \u003d\u003d\u003d 0 || typeof(device.soc) \u003d\u003d\u003d \"string\"\n        ? value.some(x \u003d\u003e device.soc \u003d\u003d\u003d x)\n        : value.some(x \u003d\u003e device.soc.includes(x));\n```",
+      "range": {
+        "startLine": 58,
+        "startChar": 6,
+        "endLine": 60,
+        "endChar": 72
+      },
+      "revId": "0270611586ff3ed07e0400ad986a5b8a0dd35213",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
