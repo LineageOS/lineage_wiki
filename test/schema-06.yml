@@ -706,26 +706,9 @@ properties:
           - repartition
   gpu:
     "$id": "/properties/gpu"
-    oneOf:
-      - "$ref": "#/definitions/gpu_data"
-      - items:
-          "$id": "/properties/gpu/items"
-          "$ref": "#/definitions/gpu_data"
-        minItems: 2
-        type: array
-        uniqueItems: True
-      - description: Array of maps of model numbers to GPU data
-        examples:
-          - SM-9000A: Qualcomm Adreno 306
-          - SM-9000B: Qualcomm Adreno 405
-        items:
-          additionalProperties:
-            "$ref": "#/definitions/gpu_data"
-          description: Map of model number to gpu_data
-          type: object
-        type: array
-      - enum:
-          - None
+    items:
+      "$id": "/properties/gpu/items"
+      "$ref": "#/definitions/gpu_data"
   has_no_usb:
     "$id": "/properties/has_no_usb"
     type: boolean
