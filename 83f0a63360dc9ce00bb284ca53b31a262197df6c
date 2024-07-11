@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a365187e_0ec731cf",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 24334
+      },
+      "writtenOn": "2024-07-11T07:09:15Z",
+      "side": 0,
+      "message": "Just leave them. there are devices with this SoC so may be it will get support in the future. dropping and re-adding no.",
+      "revId": "83f0a63360dc9ce00bb284ca53b31a262197df6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
