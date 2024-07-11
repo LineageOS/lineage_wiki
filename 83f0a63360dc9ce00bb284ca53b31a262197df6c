@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4eb0b89f_9a722615",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-11T19:52:30Z",
+      "side": 0,
+      "message": "Can be readded on the same commit",
+      "parentUuid": "a365187e_0ec731cf",
+      "revId": "83f0a63360dc9ce00bb284ca53b31a262197df6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "48ab2532_69aa3d2c",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-07-11T10:47:53Z",
       "side": 0,
       "message": "Zeus(dagda) Cupid is Snapdragon 8 Gen 1 (SM8450)",
+      "revId": "83f0a63360dc9ce00bb284ca53b31a262197df6c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "21bbfa39_7f2827c4",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 351,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-11T19:52:30Z",
+      "side": 0,
+      "message": "I don\u0027t see zeus on the list of supported devices, so...",
+      "parentUuid": "48ab2532_69aa3d2c",
       "revId": "83f0a63360dc9ce00bb284ca53b31a262197df6c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
