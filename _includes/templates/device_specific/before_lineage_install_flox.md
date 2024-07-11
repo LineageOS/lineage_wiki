@@ -21,7 +21,7 @@
 1. Download the flashable repartition script from [here](https://blob.lineageos.org/downloads/flo-deb_clamor_repartition_20201203.zip).
 2. On your device's screen, choose "Apply Update", then "From ADB".
 3. From your Terminal/PowerShell, run `adb -d sideload /path/to/flo-deb_clamor_repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
-    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
+    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Yes`." %}
 4. Now run `adb -d shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}

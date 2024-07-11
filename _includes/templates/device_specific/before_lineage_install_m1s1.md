@@ -24,6 +24,6 @@
 2. Rename the downloaded zip file to `repartition.zip`.
 3. On your device's screen, choose "Apply Update", then "From ADB".
 4. From your Terminal/PowerShell, run `adb -d sideload /path/to/repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
-    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Continue`." %}
+    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Yes`." %}
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
 5. The device will complete the repartition process, and will display `Done!` on-screen, at this point please select "Advanced" then "Reboot to Recovery", then proceed with the installation process. 

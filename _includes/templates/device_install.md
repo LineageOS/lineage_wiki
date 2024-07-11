@@ -164,7 +164,7 @@ This add-on needs to be installed **before** booting into LineageOS for the firs
 1. Repeat the sideload steps above for all desired packages in sequence.
 {%- endif %}
 {%- if device.is_ab_device or device.uses_twrp != true %}
-<br/>When presented with a screen that says `Signature verification failed`, click `Continue`. It is expected as add-ons aren't signed with LineageOS's official key!
+<br/>When presented with a screen that says `Signature verification failed`, click `Yes`. It is expected as add-ons aren't signed with LineageOS's official key!
 {%- endif %}
 
 ## All set!
