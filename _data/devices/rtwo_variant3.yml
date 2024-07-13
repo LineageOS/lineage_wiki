@@ -40,4 +40,4 @@ variant: 3
 vendor: Motorola
 vendor_short: motorola
 versions: [21]
-wifi: 802.11 a/b/g/n/ac/ax
+wifi:  802.11 a/b/g/n/ac/ax/be
