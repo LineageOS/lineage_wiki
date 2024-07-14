@@ -97,6 +97,21 @@ install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
 
+Dir.glob(wiki_dir + '**/*.*').each do |filename|
+  next if filename.start_with?(wiki_dir + ".jekyll-cache/")
+  next if filename.start_with?(wiki_dir + "_site/")
+  next if filename.start_with?(wiki_dir + "vendor/bundle/")
+  next if filename.end_with?(".bmp")
+  next if filename.end_with?(".ico")
+  next if filename.end_with?(".jpg")
+  next if filename.end_with?(".png")
+
+  if IO.read(filename)[0::-1] != "\n"
+    puts to_relative_path(filename) + ': Missing newline at the end of file'
+    at_exit { exit false }
+  end
+end
+
 Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   next if filename == wiki_dir + "_config.yml"
   next if filename.start_with?(wiki_dir + "vendor/bundle/")
