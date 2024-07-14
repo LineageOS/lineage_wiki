@@ -107,6 +107,21 @@ Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   end
 end
 
+Dir.glob(wiki_dir + '**/*.*').each do |filename|
+  next if filename.start_with?(wiki_dir + ".jekyll-cache/")
+  next if filename.start_with?(wiki_dir + "_site/")
+  next if filename.start_with?(wiki_dir + "vendor/bundle/")
+  next if filename.end_with?(".bmp")
+  next if filename.end_with?(".ico")
+  next if filename.end_with?(".jpg")
+  next if filename.end_with?(".png")
+
+  if IO.read(filename)[0::-1] != "\n"
+    puts to_relative_path(filename) + ': Missing newline at the end of file'
+    at_exit { exit false }
+  end
+end
+
 Dir.entries(device_dir).sort.each do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
