@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 610
 image: gta4l.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_sm6115, version: '4.19'}
-maintainers: []
+maintainers: [chrmhoffmann]
 models: [SM-T505, SM-T505C, SM-T505N, SM-T507]
 name: 'Galaxy Tab A7 10.4 2020 (LTE)'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
