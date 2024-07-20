@@ -3,6 +3,23 @@
     {
       "unresolved": false,
       "key": {
+        "uuid": "3c16675c_1c6a040c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-07-20T18:30:51Z",
+      "side": 1,
+      "message": "Minor nit, this fixup leads nowhere, may as well drop",
+      "revId": "51794d95b634c69f608c48ee72e07efe81203046",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
         "uuid": "b9c022ef_b493dcf8",
         "filename": "/PATCHSET_LEVEL",
         "patchSetId": 1
