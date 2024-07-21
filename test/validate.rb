@@ -96,6 +96,8 @@ info_template = load_template('info.md')
 install_template = load_template('install.md')
 update_template = load_template('update.md')
 upgrade_template = load_template('upgrade.md')
+variant_info_template = load_template('variant_info.md')
+variant_upgrade_template = load_template('variant_upgrade.md')
 
 Dir.glob(wiki_dir + '**/*.*').each do |filename|
   next if filename.start_with?(wiki_dir + ".jekyll-cache/")
@@ -141,6 +143,12 @@ Dir.entries(device_dir).sort.each do |filename|
     validate_template(install_template, install_dir + test_file, codename)
     validate_template(update_template, update_dir + test_file, codename)
     validate_template(upgrade_template, upgrade_dir + test_file, codename)
+
+    if device_json["variant"]
+      test_file = device_json["codename"] + ".md"
+      validate_template(variant_info_template, info_dir + test_file, codename)
+      validate_template(variant_upgrade_template, upgrade_dir + test_file, codename)
+    end
 
     image = device_json["image"]
     validate_image(device_image_dir + image, device_path)
