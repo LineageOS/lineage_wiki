@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
+before_install_device_variants:
+  - {device: 'POCO F4 India', download_link: 'https://cdnorg.d.miui.com/OS1.0.2.0.ULMINXM/miui_MUNCHINGlobal_OS1.0.2.0.ULMINXM_73863dbefb_14.0.zip', firmware: 'OS1.0.2.0.ULMINXM'}before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
+bluetooth: {profiles: [A2DP], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '64 MP (main)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '2 MP (macro)'}
+  - {flash: None, info: '20 MP (front)'}
+codename: munch
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 21
+dimensions: {depth: 7.7, height: 163.2, width: 75.9}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm8250_vab
+gpu: Qualcomm Adreno 650
+image: munch.png
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
+maintainers: [SebaUbuntu]
+models: [22021211RI]
+name: POCO F4 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, IR blaster, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 6/8/12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_reboot
+release: 2022-06
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'Super AMOLED'}
+soc: Qualcomm SM8250-AC Snapdragon 870
+storage: 128/256 GB
+tree: android_device_xiaomi_munch
+type: phone
+variant: 2
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
