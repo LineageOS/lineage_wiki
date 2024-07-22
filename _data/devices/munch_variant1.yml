@@ -32,7 +32,7 @@ kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
 maintainers: [SebaUbuntu]
 models: [22021211RG, 22021211RI]
 name: POCO F4
-network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, GPS, Fingerprint reader, Galileo, IR blaster, QZSS, NAVIC, GLONASS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6/8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
