@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80d68577_8e65e217",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-22T21:09:42Z",
+      "side": 1,
+      "message": "Change is ready, I still have no idea what `fx:` does tho, I can only see it being used to make calculations and adding offsets to the data, but we don\u0027t do that here",
+      "revId": "0d907390b39b7bfb5f9bd6e91a3992a74ef56886",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
