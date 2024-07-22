@@ -27,7 +27,7 @@ fi
 # Trim the image
 mogrify -path $IMAGE_DIR -trim +repage $IMAGE_PATH
 
-RESULT=$(identify -format "%[fx:w]x%[fx:h]" $IMAGE_PATH)
+RESULT=$(identify -format "%[w]x%[h]" $IMAGE_PATH)
 WIDTH=$(echo $RESULT | cut -d 'x' -f 1)
 HEIGHT=$(echo $RESULT | cut -d 'x' -f 2)
 
