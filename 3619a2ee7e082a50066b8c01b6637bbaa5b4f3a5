@@ -33,6 +33,24 @@
       "message": "2g cdma? really?",
       "revId": "3619a2ee7e082a50066b8c01b6637bbaa5b4f3a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cbc3b675_e2923c97",
+        "filename": "_data/devices/munch_variant1.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-22T21:45:59Z",
+      "side": 1,
+      "message": "Yep, I can connect to EDGE",
+      "parentUuid": "21736f22_e0e4c41d",
+      "revId": "3619a2ee7e082a50066b8c01b6637bbaa5b4f3a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
