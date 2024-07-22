@@ -1,3 +1,5 @@
+set -e
+
 usage() {
     echo "Usage:"
     echo "  $0 image_name"
