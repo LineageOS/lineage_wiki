@@ -85,6 +85,7 @@ device_image_dir = wiki_dir + 'images/devices/'
 device_image_small_dir = device_image_dir + 'small/'
 pages = wiki_dir + 'pages/'
 build_dir = pages + 'build/'
+fw_update_dir = pages + 'fw_update/'
 info_dir = pages + 'info/'
 install_dir = pages + 'install/'
 update_dir = pages + 'update/'
@@ -92,6 +93,7 @@ upgrade_dir = pages + 'upgrade/'
 
 # load once, these are equal across all devices
 build_template = load_template('build.md')
+fw_update_template = load_template('fw_update.md')
 info_template = load_template('info.md')
 install_template = load_template('install.md')
 update_template = load_template('update.md')
@@ -143,6 +145,13 @@ Dir.entries(device_dir).sort.each do |filename|
     validate_template(install_template, install_dir + test_file, codename)
     validate_template(update_template, update_dir + test_file, codename)
     validate_template(upgrade_template, upgrade_dir + test_file, codename)
+
+    if device_json["firmware_update"]
+      validate_template(fw_update_template, fw_update_dir + test_file, codename)
+    elsif File.file?(fw_update_dir + test_file)
+      puts to_relative_path(device_path) + ': fw_update page exists, but firmware_update is unset'
+      at_exit { exit false }
+    end
 
     if device_json["variant"]
       test_file = device_json["codename"] + ".md"
