@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd2b6579_cb6b64fb",
+        "filename": "_data/devices/munch_variant1.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2024-07-22T21:48:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dd13bf19_016ef67a",
+      "revId": "3619a2ee7e082a50066b8c01b6637bbaa5b4f3a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "21736f22_e0e4c41d",
