@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "049b6dca_4cc30571",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-07-23T16:14:29Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "04ea1195_347d9218",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-07-23T16:14:29Z",
+      "side": 1,
+      "message": "not descriptive",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ad7cf57d_3b97761f",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-07-23T16:14:29Z",
+      "side": 1,
+      "message": "how?",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
