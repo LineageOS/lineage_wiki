@@ -2,6 +2,8 @@ architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, boot]}
+before_install_device_variants:
+  - {device: 'Realme 9 Pro 5G', firmware: '14.0.0.501(EX01)'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '50 MP (main)'}
