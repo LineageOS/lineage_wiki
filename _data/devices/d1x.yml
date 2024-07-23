@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 3500, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+before_recovery_install: samsung_exynos9xxx
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '12 MP'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '16 MP (ultrawide)'}
+  - {flash: None, info: '10 MP'}
+codename: d1x
+cpu: Exynos M4 & Cortex-A75 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.73 GHz + 2x 2.40 + 4 x 1.95 GHz
+current_branch: 21
+dimensions: {depth: 7.9, height: 151.0, width: 71.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_exynos9820_5G
+format_on_upgrade: 21
+gpu: ARM Mali-G76 MP12
+image: d1.png
+install_method: heimdall
+kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
+maintainers: [Rocky7842, Linux4]
+models: [SM-N971N]
+name: Galaxy Note10 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Qi wireless charging, Qi reverse wireless charging]
+quirks: [ims]
+ram: 12 GB
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2019-08-23
+screen: {resolution: '2280x1080', size: 6.3, technology: 'Dynamic AMOLED'}
+soc: Samsung Exynos 9825
+storage: 256 GB
+tree: android_device_samsung_d1x
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
