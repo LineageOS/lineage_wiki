@@ -108,11 +108,19 @@ hopefully you've learned a bit on the way and had some fun too.
 In case you want to run the emulator image independently from the system/terminal you built it in, you are able to export the built image into a format that can be used by Android Studio/AVD.
 To do that, run the following command in the same terminal that you originally started the build in:
 
+* LineageOS 20 and below
 ```
 mka sdk_addon
 ```
 
 If you now look into the `out/host/linux-x86/sdk_addon` directory, you will find a ZIP file (ending in `-img.zip`) that contains all the necessary files for running the emulator image externally.
+
+* LineageOS 21 and above
+```
+mka emu_img_zip
+```
+
+If you now look into the `out/target/product/<arch>` directory, you will find a ZIP file `sdk-repo-linux-system-images.zip` that contains all the necessary files for running the emulator image externally.
 
 To deploy the build into your Android Studio installation, move the contained folder (which is named after the architecture that you built for) into a **subfolder** of `/path/to/android/sdk/system-images`.
 AOSP uses the following path name by default, but you are free to make up your own as well:
