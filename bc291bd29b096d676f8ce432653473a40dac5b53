@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24e85a15_38c938fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33970
+      },
+      "writtenOn": "2024-07-24T20:15:01Z",
+      "side": 1,
+      "message": "Verified and tested working on my XQ-DQ54. Only things that don\u0027t work are SMS \u0026 calls but that could be operator error as data does work.",
+      "revId": "bc291bd29b096d676f8ce432653473a40dac5b53",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
