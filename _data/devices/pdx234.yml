@@ -22,7 +22,7 @@ install_method: fastboot_sony
 is_ab_device: true
 kernel: {repo: android_kernel_sony_sm8550, version: '5.15'}
 maintainers: [hellobbn]
-models: [XQ-DQ72]
+models: [XQ-DQ54, XQ-DQ72]
 name: 'Xperia 1 V'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
