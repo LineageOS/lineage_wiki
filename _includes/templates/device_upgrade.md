@@ -86,6 +86,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     * {{ device.recovery_boot }}
 {{ wiping_instructions }}
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
+    {% include alerts/warning.html content="This step ***will*** wipe your personal data and remove any user-installed apps. If these are important to you, then you should back them up ***before*** performing the upgrade." %}
 {%- if device.uses_twrp != true %}
 6. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
