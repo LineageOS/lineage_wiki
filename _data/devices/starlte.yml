@@ -12,6 +12,7 @@ cpu_freq: 4 x 2.8 GHz + 4 x 1.7 GHz
 current_branch: 20
 dimensions: {depth: 8.5, height: 147.7, width: 68.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>.
+format_on_upgrade: fde
 gpu: ARM Mali-G72 MP18
 image: starlte.png
 install_method: heimdall
