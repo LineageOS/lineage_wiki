@@ -6,36 +6,36 @@
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 
-{% if device.project_spectrum_recovery %}
+{%- if device.project_spectrum_recovery %}
 1. Download [Project Spectrum recovery]({{ device.project_spectrum_recovery }}).
-{% endif %}
-{% if device.project_spectrum %}
+{%- endif %}
+{%- if device.project_spectrum %}
 2. Download [Project Spectrum]({{ device.project_spectrum }}).
-{% endif %}
-{% if device.required_bootloader_link %}
+{%- endif %}
+{%- if device.required_bootloader_link %}
 3. Download unlockable bootloader obtained from [here]({{ device.required_bootloader_link }}).
-{% endif %}
+{%- endif %}
 4. Place the downloaded .zip packages on the root of `/sdcard`:
     * Using adb: `adb -d push filename.zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
 5. If you aren't already in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-{% if device.project_spectrum_recovery %}
+{%- if device.project_spectrum_recovery %}
 6. Flash Project Spectrum recovery zip and reboot to recovery again:
     * {{ device.recovery_boot }}
-{% endif %}
-{% if device.project_spectrum %}
+{%- endif %}
+{%- if device.project_spectrum %}
 7. Flash Project Spectrum zip.
-{% endif %}
-{% if device.required_bootloader_link %}
+{%- endif %}
+{%- if device.required_bootloader_link %}
 8. Flash unlockable bootloader zip.
-{% endif %}
+{%- endif %}
 9. Reboot to android.
 
-{% unless device.no_oem_unlock_switch %}
+{%- unless device.no_oem_unlock_switch %}
 10. Enable OEM unlock in the Developer options under device Settings, if present.
-{% endunless %}
+{%- endunless %}
 11. Connect the device to your PC via USB.
 12. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
@@ -55,15 +55,15 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 14. Now type the following command to unlock the bootloader:
 
-{% if device.custom_unlock_cmd %}
+{%- if device.custom_unlock_cmd %}
     ```
 {{ device.custom_unlock_cmd }}
     ```
-{% else %}
+{%- else %}
     ```
 fastboot oem unlock
     ```
-{% endif %}
+{%- endif %}
     {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed." %}
 
 15. If the device doesn't automatically reboot, reboot it. It should now be unlocked.

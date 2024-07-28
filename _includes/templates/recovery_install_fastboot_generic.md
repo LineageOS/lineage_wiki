@@ -43,12 +43,12 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
-{% if device.needs_fastboot_boot %}
+{%- if device.needs_fastboot_boot %}
 7. Temporarily boot recovery on your device:
 ```
 fastboot boot {{ device.recovery_partition_name }}.img
 ```
-{% else %}
+{%- else %}
 7. Flash recovery onto your device:
 ```
 fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition_name }}.img
@@ -63,7 +63,7 @@ fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition
       {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above" %}
     {%- endif %}
 {%- include snippets/recovery_logo_note.md %}
-{% endif %}
+{%- endif %}
 {%- endcapture %}
 
 {%- if is_lineage_recovery %}

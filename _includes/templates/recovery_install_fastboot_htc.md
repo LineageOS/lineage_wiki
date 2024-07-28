@@ -6,9 +6,9 @@
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 
-{% unless device.no_oem_unlock_switch %}
+{%- unless device.no_oem_unlock_switch %}
 1. Enable OEM unlock in the Developer options under device Settings, if present.
-{% endunless %}
+{%- endunless %}
 2. Connect the device to your PC via USB.
 3. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```

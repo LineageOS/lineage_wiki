@@ -24,15 +24,15 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
 5. Now type the following command to unlock the bootloader:
 
-{% if device.custom_unlock_cmd %}
+{%- if device.custom_unlock_cmd %}
     ```
 {{ device.custom_unlock_cmd }}
     ```
-{% else %}
+{%- else %}
     ```
 fastboot oem unlock
     ```
-{% endif %}
+{%- endif %}
 6. The device is now ready to flash images, do not reboot the device before flashing.
 
 {% include snippets/before_recovery_install.md %}
