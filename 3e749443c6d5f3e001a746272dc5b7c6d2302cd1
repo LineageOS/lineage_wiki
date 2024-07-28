@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec593a8b_6a16b41e",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-07-28T13:45:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "049b6dca_4cc30571",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "04ea1195_347d9218",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ab325b30_b2f72e91",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-07-28T13:45:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "04ea1195_347d9218",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ad7cf57d_3b97761f",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-07-23T16:14:29Z",
       "side": 1,
       "message": "how?",
+      "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92ff4260_acecb477",
+        "filename": "_includes/templates/device_specific/firmware_update_realme_oscar_fastbootd.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-07-28T13:45:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ad7cf57d_3b97761f",
       "revId": "3e749443c6d5f3e001a746272dc5b7c6d2302cd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
