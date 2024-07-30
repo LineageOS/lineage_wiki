@@ -7,7 +7,7 @@ codename: sif
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 20
+current_branch: 21
 dimensions: None
 download_boot: With the device unplugged, plug in the device while holding the <kbd>Pairing Button</kbd> until a menu is displayed.
 gpu: NVIDIA GM20B (Maxwell)
@@ -34,5 +34,5 @@ tree: android_device_nvidia_sif
 type: Set top box
 vendor: NVIDIA
 vendor_short: nvidia
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
