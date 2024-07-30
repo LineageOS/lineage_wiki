@@ -6,7 +6,7 @@ codename: quill_tab
 cpu: Denver 2 & Cortex-A57
 cpu_cores: '2+4'
 cpu_freq: 2.0 GHz
-current_branch: 20
+current_branch: 21
 dimensions: None
 download_boot: With the device unplugged, jump the <kbd>FRC REC</kbd> pin, then plug in. Remove the jumper once apx enumerates.
 flash_download_instructions: It will be named `p3636-p3509_flash_package.tar.xz`.
@@ -34,5 +34,5 @@ type: Devkit
 variant: 2
 vendor: NVIDIA
 vendor_short: nvidia
-versions: [17.1, 20]
+versions: [17.1, 20, 21]
 wifi: 802.11 a/b/g/n/ac
