@@ -20,11 +20,13 @@ network: None
 no_oem_unlock_switch: true
 peripherals: None
 ram: 3 GB
+quirks: [atv_remote_mic, remote]
 recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
   Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
   Tap the <kbd>Y button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>A button</kbd> to select this option.
 recovery_partition_name: recovery
 release: 2015-05-28
+remote_quirk: shield
 screen: None
 sdcard: {size_max: '128 GB'}
 soc: NVIDIA Tegra X1 (T210)
