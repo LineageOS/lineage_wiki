@@ -503,6 +503,7 @@ definitions:
       - hardware_encryption
       - ims
       - nfc
+      - nvidia_remotes
       - usb
     type: string
 properties:
