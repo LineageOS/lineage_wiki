@@ -19,7 +19,7 @@ image: kiev.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm7250, version: '4.19'}
-maintainers: [SyberHexen, Jleeblanch]
+maintainers: [SyberHexen, Jleeblanch, Vivekachooz]
 models: [XT2113-3]
 name: moto g 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]

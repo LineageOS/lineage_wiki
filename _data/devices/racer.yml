@@ -20,7 +20,7 @@ image: racer.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm7250, version: '4.19'}
-maintainers: [erfanoabdi, Jleeblanch, SyberHexen]
+maintainers: [erfanoabdi, Jleeblanch, SyberHexen, DD3Boh]
 models: [XT2063-2, XT2063-3]
 name: edge
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
