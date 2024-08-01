@@ -69,8 +69,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
     {% include alerts/tip.html content="The filename may vary depending on your device, and the version of your custom recovery." %}
 11. Click "Start". A transfer bar will appear on the device showing the recovery image being flashed.
     {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete." %}
-12. Unplug the USB cable from your device.
-13. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
+12. Manually reboot into recovery, this may require pulling the device's battery out and putting it back in, or if you have a non-removable battery, press the Volume Down + Power buttons for 8~10 seconds until the screen turns black & release the buttons *immediately* when it does, then boot to recovery:
     * {{ device.recovery_boot }}
     {% include alerts/note.html content="Be sure to reboot into recovery immediately after installing the custom recovery. If you don't the custom recovery will be overwritten on boot." %}
 {%- include snippets/recovery_logo_note.md %}
