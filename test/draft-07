@@ -1,0 +1,11 @@
+Migrating from draft-06 to draft07
+
+No draft-06 features were changed, although two keywords were renamed for clarity and consistency:
+
+    mediaType -> targetMediaType
+    submissionEncType -> submissionMediaType
+
+Additionally, hrefSchema was somewhat confusing, so a great deal more effort has gone into explaining 
+how it works, and how it fits into the overall link resolution process.
+
+https://json-schema.org/draft-07/json-hyper-schema-release-notes.html#migrating-from-draft-06
