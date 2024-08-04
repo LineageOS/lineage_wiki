@@ -115,10 +115,7 @@ The following list will mention Model-Value pairs where applicable.
   {{ properties.cpu.enum | join: ", " }}
   ```
 
-* `dimensions`: Use the format `{width: <w>, height: <h>, depth: <d>}` with each being the dimension in [mm]
-
-  This property supports Model-Value pairs.
-
+* `dimensions`: Use the format `{width: <w>, height: <h>, depth: <d>}` with each being the dimension in [mm]. This property supports Model-Value pairs.
 * `download_boot`: Instructions for booting the device into the mode used to install recovery. On most devices, this is fastboot mode.
 * `image`: The image located under `images/devices/` to use for this device. Instructions on adding an image <a href="#adding-the-devices-image">can be found below</a>.
 * `install_method`: Used to determine the recovery install template to use. Templates can be found in *_includes/templates/recovery_install_*`install_method`*.md* and must be one of:
@@ -142,7 +139,6 @@ The following list will mention Model-Value pairs where applicable.
   ```
 
 * `release`: Allowed formats are `yyyy`, `yyyy-mm` and `yyyy-mm-dd`. This property supports Model-Value pairs.
-
 * `screen`: Use `{size: '<screen size>', resolution: '<1234x567>', technology: ''}` with number for `size`, `1234x567` for `resolution` and one of the following values for `technology`:
 
   ```
@@ -175,7 +171,6 @@ There are some optional properties which you might not need, but in case you do,
   {%- for item in definitions.valid_quirks.enum %}
   [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
   {%- endfor %}
-
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
 
   ```
