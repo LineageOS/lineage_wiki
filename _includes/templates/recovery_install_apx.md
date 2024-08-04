@@ -24,6 +24,8 @@ Tegraflash is only available for Linux. It will also not run properly in a VM.
 {% else %}
     * `tar -xvf {{ device.flash_codename }}_flash_package.tar.xz`
 {% endif %}
+    {% include alerts/note.html content="To discern if the device is in APX mode, run `sudo dmesg` on your host, and look for "Product: APX", if it doesn't show, please try this step again or try a different USB cable/port until it enumerates." %}
+
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
 4. Now, from the same terminal as before, run:
@@ -31,4 +33,4 @@ Tegraflash is only available for Linux. It will also not run properly in a VM.
 sudo ./flash.sh
 ```
     {% include alerts/note.html content="Please note this will require your user's sudo password, as the script requires direct hardware access, which requires root privledges." %}
-5. The script will flash the boot stack and boot directly to recovery.
+5. The script will flash the boot stack and boot directly to LineageOS Recovery. Now, please skip to the section labeled "[Installing LineageOS from recovery](https://wiki.lineageos.org/devices/{{ device.codename }}/install#installing-lineageos-from-recovery)":

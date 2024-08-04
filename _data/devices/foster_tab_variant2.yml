@@ -1,6 +1,6 @@
 architecture: arm64
 battery: None
-before_recovery_install: foster
+before_recovery_install: apx
 bluetooth: {spec: '4.1'}
 cameras: []
 codename: foster_tab
@@ -9,6 +9,8 @@ cpu_cores: '4'
 cpu_freq: 1.9 GHz
 current_branch: 21
 dimensions: None
+download_boot:  With the device off, press the <kbd>FRC REC</kbd> button, then tap power. Release the <kbd>FRC REC</kbd> button once apx enumerates.
+flash_codename: p2371
 gpu: NVIDIA GM20B (Maxwell)
 image: foster.png
 install_method: fastboot_nexus
