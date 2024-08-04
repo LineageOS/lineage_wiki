@@ -8,14 +8,15 @@ Tegraflash is only available for Linux. It will also not run properly in a VM.
 
 ## Installing a custom recovery using `Tegraflash`
 
-1. Download a [flash package](https://www.androidfilehost.com/?w=files&flid=328892).
+1. Download a [flash package](https://download.lineageos.org/devices/{{ device.codename }}) for your device.
 {% if device.flash_download_instructions %}
     * {{ device.flash_download_instructions }}
 {% else %}
     * It will be named `{{ device.flash_codename }}_flash_package.tar.xz`
 {% endif %}
     {% include alerts/note.html content="These flash packages were built by LineageOS Developer Aaron Kling (webgeek1234) from officially supported LineageOS repositories, using Tegraflash and device configurations from NVIDIA Linux4Tegra releases and a few custom scripts." %}
-2. Install `xz` and `python3`. To do so, run `sudo apt -y install xz-utils python3` (Debian based hosts) or `dnf -y install xz-utils python3` (Redhat based hosts).
+    {% include alerts/note.html content="If you are in need of flash packages for LineageOS 20.0 or older, you can find them [here](https://www.androidfilehost.com/?w=files&flid=328892)." %}
+2. Install `xz` and `python3`. To do so, run `sudo apt -y install xz-utils python3` (Debian based hosts) or `sudo dnf -y install xz-utils python3` (Redhat based hosts).
 3. Run the following command in the folder which you downloaded the flash package to:
 {% if device.flash_extract_instructions %}
     * {{ device.flash_extract_instructions }}
