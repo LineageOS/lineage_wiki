@@ -16,7 +16,7 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 5. Click on `Enter service code`. A dialer will appear.
 {%- endif %}
 1. On the device, dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
-2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes`.
+2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes` and OEM Unlocking is activated.
 3. Go to `System Settings` > `About Phone` and record the first IMEI number, which is necessary to get an unlock code from Sony in a later step.
 4. Connect the device to your PC via USB.
 5. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
