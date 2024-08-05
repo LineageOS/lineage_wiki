@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f2093934_27e45750",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2024-08-05T00:45:47Z",
+      "side": 1,
+      "message": "doesn\u0027t this device have a fastboot menu, where you can select to boot into recovery?  if so add this line: recovery_reboot: fastboot_menu",
+      "revId": "d40071c9d43af738a95513931b482982a906bd8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
