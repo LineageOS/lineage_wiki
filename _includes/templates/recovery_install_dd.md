@@ -13,7 +13,7 @@
 {% when 'custom' %}
 1. Root your device by following [this]({{ device.root_method[1] }}) guide.
 {% when 'kingroot' %}
-1. Download KingRoot from [here](https://kingroot.net/).
+1. Download KingRoot from [here](https://kingrootapp.net/).
    1. Install and run the apk to achieve root. Ensure you have a working Internet connection.
 {% endcase %}
 
