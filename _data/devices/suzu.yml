@@ -20,6 +20,7 @@ maintainers: []
 models: [F5122, F5121]
 name: Xperia X
 network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual front speakers, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the device vibrates, then release.

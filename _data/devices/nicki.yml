@@ -19,6 +19,7 @@ kernel: {repo: android_kernel_sony_msm8x27, version: '3.4'}
 maintainers: []
 name: Xperia M
 network: [2G GSM, 3G UMTS]
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Proximity sensor, Compass]
 ram: 1 GB
 recovery_boot: With the device powered off, boot the device and press <kbd>Volume Up</kbd> when the notification light is pink.

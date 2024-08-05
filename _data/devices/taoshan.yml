@@ -19,6 +19,7 @@ kernel: {repo: android_kernel_sony_msm8930, version: '3.4'}
 maintainers: []
 name: Xperia L
 network: [2G GSM, 3G UMTS]
+no_oem_unlock_switch: true
 peripherals: [GPS, NFC, Accelerometer, Compass, Light sensor, Proximity sensor]
 ram: 1 GB
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.

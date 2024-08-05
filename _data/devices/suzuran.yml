@@ -20,6 +20,7 @@ maintainers: []
 models: [E5803, E5823]
 name: Xperia Z5 Compact
 network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Fingerprint reader, Gyroscope, Proximity sensor, Light sensor, GPS, NFC]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

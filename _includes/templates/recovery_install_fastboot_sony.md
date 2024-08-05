@@ -18,8 +18,11 @@ If you wish to backup the TA partition first, you can find tutorials related to 
 1. On the device, dial `*#*#7378423#*#*` (`*#*#SERVICE#*#*`) to launch the service menu.
 2. Go to `service info` > `configuration` and check `rooting status` - you can only continue if it says `Bootloader unlock allowed: Yes`.
 3. Go to `System Settings` > `About Phone` and record the first IMEI number, which is necessary to get an unlock code from Sony in a later step.
-4. Connect the device to your PC via USB.
-5. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
+{%- unless device.no_oem_unlock_switch %}
+4. Enable OEM unlock in the Developer options under device Settings, if present.
+{%- endunless %}
+5. Connect the device to your PC via USB.
+6. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb -d reboot bootloader
 ```
@@ -28,17 +31,17 @@ adb -d reboot bootloader
 
     * {{ device.download_boot }}
     {% endif %}
-6. Once the device is in fastboot mode, verify your PC finds it by typing:
+7. Once the device is in fastboot mode, verify your PC finds it by typing:
 ```
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-7. Follow the instructions on [Sony's official unlocking website](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
-8. Use your code to unlock the bootloader of your device:
+8. Follow the instructions on [Sony's official unlocking website](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
+9. Use your code to unlock the bootloader of your device:
 ```
 fastboot oem unlock <your_unlock_code>
 ```
-8. Since the device resets completely, you will need to re-enable USB debugging to continue.
+10. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% include snippets/before_recovery_install.md %}
 

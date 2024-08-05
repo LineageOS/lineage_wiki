@@ -19,6 +19,7 @@ kernel: {repo: android_kernel_sony_msm8994, version: '3.10'}
 maintainers: []
 name: Xperia Z4 Tablet WiFi
 network: None
+no_oem_unlock_switch: true
 peripherals: [Accelerometer, Gyroscope, Proximity sensor, Light sensor, GPS]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

@@ -21,6 +21,7 @@ maintainers: []
 models: [SGP521, SGP541, SGP551]
 name: Xperia Tablet Z2 LTE
 network: [2G GSM, 3G UMTS, 4G LTE]
+no_oem_unlock_switch: true
 peripherals: [A-GPS, Accelerometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, MHL, NFC, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the device vibrates, then release.
