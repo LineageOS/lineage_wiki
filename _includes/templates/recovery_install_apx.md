@@ -16,7 +16,7 @@ Tegraflash is only available for Linux. It will also not run properly in a VM.
 {% endif %}
     {% include alerts/note.html content="If you are in need of flash packages for LineageOS 20.0 or older, you can find them [here](https://www.androidfilehost.com/?w=files&flid=328892)." %}
 
-2. Install `xz` and `python3`. To do so, run `sudo apt -y install xz-utils python3` (Debian based hosts) or `sudo dnf -y install xz-utils python3` (Redhat based hosts).
+2. Install `xz` and `python3`. To do so, run `sudo apt -y install xz-utils python3` (Debian based hosts) or `sudo dnf -y install xz-utils python3` (Red Hat based hosts).
 3. Run the following command in the folder which you downloaded the flash package to:
 {% if device.flash_extract_instructions %}
     * {{ device.flash_extract_instructions }}
