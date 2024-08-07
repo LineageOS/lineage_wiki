@@ -204,6 +204,16 @@ on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
 
+LineageOS 21.0:
+```
+repopick -f 399285
+```
+
+LineageOS 20.0:
+```
+repopick -f 380125
+```
+
 LineageOS 19.1:
 ```
 repopick -f 327460
@@ -233,6 +243,11 @@ repopick -f 192656 -P frameworks/base
 LineageOS 14.1:
 ```
 repopick -f 156047 162144
+```
+
+LineageOS 13.0:
+```
+repopick -f 160272
 ```
 
 Then, follow the [instructions to generate an install package](#generating-an-install-package).
