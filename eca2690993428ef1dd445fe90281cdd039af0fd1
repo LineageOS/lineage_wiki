@@ -16,6 +16,23 @@
       "message": "@johnsonnolen@gmail.com",
       "revId": "eca2690993428ef1dd445fe90281cdd039af0fd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14eb8257_6c780413",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-08T15:17:33Z",
+      "side": 1,
+      "message": "take a look at the bot, this doesn\u0027t build \n\n/usr/local/bundle/gems/jekyll-4.3.2/lib/jekyll/tags/include.rb:219:in `locate_include_file\u0027: Could not locate the included file \u0027templates/device_specific/firmware_update_samsung_sm7150.md\u0027 in any of [\"/app/_includes\"]. Ensure it exists in one of those directories and, if it is a symlink, does not point outside your site source. (IOError)",
+      "revId": "eca2690993428ef1dd445fe90281cdd039af0fd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
