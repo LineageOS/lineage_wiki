@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, version: '14'}
+before_recovery_install: samsung_qcom
+bluetooth: {profiles: [A2DP], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '64 MP'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '5 MP (depth)'}
+codename: a71
+cpu: Kryo 470
+cpu_cores: '8'
+cpu_freq: 2  x2.2 GHz + 6 x 1.8 GHz
+current_branch: 21
+dimensions: {depth: 7.7, height: 163.3, width: 76.1}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_a71
+gpu: Qualcomm Adreno 618
+image: a71.png
+install_method: odin
+kernel: {repo: android_kernel_samsung_a71, version: '4.14'}
+maintainers: [Haky86]
+models: [SM-A715F, SM-A715F/DS, SM-A715F/DSN, SM-A715F/DSM]
+name: Galaxy A71 4G
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+quirks: [ims]
+ram: 6/8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2020
+screen: {resolution: '1080x2400', size: 6.7, technology: 'Super AMOLED'}
+sdcard: {size_max: '512 GB', slot: 'hybrid'}
+soc: Qualcomm SM7150 Snapdragon 730G 4G
+storage: 128 GB
+tree: android_device_samsung_a71
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
