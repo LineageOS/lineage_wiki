@@ -153,6 +153,7 @@ definitions:
       - Qualcomm Adreno 616
       - Qualcomm Adreno 618
       - Qualcomm Adreno 619
+      - Qualcomm Adreno 619L
       - Qualcomm Adreno 620
       - Qualcomm Adreno 630
       - Qualcomm Adreno 640
@@ -336,6 +337,7 @@ definitions:
       - Qualcomm SM6115 Snapdragon 662
       - Qualcomm SM6150 Snapdragon 675
       - Qualcomm SM6225 Snapdragon 680 4G
+      - Qualcomm SM6350 Snapdragon 690 5G
       - Qualcomm SM6375 Snapdragon 695
       - Qualcomm SM7125 Snapdragon 720G
       - Qualcomm SM7150-AA Snapdragon 730
