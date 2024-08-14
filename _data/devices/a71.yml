@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, version: '14'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, version: '13 (One UI 5.0+)'}
 before_recovery_install: samsung_qcom
 bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:
