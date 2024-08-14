@@ -34,6 +34,24 @@
       "parentUuid": "1a0bb93f_e01c366e",
       "revId": "9c3a0db1a6c8ee9e3ca6a17e5a36515d047ba59f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff6c29ce_efa366f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-14T10:16:26Z",
+      "side": 1,
+      "message": "initial install often requires proper fw for recovery to boot up. also, there\u0027s `ships_fw` for fw req",
+      "parentUuid": "134a1054_5710b7e4",
+      "revId": "9c3a0db1a6c8ee9e3ca6a17e5a36515d047ba59f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
