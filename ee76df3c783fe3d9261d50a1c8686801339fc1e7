@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1dbd0b3_3c5de240",
+        "filename": "_data/devices/socrates.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-14T10:46:17Z",
+      "side": 1,
+      "message": "add lineage_version: 21 just for documentation sake",
+      "revId": "ee76df3c783fe3d9261d50a1c8686801339fc1e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
