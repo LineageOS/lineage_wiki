@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43a54ce7_79b97ecc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-08-14T20:33:21Z",
+      "side": 1,
+      "message": "@johnsonnolen@gmail.com @razorloves@gmail.com Some users reported wrong firmware version.",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
