@@ -16,6 +16,24 @@
       "message": "alphabetical sorting: i, l, s",
       "revId": "5a02d9f7ddd753e31d0148d8eabdf473f031a0d9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "87b3102f_9d1955a3",
+        "filename": "_data/devices/socrates.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-14T10:52:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ac9ef12a_5763650d",
+      "revId": "5a02d9f7ddd753e31d0148d8eabdf473f031a0d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
