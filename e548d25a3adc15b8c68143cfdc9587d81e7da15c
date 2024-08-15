@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6583c2b3_87527b3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31841
+      },
+      "writtenOn": "2024-08-15T18:04:15Z",
+      "side": 1,
+      "message": "Might have missed something, I just manually went through all moto devices with kernel 3.*/4.4 and checked the release date.",
+      "revId": "e548d25a3adc15b8c68143cfdc9587d81e7da15c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
