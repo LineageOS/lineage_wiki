@@ -16,6 +16,24 @@
       "message": "@priv.luk@gmail.com I don\u0027t think there is, if they install lineage 21 on older fw like oneui 4.x they will have broken fingerprint and camera, I tested like a few months ago.",
       "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba1fed76_f9695fc2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T09:13:38Z",
+      "side": 1,
+      "message": "so there is android 13 based oneui 4.x?",
+      "parentUuid": "3893ec18_92321c5b",
+      "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
