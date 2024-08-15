@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f6642940_589bb21d",
+        "filename": "_data/devices/luigi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-08-15T19:55:44Z",
+      "side": 1,
+      "message": "Added fw",
+      "parentUuid": "bf8e3f80_a0c4b09b",
+      "revId": "fa576ea978916e8082496cb36ad3788325515a30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "c122a88b_ca6c80d9",
         "filename": "_data/devices/luigi.yml",
         "patchSetId": 3
@@ -31,6 +49,24 @@
       "writtenOn": "2024-08-15T10:59:40Z",
       "side": 1,
       "message": "no ax?",
+      "revId": "fa576ea978916e8082496cb36ad3788325515a30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "037144c2_7ba81dbe",
+        "filename": "_data/devices/luigi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-08-15T19:55:44Z",
+      "side": 1,
+      "message": "no",
+      "parentUuid": "c122a88b_ca6c80d9",
       "revId": "fa576ea978916e8082496cb36ad3788325515a30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
