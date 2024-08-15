@@ -34,6 +34,24 @@
       "parentUuid": "3893ec18_92321c5b",
       "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe9e0e59_309b9e28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T09:14:06Z",
+      "side": 1,
+      "message": "if not, then remove \" (One UI 5.0+)\" and we are good.",
+      "parentUuid": "ba1fed76_f9695fc2",
+      "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
