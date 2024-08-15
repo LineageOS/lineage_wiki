@@ -16,6 +16,24 @@
       "message": "Can\u0027t we just do that instead of adding custom template?\n`before_install: {instructions: \u0027needs_specific_android_fw\u0027, lineage_version: 21, version: \u002713 (OneUI 5.0+)\u0027}`",
       "revId": "395bd1f09f300d1846d32bf68a45ad84cca8ff7e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e00c570_be99f5f1",
+        "filename": "_data/devices/a71.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T09:28:45Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "1935f5fd_89208dde",
+      "revId": "395bd1f09f300d1846d32bf68a45ad84cca8ff7e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
