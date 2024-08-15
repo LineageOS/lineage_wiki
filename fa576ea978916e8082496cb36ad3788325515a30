@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf8e3f80_a0c4b09b",
+        "filename": "_data/devices/luigi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T10:59:08Z",
+      "side": 1,
+      "message": "why no fw?",
+      "revId": "fa576ea978916e8082496cb36ad3788325515a30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
