@@ -18,6 +18,7 @@ gpu: Qualcomm Adreno 508
 image: payton.png
 install_method: fastboot_motorola
 is_ab_device: true
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8998, version: '4.4'}
 maintainers: [erfanoabdi, ThEMarD, electimon]
 models: [XT1900-1, XT1900-2, XT1900-3, XT1900-4, XT1900-5, XT1900-6, XT1900-7]

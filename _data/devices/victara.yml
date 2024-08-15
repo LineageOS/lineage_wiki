@@ -15,6 +15,7 @@ format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 330
 image: victara.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8974, version: '3.4'}
 maintainers: []
 models: [XT1092, XT1093, XT1094, XT1095, XT1096, XT1097, XT1098]

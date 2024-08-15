@@ -14,6 +14,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 530
 image: griffin.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8996, version: '3.18'}
 maintainers: []
 models: [XT1650-03, XT1650-05]

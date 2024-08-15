@@ -16,6 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Qualcomm Adreno 225
 image: xt897.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8960-common, version: '3.0'}
 maintainers: []
 models: [XT897]

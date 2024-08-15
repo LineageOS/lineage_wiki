@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 305
 image: falcon.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8226, version: '3.4'}
 maintainers: []
 models: [XT1031, XT1032, XT1033, XT1034]

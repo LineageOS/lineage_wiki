@@ -13,6 +13,8 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 302
 image: condor.png
 install_method: fastboot_motorola
+is_unlockable: false
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8610, version: '3.4'}
 maintainers: []
 models: [XT1021, XT1022, XT1023]

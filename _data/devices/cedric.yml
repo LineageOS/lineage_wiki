@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 505
 image: cedric.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
 maintainers: []
 models: [XT1670, XT1671, XT1672, XT1675, XT1676, XT1677]

@@ -16,6 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 306
 image: osprey.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8916, version: '3.10'}
 maintainers: []
 models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]

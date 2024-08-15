@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 505
 image: montana.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8953, version: '3.18'}
 maintainers: []
 models: [XT1790, XT1791, XT1792, XT1793, XT1794, XT1795, XT1797, XT1799-2]

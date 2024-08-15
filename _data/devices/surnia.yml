@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 306
 image: otus.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8916, version: '3.10'}
 maintainers: []
 models: [XT1514, XT1521, XT1523, XT1524, XT1526, XT1527]

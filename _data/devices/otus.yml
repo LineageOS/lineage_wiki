@@ -15,6 +15,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 gpu: Qualcomm Adreno 302
 image: otus.png
 install_method: fastboot_motorola
+is_unlockable: false
 kernel: {repo: android_kernel_motorola_msm8610, version: '3.4'}
 maintainers: []
 models: [XT1505, XT1506, XT1511]
