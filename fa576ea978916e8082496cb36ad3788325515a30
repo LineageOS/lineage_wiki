@@ -16,6 +16,23 @@
       "message": "why no fw?",
       "revId": "fa576ea978916e8082496cb36ad3788325515a30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c122a88b_ca6c80d9",
+        "filename": "_data/devices/luigi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T10:59:40Z",
+      "side": 1,
+      "message": "no ax?",
+      "revId": "fa576ea978916e8082496cb36ad3788325515a30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
