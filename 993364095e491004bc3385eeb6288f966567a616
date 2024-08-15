@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "28ed5ce3_ccc76dac",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:24:20Z",
+      "side": 1,
+      "message": "must",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "3124409d_ef20a3a0",
         "filename": "_includes/templates/device_specific/before_install_a71.md",
         "patchSetId": 1
@@ -31,6 +48,23 @@
       "writtenOn": "2024-08-15T03:19:36Z",
       "side": 1,
       "message": "how do they do this",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d00ff51_1cec395b",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:24:20Z",
+      "side": 1,
+      "message": "no need to call out not getting 6.x, it\u0027s not a reccomendation, it\u0027s a requirement.",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -65,6 +99,23 @@
       "writtenOn": "2024-08-15T03:19:36Z",
       "side": 1,
       "message": "how would they know and why does it matter",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4b2a199f_de1b4def",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:24:20Z",
+      "side": 1,
+      "message": "don\u0027t touch on symptoms, just say \"The device may not boot\"/",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
