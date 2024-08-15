@@ -33,6 +33,24 @@
       "message": "hard pass because it just isn\u0027t right.\n\nI unlocked a new nash (Moto z2 force, nash) last month.\n\nThe links your provide appear to be carrier cases?\n\nAt minimum, we need to figure out which devices are too old, as this is too broad.",
       "revId": "e548d25a3adc15b8c68143cfdc9587d81e7da15c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b665a9f_d3c957e8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31841
+      },
+      "writtenOn": "2024-08-15T18:50:41Z",
+      "side": 1,
+      "message": "I was able to get unlock codes for reteu griffin and cedric, which were previously unlocked already, so either they work because both are tied to my account already/known unlocked or it is limited to some set maximum i.e. \"retbr Moto G2 can only be unlocked 50000 times\" (Tadi)\n\nConsider this abandoned. (I cant actually abandon it because of some weird gerrit stuff I did, which resulted in my git email being bound to a zombie account.)",
+      "parentUuid": "c6b5fb88_4a9eca69",
+      "revId": "e548d25a3adc15b8c68143cfdc9587d81e7da15c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
