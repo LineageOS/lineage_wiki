@@ -16,6 +16,57 @@
       "message": "@johnsonnolen@gmail.com @razorloves@gmail.com Some users reported wrong firmware version.",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3124409d_ef20a3a0",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:19:36Z",
+      "side": 1,
+      "message": "how do they do this",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d184c7d_845e2f70",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:19:36Z",
+      "side": 1,
+      "message": "why would they want to do that.\n\nPretty enough -\u003e sufficient",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e26a2b32_7f79e3d4",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T03:19:36Z",
+      "side": 1,
+      "message": "how would they know and why does it matter",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
