@@ -51,6 +51,24 @@
       "parentUuid": "c6b5fb88_4a9eca69",
       "revId": "e548d25a3adc15b8c68143cfdc9587d81e7da15c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa53a5f_ac66af37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-15T18:55:00Z",
+      "side": 1,
+      "message": "file an infra ticket (https://gitlab.com/LineageOS/issues/infra) about that and @johnsonnolen so I see it",
+      "parentUuid": "5b665a9f_d3c957e8",
+      "revId": "e548d25a3adc15b8c68143cfdc9587d81e7da15c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
