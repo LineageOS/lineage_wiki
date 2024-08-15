@@ -16,6 +16,23 @@
       "message": "Now looks much better lol",
       "revId": "e670c59395378fc0229de2619298efa12997ccf5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1c6dbd2e_d004e2ad",
+        "filename": "_data/devices/a71.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-15T09:01:55Z",
+      "side": 1,
+      "message": "btw are there any pre oneui 5.0 android 13 stock roms?",
+      "revId": "e670c59395378fc0229de2619298efa12997ccf5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
