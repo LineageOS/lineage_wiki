@@ -52,6 +52,23 @@
       "parentUuid": "ba1fed76_f9695fc2",
       "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b4806cc_1b492882",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-08-15T09:20:23Z",
+      "side": 1,
+      "message": "@priv.luk@gmail.com oneui4 is based on android 12",
+      "revId": "c3f3925f8ee31ed4f7dcf191b20497b719dfe46d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
