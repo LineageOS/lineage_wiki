@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c15d8beb_5da7804e",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "28ed5ce3_ccc76dac",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3124409d_ef20a3a0",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-08-15T03:19:36Z",
       "side": 1,
       "message": "how do they do this",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "218c5fd4_2e2fea59",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3124409d_ef20a3a0",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -69,6 +105,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "ade24beb_5d612a0e",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d00ff51_1cec395b",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8d184c7d_845e2f70",
@@ -82,6 +136,24 @@
       "writtenOn": "2024-08-15T03:19:36Z",
       "side": 1,
       "message": "why would they want to do that.\n\nPretty enough -\u003e sufficient",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9dfac4e8_66fb31ba",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "8d184c7d_845e2f70",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -103,6 +175,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b872825e_dfcaee57",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e26a2b32_7f79e3d4",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4b2a199f_de1b4def",
@@ -116,6 +206,24 @@
       "writtenOn": "2024-08-15T03:24:20Z",
       "side": 1,
       "message": "don\u0027t touch on symptoms, just say \"The device may not boot\"/",
+      "revId": "993364095e491004bc3385eeb6288f966567a616",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b015c65_0858f526",
+        "filename": "_includes/templates/device_specific/before_install_a71.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-16T02:44:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4b2a199f_de1b4def",
       "revId": "993364095e491004bc3385eeb6288f966567a616",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
