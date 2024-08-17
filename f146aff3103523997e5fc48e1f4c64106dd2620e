@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9420a88_7440ba0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-08-17T17:39:03Z",
+      "side": 1,
+      "message": "Mirroring what I said on the hudson commit:\nCan\u0027t you just fill the \"supported models\" section on the wiki and add the other variants once you can confirm they work?",
+      "revId": "f146aff3103523997e5fc48e1f4c64106dd2620e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
