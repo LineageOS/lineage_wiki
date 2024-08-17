@@ -20,7 +20,7 @@ gpu: Qualcomm Adreno 650
 image: r8q.png
 install_method: odin
 kernel: {repo: android_kernel_samsung_sm8250, version: '4.19'}
-maintainers: [ata-kaner]
+maintainers: []
 models: [SM-G780G, SM-G780G/DS]
 name: Galaxy S20 FE
 network: [2G GSM, 3G UMTS, 4G LTE]
