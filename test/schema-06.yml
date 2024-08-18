@@ -259,6 +259,7 @@ definitions:
     type: object
   soc_data:
     enum:
+      - Amlogic S905D3G
       - Amlogic S905x2
       - Amlogic S905y2
       - Amlogic S905y3
@@ -330,6 +331,7 @@ definitions:
       - Qualcomm SDM712 Snapdragon 712
       - Qualcomm SDM835 Snapdragon 835
       - Qualcomm SDM845 Snapdragon 845
+      - Qualcomm SM4250 Snapdragon 460
       - Qualcomm SM4350 Snapdragon 480
       - Qualcomm SM6115 Snapdragon 662
       - Qualcomm SM6150 Snapdragon 675
