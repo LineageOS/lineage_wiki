@@ -30,7 +30,7 @@ quirks: [ims]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
-release: 2020-17-01
+release: 2020-01-17
 screen: {resolution: '1080x2400', size: 6.7, technology: 'Super AMOLED'}
 sdcard: {size_max: '512 GB', slot: 'hybrid'}
 soc: Qualcomm SM7150-AA Snapdragon 730
