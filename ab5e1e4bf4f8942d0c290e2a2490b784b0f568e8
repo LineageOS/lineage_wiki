@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "873beaae_a2517bfe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-18T08:06:47Z",
+      "side": 1,
+      "message": "I hijacked your `soc` change to my own fixup.",
+      "revId": "ab5e1e4bf4f8942d0c290e2a2490b784b0f568e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
