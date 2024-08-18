@@ -16,6 +16,23 @@
       "message": "I hijacked your `soc` change to my own fixup.",
       "revId": "ab5e1e4bf4f8942d0c290e2a2490b784b0f568e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29d908ad_34b91c89",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26928
+      },
+      "writtenOn": "2024-08-18T09:25:45Z",
+      "side": 1,
+      "message": "looks better now lol",
+      "revId": "ab5e1e4bf4f8942d0c290e2a2490b784b0f568e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
