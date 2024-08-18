@@ -32,7 +32,7 @@ recovery_partition_name: recovery
 release: 2020
 screen: {resolution: '1080x2400', size: 6.7, technology: 'Super AMOLED'}
 sdcard: {size_max: '512 GB', slot: 'hybrid'}
-soc: Qualcomm SDM730 Snapdragon 730 (8 nm)
+soc: Qualcomm SM7150-AA Snapdragon 730
 storage: 128 GB
 tree: android_device_samsung_a71
 type: phone
