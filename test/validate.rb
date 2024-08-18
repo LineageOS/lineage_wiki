@@ -20,10 +20,10 @@ def to_relative_path(path)
 end
 
 def validate_json(schema, device_json, device_path)
-  JSON::Validator.validate!(schema, device_json, :validate_schema => true)
-rescue JSON::Schema::ValidationError, Psych::SyntaxError => e
-  puts to_relative_path(device_path) + ': ' + e.message
-  at_exit { exit false }
+  JSON::Validator.fully_validate(schema, device_json, :validate_schema => true).each do |message|
+    puts to_relative_path(device_path) + ': ' + message
+    at_exit { exit false }
+  end
 end
 
 def validate_image(path, device_path)
