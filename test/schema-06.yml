@@ -709,9 +709,12 @@ properties:
           - repartition
   gpu:
     "$id": "/properties/gpu"
-    items:
-      "$id": "/properties/gpu/items"
-      "$ref": "#/definitions/gpu_data"
+    oneOf:
+      - "$ref": "#/definitions/gpu_data"
+      - items:
+          "$id": "/properties/gpu/items"
+          "$ref": "#/definitions/gpu_data"
+        type: array
   has_no_usb:
     "$id": "/properties/has_no_usb"
     type: boolean
@@ -860,9 +863,12 @@ properties:
     "$ref": "#/definitions/sdcard_data"
   soc:
     "$id": "/properties/soc"
-    items:
-      "$id": "/properties/soc/items"
-      "$ref": "#/definitions/soc_data"
+    oneOf:
+      - "$ref": "#/definitions/soc_data"
+      - items:
+          "$id": "/properties/soc/items"
+          "$ref": "#/definitions/soc_data"
+        type: array
   tree:
     "$id": "/properties/tree"
     pattern: ^android_device_(.*)$
