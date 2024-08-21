@@ -57,6 +57,7 @@ icon=switchroot/android/icon_android_hue.bmp
 logopath=switchroot/android/bootlogo_android.bmp
 r2p_action=self
 usb3_enable=1
+alarms_disable=0
 ```
 5. Safely eject the SD Card from your PC's file browser, then click "Close" on the device, then the "X" icon in the top right of the screen, and finally the "Home" button in the top-left of the screen.
 6. Now select "Flash Android", go through the process, then when asked if you'd like to reboot into recovery, click "No".
