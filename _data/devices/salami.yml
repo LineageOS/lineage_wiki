@@ -22,7 +22,7 @@ image: salami.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8550, version: '5.15'}
-maintainers: []
+maintainers: [bgcngm]
 models: [CPH2447, CPH2449, CPH2451, PHB110]
 name: '11 5G'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
