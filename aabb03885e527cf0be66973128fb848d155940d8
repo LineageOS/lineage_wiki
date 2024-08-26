@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27606b3f_1faa2c26",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_fastboot.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-26T23:35:37Z",
+      "side": 0,
+      "message": "```suggestion\n   unzip -qq miui_*.zip -d \"firmware-update/*\"\n```",
+      "revId": "aabb03885e527cf0be66973128fb848d155940d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
