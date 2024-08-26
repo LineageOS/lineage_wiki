@@ -1,7 +1,7 @@
 {% include templates/device_specific/firmware_update_xiaomi_common.md %}
 2. Extract firmware files from zip
    ```
-   unzip -qq miui_*.zip firmware-update/*
+   unzip -qq miui_*.zip -d firmware-update
    cd firmware-update
    ```
 3. Power off the device, and boot it into bootloader mode:
