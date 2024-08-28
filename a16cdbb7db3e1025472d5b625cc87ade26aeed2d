@@ -16,6 +16,24 @@
       "message": "wrong picture format. See https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
       "revId": "a16cdbb7db3e1025472d5b625cc87ade26aeed2d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ebf8f9ee_e6bb7cb0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-08-28T19:46:48Z",
+      "side": 1,
+      "message": "fixed",
+      "parentUuid": "7c5b2dbc_9de7cf85",
+      "revId": "a16cdbb7db3e1025472d5b625cc87ade26aeed2d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
