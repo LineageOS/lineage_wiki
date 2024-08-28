@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 4800, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (macro)'}
+  - {flash: None, info: '16 MP (wide)'}
+codename: ovaltine
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.19 GHz + 3 x 2.75 GHz + 4 x 1.8 GHz
+current_branch: 21
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.8, height: 163.0, width: 75.4}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oplus_sm8450
+gpu: Qualcomm Adreno 730
+image: ovaltine.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_oneplus_sm8450, version: '5.10'}
+maintainers: [Pig]
+models: [CPH2413, CPH2415]
+name: '10T 5G Indian/EU'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 8/16 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2022-08
+screen: {refresh_rate: 120, resolution: '1080x2412', size: 6.7, technology: 'Fluid AMOLED'}
+soc: Qualcomm SM8475 Snapdragon 8+ Gen1
+storage: 128/256 GB UFS3.1
+tree: android_device_oneplus_ovaltine
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [21]
+wifi: 802.11 a/b/g/n/ac/ax
