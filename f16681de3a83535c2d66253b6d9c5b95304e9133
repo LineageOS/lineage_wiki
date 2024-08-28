@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "06e6c403_2289737d",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-28T20:28:19Z",
+      "side": 1,
+      "message": "copy to 8450.",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
