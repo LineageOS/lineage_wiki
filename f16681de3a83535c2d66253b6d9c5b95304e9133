@@ -3,6 +3,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2a65f591_b72ea08b",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-28T20:30:10Z",
+      "side": 1,
+      "message": "unset ships_fw if you aren\u0027t doing that (also why?)\nbtw, add lineabe_version: 21",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "06e6c403_2289737d",
         "filename": "_data/devices/ovaltine.yml",
         "patchSetId": 3
@@ -14,6 +31,23 @@
       "writtenOn": "2024-08-28T20:28:19Z",
       "side": 1,
       "message": "copy to 8450.",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "360af622_6f60d028",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-08-28T20:30:10Z",
+      "side": 1,
+      "message": "use variants if you want multiple model names.",
       "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
