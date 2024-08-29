@@ -16,6 +16,24 @@
       "message": "should I just keep",
       "revId": "dae454c07adb70bff447f86320935ceb5c7d14c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0065ab76_044e3df2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-08-29T05:51:55Z",
+      "side": 1,
+      "message": "\u003e should I just keep\n\n4 variants since they are actually different but 3 of them are 10T and the other is Ace Pro?\n(main differences being highlighted are peripherals but mem/storage are also different",
+      "parentUuid": "7b4a0e55_8bcf8568",
+      "revId": "dae454c07adb70bff447f86320935ceb5c7d14c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
