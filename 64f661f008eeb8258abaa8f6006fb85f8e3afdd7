@@ -16,6 +16,23 @@
       "message": "I think it looks better now",
       "revId": "64f661f008eeb8258abaa8f6006fb85f8e3afdd7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e0706266_821afd6a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-08-29T19:54:07Z",
+      "side": 1,
+      "message": "transparent bg?",
+      "revId": "64f661f008eeb8258abaa8f6006fb85f8e3afdd7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
