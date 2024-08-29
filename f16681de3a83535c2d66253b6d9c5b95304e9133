@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6dc80eaf_e1e6d249",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-08-29T05:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2a65f591_b72ea08b",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "06e6c403_2289737d",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e93e21d_1fadee75",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-08-29T05:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "06e6c403_2289737d",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "360af622_6f60d028",
@@ -48,6 +84,24 @@
       "writtenOn": "2024-08-28T20:30:10Z",
       "side": 1,
       "message": "use variants if you want multiple model names.",
+      "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "df606fa0_698abad9",
+        "filename": "_data/devices/ovaltine.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 24438
+      },
+      "writtenOn": "2024-08-29T05:49:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "360af622_6f60d028",
       "revId": "f16681de3a83535c2d66253b6d9c5b95304e9133",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
