@@ -16,6 +16,24 @@
       "message": "there a Hudson change to accompany this?",
       "revId": "71d31a6e5e3cafb05d08b405db33b691ec67b135",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8534ad74_c2d8bed8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33916
+      },
+      "writtenOn": "2024-09-07T17:02:14Z",
+      "side": 1,
+      "message": "Just pushed it: https://review.lineageos.org/c/LineageOS/hudson/+/401265",
+      "parentUuid": "bea7fcee_0728b388",
+      "revId": "71d31a6e5e3cafb05d08b405db33b691ec67b135",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
