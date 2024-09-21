@@ -22,6 +22,7 @@ name: Jetson TX2 NX [Tablet]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
+quirks: [fde]
 ram: 4 GB
 recovery_boot: The bootloader does not allow using hardware buttons to boot to recovery. After apx flash, the device will boot directly to recovery. After installing Lineage, normal methods can be used to reboot to recovery.
 recovery_partition_name: recovery
