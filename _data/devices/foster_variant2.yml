@@ -20,6 +20,7 @@ name: Jetson TX1 [Android TV]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
+quirks: [fde]
 ram: 3 GB
 recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
   Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.

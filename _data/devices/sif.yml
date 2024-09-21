@@ -20,7 +20,7 @@ name: Shield TV (2019) [Android TV]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
-quirks: [usb]
+quirks: [atv_remote_mic, fde, nvidia_remotes, usb]
 ram: 2 GB
 recovery_boot: With the device powered off, hold the <kbd>Pairing Button</kbd> (the button above the HDMI port) and plug the device into power.
   Next, click the <kbd>Pairing Button</kbd> until "Boot recovery kernel" is selected. Now, press the <kbd>Pairing Button</kbd> to select this option.
