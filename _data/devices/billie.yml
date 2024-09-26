@@ -30,6 +30,7 @@ peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sens
 ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
 release: 2020-10-26
 screen: {resolution: '2400x1080', size: 6.49, technology: 'IPS LCD'}
 sdcard: {size_max: '512 GB', slot: 'hybrid'}
