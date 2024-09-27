@@ -28,7 +28,7 @@
     {% include alerts/tip.html content="The `COM` port, or the number succeeding `COM`, may be any valid number." %}
 13. Click "Start". A transfer bar will appear on the device showing the VBMeta image being flashed.
 14. Your device will reboot, you may now unplug the USB cable from your device.
-15. The device will demand you format userdata, please follow the onscreen instructions to do so.
+15. The device will demand you factory reset, please follow the onscreen instructions to do so.
 {%- unless device.no_oem_unlock_switch %}
 16. Run through Android Setup skipping everything you can, then connect the device to a Wi-Fi network.
 17. Re-enable Development settings by clicking the "Build Number" option 10 times, in the "Settings" app within the "About" menu, and verify that "OEM Unlock" is still enabled in the "Developer options" menu.
