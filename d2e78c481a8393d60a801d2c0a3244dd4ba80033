@@ -16,6 +16,23 @@
       "message": "Ready to ship.",
       "revId": "d2e78c481a8393d60a801d2c0a3244dd4ba80033",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7de3da7e_182c8a91",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2024-10-02T00:42:40Z",
+      "side": 1,
+      "message": "please crop image to content.\nref: https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "d2e78c481a8393d60a801d2c0a3244dd4ba80033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
