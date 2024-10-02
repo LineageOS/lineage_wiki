@@ -33,6 +33,24 @@
       "message": "please crop image to content.\nref: https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
       "revId": "d2e78c481a8393d60a801d2c0a3244dd4ba80033",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f8d7813b_67cf7b05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2024-10-02T01:35:19Z",
+      "side": 1,
+      "message": "Done.",
+      "parentUuid": "7de3da7e_182c8a91",
+      "revId": "d2e78c481a8393d60a801d2c0a3244dd4ba80033",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
