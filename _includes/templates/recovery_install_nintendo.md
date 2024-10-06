@@ -43,6 +43,7 @@ Additionally, this guide will not detail exploiting or ModChipping your Switch, 
    * `nx-plat.dtimg` -> `switchroot/install/nx-plat.dtimg`
    * `bl31.bin` -> `switchroot/android/bl31.bin`
    * `bl33.bin` -> `switchroot/android/bl33.bin`
+   * `boot.scr` -> `switchroot/android/boot.scr`
     {% include alerts/warning.html content="Please ensure that the name, path, and case of these files all match the above list identically." %}
 3. Please download the following files and place them in the noted folders (which you will potentially have to create) on your device's SD Card:
    * [`bootlogo_android.bmp`]({{ "images/device_specific/nx/bootlogo_android.bmp" | relative_url }}) -> `switchroot/android/bootlogo_android.bmp`
