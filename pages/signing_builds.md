@@ -323,7 +323,7 @@ adb reboot recovery
 # Now install the official LineageOS install zip
 ```
 
-Or run it from recovery:
+Or run it from recovery (possible only if your device's data partition is unencrypted):
 
 ```
 # Ensure both /data and /system are mounted, then continue
