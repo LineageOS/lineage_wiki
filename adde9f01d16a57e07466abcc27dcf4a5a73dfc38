@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5ccda27_9b69ad10",
+        "filename": "pages/signing_builds.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 332,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-10-10T14:39:14Z",
+      "side": 1,
+      "message": "i\u0027d just remove it instead.",
+      "range": {
+        "startLine": 326,
+        "startChar": 0,
+        "endLine": 332,
+        "endChar": 3
+      },
+      "revId": "adde9f01d16a57e07466abcc27dcf4a5a73dfc38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
