@@ -6,7 +6,7 @@
 1. Enable Developer Options by pressing the "Build Number" option at least 7 times, in the "Settings" app within the "About" menu
     * From within the Developer options menu, enable OEM unlock.
 1. Download [this](https://sourceforge.net/projects/lifehackerhansol-android/files/gto-unlock/1-unlocked-aboot.tar) package.
-    {% include alerts/warning.html content="If you skip this step, you will not be able to unlock your bootloader!" %}
+    {% include alerts/warning.html content="If you skip this step, you will not be able to boot any custom image!" %}
 1. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the onscreen instructions correlate to "Device unlock mode" and/or "Unlock Bootloader".
