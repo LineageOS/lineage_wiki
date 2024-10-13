@@ -22,6 +22,30 @@
       },
       "revId": "470de212e1c42b9a704feef8069afb752c15780a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "56f1741a_408dec4e",
+        "filename": "_includes/templates/device_specific/firmware_update_samsung_gtowifi.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2024-10-13T18:51:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09e040f9_7a1e7f12",
+      "range": {
+        "startLine": 12,
+        "startChar": 96,
+        "endLine": 12,
+        "endChar": 102
+      },
+      "revId": "470de212e1c42b9a704feef8069afb752c15780a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
