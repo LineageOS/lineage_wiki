@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bd4d6533_cc8b780b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2024-10-20T13:23:53Z",
+      "side": 1,
+      "message": "```suggestion\nm espimage-install\n```",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 3
+      },
+      "revId": "4f62698958c7415fb69dbdd6be89c93af32e868d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
