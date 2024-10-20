@@ -1,0 +1,297 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12f94f05_5a69d900",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "You have a tendency to continue with captial letters after commas. I have given up marking all of them, please go through the text and do it also for the rest",
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "268d885c_186b8b07",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"e\"",
+      "range": {
+        "startLine": 61,
+        "startChar": 51,
+        "endLine": 61,
+        "endChar": 52
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b167b94_77525c1b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "no \",\"",
+      "range": {
+        "startLine": 74,
+        "startChar": 87,
+        "endLine": 74,
+        "endChar": 89
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9950c82a_52d9bf08",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"i\"",
+      "range": {
+        "startLine": 74,
+        "startChar": 20,
+        "endLine": 74,
+        "endChar": 21
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0b211e0_f1084f45",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 98,
+        "startChar": 17,
+        "endLine": 98,
+        "endChar": 18
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27f1bec9_7407bf59",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 100,
+        "startChar": 67,
+        "endLine": 100,
+        "endChar": 68
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "12f6e139_b9999bce",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 100,
+        "startChar": 11,
+        "endLine": 100,
+        "endChar": 12
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2de50191_d41bf063",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 111,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 111,
+        "startChar": 11,
+        "endLine": 111,
+        "endChar": 12
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "07d8cbcf_8af3d7ab",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 113,
+        "startChar": 11,
+        "endLine": 113,
+        "endChar": 12
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7119e322_46c1b84b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"u\"",
+      "range": {
+        "startLine": 116,
+        "startChar": 11,
+        "endLine": 116,
+        "endChar": 12
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5e5793d7_86b65953",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 118,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"s\"",
+      "range": {
+        "startLine": 118,
+        "startChar": 11,
+        "endLine": 118,
+        "endChar": 12
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3268621_db8b6284",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"c\"",
+      "range": {
+        "startLine": 119,
+        "startChar": 76,
+        "endLine": 119,
+        "endChar": 78
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "100071e6_28a0540a",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 208,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T12:07:14Z",
+      "side": 1,
+      "message": "lowercase \"b\"",
+      "range": {
+        "startLine": 208,
+        "startChar": 67,
+        "endLine": 208,
+        "endChar": 68
+      },
+      "revId": "8233abb5a9c29c0f55ea982ceb254500567bd9b7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
