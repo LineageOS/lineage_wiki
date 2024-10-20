@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cefebe5d_3477bed3",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T13:11:35Z",
+      "side": 1,
+      "message": "remove all these empty lines between the separate list items",
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8cf5b223_45af7d57",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T13:11:35Z",
+      "side": 1,
+      "message": "steps below",
+      "range": {
+        "startLine": 202,
+        "startChar": 21,
+        "endLine": 202,
+        "endChar": 32
+      },
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc1f70f5_dbf2098d",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-10-20T13:11:35Z",
+      "side": 1,
+      "message": "dito, etc...",
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
