@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e74d1f9f_5f33774b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-20T13:53:01Z",
+      "side": 1,
+      "message": "It\u0027s currently together with \"Building for Emulator/AVD\"",
+      "parentUuid": "96da307e_4770dfb4",
+      "revId": "4f62698958c7415fb69dbdd6be89c93af32e868d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "bd4d6533_cc8b780b",
         "filename": "pages/libvirt-qemu.md",
         "patchSetId": 9
