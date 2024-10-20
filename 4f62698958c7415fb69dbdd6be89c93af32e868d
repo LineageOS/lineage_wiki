@@ -75,6 +75,30 @@
       },
       "revId": "4f62698958c7415fb69dbdd6be89c93af32e868d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1eb154e_1a71e31c",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 9
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-20T14:22:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bd4d6533_cc8b780b",
+      "range": {
+        "startLine": 65,
+        "startChar": 0,
+        "endLine": 65,
+        "endChar": 3
+      },
+      "revId": "4f62698958c7415fb69dbdd6be89c93af32e868d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
