@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e46ed21a_12464571",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 153,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-20T13:21:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cefebe5d_3477bed3",
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8cf5b223_45af7d57",
@@ -41,6 +59,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "40c7b4ed_5b623b79",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-20T13:21:14Z",
+      "side": 1,
+      "message": "this is now gone",
+      "parentUuid": "8cf5b223_45af7d57",
+      "range": {
+        "startLine": 202,
+        "startChar": 21,
+        "endLine": 202,
+        "endChar": 32
+      },
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc1f70f5_dbf2098d",
@@ -54,6 +96,24 @@
       "writtenOn": "2024-10-20T13:11:35Z",
       "side": 1,
       "message": "dito, etc...",
+      "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23346132_9c86253b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-10-20T13:21:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc1f70f5_dbf2098d",
       "revId": "a5d684745da3127181aff2791b4ea32bf663c084",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
