@@ -23,6 +23,7 @@ peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Co
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 recovery_partition_name: boot
+recovery_reboot: fastboot_menu
 release: 2019-09
 screen: {resolution: '2160x1080', size: 5.65, technology: 'IPS LCD'}
 sdcard: {size_max: '400 GB'}
