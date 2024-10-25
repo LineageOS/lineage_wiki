@@ -399,6 +399,7 @@ definitions:
       - 19.1
       - 20
       - 21
+      - 22.0
     type: number
   valid_kernel_versions:
     enum:
@@ -1020,3 +1021,4 @@ required:
   - wifi
 title: device
 type: object
+
