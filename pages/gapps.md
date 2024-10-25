@@ -31,6 +31,7 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
+|LineageOS 22.1 (Android 15)|MindTheGapps ([ARM](https://github.com/MindTheGapps/15.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/15.0.0-arm64/releases/latest))|
 |LineageOS 21 (Android 14)|MindTheGapps ([ARM](https://github.com/MindTheGapps/14.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest))|
 |LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest))|
 |LineageOS 19.1 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64/releases/latest))|
@@ -42,6 +43,7 @@ These packages are only dependent on your OS version and architecture, which can
 
 |Version                   |Link                                                   |
 |--------------------------|-------------------------------------------------------|
+|LineageOS 22.0 (Android 15)|MindTheGapps ([ARM](https://github.com/MindTheGapps/15.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/15.0.0-arm64-ATV/releases/latest))|
 |LineageOS 21 (Android 14)|MindTheGapps ([ARM](https://github.com/MindTheGapps/14.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/14.0.0-arm64-ATV/releases/latest))|
 |LineageOS 20 (Android 13)|MindTheGapps ([ARM](https://github.com/MindTheGapps/13.0.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/13.0.0-arm64-ATV/releases/latest))|
 |LineageOS 19.1 (Android 12L)|MindTheGapps ([ARM](https://github.com/MindTheGapps/12.1.0-arm-ATV/releases/latest), [ARM64](https://github.com/MindTheGapps/12.1.0-arm64-ATV/releases/latest))|
