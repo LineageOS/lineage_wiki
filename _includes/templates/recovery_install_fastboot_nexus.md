@@ -42,7 +42,7 @@ fastboot devices
 fastboot oem unlock
     ```
 {%- endif %}
-    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed." %}
+    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to in order to proceed." %}
 6. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
 7. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
