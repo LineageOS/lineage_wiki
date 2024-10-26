@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 630
 image: nx606j.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_nubia_sdm845, version: '4.9'}
-maintainers: []
+maintainers: [Cyborg2017, rtx4d]
 models: [NX606J]
 name: 'Z18'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
