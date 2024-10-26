@@ -55,7 +55,7 @@ fastboot devices
 fastboot oem unlock
     ```
 {%- endif %}
-    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed." %}
+    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to in order to proceed." %}
 
 14. Wait for the bootloader unlocking process to complete. Once finished, you can check if bootloader is successfully unlocked by typing:
 ```
@@ -73,7 +73,7 @@ fastboot getvar unlocked
 fastboot oem unlock
     ```
 {%- endif %}
-    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to to proceed." %}
+    {% include alerts/note.html content="At this point the device may display on-screen prompts which will require interaction to continue the process of unlocking the bootloader. Please take whatever actions the device asks you to in order to proceed." %}
 {%- endif %}
 
 15. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
