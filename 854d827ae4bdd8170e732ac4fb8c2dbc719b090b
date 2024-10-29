@@ -16,6 +16,142 @@
       "message": "3 functional changes from cafe babe",
       "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "172958fa_f9853f5b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Technically, nether does `emulator`.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46c0ab23_493a0a8f",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Talked to zif or anyone else from infra about this? Other than the fact that we have five million configurations, the build outputs seem to mesh quite well with the usual format.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea2f6bf8_95364d80",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Link here could probably not hardcode the domain.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f55d7159_336de63d",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "fwiw, this may require enabling \"edit xml\" in virtmanager settings",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db21dbcb_83085592",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Maybe \"Create\" the new virtual machine, just to differentiate from \"Install LineageOS\"?",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0934af01_b24e6b14",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Really stupod question from me: Does GApps work on this? I know we most likely don\u0027t want to advertise it because it\u0027s in violation of the license.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "755f9bd4_8c97d25b",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "From _the_ Android Open Source Project",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2cb9b55_34b74cef",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T07:28:19Z",
+      "side": 1,
+      "message": "Is deleting the old partitons necessary? How does returning to LineageOS look like?",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
