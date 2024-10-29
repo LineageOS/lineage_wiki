@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "478530c8_f3661cdf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 21
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T20:58:14Z",
+      "side": 1,
+      "message": "Two last followups on the existing comments, seems fine otherwise.",
+      "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70030e07_47974922",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T20:58:14Z",
+      "side": 1,
+      "message": "Missing a comma after the new part.\n\nAlso, the setting is at \"Edit \u003e Preferences \u003e General \u003e Enable XML editing\" in the main window, not anywhere on the current screen. We may just want to move it to before the \"Create VM\" step, i.e. right after initially launching virt-manager. Thoughts?",
+      "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aa927a4e_f5e8ccc8",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2024-10-29T20:58:14Z",
+      "side": 1,
+      "message": "I presume the option to choose at (4) would be the usual sideload option then? The ESP image is probably only going to ship the LineageOS ZIP itself.",
+      "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
