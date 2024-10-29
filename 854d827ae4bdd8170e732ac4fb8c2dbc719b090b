@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "26156aad_637e0811",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "yeahhhh but we mention it in blog posts and such. I vote this language is fine.",
+      "parentUuid": "172958fa_f9853f5b",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "46c0ab23_493a0a8f",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-10-29T07:28:19Z",
       "side": 1,
       "message": "Talked to zif or anyone else from infra about this? Other than the fact that we have five million configurations, the build outputs seem to mesh quite well with the usual format.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9b91610f_abb1e8bb",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "No, but we can update that if the discussion ever happens - target isn\u0027t quite ready to be deployed as production image",
+      "parentUuid": "46c0ab23_493a0a8f",
       "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -69,6 +105,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a792cde6_93853e00",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea2f6bf8_95364d80",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f55d7159_336de63d",
@@ -82,6 +136,24 @@
       "writtenOn": "2024-10-29T07:28:19Z",
       "side": 1,
       "message": "fwiw, this may require enabling \"edit xml\" in virtmanager settings",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2e70db11_f2ebeefc",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f55d7159_336de63d",
       "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -103,6 +175,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f797a337_1a7c96fa",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 235,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db21dbcb_83085592",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0934af01_b24e6b14",
@@ -116,6 +206,24 @@
       "writtenOn": "2024-10-29T07:28:19Z",
       "side": 1,
       "message": "Really stupod question from me: Does GApps work on this? I know we most likely don\u0027t want to advertise it because it\u0027s in violation of the license.",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27c58ea7_702c7353",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "yes but you\u0027re right, mentioning that is meh, we could say \"any add ons\"? - done",
+      "parentUuid": "0934af01_b24e6b14",
       "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -137,6 +245,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c493ac46_db9e1fcb",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 262,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "755f9bd4_8c97d25b",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "e2cb9b55_34b74cef",
@@ -150,6 +276,24 @@
       "writtenOn": "2024-10-29T07:28:19Z",
       "side": 1,
       "message": "Is deleting the old partitons necessary? How does returning to LineageOS look like?",
+      "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "912329bb_cfe6abbf",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 19
+      },
+      "lineNbr": 289,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T20:23:17Z",
+      "side": 1,
+      "message": "yes, not enough space for massive 5gb gsi w/ GMS without.\n\nThey could just delete start again if they want to return. idk if that\u0027s worth documenting?",
+      "parentUuid": "e2cb9b55_34b74cef",
       "revId": "854d827ae4bdd8170e732ac4fb8c2dbc719b090b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
