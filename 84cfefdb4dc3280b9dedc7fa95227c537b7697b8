@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4134f3dd_c5c3fc36",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 207,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T21:31:45Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "70030e07_47974922",
+      "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "aa927a4e_f5e8ccc8",
@@ -48,6 +66,24 @@
       "writtenOn": "2024-10-29T20:58:14Z",
       "side": 1,
       "message": "I presume the option to choose at (4) would be the usual sideload option then? The ESP image is probably only going to ship the LineageOS ZIP itself.",
+      "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69706f19_31cd6e61",
+        "filename": "pages/libvirt-qemu.md",
+        "patchSetId": 21
+      },
+      "lineNbr": 250,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-10-29T21:31:45Z",
+      "side": 1,
+      "message": "yeah, that\u0027ll get confusing. I just dropped it",
+      "parentUuid": "aa927a4e_f5e8ccc8",
       "revId": "84cfefdb4dc3280b9dedc7fa95227c537b7697b8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
