@@ -21,7 +21,7 @@ Method 2:
 
    {% include alerts/warning.html content="Follow this method only if the OTA downgrade package mentioned in Method 1 is not present for your variant" %}
 1. Unlock bootloader
-2. Download the following files from [here](https://download.lineageos.org/devices/oscar/builds)
+2. Download the following files from [here](https://download.lineageos.org/devices/{{ device.codename }}).
     * boot.img
     * dtbo.img
     * vendor_boot.img
