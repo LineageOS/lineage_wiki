@@ -94,3 +94,11 @@ permalink: faq.html
 ## Can you help me with _this_ mod/software?
  - We can't provide support for any third-party modifications or software since we don't maintain it.
  - Ask whoever provided it to you, because it's their work.
+
+## I have got _an error_, can you help me?
+ - Sorry, but _an error_ is very unspecific, so no, unfortunately we can't
+ - Try adding more information, like the device used, the actual error message(s), the steps (in the *official* instructions) you were on, ...
+
+## I have troubles with some tool/recovery that's not in the instructions
+ - We are glad to help you with everything *in* our instructions, not everything else
+ - "But step _x_ in the instructions didn't work so I tried..." - yes, and we gladly help you with the actual issue instead of the made up alternative
