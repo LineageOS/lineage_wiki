@@ -94,3 +94,11 @@ permalink: faq.html
 ## Can you help me with _this_ mod/software?
  - We can't provide support for any third-party modifications or software since we don't maintain it.
  - Ask whoever provided it to you, because it's their work.
+
+## I have got _an error_, can you help me?
+ - Unfortunately, _an error_ is not descriptive enough for anyone to provide you any help or recommendations.
+ - Include as much information as possible, like the device used, the codename, the build you installed, the filenames, the actual error message(s), the steps (in the *official* instructions) you were on when you got stuck, etc.
+
+## I am having trouble with some tool/recovery that's not in the instructions
+ - We are glad to help you with everything *in* our instructions, but not anything _outside_ those instructions.
+ - "_x_ step in the instructions didn't work so I tried..." - We cannot stress enough that you should not deviate from the installation instructions. If you tried random things like switching to TWRP, flashing Magisk, etc., we cannot assist you, as you've introduced new uncontrolled variables.
