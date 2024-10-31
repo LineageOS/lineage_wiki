@@ -36,6 +36,7 @@ com.android.adbd
 com.android.adservices
 com.android.adservices.api
 com.android.appsearch
+com.android.appsearch.apk
 com.android.art
 com.android.bluetooth
 com.android.btservices
@@ -47,10 +48,13 @@ com.android.conscrypt
 com.android.devicelock
 com.android.extservices
 com.android.graphics.pdf
+com.android.hardware.authsecret
 com.android.hardware.biometrics.face.virtual
 com.android.hardware.biometrics.fingerprint.virtual
 com.android.hardware.boot
 com.android.hardware.cas
+com.android.hardware.neuralnetworks
+com.android.hardware.rebootescrow
 com.android.hardware.wifi
 com.android.healthfitness
 com.android.hotspot2.osulogin
@@ -62,6 +66,7 @@ com.android.mediaprovider
 com.android.nearby.halfsheet
 com.android.networkstack.tethering
 com.android.neuralnetworks
+com.android.nfcservices
 com.android.ondevicepersonalization
 com.android.os.statsd
 com.android.permission
