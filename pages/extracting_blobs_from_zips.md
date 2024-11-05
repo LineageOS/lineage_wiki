@@ -53,7 +53,7 @@ where `path/to/` is the path to the installable zip.
 In the case of `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
 
 ```
-sudo apt-get install brotli
+sudo apt install brotli
 brotli --decompress --output=system.new.dat system.new.dat.br
 ```
 
@@ -185,7 +185,7 @@ cd ~/android/system_dump/
 To use the payload.bin extractor you will need python3-protobuf, if you do not already have it:
 
 ```
-sudo apt-get install python3-protobuf
+sudo apt install python3-protobuf
 ```
 
 You will now clone the repos needed to use the payload.bin extractor:

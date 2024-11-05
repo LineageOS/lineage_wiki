@@ -31,7 +31,7 @@ Install Git using the [Git installer](https://git-scm.com/download/mac).
 You can install Git by running:
 
 ```
-sudo apt-get install git
+sudo apt install git
 ```
 
 More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).

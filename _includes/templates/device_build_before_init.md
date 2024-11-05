@@ -54,7 +54,7 @@ Then, run `source ~/.profile` to update your environment.
 Several packages are needed to build LineageOS. You can install these using your distribution's package manager.
 
 {% include alerts/tip.html content="A [package manager](https://en.wikipedia.org/wiki/Package_manager) in Linux is a system used to install or remove software
-(usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt-get install`
+(usually originating from the Internet) on your computer. With Ubuntu, you can use the Ubuntu Software Center. Even better, you may also use the `apt install`
 command directly in the Terminal." %}
 
 {%- capture cpu_architecture %}
