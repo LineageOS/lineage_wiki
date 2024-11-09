@@ -17,7 +17,7 @@ dimensions: {depth: 8.9, height: 162.6, width: 74.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 650
 image: umi.png
-install_method: fastboot_xiaomi
+install_method: fastboot_xiaomi_hyperos
 kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
 maintainers: ["0xCAFEBABE", przekichane]
 models: [M2001J2G, M2001J2I]
