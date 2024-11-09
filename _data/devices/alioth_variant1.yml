@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
+before_install: {instructions: 'xiaomi_china_hyperos', lineage_version: 21}
 before_install_device_variants:
   - {device: 'POCO F3 EEA', download_link: 'https://bn.d.miui.com/OS1.0.1.0.TKHEUXM/miui_ALIOTHEEAGlobal_OS1.0.1.0.TKHEUXM_b0de6008b0_13.0.zip', firmware: 'OS1.0.1.0.TKHEUXM'}
   - {device: 'POCO F3 Global', download_link: 'https://bn.d.miui.com/OS1.0.2.0.TKHMIXM/miui_ALIOTHGlobal_OS1.0.2.0.TKHMIXM_b69e6a5400_13.0.zip', firmware: 'OS1.0.2.0.TKHMIXM'}
