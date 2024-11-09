@@ -20,7 +20,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>P
 firmware_update: firmware_update_xiaomi_sm8550_vab
 gpu: Qualcomm Adreno 740
 image: socrates.png
-install_method: fastboot_xiaomi
+install_method: fastboot_xiaomi_hyperos
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8550, version: '5.15'}
 maintainers: [danielml]
