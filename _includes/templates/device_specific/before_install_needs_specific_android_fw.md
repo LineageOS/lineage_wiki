@@ -1,3 +1,4 @@
+{% assign device = site.data.devices[page.device] %}
 {%- assign skip = false %}
 {%- if page.folder == "upgrade" and device.before_install.lineage_version > 0 and device.before_install.lineage_version == device.versions[0] %}
 {%- assign skip = true %}
