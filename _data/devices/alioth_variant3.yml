@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4520, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
+before_install: {instructions: 'xiaomi_china_hyperos', lineage_version: 21}
 before_install_device_variants:
   - {device: 'Mi 11X India', download_link: 'https://bn.d.miui.com/OS1.0.1.0.TKHINXM/miui_ALIOTHINGlobal_OS1.0.1.0.TKHINXM_37dcb3109e_13.0.zip', firmware: 'OS1.0.1.0.TKHINXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}

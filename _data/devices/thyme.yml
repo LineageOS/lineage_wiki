@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4780, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
+before_install: {instructions: 'xiaomi_china_hyperos', lineage_version: 21}
 before_install_device_variants:
   - {device: 'Mi 10S', download_link: 'https://bn.d.miui.com/OS1.0.2.0.TGACNXM/miui_THYME_OS1.0.2.0.TGACNXM_8836a5bf04_13.0.zip', firmware: 'OS1.0.2.0.TGACNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
