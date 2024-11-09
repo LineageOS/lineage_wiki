@@ -17,7 +17,7 @@ dimensions: {depth: 6.81, height: 160.53, width: 75.73}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 642L
 image: lisa.png
-install_method: fastboot_xiaomi
+install_method: fastboot_xiaomi_hyperos
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8350, version: '5.4'}
 maintainers: [ItsVixano]

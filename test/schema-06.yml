@@ -758,6 +758,7 @@ properties:
       - fastboot_realme
       - fastboot_unlocked
       - fastboot_xiaomi
+      - fastboot_xiaomi_hyperos
       - fastboot_zenfone
       - heimdall
       - nintendo
