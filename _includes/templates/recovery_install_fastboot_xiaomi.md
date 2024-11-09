@@ -9,11 +9,16 @@
 2. Add a phone number to your Mi account.
 3. Insert a SIM into your phone.
 4. Enable developer options in `Settings` > `About Phone` by repeatedly tapping `MIUI Version`.
-5. Link the device to your Mi account in `Settings` > `Additional settings` > `Developer options` > `Mi Unlock status`.
-6. Download the [Mi Unlock app](https://en.miui.com/unlock/download_en.html) (Windows is required to run the app).
-7. Run the Mi Unlock app and follow the instructions provided by the app. It may tell you that you have to wait up to 30 days. If it does so, please wait the quoted amount of time before continuing to the next step!
-8. After device and Mi account are successfully verified, the bootloader should be unlocked.
-9. Since the device resets completely, you will need to re-enable USB debugging to continue.
+5. Enable OEM unlocking `Settings` > `Additional settings` > `Developer options` > `OEM unlocking`, then restart your phone.
+6. Enable USB debugging in `Settings` > `Additional settings` > `Developer options` > `USB debugging`.
+7. Turn off wifi and instead turn on mobile data.
+8. Link the device to your Mi account in `Settings` > `Additional settings` > `Developer options` > `Mi Unlock status`.
+9. Download the [Mi Unlock app](https://en.miui.com/unlock/download_en.html) (Windows is required to run the app). If you have a problem with this version of app, try to use latest version from [Mi unlock app - latest version (unofficial link)](https://miuirom.org/updates/mi-flash-unlock). The problem with official link is the latest version is not always available there.
+10. Connect phone to computer via USB and boot phone to `fastboot` mode, when your phone is powered off hold button volume down and power button. This step is required to properly install Mi USB driver.
+11. Run `MiUsbDriver.exe` to install USB driver on your windows computer. File is included in zip archive next to `miflash_unlock.exe`. You have to see message that driver was succesfully installed, otherwise Mi Unlock app may not detect your device.
+12. Run the Mi Unlock app and follow the instructions provided by the app. It may tell you that you have to wait up to 30 days. If it does so, please wait the quoted amount of time before continuing to the next step! If you have problem to unlock your device try to follow this [guide](https://miuirom.org/updates/xiaomi-bootloader) there are self explanation pictures step by step.
+13. After device and Mi account are successfully verified, the bootloader should be unlocked.
+14. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% endunless %}
 
