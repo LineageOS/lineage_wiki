@@ -16,6 +16,24 @@
       "message": "waiting until builds with kernel patches",
       "revId": "ff6d0bf6cd695ff4d7221bef40ec15bb77a8f8ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3aa28dda_acc743b8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-11T18:36:35Z",
+      "side": 1,
+      "message": "...are available",
+      "parentUuid": "73d0a6f2_49745a8e",
+      "revId": "ff6d0bf6cd695ff4d7221bef40ec15bb77a8f8ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
