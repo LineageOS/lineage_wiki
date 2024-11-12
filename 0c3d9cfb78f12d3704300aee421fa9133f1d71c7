@@ -52,6 +52,24 @@
       "parentUuid": "f485dacd_2d992d8b",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a48007a_babb2363",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-11-12T16:38:04Z",
+      "side": 1,
+      "message": "Yeah, just link the official solution.",
+      "parentUuid": "9f08f7ba_17bad4f4",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
