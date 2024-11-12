@@ -16,6 +16,24 @@
       "message": "Linking to other 3rd party guides is not an option.",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f485dacd_2d992d8b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-12T13:34:50Z",
+      "side": 1,
+      "message": "Thank you for your review. So link for the latest version of unlock app I can keep, but the link for guide should be removed?",
+      "parentUuid": "40ae133a_597a3a19",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
