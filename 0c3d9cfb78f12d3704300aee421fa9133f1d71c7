@@ -70,6 +70,125 @@
       "parentUuid": "9f08f7ba_17bad4f4",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49249f46_2fc9375f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "Unlocking a new Xiaomi device has become quite different depending on the region. If you’re updating the guide, it would be better to mention that there’s no official way to unlock new CN devices. For some other regions, you need to apply for unlocking through the Mi-Community app at a specific time to be able to unlock the device.",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c53aa85_743e0439",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "Do you even need to restart your phone for this step?",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c9286469_3ed0e196",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "This isn\u0027t needed? It tells you to turn off Wi-Fi and turn on mobile data.",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5758f415_c890460d",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "Drop the unofficial guide and \"latest\" version, linking to Xiaomi\u0027s page is enough",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39836fef_bfc0281d",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "You can drop this as well, the USB drivers are installed with the app",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5fbe780b_3df6d3a6",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "I\u0027m pretty sure you don\u0027t run this yourself, the app prompts you to install it/you can press a button in the app to install it.",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4c4f0bc_f01036a4",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-12T18:21:32Z",
+      "side": 1,
+      "message": "Drop the unofficial guide",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
