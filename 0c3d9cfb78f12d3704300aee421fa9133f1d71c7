@@ -126,6 +126,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "4ada4df6_33a19d19",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-11-13T20:03:17Z",
+      "side": 1,
+      "message": "What you linked states \"At the same time, the app itself checks for a new version when launching it. Even if you download an old version from the official site, when launching Mi Flash Unlock will offer to download the latest software version.\" I would rather link to the official site and have it updated from the app if needed. \"when we do not believe the binary from unofficial link, how we can trust the binary from officially Xiaomi.\" the difference is that Xiaomi actually sells you the device..?",
+      "parentUuid": "d3cac6ce_7ccfbabd",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6c53aa85_743e0439",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
