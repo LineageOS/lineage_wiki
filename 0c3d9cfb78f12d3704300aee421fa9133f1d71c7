@@ -91,6 +91,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "d3cac6ce_7ccfbabd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-13T06:56:14Z",
+      "side": 1,
+      "message": "I guess that you do not want to keep third party links in text because you do not want to take responsible of the content and other reason can be licensing problems. I am not sure if link is subject of licensing problem because links are core of the http sites.\nIf the problem is the content then the already exist link to xiaomi site is really buggy itself.\nThe guide link I can remove, but the official MiUnlock binary has not worked for me. Furthermore the official binary is also buggy to use. If I remove the link to unofficial MiUnlock binary, I appreciate if there would be a note: if you have a problem with official version MiUnlock binary then you can try on your own responsibility (but you do the whole installation on your own risk) latest version from unofficial sources on the internet or something in this sense, provide to reader some hint at least when problems occurs. Another point is when we do not believe the binary from unofficial link, how we can trust the binary from officially Xiaomi. What do you think?",
+      "parentUuid": "8a48007a_babb2363",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6c53aa85_743e0439",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
