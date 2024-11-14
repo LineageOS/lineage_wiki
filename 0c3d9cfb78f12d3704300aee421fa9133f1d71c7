@@ -144,6 +144,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7ad6e001_251228e7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:35:07Z",
+      "side": 1,
+      "message": "You can update app with link in official one, but the link is not working at all",
+      "parentUuid": "4ada4df6_33a19d19",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6c53aa85_743e0439",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
