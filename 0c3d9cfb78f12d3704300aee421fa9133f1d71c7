@@ -162,6 +162,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "70f1bd06_11e2d5ae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "Ok, it makes sense. Honestly I do not know differents between regions.",
+      "parentUuid": "49249f46_2fc9375f",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6c53aa85_743e0439",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
@@ -173,6 +191,24 @@
       "writtenOn": "2024-11-12T18:21:32Z",
       "side": 1,
       "message": "Do you even need to restart your phone for this step?",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "db6ab8ef_b26446c4",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "My phone required it. If some do not required and restart it anyway it does not seem to me as big problem.",
+      "parentUuid": "6c53aa85_743e0439",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -196,6 +232,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c65e89d1_b40cf573",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "Then is not needed to write that you should insert SIM card...",
+      "parentUuid": "c9286469_3ed0e196",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5758f415_c890460d",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
@@ -207,6 +261,24 @@
       "writtenOn": "2024-11-12T18:21:32Z",
       "side": 1,
       "message": "Drop the unofficial guide and \"latest\" version, linking to Xiaomi\u0027s page is enough",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4007d1a_6fa14cb9",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "Ok, but then I would like to note that there is a option to find latest version on the internet, because the latest version can not be reached with official site or with the update link in official app. So it is not obvious for newcomer that the latest version can be somewhere downloaded.",
+      "parentUuid": "5758f415_c890460d",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -230,6 +302,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "ea9fb641_a4bbac1f",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "They are not installed automatically from official app for sure .",
+      "parentUuid": "39836fef_bfc0281d",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "5fbe780b_3df6d3a6",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
@@ -247,6 +337,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c4a98352_4ff42949",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "That\u0027s true but the button is not working you get an error that you missing a file MiUsbDriver.exe.",
+      "parentUuid": "5fbe780b_3df6d3a6",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "a4c4f0bc_f01036a4",
         "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
         "patchSetId": 1
@@ -258,6 +366,24 @@
       "writtenOn": "2024-11-12T18:21:32Z",
       "side": 1,
       "message": "Drop the unofficial guide",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4b3c305_81a27f89",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 34352
+      },
+      "writtenOn": "2024-11-14T06:48:37Z",
+      "side": 1,
+      "message": "Ok",
+      "parentUuid": "a4c4f0bc_f01036a4",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
