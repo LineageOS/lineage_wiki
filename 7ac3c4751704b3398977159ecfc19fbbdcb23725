@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c1f322a_cd8d823e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-11-16T16:49:39Z",
+      "side": 1,
+      "message": "User claimed even on android 12 their app seemingly doesn\u0027t work anymore because the servers are down\nAdding the only maintainer @vivekachooz@gmail.com so you can either confirm or find another way to unlock",
+      "revId": "7ac3c4751704b3398977159ecfc19fbbdcb23725",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
