@@ -16,6 +16,23 @@
       "message": "User claimed even on android 12 their app seemingly doesn\u0027t work anymore because the servers are down\nAdding the only maintainer @vivekachooz@gmail.com so you can either confirm or find another way to unlock",
       "revId": "7ac3c4751704b3398977159ecfc19fbbdcb23725",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b2aa28e_c8278bde",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2024-11-16T17:29:26Z",
+      "side": 1,
+      "message": "thanks for the headsup. confirmed with all android versions. currently realme closed bootloader unlock servers. will revert this once they reopens it.",
+      "revId": "7ac3c4751704b3398977159ecfc19fbbdcb23725",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
