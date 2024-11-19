@@ -22,6 +22,30 @@
       },
       "revId": "56ede8b9c803f465a1d80e5de232d4f79333e195",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "217e9c65_a513a328",
+        "filename": "pages/gapps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-11-19T03:14:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "106bc1e3_d771dcf9",
+      "range": {
+        "startLine": 46,
+        "startChar": 11,
+        "endLine": 46,
+        "endChar": 15
+      },
+      "revId": "56ede8b9c803f465a1d80e5de232d4f79333e195",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
