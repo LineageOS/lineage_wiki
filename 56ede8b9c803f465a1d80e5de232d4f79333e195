@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "106bc1e3_d771dcf9",
+        "filename": "pages/gapps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2024-11-19T03:11:57Z",
+      "side": 1,
+      "message": "22.1?",
+      "range": {
+        "startLine": 46,
+        "startChar": 11,
+        "endLine": 46,
+        "endChar": 15
+      },
+      "revId": "56ede8b9c803f465a1d80e5de232d4f79333e195",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
