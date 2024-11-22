@@ -29,6 +29,7 @@ These instructions will help you build a LineageOS image that is suitable to run
 The following branches are currently supported for building image for libvirt QEMU virtual machine:
 
 * lineage-21.0
+* lineage-22.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
