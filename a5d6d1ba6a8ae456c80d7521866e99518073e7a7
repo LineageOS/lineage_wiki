@@ -34,6 +34,24 @@
       "parentUuid": "176ac1eb_4d6163a0",
       "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f25a4bc8_35fc6a0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-11-23T23:40:46Z",
+      "side": 1,
+      "message": "if you have something to contribute, feel free to send your patches, but I\u0027m afraid that you won\u0027t be marked as maintainer for this device in particular, given that someone else did all the work for it and you just *compiled* it.",
+      "parentUuid": "5363b38b_392a0642",
+      "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
