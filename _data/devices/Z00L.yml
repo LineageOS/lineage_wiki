@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: 8/4
 cpu_freq: 1.7/1.0 GHz/1.2 GHz
 current_branch: 15.1
-dimensions: None
+dimensions: {depth: 10.8, height: 152.5, width: 77.2}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: [Qualcomm Adreno 306, Qualcomm Adreno 405]
 image: Z00T.png

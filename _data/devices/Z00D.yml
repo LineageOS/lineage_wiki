@@ -9,7 +9,7 @@ cpu: Intel Atom
 cpu_cores: '2+2'
 cpu_freq: 1.6 GHz
 current_branch: 14.1
-dimensions: None
+dimensions: {depth: 10.9, height: 148.1, width: 71.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX544MP2
 image: Z00A.png

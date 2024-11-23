@@ -10,7 +10,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 17.1
-dimensions: None
+dimensions: {depth: 12.3, height: 129.9, width: 66.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Qualcomm Adreno 306
 image: otus.png

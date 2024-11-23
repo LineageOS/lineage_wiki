@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: None
+dimensions: {depth: 11, height: 141.5, width: 70.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll and then press <kbd>Volume Up</kbd> to select.
 gpu: Qualcomm Adreno 305
 image: thea.png

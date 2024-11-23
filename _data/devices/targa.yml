@@ -10,7 +10,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1 GHz
 current_branch: 14.1
-dimensions: None
+dimensions: {depth: 11, height: 127.5, width: 66.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 image: targa.png

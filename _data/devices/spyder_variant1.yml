@@ -10,7 +10,7 @@ cpu: Cortex-A9
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-dimensions: None
+dimensions: {depth: 7.1, height: 130.7, width: 68.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 image: spyder.png
