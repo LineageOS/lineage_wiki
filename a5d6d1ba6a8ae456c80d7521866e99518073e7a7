@@ -16,6 +16,24 @@
       "message": "i dont see any contribution by you to either comet or anything at all, yet you are the maintainer according to this commit?\n\nactual maintainer knows what to do and will do that when it\u0027s ready",
       "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5363b38b_392a0642",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34412
+      },
+      "writtenOn": "2024-11-23T23:15:37Z",
+      "side": 1,
+      "message": "Hi, Thank you for the review. I did build lineage 22 locally from aosp and lineage soirces, and I am planning to maintain the device.\n\nHowever, This is my first time trying to contribute to the custom modding scene. I did not know where to start, So I updated the wiki first.\n\nI have working lineage 22 installed in comet, I also started a thread for the same here: https://xdaforums.com/t/rom-15-pixel-9-pro-fold-comet-lineage-22-0-unofficial.4704487/\n\nLooking at your review, I think my approach is not a proper one, Can you please guide me in the right direction?",
+      "parentUuid": "176ac1eb_4d6163a0",
+      "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
