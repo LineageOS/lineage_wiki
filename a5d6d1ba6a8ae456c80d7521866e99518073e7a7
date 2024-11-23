@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "176ac1eb_4d6163a0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-11-23T22:59:25Z",
+      "side": 1,
+      "message": "i dont see any contribution by you to either comet or anything at all, yet you are the maintainer according to this commit?\n\nactual maintainer knows what to do and will do that when it\u0027s ready",
+      "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
