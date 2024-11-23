@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 4650, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.8 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.5 MP (ultrawide)'}
+  - {flash: None, info: '10 MP (front)'}
+codename: comet
+cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
+cpu_cores: '8'
+cpu_freq: 1x3.1 GHz & 3x2.6 GHz & 4x1.92 GHz
+current_branch: 22.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 10.5, height: 155.2, width: 77.1}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G715 MC7
+image: comet.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {version: '6.1'}
+maintainers: [slothiesmooth]
+name: Pixel 9 Pro Fold
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, BeiDou, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Thermometer, USB OTG]
+ram: 16 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2024-11-04
+screen: {refresh_rate: 120, resolution: '1080x2424', size: 6.3, technology: 'OLED'}
+soc: Google Tensor G4
+storage: 256/512 GB
+tree: android_device_google_comet
+type: phone
+vendor: Google
+vendor_short: google
+versions: [22.0]
+wifi: 802.11 a/b/g/n/ac/6e/7
