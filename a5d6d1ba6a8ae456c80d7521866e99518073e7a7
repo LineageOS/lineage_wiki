@@ -87,6 +87,23 @@
       "parentUuid": "f25a4bc8_35fc6a0e",
       "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bb032db6_a3491e2f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-11-24T00:54:03Z",
+      "side": 1,
+      "message": "For future reference, you have to bring up the device, or at least contribute to it to maintain it.\n\nThis device will ship with 22.0. We don\u0027t plan to for 21.0.\n\nAnd if you have a device submission to make, per the wiki, use devrel(at)lineages.org",
+      "revId": "a5d6d1ba6a8ae456c80d7521866e99518073e7a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
