@@ -20,7 +20,7 @@ maintainers: []
 models: [KIW-L24, KIW-L23, KIW-L22, KIW-L21, KIW-AL10, KIW-AL20, KIW-CL00, KIW-UL00, KIW-TL00, KIW-TL00H, KII-L05, KII-L22, KII-L21]
 name: Honor 5X
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Hall effect sensor, Light sensor, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Hall effect sensor, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding buttons until the "Honor" logo appears, then release all buttons.
 recovery_partition_name: recovery

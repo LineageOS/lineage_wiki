@@ -20,7 +20,7 @@ models: []
 name: Galaxy Note 8.0 (Wi-Fi)
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, GPS, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, GPS, Gyroscope, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the screen flashes twice, then release both.
 recovery_partition_name: recovery

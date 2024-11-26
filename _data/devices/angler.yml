@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_huawei_angler, version: '3.10'}
 maintainers: []
 name: Nexus 6P
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, Gyroscope, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Fingerprint reader, Gyroscope, NFC, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and choose Recovery Mode.
 recovery_partition_name: recovery

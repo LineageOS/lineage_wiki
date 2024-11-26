@@ -23,7 +23,7 @@ maintainers: [Linux4, haggertk]
 models: [SM-P610]
 name: Galaxy Tab S6 Lite (Wi-Fi)
 network: None
-peripherals: [Accelerometer, GPS, Gyroscope]
+peripherals: [3.5mm jack, Accelerometer, GPS, Gyroscope]
 ram: 4 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery

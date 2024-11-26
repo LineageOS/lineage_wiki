@@ -20,7 +20,7 @@ migrated_to: {codename: 'flox', version: 18.1}
 name: Nexus 7 (Wi-Fi, 2013 version)
 network: None
 no_oem_unlock_switch: true
-peripherals: None
+peripherals: [3.5mm jack]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

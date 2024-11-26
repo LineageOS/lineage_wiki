@@ -20,7 +20,7 @@ maintainers: []
 name: Xperia Z
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, GPS, Gyroscope, HDMI, Light sensor, MHL, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, GPS, Gyroscope, HDMI, Light sensor, MHL, NFC, Proximity sensor]
 ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot

@@ -19,7 +19,7 @@ maintainers: []
 migrated_to: {codename: 'Mi8937', version: 19.1}
 name: Redmi 4(X)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, IR blaster, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, IR blaster, Proximity sensor]
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

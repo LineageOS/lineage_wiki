@@ -19,7 +19,7 @@ maintainers: []
 name: Redmi 1S
 network: [2G GSM, 3G UMTS]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, Dual SIM, GPS, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, GPS, Gyroscope, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

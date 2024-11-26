@@ -20,7 +20,7 @@ maintainers: []
 models: [RMX1801]
 name: 2 Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 ram: 4/6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Use volume rockers to navigate and power button to choose between the modes.
 recovery_partition_name: recovery

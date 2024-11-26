@@ -19,7 +19,7 @@ maintainers: []
 models: [2PQ9120, 2PQ9100]
 name: One A9
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, NFC, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

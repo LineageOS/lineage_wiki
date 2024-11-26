@@ -20,7 +20,7 @@ maintainers: []
 models: [SM-G7102]
 name: Galaxy Grand 2 Duos
 network: [2G CDMA, 2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Compass, GPS, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, GPS, Proximity sensor]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.
 recovery_partition_name: recovery

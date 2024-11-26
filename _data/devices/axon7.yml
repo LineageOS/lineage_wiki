@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_zte_msm8996, version: '3.18'}
 maintainers: []
 name: 'Axon 7'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, Gyroscope, NFC, Proximity sensor]
 ram: 4 GB LPDDR4 (Standard edition) / 6 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

@@ -21,7 +21,7 @@ models: [SC-04F, SCL23]
 name: Galaxy S5 LTE (SC-04F/SCL23)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, Gesture sensor, Gyroscope, Hall effect sensor, Heart rate sensor, IR blaster, Motion Coprocessor, Proximity sensor, RGB ambient light]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Fingerprint reader, Gesture sensor, Gyroscope, Hall effect sensor, Heart rate sensor, IR blaster, Motion Coprocessor, Proximity sensor, RGB ambient light]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.

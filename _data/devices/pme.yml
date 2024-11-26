@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_htc_msm8996, version: '3.18'}
 maintainers: []
 name: '10'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Hall effect sensor, Iceview Cases]
+peripherals: [3.5mm jack, Hall effect sensor, Iceview Cases]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting. Select "Reboot to bootloader" and then in the bootloader select "Boot to recovery mode".
 recovery_partition_name: recovery

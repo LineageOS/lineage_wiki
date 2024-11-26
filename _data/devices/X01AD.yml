@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_asus_X01AD, version: '4.9'}
 maintainers: []
 name: Zenfone Max M2
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, FM radio, Fingerprint reader, GPS, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, FM radio, Fingerprint reader, GPS, Proximity sensor]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "ASUS" logo appears on the screen, then release.
 recovery_partition_name: recovery

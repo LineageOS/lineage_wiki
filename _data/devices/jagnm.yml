@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_lge_msm8226, version: '3.4'}
 maintainers: []
 name: G3 Beat
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, FM radio, GPS, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, FM radio, GPS, NFC, Proximity sensor]
 quirks: [ims]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

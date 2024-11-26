@@ -20,7 +20,7 @@ maintainers: []
 models: [XT1505, XT1506, XT1511]
 name: moto e (2015)
 network: [2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

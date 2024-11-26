@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_asus_msm8916, version: '3.10'}
 maintainers: []
 name: Zenfone 2 Selfie (1080p)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. On the next screen (fastboot mode) use <kbd>Volume Down</kbd> to scroll to "RECOVERY" and then press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

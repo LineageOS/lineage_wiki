@@ -19,7 +19,7 @@ maintainers: []
 models: [XT1924-1, XT1924-2, XT1924-4, XT1924-5]
 name: 'moto e5 plus (XT1924-1/2/4/5)'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, FM radio, Fingerprint reader, GPS, Light sensor, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, FM radio, Fingerprint reader, GPS, Light sensor, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery

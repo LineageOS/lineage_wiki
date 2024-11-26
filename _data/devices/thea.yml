@@ -19,7 +19,7 @@ maintainers: []
 models: [XT1072, XT1077, XT1078, XT1079]
 name: moto g LTE (2014)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

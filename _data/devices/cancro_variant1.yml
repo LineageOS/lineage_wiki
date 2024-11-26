@@ -19,7 +19,7 @@ maintainers: []
 name: Mi 3
 network: [2G GSM, 2G CDMA, 3G UMTS]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, GPS, Gyroscope, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

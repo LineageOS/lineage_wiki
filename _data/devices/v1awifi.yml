@@ -20,7 +20,7 @@ models: [SM-P900]
 name: Galaxy Note Pro 12.2 Wi-Fi
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, GPS, Gyroscope]
+peripherals: [3.5mm jack, Accelerometer, Compass, GPS, Gyroscope]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

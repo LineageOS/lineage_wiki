@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_lge_msm8226, version: '3.4'}
 maintainers: []
 name: G3 S
 network: [2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Compass, FM radio, GPS, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, FM radio, GPS, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery

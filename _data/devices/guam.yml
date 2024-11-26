@@ -23,7 +23,7 @@ maintainers: [Rajin Gangadharan]
 models: [XT2081-1, XT2081-2]
 name: moto e7 plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery

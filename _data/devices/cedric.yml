@@ -20,7 +20,7 @@ maintainers: []
 models: [XT1670, XT1671, XT1672, XT1675, XT1676, XT1677]
 name: moto g5
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery
