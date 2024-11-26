@@ -19,7 +19,7 @@ maintainers: []
 name: Galaxy Nexus LTE (Sprint)
 network: [2G CDMA, 3G CDMA2000, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS]
+peripherals: [Proximity sensor, Light sensor, NFC, Accelerometer, Gyroscope, Compass, GPS, 3.5mm jack]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

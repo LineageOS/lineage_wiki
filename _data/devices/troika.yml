@@ -23,7 +23,7 @@ maintainers: [Stricted, npjohnson]
 models: [XT2013-1, XT2013-2, XT2013-3, XT2013-4]
 name: one action
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, 3.5mm jack]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: boot

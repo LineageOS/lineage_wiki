@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_oneplus_msm8994, version: '3.10'}
 maintainers: []
 name: '2'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Light sensor]
+peripherals: [GPS, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Light sensor, 3.5mm jack]
 quirks: [ant, ims]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

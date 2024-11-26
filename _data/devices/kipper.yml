@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_cyanogen_msm8916, version: '3.10'}
 maintainers: []
 name: Storm
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG, 3.5mm jack]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>
 recovery_partition_name: recovery

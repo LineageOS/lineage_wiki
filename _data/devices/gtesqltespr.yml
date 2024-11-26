@@ -21,7 +21,7 @@ models: [SM-T377P]
 name: Galaxy Tab E 8.0 LTE (Sprint)
 network: [2G CDMA, 3G CDMA2000, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass]
+peripherals: [GPS, GLONASS, USB OTG, Accelerometer, Compass, 3.5mm jack]
 quirks: [ims]
 ram: 1.5 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

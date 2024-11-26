@@ -20,7 +20,7 @@ models: [P3110, P3113, P5110, P5113]
 name: Galaxy Tab 2 10.1 (Wi-Fi / Wi-Fi + IR)
 network: None
 no_oem_unlock_switch: true
-peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS]
+peripherals: [Proximity sensor, Light sensor, Accelerometer, Gyroscope, Compass, GPS, 3.5mm jack]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

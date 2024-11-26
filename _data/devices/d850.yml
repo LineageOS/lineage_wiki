@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_lge_g3, version: '3.4'}
 maintainers: []
 name: G3 (AT&T)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
+peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor, 3.5mm jack]
 quirks: [ims]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the LG logo appears, release both buttons and then hold them again. Then answer YES to erase all user data & restore default settings (If you have LineageOS Recovery installed it will not delete anything).

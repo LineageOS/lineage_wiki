@@ -20,7 +20,7 @@ models: [SM-P600]
 name: Galaxy Note 10.1 Wi-Fi (2014)
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, GPS, Gyroscope]
+peripherals: [Accelerometer, Compass, GPS, Gyroscope, 3.5mm jack]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

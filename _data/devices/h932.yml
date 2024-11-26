@@ -23,7 +23,7 @@ migrated_to: {codename: 'joan', version: 21}
 models: [H932]
 name: V30 (T-Mobile)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, 3.5mm jack]
 quirks: [fde, ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

@@ -20,7 +20,7 @@ models: [GT-N7105/N7105T, SGH-I317/I317M, SGH-T889/T889V, SHV-E250S/E250K/E250L]
 name: Galaxy Note 2 (LTE)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light]
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor, RGB ambient light, 3.5mm jack]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

@@ -20,7 +20,7 @@ maintainers: []
 models: [XT1031, XT1032, XT1033, XT1034]
 name: moto g
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000]
-peripherals: [Accelerometer, Proximity sensor, Compass]
+peripherals: [Accelerometer, Proximity sensor, Compass, 3.5mm jack]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

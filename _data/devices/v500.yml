@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_lge_v500, version: '3.4'}
 maintainers: []
 name: G Pad 8.3
 network: None
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, 3.5mm jack]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd> + <kbd>Volume Down</kbd>. When the LG logo appears, release both buttons and then hold <kbd>Power</kbd> + <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd>. When prompted to erase all user data, press <kbd>Power</kbd> to continue, and once again to confirm. Then the device will boot to recovery.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery

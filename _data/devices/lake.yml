@@ -22,7 +22,7 @@ maintainers: [jro1979, npjohnson]
 models: [XT1965-2, XT1965-3, XT1965-6, XT1965-T]
 name: moto g7 plus
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio, 3.5mm jack]
 ram: 4 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot

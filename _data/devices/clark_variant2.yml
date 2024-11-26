@@ -19,7 +19,7 @@ maintainers: []
 models: [XT1570, XT1572, XT1575]
 name: moto x style (2015)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: None
+peripherals: [3.5mm jack]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

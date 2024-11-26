@@ -25,7 +25,7 @@ kernel: {repo: android_kernel_xiaomi_sdm845, version: '4.9'}
 maintainers: [bgcngm, warabhishek]
 name: POCO F1
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio]
+peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, IR camera, FM radio, 3.5mm jack]
 ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
 recovery_partition_name: recovery

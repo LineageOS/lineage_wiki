@@ -19,7 +19,7 @@ maintainers: []
 models: [XT910]
 name: DROID RAZR MAXX (GSM)
 network: [2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
+peripherals: [Accelerometer, Proximity sensor, Compass, GPS, 3.5mm jack]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 recovery_partition_name: recovery

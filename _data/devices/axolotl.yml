@@ -21,7 +21,7 @@ kernel: {repo: android_kernel_shift_sdm845, version: '4.9'}
 maintainers: [amartinz, joey, mikeioannina]
 name: 'SHIFT6mq'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, BeiDou, Compass, DP over USB-C, Fingerprint reader, GLONASS, GPS, Galileo, Gyroscope, Light sensor, NFC, Proximity sensor, QZSS, SBAS, USB OTG]
+peripherals: [A-GPS, Accelerometer, BeiDou, Compass, DP over USB-C, Fingerprint reader, GLONASS, GPS, Galileo, Gyroscope, Light sensor, NFC, Proximity sensor, QZSS, SBAS, USB OTG, 3.5mm jack]
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

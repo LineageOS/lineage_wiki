@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_bq_msm8939, version: '3.10'}
 maintainers: []
 name: Aquaris E5 4G
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, FM radio, USB OTG]
+peripherals: [Dual SIM, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, FM radio, USB OTG, 3.5mm jack]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the device vibrates, release <kbd>Power</kbd>, wait a second, then release <kbd>Volume Up</kbd>.
 recovery_partition_name: recovery

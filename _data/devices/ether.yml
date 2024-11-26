@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_nextbit_msm8992, version: '3.10'}
 maintainers: []
 name: Robin
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall effect sensor, Proximity sensor, Fingerprint reader, NFC]
+peripherals: [A-GPS, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Hall effect sensor, Proximity sensor, Fingerprint reader, NFC, 3.5mm jack]
 quirks: [ant, ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

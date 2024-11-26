@@ -19,7 +19,7 @@ maintainers: []
 models: [SM-T713]
 name: Galaxy Tab S2 8.0 Wi-Fi (2016)
 network: None
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, 3.5mm jack]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

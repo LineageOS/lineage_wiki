@@ -21,7 +21,7 @@ maintainers: []
 models: [BKL-AL00, BKL-AL10, BKL-AL20, BKL-L09, BKL-TL10, BKL-TL20]
 name: Honor View 10
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, 3.5mm jack]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
