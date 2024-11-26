@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_xiaomi_msm8996, version: '4.4'}
 maintainers: [LuK1337]
 name: Mi 5s Plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor]
 ram: 4/6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_google_dragon, version: '3.18'}
 maintainers: []
 name: Pixel C
 network: None
-peripherals: [Accelerometer, Barometer, Compass, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Gyroscope, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen choose Recovery Mode.
 recovery_partition_name: recovery

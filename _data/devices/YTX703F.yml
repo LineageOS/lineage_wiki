@@ -21,7 +21,7 @@ maintainers: []
 models: [YTX703F]
 name: Yoga Tab 3 Plus Wi-Fi
 network: None
-peripherals: [A-GPS, Accelerometer, Audio Coprocessor, Compass, Dual front speakers, GPS, Gyroscope, Light sensor, Sensor hub]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Audio Coprocessor, Compass, Dual front speakers, GPS, Gyroscope, Light sensor, Sensor hub]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

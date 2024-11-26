@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_huawei_msm8916, version: '3.10'}
 maintainers: []
 name: Honor 4X
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Proximity sensor]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

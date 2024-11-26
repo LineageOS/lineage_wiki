@@ -26,7 +26,7 @@ maintainers: [basamaryan, danielml3]
 models: [M2101K6P]
 name: Redmi Note 10 Pro (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Ultrasound proximity sensor, USB OTG]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Ultrasound proximity sensor, USB OTG]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

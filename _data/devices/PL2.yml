@@ -21,7 +21,7 @@ maintainers: [npjohnson, theimpulson]
 models: [TA-1043, TA-1089]
 name: '6.1 (2018)'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, NFC, Proximity sensor]
 ram: 3/4 GB LPDDR4X
 recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep holding <kbd>Volume Up</kbd>.
 recovery_partition_name: boot

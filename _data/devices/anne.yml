@@ -21,7 +21,7 @@ maintainers: []
 models: [ANE-LX1, ANE-LX2, ANE-LX3, ANE-LX2J, ANE-AL00, ANE-L23, ANE-L22, ANE-L21]
 name: P20 Lite
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

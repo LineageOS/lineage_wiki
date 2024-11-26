@@ -19,7 +19,7 @@ maintainers: []
 name: Nexus 5
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: None
+peripherals: [3.5mm jack]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd>. Then press and hold <kbd>Power</kbd> until a boot menu appears. Navigate using the volume buttons and select "RECOVERY" by pressing <kbd>Power</kbd>.
 recovery_partition_name: recovery

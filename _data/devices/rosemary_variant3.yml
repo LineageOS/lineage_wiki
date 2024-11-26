@@ -26,7 +26,7 @@ kernel: {repo: android_kernel_xiaomi_mt6785, version: '4.14'}
 maintainers: []
 name: Redmi Note 10S Latin America
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Ultrasound proximity sensor, USB OTG]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, Ultrasound proximity sensor, USB OTG]
 ram: 4/6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 recovery_partition_name: boot

@@ -433,6 +433,7 @@ definitions:
     description: All valid peripherals a device can have
     items:
       enum:
+        - 3.5mm jack
         - A-GPS
         - Accelerometer
         - Audio Coprocessor

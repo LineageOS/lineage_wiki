@@ -20,7 +20,7 @@ maintainers: []
 models: [A6020a40, A6020a41, A6020a46, A6020l36, A6020l37]
 name: Vibe K5
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Dual SIM, FM radio, GPS, Gyroscope, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, FM radio, GPS, Gyroscope, Proximity sensor]
 ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and <kbd>Power</kbd>.
 recovery_partition_name: recovery

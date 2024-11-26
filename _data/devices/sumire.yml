@@ -21,7 +21,7 @@ models: [E6653, E6683, E6633]
 name: Xperia Z5
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Light sensor, MHL HDMI, NFC, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Light sensor, MHL HDMI, NFC, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered down, hold the <kbd>Volume Down</kbd> and <kbd>Power</kbd> buttons.
 recovery_partition_name: recovery

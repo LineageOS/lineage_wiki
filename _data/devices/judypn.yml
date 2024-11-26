@@ -26,7 +26,7 @@ maintainers: [Tuan Anh]
 models: [LM-V405QA7, LM-V405UA, LM-V405UA0, LM-V405EBW, LM-V405EAW, LM-V409N]
 name: V40 ThinQ
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

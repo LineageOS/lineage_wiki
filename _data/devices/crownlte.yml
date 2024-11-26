@@ -22,7 +22,7 @@ maintainers: [baddar90]
 models: [SM-N960F, SM-N960F/DS, SM-N960N]
 name: Galaxy Note 9
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, Gesture sensor, Gyroscope, Hall effect sensor, Heart rate sensor, Motion Coprocessor, Proximity sensor, RGB ambient light]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Fingerprint reader, Gesture sensor, Gyroscope, Hall effect sensor, Heart rate sensor, Motion Coprocessor, Proximity sensor, RGB ambient light]
 quirks: [ims]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Bixby</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.

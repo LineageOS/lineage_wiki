@@ -21,7 +21,7 @@ models: [SM-N900T, SM-N900V, SM-N900W8]
 name: Galaxy Note 3 LTE (N900T/V/W8)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Barometer, Compass, GLONASS, GPS, Gyroscope, Hygrometer, NFC, Proximity sensor, Thermometer]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, GLONASS, GPS, Gyroscope, Hygrometer, NFC, Proximity sensor, Thermometer]
 quirks: [ims, nfc]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.

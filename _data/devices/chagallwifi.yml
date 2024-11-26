@@ -20,7 +20,7 @@ models: [SM-T800]
 name: Galaxy Tab S 10.5 Wi-Fi
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

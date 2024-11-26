@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_ark_msm8916, version: '3.10'}
 maintainers: []
 name: Benefit A3
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Dual SIM, GPS, Proximity sensor]
+peripherals: [3.5mm jack, Accelerometer, Dual SIM, GPS, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

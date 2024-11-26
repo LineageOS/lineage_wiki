@@ -22,7 +22,7 @@ maintainers: [lifehackerhansol, SGCMarkus]
 models: [H931, H933, LS998, V300L, V300K, V300S, VS996]
 name: V30 (Other)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Barometer, Color spectrum sensor, Compass, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Color spectrum sensor, Compass, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [fde, ims]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

@@ -22,7 +22,7 @@ models: [SGP511, SGP512]
 name: Xperia Tablet Z2 Wi-Fi
 network: None
 no_oem_unlock_switch: true
-peripherals: [A-GPS, Accelerometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, MHL, NFC, USB OTG]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual front speakers, FM radio, GLONASS, GPS, Gyroscope, MHL, NFC, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the device vibrates, then release.
 recovery_partition_name: recovery

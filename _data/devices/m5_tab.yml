@@ -17,7 +17,7 @@ kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [npjohnson, stricted]
 name: M5 (Tablet)
 network: None
-peripherals: None
+peripherals: [3.5mm jack]
 ram: 4 GB
 recovery_partition_name: recovery
 recovery_reboot: none

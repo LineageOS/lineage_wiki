@@ -20,7 +20,7 @@ maintainers: []
 name: Shield Tablet
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: None
+peripherals: [3.5mm jack]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> and tap <kbd>Power</kbd>, then release once menu is displayed. Tap <kbd>Volume Down</kbd> until recovery is selected. Press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

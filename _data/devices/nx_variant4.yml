@@ -18,7 +18,7 @@ models: [frig]
 name: Switch OLED [Android TV]
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Dock, Gyroscope, Joycons, Light sensor, Sensor hub]
+peripherals: [3.5mm jack, Accelerometer, Dock, Gyroscope, Joycons, Light sensor, Sensor hub]
 quirks: [fde]
 ram: 4 GB
 recovery_boot: Boot to Hekate, then select "More Configs", then hold <kbd>Volume Up</kbd> and select the `LineageOS` entry.
