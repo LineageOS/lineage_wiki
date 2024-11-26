@@ -20,7 +20,7 @@ maintainers: []
 name: Xperia Tablet Z Wi-Fi
 network: None
 no_oem_unlock_switch: true
-peripherals: [MHL, HDMI, GPS, NFC, Accelerometer, Compass, Gyroscope, Light sensor, Proximity sensor]
+peripherals: [Accelerometer, Compass, GPS, Gyroscope, HDMI, Light sensor, MHL, NFC, Proximity sensor]
 ram: 2 GB LPDDR2
 recovery_boot: On boot, press <kbd>Volume Down</kbd> when the LEDs start lighting up.<br /><b>Second Recovery:</b> To boot the FOTA Recovery, press <kbd>Volume Up</kbd> instead.
 recovery_partition_name: boot

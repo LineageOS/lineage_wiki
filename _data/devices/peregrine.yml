@@ -19,7 +19,7 @@ maintainers: []
 models: [XT1039, XT1040, XT1042, XT1045]
 name: moto g 4G
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass]
+peripherals: [Accelerometer, Compass, Gyroscope, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

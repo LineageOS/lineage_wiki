@@ -20,7 +20,7 @@ maintainers: []
 models: [XT894]
 name: DROID 4
 network: [2G CDMA, 3G CDMA2000, 4G LTE]
-peripherals: [Accelerometer, Proximity sensor, Compass, GPS, HDMI, FM radio]
+peripherals: [Accelerometer, Compass, FM radio, GPS, HDMI, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, press <kbd>Power</kbd>. At the SafeStrap splash screen press Menu within 10 seconds.
 recovery_partition_name: recovery

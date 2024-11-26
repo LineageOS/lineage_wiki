@@ -21,7 +21,7 @@ maintainers: [SyberHexen, deadman96385, erfanoabdi, npjohnson]
 models: [XT1952-1, XT1952-2, XT1952-3]
 name: moto g7 play
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, GPS, FM radio]
+peripherals: [Accelerometer, Compass, FM radio, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Sensor hub]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot

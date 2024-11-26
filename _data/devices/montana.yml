@@ -20,7 +20,7 @@ maintainers: []
 models: [XT1790, XT1791, XT1792, XT1793, XT1794, XT1795, XT1797, XT1799-2]
 name: moto g5s
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, FM radio, Light sensor]
+peripherals: [Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, NFC, Proximity sensor]
 ram: 2/3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery

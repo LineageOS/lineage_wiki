@@ -20,7 +20,7 @@ models: [SM-T805]
 name: Galaxy Tab S 10.5 LTE
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Compass, GPS, Gyroscope, Fingerprint reader]
+peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

@@ -19,7 +19,7 @@ maintainers: []
 models: [D410, D410hn, D405, D405n, D415]
 name: L90
 network: [2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Proximity sensor, Compass, NFC]
+peripherals: [Accelerometer, Compass, NFC, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. When the LG logo appears release the buttons and then hold them again. Choose 'Yes' twice to confirm.
 recovery_partition: /dev/block/platform/msm_sdcc.1/by-name/recovery

@@ -24,7 +24,7 @@ maintainers: [npjohnson]
 models: [XT1929-15, XT1929-17]
 name: moto z3
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor, Moto Mods]
+peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, Hall effect sensor, Light sensor, Moto Mods, NFC, Proximity sensor, Sensor hub]
 quirks: [aux_cameras, ims]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.

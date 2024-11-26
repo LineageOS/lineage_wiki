@@ -24,7 +24,7 @@ maintainers: [William]
 models: [XT2067-2]
 name: one fusion+ (India)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, GPS]
+peripherals: [Accelerometer, Dual SIM, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

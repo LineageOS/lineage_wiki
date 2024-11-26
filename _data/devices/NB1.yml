@@ -23,7 +23,7 @@ maintainers: [Tuan Anh]
 models: [TA-1004, TA-1012, TA-1052]
 name: '8'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Light sensor, USB OTG, FM radio]
+peripherals: [Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off and plugged into a USB port, hold <kbd>Volume Up</kbd>. The "Powered by Android" logo will appear on the screen, keep holding it until you reach recovery mode.
 recovery_partition_name: boot

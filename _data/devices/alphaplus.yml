@@ -25,7 +25,7 @@ maintainers: [Igor121]
 models: [LM-G820N]
 name: G8 ThinQ (Korea)
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
+peripherals: [Accelerometer, Barometer, Color spectrum sensor, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 6 GB
 recovery_boot: Run `adb reboot recovery`.

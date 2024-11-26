@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_xiaomi_msm8996, version: '4.4'}
 maintainers: [bgcngm, ikeramat]
 name: Mi 5
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, IR blaster, GPS]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor]
 ram: 3 GB LPDDR4 (Standard and Pro editions) / 4 GB LPDDR4 (Exclusive edition)
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

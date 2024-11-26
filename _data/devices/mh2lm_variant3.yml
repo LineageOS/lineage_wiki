@@ -24,7 +24,7 @@ maintainers: [lifehackerhansol]
 models: [LM-V510N]
 name: V50S ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
+peripherals: [Accelerometer, Barometer, Color spectrum sensor, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 8 GB
 recovery_boot: Run `adb reboot recovery`.

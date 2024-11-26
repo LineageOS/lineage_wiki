@@ -21,7 +21,7 @@ maintainers: []
 models: [XT897]
 name: PHOTON Q 4G LTE
 network: [2G CDMA, 3G CDMA2000, 4G LTE]
-peripherals: [Hardware keyboard, Accelerometer, Compass, GPS, NFC, Light sensor, Proximity sensor]
+peripherals: [Accelerometer, Compass, GPS, Hardware keyboard, Light sensor, NFC, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

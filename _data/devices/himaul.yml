@@ -18,7 +18,7 @@ kernel: {repo: android_kernel_htc_msm8994, version: '3.10'}
 maintainers: []
 name: One M9 (GSM)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual front speakers, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, NFC, IR blaster]
+peripherals: [Accelerometer, Compass, Dual front speakers, GPS, Gyroscope, Hall effect sensor, IR blaster, NFC, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the bootloader appears, then release the buttons. Use the volume buttons to scroll to "RECOVERY" and press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

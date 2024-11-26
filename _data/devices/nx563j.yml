@@ -20,7 +20,7 @@ kernel: {repo: android_kernel_nubia_msm8998, version: '4.4'}
 maintainers: []
 name: 'Z17'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, Hall effect sensor, Sensor hub, Light sensor]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Sensor hub]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

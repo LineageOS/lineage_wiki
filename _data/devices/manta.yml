@@ -19,7 +19,7 @@ maintainers: []
 name: Nexus 10
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Hall effect sensor, Barometer, Dual side NFC]
+peripherals: [Accelerometer, Barometer, Compass, Dual side NFC, GPS, Gyroscope, Hall effect sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

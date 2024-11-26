@@ -22,7 +22,7 @@ maintainers: [chrmhoffmann]
 models: [SM-T500]
 name: 'Galaxy Tab A7 10.4 2020 (Wi-Fi)'
 network: None
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Light sensor, USB OTG]
+peripherals: [Accelerometer, Compass, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
