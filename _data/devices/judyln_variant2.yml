@@ -24,7 +24,7 @@ maintainers: [lifehackerhansol]
 models: [LM-G710EAW]
 name: G7+ ThinQ
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Light sensor, GPS, Mobility DisplayPort (MyDP), NFC, USB OTG, FM radio, Dual SIM]
+peripherals: [Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

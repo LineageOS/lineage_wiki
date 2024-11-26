@@ -23,7 +23,7 @@ kernel: {repo: android_kernel_xiaomi_sdm845, version: '4.9'}
 maintainers: [bgcngm]
 name: Mi 8 Explorer Edition
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Barometer, Gyroscope, Hall effect sensor, Light sensor, Proximity sensor, Compass, Dual-frequency GNSS, IR camera]
+peripherals: [Accelerometer, Barometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Gyroscope, Hall effect sensor, IR camera, Light sensor, Proximity sensor]
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Mi 8" logo appears on the screen, then release.
 recovery_partition_name: recovery

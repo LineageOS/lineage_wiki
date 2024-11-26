@@ -20,7 +20,7 @@ maintainers: ["kardebayan"]
 models: [G]
 name: G
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [GPS, Accelerometer, Dual SIM, Dual speakers, Fingerprint reader, Gyroscope, Light sensor, USB OTG]
+peripherals: [Accelerometer, Dual SIM, Dual speakers, Fingerprint reader, GPS, Gyroscope, Light sensor, USB OTG]
 ram: 3/4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

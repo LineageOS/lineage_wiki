@@ -25,7 +25,7 @@ maintainers: [sgcmarkus, themard]
 models: [XT2301-5]
 name: moto X40
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual speakers, Dual SIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
 ram: 12 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery

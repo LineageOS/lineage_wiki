@@ -20,7 +20,7 @@ maintainers: []
 name: Xperia Z4 Tablet WiFi
 network: None
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Light sensor, GPS]
+peripherals: [Accelerometer, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

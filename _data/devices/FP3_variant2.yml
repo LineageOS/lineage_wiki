@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_fairphone_sdm632, version: '4.9'}
 maintainers: [teamb58, dk1978]
 name: '3+'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC, GPS, Galileo, GLONASS, Light sensor, RGB ambient light, Dual SIM]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, RGB ambient light]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 recovery_partition_name: boot

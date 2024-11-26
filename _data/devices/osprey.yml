@@ -21,7 +21,7 @@ maintainers: []
 models: [XT1540, XT1541, XT1542, XT1543, XT1544, XT1548, XT1550]
 name: moto g (2015)
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE]
-peripherals: [Accelerometer, Proximity sensor, Compass]
+peripherals: [Accelerometer, Compass, Proximity sensor]
 ram: 1/2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Power</kbd> to select.
 recovery_partition_name: recovery

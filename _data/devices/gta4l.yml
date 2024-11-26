@@ -22,7 +22,7 @@ maintainers: [chrmhoffmann]
 models: [SM-T505, SM-T505C, SM-T505N, SM-T507]
 name: 'Galaxy Tab A7 10.4 2020 (LTE)'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, Light sensor, USB OTG]
+peripherals: [Accelerometer, Compass, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.

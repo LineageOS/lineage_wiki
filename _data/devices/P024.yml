@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_asus_P024, version: '3.10'}
 maintainers: []
 name: ZenPad 8.0 (Z380KL)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Proximity sensor, Compass, GPS]
+peripherals: [Accelerometer, Compass, GPS, Proximity sensor]
 ram: 1/2 GB
 recovery_boot: ''
 recovery_partition_name: recovery

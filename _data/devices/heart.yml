@@ -24,7 +24,7 @@ maintainers: [themard, optionaltoast]
 models: [L78032]
 name: Z5 Pro GT
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, GPS, NFC]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, Light sensor, NFC, Proximity sensor]
 ram: 6/8/12 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then select recovery mode by pressing volume button, press the power button to reboot to recovery.
 recovery_partition_name: recovery

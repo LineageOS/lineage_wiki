@@ -21,7 +21,7 @@ models: [SM-G900F, SM-G900M, SM-G900R4, SM-G900R7, SM-G900T, SM-G900T3, SM-G900V
 name: Galaxy S5 LTE (G900F/M/R4/R7/T/T3/V/W8)
 network: [2G GSM, 3G UMTS, 4G LTE]
 no_oem_unlock_switch: true
-peripherals: [Fingerprint reader, Heart rate sensor, Motion Coprocessor, Accelerometer, Gesture sensor, Gyroscope, Proximity sensor, Compass, Barometer, Hall effect sensor, RGB ambient light, IR blaster]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, Gesture sensor, Gyroscope, Hall effect sensor, Heart rate sensor, IR blaster, Motion Coprocessor, Proximity sensor, RGB ambient light]
 quirks: [ims]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. When the blue text appears, release the buttons.

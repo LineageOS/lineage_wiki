@@ -18,7 +18,7 @@ maintainers: []
 models: [XT1021, XT1022, XT1023]
 name: moto e
 network: [2G GSM, 3G UMTS]
-peripherals: [Accelerometer, Proximity sensor, Compass]
+peripherals: [Accelerometer, Compass, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. On the next screen use <kbd>Volume Down</kbd> to scroll to recovery and then press <kbd>Volume Up</kbd> to select.
 recovery_partition_name: recovery

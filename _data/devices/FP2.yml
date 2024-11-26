@@ -20,7 +20,7 @@ maintainers: []
 models: [FP2]
 name: '2'
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Compass, Accelerometer, Gyroscope, Light sensor, Dual SIM, FM radio, GPS, GLONASS, Proximity sensor]
+peripherals: [Accelerometer, Compass, Dual SIM, FM radio, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Release when boot logo appears.
 recovery_partition_name: recovery

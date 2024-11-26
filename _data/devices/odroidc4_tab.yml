@@ -17,7 +17,7 @@ kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [bgcngm, npjohnson, stricted]
 name: ODROID-C4 (Tablet)
 network: None
-peripherals: [IR blaster, HDMI, RJ45 Ethernet port, USB OTG]
+peripherals: [HDMI, IR blaster, RJ45 Ethernet port, USB OTG]
 ram: 4 GB
 recovery_partition_name: recovery
 recovery_reboot: none

@@ -21,7 +21,7 @@ maintainers: []
 models: [FIG-LX1, FIG-LA1, FIG-LX2, FIG-LX3, FIG-TL10, FIG-AL10]
 name: P Smart
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, GPS]
+peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
 ram: 4 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

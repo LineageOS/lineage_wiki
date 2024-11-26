@@ -26,7 +26,7 @@ maintainers: [danascape]
 models: [BE2029, BE2025, BE2026, BE2028]
 name: Nord N10
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Light sensor, Proximity sensor, Compass, NFC, GPS]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, Light sensor, NFC, Proximity sensor]
 ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

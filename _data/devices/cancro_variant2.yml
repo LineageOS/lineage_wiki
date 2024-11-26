@@ -19,7 +19,7 @@ maintainers: []
 name: Mi 4
 network: [2G GSM, 2G CDMA, 3G UMTS]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, GPS]
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, Proximity sensor]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery

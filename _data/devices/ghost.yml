@@ -20,7 +20,7 @@ maintainers: []
 models: [xt1052, xt1053, xt1055, xt1056, xt1058, xt1060]
 name: moto x
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Motion Coprocessor, Audio Coprocessor, Accelerometer, Gyroscope, Proximity sensor, Compass, Hall effect sensor, GPS, NFC]
+peripherals: [Accelerometer, Audio Coprocessor, Compass, GPS, Gyroscope, Hall effect sensor, Motion Coprocessor, NFC, Proximity sensor]
 ram: 2 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> and select recovery.
 recovery_partition_name: recovery

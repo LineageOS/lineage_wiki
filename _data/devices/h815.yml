@@ -19,7 +19,7 @@ kernel: {repo: android_kernel_lge_msm8992, version: '3.10'}
 maintainers: []
 name: G4 (International)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, Barometer, Color spectrum sensor, FM radio]
+peripherals: [Accelerometer, Barometer, Color spectrum sensor, Compass, FM radio, Gyroscope, Proximity sensor]
 quirks: [ims]
 ram: 3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.

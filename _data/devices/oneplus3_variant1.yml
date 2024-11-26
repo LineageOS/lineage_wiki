@@ -19,7 +19,7 @@ maintainers: []
 models: [A3000, A3003]
 name: '3'
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Dual SIM, Fingerprint reader, Accelerometer, Gyroscope, Proximity sensor, Compass, NFC]
+peripherals: [Accelerometer, Compass, Dual SIM, Fingerprint reader, Gyroscope, NFC, Proximity sensor]
 ram: 6 GB LPDDR4
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

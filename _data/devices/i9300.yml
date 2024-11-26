@@ -21,7 +21,7 @@ models: [GT-I9300, GT-I9300T]
 name: Galaxy S III (International)
 network: [2G GSM, 3G UMTS]
 no_oem_unlock_switch: true
-peripherals: [Accelerometer, Gyroscope, Proximity sensor, Compass, GPS, NFC, Barometer]
+peripherals: [Accelerometer, Barometer, Compass, GPS, Gyroscope, NFC, Proximity sensor]
 ram: 1 GB
 recovery_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
