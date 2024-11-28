@@ -16,6 +16,24 @@
       "message": "let me know when to merge both.",
       "revId": "9f8c3eedf49c8685994fa5f9f34a50c07fe8911c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "03865cec_e20aa042",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 14962
+      },
+      "writtenOn": "2024-11-28T12:48:31Z",
+      "side": 1,
+      "message": "I hope to merge them this weekend, before shipping 22 branch.",
+      "parentUuid": "d3de3270_2c2235eb",
+      "revId": "9f8c3eedf49c8685994fa5f9f34a50c07fe8911c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
