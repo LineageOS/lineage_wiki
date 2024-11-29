@@ -29,11 +29,13 @@ Do **not** continue after something fails!
 {%- endfor %}
 {%- endif %}
 5. Boot your device with the stock OS at least once and check every functionality.
-{%- if device.type == "phone" %}
-{%- unless device.quirks contains "ims" %}
-    {% include alerts/warning.html content="Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on LineageOS either! Additionally, some devices require that VoLTE/VoWiFi be utilized once on stock to provision IMS." %}
-{%- endunless %}
-{%- endif %}
+	{%- if device.type == "phone" %}
+	{%- unless device.quirks contains "ims" %}
+	- **Important**: Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on LineageOS either! Some devices require that VoLTE/VoWiFi be utilized once on stock OS to provision IMS (IP Multimedia Subsystem).
+	{%- endunless %}
+	{%- endif %}
+5. If you haven't done so already, back up all your personal data from your device. Installing LineageOS will require you to delete all data in a later step.
+
 6. LineageOS is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) you are installing this at your own risk!
 
 {%- if device.before_install %}
@@ -51,30 +53,10 @@ The current bootloader version can be checked by running the command `getprop ro
 {% include alerts/warning.html content=bootloader %}
 {%- endif %}
 
-{%- if device.before_install.instructions == "needs_specific_android_fw" %}
-## Checking the correct firmware
 
-Installation on your device requires a specific [firmware]({{ "glossary/#firmware" | absolute_url }}){: .glossary} version to be installed before you continue.
 
-{%- if device.before_install.version %}
-- Firmware refers to a device-specific set of images that are included in, and updated by the stock OS
-- LineageOS builds for this device require an Android {{ device.before_install.version }} version of the [stock OS]({{ "glossary/#stock-rom" | absolute_url }}){: .glossary} to be installed prior to following the installation guide
-- Please ensure that you are checking the **Android** version, and not the vendor OS version
-{%- endif %}
-- Being on another custom ROM, including unofficial builds of the same version of LineageOS, does not ensure that this requirement has been fulfilled
-- Please re-read this section as many times as necessary to fully understand the requirements
-
-{%- capture content %}
-{%- if device.before_install.version %}
-If you are unsure what firmware version you are currently on, we strongly recommend returning to the corresponding stock OS before following the installation guide!
-{%- elsif device.before_install_device_variants %}
-If you are unsure what firmware version you are currently on, we strongly recommend following [this guide]({{ device | device_link: "/fw_update" | relative_url }}), just in case!
-{%- endif %}
-{%- endcapture %}
-{% include alerts/note.html content=content %}
-
-Failing to install the correct firmware version prior to installation may result in failure to install LineageOS, unexpected crashes post-installation,
-or permanent damage to your device!
+**Important**: Failing to install the correct {%- if device.before_install.version %}
+Android {%- else %} firmware {%- endif %} version before continuing this installation may result in failure to install LineageOS, unexpected crashes post-installation, or permanent damage to your device!
 {%- endif %}
 
 {%- if device.install_method %}
