@@ -24,10 +24,15 @@ This device does not have more than one version so far, therefore we can't provi
 3. You are aware of this device's [known quirks]({{ site.baseurl | append: link }})
 {%- endif %}
 
+
+
 {%- if device.before_install.instructions == "needs_specific_android_fw" %}
 {% unless device.before_install.ships_fw %}
-{% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}
-{% include {{ path }} %}
+{% capture content -%}
+Before following this guide make sure you have **LineageOS {{ device.before_install.lineage_version }}** or newer installed!
+{%- endcapture %}
+{% include alerts/warning.html content=content %}
+
 {% endunless %}
 {%- endif %}
 
