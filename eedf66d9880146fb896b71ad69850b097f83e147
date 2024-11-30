@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eab9c72a_67b92102",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-11-30T09:55:11Z",
+      "side": 1,
+      "message": "Please split this into bullet points and add a simplified description of it in the first line. The description should be separated by one empty line. Thanks.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 148
+      },
+      "revId": "eedf66d9880146fb896b71ad69850b097f83e147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
