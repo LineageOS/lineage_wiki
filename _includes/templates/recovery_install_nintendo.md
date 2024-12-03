@@ -11,7 +11,7 @@ Configuration 1:
 
 Configuration 2:
 * A hard-modded (often called "ModChipped") Switch v1 / v2 / Lite / OLED with your preferred JoyCons attached during installation
-* Hekate `v6.1.0` or newer on your SD Card, and loaded by your ModChip
+* The latest Hekate on your SD Card, and loaded by your ModChip
 
 Additionally, we support two installation locations:
 * SD Card
