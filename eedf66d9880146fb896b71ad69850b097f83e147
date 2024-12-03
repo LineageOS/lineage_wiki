@@ -22,6 +22,30 @@
       },
       "revId": "eedf66d9880146fb896b71ad69850b097f83e147",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc00ea69_ffd35ab4",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-03T07:22:52Z",
+      "side": 1,
+      "message": "Honestly I am not trying to be strict, but there is no need to use pronouns that refer to oneself in a commit message. Think of you writing something scientific, refer back to the language in Science textbooks. You may keep your version of the commit message as is but just a small comment.",
+      "parentUuid": "eab9c72a_67b92102",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 148
+      },
+      "revId": "eedf66d9880146fb896b71ad69850b097f83e147",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
