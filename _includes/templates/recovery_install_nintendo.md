@@ -72,4 +72,4 @@ Both pairing data are HOS based!
 ```
     {% include alerts/note.html content="You must have booted HOS (the stock Nintendo Switch OS) with your preferred JoyCons attached prior to doing this, or it will likely not succeed. You may boot to HOS at this point if necessary, and re-run this specific step after reboot." %}
 10. When the process is complete, navigate to the Hekate's main menu by clicking "X Close" in the top right of the screen. Then select "More Configs", hold the Volume Up button, and select the "LineageOS" option to boot into recovery. Do not release the Volume Up button until you see the LineageOS splash screen.
-    {% include alerts/note.html content="If you followed every step correctly, you will see 'USB3 Enabled' in the top left of the LineageOS splash screen. If it is not present please start again and follow the guide more carefully." %}
+    {% include alerts/note.html content="If any messages display in the top left of the LineageOS splash screen, please start again and follow the guide more carefully." %}
