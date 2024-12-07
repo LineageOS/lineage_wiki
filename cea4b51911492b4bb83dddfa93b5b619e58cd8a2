@@ -16,6 +16,24 @@
       "message": "does that mean you can upgrade from 19 to 21?",
       "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "08738deb_eced320b",
+        "filename": "_data/devices/gauguin_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 32442
+      },
+      "writtenOn": "2024-12-07T14:37:53Z",
+      "side": 0,
+      "message": "19-\u003e20 required clean flash, not 20-\u003e21.\n\nformat_on_upgrade: 20, was done to make user who were upgrading from 19 to 20 at that time.",
+      "parentUuid": "d7fa07bb_56c7bde4",
+      "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
