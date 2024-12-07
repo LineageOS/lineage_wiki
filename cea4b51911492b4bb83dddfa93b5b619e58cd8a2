@@ -142,6 +142,24 @@
       "parentUuid": "3bf140d2_8aaf8d3c",
       "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f428ec7_bf7008f0",
+        "filename": "_data/devices/gauguin_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-07T14:49:24Z",
+      "side": 0,
+      "message": "yeah",
+      "parentUuid": "86a0ba01_bfe60d89",
+      "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
