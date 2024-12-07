@@ -106,6 +106,24 @@
       "parentUuid": "49e0a9d9_6b1a69e9",
       "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bf140d2_8aaf8d3c",
+        "filename": "_data/devices/gauguin_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-07T14:45:24Z",
+      "side": 0,
+      "message": "sorry, format_on_upgrade: 21 means that upgrading from \u003c21 to 21+ requires wipe, but you want to only wipe if upgrading from \u003c20 to 20+.",
+      "parentUuid": "05057f62_3db77c7d",
+      "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
