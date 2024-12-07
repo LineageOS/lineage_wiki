@@ -52,6 +52,24 @@
       "parentUuid": "08738deb_eced320b",
       "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e0646ab3_5273901c",
+        "filename": "_data/devices/gauguin_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 32442
+      },
+      "writtenOn": "2024-12-07T14:39:44Z",
+      "side": 0,
+      "message": "to make user clean flash while upgrading to 20*",
+      "parentUuid": "08738deb_eced320b",
+      "revId": "cea4b51911492b4bb83dddfa93b5b619e58cd8a2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
