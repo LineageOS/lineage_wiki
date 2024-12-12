@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ecbb8733_dc0c5025",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-12-12T18:51:58Z",
+      "side": 1,
+      "message": "so https://review.lineageos.org/q/topic:%22atv-emu-x86_64%22 should be picked to 21 as well?",
+      "revId": "c804cc9e6a631d8bcb2ad694f47a1130e1f1c646",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
