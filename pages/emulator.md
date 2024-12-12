@@ -59,7 +59,7 @@ breakfast <target> eng
 |-------------------------------|--------------|--------------------|------------------------------------|
 | Phone                         | Emulator     | `sdk_phone_<arch>` | `x86` and `x86_64`                 |
 | Phone                         | GSI          | `gsi_<arch>`       | `arm`, `arm64`, `x86` and `x86_64` |
-| TV                            | Emulator     | `sdk_tv_<arch>`    | `arm` and `x86`                    |
+| TV                            | Emulator     | `sdk_tv_<arch>`    | `arm`, `x86` and `x86_64`                    |
 | TV                            | GSI          | `gsi_tv_<arch>`    | `arm`, `arm64`, `x86` and `x86_64` |
 | Automotive                    | Emulator     | `sdk_car_<arch>`   | `arm64` and `x86_64`               |
 | Automotive                    | GSI          | `gsi_car_<arch>`   | `arm64` and `x86_64`               |
