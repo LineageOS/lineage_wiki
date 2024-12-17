@@ -21,7 +21,11 @@ Method 2:
 
    {% include alerts/warning.html content="Follow this method only if the OTA downgrade package mentioned in Method 1 is not present for your variant" %}
 1. Unlock bootloader
+{%- if device.maintainers != empty %}
 2. Download the following files from [here](https://download.lineageos.org/devices/{{ device.codename }}).
+{%- else %}
+2. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The files will be built as part of it!
+{%- endif %}
     * boot.img
     * dtbo.img
     * vendor_boot.img
