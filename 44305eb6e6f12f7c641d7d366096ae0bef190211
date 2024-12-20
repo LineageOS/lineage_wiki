@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bcec8355_65edb1cb",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:15:58Z",
+      "side": 1,
+      "message": "This is incomplete.",
+      "range": {
+        "startLine": 59,
+        "startChar": 190,
+        "endLine": 59,
+        "endChar": 202
+      },
+      "revId": "44305eb6e6f12f7c641d7d366096ae0bef190211",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
