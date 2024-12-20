@@ -261,9 +261,9 @@ definitions:
   soc_data:
     enum:
       - Amlogic S905D3G
-      - Amlogic S905x2
-      - Amlogic S905y2
-      - Amlogic S905y3
+      - Amlogic S905X2
+      - Amlogic S905Y2
+      - Amlogic S905X3
       - Google Tensor GS101
       - Google Tensor GS201
       - Google Tensor G3

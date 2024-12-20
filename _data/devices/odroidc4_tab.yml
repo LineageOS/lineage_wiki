@@ -24,7 +24,7 @@ recovery_reboot: none
 release: 2020-12-01
 screen: None
 sdcard: {size_max: '2 TB'}
-soc: Amlogic S905y3
+soc: Amlogic S905X3
 storage: 16 GB
 tree: android_device_hardkernel_odroidc4
 type: Devkit
