@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c4b8498_a59a5ad0",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:09:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e915e958_eba89f60",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ed59f1ef_22de00ac",
@@ -31,6 +49,24 @@
       "writtenOn": "2024-12-20T09:16:39Z",
       "side": 1,
       "message": "missing space before !\u003d",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d9a6a9a9_66630e0e",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:09:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ed59f1ef_22de00ac",
       "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "082b77fc_17eb863b",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:09:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3af2a7d9_37ba88ff",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "50ee0ea4_1e2f1321",
@@ -69,6 +123,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4c8751f_8b901df1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:09:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "50ee0ea4_1e2f1321",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1f5deba9_3ab44b5a",
@@ -82,6 +154,24 @@
       "writtenOn": "2024-12-20T09:16:39Z",
       "side": 1,
       "message": "stray space",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d46d013b_dc0f9c30",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:09:45Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1f5deba9_3ab44b5a",
       "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
