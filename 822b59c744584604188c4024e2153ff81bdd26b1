@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a02c0f19_957fe076",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:28:18Z",
+      "side": 1,
+      "message": "Consistency of bold text usage.\nThis is different to the ones in L75 and L95",
+      "range": {
+        "startLine": 34,
+        "startChar": 3,
+        "endLine": 34,
+        "endChar": 17
+      },
+      "revId": "822b59c744584604188c4024e2153ff81bdd26b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
