@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "63ecfa09_d9ff237e",
+        "filename": "_includes/templates/device_specific/before_install_us996.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-20T17:30:11Z",
+      "side": 0,
+      "message": "One, this needs to occur to all devices under the same path.\nTwo, there needs to be some proper way to handle the installation of device specific fw in device_install.md",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 83
+      },
+      "revId": "98437496aa438d31de586e18cfac50be4315c651",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
