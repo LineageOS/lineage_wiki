@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e915e958_eba89f60",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "LineageOS",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed59f1ef_22de00ac",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 41,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "missing space before !\u003d",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3af2a7d9_37ba88ff",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "unsure if i like that model specific part here",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "50ee0ea4_1e2f1321",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "stray space",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1f5deba9_3ab44b5a",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "stray space",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e5068cd0_3b293bea",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "the guide had conditionals, those are missing here",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c141bf2d_fe272c29",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-20T09:16:39Z",
+      "side": 1,
+      "message": "can\u0027t this be a markdown table? i know it wasn\u0027t before, but since you\u0027re already changing it..",
+      "revId": "fc756d5073426f67055d34764b840cc77fcf281e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
