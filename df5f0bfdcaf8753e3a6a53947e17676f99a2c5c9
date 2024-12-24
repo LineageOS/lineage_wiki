@@ -16,6 +16,24 @@
       "message": "anyways it doesn\u0027t boot on Intel Celeron G1840, boots fine on i3 4th gen and up, they all are LGA1150 CPUs",
       "revId": "df5f0bfdcaf8753e3a6a53947e17676f99a2c5c9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31d3a89c_588000fa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2024-12-24T16:02:59Z",
+      "side": 1,
+      "message": "I should\u0027ve said \"in LGA1150 family\" instead... because some LGA1366 and LGA1155 CPUs boots it just fine too, maybe Intel Celeron series have lack of something important",
+      "parentUuid": "b03a7251_11e2b89a",
+      "revId": "df5f0bfdcaf8753e3a6a53947e17676f99a2c5c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
