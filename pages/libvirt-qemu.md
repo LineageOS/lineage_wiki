@@ -61,7 +61,7 @@ breakfast <target>
 | virtio_x86_64_tv  | x86 (64-bit only)     | Android TV |
 {: .table }
 
-{% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports the SSE 4.2 instruction set, otherwise it will not boot." %}
+{% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports the SSE 4.2 instruction set and AES New Instructions, otherwise it will not boot." %}
 
 {% include alerts/important.html content="If you wish to run the virtual machine on ARMv9 devices (with hardware acceleration), you must select the `virtio_arm64only` target. The `virtio_arm64` target will not boot on these processor variants, as they don't support 32-bit mode." %}
 
