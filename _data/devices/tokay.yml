@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 4700, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (ultrawide)'}
+  - {flash: None, info: '10.5 MP (front)'}
+codename: tokay
+cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
+cpu_cores: '8'
+cpu_freq: 1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz
+current_branch: 22.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.5, height: 152.8, width: 72}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G715 MC7
+image: tokay.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {version: '6.1'}
+maintainers: [mikeioannina]
+name: Pixel 9
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, QZSS, USB OTG]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2024-08-22
+screen: {refresh_rate: 120, resolution: '1080x2424', size: 6.3, technology: 'OLED'}
+soc: Google Tensor G4
+storage: 128/256 GB
+tree: android_device_google_tokay
+type: phone
+vendor: Google
+vendor_short: google
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac/ax/be
