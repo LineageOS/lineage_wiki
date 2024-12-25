@@ -4,17 +4,20 @@ before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, vers
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-  - {flash: 'LED', info: '48 MP'}
-  - {flash: None, info: '10.8 MP (telephoto)'}
-  - {flash: None, info: '10.8 MP (ultrawide)'}
-  - {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.8 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.8 MP (ultrawide)'}
+  - {flash: None, info: '9.5 MP (front folded)'}
+  - {flash: None, info: '8 MP (front unfolded)'}
 codename: felix
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
 current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
-dimensions: {depth: 5.8, height: 158.7, width: 138.7}
+dimensions:
+- Folded: {depth: 12.1, height: 139.7, width: 79.5}
+- Unfolded: {depth: 5.8, height: 139.7, width: 158.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-G710 MC10
 image: felix.png
@@ -24,15 +27,15 @@ kernel: {version: '5.10'}
 maintainers: [mikeioannina]
 name: Pixel Fold
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Ultra Wideband (UWB), USB OTG]
 ram: 12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2023-06
+release: 2023-06-27
 screen:
-- Cover: {refresh_rate: 120, resolution: '1080x1092', size: 5.8, technology: 'AMOLED'}
-- Inner: {refresh_rate: 120, resolution: '1840x2208', size: 7.6, technology: 'AMOLED'}
+- Cover: {refresh_rate: 120, resolution: '1080x1092', size: 5.8, technology: 'OLED'}
+- Inner: {refresh_rate: 120, resolution: '1840x2208', size: 7.6, technology: 'Foldable OLED'}
 soc: Google Tensor GS201
 storage: 128/256/512 GB
 tree: android_device_google_felix
