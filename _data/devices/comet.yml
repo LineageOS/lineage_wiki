@@ -1,0 +1,46 @@
+architecture: arm64
+battery: {capacity: 4650, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.8 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '10.5 MP (ultrawide)'}
+  - {flash: None, info: '10 MP (front folded)'}
+  - {flash: None, info: '10 MP (front unfolded)'}
+codename: comet
+cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
+cpu_cores: '8'
+cpu_freq: 1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz
+current_branch: 22.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions:
+- Folded: {depth: 10.5, height: 155.2, width: 77.1}
+- Unfolded: {depth: 5.1, height: 155.2, width: 150.2}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G715 MC7
+image: comet.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {version: '6.1'}
+maintainers: [mikeioannina]
+name: Pixel 9 Pro Fold
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, QZSS, Ultra Wideband (UWB), USB OTG]
+ram: 16 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2024-09-04
+screen:
+- Cover: {refresh_rate: 120, resolution: '1080x1092', size: 6.3, technology: 'OLED'}
+- Inner: {refresh_rate: 120, resolution: '2076x2152', size: 8.0, technology: 'Foldable LTPO OLED'}
+soc: Google Tensor G4
+storage: 256/512 GB
+tree: android_device_google_comet
+type: foldable
+vendor: Google
+vendor_short: google
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac/ax/be
