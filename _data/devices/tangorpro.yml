@@ -4,8 +4,8 @@ before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, vers
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-  - {flash: None, info: '8 MP'}
-  - {flash: None, info: '8 MP'}
+  - {flash: None, info: '8 MP (main)'}
+  - {flash: None, info: '8 MP (front)'}
 codename: tangorpro
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
@@ -22,12 +22,12 @@ kernel: {version: '5.10'}
 maintainers: [LuK1337, mikeioannina, neelc, npjohnson]
 name: Pixel Tablet
 network: None
-peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, Light sensor, USB OTG]
+peripherals: [Accelerometer, Compass, Fingerprint reader, Gyroscope, Light sensor, Ultra Wideband (UWB), USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2023-06
+release: 2023-06-10
 screen: {refresh_rate: 60, resolution: '2560x1600', size: 10.95, technology: 'IPS LCD'}
 soc: Google Tensor GS201
 storage: 128/256 GB

@@ -226,7 +226,9 @@ definitions:
       - Fluid AMOLED
       - Fluid 2.0 LTPO AMOLED
       - Fluid 3.0 LTPO AMOLED
+      - Foldable OLED
       - Foldable LTPO OLED
+      - LTPO AMOLED
       - LTPO OLED
       - Optic AMOLED
       - Super AMOLED

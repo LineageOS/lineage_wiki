@@ -10,7 +10,7 @@ cameras:
 codename: akita
 cpu: Cortex-X3 & Cortex-A715 & Cortex-A510
 cpu_cores: '9'
-cpu_freq: 1x 3.0 GHz + 4 x 2.45 GHz + 4 x 2.14 GHz
+cpu_freq: 1 x 3.0 GHz + 4 x 2.45 GHz + 4 x 2.14 GHz
 current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.9, height: 152.1, width: 72.7}
@@ -23,13 +23,13 @@ kernel: {version: '5.15'}
 maintainers: [mikeioannina]
 name: Pixel 8a
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2024-05
-screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.1, technology: 'AMOLED'}
+release: 2024-05-07
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.1, technology: 'OLED'}
 soc: Google Tensor G3
 storage: 128/256 GB
 tree: android_device_google_akita
