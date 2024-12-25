@@ -16,6 +16,24 @@
       "message": "aware this is redundant, just put it here for symmetry.",
       "revId": "10869618bdb65869de8948c4b119a0f5637e967d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "20305afb_b672f7cc",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 1
+      },
+      "lineNbr": 136,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2024-12-25T21:22:06Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "a2412e39_39b2e07f",
+      "revId": "10869618bdb65869de8948c4b119a0f5637e967d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
