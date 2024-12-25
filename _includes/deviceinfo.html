@@ -133,6 +133,7 @@
                 {%- endunless -%}
               {% endfor -%}
             {%- else %}
+                {%- assign modelname = nil %}
                 {%- assign screen_data = device.screen %}
                 {%- include snippets/screen.html %}
             {%- endif %}
@@ -210,6 +211,7 @@
                 {%- endunless -%}
               {% endfor -%}
             {%- else %}
+                {%- assign modelname = nil %}
                 {%- assign dimension_data = device.dimensions %}
                 {%- include snippets/dimensions.html %}
             {%- endif %}
@@ -231,6 +233,7 @@
                     {%- endunless %}
                 {% endfor -%}
             {%- else %}
+                {%- assign modelname = nil %}
                 {%- assign battery_data = device.battery %}
                 {% include snippets/battery.html %}
             {%- endif -%}
