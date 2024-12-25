@@ -1,12 +1,12 @@
 architecture: arm64
-battery: {capacity: 4614, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4614, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-  - {flash: 'LED', info: '50 MP'}
-  - {flash: None, info: '12 MP (ultrawide)'}
-  - {flash: None, info: '8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '8 MP (front)'}
 codename: oriole
 cpu: Cortex-X1 & Cortex-A76 & Cortex-A55
 cpu_cores: '8'
@@ -23,12 +23,12 @@ kernel: {version: '5.10'}
 maintainers: [mikeioannina]
 name: Pixel 6
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, QZSS, USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2021-10
+release: 2021-10-19
 screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.4, technology: 'AMOLED'}
 soc: Google Tensor GS101
 storage: 128/256 GB
