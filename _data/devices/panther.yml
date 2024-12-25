@@ -1,12 +1,12 @@
 architecture: arm64
-battery: {capacity: 4355, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4355, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '14'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
-  - {flash: 'LED', info: '50 MP'}
-  - {flash: None, info: '12 MP (ultrawide)'}
-  - {flash: None, info: '10.8 MP'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '10.8 MP (front)'}
 codename: panther
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
@@ -15,7 +15,7 @@ current_branch: 21
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.7, height: 155.6, width: 73.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-gpu: ARM Mali-G710 MC10
+gpu: ARM Mali-G710 MP7
 image: panther.png
 install_method: fastboot_nexus
 is_ab_device: true
@@ -23,12 +23,12 @@ kernel: {version: '5.10'}
 maintainers: [mikeioannina, neelc]
 name: Pixel 7
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2022-10
+release: 2022-10-13
 screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.3, technology: 'AMOLED'}
 soc: Google Tensor GS201
 storage: 128/256 GB
