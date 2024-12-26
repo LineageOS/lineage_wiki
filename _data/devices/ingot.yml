@@ -36,5 +36,5 @@ tree: android_device_osom_ingot
 type: phone
 vendor: Solana
 vendor_short: osom
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax
