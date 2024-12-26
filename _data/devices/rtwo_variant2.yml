@@ -13,7 +13,7 @@ codename: rtwo
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 8.6, height: 161.2, width: 74}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 740
@@ -39,5 +39,5 @@ type: phone
 variant: 2
 vendor: Motorola
 vendor_short: motorola
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax/be
