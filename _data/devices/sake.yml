@@ -20,7 +20,7 @@ install_method: fastboot_zenfone
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_asus_sm8350, version: '5.4'}
-maintainers: [ZVNexus, Demon000, DD3Boh]
+maintainers: []
 models: [ZS590KS]
 name: 'ZenFone 8'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

@@ -20,7 +20,7 @@ gpu: Qualcomm Adreno 650
 image: nx659j_variant3.png
 install_method: fastboot_nubia
 kernel: {repo: android_kernel_nubia_sm8250, version: '4.19'}
-maintainers: [DD3Boh]
+maintainers: []
 models: [NX659J, NX659J-EEA, NX659J-UN]
 name: Red Magic 5S (China)
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
