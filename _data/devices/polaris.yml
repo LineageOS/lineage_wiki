@@ -37,5 +37,5 @@ tree: android_device_xiaomi_polaris
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [16.0, 17.1, 18.1, 19.1, 20, 21]
+versions: [16.0, 17.1, 18.1, 19.1, 20, 21, 21.1]
 wifi: 802.11 a/b/g/n/ac
