@@ -18,7 +18,7 @@ gpu: ARM Mali-G52 MC2
 image: merlinx.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_mt6768, version: '4.14'}
-maintainers: [surblazer, bengris32]
+maintainers: []
 name: Redmi Note 9
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor]
