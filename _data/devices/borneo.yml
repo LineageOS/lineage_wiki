@@ -38,5 +38,5 @@ tree: android_device_motorola_borneo
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac
