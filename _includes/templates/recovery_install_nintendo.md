@@ -57,7 +57,11 @@ id=SWANDR
 icon=switchroot/android/icon_android_hue.bmp
 logopath=switchroot/android/bootlogo_android.bmp
 r2p_action=self
-alarms_disable=0
+; alarms_disable=1 uncomment to disable notifications for better battery life
+; touch_skip_tuning=1 uncomment if your touchscreen is broken
+; usb3_enable=1 uncomment for faster USB at expense of WiFi/BT quality
+; ddr200_enable=1 uncomment for faster SD speed on models that support it (Samsung enabled by default)
+; emmc=1 uncomment for eMMC boot (internal storage, not recommended)
 ```
 5. Safely eject the SD Card from your PC's file browser, then click "Close" on the device, then the "X" icon in the top right of the screen, and finally the "Home" button in the top-left of the screen.
 6. Now select "Flash Android", go through the process, then when asked if you'd like to reboot into recovery, click "No".
