@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 530
 image: z2_plus.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_zuk_msm8996, version: '4.4'}
-maintainers: [DD3Boh]
+maintainers: []
 name: Z2 Plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, Light sensor, Proximity sensor]
