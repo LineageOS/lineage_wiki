@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 506
 image: G.png
 install_method: fastboot_generic
 kernel: {repo: android_kernel_10or_G, version: '4.9'}
-maintainers: ["kardebayan"]
+maintainers: []
 models: [G]
 name: G
 network: [2G GSM, 3G UMTS, 4G LTE]

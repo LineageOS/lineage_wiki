@@ -17,7 +17,7 @@ gpu: Qualcomm Adreno 506
 image: bardock.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_bq_msm8953, version: '4.9'}
-maintainers: [Quallenauge, jmpfbmx]
+maintainers: []
 name: Aquaris X Pro
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
