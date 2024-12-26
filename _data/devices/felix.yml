@@ -13,7 +13,7 @@ codename: felix
 cpu: Cortex-X1 & Cortex-A78 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.85 GHz + 2 x 2.35 GHz + 4 x 1.8 GHz
-current_branch: 21
+current_branch: 22.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions:
 - Folded: {depth: 12.1, height: 139.7, width: 79.5}
@@ -42,5 +42,5 @@ tree: android_device_google_felix
 type: foldable
 vendor: Google
 vendor_short: google
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax

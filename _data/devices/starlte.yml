@@ -17,7 +17,7 @@ gpu: ARM Mali-G72 MP18
 image: starlte.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_exynos9810, version: '4.9'}
-maintainers: [baddar90]
+maintainers: []
 models: [SM-G960F, SM-G960F/DS, SM-G960N]
 name: Galaxy S9
 network: [2G GSM, 3G UMTS, 4G LTE]
