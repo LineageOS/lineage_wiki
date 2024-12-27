@@ -22,6 +22,30 @@
       },
       "revId": "822b59c744584604188c4024e2153ff81bdd26b1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59d90ff1_bc889264",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 10
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2024-12-27T09:46:12Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a02c0f19_957fe076",
+      "range": {
+        "startLine": 34,
+        "startChar": 3,
+        "endLine": 34,
+        "endChar": 17
+      },
+      "revId": "822b59c744584604188c4024e2153ff81bdd26b1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
