@@ -1,0 +1,136 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e3a7ee4d_c595e713",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 16
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "unsure about that. Why exactly is it confusing? It might not contain ALL information at that point but it\u0027s a \"Basic requirement\"",
+      "range": {
+        "startLine": 19,
+        "startChar": 4,
+        "endLine": 22,
+        "endChar": 9
+      },
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5c4e50fa_7b385da9",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 16
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "should be a separate patch",
+      "range": {
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 32,
+        "endChar": 65
+      },
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfdd574e_d4520baa",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "moving the whole section into an own file makes it embed on the first",
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ed5bdea_3ae6166d",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "why is the table separate? Move the table right here?",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 60
+      },
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57816b50_55624503",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "not true",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 93
+      },
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "be546c61_203c7c96",
+        "filename": "_includes/templates/device_specific/before_install_needs_specific_android_fw.md",
+        "patchSetId": 16
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2024-12-27T12:40:14Z",
+      "side": 1,
+      "message": "why is this conditional only to the before_install_device_variants?",
+      "range": {
+        "startLine": 31,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 203
+      },
+      "revId": "2f3adf4ebaefb65728ee484692303566310b0d86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
