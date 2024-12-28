@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "55e3ec9e_80638883",
+        "filename": "_data/devices/gts9wifi.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2024-12-28T00:24:30Z",
+      "side": 1,
+      "message": ".",
+      "revId": "11adf4b61b3443058fa3af359fd135ed10a321f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
