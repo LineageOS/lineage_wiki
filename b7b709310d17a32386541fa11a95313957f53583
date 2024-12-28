@@ -85,6 +85,23 @@
       "parentUuid": "42f2f3a4_41f9a5a8",
       "revId": "b7b709310d17a32386541fa11a95313957f53583",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd94c238_758cab82",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2024-12-28T03:42:53Z",
+      "side": 1,
+      "message": "image is wrong size.  please use image script here: https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "b7b709310d17a32386541fa11a95313957f53583",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
