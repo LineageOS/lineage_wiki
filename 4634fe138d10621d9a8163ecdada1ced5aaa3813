@@ -16,6 +16,24 @@
       "message": "are these variants even all bootloader unlockable? we really will not be listing any non unlockable variants",
       "revId": "4634fe138d10621d9a8163ecdada1ced5aaa3813",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e500c081_633418c5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33572
+      },
+      "writtenOn": "2025-01-01T23:21:09Z",
+      "side": 1,
+      "message": "AFAICT, yes; I\u0027ve yet to see a report of one of these devices over at Calyx that they can\u0027t be unlocked. (Except for a while that Moto basically makes you wait, like a week or so) and of course also request an unlock code from Motorola which is annoying, but yes",
+      "parentUuid": "05e14eea_36220711",
+      "revId": "4634fe138d10621d9a8163ecdada1ced5aaa3813",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
