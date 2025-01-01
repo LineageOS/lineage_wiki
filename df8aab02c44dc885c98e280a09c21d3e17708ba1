@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d1284ba_e5489c82",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 33572
+      },
+      "writtenOn": "2025-01-01T23:05:49Z",
+      "side": 1,
+      "message": "You removed that part about suggesting when an model does indeed work, but I\u0027d still add a part about informing about models that work. Y\u0027all can\u0027t keep track of this yourselves alone.\n\n```suggestion\n - If your model is not listed, it\u0027s not supported. We don\u0027t have info about the reasoning, please don\u0027t ask! If you\u0027ve went the dangerous route and found that a specific model you have works, you can submit it in the wiki to let others know.\n```",
+      "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
