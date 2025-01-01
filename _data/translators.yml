@@ -109,7 +109,7 @@ languages:
   - name: Portuguese
     proofreaders: ['Sergio Borges (sergioborges99)']
   - name: Portuguese, Brazilian
-    proofreaders: ['Alexandre Oliveira (Xinayder)']
+    proofreaders: ['LucasMZ (lucasmz.dev)', 'Alexandre Oliveira (Xinayder)']
   - name: Romanian
     proofreaders: ['Pop Alexandru Radu (minealex2244)']
   - name: Russian
