@@ -26,7 +26,8 @@ permalink: faq.html
  - "The same" is not "equal" which means it needs a separate build
 
 ## The list of supported models for my device doesn't contain a specific one I need. Can I still use it?
- - We try to have the list as complete as possible. If yours isn't there it will either not work or we couldn't test it
+ - We try to have the list as complete as possible and don't have another hidden one (so please don't ask about your specific model).
+ - If your model  is not listed, it's not supported. We do not keep track about reasons, please don't ask!
 
 ## A build for my device disappeared? Where'd it go?
  - Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status.
