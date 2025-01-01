@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "05e14eea_36220711",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-01T23:12:24Z",
+      "side": 1,
+      "message": "are these variants even all bootloader unlockable? we really will not be listing any non unlockable variants",
+      "revId": "4634fe138d10621d9a8163ecdada1ced5aaa3813",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
