@@ -27,7 +27,7 @@ languages:
   - name: Basque
     proofreaders: ['Osoitz']
   - name: Belarusian
-    proofreaders: ['Aliaksandr\_Novikaŭ (alexnov2849)']
+    proofreaders: ['Aliaksandr\_Novikaŭ (alexnov2849)', 'callmebor']
   - name: Bengali
     proofreaders: ['gimmebackmysandwich', 'Sourav Bagchi (SouravBagchi)']
   - name: Bosnian
@@ -35,7 +35,7 @@ languages:
   - name: Breton
     proofreaders: ['ArC.hoder']
   - name: Bulgarian
-    proofreaders: ['Alexander K (alexkm)', 'emil stefanov (emilstf)', 'Hristo Dipchikov (hristodipchikov)']
+    proofreaders: ['emil stefanov (emilstf)', 'Hristo Dipchikov (hristodipchikov)']
   - name: Burmese
     proofreaders: ['Sai Wai Hlyan Tun (saiwaihlyanhtun)']
   - name: Catalan
@@ -49,7 +49,7 @@ languages:
   - name: Czech
     proofreaders: ['Ondřej Zima (Keltek)', 'Róbert Barát (rbarat)']
   - name: Danish
-    proofreaders: ['Sebastian-From-Denmark']
+    proofreaders: ['dequally']
   - name: Dutch
     proofreaders: ['Eddy Witkamp (eddywitkamp)', 'Maik Verheijen (maikverheijen)', 'R.L. van der Does (rlvddoes)']
   - name: English, Australia
@@ -63,13 +63,13 @@ languages:
   - name: Esperanto
     proofreaders: ['Günther Tuben (gootube2000)']
   - name: Estonian
-    proofreaders: ['Madis Otenurm (MadisO)']
+    proofreaders: ['Agu Ratas (aguratas)', 'Madis Otenurm (MadisO)']
   - name: Finnish
-    proofreaders: ['Niko Koivu (niko0o)']
+    proofreaders: ['Niko Koivu (niko0o)', 'Oskari Lavinto (olavinto)']
   - name: French
     proofreaders: ['Adrian DC (RadianDC)', 'Landry Gaiffe (MonsieurLandry)']
-  - name: Frisian
-    proofreaders: ['Fjoerfoks (fryskefirefox)']
+  - name: Friulian
+    proofreaders: ['Fabio Tomat (tmtfx)']
   - name: Galician
     proofreaders: ['David Rebolo Magariños (drgaga345)', 'Manuel Iglesias García (manueliglesiasgarcia)']
   - name: Georgian
@@ -79,15 +79,17 @@ languages:
   - name: Greek
     proofreaders: ['Michael Bestas (mikeioannina)']
   - name: Hebrew
-    proofreaders: ['‫אלקנה בירדוגו‬‎ (ttv200)']
+    proofreaders: ['maroshi', '‫אלקנה בירדוגו‬‎ (ttv200)']
   - name: Hungarian
     proofreaders: ['Attila Mikó (emma22288)', 'milestone2 a.k.a.  里程碑2 (minote971)']
   - name: Icelandic
     proofreaders: ['Sveinn í Felli (sveinki)']
   - name: Indonesian
     proofreaders: ['tony®ananta (qjohn)']
+  - name: Irish
+    proofreaders: ['Aindriú Mac Giolla Eoin (aindriu80)']
   - name: Italian
-    proofreaders: ['Joey Rizzoli (linuxx)', 'Tommaso Fonda (Tomoms)']
+    proofreaders: ['Joey Rizzoli (linuxx)', 'Sebastiano Barezzi (SebaUbuntu)', 'Tommaso Fonda (Tomoms)']
   - name: Japanese
     proofreaders: ['AndroPlus (AndroPlus\_org)']
   - name: Kabyle
@@ -101,15 +103,15 @@ languages:
   - name: Occitan
     proofreaders: ['sebcxjo']
   - name: Persian
-    proofreaders: ['Erfan Abdi (erfangplus)']
+    proofreaders: ['Erfan Abdi (erfangplus)', 'Johnny Warner (johhnywarner)']
   - name: Pirate English
     proofreaders: ['Joseph Annareddy (javelinanddart)']
   - name: Polish
-    proofreaders: ['Mateusz (godlesplay)']
+    proofreaders: ['cooky', 'Mateusz (godlesplay)']
   - name: Portuguese
     proofreaders: ['Sergio Borges (sergioborges99)']
   - name: Portuguese, Brazilian
-    proofreaders: ['Alexandre Oliveira (Xinayder)']
+    proofreaders: ['Alexandre Oliveira (Xinayder)', 'lucasmz.dev']
   - name: Romanian
     proofreaders: ['Pop Alexandru Radu (minealex2244)']
   - name: Russian
@@ -123,31 +125,33 @@ languages:
   - name: Serbian (Latin)
     proofreaders: ['Драган (WD40)']
   - name: Sinhala
-    proofreaders: ['හෙළබස සමූහය (HelaBasa)']
+    proofreaders: ['HelaBasa Group (HelaBasa)']
   - name: Slovak
     proofreaders: ['Róbert Barát (rbarat)']
   - name: Slovenian
     proofreaders: ['Zoran (ZokiSLO)']
   - name: Spanish
-    proofreaders: ['Franco (franco999)']
+    proofreaders: ['bellzebu', 'Juan (P0rsche-911)']
   - name: Spanish, Mexico
     proofreaders: ['Jes Car (aerosh3ll)']
-  - name: Spanish, United States
-    proofreaders: ['Franco (franco999)']
   - name: Sundanese
     proofreaders: ['Yusup Ramdani (uchup19)']
   - name: Swedish
     proofreaders: ['Simon Bäck (backsimon)']
+  - name: Tamil
+    proofreaders: ['Balasakthi (balasakthi88)']
+  - name: Tatar
+    proofreaders: ['Thanos Tatarstanovich (Crasis)', 'Timur Seber (seber)']
   - name: Thai
     proofreaders: ['Makornthawat Emery (makorn645)']
   - name: Turkish
-    proofreaders: ['Burak Dede (TheNexus)', 'Mevlüt TOPÇU (\_DarkKnight\_)']
+    proofreaders: ['Burak Dede (burakdede)', 'Mevlüt TOPÇU (\_DarkKnight\_)']
   - name: Ukrainian
     proofreaders: ['Denys Nykula (nykula)', 'Mykola Ronik (Mantikor)', 'Olexandr Nesterenko (burunduk)']
   - name: Vietnamese
-    proofreaders: ['Nam Anh (kyrie\_25)']
+    proofreaders: ['Nam Anh (kyrie\_25)', 'Ngọc Doanh (truongngocdoanh)', 'Tần Quảng (tanquang)']
   - name: Welsh
-    proofreaders: ['Aled Powell (Cymrodor)']
+    proofreaders: ['Aled Powell (Cymrodor)', 'fin-w']
 managers:
   - name: Michael Bestas
     nick: mikeioannina
