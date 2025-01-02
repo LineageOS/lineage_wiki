@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2e701e28_c7421f96",
+        "filename": "pages/internal/working_with_blobs.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-01-02T21:23:15Z",
+      "side": 1,
+      "message": "tbh I wouldn\u0027t offer this as a choice. I\u0027d say something in the ballpark of \"for lineageos 21 and below, [insert text about sh here], since 22 a new method exists which you should now use, [insert py here]\"",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 0
+      },
+      "revId": "5fd8ab08af72cd24f315e84b9b528428327321fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
