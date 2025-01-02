@@ -34,6 +34,23 @@
       "parentUuid": "05e14eea_36220711",
       "revId": "4634fe138d10621d9a8163ecdada1ced5aaa3813",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b91bc90d_c67bc3ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-01-02T15:52:03Z",
+      "side": 1,
+      "message": "As far as I know, all the variants are unlockable",
+      "revId": "4634fe138d10621d9a8163ecdada1ced5aaa3813",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
