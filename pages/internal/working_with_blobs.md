@@ -12,7 +12,9 @@ tags:
 
 All devices should have a list of proprietary blobs in their device tree called ```proprietary-files.txt```.  This list is used to create the vendor repository for building the device by extracting blobs from a device running the latest copy of LineageOS and/or from a system dump.  Generally devices need only one list of blobs although you may encounter devices that have both ```proprietary-files.txt``` and ```proprietary-files-qc.txt``` (or more).  There is no need to split the files and the reason for the split is largely historical at this point.
 
-To start, copy the appropriate ```extract-files.sh``` and ```setup-makefiles.sh``` templates from ```tools/extract-utils/templates``` (```vendor/lineage/build/templates``` on LineageOS 17.1 and older) to your device tree and edit them to fill in the three required fields (device, vendor and copyright year).
+Starting with LineageOS 22, you can now use the new Python extract utilities. They’re faster and more versatile. To start, decide which version of the extract utilities (if applicable) you want to use.
+
+If you choose the shell scripts, copy the ```extract-files.sh``` and ```setup-makefiles.sh``` templates from ```tools/extract-utils/templates``` (```vendor/lineage/build/templates``` on LineageOS 17.1 and older) to your device tree and edit them to fill in the three required fields (device, vendor, and copyright year); alternatively, if you prefer the Python extract utilities, copy the ```extract-files.py``` and ```setup-makefiles.py``` templates from the same directory.
 
 The contents of ```proprietary-files.txt``` is a list of blobs with optional comments (lines beginning with ```#```).  Each blob line is of the form:
 
