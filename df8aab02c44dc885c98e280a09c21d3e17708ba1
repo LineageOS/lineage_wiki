@@ -52,6 +52,24 @@
       "parentUuid": "cb2d1e1f_33ff39d8",
       "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5971bac6_02aadc17",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-01-02T14:11:39Z",
+      "side": 1,
+      "message": "We are glad the wiki is as \"accurate\" as it already is. Getting maintainers to maintain such a list can or can not work, leaning on the latter.\nTherefore I want this to be a FAQ question that leaves no room for \"could it anyway\" which leads to them joining discord or irc and asking - literally with NO other answer than \"we don\u0027t know\", often followed by \"try it\" (but that one isn\u0027t backed by any knowledge about known breakages). I guess leaving the \"test it\" out is the better way here",
+      "parentUuid": "0140d9a4_d1166df7",
+      "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
