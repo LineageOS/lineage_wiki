@@ -118,13 +118,18 @@ lpunpack super.img /output/dir
 
 You must also now mount any other image files that you have in their respective directories as shown above with `vendor.img`.
 
-After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 
-This will tell `extract-files.sh` to get the files from the mounted system dump rather than from a connected device.
+Or, for the Python script:
+```
+./extract-files.py ~/android/system_dump/
+```
+
+This will tell the extract-files script to get the files from the mounted system dump rather than from a connected device.
 
 Once you've extracted all the proprietary files, unmount the vendor dump if you mounted it earlier:
 
@@ -160,12 +165,18 @@ unzip path/to/lineage-*.zip system/*
 ```
 where `path/to/` is the path to the installable zip.
 
-After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
-This will tell `extract-files.sh` to get the files from the extracted system dump rather than from a connected device.
+
+Or, for the Python script:
+```
+./extract-files.py ~/android/system_dump/
+```
+
+This will tell the extract-files script to get the files from the extracted system dump rather than from a connected device.
 
 Once you've extracted all the proprietary files, you can delete the files that were extracted from the zip:
 
@@ -221,13 +232,18 @@ sudo mount -o ro product.img system/product/
 sudo mount -o ro system_ext.img system/system_ext/
 ```
 
-Move to the root directory of the sources of your device and run `extract-files.sh` as follows:
+Move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
 
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 
-This will tell `extract-files.sh` to extract the proprietary blobs from the mounted system dump rather than a connected device.
+Or, for the Python script:
+```
+./extract-files.py ~/android/system_dump/
+```
+
+This will tell extract-files script to extract the proprietary blobs from the mounted system dump rather than a connected device.
 
 Once it is done, unmount the system dump and remove the now unnecessary files:
 
