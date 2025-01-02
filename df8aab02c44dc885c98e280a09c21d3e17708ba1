@@ -34,6 +34,24 @@
       "parentUuid": "9d1284ba_e5489c82",
       "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0140d9a4_d1166df7",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 33572
+      },
+      "writtenOn": "2025-01-02T13:44:28Z",
+      "side": 1,
+      "message": "A suggestion in the long term could be to have a field for strictly *unsupported* devices, it\u0027d be more work to add to the wiki than a simple text edit, but it\u0027d be nicer info than how it currently works, when you leave a hole like this \"will my device not work/be bricked\" and no info about previously tested models at all, you\u0027ll spark curiosity without certainty that *will* result in a question. Like it or not, many types of people would like to try LineageOS or overall a custom ROM out there, better to properly inform them than to be vague about it.",
+      "parentUuid": "cb2d1e1f_33ff39d8",
+      "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
