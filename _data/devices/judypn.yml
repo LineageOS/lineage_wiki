@@ -13,7 +13,7 @@ codename: judypn
 cpu: Kryo 385
 cpu_cores: '8'
 cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 7.6, height: 158.8, width: 75.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 630
@@ -41,5 +41,5 @@ tree: android_device_lge_judypn
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac
