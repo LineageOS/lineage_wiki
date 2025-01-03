@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bd2df20_e1655d95",
+        "filename": "_data/devices/larry.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-03T19:11:35Z",
+      "side": 1,
+      "message": "no vbmeta?",
+      "revId": "1e75815aead5404124084a1d5b1f82661f7ed0f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
