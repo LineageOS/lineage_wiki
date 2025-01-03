@@ -70,6 +70,24 @@
       "parentUuid": "0140d9a4_d1166df7",
       "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2346e54a_3f15755b",
+        "filename": "pages/faq.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 33572
+      },
+      "writtenOn": "2025-01-03T18:56:39Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "5971bac6_02aadc17",
+      "revId": "df8aab02c44dc885c98e280a09c21d3e17708ba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
