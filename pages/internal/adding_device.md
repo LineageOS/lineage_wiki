@@ -157,8 +157,11 @@ There are some optional properties which you might not need, but in case you do,
 {% include alerts/important.html content="Remove any of these properties in case they don't apply for your device!" %}
 
 * `before_install`: Sometimes some pre-conditions must be met in order to be able to install LineageOS. See *_includes/templates/device_specific/before_install_*`before_install`*.md* for possible values.
-* `before_lineage_install`: This property can be set to be able to display instructions between recovery and the actual LineageOS installation. Existing (or to be created) values can be found in *_includes/templates/device_specific/before_lineage_install_*`before_lineage_install_`*.md*
-* `before_recovery_install`: Set this property to specify if something has to be done before installing the recovery. Values can be found in *_includes/templates/device_specific/before_recovery_install_*`before_recovery_install_`*.md*
+  - One common use is to show the precondition for a specific firmware, `needs_specific_android_fw`, which is passed the additional argument `version` to indicate which Android version is required. This `before_install` also accepts a few other optional arguements:
+    - `lineage_version` Indicated the LineageOS version this requirement was originally implemented on (and on an upgrade page for these devices, we would show that this condition would be already met when coming from that version) - you only need to pass this arguement the relevant lineage version number
+    - `ships_fw`: Set to `true` when the device ships firmware in LineageOS builds (relevant for upgrades), don't set at all if firmware not is not shipped
+* `before_lineage_install`: This property can be set to display instructions once recovery is booted and before the actual LineageOS installation. Existing (or to be created) values can be found in *_includes/templates/device_specific/before_lineage_install_*`before_lineage_install_`*.md*
+* `before_recovery_install`: This property can be set to specify steps to be completed before installing the recovery image. Values can be found in *_includes/templates/device_specific/before_recovery_install_*`before_recovery_install_`*.md*
 * `carrier`: If the device was released for a specific carrier, the name of that carrier.
 * `custom_recovery_link`: A custom recovery link in case no official recovery exists for the specific device or it doesn't work properly.
 * `custom_recovery_codename`: If an official recovery exists for the device, but it uses a different codename, specify the used one here.
@@ -171,6 +174,10 @@ There are some optional properties which you might not need, but in case you do,
   {%- for item in definitions.valid_quirks.enum %}
   [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
   {%- endfor %}
+  {% capture snet %}
+  The [Device integrity](/quirks/snet) quirk is automatically shown for every device and can't be listed manually
+  {% endcapture %}
+  {% include alerts/note.html content=snet %}
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
 
   ```
