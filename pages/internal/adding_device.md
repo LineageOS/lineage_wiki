@@ -157,6 +157,9 @@ There are some optional properties which you might not need, but in case you do,
 {% include alerts/important.html content="Remove any of these properties in case they don't apply for your device!" %}
 
 * `before_install`: Sometimes some pre-conditions must be met in order to be able to install LineageOS. See *_includes/templates/device_specific/before_install_*`before_install`*.md* for possible values.
+  - A commonly used one is to show the precondition for a specific firmware, `needs_specific_android_fw`, which needs the additional argument `version` to indicate which android version is required and allows for a few optional ones:
+    - `lineage_version` indicating, since which LineageOS version this requirement is valid (since on an upgrade we show that this condition will be already met when coming from that version) - only the version numbers required
+    - `ships_fw`: Set to True when the device shipts firmware (relevant on upgrade)
 * `before_lineage_install`: This property can be set to be able to display instructions between recovery and the actual LineageOS installation. Existing (or to be created) values can be found in *_includes/templates/device_specific/before_lineage_install_*`before_lineage_install_`*.md*
 * `before_recovery_install`: Set this property to specify if something has to be done before installing the recovery. Values can be found in *_includes/templates/device_specific/before_recovery_install_*`before_recovery_install_`*.md*
 * `carrier`: If the device was released for a specific carrier, the name of that carrier.
@@ -171,6 +174,10 @@ There are some optional properties which you might not need, but in case you do,
   {%- for item in definitions.valid_quirks.enum %}
   [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
   {%- endfor %}
+  {% capture snet %}
+  The [Device integrity](/quirks/snet) quirk is automatically shown for every device and can't be listed manually
+  {% endcapture %}
+  {% include alerts/note.html content=snet %}
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
 
   ```
