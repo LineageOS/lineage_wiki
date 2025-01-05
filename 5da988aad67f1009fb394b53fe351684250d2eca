@@ -16,6 +16,24 @@
       "message": "I’ve manually reviewed the YAML file for structural correctness and logical consistency, and it looks good to me. However, I’m not an experienced contributor, so I apologize if this is the wrong type of vote or if I shouldn’t be participating in this review. If that’s the case, please feel free to remove my vote, and I’ll be happy to step back. Thank you for your understanding!",
       "revId": "5da988aad67f1009fb394b53fe351684250d2eca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0b85b0d_99c956b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-05T19:43:57Z",
+      "side": 1,
+      "message": "don\u0027t worry \u003cdeleted account\u003e, we have CI for that.",
+      "parentUuid": "89517c26_11bb94fd",
+      "revId": "5da988aad67f1009fb394b53fe351684250d2eca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
