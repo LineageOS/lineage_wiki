@@ -34,6 +34,23 @@
       "parentUuid": "89517c26_11bb94fd",
       "revId": "5da988aad67f1009fb394b53fe351684250d2eca",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "252a1a16_7f42ec59",
+        "filename": "_data/devices/alioth_variant1.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-05T19:44:41Z",
+      "side": 1,
+      "message": "why are you updating the lineage_version even tho the firmware requirement did not change since 21?",
+      "revId": "5da988aad67f1009fb394b53fe351684250d2eca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
