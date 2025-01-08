@@ -305,3 +305,50 @@ Here we will utilize GSIs from the Android Open Source Project website as exampl
     fastboot -s tcp:<IPv4 address that shown on menu header> flash system <path to GSI system.img>
     ```
 6. Reboot to boot menu, proceed with the first option.
+
+## Details for advanced users
+
+### ADB connection
+
+These targets offer ADB connectivity over Ethernet or VirtIO VSOCK.
+
+To connect over Ethernet, run the following command:
+```
+adb connect <IPv4 address of the virtual machine>
+```
+
+To connect over VirtIO VSOCK, add `VirtIO VSOCK` virtual hardware before the virtual machine is started, and run the following command:
+```
+adb connect vsock:<Guest CID>:5555
+```
+
+### Fastbootd connection
+
+These targets offers fastbootd connection through Ethernet.
+
+Here's how to use fastbootd over Ethernet:
+```
+fastboot -s tcp:<IPv4 address that shown on menu header> [fastboot command...]
+```
+
+### Install flashable ZIPs in recovery mode
+
+Currently, there are two ways to do so:
+
+#### Export a directory as VirtioFS share
+
+Add `Filesystem` virtual hardware, specify the directory containing the custom flashable ZIPs in the `Source path` box, and specify `share` in the `Target path` box.
+
+When in recovery mode, enter `Apply update` > `Choose from virtiofs`, select the custom flashable ZIP which you want to install.
+
+#### Insert a USB drive
+
+Put the flashable ZIP into a USB drive, and mount the USB drive to the virtual machine.
+
+When in recovery mode, select `Apply update`, and volumes of the USB drive should appear on the menu. Select the corresponding volume, then select the custom flashable ZIP which you want to install.
+
+### Text consoles
+
+* The first serial console is used for interacting with GRUB text menu and printing kernel messages.
+* The first VirtIO console is used for interacting with Android shell environment.
+* The second VirtIO console is used for printing Android logcat messages.
