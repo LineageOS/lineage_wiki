@@ -70,6 +70,24 @@
       "parentUuid": "740d1aac_44bd2580",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fd41214b_842a6aa9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-08T18:56:48Z",
+      "side": 1,
+      "message": "I see no reason to hold a device because the whole device family (maintained by others) isn\u0027t ready tbh",
+      "parentUuid": "ca9e6b66_75bf253b",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
