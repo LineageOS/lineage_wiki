@@ -55,6 +55,7 @@ Make sure to fill out the template with accurate information, and in the format 
 ### Infrastructure bugs
 
 These are bugs in our website and/or software, e.g.
+  - The documentation on wiki is wrong.
   - The download portal doesn't render something correctly.
   - There's a dead link on the website.
   - An API returns something unexpected.
