@@ -305,3 +305,69 @@ Here we will utilize GSIs from the Android Open Source Project website as exampl
     fastboot -s tcp:<IPv4 address that shown on menu header> flash system <path to GSI system.img>
     ```
 6. Reboot to boot menu, proceed with the first option.
+
+## Details for advanced users
+
+### ADB connection
+
+These targets offers ADB connection through Ethernet or VirtIO VSOCK.
+
+To connect through Ethernet, run the following command:
+```
+adb connect <IPv4 address of the virtual machine>
+```
+
+To connect through VirtIO VSOCK, add `VirtIO VSOCK` virtual hardware before the virtual machine is started, and run the following command:
+```
+adb connect vsock:<Guest CID>:5555
+```
+
+### Fastbootd connection
+
+These targets offers fastbootd connection through Ethernet.
+
+Here's how to use fastbootd through Ethernet:
+```
+fastboot -s tcp:<IPv4 address that shown on menu header> [fastboot command...]
+```
+
+### Install custom flashable ZIPs in recovery mode
+
+Currently, there are the following two ways to do so:
+
+#### Export a directory as VirtioFS share
+
+Add `Filesystem` virtual hardware, specify the directory containing the custom flashable ZIPs in the `Source path` box, specify `share` in the `Target path` box.
+
+When in recovery mode, select a custom flashable ZIP from the shared directory through `Apply update` > `Choose from virtiofs`.
+
+#### Insert a USB drive
+
+Put the custom flashable ZIP into a USB drive, and add the USB drive into the virtual machine.
+
+When in recovery mode, enter `Apply update`, volumes of the USB drive should appear on the menu. Enter the corresponding volume, and then select the custom flashable ZIP which you want to install.
+
+### Integrate Magisk
+
+{% include alerts/important.html content="Flashing Magisk in recovery mode will NOT work, as these targets does not use ramdisk from the `boot` partition. Please follow the below instructions if you want to use Magisk on these targets." %}
+
+Before build, obtain latest Magisk apk from its official releases, and then run the following commands:
+```
+mkdir prebuilts/magisk
+cd prebuilts/magisk
+unzip <path to the Magisk apk>
+chmod 755 lib/x86_64/lib*.so
+cd ../..
+```
+
+To update a existing virtual machine to use Magisk, enter fastbootd mode, rebuild and flash only the `grub_boot` partition by the following commands:
+```
+m grubbootimage
+fastboot -s tcp:<IPv4 address that shown on menu header> flash grub_boot out/target/product/<target>/grub_boot.img
+```
+
+### Text consoles
+
+* The first serial console is used for interacting with GRUB text menu and printing kernel messages.
+* The first VirtIO console is used for interacting with Android shell environment.
+* The second VirtIO console is used for printing Android logcat messages.
