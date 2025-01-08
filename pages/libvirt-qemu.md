@@ -4,15 +4,15 @@ title: Building and installing for libvirt QEMU virtual machine
 permalink: libvirt-qemu.html
 ---
 
-{% include alerts/warning.html content="The following build targets are not officially supported and are maintained by individual LineageOS maintainers. Due to this, unlike Emulator/AVD which is guaranteed to function when built, `virtio` build targets carry no such guarantee." %}
-{% include alerts/warning.html content="No `virtio` target is built by LineageOS build servers, and no OTA updates will be delivered to builds of these targets. As such, you must build all images and update the builds manually." %}
+{% include alerts/warning.html content="The following `virtio_*` build targets are not officially supported and are maintained by individual LineageOS maintainers. Due to this, unlike Cuttlefish/Emulator/AVD which is guaranteed to function when built, `virtio_*` build targets carry no such guarantee." %}
+{% include alerts/warning.html content="None of the `virtio_*` build targets is built by LineageOS build servers, and no OTA updates will be delivered to builds of these targets. As such, you must build all images and update the builds manually." %}
 
 ## Known issues
 
 Please note the following list of yet unresolved known issues when running LineageOS on a libvirt QEMU virtual machine:
 
 * Display color (only with Swiftshader graphics selected)
-* Video playback (only with Mesa graphics selected, which is the most common use case)
+* Video playback (by default with Mesa graphics, which is the most common use case)
 
 ## Introduction
 
@@ -44,7 +44,7 @@ Setup the environment:
 source build/envsetup.sh
 ```
 
-Virtual A/B partition scheme is used by default. If you would like to use A-only partition scheme instead (which requires less space), run the following command prior to each build:
+Virtual A/B partition scheme is used by default. If you would like to use non-A/B partition scheme instead (which requires less space), run the following command prior to each build:
 ```
 export AB_OTA_UPDATER=false
 ```
@@ -64,6 +64,8 @@ breakfast <target>
 {: .table }
 
 {% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports the SSE 4.2 instruction set, otherwise it will not boot." %}
+
+{% include alerts/warning.html content="Some old entry level x86_64 CPUs may also would not be able to run the x86_64 targets. For example, In the Intel® Haswell family, Intel® Core™ i3 CPUs could run it without problems. However, When running on Intel® Celeron® CPUs, Android complains `IKeystoreService` fails to start." %}
 
 {% include alerts/important.html content="If you wish to run the virtual machine on ARMv9 devices (with hardware acceleration), you must select the `virtio_arm64only` target. The `virtio_arm64` target will not boot on these processor variants, as they don't support 32-bit mode." %}
 
@@ -150,7 +152,7 @@ and select the network which you wish to connect to in `Network selection` menu,
 
 The virtual machine configuration window will pop up.
 
-On the`Overview` tab, select `Chipset` or `Machine` and `Firmware` type according to the architecture, as described below:
+On the `Overview` tab, select `Chipset` or `Machine` and `Firmware` type according to the architecture, as described below:
 
 | Android Architecture  | Chipset / Machine |                     Firmware                      |
 |-----------------------|-------------------|---------------------------------------------------|
@@ -168,7 +170,7 @@ On `Memory` tab, toggle `Enable shared memory`, click `Apply`.
 1. Click `Add Hardware` on the bottom left corner, new window `Add New Virtual Hardware` will appear.
 2. Select `Storage`, select `Disk device` on `Device type` menu, and select `VirtIO` on `Bus type` menu.
 3. Fill in the disk size.
-    {% include alerts/note.html content="Virtual A/B build (default) requires 13 GiB of size for the first disk, and A-only build requires 5 GiB of size for the first disk." %}
+    {% include alerts/note.html content="Virtual A/B build (default) requires 13 GiB of size for the first disk, and non-A/B build requires 5 GiB of size for the first disk." %}
 4. Click `Finish`.
 5. Repeat the above steps, to add disk for storing userdata. Minimum size of 2 GiB is recommended.
 
@@ -208,7 +210,7 @@ Keyboard is always needed. Ensure there is a keyboard included in virtual machin
 1. If `Video` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
 2. On `Video` tab, select `Virtio` on `Model` menu, click `Apply`.
 3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle `3D acceleration`, click `Apply`.
-4. (Optional) To specify custom display resolution, first enable `Edit XML` switch to the `XML` tab, insert `<resolution x="<Width>" y="<Height>"/>`, like this:
+4. (Optional) To specify custom display resolution, switch to the `XML` tab, insert `<resolution x="<Width>" y="<Height>"/>`, like this:
     ```
     <video>
     <model type="virtio" heads="1" primary="yes">
@@ -262,6 +264,8 @@ If the virtual machine is configured with 3D acceleration enabled, boot LineageO
 Otherwise, select `Advanced options` > `LineageOS * (Kernel version *) (Swiftshader graphics)`.
 
 ## Run Generic System Images inside the virtual machine
+
+{% include alerts/warning.html content="We do not guarantee every GSIs provides the same functionality level as the main OS." %}
 
 Here we will utilize GSIs from the Android Open Source Project website as example. There are three ways to run it:
 
