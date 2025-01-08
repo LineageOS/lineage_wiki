@@ -16,6 +16,24 @@
       "message": "what about other xiaomi 8250 devices?",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e322c593_ae756e10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-01-08T17:44:17Z",
+      "side": 1,
+      "message": "yeah. What do you think if we don\u0027t need to make any changes to the specific device tree, promote the whole sm8250 family?",
+      "parentUuid": "33b7f9e1_5796d82e",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
