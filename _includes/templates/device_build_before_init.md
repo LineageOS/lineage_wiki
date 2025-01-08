@@ -75,6 +75,13 @@ To build LineageOS 13.0, you'll also need:
 * `maven`
 {% endif %}
 
+{% if page.name == "libvirt-qemu.md" %}
+libvirt QEMU targets uses Mesa that is based on upstream repository since LineageOS 22.0. To build LineageOS 22.0 and above for libvirt QEMU targets, you'll also need:
+
+* `meson`
+* `python3-mako`
+{% endif %}
+
 For Ubuntu 23.10 (mantic), install `libncurses5` from 23.04 (lunar) as follows:
 
 ```
