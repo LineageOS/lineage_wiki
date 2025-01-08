@@ -20,7 +20,7 @@ image: ingot.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_osom_sm8475, version: '5.10'}
-maintainers: [mikeioannina, npjohnson]
+maintainers: [mikeioannina, npjohnson, tomoms]
 name: 'Saga'
 network: [3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG]
