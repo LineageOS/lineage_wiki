@@ -265,6 +265,7 @@ definitions:
     type: object
   soc_data:
     enum:
+      - Amlogic S905D3
       - Amlogic S905D3G
       - Amlogic S905X2
       - Amlogic S905Y2
