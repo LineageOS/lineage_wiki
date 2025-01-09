@@ -177,6 +177,24 @@
       "parentUuid": "0eddf4fd_ca8d664f",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e2f10d9d_b9b88867",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 18796
+      },
+      "writtenOn": "2025-01-09T15:58:40Z",
+      "side": 1,
+      "message": "The kernel QCOM/sm8250 merge was a clean merge, and it was in a new branch, lineage-22.1; it was not created. No other devices use it yet.\n\nWe will have to merge and fix it anyway, even if it breaks the camera in cmi.\n\nFingerprint AIDL shouldn\u0027t break fingerprint for existing users; if that\u0027s the case, then we can\u0027t provide upgrade from 21 to 22.1.",
+      "parentUuid": "cd244161_c981733d",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
