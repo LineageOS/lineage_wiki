@@ -1,0 +1,34 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+bluetooth: {spec: '4.2'}
+cameras: []
+codename: radxa02_tab
+cpu: Cortex-A53
+cpu_cores: '4'
+cpu_freq: 1.8 GHz
+current_branch: 22.1
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 5.15, height: 36.25, width: 65.33}
+download_boot: Press and hold the `USB BOOT` button on the board, and plug into your PC.
+gpu: ARM Mali-G31 MP2
+image: radxa02.png
+install_method: amlogic_update
+kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
+maintainers: [bgcngm, npjohnson, stricted]
+name: Zero 2 (Tablet)
+network: None
+peripherals: [HDMI, USB OTG]
+ram: 2/4 GB
+recovery_partition_name: recovery
+recovery_reboot: none
+release: 2020-12-01
+screen: None
+sdcard: {size_max: '2 TB'}
+soc: Amlogic S905D3
+storage: 8/16/32/64/128 GB
+tree: android_device_radxa_radxa02_tab
+type: Devkit
+vendor: Radxa
+vendor_short: radxa
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac
