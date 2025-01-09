@@ -123,6 +123,24 @@
       "parentUuid": "052fb3eb_bdc45988",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "de9aaf48_452e08f4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-01-09T13:45:02Z",
+      "side": 1,
+      "message": "I agree with luk here (a qcom/sm8250 kernel merge also happened bypassing Gerrit without us knowing, that apparently breaks camera for cmi), but I\u0027m no one to hold such request, if he wanna rush it, sure\nKeep in mind that fingerprint AIDL migration didn\u0027t even happen yet, hopefully it won\u0027t break anything mid-cycle",
+      "parentUuid": "fd41214b_842a6aa9",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
