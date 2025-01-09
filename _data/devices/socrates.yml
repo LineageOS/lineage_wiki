@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, ships_fw: True}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, ships_fw: True}
 before_install_device_variants:
   - {device: 'Redmi K60 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VMKCNXM/socrates-ota_full-OS2.0.3.0.VMKCNXM-user-15.0-4b2a0681aa.zip', firmware: 'OS2.0.3.0.VMKCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
