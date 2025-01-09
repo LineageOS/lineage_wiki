@@ -159,6 +159,24 @@
       "parentUuid": "de9aaf48_452e08f4",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd244161_c981733d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-09T13:47:04Z",
+      "side": 1,
+      "message": "also, kernel merges should use git-push-merge-review from lineage/scripts, if you\u0027re unsure how to use it, check the discord history or just ask there.",
+      "parentUuid": "0eddf4fd_ca8d664f",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
