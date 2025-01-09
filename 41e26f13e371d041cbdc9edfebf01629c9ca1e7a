@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f597d749_b391d330",
+        "filename": "_data/devices/radxa02_tab.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-09T19:19:56Z",
+      "side": 1,
+      "message": "lies? only 22.1 branch available.",
+      "revId": "41e26f13e371d041cbdc9edfebf01629c9ca1e7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
