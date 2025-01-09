@@ -26,7 +26,7 @@ screen: None
 sdcard: {size_max: '2 TB'}
 soc: Amlogic S905X3
 storage: 16 GB
-tree: android_device_hardkernel_odroidc4
+tree: android_device_hardkernel_odroidc4_tab
 type: Devkit
 vendor: HardKernel
 vendor_short: hardkernel
