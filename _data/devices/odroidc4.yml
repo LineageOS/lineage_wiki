@@ -29,6 +29,6 @@ storage: 16 GB
 tree: android_device_hardkernel_odroidc4
 type: Devkit
 vendor: HardKernel
-vendor_short: amlogic
+vendor_short: hardkernel
 versions: [20, 21, 22.1]
 wifi: None
