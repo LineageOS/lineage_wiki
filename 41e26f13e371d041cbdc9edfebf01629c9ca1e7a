@@ -16,6 +16,24 @@
       "message": "lies? only 22.1 branch available.",
       "revId": "41e26f13e371d041cbdc9edfebf01629c9ca1e7a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0e862010_1ee68806",
+        "filename": "_data/devices/radxa02_tab.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-09T19:20:30Z",
+      "side": 1,
+      "message": "great catch - leftover from radxa0",
+      "parentUuid": "f597d749_b391d330",
+      "revId": "41e26f13e371d041cbdc9edfebf01629c9ca1e7a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
