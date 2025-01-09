@@ -105,6 +105,24 @@
       "message": "I don\u0027t mind waiting until the other devices are ready. However, I see no reason to delay alioth from being released.",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0c1a92b_de1e342f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-01-09T05:58:04Z",
+      "side": 1,
+      "message": "downloading 15 sources. today will test on my friend Mi 10T Pro. I can report the result here",
+      "parentUuid": "052fb3eb_bdc45988",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
