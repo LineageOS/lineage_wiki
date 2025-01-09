@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "125dfc5b_a6fb7b03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-09T13:18:39Z",
+      "side": 1,
+      "message": "I overlooked missing fw req edit: https://review.lineageos.org/c/LineageOS/lineage_wiki/+/414825",
+      "revId": "03594f61d09b734e091187a0498c1b2fb887288a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
