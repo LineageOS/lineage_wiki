@@ -952,11 +952,13 @@ properties:
       - ark
       - askey
       - asus
+      - bananapi
       - bq
       - essential
       - fairphone
       - fxtec
       - google
+      - hardkernel
       - htc
       - huawei
       - leeco
@@ -973,6 +975,7 @@ properties:
       - oneplus
       - oppo
       - osom
+      - radxa
       - razer
       - realme
       - samsung
