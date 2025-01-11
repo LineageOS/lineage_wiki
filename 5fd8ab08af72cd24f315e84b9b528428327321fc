@@ -22,6 +22,30 @@
       },
       "revId": "5fd8ab08af72cd24f315e84b9b528428327321fc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d20f10c1_517ea9ea",
+        "filename": "pages/internal/working_with_blobs.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-11T07:08:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2e701e28_c7421f96",
+      "range": {
+        "startLine": 15,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 0
+      },
+      "revId": "5fd8ab08af72cd24f315e84b9b528428327321fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
