@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "107ef9a9_218bc38e",
+        "filename": "_includes/templates/device_specific/before_recovery_install_samsung_a21s.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-01-11T20:49:49Z",
+      "side": 1,
+      "message": "datE",
+      "range": {
+        "startLine": 7,
+        "startChar": 66,
+        "endLine": 7,
+        "endChar": 70
+      },
+      "revId": "096c88bb444cc6a4cb784730e7dd5cee6fb06282",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
