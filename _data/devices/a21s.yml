@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, version: '12'}
+before_recovery_install: samsung_a21s
+bluetooth: {profiles: [A2DP], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (macro)'}
+  - {flash: None, info: '2 MP (depth)'}
+codename: a21s
+cpu: Cortex-A55
+cpu_cores: '8'
+cpu_freq: 8 x 2.0 GHz
+current_branch: 22.1
+dimensions: {depth: 8.9, height: 163.7, width: 75.3}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_a21s
+gpu: ARM Mali-G52 MC2
+image: a21s.png
+install_method: odin
+kernel: {repo: android_kernel_samsung_exynos850, version: '4.19'}
+maintainers: [DaemonMCR]
+models: [SM-A217F, Sm-A217M, SM-A217F/DS, SM-A217F/DSN, SM-A217M/DS]
+name: Galaxy A21s
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor, Magnetometer]
+quirks: [ims]
+ram: 2/3/4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2020
+screen: {refresh_rate: 60, resolution: '720x1600', size: 6.5, technology: 'PLS LCD'}
+sdcard: {size_max: '512 GB', slot: 'hybrid'}
+soc: Samsung Exynos 850
+storage: 32/64/128 GB
+tree: android_device_samsung_a21s
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac
