@@ -195,6 +195,24 @@
       "parentUuid": "cd244161_c981733d",
       "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "19712e92_d5136020",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-11T05:06:36Z",
+      "side": 1,
+      "message": "kernel merge script is the right way to do it but not everyone is/was aware of it.\n\nFor next time: Please do that.\n\nBut letting one device ship is fine. Others can follow tomorrow if they want to. Extra commits in Hudson cost us nothing.",
+      "parentUuid": "e2f10d9d_b9b88867",
+      "revId": "7d44cf90f94e9414a72fece8e2ba8d3814afb557",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
