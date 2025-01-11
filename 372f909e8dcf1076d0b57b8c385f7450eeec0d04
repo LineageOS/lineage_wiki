@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "446c3e52_8f0ce107",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34715
+      },
+      "writtenOn": "2025-01-11T19:55:45Z",
+      "side": 1,
+      "message": "Going to -1 for now, as I am still waiting for the gerrit permission to fork lineage-22.1 and ship in my device trees.",
+      "revId": "372f909e8dcf1076d0b57b8c385f7450eeec0d04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
