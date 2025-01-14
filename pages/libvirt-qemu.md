@@ -331,6 +331,34 @@ Here's how to use fastbootd over Ethernet:
 fastboot -s tcp:<IPv4 address that shown on menu header> [fastboot command...]
 ```
 
+### GPU passthrough (for `virtio_x86_64` target)
+
+The `virtio_x86_64` target supports displaying directly on a monitor connected to a real GPU using GPU passthrough, in normal boot mode (non-recovery), since LineageOS 22.1.
+
+Currently, only Intel GPUs (iGPU or dGPU) are supported.
+
+{% include alerts/tip.html content="Neither the display color issue nor the video playback issue will likely occur on Intel GPUs." %}
+
+{% include alerts/note.html content="There is no guarantee that every GPU models will work fine without any problem. Initial testing used Intel® HD Graphics 4600. If you have fixes for any GPU, feel free to submit!" %}
+
+#### Additional build dependencies required for Intel Broadwell and later GPUs
+
+* Install the package `python3-ply`.
+* Provide Intel OpenCL C compiler executable at `prebuilts/intel-clc/intel_clc`.
+
+#### Add GPU to the virtual machine
+
+1. Enable VT-d (Intel) or IOMMU (AMD) in BIOS settings on the host PC.
+2. Stop any driver from using the GPU on the host OS.
+3. Probe `vfio-pci` kernel module with `ids` parameter containing PCI ID(s) of the GPU on the host OS.
+4. Add PCI device of the GPU to the virtual machine at PCI bus `0x00` slot `0x1e`.
+
+#### Start the virtual machine with GPU passthrough
+
+When on the boot menu, enter `Advanced options (virtio_x86_64 specific)` submenu, and select the option that corresponds to the GPU and/or your usecase.
+
+If something that's related with graphics doesn't work in GPU passthrough mode, you could firstly try booting in SELinux Permissive mode by selecting `Settings` > `SELinux` > `Permissive` on boot menu before booting.
+
 ### Install flashable ZIPs in recovery mode
 
 Currently, there are two ways to do so:
