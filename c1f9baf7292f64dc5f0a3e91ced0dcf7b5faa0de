@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5d86c552_da3ad733",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-01-14T11:34:32Z",
+      "side": 1,
+      "message": "After 1 week test 22.1 is stable for apollon. everything working fine here and we can promote apollon either.",
+      "revId": "c1f9baf7292f64dc5f0a3e91ced0dcf7b5faa0de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
