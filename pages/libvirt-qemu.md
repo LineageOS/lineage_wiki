@@ -361,7 +361,11 @@ If something that's related with graphics doesn't work in GPU passthrough mode, 
 
 ### Install flashable ZIPs in recovery mode
 
-Currently, there are two ways to do so:
+#### ADB sideload
+
+ADB sideload (over Ethernet or VirtIO VSOCK) on these targets is supported since LineageOS 22.1.
+
+To establish the connection, refer to [ADB connection](#adb-connection).
 
 #### Export a directory as VirtioFS share
 
