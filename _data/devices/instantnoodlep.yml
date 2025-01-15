@@ -23,7 +23,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8250, version: '4.19'}
 maintainers: [LuK1337]
-models: [IN2020, IN2023, IN2025]
+models: [IN2020, IN2021, IN2023, IN2025]
 name: '8 Pro'
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
