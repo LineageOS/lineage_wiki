@@ -61,7 +61,7 @@ r2p_action=self
 ; touch_skip_tuning=1 uncomment if your touchscreen is broken
 ; usb3_enable=1 uncomment for faster USB at expense of WiFi/BT quality
 ; ddr200_enable=1 uncomment for faster SD speed on models that support it (Samsung enabled by default)
-; emmc=1 uncomment for eMMC boot (internal storage, not recommended)
+; emmc=1 uncomment to boot from the internal eMMC (not reccomended)
 ```
 5. Safely eject the SD Card from your PC's file browser, then click "Close" on the device, then the "X" icon in the top right of the screen, and finally the "Home" button in the top-left of the screen.
 6. Now select "Flash Android", go through the process, then when asked if you'd like to reboot into recovery, click "No".
@@ -76,3 +76,4 @@ Both pairing data are HOS based!
     {% include alerts/note.html content="You must have booted HOS (the stock Nintendo Switch OS) with your preferred JoyCons attached prior to doing this, or it will likely not succeed. You may boot to HOS at this point if necessary, and re-run this specific step after reboot." %}
 10. When the process is complete, navigate to the Hekate's main menu by clicking "X Close" in the top right of the screen. Then select "More Configs", hold the Volume Up button, and select the "LineageOS" option to boot into recovery. Do not release the Volume Up button until you see the LineageOS splash screen.
     {% include alerts/note.html content="If any messages display in the top left of the LineageOS splash screen, please start again and follow the guide more carefully." %}
+    {% include alerts/warning.html content="Please note that all references to wiping/formatting  `Internal Storage` in LineageOS Recovery refers **only** to the `/data` and `/cache` partitions of your Android installation. None of these actions are capable of wiping/formatting your HOS (the stock Nintendo Switch OS), or HOS Data SD Card partition." %}
