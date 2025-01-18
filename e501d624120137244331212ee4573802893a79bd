@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eeae2d79_fa607ea8",
+        "filename": "_data/devices/gunnar.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-18T18:17:18Z",
+      "side": 1,
+      "message": "no 3.5mm jack?",
+      "revId": "e501d624120137244331212ee4573802893a79bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
