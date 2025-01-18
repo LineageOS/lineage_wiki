@@ -16,6 +16,24 @@
       "message": "no 3.5mm jack?",
       "revId": "e501d624120137244331212ee4573802893a79bd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29dd2249_dd44e26b",
+        "filename": "_data/devices/gunnar.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 18745
+      },
+      "writtenOn": "2025-01-18T18:39:03Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "eeae2d79_fa607ea8",
+      "revId": "e501d624120137244331212ee4573802893a79bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
