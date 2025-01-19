@@ -16,6 +16,24 @@
       "message": "You do realize that someone simply trying to bump a version number is not going to magically make this version work or us merging this?\nYou can contribute with significant work and apply for maintainership, until then, uploading random changes won\u0027t make it",
       "revId": "8a6d952da0de7781e188e86923c15fd391f110f6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "815c16e0_9b59cb41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2025-01-19T14:15:04Z",
+      "side": 1,
+      "message": "You are right.  All my changes are to help the community and I didn\u0027t intend for you to merge it without the approval of the maintainers",
+      "parentUuid": "15d28a5e_5fc6c21a",
+      "revId": "8a6d952da0de7781e188e86923c15fd391f110f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
