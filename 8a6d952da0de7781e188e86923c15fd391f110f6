@@ -34,6 +34,24 @@
       "parentUuid": "15d28a5e_5fc6c21a",
       "revId": "8a6d952da0de7781e188e86923c15fd391f110f6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60164461_9078f99a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-01-19T14:28:25Z",
+      "side": 1,
+      "message": "The 3 lines of change aren\u0027t saving anyones time nor help - it\u0027s not like this are steps of significant effort.\nAnd once a device is truly ready for a bump, maintainer uploads such steps themselves - these random uploads won\u0027t receive anyones approval.\nI am abandoning this change",
+      "parentUuid": "815c16e0_9b59cb41",
+      "revId": "8a6d952da0de7781e188e86923c15fd391f110f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
