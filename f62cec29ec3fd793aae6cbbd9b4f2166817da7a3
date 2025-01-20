@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4dea9660_36c05562",
+        "filename": "pages/glossary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-20T22:14:06Z",
+      "side": 1,
+      "message": "be deleted?",
+      "revId": "f62cec29ec3fd793aae6cbbd9b4f2166817da7a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
