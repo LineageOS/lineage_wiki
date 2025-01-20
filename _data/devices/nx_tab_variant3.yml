@@ -6,7 +6,7 @@ codename: nx_tab
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 14, height: 91, width: 208}
 gpu: NVIDIA GM20B (Maxwell)
 image: nx_lite.png
@@ -33,5 +33,5 @@ type: Handheld game console
 variant: 3
 vendor: Nintendo
 vendor_short: nintendo
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac
