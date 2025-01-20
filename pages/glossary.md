@@ -53,6 +53,11 @@ toc: false
 
 - A (self-)built Android version with changes on top of the [AOSP](https://source.android.com/) (Android Open Source Project)
 
+#### Data
+
+- Data is everything added by a user - installed apps and their data, settings, media (pictures, videos, audio files, etc), ...
+- If the installation or upgrade for your device calls for a [Factory reset](#factory-reset), this is the data that will get removed
+
 #### Degoogled
 
 - A term describing that an OS has no software parts from, or that attempt to connect to Google
