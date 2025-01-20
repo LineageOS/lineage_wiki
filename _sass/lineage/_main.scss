@@ -771,3 +771,9 @@ span.codename {
   content: 'help_outline';
   vertical-align: middle;
 }
+
+.download::after {
+  font-family: "Material Icons";
+  content: 'download';
+  vertical-align: middle;
+}
