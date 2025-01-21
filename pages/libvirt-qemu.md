@@ -259,9 +259,7 @@ You can now select `Reboot system now` to boot into LineageOS.
 
 The virtual machine should enter LineageOS boot menu.
 
-If the virtual machine is configured with 3D acceleration enabled, boot LineageOS by selecting the first option.
-
-Otherwise, select `Advanced options` > `LineageOS * (Kernel version *) (Swiftshader graphics)`.
+Select the first option (which should be automatically selected by default) to boot LineageOS.
 
 ## Run Generic System Images inside the virtual machine
 
