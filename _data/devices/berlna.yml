@@ -25,7 +25,7 @@ maintainers: [SyberHexen]
 models: [XT2141-2]
 name: edge 2021
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Barometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Sensor hub, USB OTG]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG]
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot
