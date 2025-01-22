@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4500, removable: False, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '13'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, version: '15'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
@@ -11,7 +11,7 @@ codename: Spacewar
 cpu: Kryo 670
 cpu_cores: '8'
 cpu_freq: 1 x 2.5 GHz + 3 x 2.4 GHz + 4 x 1.9 GHz
-current_branch: 20
+current_branch: 22.1
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.3, height: 159.2, width: 75.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -20,11 +20,11 @@ image: Spacewar.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_nothing_sm7325, version: '5.4'}
-maintainers: []
+maintainers: [zlewchan, ko_ko_konb]
 models: [A063]
 name: 'Phone (1)'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gesture sensor, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Sensor hub, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual front speakers, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Sensor hub, USB OTG]
 ram: 8/12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
@@ -37,5 +37,5 @@ tree: android_device_nothing_Spacewar
 type: phone
 vendor: Nothing
 vendor_short: nothing
-versions: [20]
+versions: [20, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax
