@@ -468,7 +468,6 @@ definitions:
         - NAVIC
         - SBAS
         - QZSS
-        - Gesture sensor
         - Google Assist Button
         - Gyroscope
         - HDMI
