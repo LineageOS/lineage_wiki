@@ -16,6 +16,24 @@
       "message": "maybe ship firmware while at it?",
       "revId": "b8aba95cc0462515589f6fc0854d5788d41ccf53",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "be434bf9_ad800a89",
+        "filename": "_data/devices/Spacewar.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-22T20:35:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c74c994f_9ebf9fc4",
+      "revId": "b8aba95cc0462515589f6fc0854d5788d41ccf53",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
