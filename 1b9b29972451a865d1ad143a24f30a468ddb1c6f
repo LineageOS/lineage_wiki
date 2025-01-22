@@ -22,6 +22,30 @@
       },
       "revId": "1b9b29972451a865d1ad143a24f30a468ddb1c6f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b1337136_156f769a",
+        "filename": "_data/devices/Spacewar.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-22T19:20:55Z",
+      "side": 0,
+      "message": "might be w good idea to just remove it treewide, after all wtf is a gesture sensor anyway",
+      "parentUuid": "36b80b5c_4e6847aa",
+      "range": {
+        "startLine": 27,
+        "startChar": 133,
+        "endLine": 27,
+        "endChar": 147
+      },
+      "revId": "1b9b29972451a865d1ad143a24f30a468ddb1c6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
