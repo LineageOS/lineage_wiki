@@ -12,7 +12,7 @@ codename: betalm
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8, height: 155.3, width: 76.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 640
@@ -21,7 +21,7 @@ install_method: fastboot_lg
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sm8150, version: '4.14'}
-maintainers: []
+maintainers: [jmpfbmx]
 models: [LM-G810EA, LM-G810EAW, LM-G810RA]
 name: G8s ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
@@ -39,5 +39,5 @@ tree: android_device_lge_betalm
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
