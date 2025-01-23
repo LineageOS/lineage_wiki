@@ -70,6 +70,30 @@
       },
       "revId": "1b9b29972451a865d1ad143a24f30a468ddb1c6f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a71febb4_315a490c",
+        "filename": "_data/devices/Spacewar.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-01-23T05:44:27Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "3fc03615_8d338013",
+      "range": {
+        "startLine": 27,
+        "startChar": 133,
+        "endLine": 27,
+        "endChar": 147
+      },
+      "revId": "1b9b29972451a865d1ad143a24f30a468ddb1c6f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
