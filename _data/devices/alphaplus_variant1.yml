@@ -6,13 +6,12 @@ bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
 cameras:
   - {flash: 'LED', info: '12 MP'}
   - {flash: 'LED', info: '16 MP'}
-  - {flash: 'LED', info: '12 MP'}
   - {flash: None, info: '8 MP'}
 codename: alphaplus
 cpu: Kryo 485
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.78 GHz
-current_branch: 20
+current_branch: 21
 dimensions: {depth: 8.4, height: 151.9, width: 71.8}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 640
@@ -21,9 +20,9 @@ install_method: dd
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sm8150, version: '4.14'}
-maintainers: []
-models: [LM-G820N]
-name: G8 ThinQ (Korea)
+maintainers: [lifehackerhansol]
+models: [LM-G820UM, LM-G820QM]
+name: G8 ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Barometer, Color spectrum sensor, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
 quirks: [ims]
@@ -38,7 +37,8 @@ soc: Qualcomm SM8150 Snapdragon 855
 storage: 128 GB
 tree: android_device_lge_alphaplus
 type: phone
+variant: 1
 vendor: LG
 vendor_short: lge
-versions: [20]
+versions: [20, 21]
 wifi: 802.11 a/b/g/n/ac
