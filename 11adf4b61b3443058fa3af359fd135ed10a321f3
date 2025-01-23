@@ -16,6 +16,24 @@
       "message": ".",
       "revId": "11adf4b61b3443058fa3af359fd135ed10a321f3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "09b84218_605b1769",
+        "filename": "_data/devices/gts9wifi.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 32210
+      },
+      "writtenOn": "2025-01-23T01:55:26Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "55e3ec9e_80638883",
+      "revId": "11adf4b61b3443058fa3af359fd135ed10a321f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
