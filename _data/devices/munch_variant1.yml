@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1}
 before_install_device_variants:
   - {device: 'POCO F4 EEA', download_link: 'https://cdnorg.d.miui.com/OS1.0.2.0.ULMEUXM/miui_MUNCHEEAGlobal_OS1.0.2.0.ULMEUXM_23bf621c6d_14.0.zip', firmware: 'OS1.0.2.0.ULMEUXM'}
   - {device: 'POCO F4 Global', download_link: 'https://cdnorg.d.miui.com/OS1.0.2.0.ULMMIXM/miui_MUNCHGlobal_OS1.0.2.0.ULMMIXM_9849ffd45c_14.0.zip', firmware: 'OS1.0.2.0.ULMMIXM'}
@@ -20,7 +20,7 @@ codename: munch
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 7.7, height: 163.2, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm8250_vab
@@ -47,5 +47,5 @@ type: phone
 variant: 1
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax
