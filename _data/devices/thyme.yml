@@ -15,7 +15,7 @@ codename: thyme
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 8.96, height: 162.6, width: 74.8}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 firmware_update: firmware_update_xiaomi_sm8250_vab
@@ -41,5 +41,5 @@ tree: android_device_xiaomi_thyme
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac/ax
