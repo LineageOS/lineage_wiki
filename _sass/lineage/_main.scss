@@ -56,6 +56,10 @@ a.anchorjs-link {
   padding-right: 16px;
   top: 36px;
   z-index: 10;
+  width: max-content;
+  /* the container is placed 30px from the right, so give it 100% of the width minus that and additional margin of 10px */
+  max-width: calc(100vw - 30px - 10px);
+  right: 0px;
 }
 
 // Tables
