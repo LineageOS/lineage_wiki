@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d801ac52_356f7115",
+        "filename": "images/devices/m31.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-29T20:28:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bbc54f00_a1fc2772",
+      "revId": "3dc57bb4cebc23f2a553893167331b6020edae2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "917b7e31_14eb1096",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a1de9c2f_af334cf7",
+        "filename": "images/devices/small/m21.png",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-29T20:28:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "917b7e31_14eb1096",
+      "revId": "3dc57bb4cebc23f2a553893167331b6020edae2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c3998cc_8ed3ee67",
@@ -48,6 +84,30 @@
       "writtenOn": "2025-01-29T20:05:02Z",
       "side": 1,
       "message": "erm...",
+      "range": {
+        "startLine": 3,
+        "startChar": 25,
+        "endLine": 3,
+        "endChar": 29
+      },
+      "revId": "3dc57bb4cebc23f2a553893167331b6020edae2f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f061eb73_bcc00ae1",
+        "filename": "pages/fw_update/m31.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 34676
+      },
+      "writtenOn": "2025-01-29T20:28:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2c3998cc_8ed3ee67",
       "range": {
         "startLine": 3,
         "startChar": 25,
