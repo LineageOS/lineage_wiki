@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 6000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, version: '12'}
+before_recovery_install: samsung_exynos9xxx
+bluetooth: {profiles: [A2DP + aptX], spec: '5'}
+cameras:
+  - {flash: None, info: '32 MP (front)'}
+  - {flash: 'LED', info: '48 MP (wide)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '5 MP (macro)'}
+  - {flash: None, info: '5 MP (depth)'}
+codename: m21
+cpu: Cortex-A73 & Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.3 GHz + 4 x 1.7GHz
+current_branch: 22.1
+dimensions: {depth: 8.9, height: 159.2, width: 75.1}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+firmware_update: firmware_update_samsung_universal9611
+gpu: ARM Mali-G72 MP3
+image: m21.png
+install_method: heimdall
+kernel: {repo: android_kernel_samsung_universal9611, version: '4.14'}
+maintainers: [cat658011]
+models: [SM-M215F, SM-M215F/DS]
+name: Galaxy M21
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, Fingerprint reader, GPS, Gyroscope, NFC]
+quirks: [ims]
+ram: 4/6 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2020-03-05
+screen: {refresh_rate: 60, resolution: '1080x2340', size: 6.4, technology: 'Super AMOLED'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
+soc: Samsung Exynos 9611
+storage: 64/128 GB
+tree: android_device_samsung_m21
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac
