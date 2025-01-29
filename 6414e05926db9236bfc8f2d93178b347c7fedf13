@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4ba9e4c2_dda1c2e3",
+        "filename": "_data/devices/a51.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-01-29T20:43:51Z",
+      "side": 1,
+      "message": "```suggestion\ncameras:\n  - {flash: \u0027LED\u0027, info: \u002748 MP (wide)\u0027}\n  - {flash: \u0027LED\u0027, info: \u002712 MP (ultrawide)\u0027}\n  - {flash: \u0027LED\u0027, info: \u00275 MP (macro)\u0027}\n  - {flash: \u0027LED\u0027, info: \u00275 MP (depth)\u0027}\n  - {flash: None, info: \u002732 MP\u0027}\n```\n\napply the same to other files",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 39
+      },
+      "revId": "6414e05926db9236bfc8f2d93178b347c7fedf13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
