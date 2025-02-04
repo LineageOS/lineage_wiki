@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "936c106a_e4940e0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-02-04T20:04:32Z",
+      "side": 1,
+      "message": "I do not think we should go into every specific step that\u0027s not even controlled by just a timer or similar but really by random rules imposed by people on a forum.\nIf the bare minimum is level 5 and then follow by whatever rules-of-the-day the app gives, that\u0027s what we should write here.",
+      "revId": "2ed920e66d5b4d93c69d4eea269510ddcc7e1ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
