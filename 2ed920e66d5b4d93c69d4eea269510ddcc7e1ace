@@ -34,6 +34,24 @@
       "parentUuid": "936c106a_e4940e0d",
       "revId": "2ed920e66d5b4d93c69d4eea269510ddcc7e1ace",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da802421_ed76fa78",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-02-04T20:17:50Z",
+      "side": 1,
+      "message": "It is not as simple as \"whatever rules of the day the app gives\". Considering that they haven\u0027t documented it well, it\u0027s better to have it on the wiki.",
+      "parentUuid": "40984f50_54b5c9ab",
+      "revId": "2ed920e66d5b4d93c69d4eea269510ddcc7e1ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
