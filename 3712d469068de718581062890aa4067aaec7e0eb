@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f784863_430dc224",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Resolving all to start afresh.",
+      "revId": "3712d469068de718581062890aa4067aaec7e0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

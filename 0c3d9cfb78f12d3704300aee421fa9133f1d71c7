@@ -231,6 +231,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "2a8e8d8f_0d65f44a",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "db6ab8ef_b26446c4",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c9286469_3ed0e196",
@@ -262,6 +280,24 @@
       "side": 1,
       "message": "Then is not needed to write that you should insert SIM card...",
       "parentUuid": "c9286469_3ed0e196",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a361f4e_407863ff",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c65e89d1_b40cf573",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -301,6 +337,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5f42e980_f0e71947",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4007d1a_6fa14cb9",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "39836fef_bfc0281d",
@@ -332,6 +386,24 @@
       "side": 1,
       "message": "They are not installed automatically from official app for sure .",
       "parentUuid": "39836fef_bfc0281d",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dd4f4d1c_e39b8f74",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea9fb641_a4bbac1f",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -371,6 +443,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "35d64544_d21169e2",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c4a98352_4ff42949",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4c4f0bc_f01036a4",
@@ -402,6 +492,24 @@
       "side": 1,
       "message": "Ok",
       "parentUuid": "a4c4f0bc_f01036a4",
+      "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffe63b54_ef2600a3",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T18:55:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d4b3c305_81a27f89",
       "revId": "0c3d9cfb78f12d3704300aee421fa9133f1d71c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
