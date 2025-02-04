@@ -16,6 +16,23 @@
       "message": "Resolving all to start afresh.",
       "revId": "3712d469068de718581062890aa4067aaec7e0eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ce3c740f_fb757b29",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T19:03:38Z",
+      "side": 1,
+      "message": "Instructions not shown on the same page",
+      "revId": "3712d469068de718581062890aa4067aaec7e0eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
