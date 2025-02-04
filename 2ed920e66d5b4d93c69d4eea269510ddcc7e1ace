@@ -16,6 +16,24 @@
       "message": "I do not think we should go into every specific step that\u0027s not even controlled by just a timer or similar but really by random rules imposed by people on a forum.\nIf the bare minimum is level 5 and then follow by whatever rules-of-the-day the app gives, that\u0027s what we should write here.",
       "revId": "2ed920e66d5b4d93c69d4eea269510ddcc7e1ace",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "40984f50_54b5c9ab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-02-04T20:09:14Z",
+      "side": 1,
+      "message": "Sadly, some of these rules are unlikely to be lifted (e.g. human / ID verification), and these rules are not decided by people on a forum, but by Xiaomi themselves.\n\nI do agree on removing some details regarding the test itself, which could be found by the user with a Google Search (e.g. entrance / answering requirements, account issues), as that is not within our control, which is stressed in the text.",
+      "parentUuid": "936c106a_e4940e0d",
+      "revId": "2ed920e66d5b4d93c69d4eea269510ddcc7e1ace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
