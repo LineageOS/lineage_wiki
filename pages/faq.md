@@ -46,8 +46,8 @@ permalink: faq.html
 ## Can I have _xxx_ feature added?
  - Don't ask.
 
-## My device doesn't pass SafetyNet!
- - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/Safetynet/) about this topic, which explains our reasons further.
+## My device doesn't pass Play Integrity!
+ - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further.
 
 ## Where does the updater app store the downloaded zip?
  - `/data/lineageos_updates/`
