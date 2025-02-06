@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0eaff3ab_46427852",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2025-02-06T23:30:38Z",
+      "side": 1,
+      "message": "PS4 trigger was manual, via cli",
+      "revId": "669d161fb5c5a03773c429a8258e4212d14ee497",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
