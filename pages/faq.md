@@ -47,7 +47,7 @@ permalink: faq.html
  - Don't ask.
 
 ## My device doesn't pass Play Integrity!
- - Some devices pass their bootloader unlock status and verity status to android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further.
+ - Some devices pass their bootloader unlock status and verity status to Android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further.
 
 ## Where does the updater app store the downloaded zip?
  - `/data/lineageos_updates/`
@@ -68,7 +68,7 @@ permalink: faq.html
  - Sorry, as per [earlier in this FAQ](#canshould-i-relock-my-bootloader), we don't support this usecase and there may not be a good way to recover.
    [XDA](https://www.xda-developers.com), other similar forums or a search engine may be of use.
 
-## Will my device receive the next android version?
+## Will my device receive the next Android version?
  - We can't tell you. "No ETA" includes the "IF", not just the "WHEN"
 
 ## I am following a guide/video somewhere on the internet and am stuck, help?
