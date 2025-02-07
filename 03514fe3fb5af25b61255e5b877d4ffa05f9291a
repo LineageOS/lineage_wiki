@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "535d3ec0_dedafd26",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi_hyperos.md",
+        "patchSetId": 33
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-07T17:01:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b197f68e_df627290",
+      "range": {
+        "startLine": 5,
+        "startChar": 57,
+        "endLine": 5,
+        "endChar": 62
+      },
+      "revId": "03514fe3fb5af25b61255e5b877d4ffa05f9291a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a54eae51_266423ed",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-02-07T16:56:51Z",
       "side": 1,
       "message": "`-` vs `*` intended? Results are the same.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 1
+      },
+      "revId": "03514fe3fb5af25b61255e5b877d4ffa05f9291a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc413bbc_a2142f29",
+        "filename": "_includes/templates/recovery_install_fastboot_xiaomi_hyperos.md",
+        "patchSetId": 33
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-02-07T17:01:34Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a54eae51_266423ed",
       "range": {
         "startLine": 11,
         "startChar": 0,
