@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b6103b2b_8bd69ca0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 32
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-02-07T16:39:29Z",
+      "side": 1,
+      "message": "Dropped sweet since it didn\u0027t get HyperOS, Xiaomi just uses the same codename for the Redmi Note 12 Pro 4G which did get HyperOS. It\u0027ll need to be included on sweet2 whenever Alex ships it.",
+      "revId": "be349218d6051433a14cedd4ae862473e3730059",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
