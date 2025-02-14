@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aaf45e6f_e0118e6a",
+        "filename": "_data/devices/lmi_variant1.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7cfe3663_ed1f3cd3",
+        "filename": "_data/devices/lmi_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1222385_54257b42",
+        "filename": "_data/devices/lmi_variant3.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "this variant is unmaintained tho?",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c6cacc49_6edabfd0",
+        "filename": "_data/devices/munch_variant1.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b553a30a_a0fcb4c9",
+        "filename": "_data/devices/munch_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b04ffe8_0ea62d27",
+        "filename": "_data/devices/munch_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "not 21, 22.1?",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a0c38ac_da78ea80",
+        "filename": "_data/devices/thyme.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-14T14:30:07Z",
+      "side": 1,
+      "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
