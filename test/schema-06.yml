@@ -507,10 +507,12 @@ definitions:
   valid_quirks:
     description: All valid quirks a device can have
     enum:
+      - ai_aupscaling
       - ant
       - atv_remote_mic
       - aux_cameras
       - dock
+      - dolby_vision
       - esim
       - face_unlock
       - fde
