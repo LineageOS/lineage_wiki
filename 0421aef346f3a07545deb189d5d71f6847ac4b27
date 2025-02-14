@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e2fd5407_c823b6cb",
+        "filename": "_data/devices/lmi_variant1.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "aaf45e6f_e0118e6a",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7cfe3663_ed1f3cd3",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-02-14T14:30:07Z",
       "side": 1,
       "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1180baf6_0d1c6a00",
+        "filename": "_data/devices/lmi_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cfe3663_ed1f3cd3",
       "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a550e1c8_ef68d00f",
+        "filename": "_data/devices/lmi_variant3.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c1222385_54257b42",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c6cacc49_6edabfd0",
@@ -65,6 +119,24 @@
       "writtenOn": "2025-02-14T14:30:07Z",
       "side": 1,
       "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "24890f10_f72c5aa3",
+        "filename": "_data/devices/munch_variant1.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c6cacc49_6edabfd0",
       "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -86,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "bcc47528_c9afe108",
+        "filename": "_data/devices/munch_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b553a30a_a0fcb4c9",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1b04ffe8_0ea62d27",
@@ -103,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "472b3577_1b6c89e3",
+        "filename": "_data/devices/munch_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b04ffe8_0ea62d27",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9a0c38ac_da78ea80",
@@ -116,6 +224,24 @@
       "writtenOn": "2025-02-14T14:30:07Z",
       "side": 1,
       "message": "why? the requirement is still the same",
+      "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c7257015_4407712f",
+        "filename": "_data/devices/thyme.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-02-14T21:08:38Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a0c38ac_da78ea80",
       "revId": "0421aef346f3a07545deb189d5d71f6847ac4b27",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
