@@ -7,7 +7,7 @@ codename: foster
 cpu: Cortex-A57
 cpu_cores: '4'
 cpu_freq: 1.9 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: None
 gpu: NVIDIA GM20B (Maxwell)
 image: foster.png
@@ -19,7 +19,7 @@ name: Shield TV (2015 / 2015 Pro / 2017 / 2019 Pro) [Android TV]
 network: None
 no_oem_unlock_switch: true
 peripherals: None
-quirks: [atv_remote_mic, fde, nvidia_remotes]
+quirks: [ai_upscaling, atv_remote_mic, dolby_vision, fde, nvidia_remotes]
 ram: 3 GB
 recovery_boot: With the device powered off, plug the included Shield controller into the USB-A port on the back of the device.
   Next, hold the <kbd>A button</kbd> and <kbd>B button</kbd> while plugging the device into power, continue until a menu is displayed.
@@ -35,5 +35,5 @@ type: Set top box
 variant: 1
 vendor: NVIDIA
 vendor_short: nvidia
-versions: [14.1, 15.1, 17.1, 18.1, 20, 21]
+versions: [14.1, 15.1, 17.1, 18.1, 20, 21, 22.1]
 wifi: 802.11 a/b/g/n/ac
