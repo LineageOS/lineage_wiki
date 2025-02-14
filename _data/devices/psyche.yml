@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1}
+before_install_device_variants:
+  - {device: 'Xiaomi 12X China', download_link: 'https://cdnorg.d.miui.com/OS1.0.10.0.TLDCNXM/miui_PSYCHE_OS1.0.10.0.TLDCNXM_4bdc919500_13.0.zip', firmware: 'OS1.0.10.0.TLDCNXM'}
+  - {device: 'Xiaomi 12X EEA', download_link: 'https://cdnorg.d.miui.com/OS1.0.8.0.TLDEUXM/miui_PSYCHEEEAGlobal_OS1.0.8.0.TLDEUXM_70eef7e1f1_13.0.zip', firmware: 'OS1.0.8.0.TLDEUXM'}
+  - {device: 'Xiaomi 12X Global', download_link: 'https://cdnorg.d.miui.com/OS1.0.8.0.TLDMIXM/miui_PSYCHEGlobal_OS1.0.8.0.TLDMIXM_73cbb5a32b_13.0.zip', firmware: 'OS1.0.8.0.TLDMIXM'}
+  - {device: 'Xiaomi 12X Russia', download_link: 'https://cdnorg.d.miui.com/OS1.0.7.0.TLDRUXM/miui_PSYCHERUGlobal_OS1.0.7.0.TLDRUXM_a4e144fcda_13.0.zip', firmware: 'OS1.0.7.0.TLDRUXM'}
+  - {device: 'Xiaomi 12X Taiwan', download_link: 'https://cdnorg.d.miui.com/OS1.0.6.0.TLDTWXM/miui_PSYCHETWGlobal_OS1.0.6.0.TLDTWXM_ab32c7ddf4_13.0.zip', firmware: 'OS1.0.6.0.TLDTWXM'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
+cameras:
+  - {flash: 'Dual LED', info: '50 MP'}
+  - {flash: 'Dual LED', info: '13 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '5 MP (macro)'}
+  - {flash: None, info: '32 MP (front)'}
+codename: psyche
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 22.1
+dimensions: {depth: 8.2, height: 152.7, width: 69.9}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm8250_vab
+gpu: Qualcomm Adreno 650
+image: psyche.png
+install_method: fastboot_xiaomi_hyperos
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
+maintainers: [SebaUbuntu]
+models: [2112123AC, 2112123AG]
+name: 12X
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Galileo, GLONASS, GPS, NAVIC, QZSS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 8/12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "POCO" logo appears on the screen, then release.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_reboot
+release: 2021-12
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.28, technology: 'Super AMOLED'}
+soc: Qualcomm SM8250-AC Snapdragon 870
+storage: 128/256 GB
+tree: android_device_xiaomi_psyche
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [22.1]
+wifi: 802.11 a/b/g/n/ac/ax
