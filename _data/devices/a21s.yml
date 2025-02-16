@@ -21,7 +21,7 @@ image: a21s.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_exynos850, version: '4.19'}
 maintainers: [DaemonMCR]
-models: [SM-A217F, Sm-A217M, SM-A217F/DS, SM-A217F/DSN, SM-A217M/DS]
+models: [SM-A217F, SM-A217M, SM-A217F/DS, SM-A217F/DSN, SM-A217M/DS]
 name: Galaxy A21s
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
