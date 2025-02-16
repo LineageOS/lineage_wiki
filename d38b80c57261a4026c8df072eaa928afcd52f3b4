@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb49da47_6b960ec9",
+        "filename": "_data/devices/sif.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-02-16T02:47:49Z",
+      "side": 0,
+      "message": "accidental removal",
+      "range": {
+        "startLine": 23,
+        "startChar": 30,
+        "endLine": 23,
+        "endChar": 44
+      },
+      "revId": "d38b80c57261a4026c8df072eaa928afcd52f3b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
