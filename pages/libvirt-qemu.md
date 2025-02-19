@@ -201,7 +201,7 @@ Otherwise, use mouse input device.
 
 Keyboard is always needed. Ensure there is a keyboard included in virtual machine hardware.
 
-{% include alerts/note.html content="VirtIO, PS/2 and USB types of keyboards are supported." %}
+{% include alerts/note.html content="Please select either PS/2 or USB type of keyboard. VirtIO keyboard will not work on the boot menu." %}
 
 ### Configure virtual machine graphics
 
