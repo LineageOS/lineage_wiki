@@ -11,19 +11,18 @@ tags:
 ## Install Android Studio for Platform
 
 {% include alerts/warning.html content="You must be using a Linux distribution to install this. All other operating systems are not supported." %}
-<!-- Remove the following warning after Google makes this a stable build. -->
-{% include alerts/warning.html content="Android Studio for Platform is using a beta version of Android Studio. **Proceed at your own risk!**" %}
-Go to the [Download page](https://developer.android.com/studio/platform) and download the package. Follow the instructions under "Get started with ASfP" if you are using a Debian-based Linux distribution (such as Ubuntu).
+Go to the [Download page](https://developer.android.com/studio/platform) and download the package. [Follow Google's instructions](https://developer.android.com/studio/platform/install) to setup and run the IDE.
 
-For all other Linux distributions, unpack `data.tar.xz` from the downloaded file, then unpack `data.tar.xz` to a destination of your choice. Follow the instructions described in `Install-Linux-tar.txt` file which is in the extracted folder.
+Alternatively, you can check if your distribution has this available as a package and install it through their package manager. Make sure you are not installing the regular "Android Studio", which lacks platform development support.
 
-## Start working with Android Studio
+## Start working with Android Studio for Platform
 
-Open Android Studio and click on **Import Asfp Project**.
+Open Android Studio and click on **Import Asfp Project**. On newer versions (such as 2024.1), press "New" and it will create a new ASfP project.
 
 Then set the Repo checkout to your Android source directory.
 
-Set your lunch target to the device you want to build (e.g. `lineage_arm64-userdebug`). Everything before and after `arm64` is required. Check our [list of devices]({{ "/devices" | relative_url }}) to get started.
+{% include alerts/tip.html content="As of LineageOS 22.0, the lunch target now requires the release configuration value. Navigate to `vendor/lineage/release/aconfig` and check the folder name to get this value." %}
+Set your lunch target to the device you want to build in this format: `lineage_<device>-<release version>-userdebug` (e.g. `lineage_arm64-ap4a-userdebug`), replacing the missing values in brackets accordingly. Check our [list of devices]({{ "/devices" | relative_url }}) to get started.
 
 If there are any modules you want to work on, you must specify them as module paths. By default, Android Studio will not open any paths.
 
