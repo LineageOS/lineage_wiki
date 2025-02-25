@@ -191,9 +191,16 @@ On `Memory` tab, toggle `Enable shared memory`, click `Apply`.
 If the device has a touchscreen and you would like to interact with the virtual machine using a touchscreen,
 or if you are controlling from remote desktop, you must use tablet input device for the virtual machine.
 
+Since LineageOS 22, you can use tablet input device in any scene.
+With tablet input device, you can move the mouse cursor across the border without grabbing the mouse cursor.
+However, tablet input device is unsupported in recovery mode yet.
+
 {% include alerts/note.html content="Both EvTouch and VirtIO types of tablets are supported." %}
 
 Otherwise, use mouse input device.
+
+When using mouse input device, you have to click on the display area to grab the mouse cursor into the virtual machine,
+and press `Ctrl+Alt` to release the mouse cursor from the virtual machine. It is supported in recovery mode too.
 
 {% include alerts/note.html content="Both PS/2 and USB types of mice are supported." %}
 
