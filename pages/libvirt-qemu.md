@@ -56,9 +56,9 @@ breakfast <target>
 
 |      Target       |      Architecture     |    Type    |
 |-------------------|-----------------------|------------|
-| virtio_arm64      | ARM (32-bit + 64-bit) | PC         |
-| virtio_arm64only  | ARM (64-bit only)     | PC         |
-| virtio_x86_64     | x86 (64-bit only)     | PC         |
+| virtio_arm64      | ARM (32-bit + 64-bit) | Tablet     |
+| virtio_arm64only  | ARM (64-bit only)     | Tablet     |
+| virtio_x86_64     | x86 (64-bit only)     | Tablet     |
 | virtio_x86_64_car | x86 (64-bit only)     | Automotive |
 | virtio_x86_64_tv  | x86 (64-bit only)     | Android TV |
 {: .table }
