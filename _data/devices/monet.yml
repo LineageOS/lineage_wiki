@@ -12,14 +12,15 @@ codename: monet
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
-current_branch: 19.1
+current_branch: 22.1
 dimensions: {depth: 7.9, height: 163.9, width: 74.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+format_on_upgrade: 22.1
 gpu: Qualcomm Adreno 620
 image: monet.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_sm7250, version: '4.19'}
-maintainers: []
+maintainers: [alecchangod]
 models: [M2002J9G]
 name: Mi 10 Lite 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
@@ -27,6 +28,7 @@ peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequenc
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
 release: 2020-05
 screen: {resolution: '1080x2340', size: 6.57, technology: 'AMOLED'}
 soc: Qualcomm SM7250 Snapdragon 765G
@@ -35,5 +37,5 @@ tree: android_device_xiaomi_monet
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [18.1, 19.1]
+versions: [18.1, 19.1, 22.1]
 wifi: 802.11 a/b/g/n/ac
