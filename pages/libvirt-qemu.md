@@ -49,9 +49,9 @@ Virtual A/B partition scheme is used by default. If you would like to use non-A/
 export AB_OTA_UPDATER=false
 ```
 
-Select the build target by running the following command, where `<target>` is one of the entries in the table below:
+Select the target to build. If you wish to build one of the targets in the table below, run the following command:
 ```
-breakfast <target>
+breakfast <Target>
 ```
 
 |      Target       |      Architecture     |    Type    |
@@ -61,6 +61,19 @@ breakfast <target>
 | virtio_x86_64     | x86 (64-bit only)     | Tablet     |
 | virtio_x86_64_car | x86 (64-bit only)     | Automotive |
 | virtio_x86_64_tv  | x86 (64-bit only)     | Android TV |
+{: .table }
+
+Alternatively, if you wish to build one of the sub targets in the table below, run the following commands:
+```
+breakfast <Main target>
+breakfast <Sub target>
+```
+
+|   Main target    |      Sub target      |           Architecture           |    Type    | Available since |
+|------------------|----------------------|----------------------------------|------------|-----------------|
+| virtio_arm64only | virtio_arm64only_16k | ARM (64-bit only, 16KB pagesize) | Tablet     | LineageOS 22.0  |
+| virtio_arm64only | virtio_arm64only_go  | ARM (64-bit only)                | Android Go | LineageOS 21.0  |
+| virtio_x86_64    | virtio_x86_64_go     | x86 (64-bit only)                | Android Go | LineageOS 21.0  |
 {: .table }
 
 {% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports the SSE 4.2 instruction set, otherwise it will not boot." %}
