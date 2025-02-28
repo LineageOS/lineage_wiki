@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e33d5471_76cd5edb",
+        "filename": "_data/devices/monet.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-02-28T09:06:52Z",
+      "side": 1,
+      "message": "why? the requirement didn\u0027t change.",
+      "revId": "60fcb9702586407bf0dc2d598b36b894e794c52c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
