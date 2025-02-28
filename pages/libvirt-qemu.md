@@ -154,11 +154,11 @@ The virtual machine configuration window will pop up.
 
 On the `Overview` tab, select `Chipset` or `Machine` and `Firmware` type according to the architecture, as described below:
 
-| Android Architecture  | Chipset / Machine |                     Firmware                      |
-|-----------------------|-------------------|---------------------------------------------------|
-| ARM (32-bit + 64-bit) | virt (required)   | Custom: /usr/share/AAVMF/AAVMF_CODE.no-secboot.fd |
-| ARM (64-bit only)     | virt (required)   | Custom: /usr/share/AAVMF/AAVMF_CODE.no-secboot.fd |
-| x86 (64-bit only)     | Q35 (recommended) | UEFI x86_64: /usr/share/OVMF/OVMF_CODE_4M.fd      |
+| Android Architecture  | Chipset / Machine |                       Firmware                       |
+|-----------------------|-------------------|------------------------------------------------------|
+| ARM (32-bit + 64-bit) | virt (required)   | Custom: /usr/share/AAVMF/AAVMF_CODE.no-secboot.fd    |
+| ARM (64-bit only)     | virt (required)   | Custom: /usr/share/AAVMF/AAVMF_CODE.no-secboot.fd    |
+| x86 (64-bit only)     | Q35 (recommended) | BIOS or UEFI x86_64: /usr/share/OVMF/OVMF_CODE_4M.fd |
 {: .table }
 
 Click `Apply`.
