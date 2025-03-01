@@ -16,6 +16,24 @@
       "message": "why? the requirement didn\u0027t change.",
       "revId": "60fcb9702586407bf0dc2d598b36b894e794c52c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "496431b8_44cbb5c0",
+        "filename": "_data/devices/monet.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-03-01T05:39:44Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e33d5471_76cd5edb",
+      "revId": "60fcb9702586407bf0dc2d598b36b894e794c52c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
