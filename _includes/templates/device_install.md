@@ -59,7 +59,7 @@ Installation on your device requires a specific [firmware]({{ "glossary/#firmwar
 
 {%- if device.before_install.version %}
 - Firmware refers to a device-specific set of images that are included in, and updated by the stock OS
-- LineageOS builds for this device require an Android {{ device.before_install.version }} version of the [stock OS]({{ "glossary/#stock-rom" | absolute_url }}){: .glossary} to be installed prior to following the installation guide
+- LineageOS builds for this device require an **Android {{ device.before_install.version }}** version of the [stock OS]({{ "glossary/#stock-rom" | absolute_url }}){: .glossary} to be installed prior to following the installation guide
 - Please ensure that you are checking the **Android** version, and not the vendor OS version
 {%- endif %}
 - Being on another custom ROM, including unofficial builds of the same version of LineageOS, does not ensure that this requirement has been fulfilled
