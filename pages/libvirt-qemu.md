@@ -16,9 +16,9 @@ Please note the following list of yet unresolved known issues when running Linea
 
 ## Introduction
 
-If you would like to use LineageOS without setting up a physical device, try out Generic System Images (GSIs), or experiment with low-level Android components, this would be a good fit.
+This is a good option if you want to use LineageOS without a physical device, test Generic System Images (GSIs), or experiment with low-level Android components.
 
-{% include alerts/tip.html content="If your goal is to develop and debug Android applications, then using [Emulator/AVD](emulator.html) is the better option." %}
+{% include alerts/tip.html content="For Android application development and debugging, [Emulator/AVD](emulator.html) is a better choice." %}
 
 These instructions will help you build a LineageOS image that is suitable to run in libvirt QEMU virtual machine.
 
@@ -49,7 +49,7 @@ Virtual A/B partition scheme is used by default. If you would like to use non-A/
 export AB_OTA_UPDATER=false
 ```
 
-Select the target to build. If you wish to build one of the targets in the table below, run the following command:
+To build one of the targets in the table below, run the following command:
 ```
 breakfast <Target>
 ```
@@ -63,7 +63,7 @@ breakfast <Target>
 | virtio_x86_64_tv  | x86 (64-bit only)     | Android TV |
 {: .table }
 
-Alternatively, if you wish to build one of the sub targets in the table below, run the following commands:
+Alternatively, run these commands to build one of the sub-targets:
 ```
 breakfast <Main target>
 breakfast <Sub target>
@@ -102,7 +102,7 @@ Now, transfer the installation image to the device which you wish to run it on.
 
 ## Install the virtual machine software
 
-On Debian / Ubuntu, installing the package `virt-manager` would install the GUI manager, and everything that required for libvirt QEMU virtual machine as well as their dependencies.
+On Debian / Ubuntu, installing the package `virt-manager` package will install the GUI manager and all necessary dependencies for the libvirt QEMU virtual machine.
 
 Run the following command to install it:
 ```
@@ -126,9 +126,9 @@ Launch `virt-manager`, by opening "Virtual Machine Manager" from the Application
 
 ### Virtual machine creation and common configurations
 
-Firstly, click `Edit` > `Preferences` > `General` > `Enable XML editing`. 
+First, enable XML editing by toggling `Edit` > `Preferences` > `General` > `Enable XML editing`.
 
-Now, on the menu bar, select `File` > `New Virtual Machine`. A new window named "New VM" will pop up.
+Next, create a new virtual machine by selecting `File` > `New Virtual Machine` from the menu bar. A "New VM" window will appear.
 
 #### Step 1
 
@@ -201,10 +201,9 @@ On `Memory` tab, toggle `Enable shared memory`, click `Apply`.
 
 #### Tablet or Mouse
 
-If the device has a touchscreen and you would like to interact with the virtual machine using a touchscreen,
-or if you are controlling from remote desktop, you must use tablet input device for the virtual machine.
+Use a tablet input device if you're using a touchscreen or controlling the virtual machine remotely.
 
-Since LineageOS 22, you can use tablet input device in any scene.
+Tablet input devices are supported in all scenarios since LineageOS 22.
 With tablet input device, you can move the mouse cursor across the border without grabbing the mouse cursor.
 However, tablet input device is unsupported in recovery mode yet.
 
@@ -249,7 +248,7 @@ Keyboard is always needed. Ensure there is a keyboard included in virtual machin
 1. If `Display` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
 2. Open `Display` tab.
 3. Select `None` on `Listen type` menu.
-4. If `3D acceleration` is enabled on `Video` tab, toggle `OpenGL`, and select an active host video card on the menu below of `OpenGL` toggle.
+4. If `3D acceleration` is enabled on `Video` tab, toggle `OpenGL`, and choose an active host video card from the menu below.
 5. Click `Apply`.
 
 ### Configure virtual machine sound
@@ -351,7 +350,7 @@ fastboot -s tcp:<IPv4 address that shown on menu header> [fastboot command...]
 
 ### GPU passthrough (for `virtio_x86_64` target)
 
-The `virtio_x86_64` target supports displaying directly on a monitor connected to a real GPU using GPU passthrough, in normal boot mode (non-recovery), since LineageOS 22.1.
+Since LineageOS 22.1, the `virtio_x86_64` target supports direct display on a monitor connected to a real GPU via GPU passthrough in normal boot mode.
 
 Currently, only Intel GPUs (iGPU or dGPU) are supported.
 
