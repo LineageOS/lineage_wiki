@@ -187,10 +187,19 @@ If it takes longer, you may have missed a step, otherwise feel free to [get assi
 {%- endcapture %}
 {% include alerts/note.html content=first_boot %}
 
-
 {% if device.custom_recovery_link or device.uses_twrp %}
 {% include alerts/specific/warning_recovery_app.html %}
 {% endif %}
+
+If you are wondering about the next steps, continue, otherwise, enjoy your new LineageOS installation.
+
+## What next?
+
+- If you consider relocking, see our [FAQ]({{ "faq#canshould-i-relock-my-bootloader" | absolute_url }}) about it.
+- If your device is displaying a warning on every boot - there is nothing you can do about it but ignoring.
+- Please do not use any methods to deinstall system apps. We are already shipping only a minimal set of apps and doig so can break your system. You are warned!
+- We don't support any methods for rooting and thus won't provide support with it on any of our platforms
+- LineageOS is Android. It supports apps the same way as any other Android device, but apps might choose to exclude you from using them. Please go back to your [device's quirks section]({{ device | device_link | append: "#known-quirks" | relative_url }}) and read about "Device integrity".
 
 </div>
 
