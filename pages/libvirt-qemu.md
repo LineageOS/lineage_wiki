@@ -9,7 +9,7 @@ permalink: libvirt-qemu.html
 
 ## Known issues
 
-Please note the following list of yet unresolved known issues when running LineageOS on a libvirt QEMU virtual machine:
+Please note the following list of yet unresolved known issues of the `virtio_*` targets:
 
 * Display color (only with Swiftshader graphics selected)
 * Video playback (by default with Mesa graphics, which is the most common use case)
@@ -35,9 +35,7 @@ The following branches are currently supported for building image for libvirt QE
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
 
-### Start the build
-
-Time to start building!
+## Select the target to build
 
 Setup the environment:
 ```
@@ -84,7 +82,11 @@ breakfast <Sub target>
 
 {% include alerts/tip.html content="For ARMv8 devices, either `virtio_arm64` or `virtio_arm64only` would work (with hardware acceleration). The main difference is, the `virtio_arm64only` target does not support 32-bit only applications or tools." %}
 
-Now, build the installation image:
+## Start the build
+
+Time to start building!
+
+To build the installation image:
 ```
 m espimage-install
 ```
