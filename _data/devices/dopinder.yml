@@ -1,6 +1,6 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
-before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '12'}
+before_install: {instructions: 'g12-locked'}
 before_recovery_install: g12
 bluetooth: {spec: '4.2'}
 cameras: []
@@ -15,6 +15,7 @@ download_boot: Run `adb reboot bootloader`.
 gpu: ARM Mali-G31 MP2
 image: dopinder.png
 install_method: fastboot_nexus
+is_unlockable: false
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [npjohnson, bgcngm, stricted, webgeek1234, deadman96385, trautamaki, luca020400, aleasto]
 name: onn. TV Box 4K (2021)
