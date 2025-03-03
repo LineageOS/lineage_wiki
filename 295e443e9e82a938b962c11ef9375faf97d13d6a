@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "849288f0_d1a8dadd",
+        "filename": "pages/utm-vm-on-apple-silicon-mac.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-03T19:29:59Z",
+      "side": 1,
+      "message": "yes it builds a complete ready-to-use virtual machine, which contains VM config too, not just images...",
+      "revId": "295e443e9e82a938b962c11ef9375faf97d13d6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f9f4169c_5e95f8ff",
+        "filename": "pages/utm-vm-on-apple-silicon-mac.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-03T19:29:59Z",
+      "side": 1,
+      "message": "here have another instance of \"uncompress\"...",
+      "revId": "295e443e9e82a938b962c11ef9375faf97d13d6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3235598a_bc2adbe8",
+        "filename": "pages/utm-vm-on-apple-silicon-mac.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-03T19:29:59Z",
+      "side": 1,
+      "message": "\"proceed to the next step.\"\n\nmaybe?",
+      "revId": "295e443e9e82a938b962c11ef9375faf97d13d6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
