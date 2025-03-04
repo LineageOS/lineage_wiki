@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b10df8f8_4eeb53b1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 198,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-04T18:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7990e214_f6f2f30f",
+      "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "78b172a9_3bba87bc",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-03-04T17:36:14Z",
       "side": 1,
       "message": "```suggestion\n- If your device is displaying a warning about \"Integrity\" or \"Bootloader Unlocked\" on every boot - this is normal and there is nothing that can or should be done to change this.\n```",
+      "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e065f98f_16773a00",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 199,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-04T18:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "78b172a9_3bba87bc",
       "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe28ae44_a6ec42e1",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 200,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-04T18:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a8b136e_903b5e58",
+      "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "205047c3_d2bc3a3f",
@@ -69,6 +123,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c07960a4_01c4a694",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 201,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-04T18:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "205047c3_d2bc3a3f",
+      "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7d16565f_e08700bb",
@@ -82,6 +154,24 @@
       "writtenOn": "2025-03-04T17:36:14Z",
       "side": 1,
       "message": "```suggestion\n- LineageOS is an Android OS. It supports the same apps that any other Android device would, but apps might choose to prevent you from installing them. Please go back to your [device\u0027s quirks section]({{ device | device_link | append: \"#known-quirks\" | relative_url }}) and read about \"Device integrity\".\n```",
+      "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2d134540_ab315569",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 202,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-04T18:28:48Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7d16565f_e08700bb",
       "revId": "2e602da10843b362b881d2c290f9119efd3d1c87",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
