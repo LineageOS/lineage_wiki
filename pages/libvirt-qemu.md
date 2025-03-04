@@ -54,9 +54,9 @@ breakfast <Target>
 
 |      Target       |      Architecture     |    Type    |
 |-------------------|-----------------------|------------|
-| virtio_arm64      | ARM (32-bit + 64-bit) | Tablet     |
-| virtio_arm64only  | ARM (64-bit only)     | Tablet     |
-| virtio_x86_64     | x86 (64-bit only)     | Tablet     |
+| virtio_arm64      | ARM (32-bit + 64-bit) | PC         |
+| virtio_arm64only  | ARM (64-bit only)     | PC         |
+| virtio_x86_64     | x86 (64-bit only)     | PC         |
 | virtio_x86_64_car | x86 (64-bit only)     | Automotive |
 | virtio_x86_64_tv  | x86 (64-bit only)     | Android TV |
 {: .table }
@@ -69,7 +69,7 @@ breakfast <Sub target>
 
 |   Main target    |      Sub target      |           Architecture           |    Type    | Available since |
 |------------------|----------------------|----------------------------------|------------|-----------------|
-| virtio_arm64only | virtio_arm64only_16k | ARM (64-bit only, 16KB pagesize) | Tablet     | LineageOS 22.0  |
+| virtio_arm64only | virtio_arm64only_16k | ARM (64-bit only, 16KB pagesize) | PC         | LineageOS 22.0  |
 | virtio_arm64only | virtio_arm64only_go  | ARM (64-bit only)                | Android Go | LineageOS 21.0  |
 | virtio_x86_64    | virtio_x86_64_go     | x86 (64-bit only)                | Android Go | LineageOS 21.0  |
 {: .table }
