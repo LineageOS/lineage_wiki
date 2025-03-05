@@ -6,7 +6,7 @@
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device! Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 {% include alerts/warning.html content="The official unlock tool provided by Xiaomi on their website may be out of date or non-functional, a newer version is provided below." %}
 
-1. Create a Mi account on [Xiaomi's website](https://global.account.xiaomi.com/pass/register). Beware that one account can only unlock four unique devices every year (one HyperOS device, three MIUI devices), and even then only once every 30 days.
+1. Create a Mi account on [Xiaomi's website](https://global.account.xiaomi.com/pass/register). Beware that one account can only unlock four unique devices every year (one HyperOS device, three MIUI devices), and even then only once every 30 days.Use the Xiaomi community app to change region to "Global" and Apply for Unlock bootloader.
 2. Add a phone number to your Mi account.
 3. Insert a SIM into your phone.
 4. Enable developer options in `Settings` > `About Phone` by repeatedly tapping `MIUI Version`.
