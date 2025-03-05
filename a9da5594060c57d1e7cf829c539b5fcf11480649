@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "036f9d51_c4468032",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-03-05T12:23:53Z",
+      "side": 1,
+      "message": "supposedly fastboot oem unlock doesn\u0027t work for this device.",
+      "revId": "a9da5594060c57d1e7cf829c539b5fcf11480649",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
