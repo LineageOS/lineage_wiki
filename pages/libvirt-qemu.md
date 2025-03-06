@@ -207,7 +207,7 @@ Use a tablet input device if you're using a touchscreen or controlling the virtu
 
 Tablet input devices are supported in all scenarios since LineageOS 22.
 With tablet input device, you can move the mouse cursor across the border without grabbing the mouse cursor.
-However, tablet input device is unsupported in recovery mode yet.
+However, tablet input devices are unsupported in recovery mode in versions earlier than LineageOS 22.1.
 
 {% include alerts/note.html content="Both EvTouch and VirtIO types of tablets are supported." %}
 
