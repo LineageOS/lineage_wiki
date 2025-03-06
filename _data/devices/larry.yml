@@ -13,6 +13,7 @@ cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 22.1
+custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.3, height: 165.5, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm6375
