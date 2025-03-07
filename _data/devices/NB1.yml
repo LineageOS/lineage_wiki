@@ -10,13 +10,14 @@ codename: NB1
 cpu: Kryo 280
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 21
+current_branch: 22.1
 dimensions: {depth: 7.6, height: 151.5, width: 73.7}
 download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd>.
 gpu: Qualcomm Adreno 540
 image: NB1.png
 install_method: fastboot_nokia
 is_ab_device: true
+is_ab_rdp: true
 is_unlockable: false
 kernel: {repo: android_kernel_nokia_msm8998, version: '4.4'}
 maintainers: [Tuan Anh]
@@ -36,5 +37,5 @@ tree: android_device_nokia_NB1
 type: phone
 vendor: Nokia
 vendor_short: nokia
-versions: [21]
+versions: [21, 22.1]
 wifi: 802.11 a/b/g/n/ac
