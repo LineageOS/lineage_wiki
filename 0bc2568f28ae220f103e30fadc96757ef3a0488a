@@ -16,6 +16,74 @@
       "message": "1. the abbreviation that Google officially uses is \"RDAP\"\n2. maybe you can bring back the old commit and reword it to be A/B only?\n3. not so related but I still wanted to say that 369735 was working just fine on my legacy A/B device (SDM455 QRD, has {system,vendor}_{a,b} partitions)...",
       "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "87ee118e_71672c15",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-07T18:55:15Z",
+      "side": 1,
+      "message": "this ends the \"if adbroot\" immediately and makes adbRoot content to be always displayed. wanted to put it a line earlier\u003d\nAlso, why not enable USB debugging on rdp?",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0a725791_ca7e87a7",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-07T18:55:15Z",
+      "side": 1,
+      "message": "this and the next line is duplicating the text from L#51. Modify that logic instead?",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "24e9b985_72f60772",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-07T18:55:15Z",
+      "side": 1,
+      "message": "This file are the upgrade instructions. Telling people they won\u0027t need to do this on upgrades here makes no sense and thus the whole section doesn\u0027t need to be here...",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1f48ecf_8d9e11a3",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-03-07T18:55:15Z",
+      "side": 1,
+      "message": "and after that it continues with \"Run adb -d reboot sideload.\" - doesn\u0027t make sense?",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
