@@ -77,8 +77,10 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     - remove them: You can only do so by performing a [factory reset]({{ "glossary/#factory-reset" | absolute_url }}){: .glossary}, which will also remove all your data.
     - start using them: You can only do so by performing a factory reset, which will also remove all your data. Download the appropriate version [now]({{ "gapps" | relative_url }}) (use the `{{ userspace_architecture }}` architecture)
 3. Make sure your computer has working `adb`. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+{%- if device.is_ab_rdp != true %}
 4. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {%- if adbRoot %}
+{%- endif %}
 {{ adbRoot }}
 {%- endif %}
 {%- if device.format_on_upgrade %}
@@ -90,6 +92,21 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- if device.uses_twrp != true %}
 6. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
+{%- endif %}
+{%- if device.is_ab_rdp %}
+5. Update to the latest [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}) image. Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
+Follow your [device's installation guide]({{ device | device_link: "/install" | relative_url }}) to see how you can update your recovery image.
+6. While you are in Bootloader mode , run `fastboot reboot recovery`, or by performing the following:
+    * {{ device.recovery_boot }}
+7. Click `Advanced`, then `Enter fastboot`.
+8. Run `fastboot wipe-super --slot=all /path/to/super_empty.img` to flash the `super_empty` image.
+    {% include alerts/note.html content="You only need to do this if this is your first time installing LineageOS (or upgrading from an older version of LineageOS). This step is not required on future updates." %}
+    {% capture content -%}
+    If you get the following error: `fastboot: usage: unknown command wipe-super`, make sure [ADB and fastboot are updated to the latest version]({{ "adb_fastboot_guide.html" | relative_url }}). You need fastboot version 28.0.2 or greater.
+    {%- endcapture %}
+    {%- include alerts/note.html content=content %}
+9. Back to the phone, select `Enter recovery`.
+10. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
 4. Run `adb -d reboot sideload`.
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
