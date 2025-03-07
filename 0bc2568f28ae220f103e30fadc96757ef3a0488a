@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4a3ff0ec_a030e8e0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-07T14:42:13Z",
+      "side": 1,
+      "message": "1. the abbreviation that Google officially uses is \"RDAP\"\n2. maybe you can bring back the old commit and reword it to be A/B only?\n3. not so related but I still wanted to say that 369735 was working just fine on my legacy A/B device (SDM455 QRD, has {system,vendor}_{a,b} partitions)...",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
