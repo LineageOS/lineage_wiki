@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e49a83a8_07ac50f8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32245
+      },
+      "writtenOn": "2025-03-10T19:54:27Z",
+      "side": 1,
+      "message": "depends on change 421038\n\nI\u0027ll rebase it once 22.2 branch is ready",
+      "revId": "376caeb32fe24a3511b04e0d61c996d51cce3d95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
