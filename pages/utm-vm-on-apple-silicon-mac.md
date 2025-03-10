@@ -40,9 +40,7 @@ The following branches are currently supported for building a UTM virtual machin
 
 Please refer to [this](libvirt-qemu.html#select-the-target-to-build) to help select your target.
 
-{% include alerts/tip.html content="It is highly recommended to select one of the ARM architecture targets. x86 architecture targets will work in UTM virtual machine on Apple Silicon Mac too (in emulation mode instead of virtualization mode), however the performance will be much worse." %}
-
-{% include alerts/important.html content="The `virtio_arm64` target does not boot in virtualization mode on Apple M2 and later SoCs." %}
+{% include alerts/tip.html content="It is highly recommended to select one of the `ARM (64-bit only)` architecture targets. Other targets will work in UTM virtual machine on Apple Silicon Mac too (in emulation mode instead of virtualization mode), however the performance will be much worse." %}
 
 ## Start the build
 
@@ -81,7 +79,7 @@ On the new window, switch to `Display` tab, select `ANGLE (OpenGL)` on `Renderer
 
 ### Disable virtualization mode if necessary
 
-If the target is `ARM (64-bit only)` architecture, or if the target is `ARM (32-bit + 64-bit)` architecture and the Mac uses Apple M1 SoC, proceed to the next step.
+If the target is `ARM (64-bit only)` architecture, proceed to the next step.
 
 If not, please open virtual machine settings, switch to `QEMU` tab, untoggle `Use Hypervisor`, then close the window.
 
