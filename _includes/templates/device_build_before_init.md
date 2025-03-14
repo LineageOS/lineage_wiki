@@ -78,7 +78,7 @@ To build LineageOS 13.0, you'll also need:
 {% if page.name == "libvirt-qemu.md" or page.name == "utm-vm-on-apple-silicon-mac.md" %}
 Since LineageOS 22.0 the `virtio_*` targets use a Mesa that is based on upstream repository. To build LineageOS 22.0 and above for the `virtio_*` targets, you'll also need:
 
-* `meson python3-mako`
+* `meson glslang-tools python3-mako`
 {% endif %}
 
 For Ubuntu 23.10 (mantic), install `libncurses5` from 23.04 (lunar) as follows:
