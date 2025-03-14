@@ -27,7 +27,7 @@ peripherals: [3.5mm jack, A-GPS, Accelerometer, Barometer, Compass, FM radio, Fi
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery
-recovery_reboot: fastboot_menu
+recovery_reboot: fastboot_reboot
 release: 2020-05
 screen: {resolution: '1080x2400', size: 6.7, technology: 'IPS LTPS LCD'}
 sdcard: {size_max: '1 TB'}
