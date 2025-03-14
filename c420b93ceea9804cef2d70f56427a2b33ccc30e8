@@ -34,6 +34,24 @@
       "parentUuid": "83e85417_14285cb4",
       "revId": "c420b93ceea9804cef2d70f56427a2b33ccc30e8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3132dd70_9c383948",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-03-14T19:15:27Z",
+      "side": 1,
+      "message": "violet on 20 should? we switched before any xiaomi-sm6150 device shipped iirc.",
+      "parentUuid": "bf53f3e1_206d57b2",
+      "revId": "c420b93ceea9804cef2d70f56427a2b33ccc30e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
