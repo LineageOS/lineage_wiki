@@ -18,26 +18,27 @@ dimensions: {depth: 8.3, height: 165.5, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oneplus_sm6375
 gpu: Qualcomm Adreno 619
-image: larry.png
+image: larry_variant2.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm6375, version: '5.4'}
 maintainers: [Vivekachooz]
-models: [CPH2467, CPH2465, CPH2513]
-name: Nord CE 3 Lite 5G
+models: [CPH2513]
+name: Nord N30 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2023-04-11
+release: 2023-06-08
 screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.72, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6375 Snapdragon 695
 storage: 128/256 GB UFS2.2
 tree: android_device_oneplus_larry
 type: phone
+variant: 2
 vendor: OnePlus
 vendor_short: oneplus
 versions: [22.1]
