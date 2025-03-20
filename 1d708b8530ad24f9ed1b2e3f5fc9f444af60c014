@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc5d631c_796fe350",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-03-20T06:48:53Z",
+      "side": 1,
+      "message": "didn\u0027t see any difference between device images so i just commonized them, that\u0027s ok with you?",
+      "revId": "1d708b8530ad24f9ed1b2e3f5fc9f444af60c014",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
