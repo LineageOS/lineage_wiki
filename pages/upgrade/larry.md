@@ -4,5 +4,6 @@ title: Upgrade LineageOS on larry
 folder: upgrade
 permalink: /devices/larry/upgrade/
 device: larry
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
