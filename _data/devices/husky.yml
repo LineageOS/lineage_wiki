@@ -24,7 +24,7 @@ kernel: {version: '5.15'}
 maintainers: [mikeioannina]
 name: Pixel 8 Pro
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Barometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Thermometer, Ultra Wideband (UWB), USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, eSIM, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Thermometer, Ultra Wideband (UWB), USB OTG]
 ram: 12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot

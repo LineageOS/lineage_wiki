@@ -24,7 +24,7 @@ kernel: {version: '6.1'}
 maintainers: [mikeioannina, jaiminkalariya]
 name: Pixel 9 Pro
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Thermometer, Ultra Wideband (UWB), USB OTG]
+peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Thermometer, Ultra Wideband (UWB), USB OTG]
 ram: 16 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: vendor_boot
