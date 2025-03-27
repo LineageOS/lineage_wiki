@@ -29,6 +29,7 @@ peripherals: [3.5mm jack, A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Du
 ram: 12 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
 release: 2023-05
 screen: {refresh_rate: 120, resolution: '3840x1644', size: 6.5, technology: 'OLED'}
 sdcard: {size_max: '1 TB', slot: 'hybrid'}
