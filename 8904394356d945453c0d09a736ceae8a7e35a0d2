@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "50e487b5_fdfd2d98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-04-03T21:52:27Z",
+      "side": 1,
+      "message": "The wiki has filters which I think are sufficient. If you think a new one would be in need besides already available screen size please add it there. I don\u0027t see much use for many for such a script.\nAlso, since I looked at the script: \"los\" is not the proper acronym",
+      "revId": "8904394356d945453c0d09a736ceae8a7e35a0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
