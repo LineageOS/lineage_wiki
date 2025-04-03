@@ -27,6 +27,7 @@ release: 2019-09-20
 screen: {resolution: '1280x720', size: 5.5, technology: 'LCD'}
 sdcard: {size_max: '2 TB'}
 soc: NVIDIA Tegra X1+ (T210b01)
+stock_is_not_android: true
 storage: 32 GB
 tree: android_device_nintendo_nx_tab
 type: Handheld game console
