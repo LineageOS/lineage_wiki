@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+# Every few years, when I need a new LineageOS phone, I want to easily find current and maintained small devices.
+# This script searches through the YAML files, from which the html pages are build, so I don't have to search them.
+# 'large' is a second filter.
+
 # sudo apt install python3-yaml python3-dateutil
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
