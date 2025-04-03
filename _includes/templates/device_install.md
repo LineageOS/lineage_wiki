@@ -21,7 +21,9 @@ Do **not** continue after something fails!
 
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
 2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+{%- if device.stock_is_not_android %}
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
+{%- endif %}
 {%- if device.models %}
 4. Make sure that your model number is one of the following (exact match required!):
 {%- for model in device.models %}
