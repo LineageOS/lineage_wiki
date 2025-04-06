@@ -51,6 +51,23 @@
       "parentUuid": "75f1f363_85cbf41d",
       "revId": "1032786eb10096818d1a039ba61c99166ac58119",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3edb7dab_4949fa5c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2025-04-06T14:44:19Z",
+      "side": 1,
+      "message": "It\u0027s not entirely true that verizon models can\u0027t be unlocked, I have a verizon 3a which is unlocked but that required turning on the device for the first time without the verizon sim inserted. Not sure if we should be advertising this on wiki though, as it\u0027s pretty complicated and you can\u0027t be sure nobody turned on the device before you got it, also I don\u0027t know if this works on other pixels anymore.",
+      "revId": "1032786eb10096818d1a039ba61c99166ac58119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
