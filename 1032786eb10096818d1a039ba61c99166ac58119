@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fbd96437_f9d11c1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2025-04-06T11:57:27Z",
+      "side": 1,
+      "message": "RFC for now, and to have a template/example to point the reddit peeps to.",
+      "revId": "1032786eb10096818d1a039ba61c99166ac58119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
