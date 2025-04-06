@@ -51,6 +51,24 @@
       "parentUuid": "50e487b5_fdfd2d98",
       "revId": "8904394356d945453c0d09a736ceae8a7e35a0d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dee702ad_8550c139",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-04-06T15:05:22Z",
+      "side": 1,
+      "message": "If this script serves a purpose to you, so be it. I don\u0027t think this is of use to many others since average users who could possibly be interested in such a thing are... Users... And not capable of cloning a single repo, let alone running a script, tbh\n\nCould still contribute to the wiki and add dimension filters, then youd not have them in one view but only those matching your set size spec...",
+      "parentUuid": "6d037113_5ce4b541",
+      "revId": "8904394356d945453c0d09a736ceae8a7e35a0d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
