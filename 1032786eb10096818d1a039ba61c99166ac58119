@@ -33,6 +33,24 @@
       "message": "If we do this we might as well list all pixel supported models",
       "revId": "1032786eb10096818d1a039ba61c99166ac58119",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "901a38b1_26e6ef15",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2025-04-06T14:33:12Z",
+      "side": 1,
+      "message": "That was the idea, wanted to get some maintainer opinions first (plus a bit strapped for time right now myself).",
+      "parentUuid": "75f1f363_85cbf41d",
+      "revId": "1032786eb10096818d1a039ba61c99166ac58119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
