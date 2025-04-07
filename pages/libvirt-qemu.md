@@ -74,7 +74,7 @@ breakfast <Sub target>
 | virtio_x86_64    | virtio_x86_64_go     | x86 (64-bit only)                | Android Go | LineageOS 21.0  |
 {: .table }
 
-{% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports the AVX and SSE 4.2 instruction set, otherwise it will not boot." %}
+{% include alerts/important.html content="Running one of the x86_64 targets require a CPU which supports SSE 4.2 instruction set, otherwise it will not boot. For LineageOS 22.1 and earlier, AVX instruction set is also required." %}
 
 {% include alerts/important.html content="If you wish to run the virtual machine on ARMv9 devices (with hardware acceleration), you must select the `virtio_arm64only` target. The `virtio_arm64` target will not boot on these processor variants, as they don't support 32-bit mode." %}
 
