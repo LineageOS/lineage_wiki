@@ -68,6 +68,24 @@
       "message": "It\u0027s not entirely true that verizon models can\u0027t be unlocked, I have a verizon 3a which is unlocked but that required turning on the device for the first time without the verizon sim inserted. Not sure if we should be advertising this on wiki though, as it\u0027s pretty complicated and you can\u0027t be sure nobody turned on the device before you got it, also I don\u0027t know if this works on other pixels anymore.",
       "revId": "1032786eb10096818d1a039ba61c99166ac58119",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "edd08245_b47c50f9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2025-04-07T05:19:02Z",
+      "side": 1,
+      "message": "I just noticed that you are maintaining 90% of the Pixels anyway, I was originally planning to split up the patches so I can Cc the correct maintainers. I\u0027ll see if I get around to looking up all the other model numbers in the evening.",
+      "parentUuid": "901a38b1_26e6ef15",
+      "revId": "1032786eb10096818d1a039ba61c99166ac58119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
