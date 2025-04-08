@@ -104,6 +104,23 @@
       "parentUuid": "edd08245_b47c50f9",
       "revId": "1032786eb10096818d1a039ba61c99166ac58119",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c875ff97_bd222e87",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-04-08T03:14:35Z",
+      "side": 1,
+      "message": "nothing holding this pixel in the meantime.",
+      "revId": "1032786eb10096818d1a039ba61c99166ac58119",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
