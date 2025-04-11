@@ -118,6 +118,7 @@ end
 
 Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   next if filename == wiki_dir + "_config.yml"
+  next if filename == wiki_dir + "_data/faq.yml"
   next if filename.start_with?(wiki_dir + "vendor/bundle/")
 
   if !validate_yaml_lint(filename)
