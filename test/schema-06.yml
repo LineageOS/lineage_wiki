@@ -408,6 +408,7 @@ definitions:
       - 20
       - 21
       - 22.1
+      - 22.2
     type: number
   valid_kernel_versions:
     enum:
