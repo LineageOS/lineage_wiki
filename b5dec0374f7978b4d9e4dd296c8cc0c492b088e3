@@ -1,4 +1,22 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b2b69775_fae11bb5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34971
+      },
+      "writtenOn": "2025-04-11T14:32:45Z",
+      "side": 1,
+      "message": "Unless you set your account as Global, no option to unlock. Good Luck searching that info on Xiaomi Forums.",
+      "revId": "b5dec0374f7978b4d9e4dd296c8cc0c492b088e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": []
 }
