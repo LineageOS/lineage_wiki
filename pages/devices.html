@@ -121,10 +121,6 @@ function applyFilters() {
   // Hide devices not matching filters
   $(".devices .item").each(function () {
     let codename = $(this).attr("data-codename");
-    if (codename === undefined) {
-      $(this).addClass("hidden");
-      return;
-    }
     let variant = $(this).attr("data-variant");
     if (variant.length > 0) {
       codename += `_variant${$(this).attr("data-variant")}`;
@@ -141,10 +137,7 @@ function applyFilters() {
   // Hide empty vendors
   $(".devices").each(function() {
     $(`*[data-vendor="${$(this).attr("data-vendor")}"]`)
-      .toggle($(this).find("div:visible").length > 1);
-    if ($(`*[data-vendor="${$(this).attr("data-vendor")}"]`).find("div:visible").length > 1) {
-      $(this).find(`*[data-variant="unknown"]`).removeClass("hidden");
-    }
+      .toggle($(this).find("div:visible").length > 0);
   });
 
   // Hide vendors list
@@ -168,12 +161,22 @@ function showFilters() {
 }
 </script>
 
-<div class="container page">
+<div class="container page" markdown=1>
 
   <h1>{{ page.title }}</h1>
 
-  Devices with a lower opacity image are no longer officially supported and the pages exist for reference only.<br/>
-  You can show them by disabling "Hide discontinued devices" in the device filters below:<br/><br/>
+  {%- capture content %}
+  <ul>
+    <li>Devices not listed are <strong>not supported.</strong></li>
+    <li>Builds for other devices can <strong>not be used</strong></li>
+    <li><strong>Nearly identical</strong> is <strong>not</strong> sufficient</li>
+    <li>If your model contains a year in the name, the device with another year in it is not the same!</li>
+  </ul>
+  Please refer to the <a href="/faq">FAQ</a> for further information!
+  {%- endcapture %}
+  {% include alerts/warning.html content=content %}
+
+  Find your device below. You can show discontinued devices or filter for various attributes here:<br/><br/>
 
 {%- assign devices = "" | split: " " %}
 {%- assign variants = "" | split: " " %}
@@ -278,22 +281,6 @@ function showFilters() {
 </div>
 
 {%- if sorted[forloop.index].vendor != lastVendor %}
-
-{%- assign url = "devices/unknown/" | relative_url %}
-<div class="item" onClick="location.href='{{ url }}'" data-variant="unknown" data-url="{{ url }}">
-  <div class="deviceimage">
-    <a href="{{ url }}"><img src="{{ "images/devices/small/unknown.png" | relative_url }}" alt="unknown device" loading="lazy" /></a>
-  </div>
-  <div class="name">
-    <a href="{{ url }}">
-      <span class="devicename">Other model</span>
-    </a><br>
-    <a href="{{ url }}">
-      <span class="codename">Other codename</span>
-    </a>
-  </div>
-</div>
-
 </div> <!-- div class="devices" -->
 {% endif %}
 {%- endfor %}
