@@ -1,0 +1,127 @@
+---
+sidebar: home_sidebar
+title: Frequently Asked Questions
+permalink: faq.html
+toc: False
+---
+
+<div class="faq-accordion">
+  {%- for category in site.data.faq %}
+    {%- assign data = category | first %}
+    <div class="faq-category">
+      <h3>{{ data | first | capitalize }}</h3>
+      <div class="accordion">
+        {%- assign pairs = data | last %}
+        {%- for item in pairs %}
+          {%- assign question_id = item.question | strip_html | downcase | replace: ' ', '-' | replace_regex : '[^a-z0-9-]', '' %}
+          <div class="accordion-item">
+            <button class="accordion-button" aria-expanded="false" id="{{ question_id }}">
+              {{ item.question | markdownify }}
+            </button>
+            <div class="accordion-content">
+              {{ item.response | markdownify }}
+            </div>
+          </div>
+        {%- endfor %}
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+
+<style>
+.faq-accordion .faq-category h3 {
+  margin-top: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.accordion-item {
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.accordion-button {
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-button::after {
+  content: '+';
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+html {
+  scroll-padding-top: 80px;
+}
+
+.accordion-button[aria-expanded="true"]::after {
+  content: '-';
+}
+
+.accordion-button p {
+  margin: 0px;
+}
+
+.accordion-content {
+  padding: 1rem;
+  background-color: white;
+  display: none; /* Initially hidden */
+}
+
+.accordion-content p:last-child, .accordion-content ul {
+  margin-bottom: 0;
+}
+</style>
+
+<script>
+$(window).on("load", function() {
+  const accordionItems = document.querySelectorAll('.accordion-item');
+
+  accordionItems.forEach(item => {
+    const button = item.querySelector('.accordion-button');
+    const content = item.querySelector('.accordion-content');
+
+    button.addEventListener('click', () => {
+      const isExpanded = button.getAttribute('aria-expanded') === 'true' || false;
+      button.setAttribute('aria-expanded', !isExpanded);
+      content.style.display = isExpanded ? 'none' : 'block';
+      if (!isExpanded) {
+        window.location.hash = button.id;
+      }
+    });
+  });
+
+  // Check the URL hash on page load
+  if (window.location.hash) {
+    const targetId = window.location.hash.substring(1); // Remove the '#'
+    expandAccordion(targetId);
+  }
+});
+
+function expandAccordion(questionId) {
+  const buttonToExpand = document.getElementById(questionId);
+  if (buttonToExpand) {
+    const accordionItem = buttonToExpand.closest('.accordion-item');
+    const content = accordionItem.querySelector('.accordion-content');
+    buttonToExpand.setAttribute('aria-expanded', 'true');
+    content.style.display = 'block';
+  }
+}
+
+$(window).on("hashchange", function(e) {
+    const targetId = window.location.hash.substring(1); // Remove the '#'
+    expandAccordion(targetId);
+});
+</script>
+
