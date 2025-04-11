@@ -13,7 +13,7 @@ codename: comet
 cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
 cpu_cores: '8'
 cpu_freq: 1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz
-current_branch: 22.1
+current_branch: 22.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions:
 - Folded: {depth: 10.5, height: 155.2, width: 77.1}
@@ -42,5 +42,5 @@ tree: android_device_google_comet
 type: foldable
 vendor: Google
 vendor_short: google
-versions: [22.1]
+versions: [22.1, 22.2]
 wifi: 802.11 a/b/g/n/ac/ax/be

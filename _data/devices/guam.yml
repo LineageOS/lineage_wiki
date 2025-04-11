@@ -11,7 +11,7 @@ codename: guam
 cpu: Kryo 240
 cpu_cores: '8'
 cpu_freq: 4 x 1.8 GHz & 4 x 1.6 GHz
-current_branch: 22.1
+current_branch: 22.2
 dimensions: {depth: 9.2, height: 165.2, width: 75.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 610
@@ -37,5 +37,5 @@ tree: android_device_motorola_guam
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [21, 22.1]
+versions: [21, 22.1, 22.2]
 wifi: 802.11 b/g/n

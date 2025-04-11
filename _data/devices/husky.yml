@@ -12,7 +12,7 @@ codename: husky
 cpu: Cortex-X3 & Cortex-A715 & Cortex-A510
 cpu_cores: '9'
 cpu_freq: 1 x 3.0 GHz + 4 x 2.45 GHz + 4 x 2.14 GHz
-current_branch: 22.1
+current_branch: 22.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.8, height: 162.6, width: 75.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -37,5 +37,5 @@ tree: android_device_google_husky
 type: phone
 vendor: Google
 vendor_short: google
-versions: [21, 22.1]
+versions: [21, 22.1, 22.2]
 wifi: 802.11 a/b/g/n/ac/ax/be

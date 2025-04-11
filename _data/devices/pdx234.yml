@@ -13,7 +13,7 @@ codename: pdx234
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
-current_branch: 22.1
+current_branch: 22.2
 dimensions: {depth: 8.3, height: 165, width: 71}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 740
@@ -38,5 +38,5 @@ tree: android_device_sony_pdx234
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [21, 22.1]
+versions: [21, 22.1, 22.2]
 wifi: 802.11 a/b/g/n/ac/ax/be

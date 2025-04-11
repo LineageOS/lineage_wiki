@@ -10,7 +10,7 @@ codename: joan
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 4 x 2.45 GHz + 4 x 1.9 GHz
-current_branch: 22.1
+current_branch: 22.2
 dimensions: {depth: 7.6, height: 159.7, width: 78.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 format_on_upgrade: fbe
@@ -39,5 +39,5 @@ type: phone
 variant: 2
 vendor: LG
 vendor_short: lge
-versions: [20, 21, 22.1]
+versions: [20, 21, 22.1, 22.2]
 wifi: 802.11 a/b/g/n/ac
