@@ -22,7 +22,7 @@ gpu: ARM Mali-G76 MP12
 image: d2s.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
-maintainers: [Linux4]
+maintainers: []
 models: [SM-N975F, SM-N975F/DS]
 name: Galaxy Note10+
 network: [2G GSM, 3G UMTS, 4G LTE]

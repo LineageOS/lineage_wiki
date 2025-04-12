@@ -21,7 +21,7 @@ gpu: ARM Mali-G76 MP12
 image: d1.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
-maintainers: [Rocky7842, Linux4]
+maintainers: []
 models: [SM-N971N]
 name: Galaxy Note10 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

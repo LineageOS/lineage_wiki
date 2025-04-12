@@ -21,7 +21,7 @@ gpu: ARM Mali-G76 MP12
 image: f62.png
 install_method: heimdall
 kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
-maintainers: [Linux4]
+maintainers: []
 models: [SM-M625F, SM-M625F/DS]
 name: Galaxy M62
 network: [2G GSM, 3G UMTS, 4G LTE]
