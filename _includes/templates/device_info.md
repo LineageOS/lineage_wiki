@@ -49,7 +49,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 - [Update to a newer vendor firmware version]({{ device | device_link: "/fw_update" | relative_url }})
 {%- endif %}
 - [Update to a newer build of the same LineageOS version]({{ device | device_link: "/update" | relative_url }})
-{% assign versions_count = device.versions|size -%}
+{% assign versions_count = device.versions|count_ints -%}
 {%- if versions_count > 1 -%}
 - [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ device | device_link: "/upgrade" | relative_url }})
 {%- endif -%}
