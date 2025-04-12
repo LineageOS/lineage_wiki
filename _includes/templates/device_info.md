@@ -27,21 +27,6 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 ## Guides
 
 {% include snippets/branches.md %}
-{%- assign last_supported_version = device.versions | last %}
-{%- assign end = num_branches | minus: 1 %}
-{%- for i in (0..end) %}
-{%- if branches[i] == last_supported_version %}
-{%- assign index = i %}
-{%- endif %}
-{%- endfor %}
-{%- if index > 0 %}
-    {%- assign prev_branch_index = index | minus: 1 %}
-    {%- assign prev_branch = branches[prev_branch_index] %}
-    {%- assign curr_branch = branches[index] %}
-{%- else %}
-    {%- assign prev_branch = branch_minus_1 %}
-    {%- assign curr_branch = current_branch %}
-{%- endif %}
 
 - [Installation]({{ device | device_link: "/install" | relative_url }})
 - [Build for yourself]({{ device | device_link: "/build" | relative_url }})
@@ -51,7 +36,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 - [Update to a newer build of the same LineageOS version]({{ device | device_link: "/update" | relative_url }})
 {% assign versions_count = device.versions|size -%}
 {%- if versions_count > 1 -%}
-- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ prev_branch }} -> lineage-{{ curr_branch }})]({{ device | device_link: "/upgrade" | relative_url }})
+- [Upgrade to a higher version of LineageOS (e.g. lineage-{{ branch_minus_3 }} -> lineage-{{ current_branch }})]({{ device | device_link: "/upgrade" | relative_url }})
 {%- endif -%}
 
 {% if device.note_title and device.note_title != "" %}
