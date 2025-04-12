@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d76589fe_40611bb7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-04-12T14:03:46Z",
+      "side": 1,
+      "message": "Since no build was succeasful, remove 22.2 from version as well?",
+      "revId": "68be37229fc294b219f95af53365935a843fdb1e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
