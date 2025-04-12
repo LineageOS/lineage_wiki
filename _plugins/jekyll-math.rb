@@ -1,5 +1,9 @@
 module Jekyll
   module MathFilter
+    def count_ints(value)
+      value.map(&:to_i).uniq.count
+    end
+
     def in_to_mm(value)
       (value * 25.4).round(2).to_s().chomp('.0')
     end
