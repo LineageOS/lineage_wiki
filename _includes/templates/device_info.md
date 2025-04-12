@@ -35,7 +35,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {%- endif %}
 {%- endfor %}
 {%- if index > 0 %}
-    {%- assign prev_branch_index = index | minus: 1 %}
+    {%- assign prev_branch_index = index | minus: 3 | min: 1 %}
     {%- assign prev_branch = branches[prev_branch_index] %}
     {%- assign curr_branch = branches[index] %}
 {%- else %}

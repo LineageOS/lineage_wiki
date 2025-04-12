@@ -4,6 +4,10 @@ module Jekyll
       value.map(&:to_i).uniq.count
     end
 
+    def min(input, value)
+      input < value ? value : input
+    end
+
     def in_to_mm(value)
       (value * 25.4).round(2).to_s().chomp('.0')
     end
