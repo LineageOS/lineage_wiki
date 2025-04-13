@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 3800, removable: True, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, version: '10'}
+bluetooth: {profiles: [A2DP], spec: '5'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP (telephoto)'}
+  - {flash: None, info: '16 MP'}
+codename: B2N
+cpu: Kryo 260
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 8, height: 158.4, width: 75.6}
+download_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 512
+image: B2N.png
+install_method: fastboot_nokia
+is_ab_device: true
+is_unlockable: false
+kernel: {repo: android_kernel_nokia_sdm660, version: '4.4'}
+maintainers: [Tuan Anh]
+models: [TA-1041, TA-1062, TA-1046]
+name: 7 plus
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope, Proximity sensor]
+ram: 4/6 GB LPDDR4X
+recovery_boot: With the device powered off and plugged into USB port, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Android One" logo appears on the screen, then release <kbd>Power</kbd> but keep holding <kbd>Volume Up</kbd>.
+recovery_partition_name: boot
+release: 2018-04-30
+screen: {resolution: '2160x1080', size: 6.0, technology: 'IPS LCD'}
+sdcard: {size_max: '256 GB', slot: 'hybrid'}
+soc: Qualcomm SDM660 Snapdragon 660
+storage: 64/128 GB eMMC 5.1
+tree: android_device_nokia_B2N
+type: phone
+vendor: Nokia
+vendor_short: nokia
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
