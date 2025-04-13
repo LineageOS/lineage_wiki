@@ -16,6 +16,23 @@
       "message": "Pending lineage-22.2-nokia-sdm660 merge.",
       "revId": "0244fe52219aa9f01d92270607b39ec178959bb0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7c1ea1b_9f0ccf77",
+        "filename": "_data/devices/B2N.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-04-13T09:17:20Z",
+      "side": 1,
+      "message": "Lineage version cant be correct, since 21 doesnt exist for this device",
+      "revId": "0244fe52219aa9f01d92270607b39ec178959bb0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
