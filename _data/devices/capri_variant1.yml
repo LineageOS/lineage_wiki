@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP], spec: '5'}
+cameras:
+  - {flash: 'LED', info: '48 MP (Primary)'}
+  - {flash: None, info: '8 MP (ultrawide)'}
+  - {flash: None, info: '2 MP (depth)'}
+  - {flash: None, info: '2 MP (macro)'}
+  - {flash: None, info: '8 MP (Front Facing)'}
+codename: capri
+cpu: Kryo 240
+cpu_cores: '8'
+cpu_freq: 4 x 1.8 GHz & 4 x 1.6 GHz
+current_branch: 22.2
+dimensions: {depth: 9.2, height: 165.2, width: 75.7}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 610
+image: capri.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
+maintainers: [Deivid Ignacio Parra]
+models: [XT2127-1, XT2127-2]
+name: moto g10
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2021-02
+screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB'}
+soc: Qualcomm SM4250 Snapdragon 460
+storage: 64/128 GB eMMC 5.1
+tree: android_device_motorola_capri
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
