@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3fcdaad_311bc91a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-04-15T22:47:41Z",
+      "side": 1,
+      "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\n500x500 px picture is wrong",
+      "revId": "9a77e8d58255f8ca836fec76b8399537ff52bbb1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
