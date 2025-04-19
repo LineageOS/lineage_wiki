@@ -16,6 +16,24 @@
       "message": "DNM for now",
       "revId": "719ff20be0f4385a760044e2eb8d7c0831b51c29",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5162b625_b58faa9c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25485
+      },
+      "writtenOn": "2025-04-19T21:50:26Z",
+      "side": 1,
+      "message": "ready now",
+      "parentUuid": "ab3f19be_f74f0bb0",
+      "revId": "719ff20be0f4385a760044e2eb8d7c0831b51c29",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
