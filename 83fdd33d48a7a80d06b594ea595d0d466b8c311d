@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cc96424b_586bdfa5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-04-21T04:29:50Z",
+      "side": 1,
+      "message": "protobuf-compiler fixes,\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/themard/android/lineage-22.2/lineage/scripts/carriersettings-extractor/carriersettings_extractor.py\", line 16, in \u003cmodule\u003e\n    subprocess.run(\n    ~~~~~~~~~~~~~~^\n        [\"protoc\", \"--proto_path\u003d.\", \"--python_out\u003d.\", os.path.basename(name)],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n        cwd\u003ddir_path)\n        ^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 554, in run\n    with Popen(*popenargs, **kwargs) as process:\n         ~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1039, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n                        pass_fds, cwd, env,\n                        ^^^^^^^^^^^^^^^^^^^\n    ...\u003c5 lines\u003e...\n                        gid, gids, uid, umask,\n                        ^^^^^^^^^^^^^^^^^^^^^^\n                        start_new_session, process_group)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/lib/python3.13/subprocess.py\", line 1969, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: \u0027protoc\u0027\n\npython3-protobuf fixes,\n\nstderr:\nTraceback (most recent call last):\n  File \"/home/themard/android/lineage-22.2/lineage/scripts/carriersettings-extractor/carriersettings_extractor.py\", line 20, in \u003cmodule\u003e\n    from carrier_settings_pb2 import CarrierSettings, MultiCarrierSettings\n  File \"/home/themard/android/lineage-22.2/lineage/scripts/carriersettings-extractor/carrier_settings_pb2.py\", line 5, in \u003cmodule\u003e\n    from google.protobuf.internal import builder as _builder\nModuleNotFoundError: No module named \u0027google\u0027",
+      "revId": "83fdd33d48a7a80d06b594ea595d0d466b8c311d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
