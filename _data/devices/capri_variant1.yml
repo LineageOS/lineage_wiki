@@ -37,6 +37,7 @@ soc: Qualcomm SM4250 Snapdragon 460
 storage: 64/128 GB eMMC 5.1
 tree: android_device_motorola_capri
 type: phone
+variant: 1
 vendor: Motorola
 vendor_short: motorola
 versions: [22.2]
