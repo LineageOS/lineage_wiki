@@ -127,11 +127,11 @@ There are no recovery installation instructions for this discontinued device.
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
 {%- if device.has_no_usb %}
-5. Copy the the LineageOS `.zip` package and any addons you wish to install to your device's removable SD card, then insert it in your device and install it, but **do not reboot** before you read/followed the rest of the instructions!:
+5. Copy the the LineageOS `.zip` package and any addons you wish to install to your device's removable SD card, then insert it in your device and install it, but **do not reboot to system** before you read/followed the rest of the instructions!:
     * On the device, select "Apply Update", then "Apply from EXT_SDCARD", and select the LineageOS zip file to begin installation.
     {% include alerts/warning.html content="EXT_SDCARD will reflect the name of your SD card's filesystem name." %}
 {%- else %}
-5. Sideload the LineageOS `.zip` package but **do not reboot** before you read/followed the rest of the instructions!
+5. Sideload the LineageOS `.zip` package but **do not reboot to system** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
 {%- endif %}
