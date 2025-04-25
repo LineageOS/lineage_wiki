@@ -1,14 +1,16 @@
 There are two possibilities to get the latest firmware:
 
-### You are still on the stock OS with locked bootloader
+### You are still on the stock OS
 
-1. Simply perform OTA updates until the device reports that no updates are available.
+1. Simply perform an OTA update
 
 ### You already installed a custom recovery
 
-1. Download the latest firmware for your model [here](https://github.com/DaemonMCR/samsung-sm-a217x-fw/releases) (All `.tar.md5` files)
-   {% include alerts/note.html content="You can find your model number under About Phone in your phone's Settings app!" %}
-2. Flash the just downloaded files using Odin. You can have a look at the [recovery installation instructions]({{ device | device_link: "/install" | append: "#installing-lineage-recovery-using-odin" | relative_url }}) if you forgot how to do that.
-   {% include alerts/note.html content="The filenames will give you a hint on which slot to flash each file to!" %}
+1. Download the latest firmware for your model [here](https://github.com/DaemonMCR/samsung-sm-a217x-fw/releases)
+2. Extract the `.tar` file
+3. Run the following command:
+  ```
+heimdall flash --KEYSTORAGE keystorage.bin --LDFW ldfw.img --MISC misc.bin --RADIO modem.bin --CP_DEBUG modem_debug.bin --BOOTLOADER sboot.bin --TZAR tzar.img --TZSW tzsw.img --UP_PARAM up_param.bin
+  ```
 
 {% include snippets/fw_update_success.md %}
