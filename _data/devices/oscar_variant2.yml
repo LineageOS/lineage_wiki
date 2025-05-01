@@ -22,7 +22,7 @@ install_method: fastboot_realme
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_realme_sm6375, version: '5.4'}
-maintainers: [Vivekachooz]
+maintainers: []
 models: [RMX3474]
 name: 9 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
