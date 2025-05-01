@@ -23,7 +23,7 @@ image: socrates.png
 install_method: fastboot_xiaomi_hyperos
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8550, version: '5.15'}
-maintainers: [danielml]
+maintainers: []
 models: [22127RK46C]
 name: Redmi K60 Pro
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
