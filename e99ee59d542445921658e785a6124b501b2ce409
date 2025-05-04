@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8552afce_2f47bf72",
+        "filename": "_data/devices/fogo.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-05-04T18:12:32Z",
+      "side": 1,
+      "message": "```suggestion\nname: moto g 5G (2024)\n```\n\nwould look nicer (i\u0027m aware that official page does ` - ....` thing.)",
+      "revId": "e99ee59d542445921658e785a6124b501b2ce409",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
