@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 4020, removable: False, tech: 'Li-Po'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '64 MP (main)'}
+  - {flash: 'LED', info: '13 MP (ultrawide)'}
+  - {flash: None, info: '32 MP (front)'}
+codename: miami
+cpu: Kryo 660
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
+current_branch: 22.2
+dimensions: {depth: 7.8, height: 152.9, width: 71.2}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 619
+image: miami.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
+maintainers: [marcost2]
+models: [XT2245-1]
+name: motorola edge 30 neo
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 6/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2022-10-07
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.28, technology: 'P-OLED'}
+sdcard: {size_max: '1 TB'}
+soc: Qualcomm SM6375 Snapdragon 695
+storage: 128/256 GB UFS2.2
+tree: android_device_motorola_miami
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
