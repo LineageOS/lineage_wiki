@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c56753ea_31988132",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34841
+      },
+      "writtenOn": "2025-05-05T21:21:16Z",
+      "side": 1,
+      "message": "Fogo soc 4gen1?",
+      "revId": "3e54e27ae94d143262c48bf29c131a208703102d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
