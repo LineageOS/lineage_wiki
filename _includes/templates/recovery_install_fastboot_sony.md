@@ -1,12 +1,18 @@
 {%- assign device = site.data.devices[page.device] -%}
+{%- assign release_year = device.release | split: '-' | first | to_integer -%}
 
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device." %}
-{% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
+{% capture content -%}
+Unlocking the bootloader will erase all data on your device!
+{% if release_year < 2017 %}
 This also includes your DRM keys, which are stored in the Trim Area partition (also called TA).
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed.
-If you wish to backup the TA partition first, you can find tutorials related to your device on the internet." %}
+If you wish to backup the TA partition first, you can find tutorials related to your device on the internet."
+{%- endif -%}
+{%- endcapture %}
+{% include alerts/warning.html content=content %}
 
 {%- if device.install_variant and device.install_variant contains "sony_unlock_contacts" %}
 1. Open the `Contacts` app.
