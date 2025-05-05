@@ -16,6 +16,24 @@
       "message": "Fogo soc 4gen1?",
       "revId": "3e54e27ae94d143262c48bf29c131a208703102d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2b5534e2_ac64361d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-05-05T21:22:08Z",
+      "side": 1,
+      "message": "you can read the yml file.",
+      "parentUuid": "c56753ea_31988132",
+      "revId": "3e54e27ae94d143262c48bf29c131a208703102d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
