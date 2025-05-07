@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 4492, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15 (BP1A.250405.007)'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
