@@ -18,27 +18,18 @@ The preferred method of installing a custom recovery is through Download Mode{% 
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
 2. Download and install the appropriate version of the Heimdall suite for your machine's OS
-    * [Windows](https://blob.lineageos.org/downloads/heimdall/Heimdall-Windows-master-012220.zip){: .download}: Extract the Heimdall suite zip and take note of the new directory containing `heimdall.exe`. You can verify Heimdall is functioning by opening a Command Prompt or PowerShell in that directory and running `heimdall version`.
-      * If you receive an error, install the [Microsoft Visual C++ 2015-2019 Redistributable Package (x86)](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) on your computer.
-    * [Linux](https://blob.lineageos.org/downloads/heimdall/Heimdall-linux-master-012220.zip){: .download}: Extract the Heimdall suite zip and take note of the new directory containing `heimdall`. Now copy `heimdall` into a directory in $PATH, a common one on most distros will be /usr/local/bin. For example `cp heimdall /usr/local/bin`. You can verify Heimdall is functioning by opening a Terminal and running `heimdall version`.
+    * [Windows](https://blob.lineageos.org/downloads/heimdall/Heimdall-Windows-922a92a-110525.zip){: .download}: Extract the Heimdall suite zip and take note of the new directory containing `heimdall.exe`. You can verify Heimdall is functioning by opening a Command Prompt or PowerShell in that directory and running `heimdall version`.
+    * [Linux](https://blob.lineageos.org/downloads/heimdall/Heimdall-linux-922a92a-110525.zip){: .download}: Extract the Heimdall suite zip and take note of the new directory containing `heimdall`. Now copy `heimdall` into a directory in $PATH, a common one on most distros will be /usr/local/bin. For example `cp heimdall /usr/local/bin`. You can verify Heimdall is functioning by opening a Terminal and running `heimdall version`.
     * [macOS](https://blob.lineageos.org/downloads/heimdall/Heimdall-macOS-master-012220.dmg){: .download}: Mount the Heimdall suite DMG. Now drag `heimdall` down into the `/usr/local/bin` symlink provided in the DMG. You can verify Heimdall is functioning by opening a Terminal and running `heimdall version`.
     {% include alerts/note.html content="These Heimdall suite distributions were built by LineageOS Developers Nolen Johnson (npjohnson) and Jan Altensen (Stricted), as the Heimdall suite executables distributed on the official Heimdall website were outdated and the repo mostly abandoned. Modifications were made to make it build and function on modern OSes." %}
 4. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
-5. **For Windows users only**: install the necessary drivers. A more complete set of instructions can be found in the [Zadig user guide](https://github.com/pbatard/libwdi/wiki/Zadig).
-    1. If nothing relevant appears, try uninstalling any Samsung related Windows software, like Samsung Windows drivers and/or Samsung Kies.
-    2. Run `zadig.exe` found in your extracted Heimdall directory.
-        {% include alerts/note.html content="For the interested, source and documentation for zadig.exe can be found [here](https://github.com/pbatard/libwdi/releases)." %}
-    3. Choose **Options** &raquo; **List all devices** from the menu.
-    4. Select device with USB ID **04E8 685D** from the drop down menu.
-    5. Click **Replace Driver**, then selecting **Install Driver** from the drop down list built into the button.
-    6. If you are prompted with a warning that the installer is unable to verify the publisher of the driver, select **Install this driver anyway**. You may receive two more prompts about security. Select the options that accept the warnings and allow you to carry on.
-6. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
+5. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
 heimdall print-pit
 ```
-7. If the device reboots that indicates that Heimdall is installed and working properly. If it does not, please refollow these instructions to verify steps weren't missed, try a different USB cable, and a different USB port.
+6. If the device reboots that indicates that Heimdall is installed and working properly. If it does not, please refollow these instructions to verify steps weren't missed, try a different USB cable, and a different USB port.
 
 {% if custom_downgrade_instructions %}
 {{ custom_downgrade_instructions }}
