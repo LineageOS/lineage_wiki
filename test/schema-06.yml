@@ -329,11 +329,11 @@ definitions:
       - Qualcomm QCM6490
       - Qualcomm SDM429 Snapdragon 429
       - Qualcomm SDM439 Snapdragon 439
+      - Qualcomm SDM450 Snapdragon 450
       - Qualcomm SDM630 Snapdragon 630
       - Qualcomm SDM632 Snapdragon 632
       - Qualcomm SDM636 Snapdragon 636
       - Qualcomm SDM660 Snapdragon 660
-      - Qualcomm SDM665 Snapdragon 665
       - Qualcomm SDM670 Snapdragon 670
       - Qualcomm SDM710 Snapdragon 710
       - Qualcomm SDM712 Snapdragon 712
@@ -341,11 +341,23 @@ definitions:
       - Qualcomm SDM845 Snapdragon 845
       - Qualcomm SM4250 Snapdragon 460
       - Qualcomm SM4350 Snapdragon 480
+      - Qualcomm SM4350-AC Snapdragon 480+
+      - Qualcomm SM4375 Snapdragon 4 Gen 1
+      - Qualcomm SM4450 Snapdragon 4 Gen 2
+      - Qualcomm SM4635 Snapdragon 4s Gen 2
       - Qualcomm SM6115 Snapdragon 662
+      - Qualcomm SM6115-AC Snapdragon 6s Gen 1
+      - Qualcomm SM6125 Snapdragon 665
       - Qualcomm SM6150 Snapdragon 675
+      - Qualcomm SM6150-AC Snapdragon 678
       - Qualcomm SM6225 Snapdragon 680 4G
+      - Qualcomm SM6225-AD Snapdragon 685
       - Qualcomm SM6350 Snapdragon 690 5G
       - Qualcomm SM6375 Snapdragon 695
+      - Qualcomm SM6375-AC Snapdragon 6s Gen 3
+      - Qualcomm SM6450 Snapdragon 6 Gen 1
+      - Qualcomm SM6475-AB Snapdragon 6 Gen 3
+      - Qualcomm SM6650 Snapdragon 6 Gen 4
       - Qualcomm SM7125 Snapdragon 720G
       - Qualcomm SM7150-AA Snapdragon 730
       - Qualcomm SM7150-AB Snapdragon 730G
@@ -355,7 +367,15 @@ definitions:
       - Qualcomm SM7250 Snapdragon 765G
       - Qualcomm SM7325 Snapdragon 778G 5G
       - Qualcomm SM7325-AE Snapdragon 778G+ 5G
+      - Qualcomm SM7325-AF Snapdragon 782G 5G
       - Qualcomm SM7350-AB Snapdragon 780G 5G
+      - Qualcomm SM7435-AB Snapdragon 7s Gen 2
+      - Qualcomm SM7450-AB Snapdragon 7 Gen 1
+      - Qualcomm SM7475-AB Snapdragon 7+ Gen 2
+      - Qualcomm SM7550-AB Snapdragon 7 Gen 3
+      - Qualcomm SM7635 Snapdragon 7s Gen 3
+      - Qualcomm SM7675-AB Snapdragon 7+ Gen 3
+      - Qualcomm SM7750-AB Snapdragon 7 Gen 4
       - Qualcomm SM8150 Snapdragon 855
       - Qualcomm SM8150-AC Snapdragon 855+
       - Qualcomm SM8150-AC Snapdragon 860
@@ -364,9 +384,14 @@ definitions:
       - Qualcomm SM8250-AC Snapdragon 870
       - Qualcomm SM8350 Snapdragon 888
       - Qualcomm SM8350-AC Snapdragon 888+
+      - Qualcomm SM8425 Snapdragon 8+ Gen1 4G
       - Qualcomm SM8450 Snapdragon 8 Gen1
       - Qualcomm SM8475 Snapdragon 8+ Gen1
       - Qualcomm SM8550 Snapdragon 8 Gen2
+      - Qualcomm SM8635 Snapdragon 8s Gen3
+      - Qualcomm SM8650 Snapdragon 8 Gen3
+      - Qualcomm SM8735 Snapdragon 8s Gen4
+      - Qualcomm SM8750 Snapdragon 8 Elite
       - Samsung Exynos 850
       - Samsung Exynos 4210
       - Samsung Exynos 4412
