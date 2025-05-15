@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cddea7d6_4ce22c50",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31655
+      },
+      "writtenOn": "2025-05-15T18:41:22Z",
+      "side": 1,
+      "message": "Unsure on how to add fastboot flashing unlock_critical to the guide in a clean way (without this you cannot easily go back to stock ROM using the fastboot ROM).",
+      "revId": "a0e7ecc8c0450783ea2805a79c5ed2946a9c052b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
