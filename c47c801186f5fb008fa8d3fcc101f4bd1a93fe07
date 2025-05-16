@@ -16,6 +16,24 @@
       "message": "i assume you can\u0027t install from android 12/13?",
       "revId": "c47c801186f5fb008fa8d3fcc101f4bd1a93fe07",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "12eb8a40_63feff28",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26349
+      },
+      "writtenOn": "2025-05-16T16:44:51Z",
+      "side": 1,
+      "message": "mt6768 platform is GRF, so doesn’t really matter",
+      "parentUuid": "783d701b_c3f8e764",
+      "revId": "c47c801186f5fb008fa8d3fcc101f4bd1a93fe07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
