@@ -25,19 +25,20 @@ Do **not** continue after something fails!
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {%- endunless %}
 {%- if device.models %}
-4. Make sure that your model number is one of the following (exact match required!):
+4. Enable OEM Unlocking in Developer Options.
+5. Make sure that your model number is one of the following (exact match required!):
 {%- for model in device.models %}
 * {{ model }}
 {%- endfor %}
 {%- endif %}
-5. Boot your device with the stock OS at least once and check every functionality.
+6. Boot your device with the stock OS at least once and check every functionality.
 {%- if device.type == "phone" %}
 {%- unless device.quirks contains "ims" %}
     {% include alerts/warning.html content="Make sure that you can send and receive SMS and place and receive calls (also via WiFi and LTE, if available), otherwise it won't work on LineageOS either! Additionally, some devices require that VoLTE/VoWiFi be utilized once on stock to provision IMS." %}
 {%- endunless %}
 {%- endif %}
-6. Remove all Google accounts from your device to avoid "Factory reset protection"
-7. LineageOS is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) you are installing this at your own risk!
+7. Remove all Google accounts from your device to avoid "Factory reset protection"
+8. LineageOS is provided as-is with no warranty. While we attempt to verify [everything works](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) you are installing this at your own risk!
 
 {%- if device.before_install %}
 {% capture path %}templates/device_specific/before_install_{{ device.before_install.instructions }}.md{% endcapture %}
