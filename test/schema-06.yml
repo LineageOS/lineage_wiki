@@ -161,12 +161,14 @@ definitions:
       - Qualcomm Adreno 642
       - Qualcomm Adreno 642L
       - Qualcomm Adreno 643L
+      - Qualcomm Adreno 644
       - Qualcomm Adreno 650
       - Qualcomm Adreno 660
       - Qualcomm Adreno 675
       - Qualcomm Adreno 680
       - Qualcomm Adreno 685
       - Qualcomm Adreno 690
+      - Qualcomm Adreno 725
       - Qualcomm Adreno 730
       - Qualcomm Adreno 740
   iso8601_reduced_precision_date:
