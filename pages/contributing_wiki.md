@@ -64,7 +64,7 @@ git reset --hard HEAD
 
 ### Preview using GitHub
 
-This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that.
+This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that. In addition, you will have to enable actions within your repository, and configured pages to deploy from `Github-Actions`. (You can do this in Settings > Pages > Build and Deployment.).
 
 #### Commit and preview your changes
 
