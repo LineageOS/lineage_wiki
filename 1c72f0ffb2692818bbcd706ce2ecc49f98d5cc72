@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "022093c4_2aec88dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-05-18T22:45:16Z",
+      "side": 1,
+      "message": "this is supposed to be handled by individual recovery install templates:\n\n```\n$ rg OEM\\ un\n_includes/templates/recovery_install_fastboot_sony.md\n28:4. Enable OEM unlock in the Developer options under device Settings, if present.\n\n_includes/templates/recovery_install_fastboot_nubia.md\n7:1. Enable OEM unlock in the Developer options under device Settings, if present.\n\n_includes/templates/recovery_install_fastboot_htc.md\n10:1. Enable OEM unlock in the Developer options under device Settings, if present.\n\n_includes/templates/recovery_install_odin.md\n31: * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/recovery_install_heimdall.md\n18: * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/device_specific/before_recovery_install_samsung_qcom.md\n8:    * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/recovery_install_fastboot_oppo.md\n37:10. Enable OEM unlock in the Developer options under device Settings, if present.\n\n_includes/templates/device_specific/before_recovery_install_gtowifi.md\n7:    * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/device_specific/before_recovery_install_samsung_universal7904.md\n7: * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/device_specific/before_recovery_install_samsung_a21s.md\n9:5. Go to the Developer Options menu in the \"Settings\" app and enable OEM unlock\n\n_includes/templates/device_specific/before_recovery_install_samsung_exynos9xxx.md\n7: * From within the Developer options menu, enable OEM unlock.\n\n_includes/templates/recovery_install_fastboot_nexus.md\n10:1. Enable OEM unlock in the Developer options under device Settings, if present.\n\n_includes/templates/recovery_install_fastboot_lenovo.md\n13:3. Enable OEM unlock in the Developer options under device Settings, if present.\n17:4. Enable OEM unlock in the Developer options under device Settings, if present.\n21:8. After the waiting period, go back to OEM unlocking so that the Lenovo servers can toggle the bootloader unlock switch.\n```",
+      "revId": "1c72f0ffb2692818bbcd706ce2ecc49f98d5cc72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
