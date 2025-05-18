@@ -23,4 +23,4 @@ Want to see LineageOS in your favorite language? Or it's already there but incom
 
 ## Wiki
 
-You can help us make this wiki a place where all information to work with and on LineageOS can easily be found. Click [here]({{ "contributing_wiki.html" | relative_url }}) to find out, how!
+You can help us make this wiki a place where all information to work with and on LineageOS can easily be found. Click [here]({{ "contributing_wiki.html" | relative_url }}) to find out how!
