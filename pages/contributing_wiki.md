@@ -89,7 +89,7 @@ Save the file and exit the editor. Now upload your changes to GitHub:
 git push origin
 ```
 
-Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+Preview your changes - you can see your fork of the wiki at `https://yourusername.github.io/lineage_wiki`.
 
 #### Fixing mistakes
 
