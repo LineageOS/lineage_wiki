@@ -22,6 +22,30 @@
       },
       "revId": "d9de6a95f1ad434d640b674d19f2fff7f24d934e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "79deb173_02b6c9bf",
+        "filename": "_data/devices/kiev_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2025-05-18T14:48:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c84f8eaa_070a3f24",
+      "range": {
+        "startLine": 22,
+        "startChar": 14,
+        "endLine": 22,
+        "endChar": 15
+      },
+      "revId": "d9de6a95f1ad434d640b674d19f2fff7f24d934e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
