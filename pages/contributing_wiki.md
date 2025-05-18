@@ -64,7 +64,7 @@ git reset --hard HEAD
 
 ### Preview using GitHub
 
-This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that.
+This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that. In addition, you will have to enable actions within your repository, and configured pages to deploy from `Github-Actions`. (You can do this in Settings > Pages > Build and Deployment.).
 
 #### Commit and preview your changes
 
@@ -89,7 +89,7 @@ Save the file and exit the editor. Now upload your changes to GitHub:
 git push origin
 ```
 
-Preview your changes - you can see your fork of the wiki at `http://yourusername.github.io/lineage_wiki`.
+Preview your changes - you can see your fork of the wiki at `https://yourusername.github.io/lineage_wiki`.
 
 #### Fixing mistakes
 
