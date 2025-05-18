@@ -23,7 +23,7 @@ On [Crowdin](https://crowdin.com/projects/LineageOS) you will notice two differe
 
 ### My language is not there and I have checked several times
 
-You seem to speak a language which nobody else does... or there has just been the lack of someone willing to provide support. Contact one of the managers so we can support you by adding your language as well.
+You seem to speak a language which nobody else does... or there has just been the lack of someone willing to provide support. Contact one of the [managers]({{ "contributors.html#translations-managers" | relative_url }}) so we can support you by adding your language as well.
 
 ## I have translated a lot, how do I get these to my device now?
 
