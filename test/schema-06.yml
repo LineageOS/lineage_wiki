@@ -148,8 +148,10 @@ definitions:
       - Qualcomm Adreno 530
       - Qualcomm Adreno 540
       - Qualcomm Adreno 605
+      - Qualcomm Adreno 608
       - Qualcomm Adreno 610
       - Qualcomm Adreno 612
+      - Qualcomm Adreno 613
       - Qualcomm Adreno 615
       - Qualcomm Adreno 616
       - Qualcomm Adreno 618
@@ -161,14 +163,25 @@ definitions:
       - Qualcomm Adreno 642
       - Qualcomm Adreno 642L
       - Qualcomm Adreno 643L
+      - Qualcomm Adreno 644
       - Qualcomm Adreno 650
       - Qualcomm Adreno 660
+      - Qualcomm Adreno 663
       - Qualcomm Adreno 675
       - Qualcomm Adreno 680
       - Qualcomm Adreno 685
       - Qualcomm Adreno 690
+      - Qualcomm Adreno 695
+      - Qualcomm Adreno 702
+      - Qualcomm Adreno 710
+      - Qualcomm Adreno 720
+      - Qualcomm Adreno 722
+      - Qualcomm Adreno 725
       - Qualcomm Adreno 730
+      - Qualcomm Adreno 732
+      - Qualcomm Adreno 735
       - Qualcomm Adreno 740
+      - Qualcomm Adreno 750
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
