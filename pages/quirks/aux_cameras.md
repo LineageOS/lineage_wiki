@@ -1,17 +1,16 @@
 ---
 sidebar: home_sidebar
-title: Quirks - Auxillary/Peripheral Cameras
+title: Quirks - Auxillary Cameras
 permalink: quirks/aux_cameras/
 robots: noindex
 search: exclude
 toc: false
 ---
 
-## Auxillary/peripheral cameras
+## Auxillary cameras
 
 Some devices ship with auxillary cameras, being any camera that is included outside of the rear-main and rear-front sensors.
-Some devices ship with peripheral cameras (Moto Camera Mods, 360-Camera Accessories, Attachable USB Cameras, etc.)
-You have been redirected here because LineageOS builds for your device do not support these cameras/accessories.
+You have been redirected here because LineageOS builds for your device do not support these cameras.
 
 ### Why is that?
 
