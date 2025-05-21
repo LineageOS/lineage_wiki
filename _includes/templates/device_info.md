@@ -92,7 +92,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 
 ## Find help online
 
-You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), or in [#LineageOS on Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos).
+You can find assistance with LineageOS on [our subreddit](https://reddit.com/r/LineageOS), on [our Discord server](https://discord.gg/gD6DMtf), or in [#LineageOS on Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos).
 
 {% if device.maintainers != empty %}
 ## Report a bug

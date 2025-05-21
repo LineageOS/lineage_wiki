@@ -131,4 +131,4 @@ hopefully you've learned a bit on the way and had some fun too.
 
 ## To get assistance
 
-* [#LineageOS-dev](https://web.libera.chat/gamja/?channel=#lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Libera.Chat [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network.
+* [#LineageOS-dev](https://web.libera.chat/gamja/?channel=#lineageos-dev) - A helpful, real-time chat room (or "channel"), on the Libera.Chat [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat) network. We also have a [Discord Server](https://discord.gg/gD6DMtf) which is bridged with IRC.

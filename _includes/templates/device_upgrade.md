@@ -121,7 +121,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 
 ## Get assistance
 
-After you've double checked that you followed the steps precisely, didn't skip any and still have questions or got stuck, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS) or in
+After you've double checked that you followed the steps precisely, didn't skip any and still have questions or got stuck, feel free to ask on [our subreddit](https://reddit.com/r/LineageOS), on [our Discord server](https://discord.gg/gD6DMtf), or in
 [#LineageOS on Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos).
 
 {% endif %}
