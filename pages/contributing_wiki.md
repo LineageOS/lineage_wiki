@@ -91,6 +91,8 @@ git push origin
 
 Preview your changes - you can see your fork of the wiki at `https://yourusername.github.io/lineage_wiki`.
 
+{% include alerts/note.html content="Make sure to push to the main branch on GitHub otherwise the preview will not work." %}
+
 #### Fixing mistakes
 
 So, you've made your change, and you can look at the wiki on GitHub pages. But something's wrong!
