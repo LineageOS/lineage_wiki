@@ -16,6 +16,23 @@
       "message": "“Though, please…” is kinda awkward and feels like it disrupts the natural flow of the sentence. \"though” is usually idiomatic at the end of the sentence.\n\n\"On this wiki” is more standard than “in this wiki” when referring to support content available via the wiki as a platform from a brief poll of a few other FOSS wikis.\n\nIt\u0027s treated like a whiteboard in terms of how the wiki is talked about",
       "revId": "a04434ed15f1816ad93bb5c543b108f5535c09f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "603ec4e9_d858c09f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-05-21T23:42:25Z",
+      "side": 1,
+      "message": "Alright, thank you for clarifying. I appreciate it.",
+      "revId": "a04434ed15f1816ad93bb5c543b108f5535c09f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
