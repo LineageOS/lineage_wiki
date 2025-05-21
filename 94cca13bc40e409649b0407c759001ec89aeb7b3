@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5138d743_f36e0997",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-21T23:24:02Z",
+      "side": 1,
+      "message": "The subject of the clause is “one last function” (singular), so the verb should also be singular — “takes”, not “taking”.",
+      "revId": "94cca13bc40e409649b0407c759001ec89aeb7b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
