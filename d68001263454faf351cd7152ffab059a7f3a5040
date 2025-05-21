@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "04cda4e0_d0ba3c79",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2025-05-21T05:26:36Z",
+      "side": 1,
+      "message": "Should we make a new quirk that mentions the cell signal icon on first boot for legacy modem devices show an exclamation mark even though data and VoLTE still works? Maybe also add we recommend after setting up the device after a few minutes to reboot again",
+      "revId": "d68001263454faf351cd7152ffab059a7f3a5040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
