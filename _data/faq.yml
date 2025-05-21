@@ -2,7 +2,7 @@
     - question: "Installing LineageOS zips in Recovery results in 'Error 7'"
       response: |
         - The most common reasons for this error are:
-          - You are trying to install a build for a different device. _You need to make sure you download the zip for the correct device **and** variant_
+          - You are trying to install a build for a different device. _You need to make sure you download the zip for the correct device **and** variant_.
           - You are attempting to migrate from an unofficial build to official LineageOS. _A full data wipe is needed if you are coming from something other than an official build of LineageOS._
           - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install LineageOS again_. This information should be listed on the device's wiki page.
           - Your recovery is outdated. _Flash the newest available version of the recommended recovery image for your device_.
@@ -35,7 +35,7 @@
     - question: "My device is _not_ on the device list, but it is just the same as that other model. Can I use it?"
       response: |
         - If your device is not listed, it's not supported.
-        - "The same" is not "equal" which means it needs a separate build
+        - "The same" is not "equal" which means it needs a separate build.
     - question: "The list of supported models for my device doesn’t contain a specific one I need. Can I still use it?"
       response: |
         - We try to keep the list of supported models as comprehensive as possible and effectively do not support any that are not listed.
@@ -45,19 +45,19 @@
     - question: "Does a specific feature or hardware work on my device?"
       response: |
         - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md).
-        - If something doesn't work, look into <a href="how-to/bugreport">How to submit a bug</a>
+        - If something doesn't work, look into <a href="how-to/bugreport">How to submit a bug</a>.
     - question: "Why do you support this old device but not my newer one?"
       response: "Because all maintainers are volunteers doing this in their free time, and someone happened to love this device enough to bring it up and properly support it."
     - question: "Where are guides so I can port LineageOS to my unsupported device?"
       response: |
-        - There are none
-        - See what other, similar devices did to get them to work.
+        - There are none.
+        - See what other similar devices did to get them to work.
 - "bugs and features":
     - question: "I found a bug. What do I do?"
       response: "You can report it! Please _carefully_ read the <a href='how-to/bugreport'>How to submit a bug</a> page before reporting it."
     - question: "Can I have _xxx_ feature added?"
       response: |
-        - Short: Don't ask
+        - Short: Don't ask.
         - Longer: We are doing this in our free, unpaid time. Thus, we don't take feature requests and simply work on our own ideas.
     - question: "Does someone else have this issue?"
       response: "Finding other people that have your issue, especially on other devices, is not helpful to solving it. Instead, to best help us solve the issue, please report it properly as shown <a href='how-to/bugreport'>here</a>."
@@ -83,4 +83,4 @@
         - The top 5 devices account for 50% of our users. 95% of our builds do not have enough users to justify torrents.
         - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a delicious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
     - question: "Will my device receive the next Android version?"
-      response: "We can't tell you. 'No ETA' includes the 'IF', not just the 'WHEN'"
+      response: "We can't tell you. 'No ETA' includes the 'IF', not just the 'WHEN'."
