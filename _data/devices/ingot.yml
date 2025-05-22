@@ -8,7 +8,7 @@ cameras:
   - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawide)'}
   - {flash: None, info: '16 MP'}
 codename: ingot
-cpu: Kryo 780
+cpu: Cortex-X2 & Cortex-A710 & Cortex-A510
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.5 GHz + 4 x 1.8 GHz
 current_branch: 22.2
