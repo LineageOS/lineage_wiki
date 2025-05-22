@@ -697,7 +697,6 @@ properties:
       - Kryo 660
       - Kryo 670
       - Kryo 680
-      - Kryo 780
   cpu_cores:
     "$id": "/properties/cpu_cores"
     minLength: 1
