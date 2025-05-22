@@ -83,6 +83,10 @@ Otherwise, it should show:
 
 Connection to review.lineageos.org closed.
 ```
+{%- capture content %}
+Do not use the above ssh command to download the source code. You must use the method in the build section of [your device]({{ "devices/" | relative_url }}).
+{% endcapture %}
+{% include alerts/note.html content = content %}
 
 To avoid duplicated `Change-Id:` trailers in commit messages, especially when cherry-picking changes, make `Change-Id:` a known trailer to git:
 ```
