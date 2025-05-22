@@ -45,10 +45,11 @@ Most of the requested information can be found on your device if you go to *Sett
 
 Make sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be closed.
 
-  {% include alerts/important.html content="Please do not post multiple issues within the same report, as bugs can be either affecting different maintainers or some may be device specific where others are not" %}
+  {%- capture content %}[Logcats]({{ "how-to/logcat/" | relative_url }}) *must* be attached for all Android bugs, and *must* be captured right after reproducing the issue. Without these, it is much more difficult and time-consuming for us to fix the issue.{% endcapture %}
+  {% include alerts/warning.html content=content %}
 
-  {%- capture content %}[Logcats]({{ "how-to/logcat/" | relative_url }}) *must* be attached for all Android bugs, and *must* be captured right after reproducing the issue.{% endcapture %}
-  {% include alerts/important.html content=content %}
+
+  {% include alerts/important.html content="Please do not post multiple issues within the same report, as bugs can be either affecting different maintainers or some may be device specific where others are not" %}
 
 <a href="https://gitlab.com/LineageOS/issues/android/-/issues"><button class="btn btn-primary">Go to Android bugs</button></a>
 
