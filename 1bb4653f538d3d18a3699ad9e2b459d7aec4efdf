@@ -16,6 +16,23 @@
       "message": "I poked zifnab about just removing the clone line instead.",
       "revId": "1bb4653f538d3d18a3699ad9e2b459d7aec4efdf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa79f875_9ab338d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-23T02:59:17Z",
+      "side": 1,
+      "message": "https://github.com/GerritCodeReview/gerrit/blob/2f49902b9cdfb24b3c9c34b4c3ef13cc62c81b90/java/com/google/gerrit/sshd/NoShell.java#L165-L206\n\nmeh it\u0027s hardcoded - gg google on following your own standards!!!",
+      "revId": "1bb4653f538d3d18a3699ad9e2b459d7aec4efdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
