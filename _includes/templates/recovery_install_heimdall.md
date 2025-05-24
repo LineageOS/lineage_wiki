@@ -30,7 +30,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 ```
 heimdall print-pit
 ```
-7. If the device reboots that indicates that Heimdall is installed and working properly. If it does not, please refollow these instructions to verify steps weren't missed, try a different USB cable, and a different USB port.
+7. If the device reboots that indicates that Heimdall is working properly. If it does not, please refollow these instructions to verify steps weren't missed, try a different USB cable, and a different USB port.
 
 {% if custom_downgrade_instructions %}
 {{ custom_downgrade_instructions }}
