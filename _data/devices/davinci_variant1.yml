@@ -32,6 +32,7 @@ peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fin
 ram: 6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
 recovery_partition_name: recovery
+recovery_reboot: fastboot_boot
 release: 2019-06
 screen: {resolution: '2340x1080', size: 6.39, technology: 'AMOLED'}
 soc: Qualcomm SM7150-AA Snapdragon 730
