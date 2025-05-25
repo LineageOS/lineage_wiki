@@ -17,6 +17,10 @@ To work with the source code, you can check the following links:
 - [How to import the sources to Android Studio / IntelliJ]({{ "how-to/import-to-android-studio" | relative_url }})
 - [How to submit a patch]({{ "how-to/submitting-patches" | relative_url }})
 
+## Contributing to Apps
+
+Want to contribute but just want to work on a specific app? See [this guide]({{ "how-to/contributing-apps" | relative_url }})!
+
 ## Translations
 
 Want to see LineageOS in your favorite language? Or it's already there but incomplete? Then [this guide]({{ "how-to/translate" | relative_url }}) is for you!
