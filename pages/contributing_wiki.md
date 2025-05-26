@@ -75,7 +75,7 @@ git add .
 git commit
 ```
 
-An editor will pop up. In the first line, type the word wiki with a colon, followed by a short (below 80 character) description of your changes,
+An editor will pop up. In the first line, type the word wiki with a colon, followed by a short (below 50 character) description of your changes,
 then put a blank line, and, if you want, a more detailed description of your changes. For example:
 ```
 wiki: Add the contributing page
