@@ -6,6 +6,7 @@ redirect_from: usinggerrit-howto.html
 permalink: /how-to/using-gerrit/
 tags:
  - how-to
+ - gerrit
 ---
 
 ## What is Gerrit?
@@ -85,37 +86,4 @@ Go ahead and build. When you're done, you'll hopefully have the feature you want
 
 You can of course also contribute by submitting your own patch via Gerrit. Follow [this link]({{ "how-to/submitting-patches" | relative_url }}) to find out how to do it!
 
-
-## Common commands
-
-See [Git Immersion](http://gitimmersion.com/) for more information.
-
-### `repo`
-
-*  `repo abandon <branch name>` to abandon any changes (commits) that have not been uploaded.
-
-*  `repo start <branch> <project>` to start repo listening for changes through git.
-
-*  `repo upload <project name>` to upload committed changes to the remote review server.
-
-
-### `git`
-
-*  `git add <file name>` to stage a file that has been changed or added.
-
-*  `git commit -m "comment"` to commit a change.
-
-*  `git reset HEAD <file name>` to unstage a file.
-
-*  `git revert HEAD` to undo the last commit.
-
-*  `git status` to see the status of a project.
-
-
-## Resources
-
-[Git Immersion](http://gitimmersion.com/)
-
-[Git and repo overview](https://source.android.com/source/developing)
-
-[Gerrit Documentation](https://review.lineageos.org/Documentation/index.html)
+{% include templates/git_resources.md %}
