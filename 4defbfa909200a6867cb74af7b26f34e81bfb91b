@@ -16,6 +16,23 @@
       "message": "@seba @Luca - this is useful I think - any other apps we might want to add?\n\nTrebuchet probably?\n\nAlso might be worth calling out the per app actions on Gerit, as those are useful for test builds and such.",
       "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70d24452_5cc947c0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-05-27T07:31:17Z",
+      "side": 1,
+      "message": "i like it except for the fact that this is the third place with duplicated \"how to use git\", would be nice if we could have a common template for that instead.\n\nalso, can updater really be built with gradle out of box?",
+      "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
