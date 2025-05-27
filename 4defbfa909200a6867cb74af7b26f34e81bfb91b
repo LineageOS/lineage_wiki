@@ -33,6 +33,23 @@
       "message": "i like it except for the fact that this is the third place with duplicated \"how to use git\", would be nice if we could have a common template for that instead.\n\nalso, can updater really be built with gradle out of box?",
       "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "86503dda_0d052b1f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-05-27T07:34:05Z",
+      "side": 1,
+      "message": "Fyi lineage apps group is public, that should be used instead",
+      "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
