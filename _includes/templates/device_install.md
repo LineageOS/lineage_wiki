@@ -122,6 +122,7 @@ There are no recovery installation instructions for this discontinued device.
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
+        {% include alerts/note.html content="If you have an usb storage attached to the phone, there also be an option \"Apply Update\" > \"Choose from usb\". This is a useful alternative if `adb sideload` is not working." %}
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
@@ -134,6 +135,7 @@ There are no recovery installation instructions for this discontinued device.
 5. Sideload the LineageOS `.zip` package but **do not reboot to system** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
+        {% include alerts/note.html content="If you have an usb storage attached to the phone, there is also an option \"Apply Update\" > \"Choose from usb\". This is a useful alternative if `adb sideload` is not working." %}
 {%- endif %}
 {%- if current_branch >= 20 and device.is_ab_device %}
         {% include alerts/specific/tip_ab_reboot_recovery.html %}
