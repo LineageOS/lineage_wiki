@@ -16,6 +16,24 @@
       "message": "device photo with gsmarena watermark, yikes.",
       "revId": "3a2a97a09826a53fa3e36759fa6ddd952fb9af4c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a61e39de_1e72e644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-05-27T11:29:33Z",
+      "side": 1,
+      "message": "uploaded one from motorola.com",
+      "parentUuid": "f09be54f_3d6a08f2",
+      "revId": "3a2a97a09826a53fa3e36759fa6ddd952fb9af4c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
