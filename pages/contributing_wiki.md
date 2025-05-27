@@ -16,34 +16,7 @@ If you already have a LineageOS source tree checked out, then this step is done 
 
 If you don't have a LineageOS source tree on your device, then you can clone the wiki from GitHub to any directory you like. In this example, we'll use `~/lineage_wiki`.
 
-#### Install Git
-
-##### On Windows
-
-Install [Git for Windows](https://git-for-windows.github.io/).
-
-##### On macOS
-
-Install Git using the [Git installer](https://git-scm.com/download/mac).
-
-##### On Linux
-
-You can install Git by running:
-
-```
-sudo apt install git
-```
-
-More specific instructions for different distributions can be found [here](https://git-scm.com/download/linux).
-
-#### Configure Git
-
-Run:
-
-```
-git config --global user.name "Your Name"
-git config --global user.email "youremail@example.com"
-```
+{% include templates/git_setup.md %}
 
 {% include alerts/tip.html content="Before this step, you can fork the LineageOS wiki repository and work on your own copy. That way you can preview your changes online using GitHub pages, which [we've detailed below](#preview-using-github). Just fork the repo and then replace LineageOS in the `git clone` command with your GitHub username." %}
 
