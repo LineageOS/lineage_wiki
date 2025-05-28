@@ -4,7 +4,7 @@ title: Building and installing for UTM virtual machine on Apple Silicon Mac
 permalink: utm-vm-on-apple-silicon-mac.html
 ---
 
-{% include alerts/warning.html content="This is not officially supported and maintained by individual LineageOS maintainers. Due to this, unlike Cuttlefish/Emulator/AVD which is guaranteed to function when built, these targets carry no such guarantee." %}
+{% include alerts/warning.html content="This is not officially supported and is maintained by individual LineageOS maintainers. Due to this, unlike Cuttlefish/Emulator/AVD which is guaranteed to function when built, these targets carry no such guarantee." %}
 {% include alerts/warning.html content="None of the `virtio_*` build targets are built by LineageOS build servers, and no OTA updates will be delivered to builds of these targets. As such, you must build all images and update the builds manually." %}
 
 ## Known issues
@@ -58,7 +58,7 @@ Now, transfer the ZIP archive to the Apple Silicon Mac which you wish to run it 
 
 ## Install UTM app
 
-Please refer to [UTM Documentation](https://docs.getutm.app/installation/macos/).
+Please refer to the [UTM Documentation](https://docs.getutm.app/installation/macos/).
 
 ## Install the virtual machine
 
@@ -68,15 +68,15 @@ Double-click on it to decompress it.
 
 After the decompression process finishes, the UTM virtual machine package named `LineageOS_on_<Architecture>.utm` will appear in the same directory.
 
-Double-click on the package, UTM main window will appear, and the virtual machine will be loaded on UTM with name `LineageOS on <Architecture>`.
+Double-click on the package, the UTM main window will appear, and the virtual machine will be loaded on UTM with name `LineageOS on <Architecture>`.
 
 ### Set the renderer backend
 
 If the renderer backend `ANGLE (Metal)` is used, the Android UI will not appear after Android finishes booting. It is necessary to ensure the renderer backend is always set to `ANGLE (OpenGL)` when using this virtual machine.
 
-Click on an empty area of the UTM main window, click `UTM` on the menu bar, click `Settings`.
+Click on an empty area of the UTM main window, click `UTM` on the menu bar, and then click `Settings`.
 
-On the new window, switch to `Display` tab, select `ANGLE (OpenGL)` on `Renderer Backend` dropdown menu, then close the window.
+On the new window, switch to `Display` tab, select `ANGLE (OpenGL)` on the `Renderer Backend` dropdown menu, then close the window.
 
 ### Disable virtualization mode if necessary
 
