@@ -56,7 +56,7 @@ toc: false
 #### Data
 
 - Data is everything added by a user - installed apps and their data, settings, and media (pictures, videos, audio files, etc.)...
-- If the installation or upgrade for your device calls for a [Factory reset](#factory-reset), this is the data that will be deleted
+- If the installation or upgrade for your device calls for a [Factory reset](#factory-reset) or unlocking the bootloader, this is the data that will be deleted
 
 #### Degoogled
 
