@@ -55,7 +55,7 @@ toc: false
 
 #### Data
 
-- Data is everything added by a user - installed apps and their data, settings, media (pictures, videos, audio files, etc.)...
+- Data is everything added by a user - installed apps and their data, settings, and media (pictures, videos, audio files, etc.)...
 - If the installation or upgrade for your device calls for a [Factory reset](#factory-reset), this is the data that will be deleted
 
 #### Degoogled
@@ -74,7 +74,7 @@ toc: false
 
 #### GApps
 
-- Google Apps, usually consisting of the GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messenger, Calender, etc.)
+- Google Apps, usually consisting of GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messenger, Calender, etc.)
 - Google Apps are not preinstalled on LineageOS but can be installed **during** installation of LineageOS, please see your device's Install guide for more information
 
 #### OEM
@@ -97,5 +97,5 @@ toc: false
 - There are two types of unlocking when discussing smartphones:
   - Carrier unlocking: You can use the device with SIM cards of any carrier
   - Bootloader unlocking: You can run unsigned operating systems/kernels. This is the type of unlock you need to install a [Custom ROM](#custom-rom)
-- Some carriers allow for (or are obliged to do so by law) removing the SIM lock but still won't allow to unlocking the bootloader
+- Some carriers allow for (or are obliged to do so by law) removing the SIM lock but still won't allow unlocking the bootloader
 - Some OEMs don't allow unlocking the bootloader
