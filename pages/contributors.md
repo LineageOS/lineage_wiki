@@ -100,7 +100,7 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 Developer relations managers are responsible for onboarding new contributors, reviewing incoming submissions, fielding public questions, and for keeping the health of the project.
 Although everyone has a responsibility to help new people join the community, and to protect the project's health, these people maintain the contribution
-pathways that connect to potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
+pathways that connect potential contributors to teams that have contribution opportunities and grant new device maintainers access to devices.
 
 | Name | Nickname |
 |------|----------|
