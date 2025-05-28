@@ -33,6 +33,24 @@
       "message": "Huh? What\u0027s wrong about it?\n\nThe usb cable is fine, I was able to use fastboot and adb commands fine EXCEPT sideload. Changing ports or cables didn\u0027t do shit, at least with the ones I have. I\u0027ve seen other users encounter the same problem.\n\nYes, it would have \"bricked\" my phone since I started doings things outside of the guide as workaround. I got locked out of my adb access because I changed my adb version midway and my device was no longer authorized because of that. I couldn\u0027t boot back to normal mode because it just loads indefinitely for some reason.\n\nAlso I didn\u0027t say using sideload bricks the phone, it\u0027s the lack of options besides sideloading that could have bricked it. Realizing I could apply updates from the usb drive saved my pickles. If that was mentioned in the guide in the first place, that would have saved me a lot of trouble and anxiety.\n\n    We absolutely do not intend to have users utilize external storage to flash the zip.\n\nWhat\u0027s the reason for this? At least mention it as a last resort. This just sounds like treating users as a bunch of retards, which to be fair, true in a lot of cases.\n\nBut yeah, if you don\u0027t want to include that in the wiki, fine with me, no skin off my back. I don\u0027t know why you act like the wiki is in pristine condition that is free from flaws. It\u0027s called a wiki for a reason. It\u0027s was already tedious enough to setup a dev environment just for the wiki, and then just to read and decipher through flat nested if-statements in an stringly-typed templating language that builds horribly slow. I would be mad crazy if I would work on this wiki without strong reasons to do so on my own volition. Sorry for the rant, if I sound sore, it\u0027s probably because I am.",
       "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0999450a_1eb9f2f3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-28T17:35:24Z",
+      "side": 1,
+      "message": "Okay, few things:\n\nWe don\u0027t want users to use external storage for a variety of reasons, many devices don\u0027t properly support OTG, we don\u0027t want to have to maintain a comprehensive list of the ones that do, we don\u0027t want to make a recommendation that doesn\u0027t work for people - and everyone else has ADB side load working to install.\n\nIf it wasn\u0027t working for you it\u0027s not device specific, it is specific to your instance and your machine, and the combination of such. I\u0027m really betting that if you reinstalled your drivers, grab the newest ATV like the guide tells you to, and tried a diff port/cable it would work fine.\n\nWe don\u0027t want to just say \"oh this important thing that you need to be able to do doesn\u0027t work so do a different thing\".\n\nI don\u0027t act at all like this wiki is interesting condition, it needs a ton of work. But at the moment the install instructions work for 99% of people. \n\nAs for wiki development, standing it up locally is definitely a pain, what I would just recommend to you in the future is to push your review patch sets up here, let the bot build them, and then use the bots preview. We set that up so that users would have a better time contributing!",
+      "parentUuid": "e83354ce_0fa9eb36",
+      "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
