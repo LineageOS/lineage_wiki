@@ -187,6 +187,8 @@ git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageO
 git push gerrit HEAD:refs/for/main
 ```
 
+{% include alerts/note.html content="On push to Gerrit, a bot will automatically build your change to the wiki and will leave a 'Verified+1'review,a build-log, and a link to a previewable version of the wikiw ith your change if it succeeds. If the build fails, it will leave a 'Verified-1' vote and a build-log highlighting the failure message. You can use this bot to build-test and preview your proposed changes. %}
+
 You can add the "Wiki Editors" group as reviewers (click on the little person to the right of "reviewers").
 Someone will either: comment on the patch, asking for clarification or pointing out typos.
 You can reply to them, or [fix any issues they point out](#fixing-mistakes), and then re-run:
