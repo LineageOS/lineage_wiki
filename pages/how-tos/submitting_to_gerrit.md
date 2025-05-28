@@ -148,7 +148,7 @@ After you make your changes, you can commit them just as you normally would:
 git add <file you edited>
 git commit
 ```
-Alternatively you can run `git add .` to stage all changes.
+Alternatively, you can run `git add -n .` to view all modified files and then run `git add .` to stage all changes.
 
 {% include alerts/tip.html content="The first line of your commit message will become the change's title. Add a blank line after the title and write the summary of changes there, if you would like. Make sure that each line does not exceed 80 chars and the title should not exceed 50 chars." %}
 
@@ -209,17 +209,13 @@ cd frameworks/base
 repo start mychanges .
 ```
 
-Make the edits to that file. You can check those changes:
-
-```
-git add InputDevice.java -n
-```
-
-If the results are acceptable, stage the modified file:
+Make the edits to that file. Then when you are satisfied you can stage the modified file:
 
 ```
 git add InputDevice.java
 ```
+
+{% include alerts/tip.html content="You can also run `git add -n .` to view all changed files, and then use `git add .` to stage those files." %}
 
 Then commit it:
 
