@@ -46,7 +46,7 @@ toc: false
 
 #### Bricked
 
-- A device which cannot be recovered from a fatal failure by any means, leaving it in an unoperable state which is not recoverable by any means outside of OEM repair.
+- A device which cannot be recovered from a fatal failure by any means, leaving it in an unoperable state which is not recoverable by any means outside of [OEM](#oem) repair.
 - People often use this word in places where they just mean a [Bootloop](#bootloop) and their issue can be fixed using either button presses or readily available software tools
 
 #### Custom ROM
@@ -98,4 +98,4 @@ toc: false
   - Carrier unlocking: You can use the device with SIM cards of any carrier
   - Bootloader unlocking: You can run unsigned operating systems/kernels. This is the type of unlock you need to install a [Custom ROM](#custom-rom)
 - Some carriers allow for (or are obliged to do so by law) removing the SIM lock but still won't allow unlocking the bootloader
-- Some OEMs don't allow unlocking the bootloader
+- Some [OEMs](#oem) don't allow unlocking the bootloader
