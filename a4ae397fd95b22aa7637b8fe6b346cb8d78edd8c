@@ -16,6 +16,23 @@
       "message": "So much wrong here:\n\nNo mobile device that is supported doesn\u0027t install ADB side load via USB.\n\nPixel 2 XL supports it fine.\n\nYou should have listened to the advice on this same page and used a different port or cable.\n\nWe absolutely do not intend to have users utilize external storage to flash the zip.\n\nAdditionally, you would not have \"bricked\" by using side load... That makes no sense.",
       "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e83354ce_0fa9eb36",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35389
+      },
+      "writtenOn": "2025-05-28T03:04:57Z",
+      "side": 1,
+      "message": "Huh? What\u0027s wrong about it?\n\nThe usb cable is fine, I was able to use fastboot and adb commands fine EXCEPT sideload. Changing ports or cables didn\u0027t do shit, at least with the ones I have. I\u0027ve seen other users encounter the same problem.\n\nYes, it would have \"bricked\" my phone since I started doings things outside of the guide as workaround. I got locked out of my adb access because I changed my adb version midway and my device was no longer authorized because of that. I couldn\u0027t boot back to normal mode because it just loads indefinitely for some reason.\n\nAlso I didn\u0027t say using sideload bricks the phone, it\u0027s the lack of options besides sideloading that could have bricked it. Realizing I could apply updates from the usb drive saved my pickles. If that was mentioned in the guide in the first place, that would have saved me a lot of trouble and anxiety.\n\n    We absolutely do not intend to have users utilize external storage to flash the zip.\n\nWhat\u0027s the reason for this? At least mention it as a last resort. This just sounds like treating users as a bunch of retards, which to be fair, true in a lot of cases.\n\nBut yeah, if you don\u0027t want to include that in the wiki, fine with me, no skin off my back. I don\u0027t know why you act like the wiki is in pristine condition that is free from flaws. It\u0027s called a wiki for a reason. It\u0027s was already tedious enough to setup a dev environment just for the wiki, and then just to read and decipher through flat nested if-statements in an stringly-typed templating language that builds horribly slow. I would be mad crazy if I would work on this wiki without strong reasons to do so on my own volition. Sorry for the rant, if I sound sore, it\u0027s probably because I am.",
+      "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
