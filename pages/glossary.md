@@ -79,7 +79,7 @@ toc: false
 
 #### OEM
 
-- Original Equipment Manufacturer, the one who sells and manages software on a give device (e.g. Samsung, Motorola, Google)
+- Original Equipment Manufacturer, the one who sells and manages software on a given device (e.g. Samsung, Motorola, Google)
 
 #### Root
 
