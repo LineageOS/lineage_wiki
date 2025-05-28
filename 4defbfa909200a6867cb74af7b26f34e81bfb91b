@@ -104,6 +104,24 @@
       "parentUuid": "70d24452_5cc947c0",
       "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8ca51c8_7cd99afa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-28T02:53:01Z",
+      "side": 1,
+      "message": "Basically yeah, that V+ that gets slapped onto those specific repos: https://github.com/LineageOS/android_packages_apps_Aperture/actions",
+      "parentUuid": "2b10174c_06e3e89a",
+      "revId": "4defbfa909200a6867cb74af7b26f34e81bfb91b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
