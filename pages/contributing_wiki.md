@@ -35,9 +35,18 @@ You can now make changes in this folder using your favorite text editor. If you 
 git reset --hard HEAD
 ```
 
+### Preview using our BuildKite
+
+On push to Gerrit, a bot will automatically build your change to the wiki and will leave a `Verified+1` review, a build-log, and a link to a previewable version of the wiki with your change if it succeeds.
+
+If the build fails, it will leave a `Verified-1` vote and a build-log highlighting the failure message.
+
+You can use this bot to build-test and preview your proposed changes.
+
 ### Preview using GitHub
 
 This is probably the easiest method, but requires you to have forked the wiki repository, and have cloned from that. In addition, you will have to enable actions within your repository, and configured pages to deploy from `Github-Actions`. (You can do this in Settings > Pages > Build and Deployment.).
+
 
 #### Commit and preview your changes
 
