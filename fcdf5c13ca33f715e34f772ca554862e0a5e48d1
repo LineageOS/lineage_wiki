@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e0d8736_1a463c58",
+        "filename": "pages/utm-vm-on-apple-silicon-mac.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-05-29T07:03:44Z",
+      "side": 1,
+      "message": "with \"the\" name? Or\"named\"?",
+      "revId": "fcdf5c13ca33f715e34f772ca554862e0a5e48d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
