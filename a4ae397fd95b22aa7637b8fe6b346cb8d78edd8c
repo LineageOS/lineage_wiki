@@ -51,6 +51,23 @@
       "parentUuid": "e83354ce_0fa9eb36",
       "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "14ce9900_ace6c823",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35389
+      },
+      "writtenOn": "2025-05-29T03:25:57Z",
+      "side": 1,
+      "message": "Some of the instructions you recommend here are not included in the wiki, or what\u0027s shown in Pixel 2XL install guide. I have also sucessfully installed lineageOS on other devices before, so I have a pretty good idea what I\u0027m doing. Even then, I still made sure to read and follow the steps carefully and precisely.\n\nFirst off, the guide said nothing about reinstalling drivers, or grabbing the newest ATV (what\u0027s ATV?). Regardless, I\u0027m using linux and I always make sure my system and drivers are always up to date. Perhaps you also meant to say, use the latest android platform tools? In that case, the wiki should also say that. But that doesn\u0027t also work.\n\nMaybe the phone should have the latest available update? Again, the wiki doesn\u0027t mention anything about that. It only says \"Android 11 of stock OS\", so it\u0027s safe to assume that the updating the phone OS is not important. It\u0027s indeed not important since the later steps would cause a fact ory reset to cancel out any updates, so I don\u0027t think this is the update you are referring to. I also just bought the phone unused, I also did a factory reset prior to that.\n\nMore importantly, the thing about ports and cable is only mentioned in the \"Unlocking the bootloader\" step:\n\n\u003e Once the device is in fastboot mode, verify your PC finds it by typing:\n\u003e\n\u003e    ```fastboot devices```\n\u003e\n\u003e If you don’t get any output or an error:\n\u003e - on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!\n\u003e - on Linux or macOS: If you see no permissions fastboot try running fastboot as root. When the output is empty, check your USB cable and port!\n\nLike I said before, fastboot and adb works fine for me. The cable is fine, the port is fine. I have encountered cases before where I have an incompatible port and a non-data cable. This is not it. If the cable/port is the problem, either fastboot and adb will not work. I got past this step with flying colors, therefore my cables and ports are working as god intended.\n\nMaybe this is something specific only to me and to my setup? I disagree, I\u0027ve seen other people express this very same problem. I do think this is a problem specifically with Pixel 2XL and with more recent versions of lineageOS.\n\nIf you still insist this is a still a me-problem, that I failed to follow the guide as instructed, then yes, that you are indeed acting like the wiki is flawless. Probably true for other phones, but Pixel 2XL guide is not working, not just for me specifically. You can prove me half-wrong by finding someone to test installation of recent lineageOS on Pixel 2XL.\n\nAt the very least, maybe you can just a special note just for Pixel 2XL?",
+      "revId": "a4ae397fd95b22aa7637b8fe6b346cb8d78edd8c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
