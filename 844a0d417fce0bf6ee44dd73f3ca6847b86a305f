@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5207b4d_8278fd65",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-05-29T06:59:05Z",
+      "side": 1,
+      "message": "Nope, not gradle buildable",
+      "revId": "844a0d417fce0bf6ee44dd73f3ca6847b86a305f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
