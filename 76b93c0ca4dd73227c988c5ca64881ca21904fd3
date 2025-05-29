@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9575a33a_cb22278e",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-05-29T07:00:59Z",
+      "side": 1,
+      "message": "\"All modified files\" is a repetition and sounds weird",
+      "revId": "76b93c0ca4dd73227c988c5ca64881ca21904fd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a1ac04c_d66809b7",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-05-29T07:00:59Z",
+      "side": 1,
+      "message": "Missing a verb? \"You can also run/execute/type, ...\"",
+      "revId": "76b93c0ca4dd73227c988c5ca64881ca21904fd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
