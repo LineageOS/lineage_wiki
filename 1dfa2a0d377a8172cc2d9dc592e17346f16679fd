@@ -16,6 +16,24 @@
       "message": "Singular, only one link added",
       "revId": "1dfa2a0d377a8172cc2d9dc592e17346f16679fd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "497d9a18_1824763a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-05-30T21:42:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2f9df581_461b8d88",
+      "revId": "1dfa2a0d377a8172cc2d9dc592e17346f16679fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
