@@ -33,6 +33,42 @@
       "message": "Missing a verb? \"You can also run/execute/type, ...\"",
       "revId": "76b93c0ca4dd73227c988c5ca64881ca21904fd3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5da24389_33538ff9",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-05-30T21:41:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3a1ac04c_d66809b7",
+      "revId": "76b93c0ca4dd73227c988c5ca64881ca21904fd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d2b8c7bf_2aa105fe",
+        "filename": "pages/how-tos/submitting_to_gerrit.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 218,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-05-30T21:41:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9575a33a_cb22278e",
+      "revId": "76b93c0ca4dd73227c988c5ca64881ca21904fd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
