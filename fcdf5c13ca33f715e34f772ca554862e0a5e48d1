@@ -34,6 +34,24 @@
       "parentUuid": "0e0d8736_1a463c58",
       "revId": "fcdf5c13ca33f715e34f772ca554862e0a5e48d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a046eb14_817aa12a",
+        "filename": "pages/utm-vm-on-apple-silicon-mac.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-05-30T21:43:10Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8438af0_3a41c69f",
+      "revId": "fcdf5c13ca33f715e34f772ca554862e0a5e48d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
