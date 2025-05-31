@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a6124298_f97c6b61",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-05-31T11:30:59Z",
+      "side": 1,
+      "message": "Please dont fix every typo etc. In separate changesm this can be folded into the other change",
+      "revId": "efc440c089dcbc5f5116efa24efd5d72a991be5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
