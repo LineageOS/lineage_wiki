@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a805b92e_e02a977a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-05-31T09:24:59Z",
+      "side": 1,
+      "message": "One more thing to mention would be gradle-generatebp...\nAlso Etar actual upstream in not our gerrit, although we do have some changes there",
+      "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
