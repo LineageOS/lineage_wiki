@@ -16,6 +16,24 @@
       "message": "One more thing to mention would be gradle-generatebp...\nAlso Etar actual upstream in not our gerrit, although we do have some changes there",
       "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "48f4f95c_43677cae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-05-31T18:53:47Z",
+      "side": 1,
+      "message": "Yeah it\u0027d be helpful to note that for Etar most changes should be sent upstream via PR.\n\nSorta same for seed vault?",
+      "parentUuid": "a805b92e_e02a977a",
+      "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
