@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a2769575_5e7e4202",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-01T19:52:37Z",
+      "side": 1,
+      "message": "This is not true. All of the apps are built inline, not using gradle",
+      "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
