@@ -52,6 +52,24 @@
       "parentUuid": "48f4f95c_43677cae",
       "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e9e68b3_e2cab142",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-06-01T19:43:34Z",
+      "side": 1,
+      "message": "my bad I wasn\u0027t clear enough about generatebp...\n\nAll our apps are built inline lineageos, we don\u0027t use prebuilts (we never run gradle that is)\n\nBut sadly some gradle deps aren\u0027t available in AOSP/are too old/may be impossible to build in AOSP, thus we developed https://github.com/lineage-next/gradle-generatebp.\nIt\u0027s a gradle plugin that tries to fill the gap by automatically generating .bp files for the imported libs, and let us devs decide which deps we want to use from AOSP and what as prebuilt.\n\nThis tool is also run by CI to ensure there\u0027s no mismatch between gradle \u0026 AOSP deps (the +V you see if from that, plus a normal build)\n\nI think by now most (if not all) of our apps use it so it\u0027s a pretty important step to be aware of.\n\nIt works simply by calling `./gradlew generateBp` on the app directory.\n\nOf course that command should be run if you updated some dep or added a new one, but it needs to be documented somewhere.\n\nThanks a lot for your contribution, it helps :)\nFeel free to take what I wrote as inspiration or rephrase as much as you like. If I see something worth changing I\u0027ll leave a comment",
+      "parentUuid": "eaa2328b_7d416c44",
+      "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
