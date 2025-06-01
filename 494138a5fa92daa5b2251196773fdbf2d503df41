@@ -16,6 +16,29 @@
       "message": "This is not true. All of the apps are built inline, not using gradle",
       "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb000ce0_d7ed4d4f",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-06-01T20:10:55Z",
+      "side": 1,
+      "message": "If you would like to contribute to LineageOS, but are unable to set up a development environment, one option is contributing to individual Lineage apps. While these are not the main focus of the project, they are very important, and can always use contributors.\n\nLineageOS apps are built using the Android build system (AOSP), not through standalone Gradle builds. However, since some Gradle dependencies aren\u0027t available or may be impossible to be build within the AOSP framework, LineageOS has developed a specialized tool to help bridge this gap.\n\n### gradle-generatebp\n\nLineageOS apps use the [gradle-generatebp](https://github.com/lineage-next/gradle-generatebp) tool. This Gradle plugin automatically generates .bp files (Android Blueprint build files) for imported libraries, allowing developers to choose which dependencies to use from AOSP and which to include as prebuilts.\n\nUsage\n`./gradlew generateBp`\n\nThis command should be executed from the app directory whenever you:\n- Update existing dependencies\n- Add new dependencies\n- Make changes that affect the build configuration\n\nThe configuration, defined in `app/build.gradle.kts`, specifies which dependencies are available in AOSP and which should be treated as prebuilts:\n\n```kt\nconfigure\u003cGenerateBpPluginExtension\u003e {\n    targetSdk.set(android.defaultConfig.targetSdk!!)\n    minSdk.set(android.defaultConfig.minSdk!!)\n    availableInAOSP.set { module: Module -\u003e\n        when {\n            module.group.startsWith(\"androidx\") -\u003e {\n                // We provide our own androidx.pdf\n                !module.group.startsWith(\"androidx.pdf\")\n            }\n            else -\u003e false\n        }\n    }\n}```\n\nThis specific configuration would make all modules from the androidx group available in AOSP, except the androidx.pdf group, for which the tool will now import the prebuilt AAR/JARs and create the corresponding .bp rules.\n\n### Note: prebuilt dependencies should be kept to a minimum. Always prefer using dependencies available in AOSP when feasible.\n\nThe tool is integrated into the CI system to ensure there\u0027s no mismatch between Gradle dependencies and AOSP dependencies.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 133
+      },
+      "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
