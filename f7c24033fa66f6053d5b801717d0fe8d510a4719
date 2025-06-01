@@ -34,6 +34,24 @@
       "parentUuid": "a805b92e_e02a977a",
       "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "eaa2328b_7d416c44",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-01T19:32:49Z",
+      "side": 1,
+      "message": "\u003e One more thing to mention would be gradle-generatebp...\n\u003e \nDone, how does that read?\n\u003e Yeah it\u0027d be helpful to note that for Etar most changes should be sent upstream via PR.\n\u003e \nDone\n\u003e Sorta same for seed vault?\n\u003e \nYes, but it can\u0027t be built apart from the whole OS, so not sure where to add that.",
+      "parentUuid": "48f4f95c_43677cae",
+      "revId": "f7c24033fa66f6053d5b801717d0fe8d510a4719",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
