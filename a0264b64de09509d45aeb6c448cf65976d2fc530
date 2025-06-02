@@ -70,6 +70,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d0d80db_f3305696",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Did them all but the flatpack - I\u0027d prefer that be kept",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "49b2ece1_7a2ee53a",
@@ -83,6 +100,24 @@
       "writtenOn": "2025-06-02T20:46:01Z",
       "side": 1,
       "message": "We never had that page, so we don\u0027t need to add a redirect",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c613807_c3da2818",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "49b2ece1_7a2ee53a",
       "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -121,6 +156,42 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "800824f1_7664f7fe",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "I think it\u0027s worth linking - flatpaks are preferred by a lot of people (myself included).",
+      "parentUuid": "abc38098_7e01fb24",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "023ec653_f1448b62",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "93158587_342b31d8",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2d9ecd76_86fab4d9",
@@ -151,6 +222,42 @@
       "writtenOn": "2025-06-02T20:46:01Z",
       "side": 1,
       "message": "Install them \"on\" a development device, not in?",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abf7b438_71cd2dff",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "39daec61_8316999e",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f66bcb1_fc4990ac",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d9ecd76_86fab4d9",
       "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -189,6 +296,42 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "09b0c94e_b52c064f",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e4397bec_f6d3a456",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "45bd9198_e227edc8",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "cee095d0_27adb5e0",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3038f333_5a494db3",
@@ -202,6 +345,24 @@
       "writtenOn": "2025-06-02T20:46:01Z",
       "side": 1,
       "message": "Remove space at end",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e2a2d10_9ca38025",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-02T20:50:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3038f333_5a494db3",
       "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
