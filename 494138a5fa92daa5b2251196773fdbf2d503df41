@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b55a8f43_9778c26f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-02T16:24:59Z",
+      "side": 1,
+      "message": "Because I added Luca as a co-author, it created a new change, I am going to abandon this one and move to that one. Sorry about that.",
+      "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a2769575_5e7e4202",
@@ -37,6 +54,48 @@
         "endLine": 13,
         "endChar": 133
       },
+      "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "445db3bd_5fbab168",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-02T16:24:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb000ce0_d7ed4d4f",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 13,
+        "endChar": 133
+      },
+      "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "129d4b37_a9bf6006",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-02T16:24:59Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a2769575_5e7e4202",
       "revId": "494138a5fa92daa5b2251196773fdbf2d503df41",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
