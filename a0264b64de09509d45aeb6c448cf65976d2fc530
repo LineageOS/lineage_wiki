@@ -16,6 +16,24 @@
       "message": "I don\u0027t like git duplication, but it\u0027s fine\nI want other peeps to take a look first",
       "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "10bb1eb9_2dda3b0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-02T19:43:39Z",
+      "side": 1,
+      "message": "The problem is that each git section is slightly different. I tried to figure out a good way to move it to a template, but wasn\u0027t able to?",
+      "parentUuid": "e6a50337_72b8bce9",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
