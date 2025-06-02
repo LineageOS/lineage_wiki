@@ -68,6 +68,142 @@
       "message": "will merge tomorrow if no comments",
       "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "49b2ece1_7a2ee53a",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "We never had that page, so we don\u0027t need to add a redirect",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93158587_342b31d8",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "Typo \"available\"",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "abc38098_7e01fb24",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "Wouldn\u0027t link the flatpack way, just the official download/install page",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2d9ecd76_86fab4d9",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "And make your changes, and...\nRemove the first and?",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39daec61_8316999e",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "Install them \"on\" a development device, not in?",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e4397bec_f6d3a456",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "50 characterS",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cee095d0_27adb5e0",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 69,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "Below -\u003e less than",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3038f333_5a494db3",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-02T20:46:01Z",
+      "side": 1,
+      "message": "Remove space at end",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
