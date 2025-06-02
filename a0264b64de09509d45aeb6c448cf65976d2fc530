@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6a50337_72b8bce9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2025-06-02T19:41:01Z",
+      "side": 1,
+      "message": "I don\u0027t like git duplication, but it\u0027s fine\nI want other peeps to take a look first",
+      "revId": "a0264b64de09509d45aeb6c448cf65976d2fc530",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
