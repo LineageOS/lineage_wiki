@@ -162,6 +162,22 @@ Global proofreaders can help out across all languages.
 
 ## Other projects
 
+### Apps
+
+If you would like to contribute to some of our apps, you can find instructions on how to do so [here]({{ "how-to/contributing-apps" | relative_url }}).
+The following people can review these apps:
+
+| Name | Nickname |
+|------|----------|
+| Georg Veichtlbauer | vware |
+| Joey | bvlj |
+| Luca Stefani | luca020400 |
+| Michael W | baddaemon |
+| Sebastiano Barezzi | SebaUbuntu |
+| Timi Rautamäki | trautamaki |
+| Łukasz Patron | LuK1337 |
+{: .table }
+
 ### Wiki
 
 If you want to contribute to the wiki yourself, you can find instructions on how to do so [here]({{ "contributing.html" | relative_url }}).
