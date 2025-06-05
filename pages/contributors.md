@@ -174,3 +174,19 @@ The following people are responsible for the verification of the contents and th
 | Nolen Johnson | npjohnson |
 | razorloves | razorloves |
 {: .table }
+
+### Apps
+
+If you would like to contribute to some of our apps, you can find instructions on how to do so [here]({{ "how-to/contributing-apps" | relative_url }}).
+The following people are responsible for these apps:
+
+| Name | Nickname |
+|------|----------|
+| Georg Veichtlbauer | vware |
+| Joey | bvlj |
+| Luca Stefani | luca020400 |
+| Michael W | baddaemon |
+| Sebastiano Barezzi | SebaUbuntu
+| Timi Rautamäki | trautamaki |
+| Łukasz Patron | LuK1337 |
+{: .table }
