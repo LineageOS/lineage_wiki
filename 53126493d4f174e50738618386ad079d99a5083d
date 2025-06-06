@@ -46,6 +46,30 @@
       },
       "revId": "53126493d4f174e50738618386ad079d99a5083d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "26fa1ca5_b91af187",
+        "filename": "_data/devices/rhodep.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 34240
+      },
+      "writtenOn": "2025-06-06T13:42:34Z",
+      "side": 1,
+      "message": "I\u0027ll fix it in hudson.",
+      "parentUuid": "9c802f7a_741f68f4",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 17
+      },
+      "revId": "53126493d4f174e50738618386ad079d99a5083d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
