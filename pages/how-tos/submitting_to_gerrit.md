@@ -158,7 +158,9 @@ Now you can upload your changes to Gerrit:
 repo upload .
 ```
 
-{% include alerts/note.html content="In case you are in the root of the source code, you can type: `repo upload <project path>`." %}
+An editor will pop up with a list of projects to be uploaded. Uncomment the projects, branches and/or commits you want uploaded, then save and exit the file.
+
+{% include alerts/note.html content="In case you are in the root of the source code, you can type: `repo upload <project path>` or `repo upload` if you would like to upload more than one project." %}
 
 That's it! Your change will be reviewed and may be accepted or rejected. See [#Example_cases](#ExampleCasesTag) below for an example.
 
