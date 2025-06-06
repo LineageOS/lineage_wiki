@@ -9,7 +9,7 @@ permalink: libvirt-qemu.html
 
 ## Known issues
 
-Please note the following list of yet unresolved known issues of the `virtio_*` targets:
+Please note the following list of known issues with the `virtio_*` targets:
 
 * Display color (only with Swiftshader graphics selected)
 * Video playback (by default with Mesa graphics, which is the most common use case)
@@ -151,7 +151,7 @@ Search and select `Generic Linux 2022` on `Select the operation system you are i
 #### Step 3
 
 Specify the number of CPU cores and the size of memory that you're willing to allocate to the virtual machine.
-Minimal RAM requirement is 2048 MiB. After populating these fields, click `Forward`.
+The minimal RAM requirement is 2048 MiB. After populating these fields, click `Forward`.
 
 #### Step 4
 
@@ -177,12 +177,12 @@ On the `Overview` tab, select `Chipset` or `Machine` and `Firmware` type accordi
 
 Click `Apply`.
 
-On `Memory` tab, toggle `Enable shared memory`, click `Apply`.
+On `Memory` tab, toggle `Enable shared memory`, and then click `Apply`.
 
 ### Create virtual disks
 
-1. Click `Add Hardware` on the bottom left corner, new window `Add New Virtual Hardware` will appear.
-2. Select `Storage`, select `Disk device` on `Device type` menu, and select `VirtIO` on `Bus type` menu.
+1. Click `Add Hardware` on the bottom left corner, and a new window named `Add New Virtual Hardware` will appear.
+2. Select `Storage`, select `Disk device` on the `Device type` menu, and select `VirtIO` on the `Bus type` menu.
 3. Fill in the disk size.
     {% include alerts/note.html content="Virtual A/B build (default) requires 13 GiB of size for the first disk, and non-A/B build requires 5 GiB of size for the first disk." %}
 4. Click `Finish`.
@@ -190,13 +190,13 @@ On `Memory` tab, toggle `Enable shared memory`, click `Apply`.
 
 ### Attach the installation image
 
-1. Click `Add Hardware` on the bottom left corner, new window `Add New Virtual Hardware` will appear.
+1. Click `Add Hardware` on the bottom left corner, and a new window named `Add New Virtual Hardware` will appear.
 2. Select `Storage`.
-3. If the installation image is in ISO9660 format, select `CDROM device` on `Device type` menu, and select `SATA` on `Bus type` menu; Otherwise, select `Disk device` on `Device type` menu, and select `USB` on `Bus type` menu.
-4. Expand `Advanced`, toggle `Readonly`.
-5. Select `Select or create custom storage`, select the installation image.
+3. If the installation image is in ISO9660 format, select `CDROM device` on the `Device type` menu, and select `SATA` on the `Bus type` menu; Otherwise, select `Disk device` from the `Device type` menu, and select `USB` on the `Bus type` menu.
+4. Expand `Advanced`, then toggle `Readonly`.
+5. Select `Select or create custom storage`, and select the installation image.
 6. Click `Finish`.
-7. On `Boot Options` tab, toggle `SATA CDROM 1` or `USB Disk 1`, click `Apply`.
+7. On `Boot Options` tab, toggle `SATA CDROM 1` or `USB Disk 1`, and then click `Apply`.
 
 ### Configure virtual machine input
 
@@ -219,17 +219,17 @@ and press `Ctrl+Alt` to release the mouse cursor from the virtual machine. It is
 
 #### Keyboard
 
-Keyboard is always needed. Ensure there is a keyboard included in virtual machine hardware.
+A keyboard is always needed. Ensure there is a keyboard included in the virtual machine hardware.
 
-{% include alerts/note.html content="Please select either PS/2 or USB type of keyboard. VirtIO keyboard will not work on the boot menu." %}
+{% include alerts/note.html content="Please select either a PS/2 or USB type of keyboard. A VirtIO keyboard will not work on the boot menu." %}
 
 ### Configure virtual machine graphics
 
 #### Video
 
 1. If `Video` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
-2. On `Video` tab, select `Virtio` on `Model` menu, click `Apply`.
-3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle `3D acceleration`, click `Apply`.
+2. On `Video` tab, select `Virtio` on the `Model` menu, then click `Apply`.
+3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle `3D acceleration`, and then click `Apply`.
 4. (Optional) To specify custom display resolution, switch to the `XML` tab, insert `<resolution x="<Width>" y="<Height>"/>`, like this:
     ```
     <video>
@@ -246,10 +246,10 @@ Keyboard is always needed. Ensure there is a keyboard included in virtual machin
 
 #### Display
 
-1. If `Display` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
-2. Open `Display` tab.
-3. Select `None` on `Listen type` menu.
-4. If `3D acceleration` is enabled on `Video` tab, toggle `OpenGL`, and choose an active host video card from the menu below.
+1. If the `Display` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
+2. Open the `Display` tab.
+3. Select `None` on the `Listen type` menu.
+4. If `3D acceleration` is enabled on the `Video` tab, toggle `OpenGL`, and choose an active host video card from the menu below.
 5. Click `Apply`.
 
 ### Configure virtual machine sound
@@ -259,33 +259,32 @@ Sound card model `AC97` (which is the default) is recommended. Other models migh
 {% include alerts/important.html content="The `aarch64` architecture does not have a sound card added by default. You will have to add it manually." %}
 
 ### Create the new virtual machine
-
-Click `Begin Installation` in the top left corner, the installation process will proceed, and then the virtual machine will start for the first time.
+Clickk `Begin Installation` in the top left corner, the installation process will proceed, and then the virtual machine will start for the first time.
 
 ## Install LineageOS to the virtual machine
 
 The virtual machine should boot into the boot manager menu of the installation image.
 
-1. Select the first option called something akin to `Install LineageOS` using arrow keys, and then press Enter.
-2. The virtual machine should enter LineageOS Recovery. You could select an option using arrow keys and enter it by pressing Enter.
+1. Select the first option, which is called something akin to `Install LineageOS` using arrow keys, and then press Enter.
+2. The virtual machine should enter LineageOS Recovery. You can select options using the arrow keys and enter it by pressing Enter.
 3. Select `Factory reset` > `Format data/factory reset` > `Format data`.
 4. Select `Apply update` > `Choose INSTALL` > Select `lineage-*-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-<target>.zip`.
 
-Congratulations! You now have installed LineageOS in the virtual machine.
+Congratulations! You have installed LineageOS in a virtual machine.
 
 You can now select `Reboot system now` to boot into LineageOS.
 
 ## Run LineageOS inside the virtual machine
 
-The virtual machine should enter LineageOS boot menu.
+The virtual machine should enter the LineageOS boot menu.
 
 Select the first option (which should be automatically selected by default) to boot LineageOS.
 
 ## Run Generic System Images inside the virtual machine
 
-{% include alerts/warning.html content="We do not guarantee every GSIs provides the same functionality level as the main OS." %}
+{% include alerts/warning.html content="We do not guarantee that every GSIs will provide the same functionality level as the main OS." %}
 
-Here we will utilize GSIs from the Android Open Source Project website as example. There are three ways to run it:
+Here we will utilize GSIs from the Android Open Source Project website as an example. There are three ways to run it:
 
 ### Dynamic System Updates
 
@@ -294,17 +293,17 @@ Here we will utilize GSIs from the Android Open Source Project website as exampl
 {% include alerts/important.html content="Make sure the userdata disk is not too small. Minimum size of 8 GiB is recommended." %}
 
 1. When booted into Launcher, open Settings app.
-2. Enable `Developer options`, go back to homepage, navigate to `System` > `Developer options`.
-3. Open `DSU Loader`, select the DSU package that you wish to install, click `Agree`.
-4. Once the installation finishes, you could reboot to the GSI by clicking `Restart` on `Dynamic System Updates` notification.
+2. Enable `Developer options`, go back to homepage, and navigate to `System` > `Developer options`.
+3. Open `DSU Loader`, select the DSU package that you wish to install, then click `Agree`.
+4. Once the installation finishes, you can reboot to the GSI by clicking `Restart` on the `Dynamic System Updates` notification.
 
 ### Specify GSI image as the third VirtIO disk
 
 1. Download a GSI image archive (equal or higher Android version with matching architecture) from [Generic System Image releases](https://developer.android.com/topic/generic-system-image/releases).
 2. Extract `system.img` from the downloaded archive.
 3. Add `system.img` as the third VirtIO disk.
-4. Boot the virtual machine into recovery mode, perform factory reset.
-5. Reboot to boot menu, select `Advanced options` > `Boot GSI from /dev/block/vdc with LineageOS * (Kernel version *)`.
+4. Boot the virtual machine into recovery mode, and perform a factory reset.
+5. Reboot to the boot menu, and select `Advanced options` > `Boot GSI from /dev/block/vdc with LineageOS * (Kernel version *)`.
 
 ### Flash GSI image to `system` logical partition
 
@@ -322,7 +321,7 @@ Here we will utilize GSIs from the Android Open Source Project website as exampl
     fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext_b
     fastboot -s tcp:<IPv4 address that shown on menu header> flash system <path to GSI system.img>
     ```
-6. Reboot to boot menu, proceed with the first option.
+6. Reboot to the boot menu, and proceed with the first option.
 
 ## Details for advanced users
 
@@ -342,7 +341,7 @@ adb connect vsock:<Guest CID>:5555
 
 ### Fastbootd connection
 
-These targets offers fastbootd connection through Ethernet.
+These targets offer fastbootd connection through Ethernet.
 
 Here's how to use fastbootd over Ethernet:
 ```
@@ -366,14 +365,14 @@ Currently, only Intel GPUs (iGPU or dGPU) are supported.
 
 #### Add GPU to the virtual machine
 
-1. Enable VT-d (Intel) or IOMMU (AMD) in BIOS settings on the host PC.
+1. Enable VT-d (Intel) or IOMMU (AMD) in the host PC's BIOS settings.
 2. Stop any driver from using the GPU on the host OS.
 3. Probe `vfio-pci` kernel module with `ids` parameter containing PCI ID(s) of the GPU on the host OS.
 4. Add PCI device of the GPU to the virtual machine at PCI bus `0x00` slot `0x1e`.
 
 #### Start the virtual machine with GPU passthrough
 
-When on the boot menu, enter `Advanced options (virtio_x86_64 specific)` submenu, and select the option that corresponds to the GPU and/or your usecase.
+When on the boot menu, enter the `Advanced options (virtio_x86_64 specific)` submenu, and select the option that corresponds to the GPU and/or your usecase.
 
 If something that's related with graphics doesn't work in GPU passthrough mode, you could firstly try booting in SELinux Permissive mode by selecting `Settings` > `SELinux` > `Permissive` on boot menu before booting.
 
@@ -387,7 +386,7 @@ To establish the connection, refer to [ADB connection](#adb-connection).
 
 #### Export a directory as VirtioFS share
 
-Add `Filesystem` virtual hardware, specify the directory containing the custom flashable ZIPs in the `Source path` box, and specify `share` in the `Target path` box.
+To add `Filesystem` virtual hardware, specify the directory containing the custom flashable ZIPs in the `Source path` box, and specify `share` in the `Target path` box.
 
 When in recovery mode, enter `Apply update` > `Choose from virtiofs`, select the custom flashable ZIP which you want to install.
 
@@ -395,10 +394,10 @@ When in recovery mode, enter `Apply update` > `Choose from virtiofs`, select the
 
 Put the flashable ZIP into a USB drive, and mount the USB drive to the virtual machine.
 
-When in recovery mode, select `Apply update`, and volumes of the USB drive should appear on the menu. Select the corresponding volume, then select the custom flashable ZIP which you want to install.
+When in recovery mode, select `Apply update`, and the volumes of the USB drive should appear on the menu. Select the corresponding volume, then select the custom flashable ZIP which you want to install.
 
 ### Text consoles
 
-* The first serial console is used for interacting with GRUB text menu and printing kernel messages.
-* The first VirtIO console is used for interacting with Android shell environment.
+* The first serial console is used for interacting with the GRUB text menu and for printing kernel messages.
+* The first VirtIO console is used for interacting with the Android shell environment.
 * The second VirtIO console is used for printing Android logcat messages.
