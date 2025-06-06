@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c7757c4b_40db6185",
+        "filename": "_data/devices/rhodep.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-06-06T13:28:10Z",
+      "side": 1,
+      "message": "just noticed name here doesn\u0027t match name in hudson change. please fix.",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 25,
+        "endChar": 17
+      },
+      "revId": "53126493d4f174e50738618386ad079d99a5083d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
