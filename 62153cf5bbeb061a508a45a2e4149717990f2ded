@@ -22,6 +22,30 @@
       },
       "revId": "62153cf5bbeb061a508a45a2e4149717990f2ded",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91fb3e05_658ff93b",
+        "filename": "pages/contributors.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-06-07T17:18:11Z",
+      "side": 1,
+      "message": "Thanks for catching that! Fixed.",
+      "parentUuid": "aea0772a_3e81b696",
+      "range": {
+        "startLine": 176,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 33
+      },
+      "revId": "62153cf5bbeb061a508a45a2e4149717990f2ded",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
