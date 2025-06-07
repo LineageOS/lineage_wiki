@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "aea0772a_3e81b696",
+        "filename": "pages/contributors.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 176,
+      "author": {
+        "id": 26777
+      },
+      "writtenOn": "2025-06-07T17:06:15Z",
+      "side": 1,
+      "message": "code style concern?",
+      "range": {
+        "startLine": 176,
+        "startChar": 0,
+        "endLine": 176,
+        "endChar": 33
+      },
+      "revId": "62153cf5bbeb061a508a45a2e4149717990f2ded",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
