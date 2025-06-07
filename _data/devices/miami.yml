@@ -30,7 +30,6 @@ recovery_partition_name: boot
 recovery_reboot: fastboot_menu
 release: 2022-10-07
 screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.28, technology: 'P-OLED'}
-sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6375 Snapdragon 695
 storage: 128/256 GB UFS2.2
 tree: android_device_motorola_miami
