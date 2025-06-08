@@ -20,7 +20,7 @@ install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
 maintainers: [Rajin Gangadharan]
-models: [XT2081-1, XT2081-2]
+models: [XT2081-1, XT2081-2, XT2081-3]
 name: moto e7 plus
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
@@ -35,6 +35,7 @@ soc: Qualcomm SM4250 Snapdragon 460
 storage: 64 GB eMMC 5.1
 tree: android_device_motorola_guam
 type: phone
+variant: 1
 vendor: Motorola
 vendor_short: motorola
 versions: [21, 22.1, 22.2]

@@ -1,9 +1,12 @@
 ---
 sidebar: home_sidebar
-title: Info about guam
+title: Info about guam variants
 folder: info
-layout: deviceinfo
 permalink: /devices/guam/
+redirect_from:
+- /devices/guam/install
+- /devices/guam/update
 device: guam
+toc: false
 ---
-{% include templates/device_info.md %}
+{% include templates/device_variants.md info=true %}
