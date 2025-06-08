@@ -21,8 +21,8 @@ install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
 maintainers: [DelightReza, Deivid Ignacio Parra]
-models: [XT2083-1, XT2083-3, XT2083-6]
-name: moto g9 play
+models: [XT2083-3]
+name: moto g9
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 4 GB LPDDR4X
@@ -33,7 +33,7 @@ release: 2020-08
 screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
-storage: 64/128 GB eMMC 5.1
+storage: 64 GB eMMC 5.1
 tree: android_device_motorola_guamp
 type: phone
 variant: 2
