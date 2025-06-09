@@ -28,7 +28,7 @@ fastboot devices
 
     {% include alerts/note.html content="Some newer Motorola devices have a waiting period before you can enable `OEM Unlock` option in the developer options. It can sometimes take up to one week." %}
 
-    {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](http://theroot.ninja/), though they only support some devices/firmwares." %}
+    {% include alerts/note.html content="If your device is not supported by the Motorola Bootloader Unlock website, you may be able to use an alternative bootloader unlock method like [SunShine](https://web.archive.org/web/20250108150254/http://theroot.ninja/), though they only support some devices/firmwares." %}
 
 5. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
