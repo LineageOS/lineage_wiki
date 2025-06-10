@@ -56,6 +56,9 @@ First make sure you have the latest version of Android Studio installed. It is a
 
 Once it is downloaded, you can import the project, make your changes, and then save the file. You will be able to build these apps with Gradle, and install them on a device or emulator.
 
+{%- capture content %}If you are looking for things to work on, check out the list of [platform issues](https://gitlab.com/LineageOS/issues/android/-/issues/?sort=created_date&state=opened&label_name%5B%5D=platform), and look for an issue related to one of the apps listed here.{% endcapture %}
+{% include alerts/tip.html content=content %}
+
 ### Uploading your changes
 
 Once you are satisfied with your changes, navigate to the folder of your app in the terminal and run:
