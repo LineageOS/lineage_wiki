@@ -20,7 +20,7 @@ image: rhodep.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
-maintainers: [AnandSuresh02]
+maintainers: [AnandSuresh02, sevenrock]
 models: [XT2225-1]
 name: moto g82 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
