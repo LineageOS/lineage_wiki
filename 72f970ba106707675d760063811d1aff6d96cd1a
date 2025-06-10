@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e83f86db_4597630c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2025-06-10T22:30:36Z",
+      "side": 1,
+      "message": "The cm_strings usage is case by case, the AOSP derived ones either have cm_strings.xml or lineage_strings.xml. The apps developed exclusive to LineageOS tend to use strings.xml",
+      "revId": "72f970ba106707675d760063811d1aff6d96cd1a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
