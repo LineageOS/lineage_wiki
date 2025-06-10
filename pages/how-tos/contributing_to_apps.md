@@ -104,6 +104,18 @@ Eventually, when your change looks _perfect_, someone will approve and merge it.
 
 ## Tips
 
+### Modifying Strings
+
+When contributing to these apps, keep in mind that modifiying strings differs from normal Android app development.
+
+#### Adding Strings
+
+The first thing to check when adding strings is to see if there is a string file that is labeled `cm_strings`. This file contains all the strings used in our versions of the apps, and **all** new strings should be added here. If there is no file marked `cm_strings` then you can simply add strings to the normal file.
+
+#### Editing Strings
+
+When editing current strings, be sure to only edit the main strings file in `values/strings`. There is no need to update, add or delete any of the strings in the translations, even if you only changed the string name. All of this is taken care of by our translation import.
+
 ### gradle-generatebp
 
 LineageOS apps use the [gradle-generatebp](https://github.com/lineage-next/gradle-generatebp) tool. This Gradle plugin automatically generates .bp files (Android Blueprint build files) for imported libraries, allowing developers to choose which dependencies to use from AOSP and which to include as prebuilts.
