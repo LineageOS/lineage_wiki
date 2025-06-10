@@ -162,6 +162,8 @@ repo upload .
 
 That's it! Your change will be reviewed and may be accepted or rejected. See [#Example_cases](#ExampleCasesTag) below for an example.
 
+{%- capture content %}If you are looking for things to work on, check out the list of [open platform issues](https://gitlab.com/LineageOS/issues/android/-/issues/?sort=created_date&state=opened&label_name%5B%5D=platform) here. Keep in mind that this is only for bugs. We do not have a feature request tracker, so if you would like to implement something, simply do so, and submit it. If it aligns with our project standards, we will gladly accept it.{% endcapture %}
+{% include alerts/tip.html content=content %}
 
 ### Submitting patch sets
 
