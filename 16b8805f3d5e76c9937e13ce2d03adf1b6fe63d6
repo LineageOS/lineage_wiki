@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8c124dee_e7fd51d5",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-06-12T21:41:41Z",
+      "side": 1,
+      "message": "What\u0027s this thing about capitalization in every word in a category?",
+      "range": {
+        "startLine": 107,
+        "startChar": 14,
+        "endLine": 107,
+        "endChar": 21
+      },
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
