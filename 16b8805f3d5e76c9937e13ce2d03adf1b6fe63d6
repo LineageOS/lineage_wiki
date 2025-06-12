@@ -22,6 +22,91 @@
       },
       "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25a2de76_3600325f",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-12T23:09:37Z",
+      "side": 1,
+      "message": "sepArate, also repetition of that word doesn\u0027t sound good.",
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ac0e16b7_8953b428",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-12T23:09:37Z",
+      "side": 1,
+      "message": "Can merge the last two sentences by using \"otherwise\"",
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "54855ea9_e1d4ed66",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-12T23:09:37Z",
+      "side": 1,
+      "message": "No comma before \"and\"",
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26ed9649_993b287c",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-12T23:09:37Z",
+      "side": 1,
+      "message": "normal-\u003eregular",
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ffef9b5_99fcc6be",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 117,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-06-12T23:09:37Z",
+      "side": 1,
+      "message": "any of the translations",
+      "revId": "16b8805f3d5e76c9937e13ce2d03adf1b6fe63d6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
