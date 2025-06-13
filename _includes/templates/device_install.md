@@ -20,7 +20,7 @@ Do **not** continue after something fails!
 ## Basic requirements
 
 1. Read through the instructions at least once before actually following them, so as to avoid any problems due to any missed steps!
-2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html" | relative_url }}).
+2. Make sure your computer has `adb`{% unless device.install_method == 'heimdall' or device.install_method == 'dd' or device.install_method == 'nintendo' %} and `fastboot`{% endunless %}. Setup instructions can be found [here]({{ "adb_fastboot_guide.html#installing-adb-and-fastboot" | relative_url }}).
 {%- unless device.stock_is_not_android %}
 3. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device.
 {%- endunless %}
