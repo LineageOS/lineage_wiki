@@ -14,7 +14,7 @@ install_method: nintendo
 is_unlockable: false
 kernel: {repo: android_kernel_nvidia_kernel-nx, version: '4.9'}
 maintainers: [makinbacon, npjohnson, webgeek1234]
-models: [odin]
+models: [v1 (odin)]
 name: Switch v1 [Tablet]
 network: None
 no_oem_unlock_switch: true
