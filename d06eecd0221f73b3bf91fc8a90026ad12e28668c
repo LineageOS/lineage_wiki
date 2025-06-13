@@ -34,6 +34,24 @@
       "parentUuid": "c5e6a175_25c23bb2",
       "revId": "d06eecd0221f73b3bf91fc8a90026ad12e28668c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d5c6425_7bb146ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-06-13T22:18:19Z",
+      "side": 1,
+      "message": "there\u0027s a python script nowadays that implements all that - I should try that and see about switching to it.",
+      "parentUuid": "3b282505_a430d9ec",
+      "revId": "d06eecd0221f73b3bf91fc8a90026ad12e28668c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
