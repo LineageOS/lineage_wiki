@@ -16,6 +16,24 @@
       "message": "I assume this is tested on an actual device?",
       "revId": "085dc871c7018b4f089a8a4126c114f6fd867f24",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c48c2ae3_6c139091",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34240
+      },
+      "writtenOn": "2025-06-13T04:08:52Z",
+      "side": 1,
+      "message": "Yes it is. Tested and reported to be running totally fine by multiple users.",
+      "parentUuid": "f8e31b46_cca361da",
+      "revId": "085dc871c7018b4f089a8a4126c114f6fd867f24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
