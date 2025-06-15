@@ -31,7 +31,7 @@ recovery_reboot: fastboot_menu
 release: 2024-08-28
 screen: {refresh_rate: 120, resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB'}
-soc: Qualcomm SM6375 Snapdragon 695
+soc: Qualcomm SM6375-AC Snapdragon 6s Gen 3
 storage: 128 GB UFS2.2
 tree: android_device_motorola_fogos
 type: phone
