@@ -4,6 +4,7 @@ before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21,
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack_dd', partitions: [dtbo]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+boot_stack_path: /dev/block/bootdevice/by-name/
 cameras:
   - {flash: 'LED', info: '16 MP (wide)'}
   - {flash: 'LED', info: '16 MP (ultrawide)'}
