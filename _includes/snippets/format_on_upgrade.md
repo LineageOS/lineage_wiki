@@ -51,6 +51,7 @@ fastboot devices
 fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition_name }}.img
 ```
     {% include alerts/note.html content="Outdated fastboot releases dropped legacy A/B support, so it might attempt to flash to `boot__a` / `boot__b` rather than `boot_a` / `boot_b` if you try to flash `boot`. In this case, you must update `fastboot` to a release newer than or equal to `31.0.2`. Alternatively, you can manually specify which slot to flash to based on what slot fastboot failed to flash to. For example, if fastboot fails to flash to `boot__a`, you must flash to `boot_a`." %}
+    {% include snippets/fastboot_path.md %}
 14. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}
     * {% include snippets/recovery_reboot.md %}

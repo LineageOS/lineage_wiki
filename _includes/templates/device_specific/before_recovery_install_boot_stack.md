@@ -18,3 +18,4 @@
 fastboot flash {{ partition }} {{ partition }}.img
   {%- endfor %}
   ```
+    {% include snippets/fastboot_path.md %}
