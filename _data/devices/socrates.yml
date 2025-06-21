@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, ships_fw: True}
 before_install_device_variants:
-  - {device: 'Redmi K60 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.3.0.VMKCNXM/socrates-ota_full-OS2.0.3.0.VMKCNXM-user-15.0-4b2a0681aa.zip', firmware: 'OS2.0.3.0.VMKCNXM'}
+  - {device: 'Redmi K60 Pro', download_link: 'https://cdnorg.d.miui.com/OS2.0.201.0.VMKCNXM/socrates-ota_full-OS2.0.201.0.VMKCNXM-user-15.0-00cb2f60db.zip', firmware: 'OS2.0.201.0.VMKCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
@@ -14,7 +14,7 @@ codename: socrates
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
-current_branch: 22.1
+current_branch: 22.2
 dimensions: {depth: 8.6, height: 162.8, width: 75.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_xiaomi_sm8550_vab
@@ -23,7 +23,7 @@ image: socrates.png
 install_method: fastboot_xiaomi_hyperos
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8550, version: '5.15'}
-maintainers: []
+maintainers: [WenHao2130]
 models: [22127RK46C]
 name: Redmi K60 Pro
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
@@ -39,5 +39,5 @@ tree: android_device_xiaomi_socrates
 type: phone
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [21, 22.1]
+versions: [21, 22.1, 22.2]
 wifi: 802.11 a/b/g/n/ac/ax
