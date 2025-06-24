@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9be2ac09_ec317875",
+        "filename": "_data/devices/fuxi.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-06-24T16:23:19Z",
+      "side": 1,
+      "message": "extra xiaomi",
+      "range": {
+        "startLine": 28,
+        "startChar": 6,
+        "endLine": 28,
+        "endChar": 13
+      },
+      "revId": "08c0bf5cc340d5a40a60b74b25de301978b9ab5d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
