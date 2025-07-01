@@ -122,7 +122,7 @@ When editing current strings, be sure to only edit the main strings file in `val
 
 ### gradle-generatebp
 
-LineageOS apps use the [gradle-generatebp](https://github.com/lineage-next/gradle-generatebp) tool. This Gradle plugin automatically generates .bp files (Android Blueprint build files) for imported libraries, allowing developers to choose which dependencies to use from AOSP and which to include as prebuilts.
+Some LineageOS apps use the [gradle-generatebp](https://github.com/lineage-next/gradle-generatebp) tool. This Gradle plugin automatically generates .bp files (Android Blueprint build files) for imported libraries, allowing developers to choose which dependencies to use from AOSP and which to include as prebuilts.
 
 #### Usage
 
