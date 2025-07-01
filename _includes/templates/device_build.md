@@ -43,12 +43,11 @@ The following branches can be used to build for the {{ device.vendor }} {{ devic
 {% assign current_branch = device.current_branch %}
 {% include templates/device_build_init_sync.md %}
 
+{% include templates/setup_build_env.md %}
+
 ### Prepare the device-specific code
 
-After the source downloads, ensure you're in the root of the source code (`cd ~/android/lineage`), then type:
-
 ```
-source build/envsetup.sh
 breakfast {{ device.codename }}
 ```
 

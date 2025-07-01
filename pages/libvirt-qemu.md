@@ -38,10 +38,7 @@ The following branches are currently supported for building image for libvirt QE
 
 ## Select the target to build
 
-Setup the environment:
-```
-source build/envsetup.sh
-```
+{% include templates/setup_build_env.md %}
 
 Virtual A/B partition scheme is used by default. If you would like to use non-A/B partition scheme instead (which requires less space), run the following command prior to each build:
 ```

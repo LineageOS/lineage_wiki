@@ -31,14 +31,12 @@ The following branches have been tested for building emulator images:
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
 
+{% include templates/setup_build_env.md %}
+
 ### Start the build
 
 Time to start building!
 
-Setup the environment:
-```
-source build/envsetup.sh
-```
 Select the build target by running the following command, where `<target>` is one of the entries in the table below:
 
 ```
