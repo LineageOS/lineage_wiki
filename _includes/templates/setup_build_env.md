@@ -20,6 +20,9 @@ Setup your build environment:
 source build/envsetup.sh
 ```
 
+{% content="You can view the script source [here](https://github.com/LineageOS/android_vendor_lineage/blob/lineage-22.2/build/envsetup.sh)." %}
+{% include alerts/note.html content=content %}
+
 The rest of this guide will rely on this being done. You can check the proper execution of the commands by typing:
 
 ```
