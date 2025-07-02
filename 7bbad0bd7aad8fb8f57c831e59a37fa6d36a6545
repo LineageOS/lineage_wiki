@@ -68,6 +68,24 @@
       "parentUuid": "ba5ab84a_4f029cd3",
       "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "68d4020f_82b642dc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-07-02T15:55:24Z",
+      "side": 1,
+      "message": "Thank you!\n\nWhen someone is running those commands to this build, it can be very easy to just copy and paste, especially if they are new to android. Unless someone is really security conscious, they are not going to look up that script. If there is a note, then they will stop and look at it. \n\nNow I get it is not our job to do stuff for them, but at the same time, the rest of that guide kind of is for newbies. Also, that is a fair point about the path/branch. Maybe something like you can view source with a command.\n\nAs I write this, I am wondering myself if this patch is worth including for the small number it will benefit. I am going to leave it up to you guys to decide.",
+      "parentUuid": "33e3d711_bcfc7a75",
+      "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
