@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0a1de907_3937cbe8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-07-02T04:06:21Z",
+      "side": 1,
+      "message": "I don\u0027t like this. They are running a local script with a known path. If someone wants to check the source, they can open it just fine prior to running the command from there without an online link to a specific branch",
+      "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
