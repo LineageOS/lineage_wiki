@@ -33,6 +33,23 @@
       "message": "I agree on not liking this. They can just read it themselves? it\u0027s local.",
       "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ba5ab84a_4f029cd3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-07-02T04:44:00Z",
+      "side": 1,
+      "message": "I get what you guys are saying but at the same time, I feel like if someone is just building for their device or exploring the code base for the first time, their not going to go try to find that specific script. However, if this should be abandoned, I\u0027m alright with that.",
+      "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
