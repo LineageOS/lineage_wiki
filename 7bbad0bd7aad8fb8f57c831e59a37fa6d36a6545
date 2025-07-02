@@ -50,6 +50,24 @@
       "message": "I get what you guys are saying but at the same time, I feel like if someone is just building for their device or exploring the code base for the first time, their not going to go try to find that specific script. However, if this should be abandoned, I\u0027m alright with that.",
       "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33e3d711_bcfc7a75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-02T06:27:23Z",
+      "side": 1,
+      "message": "Love the other contributions you\u0027ve made so far to be clear.\n\nI just don\u0027t really get what your goal is with this one?\n\nIf it was buried sure, but the instructions literally call out where to execute it (and you could just as well run nano or vim instead of source to look at it...).",
+      "parentUuid": "ba5ab84a_4f029cd3",
+      "revId": "7bbad0bd7aad8fb8f57c831e59a37fa6d36a6545",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
