@@ -22,6 +22,30 @@
       },
       "revId": "55447121dee50a42c87caeef1062d1be3c591773",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bd318ac2_dc68d43e",
+        "filename": "_data/devices/vayu.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-07-03T10:54:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5bfe1f65_7bffe383",
+      "range": {
+        "startLine": 3,
+        "startChar": 77,
+        "endLine": 3,
+        "endChar": 81
+      },
+      "revId": "55447121dee50a42c87caeef1062d1be3c591773",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
