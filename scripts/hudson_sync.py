@@ -2,8 +2,6 @@
 import os.path
 from glob import glob
 
-import yaml
-
 supported_devices = {}
 
 with open("../hudson/lineage-build-targets") as f:
