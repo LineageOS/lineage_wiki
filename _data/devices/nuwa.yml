@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 4820, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, ships_fw: True}
+before_install_device_variants:
+  - {device: 'Xiaomi 13 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.203.0.VMBCNXM/nuwa-ota_full-OS2.0.203.0.VMBCNXM-user-15.0-452801a3d4.zip', firmware: 'OS2.0.203.0.VMBCNXM'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50.3 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (telephoto)'}
+  - {flash: None, info: '32 MP (front)'}
+codename: nuwa
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.2 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 22.2
+dimensions: {depth: 8.4, height: 162.9, width: 74.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_xiaomi_sm8550_vab
+gpu: Qualcomm Adreno 740
+image: nuwa.png
+install_method: fastboot_xiaomi_hyperos
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm8550, version: '5.15'}
+maintainers: [Minus]
+models: [2210132G, 2210132C]
+name: "13 Pro"
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, eSIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, IR blaster, Light sensor, NFC, Qi wireless charging, Qi reverse wireless charging, Proximity sensor, USB OTG]
+ram: 8/12 GB LPDDR5X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2022-12-11
+screen: {resolution: '3200x1440', size: 6.73, technology: 'OLED'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 128/256/512 GB
+tree: android_device_xiaomi_nuwa
+type: phone
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac/ax
