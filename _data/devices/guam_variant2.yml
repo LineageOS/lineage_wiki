@@ -19,7 +19,7 @@ image: guam.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
-maintainers: [Rajin Gangadharan]
+maintainers: [Rajin Gangadharan, Deivid Ignacio Parra]
 models: [XT2081-4]
 name: K12
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
