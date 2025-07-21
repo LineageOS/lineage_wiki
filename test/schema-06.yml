@@ -802,6 +802,7 @@ properties:
       - fastboot_xiaomi
       - fastboot_xiaomi_hyperos
       - fastboot_zenfone
+      - fastboot_zte
       - heimdall
       - nintendo
       - odin
