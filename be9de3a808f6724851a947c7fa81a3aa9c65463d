@@ -22,6 +22,30 @@
       },
       "revId": "be9de3a808f6724851a947c7fa81a3aa9c65463d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a530137e_c84cb551",
+        "filename": "_data/devices/akershus.yml",
+        "patchSetId": 7
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-07-22T06:57:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1430b4ff_25e5d8e7",
+      "range": {
+        "startLine": 35,
+        "startChar": 21,
+        "endLine": 35,
+        "endChar": 24
+      },
+      "revId": "be9de3a808f6724851a947c7fa81a3aa9c65463d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
