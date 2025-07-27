@@ -27,7 +27,7 @@ maintainers: [Minus]
 models: [2210132G, 2210132C]
 name: "13 Pro"
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, eSIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, IR blaster, Light sensor, NFC, Qi wireless charging, Qi reverse wireless charging, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
 ram: 8/12 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
