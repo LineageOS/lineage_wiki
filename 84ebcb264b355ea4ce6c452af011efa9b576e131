@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a603f094_e83a84d6",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-27T09:23:52Z",
+      "side": 1,
+      "message": "do these exists?",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c8e56a16_66c24c9d",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-27T09:23:52Z",
+      "side": 1,
+      "message": "remove `.git`",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cbe42108_565ab110",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-07-27T09:23:52Z",
+      "side": 1,
+      "message": "not needed? is there any device w/o dynamic partitions?",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
