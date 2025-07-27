@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "699f2a99_7d56ac40",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-27T09:34:06Z",
+      "side": 1,
+      "message": "Not exists. Done",
+      "parentUuid": "a603f094_e83a84d6",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c8e56a16_66c24c9d",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0cecca61_ee0dbc99",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-27T09:34:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c8e56a16_66c24c9d",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "cbe42108_565ab110",
@@ -48,6 +84,24 @@
       "writtenOn": "2025-07-27T09:23:52Z",
       "side": 1,
       "message": "not needed? is there any device w/o dynamic partitions?",
+      "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f5c2ff1_0656b144",
+        "filename": "_includes/templates/device_specific/firmware_update_nothing_fastbootd.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2025-07-27T09:34:06Z",
+      "side": 1,
+      "message": "Nope. Done",
+      "parentUuid": "cbe42108_565ab110",
       "revId": "84ebcb264b355ea4ce6c452af011efa9b576e131",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
