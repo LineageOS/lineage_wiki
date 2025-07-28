@@ -124,7 +124,10 @@ There are no recovery installation instructions for this discontinued device.
 {%- endif %}
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
-    * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
+    * On the host machine, sideload the package using:
+    ```
+    adb -d sideload filename.zip
+    ```
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
@@ -136,7 +139,10 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 5. Sideload the LineageOS `.zip` package but **do not reboot to system** before you read/followed the rest of the instructions!
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
-    * On the host machine, sideload the package using: `adb -d sideload filename.zip`.
+    * On the host machine, sideload the package using:
+    ```
+    adb -d sideload filename.zip
+    ```
 {%- endif %}
 {%- if current_branch >= 20 and device.is_ab_device %}
         {% include alerts/specific/tip_ab_reboot_recovery.html %}
@@ -158,16 +164,29 @@ This add-on needs to be installed **before** booting into LineageOS for the firs
 {% include alerts/warning.html content=gapps_note %}
 
 {%- if device.is_ab_device and device.uses_twrp %}
-1. Even though you are already in recovery, run `adb -d reboot sideload`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+1. Even though you are already in recovery, run: 
+    ```
+    adb -d reboot sideload
+    ```
+    Then run for each of those packages in sequence:
+    ```
+    adb -d sideload /path/to/zip
+    ``` 
 {%- elsif device.is_ab_device and current_branch < 20 %}
 1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
-2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+    ```
+    adb -d sideload /path/to/zip
+    ``` 
 {%- elsif device.uses_twrp != true %}
 {%- if device.has_no_usb %}
 1. Click `Apply Update`, then `Apply Update from EXT_SDCARD`, then select the add-on zip file to begin installation, and repeat for all desired packages in sequence.
     {% include alerts/warning.html content="EXT_SDCARD will reflect the name of your SD card's filesystem name." %}
 {%- else %}
-1. Click `Apply Update`, then `Apply from ADB`, then `adb -d sideload filename.zip` for all desired packages in sequence.
+1. Click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+    ```
+    adb -d sideload /path/to/zip
+    ``` 
 {%- endif %}
 {%- else %}
 1. Repeat the sideload steps above for all desired packages in sequence.
@@ -181,7 +200,10 @@ This add-on needs to be installed **before** booting into LineageOS for the firs
 Once you have installed everything successfully, you can now reboot your device into the OS for the first time!
 
 {%- if device.uses_twrp and device.is_ab_device != true %}
-* Run `adb -d reboot`.
+* Run:
+    ```
+    adb -d reboot
+    ```
 {%- else %}
 * Click the back arrow in the top left of the screen, then "Reboot system now".
 {%- endif %}
