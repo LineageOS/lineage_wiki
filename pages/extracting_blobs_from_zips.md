@@ -19,7 +19,7 @@ If your zip has no `system` folder or it is nearly empty and a file named `syste
 
 If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas).
 
-You may also have a payload-based OTA, which is what your device will use if it uses the A/B partitioning system. If that is what you have, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
+If your zip has a `payload.bin` file in it, you have a payload-based OTA, which is used if your device has an A/B partitioning system. If so, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
 
 ## Extracting proprietary blobs from block-based OTAs
 
