@@ -217,9 +217,8 @@ where `~/path/to/` is the path to the installable zip.
 Now, extract the the `.img` files inside the payload.bin:
 
 ```
-./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload path/to/payload.bin
+./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
 ```
-where `path/to/` is the path to freshly extracted payload.bin.
 
 It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
 
