@@ -50,7 +50,7 @@ unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
 ```
 where `path/to/` is the path to the installable zip.
 
-In the case of `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive) exists, you will first need to decompress them using the `brotli` utility:
+In the case that `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. exists (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive), you will first need to decompress them using the `brotli` utility:
 
 ```
 sudo apt install brotli
