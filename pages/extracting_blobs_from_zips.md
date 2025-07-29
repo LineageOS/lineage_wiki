@@ -19,7 +19,7 @@ If your zip has no `system` folder or it is nearly empty and a file named `syste
 
 If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas).
 
-You may also have a payload-based OTA, which is what your device will use if it uses the A/B partitioning system. If that is what you have, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
+If your zip has a `payload.bin` file in it, you have a payload-based OTA, which is used if your device has an A/B partitioning system. If so, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
 
 ## Extracting proprietary blobs from block-based OTAs
 
@@ -46,9 +46,9 @@ where `path/to/` is the path to the installable zip.
 If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (or others), extract them from the installable LineageOS zip as well:
 
 ```
-unzip path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
+unzip ~/path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
 ```
-where `path/to/` is the path to the installable zip.
+where `~/path/to/` is the path to the installable zip.
 
 In the case that `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. exists (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive), you will first need to decompress them using the `brotli` utility:
 
@@ -161,9 +161,9 @@ cd ~/android/system_dump/
 Extract the `system` folder from the zip:
 
 ```
-unzip path/to/lineage-*.zip system/*
+unzip ~/path/to/lineage-*.zip system/*
 ```
-where `path/to/` is the path to the installable zip.
+where `~/path/to/` is the path to the installable zip.
 
 After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
 
@@ -210,16 +210,15 @@ git clone https://github.com/LineageOS/android_system_update_engine android/syst
 Extract the the payload.bin that's inside the lineage-*.zip:
 
 ```
-unzip path/to/lineage-*.zip
+unzip ~/path/to/lineage-*.zip
 ```
-where `path/to/` is the path to the installable zip.
+where `~/path/to/` is the path to the installable zip.
 
 Now, extract the the `.img` files inside the payload.bin:
 
 ```
-./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload path/to/payload.bin
+./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
 ```
-where `path/to/` is the path to freshly extracted payload.bin.
 
 It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
 
