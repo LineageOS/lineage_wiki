@@ -5,7 +5,7 @@
 {%- else -%}
 1. Download the latest full stock ROM update from [Oxygen Updater](https://play.google.com/store/apps/details?id=com.arjanvlek.oxygenupdater)
 {%- endif %}
-2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go)
+2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go/releases/latest)
 3. Boot up LineageOS recovery
 4. Go to "Advanced" -> "Enable ADB"
 5. Check your DDR type using the following command: `adb -d shell getprop ro.boot.ddr_type`, or in case `getprop` returns an empty value, use: `adb -d shell cat /proc/devinfo/ddr_type` instead
