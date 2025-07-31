@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8d2eff64_5d93ac47",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-07-31T18:21:10Z",
+      "side": 1,
+      "message": "This and the two changes below touching the same file should really be one change: \"Improve wording and commands in blob extraction\" or similar",
+      "revId": "8d5b2e65f3cf76cfa1730a84a5bdc7d6733b07f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
