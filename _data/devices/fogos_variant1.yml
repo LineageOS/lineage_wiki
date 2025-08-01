@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
-before_lineage_install: ab_copy_partitions
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, ships_fw: True, version: '14/15'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
