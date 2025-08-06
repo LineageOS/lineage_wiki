@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 4700, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4700, removable: False, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
@@ -22,7 +22,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_nothing_sm8475, version: '5.10'}
 maintainers: [chandu078]
-models: [A065]
+models: [A065, AIN065]
 name: 'Phone (2)'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
