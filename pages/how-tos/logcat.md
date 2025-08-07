@@ -24,6 +24,6 @@ If you don't have it installed, please do that before continuing.
 
 1. Open Command Prompt (Windows) or Terminal (Linux/macOS).
 2. Connect your device via cable or [over WiFi]({{ "how-to/adb-over-wifi/" | relative_url }}).
-3. Type `adb logcat > logcat.txt`. This will save the log to `logcat.txt`.
+3. Type `adb logcat > logcat.log`. This will save the log to `logcat.log`.
 
-   Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `adb logcat -b radio > radio.txt` to save it to `radio.txt`.
+   Additionally, the radio buffer can be viewed or stored with `logcat`. If needed or requested, type `adb logcat -b radio > radio.log` to save it to `radio.log`.
