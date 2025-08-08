@@ -126,7 +126,7 @@ There are no recovery installation instructions for this discontinued device.
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
     * On the host machine, sideload the package using:
     ```
-    adb -d sideload filename.zip
+    adb -d sideload /path/to/zip
     ```
         {% include alerts/specific/tip_adb_flash_success.html %}
 {%- else %}
@@ -141,7 +141,7 @@ There are no recovery installation instructions for this discontinued device.
     * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using:
     ```
-    adb -d sideload filename.zip
+    adb -d sideload /path/to/zip
     ```
 {%- endif %}
 {%- if current_branch >= 20 and device.is_ab_device %}

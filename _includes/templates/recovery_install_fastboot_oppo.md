@@ -16,7 +16,7 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 3. Download unlockable bootloader obtained from [here]({{ device.required_bootloader_link }}).
 {%- endif %}
 4. Place the downloaded .zip packages on the root of `/sdcard`:
-    * Using adb: `adb -d push filename.zip /sdcard/`
+    * Using adb: `adb -d push /path/to/zip /sdcard/`
     * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing
         USB debugging is enabled.
 5. If you aren't already in recovery, reboot into recovery:
