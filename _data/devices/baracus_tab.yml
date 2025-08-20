@@ -1,0 +1,38 @@
+architecture: arm64
+battery: None
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, version: '7.0 (NRT1.240624.004/12020658)'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtb]}
+bluetooth: {profiles: [A2DP], spec: '4.1'}
+cameras:
+  - {flash: None, info: '2 MP'}
+codename: baracus_tab
+cpu: Cortex-A57
+cpu_cores: '4'
+cpu_freq: 4 x 1.9 GHz
+current_branch: 22.2
+dimensions: {depth: 88.9, height: 823.0, width: 1349.28}
+download_boot: With the device powered off, hold <kbd>Power</kbd> for 4 seconds.
+firmware_update: firmware_update_baracus
+gpu: NVIDIA Maxwell 256-core
+image: baracus.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_nvidia_kernel, version: '4.9'}
+maintainers: [npjohnson, webgeek1234]
+name: Jamboard [Tablet]
+network: None
+no_oem_unlock_switch: true
+peripherals: None
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Power</kbd> for 4 seconds. On the next screen select Recovery Mode.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2017-05-23
+screen: {resolution: '3840x2160', size: 55.0, technology: 'LCD'}
+soc: NVIDIA Tegra X1 (T210)
+storage: 16 GB
+tree: android_device_google_baracus_tab
+type: TV
+vendor: Google
+vendor_short: google
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
