@@ -963,6 +963,7 @@ properties:
       - phone
       - phone (slider)
       - tablet
+      - TV
   uses_twrp:
     "$id": "/properties/uses_twrp"
     enum:
