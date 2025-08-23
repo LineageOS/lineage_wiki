@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about porg_tab variants
-folder: info
 permalink: /devices/porg_tab/
 redirect_from:
 - /devices/porg_tab/install

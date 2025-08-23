@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about {codename} variants
-folder: info
 permalink: /devices/{codename}/
 redirect_from:
 - /devices/{codename}/install

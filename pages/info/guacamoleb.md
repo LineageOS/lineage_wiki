@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about guacamoleb
-folder: info
 layout: deviceinfo
 permalink: /devices/guacamoleb/
 device: guacamoleb

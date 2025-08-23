@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about caprip variants
-folder: info
 permalink: /devices/caprip/
 redirect_from:
 - /devices/caprip/install

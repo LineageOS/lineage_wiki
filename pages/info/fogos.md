@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about fogos variants
-folder: info
 permalink: /devices/fogos/
 redirect_from:
 - /devices/fogos/install

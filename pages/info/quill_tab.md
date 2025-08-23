@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about quill_tab variants
-folder: info
 permalink: /devices/quill_tab/
 redirect_from:
 - /devices/quill_tab/install

@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about renoir
-folder: info
 layout: deviceinfo
 permalink: /devices/renoir/
 device: renoir

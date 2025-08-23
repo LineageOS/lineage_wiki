@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about dubai
-folder: info
 layout: deviceinfo
 permalink: /devices/dubai/
 device: dubai

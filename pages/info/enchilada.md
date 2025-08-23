@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about enchilada
-folder: info
 layout: deviceinfo
 permalink: /devices/enchilada/
 device: enchilada

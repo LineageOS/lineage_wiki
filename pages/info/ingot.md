@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about ingot
-folder: info
 layout: deviceinfo
 permalink: /devices/ingot/
 device: ingot

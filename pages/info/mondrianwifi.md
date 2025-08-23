@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about mondrianwifi
-folder: info
 layout: deviceinfo
 permalink: /devices/mondrianwifi/
 device: mondrianwifi

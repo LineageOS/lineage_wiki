@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about apollon variants
-folder: info
 permalink: /devices/apollon/
 redirect_from:
 - /devices/apollon/install

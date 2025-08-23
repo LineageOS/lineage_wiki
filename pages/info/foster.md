@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about foster variants
-folder: info
 permalink: /devices/foster/
 redirect_from:
 - /devices/foster/install

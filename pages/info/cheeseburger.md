@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about cheeseburger
-folder: info
 layout: deviceinfo
 permalink: /devices/cheeseburger/
 device: cheeseburger

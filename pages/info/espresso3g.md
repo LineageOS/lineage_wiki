@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about espresso3g variants
-folder: info
 permalink: /devices/espresso3g/
 redirect_from:
 - /devices/espresso3g/install

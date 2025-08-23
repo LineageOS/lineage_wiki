@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about mido
-folder: info
 layout: deviceinfo
 permalink: /devices/mido/
 device: mido

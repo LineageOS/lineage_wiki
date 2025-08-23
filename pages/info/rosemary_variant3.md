@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about rosemary
-folder: info
 layout: deviceinfo
 permalink: /devices/rosemary/variant3/
 device: rosemary_variant3

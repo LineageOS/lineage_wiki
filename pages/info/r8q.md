@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about r8q variants
-folder: info
 permalink: /devices/r8q/
 redirect_from:
 - /devices/r8q/install

@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about munch variants
-folder: info
 permalink: /devices/munch/
 redirect_from:
 - /devices/munch/install

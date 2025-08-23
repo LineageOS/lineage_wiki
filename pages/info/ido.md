@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about ido variants
-folder: info
 permalink: /devices/ido/
 redirect_from:
 - /devices/ido/install

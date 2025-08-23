@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about espressowifi variants
-folder: info
 permalink: /devices/espressowifi/
 redirect_from:
 - /devices/espressowifi/install

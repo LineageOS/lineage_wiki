@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about diting variants
-folder: info
 permalink: /devices/diting/
 redirect_from:
 - /devices/diting/install

@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about kiev variants
-folder: info
 permalink: /devices/kiev/
 redirect_from:
 - /devices/kiev/install

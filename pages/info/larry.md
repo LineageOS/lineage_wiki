@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about larry variants
-folder: info
 permalink: /devices/larry/
 redirect_from:
 - /devices/larry/install

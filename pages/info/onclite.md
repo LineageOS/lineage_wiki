@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about onclite variants
-folder: info
 permalink: /devices/onclite/
 redirect_from:
 - /devices/onclite/install

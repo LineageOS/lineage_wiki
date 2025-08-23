@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about sargo
-folder: info
 layout: deviceinfo
 permalink: /devices/sargo/
 device: sargo

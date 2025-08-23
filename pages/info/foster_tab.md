@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about foster_tab variants
-folder: info
 permalink: /devices/foster_tab/
 redirect_from:
 - /devices/foster_tab/install

@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about earth variants
-folder: info
 permalink: /devices/earth/
 redirect_from:
 - /devices/earth/install

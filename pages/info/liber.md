@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about liber variants
-folder: info
 permalink: /devices/liber/
 redirect_from:
 - /devices/liber/install

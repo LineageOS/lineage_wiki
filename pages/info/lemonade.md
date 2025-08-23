@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about lemonade
-folder: info
 layout: deviceinfo
 permalink: /devices/lemonade/
 device: lemonade

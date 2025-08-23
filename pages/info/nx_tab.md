@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about nx_tab variants
-folder: info
 permalink: /devices/nx_tab/
 redirect_from:
 - /devices/nx_tab/install

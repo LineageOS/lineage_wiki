@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about nx variants
-folder: info
 permalink: /devices/nx/
 redirect_from:
 - /devices/nx/install

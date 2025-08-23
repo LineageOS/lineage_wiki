@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about fogo
-folder: info
 layout: deviceinfo
 permalink: /devices/fogo/
 device: fogo

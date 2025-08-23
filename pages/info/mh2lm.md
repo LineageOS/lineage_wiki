@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about mh2lm variants
-folder: info
 permalink: /devices/mh2lm/
 redirect_from:
 - /devices/mh2lm/install

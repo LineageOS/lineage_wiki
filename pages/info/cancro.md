@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about cancro variants
-folder: info
 permalink: /devices/cancro/
 redirect_from:
 - /devices/cancro/install

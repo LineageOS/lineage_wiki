@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about umi
-folder: info
 layout: deviceinfo
 permalink: /devices/umi/
 device: umi

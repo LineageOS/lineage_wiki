@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about haydn variants
-folder: info
 permalink: /devices/haydn/
 redirect_from:
 - /devices/haydn/install

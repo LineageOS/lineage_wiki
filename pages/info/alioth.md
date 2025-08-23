@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about alioth variants
-folder: info
 permalink: /devices/alioth/
 redirect_from:
 - /devices/alioth/install

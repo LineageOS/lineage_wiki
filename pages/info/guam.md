@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about guam variants
-folder: info
 permalink: /devices/guam/
 redirect_from:
 - /devices/guam/install

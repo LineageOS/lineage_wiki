@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about sweet variants
-folder: info
 permalink: /devices/sweet/
 redirect_from:
 - /devices/sweet/install

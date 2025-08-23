@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about aurora
-folder: info
 layout: deviceinfo
 permalink: /devices/aurora/
 device: aurora

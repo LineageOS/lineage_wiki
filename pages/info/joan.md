@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about joan variants
-folder: info
 permalink: /devices/joan/
 redirect_from:
 - /devices/joan/install

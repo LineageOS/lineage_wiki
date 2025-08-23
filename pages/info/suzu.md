@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about suzu
-folder: info
 layout: deviceinfo
 permalink: /devices/suzu/
 device: suzu

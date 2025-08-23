@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about alphaplus variants
-folder: info
 permalink: /devices/alphaplus/
 redirect_from:
 - /devices/alphaplus/install

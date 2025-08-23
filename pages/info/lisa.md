@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about lisa variants
-folder: info
 permalink: /devices/lisa/
 redirect_from:
 - /devices/lisa/install

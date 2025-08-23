@@ -1,7 +1,6 @@
 ---
 sidebar: home_sidebar
 title: Info about comet
-folder: info
 layout: deviceinfo
 permalink: /devices/comet/
 device: comet
