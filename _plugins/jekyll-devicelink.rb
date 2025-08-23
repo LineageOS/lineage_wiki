@@ -1,6 +1,8 @@
 module Jekyll
   module DeviceLinkFilter
     def device_link(input, page="")
+      page = "/#{page}" unless page == nil || page.empty? || page.start_with?("/")
+
       if input == nil
         ("devices/")
       elsif input['variant'] == nil

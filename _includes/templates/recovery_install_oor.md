@@ -29,7 +29,7 @@
 {%- assign is_lineage_recovery = true %}
 1. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
 {%- else %}
-1. [Build]({{ device | device_link: "/build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
+1. [Build]({{ device | device_link: "build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
 
 ## Patching the recovery image using the out-of-range utility

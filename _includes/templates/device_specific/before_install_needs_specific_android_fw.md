@@ -18,7 +18,7 @@ If there are multiple updates of that version (e.g. security updates), make sure
 <br/><br/>
 
 {%- if device.firmware_update and page.url contains "upgrade" or device.before_install_device_variants %}
-You can update your firmware by following [this guide]({{ device | device_link: "/fw_update" | relative_url }}).
+You can update your firmware by following [this guide]({{ device | device_link: "fw_update" | relative_url }}).
 {%- else %}
 If you need to upgrade or downgrade your device, please search online for guides.<br/>
 We are unable to provide specific instructions here and on our support platforms.
