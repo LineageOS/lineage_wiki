@@ -40,9 +40,9 @@ Select your variant using the comparison below to make sure your guides are corr
 
 <div class="variants">
   {%- for device in sorted %}
-  <div class="variant-item" onClick="location.href='{{ device | device_link | relative_url }}'">
+  <div class="variant-item" onClick="location.href='{{ device | device_link: page.folder | relative_url }}'">
     <div class="variant-title">
-      <a href="{{ device | device_link | relative_url }}" class="device_link">{{ device.name }}</a>
+      <a href="{{ device | device_link: page.folder | relative_url }}" class="device_link">{{ device.name }}</a>
     </div>
     <div class="variant-content">
       <table class="deviceinfo table variant_info">
