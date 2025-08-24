@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, ships_fw: True, version: '12'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '48 MP (main)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '5 MP (macro)'}
+  - {flash: 'LED', info: '2 MP (depth)'}
+  - {flash: None, info: '16 MP (front)'}
+codename: denver
+cpu: Kryo 460
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz + 6 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 9.4, height: 169.5, width: 77.5}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 619
+image: denver.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
+maintainers: [Vivekachooz]
+models: [XT2131-1]
+name: moto g stylus 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
+ram: 4/6 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2021-06-14
+screen: {resolution: '1080x2400', size: 6.8, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB'}
+soc: Qualcomm SM4350 Snapdragon 480
+storage: 128/256 GB UFS2.2
+tree: android_device_motorola_denver
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
