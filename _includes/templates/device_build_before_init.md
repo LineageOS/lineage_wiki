@@ -81,7 +81,7 @@ Since LineageOS 22.0 the `virtio_*` targets use a Mesa that is based on upstream
 * `meson glslang-tools python3-mako`
 {% endif %}
 
-For Ubuntu 23.10 (mantic), install `libncurses5` from 23.04 (lunar) as follows:
+For Ubuntu 23.10 (mantic) or newer, install `libncurses5` from 23.04 (lunar) as follows:
 
 ```
 wget https://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.3-2_amd64.deb && sudo dpkg -i libtinfo5_6.3-2_amd64.deb && rm -f libtinfo5_6.3-2_amd64.deb
