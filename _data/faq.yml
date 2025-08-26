@@ -84,3 +84,5 @@
         - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a delicious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
     - question: "Will my device receive the next Android version?"
       response: "We can't tell you. 'No ETA' includes the 'IF', not just the 'WHEN'."
+    - question: "Can you help me root my device?"
+      response: "We don't recommend <a href='glossary/#root'>rooting</a>, so we’re unable to provide support for it. Rooting can create serious security vulnerabilities and may cause issues that sometimes require a full system reinstall to fix. Rooting also enables the user to take actions that could permanently damage the device."
