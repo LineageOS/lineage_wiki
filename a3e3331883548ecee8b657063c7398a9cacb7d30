@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "70e8dd21_49e42124",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-08-27T01:30:38Z",
+      "side": 1,
+      "message": "eh? idk if I agree with that, something about \"root access can enable the user to damage either the OS or the device itself\" or some reword of that.",
+      "revId": "a3e3331883548ecee8b657063c7398a9cacb7d30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
