@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c32e697_36691921",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-08-27T14:41:25Z",
+      "side": 1,
+      "message": "Pending experimental build",
+      "revId": "56278f8b7e7917b593368618f297a4b6cd8c34b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
