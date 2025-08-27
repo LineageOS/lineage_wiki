@@ -34,6 +34,24 @@
       "parentUuid": "70e8dd21_49e42124",
       "revId": "a3e3331883548ecee8b657063c7398a9cacb7d30",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b1056207_d21b0167",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-08-27T15:09:51Z",
+      "side": 1,
+      "message": "took a stab",
+      "parentUuid": "bfa21aa2_9a2d8137",
+      "revId": "a3e3331883548ecee8b657063c7398a9cacb7d30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
