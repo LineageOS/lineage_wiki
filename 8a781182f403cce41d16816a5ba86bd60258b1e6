@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a97ce352_d4bfdc4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35859
+      },
+      "writtenOn": "2025-08-28T06:57:39Z",
+      "side": 1,
+      "message": "445817: wiki: schema: Add Vsmart in the list | https://review.lineageos.org/c/LineageOS/lineage_wiki/+/445817",
+      "revId": "8a781182f403cce41d16816a5ba86bd60258b1e6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
