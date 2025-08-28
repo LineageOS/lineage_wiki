@@ -795,6 +795,7 @@ properties:
       - fastboot_nexus
       - fastboot_nokia
       - fastboot_nubia
+      - fastboot_oneplus_tmo
       - fastboot_oppo
       - fastboot_sony
       - fastboot_realme

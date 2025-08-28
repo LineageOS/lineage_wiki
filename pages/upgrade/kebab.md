@@ -4,5 +4,6 @@ title: Upgrade LineageOS on kebab
 folder: upgrade
 permalink: /devices/kebab/upgrade/
 device: kebab
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
