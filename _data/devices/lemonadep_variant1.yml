@@ -1,0 +1,44 @@
+architecture: arm64
+battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, ships_fw: True, version: '13/14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '8 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (monochrome)'}
+  - {flash: None, info: '16 MP'}
+codename: lemonadep
+cpu: Kryo 680
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 8.7, height: 163.2, width: 73.6}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oplus_sm8350
+gpu: Qualcomm Adreno 660
+image: lemonadep.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_oneplus_sm8350, version: '5.4'}
+maintainers: [LuK1337, bgcngm, mikeioannina]
+models: [LE2120, LE2121, LE2123, LE2125]
+name: '9 Pro'
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+ram: 8/12GB GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2021-03
+screen: {refresh_rate: 120, resolution: '1440x3216', size: 6.7, technology: 'Fluid 2.0 LTPO AMOLED'}
+soc: Qualcomm SM8350 Snapdragon 888
+storage: 128/256 GB UFS3.1
+tree: android_device_oneplus_lemonadep
+type: phone
+variant: 1
+vendor: OnePlus
+vendor_short: oneplus
+versions: [18.1, 19.1, 20, 21, 22.1, 22.2]
+wifi: 802.11 a/b/g/n/ac/ax

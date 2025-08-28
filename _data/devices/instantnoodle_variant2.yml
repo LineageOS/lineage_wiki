@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 4300, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, ships_fw: True, version: '13'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '16 MP (ultrawide)'}
+  - {flash: 'Dual LED (dual tone)', info: '2 MP (macro)'}
+  - {flash: None, info: '16 MP'}
+codename: instantnoodle
+cpu: Kryo 585
+cpu_cores: '8'
+cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 8, height: 160.2, width: 72.9}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 650
+image: instantnoodle.png
+install_method: fastboot_oneplus_tmo
+is_ab_device: true
+kernel: {repo: android_kernel_oneplus_sm8250, version: '4.19'}
+maintainers: [jabashque]
+models: [IN2017]
+name: '8 (T-Mobile)'
+network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
+ram: 8/12GB GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2020-04
+screen: {refresh_rate: 90, resolution: '1080x2400', size: 6.55, technology: 'Fluid AMOLED'}
+soc: Qualcomm SM8250 Snapdragon 865
+storage: 128/256 GB UFS3.0
+tree: android_device_oneplus_instantnoodle
+type: phone
+variant: 2
+vendor: OnePlus
+vendor_short: oneplus
+versions: [18.1, 19.1, 20, 21, 22.1, 22.2]
+wifi: 802.11 a/b/g/n/ac/ax
