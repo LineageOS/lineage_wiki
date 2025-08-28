@@ -4,5 +4,6 @@ title: Upgrade LineageOS on fajita
 folder: upgrade
 permalink: /devices/fajita/upgrade/
 device: fajita
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
