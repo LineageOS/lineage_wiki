@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8620d0c8_62b1fc06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2025-08-28T13:32:03Z",
+      "side": 1,
+      "message": "Bathena and Borneo, remained on Android 11 stock.",
+      "revId": "ad61034b524fab1accdfa80b0685bd93a0bf4892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
