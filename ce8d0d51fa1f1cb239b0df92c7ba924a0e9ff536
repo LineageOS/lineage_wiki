@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1714ce2b_f1f0a194",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2025-08-31T22:38:34Z",
+      "side": 1,
+      "message": "This is pending the next official build.",
+      "revId": "ce8d0d51fa1f1cb239b0df92c7ba924a0e9ff536",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
