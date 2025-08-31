@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {capacity: 5100, removable: False, tech: 'Li-Po'}
-before_recovery_install: gtowifi
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, version: '11'}
+before_recovery_install: samsung_qcom
 bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:
   - {flash: None, info: '8 MP'}
@@ -11,7 +12,7 @@ cpu_cores: '4'
 cpu_freq: 4 x 2.0 GHz
 current_branch: 22.2
 dimensions: {depth: 8, height: 210, width: 124.4}
-download_boot: With the device powered off, plug in the device while holding <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_samsung_gtowifi
 gpu: Qualcomm Adreno 504
 image: gtowifi.png
@@ -26,7 +27,6 @@ ram: 2/3 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2019
-required_bootloader: ['T290XXU3CVG3']
 screen: {resolution: '800x1280', size: 8, technology: 'TFT LCD'}
 sdcard: {size_max: '512 GB'}
 soc: Qualcomm SDM429 Snapdragon 429
