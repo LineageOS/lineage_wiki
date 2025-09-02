@@ -1,0 +1,48 @@
+architecture: arm64
+battery: {capacity: 5260, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2}
+before_install_device_variants:
+  - {device: 'Mi Note 10 / Note 10 Pro (Global)', download_link: 'https://bn.d.miui.com/V13.0.2.0.RFDMIXM/miui_TUCANAGlobal_V13.0.2.0.RFDMIXM_30046080e8_11.0.zip', firmware: 'V13.0.2.0.RFDMIXM'}
+  - {device: 'Mi Note 10 / Note 10 Pro (EEA)', download_link: 'https://bn.d.miui.com/V13.0.2.0.RFDEUXM/miui_TUCANAEEAGlobal_V13.0.2.0.RFDEUXM_4c2cbbe0bf_11.0.zip', firmware: 'V13.0.2.0.RFDEUXM'}
+  - {device: 'Mi Note 10 / Note 10 Pro (Russia)', download_link: 'https://bn.d.miui.com/V13.0.3.0.RFDRUXM/miui_TUCANARUGlobal_V13.0.3.0.RFDRUXM_9813613bb0_11.0.zip', firmware: 'V13.0.3.0.RFDRUXM'}
+  - {device: 'Mi Note 10 / Note 10 Pro (Indonesia)', download_link: 'https://bn.d.miui.com/V13.0.3.0.RFDIDXM/miui_TUCANAIDGlobal_V13.0.3.0.RFDIDXM_66641e2af4_11.0.zip', firmware: 'V13.0.3.0.RFDIDXM'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+cameras:
+  - {flash: 'Dual LED', info: '108 MP (8P lens)'}
+  - {flash: 'Dual LED', info: '12 MP (tele 2x)'}
+  - {flash: 'Dual LED', info: '8 MP (tele 3.7x)'}
+  - {flash: 'Dual LED', info: '20 MP (ultrawide)'}
+  - {flash: 'Dual LED', info: '2 MP (macro)'}
+  - {flash: 'None', info: '32 MP (front)'}
+codename: tucana
+cpu: Kryo 470
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 9.7, height: 157.8, width: 74.2}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_sm6150_km4
+gpu: Qualcomm Adreno 618
+image: tucana.png
+install_method: fastboot_xiaomi
+kernel: {repo: android_kernel_xiaomi_sm6150, version: '4.14'}
+maintainers: [SanyaPilot]
+models: [M1910F4S]
+name: Mi Note 10 Pro
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Light sensor, NFC, Ultrasound proximity sensor, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_boot
+release: 2019-11-11
+screen: {resolution: '2340x1080', size: 6.47, technology: 'AMOLED'}
+soc: Qualcomm SM7150-AB Snapdragon 730G
+storage: 256 GB
+tree: android_device_xiaomi_tucana
+type: phone
+variant: 2
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
