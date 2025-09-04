@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7c8fcba9_891ffbf3",
+        "filename": "_data/devices/tucana_variant1.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 33356
+      },
+      "writtenOn": "2025-09-04T08:42:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b443c452_1d04f792",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 199
+      },
+      "revId": "de549cdd3bb85692b346bb723079c403abfec318",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "16bccbae_6a5f1ccd",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-09-04T08:28:11Z",
       "side": 1,
       "message": "drop \"Mi Note 10\"?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 8,
+        "endChar": 199
+      },
+      "revId": "de549cdd3bb85692b346bb723079c403abfec318",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea8c08d1_b4d8d65c",
+        "filename": "_data/devices/tucana_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 33356
+      },
+      "writtenOn": "2025-09-04T08:42:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "16bccbae_6a5f1ccd",
       "range": {
         "startLine": 5,
         "startChar": 0,
