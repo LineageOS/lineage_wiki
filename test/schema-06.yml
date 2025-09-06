@@ -182,6 +182,9 @@ definitions:
       - Qualcomm Adreno 735
       - Qualcomm Adreno 740
       - Qualcomm Adreno 750
+      - Qualcomm Adreno 810
+      - Qualcomm Adreno 825
+      - Qualcomm Adreno 830
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
