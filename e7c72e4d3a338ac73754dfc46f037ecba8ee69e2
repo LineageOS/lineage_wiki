@@ -22,6 +22,30 @@
       },
       "revId": "e7c72e4d3a338ac73754dfc46f037ecba8ee69e2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9af80c2a_519ce5cf",
+        "filename": "_data/devices/erhai.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-09-06T22:34:42Z",
+      "side": 1,
+      "message": "Octa, but i think it would make sense to change \"Dual speakers\" to \"Stereo speakers\" in the schema.",
+      "parentUuid": "740c6f05_18bffcba",
+      "range": {
+        "startLine": 27,
+        "startChar": 87,
+        "endLine": 27,
+        "endChar": 91
+      },
+      "revId": "e7c72e4d3a338ac73754dfc46f037ecba8ee69e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
