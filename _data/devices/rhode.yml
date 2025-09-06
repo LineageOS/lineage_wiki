@@ -24,7 +24,7 @@ maintainers: [Dhina17, mikeioannina, tomoms]
 models: [XT2221-1, XT2221-2]
 name: moto g52
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Stereo speakers, USB OTG]
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: boot

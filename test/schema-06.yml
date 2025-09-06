@@ -496,8 +496,6 @@ definitions:
         - Dock
         - Dot Projector
         - Dual SIM
-        - Dual front speakers
-        - Dual speakers
         - Dual side NFC
         - Dual-frequency GNSS
         - eSIM
@@ -540,6 +538,8 @@ definitions:
         - RGB ambient light
         - RJ45 Ethernet port
         - SNS integration
+        - Stereo front speakers
+        - Stereo speakers
         - Thermometer
         - Ultra Wideband (UWB)
         - Ultrasound proximity sensor

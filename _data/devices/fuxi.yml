@@ -27,7 +27,7 @@ maintainers: [lolipuru]
 models: [2211133G, 2211133C]
 name: "13"
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, USB OTG]
 ram: 8/12 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

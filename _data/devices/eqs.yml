@@ -24,7 +24,7 @@ maintainers: [demon000]
 models: [XT2241-1, XT2241-2]
 name: edge 30 ultra
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual speakers, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Stereo speakers, USB OTG]
 ram: 8/12 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: recovery
