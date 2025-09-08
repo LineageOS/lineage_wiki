@@ -110,11 +110,13 @@ There are no recovery installation instructions for this discontinued device.
 {%- else %}
 1. [Build]({{ device | device_link: "build" | relative_url }}) a LineageOS installation package.
 {%- endif %}
+{%- if device.recovery_boot %}
 2. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
     {% if device.vendor == "LG" %}
         {% include templates/recovery_boot_lge.md %}
     {% endif %}
+{%- endif %}
 {%- if device.uses_twrp %}
 3. Now tap **Wipe**.
 4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
