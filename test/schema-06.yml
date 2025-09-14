@@ -885,6 +885,12 @@ properties:
       - boot
       - recovery
       - vendor_boot
+  recovery_reboot:
+    "$id": "/properties/recovery_reboot"
+    enum:
+      - fastboot_boot
+      - fastboot_menu
+      - fastboot_reboot
   release:
     "$id": "/properties/release"
     description: Date device released to public in ISO8601 reduced precision format
