@@ -16,6 +16,23 @@
       "message": "Disclaimer: this is my first contribution here, and my first contact to gerrit, so please advise if this is the wrong place for discussions, or if something should be changed.\n\n\nMotivation for this contribution: I followed the installation instructions for a pdx225 device (Sony Xperia 10 IV) and found myself in a broken system. The problem was that I didn\u0027t reboot the system to enable USB Debugging after unlocking the bootloader. This caused the reboot to Lineage Recovery to fail; instead, Android was booted, but unfortunately the touchscreen didn\u0027t work, so I could not re-enable USB Debugging.\n\nTo avoid this in future, this contribution adds more in-detail steps what to do.\n\nI noticed that the changed file exists for other vendors, too. I\u0027m not sure if the explanations should be added there, please give feedback.",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c86d889_0ea47bdd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-09-14T07:46:45Z",
+      "side": 1,
+      "message": "afaict your actual problem is that `fastboot reboot-recovery` does not reboot to recovery, can you please confirm that and check if `fastboot reboot-fastboot` + `fastboot reboot-recovery` works?\n\nthese two changes should resolve the issue:\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/451388\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/451389",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
