@@ -47,7 +47,10 @@ fastboot devices
 ```
 fastboot oem unlock <your_unlock_code>
 ```
-10. Since the device resets completely, you will need to re-enable USB debugging to continue.
+10. Since the device resets completely, you will need to re-enable USB debugging to continue: reboot the device using the following command; when the popup _Allow USB debugging?_ appears, check the option _Always allow from this computer_ and press OK.
+```
+fastboot reboot
+```
 
 {% include snippets/before_recovery_install.md %}
 
