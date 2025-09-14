@@ -20,7 +20,6 @@ network: None
 peripherals: [HDMI, USB OTG]
 ram: 2/4 GB
 recovery_partition_name: recovery
-recovery_reboot: none
 release: 2020-12-01
 screen: None
 sdcard: {size_max: '2 TB'}
