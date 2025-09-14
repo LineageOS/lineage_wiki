@@ -10,5 +10,11 @@ Type the command:
 ```
 fastboot reboot recovery
 ```
+{%- when 'fastboot_reboot_fastboot' %}
+Type the commands:
+```
+fastboot reboot fastboot
+fastboot reboot recovery
+```
 {%- else %}
 {%- endcase %}
