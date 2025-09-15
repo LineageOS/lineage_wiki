@@ -8,7 +8,7 @@ fastboot boot {{ device.recovery_partition_name }}.img
 {%- when 'fastboot_reboot' %}
 Type the command:
 ```
-fastboot reboot-recovery
+fastboot reboot recovery
 ```
 {%- else %}
 {%- endcase %}
