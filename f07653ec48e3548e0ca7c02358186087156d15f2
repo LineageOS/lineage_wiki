@@ -33,6 +33,41 @@
       "message": "afaict your actual problem is that `fastboot reboot-recovery` does not reboot to recovery, can you please confirm that and check if `fastboot reboot-fastboot` + `fastboot reboot-recovery` works?\n\nthese two changes should resolve the issue:\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/451388\nhttps://review.lineageos.org/c/LineageOS/lineage_wiki/+/451389",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6a76081_6f984292",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35936
+      },
+      "writtenOn": "2025-09-15T17:28:14Z",
+      "side": 1,
+      "message": "```\n$ fastboot reboot-recovery\n\u003c waiting for any device \u003e\n```\n\nThen, the phone restarts and shows the charging symbol and percentage. The shell prompt is blocked/waiting. I disconnected the phone, pressed VolumeUp and re-connected the cable. Then, the shell returned with the following output:\n\n```\nRebooting into recovery                            OKAY [  0.004s]\nFinished. Total time: 0.054s\n```\n\nand the phone booted into recovery.\n\n\n`fastboot reboot-fastboot` did not work:\n\n```\n$ fastboot reboot-fastboot\nRebooting into fastboot                            FAILED (remote: \u0027unknown command\u0027)\nfastboot: error: Command failed\n```",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47aa5511_d343c198",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35936
+      },
+      "writtenOn": "2025-09-15T17:28:14Z",
+      "side": 1,
+      "message": "```\n$ fastboot reboot-recovery\n\u003c waiting for any device \u003e\n```\n\nThen, the phone restarts and shows the charging symbol and percentage. The shell prompt is blocked/waiting. I disconnected the phone, pressed VolumeUp and re-connected the cable. Then, the shell returned with the following output:\n\n```\nRebooting into recovery                            OKAY [  0.004s]\nFinished. Total time: 0.054s\n```\n\nand the phone booted into recovery.\n\n\n`fastboot reboot-fastboot` did not work:\n\n```\n$ fastboot reboot-fastboot\nRebooting into fastboot                            FAILED (remote: \u0027unknown command\u0027)\nfastboot: error: Command failed\n```",
+      "parentUuid": "2c86d889_0ea47bdd",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
