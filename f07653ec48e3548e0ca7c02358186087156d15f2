@@ -173,6 +173,23 @@
       "parentUuid": "3f1c6ba5_53209839",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "297e793a_084ec90d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35936
+      },
+      "writtenOn": "2025-09-15T17:53:15Z",
+      "side": 1,
+      "message": "`fastboot reboot recovery` works, phone boots into recovery.",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
