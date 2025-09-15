@@ -121,6 +121,23 @@
       "parentUuid": "57a8d8ba_e8063c96",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ccdea85a_d433d5e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35936
+      },
+      "writtenOn": "2025-09-15T17:47:03Z",
+      "side": 1,
+      "message": "There\u0027s a menu item to reboot into recovery (and one to boot into bootloader IIRC).",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
