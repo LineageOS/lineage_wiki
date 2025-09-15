@@ -138,6 +138,23 @@
       "message": "There\u0027s a menu item to reboot into recovery (and one to boot into bootloader IIRC).",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f1c6ba5_53209839",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-09-15T17:49:39Z",
+      "side": 1,
+      "message": "can you check if either: fastboot reboot recovery or fastboot reboot fastboot + fastboot reboot recovery works?",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
