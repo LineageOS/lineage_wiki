@@ -86,6 +86,23 @@
       "parentUuid": "e6a76081_6f984292",
       "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "57a8d8ba_e8063c96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35936
+      },
+      "writtenOn": "2025-09-15T17:44:08Z",
+      "side": 1,
+      "message": "LED was blue.\n\nWhen running `fastboot reboot fastboot`, the phone boots into `fastbootd`.",
+      "revId": "f07653ec48e3548e0ca7c02358186087156d15f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
