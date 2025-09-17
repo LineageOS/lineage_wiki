@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7b55470d_9357cf3b",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-17T23:12:24Z",
+      "side": 1,
+      "message": "We also have this here, so I\u0027d just leave as suggested by Seba.",
+      "range": {
+        "startLine": 82,
+        "startChar": 28,
+        "endLine": 82,
+        "endChar": 44
+      },
+      "revId": "4cae552cb8cd4de0cea17e0dab3355645fcd300c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
