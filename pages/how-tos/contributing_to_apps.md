@@ -80,7 +80,7 @@ After you've done this, you can push your commits to Gerrit:
 
 ```
 git remote add gerrit ssh://<gerritusername>@review.lineageos.org:29418/LineageOS/android_packages_apps_<app-name>
-git push gerrit HEAD:refs/for/main
+git push gerrit HEAD:refs/for/lineage-22.2
 ```
 {% include alerts/tip.html content="On push to Gerrit, a bot will automatically build the app with your latest changes, and will leave a review if the build succeeds. Also, you can visit the link in the review to download an apk of your change." %}
 
