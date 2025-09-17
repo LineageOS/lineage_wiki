@@ -22,6 +22,30 @@
       },
       "revId": "47a3ecc5ef046409c1a717aff3bec0066db9cfcf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "10a6891c_c29941aa",
+        "filename": "pages/how-tos/contributing_to_apps.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-09-17T23:02:30Z",
+      "side": 1,
+      "message": "Yea, we don\u0027t want to update this everytime.",
+      "parentUuid": "e298b80f_51ae086f",
+      "range": {
+        "startLine": 83,
+        "startChar": 30,
+        "endLine": 83,
+        "endChar": 42
+      },
+      "revId": "47a3ecc5ef046409c1a717aff3bec0066db9cfcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
