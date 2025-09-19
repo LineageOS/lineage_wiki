@@ -32,7 +32,7 @@ sdcard: {size_max: '2 TB'}
 soc: Qualcomm MSM8998 Snapdragon 835
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_fxtec_pro1
-type: phone
+type: phone (slider)
 vendor: F(x)tec
 vendor_short: fxtec
 versions: [16.0, 17.1, 18.1, 19.1, 20, 21, 22.1, 22.2]

@@ -34,7 +34,7 @@ sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM6115 Snapdragon 662
 storage: 128 GB UFS 2.1 2-LANE
 tree: android_device_fxtec_pro1x
-type: phone
+type: phone (slider)
 vendor: F(x)tec
 vendor_short: fxtec
 versions: [20, 21, 22.1, 22.2]
