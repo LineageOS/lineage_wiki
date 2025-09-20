@@ -27,6 +27,7 @@ The following branches have been tested for building emulator images:
 * lineage-21.0
 * lineage-22.1
 * lineage-22.2
+* lineage-23.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
