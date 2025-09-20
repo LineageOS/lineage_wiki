@@ -39,12 +39,14 @@ com.android.appsearch
 com.android.appsearch.apk
 com.android.art
 com.android.bluetooth
+com.android.bt
 com.android.btservices
 com.android.cellbroadcast
 com.android.compos
 com.android.configinfrastructure
 com.android.connectivity.resources
 com.android.conscrypt
+com.android.crashrecovery
 com.android.devicelock
 com.android.extservices
 com.android.graphics.pdf
@@ -53,8 +55,16 @@ com.android.hardware.biometrics.face.virtual
 com.android.hardware.biometrics.fingerprint.virtual
 com.android.hardware.boot
 com.android.hardware.cas
+com.android.hardware.contexthub
+com.android.hardware.dumpstate
+com.android.hardware.gatekeeper.nonsecure
 com.android.hardware.neuralnetworks
+com.android.hardware.power
 com.android.hardware.rebootescrow
+com.android.hardware.thermal
+com.android.hardware.threadnetwork
+com.android.hardware.uwb
+com.android.hardware.vibrator
 com.android.hardware.wifi
 com.android.healthfitness
 com.android.hotspot2.osulogin
@@ -82,6 +92,7 @@ com.android.telephony
 com.android.telephonymodules
 com.android.tethering
 com.android.tzdata
+com.android.uprobestats
 com.android.uwb
 com.android.uwb.resources
 com.android.virt
@@ -209,6 +220,11 @@ Then, install the zip in recovery as you normally would.
 on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
+
+LineageOS 23.0:
+```
+repopick -f 452269
+```
 
 LineageOS 22.2:
 ```
