@@ -450,6 +450,7 @@ definitions:
       - 21
       - 22.1
       - 22.2
+      - 23.0
     type: number
   valid_kernel_versions:
     enum:
