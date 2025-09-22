@@ -95,11 +95,38 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 6. Click `Advanced`, then `Enable ADB`.
 {%- endif %}
 {%- endif %}
+{%- if device.is_ab_rdap and device.is_ab_device %}
+4. Run this command to reboot into bootloader mode:
+    ```
+    adb -d reboot bootloader
+    ```
+    or by performing the following:
+    * {{ device.download_boot }}
+5. Flash the super_empty partition to retrofit dynamic partitions to your device (inserting the path to your `super_empty.img` file):
+    ```
+    fastboot wipe-super --slot=all /path/to/super_empty.img
+    ```
+    {% include alerts/note.html content="This process only needs to be performed if you are upgrading from LineageOS versions older than {{ device.is_ab_rdap_version }} that still utilize the legacy partition layout." %}
+    {% capture content -%}
+    If you get the following error: `fastboot: usage: unknown command wipe-super`, make sure [ADB and fastboot are updated to the latest version]({{ "adb_fastboot_guide.html" | relative_url }}). You need fastboot version 28.0.2 or greater.
+    {%- endcapture %}
+    {%- include alerts/note.html content=content %}
+6. Update to the latest [Lineage Recovery](https://download.lineageos.org/devices/{{ device.codename }}) image. Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
+Follow your [device's installation guide]({{ device | device_link: "/install" | relative_url }}) to upgrade your recovery image.
+7. While you are in bootloader mode, run this command to enter recovery mode:
+    ```
+    fastboot reboot recovery
+    ```
+    Or by performing the following:
+    * {{ device.recovery_boot }}
+8. Once you are in LineageOS recovery, select “Apply Update”, then “Apply from ADB” to put the device into sideload mode.
+{%- else %}
 4. Run:
     ```
     adb -d reboot sideload
     ```
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
+{%- endif %}
 5. Run (inserting the path to your LineageOS package):
     ```
     adb -d sideload /path/to/zip
