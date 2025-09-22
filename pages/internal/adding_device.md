@@ -168,6 +168,8 @@ There are some optional properties which you might not need, but in case you do,
 * `custom_unlock_cmd`: Used if the command to unlock your device via fastboot is different than `fastboot oem unlock`.
 * `format_on_upgrade`: Used if the device needs to wiped on major LineageOS version due to unfixable device specific issues.
 * `is_ab_device`: Used if the device has an A/B partition scheme.
+* `is_ab_rdap`: Used if the device utilizes a retrofitted dynamic A/B partition scheme.
+ - `is_ab_rdap_version`: Used to define the version on which dynamic partitions were retrofitted to the device.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
 * `quirks`: List of known quirks (make sure they aren't violating the [charter](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) or are exempted!). An array of one or more of the following (if unclear, click the links):
 
