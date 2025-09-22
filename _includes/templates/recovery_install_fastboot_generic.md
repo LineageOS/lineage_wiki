@@ -19,6 +19,9 @@
 1. [Build]({{ device | device_link: "build" | relative_url }}) a LineageOS installation package. The recovery will be built as part of it!
 {%- endif %}
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
+{%- if device.maintainers != empty and device.is_ab_rdap %}
+2. Your device utilizes retrofitted dynamic partitions (RDAP), so you'll also need to download the latest [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) file.
+{%- endif %}
 {%- if device.before_recovery_install.instructions != "boot_stack" %}
 2. Connect your device to your PC via USB if it isn't already.
 {%- if device.has_no_usb %}
@@ -44,6 +47,16 @@ fastboot devices
    * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable (preferably use a USB Type-A 2.0 one or a USB hub) and port!
 
    {% include alerts/tip.html content="Some devices have buggy USB support while in bootloader mode, if you see `fastboot` hanging with no output when using commands such as `fastboot getvar ...`, `fastboot boot ...`, `fastboot flash ...` you may want to try a different USB port (preferably a USB Type-A 2.0 one) or a USB hub." %}
+{%- endif %}
+{%- if device.is_ab_rdap %}
+6. Flash empty super image:
+```
+fastboot wipe-super --slot=all super_empty.img
+```
+    {% capture content -%}
+    If you get the following error: `fastboot: usage: unknown command wipe-super`, make sure [ADB and fastboot are updated to the latest version]({{ "adb_fastboot_guide.html" | relative_url }}). You need fastboot version 28.0.2 or greater.
+    {%- endcapture %}
+    {%- include alerts/note.html content=content %}
 {%- endif %}
 {%- if device.needs_fastboot_boot %}
 7. Temporarily boot recovery on your device:
