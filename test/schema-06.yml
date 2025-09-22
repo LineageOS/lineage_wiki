@@ -815,6 +815,12 @@ properties:
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean
+  is_ab_rdap:
+    "$id": "/properties/is_ab_rdap"
+    type: boolean
+  is_ab_rdap_version:
+    "$id": "/properties/is_ab_rdap_version"
+    "$ref": "#/definitions/valid_branches"
   is_unlockable:
     "$id": "/properties/is_unlockable"
     type: boolean
