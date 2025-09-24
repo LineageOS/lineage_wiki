@@ -16,6 +16,23 @@
       "message": "waiting on vendor manifest PR",
       "revId": "92b8aaab472f12e1260750539fdfc7782e06fc72",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "83eed5df_c1779ac5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T21:49:50Z",
+      "side": 1,
+      "message": "Muppets PR merged!",
+      "revId": "92b8aaab472f12e1260750539fdfc7782e06fc72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
