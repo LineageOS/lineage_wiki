@@ -158,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "b4438a4e_52d64acf",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:22:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1b4b6b73_93a0b5b9",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d0e3696d_ab0e1725",
