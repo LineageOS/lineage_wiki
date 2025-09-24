@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c06bd71_32ae6858",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n4. Run this command to reboot into bootloader mode:\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8bf02595_1ca62a85",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n5. Flash the super_empty partition to retrofit dynamic partitions to your device (inserting the path to your `super_empty.img` file):\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cd972962_aa14de6f",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n    {% include alerts/note.html content\u003d\"This process only needs to be performed once if you are upgrading from older LineageOS versions that still utilize the legacy partition layout.\" %}\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2c6408b1_dff441b5",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n7. While you are in bootloader mode, run this command to enter recovery mode:\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1b4b6b73_93a0b5b9",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n8. Once you are in LineageOS recovery, select “Apply Update”, then “Apply from ADB” to put the device into sideload mode..\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0e3696d_ab0e1725",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "```suggestion\n2. Your device utilizes retrofitted dynamic partitions (RDAP), so you\u0027ll also need to download the latest [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) file.\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

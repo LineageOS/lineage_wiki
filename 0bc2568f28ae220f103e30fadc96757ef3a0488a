@@ -141,6 +141,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "773c5f4f_d1cb0f65",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "918c01f4_b6f76675",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f1f48ecf_8d9e11a3",
@@ -172,6 +190,24 @@
       "side": 1,
       "message": "Removed",
       "parentUuid": "f1f48ecf_8d9e11a3",
+      "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "91ab7975_b9207f6a",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T03:49:58Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3c668919_0e9dbe82",
       "revId": "0bc2568f28ae220f103e30fadc96757ef3a0488a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
