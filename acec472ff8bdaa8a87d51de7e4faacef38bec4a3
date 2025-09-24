@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "da2711a0_7656ca40",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:18:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "6c06bd71_32ae6858",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8bf02595_1ca62a85",
@@ -31,6 +49,24 @@
       "writtenOn": "2025-09-24T03:49:58Z",
       "side": 1,
       "message": "```suggestion\n5. Flash the super_empty partition to retrofit dynamic partitions to your device (inserting the path to your `super_empty.img` file):\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b34d4cc4_3a2d668b",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:18:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8bf02595_1ca62a85",
       "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "dcfa1c12_c35e8af2",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:18:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "cd972962_aa14de6f",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "2c6408b1_dff441b5",
@@ -65,6 +119,24 @@
       "writtenOn": "2025-09-24T03:49:58Z",
       "side": 1,
       "message": "```suggestion\n7. While you are in bootloader mode, run this command to enter recovery mode:\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "199ac59d_45ae6a04",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 116,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:18:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "2c6408b1_dff441b5",
       "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -99,6 +171,24 @@
       "writtenOn": "2025-09-24T03:49:58Z",
       "side": 1,
       "message": "```suggestion\n2. Your device utilizes retrofitted dynamic partitions (RDAP), so you\u0027ll also need to download the latest [super_empty.img](https://download.lineageos.org/devices/{{ device.codename }}) file.\n```",
+      "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1d10ce26_c5d3a167",
+        "filename": "_includes/templates/recovery_install_fastboot_generic.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-09-24T04:18:48Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d0e3696d_ab0e1725",
       "revId": "acec472ff8bdaa8a87d51de7e4faacef38bec4a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
