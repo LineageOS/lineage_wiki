@@ -16,6 +16,24 @@
       "message": "And how does a user know about it?",
       "revId": "bf2ba6ff28bbd58b2a391c4d2a6d49a428900241",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "60edb3c7_36c017de",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-24T17:55:42Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "952818d9_c8dfcee4",
+      "revId": "bf2ba6ff28bbd58b2a391c4d2a6d49a428900241",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
