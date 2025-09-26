@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ef290ec4_d44fa51b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-09-26T06:40:57Z",
+      "side": 1,
+      "message": "the bot is broken... I uploaded a much better image and it shows the old one...",
+      "revId": "569df36c40b7b74343352fad100a5b54bf6a98d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
