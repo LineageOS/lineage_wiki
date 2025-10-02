@@ -20,7 +20,7 @@ image: borneo.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
-maintainers: [Fazwalrus]
+maintainers: [Syed Fawwaz Hussain (Fazwalrus), Deivid Ignacio Parra]
 models: [XT2117-4]
 name: moto g power 2021
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
