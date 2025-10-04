@@ -12,7 +12,7 @@ codename: oscar
 cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-current_branch: 22.2
+current_branch: 23.0
 dimensions: {depth: 8.5, height: 164.3, width: 75.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_realme_sm6375
@@ -41,5 +41,5 @@ type: phone
 variant: 3
 vendor: Realme
 vendor_short: realme
-versions: [21, 22.1, 22.2]
+versions: [21, 22.1, 22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac
