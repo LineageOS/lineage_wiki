@@ -357,7 +357,7 @@ Currently, only Intel GPUs (iGPU or dGPU) are supported.
 
 #### Additional build dependencies required for Intel Broadwell and later GPUs
 
-* Install the package `python3-ply` with this command:`python3 -m pip install ply`.
+* Install the package `python3-ply` with this command: `python3 -m pip install ply`.
 * Provide Intel OpenCL C compiler executable at `prebuilts/intel-clc/intel_clc`.
 
 #### Add GPU to the virtual machine
