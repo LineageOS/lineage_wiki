@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 506
 image: onclite_variant2.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_onclite, version: '4.9'}
-maintainers: [Dhina17]
+maintainers: []
 name: Redmi Y3
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, IR blaster, Proximity sensor, USB OTG]
