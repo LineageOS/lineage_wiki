@@ -12,7 +12,7 @@ codename: diting
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.19 GHz + 3 x 2.75 GHz + 4 x 1.8 GHz
-current_branch: 22.2
+current_branch: 23.0
 dimensions: {depth: 8.6, height: 163.1, width: 75.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 730
@@ -38,5 +38,5 @@ type: phone
 variant: 2
 vendor: Xiaomi
 vendor_short: xiaomi
-versions: [22.2]
+versions: [22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac/ax
