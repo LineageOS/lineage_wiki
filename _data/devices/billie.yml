@@ -22,7 +22,7 @@ image: billie.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm6350, version: '4.19'}
-maintainers: [danascape]
+maintainers: []
 models: [BE2029, BE2025, BE2026, BE2028]
 name: Nord N10
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
