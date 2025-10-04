@@ -13,7 +13,7 @@ codename: pdx235
 cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-current_branch: 22.2
+current_branch: 23.0
 dimensions: {depth: 8.3, height: 155, width: 68}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 619
@@ -39,5 +39,5 @@ tree: android_device_sony_pdx235
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [22.1, 22.2]
+versions: [22.1, 22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac
