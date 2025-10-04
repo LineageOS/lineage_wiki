@@ -11,7 +11,7 @@ codename: Pong
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.0 GHz + 3 x 2.5 GHz + 4 x 1.80 GHz
-current_branch: 22.2
+current_branch: 23.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.1, height: 162.1, width: 76.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -38,5 +38,5 @@ tree: android_device_nothing_Pong
 type: phone
 vendor: Nothing
 vendor_short: nothing
-versions: [22.2]
+versions: [22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac/ax
