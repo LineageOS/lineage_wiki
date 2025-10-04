@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa200489_3246944f",
+        "filename": "_data/devices/a21s.yml",
+        "patchSetId": 6
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-04T21:51:18Z",
+      "side": 1,
+      "message": "sigh.",
+      "revId": "fcc2d9db8fd637227b21b3ffacec6f8f2e2856d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
