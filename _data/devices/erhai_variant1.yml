@@ -10,7 +10,7 @@ codename: erhai
 cpu: Oryon
 cpu_cores: '8'
 cpu_freq: 2 x 4.32 GHz + 6 x 3.53 GHz
-current_branch: 22.2
+current_branch: 23.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 6, height: 289.6, width: 209.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -37,5 +37,5 @@ type: tablet
 variant: 1
 vendor: OnePlus
 vendor_short: oneplus
-versions: [22.2]
+versions: [22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac/ax/be
