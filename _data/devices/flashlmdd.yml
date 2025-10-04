@@ -22,7 +22,7 @@ install_method: dd
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sm8150, version: '4.14'}
-maintainers: [lifehackerhansol]
+maintainers: []
 models: [LM-V500EM, LM-V500N]
 name: V50 ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE]
