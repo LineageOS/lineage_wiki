@@ -1,7 +1,7 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '13'}
-before_recovery_install: g12
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtb, dtbo]}
 bluetooth: {spec: '4.2'}
 cameras: []
 codename: deadpool
