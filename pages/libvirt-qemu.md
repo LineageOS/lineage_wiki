@@ -12,6 +12,7 @@ permalink: libvirt-qemu.html
 Please note the following list of known issues with the `virtio_*` targets:
 
 * Display color (only with Swiftshader graphics selected)
+* Display freeze (occurs randomly, on `lineage-23.0` branch)
 * Video playback (by default with Mesa graphics, which is the most common use case)
 
 ## Introduction
@@ -32,6 +33,7 @@ The following branches are currently supported for building image for libvirt QE
 * lineage-22.0
 * lineage-22.1
 * lineage-22.2
+* lineage-23.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
