@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f5d0423_149c8e01",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-14T15:55:50Z",
+      "side": 1,
+      "message": "leave positive votes when ready, also Hudson needs an update to reflect this in devices.json",
+      "revId": "7ea663b7b5ecbeccfccc4736b2a25a155fc7376f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
