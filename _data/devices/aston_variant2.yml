@@ -24,8 +24,8 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8550, version: '5.15'}
 maintainers: [inferno0230]
-models: [CPH2585, CPH2609, CPH2611, PJE110]
-name: '12R'
+models: [PJE110]
+name: 'ACE 3'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, IR blaster, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 8/12/16 GB LPDDR5X
@@ -34,9 +34,10 @@ recovery_reboot: fastboot_menu
 release: 2024-01
 screen: {refresh_rate: 120, resolution: '1264x2780', size: 6.78, technology: 'LTPO AMOLED'}
 soc: Qualcomm SM8550 Snapdragon 8 Gen2
-storage: 128/256 GB UFS3.1 (12R) / 256/512/1024 GB UFS4.0 (ACE 3)
+storage: 256/512/1024 GB UFS4.0
 tree: android_device_oneplus_aston
 type: phone
+variant: 2
 vendor: OnePlus
 vendor_short: oneplus
 versions: [22.2, 23.0]
