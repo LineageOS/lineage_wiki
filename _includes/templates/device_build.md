@@ -70,16 +70,16 @@ This step requires to have a device already running the latest LineageOS, based 
 {% include alerts/note.html content=extracting_blobs_from_zips %}
 
 Now ensure your {{ device.vendor }} {{ device.name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
-`~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder. Then run either the `extract-files.sh` or `extract-files.py` script:
+`~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` folder.
 
-```
-./extract-files.sh
-```
-
-Or, for the Python script:
-
+If you are building LineageOS 22 or newer, run `extract-files.py`:
 ```
 ./extract-files.py
+```
+
+If you are building LineageOS 21 or older, run `extract-files.sh`.
+```
+./extract-files.sh
 ```
 
 The blobs should be pulled into the `~/android/lineage/vendor/{{ device.vendor_short }}` folder. If you see "command not found" errors, `adb` may

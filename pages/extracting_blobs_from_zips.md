@@ -5,105 +5,73 @@ permalink: extracting_blobs_from_zips.html
 ---
 ## Introduction
 
-Proprietary blobs can be extracted either from a device already running LineageOS or from a LineageOS installable zip. In this guide we will describe the steps required to extract proprietary files from installable zips.
-
-Before beginning, it is required to know the difference between the types of OTAs:
-
-* **Block-based OTA**: the content of the system partition is stored inside of an `.dat`/`.dat.br` file as binary data.
-
-* **File-based OTA**: the content of the system partition is available inside a folder of the zip named `system`.
-
-* **Payload-based OTA**: the content of the system partition is stored as an `.img` file inside of `payload.bin`.
-
-If your zip has no `system` folder or it is nearly empty and a file named `system.transfer.list` exists at the root level, then what you have is a block-based OTA. Jump to [Extracting proprietary blobs from block-based OTAs](#extracting-proprietary-blobs-from-block-based-otas) in this case.
-
-If you have the entire content of the system partition inside the `system` folder and no `system.transfer.list`, then what you have is a file-based OTA. See [Extracting proprietary blobs from file-based OTAs](#extracting-proprietary-blobs-from-file-based-otas).
-
-If your zip has a `payload.bin` file in it, you have a payload-based OTA, which is used if your device has an A/B partitioning system. If so, jump to [Extracting proprietary blobs from payload-based OTAs](#extracting-proprietary-blobs-from-payload-based-otas).
-
-## Extracting proprietary blobs from block-based OTAs
-
-Some block-based OTAs are split into multiple files, each for separate partitions like system, vendor, product, oem, odm and others. You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LineageOS zip.
-
-If you have a split block-based OTA file then you will need to extract, decompress and convert each one in a similar manner to system and vendor as outlined below.
-
-If you do not have a split OTA file, you may skip any step that references `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat`
-
 Create a temporary directory and move there:
-
 ```
-mkdir ~/android/system_dump/
+mkdir -p ~/android/system_dump/
 cd ~/android/system_dump/
 ```
 
-Extract `system.transfer.list` and `system.new.dat.br` or `system.new.dat` from the installable LineageOS zip:
-
+Extract all files from the installable LineageOS zip:
 ```
-unzip path/to/lineage-*.zip system.transfer.list system.new.dat*
+unzip path/to/lineage-*.zip
 ```
-where `path/to/` is the path to the installable zip.
 
-If your OTA includes `vendor.transfer.list` and `vendor.new.dat.br` or `vendor.new.dat` (or others), extract them from the installable LineageOS zip as well:
-
+If you are building LineageOS 22 or newer, move to the directory of your device:
 ```
-unzip ~/path/to/lineage-*.zip vendor.transfer.list vendor.new.dat*
+cd ~/android/lineage/device/vendor_name/device_name/
 ```
-where `~/path/to/` is the path to the installable zip.
+Run `extract-files.py`:
+```
+./extract-files.py ~/android/system_dump/
+```
+And remove the temporary directory:
+```
+rm -rf ~/android/system_dump/
+```
 
-In the case that `system.new.dat.br`/`vendor.new.dat.br`/`super.new.dat.br`/etc. exists (a [brotli](https://en.wikipedia.org/wiki/Brotli) archive), you will first need to decompress them using the `brotli` utility:
+If you are building LineageOS 21 or older, continue with the rest of this guide.
 
+Now, you need to determine the type of OTA for your device:
+
+* **Block-based OTA**: the content is stored in `*.dat*` files as binary data.
+* **File-based OTA**: the content is stored in the `system` directory.
+* **Payload-based OTA**: the content is stored in `*.img` files inside `payload.bin`.
+
+If your zip has `*.transfer.list` files, then you have a block-based OTA. Jump to [Extracting files from block-based OTAs](#extracting-files-from-block-based-otas).
+
+If your zip has no `*.transfer.list` files and all files are in `system` directory, then you have a file-based OTA. All files are already extracted, jump to [Finishing](#finishing).
+
+If your zip has a `payload.bin` file, then you have a payload-based OTA. Jump to [Extracting files from payload-based OTAs](#extracting-files-from-payload-based-otas).
+
+## Extracting files from block-based OTAs
+
+Some block-based OTAs are split into multiple files, each for separate partitions like system, vendor, product, oem, odm and others. You can verify if yours is split by looking for the corresponding `*.transfer.list` files for each in the root of the installable LineageOS zip.
+
+If you have a split block-based OTA file, you will need to decompress, extract and mount each file as described below.
+
+If files are compressed with [brotli](https://en.wikipedia.org/wiki/Brotli) `*.br`, you need to decompress them using the `brotli` utility:
 ```
 sudo apt install brotli
 brotli --decompress --output=system.new.dat system.new.dat.br
 ```
 
-And if you have a `vendor.dat.new.br` (or others) file:
-
-```
-brotli --decompress --output=vendor.new.dat vendor.new.dat.br
-```
-
 You now need to get a copy of `sdat2img`. This script can convert the content of block-based OTAs into dumps that can be mounted. `sdat2img` is available at the following git repository that you can clone with:
-
 ```
-git clone https://github.com/xpirt/sdat2img
+git clone https://github.com/xpirt/sdat2img.git
 ```
 
 Once you have obtained `sdat2img`, use it to extract the system image:
-
 ```
-python sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
+sdat2img/sdat2img.py system.transfer.list system.new.dat system.img
 ```
 
 You should now have a file named `system.img` that you can mount as follows:
-
 ```
-mkdir system/
-sudo mount system.img system/
-```
-
-And if you have a `vendor.dat.new` (or others) file:
-
-```
-python sdat2img/sdat2img.py vendor.transfer.list vendor.new.dat vendor.img
+mkdir -p system/
+sudo mount -r system.img system/
 ```
 
-If you have a file named `vendor.img`, or similar, you can mount them as follows:
-
-```
-sudo rm system/vendor
-sudo mkdir system/vendor
-sudo mount vendor.img system/vendor/
-```
-
-Unlike the above, if you have a `super.dat.new` file:
-
-```
-python sdat2img/sdat2img.py super.transfer.list super.new.dat super.img
-```
-
-You will now have a file named `super.img`, You need to get a copy of `lpunpack` to extract images from it. This script can extract the content of the Super partition into it's respective component partitions that can be mounted. Luckily, `lpunpack` is easily buildable, executing the following from a LineageOS 17.1 or greater tree:
-
+Unlike the above, if you have a `super.img` file, you need to get a copy of `lpunpack` to extract images from it. This script can extract the content of the Super partition into it's respective component partitions that can be mounted. Luckily, `lpunpack` is easily buildable, executing the following from a LineageOS 17.1 or greater tree:
 ```
 source build/envsetup.sh
 breakfast your_device_codename
@@ -111,142 +79,54 @@ m lpunpack
 ```
 
 Once you have built `lpunpack`, use it to extract the super image:
-
 ```
-lpunpack super.img /output/dir
-```
-
-You must also now mount any other image files that you have in their respective directories as shown above with `vendor.img`.
-
-After you have mounted the image(s), move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
-
-```
-./extract-files.sh ~/android/system_dump/
+lpunpack super.img
 ```
 
-Or, for the Python script:
-```
-./extract-files.py ~/android/system_dump/
-```
+Now jump to [Finishing](#finishing).
 
-This will tell the extract-files script to get the files from the mounted system dump rather than from a connected device.
-
-Once you've extracted all the proprietary files, unmount the vendor dump if you mounted it earlier:
-
-```
-sudo umount ~/android/system_dump/system/vendor
-```
-
-Then unmount the system dump:
-
-```
-sudo umount ~/android/system_dump/system
-```
-
-Finally, unmount any other images before deleting the no longer needed files:
-
-```
-rm -rf ~/android/system_dump/
-```
-
-## Extracting proprietary blobs from file-based OTAs
-
-Create a temporary directory to extract the content of the zip and move there:
-
-```
-mkdir ~/android/system_dump/
-cd ~/android/system_dump/
-```
-
-Extract the `system` folder from the zip:
-
-```
-unzip ~/path/to/lineage-*.zip system/*
-```
-where `~/path/to/` is the path to the installable zip.
-
-After you have extracted the `system` folder, move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
-
-```
-./extract-files.sh ~/android/system_dump/
-```
-
-Or, for the Python script:
-```
-./extract-files.py ~/android/system_dump/
-```
-
-This will tell the extract-files script to get the files from the extracted system dump rather than from a connected device.
-
-Once you've extracted all the proprietary files, you can delete the files that were extracted from the zip:
-
-```
-rm -rf ~/android/system_dump/
-```
-
-## Extracting proprietary blobs from payload-based OTAs
-
-Create a temporary directory to extract the contents of the zip and move there:
-
-```
-mkdir ~/android/system_dump/
-cd ~/android/system_dump/
-```
+## Extracting files from payload-based OTAs
 
 To use the payload.bin extractor you will need python3-protobuf, if you do not already have it:
-
 ```
 sudo apt install python3-protobuf
 ```
 
-You will now clone the repos needed to use the payload.bin extractor:
-
+Clone the repos needed to use the payload.bin extractor:
 ```
-git clone https://github.com/LineageOS/android_prebuilts_extract-tools android/prebuilts/extract-tools
-git clone https://github.com/LineageOS/android_tools_extract-utils android/tools/extract-utils
-git clone https://github.com/LineageOS/android_system_update_engine android/system/update_engine
-```
-
-Extract the the payload.bin that's inside the lineage-*.zip:
-
-```
-unzip ~/path/to/lineage-*.zip
-```
-where `~/path/to/` is the path to the installable zip.
-
-Now, extract the the `.img` files inside the payload.bin:
-
-```
-./android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
+git clone https://github.com/LineageOS/android_prebuilts_extract-tools.git android/prebuilts/extract-tools
+git clone https://github.com/LineageOS/android_tools_extract-utils.git android/tools/extract-utils
+git clone https://github.com/LineageOS/android_system_update_engine.git android/system/update_engine
 ```
 
-It will take a few moments. Once it's done, we will need to mount the `system.img` file, and the `vendor.img`, `odm.img`, `product.img`, and `system_ext.img` files if they exist, to obtain the complete set of proprietary blobs:
-
+Now, extract the the `.img` files from payload.bin:
 ```
-mkdir system/
-sudo mount -o ro system.img system/
-sudo mount -o ro vendor.img system/vendor/
-sudo mount -o ro odm.img system/odm/
-sudo mount -o ro product.img system/product/
-sudo mount -o ro system_ext.img system/system_ext/
+android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
 ```
 
-Move to the root directory of the sources of your device and run `extract-files.sh` or `extract-files.py` as follows:
+It will take a few moments. Once it's done, you will need to mount all images. First, mount `system.img`:
+```
+mkdir -p system/
+sudo mount -r system.img system/
+```
 
+Then, mount all other images like this:
+```
+sudo mount -r name.img system/name/
+```
+
+## Finishing
+
+Move to the root directory of the sources of your device `~/android/lineage/device/vendor_name/device_name/` and run `extract-files.sh` as follows:
 ```
 ./extract-files.sh ~/android/system_dump/
 ```
 
-Or, for the Python script:
+If you mounted any images, unmount them:
 ```
-./extract-files.py ~/android/system_dump/
+sudo umount -R ~/android/system_dump/
 ```
-
-This will tell extract-files script to extract the proprietary blobs from the mounted system dump rather than a connected device.
-
-Once it is done, unmount the system dump and remove the now unnecessary files:
-
+And remove the temporary directory:
 ```
-sudo umount -R ~/android/system_dump/system/
 rm -rf ~/android/system_dump/
 ```
