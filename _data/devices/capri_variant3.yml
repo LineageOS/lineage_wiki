@@ -21,7 +21,7 @@ image: capri.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
-maintainers: [Deivid Ignacio Parra, Sultanahamer]
+maintainers: [Deivid Ignacio Parra (Deivid21), Sultanahamer]
 models: [XT2127-3]
 name: K13 Note
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
