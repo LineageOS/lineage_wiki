@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41810471_bb0deced",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-10-16T06:33:54Z",
+      "side": 1,
+      "message": "Comment valid for all files",
+      "revId": "b507f6c37623d9af5c57c0e9812f767181d1932d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "569712be_309ba367",
+        "filename": "_data/devices/caprip_variant1.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-10-16T06:33:54Z",
+      "side": 1,
+      "message": "We usually use nicknames",
+      "revId": "b507f6c37623d9af5c57c0e9812f767181d1932d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
