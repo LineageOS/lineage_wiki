@@ -34,6 +34,24 @@
       "parentUuid": "950366d2_83c3a6b2",
       "revId": "8ed8cb63ed862f89fbda2538efefe7f6114ff850",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0abd774_a7f5f07a",
+        "filename": "_data/devices/avalon.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-17T07:45:25Z",
+      "side": 1,
+      "message": "hopefully you tested it too",
+      "parentUuid": "5d0486e7_30545843",
+      "revId": "8ed8cb63ed862f89fbda2538efefe7f6114ff850",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
