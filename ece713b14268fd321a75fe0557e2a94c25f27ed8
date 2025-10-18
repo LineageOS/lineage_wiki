@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "36187765_00fa936c",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-18T10:10:26Z",
+      "side": 1,
+      "message": "This isn\u0027t true for all devices.",
+      "revId": "ece713b14268fd321a75fe0557e2a94c25f27ed8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
