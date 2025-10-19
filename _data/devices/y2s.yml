@@ -24,7 +24,7 @@ maintainers: [ExtremeXT, fcuzzocrea]
 models: [SM-G985F, SM-G985F/DS, SM-G986B, SM-G986B/DS]
 name: Galaxy S20+ (4G/5G)
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Barometer, Compass, Depth Sensor, DP over USB-C, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Stereo speakers, USB OTG, Qi wireless charging, Qi reverse wireless charging]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, DP over USB-C, Depth Sensor, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, USB OTG]
 quirks: [esim, ims]
 ram: 8 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
