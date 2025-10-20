@@ -51,6 +51,24 @@
       "parentUuid": "569712be_309ba367",
       "revId": "b507f6c37623d9af5c57c0e9812f767181d1932d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a383ea2_8a5370be",
+        "filename": "_data/devices/caprip_variant1.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2025-10-20T14:42:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bb34fcfb_ddb34a62",
+      "revId": "b507f6c37623d9af5c57c0e9812f767181d1932d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
