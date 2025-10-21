@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54343b18_e8440f05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-21T09:07:45Z",
+      "side": 1,
+      "message": "fuxi has firmware links and fw update guide, why this one doesn\u0027t?",
+      "revId": "3fae246f83cd690f4eda77606a8228c6ac607987",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
