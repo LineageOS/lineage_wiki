@@ -16,6 +16,24 @@
       "message": "fuxi has firmware links and fw update guide, why this one doesn\u0027t?",
       "revId": "3fae246f83cd690f4eda77606a8228c6ac607987",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "641f76b0_4abc20e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35546
+      },
+      "writtenOn": "2025-10-21T16:16:49Z",
+      "side": 1,
+      "message": "I don\u0027t know why they put that, the rom already includes the Fw, we have it in the vendor in the radio/ folder, I\u0027ll put it up in a bit anyway",
+      "parentUuid": "54343b18_e8440f05",
+      "revId": "3fae246f83cd690f4eda77606a8228c6ac607987",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
