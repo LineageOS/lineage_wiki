@@ -26,10 +26,20 @@ def validate_json(schema, device_json, device_path)
   end
 end
 
-def validate_image(path, device_path)
-  unless File.file?(path)
+def validate_image(path, device_path, size)
+  if !File.file?(path)
     puts "Missing image #{to_relative_path(path)} specified in #{to_relative_path(device_path)}"
     at_exit { exit false }
+  elsif File.extname(path) != ".png"
+    puts "Invalid image #{to_relative_path(path)} extension specified in #{to_relative_path(device_path)}"
+    at_exit { exit false }
+  else
+    resolution = File.binread(path, 24)[0x10..0x18].unpack('NN')
+
+    if resolution[0] > size || resolution[1] > size
+      puts "Image #{to_relative_path(path)} resolution #{resolution[0]}x#{resolution[1]} exceeds #{size}x#{size}"
+      at_exit { exit false }
+    end
   end
 end
 
@@ -165,7 +175,7 @@ Dir.entries(device_dir).sort.each do |filename|
     end
 
     image = device_json["image"]
-    validate_image(device_image_dir + image, device_path)
-    validate_image(device_image_small_dir + image, device_path)
+    validate_image(device_image_dir + image, device_path, 500)
+    validate_image(device_image_small_dir + image, device_path, 150)
   end
 end
