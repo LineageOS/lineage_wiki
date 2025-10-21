@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28bb4270_1d919de7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-10-21T04:39:43Z",
+      "side": 1,
+      "message": "images are wrong size.  did u run through the script?\nhttps://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "9e31a58af950659f696595e7b6edbd2326359422",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
