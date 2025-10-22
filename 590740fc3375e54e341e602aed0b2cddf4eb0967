@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3518d361_446b3184",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-22T17:12:10Z",
+      "side": 1,
+      "message": "Ugh honestly, I .don\u0027t think this is right still. No fault of yours, we don\u0027t document it well\n\nIf the `.py` version is there - you literally just need to point your `./extract-files.py ~/path/to/lineage-whatever.zip` and it\u0027ll do it all. Regardless of type. WE can abstract that to the user even.\n\nWe should have a \"23.0 and above, or extract-files.py is present\" page, and a \"bash extract utils\" page that has all this legacy dump it yourself stuff. maybe like we set up gapps and gapps_old? something like that",
+      "revId": "590740fc3375e54e341e602aed0b2cddf4eb0967",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
