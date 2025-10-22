@@ -41,10 +41,10 @@ toc: false
 
 #### Bootloop
 
-- A word indicating that the device never reaches the end of its boot phase and continually starts over
+- A state in which the device never reaches the end of it's boot phase and continually starts over
 - Useless when used in describing an error, since there are many points in time during a device boot where it might abort and start over, e.g.
   - At the vendor splash logo
-  - Looping the LineageOS bootanimation (a green circle moving across a line on the screen) endlessly
+  - At the LineageOS bootanimation (a green circle moving across a line on the screen)
   - Reaching the lock screen or setup screen but immediately restarting
   - etc.
 
