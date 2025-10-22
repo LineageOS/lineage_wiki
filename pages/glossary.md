@@ -31,6 +31,10 @@ toc: false
   window.onhashchange = locationHashChanged;
 </script>
 
+#### ASB (Android Security Bulletin)
+
+- A quarterly bundle of newly fixed security vulnerabilities across the Android ecosystem. Distributed as a list of patches and security branch updates for older but still supported Android versions, with the current version tagged quarterly.
+
 #### Bootloader
 
 - A general term for a link in the boot-chain that is run each cold-boot which loads the kernel, OS, and related components.
@@ -80,6 +84,10 @@ toc: false
 #### OEM
 
 - Original Equipment Manufacturer, the one who sells and manages software on a given device (e.g. Samsung, Motorola, Google)
+
+#### QPR (Quarterly Platform Release)
+
+- Mid-cycle updates to a given Android version, landing every few months. QPRs bring not just security fixes but also bug fixes, performance improvements, and feature changes.
 
 #### Root
 
