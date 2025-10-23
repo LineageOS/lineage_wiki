@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e91850ac_742f7f2d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-23T16:12:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f81e836_5852dafb",
+      "revId": "175db5aa447f4094d29f43fc773381344086437b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0e353c16_1935c005",
@@ -48,6 +66,42 @@
       "writtenOn": "2025-10-23T13:05:32Z",
       "side": 1,
       "message": "```suggestion\n  - At the LineageOS bootanimation (three white circles rotating on the screen)\n```",
+      "revId": "175db5aa447f4094d29f43fc773381344086437b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "74014a23_3e3aa595",
+        "filename": "pages/glossary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-23T16:12:41Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "9baaaa19_c535b21d",
+      "revId": "175db5aa447f4094d29f43fc773381344086437b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "28630298_23d100f5",
+        "filename": "pages/glossary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-23T16:12:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0e353c16_1935c005",
       "revId": "175db5aa447f4094d29f43fc773381344086437b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
