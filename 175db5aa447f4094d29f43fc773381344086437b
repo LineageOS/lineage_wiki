@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0e353c16_1935c005",
+        "filename": "pages/glossary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 34512
+      },
+      "writtenOn": "2025-10-23T08:49:40Z",
+      "side": 1,
+      "message": "this could be updated for the newer boot animation with rotating circles?",
+      "revId": "175db5aa447f4094d29f43fc773381344086437b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
