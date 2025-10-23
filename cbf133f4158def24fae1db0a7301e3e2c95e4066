@@ -16,6 +16,24 @@
       "message": "```suggestion\n- A quarterly bundle of newly fixed security vulnerabilities across the Android codebase. Distributed as a list of patches and security branch updates for older but still supported Android versions, with the current version tagged quarterly.\n```",
       "revId": "cbf133f4158def24fae1db0a7301e3e2c95e4066",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9ac976_1a355a9f",
+        "filename": "pages/glossary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-10-23T16:15:00Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "95126350_0044817d",
+      "revId": "cbf133f4158def24fae1db0a7301e3e2c95e4066",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
