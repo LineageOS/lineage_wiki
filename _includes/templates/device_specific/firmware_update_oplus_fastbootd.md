@@ -11,7 +11,20 @@
    {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
 5. Execute following commands:
    ```
-   {{- include.content -}}
+   {%- assign extra = "fastboot flash --slot=all oplusstanvbk oplusstanvbk.img" -%}
+
+   {%- if device.type != 'tablet' -%}
+   {%- assign merged = include.content | append: "\n" | append: extra -%}
+   {%- else -%}
+   {%- assign merged = include.content -%}
+   {%- endif -%}
+
+   {%- assign lines = merged | split: "\n" | sort -%}
+   {%- for line in lines -%}
+   {%- if line != "" -%}
+   {{ line }}
+   {%- endif -%}
+   {%- endfor -%}
    ```
 
 {% include snippets/fw_update_success.md %}
