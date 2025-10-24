@@ -10,8 +10,18 @@
 4. Go to "Advanced" -> "Enter fastboot"
    {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
 5. Execute following commands:
+{% capture merged %}
+{{ include.content }}
+{% if device.network != 'None' %}
+fastboot flash --slot=all oplusstanvbk oplusstanvbk.img
+{% endif %}
+{% endcapture %}
+
+{% assign lines = merged | strip | split: "\n" | sort %}
    ```
-   {{- include.content -}}
+   {%- for line in lines -%}
+   {{ line }}
+   {%- endfor -%}
    ```
 
 {% include snippets/fw_update_success.md %}

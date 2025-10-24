@@ -10,7 +10,6 @@ fastboot flash --slot=all imagefv imagefv.img
 fastboot flash --slot=all keymaster keymaster.img
 fastboot flash --slot=all logo logo.img
 fastboot flash --slot=all modem modem.img
-fastboot flash --slot=all oplusstanvbk oplusstanvbk.img
 fastboot flash --slot=all qupfw qupfw.img
 fastboot flash --slot=all rpm rpm.img
 fastboot flash --slot=all tz tz.img

@@ -13,7 +13,6 @@ fastboot flash --slot=all imagefv imagefv.img
 fastboot flash --slot=all keymaster keymaster.img
 fastboot flash --slot=all modem modem.img
 fastboot flash --slot=all oplus_sec oplus_sec.img
-fastboot flash --slot=all oplusstanvbk oplusstanvbk.img
 fastboot flash --slot=all qupfw qupfw.img
 fastboot flash --slot=all shrm shrm.img
 fastboot flash --slot=all splash splash.img
