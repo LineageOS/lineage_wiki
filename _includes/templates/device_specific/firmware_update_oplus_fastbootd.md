@@ -1,5 +1,11 @@
 {% include alerts/warning.html content="These instructions are NOT for carrier branded variants." %}
 
+{% if device.network == 'None' %}
+{% assign commands = include.content | remove_line: "fastboot flash --slot=all oplusstanvbk oplusstanvbk.img" %}
+{% else %}
+{% assign commands = include.content %}
+{% endif %}
+
 {%- if device.before_install.instructions == "needs_specific_android_fw" and device.before_install.version -%}
 1. Download the latest **Android {{ device.before_install.version }}** full stock ROM update from [Oxygen Updater](https://github.com/oxygen-updater/oxygen-updater/releases/latest)
 {%- else -%}
@@ -11,7 +17,7 @@
    {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
 5. Execute following commands:
    ```
-   {{- include.content -}}
+   {{- commands -}}
    ```
 
 {% include snippets/fw_update_success.md %}
