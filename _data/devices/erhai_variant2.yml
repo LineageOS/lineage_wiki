@@ -14,7 +14,7 @@ current_branch: 23.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 6, height: 289.6, width: 209.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_oplus_sm8750
+firmware_update: firmware_update_oplus_sm8750_wifi_only
 gpu: Qualcomm Adreno 830
 image: erhai.png
 install_method: fastboot_nexus
