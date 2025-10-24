@@ -16,6 +16,24 @@
       "message": "```suggestion\n   {% if device.network !\u003d \u0027None\u0027 %}\n```",
       "revId": "5f98c6d9116057927edf698dc6268410f35e1746",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "70419f62_191af9ed",
+        "filename": "_includes/templates/device_specific/firmware_update_oplus_fastbootd.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-24T21:59:34Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "eea12504_1b7b8d96",
+      "revId": "5f98c6d9116057927edf698dc6268410f35e1746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
