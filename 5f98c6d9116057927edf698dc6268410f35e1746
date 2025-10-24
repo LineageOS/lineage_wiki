@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eea12504_1b7b8d96",
+        "filename": "_includes/templates/device_specific/firmware_update_oplus_fastbootd.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-10-24T21:57:43Z",
+      "side": 1,
+      "message": "```suggestion\n   {% if device.network !\u003d \u0027None\u0027 %}\n```",
+      "revId": "5f98c6d9116057927edf698dc6268410f35e1746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
