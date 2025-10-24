@@ -34,6 +34,24 @@
       "parentUuid": "e57e61b6_8df5d784",
       "revId": "74d68c70a65942aea6a9ac866c053924c1729279",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8beff192_f21ccd97",
+        "filename": "_includes/templates/device_specific/firmware_update_oplus_sm8750.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-10-24T21:10:35Z",
+      "side": 1,
+      "message": "Aware.",
+      "parentUuid": "e27ba07a_36d4d317",
+      "revId": "74d68c70a65942aea6a9ac866c053924c1729279",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
