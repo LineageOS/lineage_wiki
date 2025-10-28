@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 5100, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '16'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '48 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '13 MP (ultrawide)'}
+  - {flash: None, info: '13 MP (front)'}
+codename: tegu
+cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
+cpu_cores: '8'
+cpu_freq: 1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz
+current_branch: 23.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.5, height: 152.8, width: 72}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G715 MP7
+image: tegu.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {version: '6.1'}
+maintainers: [mikeioannina]
+name: Pixel 9a
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NavIC, NFC, Proximity sensor, Qi wireless charging, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2025-04-10
+screen: {refresh_rate: 120, resolution: '1080x2424', size: 6.3, technology: 'P-OLED'}
+soc: Google Tensor G4
+storage: 128/256 GB
+tree: android_device_google_tegu
+type: phone
+vendor: Google
+vendor_short: google
+versions: [23.0]
+wifi: 802.11 a/b/g/n/ac/ax/be
