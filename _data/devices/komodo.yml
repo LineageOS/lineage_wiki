@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 5060, removable: False, tech: 'Li-Ion'}
-before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '15'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: True, version: '16'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_kernel_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
@@ -12,7 +12,7 @@ codename: komodo
 cpu: Cortex-X4 & Cortex-A720 & Cortex-A520
 cpu_cores: '8'
 cpu_freq: 1 x 3.1 GHz + 3 x 2.6 GHz + 4 x 1.92 GHz
-current_branch: 22.2
+current_branch: 23.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.5, height: 162.8, width: 76.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
@@ -37,5 +37,5 @@ tree: android_device_google_komodo
 type: phone
 vendor: Google
 vendor_short: google
-versions: [22.1, 22.2]
+versions: [22.1, 22.2, 23.0]
 wifi: 802.11 a/b/g/n/ac/ax/be
