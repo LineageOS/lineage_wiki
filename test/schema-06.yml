@@ -110,6 +110,7 @@ definitions:
       - ARM Mali-G710 MC10
       - ARM Mali-G710 MP7
       - ARM Mali-G715 MC7
+      - ARM Mali-G715 MP7
       - ARM Mali-G715s MC10
       - ARM Mali-T604 MP4
       - ARM Mali-T628 MP6
