@@ -7,6 +7,8 @@
           - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install LineageOS again_. This information should be listed on the device's wiki page.
           - Your recovery is outdated. _Flash the newest available version of the recommended recovery image for your device_.
         - If your error still persists after confirming these are not causing your issue, ask someone for help on IRC [#lineageos@Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos) or on the [subreddit](http://reddit.com/r/lineageos) and provide a recovery log.
+    - question: "How can I install the Google apps package after installing and booting LineageOS?"
+      response: "If you have already booted LineageOS, you will need to perform a factory reset, then sideload the recommended Google apps package before booting LineageOS again."
     - question: "Where does the updater app store the downloaded zip?"
       response: "`/data/lineageos_updates/`"
     - question: "Can/should I relock my bootloader?"
@@ -72,6 +74,8 @@
       response: |
         - We only provide help for officially supported devices for which we provide our own guides. Follow those instead!
         - If you follow the official guide for your device line-by-line and still experience issues, feel free to ask again.
+    - question: "My notifications do not work!"
+      response: "Push notifications require Gapps or MicroG. When using MicroG you will need to enable GCM (Google Cloud Messaging) in MicroG's settings."
 - "advanced topics":
     - question: "Mirrors? Why don’t you use torrents? Or IPFS? Or carrier pigeons?"
       response: |
