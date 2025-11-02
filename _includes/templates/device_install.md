@@ -147,11 +147,11 @@ There are no recovery installation instructions for this discontinued device.
     ```
 {%- endif %}
 {%- if current_branch >= 20 and device.is_ab_device %}
-        {% include alerts/specific/tip_ab_reboot_recovery.html %}
+    {% include alerts/specific/tip_ab_reboot_recovery.html %}
 {%- endif %}
 {%- if device.has_no_usb %}
 {%- else %}
-        {% include alerts/specific/tip_adb_flash_success.html %}
+    {% include alerts/specific/tip_adb_flash_success.html %}
 {%- endif %}
 {%- endif %}
 
