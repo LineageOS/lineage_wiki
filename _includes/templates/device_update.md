@@ -41,6 +41,7 @@
 2. Enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}) on your device. Additionally, open Settings, then "System", then "Developer Options", and then either check "Rooted Debugging" (LineageOS 17.1 or above) or select "Root Access Options", then "ADB Only".
 5. Run: `adb -d reboot sideload`
 6. Run: `adb -d sideload /path/to/zip`
+   {% include alerts/specific/verification_note.html -%}
 {% if device.uses_twrp %}
 7. Run: `adb -d reboot`
 {% else %}

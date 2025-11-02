@@ -131,6 +131,7 @@ There are no recovery installation instructions for this discontinued device.
     adb -d sideload /path/to/zip
     ```
         {% include alerts/specific/tip_adb_flash_success.html %}
+        {% include alerts/specific/verification_note.html %}
 {%- else %}
 3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
@@ -145,6 +146,8 @@ There are no recovery installation instructions for this discontinued device.
     ```
     adb -d sideload /path/to/zip
     ```
+    {% include alerts/specific/verification_note.html %}
+
 {%- endif %}
 {%- if current_branch >= 20 and device.is_ab_device %}
     {% include alerts/specific/tip_ab_reboot_recovery.html %}
