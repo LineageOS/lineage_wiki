@@ -135,6 +135,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
     adb -d sideload /path/to/zip
     ```
     {% include alerts/specific/tip_adb_flash_success.html %}
+    {% include alerts/specific/verification_note.html %}
 {%- if device.is_ab_device and device.uses_twrp %}
 6. _(Optionally)_: If you want to install any add-ons, run:
     ```
