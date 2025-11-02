@@ -1,0 +1,6 @@
+{% if device.uses_twrp != true -%}
+{% capture content -%}
+If signature verification fails, that means the image you are trying to flash is either corrupted, or not an official LineageOS image. Please redownload the image.
+{%- endcapture %}
+{%- include alerts/note.html content=content %}
+{%- endif %}
