@@ -50,6 +50,57 @@
       "message": "\"Your chosen\" - nope, we don\u0027t really intend to this being a choice. -\u003e \"the recommended\"",
       "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d625d7b7_c182a115",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:19:11Z",
+      "side": 1,
+      "message": "In THE microg settings",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "761c13a5_6309b40d",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:19:11Z",
+      "side": 1,
+      "message": "\"When using\" or \"If you are using\"",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "312719c9_de9b9f8e",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:19:11Z",
+      "side": 1,
+      "message": "GApps",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
