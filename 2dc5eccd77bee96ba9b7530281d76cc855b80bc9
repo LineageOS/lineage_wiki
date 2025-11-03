@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0406e9a_f499200d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ea610f5c_f271b67f",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "046ebc23_8e9c0e40",
@@ -48,6 +66,42 @@
       "writtenOn": "2025-11-03T07:18:15Z",
       "side": 1,
       "message": "\"Your chosen\" - nope, we don\u0027t really intend to this being a choice. -\u003e \"the recommended\"",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "47cdac8b_8c6a221f",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "046ebc23_8e9c0e40",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfc14823_8f38a5d2",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc49a7bb_80324072",
       "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -99,6 +153,60 @@
       "writtenOn": "2025-11-03T07:19:11Z",
       "side": 1,
       "message": "GApps",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c92685e6_964c8cfc",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "312719c9_de9b9f8e",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bddfad9d_8fa664ab",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "761c13a5_6309b40d",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ecc05d3_4c20e1b8",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T17:22:05Z",
+      "side": 1,
+      "message": "I changed it to microg\u0027s settings. \"The\" broke up the flow of the sentence too much, in my opinion.",
+      "parentUuid": "d625d7b7_c182a115",
       "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
