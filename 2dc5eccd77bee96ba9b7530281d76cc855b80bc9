@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea610f5c_f271b67f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:18:15Z",
+      "side": 1,
+      "message": "Double P, not double A",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "046ebc23_8e9c0e40",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:18:15Z",
+      "side": 1,
+      "message": "Lineage -\u003e LineageOS",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fc49a7bb_80324072",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-11-03T07:18:15Z",
+      "side": 1,
+      "message": "\"Your chosen\" - nope, we don\u0027t really intend to this being a choice. -\u003e \"the recommended\"",
+      "revId": "2dc5eccd77bee96ba9b7530281d76cc855b80bc9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
