@@ -16,6 +16,24 @@
       "message": "GApps (capital A)",
       "revId": "3d222567fa193a74272dbeeb2e6810acbfe1b400",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c17bc5de_266db9ff",
+        "filename": "_data/faq.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-03T21:01:20Z",
+      "side": 1,
+      "message": "Sorry, didn\u0027t realize. Done.",
+      "parentUuid": "1744849d_6cb3b087",
+      "revId": "3d222567fa193a74272dbeeb2e6810acbfe1b400",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
