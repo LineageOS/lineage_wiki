@@ -81,8 +81,8 @@
         In the event that all Google accounts were not removed from the device (as required by the installation instructions), stock Android's Factory Reset Protection (FRP) persists on the device and causes these problems. In order to resolve this, follow these instructions:
         1. Boot into recovery mode
         2. Select "Advanced" and then select "Enable ADB"
-        3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following command: `adb shell wipe-frp`
-        4. And from the same shell, type the following command: `adb reboot`
+        3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following command: `wipe-frp`
+        4. And from the same shell, type the following command: `reboot`
 - "advanced topics":
     - question: "Mirrors? Why don’t you use torrents? Or IPFS? Or carrier pigeons?"
       response: |
