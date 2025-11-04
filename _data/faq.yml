@@ -78,11 +78,11 @@
       response: "Push notifications require GApps or MicroG. When using MicroG you will need to enable GCM (Google Cloud Messaging) in MicroG's settings."
     - question: "I am having weird errors; apps won't install, developer settings crash, and the screen lock has strange error messages."
       response: |
-        In the event that all Google accounts were not removed from the device (as required by the installation instructions), stock android's factory reset proctection (frp) persists on the device and causes these problems. In order to resolve this, follow these instructions:
-        1. Boot recovery
-        2. Advanced -> Enable ADB
-        3. adb shell wipe-frp
-        4. adb reboot
+        In the event that all Google accounts were not removed from the device (as required by the installation instructions), stock Android's Factory Reset Protection (FRP) persists on the device and causes these problems. In order to resolve this, follow these instructions:
+        1. Boot into recovery mode
+        2. Select "Advanced" and then select "Enable ADB"
+        3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following command: `adb shell wipe-frp`
+        4. And from the same shell, type the following command: `adb reboot`
 - "advanced topics":
     - question: "Mirrors? Why don’t you use torrents? Or IPFS? Or carrier pigeons?"
       response: |
