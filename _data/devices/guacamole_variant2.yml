@@ -20,7 +20,7 @@ image: guacamole.png
 install_method: fastboot_oneplus_tmo
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8150, version: '4.14'}
-maintainers: [LuK1337, Tortel]
+maintainers: [LuK1337, elginsk8r]
 models: [GM1915]
 name: '7 Pro (T-Mobile)'
 network: [2G GSM, 3G UMTS, 4G LTE]
