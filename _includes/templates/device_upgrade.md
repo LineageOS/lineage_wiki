@@ -68,7 +68,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 
 {{ recovery_update }}
 {%- if device.maintainers != empty %}
-1. Download the [LineageOS install package](https://download.lineageos.org/devices/{{ device.codename }}) that you'd like to install or [build]({{ device | device_link: "build" | relative_url }}) the package yourself.
+1. Download the [LineageOS zip file](https://download.lineageos.org/devices/{{ device.codename }}) that you would like to install or [build]({{ device | device_link: "build" | relative_url }}) the package yourself.
 {%- else %}
 1. [Build]({{ device | device_link: "build" | relative_url }}) a LineageOS install package.
 {%- endif %}
