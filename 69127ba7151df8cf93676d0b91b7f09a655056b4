@@ -56,6 +56,29 @@
       },
       "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b3fc2c21_7d99f59b",
+        "filename": "pages/extracting_blobs_from_zips_manually.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 35487
+      },
+      "writtenOn": "2025-11-06T21:21:48Z",
+      "side": 1,
+      "message": "Maybe python script here as well?",
+      "range": {
+        "startLine": 107,
+        "startChar": 16,
+        "endLine": 107,
+        "endChar": 18
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
