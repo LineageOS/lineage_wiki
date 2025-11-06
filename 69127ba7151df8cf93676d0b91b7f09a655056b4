@@ -33,6 +33,29 @@
       "message": "feedback if anyone has it, please",
       "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ffda9792_30d4d182",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 36111
+      },
+      "writtenOn": "2025-11-06T05:45:13Z",
+      "side": 1,
+      "message": ".md?",
+      "range": {
+        "startLine": 16,
+        "startChar": 66,
+        "endLine": 16,
+        "endChar": 71
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
