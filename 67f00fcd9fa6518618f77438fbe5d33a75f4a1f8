@@ -16,6 +16,24 @@
       "message": "can we also include waffle?",
       "revId": "67f00fcd9fa6518618f77438fbe5d33a75f4a1f8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "18344832_3dbc39c3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-11-07T08:32:48Z",
+      "side": 1,
+      "message": "If you want to merge device changes, yes.",
+      "parentUuid": "cc9dd4df_c34e6319",
+      "revId": "67f00fcd9fa6518618f77438fbe5d33a75f4a1f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
