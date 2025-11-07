@@ -28,7 +28,7 @@ models: [23113RKC6C]
 name: Redmi K70
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, IR blaster, Light sensor, NFC, Proximity sensor, Stereo speakers, USB OTG]
-ram: 12/16 GB LPDDR5
+ram: 12/16 GB LPDDR5X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "Redmi" logo appears on the screen, then release.
 recovery_partition_name: recovery
 recovery_reboot: fastboot_reboot
