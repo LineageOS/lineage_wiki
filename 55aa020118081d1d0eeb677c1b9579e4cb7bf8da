@@ -16,6 +16,24 @@
       "message": "Note that this will require a hudson exemption btw",
       "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "914f22fc_3a38b67a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2025-11-07T21:59:04Z",
+      "side": 1,
+      "message": "*charter",
+      "parentUuid": "ac9c6a83_6ffa324e",
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
