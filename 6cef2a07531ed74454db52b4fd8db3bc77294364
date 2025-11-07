@@ -48,6 +48,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6c07a57f_518dd229",
+        "filename": "_data/devices/vermeer_variant1.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 36111
+      },
+      "writtenOn": "2025-11-07T20:09:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5d7511d6_d75ccc72",
+      "range": {
+        "startLine": 38,
+        "startChar": 0,
+        "endLine": 38,
+        "endChar": 7
+      },
+      "revId": "6cef2a07531ed74454db52b4fd8db3bc77294364",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7cd9a89c_b38ed3fb",
@@ -76,6 +100,24 @@
         "id": 13648
       },
       "writtenOn": "2025-11-07T20:09:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7cd9a89c_b38ed3fb",
+      "revId": "6cef2a07531ed74454db52b4fd8db3bc77294364",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33ea3aec_53cb50fd",
+        "filename": "_data/devices/vermeer_variant2.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 36111
+      },
+      "writtenOn": "2025-11-07T20:09:03Z",
       "side": 1,
       "message": "Done",
       "parentUuid": "7cd9a89c_b38ed3fb",
