@@ -34,6 +34,24 @@
       "parentUuid": "ac9c6a83_6ffa324e",
       "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8433ec8a_7e555198",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-11-07T22:04:40Z",
+      "side": 1,
+      "message": "Yes, I asked to check it. That\u0027s why I haven\u0027t merged anything yet.\nBoth screens are working, but there is a well-known problem with changing the resolution on old kernel. Therefore, it seems to me that this should not violate charter.",
+      "parentUuid": "914f22fc_3a38b67a",
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
