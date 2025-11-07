@@ -35,6 +35,52 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "1227a271_0fe65776",
+        "filename": "_includes/templates/device_build.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-07T17:15:02Z",
+      "side": 1,
+      "message": "```suggestion\n\nIf the device directory contains `extract-files.py`, run it with:\n```",
+      "range": {
+        "startLine": 74,
+        "startChar": 0,
+        "endLine": 75,
+        "endChar": 63
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "26cef7ef_5fbb5172",
+        "filename": "pages/extracting_blobs_from_zips.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-07T17:15:02Z",
+      "side": 1,
+      "message": "```suggestion\nIf the device directory contains `extract-files.py`, run it with:\n```",
+      "range": {
+        "startLine": 12,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 63
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "ffda9792_30d4d182",
@@ -53,6 +99,52 @@
         "startChar": 66,
         "endLine": 16,
         "endChar": 71
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cf60710c_ea1ed506",
+        "filename": "pages/extracting_blobs_from_zips_manually.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-07T17:15:02Z",
+      "side": 1,
+      "message": "if \"the\" files",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 8
+      },
+      "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a94ba440_7956c278",
+        "filename": "pages/extracting_blobs_from_zips_manually.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-11-07T17:15:02Z",
+      "side": 1,
+      "message": "execute",
+      "range": {
+        "startLine": 59,
+        "startChar": 277,
+        "endLine": 59,
+        "endChar": 286
       },
       "revId": "69127ba7151df8cf93676d0b91b7f09a655056b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
