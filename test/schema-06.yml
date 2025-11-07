@@ -558,6 +558,7 @@ definitions:
       - ant
       - atv_remote_mic
       - aux_cameras
+      - changing_screen_resolution
       - dock
       - dolby_vision
       - esim
