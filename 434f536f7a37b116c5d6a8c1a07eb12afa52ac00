@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5fe4b1f1_90891e9e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-10T19:59:20Z",
+      "side": 1,
+      "message": "re-add me when Hudson and manifest vendor side are done - and add me to those too.",
+      "revId": "434f536f7a37b116c5d6a8c1a07eb12afa52ac00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
