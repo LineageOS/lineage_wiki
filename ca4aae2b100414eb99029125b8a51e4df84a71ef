@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "78015d6f_67509d92",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-10T04:49:40Z",
+      "side": 1,
+      "message": "another call for \"I\u0027d like to merge this soon because I\u0027m tired of walking users through manually extracting shit they don\u0027t need to\"\n\nPls give thoughts/objections if you have any,",
+      "revId": "ca4aae2b100414eb99029125b8a51e4df84a71ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
