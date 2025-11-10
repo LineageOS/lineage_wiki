@@ -52,6 +52,29 @@
       "parentUuid": "914f22fc_3a38b67a",
       "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "05caf694_86338342",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-11-10T02:59:25Z",
+      "side": 1,
+      "message": "I think \"made their own\" would be better here.",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 79
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
