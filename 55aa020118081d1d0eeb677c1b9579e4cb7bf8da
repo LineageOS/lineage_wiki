@@ -75,6 +75,52 @@
       },
       "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6afa064_85235d87",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-10T04:45:58Z",
+      "side": 1,
+      "message": "```suggestion\nPrior to Linux 4.19, Android did not include a standardized method for changing screen resolutions. As a result, each vendor implemented the feature independently — often in fragmented and unsustainable ways, making the function difficult to support on this device while running LineageOS.\n```",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 111
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c2f374fe_6096b822",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-11-10T04:45:58Z",
+      "side": 1,
+      "message": "```suggestion\nThis means that your device will utilize the highest supported resolution, and may not properly support any lower resolutions that the stock ROM exposed.```",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 52
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
