@@ -100,6 +100,54 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "602a1708_6a86f35b",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-11-10T17:43:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e6afa064_85235d87",
+      "range": {
+        "startLine": 16,
+        "startChar": 0,
+        "endLine": 16,
+        "endChar": 111
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4cbe2188_4f4966a5",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-11-10T17:43:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05caf694_86338342",
+      "range": {
+        "startLine": 16,
+        "startChar": 67,
+        "endLine": 16,
+        "endChar": 79
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c2f374fe_6096b822",
@@ -113,6 +161,30 @@
       "writtenOn": "2025-11-10T04:45:58Z",
       "side": 1,
       "message": "```suggestion\nThis means that your device will utilize the highest supported resolution, and may not properly support any lower resolutions that the stock ROM exposed.```",
+      "range": {
+        "startLine": 17,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 52
+      },
+      "revId": "55aa020118081d1d0eeb677c1b9579e4cb7bf8da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "995d13b7_7fede98a",
+        "filename": "pages/quirks/changing_screen_resolution.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-11-10T17:43:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c2f374fe_6096b822",
       "range": {
         "startLine": 17,
         "startChar": 0,
