@@ -16,6 +16,23 @@
       "message": "re-add me when Hudson and manifest vendor side are done - and add me to those too.",
       "revId": "434f536f7a37b116c5d6a8c1a07eb12afa52ac00",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "928efbcd_59f84de1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-11-11T23:53:16Z",
+      "side": 1,
+      "message": "can you separate out the quirk and add it for guacamole and hotdog?",
+      "revId": "434f536f7a37b116c5d6a8c1a07eb12afa52ac00",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
