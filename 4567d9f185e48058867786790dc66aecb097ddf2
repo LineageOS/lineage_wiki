@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1a7a20fe_f21f0669",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-11-12T13:51:19Z",
+      "side": 1,
+      "message": "@priv.luk@gmail.com what about guacamoleb and hotdogb?",
+      "revId": "4567d9f185e48058867786790dc66aecb097ddf2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
