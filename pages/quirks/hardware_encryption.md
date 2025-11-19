@@ -15,5 +15,5 @@ You have been redirected here because LineageOS builds for your device do not su
 ### Why is that?
 
 While it is certainly standardized, vendors have their own implementation at a firmware level, which is not open-source and can therefore not be integrated into LineageOS' code.
-Devices utilizing these implementations therefore do not support hardware backed encryption, but do support software backed encyrption.
+Devices utilizing these implementations therefore do not support hardware backed encryption, but do support software backed encryption.
 This might or might not affect you, depending on your encryption needs, as software backed encryption has a notable performance impact whereas hardware backed encryption does not.
