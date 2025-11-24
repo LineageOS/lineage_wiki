@@ -20,7 +20,7 @@ gpu: Qualcomm Adreno 619
 image: gauguin.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_gauguin, version: '4.19'}
-maintainers: [Hridaya, Lynnrin]
+maintainers: [Penguin766, Lynnrin]
 models: [M2007J17C]
 name: Redmi Note 9 Pro 5G
 network: [2G GSM, 2G CDMA, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
