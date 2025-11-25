@@ -1,0 +1,43 @@
+architecture: arm64
+battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0, version: '14'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+cameras:
+  - {flash: 'LED', info: '12 MP (wide)'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '12 MP'}
+codename: pdx224
+cpu: Kryo 780
+cpu_cores: '8'
+cpu_freq: 1 x 3.0 GHz + 3 x 2.5 GHz + 4 x 1.80 GHz
+current_branch: 23.0
+dimensions: {depth: 8.2, height: 156, width: 67}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+gpu: Qualcomm Adreno 730
+image: pdx224.png
+install_method: fastboot_sony
+is_ab_device: true
+kernel: {repo: android_kernel_sony_sm8450, version: '5.10'}
+maintainers: [Tuan Anh, wolfhechel]
+models: [XQ-CQ44, XQ-CQ54, XQ-CQ72]
+name: Xperia 5 IV
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Barometer, Compass, Dual SIM, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
+release: 2022-09-01
+screen: {refresh_rate: 120, resolution: '2520x1080', size: 6.1, technology: 'OLED'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen1
+storage: 128/256 GB UFS3.1
+tree: android_device_sony_pdx224
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [23.0]
+wifi: 802.11 a/b/g/n/ac/ax/be
