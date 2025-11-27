@@ -16,6 +16,23 @@
       "message": "Merge?",
       "revId": "d527be2764f7c64a91addfbed6fecbc2b63fe4eb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "539e4f31_ca8c492f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2025-11-27T11:14:15Z",
+      "side": 1,
+      "message": "waiting for erhai build",
+      "revId": "d527be2764f7c64a91addfbed6fecbc2b63fe4eb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
