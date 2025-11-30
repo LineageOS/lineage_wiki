@@ -17,24 +17,25 @@ dimensions: {depth: 8.9, height: 169.3, width: 77.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 650
 image: timelm.png
-install_method: fastboot_lg
+install_method: dd
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sm8250, version: '4.19'}
 maintainers: [pnguyen879]
-models: [LM-V600]
+models: [LM-V600EA, LM-V600VM, LM-V600TM, LM-V600N]
 name: V60 ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
-peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
+peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, Qi wireless charging, USB OTG]
 quirks: [ims]
 ram: 8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> until the LG logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
+recovery_partition: /dev/block/bootdevice/by-name/recovery
 recovery_partition_name: recovery
 release: 2020-03
 screen: {resolution: '2460x1080', size: 6.8, technology: 'P-OLED'}
 sdcard: {size_max: '2 TB'}
 soc: Qualcomm SM8250 Snapdragon 865
-storage: 128/256/512 GB UFS3.0
+storage: 128/256 GB UFS3.0
 tree: android_device_lge_timelm
 type: phone
 vendor: LG
