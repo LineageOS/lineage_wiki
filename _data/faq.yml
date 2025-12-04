@@ -67,6 +67,12 @@
       response: |
         - We can't provide support for any third-party modifications or software since we don't maintain it.
         - Ask whoever provided it to you, because it's their work.
+    - LineageOS devices receive several different kinds of security updates, each residing in a different part of the software stack:
+        - Android (AOSP) Security Patches: These are the monthly security updates published by Google for supported Android versions. LineageOS integrates, tests, and ships these patches for all supported devices as quickly as possible. Every maintained device receives these AOSP security updates.
+        - Vendor Security Patch Level (Vendor SPL): These patches come from the device manufacturer and apply to proprietary vendor components (such as HALs, drivers, and other closed-source binaries). The Vendor SPL reflects the patch level of the stock firmware your device's vendor blobs were taken from. In most cases, this corresponds to the latest available stock build for that device, but for a variety of reasons, some devices extract from an older, or carrier specific build.
+        - Firmware (Bootloader/Modem/Etc.): These are hardware-specific often closed-source components such as the bootloader, modem, TrustZone/TEE, etc. LineageOS cannot update these on its own. Many devices ship the expected firmware in their installation package, but some require the user install a specific firmware version prior to attempting to install LineageOS. Please refer to you device's specific installation guide for more information on this process!
+      question: "What security updates will my device get?"
+      response: ""
 - "common issues":
     - question: "My device doesn’t pass Play Integrity!"
       response: "Some devices pass their bootloader unlock status and verity status to Android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further."
