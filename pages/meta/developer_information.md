@@ -5,7 +5,7 @@ folder: meta
 toc: false
 permalink: developer_information.html
 ---
-So, you've decided you want to contribute to the Lineage software. Awesome! This page provides reference material that may be useful to help you.
+So, you've decided you want to bring up and maintain a device for Lineage. Awesome! This page provides reference material that may be useful to help you.
 
 ## List of links
 
