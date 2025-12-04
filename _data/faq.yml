@@ -67,6 +67,10 @@
       response: |
         - We can't provide support for any third-party modifications or software since we don't maintain it.
         - Ask whoever provided it to you, because it's their work.
+    - question: "What security updates will my device get?"
+      response: |
+        There are two parts to security updates: the software and the hardware. While your device is officially supported, you can expect software security updates within a month of their release, often sooner.
+        For hardware and firmware updates, we cannot provide updates for closed source hardware components, meaning that once your device is no longer supported by the manufacturer, security updates will stop. Nevertheless, as long as your phone is supported by the manufacturer, LineageOS will provide the latest updates.
 - "common issues":
     - question: "My device doesn’t pass Play Integrity!"
       response: "Some devices pass their bootloader unlock status and verity status to Android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further."
