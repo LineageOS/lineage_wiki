@@ -67,6 +67,12 @@
       response: |
         - We can't provide support for any third-party modifications or software since we don't maintain it.
         - Ask whoever provided it to you, because it's their work.
+    - question: "What security updates will my device get?"
+      response: |
+        There are a few parts to a device's security, all with different types of security patches:
+        - Software: These are the updates that are pushed to AOSP by Google every few months. We do our best to add, test, and ship these patches as soon as we can, and every supported device will receive these updates.
+        - Vendor Security Patch Level: The updates that the phone's manufacturer made to various closed-source components and blobs. This is often set at the latest supported stock build, but this is not always the case.
+        - Device Firmware: The closed source code that allows interacting with and using the hardware. This is based on whatever version of the stock build LineageOS was installed over, and can't be changed.
 - "common issues":
     - question: "My device doesn’t pass Play Integrity!"
       response: "Some devices pass their bootloader unlock status and verity status to Android's kernel during boot. We don't purposefully remove those flags, as it isn't our place to lie about security features. There's also a [blog post](https://www.lineageos.org/PlayIntegrity/) about this topic, which explains our reasons further."
