@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bebeb500_77b84d4b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-06T01:25:12Z",
+      "side": 1,
+      "message": "I don\u0027t like this explanation... hardware updates makes no sense.\n\nRefer to it as \"firmware\".\n\nThis really needs a deeper care given - We have Android Platform updates which we will _try_ to integrate in the same month, but given google\u0027s weirdness, we can\u0027t promise.\n\nWe have vendor security patch level which will be the latest stock build your device supports in most cases, and won\u0027t be changed.\n\nWe have firmware which is reflective of the latest stock build and we *can\u0027t* change.",
+      "revId": "6b122b6cc4de460e854f6f59e662b83a365db97b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
