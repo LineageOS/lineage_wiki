@@ -34,6 +34,24 @@
       "parentUuid": "e63b6fe6_1885bb61",
       "revId": "98d1ee3533eb095d4d6464f6e500785e9d5a2ebb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7b753b88_37368490",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-06T05:36:57Z",
+      "side": 1,
+      "message": "s/developer information\\maintainer information/g ?\n\nOr link the apps page here and keep the name developer information.\n\napp devs are devs.",
+      "parentUuid": "5a6358ba_5ee022f1",
+      "revId": "98d1ee3533eb095d4d6464f6e500785e9d5a2ebb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
