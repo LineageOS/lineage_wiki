@@ -16,6 +16,24 @@
       "message": "so, this would be right if not for: https://wiki.lineageos.org/how-to/contributing-apps/\n\nWe should re look at all pages and link all applicable ones here, and probably rename... \"So you\u0027ve decided you want to contribute to the LineageOS project! Awesome, there are a few ways to contribute:\n\nApps....\n\nDevices....\n\nWiki...\n\nInfra....\n\netc.",
       "revId": "98d1ee3533eb095d4d6464f6e500785e9d5a2ebb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a6358ba_5ee022f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-12-06T01:52:20Z",
+      "side": 1,
+      "message": "So, are you thinking we should combine the contributing page and the developer information page together? The reason for this change was all the links on this page only apply to maintainers.",
+      "parentUuid": "e63b6fe6_1885bb61",
+      "revId": "98d1ee3533eb095d4d6464f6e500785e9d5a2ebb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
