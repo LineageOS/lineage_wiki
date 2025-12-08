@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "046fc9c7_4d472c99",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2025-12-08T06:12:33Z",
+      "side": 1,
+      "message": "Not ready yet. Just wanting to be able to see preview.",
+      "revId": "3b244d3ccc90d2ea109e3f825b798dd0ccfdddd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
