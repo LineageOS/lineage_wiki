@@ -89,6 +89,7 @@ com.android.scheduling
 com.android.sdkext
 com.android.support.apexer
 com.android.telephony
+com.android.telephonycore
 com.android.telephonymodules
 com.android.tethering
 com.android.tzdata
