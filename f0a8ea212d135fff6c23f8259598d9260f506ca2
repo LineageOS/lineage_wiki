@@ -16,6 +16,24 @@
       "message": "Isn\u0027t SoC vendor Qualcomm and Snapdragon a brandname?",
       "revId": "f0a8ea212d135fff6c23f8259598d9260f506ca2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d270e83_abf5ff32",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2025-12-12T22:27:28Z",
+      "side": 1,
+      "message": "Updated commit message to say SoC brand name.",
+      "parentUuid": "81d6a1af_9f01b32d",
+      "revId": "f0a8ea212d135fff6c23f8259598d9260f506ca2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
