@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "376c0848_de618845",
+        "filename": "_data/faq.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-13T18:11:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6ac4202d_99dfdc29",
+      "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c01de5a4_b45d239e",
@@ -48,6 +66,24 @@
       "writtenOn": "2025-12-13T07:44:32Z",
       "side": 1,
       "message": "Response empty, answer somehow above the question...",
+      "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8b8df9a_7867e469",
+        "filename": "_data/faq.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-13T18:11:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c01de5a4_b45d239e",
       "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
