@@ -16,6 +16,40 @@
       "message": "poking for review",
       "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6ac4202d_99dfdc29",
+        "filename": "_data/faq.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-13T07:44:32Z",
+      "side": 1,
+      "message": "Isn\u0027t really monthly anymore, is it? I would leave out the timeframe completely",
+      "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c01de5a4_b45d239e",
+        "filename": "_data/faq.yml",
+        "patchSetId": 4
+      },
+      "lineNbr": 75,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-13T07:44:32Z",
+      "side": 1,
+      "message": "Response empty, answer somehow above the question...",
+      "revId": "884232918dd73484ee0eb797361b30a4d0f8a69d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
