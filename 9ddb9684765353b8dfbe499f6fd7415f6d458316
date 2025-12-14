@@ -22,6 +22,30 @@
       },
       "revId": "9ddb9684765353b8dfbe499f6fd7415f6d458316",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5e1ad469_f71227fd",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2025-12-14T17:25:40Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "35b45a48_a7e8d161",
+      "range": {
+        "startLine": 26,
+        "startChar": 24,
+        "endLine": 26,
+        "endChar": 33
+      },
+      "revId": "9ddb9684765353b8dfbe499f6fd7415f6d458316",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
