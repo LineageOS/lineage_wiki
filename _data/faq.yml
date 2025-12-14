@@ -7,6 +7,9 @@
           - Your vendor/modem/bootloader is too old (or maybe too new). _Flash the correct stock image for your device, before wiping data and attempting to install LineageOS again_. This information should be listed on the device's wiki page.
           - Your recovery is outdated. _Flash the newest available version of the recommended recovery image for your device_.
         - If your error still persists after confirming these are not causing your issue, ask someone for help on IRC [#lineageos@Libera.Chat](https://web.libera.chat/gamja/?channel=#lineageos) or on the [subreddit](http://reddit.com/r/lineageos) and provide a recovery log.
+    - question: "Can I flash an official LineageOS build overtop an unofficial build?"
+      response: |
+        No. When migrating from an unofficial build to an official LineageOS build, you must follow the installation guide for your device exactly as written. We will not provide support for any other installation path.
     - question: "How can I install the Google apps package after installing and booting LineageOS?"
       response: "If you have already booted LineageOS, you will need to perform a factory reset, then sideload the recommended Google apps package before booting LineageOS again."
     - question: "Where does the updater app store the downloaded zip?"
