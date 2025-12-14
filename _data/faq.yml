@@ -15,6 +15,13 @@
         Dirty flashing is only supported when upgrading between official LineageOS builds for the same device.
     - question: "How can I install the Google apps package after installing and booting LineageOS?"
       response: "If you have already booted LineageOS, you will need to perform a factory reset, then sideload the recommended Google apps package before booting LineageOS again."
+    - question: "Why must Google apps be installed before the first boot of LineageOS?"
+      response: |
+        The first boot of LineageOS performs essential system initialization.
+        Installing Google apps after this process can result in missing permissions, broken setup flows, or system instability.
+
+        For this reason, Google apps must be installed before first boot.
+        Installing them afterwards requires a factory reset.
     - question: "Where does the updater app store the downloaded zip?"
       response: "`/data/lineageos_updates/`"
     - question: "Can/should I relock my bootloader?"
