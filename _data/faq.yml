@@ -40,8 +40,12 @@
       response: |
         - In short, you can't. We don't build more than 2 versions usually (exemptions were made when [major hurdles](https://lineageos.org/Changelog-27/#deprecations) prevented a large amount of devices to receive a newer version) and we don't keep old builds around for a multitude of reasons, the largest being that we won't keep old, insecure, potentially broken builds around. Additionally, we don't have the server space (or the space on mirrors) to do so.
         - There might be archives in the wild and you can check if they are actually signed by LineageOS [here](https://download.lineageos.org/verify). Please don't expect us to provide any support for them, though, beyond what we offer on this wiki!
-    - question: "A build for my device disappeared? Where’d it go?"
-      response: "Occasionally a build is broken. If this happens, we remove it until the next build cycle. It is also possible the device is no longer in the official build roster and its old builds are being purged, or that the version it supported is no longer supported. You can check your device's wiki page to confirm support status."
+    - question: "A build for my device wasn’t posted on the usual day, or disappeared — where did it go?"
+      response: |
+         Official support does not guarantee that a build will be produced for every week. Builds may be skipped or temporarily removed due to infrastructure issues, build failures, or device-specific problems detected during the build process.
+         In some cases, a build may also be removed if the device is no longer part of the official build roster, if older builds are being purged, or if the LineageOS version it supported is no longer maintained.
+         A skipped or removed build does **not** necessarily mean that support for the device has been dropped. You can check your device’s wiki page to confirm its current support status.
+    Please do not ask for ETAs.
 - "device support":
     - question: "My device is _not_ officially supported, but I’d really like to give LineageOS a try. Can you support my device?"
       response: |
