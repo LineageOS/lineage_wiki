@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "726cec99_b6d0871b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-12-15T17:02:24Z",
+      "side": 1,
+      "message": "It feels like this might be better merged with the \"A build for my device disappeared?\" question, as they cover the same topic.",
+      "revId": "f6ef4c66c7616cbbac9784f1b8bf7302029d920c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
