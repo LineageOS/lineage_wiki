@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6d53e7cf_16546022",
+        "filename": "_data/faq.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-12-15T17:10:15Z",
+      "side": 1,
+      "message": "Dirty flash isn\u0027t really defined for the average user, or really anywhere else in the wiki. Maybe it should be \"Can I flash an official LineageOS build over an unofficial build?",
+      "range": {
+        "startLine": 10,
+        "startChar": 23,
+        "endLine": 10,
+        "endChar": 34
+      },
+      "revId": "7c8d2f9b4bfde0de7305b12ec80f0c62442923ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0776d31f_a70ebc82",
+        "filename": "_data/faq.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2025-12-15T17:10:15Z",
+      "side": 1,
+      "message": "```suggestion\n        Unofficial builds may differ in signing keys, system structure, or other included components, which if not wiped from the device can lead to bootloops, crashes, or various other subtle issues.\n```",
+      "range": {
+        "startLine": 13,
+        "startChar": 40,
+        "endLine": 13,
+        "endChar": 94
+      },
+      "revId": "7c8d2f9b4bfde0de7305b12ec80f0c62442923ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
