@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "200490b9_d683a0d8",
+        "filename": "_data/faq.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-17T04:54:05Z",
+      "side": 1,
+      "message": "agreed - keep it simple",
+      "parentUuid": "6d53e7cf_16546022",
+      "range": {
+        "startLine": 10,
+        "startChar": 23,
+        "endLine": 10,
+        "endChar": 34
+      },
+      "revId": "7c8d2f9b4bfde0de7305b12ec80f0c62442923ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "0776d31f_a70ebc82",
@@ -37,6 +61,30 @@
       "writtenOn": "2025-12-15T17:10:15Z",
       "side": 1,
       "message": "```suggestion\n        Unofficial builds may differ in signing keys, system structure, or other included components, which if not wiped from the device can lead to bootloops, crashes, or various other subtle issues.\n```",
+      "range": {
+        "startLine": 13,
+        "startChar": 40,
+        "endLine": 13,
+        "endChar": 94
+      },
+      "revId": "7c8d2f9b4bfde0de7305b12ec80f0c62442923ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1b332b7a_4a272049",
+        "filename": "_data/faq.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-17T04:54:05Z",
+      "side": 1,
+      "message": "went a diff way.",
+      "parentUuid": "0776d31f_a70ebc82",
       "range": {
         "startLine": 13,
         "startChar": 40,
