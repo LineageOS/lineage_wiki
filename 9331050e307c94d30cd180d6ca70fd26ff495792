@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11b2747b_329407a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-17T05:04:52Z",
+      "side": 1,
+      "message": "I think no on this one - User just needs to follow it.\n\nExplaining why would get into \"does the device ship firmware, can I come from old firmware to boot recovery\" etc which gets to complex. I think the other ones are great but this one I think isn\u0027t a great idea.",
+      "revId": "9331050e307c94d30cd180d6ca70fd26ff495792",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
