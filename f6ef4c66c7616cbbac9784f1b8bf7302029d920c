@@ -16,6 +16,24 @@
       "message": "It feels like this might be better merged with the \"A build for my device disappeared?\" question, as they cover the same topic.",
       "revId": "f6ef4c66c7616cbbac9784f1b8bf7302029d920c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5c8cfe0f_8c2f1e86",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-17T05:03:24Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "726cec99_b6d0871b",
+      "revId": "f6ef4c66c7616cbbac9784f1b8bf7302029d920c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
