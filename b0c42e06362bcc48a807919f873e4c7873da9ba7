@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03374e7d_5803391b",
+        "filename": "_data/devices/nicole.yml",
+        "patchSetId": 9
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2025-12-18T02:00:48Z",
+      "side": 1,
+      "message": "some note about using the power button to select \"Recovery Mode\"?",
+      "range": {
+        "startLine": 26,
+        "startChar": 102,
+        "endLine": 26,
+        "endChar": 147
+      },
+      "revId": "b0c42e06362bcc48a807919f873e4c7873da9ba7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
