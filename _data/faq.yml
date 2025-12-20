@@ -19,6 +19,11 @@
       response: "Few devices allow for it and even less work properly after that. Relocking can result in actual unusable devices, so be warned!"
     - question: "I have relocked my bootloader and can’t get my device to work anymore. What now?"
       response: "Sorry, as per the question right above, we don't support this usecase and there may not be a good way to recover. [XDA](https://www.xda-developers.com), other similar forums or a search engine may be of use."
+    - question: "Can I migrate my data from one device to another when installing LineageOS?"
+      response: |
+        - LineageOS does not support migrating user data between different devices.
+        - Differences in hardware, partitions, and system configurations can cause data corruption or instability when data is transferred directly.
+        - Users are expected to set up each device independently after installation.
 - downloads:
     - question: "My device _is_ officially supported, but there’s no zips for it on the download page. Where are they?"
       response: "Be patient. Devices are slowly being built throughout the week. Maintainers have busy lives, and sometimes an issue is holding it back. Please do not ask for ETAs."
