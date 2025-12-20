@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b35198af_c54e0263",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-20T18:48:49Z",
+      "side": 1,
+      "message": "This is the only option left after no migration support - no need to state the obvious",
+      "revId": "e9261e3d163f3a886fa3eabf499c02a55899b38a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
