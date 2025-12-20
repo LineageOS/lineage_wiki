@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27753d08_115b138e",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-20T18:50:42Z",
+      "side": 1,
+      "message": "It\u0027s not just sometimes but always",
+      "revId": "e985951b8c0ec7f773385249f03711229a612824",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ecbc23c8_1ce1d46f",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-20T18:50:42Z",
+      "side": 1,
+      "message": "Like in the other two changes, this is just rephrasing / repeating the question for no added benefit imo",
+      "revId": "e985951b8c0ec7f773385249f03711229a612824",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
