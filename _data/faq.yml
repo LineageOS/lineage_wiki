@@ -107,6 +107,11 @@
         - We currently keep the last 4 builds per device. Older builds do not have the latest security patches.
         - The top 5 devices account for 50% of our users. 95% of our builds do not have enough users to justify torrents.
         - Pigeons are slow and stupid. They also tend to be hit by vehicles and make a delicious treat for predators. We could send your build via pigeon, but chances are very slim it would make it to you.
+    - question: "Why doesn’t LineageOS provide a roadmap or future release schedule?"
+      response: |
+        - LineageOS is developed and maintained by volunteers in their free time.
+        - Device support and development progress depend on available contributors and unresolved technical issues.
+        - For this reason, future release schedules or roadmaps are not provided.
     - question: "Will my device receive the next Android version?"
       response: "We can't tell you. 'No ETA' includes the 'IF', not just the 'WHEN'."
     - question: "Can you help me root my device?"
