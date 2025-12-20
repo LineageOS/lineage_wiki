@@ -10,6 +10,10 @@
     - question: "Can I flash an official LineageOS build overtop an unofficial build?"
       response: |
         No. When migrating from an unofficial build to an official LineageOS build, you must follow the installation guide for your device exactly as written. We will not provide support for any other installation path.
+    - question: "Why does installing LineageOS sometimes require wiping encrypted data?"
+      response: |
+        - Changes to Android versions or encryption implementations can make existing encrypted data incompatible with the new system.
+        - In such cases, wiping data is required to ensure system stability and data integrity.
     - question: "How can I install the Google apps package after installing and booting LineageOS?"
       response: |
         If you have already booted into LineageOS, you will need to perform a factory reset and then sideload the recommended Google apps package *before* booting LineageOS again. The first boot of LineageOS performs critical system initialization. Installing Google apps after this process has completed can lead to a variety of issues, so they must be installed prior to the initial boot.
