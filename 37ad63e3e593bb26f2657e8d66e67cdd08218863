@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3bbcb9b9_eb612c69",
+        "filename": "_data/faq.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 114,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2025-12-20T18:47:24Z",
+      "side": 1,
+      "message": "This sentence is redundant as its already in the question",
+      "revId": "37ad63e3e593bb26f2657e8d66e67cdd08218863",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
