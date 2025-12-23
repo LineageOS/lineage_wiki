@@ -191,13 +191,9 @@ function showFilters() {
   Select a vendor to jump to:<br/>
 
   <div class="vendor-container">
-    {%- assign vendors = "" | split: " " %}
-    {%- for device in sorted %}
-    {%- if device.vendor != lastVendor %}
-    {%- assign vendors = vendors | push: device.vendor %}
-    {%- assign lastVendor = device.vendor %}
-      <div data-vendor="{{ lastVendor | slugify }}"><a href="#{{ lastVendor | slugify }}" data-vendor="{{ lastVendor | slugify }}">{{ lastVendor }}</a></div>
-    {%- endif %}
+    {%- assign vendors = sorted | map: "vendor" | uniq %}
+    {%- for vendor in vendors %}
+      <div data-vendor="{{ vendor | slugify }}"><a href="#{{ vendor | slugify }}" data-vendor="{{ vendor | slugify }}">{{ vendor }}</a></div>
     {%- endfor %}
   </div>
 </div>
