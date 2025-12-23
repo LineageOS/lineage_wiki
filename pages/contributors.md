@@ -4,10 +4,7 @@ title: LineageOS contributors
 permalink: contributors.html
 ---
 
-{% assign devices = "" | split: " " %}
-{% for device in site.data.devices %}
-{% assign devices = devices | push: device[1] %}
-{% endfor %}
+{% assign devices = site.data.devices | values %}
 {% assign sorted = devices | sort: 'name' | sort: 'vendor' %}
 
 ## Maintainers
