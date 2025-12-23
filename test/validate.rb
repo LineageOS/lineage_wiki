@@ -2,6 +2,7 @@
 
 require 'json'
 require 'json-schema'
+require 'parallel'
 require 'yaml'
 require 'yalphabetize'
 
@@ -136,7 +137,7 @@ Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   end
 end
 
-Dir.entries(device_dir).sort.each do |filename|
+Parallel.map(Dir.entries(device_dir).sort) do |filename|
   device_path = device_dir + filename
   if File.file?(device_path)
     device_json = JSON.parse(yaml_to_json(device_path))
