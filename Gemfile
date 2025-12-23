@@ -4,6 +4,7 @@ gem "jekyll", "4.3.2"
 
 group :test do
    gem 'json-schema', '= 2.8.0'
+   gem 'yalphabetize', "~> 0.7.0"
 end
 
 group :jekyll_plugins do
@@ -19,5 +20,3 @@ group :jekyll_plugins do
    gem 'rouge', '= 4.1.2'
    gem 'webrick', '= 1.8.1'
 end
-
-gem "yalphabetize", "~> 0.7.0"
