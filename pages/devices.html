@@ -178,17 +178,8 @@ function showFilters() {
 
   Find your device below. You can show discontinued devices or filter for various attributes here:<br/><br/>
 
-{%- assign devices = "" | split: " " %}
-{%- assign variants = "" | split: " " %}
-{%- for device in site.data.devices %}
-{%- assign data = device[1] %}
-{%- if data.variant == None or data.variant == 1 %}
-{%- assign devices = devices | push: data %}
-{%- elsif data.variant %}
-{%- assign variants = variants | push: data %}
-{%- endif %}
-{%- endfor %}
-
+{%- assign devices = site.data.devices | values | where_exp: 'device', 'device.variant == None or device.variant <= 1' %}
+{%- assign variants = site.data.devices | values | where_exp: 'device', 'device.variant > 1' %}
 {%- assign sorted = devices | sort_natural: 'name' | sort_natural: 'vendor' %}
 {%- assign lastVendor = "" %}
 
