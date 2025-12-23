@@ -1,5 +1,5 @@
 ---
-title: All Content
+title: All Contentx
 sidebar: home_sidebar
 permalink: pages.html
 toc: false
