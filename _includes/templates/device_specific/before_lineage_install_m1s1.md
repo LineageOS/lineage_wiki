@@ -22,7 +22,7 @@
 {% include alerts/warning.html content="This process will wipe all data on the device, including your internal storage!" %}
 1. Download the flashable repartition script from [here](https://blob.lineageos.org/downloads/repartition-ogpixel-32gb.zip){: .download} for 32 GB models, and [here](https://blob.lineageos.org/downloads/repartition-ogpixel-128gb.zip){: .download} for 128 GB models.
 2. Rename the downloaded zip file to `repartition.zip`.
-3. On your device's screen, choose "Apply update", then "From ADB".
+3. On your device's screen, choose "Apply update", then "Apply from ADB".
 4. From your Terminal/PowerShell, run `adb -d sideload /path/to/repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
     {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Yes`." %}
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
