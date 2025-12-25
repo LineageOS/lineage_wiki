@@ -1,0 +1,49 @@
+architecture: arm64
+battery: {capacity: 5100, removable: False, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0}
+before_install_device_variants:
+  - {device: 'POCO X6 5G EEA', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNREUXM/garnet_eea_global-ota_full-OS2.0.204.0.VNREUXM-user-15.0-ae2971ddfa.zip', firmware: 'OS2.0.204.0.VNREUXM'}
+  - {device: 'POCO X6 5G 5G Global', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRMIXM/garnet_global-ota_full-OS2.0.204.0.VNRMIXM-user-15.0-49eb38e23a.zip', firmware: 'OS2.0.204.0.VNRMIXM'}
+  - {device: 'POCO X6 5G Indonesia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRIDXM/garnet_id_global-ota_full-OS2.0.204.0.VNRIDXM-user-15.0-c4a9d7a4c0.zip', firmware: 'OS2.0.204.0.VNRIDXM'}
+  - {device: 'POCO X6 5G Russia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRRUXM/garnet_ru_global-ota_full-OS2.0.204.0.VNRRUXM-user-15.0-2e6ed4adf0.zip', firmware: 'OS2.0.204.0.VNRRUXM'}
+  - {device: 'POCO X6 5G Taiwan', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRTWXM/garnet_tw_global-ota_full-OS2.0.204.0.VNRTWXM-user-15.0-0a00b9d58d.zip', firmware: 'OS2.0.204.0.VNRTWXM'}
+  - {device: 'POCO X6 5G Turkey', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRTRXM/garnet_tr_global-ota_full-OS2.0.204.0.VNRTRXM-user-15.0-5de4fb3200.zip', firmware: 'OS2.0.204.0.VNRTRXM'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'LED', info: '64 MP (main)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
+  - {flash: 'LED', info: '2 MP (macro)'}
+  - {flash: None, info: '16 MP (front)'}
+codename: garnet
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.4 GHz + 4 x 1.95 GHz
+current_branch: 23.0
+dimensions: {depth: 7.9, height: 161.1, width: 74.2}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
+firmware_update: firmware_update_xiaomi_garnet
+gpu: Qualcomm Adreno 710
+install_method: fastboot_xiaomi
+is_ab_device: true
+kernel: {repo: android_kernel_xiaomi_sm7435, version: '5.10'}
+maintainers: [adarshgrewal]
+models: [23122PCD1G]
+name: POCO X6 5G 
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, eSIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NAVIC, SBAS, QZSS, Gyroscope, IR blaster, Light sensor, NFC, Stereo speakers, Ultrasound proximity sensor, USB OTG]
+ram: 8/12 GB LPDDR4x
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the "MI" logo appears on the screen, then release.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
+release: 2024-01
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'Super AMOLED'}
+soc: Qualcomm SM7435-AB Snapdragon 7s Gen 2
+storage: 256/512 GB
+tree: android_device_xiaomi_garnet
+type: phone
+variant: 1
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [23.0]
+wifi: 802.11 a/b/g/n/ac/ax
