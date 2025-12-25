@@ -12,7 +12,7 @@ To do this, sideload the `copy-partitions-20220613-signed.zip` package by doing 
     * On the host machine, sideload the package using: `adb -d sideload copy-partitions-20220613-signed.zip`
 {%- else %}
 2. Sideload the `copy-partitions-20220613-signed.zip` package:
-    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the device, select "Apply update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using: `adb -d sideload copy-partitions-20220613-signed.zip`
     {% include alerts/note.html content="The copy-partitions script was created by LineageOS developer erfanoabdi and filipepferraz" %}
 3. Now reboot to recovery by tapping "Advanced", then "Reboot to recovery".

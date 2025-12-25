@@ -137,11 +137,11 @@ There are no recovery installation instructions for this discontinued device.
 4. Return to the main menu.
 {%- if device.has_no_usb %}
 5. Copy the the LineageOS `.zip` package and any addons you wish to install to your device's removable SD card, then insert it in your device and install it, but **do not reboot to system** before you read/followed the rest of the instructions!:
-    * On the device, select "Apply Update", then "Apply from EXT_SDCARD", and select the LineageOS zip file to begin installation.
+    * On the device, select "Apply update", then "Apply from EXT_SDCARD", and select the LineageOS zip file to begin installation.
     {% include alerts/warning.html content="EXT_SDCARD will reflect the name of your SD card's filesystem name." %}
 {%- else %}
 5. Sideload the LineageOS `.zip` package but **do not reboot to system** before you read/followed the rest of the instructions!
-    * On the device, select "Apply Update", then "Apply from ADB" to begin sideload.
+    * On the device, select "Apply update", then "Apply from ADB" to begin sideload.
     * On the host machine, sideload the package using:
     ```
     adb -d sideload /path/to/zip
@@ -179,16 +179,16 @@ This add-on needs to be installed **before** booting into LineageOS for the firs
     ```
 {%- elsif device.is_ab_device and current_branch < 20 %}
 1. Even though you are already in recovery, click `Advanced`, then `Reboot to Recovery`
-2. When your device reboots, click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+2. When your device reboots, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
     ```
     adb -d sideload /path/to/zip
     ```
 {%- elsif device.uses_twrp != true %}
 {%- if device.has_no_usb %}
-1. Click `Apply Update`, then `Apply Update from EXT_SDCARD`, then select the add-on zip file to begin installation, and repeat for all desired packages in sequence.
+1. Click `Apply update`, then `Apply update from EXT_SDCARD`, then select the add-on zip file to begin installation, and repeat for all desired packages in sequence.
     {% include alerts/warning.html content="EXT_SDCARD will reflect the name of your SD card's filesystem name." %}
 {%- else %}
-1. Click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+1. Click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
     ```
     adb -d sideload /path/to/zip
     ```

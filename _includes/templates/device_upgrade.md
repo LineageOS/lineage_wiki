@@ -122,7 +122,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
     ```
     Or by performing the following:
     * {{ device.recovery_boot }}
-9. Once you are in LineageOS recovery, select “Apply Update”, then “Apply from ADB” to put the device into sideload mode.
+9. Once you are in LineageOS recovery, select “Apply update”, then “Apply from ADB” to put the device into sideload mode.
 {%- else %}
 4. Run:
     ```
@@ -147,7 +147,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
     ```
     those packages in sequence.
 {%- elsif device.is_ab_device %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
     ```
     adb -d sideload /path/to/zip
     ```
@@ -157,7 +157,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
     adb -d sideload /path/to/zip
     ```
 {%- else %}
-6. _(Optionally)_: If you want to install any add-ons, click `Apply Update`, then `Apply from ADB`, then run for each of those packages in sequence:
+6. _(Optionally)_: If you want to install any add-ons, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
     ```
     adb -d sideload /path/to/zip
     ```
