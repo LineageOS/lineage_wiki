@@ -72,6 +72,12 @@ def validate_template(template, path, codename)
   end
 end
 
+def validate_no_whitespaces(path)
+  File.readlines(path, chomp: true).all? { |line|
+    line == line.rstrip
+  }
+end
+
 def validate_yaml_lint(path)
   reader_class = Yalphabetize::Reader.new(path).to_ast
   order_checker_class = Yalphabetize::OrderCheckers::CapitalizedFirstThenAlphabetical
@@ -130,6 +136,11 @@ end
 Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   next if filename == wiki_dir + "_config.yml"
   next if filename.start_with?(wiki_dir + "vendor/bundle/")
+
+  if !validate_no_whitespaces(filename)
+    puts to_relative_path(filename) + ': YAML document contains trailing whitespaces'
+    at_exit { exit false }
+  end
 
   if !validate_yaml_lint(filename)
     puts to_relative_path(filename) + ': YAML document is not linted properly, use yalphabetize -a'
