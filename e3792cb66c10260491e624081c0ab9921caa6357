@@ -16,6 +16,52 @@
       "message": "Need cr/v on hudson",
       "revId": "e3792cb66c10260491e624081c0ab9921caa6357",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "88886865_556704dc",
+        "filename": "_data/devices/garnet_variant1.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-12-26T05:16:59Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 33,
+        "startChar": 26,
+        "endLine": 33,
+        "endChar": 27
+      },
+      "revId": "e3792cb66c10260491e624081c0ab9921caa6357",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4071c5ae_ad4d9e8e",
+        "filename": "_data/devices/garnet_variant4.yml",
+        "patchSetId": 5
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2025-12-26T05:16:59Z",
+      "side": 1,
+      "message": "whitespace",
+      "range": {
+        "startLine": 33,
+        "startChar": 16,
+        "endLine": 33,
+        "endChar": 17
+      },
+      "revId": "e3792cb66c10260491e624081c0ab9921caa6357",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
