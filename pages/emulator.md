@@ -11,6 +11,7 @@ In case you don't have an officially supported device, don't want to test change
 These instructions will help you build an emulator-compatible version of LineageOS, ready to run on your computer. If you want to use Android Studio/AVD there are also instructions for packing up/installing your
 custom build instead of the default AOSP images that Google provides.
 
+If it meets your needs, you can download a weekly [x86-64](https://download.lineageos.org/devices/sdk_phone_x86_64/builds) or [ARM-64](https://download.lineageos.org/devices/sdk_phone_arm64/builds) build instead of compiling one.
 
 {% include templates/device_build_before_init.md %}
 
