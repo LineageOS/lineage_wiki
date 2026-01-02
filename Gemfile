@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "4.3.2"
+gem "jekyll", "4.3.3"
 
 group :test do
    gem "json-schema", "= 2.8.0"
