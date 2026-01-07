@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 8220, removable: False, tech: 'Li-Po'}
+battery: {capacity: 8220, removable: false, tech: 'Li-Po'}
 bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
   - {flash: 'LED', info: '8 MP'}

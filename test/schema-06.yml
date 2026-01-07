@@ -2,7 +2,7 @@
 "$schema": http://json-schema.org/draft-06/schema#
 definitions:
   architecture_data:
-    additionalProperties: False
+    additionalProperties: false
     properties:
       cpu:
         "$ref": "#/definitions/valid_architectures"
@@ -13,7 +13,7 @@ definitions:
       - userspace
     type: object
   battery_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for battery
     properties:
       capacity:
@@ -32,7 +32,7 @@ definitions:
       - removable
     type: object
   before_install_format:
-    additionalProperties: False
+    additionalProperties: false
     description: The format for the before_install property
     properties:
       instructions:
@@ -48,7 +48,7 @@ definitions:
       - instructions
     type: object
   before_recovery_install_format:
-    additionalProperties: False
+    additionalProperties: false
     description: The format for the before_recovery_install property
     properties:
       instructions:
@@ -59,7 +59,7 @@ definitions:
       - instructions
     type: object
   camera_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format for the camera property
     properties:
       flash:
@@ -77,7 +77,7 @@ definitions:
       - info
       - flash
   dimension_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for device dimensions
     properties:
       depth:
@@ -200,7 +200,7 @@ definitions:
       - integer
       - string
   migration_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for migration information
     properties:
       codename:
@@ -214,7 +214,7 @@ definitions:
       - version
     type: object
   screen_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for screen information
     properties:
       refresh_rate:
@@ -265,7 +265,7 @@ definitions:
       - TFT LCD
     type: string
   sdcard_data:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for the sdcard property
     properties:
       size_max:
@@ -484,7 +484,7 @@ definitions:
         - 5G NR
       type: string
     type: array
-    uniqueItems: True
+    uniqueItems: true
   valid_peripherals:
     description: All valid peripherals a device can have
     items:
@@ -551,7 +551,7 @@ definitions:
         - USB OTG
       type: string
     type: array
-    uniqueItems: True
+    uniqueItems: true
   valid_quirks:
     description: All valid quirks a device can have
     enum:
@@ -587,8 +587,8 @@ properties:
       - "$ref": "#/definitions/battery_data"
       - description: Array of maps of model numbers to battery data
         examples:
-          - SM-9000A: {removable: True, size: 1500, tech: 'Li-Ion'}
-          - SM-9000B: {removable: False, size: 3500, tech: 'Li-Po'}
+          - SM-9000A: {removable: true, size: 1500, tech: 'Li-Ion'}
+          - SM-9000B: {removable: false, size: 3500, tech: 'Li-Po'}
         items:
           additionalProperties:
             "$ref": "#/definitions/battery_data"
@@ -612,7 +612,7 @@ properties:
         type: string
   bluetooth:
     "$id": "/properties/bluetooth"
-    additionalProperties: False
+    additionalProperties: false
     properties:
       profiles:
         items:
@@ -832,7 +832,7 @@ properties:
     "$id": "/properties/is_unlockable"
     type: boolean
   kernel:
-    additionalProperties: False
+    additionalProperties: false
     description: The format required for kernel information
     properties:
       repo:

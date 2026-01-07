@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 4000, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 19.1, version: '10'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}
 bluetooth: {spec: '4.2'}

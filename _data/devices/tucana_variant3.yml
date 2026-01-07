@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5260, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5260, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2}
 before_install_device_variants:
   - {device: 'Mi CC9 Pro (China)', download_link: 'https://bn.d.miui.com/V13.0.4.0.RFDCNXM/miui_TUCANA_V13.0.4.0.RFDCNXM_9253c83a9f_11.0.zip', firmware: 'V13.0.4.0.RFDCNXM'}

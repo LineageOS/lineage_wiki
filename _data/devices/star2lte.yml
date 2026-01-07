@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 3600, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 3600, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 17.1, version: '10'}
 bluetooth: {profiles: [A2DP], spec: '5'}
 cameras:

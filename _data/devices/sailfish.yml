@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 2770, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 2770, removable: false, tech: 'Li-Ion'}
 before_lineage_install: m1s1
 bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:

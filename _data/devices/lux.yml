@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 3630, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 3630, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 14.1, version: '7.1.1'}
 bluetooth: {spec: 4.0 + LE}
 cameras:

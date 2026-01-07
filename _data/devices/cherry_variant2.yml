@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 3000, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 3000, removable: false, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
   - {flash: 'LED', info: '13 MP'}

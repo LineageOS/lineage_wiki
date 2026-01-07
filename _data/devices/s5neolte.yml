@@ -1,5 +1,5 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
-battery: {capacity: 2800, removable: True, tech: 'Li-Ion'}
+battery: {capacity: 2800, removable: true, tech: 'Li-Ion'}
 bluetooth: {profiles: [A2DP], spec: '4.1'}
 cameras:
   - {flash: 'LED', info: '16 MP'}

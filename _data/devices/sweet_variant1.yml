@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5020, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5020, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20}
 before_install_device_variants:
   - {device: 'Redmi Note 10 Pro Global', download_link: 'https://bn.d.miui.com/V14.0.9.0.TKFMIXM/miui_SWEETGlobal_V14.0.9.0.TKFMIXM_b774d114f4_13.0.zip', firmware: 'V14.0.9.0.TKFMIXM'}

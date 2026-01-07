@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 4500, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4500, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
 before_install_device_variants:
   - {device: 'POCO F4 EEA', download_link: 'https://cdnorg.d.miui.com/OS1.0.2.0.ULMEUXM/miui_MUNCHEEAGlobal_OS1.0.2.0.ULMEUXM_23bf621c6d_14.0.zip', firmware: 'OS1.0.2.0.ULMEUXM'}

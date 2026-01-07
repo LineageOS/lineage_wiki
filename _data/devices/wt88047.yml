@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 2200, removable: True, tech: 'Li-Po'}
+battery: {capacity: 2200, removable: true, tech: 'Li-Po'}
 before_lineage_install: wt88047
 bluetooth: {profiles: [A2DP], spec: 4.0 + LE}
 cameras:

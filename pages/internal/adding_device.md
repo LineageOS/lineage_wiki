@@ -51,15 +51,15 @@ An example using the `battery` property:
 Just one device:
 
 ```
-battery: {removable: False, capacity: 1000, tech: 'Li-Ion'}
+battery: {removable: false, capacity: 1000, tech: 'Li-Ion'}
 ```
 
 vs. two different models:
 
 ```
 battery:
-- Model1: {removable: False, capacity: 1000, tech: 'Li-Ion'}
-- Model2: {removable: True, capacity: 2000, tech: 'Li-Po'}
+- Model1: {removable: false, capacity: 1000, tech: 'Li-Ion'}
+- Model2: {removable: true, capacity: 2000, tech: 'Li-Po'}
 ```
 
 The following list will mention Model-Value pairs where applicable.
@@ -77,7 +77,7 @@ The following list will mention Model-Value pairs where applicable.
 
   If your device has a 64 bit architecture but Android runs on 32 bit, you can use a different format: `{cpu: 'arm64', userspace: 'arm'}`
 
-* `battery`: Use the format `{removable: False, capacity: <number in mAh>, tech: '<tech>'}`. If your battery is removable, use `True` instead.
+* `battery`: Use the format `{removable: false, capacity: <number in mAh>, tech: '<tech>'}`. If your battery is removable, use `true` instead.
   For `tech` you can use:
 
   ```
@@ -170,7 +170,7 @@ There are some optional properties which you might not need, but in case you do,
 * `is_ab_device`: Used if the device has an A/B partition scheme.
 * `is_ab_rdap`: Used if the device utilizes a retrofitted dynamic A/B partition scheme.
  - `is_ab_rdap_version`: Used to define the version on which dynamic partitions were retrofitted to the device.
-* `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `True`
+* `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `true`
 * `quirks`: List of known quirks (make sure they aren't violating the [charter](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) or are exempted!). An array of one or more of the following (if unclear, click the links):
 
   {%- for item in definitions.valid_quirks.enum %}

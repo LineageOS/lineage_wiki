@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5100, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5100, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0}
 before_install_device_variants:
   - {device: 'Redmi Note 13 Pro 5G EEA', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNREUXM/garnet_eea_global-ota_full-OS2.0.204.0.VNREUXM-user-15.0-ae2971ddfa.zip', firmware: 'OS2.0.204.0.VNREUXM'}

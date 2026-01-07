@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5000, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, version: '14'}
 before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta]}

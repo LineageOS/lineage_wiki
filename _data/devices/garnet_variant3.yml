@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5100, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5100, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0}
 before_install_device_variants:
   - {device: 'Redmi Note 13 Pro 5G China', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRCNXM/garnet-ota_full-OS2.0.204.0.VNRCNXM-user-15.0-c3835eb904.zip', firmware: 'OS2.0.204.0.VNRCNXM'}

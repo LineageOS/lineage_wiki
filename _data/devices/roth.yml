@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 7350, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 7350, removable: false, tech: 'Li-Ion'}
 bluetooth: {spec: '3.0'}
 cameras: []
 codename: roth

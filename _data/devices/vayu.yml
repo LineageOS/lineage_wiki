@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5160, removable: False, tech: 'Li-Po'}
+battery: {capacity: 5160, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '13'}
 before_install_device_variants:
   - {device: 'POCO X3 Pro EEA', download_link: 'https://bn.d.miui.com/V14.0.2.0.TJUEUXM/miui_VAYUEEAGlobal_V14.0.2.0.TJUEUXM_f91bef7f04_13.0.zip', firmware: 'V14.0.2.0.TJUEUXM'}

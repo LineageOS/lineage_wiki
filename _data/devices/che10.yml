@@ -1,7 +1,7 @@
 architecture: arm
 battery:
-  - Honor 4X: {capacity: 2000, removable: False, tech: 'Li-Ion'}
-  - Honor 4X: {capacity: 3000, removable: False, tech: 'Li-Ion'}
+  - Honor 4X: {capacity: 2000, removable: false, tech: 'Li-Ion'}
+  - Honor 4X: {capacity: 3000, removable: false, tech: 'Li-Ion'}
 bluetooth: {spec: '4.0'}
 cameras:
   - {flash: 'LED', info: '8 MP or 13 MP'}

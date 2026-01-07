@@ -1,5 +1,5 @@
 architecture: {cpu: 'x86_64', userspace: 'x86'}
-battery: {capacity: 3000, removable: False, tech: 'Li-Po'}
+battery: {capacity: 3000, removable: false, tech: 'Li-Po'}
 bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:
   - {flash: 'LED', info: '13 MP'}

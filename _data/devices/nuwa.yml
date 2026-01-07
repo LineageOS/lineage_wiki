@@ -1,6 +1,6 @@
 architecture: arm64
-battery: {capacity: 4820, removable: False, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0, ships_fw: True}
+battery: {capacity: 4820, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0, ships_fw: true}
 before_install_device_variants:
   - {device: 'Xiaomi 13 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.215.0.VMBCNXM/nuwa-ota_full-OS2.0.215.0.VMBCNXM-user-15.0-03badd90e8.zip', firmware: 'OS2.0.215.0.VMBCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}

@@ -1,5 +1,5 @@
 architecture: {cpu: 'arm', userspace: 'arm'}
-battery: {capacity: 2100, removable: True, tech: 'Li-Ion'}
+battery: {capacity: 2100, removable: true, tech: 'Li-Ion'}
 before_install: {instructions: 's3ve3g'}
 bluetooth: {spec: 4.0 + LE}
 cameras:

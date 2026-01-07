@@ -1,5 +1,5 @@
 architecture: {cpu: 'arm', userspace: 'arm'}
-battery: {capacity: 2600, removable: True, tech: 'Li-Ion'}
+battery: {capacity: 2600, removable: true, tech: 'Li-Ion'}
 bluetooth: {spec: 4.0 + LE}
 cameras:
   - {flash: 'LED', info: '8 MP'}

@@ -1,5 +1,5 @@
 architecture: arm
-battery: {capacity: 1780, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 1780, removable: false, tech: 'Li-Ion'}
 before_lineage_install: legacy_xperia
 bluetooth: {profiles: [A2DP], spec: '4.0'}
 cameras:

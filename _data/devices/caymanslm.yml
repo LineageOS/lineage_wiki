@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 4300, removable: False, tech: 'Li-Po'}
+battery: {capacity: 4300, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.2, version: '12'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}

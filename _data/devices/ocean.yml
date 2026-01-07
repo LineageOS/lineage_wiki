@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 5000, removable: false, tech: 'Li-Ion'}
 before_lineage_install: ab_copy_partitions
 bluetooth: {profiles: [A2DP], spec: '4.2'}
 cameras:

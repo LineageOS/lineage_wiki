@@ -1,5 +1,5 @@
 architecture: arm64
-battery: {capacity: 5000, removable: False, tech: 'Li-Ion'}
+battery: {capacity: 5000, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '13/14'}
 before_recovery_install: samsung_qcom
 bluetooth: {profiles: [A2DP], spec: '5'}
