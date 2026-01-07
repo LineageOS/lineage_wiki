@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "afbfa81f_9582dc4b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-07T21:09:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fc4d6f27_d92c5da0",
+      "revId": "3c6142f2097a2f2f934c7424f88c0e8df401f3d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ce9ddb73_d822cf57",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-01-07T18:10:22Z",
       "side": 1,
       "message": "Add CPH2707 in first place",
+      "revId": "3c6142f2097a2f2f934c7424f88c0e8df401f3d1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c04e58a_57e6f12d",
+        "filename": "_data/devices/lexus.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-01-07T21:09:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ce9ddb73_d822cf57",
       "revId": "3c6142f2097a2f2f934c7424f88c0e8df401f3d1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
