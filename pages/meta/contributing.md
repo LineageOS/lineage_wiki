@@ -32,7 +32,7 @@ You can help us make this wiki a place where all information to work with and on
 ## Maintaining a device
 To bring up and maintain an official device, check out the following links:
 - [Working with proprietary blobs]({{ "proprietary_blobs.html" | relative_url }})
-- [How to add a new device to the wiki]({{ "addingdevice_howto" | relative_url }})
+- [How to add a new device to the wiki]({{ "addingdevice-howto" | relative_url }})
 - [How to submit a device for review](submitting_device)
 
 ## Infrastructure tips
