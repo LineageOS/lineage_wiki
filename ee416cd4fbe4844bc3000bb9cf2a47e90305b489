@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "7046ea04_b8886c5e",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-08T17:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9ed4866b_dc8f8db2",
+      "range": {
+        "startLine": 3,
+        "startChar": 34,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bfb0f50e_0f777a4c",
@@ -37,6 +61,30 @@
       "writtenOn": "2026-01-08T17:45:08Z",
       "side": 1,
       "message": "```suggestion\n{% include alerts/warning.html content\u003d\"Please note that both `aml-flash-tool` and `update` are known to be somewhat finicky on specific host platforms (e.g. AMD machines). If you encounter any failures while flashing, return to step 2 and try again.\" %}\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 173,
+        "endLine": 6,
+        "endChar": 245
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "735b39aa_7384eaa9",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-08T17:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bfb0f50e_0f777a4c",
       "range": {
         "startLine": 6,
         "startChar": 173,
@@ -70,6 +118,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "11ed7c9e_07fda739",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-08T17:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f3fe3781_ea97f4c7",
+      "range": {
+        "startLine": 57,
+        "startChar": 83,
+        "endLine": 57,
+        "endChar": 100
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "fdf9fee3_a1c2dd90",
@@ -93,6 +165,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "529c4663_ebceabb1",
+        "filename": "_includes/templates/recovery_install_amlogic_update.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-08T17:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdf9fee3_a1c2dd90",
+      "range": {
+        "startLine": 35,
+        "startChar": 123,
+        "endLine": 35,
+        "endChar": 125
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "b5ea02bf_597e5e40",
@@ -106,6 +202,30 @@
       "writtenOn": "2026-01-08T17:45:08Z",
       "side": 1,
       "message": "for flashing?",
+      "range": {
+        "startLine": 99,
+        "startChar": 69,
+        "endLine": 99,
+        "endChar": 78
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cee82326_36b025c7",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-08T17:49:08Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b5ea02bf_597e5e40",
       "range": {
         "startLine": 99,
         "startChar": 69,
