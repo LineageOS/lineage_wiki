@@ -1,6 +1,7 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
 bluetooth: {spec: '4.2'}
+burn_boot: Press and hold the `USB BOOT` button on the board, and plug into your PC.
 cameras: []
 codename: radxa02_tab
 cpu: Cortex-A53
@@ -9,7 +10,6 @@ cpu_freq: 1.8 GHz
 current_branch: 22.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 5.15, height: 36.25, width: 65.33}
-download_boot: Press and hold the `USB BOOT` button on the board, and plug into your PC.
 gpu: ARM Mali-G31 MP2
 image: radxa02.png
 install_method: amlogic_update
