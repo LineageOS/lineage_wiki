@@ -19,3 +19,7 @@ fastboot flash {{ partition }} {{ partition }}.img
   {%- endfor %}
   ```
     {% include snippets/fastboot_path.md %}
+4. Reboot to bootloader mode:
+```
+fastboot reboot bootloader
+```
