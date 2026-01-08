@@ -1,6 +1,6 @@
 ## Unlocking the bootloader
 
-These instructions will only work on devices that have not yet been updated past the February 2021 OTA.
+These instructions will only work on devices that have not yet been updated past the February 2021 Security Patch Level.
 
 You can check this in the Settings application under the "System", "About" tab, labeled "Security Patch Level".
 
