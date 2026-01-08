@@ -1,5 +1,10 @@
 ## Forcibly unlocking the bootloader
 
+This generation of Amlogic devices include a unique boot mode called "Burn Mode", which we will be utilizing to forcibly unlock the device's bootloader.
+`aml-flash-tool` is Radxa's wrapper script for Amlogic's official `update` tool, which allows interfacing with burn mode. It's only available for Linux, though a VM will suffice.
+
+{% include alerts/warning.html content="Please note that both `aml-flash-tool` and `update` are known to be somewhat finicky on specific host platforms (e.g. AMD machines). If you see any failures in flashing, return to step 2 and try again." %}
+
  1. Run the following command to ascertain the device's current bootloader lock state:
  ```
  fastboot getvar unlocked
@@ -45,3 +50,8 @@
  fastboot flash dtb dtb.img
  fastboot flash dtbo dtbo.img
  ```
+4. Reboot to bootloader mode:
+```
+fastboot reboot bootloader
+```
+{% include alerts/note.html content="Please note that most devices will be able to navigate recovery mode by pressing the <kbd>Side Button</kbd> to cycle on-screen options, and long-pressing the <kbd>Side Button</kbd> to select an option. However, if your device has a remote that communicates via Infrared (IR), the on-device button may not function correctly to change selection/select items in the recovery menu. If you hit this, please try utilizing your IR remote's <kbd>DPAD Keys</kbd> to change selection, and the <kbd>Power Button</kbd> to select an item." %}
