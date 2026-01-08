@@ -24,24 +24,34 @@ def validate_json(schema, device_json, device_path)
   JSON::Validator.fully_validate(schema, device_json, :validate_schema => true).each do |message|
     puts to_relative_path(device_path) + ': ' + message
     at_exit { exit false }
+    return false
   end
+
+  return true
 end
 
 def validate_image(path, device_path, size)
   if !File.file?(path)
     puts "Missing image #{to_relative_path(path)} specified in #{to_relative_path(device_path)}"
     at_exit { exit false }
-  elsif File.extname(path) != ".png"
+    return false
+  end
+
+  if File.extname(path) != ".png"
     puts "Invalid image #{to_relative_path(path)} extension specified in #{to_relative_path(device_path)}"
     at_exit { exit false }
-  else
-    resolution = File.binread(path, 24)[0x10..0x18].unpack('NN')
-
-    if resolution[0] > size || resolution[1] > size
-      puts "Image #{to_relative_path(path)} resolution #{resolution[0]}x#{resolution[1]} exceeds #{size}x#{size}"
-      at_exit { exit false }
-    end
+    return false
   end
+
+  resolution = File.binread(path, 24)[0x10..0x18].unpack('NN')
+
+  if resolution[0] > size || resolution[1] > size
+    puts "Image #{to_relative_path(path)} resolution #{resolution[0]}x#{resolution[1]} exceeds #{size}x#{size}"
+    at_exit { exit false }
+    return false
+  end
+
+  return true
 end
 
 def load_template(template_file)
@@ -50,28 +60,32 @@ def load_template(template_file)
 end
 
 def validate_template(template, path, codename)
-  if File.file?(path)
-    temp_codename = codename.sub(/_variant[0-9]+/, '')
-    template_content = template.gsub('{codename}', temp_codename)
-    file_content = File.open(path, 'r') { |file| file.read }
-    # remove redirects from the file, because we want to allow them if necessary
-    file_content.sub!(/^redirect_from:.+?( +- *[a-zA-Z0-9.\/]+$.)+/m, '')
-
-    if variant = codename[/(variant[0-9]+)/]
-      # We need to handle variant[0-9] in title and codename
-      file_content.sub!('_' + variant, '')
-      # ... and in the permalink
-      file_content.sub!('/' + variant, '')
-    end
-
-    if not template_content == file_content
-      puts to_relative_path(path) + ': Not generated from template'
-      at_exit { exit false }
-    end
-  else
+  if !File.file?(path)
     puts 'Missing file for ' + codename + ' at ' + path
     at_exit { exit false }
+    return false
   end
+
+  temp_codename = codename.sub(/_variant[0-9]+/, '')
+  template_content = template.gsub('{codename}', temp_codename)
+  file_content = File.open(path, 'r') { |file| file.read }
+  # remove redirects from the file, because we want to allow them if necessary
+  file_content.sub!(/^redirect_from:.+?( +- *[a-zA-Z0-9.\/]+$.)+/m, '')
+
+  if variant = codename[/(variant[0-9]+)/]
+    # We need to handle variant[0-9] in title and codename
+    file_content.sub!('_' + variant, '')
+    # ... and in the permalink
+    file_content.sub!('/' + variant, '')
+  end
+
+  if not template_content == file_content
+    puts to_relative_path(path) + ': Not generated from template'
+    at_exit { exit false }
+    return false
+  end
+
+  return true
 end
 
 def validate_no_whitespaces(path)
@@ -150,46 +164,52 @@ Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   end
 end
 
-Parallel.map(Dir.entries(device_dir).sort) do |filename|
+if Parallel.map(Dir.entries(device_dir).sort) do |filename|
+  ret = true
   device_path = device_dir + filename
+
   if File.file?(device_path)
     device_json = JSON.parse(yaml_to_json(device_path))
-    validate_json(schema, device_json, device_path)
+    ret &= validate_json(schema, device_json, device_path)
 
     if device_json["current_branch"] != device_json["versions"].last
       puts to_relative_path(device_path) + ': current_branch must be the same as the last supported version'
-      at_exit { exit false }
+      ret = false
     end
 
     if !device_json["maintainers"].empty? and device_json["uses_twrp"]
       puts to_relative_path(device_path) + ': uses_twrp cannot be used for a supported device'
-      at_exit { exit false }
+      ret = false
     end
 
     codename = filename.sub('.yml', '')
     test_file = codename + '.md'
 
-    validate_template(build_template, build_dir + test_file, codename)
-    validate_template(info_template, info_dir + test_file, codename)
-    validate_template(install_template, install_dir + test_file, codename)
-    validate_template(update_template, update_dir + test_file, codename)
-    validate_template(upgrade_template, upgrade_dir + test_file, codename)
+    ret &= validate_template(build_template, build_dir + test_file, codename)
+    ret &= validate_template(info_template, info_dir + test_file, codename)
+    ret &= validate_template(install_template, install_dir + test_file, codename)
+    ret &= validate_template(update_template, update_dir + test_file, codename)
+    ret &= validate_template(upgrade_template, upgrade_dir + test_file, codename)
 
     if device_json["firmware_update"]
-      validate_template(fw_update_template, fw_update_dir + test_file, codename)
+      ret &= validate_template(fw_update_template, fw_update_dir + test_file, codename)
     elsif File.file?(fw_update_dir + test_file)
       puts to_relative_path(device_path) + ': fw_update page exists, but firmware_update is unset'
-      at_exit { exit false }
+      ret = false
     end
 
     if device_json["variant"]
       test_file = device_json["codename"] + ".md"
-      validate_template(variant_info_template, info_dir + test_file, codename)
-      validate_template(variant_upgrade_template, upgrade_dir + test_file, codename)
+      ret &= validate_template(variant_info_template, info_dir + test_file, codename)
+      ret &= validate_template(variant_upgrade_template, upgrade_dir + test_file, codename)
     end
 
     image = device_json["image"]
-    validate_image(device_image_dir + image, device_path, 500)
-    validate_image(device_image_small_dir + image, device_path, 150)
+    ret &= validate_image(device_image_dir + image, device_path, 500)
+    ret &= validate_image(device_image_small_dir + image, device_path, 150)
   end
+
+  ret
+end.any?(false)
+  at_exit { exit false }
 end
