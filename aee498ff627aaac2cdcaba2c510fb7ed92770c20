@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fe8c6c45_7bf9d956",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-01-08T20:29:30Z",
+      "side": 1,
+      "message": "i don\u0027t like this, but i don\u0027t want 4x slower validation.",
+      "revId": "aee498ff627aaac2cdcaba2c510fb7ed92770c20",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
