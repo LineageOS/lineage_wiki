@@ -651,6 +651,9 @@ properties:
     required:
       - spec
     type: object
+  burn_boot:
+    "$id": "/properties/burn_boot"
+    type: string
   cameras:
     "$id": "/properties/cameras"
     items:

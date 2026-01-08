@@ -96,6 +96,7 @@ The following list will mention Model-Value pairs where applicable.
   For the optional profiles:
   {{ properties.bluetooth.properties.profiles.items.enum | join: ', ' }}
   ```
+* `burn_boot`: Instructions for booting the device into the mode used for flashing low-level images to prepare the NAND/eMMC/UFS to boot Android. Most devices will not need to set this.
 
 * `camera`: One entry for each camera in the format
 
