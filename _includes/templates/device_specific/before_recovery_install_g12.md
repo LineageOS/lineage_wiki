@@ -45,3 +45,7 @@
  fastboot flash dtb dtb.img
  fastboot flash dtbo dtbo.img
  ```
+4. Reboot to bootloader mode:
+```
+fastboot reboot bootloader
+```
