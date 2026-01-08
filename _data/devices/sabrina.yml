@@ -10,7 +10,6 @@ cpu_freq: 1.8 GHz
 current_branch: 22.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 12.5, height: 61, width: 161}
-download_boot: Run `adb reboot bootloader`.
 gpu: ARM Mali-G31 MP2
 image: sabrina.png
 install_method: fastboot_nexus
