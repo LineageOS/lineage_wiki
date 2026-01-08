@@ -11,7 +11,7 @@ This generation of Amlogic devices include a unique boot mode called "Burn Mode"
 
 1. Download `aml_install_package.img` file from [here](https://download.lineageos.org/devices/{{ device.codename }}).
 2. Power off the device, and boot it into burn mode:
-    * {{ device.download_boot }}
+    * {{ device.burn_boot }}
 3. Download and install `aml-flash-tool`:
 ```
 git clone https://github.com/radxa/aml-flash-tool.git
