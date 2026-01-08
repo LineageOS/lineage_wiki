@@ -58,7 +58,7 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {% include templates/device_info_note.md %}
 {% endif %}
 
-{% if device.recovery_boot or device.download_boot %}
+{% if device.recovery_boot or device.download_boot or device.burn_boot %}
 ## Special boot modes
 
 {% if device.recovery_boot %}
@@ -69,6 +69,9 @@ There are multiple variants of this device. [Make sure you're viewing the right 
 {%- endif %}
 {%- if device.download_boot %}
 * **Bootloader/Fastboot/Download**: {{ device.download_boot }}
+{%- endif %}
+{%- if device.burn_boot %}
+* **Burn Mode**: {{ device.burn_boot }}
 {%- endif %}
 {%- endif %}
 
