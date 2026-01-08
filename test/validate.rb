@@ -24,6 +24,7 @@ def validate_json(schema, device_json, device_path)
   JSON::Validator.fully_validate(schema, device_json, :validate_schema => true).each do |message|
     puts to_relative_path(device_path) + ': ' + message
     at_exit { exit false }
+    return false
   end
 end
 
@@ -150,20 +151,25 @@ Dir.glob(wiki_dir + '**/*.yml').each do |filename|
   end
 end
 
-Parallel.map(Dir.entries(device_dir).sort) do |filename|
+results = Parallel.map(Dir.entries(device_dir).sort) do |filename|
+  ret = true
   device_path = device_dir + filename
+
   if File.file?(device_path)
     device_json = JSON.parse(yaml_to_json(device_path))
-    validate_json(schema, device_json, device_path)
+
+    if !validate_json(schema, device_json, device_path)
+      ret = false
+    end
 
     if device_json["current_branch"] != device_json["versions"].last
       puts to_relative_path(device_path) + ': current_branch must be the same as the last supported version'
-      at_exit { exit false }
+      ret = false
     end
 
     if !device_json["maintainers"].empty? and device_json["uses_twrp"]
       puts to_relative_path(device_path) + ': uses_twrp cannot be used for a supported device'
-      at_exit { exit false }
+      ret = false
     end
 
     codename = filename.sub('.yml', '')
@@ -179,7 +185,7 @@ Parallel.map(Dir.entries(device_dir).sort) do |filename|
       validate_template(fw_update_template, fw_update_dir + test_file, codename)
     elsif File.file?(fw_update_dir + test_file)
       puts to_relative_path(device_path) + ': fw_update page exists, but firmware_update is unset'
-      at_exit { exit false }
+      ret = false
     end
 
     if device_json["variant"]
@@ -192,4 +198,10 @@ Parallel.map(Dir.entries(device_dir).sort) do |filename|
     validate_image(device_image_dir + image, device_path, 500)
     validate_image(device_image_small_dir + image, device_path, 150)
   end
+
+  ret
+end
+
+if results.any?(false)
+  at_exit { exit false }
 end
