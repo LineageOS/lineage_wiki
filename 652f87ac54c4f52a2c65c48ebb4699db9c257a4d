@@ -22,6 +22,30 @@
       },
       "revId": "652f87ac54c4f52a2c65c48ebb4699db9c257a4d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f60b11d_c3e9f986",
+        "filename": "_data/devices/scorpio.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-01-08T19:13:52Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "59277715_25e68b4d",
+      "range": {
+        "startLine": 18,
+        "startChar": 0,
+        "endLine": 18,
+        "endChar": 11
+      },
+      "revId": "652f87ac54c4f52a2c65c48ebb4699db9c257a4d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
