@@ -1,6 +1,7 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
 bluetooth: {spec: None}
+burn_boot: Attach a blank eMMC module to the device, plug into your PC via the Micro-USB port, and connect the device to power.
 cameras: []
 codename: odroidc4_tab
 cpu: Cortex-A55
