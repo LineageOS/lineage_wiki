@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9ed4866b_dc8f8db2",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-01-08T17:45:08Z",
+      "side": 1,
+      "message": "includes?",
+      "range": {
+        "startLine": 3,
+        "startChar": 34,
+        "endLine": 3,
+        "endChar": 42
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bfb0f50e_0f777a4c",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-01-08T17:45:08Z",
+      "side": 1,
+      "message": "```suggestion\n{% include alerts/warning.html content\u003d\"Please note that both `aml-flash-tool` and `update` are known to be somewhat finicky on specific host platforms (e.g. AMD machines). If you encounter any failures while flashing, return to step 2 and try again.\" %}\n```",
+      "range": {
+        "startLine": 6,
+        "startChar": 173,
+        "endLine": 6,
+        "endChar": 245
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f3fe3781_ea97f4c7",
+        "filename": "_includes/templates/device_specific/before_recovery_install_g12.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-01-08T17:45:08Z",
+      "side": 1,
+      "message": "I don\u0027t know about this alert, feel free to leave it as is, but it kind of feels like a few run on sentences.\n```suggestion\n{% include alerts/note.html content\u003d\"Please note that most devices will be able to navigate into recovery mode by pressing the \u003ckbd\u003eSide Button\u003c/kbd\u003e to cycle through the on-screen options, and long-pressing the \u003ckbd\u003eSide Button\u003c/kbd\u003e to select an option. However, if your device has a remote that communicates via Infrared (IR), the on-device button may not function correctly to change selection/select items in the recovery menu. If you hit this, please try utilizing your IR remote\u0027s \u003ckbd\u003eDPAD Keys\u003c/kbd\u003e to change selection, and the \u003ckbd\u003ePower Button\u003c/kbd\u003e to select an item.\" %}\n```",
+      "range": {
+        "startLine": 57,
+        "startChar": 83,
+        "endLine": 57,
+        "endChar": 100
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdf9fee3_a1c2dd90",
+        "filename": "_includes/templates/recovery_install_amlogic_update.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-01-08T17:45:08Z",
+      "side": 1,
+      "message": "Too many periods",
+      "range": {
+        "startLine": 35,
+        "startChar": 123,
+        "endLine": 35,
+        "endChar": 125
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b5ea02bf_597e5e40",
+        "filename": "pages/internal/adding_device.md",
+        "patchSetId": 18
+      },
+      "lineNbr": 99,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-01-08T17:45:08Z",
+      "side": 1,
+      "message": "for flashing?",
+      "range": {
+        "startLine": 99,
+        "startChar": 69,
+        "endLine": 99,
+        "endChar": 78
+      },
+      "revId": "ee416cd4fbe4844bc3000bb9cf2a47e90305b489",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
