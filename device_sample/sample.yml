@@ -3,6 +3,7 @@ battery:
   - A0001: {capacity: 2800, removable: True, tech: 'Li-Ion'}
   - SM-6900F: {capacity: 3000, removable: True, tech: 'Li-Po'}
 bluetooth: {spec: 4.0 + LE}
+download_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until you see the a logo on screen.
 cameras:
   - {flash: 'LED', info: '16 MP'}
   - {flash: None, info: '2 MP'}
