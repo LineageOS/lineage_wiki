@@ -33,6 +33,23 @@
       "message": "Pending hardware/sony merge*",
       "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "755a1824_bf1dda90",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36488
+      },
+      "writtenOn": "2026-01-12T21:41:41Z",
+      "side": 1,
+      "message": "OCD tripping on the white device images, but OK.",
+      "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
