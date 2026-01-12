@@ -116,13 +116,14 @@ There are no recovery installation instructions for this discontinued device.
     {% if device.vendor == "LG" %}
         {% include templates/recovery_boot_lge.md %}
     {% endif %}
+    {% include alerts/note.html content="Please note that while touch inputs work in recovery on most devices, on some devices it may not. If this is the case use the <kbd>Volume Buttons</kbd> to cycle onscreen options and the <kbd>Power Button</kbd> to select (Mobile), or the <kbd>Side Button</kbd> (Android TV)." %}
 {%- endif %}
 {%- if device.uses_twrp %}
-3. Now tap **Wipe**.
-4. Now tap **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
+3. Now select **Wipe**.
+4. Now select **Format Data** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage.
 {%- if device.is_ab_device %}
 {%- else %}
-5. Return to the previous menu and tap **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
+5. Return to the previous menu and select **Advanced Wipe**, then select the *Cache* and *System* partitions and then **Swipe to Wipe**.
 {%- endif %}
 6. Sideload the LineageOS `.zip` package:
     * On the device, select "Advanced", "ADB Sideload", then swipe to begin sideload.
@@ -133,7 +134,7 @@ There are no recovery installation instructions for this discontinued device.
         {% include alerts/specific/tip_adb_flash_success.html %}
         {% include alerts/specific/verification_note.html %}
 {%- else %}
-3. Now tap **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
+3. Now select **Factory Reset**, then **Format data / factory reset** and continue with the formatting process. This will remove encryption and delete all files stored in the internal storage, as well as format your cache partition (if you have one).
 4. Return to the main menu.
 {%- if device.has_no_usb %}
 5. Copy the the LineageOS `.zip` package and any addons you wish to install to your device's removable SD card, then insert it in your device and install it, but **do not reboot to system** before you read/followed the rest of the instructions!:
