@@ -16,6 +16,23 @@
       "message": "Pending hardware/sony and experimental builds",
       "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7f446fc9_ba001a2b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-01-12T16:02:53Z",
+      "side": 1,
+      "message": "Pending hardware/sony merge*",
+      "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
