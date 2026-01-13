@@ -50,6 +50,23 @@
       "message": "OCD tripping on the white device images, but OK.",
       "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11b1debb_26c513b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-01-13T01:55:52Z",
+      "side": 1,
+      "message": "https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image\n`background of the image is transparent`",
+      "revId": "46d684267d44a47114942bc6f76cb85890f5653b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
