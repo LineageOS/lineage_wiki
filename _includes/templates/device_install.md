@@ -116,7 +116,7 @@ There are no recovery installation instructions for this discontinued device.
     {% if device.vendor == "LG" %}
         {% include templates/recovery_boot_lge.md %}
     {% endif %}
-    {% include alerts/note.html content="Please note that while touch inputs work in recovery on most devices, on some devices it may not. If this is the case use the <kbd>Volume Buttons</kbd> to cycle onscreen options and the <kbd>Power Button</kbd> to select (Mobile), or the <kbd>Side Button</kbd> (Android TV)." %}
+    {% include alerts/note.html content="Please note that while touch inputs work in recovery on most devices, on some devices it may not. If this is the case use the <kbd>Volume Buttons</kbd> to cycle onscreen options and the <kbd>Power Button</kbd> to select (Mobile), or by short pressing the <kbd>Side Button</kbd> to cycle onscreen options and by long pressing the <kbd>Side Button</kbd> to select (Android TV)." %}
 {%- endif %}
 {%- if device.uses_twrp %}
 3. Now select **Wipe**.
