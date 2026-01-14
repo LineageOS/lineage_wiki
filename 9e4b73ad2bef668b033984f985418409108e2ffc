@@ -16,6 +16,24 @@
       "message": "You can probably make it conditional on device type. If it\u0027s ATV, then show text for it.",
       "revId": "9e4b73ad2bef668b033984f985418409108e2ffc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dfa20ed1_cb758306",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-01-14T22:53:07Z",
+      "side": 1,
+      "message": "oh, good point",
+      "parentUuid": "c1b1f537_0c936797",
+      "revId": "9e4b73ad2bef668b033984f985418409108e2ffc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
