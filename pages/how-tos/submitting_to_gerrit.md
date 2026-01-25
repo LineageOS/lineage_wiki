@@ -63,8 +63,14 @@ Now, try the following command to see if you can successfully authenticate to Ge
 ssh gerritUsername@review.lineageos.org -p 29418
 ```
 
-If the command above returns "Bad server host key: Invalid key length", you'll need to add the following lines to `~/.ssh/config`:
+If the command above returns **"Bad server host key: Invalid key length"**, you'll need to add the following lines to `~/.ssh/config`:
 
+**OpenSSH >= 9.1**
+```
+Host review.lineageos.org
+    RequiredRSASize 0
+```
+**OpenSSH < 9.1**
 ```
 Host review.lineageos.org
     RSAMinSize 0
