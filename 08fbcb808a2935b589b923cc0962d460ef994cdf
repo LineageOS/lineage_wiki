@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c849a503_c754569c",
+        "filename": "_data/devices/timelm.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-01-27T00:35:05Z",
+      "side": 1,
+      "message": "was this change accidental?\nthis tells the user they need to update their firmware before they can upgrade from 22.2 to 23.0. ref: https://wiki.lineageos.org/devices/timelm/upgrade/\nthe firmware requirement didn\u0027t change, so that should stay the same.",
+      "range": {
+        "startLine": 3,
+        "startChar": 77,
+        "endLine": 3,
+        "endChar": 80
+      },
+      "revId": "08fbcb808a2935b589b923cc0962d460ef994cdf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
