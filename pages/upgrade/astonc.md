@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on aston
+title: Upgrade LineageOS on astonc
 folder: upgrade
-permalink: /devices/aston/upgrade/
-device: aston
+permalink: /devices/astonc/upgrade/
+device: astonc
 ---
 {% include templates/device_upgrade.md %}
