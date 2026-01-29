@@ -1,7 +1,6 @@
 architecture: arm64
 battery: {capacity: 5500, removable: false, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '15'}
-before_lineage_install: ab_copy_partitions
+before_install: {instructions: 'needs_specific_android_fw', version: '16'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
@@ -37,7 +36,6 @@ soc: Qualcomm SM8550 Snapdragon 8 Gen2
 storage: 128/256 GB UFS3.1
 tree: android_device_oneplus_aston
 type: phone
-variant: 1
 vendor: OnePlus
 vendor_short: oneplus
 versions: [22.2, 23.0]

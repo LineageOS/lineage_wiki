@@ -1,11 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Info about aston variants
+title: Info about aston
+layout: deviceinfo
 permalink: /devices/aston/
-redirect_from:
-- /devices/aston/install
-- /devices/aston/update
 device: aston
-toc: false
 ---
-{% include templates/device_variants.md info=true %}
+{% include templates/device_info.md %}

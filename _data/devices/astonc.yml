@@ -1,7 +1,6 @@
 architecture: arm64
 battery: {capacity: 5500, removable: false, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', version: '15'}
-before_lineage_install: ab_copy_partitions
+before_install: {instructions: 'needs_specific_android_fw', version: '16'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
@@ -9,7 +8,7 @@ cameras:
   - {flash: 'LED', info: '8 MP (ultrawide)'}
   - {flash: 'LED', info: '2 MP (macro)'}
   - {flash: None, info: '16 MP'}
-codename: aston
+codename: astonc
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
@@ -19,7 +18,7 @@ dimensions: {depth: 8.8, height: 163.3, width: 75.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_oplus_sm8550
 gpu: Qualcomm Adreno 740
-image: aston.png
+image: astonc.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8550, version: '5.15'}
@@ -35,10 +34,9 @@ release: 2024-01
 screen: {refresh_rate: 120, resolution: '1264x2780', size: 6.78, technology: 'LTPO AMOLED'}
 soc: Qualcomm SM8550 Snapdragon 8 Gen2
 storage: 256/512/1024 GB UFS4.0
-tree: android_device_oneplus_aston
+tree: android_device_oneplus_astonc
 type: phone
-variant: 2
 vendor: OnePlus
 vendor_short: oneplus
-versions: [22.2, 23.0]
+versions: [23.0]
 wifi: 802.11 a/b/g/n/ac/ax
