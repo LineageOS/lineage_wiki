@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 3900, removable: false, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '15'}
+before_recovery_install: samsung_exynos9xxx
+bluetooth: {profiles: [A2DP], spec: '5.3'}
+cameras:
+  - {flash: 'LED', info: '50 MP (wide)'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (front)'}
+  - {flash: 'LED', info: '10 MP (ultrawide)'}
+codename: dm1q
+cpu: Cortex-X3 & Cortex-A715 & Cortex-A710 & Cortex-A510
+cpu_cores: '8'
+cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 23.2
+dimensions: {depth: 7.6, height: 146.3, width: 70.9}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+gpu: Qualcomm Adreno 740
+image: dm1q.png
+install_method: heimdall
+kernel: {repo: android_kernel_samsung_sm8550, version: '5.15'}
+maintainers: [DaemonMCR, josip-k]
+models: [SM-S911B, SM-S911B/DS]
+name: Galaxy S23
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, BeiDou, Compass, eSIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+quirks: [esim, ims]
+ram: 8 GB
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2023-02-17
+screen: {refresh_rate: 120, resolution: '1080x2340', size: 6.1, technology: 'AMOLED'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 128/256/512 GB
+tree: android_device_samsung_dm1q
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac
