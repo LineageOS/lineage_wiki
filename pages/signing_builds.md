@@ -30,13 +30,13 @@ ServiceConnectivityResources
 ServiceUwbResources
 ServiceWifiResources
 WifiDialog
+com.android.appsearch.apk
 {% endcapture %}
 {% capture apexes %}
 com.android.adbd
 com.android.adservices
 com.android.adservices.api
 com.android.appsearch
-com.android.appsearch.apk
 com.android.art
 com.android.bluetooth
 com.android.bt
