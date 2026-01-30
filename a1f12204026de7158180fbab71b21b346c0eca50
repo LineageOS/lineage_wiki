@@ -33,6 +33,24 @@
       "message": "Apart from a different color on the pic, do they look any different? If not I\u0027d keep aston.png for both",
       "revId": "a1f12204026de7158180fbab71b21b346c0eca50",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d88bf68c_ad8abf55",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-01-30T04:56:39Z",
+      "side": 1,
+      "message": "Both are same device. But i added different image since OnePlus 13R / Ace 5 also have different images.",
+      "parentUuid": "e60fc76b_4245368c",
+      "revId": "a1f12204026de7158180fbab71b21b346c0eca50",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
