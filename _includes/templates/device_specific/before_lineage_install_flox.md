@@ -24,7 +24,7 @@
     {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Yes`." %}
 4. Now run `adb -d shell` from your Terminal/PowerShell, and run the following commands within it:
     - `modify`
-    {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
+    {% include alerts/warning.html content="This step may take up to 15 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
 5. The device will complete the repartition process, please leave it sit for 10 minutes, and when you return it will have something resembling the following on screen::
 ```
 2048+0 records in
