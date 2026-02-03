@@ -20,7 +20,7 @@ image: panther.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_google_gs-6.1_manifest, version: '6.1'}
-maintainers: [mikeioannina, neelc]
+maintainers: [mikeioannina]
 name: Pixel 7
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Accelerometer, Barometer, Compass, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
