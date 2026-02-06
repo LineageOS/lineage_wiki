@@ -9,7 +9,7 @@ codename: nicole
 cpu: Kryo 680
 cpu_cores: '8'
 cpu_freq: 4 x 1.6 GHz + 3 x 2.4 GHz + 1 x 3.0 GHz
-current_branch: 23.0
+current_branch: 23.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 11.0, height: 260.0, width: 85.0}
 download_boot: With the device powered off, press <kbd>Volume Down</kbd> while plugging it into a PC.
@@ -37,5 +37,5 @@ type: tablet
 variant: 2
 vendor: Razer
 vendor_short: razer
-versions: [23.0]
+versions: [23.0, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax
