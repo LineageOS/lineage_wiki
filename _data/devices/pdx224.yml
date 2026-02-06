@@ -13,7 +13,7 @@ codename: pdx224
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.0 GHz + 3 x 2.5 GHz + 4 x 1.80 GHz
-current_branch: 23.0
+current_branch: 23.2
 dimensions: {depth: 8.2, height: 156, width: 67}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
 gpu: Qualcomm Adreno 730
@@ -39,5 +39,5 @@ tree: android_device_sony_pdx224
 type: phone
 vendor: Sony
 vendor_short: sony
-versions: [23.0]
+versions: [23.0, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax/be

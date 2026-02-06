@@ -12,7 +12,7 @@ codename: x1s
 cpu: Exynos M5 & Cortex-A76 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.50 + 4 x 2.00 GHz
-current_branch: 23.0
+current_branch: 23.2
 dimensions: {depth: 7.9, height: 151.7, width: 69.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
@@ -37,5 +37,5 @@ tree: android_device_samsung_x1s
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [23.0]
+versions: [23.0, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax
