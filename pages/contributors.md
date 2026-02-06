@@ -22,7 +22,7 @@ the project and are committed to improving it.
 | Luca Stefani | luca020400 |
 | Łukasz Patron | LuK1337 |
 | Michael Bestas | mikeioannina |
-| Rashed Abdel-Tawab | rashed |
+| Nolen Johnson | npjohnson |
 | Tom Powell | zifnab |
 | razorloves | razorloves |
 {: .table }
@@ -34,6 +34,7 @@ These individuals lead the project in the past, but have since stepped down.
 | Name | Nickname |
 |------|----------|
 | Abhisek Devkota | ciwrl |
+| Rashed Abdel-Tawab | rashed |
 | Sam Mortimer | sam3000 |
 | Simon Shields | forkbomb |
 {: .table}
@@ -60,7 +61,6 @@ their feedback is held as backed by project leads and recognized as a distinct g
 |------|----------|
 | Björn Lundén | blunden |
 | Georg Veichtlbauer | vware |
-| Nolen Johnson | npjohnson |
 | Scott Warner | Tortel |
 | Timi Rautamäki | trautamaki |
 {: .table }
