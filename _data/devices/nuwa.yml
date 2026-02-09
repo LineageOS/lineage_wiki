@@ -34,7 +34,7 @@ recovery_partition_name: recovery
 release: 2022-12-11
 screen: {resolution: '3200x1440', size: 6.73, technology: 'OLED'}
 soc: Qualcomm SM8550 Snapdragon 8 Gen2
-storage: 128/256/512 GB
+storage: 128/256/512 GB UFS4.0
 tree: android_device_xiaomi_nuwa
 type: phone
 vendor: Xiaomi
