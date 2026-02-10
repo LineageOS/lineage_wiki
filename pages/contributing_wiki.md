@@ -141,7 +141,7 @@ Each time that you want to edit the wiki, you will need to start a local web ser
 
 ```
 cd $LINEAGE_SRC/lineage/wiki
-docker run -p 4000:4000 -v $(pwd):/src -it lineageos/wiki
+UID=$UID GID=$GID docker compose up
 ```
 
 At this point you should be able to view the [local Jekyll server](http://127.0.0.1:4000).
