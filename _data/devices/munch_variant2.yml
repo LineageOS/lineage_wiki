@@ -3,6 +3,7 @@ battery: {capacity: 4500, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
 before_install_device_variants:
   - {device: 'Redmi K40S China', download_link: 'https://cdnorg.d.miui.com/OS1.0.2.0.ULMCNXM/miui_MUNCH_OS1.0.2.0.ULMCNXM_6438305cc0_14.0.zip', firmware: 'OS1.0.2.0.ULMCNXM'}
+before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:

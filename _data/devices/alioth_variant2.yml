@@ -3,6 +3,7 @@ battery: {capacity: 4520, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21}
 before_install_device_variants:
   - {device: 'Redmi K40 China', download_link: 'https://bn.d.miui.com/OS1.0.3.0.TKHCNXM/miui_ALIOTH_OS1.0.3.0.TKHCNXM_eab81b6bf0_13.0.zip', firmware: 'OS1.0.3.0.TKHCNXM'}
+before_lineage_install: ab_copy_partitions
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
