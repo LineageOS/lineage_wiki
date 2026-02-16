@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d0122c15_215f8823",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32811
+      },
+      "writtenOn": "2026-02-16T14:13:06Z",
+      "side": 1,
+      "message": "Both ship OOS16 fw and blobs",
+      "revId": "4a4dfceb87b7599051abec2b4924ef5931eb105d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
