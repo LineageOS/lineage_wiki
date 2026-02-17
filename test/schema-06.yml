@@ -55,6 +55,8 @@ definitions:
         type: string
       partitions:
         type: array
+      reboot_fastbootd:
+        type: boolean
     required:
       - instructions
     type: object
