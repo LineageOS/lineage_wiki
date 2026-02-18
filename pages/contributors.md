@@ -45,6 +45,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 
 | Name | Nickname |
 |------|----------|
+| Cosmin Tanislav | Demon000 |
 | Danny Baumann | maniac103 |
 | Jan Altensen | Stricted |
 | Joey Rizzoli | joeyrizzoli |
@@ -59,8 +60,10 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 | Name | Nickname |
 |------|----------|
-| Björn Lundén | blunden |
+| Anierin Bliss | AnierinBliss |
+| Aryan | basamaryan |
 | Georg Veichtlbauer | vware |
+| Nick Reuter | elginsk8r |
 | Scott Warner | Tortel |
 | Timi Rautamäki | trautamaki |
 {: .table }
@@ -183,6 +186,7 @@ The following people are responsible for the verification of the contents and th
 | Name | Nickname |
 |------|----------|
 | Bruno Martins | bgcngm |
+| Inhishonor | Inhishonor |
 | Michael W | baddaemon |
 | Nolen Johnson | npjohnson |
 | razorloves | razorloves |
