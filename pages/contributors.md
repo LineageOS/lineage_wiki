@@ -50,6 +50,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Joey Rizzoli | joeyrizzoli |
 | Michael W. | baddaemon |
 | Joseph Annareddy | javelinanddart |
+| Cosmin Tanislav | Demon000 |
 {: .table }
 
 ### Reviewers
@@ -59,7 +60,9 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 | Name | Nickname |
 |------|----------|
-| Björn Lundén | blunden |
+| Anierin Bliss | AnierinBliss |
+| Nick Reuter | elginsk8r |
+| Aryan | basamaryan |
 | Georg Veichtlbauer | vware |
 | Scott Warner | Tortel |
 | Timi Rautamäki | trautamaki |
@@ -186,4 +189,5 @@ The following people are responsible for the verification of the contents and th
 | Michael W | baddaemon |
 | Nolen Johnson | npjohnson |
 | razorloves | razorloves |
+| Inhishonor | Inhishonor |
 {: .table }
