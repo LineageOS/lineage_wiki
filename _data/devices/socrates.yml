@@ -34,7 +34,7 @@ recovery_partition_name: recovery
 release: 2022-12-27
 screen: {resolution: '3200x1440', size: 6.67, technology: 'OLED'}
 soc: Qualcomm SM8550 Snapdragon 8 Gen2
-storage: 128/256/512 GB UFS4.0
+storage: 128 GB UFS3.1 / 256/512 GB UFS4.0
 tree: android_device_xiaomi_socrates
 type: phone
 vendor: Xiaomi
