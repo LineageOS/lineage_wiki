@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e8550ba0_0beb748a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2026-02-19T07:43:07Z",
+      "side": 1,
+      "message": "For socrates, the 128G version of the memory chip is UFS3.1, and it is wrong to label all versions of the memory chip type as UFS4.0",
+      "revId": "7129525d653e55d95e654cd3a81099579d22175e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
