@@ -1,0 +1,35 @@
+architecture: arm64
+battery: {capacity: 8000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '13'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
+codename: odin2
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 23.2
+dimensions: {depth: 17, height: 98, width: 225}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 740
+image: odin2.png
+install_method: fastboot_unlocked
+is_ab_device: true
+kernel: {repo: android_kernel_ayn_qcs8550, version: '5.15'}
+maintainers: [AnierinBliss, balika011, basamaryan, npjohnson, onelots, webgeek1234]
+models: [Odin2]
+name: 'Odin2'
+peripherals: [3.5mm jack, Accelerometer, Dock, Gamepad, Gyroscope, Stereo speakers, USB OTG]
+ram: 8/12/16 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: recovery
+release: 2023-05
+screen: {refresh_rate: 60, resolution: '1920x1080', size: 7.0, technology: 'IPS LCD'}
+sdcard: {size_max: '2 TB'}
+soc: Qualcomm QCS8550 Snapdragon 8 Gen2
+storage: 128/512/1024 GB UFS3.1
+tree: android_device_ayn_odin2
+type: Handheld game console
+vendor: AYN
+vendor_short: ayn
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax/be
