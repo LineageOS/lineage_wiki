@@ -16,6 +16,74 @@
       "message": "Not sure if the phrasing is good enough for users to understand",
       "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c5030402_bafe98c4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-20T14:05:37Z",
+      "side": 1,
+      "message": "Do we need to link this page anywhere?",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "09a905a2_d74d4345",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-20T14:05:37Z",
+      "side": 1,
+      "message": "I\u0027d keep this more general and say something like \"that allows you to run some select adb and fastboot commands\". I also think that at the end of this page we should have a table or list of all potential commands.",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "53091620_0aed82e0",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-20T14:05:37Z",
+      "side": 1,
+      "message": "```suggestion\n2. Select `Apply update \u003e Apply from ADB` using the touch screen, or with the volume keys to change options and the power button to select.\n```",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5ac1c19f_fe30bbec",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-20T14:05:37Z",
+      "side": 1,
+      "message": "I would link to the normal channels not dev, as this isn\u0027t really dev work.",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
