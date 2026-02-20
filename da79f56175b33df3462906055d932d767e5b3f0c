@@ -16,6 +16,29 @@
       "message": "To run just use `UID\u003d$UID GID\u003d$GID docker compose up`",
       "revId": "da79f56175b33df3462906055d932d767e5b3f0c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d4e24d03_b61079ec",
+        "filename": "compose.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-20T18:48:02Z",
+      "side": 1,
+      "message": "2 newlines?",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 0
+      },
+      "revId": "da79f56175b33df3462906055d932d767e5b3f0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
