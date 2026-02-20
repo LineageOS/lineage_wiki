@@ -265,6 +265,7 @@ definitions:
       - Super PLS LCD
       - Super clear LCD
       - TFT LCD
+      - MINI LED
     type: string
   sdcard_data:
     additionalProperties: false
@@ -347,6 +348,7 @@ definitions:
       - Qualcomm MSM8996 Snapdragon 820
       - Qualcomm MSM8998 Snapdragon 835
       - Qualcomm QCM6490
+      - Qualcomm QCS8550 Snapdragon 8 Gen2
       - Qualcomm SDM429 Snapdragon 429
       - Qualcomm SDM439 Snapdragon 439
       - Qualcomm SDM450 Snapdragon 450
