@@ -37,6 +37,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "c208265b_04559e96",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-20T14:59:24Z",
+      "side": 1,
+      "message": "Maybe we can link it in the fastboot adb page",
+      "parentUuid": "c5030402_bafe98c4",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "09a905a2_d74d4345",
         "filename": "pages/flash_tools.md",
         "patchSetId": 1
@@ -48,6 +66,24 @@
       "writtenOn": "2026-02-20T14:05:37Z",
       "side": 1,
       "message": "I\u0027d keep this more general and say something like \"that allows you to run some select adb and fastboot commands\". I also think that at the end of this page we should have a table or list of all potential commands.",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2341eddb_579488f7",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-20T14:59:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "09a905a2_d74d4345",
       "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -69,6 +105,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ecc2661_10cfcc11",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-20T14:59:24Z",
+      "side": 1,
+      "message": "I wouldn\u0027t use option as that means I am changing a setting. I\u0027ll just use navigate to keep it general",
+      "parentUuid": "53091620_0aed82e0",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5ac1c19f_fe30bbec",
@@ -82,6 +136,24 @@
       "writtenOn": "2026-02-20T14:05:37Z",
       "side": 1,
       "message": "I would link to the normal channels not dev, as this isn\u0027t really dev work.",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "206c1424_b4a443b1",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 40,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-20T14:59:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5ac1c19f_fe30bbec",
       "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
