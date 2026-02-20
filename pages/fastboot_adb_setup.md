@@ -14,6 +14,8 @@ commands are listed in the "[popular adb commands](#popular-adb-commands)" secti
 
 ## Installing `adb` and `fastboot`
 
+{% include alerts/note.html content="If you can't install these tools locally, you can use the web-based [Lineage Flash Tools](web_flash_tools.html) instead." %}
+
 Google hosts zips including only `adb` and `fastboot`. You can set these up for use with the instructions below.
 
 ### On Windows
