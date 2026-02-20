@@ -250,6 +250,7 @@ definitions:
       - Foldable LTPO OLED
       - LTPO AMOLED
       - LTPO OLED
+      - MINI LED
       - Optic AMOLED
       - Super AMOLED
       - Pentile RGBG AMOLED
@@ -347,6 +348,7 @@ definitions:
       - Qualcomm MSM8996 Snapdragon 820
       - Qualcomm MSM8998 Snapdragon 835
       - Qualcomm QCM6490
+      - Qualcomm QCS8550 Snapdragon 8 Gen2
       - Qualcomm SDM429 Snapdragon 429
       - Qualcomm SDM439 Snapdragon 439
       - Qualcomm SDM450 Snapdragon 450
@@ -512,6 +514,7 @@ definitions:
         - Fingerprint reader
         - BeiDou
         - Galileo
+        - Gamepad
         - GLONASS
         - GPS
         - NAVIC
@@ -982,6 +985,7 @@ properties:
       - ARK
       - Askey
       - ASUS
+      - AYN
       - Banana Pi
       - BQ
       - Dynalink
