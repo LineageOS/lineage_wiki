@@ -253,6 +253,7 @@ definitions:
       - LTPO AMOLED
       - LTPO OLED
       - LTPO P-OLED
+      - MINI LED
       - Optic AMOLED
       - Super AMOLED
       - Pentile RGBG AMOLED
@@ -991,6 +992,7 @@ properties:
       - ARK
       - Askey
       - ASUS
+      - AYN
       - Banana Pi
       - BQ
       - Dynalink
@@ -1041,6 +1043,7 @@ properties:
       - ark
       - askey
       - asus
+      - ayn
       - bananapi
       - bq
       - essential
