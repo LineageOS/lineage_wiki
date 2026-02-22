@@ -686,6 +686,7 @@ properties:
       - Cortex-A73 & Cortex-A53
       - Cortex-A75 & Cortex-A55
       - Cortex-A76 & Cortex-A55
+      - Cortex-A78 & Cortex-A55
       - Cortex-A9
       - Cortex-X1 & Cortex-A76 & Cortex-A55
       - Cortex-X1 & Cortex-A78 & Cortex-A55
