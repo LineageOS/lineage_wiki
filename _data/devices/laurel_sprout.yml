@@ -20,7 +20,7 @@ image: laurel_sprout.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm6125, version: '4.14'}
-maintainers: [Skyblueborb]
+maintainers: []
 models: [M1906F9SH, M1906F9SI]
 name: Mi A3
 network: [2G GSM, 3G UMTS, 4G LTE]
