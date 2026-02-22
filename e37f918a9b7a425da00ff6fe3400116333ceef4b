@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "937ae815_d34a8458",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-22T20:09:34Z",
+      "side": 1,
+      "message": "This might be better if we explain why high throughput of data is a problem. \n```suggestion\nSometimes Android devices have trouble communicating through certain USB ports or hubs due to the high throughput of data required by the flashing process. To resolve transfer errors:\n```",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 150
+      },
+      "revId": "e37f918a9b7a425da00ff6fe3400116333ceef4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
