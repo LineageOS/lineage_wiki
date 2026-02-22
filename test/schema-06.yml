@@ -101,6 +101,7 @@ definitions:
       - ARM Mali-400 MP4
       - ARM Mali-G31 MP2
       - ARM Mali-G52 MC2
+      - ARM Mali-G68 MP4
       - ARM Mali-G71 MP2
       - ARM Mali-G72 MP12
       - ARM Mali-G72 MP18
@@ -413,6 +414,7 @@ definitions:
       - Qualcomm SM8650 Snapdragon 8 Gen3
       - Qualcomm SM8735 Snapdragon 8s Gen4
       - Qualcomm SM8750 Snapdragon 8 Elite
+      - Samsung Exynos 1280
       - Samsung Exynos 850
       - Samsung Exynos 4210
       - Samsung Exynos 4412
@@ -686,6 +688,7 @@ properties:
       - Cortex-A73 & Cortex-A53
       - Cortex-A75 & Cortex-A55
       - Cortex-A76 & Cortex-A55
+      - Cortex-A78 & Cortex-A55
       - Cortex-A9
       - Cortex-X1 & Cortex-A76 & Cortex-A55
       - Cortex-X1 & Cortex-A78 & Cortex-A55
