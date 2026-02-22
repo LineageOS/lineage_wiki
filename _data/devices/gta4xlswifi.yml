@@ -1,0 +1,37 @@
+architecture: arm64
+battery: {capacity: 7040, removable: false, tech: 'Li-Po'}
+before_recovery_install: samsung_exynos9xxx
+bluetooth: {profiles: [A2DP + aptX], spec: '5.3'}
+cameras:
+  - {flash: None, info: '8 MP'}
+  - {flash: None, info: '5 MP'}
+codename: gta4xlswifi
+cpu: Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.4 GHz + 6 x 2.0GHz
+current_branch: 23.2
+dimensions: {depth: 7.0, height: 244.5, width: 154.3}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
+gpu: ARM Mali-G68
+image: gta4xl.png
+install_method: heimdall
+kernel: {repo: android_kernel_samsung_gta4xls, version: '5.10'}
+maintainers: [Linux4]
+models: [SM-P620]
+name: Galaxy Tab S6 Lite 2024 (Wi-Fi)
+network: None
+peripherals: [3.5mm jack, Accelerometer, GPS, Gyroscope]
+ram: 4 GB
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2024-03-28
+screen: {resolution: '1200x2000', size: 10.4, technology: 'TFT LCD'}
+sdcard: {size_max: '1 TB'}
+soc: Samsung Exynos 1280
+storage: 64/128 GB
+tree: android_device_samsung_gta4xlswifi
+type: tablet
+vendor: Samsung
+vendor_short: samsung
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac
