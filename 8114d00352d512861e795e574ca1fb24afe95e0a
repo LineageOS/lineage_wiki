@@ -16,6 +16,24 @@
       "message": "Telegram is asking me for a star to reply to you there, but for some reason, I couldn’t respond. If it’s okay, I’ll send the prerequisites for Apollon as an official/non-official maintainer and do the tests. If everything’s fine, you can just merge them. I don’t want to lose this model. Thanks for all your hard work!",
       "revId": "8114d00352d512861e795e574ca1fb24afe95e0a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "442af42e_184b8b6e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-02-23T16:40:51Z",
+      "side": 1,
+      "message": "Replied in DM",
+      "parentUuid": "ea2330e3_06159f4b",
+      "revId": "8114d00352d512861e795e574ca1fb24afe95e0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
