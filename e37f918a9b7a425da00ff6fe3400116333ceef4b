@@ -22,6 +22,30 @@
       },
       "revId": "e37f918a9b7a425da00ff6fe3400116333ceef4b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e24b1a8_c8fa37ab",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-23T08:14:26Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "937ae815_d34a8458",
+      "range": {
+        "startLine": 39,
+        "startChar": 0,
+        "endLine": 39,
+        "endChar": 150
+      },
+      "revId": "e37f918a9b7a425da00ff6fe3400116333ceef4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
