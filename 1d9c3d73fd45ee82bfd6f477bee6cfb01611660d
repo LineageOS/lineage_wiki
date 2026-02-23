@@ -50,6 +50,24 @@
       "message": "We can remove sahil from alioth",
       "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bec8282_9177f396",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-02-23T13:19:53Z",
+      "side": 1,
+      "message": "Do you have a Discord or Telegram handle?",
+      "parentUuid": "e4cf3dfc_e0a2553e",
+      "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
