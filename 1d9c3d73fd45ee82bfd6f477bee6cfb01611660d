@@ -140,6 +140,24 @@
       "parentUuid": "762659a1_fd69041f",
       "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4ff8d74f_b78455b6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 22176
+      },
+      "writtenOn": "2026-02-23T15:06:00Z",
+      "side": 1,
+      "message": "Ok. My telegram id @Khalvat_MBA",
+      "parentUuid": "75a05251_ec7d3f05",
+      "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
