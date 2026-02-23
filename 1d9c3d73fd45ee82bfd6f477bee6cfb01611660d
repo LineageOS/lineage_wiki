@@ -122,6 +122,24 @@
       "parentUuid": "0ce8eeda_ef7d3602",
       "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "75a05251_ec7d3f05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-02-23T14:28:49Z",
+      "side": 1,
+      "message": "Welp, I can\u0027t, and if Ramisky really isn\u0027t around, that means dropping the device",
+      "parentUuid": "762659a1_fd69041f",
+      "revId": "1d9c3d73fd45ee82bfd6f477bee6cfb01611660d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
