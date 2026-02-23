@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 650
 image: apollon.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_sm8250, version: '4.19'}
-maintainers: [Ramisky, SebaUbuntu]
+maintainers: [Ramisky]
 models: [M2007J3SY]
 name: Mi 10T
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
