@@ -125,6 +125,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a32506a_a79fee4c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-02-24T05:58:56Z",
+      "side": 1,
+      "message": "It should be fine for now. Eventually it might be nice to have a more official web installer but I think this change is good as is.",
+      "parentUuid": "57b47b8a_e354a57a",
+      "revId": "b0a3d8e411fc0069955b2da02a60552623c8ed37",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "09a905a2_d74d4345",
