@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6c89364f_f20b3f17",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-02-24T18:33:49Z",
+      "side": 1,
+      "message": "Make the \"here\" at the end the link instead",
+      "revId": "df79ab03a05303798f94f866c517ee7e0786b8e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "11df9bfe_c7b15e0a",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-02-24T18:33:49Z",
+      "side": 1,
+      "message": "Refer to /the/",
+      "revId": "df79ab03a05303798f94f866c517ee7e0786b8e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
