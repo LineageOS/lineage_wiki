@@ -16,6 +16,24 @@
       "message": "Hate to do this, but can you move all the formatting changes to another commit?",
       "revId": "2d73bcebc99700e3ea0c64381b5b1cb59a7d24e3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6046ea28_a0becf21",
+        "filename": "pages/fastboot_adb_setup.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-02-24T06:48:51Z",
+      "side": 0,
+      "message": "Done, my muscle memory to press format shortcut key LOL",
+      "parentUuid": "ea38fcc0_490b6360",
+      "revId": "2d73bcebc99700e3ea0c64381b5b1cb59a7d24e3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
