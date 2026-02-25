@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bbff62b5_54fda1b9",
+        "filename": "_includes/templates/device_specific/firmware_update_xiaomi_rosemary.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-25T01:44:17Z",
+      "side": 1,
+      "message": "we discussed the need for this in DM.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 30
+      },
+      "revId": "22b7fb19a8766fbd596e39905e6703b6fccbc60f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
