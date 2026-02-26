@@ -12,7 +12,7 @@ codename: timelm
 cpu: Kryo 585
 cpu_cores: '8'
 cpu_freq: 1 x 2.84 GHz + 3 x 2.42 GHz + 4 x 1.8 GHz
-current_branch: 23.0
+current_branch: 23.2
 dimensions: {depth: 8.9, height: 169.3, width: 77.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then connect a USB cable.
 gpu: Qualcomm Adreno 650
@@ -40,5 +40,5 @@ tree: android_device_lge_timelm
 type: phone
 vendor: LG
 vendor_short: lge
-versions: [22.2, 23.0]
+versions: [22.2, 23.0, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax
