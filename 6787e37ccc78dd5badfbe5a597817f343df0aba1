@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e50d99fe_e61acb74",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-02-26T03:15:48Z",
+      "side": 1,
+      "message": "We don\u0027t be shipping these so long as they\u0027re incompatible with our infra signing process. We sign out of tree and have no way to properly sign them.\n\nIf that gets fixed this can be revisited.",
+      "revId": "6787e37ccc78dd5badfbe5a597817f343df0aba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
