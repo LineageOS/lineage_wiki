@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.2, version: '16'}
+before_lineage_install: ab_copy_partitions
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.4'}
+cameras:
+  - {flash: 'LED', info: '50 MP (wide)'}
+  - {flash: 'LED', info: '13 MP (ultrawide)'}
+  - {flash: None, info: '8 MP'}
+codename: pdx257
+cpu: Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 4 x 2.4 GHz + 4 x 1.8 GHz
+current_branch: 23.2
+dimensions: {depth: 8.3, height: 153, width: 72}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The screen should show a blue star.
+gpu: Qualcomm Adreno 710
+image: pdx257.png
+install_method: fastboot_sony
+is_ab_device: true
+kernel: {repo: android_kernel_sony_sm6475, version: '6.6'}
+maintainers: [LuK1337, jmpfbmx]
+models: [XQ-FE54, XQ-FE72]
+name: Xperia 10 VII
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Stereo front speakers, USB OTG]
+ram: 8 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_reboot
+release: 2025-09-19
+screen: {resolution: '2340x1080', size: 6.1, technology: 'OLED'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM6475-AB Snapdragon 6 Gen 3
+storage: 128 GB UFS
+tree: android_device_sony_pdx257
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
