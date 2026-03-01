@@ -15,7 +15,7 @@ cpu_cores: '8'
 cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
 current_branch: 23.2
 dimensions: {depth: 8.3, height: 165, width: 71}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The notification light should turn blue.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The screen should show a blue star.
 gpu: Qualcomm Adreno 740
 image: pdx234.png
 install_method: fastboot_sony
