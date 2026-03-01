@@ -516,7 +516,7 @@ definitions:
         - Galileo
         - GLONASS
         - GPS
-        - NAVIC
+        - NavIC
         - SBAS
         - QZSS
         - Google Assist Button
@@ -538,7 +538,6 @@ definitions:
         - Mobility DisplayPort (MyDP)
         - Motion Coprocessor
         - Moto Mods
-        - NavIC
         - NFC
         - Pedometer
         - Proximity sensor
