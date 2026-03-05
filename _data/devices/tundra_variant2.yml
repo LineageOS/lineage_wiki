@@ -21,8 +21,8 @@ install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm7325, version: '5.4'}
 maintainers: [themard, electimon]
-models: [XT2243-1]
-name: edge 30 fusion
+models: [XT2243-2]
+name: moto S30 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Stereo speakers, USB OTG]
 ram: 8/12 GB LPDDR5
@@ -35,6 +35,7 @@ soc: Qualcomm SM8350-AC Snapdragon 888+
 storage: 128/256/512 GB UFS 3.1
 tree: android_device_motorola_tundra
 type: phone
+variant: 2
 vendor: Motorola
 vendor_short: motorola
 versions: [22.2, 23.0, 23.2]
