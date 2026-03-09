@@ -8,7 +8,7 @@
 3. On the device, navigate to the `Settings` app, in the `System` menu, under the `About this device` listing, and take note of your model number & carrier
 4. Open Flashtool
 5. Click the symbol to download and open XperiFirm (round button on the right) to download the latest firmware for your device
-6. In XPeriFirm, select your device and an appropriate firmware on the middle column with the version `23.5.A.1.291`. Then click on the firmware on the right side below `Available Firmware` and download it
+6. In XperiFirm, select your device and an appropriate firmware on the middle column with the version `23.5.A.1.291`. Then click on the firmware on the right side below `Available Firmware` and download it
 7. After the download finished, close XperiFirm. Flashtool now automatically recognizes the downloaded files and prepares the image to be flashed
 8. Now click on the lightning symbol (`flash device`), select `Flashmode` and click on `OK`
 9. Select the firmware file you just downloaded above
