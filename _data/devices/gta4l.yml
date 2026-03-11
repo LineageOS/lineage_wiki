@@ -12,7 +12,7 @@ cpu_cores: '8'
 cpu_freq: 4 x 2.0 GHz + 4 x 1.8 GHz
 current_branch: 23.2
 dimensions: {depth: 7, height: 157.4, width: 247.6}
-download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 firmware_update: firmware_update_samsung_gta4l
 gpu: Qualcomm Adreno 610
 image: gta4l.png
@@ -25,7 +25,7 @@ network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, GPS, Gyroscope, Light sensor, Proximity sensor, USB OTG]
 quirks: [ims]
 ram: 3 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
 release: 2020-09
 screen: {resolution: '2000x1200', size: 10.4, technology: 'TFT LCD'}
