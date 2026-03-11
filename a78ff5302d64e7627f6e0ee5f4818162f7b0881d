@@ -33,6 +33,24 @@
       "message": "matching Hudson commit needed: devices.json: `{  \"model\": \"tundra\", \"oem\": \"Motorola\", \"name\": \"edge 30 fusion\" },`",
       "revId": "a78ff5302d64e7627f6e0ee5f4818162f7b0881d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d3c0ae1_fa8beafe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-03-11T22:10:42Z",
+      "side": 1,
+      "message": "sounds good, created commit\nhttps://review.lineageos.org/c/LineageOS/hudson/+/477384",
+      "parentUuid": "3980407d_cf639206",
+      "revId": "a78ff5302d64e7627f6e0ee5f4818162f7b0881d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
