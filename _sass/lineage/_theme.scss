@@ -35,6 +35,22 @@
   --theme-primary-shadow:
     0 14px 26px -12px rgba(22, 124, 128, 0.42),
     0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(22, 124, 128, 0.2);
+
+  --theme-alert-info-bg: #e7f1ff;
+  --theme-alert-info-border: #b8d6ff;
+  --theme-alert-info-text: #0a4f99;
+
+  --theme-alert-success-bg: #e7f6ec;
+  --theme-alert-success-border: #bde0c8;
+  --theme-alert-success-text: #1f6b3a;
+
+  --theme-alert-warning-bg: #fff5e6;
+  --theme-alert-warning-border: #f5d9a8;
+  --theme-alert-warning-text: #7a5614;
+
+  --theme-alert-danger-bg: #fdeced;
+  --theme-alert-danger-border: #f5c6ca;
+  --theme-alert-danger-text: #7a1f2a;
 }
 
 .dark {
@@ -64,6 +80,22 @@
   --theme-primary-shadow:
     0 14px 26px -12px rgba(22, 124, 128, 0.38),
     0 4px 23px 0 rgba(0, 0, 0, 0.28), 0 8px 10px -5px rgba(22, 124, 128, 0.18);
+
+  --theme-alert-info-bg: #10263e;
+  --theme-alert-info-border: #2b5c90;
+  --theme-alert-info-text: #d9eaff;
+
+  --theme-alert-success-bg: #1c3f2a;
+  --theme-alert-success-border: #2d6b46;
+  --theme-alert-success-text: #d7f6e3;
+
+  --theme-alert-warning-bg: #4a3614;
+  --theme-alert-warning-border: #8a6525;
+  --theme-alert-warning-text: #ffe8c2;
+
+  --theme-alert-danger-bg: #4d1e26;
+  --theme-alert-danger-border: #8a3342;
+  --theme-alert-danger-text: #ffd7dd;
 }
 
 body {
@@ -163,6 +195,36 @@ div[data-filter] label {
 .text-muted,
 .form-text {
   color: var(--theme-text-muted) !important;
+}
+
+.alert {
+  color: var(--theme-text) !important;
+  background-color: var(--theme-bg-elevated) !important;
+  border-color: var(--theme-border) !important;
+}
+
+.alert-info {
+  color: var(--theme-alert-info-text) !important;
+  background-color: var(--theme-alert-info-bg) !important;
+  border-color: var(--theme-alert-info-border) !important;
+}
+
+.alert-success {
+  color: var(--theme-alert-success-text) !important;
+  background-color: var(--theme-alert-success-bg) !important;
+  border-color: var(--theme-alert-success-border) !important;
+}
+
+.alert-warning {
+  color: var(--theme-alert-warning-text) !important;
+  background-color: var(--theme-alert-warning-bg) !important;
+  border-color: var(--theme-alert-warning-border) !important;
+}
+
+.alert-danger {
+  color: var(--theme-alert-danger-text) !important;
+  background-color: var(--theme-alert-danger-bg) !important;
+  border-color: var(--theme-alert-danger-border) !important;
 }
 
 .table thead th,
