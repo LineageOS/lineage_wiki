@@ -178,7 +178,7 @@ There are some optional properties which you might not need, but in case you do,
   [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
   {%- endfor %}
   {% capture snet %}
-  The [Device integrity](/quirks/snet) quirk is automatically shown for every device and can't be listed manually
+  The [Device integrity]({{ "quirks/snet" | relative_url }}) quirk is automatically shown for every device and can't be listed manually
   {% endcapture %}
   {% include alerts/note.html content=snet %}
 * `required_bootloader`: Specify the bootloader versions which are required to install LineageOS. Example:
