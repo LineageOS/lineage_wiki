@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+:root {
+  color-scheme: light;
+
+  --color-dark: #121212;
+  --color-brand-light: #cce8e9;
+  --color-brand-dark: #324b4c;
+  --color-brand-primary: #167c80;
+
+  --theme-primary: var(--color-brand-primary);
+  --theme-primary-strong: var(--color-brand-dark);
+
+  --theme-bg: #ffffff;
+  --theme-bg-elevated: var(--color-brand-light);
+  --theme-bg-subtle: #e1efef;
+  --theme-bg-neutral: #fafafa;
+  --theme-bg-footer: #eee;
+
+  --theme-text: #212529;
+  --theme-text-soft: #3e4857;
+  --theme-text-muted: #6c757d;
+
+  --theme-border: #dee2e6;
+  --theme-border-soft: #e8e8e8;
+
+  --theme-link: var(--color-brand-primary);
+  --theme-link-hover: var(--color-brand-dark);
+
+  --theme-overlay: rgba(73, 84, 84, 0.25);
+  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  --theme-primary-shadow: 0 14px 26px -12px rgba(22,124,128,.42), 0 4px 23px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(22,124,128,.2);
+}
+
+.dark {
+  color-scheme: dark;
+
+  --theme-bg: var(--color-dark);
+  --theme-bg-elevated: var(--color-brand-dark);
+  --theme-bg-subtle: #243738;
+  --theme-bg-neutral: #1f2526;
+  --theme-bg-footer: #1c1c1c;
+
+  --theme-text: #e6ecef;
+  --theme-text-soft: #d5dfe3;
+  --theme-text-muted: #a3b2b8;
+
+  --theme-border: #3a5758;
+  --theme-border-soft: #456566;
+
+  --theme-link: var(--color-brand-light);
+  --theme-link-hover: #e3f6f7;
+
+  --theme-overlay: rgba(0, 0, 0, 0.55);
+  --theme-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.35);
+  --theme-primary-shadow: 0 14px 26px -12px rgba(22,124,128,.38), 0 4px 23px 0 rgba(0,0,0,.28), 0 8px 10px -5px rgba(22,124,128,.18);
+}
+
+body {
+  background-color: var(--theme-bg);
+  color: var(--theme-text);
+}
+
+a {
+  color: var(--theme-link);
+}
+
+a:hover,
+a:focus {
+  color: var(--theme-link-hover);
+}
+
+.navbar {
+    box-shadow: var(--theme-shadow) !important;
+}
+
+.navbar, .navbar-collapse, .navbar-collapse::after, .nav-link {
+  background-color: var(--theme-bg) !important;
+  color: var(--theme-text) !important;
+}
+
+.theme-toggle-button {
+  color: var(--theme-text);
+  background-color: var(--theme-bg-subtle);
+}
+
+.theme-toggle-button:hover,
+.theme-toggle-button:focus {
+  color: var(--theme-text);
+  background-color: var(--theme-bg-elevated);
+  box-shadow: none !important;
+}
+
+.navbar-appearance-label {
+  color: var(--theme-text);
+}
+
+#results-container {
+  background-color: var(--theme-bg);
+}
+
+#toc,
+.deviceimage,
+.popup-overlay,
+.popup-variants-list ul,
+.variants .variant-item,
+.variants .variant-item .variant-title,
+.variant-container .aka {
+  background-color: var(--theme-bg-elevated);
+}
+
+.page-overlay {
+  background: var(--theme-overlay);
+}
+
+.accordion-item,
+.popup-overlay,
+.variants .variant-item,
+.vendor-container,
+.table th,
+.table td,
+.card,
+.dropdown-menu,
+.list-group-item,
+.modal-content,
+.popover,
+.jumbotron,
+.form-control,
+.custom-select,
+.custom-file-label {
+  border-color: var(--theme-border) !important;
+}
+
+.vendor-container,
+.variants .variant-item .deviceinfo.table tr {
+  border-color: var(--theme-border-soft);
+}
+
+.popup-title,
+.popup-subtitle,
+.device-filters-header,
+div#toc > ul::before,
+.close-action,
+div[data-filter] label {
+  color: var(--theme-text-soft);
+}
+
+.name .codename,
+.text-muted,
+.form-text {
+  color: var(--theme-text-muted);
+}
+
+.table thead th,
+.table td,
+.table th,
+.dropdown-item,
+.form-control,
+.custom-select,
+.custom-file-label,
+.footer svg {
+  color: var(--theme-text);
+  fill: var(--theme-text-muted);
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus,
+.list-group-item-action:hover,
+.list-group-item-action:focus {
+  background-color: var(--theme-bg-subtle);
+}
+
+.variants .variant-item .variant-title,
+.item:hover .image,
+.item:focus .image {
+  background: var(--theme-bg-subtle);
+}
+
+div[data-filter] input[type=range]::-webkit-slider-runnable-track,
+div[data-filter] input[type=range]::-moz-range-track,
+div[data-filter] input[type=range]::-webkit-slider-thumb,
+div[data-filter] input[type=range]::-moz-range-thumb {
+  background-color: var(--theme-primary);
+}
+
+div[data-filter] input[type=range]:hover::-webkit-slider-runnable-track,
+div[data-filter] input[type=range]:hover::-moz-range-track,
+div[data-filter] input[type=range]:hover::-webkit-slider-thumb,
+div[data-filter] input[type=range]:hover::-moz-range-thumb {
+  border-color: var(--theme-primary-strong);
+}
+
+footer.footer, .accordion-button {
+  background-color: var(--theme-bg-footer) !important;
+  color: var(--theme-text) !important;
+}
+
+.accordion-content {
+  background-color: var(--theme-bg) !important;
+  color: var(--theme-text) !important;
+}
