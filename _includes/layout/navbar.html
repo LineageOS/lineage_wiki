@@ -1,4 +1,4 @@
-<nav class="navbar fixed-top navbar-expand-lg bg-white mb-0 rounded-0">
+<nav class="navbar fixed-top navbar-expand-lg mb-0 rounded-0">
   <div class="container">
     <div class="navbar-translate">
       <a class="navbar-brand font-weight-bold" href="{{ site.baseurl }}/">{{ site.title }}</a>
@@ -12,6 +12,14 @@
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
+          <li class="nav-item">
+            <div class="navbar-appearance-row">
+              <p class="navbar-appearance-label">Appearance</p>
+              <button id="theme-toggle" class="btn btn-sm theme-toggle-button p-2" type="button" aria-label="Toggle theme" title="Toggle theme">
+                <i class="material-icons theme-toggle-icon" aria-hidden="true">light_mode</i>
+              </button>
+            </div>
+          </li>
           <li class="nav-item">
             <a href="{{ site.baseurl }}/devices/" class="nav-link">Devices</a>
           </li>
@@ -32,7 +40,7 @@
           </li>
         </ul>
 
-        <form class="form-inline ml-auto" autocomplete="off">
+        <form class="form-inline" autocomplete="off">
           <div id="search-container" class="form-group no-border">
             <i class="material-icons">search</i>
             <input id="search-input" type="text" class="form-control" placeholder="Search">
@@ -52,7 +60,6 @@
               })
           </script>
         </form>
-
       </div>
     </div>
   </nav>
