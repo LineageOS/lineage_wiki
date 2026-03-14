@@ -16,6 +16,23 @@
       "message": "irc user feedback, please verify.",
       "revId": "984e8338fbcc846dc9b0785fc207f0815f1bb129",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "de5bffd8_8c5fc8fe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3917
+      },
+      "writtenOn": "2026-03-14T18:18:13Z",
+      "side": 1,
+      "message": "It\u0027s true that without USB plugged in, it\u0027s not working. Aligned with gta4xlwifi",
+      "revId": "984e8338fbcc846dc9b0785fc207f0815f1bb129",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
