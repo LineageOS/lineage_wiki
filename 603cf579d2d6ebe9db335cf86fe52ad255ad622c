@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "804c01db_865fc628",
+        "filename": "_sass/lineage/_theme.scss",
+        "patchSetId": 2
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-03-14T16:47:31Z",
+      "side": 1,
+      "message": "Unrelated changes",
+      "revId": "603cf579d2d6ebe9db335cf86fe52ad255ad622c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edb925b4_b9e93aaa",
+        "filename": "_sass/lineage/_theme.scss",
+        "patchSetId": 2
+      },
+      "lineNbr": 249,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-03-14T16:47:31Z",
+      "side": 1,
+      "message": "Also unrelated to alerts?",
+      "revId": "603cf579d2d6ebe9db335cf86fe52ad255ad622c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "25a324c3_e6f49965",
+        "filename": "_sass/lineage/_theme.scss",
+        "patchSetId": 2
+      },
+      "lineNbr": 263,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-03-14T16:47:31Z",
+      "side": 1,
+      "message": "Same",
+      "revId": "603cf579d2d6ebe9db335cf86fe52ad255ad622c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
