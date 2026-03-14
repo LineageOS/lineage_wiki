@@ -4,7 +4,7 @@ title: Using Lineage Flash Tools
 permalink: web_flash_tools.html
 ---
 
-Lineage Flash Tools is a web based utility that allows you to run some select adb and fastboot commands to install LineageOS recovery and OTA packages without installing [adb and fastboot](adb_fastboot_guide.html) locally. Access it on our downloads page [here](https://download.lineageos.org/flash).
+Lineage Flash Tools is a web based utility that allows you to run some select adb and fastboot commands to install LineageOS recovery and OTA packages without installing [adb and fastboot]({{ "adb_fastboot_guide" | relative_url }}) locally. Access it on our downloads page [here](https://download.lineageos.org/flash).
 
 As installation steps vary by device, please refer to the device-specific installation instructions.
 
