@@ -1,5 +1,9 @@
 var storageKey = "lineage-theme";
 var root = document.documentElement;
+var colorSchemeQuery =
+  typeof window !== "undefined" && window.matchMedia
+    ? window.matchMedia("(prefers-color-scheme: dark)")
+    : null;
 
 function getStoredTheme() {
   try {
@@ -13,6 +17,10 @@ function getStoredTheme() {
   return null;
 }
 
+function getSystemTheme() {
+  return colorSchemeQuery && colorSchemeQuery.matches ? "dark" : "light";
+}
+
 function applyTheme(theme) {
   if (theme === "dark") {
     root.classList.add("dark");
@@ -21,10 +29,8 @@ function applyTheme(theme) {
   }
 }
 
-var initialTheme = getStoredTheme();
-if (initialTheme) {
-  applyTheme(initialTheme);
-}
+var initialTheme = getStoredTheme() || getSystemTheme();
+applyTheme(initialTheme);
 
 function saveTheme(theme) {
   try {
@@ -73,6 +79,13 @@ function initializeThemeToggle() {
     saveTheme(nextTheme);
     updateToggleState();
   });
+
+  if (!getStoredTheme() && colorSchemeQuery) {
+    colorSchemeQuery.addEventListener("change", function (event) {
+      applyTheme(event.matches ? "dark" : "light");
+      updateToggleState();
+    });
+  }
 }
 
 if (document.readyState === "loading") {
