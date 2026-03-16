@@ -35,7 +35,7 @@
         display: block;
         top: 0px;
         height: 100vh;
-        width: 230px;
+        width: 300px;
         right: 0;
         margin-right: 0 !important;
         z-index: 1032;
@@ -48,7 +48,7 @@
 
         max-height: none !important;
 
-        @include transform-translate-x(230px);
+        @include transform-translate-x(300px);
         @include transitions (0.50s, cubic-bezier(0.685, 0.0473, 0.346, 1));
 
         &::after{
@@ -114,7 +114,7 @@
 
     .nav-open{
         .navbar-translate{
-            @include transform-translate-x(-230px);
+            @include transform-translate-x(-300px);
         }
     }
 
@@ -179,7 +179,7 @@
         opacity: 0;
         top: 0;
         left: auto;
-        right: 230px;
+        right: 300px;
         content: "";
         z-index: 1029;
         overflow-x: hidden;
@@ -392,7 +392,7 @@
         left: 0;
         top: -25px;
         right: auto;
-        @include transform-translate-x(-230px);
+        @include transform-translate-x(-300px);
     }
 
     .navbar .navbar-translate{
@@ -408,7 +408,7 @@
     .menu-on-left {
       .page-header,
       .main {
-        @include transform-translate-x(230px);
+        @include transform-translate-x(300px);
       }
 
       .navbar .collapse{
@@ -416,7 +416,7 @@
       }
 
       .navbar > div .navbar-translate {
-        @include transform-translate-x(230px);
+        @include transform-translate-x(300px);
         transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
       }
     }

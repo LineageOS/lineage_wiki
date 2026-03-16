@@ -13,14 +13,6 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <div class="navbar-appearance-row">
-              <p class="navbar-appearance-label">Appearance</p>
-              <button id="theme-toggle" class="btn btn-sm theme-toggle-button p-2" type="button" aria-label="Toggle theme" title="Toggle theme">
-                <i class="material-icons theme-toggle-icon" aria-hidden="true">light_mode</i>
-              </button>
-            </div>
-          </li>
-          <li class="nav-item">
             <a href="{{ site.baseurl }}/devices/" class="nav-link">Devices</a>
           </li>
           <li class="nav-item">
@@ -34,8 +26,8 @@
           </li>
           <li class="nav-item">
             <a href="https://lineageos.org" class="nav-link">
+              lineageos.org
               <i class="material-icons">open_in_new</i>
-              Website
             </a>
           </li>
         </ul>
@@ -43,7 +35,7 @@
         <form class="form-inline" autocomplete="off">
           <div id="search-container" class="form-group no-border">
             <i class="material-icons">search</i>
-            <input id="search-input" type="text" class="form-control" placeholder="Search">
+            <input id="search-input" type="text" class="form-control" placeholder="Search LineageOS Wiki">
             <ul id="results-container"></ul>
           </div>
 
@@ -60,6 +52,13 @@
               })
           </script>
         </form>
+
+        <div class="navbar-appearance-row">
+          <button id="theme-toggle" class="btn btn-sm theme-toggle-button p-2" type="button" aria-label="Toggle theme" title="Toggle theme">
+            <p class="navbar-appearance-label">Use light theme</p>
+            <i class="material-icons theme-toggle-icon" aria-hidden="true">light_mode</i>
+          </button>
+        </div>
       </div>
     </div>
   </nav>
