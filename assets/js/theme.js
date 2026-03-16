@@ -50,19 +50,21 @@ function updateToggleState() {
 
   var isDark = root.classList.contains("dark");
   var icon = button.querySelector(".theme-toggle-icon");
+  var label = document.getElementsByClassName("navbar-appearance-label");
 
   if (icon) {
-    icon.textContent = isDark ? "dark_mode" : "light_mode";
+    icon.textContent = isDark ? "light_mode": "dark_mode";
+  }
+
+  if (label && label[0]) {
+    label[0].innerHTML = isDark ? "Use light theme" : "Use dark theme";
   }
 
   button.setAttribute(
     "aria-label",
-    isDark ? "Toggle light mode" : "Toggle dark mode",
+    isDark ? "Use light theme" : "Use dark theme",
   );
-  button.setAttribute(
-    "title",
-    isDark ? "Toggle light mode" : "Toggle dark mode",
-  );
+  button.setAttribute("title", isDark ? "Use light theme" : "Use dark theme");
 }
 
 function initializeThemeToggle() {
