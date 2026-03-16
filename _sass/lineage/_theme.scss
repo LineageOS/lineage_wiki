@@ -198,3 +198,9 @@ a:focus {
 .list-group-item-action:focus {
   background-color: var(--theme-bg-subtle);
 }
+
+@media (max-width: 991px) {
+  .navbar-collapse .navbar-nav .nav-item::after {
+    background-color: var(--theme-bg-footer);
+  }
+}
