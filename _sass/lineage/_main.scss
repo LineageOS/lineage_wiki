@@ -12,7 +12,7 @@ a.anchorjs-link {
 @include media-breakpoint-down(md) {
   .navbar {
     .form-group {
-      z-index: 2;
+      z-index: 200;
       margin: 15px 30px;
     }
   }
@@ -39,6 +39,12 @@ a.anchorjs-link {
   vertical-align: top;
 }
 
+.navbar-appearance-row {
+  margin-left: auto;
+  margin-right: 0.5em;
+  order: 0;
+}
+
 .navbar-appearance-label {
   color: var(--theme-text);
   text-transform: uppercase;
@@ -62,58 +68,120 @@ a.anchorjs-link {
   box-shadow: none !important;
 }
 
-@include media-breakpoint-up(lg) {
-  .navbar .navbar-collapse {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar .navbar-collapse .navbar-nav {
-    flex: 1 1 auto;
-    min-width: 0;
-  }
-
-  .navbar .navbar-collapse .navbar-nav > .nav-item:has(.navbar-appearance-row) {
-    order: 1;
-    margin-left: auto;
-  }
-
-  .navbar .navbar-collapse .form-inline {
-    margin-left: 0.75rem;
-    flex-shrink: 0;
-  }
+.navbar-collapse .form-inline {
+  order: 1;
 }
 
 @include media-breakpoint-down(md) {
+  .navbar-collapse,
+  .navbar-collapse::after,
+  .nav-link {
+    background-color: var(--theme-bg-neutral) !important;
+  }
+
   .navbar .navbar-collapse {
-    .navbar-appearance-row {
-      padding: 15px 15px;
-      margin: 5px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .nav-link.external {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
     }
 
     .form-inline {
+      order: -1;
       width: 100%;
       display: flex;
       justify-content: center;
+      position: relative;
+      padding-bottom: 1px;
+      z-index: 200;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        pointer-events: none;
+        width: calc(100% - 30px)
+      }
+
+      &::before {
+        height: 1px;
+        background-color: var(--theme-border);
+      }
+
+      &::after {
+        height: 2px;
+        background-color: var(--theme-primary);
+        transform: scaleX(0);
+        transform-origin: center;
+        transition: transform 0.2s ease-out;
+      }
+    }
+
+    .form-inline:focus-within {
+      &::after {
+        transform: scaleX(1);
+      }
     }
 
     #search-container {
-      margin-left: auto;
-      margin-right: auto;
+      width: 100%;
+      margin: 20px 30px 10px 30px;
+      flex-shrink: 1;
+    }
+
+    #search-input {
+      order: -1;
+      width: calc(100% - 24px);
+      background-image: none;
+      box-shadow: none;
+    }
+
+    .navbar-appearance-row {
+      padding: 15px 15px;
+      margin: calc(100dvh - 440px) 15px 5px 15px;
+      z-index: 2;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+
+    .theme-toggle-button {
+      text-align: right;
+      width: 100%;
+      height: 100%;
+    }
+
+    .theme-toggle-button,
+    .theme-toggle-button:hover,
+    .theme-toggle-button:focus {
+      color: var(--theme-text);
+      background-color: #1fe0;
+      box-shadow: none !important;
     }
 
     .navbar-appearance-label {
       display: inline-block;
+      text-align: right;
+      margin-right: 0.5em;
     }
   }
 }
 
 #search-container {
   position: relative;
+  .material-icons {
+    color: var(--theme-text);
+  }
 }
 
 #results-container {
@@ -124,11 +192,11 @@ a.anchorjs-link {
   min-width: 196px;
   border-radius: 6px;
   box-shadow: var(--theme-shadow) !important;
-  background-color: var(--theme-bg-neutral) !important;
+  background-color: var(--theme-bg-footer) !important;
   padding-left: 24px;
   padding-right: 16px;
   top: 36px;
-  z-index: 10;
+  z-index: 200;
   width: max-content;
   /* the container is placed 30px from the right, so give it 100% of the width minus that and additional margin of 10px */
   max-width: calc(100vw - 30px - 10px);

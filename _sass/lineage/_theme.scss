@@ -18,8 +18,8 @@
   --theme-bg-footer: #eee;
   --theme-bg-device: #f6fafa;
 
-  --theme-text: #212529;
-  --theme-text-soft: #3e4857;
+  --theme-text: #3c4858;
+  --theme-text-soft: #555555;
   --theme-text-muted: #6c757d;
 
   --theme-border: #dee2e6;
@@ -67,7 +67,7 @@
   --theme-text-soft: #d5dfe3;
   --theme-text-muted: #a3b2b8;
 
-  --theme-border: #3a5758;
+  --theme-border: #879393;
   --theme-border-soft: #456566;
 
   --theme-link: var(--color-brand-primary);
@@ -101,6 +101,9 @@
 body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
+  transition:
+    background-color 0.6s ease,
+    color 0.6s ease;
 }
 
 a {
@@ -112,16 +115,21 @@ a:focus {
   color: var(--theme-link-hover);
 }
 
-.navbar {
-  box-shadow: var(--theme-shadow) !important;
+hr {
+  background-color: var(--theme-border-soft);
 }
 
 .navbar,
+.navbar-brand,
 .navbar-collapse,
 .navbar-collapse::after,
 .nav-link {
   background-color: var(--theme-bg) !important;
   color: var(--theme-text) !important;
+  transition:
+    background-color 0.6s ease,
+    color 0.6s ease,
+    all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 
 .table th,
@@ -197,4 +205,25 @@ a:focus {
 .list-group-item-action:hover,
 .list-group-item-action:focus {
   background-color: var(--theme-bg-subtle);
+}
+
+@include media-breakpoint-down(md) {
+  .navbar-collapse .navbar-nav .nav-item::after {
+    background-color: #1fe0;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item:nth-last-child(2)::after {
+    background-color: var(--theme-border);
+  }
+}
+
+.form-control,
+.is-focused .form-control {
+  background-image:
+    linear-gradient(
+      to top,
+      var(--theme-primary) 2px,
+      rgba(22, 124, 128, 0) 2px
+    ),
+    linear-gradient(to top, var(--theme-border) 1px, rgba(210, 210, 210, 0) 1px);
 }
