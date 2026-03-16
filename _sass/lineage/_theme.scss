@@ -198,3 +198,17 @@ a:focus {
 .list-group-item-action:focus {
   background-color: var(--theme-bg-subtle);
 }
+
+@media (max-width: 991px) {
+  .navbar-collapse .navbar-nav .nav-item::after {
+    background-color: var(--theme-bg-neutral);
+  }
+
+  .navbar-collapse .navbar-nav .nav-item:nth-last-child(2)::after {
+    background-color: var(--theme-border);
+  }
+
+  .dark .navbar-collapse .navbar-nav .nav-item:nth-last-child(2)::after {
+    background-color: var(--theme-text);
+  }
+}

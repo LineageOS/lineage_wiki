@@ -39,6 +39,12 @@ a.anchorjs-link {
   vertical-align: top;
 }
 
+.navbar-appearance-row {
+  margin-left: auto;
+  margin-right: 0.5em;
+  order: 0;
+}
+
 .navbar-appearance-label {
   color: var(--theme-text);
   text-transform: uppercase;
@@ -62,52 +68,74 @@ a.anchorjs-link {
   box-shadow: none !important;
 }
 
-@include media-breakpoint-up(lg) {
-  .navbar .navbar-collapse {
-    display: flex;
-    align-items: center;
-  }
-
-  .navbar .navbar-collapse .navbar-nav {
-    flex: 1 1 auto;
-    min-width: 0;
-  }
-
-  .navbar .navbar-collapse .navbar-nav > .nav-item:has(.navbar-appearance-row) {
-    order: 1;
-    margin-left: auto;
-  }
-
-  .navbar .navbar-collapse .form-inline {
-    margin-left: 0.75rem;
-    flex-shrink: 0;
-  }
+.navbar-collapse .form-inline {
+  order: 1;
 }
 
 @include media-breakpoint-down(md) {
+  .navbar-collapse,
+  .navbar-collapse::after,
+  .nav-link {
+    background-color: var(--theme-bg-neutral) !important;
+  }
+
   .navbar .navbar-collapse {
-    .navbar-appearance-row {
-      padding: 15px 15px;
-      margin: 5px 15px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    .nav-link.external {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
       align-items: center;
+      justify-content: space-between;
     }
 
     .form-inline {
+      order: -1;
       width: 100%;
       display: flex;
       justify-content: center;
     }
 
     #search-container {
-      margin-left: auto;
-      margin-right: auto;
+      width: 100%;
+      margin: 20px 30px 10px 30px;
+      flex-shrink: 1;
+    }
+
+    #search-input {
+      order: -1;
+      width: calc(100% - 24px);
+    }
+
+    .navbar-appearance-row {
+      padding: 15px 15px;
+      margin: calc(100vh - 450px) 15px 5px 15px;
+      z-index: 2;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+    }
+
+    .theme-toggle-button {
+      text-align: right;
+      width: 100%;
+      height: 100%;
+    }
+
+    .theme-toggle-button,
+    .theme-toggle-button:hover,
+    .theme-toggle-button:focus {
+      color: var(--theme-text);
+      background-color: var(--theme-bg-neutral);
+      box-shadow: none !important;
     }
 
     .navbar-appearance-label {
       display: inline-block;
+      text-align: right;
+      margin-right: 0.5em;
     }
   }
 }
