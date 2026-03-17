@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "d4136d01_bf610ad8",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "that would get far too device specific sadly.",
+      "parentUuid": "8d83620f_0d7979c4",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c4659f4d_44f27e24",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-03-17T03:05:00Z",
       "side": 1,
       "message": "```suggestion\n{% include alerts/note.html content\u003d\"The steps below only need to be done once per device.\" %}\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9776b0f3_d43754b3",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "c4659f4d_44f27e24",
       "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -52,6 +88,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6a9aaf43_8906e6c1",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "cff99d0a_84d0cf56",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "23cfa2e6_60cc3209",
@@ -65,6 +119,24 @@
       "writtenOn": "2026-03-17T03:05:00Z",
       "side": 1,
       "message": "```suggestion\n3. Download the bootloader unlock app from [here](https://r11.realme.net/CN/thread-attachment/888043131025080903.zip), extract the zip file, and then run:\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fedfbca3_9d0f4bd0",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "23cfa2e6_60cc3209",
       "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -86,6 +158,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "52f851d2_bc8e2bdc",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "d9416212_dcb9aa08",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "280831a5_f75365a7",
@@ -103,6 +193,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3b17820e_a6b9d64b",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "280831a5_f75365a7",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ea835419_9c74dcd2",
@@ -116,6 +224,24 @@
       "writtenOn": "2026-03-17T03:05:00Z",
       "side": 1,
       "message": "```suggestion\n8. Once approved, tap `Start Deep Testing`. Your device will reboot into fastboot mode.\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1ce59803_36976249",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-03-17T16:36:11Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "ea835419_9c74dcd2",
       "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
