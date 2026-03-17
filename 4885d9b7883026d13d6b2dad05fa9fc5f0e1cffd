@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8d83620f_0d7979c4",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "Should it be clarified what that version is or where it can be found?",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c4659f4d_44f27e24",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n{% include alerts/note.html content\u003d\"The steps below only need to be done once per device.\" %}\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "cff99d0a_84d0cf56",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n1. Create a HeyTap account on [HeyTap\u0027s website](https://id.heytap.com/v3/auth/register).\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "23cfa2e6_60cc3209",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n3. Download the bootloader unlock app from [here](https://r11.realme.net/CN/thread-attachment/888043131025080903.zip), extract the zip file, and then run:\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9416212_dcb9aa08",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n6. Tap `Start Application`, carefully read the disclaimer, and check the box to agree.\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "280831a5_f75365a7",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n7. Tap `Submit Application` and return to the application screen. You can use `Query Review Status` to check if your application has been approved.\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ea835419_9c74dcd2",
+        "filename": "_includes/templates/recovery_install_fastboot_realme_china.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-03-17T03:05:00Z",
+      "side": 1,
+      "message": "```suggestion\n8. Once approved, tap `Start Deep Testing`. Your device will reboot into fastboot mode.\n```",
+      "revId": "4885d9b7883026d13d6b2dad05fa9fc5f0e1cffd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
