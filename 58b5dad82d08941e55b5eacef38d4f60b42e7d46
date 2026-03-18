@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4eb9dc3d_373e472a",
+        "filename": "_data/devices/pista.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 33843
+      },
+      "writtenOn": "2026-03-18T09:25:04Z",
+      "side": 1,
+      "message": "Shoud be realme ig.",
+      "range": {
+        "startLine": 37,
+        "startChar": 21,
+        "endLine": 37,
+        "endChar": 28
+      },
+      "revId": "58b5dad82d08941e55b5eacef38d4f60b42e7d46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
