@@ -22,6 +22,30 @@
       },
       "revId": "58b5dad82d08941e55b5eacef38d4f60b42e7d46",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5e50bd0_0f9a2e37",
+        "filename": "_data/devices/pista.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 35315
+      },
+      "writtenOn": "2026-03-18T09:38:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4eb9dc3d_373e472a",
+      "range": {
+        "startLine": 37,
+        "startChar": 21,
+        "endLine": 37,
+        "endChar": 28
+      },
+      "revId": "58b5dad82d08941e55b5eacef38d4f60b42e7d46",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
