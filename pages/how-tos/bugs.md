@@ -63,4 +63,4 @@ These are bugs in our online services, e.g.
 
   {% include alerts/important.html content="If the issue affects your device, this is the **wrong** place to report your issue!" %}
 
-<a href="https://gitlab.com/LineageOS/issues/infra/-/issues"><button class="btn btn-primary">Go to infrastructure bugs</button></a>
+<a href="https://github.com/LineageOS/issues-infra/issues"><button class="btn btn-primary">Go to infrastructure bugs</button></a>
