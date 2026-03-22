@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d1b5ac0_f6d8fb0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16914
+      },
+      "writtenOn": "2026-03-22T16:45:13Z",
+      "side": 1,
+      "message": "IIRC, soong has required more than 32GB total VM since LineageOS 21 (but was happy w/ 32GB in 20)",
+      "revId": "e59de4c08dc7ae6a6ad3c0dbdf65371e422e7bae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
