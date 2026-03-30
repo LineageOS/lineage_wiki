@@ -16,6 +16,24 @@
       "message": "Some users seem to be unable to install recovery with dtbo recently",
       "revId": "7e8c7e20db0a8b9dcbd38bec81694cb69ea2b533",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a34166ef_8b09cec9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-03-30T10:32:30Z",
+      "side": 1,
+      "message": "s/with/without/",
+      "parentUuid": "9eec8d6a_eb0b39e7",
+      "revId": "7e8c7e20db0a8b9dcbd38bec81694cb69ea2b533",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
