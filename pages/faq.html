@@ -40,6 +40,7 @@ toc: false
   border: 1px solid var(--theme-border);
   border-radius: 0.5rem;
   overflow: hidden;
+  transition: all var(--transition-speed);
 }
 
 .accordion-button {
@@ -53,6 +54,7 @@ toc: false
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: all var(--transition-speed);
 }
 
 .accordion-button::after {
@@ -77,6 +79,7 @@ html {
   padding: 1rem;
   background-color: var(--theme-bg);
   display: none; /* Initially hidden */
+  transition: background-color var(--transition-speed);
 }
 
 .accordion-content p:last-child, .accordion-content ul {

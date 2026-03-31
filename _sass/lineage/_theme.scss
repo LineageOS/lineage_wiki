@@ -51,6 +51,8 @@
   --theme-alert-danger-bg: #fdeced;
   --theme-alert-danger-border: #f5c6ca;
   --theme-alert-danger-text: #7a1f2a;
+
+  --transition-speed: 0.6s;
 }
 
 .dark {
@@ -102,8 +104,8 @@ body {
   background-color: var(--theme-bg);
   color: var(--theme-text);
   transition:
-    background-color 0.6s ease,
-    color 0.6s ease;
+    background-color var(--transition-speed),
+    color var(--transition-speed);
 }
 
 a {
@@ -117,6 +119,7 @@ a:focus {
 
 hr {
   background-color: var(--theme-border-soft);
+  transition: background-color var(--transition-speed);
 }
 
 .navbar,
@@ -127,9 +130,9 @@ hr {
   background-color: var(--theme-bg) !important;
   color: var(--theme-text) !important;
   transition:
-    background-color 0.6s ease,
-    color 0.6s ease,
-    all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    background-color var(--transition-speed),
+    color var(--transition-speed),
+    transform 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
 }
 
 .table th,
@@ -155,6 +158,7 @@ hr {
   color: var(--theme-text) !important;
   background-color: var(--theme-bg-elevated) !important;
   border-color: var(--theme-border) !important;
+  transition: all var(--transition-speed);
 }
 
 .alert-info {
@@ -214,6 +218,7 @@ hr {
 
   .navbar-collapse .navbar-nav .nav-item:nth-last-child(2)::after {
     background-color: var(--theme-border);
+    transition: background-color var(--transition-speed);
   }
 }
 
