@@ -22,7 +22,7 @@ is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_lge_sm8250, version: '4.19'}
 maintainers: [pnguyen879]
-models: [LM-V600EA, LM-V600VM, LM-V600TM, LM-V600N]
+models: [L-51A, LM-V600EA, LM-V600VM, LM-V600TM, LM-V600N]
 name: V60 ThinQ
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
 peripherals: [3.5mm jack, Accelerometer, Barometer, Compass, Dual SIM, FM radio, Fingerprint reader, GPS, Gyroscope, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, Qi wireless charging, USB OTG]
