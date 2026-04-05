@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.2, version: '16'}
+before_lineage_install: ab_copy_partitions
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.4'}
+cameras:
+  - {flash: 'LED', info: '48 MP (wide)'}
+  - {flash: 'LED', info: '12 MP (telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '12 MP'}
+codename: pdx245
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 3.3 GHz + 3 x 3.2 GHz + 2 x 3.0 GHz + 2 x 2.3 GHz
+current_branch: 23.2
+dimensions: {depth: 8.2, height: 162, width: 74}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The screen should show a blue star.
+gpu: Qualcomm Adreno 750
+image: pdx245.png
+install_method: fastboot_sony
+is_ab_device: true
+kernel: {repo: android_kernel_sony_sm8650, version: '6.1'}
+maintainers: [BotchedRPR]
+models: [XQ-EC54, XQ-EC72]
+name: 'Xperia 1 VI'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Barometer, Compass, Dual SIM, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Stereo speakers, USB OTG]
+ram: 12 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2024-05
+screen: {refresh_rate: 120, resolution: '2340x1080', size: 6.5, technology: 'LTOP OLED'}
+sdcard: {size_max: '1 TB', slot: 'hybrid'}
+soc: Qualcomm SM8650 Snapdragon 8 Gen3
+storage: 256/512GB UFS4.0
+tree: android_device_sony_pdx245
+type: phone
+vendor: Sony
+vendor_short: sony
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax/be
