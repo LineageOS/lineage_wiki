@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_recovery_link: https://forum.xda-developers.com/g2-mini/development/unified-twrp-recovery-3-0-0-lg-g2-mini-t3311316
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/TWRP_v3.1.1_g2m.img
 dimensions: {depth: 9.8, height: 129.6, width: 66}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 305

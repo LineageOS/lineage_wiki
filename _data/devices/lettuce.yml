@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922469
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.3-20190306-lettuce.img
 dimensions: {depth: 8.2, height: 142.4, width: 73}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: 16.0
