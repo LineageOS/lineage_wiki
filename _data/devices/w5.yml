@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '2'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_recovery_link: https://androidfilehost.com/?fid=673956719939825991
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.1-0-20180117-w5.img
 dimensions: {depth: 9.5, height: 127.2, width: 66.8}
 gpu: Qualcomm Adreno 302
 image: w5.png

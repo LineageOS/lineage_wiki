@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 1.5 GHz
 current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=1395089523397922500
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.3-20190306-kipper.img
 dimensions: {depth: 9.2, height: 155.6, width: 77.3}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 format_on_upgrade: 16.0
