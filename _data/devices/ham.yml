@@ -9,7 +9,7 @@ cpu: Krait 400
 cpu_cores: '4'
 cpu_freq: 2.5 GHz
 current_branch: 16.0
-custom_recovery_link: https://androidfilehost.com/?fid=11410963190603913507
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.3-20190202-ham.img
 dimensions: {depth: 8.9, height: 155.7, width: 77.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 330
