@@ -9,6 +9,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '6'
 cpu_freq: 4 x 1.44 GHz + 2 x 1.82 GHz
 current_branch: 14.1
+custom_recovery_codename: g4
 dimensions: {depth: 9.8, height: 148.9, width: 76.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 418
