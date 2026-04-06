@@ -10,6 +10,7 @@ cpu: Krait
 cpu_cores: '2'
 cpu_freq: 2 x 1.7 GHz
 current_branch: 14.1
+custom_recovery_codename: lt02ltetmo
 dimensions: {depth: 9.9, height: 188, width: 111.1}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 305
