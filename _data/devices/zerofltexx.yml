@@ -9,6 +9,7 @@ cpu: Cortex-A53 & Cortex-A57
 cpu_cores: '8'
 cpu_freq: 4 x 2.1GHz + 4 x 1.5GHz
 current_branch: 14.1
+custom_recovery_codename: zeroflte
 dimensions: {depth: 6.8, height: 143.4, width: 70.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T760 MP8
