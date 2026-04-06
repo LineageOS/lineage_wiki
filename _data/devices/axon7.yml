@@ -9,7 +9,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.15 GHz + 2 x 1.6 GHz
 current_branch: 15.1
-custom_recovery_link: 'https://androidfilehost.com/?w=files&flid=274875'
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.3-0-axon7.img
 dimensions: {depth: 7.9, height: 151.7, width: 75}
 download_boot: With the device powered off, hold <kbd>Power</kbd> and when the unlock warning appears use the volume buttons to navigate to the fastboot option.
 gpu: Qualcomm Adreno 530

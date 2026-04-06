@@ -9,7 +9,7 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_recovery_link: https://androidfilehost.com/?fid=673956719939831308
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.1-0-20180325-P024.img
 dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
