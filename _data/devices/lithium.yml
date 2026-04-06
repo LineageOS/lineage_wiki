@@ -9,7 +9,7 @@ cpu: Kryo
 cpu_cores: '4'
 cpu_freq: 2 x 2.35 GHz + 2 x 2.19 GHz
 current_branch: 18.1
-custom_recovery_link: https://androidfilehost.com/?fid=890278863836293784
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.1-raupe-blunden-15.1-updated-lithium.img
 dimensions: {depth: 7.9, height: 158.8, width: 81.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 530
