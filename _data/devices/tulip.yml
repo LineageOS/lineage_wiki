@@ -9,13 +9,13 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 4 x 1.5 GHz & 4 x 1.2 GHz
 current_branch: 14.1
-custom_recovery_link: 'http://files.nwwn.com/android/axon7mini/tulip-twrp-7.1-r1.img'
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/tulip-twrp-7.1-r1.img
 dimensions: {depth: 7.8, height: 147.5, width: 71}
 edl_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 405
 image: tulip.png
 install_method: edl_custom
-install_recovery_guide: 'http://files.nwwn.com/android/axon7mini/recovery_install.html'
+install_recovery_guide: https://web.archive.org/web/20200218153657/http://files.nwwn.com/android/axon7mini/recovery_install.html
 kernel: {repo: android_kernel_zte_msm8952, version: '3.10'}
 maintainers: []
 name: 'Axon 7 Mini'

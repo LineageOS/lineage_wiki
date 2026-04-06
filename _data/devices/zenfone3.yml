@@ -11,7 +11,7 @@ cpu: Cortex-A53
 cpu_cores: '8'
 cpu_freq: 2.0 GHz
 current_branch: 16.0
-custom_recovery_link: https://osdn.net/projects/aosp-zenfone3/releases/p16364
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/TWRP-3.3.1-makorn645-20191031.img
 dimensions:
   - ZE520KL: {depth: 7.7, height: 146.9, width: 74}
   - ZE552KL: {depth: 7.7, height: 152.6, width: 77.4}

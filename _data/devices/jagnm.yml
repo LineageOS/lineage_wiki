@@ -9,7 +9,7 @@ cpu: Cortex-A7
 cpu_cores: '4'
 cpu_freq: 1.2 GHz
 current_branch: 14.1
-custom_recovery_link: https://androidfilehost.com/?fid=673956719939825990
+custom_recovery_link: https://blob.lineageos.org/downloads/twrp/twrp-3.2.1-0-20180111-jagnm.img
 dimensions: {depth: 10.3, height: 137.7, width: 69.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable.
 gpu: Qualcomm Adreno 305
