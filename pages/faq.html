@@ -5,127 +5,133 @@ permalink: faq.html
 toc: false
 ---
 
-<div class="faq-accordion">
-  {%- for category in site.data.faq %}
-    {%- assign data = category | first %}
-    <div class="faq-category">
-      <h3>{{ data | first | capitalize }}</h3>
-      <div class="accordion">
-        {%- assign pairs = data | last %}
-        {%- for item in pairs %}
-          {%- assign question_id = item.question | strip_html | downcase | replace: ' ', '-' | replace_regex : '[^a-z0-9-]', '' %}
-          <div class="accordion-item">
-            <button class="accordion-button" aria-expanded="false" id="{{ question_id }}">
-              {{ item.question | markdownify }}
-            </button>
-            <div class="accordion-content">
-              {{ item.response | markdownify }}
-            </div>
-          </div>
-        {%- endfor %}
-      </div>
+{%- for category in site.data.faq %}
+  {%- assign data = category | first %}
+  <div class="faq-category">
+    <h3>{{ data | first | capitalize }}</h3>
+    {%- assign pairs = data | last %}
+    <div>
+    {%- for item in pairs %}
+      {%- assign question_id = item.question | strip_html | downcase | replace: ' ', '-' | replace_regex : '[^a-z0-9-]', '' %}
+      <details class="faq-item" id="{{ question_id }}" name="lineage-faq">
+        <summary>
+          {{ item.question | markdownify }}
+        </summary>
+        <div class="faq-content">
+          {{ item.response | markdownify }}
+        </div>
+      </details>
+    {%- endfor %}
     </div>
-  {%- endfor %}
-</div>
+  </div>
+{%- endfor %}
 
 <style>
-.faq-accordion .faq-category h3 {
-  margin-top: 20px;
+.faq-category h3 {
+  margin-top: 1rem;
   border-bottom: 1px solid var(--theme-border);
-  padding-bottom: 5px;
-}
-
-.accordion-item {
-  margin-bottom: 0.5rem;
-  border: 1px solid var(--theme-border);
-  border-radius: 0.5rem;
-  overflow: hidden;
   transition: all var(--transition-speed);
+  padding-bottom: 0rem;
 }
 
-.accordion-button {
-  color: var(--theme-text);
-  background-color: var(--theme-bg-neutral);
-  transition: background-color 0.6s ease;
-  padding: 10px 15px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  cursor: pointer;
+.faq-item {
+  overflow: hidden;
+  border-radius: 0.25rem;
+  margin-bottom: 0.25rem;
+  transition: all var(--transition-speed);
+  background-color: var(--theme-bg-surface);
+}
+
+.faq-item:first-child, .faq-item[open] {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.faq-item:last-child, .faq-item[open] {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.faq-item::details-content {
+  height: 0;
+  opacity: 0;
+  interpolate-size: allow-keywords;
+  transition: height var(--transition-speed), opacity var(--transition-speed);
+}
+
+.faq-item[open]::details-content {
+  height: auto;
+  opacity: 1;
+  padding: 0rem 1rem 1rem 1rem;
+}
+
+.faq-content p {
+  margin: 0;
+}
+
+.faq-content ul {
+  padding-left: 1rem;
+  margin-bottom: 0;
+}
+
+summary {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all var(--transition-speed);
+  cursor: pointer;
+  list-style: none;
+  background-color: var(--theme-bg-surface);
+  transition: background-color var(--transition-speed);
+  font-weight: bolder;
+}
+summary::-webkit-details-marker { display: none; }
+
+summary::after {
+  content: "+";
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  margin-right: 1rem;
 }
 
-.accordion-button::after {
-  content: '+';
-  font-size: 1.2em;
-  font-family: monospace;
+summary p {
+  margin: 10px 15px !important;
+  flex-grow: 1;
+}
+
+details[open] summary::after {
+  content: "−";
+  transform: rotate(180deg);
 }
 
 html {
   scroll-padding-top: 80px;
 }
-
-.accordion-button[aria-expanded="true"]::after {
-  content: '-';
-}
-
-.accordion-button p {
-  margin: 0px;
-}
-
-.accordion-content {
-  padding: 1rem;
-  background-color: var(--theme-bg);
-  display: none; /* Initially hidden */
-  transition: background-color var(--transition-speed);
-}
-
-.accordion-content p:last-child, .accordion-content ul {
-  margin-bottom: 0;
-}
 </style>
 
 <script>
-$(window).on("load", function() {
-  const accordionItems = document.querySelectorAll('.accordion-item');
-
-  accordionItems.forEach(item => {
-    const button = item.querySelector('.accordion-button');
-    const content = item.querySelector('.accordion-content');
-
-    button.addEventListener('click', () => {
-      const isExpanded = button.getAttribute('aria-expanded') === 'true' || false;
-      button.setAttribute('aria-expanded', !isExpanded);
-      content.style.display = isExpanded ? 'none' : 'block';
-      if (!isExpanded) {
-        window.location.hash = button.id;
-      }
-    });
-  });
-
-  // Check the URL hash on page load
-  if (window.location.hash) {
-    const targetId = window.location.hash.substring(1); // Remove the '#'
-    expandAccordion(targetId);
+const handleFaqNavigation = () => {
+  const hash = window.location.hash;
+  if (hash) {
+    const target = document.querySelector(hash);
+    if (target && target.tagName === 'DETAILS') {
+      target.open = true;
+      target.scrollIntoView({ behavior: 'smooth' });
+    }
   }
-});
+};
 
-function expandAccordion(questionId) {
-  const buttonToExpand = document.getElementById(questionId);
-  if (buttonToExpand) {
-    const accordionItem = buttonToExpand.closest('.accordion-item');
-    const content = accordionItem.querySelector('.accordion-content');
-    buttonToExpand.setAttribute('aria-expanded', 'true');
-    content.style.display = 'block';
+window.addEventListener('load', handleFaqNavigation);
+window.addEventListener('hashchange', handleFaqNavigation);
+
+document.addEventListener('toggle', (event) => {
+  var target = event.target;
+  if (target.tagName === 'DETAILS' && target.open) {
+    const id = target.id;
+    if (id && `#${id}` !== window.location.hash) {
+      history.replaceState(null, null, `#${id}`);
+    }
+    target.scrollIntoView({ behavior: 'smooth' });
   }
-}
-
-$(window).on("hashchange", function(e) {
-    const targetId = window.location.hash.substring(1); // Remove the '#'
-    expandAccordion(targetId);
-});
+}, true);
 </script>
-
