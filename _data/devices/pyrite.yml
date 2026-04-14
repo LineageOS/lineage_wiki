@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 3550, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '12'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (main)'}
+  - {flash: 'Dual LED (dual tone)', info: '12 MP (ultrawide)'}
+  - {flash: None, info: '16 MP'}
+codename: ingot
+cpu: Kryo 680
+cpu_cores: '8'
+cpu_freq: 1 x 3.0 GHz + 2 x 2.42 GHz & 4 x 1.8 GHz
+current_branch: 23.2
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 7.45, height: 158.5, width: 71.99}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 660
+image: ingot.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_osom_sm8350, version: '5.4'}
+maintainers: [mikeioannina, npjohnson]
+name: 'OV1'
+network: [3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, USB OTG, Ultra Wideband (UWB)]
+ram: 8 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2022-03-05
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.55, technology: 'AMOLED'}
+soc: Qualcomm SM8350-AC Snapdragon 888+
+storage: 256 GB UFS3.1
+tree: android_device_osom_pyrite
+type: phone
+vendor: OSOM
+vendor_short: osom
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
