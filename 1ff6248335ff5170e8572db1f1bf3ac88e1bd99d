@@ -22,6 +22,30 @@
       },
       "revId": "1ff6248335ff5170e8572db1f1bf3ac88e1bd99d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1fb142a_88ad2fa2",
+        "filename": "_data/devices/trident.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2026-04-17T18:59:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1ac81f29_81e890f2",
+      "range": {
+        "startLine": 26,
+        "startChar": 105,
+        "endLine": 26,
+        "endChar": 132
+      },
+      "revId": "1ff6248335ff5170e8572db1f1bf3ac88e1bd99d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
