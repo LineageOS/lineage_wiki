@@ -816,6 +816,7 @@ properties:
       - fastboot_nubia
       - fastboot_oneplus_tmo
       - fastboot_oppo
+      - fastboot_smartisan
       - fastboot_sony
       - fastboot_realme
       - fastboot_realme_china
@@ -1013,6 +1014,7 @@ properties:
       - Realme
       - Samsung
       - SHIFT
+      - Smartisan
       - Solana
       - Sony
       - Vsmart
@@ -1060,6 +1062,7 @@ properties:
       - realme
       - samsung
       - shift
+      - smartisan
       - sony
       - vsmart
       - wileyfox
