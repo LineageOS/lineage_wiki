@@ -16,6 +16,24 @@
       "message": "delete?",
       "revId": "1d550317dceeffbac11cb112a14dc5282d40fed3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "441ddcc3_9e1aa6bc",
+        "filename": "_includes/templates/recovery_install_fastboot_smartisan.md",
+        "patchSetId": 8
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2026-04-17T19:45:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "55ea5801_15df9fa7",
+      "revId": "1d550317dceeffbac11cb112a14dc5282d40fed3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
