@@ -23,7 +23,7 @@ maintainers: [rtx4d, tdrkDev]
 models: [P845A01, P845A02]
 name: Axon 9 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, FM radio, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, Light sensor, Mobility DisplayPort (MyDP), NFC, Proximity sensor, USB OTG]
+peripherals: [Accelerometer, Compass, DP over USB-C, FM radio, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
 ram: 6 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> until the ZTE logo appears, then release <kbd>Power</kbd> for a second and hold it again until the recovery comes up.
 recovery_partition_name: boot
