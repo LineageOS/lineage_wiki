@@ -34,6 +34,24 @@
       "parentUuid": "00f32152_f7c8fb5a",
       "revId": "219e8a519714d30e577640c39f7a7606f7f8df0c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3fc60988_4ed8cb59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-04-17T19:49:12Z",
+      "side": 1,
+      "message": "are you sure they use mydp/slimport and not usb-c alt mode?",
+      "parentUuid": "a0e896b1_7cfb6068",
+      "revId": "219e8a519714d30e577640c39f7a7606f7f8df0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
