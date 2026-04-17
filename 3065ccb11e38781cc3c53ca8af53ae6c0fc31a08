@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3926227f_450c585f",
+        "filename": "_includes/templates/recovery_install_fastboot_smartisan.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-04-17T19:32:38Z",
+      "side": 1,
+      "message": "do you need a dedicated recovery_install?\n\nis_unlockable is already set and the rest is all already possible?",
+      "revId": "3065ccb11e38781cc3c53ca8af53ae6c0fc31a08",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
