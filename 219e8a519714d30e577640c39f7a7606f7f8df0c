@@ -16,6 +16,24 @@
       "message": "all of these have usb 2.0, are you sure that *any* of them support video out at all?",
       "revId": "219e8a519714d30e577640c39f7a7606f7f8df0c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a0e896b1_7cfb6068",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2026-04-17T19:42:32Z",
+      "side": 1,
+      "message": "Yes, I checked every single one",
+      "parentUuid": "00f32152_f7c8fb5a",
+      "revId": "219e8a519714d30e577640c39f7a7606f7f8df0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
