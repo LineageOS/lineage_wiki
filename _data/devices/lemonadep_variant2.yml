@@ -25,7 +25,7 @@ maintainers: [LuK1337, bgcngm, mikeioannina]
 models: [LE2127]
 name: '9 Pro (T-Mobile)'
 network: [2G GSM, 3G UMTS, 3G CDMA2000, 4G LTE, 5G NR]
-peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
 ram: 8/12GB GB LPDDR5
 recovery_partition_name: boot
 recovery_reboot: fastboot_menu
