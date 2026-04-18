@@ -247,6 +247,7 @@ definitions:
       - Fluid AMOLED
       - Fluid 2.0 LTPO AMOLED
       - Fluid 3.0 LTPO AMOLED
+      - Foldable Flexi-fluid 3.0 LTPO AMOLED
       - Foldable OLED
       - Foldable LTPO OLED
       - LTPO AMOLED
@@ -263,6 +264,7 @@ definitions:
       - LCD
       - Super LCD
       - PLS LCD
+      - Super Fluid 3.0 LTPO OLED
       - Super PLS LCD
       - Super clear LCD
       - TFT LCD
