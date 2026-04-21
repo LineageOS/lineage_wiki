@@ -315,6 +315,7 @@ definitions:
       - Qualcomm APQ8064T Snapdragon 600
       - Qualcomm APQ8076 Snapdragon 652
       - Qualcomm APQ8084 Snapdragon 805
+      - Qualcomm Dragonwing QCS8550
       - Qualcomm MSM8210 Snapdragon 200
       - Qualcomm MSM8212 Snapdragon 200
       - Qualcomm MSM8226 Snapdragon 400
@@ -518,6 +519,7 @@ definitions:
         - Fingerprint reader
         - BeiDou
         - Galileo
+        - Gamepad
         - GLONASS
         - GPS
         - NavIC
@@ -1015,6 +1017,7 @@ properties:
       - Radxa
       - Razer
       - Realme
+      - Retroid Pocket
       - Samsung
       - SHIFT
       - Smartisan
@@ -1064,6 +1067,7 @@ properties:
       - radxa
       - razer
       - realme
+      - retroidpocket
       - samsung
       - shift
       - smartisan
