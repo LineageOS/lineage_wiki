@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {capacity: 8000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '13'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.4'}
+codename: odin3
+cpu: Oryon
+cpu_cores: '8'
+cpu_freq: 2 x 4.32 GHz + 6 x 3.53 GHz
+current_branch: 23.2
+dimensions: {depth: 17, height: 88, width: 225}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 830
+image: odin3.png
+install_method: fastboot_unlocked
+is_ab_device: true
+kernel: {repo: android_kernel_ayn_cq8725s, version: '6.6'}
+maintainers: [AnierinBliss, balika011, npjohnson, webgeek1234]
+models: [Odin3]
+name: 'Odin3'
+network: None
+peripherals: [3.5mm jack, Accelerometer, Dock, Gamepad, Gyroscope, Stereo speakers, USB OTG]
+ram: 8/12/16 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: recovery
+release: 2025-11
+screen: {refresh_rate: 120, resolution: '1920x1080', size: 6.0, technology: 'OLED'}
+sdcard: {size_max: '2 TB'}
+soc: Qualcomm CQ8725S
+storage: 128/512/1024 GB UFS3.1/UFS4.0
+tree: android_device_ayn_odin3
+type: Handheld game console
+vendor: AYN
+vendor_short: ayn
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax/be
