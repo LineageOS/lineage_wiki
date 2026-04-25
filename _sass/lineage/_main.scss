@@ -783,9 +783,19 @@ div[data-filter] {
   border-radius: 1rem;
 }
 
-.btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
-  border-radius: .25rem;
-  transition: border-radius var(--transition-speed);
+.btn.btn-primary {
+  @media (hover: hover) {
+    &:hover {
+      border-radius: .25rem;
+      transition: border-radius var(--transition-speed);
+    }
+  }
+
+  &:focus,
+  &.focus {
+    border-radius: .25rem;
+    transition: border-radius var(--transition-speed);
+  }
 }
 
 .device-filters-header {
