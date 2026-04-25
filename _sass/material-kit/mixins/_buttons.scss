@@ -189,7 +189,7 @@
 
     @include shadow-2dp-color($background);
 
-    &:focus,
+    &:focus-visible,
     &:active,
     &:hover{
       // remove this line if you want black shadows
