@@ -53,7 +53,7 @@ function updateToggleState() {
   var label = document.getElementsByClassName("navbar-appearance-label");
 
   if (icon) {
-    icon.textContent = isDark ? "light_mode": "dark_mode";
+    icon.textContent = isDark ? "light_mode" : "dark_mode";
   }
 
   if (label && label[0]) {
