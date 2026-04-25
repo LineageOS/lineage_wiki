@@ -652,7 +652,7 @@ a {
       cursor: pointer;
       background: var(--theme-bg-subtle);
 
-      @media(hover: hover)  {
+      @media (hover: hover)  {
         &:hover a {
           text-decoration: underline;
         }
@@ -777,9 +777,23 @@ div[data-filter] {
   border-radius: 1rem;
 }
 
-.btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:hover {
-  border-radius: .25rem;
+.btn.btn-primary {
   transition: border-radius var(--transition-speed);
+
+  &:focus-visible,
+  &.btn-pressing {
+    border-radius: .25rem;
+  }
+
+  &.btn-pressing {
+    transition-duration: 0.2s;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      border-radius: .25rem;
+    }
+  }
 }
 
 .device-filters-header {
