@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '13'}
 before_install_device_variants:
-  - {device: 'Redmi Note 10S Global', download_link: 'https://cdnorg.d.miui.com/V14.0.17.0.TFFMIXM/rosemary_p_global_images_V14.0.17.0.TFFMIXM_20241217.0000.00_13.0_global_e6f691d94a.tgz', firmware: 'V14.0.17.0.TFFMIXM'}
+  - {device: 'Redmi Note 10S Global', download_link: 'https://cdnorg.d.miui.com/V14.0.17.0.TFFMIXM/miui_ROSEMARYPGlobal_V14.0.17.0.TFFMIXM_b6ba1e953f_13.0.zip', firmware: 'V14.0.17.0.TFFMIXM'}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '64 MP (wide)'}
