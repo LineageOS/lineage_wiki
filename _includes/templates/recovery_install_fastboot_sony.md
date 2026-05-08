@@ -42,7 +42,7 @@ adb -d reboot bootloader
 fastboot devices
 ```
     {% include alerts/tip.html content="If you see `no permissions fastboot` while on Linux or macOS, try running `fastboot` as root." %}
-8. Follow the instructions on [Sony's official unlocking website](https://developer.sony.com/open-source/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
+8. Follow the instructions on [Sony's official unlocking website](https://opendevices.sony.net/aosp-on-xperia-open-devices/get-started/unlock-bootloader/) to generate an unlock code for your bootloader.
 9. Use your code to unlock the bootloader of your device:
 ```
 fastboot oem unlock <your_unlock_code>
