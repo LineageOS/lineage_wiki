@@ -26,7 +26,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: boot
 release: 2023-01
 screen: {resolution: '720x1650', size: 6.71, technology: 'IPS LCD'}
-soc: Mediatek MT6768 Helio G85
+soc: Mediatek Helio G85
 storage: 32/64/128 GB
 tree: android_device_xiaomi_earth
 type: phone

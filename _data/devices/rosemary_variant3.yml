@@ -31,7 +31,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: boot
 release: 2021-04
 screen: {resolution: '1080x2400', size: 6.43, technology: 'AMOLED'}
-soc: Mediatek MT6785 Helio G95
+soc: Mediatek Helio G95
 storage: 64/128 GB
 tree: android_device_xiaomi_rosemary
 type: phone
