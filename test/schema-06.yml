@@ -300,6 +300,7 @@ definitions:
       - Intel Atom Z2560
       - Intel Atom Z3560
       - Intel Atom Z3580
+      - Mediatek Helio G80
       - Mediatek Helio G85
       - Mediatek Helio G95
       - NVIDIA Tegra 4 (T114)
