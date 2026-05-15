@@ -28,6 +28,6 @@ Before proceeding, ensure the data you would like to retain is backed up to your
 [10504.979525] usb 1-4.3.1: Manufacturer: Amlogic
 ```
 5. Release the button once the device has been detected by host computer.
-6. Run `sudo ./unlock.sh` and enter your sudo password when asked.
+6. Run `./unlock.sh` and enter your sudo password when asked.
 7. Follow the instructions `unlock.sh` presents you with.
 8. Once fastbootd reports "Unlocked", you may proceed.
