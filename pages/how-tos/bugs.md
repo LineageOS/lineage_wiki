@@ -23,7 +23,7 @@ Please do not:
 - Post "Me too" or "+1" messages on existing reports
 - Comment your device as affected on a report for a different device - different devices have different maintainers, and different reasons for bugs to exist
 - Ask if it is fixed already - if the report is still open it probably is still present!
-- Ask for status updates - we can't provide them (no ETA!)
+- Ask for status updates - we can't provide them (no ["ETA"]({{ "glossary/#eta" | absolute_url }}){: .glossary}!)
 - Ping people/maintainers - most of them already check the tracker
 - Post bugs on modified devices (e.g., devices with many add-ons, or rooted devices) -  as those modifications are potentially causes for your issue.
 - Post AI slop - if we need guesses, we can ask it themselves. Other than that, it really provides no value having to filter even more text for relevant info
