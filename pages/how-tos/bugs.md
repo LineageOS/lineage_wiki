@@ -9,7 +9,7 @@ tags:
 ---
 
 ## What not to report
-  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.lineageos.org/)
+  - Bugs in unofficial builds or anything not downloaded from [our official portal](https://download.lineageos.org/) - this includes other ROMs "based on" LineageOS as well!
   - Missing builds
   - Asking for installation help
   - Asking for device support
@@ -25,7 +25,9 @@ Please do not:
 - Ask if it is fixed already - if the report is still open it probably is still present!
 - Ask for status updates - we can't provide them (no ETA!)
 - Ping people/maintainers - most of them already check the tracker
-- Post bugs on modified devices (e.g., devices with many add-ons, or rooted devices) -  as those modifications are potentially causes for your issue.
+- Post bugs on modified devices (e.g., devices with many add-ons, or rooted devices) -  as those modifications are potentially causes for your issue
+- Post AI output - if we needed educated guesses, we can/will prompt the models ourselves. Other than that, it really provides no value having to filter through even more text that may be completely unhelpful
+- Update the post with every affected build - if the report is still open, the issue likely still exists
 
 We accept bugs on the following:
 
