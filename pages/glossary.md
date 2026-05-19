@@ -67,6 +67,12 @@ toc: false
 - A term describing that an OS has no software parts from, or that attempt to connect to Google
 - LineageOS is not explicitly degoogled, we simply don't ship [GApps](#gapps) due to licensing
 
+#### ETA
+
+- Estimated Time of Arrival
+- Not limited to just time but also includes the "IF" something will come / be supported / happen
+- We do not provide any
+
 #### Factory reset
 
 - Despite the name containing "factory", performing such a reset is returning the device into a state "without user modifications", not back to the [Stock ROM](#stock-rom)
