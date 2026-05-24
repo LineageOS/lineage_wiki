@@ -116,6 +116,7 @@ Infrastructure Managers are responsible for running the day-to-day infrastructur
 | Name | Nickname |
 |------|----------|
 | Chirayu Desai | cdesai |
+| Łukasz Patron | LuK1337 |
 | Tom Powell | zifnab |
 {: .table }
 
