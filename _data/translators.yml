@@ -89,7 +89,7 @@ languages:
   - name: Irish
     proofreaders: ['Aindriú Mac Giolla Eoin (aindriu80)']
   - name: Italian
-    proofreaders: ['Joey Rizzoli (linuxx)', 'Sebastiano Barezzi (SebaUbuntu)', 'Tommaso Fonda (Tomoms)']
+    proofreaders: ['Joey (linuxx)', 'Sebastiano Barezzi (SebaUbuntu)', 'Tommaso Fonda (Tomoms)']
   - name: Japanese
     proofreaders: ['AndroPlus (AndroPlus\_org)']
   - name: Kabyle
@@ -163,7 +163,7 @@ managers:
     nick: mikeioannina
   - name: Abhisek Devkota
     nick: ciwrl
-  - name: Joey Rizzoli
+  - name: Joey
     nick: linuxx
   - name: Łukasz Patron
     nick: LuK1337

@@ -48,7 +48,7 @@ Committers are responsible for testing commits and merging them in high flowrate
 | Cosmin Tanislav | Demon000 |
 | Danny Baumann | maniac103 |
 | Jan Altensen | Stricted |
-| Joey Rizzoli | joeyrizzoli |
+| Joey | bvlj |
 | Michael W. | baddaemon |
 | Joseph Annareddy | javelinanddart |
 {: .table }
