@@ -101,6 +101,7 @@ definitions:
       - ARM Mali-400 MP4
       - ARM Mali-G31 MP2
       - ARM Mali-G52 MC2
+      - ARM Mali-G57 MC2
       - ARM Mali-G68 MP4
       - ARM Mali-G71 MP2
       - ARM Mali-G72 MP12
@@ -303,6 +304,7 @@ definitions:
       - Mediatek Helio G80
       - Mediatek Helio G85
       - Mediatek Helio G95
+      - Mediatek Helio G99
       - NVIDIA Tegra 4 (T114)
       - NVIDIA Tegra K1 (T124)
       - NVIDIA Tegra X1 (T210)
