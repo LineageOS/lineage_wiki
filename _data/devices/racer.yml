@@ -12,15 +12,15 @@ codename: racer
 cpu: Kryo 475
 cpu_cores: '8'
 cpu_freq: 1 x 2.4 GHz + 1 x 2.2 GHz + 6 x 1.8 GHz
-current_branch: 21
+current_branch: 23.2
 dimensions: {depth: 9.2, height: 161.6, width: 71.1}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 620
 image: racer.png
 install_method: fastboot_motorola
 is_ab_device: true
-kernel: {repo: android_kernel_motorola_sm7250, version: '4.19'}
-maintainers: []
+kernel: {repo: android_kernel_motorola_sm8250, version: '4.19'}
+maintainers: [ItsVixano]
 models: [XT2063-2, XT2063-3]
 name: edge
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
@@ -38,5 +38,5 @@ tree: android_device_motorola_racer
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [17.1, 18.1, 19.1, 20, 21]
+versions: [17.1, 18.1, 19.1, 20, 21, 23.2]
 wifi: 802.11 a/b/g/n/ac
