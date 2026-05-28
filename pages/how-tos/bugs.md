@@ -53,7 +53,7 @@ Make sure to fill out the template with accurate information, and in the format 
 
 {% include alerts/important.html content="Please submit each issue in a separate report. Some bugs may be device-specific or handled by different maintainers, and combining them can delay resolution." %}
 
-<a href="https://gitlab.com/LineageOS/issues/android/-/issues"><button class="btn btn-primary">Go to Android bugs</button></a>
+<a href="https://github.com/LineageOS/issues"><button class="btn btn-primary">Go to Android bugs</button></a>
 
 ### Infrastructure bugs
 
