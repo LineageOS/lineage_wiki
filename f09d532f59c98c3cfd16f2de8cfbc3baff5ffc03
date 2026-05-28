@@ -16,6 +16,23 @@
       "message": "kiev is ready",
       "revId": "f09d532f59c98c3cfd16f2de8cfbc3baff5ffc03",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da5143e1_f044c42b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-05-28T17:51:12Z",
+      "side": 1,
+      "message": "that took a while",
+      "revId": "f09d532f59c98c3cfd16f2de8cfbc3baff5ffc03",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
