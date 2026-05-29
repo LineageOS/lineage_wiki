@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@view-transition {
+  navigation: auto;
+}
+
 // Links
 a.anchorjs-link {
   text-decoration: none;
