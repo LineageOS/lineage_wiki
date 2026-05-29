@@ -55,6 +55,42 @@ a.anchorjs-link {
   margin: 0;
 }
 
+.navbar .nav-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background-color: currentColor;
+  opacity: 0.16;
+  transform: scale(0);
+  pointer-events: none;
+  animation: nav-ripple var(--transition-speed) cubic-bezier(0.2, 0, 0, 1);
+}
+
+@keyframes nav-ripple {
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.navbar .nav-item.active .nav-link {
+  font-weight: 500;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: currentColor;
+    opacity: 0.05;
+    pointer-events: none;
+    border-radius: inherit;
+  }
+}
+
 .theme-toggle-button {
   color: var(--theme-text);
   background-color: var(--theme-bg-subtle);
