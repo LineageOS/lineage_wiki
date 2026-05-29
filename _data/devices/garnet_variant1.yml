@@ -2,12 +2,12 @@ architecture: arm64
 battery: {capacity: 5100, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0}
 before_install_device_variants:
-  - {device: 'Redmi Note 13 Pro 5G EEA', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNREUXM/garnet_eea_global-ota_full-OS2.0.204.0.VNREUXM-user-15.0-ae2971ddfa.zip', firmware: 'OS2.0.204.0.VNREUXM'}
-  - {device: 'Redmi Note 13 Pro 5G Global', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRMIXM/garnet_global-ota_full-OS2.0.204.0.VNRMIXM-user-15.0-49eb38e23a.zip', firmware: 'OS2.0.204.0.VNRMIXM'}
-  - {device: 'Redmi Note 13 Pro 5G Indonesia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRIDXM/garnet_id_global-ota_full-OS2.0.204.0.VNRIDXM-user-15.0-c4a9d7a4c0.zip', firmware: 'OS2.0.204.0.VNRIDXM'}
-  - {device: 'Redmi Note 13 Pro 5G Russia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRRUXM/garnet_ru_global-ota_full-OS2.0.204.0.VNRRUXM-user-15.0-2e6ed4adf0.zip', firmware: 'OS2.0.204.0.VNRRUXM'}
-  - {device: 'Redmi Note 13 Pro 5G Taiwan', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRTWXM/garnet_tw_global-ota_full-OS2.0.204.0.VNRTWXM-user-15.0-0a00b9d58d.zip', firmware: 'OS2.0.204.0.VNRTWXM'}
-  - {device: 'Redmi Note 13 Pro 5G Turkey', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRTRXM/garnet_tr_global-ota_full-OS2.0.204.0.VNRTRXM-user-15.0-5de4fb3200.zip', firmware: 'OS2.0.204.0.VNRTRXM'}
+  - {device: 'Redmi Note 13 Pro 5G EEA', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WNREUXM/garnet_eea_global-ota_full-OS3.0.3.0.WNREUXM-user-16.0-4d7de4919a.zip', firmware: 'OS3.0.3.0.WNREUXM'}
+  - {device: 'Redmi Note 13 Pro 5G Global', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.5.0.WNRMIXM/garnet_global-ota_full-OS3.0.5.0.WNRMIXM-user-16.0-a7e8665dcb.zip', firmware: 'OS3.0.5.0.WNRMIXM'}
+  - {device: 'Redmi Note 13 Pro 5G Indonesia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.3.0.WNRIDXM/garnet_id_global-ota_full-OS3.0.3.0.WNRIDXM-user-16.0-c76e294a5a.zip', firmware: 'OS3.0.3.0.WNRIDXM'}
+  - {device: 'Redmi Note 13 Pro 5G Russia', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.1.0.WNRRUXM/garnet_ru_global-ota_full-OS3.0.1.0.WNRRUXM-user-16.0-2e73b25acc.zip', firmware: 'OS3.0.1.0.WNRRUXM'}
+  - {device: 'Redmi Note 13 Pro 5G Taiwan', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.1.0.WNRTWXM/garnet_tw_global-ota_full-OS3.0.1.0.WNRTWXM-user-16.0-1fd62b153a.zip', firmware: 'OS3.0.1.0.WNRTWXM'}
+  - {device: 'Redmi Note 13 Pro 5G Turkey', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.1.0.WNRTRXM/garnet_tr_global-ota_full-OS3.0.1.0.WNRTRXM-user-16.0-2a41387b44.zip', firmware: 'OS3.0.1.0.WNRTRXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:

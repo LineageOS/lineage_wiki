@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5100, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.0}
 before_install_device_variants:
-  - {device: 'Redmi Note 13 Pro 5G China', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS2.0.204.0.VNRCNXM/garnet-ota_full-OS2.0.204.0.VNRCNXM-user-15.0-c3835eb904.zip', firmware: 'OS2.0.204.0.VNRCNXM'}
+  - {device: 'Redmi Note 13 Pro 5G China', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.6.0.WNRCNXM/garnet-ota_full-OS3.0.6.0.WNRCNXM-user-16.0-7d27d3bc51.zip', firmware: 'OS3.0.6.0.WNRCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
 cameras:
