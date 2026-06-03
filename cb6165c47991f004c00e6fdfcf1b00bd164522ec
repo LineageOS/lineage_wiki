@@ -16,6 +16,23 @@
       "message": "hold till just before next weekly",
       "revId": "cb6165c47991f004c00e6fdfcf1b00bd164522ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f02fb33_d27f72d5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30766
+      },
+      "writtenOn": "2026-06-03T08:07:34Z",
+      "side": 1,
+      "message": "can this be merged, new builds for garnet goes out today",
+      "revId": "cb6165c47991f004c00e6fdfcf1b00bd164522ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
