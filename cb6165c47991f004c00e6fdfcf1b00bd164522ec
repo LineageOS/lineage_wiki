@@ -51,6 +51,24 @@
       "parentUuid": "6f02fb33_d27f72d5",
       "revId": "cb6165c47991f004c00e6fdfcf1b00bd164522ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "68919525_b3cefa23",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 30766
+      },
+      "writtenOn": "2026-06-03T08:38:55Z",
+      "side": 1,
+      "message": "nah the devices still install and boots fine with old fw,at max they might get broken fastcharging",
+      "parentUuid": "ff52c830_5d836e9a",
+      "revId": "cb6165c47991f004c00e6fdfcf1b00bd164522ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
