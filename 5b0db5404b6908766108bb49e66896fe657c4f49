@@ -16,6 +16,24 @@
       "message": "15 is only supported as of 23.2, bump lineage_version to indicate that.",
       "revId": "5b0db5404b6908766108bb49e66896fe657c4f49",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5857da81_9f71ec4f",
+        "filename": "_data/devices/larry_variant1.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2026-06-04T10:44:33Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "52e180d3_160526ff",
+      "revId": "5b0db5404b6908766108bb49e66896fe657c4f49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
