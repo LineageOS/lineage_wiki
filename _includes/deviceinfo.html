@@ -304,5 +304,17 @@
         </td>
     </tr>
     {%- endif %}
+    <tr>
+        <th scope="row">Wiki metadata</th>
+        <td>
+            <ul>
+                {%- if device.variant %}
+                    <li><a href="https://github.com/LineageOS/lineage_wiki/blob/main/_data/devices/{{ device.codename }}_variant{{ device.variant }}.yml">{{ device.codename }}_variant{{ device.variant }}.yml</a></li>
+                {%- else %}
+                    <li><a href="https://github.com/LineageOS/lineage_wiki/blob/main/_data/devices/{{ device.codename }}.yml">{{ device.codename }}.yml</a></li>
+                {%- endif %}
+            </ul>
+        </td>
+    </tr>
   </tbody>
 </table>
