@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93595a4c_981903d6",
+        "filename": "_sass/lineage/_main.scss",
+        "patchSetId": 2
+      },
+      "lineNbr": 669,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-06-08T19:15:17Z",
+      "side": 1,
+      "message": "See here, no space after @media",
+      "revId": "302fca66cf83feec795789660dd399b663135017",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "81f02375_3dfb11d9",
+        "filename": "assets/js/buttons.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-06-08T19:15:17Z",
+      "side": 1,
+      "message": "Why?",
+      "revId": "302fca66cf83feec795789660dd399b663135017",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0ce60785_6c0698a4",
+        "filename": "assets/js/theme.js",
+        "patchSetId": 2
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-06-08T19:15:17Z",
+      "side": 1,
+      "message": "Unrelated",
+      "revId": "302fca66cf83feec795789660dd399b663135017",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
