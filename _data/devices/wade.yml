@@ -1,6 +1,6 @@
 architecture: {cpu: 'arm64', userspace: 'arm'}
 battery: None
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, ships_fw: true, version: '12'}
+before_install: {instructions: 'g12-locked'}
 before_recovery_install: g12
 bluetooth: {spec: '4.2'}
 burn_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until you see a logo on screen. At this point you can communicate with the device by utilizing Amlogic's [update](https://github.com/khadas/utils/blob/master/aml-flash-tool/tools/linux-x86/update) tool.
