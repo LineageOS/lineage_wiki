@@ -830,10 +830,10 @@ properties:
       - fastboot_xiaomi_hyperos
       - fastboot_zenfone
       - fastboot_zte
-      - heimdall
       - nintendo
       - odin
       - oor
+      - samloader_rs
   is_ab_device:
     "$id": "/properties/is_ab_device"
     type: boolean

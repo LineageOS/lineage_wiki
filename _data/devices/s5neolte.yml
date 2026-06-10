@@ -13,7 +13,7 @@ dimensions: {depth: 8.1, height: 142, width: 72.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
 image: s5neolte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal7580, version: '3.10'}
 maintainers: []
 models: [SM-G903F, SM-G903F/DS, SM-G903M, SM-G903W]

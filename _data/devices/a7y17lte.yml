@@ -14,7 +14,7 @@ dimensions: {depth: 7.9, height: 156.8, width: 77.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T830 MP3
 image: a7y17lte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal7880, version: '3.18'}
 maintainers: []
 models: [SM-A720F, SM-A720F/DS, SM-A720S]

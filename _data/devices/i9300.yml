@@ -14,7 +14,7 @@ dimensions: {depth: 8.6, height: 136.6, width: 70.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: i9300.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_smdk4412, version: '3.0'}
 maintainers: []
 models: [GT-I9300, GT-I9300T]
