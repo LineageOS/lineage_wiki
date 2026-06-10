@@ -13,7 +13,7 @@ dimensions: {depth: 7.7, height: 150.9, width: 72.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T880 MP12
 image: hero2lte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal8890, version: '3.18'}
 maintainers: []
 models: [SM-G935F, SM-G935FD, SM-G935S, SM-G935K, SM-G935L, SM-G935W8]

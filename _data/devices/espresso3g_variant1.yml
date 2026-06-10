@@ -13,7 +13,7 @@ dimensions: {depth: 10.5, height: 193.7, width: 122.4}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: PowerVR SGX540
 image: espresso3g.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_espresso10, version: '3.0'}
 maintainers: []
 models: [P3100, P5100]

@@ -17,7 +17,7 @@ dimensions: {depth: 8.4, height: 159.8 , width: 74.5}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
 image: r8s.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
 maintainers: [CmdCtrlDevic3]
 models: [SM-G780F, SM-G780F/DS]
