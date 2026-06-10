@@ -13,7 +13,7 @@ dimensions: {depth: 7.9, height: 142.4, width: 69.6}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T880 MP12
 image: herolte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal8890, version: '3.18'}
 maintainers: []
 models: [SM-G930F, SM-G930FD, SM-G930S, SM-G930K, SM-G930L, SM-G930W8]

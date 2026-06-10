@@ -16,7 +16,7 @@ dimensions: {depth: 7.3, height: 144.6, width: 69.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 330
 image: sample.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_lge_msm8974, version: '3.4'}
 maintainers: [you, another person, a third person]
 models: [A0001, SM-G900F]

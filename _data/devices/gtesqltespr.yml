@@ -14,7 +14,7 @@ dimensions: {depth: 8.9, height: 212.1, width: 126.1}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 306
 image: gtesqltespr.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_msm8916, version: '3.10'}
 maintainers: []
 models: [SM-T377P]
