@@ -17,7 +17,7 @@ dimensions: {depth: 7.9, height: 151.7, width: 69.1}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
 image: x1s.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
 maintainers: [ExtremeXT, fcuzzocrea]
 models: [SM-G980F, SM-G980F/DS, SM-G981B, SM-G981B/DS]

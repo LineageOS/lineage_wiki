@@ -14,7 +14,7 @@ dimensions: None
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 225
 image: i9300.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_d2, version: '3.4'}
 maintainers: []
 models: [SCH-I535]

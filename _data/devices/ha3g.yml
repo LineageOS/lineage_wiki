@@ -13,7 +13,7 @@ dimensions: {depth: 8.3, height: 151.2, width: 79.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: ha3g.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos5420, version: '3.4'}
 maintainers: []
 models: [SM-N9000]
