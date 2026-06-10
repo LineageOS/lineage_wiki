@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1c99031c_f4ca6588",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-06-10T19:08:34Z",
+      "side": 1,
+      "message": "pending https://github.com/topjohnwu/samloader-rs/pull/13 + win (usbdk-less)/macos tests",
+      "revId": "bc468ab33e75d39221f12026c9ccd51c63098d52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
