@@ -13,7 +13,7 @@ dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>. In order to exit download mode and reboot, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd> for about 7 seconds.
 gpu: Qualcomm Adreno 420
 image: klte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_apq8084, version: '3.10'}
 maintainers: []
 models: [SM-G901F]

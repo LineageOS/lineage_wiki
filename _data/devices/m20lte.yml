@@ -16,7 +16,7 @@ dimensions: {depth: 8.8, height: 156.4, width: 74.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G71 MP2
 image: m20lte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal7904, version: '4.4'}
 maintainers: []
 models: [SM-M205F, SM-M205FN, SM-M205G, SM-M205M, SM-M205N]

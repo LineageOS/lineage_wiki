@@ -15,7 +15,7 @@ dimensions: {depth: 9.9, height: 188, width: 111.1}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 305
 image: lt02ltespr.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_msm8930-common, version: '3.4'}
 maintainers: []
 models: [SM-T217S]

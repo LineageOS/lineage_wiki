@@ -14,7 +14,7 @@ dimensions: {depth: 6.6, height: 247.3, width: 177.3}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: n2awifi.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos5420, version: '3.4'}
 maintainers: []
 models: [SM-T520]

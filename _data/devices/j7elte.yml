@@ -13,7 +13,7 @@ dimensions: {depth: 7.5, height: 152.2, width: 78.7}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
 image: j7elte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal7580, version: '3.10'}
 maintainers: []
 models: [SM-J700F, SM-J700F/DS, SM-J700H, SM-J700M]

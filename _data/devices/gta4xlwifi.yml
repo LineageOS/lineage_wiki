@@ -17,7 +17,7 @@ firmware_update: firmware_update_samsung_gta4xlwifi
 format_on_upgrade: 21
 gpu: ARM Mali-G72 MP3
 image: gta4xl.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_gta4xl, version: '4.14'}
 maintainers: [Linux4, haggertk]
 models: [SM-P610]

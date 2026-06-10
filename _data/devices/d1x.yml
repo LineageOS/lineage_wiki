@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_exynos9820_5G
 format_on_upgrade: 21
 gpu: ARM Mali-G76 MP12
 image: d1.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
 maintainers: [Rocky7842, Linux4]
 models: [SM-N971N]
