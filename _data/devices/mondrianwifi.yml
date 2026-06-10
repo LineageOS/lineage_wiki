@@ -13,7 +13,7 @@ dimensions: None
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> while booting.
 gpu: Qualcomm Adreno 330
 image: mondrianwifi.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_mondrianwifi, version: '3.4'}
 maintainers: []
 name: Galaxy Tab Pro 8.4

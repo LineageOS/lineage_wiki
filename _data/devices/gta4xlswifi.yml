@@ -13,7 +13,7 @@ dimensions: {depth: 7.0, height: 244.5, width: 154.3}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Volume Up</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G68 MP4
 image: gta4xl.png
-install_method: heimdall
+install_method: samloader_rs
 is_unlockable: false
 kernel: {repo: android_kernel_samsung_gta4xls, version: '5.10'}
 maintainers: [Linux4]

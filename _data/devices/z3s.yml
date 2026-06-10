@@ -18,7 +18,7 @@ dimensions: {depth: 8.8, height: 166.9, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
 image: z3s.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
 maintainers: [ExtremeXT, fcuzzocrea]
 models: [SM-G988B, SM-G988B/DS]

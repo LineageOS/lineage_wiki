@@ -14,7 +14,7 @@ dimensions: {depth: 8.1, height: 142, width: 72.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: k3gxx.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_k3gxx, version: '3.10'}
 maintainers: []
 models: [SM-G900H]

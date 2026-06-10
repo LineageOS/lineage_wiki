@@ -13,7 +13,7 @@ dimensions: {depth: 8.0, height: 210.8, width: 135.9}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-400 MP4
 image: n5100.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_smdk4412, version: '3.0'}
 maintainers: []
 models: []

@@ -19,7 +19,7 @@ firmware_update: firmware_update_samsung_a21s
 format_on_upgrade: 23.0
 gpu: ARM Mali-G52 MC2
 image: a21s.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos850, version: '4.19'}
 maintainers: [DaemonMCR]
 models: [SM-A217F, SM-A217M, SM-A217F/DS, SM-A217F/DSN, SM-A217M/DS]

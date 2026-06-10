@@ -13,7 +13,7 @@ dimensions: {depth: 7.3, height: 134.5, width: 65.2}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Home</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T720 MP2
 image: a3xelte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal7580, version: '3.10'}
 maintainers: []
 models: [SM-A310F, SM-A310F/DS, SM-A310M, SM-A310N0, SM-A310Y]

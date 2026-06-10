@@ -14,7 +14,7 @@ dimensions: None
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 330
 image: lt03wifi.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_lt03lte, version: '3.4'}
 maintainers: []
 name: Galaxy Note 10.1 2014 (LTE)

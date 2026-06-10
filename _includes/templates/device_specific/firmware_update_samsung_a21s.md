@@ -10,7 +10,7 @@ There are two possibilities to get the latest firmware:
 2. Extract the `.tar` file
 3. Run the following command:
   ```
-heimdall flash --KEYSTORAGE keystorage.bin --LDFW ldfw.img --MISC misc.bin --RADIO modem.bin --CP_DEBUG modem_debug.bin --BOOTLOADER sboot.bin --TZAR tzar.img --TZSW tzsw.img --UP_PARAM up_param.bin
+samloader flash --partition KEYSTORAGE keystorage.bin --partition LDFW ldfw.img --partition MISC misc.bin --partition RADIO modem.bin --partition CP_DEBUG modem_debug.bin --partition BOOTLOADER sboot.bin --partition TZAR tzar.img --partition TZSW tzsw.img --partition UP_PARAM up_param.bin
   ```
 
 {% include snippets/fw_update_success.md %}
