@@ -18,7 +18,7 @@ firmware_update: firmware_update_samsung_exynos9820
 format_on_upgrade: 21
 gpu: ARM Mali-G76 MP12
 image: beyond0lte.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos9820, version: '4.14'}
 maintainers: [Linux4]
 models: [SM-G970F, SM-G970F/DS, SM-G970N]

@@ -18,7 +18,7 @@ dimensions: {depth: 7.8, height: 161.9, width: 73.7}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
 image: y2s.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
 maintainers: [ExtremeXT, fcuzzocrea]
 models: [SM-G985F, SM-G985F/DS, SM-G986B, SM-G986B/DS]

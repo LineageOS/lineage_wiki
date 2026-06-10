@@ -13,7 +13,7 @@ dimensions: {depth: 6.6, height: 212.8, width: 125.6}
 download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: ARM Mali-T628 MP6
 image: klimtwifi.png
-install_method: heimdall
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_exynos5420, version: '3.4'}
 maintainers: []
 models: [SM-T700]
