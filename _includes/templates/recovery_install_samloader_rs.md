@@ -7,6 +7,7 @@
 
 {% include snippets/before_recovery_install.md %}
 
+{% unless device.before_recovery_install == "samsung_qcom" %}
 ## Preparing for installation
 
 Samsung devices come with a unique boot mode called "Download mode", which is very similar to "Fastboot mode" on some devices with unlocked bootloaders.
@@ -34,6 +35,7 @@ samloader print-pit
 {% if custom_root_instructions %}
 {{ custom_root_instructions }}
 {% endif %}
+{% endunless %}
 
 {%- capture install_content %}
 {%- if device.custom_recovery_link %}
