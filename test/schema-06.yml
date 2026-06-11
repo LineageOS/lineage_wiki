@@ -829,7 +829,6 @@ properties:
       - fastboot_zenfone
       - fastboot_zte
       - nintendo
-      - odin
       - oor
       - samloader_rs
   is_ab_device:
