@@ -6,7 +6,7 @@ There are two possibilities to get the latest firmware:
 
 ### You already installed a custom recovery
 
-1. Download the latest firmware for your model [here](https://github.com/lifehackerhansol/gto-fw/releases) (All `.tar.md5` files)
+1. Download the latest firmware for your model [here](https://github.com/luk1337/gts4lv-fw/releases) (All `.tar.md5` files)
    {% include alerts/note.html content="You can find your model number on the back of your device!" %}
 2. Flash the just downloaded files using [samloader-rs](https://github.com/topjohnwu/samloader-rs):
 ```
