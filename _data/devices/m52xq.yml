@@ -17,7 +17,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 firmware_update: firmware_update_samsung_sm7325
 gpu: Qualcomm Adreno 642L
 image: m52xq.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sm7325, version: '5.4'}
 maintainers: [Simon1511]
 models: [SM-M526B, SM-M526BR, SM-M526B/DS, SM-M526BR/DS]
