@@ -16,7 +16,7 @@ download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down
 firmware_update: firmware_update_samsung_gts4lv
 gpu: Qualcomm Adreno 615
 image: gts4lv.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sdm670, version: '4.9'}
 maintainers: [bgcngm, LuK1337]
 models: [SM-T725, SM-T725C, SM-T725N, SM-T727]
