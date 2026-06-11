@@ -18,7 +18,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 firmware_update: firmware_update_samsung_sm8250
 gpu: Qualcomm Adreno 650
 image: r8q.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sm8250, version: '4.19'}
 maintainers: [ata-kaner]
 models: [SM-G781B, SM-G781B/DS, SM-G781N, SM-G7810]

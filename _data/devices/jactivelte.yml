@@ -14,7 +14,7 @@ download_boot: With the device powered off, hold <kbd>Home</kbd> + <kbd>Volume D
 format_on_upgrade: 18.1
 gpu: Qualcomm Adreno 320
 image: jactivelte.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_jf, version: '3.4'}
 maintainers: []
 models: [GT-I9295]
