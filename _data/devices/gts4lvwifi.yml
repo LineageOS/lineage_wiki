@@ -13,10 +13,10 @@ cpu_freq: 2 x 2.0 GHz & 6 x 1.7 GHz
 current_branch: 22.2
 dimensions: {depth: 5.5, height: 245, width: 160}
 download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_samsung_gts4lv
+firmware_update: firmware_update_samsung_gts4lvwifi
 gpu: Qualcomm Adreno 615
 image: gts4lv.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sdm670, version: '4.9'}
 maintainers: [LuK1337, bgcngm]
 models: [SM-T720, SM-T720N]

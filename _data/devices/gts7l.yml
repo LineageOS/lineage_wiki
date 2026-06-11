@@ -16,7 +16,7 @@ dimensions: {depth: 6.3, height: 253.8, width: 165.3}
 download_boot: With USB plugged in, hold <kbd>Volume up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 650
 image: gts7l.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sm8250, version: '4.19'}
 maintainers: [bgcngm]
 models: [SM-T875]
