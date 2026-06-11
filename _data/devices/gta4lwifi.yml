@@ -16,7 +16,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>V
 firmware_update: firmware_update_samsung_gta4lwifi
 gpu: Qualcomm Adreno 610
 image: gta4lwifi.png
-install_method: odin
+install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sm6115, version: '4.19'}
 maintainers: [chrmhoffmann]
 models: [SM-T500]
