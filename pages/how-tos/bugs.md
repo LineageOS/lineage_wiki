@@ -40,13 +40,16 @@ These are bugs in LineageOS itself, e.g.
 
 When adding a bug report, please do **not** use the email functionality, since we provide a template that needs to be filled out properly.
 
-Please read the template carefully and pay special attention to the last section, containing lines starting with `/`.
-These lines are parsed by a bot which will mark your issue as invalid if you do not fill them out properly.
-Keep the lines exactly as they are and add your information next to it, e.g. `/device codename` or `/version lineage-19.1` but not `/device My Device (codename)` - which the bot will not be able to parse.
+Please read the template carefully before filling it - all of the fields come with explanations and examples.
+For example when asked for the codename, `Samsung Galaxy` is obviously **not** the right choice - you can find the codename on your device's wiki page and the overview!
 
 Most of the requested information can be found on your device if you go to *Settings->About phone* and click on the `Android version` item.
 
 Make sure to fill out the template with accurate information, and in the format requested. It doesn't matter if your baseband version has nothing to do with a lock screen animation issue, if it is not there your bug will be closed.
+If you fail to fill the template properly, a checker will close your report. Once you **edited** the report, it'll automatically be rechecked.
+
+  {%- capture content %}Please do **not** open new reports until you succeed - you can fail on the same report multiple times without starting a new one!{% endcapture %}
+  {% include alerts/important.html content=content %}
 
   {%- capture content %}[Logcats]({{ "how-to/logcat/" | relative_url }}) *must* be attached for all Android bugs, and *must* be captured right after reproducing the issue. Without these, it is much more difficult and time-consuming for us to resolve the issue.{% endcapture %}
   {% include alerts/warning.html content=content %}
