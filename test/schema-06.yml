@@ -252,6 +252,7 @@ definitions:
       - Foldable LTPO OLED
       - LTPO AMOLED
       - LTPO OLED
+      - LTPO P-OLED
       - Optic AMOLED
       - Super AMOLED
       - Pentile RGBG AMOLED
