@@ -227,7 +227,7 @@ function showFilters() {
   </div>
   <div class="name">
     <a href="{{ url }}">
-      {%- include snippets/get_displayname.md device=device %}
+      {%- include snippets/get_displayname.md device=device show_vendor=false %}
       <span class="devicename">{{ display_name }}</span>
     </a><br>
     {%- if device.variant %}
