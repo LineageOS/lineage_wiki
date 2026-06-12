@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "2f8d4d30_c2e7b443",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-06-12T17:57:30Z",
+      "side": 1,
+      "message": "This needs closing -%} to not add an empy line",
+      "revId": "ea486532f25bb96f3439697f470f7d084ba2d99c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3965becd_8c7f3e0a",
+        "filename": "_layouts/page.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-06-12T17:57:30Z",
+      "side": 1,
+      "message": "End with -%}",
+      "revId": "ea486532f25bb96f3439697f470f7d084ba2d99c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
