@@ -1,4 +1,5 @@
 {% assign device = site.data.devices[page.device] %}
+{%- include snippets/get_displayname.md device=device %}
 
 {% if device.migrated_to and device.migrated_to != "" %}
 {% include templates/device_migrated_to.md %}
@@ -6,7 +7,7 @@
 
 ## Introduction
 
-These instructions will hopefully assist you to start with a stock {{ device.vendor }} {{ device.name }}, unlock the bootloader (if necessary), and then download
+These instructions will hopefully assist you to start with a stock {{ display_name }}, unlock the bootloader (if necessary), and then download
 the required tools as well as the very latest source code for LineageOS (based on Google’s Android operating system) for your device. Using these, you can build both
 a LineageOS installation zip and a LineageOS Recovery image and install them on your device.
 
@@ -27,9 +28,9 @@ or use what you’ve learned to build a new app or port to a new device-- or may
 ### Initialize the LineageOS source repository
 
 {% if device.maintainers != empty %}
-The following branches are officially supported for the {{ device.vendor }} {{ device.name }}:
+The following branches are officially supported for the {{ display_name }}:
 {% else %}
-The following branches can be used to build for the {{ device.vendor }} {{ device.name }}:
+The following branches can be used to build for the {{ display_name }}:
 {% endif %}
 
 {% for version in device.versions %}
@@ -69,7 +70,7 @@ This step requires to have a device already running the latest LineageOS, based 
 {% endcapture %}
 {% include alerts/note.html content=extracting_blobs_from_zips %}
 
-Now ensure your {{ device.vendor }} {{ device.name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
+Now ensure your {{ display_name }} is connected to your computer via the USB cable, with ADB and root enabled, and that you are in the
 `~/android/lineage/device/{{ device.vendor_short }}/{{ device.codename }}` directory.
 
 If the device directory contains `extract-files.py`, run it with:
