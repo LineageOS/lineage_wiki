@@ -6,7 +6,8 @@
       <td colspan="2" style="border-top: 0px;">
       <img src="{{ "images/devices/" | append: device.image | relative_url }}" />
       <br/><br/>
-      <b>{{ device.vendor }} {{ device.name }} ({{ device.codename }})</b>
+      {%- include snippets/get_displayname.md device=device %}
+      <b>{{ display_name }} ({{ device.codename }})</b>
       </td>
     </tr>
 
