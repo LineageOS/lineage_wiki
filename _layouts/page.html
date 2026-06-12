@@ -36,7 +36,8 @@ layout: default
       {%- assign firstLine = action | capitalize | append: " LineageOS on" %}
     {%- endif %}
     <h1 class="post-title-main">{{ firstLine }}<br/>
-    {{ device.vendor }} {{ device.name }}</h1>
+    {%- include snippets/get_displayname.md device=device %}
+    {{ display_name }}</h1>
     <span class="codename">{{ device.codename }}</span>
   {%- else %}
     <h1 class="post-title-main">{{ page.title }}</h1>

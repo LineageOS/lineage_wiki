@@ -1,7 +1,8 @@
 ### What you'll need
 
 {% if device -%}
-* A {{ device.vendor }} {{ device.name }}.
+{%- include snippets/get_displayname.md device=device %}
+* A {{ display_name }}.
 {%- endif %}
 * A relatively recent x86_64 computer:
   * Linux, macOS, or Windows - these build instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
