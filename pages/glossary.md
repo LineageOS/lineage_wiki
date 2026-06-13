@@ -41,7 +41,7 @@ toc: false
 
 #### Bootloop
 
-- A state in which the device never reaches the end of it's boot phase and continually starts over
+- A state in which the device never reaches the end of its boot phase and continually starts over
 - Useless when used in describing an error, since there are many points in time during a device boot where it might abort and start over, e.g.
   - At the vendor splash logo
   - At the LineageOS bootanimation (three white circles rotating on the screen)
@@ -84,7 +84,7 @@ toc: false
 
 #### GApps
 
-- Google Apps, usually consisting of GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messenger, Calender, etc.)
+- Google Apps, usually consisting of GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messenger, Calendar, etc.)
 - Google Apps are not preinstalled on LineageOS but can be installed **during** installation of LineageOS, please see your device's Install guide for more information
 
 #### OEM
