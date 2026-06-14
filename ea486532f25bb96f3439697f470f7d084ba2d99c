@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a34affc_795fdc54",
+        "filename": "_includes/deviceinfo.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2026-06-14T12:47:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2f8d4d30_c2e7b443",
+      "revId": "ea486532f25bb96f3439697f470f7d084ba2d99c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "3965becd_8c7f3e0a",
@@ -31,6 +49,24 @@
       "writtenOn": "2026-06-12T17:57:30Z",
       "side": 1,
       "message": "End with -%}",
+      "revId": "ea486532f25bb96f3439697f470f7d084ba2d99c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cd85a5b0_10ed3b9c",
+        "filename": "_layouts/page.html",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2026-06-14T12:47:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3965becd_8c7f3e0a",
       "revId": "ea486532f25bb96f3439697f470f7d084ba2d99c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
