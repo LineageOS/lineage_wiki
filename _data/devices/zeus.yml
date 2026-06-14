@@ -20,7 +20,7 @@ image: zeus.png
 install_method: fastboot_xiaomi
 is_ab_device: true
 kernel: {repo: android_kernel_xiaomi_sm8450, version: '5.10'}
-maintainers: [Adrianyyy, ArianK16a]
+maintainers: [Aelin, ArianK16a]
 models: [2201122C, 2201122G]
 name: 12 Pro
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
