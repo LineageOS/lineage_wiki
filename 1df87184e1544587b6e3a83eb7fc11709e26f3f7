@@ -16,6 +16,24 @@
       "message": "pls cr and I\u0027ll merge",
       "revId": "1df87184e1544587b6e3a83eb7fc11709e26f3f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c84128e_aa415227",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 33546
+      },
+      "writtenOn": "2026-06-14T20:42:50Z",
+      "side": 1,
+      "message": "Do you want me to CR my own patch or is this addressed at somebody else?",
+      "parentUuid": "6af69551_a400f536",
+      "revId": "1df87184e1544587b6e3a83eb7fc11709e26f3f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
