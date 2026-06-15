@@ -1,6 +1,6 @@
 ---
 sidebar: home_sidebar
-title: Google apps for older versions
+title: Google Apps for older versions
 permalink: gapps/old/
 ---
 
