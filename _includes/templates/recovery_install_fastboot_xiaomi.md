@@ -1,5 +1,6 @@
 {%- assign device = site.data.devices[page.device] %}
 {%- unless device.no_oem_unlock_switch %}
+{%- unless device.is_unlockable == true %}
 ## Unlocking the bootloader
 
 {% include alerts/note.html content="The steps below only need to be run once per device. They **require** a machine running Windows 7 or newer." %}
@@ -17,6 +18,7 @@
 9. After the device and Mi account are successfully verified, the bootloader should be unlocked.
 10. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
+{% endunless %}
 {% endunless %}
 
 {% include snippets/before_recovery_install.md %}
