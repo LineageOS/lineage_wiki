@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {capacity: 3450, removable: false, tech: 'Li-Po'}
 before_recovery_install: TP1803
-bluetooth: {profiles: [A2DP + aptX], spec: '5'}
+bluetooth: {profiles: [A2DP + aptX], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '48 MP'}
   - {flash: None, info: '8 MP'}

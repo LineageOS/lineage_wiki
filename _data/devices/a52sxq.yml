@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 4500, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '13/14'}
 before_recovery_install: samsung_qcom
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '64 MP'}
   - {flash: 'LED', info: '12 MP (ultrawide)'}
