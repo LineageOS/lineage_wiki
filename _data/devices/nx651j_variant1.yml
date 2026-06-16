@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5100, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '11'}
 before_recovery_install: {instructions: 'nubia', partitions: [dtbo, vbmeta]}
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '48 MP (wide)'}
   - {flash: 'LED', info: '8 MP (ultrawide)'}
