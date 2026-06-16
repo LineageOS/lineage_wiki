@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, ships_fw: true, version: '11'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: 5.0}
 cameras:
   - {flash: 'LED', info: '48 MP (Primary)'}
   - {flash: None, info: '8 MP (ultrawide)'}

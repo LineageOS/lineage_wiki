@@ -6,7 +6,7 @@ before_install_device_variants:
   - {device: 'Mi Note 10 Pro (EEA)', download_link: 'https://bn.d.miui.com/V13.0.2.0.RFDEUXM/miui_TUCANAEEAGlobal_V13.0.2.0.RFDEUXM_4c2cbbe0bf_11.0.zip', firmware: 'V13.0.2.0.RFDEUXM'}
   - {device: 'Mi Note 10 Pro (Russia)', download_link: 'https://bn.d.miui.com/V13.0.3.0.RFDRUXM/miui_TUCANARUGlobal_V13.0.3.0.RFDRUXM_9813613bb0_11.0.zip', firmware: 'V13.0.3.0.RFDRUXM'}
   - {device: 'Mi Note 10 Pro (Indonesia)', download_link: 'https://bn.d.miui.com/V13.0.3.0.RFDIDXM/miui_TUCANAIDGlobal_V13.0.3.0.RFDIDXM_66641e2af4_11.0.zip', firmware: 'V13.0.3.0.RFDIDXM'}
-bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: 5.0}
 cameras:
   - {flash: 'Dual LED', info: '108 MP (8P lens)'}
   - {flash: 'Dual LED', info: '12 MP (tele 2x)'}

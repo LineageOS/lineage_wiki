@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {capacity: 3050, removable: false, tech: 'Li-Po'}
 before_lineage_install: ab_copy_partitions
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: 5.0}
 cameras:
   - {flash: 'Dual LED', info: '16 MP'}
   - {flash: 'Dual LED', info: '5 MP'}

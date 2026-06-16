@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 3000, removable: true, tech: 'Li-Ion'}
-bluetooth: {spec: '5'}
+bluetooth: {spec: 5.0}
 cameras:
   - {flash: 'LED', info: '12 MP'}
   - {flash: None, info: '8 MP'}

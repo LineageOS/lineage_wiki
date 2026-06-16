@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {capacity: 4000, removable: false, tech: 'Li-Po'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
-bluetooth: {profiles: [A2DP + aptX HD], spec: '5'}
+bluetooth: {profiles: [A2DP + aptX HD], spec: 5.0}
 cameras:
   - {flash: 'LED', info: '12 MP (wide)'}
   - {flash: 'LED', info: '20 MP (ultrawide)'}
