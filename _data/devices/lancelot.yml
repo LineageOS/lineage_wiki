@@ -1,7 +1,7 @@
 architecture: arm64
 battery: {capacity: 5020, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 20, version: '11'}
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '13 MP (wide)'}
   - {flash: None, info: '8 MP (ultrawide)'}

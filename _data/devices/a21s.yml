@@ -2,7 +2,7 @@ architecture: arm64
 battery: {capacity: 5000, removable: false, tech: 'Li-Ion'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 22.1, version: '12'}
 before_recovery_install: samsung_a21s
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '48 MP'}
   - {flash: 'LED', info: '8 MP (ultrawide)'}

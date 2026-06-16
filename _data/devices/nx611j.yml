@@ -1,6 +1,6 @@
 architecture: arm64
 battery: {capacity: 3450, removable: false, tech: 'Li-Po'}
-bluetooth: {profiles: [A2DP], spec: '5'}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
 cameras:
   - {flash: 'LED', info: '24 MP'}
   - {flash: 'LED', info: '5 MP'}
