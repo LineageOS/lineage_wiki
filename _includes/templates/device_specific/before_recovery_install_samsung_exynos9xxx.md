@@ -10,5 +10,6 @@
     * Now, click the button that the onscreen instructions correlate to "Device unlock mode" and/or "Unlock Bootloader".
 4. Your device will reboot, you may now unplug the USB cable from your device.
 5. The device will demand you factory reset, please follow the onscreen instructions to do so.
+    * the reset may take several minutes, during which it will show a black SAMSUNG screen without a progress bar
 6. Run through Android Setup skipping everything you can, then connect the device to a Wi-Fi network.
 7. Re-enable Development settings by clicking the "Build Number" option 10 times, in the "Settings" app within the "About" menu, and verify that "OEM Unlock" is still enabled in the "Developer options" menu.
