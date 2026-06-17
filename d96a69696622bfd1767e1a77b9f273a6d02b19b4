@@ -70,6 +70,24 @@
       "parentUuid": "86b4315e_e3a47770",
       "revId": "d96a69696622bfd1767e1a77b9f273a6d02b19b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9618ed11_4bd1da93",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-06-17T17:43:12Z",
+      "side": 1,
+      "message": "something like that but pls reword to match surrounding language.",
+      "parentUuid": "96a83d50_b0f98652",
+      "revId": "d96a69696622bfd1767e1a77b9f273a6d02b19b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
