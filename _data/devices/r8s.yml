@@ -14,7 +14,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.73 GHz + 2x 2.50 + 4 x 2.00 GHz
 current_branch: 23.2
 dimensions: {depth: 8.4, height: 159.8 , width: 74.5}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> and connect USB cable to PC.
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
 gpu: ARM Mali-G77 MP11
 image: r8s.png
 install_method: heimdall
