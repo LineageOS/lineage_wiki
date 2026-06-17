@@ -52,6 +52,24 @@
       "parentUuid": "ac070e39_90004bba",
       "revId": "d96a69696622bfd1767e1a77b9f273a6d02b19b4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "96a83d50_b0f98652",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37336
+      },
+      "writtenOn": "2026-06-17T16:34:46Z",
+      "side": 1,
+      "message": "Hmm, ok.  How about we drop this patch, and if it happens again next time, I\u0027ll come back with a new patch saying something like:\n\n\"It should pause during recovery, but has occasionally been observed to pause at the Samsung screen instead.  Either way, you should be able to continue after a few minutes.\"",
+      "parentUuid": "86b4315e_e3a47770",
+      "revId": "d96a69696622bfd1767e1a77b9f273a6d02b19b4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
