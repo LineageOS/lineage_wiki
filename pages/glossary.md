@@ -84,7 +84,7 @@ toc: false
 
 #### GApps
 
-- Google Apps, usually consisting of GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messenger, Calendar, etc.)
+- Google Apps, usually consisting of GMS (Google Mobile Services), the Play Store, and a varying amount of the native Apps made by Google (Dialer, Messages, Calendar, etc.)
 - Google Apps are not preinstalled on LineageOS but can be installed **during** installation of LineageOS, please see your device's Install guide for more information
 
 #### OEM
