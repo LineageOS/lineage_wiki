@@ -22,6 +22,30 @@
       },
       "revId": "58e47c8b5b8b9ce27d1d767170a6e62ed3baf66e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01e2d7ec_d1511966",
+        "filename": "_data/devices/bronco.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-06-22T16:59:16Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/lineage_wiki/+/491755",
+      "parentUuid": "fbd3e95d_bd76f46c",
+      "range": {
+        "startLine": 3,
+        "startChar": 109,
+        "endLine": 3,
+        "endChar": 111
+      },
+      "revId": "58e47c8b5b8b9ce27d1d767170a6e62ed3baf66e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
