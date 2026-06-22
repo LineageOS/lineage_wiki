@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fbd3e95d_bd76f46c",
+        "filename": "_data/devices/bronco.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-06-22T16:18:21Z",
+      "side": 1,
+      "message": "doesn\u0027t this need a bump to 15 or 14/15 ?",
+      "range": {
+        "startLine": 3,
+        "startChar": 109,
+        "endLine": 3,
+        "endChar": 111
+      },
+      "revId": "58e47c8b5b8b9ce27d1d767170a6e62ed3baf66e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
