@@ -20,7 +20,7 @@ image: bronco.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm8475, version: '5.10'}
-maintainers: [demon000]
+maintainers: [demon000, elginsk8r]
 models: [XT2309-2, XT2309-3]
 name: ThinkPhone by motorola
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
