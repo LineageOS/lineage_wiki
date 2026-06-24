@@ -1,5 +1,6 @@
 architecture: arm64
 battery: {capacity: 3300, removable: false, tech: 'Li-Ion'}
+before_install: {instructions: 'h870', version: '8.0'}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '4.2'}
 cameras:
   - {flash: 'LED', info: '13 MP'}
@@ -16,8 +17,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
 image: g6.png
-install_method: fastboot_lg
-is_unlockable: false
+install_method: fastboot_custom
 kernel: {repo: android_kernel_lge_msm8996, version: '4.4'}
 maintainers: [npjohnson, Simex, basamaryan, Androbots, AShiningRay, ROMSG, Geel]
 name: G6 (EU Unlocked - ENG BL)
@@ -34,6 +34,7 @@ soc: Qualcomm MSM8996 Pro Snapdragon 821
 storage: 32 GB
 tree: android_device_lge_h870d
 type: phone
+unlock_bootloader_guide: https://xdaforums.com/t/guide-lg-g6-bootloader-unlock-2025.4772845/
 vendor: LG
 vendor_short: lge
 versions: [14.1, 19.1, 20, 21, 22.2]

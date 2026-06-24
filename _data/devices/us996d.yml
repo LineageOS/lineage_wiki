@@ -17,8 +17,7 @@ download_boot: With the device powered off, hold <kbd>Volume Down</kbd>, then in
 format_on_upgrade: fde
 gpu: Qualcomm Adreno 530
 image: v20.png
-install_method: fastboot_lg
-is_unlockable: false
+install_method: fastboot_custom
 kernel: {repo: android_kernel_lge_msm8996, version: '4.4'}
 maintainers: [npjohnson, Simex, basamaryan, Androbots, AShiningRay, ROMSG, Geel]
 name: V20 (GSM Unlocked - DirtySanta)
@@ -35,6 +34,7 @@ soc: Qualcomm MSM8996 Snapdragon 820
 storage: 64 GB
 tree: android_device_lge_us996d
 type: phone
+unlock_bootloader_guide: https://xdaforums.com/t/guide-tutorial-root-twrp-lg-v20-using-dirtysanta-most-variants-noobfriendly.3722278/
 vendor: LG
 vendor_short: lge
 versions: [14.1, 17.1, 18.1, 19.1, 20, 21, 22.2]
