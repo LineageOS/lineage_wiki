@@ -20,7 +20,7 @@ image: dm1q.png
 install_method: odin
 is_unlockable: false
 kernel: {repo: android_kernel_samsung_sm8550, version: '5.15'}
-maintainers: [DaemonMCR, josip-k]
+maintainers: [DaemonMCR, josip-k, krazey]
 models: [SM-S911B, SM-S911B/DS]
 name: Galaxy S23
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
