@@ -12,7 +12,8 @@ search: exclude
 {%- if page.url contains "/devices" %}
 {%- assign device = site.data.devices[page.device] %}
 {%- if device.codename %}
-{%- capture title %}{{ device.codename | escape }} - {{ device.vendor | escape }} {{ device.name }}{%- endcapture %}
+{%- include snippets/get_displayname.md device=device -%}
+{%- capture title %}{{ device.codename | escape }} - {{ display_name | escape }}{%- endcapture %}
 {%- else -%}
 {%- assign title = page.title | escape %}
 {%- endif %}
