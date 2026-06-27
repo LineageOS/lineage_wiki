@@ -16,6 +16,24 @@
       "message": "do other samsungs with odin have it phrased it like this, I seem to remember I copied the bulk of the method from an alternative samsung a while back?",
       "revId": "a54bf9d6876a819385562cb1749a1bc43fbf89a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b757b0d5_aaf23cbe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36705
+      },
+      "writtenOn": "2026-06-27T22:54:30Z",
+      "side": 1,
+      "message": "From what I see on a53x and m52xq, they also use \"Device unlock mode\".",
+      "parentUuid": "85aac26a_4a47dc61",
+      "revId": "a54bf9d6876a819385562cb1749a1bc43fbf89a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
