@@ -598,6 +598,10 @@ a {
     margin-right: 0.2rem;
     position: relative;
   }
+
+  .form-check .form-check-input:checked + .form-check-sign .check::before {
+    color: var(--theme-bg);
+  }
 }
 
 .popup-close-action {

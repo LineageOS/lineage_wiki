@@ -204,6 +204,10 @@ hr {
 .form-check .form-check-sign .check {
   background-color: var(--theme-bg);
   border-color: var(--theme-form-check-border);
+
+  &::before {
+    color: var(--theme-bg);
+  }
 }
 
 .dropdown-item:hover,
