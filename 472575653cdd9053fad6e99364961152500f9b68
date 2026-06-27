@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7ee7a74_b05bf7ec",
+        "filename": "_includes/templates/device_specific/before_recovery_install_samsung_qcom.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-06-27T05:36:56Z",
+      "side": 1,
+      "message": "Needs fix since step numbers changed. Probably just remove \"and continue to step 6\".",
+      "range": {
+        "startLine": 15,
+        "startChar": 64,
+        "endLine": 15,
+        "endChar": 70
+      },
+      "revId": "472575653cdd9053fad6e99364961152500f9b68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ee98a4cf_078df686",
+        "filename": "_includes/templates/device_specific/before_recovery_install_samsung_qcom.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-06-27T05:36:56Z",
+      "side": 1,
+      "message": "Since samloader download is an archive, maybe should say \"download and extract\"?\nEspecially since windows 10 gui doesn\u0027t even recognize tar.gz, so i can see some users struggling there, sadly.",
+      "range": {
+        "startLine": 18,
+        "startChar": 3,
+        "endLine": 18,
+        "endChar": 11
+      },
+      "revId": "472575653cdd9053fad6e99364961152500f9b68",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
