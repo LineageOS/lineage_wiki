@@ -518,31 +518,6 @@ a {
   display: none;
 }
 
-.page-overlay {
-  visibility: hidden;
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  width: 100%;
-  height: 100%;
-  background: var(--theme-overlay);
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  overflow: auto;
-
-  &.active {
-    visibility: visible;
-    z-index: 1050;
-    animation: fadein 0.4s;
-  }
-  &.closed {
-    animation: fadeout 0.2s forwards;
-  }
-}
-
 @keyframes fadein {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -557,13 +532,11 @@ a {
 }
 
 .popup-overlay {
-  position: relative;
   background: var(--theme-bg);
   border-radius: 1.5rem;
+  border-width: 0px;
   max-width: 560px;
-  display: flex;
   z-index: 1100;
-  margin: auto;
 
   @include media-breakpoint-up(md) {
     min-width: 400px;
@@ -988,4 +961,29 @@ li.selected a {
 
 .highlight {
   transition: all var(--transition-speed);
+}
+
+html {
+  /* This keeps the page from twitching sideways when the scrollbar disappears */
+  scrollbar-gutter: stable;
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+
+  &:not([open]) {
+    display: none !important;
+  }
+
+  &::backdrop {
+    background-color: var(--theme-overlay);
+  }
 }
