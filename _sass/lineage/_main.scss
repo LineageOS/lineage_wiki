@@ -593,6 +593,11 @@ a {
     top: -1.5px;
     left: 1px !important;
   }
+
+  .form-check-input[type=checkbox] {
+    margin-right: 0.2rem;
+    position: relative;
+  }
 }
 
 .popup-close-action {
@@ -772,6 +777,10 @@ div[data-filter] {
       height: 1.5rem;
       border-radius: 0.5rem;
     }
+  }
+
+  input + label {
+    margin-left: 0.5rem;
   }
 
   label {
