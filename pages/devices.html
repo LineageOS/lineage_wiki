@@ -152,12 +152,12 @@ function applyFilters() {
 }
 
 function closeFilters() {
-  $("#popup-filters").trigger("close");
+  document.getElementById("popup-filters").close();
   applyFilters();
 }
 
 function showFilters() {
-  $("#popup-filters").trigger("open");
+  document.getElementById("popup-filters").showModal();
 }
 </script>
 
@@ -276,238 +276,229 @@ function showFilters() {
 {%- assign definitions = site.data.schema.definitions %}
 {%- assign properties = site.data.schema.properties %}
 
-<div class="page-overlay" id="popup-filters">
-  <div class="popup-overlay">
-    <div class="popup-content">
-      <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
-      <div class="popup-header" style="height: auto">
-        <span class="popup-title">Device filters</span><br/>
+<dialog class="popup-overlay" id="popup-filters">
+  <div class="popup-content">
+    <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
+    <div class="popup-header" style="height: auto">
+      <span class="popup-title">Device filters</span><br/>
+    </div>
+    <div class="popup-body" style="max-height: 500px; overscroll-behavior: contain; overflow-y: auto">
+      <p class="device-filters-header">Global:</p>
+      <div class="form-check" data-filter="maintainers">
+        <label class="form-check-label">
+          <input class="form-check-input no-ripple" type="checkbox" checked>
+          Hide discontinued devices
+          <span class="form-check-sign no-ripple">
+              <span class="check" />
+          </span>
+        </label>
       </div>
-      <div class="popup-body" style="max-height: 500px; overscroll-behavior: contain; overflow-y: auto">
-        <p class="device-filters-header">Global:</p>
-        <div class="form-check" data-filter="maintainers">
-          <label class="form-check-label">
-            <input class="form-check-input no-ripple" type="checkbox" checked>
-            Hide discontinued devices
+      <div class="form-check" data-filter="is_unlockable">
+        <label class="form-check-label">
+          <input class="form-check-input no-ripple" type="checkbox">
+          Hide devices without official BL unlock method
+          <span class="form-check-sign no-ripple">
+              <span class="check" />
+          </span>
+        </label>
+      </div>
+
+      <p class="device-filters-header">Architecture:</p>
+      {% for value in definitions.valid_architectures.enum %}
+      <div class="form-check" data-filter="architectures">
+        <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
             <span class="form-check-sign no-ripple">
                 <span class="check" />
             </span>
           </label>
         </div>
-        <div class="form-check" data-filter="is_unlockable">
-          <label class="form-check-label">
-            <input class="form-check-input no-ripple" type="checkbox">
-            Hide devices without official BL unlock method
+      {% endfor %}
+
+      <p class="device-filters-header">SoC vendor:</p>
+      {% for value in site.data.device_filters.soc_vendors %}
+      <div class="form-check" data-filter="soc_vendors">
+        <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
             <span class="form-check-sign no-ripple">
                 <span class="check" />
             </span>
           </label>
         </div>
+      {% endfor %}
 
-        <p class="device-filters-header">Architecture:</p>
-        {% for value in definitions.valid_architectures.enum %}
-        <div class="form-check" data-filter="architectures">
-          <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">SoC vendor:</p>
-        {% for value in site.data.device_filters.soc_vendors %}
-        <div class="form-check" data-filter="soc_vendors">
-          <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">Device type:</p>
-        {% for value in properties.type.enum %}
-        <div class="form-check" data-filter="types">
-          <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value | capitalize }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">Networks:</p>
-        {% for value in definitions.valid_networks.items.enum %}
-          <div class="form-check" data-filter="networks">
-            <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">Wi-Fi:</p>
-        {% assign wifi_values = properties.wifi.enum | shift %}
-        {% for value in wifi_values %}
-          <div class="form-check" data-filter="wifi">
-            <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">Peripherals:</p>
-        {% for value in definitions.valid_peripherals.items.enum %}
-          <div class="form-check" data-filter="peripherals">
-            <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">SD card slot:</p>
-        <div class="form-check" data-filter="sdcard">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="device-filter-sdcard" value="0" checked />
-            No
-            <span class="circle no-ripple">
-              <span class="check" />
+      <p class="device-filters-header">Device type:</p>
+      {% for value in properties.type.enum %}
+      <div class="form-check" data-filter="types">
+        <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value | capitalize }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
             </span>
           </label>
         </div>
-        <div class="form-check" data-filter="sdcard">
+      {% endfor %}
+
+      <p class="device-filters-header">Networks:</p>
+      {% for value in definitions.valid_networks.items.enum %}
+        <div class="form-check" data-filter="networks">
           <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="device-filter-sdcard" value="1" />
-            Yes
-            <span class="circle no-ripple">
-              <span class="check" />
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
             </span>
           </label>
         </div>
+      {% endfor %}
 
-        <p class="device-filters-header">Min screen size in inches:</p>
-        <div data-filter="screen-size-min">
-          <input type="range" min="0" max="13" step="0.1" value="0" />
-          <label />
+      <p class="device-filters-header">Wi-Fi:</p>
+      {% assign wifi_values = properties.wifi.enum | shift %}
+      {% for value in wifi_values %}
+        <div class="form-check" data-filter="wifi">
+          <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
+            </span>
+          </label>
         </div>
+      {% endfor %}
 
-        <p class="device-filters-header">Max screen size in inches:</p>
-        <div data-filter="screen-size-max">
-          <input type="range" min="0" max="13" step="0.1" value="0" />
-          <label />
+      <p class="device-filters-header">Peripherals:</p>
+      {% for value in definitions.valid_peripherals.items.enum %}
+        <div class="form-check" data-filter="peripherals">
+          <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
+            </span>
+          </label>
         </div>
+      {% endfor %}
 
-        <p class="device-filters-header">Min release year:</p>
-        <div data-filter="release">
-          <input type="range" min="2010" value="2010" />
-          <label />
-        </div>
-
-        <p class="device-filters-header">LineageOS versions:</p>
-        {% for value in definitions.valid_branches.enum %}
-          <div class="form-check" data-filter="versions">
-            <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
-
-        <p class="device-filters-header">Kernel versions:</p>
-        {% for value in definitions.valid_kernel_versions.enum %}
-          <div class="form-check" data-filter="kernel_versions">
-            <label class="form-check-label">
-              <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
-              {{ value }}
-              <span class="form-check-sign no-ripple">
-                  <span class="check" />
-              </span>
-            </label>
-          </div>
-        {% endfor %}
+      <p class="device-filters-header">SD card slot:</p>
+      <div class="form-check" data-filter="sdcard">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="device-filter-sdcard" value="0" checked />
+          No
+          <span class="circle no-ripple">
+            <span class="check" />
+          </span>
+        </label>
       </div>
-      <button onclick="closeFilters()" class="btn btn-primary">Apply</button>
+      <div class="form-check" data-filter="sdcard">
+        <label class="form-check-label">
+          <input class="form-check-input" type="radio" name="device-filter-sdcard" value="1" />
+          Yes
+          <span class="circle no-ripple">
+            <span class="check" />
+          </span>
+        </label>
+      </div>
+
+      <p class="device-filters-header">Min screen size in inches:</p>
+      <div data-filter="screen-size-min">
+        <input type="range" min="0" max="13" step="0.1" value="0" />
+        <label />
+      </div>
+
+      <p class="device-filters-header">Max screen size in inches:</p>
+      <div data-filter="screen-size-max">
+        <input type="range" min="0" max="13" step="0.1" value="0" />
+        <label />
+      </div>
+
+      <p class="device-filters-header">Min release year:</p>
+      <div data-filter="release">
+        <input type="range" min="2010" value="2010" />
+        <label />
+      </div>
+
+      <p class="device-filters-header">LineageOS versions:</p>
+      {% for value in definitions.valid_branches.enum %}
+        <div class="form-check" data-filter="versions">
+          <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
+            </span>
+          </label>
+        </div>
+      {% endfor %}
+
+      <p class="device-filters-header">Kernel versions:</p>
+      {% for value in definitions.valid_kernel_versions.enum %}
+        <div class="form-check" data-filter="kernel_versions">
+          <label class="form-check-label">
+            <input class="form-check-input no-ripple" type="checkbox" data-value="{{ value }}">
+            {{ value }}
+            <span class="form-check-sign no-ripple">
+                <span class="check" />
+            </span>
+          </label>
+        </div>
+      {% endfor %}
+    </div>
+    <button onclick="closeFilters()" class="btn btn-primary">Apply</button>
+  </div>
+</dialog>
+
+<dialog class="popup-overlay" id="popup-variants">
+  <div class="popup-content">
+    <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
+    <div class="popup-header">
+      <span class="popup-title">Select your variant</span><br/>
+      <span class="popup-subtitle">codename</span>
+    </div>
+    <div class="popup-body">
+      <p>
+        These devices all use the same LineageOS build.
+        The vendor may have released the same device under multiple names, or the maintainer may support multiple devices using the same code.
+      </p>
+      <p style="margin-bottom: 0px;">
+        Select your variant to make sure your guides are correct. Not sure which?<br/>
+        <a href="" id="compare-link">Compare their differences.</a>
+      </p>
+      <div class="popup-variants-list"></div>
     </div>
   </div>
-</div>
-
-<div class="page-overlay" id="popup-variants">
-  <div class="popup-overlay">
-    <div class="popup-content">
-      <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
-      <div class="popup-header">
-        <span class="popup-title">Select your variant</span><br/>
-        <span class="popup-subtitle">codename</span>
-      </div>
-      <div class="popup-body">
-        <p>
-          These devices all use the same LineageOS build.
-          The vendor may have released the same device under multiple names, or the maintainer may support multiple devices using the same code.
-        </p>
-        <p style="margin-bottom: 0px;">
-          Select your variant to make sure your guides are correct. Not sure which?<br/>
-          <a href="" id="compare-link">Compare their differences.</a>
-        </p>
-        <div class="popup-variants-list"></div>
-      </div>
-    </div>
-  </div>
-</div>
+</dialog>
 
 <script>
-// Handle page overlay click and close events
-$('.page-overlay').on('click close', function() {
-  $(this).addClass('closed');
-  $('html, body').css({
-    overflow: 'auto',
-    height: 'auto'
-  });
-});
-// Handle page overlay open event
-$('.page-overlay').on('open', function() {
-  $(this).addClass('active').removeClass('closed');
-  $('html, body').css({
-    overflow: 'hidden',
-  });
-});
-
 // Close the popup
 $('.popup-close-action').on('click', function() {
-  $(this).parents('.page-overlay').trigger('close');
+  $(this).parents('.popup-overlay').trigger('close');
 });
-// Prevent popup close when clicking on the popup itself
-$('.popup-overlay').on('click', function(e) {
-  e.stopPropagation();
-});
+// Close it on outside click
+$('dialog').on('click', function(event) {
+  // 'this' refers to the native DOM dialog element
+  const rect = this.getBoundingClientRect();
 
+  // Check if the click coordinates are outside the dialog box
+  const isClickOutside =
+    event.clientX < rect.left ||
+    event.clientX > rect.right ||
+    event.clientY < rect.top ||
+    event.clientY > rect.bottom;
+
+  if (isClickOutside) {
+    this.close();
+  }
+});
 // Select all items where variant is set
 $('*[data-variant=1]').each(function () {
   // remove current onClick target, we do something better
   $(this).attr('onclick', '').unbind('click');
   $(this).on('click', function() {
     codename = $(this).attr('data-codename');
-    $('#popup-variants').trigger('open');
+    document.getElementById('popup-variants').showModal();
     // Replace relevant parts of dialog content
     $('#popup-variants .popup-variants-list').html($(this).find('.variants-list').html());
     $('#popup-variants .popup-subtitle').text(codename);
