@@ -54,7 +54,7 @@ fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition
     {% include snippets/fastboot_path.md %}
 14. Now reboot into recovery to verify the installation.
     {%- if device.recovery_reboot %}
-    * {% include snippets/recovery_reboot.md %}
+    {%- include snippets/recovery_reboot.md %}
     {%- else %}
     * {{ device.recovery_boot }}
     {%- endif %}
