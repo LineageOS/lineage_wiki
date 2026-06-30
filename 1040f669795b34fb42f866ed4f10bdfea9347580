@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "06eb6742_69813eaa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-06-30T05:02:06Z",
+      "side": 1,
+      "message": "example of bullet that doesn\u0027t belong: https://wiki.lineageos.org/devices/davinci/install/variant1/#installing-lineage-recovery-using-fastboot",
+      "revId": "1040f669795b34fb42f866ed4f10bdfea9347580",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
