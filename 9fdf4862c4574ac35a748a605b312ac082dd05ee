@@ -16,6 +16,23 @@
       "message": "Awaiting one change to qcs8550-modules. After which, we ship.",
       "revId": "9fdf4862c4574ac35a748a605b312ac082dd05ee",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4366da89_17fa3111",
+        "filename": "_data/devices/RP6.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-07-01T09:48:18Z",
+      "side": 1,
+      "message": "shouldn\u0027t this be just 6?",
+      "revId": "9fdf4862c4574ac35a748a605b312ac082dd05ee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
