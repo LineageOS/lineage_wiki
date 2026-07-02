@@ -33,6 +33,24 @@
       "message": "think I\u0027m going to do this for now - but potentially the whole list needs flipping\n\nrn it\u0027s $manufacturer $codename $brandname\n\nit should be $manufacturer $brandname $codename really.",
       "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9d2bcd1e_1c50eaa0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-07-02T10:44:24Z",
+      "side": 1,
+      "message": "As per official qcs8550 page, the way it\u0027s currently is correct.",
+      "parentUuid": "fb497aa7_c37554f0",
+      "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
