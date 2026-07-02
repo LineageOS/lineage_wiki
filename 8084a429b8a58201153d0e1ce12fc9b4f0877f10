@@ -73,6 +73,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "709269f2_a9fb95cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-07-02T15:01:06Z",
+      "side": 1,
+      "message": "If we were to follow the current LineageOS format, this should be:\n\n`Qualcomm QCS8550 Dragonwing QCS8550`\n\nClearly doesn\u0027t work when the model name matches the platform name, we might want to do something like:\n\n`Qualcomm Dragonwing QCS8550 (QCS8550)`\n\nAnd, e.g.:\n\n`Qualcomm Snapdragon 660 (SDM660)`\n\nAny non-power user may want to search the SoC based on commercial name, not platform name",
+      "parentUuid": "9d2bcd1e_1c50eaa0",
+      "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "556a7925_cc53003a",
         "filename": "test/schema-06.yml",
         "patchSetId": 1
