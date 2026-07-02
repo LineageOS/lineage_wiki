@@ -125,6 +125,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "f71434cb_02842c98",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-02T16:37:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb4ac297_1179086b",
+      "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "556a7925_cc53003a",
@@ -138,6 +156,30 @@
       "writtenOn": "2026-07-02T11:25:24Z",
       "side": 1,
       "message": "This one is also Qualcomm Dragonwing™, so maybe have them together.",
+      "range": {
+        "startLine": 355,
+        "startChar": 8,
+        "endLine": 355,
+        "endChar": 24
+      },
+      "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27a85027_ba08759a",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-02T16:37:46Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "556a7925_cc53003a",
       "range": {
         "startLine": 355,
         "startChar": 8,
