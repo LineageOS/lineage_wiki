@@ -26,7 +26,7 @@ recovery_partition_name: recovery
 release: 2026-01
 screen: {refresh_rate: 120, resolution: '1920x1080', size: 5.5, technology: 'AMOLED'}
 sdcard: {size_max: '2 TB'}
-soc: Qualcomm Dragonwing QCS8550
+soc: Qualcomm QCS8550 Dragonwing
 storage: 128 GB UFS3.1
 tree: android_device_retroidpocket_RP6
 type: Handheld game console
