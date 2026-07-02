@@ -31,7 +31,7 @@ recovery_reboot: fastboot_menu
 release: 2026-01
 screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
 sdcard: {size_max: '2 TB'}
-soc: Qualcomm QCM6490
+soc: Qualcomm Dragonwing™ QCM6490 (QCM6490)
 storage: 512 GB UFS 3.1
 tree: android_device_shift_otter
 type: phone

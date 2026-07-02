@@ -315,7 +315,8 @@ definitions:
       - Qualcomm APQ8064T Snapdragon 600
       - Qualcomm APQ8076 Snapdragon 652
       - Qualcomm APQ8084 Snapdragon 805
-      - Qualcomm Dragonwing QCS8550
+      - Qualcomm Dragonwing™ QCM6490 (QCM6490)
+      - Qualcomm Dragonwing™ QCS8550 (QCS8550)
       - Qualcomm MSM8210 Snapdragon 200
       - Qualcomm MSM8212 Snapdragon 200
       - Qualcomm MSM8226 Snapdragon 400
@@ -352,7 +353,6 @@ definitions:
       - Qualcomm MSM8996 Pro Snapdragon 821
       - Qualcomm MSM8996 Snapdragon 820
       - Qualcomm MSM8998 Snapdragon 835
-      - Qualcomm QCM6490
       - Qualcomm SDM429 Snapdragon 429
       - Qualcomm SDM439 Snapdragon 439
       - Qualcomm SDM450 Snapdragon 450
