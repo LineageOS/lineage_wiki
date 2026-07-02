@@ -51,6 +51,24 @@
       "parentUuid": "48ba778c_5c617a6d",
       "revId": "88fc2eef212f6219fe0f9856df79fa3a7116e2dd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a524e0c1_00bf5644",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25732
+      },
+      "writtenOn": "2026-07-02T16:51:51Z",
+      "side": 1,
+      "message": "I meant the `$manufacturer $brand $model ($platform)` scheme, but yes, also that",
+      "parentUuid": "2325e1bc_0d2806af",
+      "revId": "88fc2eef212f6219fe0f9856df79fa3a7116e2dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
