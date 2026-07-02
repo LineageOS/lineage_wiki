@@ -69,6 +69,29 @@
       "parentUuid": "d5c3419f_0e8803e9",
       "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "556a7925_cc53003a",
+        "filename": "test/schema-06.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 355,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-07-02T11:25:24Z",
+      "side": 1,
+      "message": "This one is also Qualcomm Dragonwing™, so maybe have them together.",
+      "range": {
+        "startLine": 355,
+        "startChar": 8,
+        "endLine": 355,
+        "endChar": 24
+      },
+      "revId": "8084a429b8a58201153d0e1ce12fc9b4f0877f10",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
