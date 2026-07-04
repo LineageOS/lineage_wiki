@@ -231,16 +231,16 @@ A keyboard is always needed. Ensure there is a keyboard included in the virtual 
 2. On `Video` tab, select `Virtio` on the `Model` menu, then click `Apply`.
 3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle `3D acceleration`, and then click `Apply`.
 4. (Optional) To specify custom display resolution, switch to the `XML` tab, insert `<resolution x="<Width>" y="<Height>"/>`, like this:
-    ```
-    <video>
-    <model type="virtio" heads="1" primary="yes">
-        <acceleration accel3d="yes"/>
-        <resolution x="1920" y="900"/>
-    </model>
-    <alias name="video0"/>
-    <address type="pci" domain="0x0000" bus="0x00" slot="0x01" function="0x0"/>
-    </video>
-    ```
+   ```
+   <video>
+   <model type="virtio" heads="1" primary="yes">
+       <acceleration accel3d="yes"/>
+       <resolution x="1920" y="900"/>
+   </model>
+   <alias name="video0"/>
+   <address type="pci" domain="0x0000" bus="0x00" slot="0x01" function="0x0"/>
+   </video>
+   ```
 
 {% include alerts/warning.html content="Some rare host video cards may not display 3D accelerated graphics properly. If that happens, please untoggle 3D acceleration." %}
 
@@ -312,15 +312,15 @@ Here we will utilize GSIs from the Android Open Source Project website as an exa
 3. Boot the virtual machine into recovery mode, and perform a factory reset.
 4. Enter fastbootd mode by selecting `Advanced` > `Enter fastboot`.
 5. Delete unneeded logical partitions, and flash the GSI image, using `fastboot`:
-    ```
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product_a
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product_b
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext_a
-    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext_b
-    fastboot -s tcp:<IPv4 address that shown on menu header> flash system <path to GSI system.img>
-    ```
+   ```
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product_a
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product_b
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext_a
+   fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition system_ext_b
+   fastboot -s tcp:<IPv4 address that shown on menu header> flash system <path to GSI system.img>
+   ```
 6. Reboot to the boot menu, and proceed with the first option.
 
 ## Details for advanced users

@@ -12,11 +12,11 @@
 {%- endfor %}
 2. Place the files on the root of `/sdcard`:
    * Using adb:
-      ```
+     ```
 {%- for partition in device.before_recovery_install.partitions %}
-      adb -d push {{ partition }}.img /sdcard/{{ partition }}.img
+     adb -d push {{ partition }}.img /sdcard/{{ partition }}.img
 {%- endfor %}
-      ```
+     ```
    * You can use any method you are comfortable with. `adb` is universal across all devices, and works both in Android and recovery mode, providing USB debugging is enabled.
 3. Now, open an `adb -d shell` from a command prompt (on Windows) or terminal (on Linux or macOS) window. In that shell, type the following commands:
 {%- if device.is_ab_device %}

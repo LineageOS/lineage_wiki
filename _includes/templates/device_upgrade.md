@@ -83,9 +83,9 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- endif %}
 {%- if device.format_on_upgrade %}
 4. Reboot into recovery by running:
-    ```
-    adb -d reboot recovery
-    ```
+   ```
+   adb -d reboot recovery
+   ```
     or by performing the following:
     * {{ device.recovery_boot }}
 {{ wiping_instructions }}
@@ -97,15 +97,15 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 {%- endif %}
 {%- if device.is_ab_rdap and device.is_ab_device %}
 4. Run this command to reboot into bootloader mode:
-    ```
-    adb -d reboot bootloader
-    ```
+   ```
+   adb -d reboot bootloader
+   ```
     or by performing the following:
     * {{ device.download_boot }}
 5. Flash the super_empty partition to retrofit dynamic partitions to your device (inserting the path to your `super_empty.img` file):
-    ```
-    fastboot wipe-super --slot=all /path/to/super_empty.img
-    ```
+   ```
+   fastboot wipe-super --slot=all /path/to/super_empty.img
+   ```
     {% capture upgrade_note %}
     This process only needs to be performed if you are upgrading from LineageOS versions **older than {{ device.is_ab_rdap_version }}** that still utilize the legacy partition layout.
     {% endcapture %}
@@ -117,50 +117,50 @@ The updater app does not support upgrades from one version of LineageOS to anoth
 7. Update to the latest [Lineage Recovery](https://download.lineageos.org/devices/{{ device.codename }}) image. Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
 Follow your [device's installation guide]({{ device | device_link: "/install" | relative_url }}) to upgrade your recovery image.
 8. While you are in bootloader mode, run this command to enter recovery mode:
-    ```
-    fastboot reboot recovery
-    ```
+   ```
+   fastboot reboot recovery
+   ```
     Or by performing the following:
     * {{ device.recovery_boot }}
 9. Once you are in LineageOS recovery, select “Apply update”, then “Apply from ADB” to put the device into sideload mode.
 {%- else %}
 4. Run:
-    ```
-    adb -d reboot sideload
-    ```
+   ```
+   adb -d reboot sideload
+   ```
     {% include alerts/important.html content="The device may reboot to a blank black screen, fear not, this is a known bug on some recoveries, proceed with the instructions." %}
 {%- endif %}
 5. Run (inserting the path to your LineageOS package):
-    ```
-    adb -d sideload /path/to/zip
-    ```
+   ```
+   adb -d sideload /path/to/zip
+   ```
     {% include alerts/specific/tip_adb_flash_success.html %}
     {% include alerts/specific/verification_note.html %}
 {%- if device.is_ab_device and device.uses_twrp %}
 6. _(Optionally)_: If you want to install any add-ons, run:
-    ```
-    adb -d reboot sideload
-    ```
+   ```
+   adb -d reboot sideload
+   ```
     once more, then:
-    ```
-    adb -d sideload /path/to/zip
-    ```
+   ```
+   adb -d sideload /path/to/zip
+   ```
     those packages in sequence.
 {%- elsif device.is_ab_device %}
 6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
-    ```
-    adb -d sideload /path/to/zip
-    ```
+   ```
+   adb -d sideload /path/to/zip
+   ```
 {%- elsif device.uses_twrp %}
 6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then run for each of those packages in sequence:
-    ```
-    adb -d sideload /path/to/zip
-    ```
+   ```
+   adb -d sideload /path/to/zip
+   ```
 {%- else %}
 6. _(Optionally)_: If you want to install any add-ons, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
-    ```
-    adb -d sideload /path/to/zip
-    ```
+   ```
+   adb -d sideload /path/to/zip
+   ```
 {%- endif %}
     {% include alerts/note.html content="If you previously had any Google Apps add-on package installed on your device, you must install an updated package **before** the first boot of Android! If you did not have Google Apps installed, you must wipe the **Data** partition (or perform a factory reset) to install them." %}
 {% if device.is_ab_device or device.uses_twrp != true %}
@@ -169,9 +169,9 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
 
 {% if device.uses_twrp and device.is_ab_device != true %}
 7. Once you have installed everything successfully, run:
-    ```
-    adb -d reboot
-    ```
+   ```
+   adb -d reboot
+   ```
 {% else %}
 7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
 {% endif %}
