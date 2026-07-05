@@ -30,6 +30,9 @@ SafetyCenterResources
 ServiceConnectivityResources
 ServiceUwbResources
 ServiceWifiResources
+TelecomServiceResources
+TelecomUi
+WebAppService
 WifiDialog
 {% endcapture %}
 {% capture apexes %}
@@ -77,6 +80,7 @@ com.android.nearby.halfsheet
 com.android.networkstack.tethering
 com.android.neuralnetworks
 com.android.nfcservices
+com.android.npumanager
 com.android.ondevicepersonalization
 com.android.os.statsd
 com.android.permission
@@ -99,6 +103,7 @@ com.android.uwb.resources
 com.android.virt
 com.android.vndk.current
 com.android.vndk.current.on_vendor
+com.android.webapp
 com.android.wifi
 com.android.wifi.dialog
 com.android.wifi.resources
