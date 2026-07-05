@@ -47,7 +47,8 @@ fastboot devices
 ```
 fastboot oem unlock <your_unlock_code>
 ```
-10. Since the device resets completely, you will need to re-enable USB debugging to continue.
+10. If the device doesn't automatically reboot, reboot it. It should now be unlocked.
+11. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% include snippets/before_recovery_install.md %}
 
