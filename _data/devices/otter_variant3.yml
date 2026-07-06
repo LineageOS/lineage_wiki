@@ -21,7 +21,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_shift_qcm6490, version: '5.4'}
 maintainers: [amartinz, mikeioannina]
-name: 'SHIFTphone 8'
+name: 'SHIFTphone 8.1'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, RGB ambient light, USB OTG]
 ram: 12 GB LPDDR5
@@ -35,6 +35,7 @@ soc: Qualcomm Dragonwing™ QCM6490 (QCM6490)
 storage: 512 GB UFS 3.1
 tree: android_device_shift_otter
 type: phone
+variant: 3
 vendor: SHIFT
 vendor_short: shift
 versions: [23.2]
