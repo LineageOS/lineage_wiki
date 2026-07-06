@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 3820, removable: true, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.2'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (ultrawide)'}
+  - {flash: None, info: '32 MP (front)'}
+codename: otter
+cpu: Kryo 670
+cpu_cores: '8'
+cpu_freq: 1 x 2.7 GHz + 3 x 2.4 GHz + 4 x 1.9 GHz
+current_branch: 23.2
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 9.8, height: 164.2, width: 78.7}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 643L
+image: otter.png
+install_method: fastboot_nexus
+is_ab_device: true
+kernel: {repo: android_kernel_shift_qcm6490, version: '5.4'}
+maintainers: [amartinz, mikeioannina]
+name: 'SHIFTphone 8'
+network: [3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, RGB ambient light, USB OTG]
+ram: 12 GB LPDDR5
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2026-01
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.67, technology: 'AMOLED'}
+sdcard: {size_max: '2 TB'}
+soc: Qualcomm Dragonwing™ QCM6490 (QCM6490)
+storage: 512 GB UFS 3.1
+tree: android_device_shift_otter
+type: phone
+variant: 1
+vendor: SHIFT
+vendor_short: shift
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
