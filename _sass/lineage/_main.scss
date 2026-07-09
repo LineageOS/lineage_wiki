@@ -537,6 +537,7 @@ a {
   border-width: 0px;
   max-width: 560px;
   z-index: 1100;
+  width: min(100% - 2rem, 400px + 24px);
 
   @include media-breakpoint-up(md) {
     min-width: 400px;
@@ -545,7 +546,7 @@ a {
 
 .popup-content {
   width: 100%;
-  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  padding: 1rem .5rem .5rem .5rem;
   display: flex;
   flex-direction: column;
 
@@ -579,51 +580,53 @@ a {
 }
 
 .popup-close-action {
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  right: 0px;
-  top: 0px;
+  width: 24px;
+  height: 24px;
+  color: var(--theme-text-soft);
   cursor: pointer;
+  padding: 12px;
+  box-sizing: content-box;
+  border-radius: 50%;
 
-  &:hover span,
-  &:active span {
+  &:hover,
+  &:active {
     color: var(--theme-link-hover);
-  }
-
-  .close-action {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 12px;
-    top: 12px;
-    color: var(--theme-text-soft);
+    background-color: color-mix(in srgb, currentColor 5%, transparent);
   }
 }
 
 .popup-header {
-  height: 77px;
   position: relative;
   margin-bottom: 1.5rem;
-  flex: none;
+  display: flex;
+  align-items: center;
 }
 
 .popup-title {
   font-size: 2rem;
   line-height: 120%;
   color: var(--theme-text-soft);
+  flex: 1;
 }
 
 .popup-subtitle {
   font-weight: 400;
   color: var(--theme-text-soft);
-  position: absolute;
-  bottom: 0px;
+  display: block;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
 }
 
 .popup-body {
   display: flex;
   flex-direction: column;
+}
+
+.popup-actions {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 0.5rem;
+  gap: 8px;
 }
 
 .popup-variants-list {

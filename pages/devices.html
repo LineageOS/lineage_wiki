@@ -278,9 +278,9 @@ function showFilters() {
 
 <dialog class="popup-overlay" id="popup-filters">
   <div class="popup-content">
-    <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
-    <div class="popup-header" style="height: auto">
-      <span class="popup-title">Device filters</span><br/>
+    <div class="popup-header">
+      <span class="popup-title">Device filters</span>
+      <span class="material-icons popup-close-action">close</span>
     </div>
     <div class="popup-body" style="max-height: 500px; overscroll-behavior: contain; overflow-y: auto">
       <p class="device-filters-header">Global:</p>
@@ -446,17 +446,19 @@ function showFilters() {
         </div>
       {% endfor %}
     </div>
-    <button onclick="closeFilters()" class="btn btn-primary">Apply</button>
+    <div class="popup-actions">
+      <button onclick="closeFilters()" class="btn btn-primary">Apply</button>
+    </div>
   </div>
 </dialog>
 
 <dialog class="popup-overlay" id="popup-variants">
   <div class="popup-content">
-    <div class="popup-close-action"><span class="material-icons close-action">close</span></div>
     <div class="popup-header">
-      <span class="popup-title">Select your variant</span><br/>
-      <span class="popup-subtitle">codename</span>
+      <span class="popup-title">Select your variant</span>
+      <span class="material-icons popup-close-action">close</span>
     </div>
+    <span class="popup-subtitle">codename</span>
     <div class="popup-body">
       <p>
         These devices all use the same LineageOS build.
