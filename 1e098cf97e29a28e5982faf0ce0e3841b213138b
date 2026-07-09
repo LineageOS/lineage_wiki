@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "48b86368_293c2cae",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-07-09T10:13:35Z",
+      "side": 1,
+      "message": "Is it just me or is the X button a bit close to the corner. Can you increase the padding for it?",
+      "revId": "1e098cf97e29a28e5982faf0ce0e3841b213138b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
