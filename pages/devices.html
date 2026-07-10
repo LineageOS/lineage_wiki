@@ -8,6 +8,17 @@ search: exclude
 
 <script type="text/javascript">
 
+function animateClose(dialog) {
+  if (!dialog || !dialog.open || dialog.classList.contains('closing')) {
+    return;
+  }
+  dialog.classList.add('closing');
+  setTimeout(() => {
+    dialog.classList.remove('closing');
+    dialog.close();
+  }, 280);
+}
+
 const DEVICES = JSON.parse(
   decodeURIComponent('{{ site.data.devices | jsonify | url_encode }}'.replaceAll('+', ' '))
 );
@@ -152,8 +163,8 @@ function applyFilters() {
 }
 
 function closeFilters() {
-  document.getElementById("popup-filters").close();
-  applyFilters();
+  animateClose(document.getElementById("popup-filters"));
+  setTimeout(applyFilters, 300);
 }
 
 function showFilters() {
@@ -474,9 +485,15 @@ function showFilters() {
 </dialog>
 
 <script>
+
+$('dialog').on('cancel', function(event) {
+  event.preventDefault();
+  animateClose(this);
+});
+
 // Close the popup
 $('.popup-close-action').on('click', function() {
-  $(this).parents('.popup-overlay').trigger('close');
+  animateClose($(this).parents('.popup-overlay')[0]);
 });
 // Close it on outside click
 $('dialog').on('click', function(event) {
@@ -491,7 +508,7 @@ $('dialog').on('click', function(event) {
     event.clientY > rect.bottom;
 
   if (isClickOutside) {
-    this.close();
+    animateClose(this);
   }
 });
 // Select all items where variant is set
