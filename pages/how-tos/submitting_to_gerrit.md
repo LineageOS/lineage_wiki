@@ -240,7 +240,7 @@ To make sure they get informed:
 1) Add reviewers:
   - For device/kernel repos, add the [maintainer of your device]({{ "contributors.html#device-maintainers" | relative_url }})
   - For changes to various special projects (like this wiki), see the maintainers listed [here]({{ "contributors.html#other-projects" | relative_url }}). Note that the wiki editors can be added directly by typing "Wiki Editors" into the reviewer field
-  - For all other repos, add the [Trusted Reviewers]({{ "contributors.html#trusted-reviewers" | relative_url }}) or [Committers]({{ "contributors.html#committers" | relative_url }})
+  - For all other repos, add the [Reviewers]({{ "contributors.html#reviewers" | relative_url }}) or [Committers]({{ "contributors.html#committers" | relative_url }})
 
 2) Set the [proper labels]({{ "how-to/using-gerrit#reviewing-a-patch" | relative_url }}) to indicate your patch is ready
 
