@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "026a7825_6ac63f84",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-07-10T19:07:16Z",
+      "side": 1,
+      "message": "I don\u0027t really like this one. Doesn\u0027t look good + I made the dialog change to reduce complexity, not add even more",
+      "revId": "c6b2ccd07008086800fbd0f9c367363961fba9e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
