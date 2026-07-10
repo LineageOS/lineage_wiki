@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9e14002_25873fbe",
+        "filename": "_sass/lineage/_main.scss",
+        "patchSetId": 4
+      },
+      "lineNbr": 655,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-07-10T08:19:32Z",
+      "side": 1,
+      "message": "Marked as done, still an issue...",
+      "revId": "c002a1a6fb301e998799345d9d86647eb7c79f66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1fe275df_4e444726",
+        "filename": "_sass/lineage/_main.scss",
+        "patchSetId": 4
+      },
+      "lineNbr": 792,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-07-10T08:19:32Z",
+      "side": 1,
+      "message": "No space after @media",
+      "revId": "c002a1a6fb301e998799345d9d86647eb7c79f66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
