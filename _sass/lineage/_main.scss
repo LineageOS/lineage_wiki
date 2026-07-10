@@ -616,6 +616,8 @@ a {
 }
 
 .popup-close-action {
+  position: relative;
+  overflow: hidden;
   width: 24px;
   height: 24px;
   color: var(--theme-text-soft);
