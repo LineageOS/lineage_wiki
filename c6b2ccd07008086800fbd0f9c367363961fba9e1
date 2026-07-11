@@ -16,6 +16,24 @@
       "message": "I don\u0027t really like this one. Doesn\u0027t look good + I made the dialog change to reduce complexity, not add even more",
       "revId": "c6b2ccd07008086800fbd0f9c367363961fba9e1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "271fb600_ec4a844c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15346
+      },
+      "writtenOn": "2026-07-11T10:48:00Z",
+      "side": 1,
+      "message": "I was trying to copy how the MD3E example component is animated. But you are right this adds a lot of complexity so I\u0027ll abandon it",
+      "parentUuid": "026a7825_6ac63f84",
+      "revId": "c6b2ccd07008086800fbd0f9c367363961fba9e1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
