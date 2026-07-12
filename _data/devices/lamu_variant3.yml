@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5200, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '15'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
+bluetooth: {spec: '5.0'}
+cameras:
+  - {flash: 'LED', info: '50 MP (wide)'}
+  - {flash: None, info: '8 MP (front)'}
+codename: lamu
+cpu: Cortex-A75 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.0 GHz + 6 x 1.7 GHz
+current_branch: 23.2
+dimensions: {depth: 8.17, height: 165.67, width: 75.98}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the text "FastBoot Mode" appears on the screen, then release.
+gpu: ARM Mali-G52 MC2
+image: lamul.png
+install_method: fastboot_custom
+is_ab_device: true
+kernel: {version: '6.6'}
+maintainers: [R0rt1z2, surblazer]
+models: [XT2523-2, XT2523-3, XT2523-4, XT2523-5, XT2523-9, XT2523-10, XT2523-11]
+name: moto g05
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Dual SIM, FM radio, Fingerprint reader, Galileo, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
+ram: 4/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2024-12
+screen: {refresh_rate: 90, resolution: '720x1604', size: 6.67, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB', slot: dedicated}
+soc: Mediatek Helio G81 Extreme
+storage: 64/128/256 GB
+tree: android_device_motorola_lamu
+type: phone
+unlock_bootloader_guide: https://xdaforums.com/t/unlock-bootloader-motorola-motorola-g15-power-g05-e15-lamu-lamul-lamulg.4780735/
+variant: 3
+vendor: Motorola
+vendor_short: motorola
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac
