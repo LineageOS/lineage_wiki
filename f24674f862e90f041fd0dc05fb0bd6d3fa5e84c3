@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2535500c_0b36136d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-07-13T15:40:22Z",
+      "side": 1,
+      "message": "Fixes `lamu` installation guide order",
+      "revId": "f24674f862e90f041fd0dc05fb0bd6d3fa5e84c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
