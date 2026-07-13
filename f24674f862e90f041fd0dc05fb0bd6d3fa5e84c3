@@ -16,6 +16,23 @@
       "message": "Fixes `lamu` installation guide order",
       "revId": "f24674f862e90f041fd0dc05fb0bd6d3fa5e84c3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54fe3b05_885ea3dd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-07-13T15:45:06Z",
+      "side": 1,
+      "message": "i wish people would at least check their guides ;9",
+      "revId": "f24674f862e90f041fd0dc05fb0bd6d3fa5e84c3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
