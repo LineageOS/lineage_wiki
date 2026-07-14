@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "90f7eebb_052aa515",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-14T06:05:02Z",
+      "side": 1,
+      "message": "This has been annoying me for years.\nStill need to fix a couple other spots.\nbefore: https://wiki.lineageos.org/devices/tegu/install/#installing-add-ons\nafter: https://blob.lineageos.org/preview/wiki/493946/devices/tegu/install/#installing-add-ons",
+      "revId": "466d3ba55a3278a2bff29c7177031093ed35f67a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
