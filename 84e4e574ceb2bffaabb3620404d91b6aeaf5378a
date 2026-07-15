@@ -16,6 +16,24 @@
       "message": "your pic size is a little off. did you use the prepare_image script? https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
       "revId": "84e4e574ceb2bffaabb3620404d91b6aeaf5378a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "851af58b_c6313439",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36741
+      },
+      "writtenOn": "2026-07-15T01:12:24Z",
+      "side": 1,
+      "message": "Sorry,Fixed",
+      "parentUuid": "20a8e7c0_73fccf11",
+      "revId": "84e4e574ceb2bffaabb3620404d91b6aeaf5378a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
