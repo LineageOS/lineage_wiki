@@ -516,6 +516,7 @@ definitions:
         - Dual-frequency GNSS
         - eSIM
         - Essential Accessories
+        - Fan
         - FM radio
         - Fingerprint reader
         - BeiDou
@@ -832,6 +833,7 @@ properties:
       - fastboot_zenfone
       - fastboot_zte
       - nintendo
+      - odin_revision
       - oor
       - samloader_rs
   is_ab_device:
@@ -991,6 +993,7 @@ properties:
       - ARK
       - Askey
       - ASUS
+      - AYN
       - Banana Pi
       - BQ
       - Dynalink
@@ -1042,6 +1045,7 @@ properties:
       - ark
       - askey
       - asus
+      - ayn
       - bananapi
       - bq
       - essential
