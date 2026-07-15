@@ -1,0 +1,40 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.2, ships_fw: true, version: '13/14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
+cameras:
+  - {flash: 'Dual LED', info: '50 MP (wide)'}
+  - {flash: 'Dual LED', info: '8 MP (ultrawide)'}
+  - {flash: None, info: '16 MP'}
+codename: genevn
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 4 x 2.2 GHz + 4 x 1.8 GHz
+current_branch: 23.2
+dimensions: {depth: 9.19, height: 162.83, width: 73.77}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 710
+image: genevn.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm7435, version: '5.10'}
+maintainers: [elginsk8r, mikeioannina]
+models: [XT2315-1, XT2315-4, XT2315-5]
+name: moto g stylus 5G (2023)
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, Galileo, GLONASS, GPS, Gyroscope, Light sensor, NFC, Proximity sensor, Stereo speakers, USB OTG]
+ram: 4/6 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2023-05
+screen: {refresh_rate: 120, resolution: '1080x2400', size: 6.6, technology: 'IPS LCD'}
+soc: Qualcomm SM6450 Snapdragon 6 Gen 1
+storage: 64/128/256 GB UFS2.2
+tree: android_device_motorola_genevn
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
