@@ -516,6 +516,7 @@ definitions:
         - Dual-frequency GNSS
         - eSIM
         - Essential Accessories
+        - Fan
         - FM radio
         - Fingerprint reader
         - BeiDou
@@ -991,6 +992,7 @@ properties:
       - ARK
       - Askey
       - ASUS
+      - AYN
       - Banana Pi
       - BQ
       - Dynalink
@@ -1042,6 +1044,7 @@ properties:
       - ark
       - askey
       - asus
+      - ayn
       - bananapi
       - bq
       - essential
