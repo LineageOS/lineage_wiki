@@ -1,0 +1,36 @@
+architecture: arm64
+battery: {capacity: 6600, removable: false}
+before_install: {instructions: 'odin_revision'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.0'}
+codename: odin_m2
+cpu: Kryo 385
+cpu_cores: '8'
+cpu_freq: 4 x 2.8 GHz + 4 x 1.8 GHz
+current_branch: 22.2
+dimensions: {depth: 15, height: 95, width: 224}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 630
+image: odin_m2.png
+install_method: fastboot_unlocked
+is_ab_device: true
+kernel: {repo: android_kernel_ayn_sdm845, version: '4.9'}
+maintainers: [rtx4d]
+models: [odin_m2]
+name: 'Odin (M2)'
+network: None
+peripherals: [3.5mm jack, Accelerometer, Dock, DP over USB-C, Fan, Gamepad, Gyroscope, HDMI, Stereo speakers, USB OTG]
+ram: 4/8 GB LPDDR4X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: boot
+release: 2022
+screen: {refresh_rate: 60, resolution: '1920x1080', size: 5.98, technology: 'IPS LCD'}
+sdcard: {size_max: '2 TB'}
+soc: Qualcomm SDM845 Snapdragon 845
+storage: 64/128/256 GB UFS2.1
+tree: android_device_ayn_odin_m2
+type: Handheld game console
+vendor: AYN
+vendor_short: ayn
+versions: [22.2]
+wifi: 802.11 a/b/g/n/ac
