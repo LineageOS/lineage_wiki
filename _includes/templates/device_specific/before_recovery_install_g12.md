@@ -10,7 +10,7 @@ This generation of Amlogic device includes a unique boot mode called "Burn Mode"
  fastboot getvar unlocked
  ```
  2. If your device reports `unlocked: yes`, scroll to the end of this step, and proceed to the next step labeled "Flashing the dtb and dtbo partitions".
- 3. If your device reports `unlocked: no`, power off the device, and boot it into burn mode by holding the pairing button on the side of the device while connecting to you host machine.
+ 3. If your device reports `unlocked: no`, power off the device, and boot it into burn mode by holding the pairing button on the side of the device while to both power, an USB to you host machine (these may be the same port, or seperate ports if your device has a DC power jack). If your device shows a "Fastboot" screen when long pressing the side-button, try again and continue holding it even after "Fastboot" appears on screen.
  4. Run the following commands on your host machine:
  ```
  wget https://github.com/khadas/utils/raw/master/aml-flash-tool/tools/linux-x86/update
