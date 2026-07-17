@@ -34,6 +34,24 @@
       "parentUuid": "42b8186c_7d83421f",
       "revId": "f6864deddeddfb7a29ff7f3f434718f95dd6e040",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c86c2150_b78f77b3",
+        "filename": "_includes/templates/device_specific/before_install_odin_revision.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2026-07-17T20:43:31Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "945163fe_5ccd0aa3",
+      "revId": "f6864deddeddfb7a29ff7f3f434718f95dd6e040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
