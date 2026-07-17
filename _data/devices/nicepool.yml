@@ -11,7 +11,7 @@ cpu_freq: 1.8 GHz
 current_branch: 22.2
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 15, height: 69, width: 69}
-download_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Bootloader menu is displayed, then click the <kbd>Side Button</kbd> once more.
+download_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Bootloader menu is displayed.
 gpu: ARM Mali-G31 MP2
 image: nicepool.png
 install_method: fastboot_nexus
@@ -21,7 +21,7 @@ name: Pop / TV
 network: None
 peripherals: [HDMI]
 ram: 2 GB
-recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Bootloader menu is displayed.
+recovery_boot: With the device unplugged, plug in the device while holding the <kbd>Side Button</kbd> until the Bootloader menu is displayed, then click the <kbd>Side Button</kbd> once more.
 recovery_partition_name: recovery
 release: 2020-07-07
 screen: None
