@@ -16,6 +16,24 @@
       "message": "should be in a separate file.",
       "revId": "f6864deddeddfb7a29ff7f3f434718f95dd6e040",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "945163fe_5ccd0aa3",
+        "filename": "_includes/templates/device_specific/before_install_odin_revision.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-07-17T20:11:06Z",
+      "side": 1,
+      "message": "yeah just do what \"sif\" does. it references static images.",
+      "parentUuid": "42b8186c_7d83421f",
+      "revId": "f6864deddeddfb7a29ff7f3f434718f95dd6e040",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
