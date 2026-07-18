@@ -920,6 +920,7 @@ properties:
     enum:
       - fastboot_boot
       - fastboot_menu
+      - fastboot_misc
       - fastboot_reboot
   release:
     "$id": "/properties/release"
