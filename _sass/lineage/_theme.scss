@@ -238,3 +238,11 @@ hr {
     ),
     linear-gradient(to top, var(--theme-border) 1px, rgba(210, 210, 210, 0) 1px);
 }
+
+html.dark .only-light {
+  display: none !important
+}
+
+html:not(.dark) .only-dark {
+  display: none !important
+}
