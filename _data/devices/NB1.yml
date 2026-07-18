@@ -29,6 +29,7 @@ peripherals: [3.5mm jack, Accelerometer, Compass, Dual SIM, FM radio, Fingerprin
 ram: 4/6 GB LPDDR4X
 recovery_boot: With the device powered off and plugged into a USB port, hold <kbd>Volume Up</kbd>. The "Powered by Android" logo will appear on the screen, keep holding it until you reach recovery mode.
 recovery_partition_name: boot
+recovery_reboot: fastboot_misc
 release: 2017-08-16
 screen: {resolution: '1440x2560', size: 5.3, technology: 'IPS LCD'}
 sdcard: {size_max: '256 GB', slot: 'hybrid'}
