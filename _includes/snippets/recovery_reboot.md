@@ -11,5 +11,15 @@ fastboot boot {{ device.recovery_partition_name }}.img
 ```
 fastboot reboot recovery
 ```
+{%- when 'fastboot_misc' %}
+* Download [boot-recovery-misc.img](https://blob.lineageos.org/downloads/boot-recovery-misc.img).
+* Flash it to the `misc` partition:
+```
+fastboot flash misc boot-recovery-misc.img
+```
+* Reboot the device:
+```
+fastboot reboot
+```
 {%- else %}
 {%- endcase %}
