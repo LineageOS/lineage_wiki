@@ -1044,3 +1044,9 @@ dialog {
     background-color: var(--theme-overlay);
   }
 }
+
+@include media-breakpoint-up(lg) {
+  .img-container {
+    width: 50%;
+  }
+}
