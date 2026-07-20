@@ -97,7 +97,7 @@ toc: false
 
 #### Root
 
-- People sometimes wrongfully use this when they mean [Unlocking](#Unlocked)
+- People sometimes wrongfully use this when they mean [Unlocking](#unlocked)
 - Refers to being able to access and modify the contents of read-only partitions via apps or a shell (usually involving a "superuser" (su) binary)
 - Some apps "detect" root access on LineageOS (which does not come rooted!) when they actually mean "modified device"
 - LineageOS does not offer any rooting solution (despite `adb root`) and does not provide support to install any
