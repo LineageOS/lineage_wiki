@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3c2f2f6f_a3e46c5e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 11
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-20T03:29:58Z",
+      "side": 1,
+      "message": "looks really nice. just one minor suggestion",
+      "revId": "152e55f45a405eb003bc18d9d2679e833acf37d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dfacf217_3d7b5e35",
+        "filename": "pages/flash_tools.md",
+        "patchSetId": 11
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-20T03:29:58Z",
+      "side": 1,
+      "message": "developer options",
+      "range": {
+        "startLine": 35,
+        "startChar": 102,
+        "endLine": 35,
+        "endChar": 120
+      },
+      "revId": "152e55f45a405eb003bc18d9d2679e833acf37d9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
