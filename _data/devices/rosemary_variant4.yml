@@ -3,6 +3,7 @@ battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '13'}
 before_install_device_variants:
   - {device: 'POCO M5s Global', download_link: 'https://cdnorg.d.miui.com/V14.0.17.0.TFFMIXM/miui_ROSEMARYPGlobal_V14.0.17.0.TFFMIXM_b6ba1e953f_13.0.zip', firmware: 'V14.0.17.0.TFFMIXM'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, lk]}
 bluetooth: {profiles: [A2DP], spec: '5.1'}
 cameras:
   - {flash: 'LED', info: '64 MP (wide)'}
