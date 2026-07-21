@@ -24,7 +24,7 @@ install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_oneplus_sm8250, version: '4.19'}
 maintainers: [DaemonMCR, Tuan Anh]
-models: [LE2100, LE2101]
+models: [LE2101]
 name: '9R'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
