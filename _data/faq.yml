@@ -40,8 +40,8 @@
 - "device support":
     - question: "My device is _not_ officially supported, but I’d really like to give LineageOS a try. Can you support my device?"
       response: |
-        - All devices are maintained by open source contributors - <a href="/device_requests.html">sorry, we don't take device requests</a>. If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
-        - If you would like to submit your device tree and kernel for official builds, please take a look at <a href="/submitting_device.html">Submitting a port</a> page.
+        - All devices are maintained by open source contributors - <a href="device_requests.html">sorry, we don't take device requests</a>. If you would like to bring-up LineageOS for a device, and can meet some basic standards, we'll happily look into making it official.
+        - If you would like to submit your device tree and kernel for official builds, please take a look at <a href="submitting_device.html">Submitting a port</a> page.
     - question: "My device is _not_ on the device list, but it is just the same as that other model. Can I use it?"
       response: |
         - If your device is not listed, it's not supported.
@@ -51,7 +51,7 @@
         - We try to keep the list of supported models as comprehensive as possible and effectively do not support any that are not listed.
         - If your model is not listed, it is not supported. We do not keep track of the reasoning for which models are supported and which are not, so please don't ask!
     - question: "I read somewhere/was told that you support my device?"
-      response: "If it's on <a href='/devices/'>this list</a>, we do, otherwise not."
+      response: "If it's on <a href='devices/'>this list</a>, we do, otherwise not."
     - question: "Does a specific feature or hardware work on my device?"
       response: |
         - All devices must meet our [Device support requirements](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md).

@@ -1,7 +1,8 @@
 ---
 sidebar: home_sidebar
 title: Building for Emulator/AVD
-permalink: emulator.html
+permalink: emulator/
+redirect_from: emulator.html
 ---
 
 ## Introduction
