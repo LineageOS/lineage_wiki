@@ -175,7 +175,7 @@ There are some optional properties which you might not need, but in case you do,
 * `quirks`: List of known quirks (make sure they aren't violating the [charter](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) or are exempted!). An array of one or more of the following (if unclear, click the links):
 
   {%- for item in definitions.valid_quirks.enum %}
-  [{{ item }}](/quirks/{{ item }}){% unless forloop.last %}, {% endunless %}
+  [{{ item }}]({{ "quirks/" | append: item | relative_url }}){% unless forloop.last %}, {% endunless %}
   {%- endfor %}
   {% capture snet %}
   The [Device integrity]({{ "quirks/snet" | relative_url }}) quirk is automatically shown for every device and can't be listed manually
