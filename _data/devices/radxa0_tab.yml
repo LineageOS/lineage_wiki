@@ -15,7 +15,7 @@ image: radxa0.png
 install_method: amlogic_update
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [bgcngm, npjohnson]
-name: Zero (Tablet)
+name: Zero (S905Y2, eMMC Only) [Tablet]
 network: None
 peripherals: [HDMI, USB OTG]
 ram: 2/4 GB
