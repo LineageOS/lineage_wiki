@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d38116f1_577705a7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-26T05:28:20Z",
+      "side": 1,
+      "message": "before: https://blob.lineageos.org/preview/wiki/494511/addingdevice-howto.html#list-of-optional-properties\n\nafter: https://blob.lineageos.org/preview/wiki/494637/addingdevice-howto.html#list-of-optional-properties",
+      "revId": "42a034c894a14e3935b1148b5779ec65189cc992",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
