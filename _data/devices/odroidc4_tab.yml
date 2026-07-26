@@ -15,7 +15,7 @@ image: odroidc4.png
 install_method: amlogic_update
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [bgcngm, npjohnson]
-name: ODROID-C4 (Tablet)
+name: ODROID-C4 (S905X3, eMMC Only) [Tablet]
 network: None
 peripherals: [HDMI, IR blaster, RJ45 Ethernet port, USB OTG]
 ram: 4 GB
