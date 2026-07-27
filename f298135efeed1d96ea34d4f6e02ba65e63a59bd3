@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "44311260_e0f7be4a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-27T04:30:46Z",
+      "side": 1,
+      "message": "will add relative_url to these tomorrow",
+      "revId": "f298135efeed1d96ea34d4f6e02ba65e63a59bd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e053e9bd_54755edc",
+        "filename": "pages/devices.html",
+        "patchSetId": 5
+      },
+      "lineNbr": 175,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-07-27T04:30:46Z",
+      "side": 1,
+      "message": "oh, this one was broken in 2 ways. need to append .html",
+      "range": {
+        "startLine": 175,
+        "startChar": 31,
+        "endLine": 175,
+        "endChar": 34
+      },
+      "revId": "f298135efeed1d96ea34d4f6e02ba65e63a59bd3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
