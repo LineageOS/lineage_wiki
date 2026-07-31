@@ -22,6 +22,30 @@
       },
       "revId": "a9a009f3b8f3457a1fd57461c1aeac1d83243383",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "daf7eb65_787e5114",
+        "filename": "_data/devices/RPN.yml",
+        "patchSetId": 8
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-07-31T22:28:28Z",
+      "side": 1,
+      "message": "he wanted me explicit brand prefix to match rp6.",
+      "parentUuid": "ff545323_34a5576d",
+      "range": {
+        "startLine": 20,
+        "startChar": 7,
+        "endLine": 20,
+        "endChar": 26
+      },
+      "revId": "a9a009f3b8f3457a1fd57461c1aeac1d83243383",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
