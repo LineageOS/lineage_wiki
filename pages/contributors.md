@@ -90,7 +90,8 @@ their feedback is held as backed by project leads and recognized as a distinct g
 {%- if device.current_branch != version or numMaintainers == 0 %}
 {%- continue %}
 {%- endif %}
-<tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ device.vendor }} {{ device.name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
+{%- include snippets/get_displayname.md device=device %}
+<tr><td><b><a href="{{ "/devices/" | append: device.codename | relative_url }}">{{ display_name }} ({{ device.codename }})</a></b></td><td>{{ device.maintainers | join: ', ' }}</td></tr>
 {%- endfor %}
 </tbody>
 </table>
