@@ -72,9 +72,15 @@ their feedback is held as backed by project leads and recognized as a distinct g
 
 {%- include snippets/branches.md %}
 {%- assign versions = "" | split: " " %}
-{%- assign versions = versions | push: current_branch %}
-{%- assign versions = versions | push: branch_minus_1 %}
-{%- assign versions = versions | push: branch_minus_2 %}
+{%- for device in sorted %}
+{%- assign numMaintainers = device.maintainers | size %}
+{%- if device.maintainers != empty %}
+{%- unless versions contains device.current_branch %}
+{%- assign versions = versions | push: device.current_branch %}
+{%- endunless %}
+{%- endif %}
+{%- endfor %}
+{%- assign versions = versions | sort | reverse %}
 
 {% for version in versions %}
 
