@@ -5,6 +5,6 @@ soc_vendors:
   - Kirin
   - Mediatek
   - OMAP
-  - Snapdragon
+  - Qualcomm
   - Tegra
   - Tensor
