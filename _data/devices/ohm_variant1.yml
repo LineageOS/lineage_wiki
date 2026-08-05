@@ -1,0 +1,37 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '14 (5.15 Kernel)'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
+bluetooth: {spec: '5.0'}
+burn_boot: With the device unplugged, connect USB-C to your host machine, then connect power to the device while holding the <kbd>USB Boot Button</kbd> (bottom of device) until the device enumerates on your host machine.
+cameras: []
+codename: ohm
+cpu: Cortex-A55
+cpu_cores: '4'
+cpu_freq: 2.0 GHz
+current_branch: 23.2
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 127, height: 50.8, width: 177.8}
+download_boot: With the device unplugged, connect USB-C to your host machine, then connect power to the device while holding the <kbd>Reset Button</kbd> (rear of device) until the DroidLogic logo appears on screen.
+gpu: ARM Mali-G31 MP2
+image: ohm.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_amlogic_kernel-5.15, version: '5.15'}
+maintainers: [npjohnson]
+name: Developer Kit (S905X4-B/K)
+network: None
+peripherals: [3.5mm jack, HDMI, IR blaster, RJ45 Ethernet port, USB OTG]
+ram: 1/2 GB
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_reboot
+release: 2023-09-01
+screen: None
+soc: Amlogic S905X4
+storage: 16 GB
+tree: android_device_amlogic_ohm
+type: Set top box
+variant: 1
+vendor: DroidLogic
+vendor_short: amlogic
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac
