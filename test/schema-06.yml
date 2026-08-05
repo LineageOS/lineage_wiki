@@ -295,6 +295,8 @@ definitions:
       - Amlogic S905X2
       - Amlogic S905Y2
       - Amlogic S905X3
+      - Amlogic S905X4
+      - Amlogic S905Y4
       - Google Tensor GS101
       - Google Tensor GS201
       - Google Tensor G3
@@ -1003,6 +1005,7 @@ properties:
       - AYN
       - Banana Pi
       - BQ
+      - DroidLogic
       - Dynalink
       - Essential
       - Fairphone
