@@ -80,7 +80,7 @@ breakfast <target> eng
 
 For starting, `x86` or `x86_64` is recommended, as your computer can run it natively using hardware acceleration.
 
-{% include alerts/tip.html content="If you're running an ARM computer such as an Apple Silicon Mac, you should choose `arm64` for supported LineageOS Versions.<br> This will significanly improve the emulator performance compared to using `x86_64` builds via a translation layer such as Rosetta 2." %}
+{% include alerts/tip.html content="If you're running an ARM computer such as an Apple Silicon Mac, you should choose `arm64` for supported LineageOS Versions.<br> This will significantly improve the emulator performance compared to using `x86_64` builds via a translation layer such as Rosetta 2." %}
 
 Instead of `eng` one can also target `userdebug`, the latter is used by official AOSP emulator images, but ADB and communication with the emulator will need to be enabled first.
 
