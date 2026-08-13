@@ -12,7 +12,7 @@ def json_to_yaml(json)
 end
 
 def yaml_to_json(yaml)
-  YAML.safe_load_file(yaml, permitted_classes: [Date]).to_json
+  JSON.parse(YAML.safe_load_file(yaml, permitted_classes: [Date]).to_json)
 end
 
 def to_relative_path(path)
@@ -52,6 +52,10 @@ def validate_image(path, device_path, size)
   end
 
   return true
+end
+
+def validate_peripherals(valid_peripherals, peripherals)
+  return !peripherals.is_a?(Array) || peripherals == peripherals.sort_by { |x| valid_peripherals.index(x) }
 end
 
 def load_template(template_file)
@@ -107,6 +111,7 @@ end
 
 schema_path = File.expand_path('schema-06.yml', __dir__)
 schema = yaml_to_json(schema_path)
+schema_valid_peripherals = schema['definitions']['valid_peripherals']['items']['enum']
 
 sample_path = File.expand_path('../device_sample/sample.yml', __dir__)
 sample_yaml = yaml_to_json(sample_path)
@@ -169,7 +174,7 @@ if Parallel.map(Dir.entries(device_dir).sort) do |filename|
   device_path = device_dir + filename
 
   if File.file?(device_path)
-    device_json = JSON.parse(yaml_to_json(device_path))
+    device_json = yaml_to_json(device_path)
     ret &= validate_json(schema, device_json, device_path)
 
     if device_json["current_branch"] != device_json["versions"].last
@@ -179,6 +184,11 @@ if Parallel.map(Dir.entries(device_dir).sort) do |filename|
 
     if !device_json["maintainers"].empty? and device_json["uses_twrp"]
       puts to_relative_path(device_path) + ': uses_twrp cannot be used for a supported device'
+      ret = false
+    end
+
+    if !validate_peripherals(schema_valid_peripherals, device_json["peripherals"])
+      puts to_relative_path(device_path) + ': peripherals are not sorted, use sort_peripherals.py'
       ret = false
     end
 
