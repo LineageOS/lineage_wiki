@@ -19,7 +19,7 @@ maintainers: [rtx4d]
 models: [odin_m2]
 name: 'Odin (M2)'
 network: None
-peripherals: [3.5mm jack, Accelerometer, Dock, DP over USB-C, Fan, Gamepad, Gyroscope, HDMI, Stereo speakers, USB OTG]
+peripherals: [3.5mm jack, Accelerometer, DP over USB-C, Dock, Fan, Gamepad, Gyroscope, HDMI, Stereo speakers, USB OTG]
 ram: 4/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
 recovery_partition_name: boot
