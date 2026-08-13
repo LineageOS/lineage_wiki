@@ -22,7 +22,7 @@ maintainers: [LuK1337, bgcngm]
 models: [SM-T720, SM-T720N]
 name: Galaxy Tab S5e (Wi-Fi)
 network: None
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
+peripherals: [Accelerometer, Compass, DP over USB-C, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, Light sensor, USB OTG]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery

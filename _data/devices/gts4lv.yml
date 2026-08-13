@@ -22,7 +22,7 @@ maintainers: [bgcngm, LuK1337]
 models: [SM-T725, SM-T725C, SM-T725N, SM-T727]
 name: Galaxy Tab S5e (LTE)
 network: [2G GSM, 3G UMTS, 4G LTE]
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
+peripherals: [Accelerometer, Compass, DP over USB-C, Fingerprint reader, GPS, Gyroscope, Hall effect sensor, Light sensor, USB OTG]
 quirks: [ims]
 ram: 4/6 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
