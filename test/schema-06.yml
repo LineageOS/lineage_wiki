@@ -133,6 +133,7 @@ definitions:
       - PowerVR G6430
       - PowerVR SGX540
       - PowerVR SGX544MP2
+      - Samsung Xclipse 920
       - Qualcomm Adreno 225
       - Qualcomm Adreno 302
       - Qualcomm Adreno 305
@@ -420,6 +421,7 @@ definitions:
       - Qualcomm SM8650 Snapdragon 8 Gen3
       - Qualcomm SM8735 Snapdragon 8s Gen4
       - Qualcomm SM8750 Snapdragon 8 Elite
+      - Samsung Exynos 2200
       - Samsung Exynos 1280
       - Samsung Exynos 850
       - Samsung Exynos 4210
@@ -698,6 +700,7 @@ properties:
       - Cortex-A9
       - Cortex-X1 & Cortex-A76 & Cortex-A55
       - Cortex-X1 & Cortex-A78 & Cortex-A55
+      - Cortex-X2 & Cortex-A710 & Cortex-A510
       - Cortex-X3 & Cortex-A715 & Cortex-A510
       - Cortex-X3 & Cortex-A715 & Cortex-A710 & Cortex-A510
       - Cortex-X4 & Cortex-A720 & Cortex-A520
