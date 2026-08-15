@@ -12,7 +12,7 @@ codename: eqs
 cpu: Kryo
 cpu_cores: '8'
 cpu_freq: 1 x 3.2 GHz + 3 x 2.5 GHz + 4 x 1.8 GHz
-current_branch: 22.2
+current_branch: 23.2
 dimensions: {depth: 8.4, height: 161.8, width: 73.5}
 download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 gpu: Qualcomm Adreno 730
@@ -20,7 +20,7 @@ image: eqs.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm8475, version: '5.10'}
-maintainers: [demon000]
+maintainers: [demon000, Tomoms]
 models: [XT2241-1, XT2241-2]
 name: edge 30 ultra
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
@@ -37,5 +37,5 @@ tree: android_device_motorola_eqs
 type: phone
 vendor: Motorola
 vendor_short: motorola
-versions: [22.1, 22.2]
+versions: [22.1, 22.2, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax
