@@ -18,6 +18,7 @@ download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Vol
 gpu: Samsung Xclipse 920
 image: r0s.png
 install_method: samloader_rs
+is_unlockable: false
 kernel: {repo: android_kernel_samsung_s5e9925, version: '5.10'}
 maintainers: [ExtremeXT]
 models: [SM-S901B, SM-S901B/DS]
