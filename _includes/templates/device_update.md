@@ -45,6 +45,6 @@
 7. Run: `adb -d reboot`
 {% else %}
    {% include alerts/specific/verification_note.html -%}
-7. Click the back arrow in the top left of the screen, then "Reboot system now".
+7. Click the back arrow in the top left of the screen, then **Reboot system now**.
 {% endif %}
 {% endunless %}
