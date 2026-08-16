@@ -61,6 +61,7 @@ com.android.hardware.biometrics.fingerprint.virtual
 com.android.hardware.boot
 com.android.hardware.cas
 com.android.hardware.contexthub
+com.android.hardware.drm.clearkey
 com.android.hardware.dumpstate
 com.android.hardware.gatekeeper.nonsecure
 com.android.hardware.neuralnetworks
