@@ -227,10 +227,10 @@ A keyboard is always needed. Ensure there is a keyboard included in the virtual 
 
 #### Video
 
-1. If `Video` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
-2. On `Video` tab, select `Virtio` on the `Model` menu, then click `Apply`.
-3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle `3D acceleration`, and then click `Apply`.
-4. (Optional) To specify custom display resolution, switch to the `XML` tab, insert `<resolution x="<Width>" y="<Height>"/>`, like this:
+1. If **Video` tab is missing, add it using the **Add Hardware** button on the bottom left corner.
+2. On **Video` tab, select **Virtio** on the **Model** menu, then click **Apply**.
+3. If the device and the remote desktop application supports 3D accelerated graphics, Toggle **3D acceleration**, and then click **Apply**.
+4. (Optional) To specify custom display resolution, switch to the **XML** tab, insert `<resolution x="<Width>" y="<Height>"/>*`, like this:
    ```
    <video>
    <model type="virtio" heads="1" primary="yes">
@@ -246,11 +246,11 @@ A keyboard is always needed. Ensure there is a keyboard included in the virtual 
 
 #### Display
 
-1. If the `Display` tab is missing, add it using the `Add Hardware` button on the bottom left corner.
-2. Open the `Display` tab.
-3. Select `None` on the `Listen type` menu.
-4. If `3D acceleration` is enabled on the `Video` tab, toggle `OpenGL`, and choose an active host video card from the menu below.
-5. Click `Apply`.
+1. If the **Display** tab is missing, add it using the **Add Hardware** button on the bottom left corner.
+2. Open the **Display** tab.
+3. Select **None** on the **Listen type** menu.
+4. If **3D acceleration** is enabled on the **Video** tab, toggle **OpenGL**, and choose an active host video card from the menu below.
+5. Click **Apply**.
 
 ### Configure virtual machine sound
 
@@ -259,20 +259,20 @@ Sound card model `AC97` (which is the default) is recommended. Other models migh
 {% include alerts/important.html content="The `aarch64` architecture does not have a sound card added by default. You will have to add it manually." %}
 
 ### Create the new virtual machine
-Click `Begin Installation` in the top left corner, the installation process will proceed, and then the virtual machine will start for the first time.
+Click **Begin Installation** in the top left corner, the installation process will proceed, and then the virtual machine will start for the first time.
 
 ## Install LineageOS to the virtual machine
 
 The virtual machine should boot into the boot manager menu of the installation image.
 
-1. Select the first option, which is called something akin to `Install LineageOS` using arrow keys, and then press Enter.
+1. Select the first option, which is called something akin to **Install LineageOS** using arrow keys, and then press Enter.
 2. The virtual machine should enter LineageOS Recovery. You can select options using the arrow keys and enter it by pressing Enter.
-3. Select `Factory reset` > `Format data/factory reset` > `Format data`.
-4. Select `Apply update` > `Choose INSTALL` > Select `lineage-*-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-<target>.zip`.
+3. Select **Factory reset** > **Format data/factory reset** > **Format data`.
+4. Select **Apply update** > **Choose INSTALL** > Select **lineage-*-{{ site.time | date: "%Y%m%d" }}-UNOFFICIAL-<target>.zip**.
 
 Congratulations! You have installed LineageOS in a virtual machine.
 
-You can now select `Reboot system now` to boot into LineageOS.
+You can now select **Reboot system now** to boot into LineageOS.
 
 ## Run LineageOS inside the virtual machine
 
@@ -293,9 +293,9 @@ Here we will utilize GSIs from the Android Open Source Project website as an exa
 {% include alerts/important.html content="Make sure the userdata disk is not too small. Minimum size of 8 GiB is recommended." %}
 
 1. When booted into Launcher, open Settings app.
-2. Enable `Developer options`, go back to homepage, and navigate to `System` > `Developer options`.
-3. Open `DSU Loader`, select the DSU package that you wish to install, then click `Agree`.
-4. Once the installation finishes, you can reboot to the GSI by clicking `Restart` on the `Dynamic System Updates` notification.
+2. Enable **Developer options**, go back to homepage, and navigate to **System** > **Developer options**.
+3. Open **DSU Loader**, select the DSU package that you wish to install, then click **Agree**.
+4. Once the installation finishes, you can reboot to the GSI by clicking **Restart** on the **Dynamic System Updates** notification.
 
 ### Specify GSI image as the third VirtIO disk
 
@@ -303,14 +303,14 @@ Here we will utilize GSIs from the Android Open Source Project website as an exa
 2. Extract `system.img` from the downloaded archive.
 3. Add `system.img` as the third VirtIO disk.
 4. Boot the virtual machine into recovery mode, and perform a factory reset.
-5. Reboot to the boot menu, and select `Advanced options` > `Boot GSI from /dev/block/vdc with LineageOS * (Kernel version *)`.
+5. Reboot to the boot menu, and select **Advanced options** > **Boot GSI from /dev/block/vdc with LineageOS * (Kernel version *)**.
 
 ### Flash GSI image to `system` logical partition
 
 1. Download a GSI image archive (equal or higher Android version with matching architecture) from [Generic System Image releases](https://developer.android.com/topic/generic-system-image/releases).
 2. Extract `system.img` from the downloaded archive.
 3. Boot the virtual machine into recovery mode, and perform a factory reset.
-4. Enter fastbootd mode by selecting `Advanced` > `Enter fastboot`.
+4. Enter fastbootd mode by selecting **Advanced** > **Enter fastboot**.
 5. Delete unneeded logical partitions, and flash the GSI image, using `fastboot`:
    ```
    fastboot -s tcp:<IPv4 address that shown on menu header> delete-logical-partition product
@@ -372,9 +372,9 @@ Currently, only Intel GPUs (iGPU or dGPU) are supported.
 
 #### Start the virtual machine with GPU passthrough
 
-When on the boot menu, enter the `Advanced options (virtio_x86_64 specific)` submenu, and select the option that corresponds to the GPU and/or your usecase.
+When on the boot menu, enter the **Advanced options (virtio_x86_64 specific)** submenu, and select the option that corresponds to the GPU and/or your usecase.
 
-If something that's related with graphics doesn't work in GPU passthrough mode, you could firstly try booting in SELinux Permissive mode by selecting `Settings` > `SELinux` > `Permissive` on boot menu before booting.
+If something that's related with graphics doesn't work in GPU passthrough mode, you could firstly try booting in SELinux Permissive mode by selecting **Settings** > **SELinux** > **Permissive** on boot menu before booting.
 
 ### Install flashable ZIPs in recovery mode
 
@@ -386,15 +386,15 @@ To establish the connection, refer to [ADB connection](#adb-connection).
 
 #### Export a directory as VirtioFS share
 
-To add `Filesystem` virtual hardware, specify the directory containing the custom flashable ZIPs in the `Source path` box, and specify `share` in the `Target path` box.
+To add **Filesystem** virtual hardware, specify the directory containing the custom flashable ZIPs in the **Source path** box, and specify **share** in the **Target path** box.
 
-When in recovery mode, enter `Apply update` > `Choose from virtiofs`, select the custom flashable ZIP which you want to install.
+When in recovery mode, enter **Apply update** > **Choose from virtiofs**, select the custom flashable ZIP which you want to install.
 
 #### Insert a USB drive
 
 Put the flashable ZIP into a USB drive, and mount the USB drive to the virtual machine.
 
-When in recovery mode, select `Apply update`, and the volumes of the USB drive should appear on the menu. Select the corresponding volume, then select the custom flashable ZIP which you want to install.
+When in recovery mode, select **Apply update**, and the volumes of the USB drive should appear on the menu. Select the corresponding volume, then select the custom flashable ZIP which you want to install.
 
 ### Text consoles
 

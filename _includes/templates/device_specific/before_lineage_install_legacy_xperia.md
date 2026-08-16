@@ -5,7 +5,7 @@
 1. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
 2. Download [unify_userdata.zip](https://mega.nz/folder/mttySaCY#IcRH1F_xeBdK_i1gpTOjqg).
-3. On the device, select "Advanced", then "ADB Sideload" and swipe to proceed.
+3. On the device, select **Advanced**, then **ADB Sideload** and swipe to proceed.
 4. Open Terminal (Linux/macOS), or PowerShell (Windows), run the following command within it:
 ```
 adb -d sideload /path/to/unify_userdata.zip

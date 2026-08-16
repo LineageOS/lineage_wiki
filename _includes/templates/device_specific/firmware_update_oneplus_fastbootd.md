@@ -7,8 +7,8 @@
 {%- endif %}
 2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go/releases/latest)
 3. Boot up LineageOS recovery
-4. Go to "Advanced" -> "Enter fastboot"
-   {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
+4. Go to **Advanced** -> **Enter fastboot**
+   {% include alerts/warning.html content="The **Enter fastboot** option may not be present on older LineageOS recovery builds and it cannot be substituted with **Reboot to bootloader**." %}
 5. Execute following commands:
    ```
    {{- include.content -}}
