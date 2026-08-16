@@ -22,11 +22,11 @@ Following these instructions will **not** wipe your [data]({{ "glossary/#data" |
     {% include alerts/note.html content="You can check if it's FDE encrypted by running the following command: `adb -d wait-for-device shell getprop ro.crypto.state`.
     If the output of this is `encrypted`, then your device is FDE encrypted!" %}
 {%- elsif device.format_on_upgrade == "repartition" %}
-8. If your device has not yet been repartitioned, select "Advanced", then "Reboot to Bootloader".
+8. If your device has not yet been repartitioned, select **Advanced**, then **Reboot to Bootloader**.
     {% include alerts/note.html content="If you are uncertain if your device has been repartitioned, it likely has not!" %}
 9. Download [Lineage Recovery](https://download.lineageos.org/devices/{{ custom_recovery_codename }}). Simply download the latest recovery file, named `{{ device.recovery_partition_name }}.img`.
     {% include alerts/important.html content="Other recoveries may not work for installation or updates. We strongly recommend to use the one linked above!" %}
-10. Now, use the volume buttons to select "Advanced", and then "Enable ADB".
+10. Now, use the volume buttons to select **Advanced**, and then **Enable ADB**.
 11. If your device isn't already in fastboot mode, on the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
 ```
 adb -d reboot bootloader
