@@ -7,7 +7,7 @@ In some cases, the inactive slot can be unpopulated or contain much older firmwa
 To do this, sideload the `copy-partitions-20220613-signed.zip` package by doing the following:
 1. Download the `copy-partitions-20220613-signed.zip` file from [here](https://mirrorbits.lineageos.org/tools/copy-partitions-20220613-signed.zip).
 2. Sideload the `copy-partitions-20220613-signed.zip` package:
-    * On the device, select "Apply update", then "Apply from ADB" to begin sideload.
+    * On the device, select **Apply update**, then **Apply from ADB** to begin sideload.
     * On the host machine, sideload the package using:
 ```
 adb -d sideload copy-partitions-20220613-signed.zip
