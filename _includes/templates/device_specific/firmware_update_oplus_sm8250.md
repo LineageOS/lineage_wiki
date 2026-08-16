@@ -7,10 +7,10 @@
 {%- endif %}
 2. Extract stock ROM using [payload-dumper-go](https://github.com/ssut/payload-dumper-go/releases/latest)
 3. Boot up LineageOS recovery
-4. Go to "Advanced" -> "Enable ADB"
+4. Go to **Advanced** -> **Enable ADB**
 5. Check your DDR type using the following command: `adb -d shell getprop ro.boot.ddr_type`, or in case `getprop` returns an empty value, use: `adb -d shell cat /proc/devinfo/ddr_type` instead
-6. Go to "Advanced" -> "Enter fastboot"
-   {% include alerts/warning.html content="The \"Enter fastboot\" option may not be present on older LineageOS recovery builds and it cannot be substituted with \"Reboot to bootloader\"." %}
+6. Go to **Advanced** -> **Enter fastboot**
+   {% include alerts/warning.html content="The **Enter fastboot** option may not be present on older LineageOS recovery builds and it cannot be substituted with **Reboot to bootloader**." %}
 7. Execute following commands:
    ```
    fastboot flash --slot=all abl abl.img

@@ -26,7 +26,7 @@ sudo ./aml-flash-tool.sh <aml_install_package.img>
     {% include alerts/note.html content="These flash packages were built by LineageOS maintainers from officially supported LineageOS repositories, by using `lunch` to select the device, then run `m aml_install`." %}
     {% include alerts/warning.html content="Please note that both `aml-flash-tool` and `update` are known to be somewhat finicky on specific host platforms (e.g. AMD machines). If you see any failures in flashing, return to step 2 and try again." %}
 5. The script will flash the firmware, and after you see `Resetting board [OK]`, plug in a USB keyboard and cycle power to the board, at which point you will see LineageOS Recovery boot. You may now proceed with the following installation instructions.
-6. Using your keyboard's <kbd>Arrow Keys</kbd> to navigate, and <kbd>Enter Key</kbd> to select the "Advanced" option, then "Enter fastboot".
+6. Using your keyboard's <kbd>Arrow Keys</kbd> to navigate, and <kbd>Enter Key</kbd> to select the **Advanced** option, then **Enter fastboot**.
 7. Download `super_empty.img` from [here](https://download.lineageos.org/devices/{{ device.codename }}).
 8. Now, prepare the super image for dynamic partitions by running the following (replace `<super_empty.img>` with the actual filename!):
 ```

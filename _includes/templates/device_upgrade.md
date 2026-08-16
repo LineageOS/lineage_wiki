@@ -92,7 +92,7 @@ The updater app does not support upgrades from one version of LineageOS to anoth
     {% include alerts/warning.html content="Without this step your device will not boot on the new version!" %}
     {% include alerts/warning.html content="This step ***will*** wipe your personal data and remove any user-installed apps. If these are important to you, then you should back them up ***before*** performing the upgrade." %}
 {%- if device.uses_twrp != true %}
-6. Click `Advanced`, then `Enable ADB`.
+6. Click **Advanced**, then **Enable ADB**.
 {%- endif %}
 {%- endif %}
 {%- if device.is_ab_rdap and device.is_ab_device %}
@@ -147,17 +147,17 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
    ```
     those packages in sequence.
 {%- elsif device.is_ab_device %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `Reboot to Recovery`, then when your device reboots, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
+6. _(Optionally)_: If you want to install any add-ons, click **Advanced**, then **Reboot to Recovery**, then when your device reboots, click **Apply update**, then **Apply from ADB**, then run for each of those packages in sequence:
    ```
    adb -d sideload /path/to/zip
    ```
 {%- elsif device.uses_twrp %}
-6. _(Optionally)_: If you want to install any add-ons, click `Advanced`, then `ADB Sideload`, then swipe to begin sideload, then run for each of those packages in sequence:
+6. _(Optionally)_: If you want to install any add-ons, click **Advanced**, then **ADB Sideload**, then swipe to begin sideload, then run for each of those packages in sequence:
    ```
    adb -d sideload /path/to/zip
    ```
 {%- else %}
-6. _(Optionally)_: If you want to install any add-ons, click `Apply update`, then `Apply from ADB`, then run for each of those packages in sequence:
+6. _(Optionally)_: If you want to install any add-ons, click **Apply update**, then **Apply from ADB**, then run for each of those packages in sequence:
    ```
    adb -d sideload /path/to/zip
    ```
@@ -173,7 +173,7 @@ Follow your [device's installation guide]({{ device | device_link: "/install" | 
    adb -d reboot
    ```
 {% else %}
-7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then "Reboot system now".
+7. Once you have installed everything successfully, click the back arrow in the top left of the screen, then **Reboot system now**.
 {% endif %}
 
 {%- if device.custom_recovery_link or device.uses_twrp %}
