@@ -2,7 +2,7 @@
 
 These instructions will only work on devices that have not yet been updated past the February 2021 Security Patch Level.
 
-You can check this in the Settings application under the "System", "About" tab, labeled "Security Patch Level".
+You can check this in the Settings application under the **System**, **About** tab, labeled **Security Patch Level**.
 
 If your device was updated past this build, it is not vulnerable to the unlock exploit utilized below, and you cannot run LineageOS on that device.
 
