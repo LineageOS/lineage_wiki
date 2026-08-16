@@ -5,7 +5,7 @@
 {% include alerts/warning.html content="Before processing repartition further we highly recommend you backup persist and EFS using adb or you might lose your IMEI/WIFI + BT mac addresses" %}
 1. If you are not in recovery, reboot into recovery:
     * {{ device.recovery_boot }}
-2. Now, use the volume buttons to select "Advanced", and then "Enable ADB".
+2. Now, use the volume buttons to select **Advanced**, and then **Enable ADB**.
 3. Now open Terminal (Linux/macOS), or PowerShell (Windows), run `adb -d shell`, and then run the following commands within it:
     - `dd if=/dev/block/sdd9 of=/tmp/modemst1.img`
     - `dd if=/dev/block/sdd10 of=/tmp/modemst2.img`
@@ -22,8 +22,8 @@
 {% include alerts/warning.html content="This process will wipe all data on the device, including your internal storage!" %}
 1. Download the flashable repartition script from [here](https://blob.lineageos.org/downloads/repartition-ogpixel-32gb.zip){: .download} for 32 GB models, and [here](https://blob.lineageos.org/downloads/repartition-ogpixel-128gb.zip){: .download} for 128 GB models.
 2. Rename the downloaded zip file to `repartition.zip`.
-3. On your device's screen, choose "Apply update", then "Apply from ADB".
+3. On your device's screen, choose **Apply update**, then **Apply from ADB**.
 4. From your Terminal/PowerShell, run `adb -d sideload /path/to/repartition.zip`, filling `/path/to/` in with the path you downloaded the repartition zip to.
-    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says `Signature verification failed`, this is expected, please click `Yes`." %}
+    {% include alerts/note.html content="The repartition script package in question isn't signed with LineageOS's official key, and therefore when it is sideloaded, Lineage Recovery will present a screen that says **Signature verification failed**, this is expected, please click **Yes**." %}
     {% include alerts/warning.html content="This step may take up to 5 minutes, please ensure your USB connection/power source isn't interrupted during this time." %}
-5. The device will complete the repartition process, and will display `Done!` on-screen, at this point please select "Advanced" then "Reboot to Recovery", then proceed with the installation process. 
+5. The device will complete the repartition process, and will display `Done!` on-screen, at this point please select **Advanced** then **Reboot to Recovery**, then proceed with the installation process. 

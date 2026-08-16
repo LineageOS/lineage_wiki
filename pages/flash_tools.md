@@ -42,7 +42,7 @@ As installation steps vary by device, please refer to the device-specific instal
 
    From here you can use the **Reboot recovery** or **Reboot bootloader** buttons to reboot the device into the mode you need.
 
-3. In LineageOS recovery, select `Apply update > Apply from ADB` using the touch screen, or use the volume keys to navigate and the power button to select.
+3. In LineageOS recovery, select **Apply update**, then **Apply from ADB** using the touch screen, or use the volume keys to navigate and the power button to select.
 4. Click **Connect** again if the device disconnected during the reboot, then select it from the pop-up list.
 
    <div class="img-container">
