@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "68b00943_a31bcbe1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-08-17T06:58:50Z",
+      "side": 1,
+      "message": "done.",
+      "parentUuid": "deba60f7_9bf539fb",
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "20ff8c6b_538244fe",
@@ -31,6 +49,30 @@
       "writtenOn": "2026-08-17T05:45:13Z",
       "side": 1,
       "message": "here",
+      "range": {
+        "startLine": 25,
+        "startChar": 76,
+        "endLine": 25,
+        "endChar": 98
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "286141e8_5adf9173",
+        "filename": "_includes/snippets/format_on_upgrade.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-08-17T06:58:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "20ff8c6b_538244fe",
       "range": {
         "startLine": 25,
         "startChar": 76,
@@ -64,6 +106,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8ca95e9_2d692a5f",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-08-17T06:58:50Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fb1b8e9d_ef91963d",
+      "range": {
+        "startLine": 16,
+        "startChar": 56,
+        "endLine": 16,
+        "endChar": 76
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "9b5597d0_f9af477c",
@@ -77,6 +143,30 @@
       "writtenOn": "2026-08-17T05:16:46Z",
       "side": 1,
       "message": "here",
+      "range": {
+        "startLine": 125,
+        "startChar": 46,
+        "endLine": 125,
+        "endChar": 83
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c346df7b_c8002030",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-08-17T06:58:50Z",
+      "side": 1,
+      "message": "done, I missed this because someone had to use very fancy quote marks here.",
+      "parentUuid": "9b5597d0_f9af477c",
       "range": {
         "startLine": 125,
         "startChar": 46,
