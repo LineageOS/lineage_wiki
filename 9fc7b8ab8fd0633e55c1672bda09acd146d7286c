@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "deba60f7_9bf539fb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 12
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-08-17T05:16:46Z",
+      "side": 1,
+      "message": "here too?\nhttps://github.com/LineageOS/lineage_wiki/blob/main/_data/faq.yml#L97\nhttps://github.com/LineageOS/lineage_wiki/blob/main/pages/flash_tools.md?plain\u003d1#L45",
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b5597d0_f9af477c",
+        "filename": "_includes/templates/device_upgrade.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 125,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-08-17T05:16:46Z",
+      "side": 1,
+      "message": "here",
+      "range": {
+        "startLine": 125,
+        "startChar": 46,
+        "endLine": 125,
+        "endChar": 83
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
