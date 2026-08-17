@@ -20,6 +20,52 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "20ff8c6b_538244fe",
+        "filename": "_includes/snippets/format_on_upgrade.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-08-17T05:45:13Z",
+      "side": 1,
+      "message": "here",
+      "range": {
+        "startLine": 25,
+        "startChar": 76,
+        "endLine": 25,
+        "endChar": 98
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fb1b8e9d_ef91963d",
+        "filename": "_includes/templates/device_specific/before_lineage_install_ab_copy_partitions.md",
+        "patchSetId": 12
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-08-17T05:45:13Z",
+      "side": 1,
+      "message": "here",
+      "range": {
+        "startLine": 16,
+        "startChar": 56,
+        "endLine": 16,
+        "endChar": 76
+      },
+      "revId": "9fc7b8ab8fd0633e55c1672bda09acd146d7286c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "9b5597d0_f9af477c",
         "filename": "_includes/templates/device_upgrade.md",
         "patchSetId": 12
