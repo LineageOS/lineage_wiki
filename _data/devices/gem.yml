@@ -1,0 +1,37 @@
+architecture: arm64
+battery: {capacity: 1860, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '10'}
+bluetooth: {profiles: [A2DP + aptX], spec: '5.0'}
+cameras:
+  - {flash: 'LED', info: '48 MP'}
+  - {flash: None, info: '12 MP'}
+codename: gem
+cpu: Kryo 470
+cpu_cores: '6'
+cpu_freq: 2 x 2.2 GHz + 6 x 1.8 GHz
+current_branch: 23.2
+dimensions: {depth: 10, height: 141.2, width: 43.4}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 618
+image: gem.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_essential_sm7150, version: '4.14'}
+maintainers: [ItsVixano, npjohnson]
+name: 'GEM'
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [A-GPS, Accelerometer, Compass, Fingerprint reader, GLONASS, GPS, Gyroscope, Light sensor, Pedometer, Proximity sensor, USB OTG]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>. Then use the menu to select *Recovery Mode*.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2019
+screen: {refresh_rate: 90, resolution: '560x2160', size: 5.7, technology: 'AMOLED'}
+soc: Qualcomm SM7150-AB Snapdragon 730G
+storage: 64 GB
+tree: android_device_essential_gem
+type: phone
+vendor: Essential
+vendor_short: essential
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac
+
