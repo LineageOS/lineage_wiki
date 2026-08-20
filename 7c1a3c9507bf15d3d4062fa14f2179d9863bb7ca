@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8064ca75_60979dd9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-08-20T03:48:08Z",
+      "side": 1,
+      "message": "confirmed on preview that it\u0027s added. I needed it to run extract-files.py on rtwo stock ROM as the A16 version has some erofs partitions",
+      "revId": "7c1a3c9507bf15d3d4062fa14f2179d9863bb7ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
