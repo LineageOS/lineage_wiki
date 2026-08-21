@@ -16,7 +16,7 @@ gpu: Qualcomm Adreno 308
 image: Mi8917_variant1.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_msm8937, version: '4.19'}
-maintainers: ["0xCAFEBABE"]
+maintainers: []
 models: ["2016111", "2016112", "2016116", "2016117"]
 name: Redmi 4A
 network: [2G GSM, 3G UMTS, 4G LTE]

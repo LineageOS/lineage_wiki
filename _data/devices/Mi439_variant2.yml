@@ -19,7 +19,7 @@ gpu: Qualcomm Adreno 505
 image: Mi439_variant2_4.png
 install_method: fastboot_xiaomi
 kernel: {repo: android_kernel_xiaomi_msm8937, version: '4.19'}
-maintainers: ["0xCAFEBABE"]
+maintainers: []
 models: [M1908C3IC, M1908C3IE, M1908C3IG, M1908C3IH, M1908C3II]
 name: Redmi 8
 network: [2G GSM, 3G UMTS, 4G LTE]
