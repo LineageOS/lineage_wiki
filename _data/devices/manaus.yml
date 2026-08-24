@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '15'}
+bluetooth: {profiles: [A2DP], spec: '5.4'}
+cameras:
+  - {flash: 'LED', info: '50 MP (Wide)'}
+  - {flash: 'LED', info: '13 MP (Ultrawide)'}
+  - {flash: None, info: '32 MP (Front)'}
+codename: manaus
+cpu: Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.5 GHz + 6 x 2.0 GHz
+current_branch: 23.2
+dimensions: {depth: 7.9, height: 159.6, width: 72}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G610 MC3
+image: manaus.png
+install_method: fastboot_motorola_preflash
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_mt6879, version: '5.10'}
+maintainers: [rexix01]
+models: [XT2307-1, XT2307-2, XT2307-3]
+name: edge 40 neo
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Compass, Dual SIM, eSIM, Fingerprint reader, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Stereo speakers, USB OTG]
+ram: 8/12 GB LPDDR5X
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_menu
+release: 2023-09
+screen: {refresh_rate: 144, resolution: '1080x2400', size: 6.55, technology: 'P-OLED'}
+soc: Mediatek Dimensity 7030
+storage: 128/256 GB uMCP
+tree: android_device_motorola_manaus
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
