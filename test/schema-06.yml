@@ -304,12 +304,12 @@ definitions:
       - Intel Atom Z2560
       - Intel Atom Z3560
       - Intel Atom Z3580
+      - Mediatek Dimensity 7030
       - Mediatek Helio G80
       - Mediatek Helio G81 Extreme
       - Mediatek Helio G85
       - Mediatek Helio G95
       - Mediatek Helio G99
-      - Mediatek Dimensity 7030
       - NVIDIA Tegra 4 (T114)
       - NVIDIA Tegra K1 (T124)
       - NVIDIA Tegra X1 (T210)
@@ -824,7 +824,6 @@ properties:
       - fastboot_lenovo
       - fastboot_lg
       - fastboot_motorola
-      - fastboot_motorola_preflash
       - fastboot_nexus
       - fastboot_nokia
       - fastboot_nubia
