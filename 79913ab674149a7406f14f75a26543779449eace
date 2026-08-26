@@ -22,6 +22,30 @@
       },
       "revId": "79913ab674149a7406f14f75a26543779449eace",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41197a62_213e114c",
+        "filename": "_includes/templates/device_specific/before_install_aml_wifi_chipset.md",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-08-26T20:05:24Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "66d5d252_99075d14",
+      "range": {
+        "startLine": 16,
+        "startChar": 48,
+        "endLine": 16,
+        "endChar": 53
+      },
+      "revId": "79913ab674149a7406f14f75a26543779449eace",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
