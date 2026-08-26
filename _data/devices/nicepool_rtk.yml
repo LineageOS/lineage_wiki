@@ -4,7 +4,7 @@ before_install: {instructions: 'aml_wifi_chipset', ships_fw: True, version: '10'
 before_recovery_install: g12
 bluetooth: {spec: '4.2'}
 cameras: []
-codename: nicepool
+codename: nicepool_rtk
 cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
@@ -17,7 +17,7 @@ image: nicepool.png
 install_method: fastboot_nexus
 kernel: {repo: android_kernel_amlogic_linux-4.9, version: '4.9'}
 maintainers: [chrmhoffmann, npjohnson]
-name: Pop / TV (Broadcom Wi-Fi/BT)
+name: Pop / TV (Realtek Wi-Fi/BT)
 network: None
 peripherals: [HDMI]
 ram: 2 GB
@@ -27,7 +27,7 @@ release: 2020-07-07
 screen: None
 soc: Amlogic S905X2
 storage: 16 GB
-tree: android_device_freebox_nicepool
+tree: android_device_freebox_nicepool_rtk
 type: Set top box
 vendor: Freebox
 vendor_short: freebox
