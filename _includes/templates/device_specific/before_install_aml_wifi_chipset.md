@@ -10,10 +10,10 @@ To discern this, ensure [ADB is enabled](https://wiki.lineageos.org/adb_fastboot
 
 Then, on your host machine run the following command:
 ```
-adb shell getprop vendor.bcm_wifi
+adb shell lsmod | grep dhd
 ```
 
-If the command returns "bcm", you have the Broadcom chipset, which is supported by the [nicepool](https://wiki.lineageos.org/devices/nicepool/) build.
+If the command returns something containing the phase "dhd", you have the Broadcom chipset, which is supported by the [nicepool](https://wiki.lineageos.org/devices/nicepool/) build.
 
 If the command returns nothing, you have the Realtek chipset, which is supported by the [nicepool_rtk](https://wiki.lineageos.org/devices/nicepool_rtk/) build.
 
