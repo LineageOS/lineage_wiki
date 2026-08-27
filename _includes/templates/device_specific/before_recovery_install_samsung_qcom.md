@@ -15,7 +15,7 @@
     * Verify that "OEM Unlock" is still enabled
 5. Power off the device, and again boot it into download mode:
     * {{ device.download_boot }}
-6. Download and extract the appropriate version of the samloader-rs for your machine's OS from [here](https://github.com/topjohnwu/samloader-rs/releases/latest).
+6. Download and extract the appropriate version of the samloader-rs for your machine's OS from [here](https://github.com/lineage-next/samloader-rs/releases/latest).
 7. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
 ```
 samloader flash --partition VBMETA vbmeta.img

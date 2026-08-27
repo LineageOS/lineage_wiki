@@ -18,7 +18,7 @@ The preferred method of installing a custom recovery is through Download Mode{% 
 1. Enable Developer Options by pressing the "Build Number" option in the "Settings" app within the "About" menu
  * From within the Developer options menu, enable OEM unlock.
 {% endunless %}
-2. Download and extract the appropriate version of the samloader-rs for your machine's OS from [here](https://github.com/topjohnwu/samloader-rs/releases/latest)
+2. Download and extract the appropriate version of the samloader-rs for your machine's OS from [here](https://github.com/lineage-next/samloader-rs/releases/latest)
 3. Power off the device, and boot it into download mode:
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
