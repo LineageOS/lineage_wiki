@@ -8,7 +8,7 @@ There are two possibilities to get the latest firmware:
 
 1. Download the latest firmware for your model [here](https://github.com/chrmhoffmann/gta4l-fw/releases) (All `.tar.md5` files)
    {% include alerts/note.html content="You can find your model number on the back of your device!" %}
-2. Flash the just downloaded files using [samloader-rs](https://github.com/topjohnwu/samloader-rs):
+2. Flash the just downloaded files using [samloader-rs](https://github.com/lineage-next/samloader-rs):
 ```
 samloader flash --BL BL_*.tar.md5 --CP CP_*.tar.md5
 ```
