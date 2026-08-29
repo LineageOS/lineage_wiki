@@ -16,6 +16,23 @@
       "message": "Ready",
       "revId": "184e3aeb74af7657fbd5db1d30f2fdfdaccc0758",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e9e5eaa5_5e98cc03",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31890
+      },
+      "writtenOn": "2026-08-29T21:42:16Z",
+      "side": 1,
+      "message": "Waiting for memcg-fixes",
+      "revId": "184e3aeb74af7657fbd5db1d30f2fdfdaccc0758",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
