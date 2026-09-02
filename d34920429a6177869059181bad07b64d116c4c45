@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "079fa0ce_e2fbbd0b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37184
+      },
+      "writtenOn": "2026-09-02T19:39:19Z",
+      "side": 1,
+      "message": "Relevant link for the zip\n\nhttps://github.com/fiqys/copypartitions/releases/tag/copy-partitions-20260209",
+      "revId": "d34920429a6177869059181bad07b64d116c4c45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
