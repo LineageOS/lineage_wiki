@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "713f1dd7_d8b3ef4f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-02T19:31:24Z",
+      "side": 1,
+      "message": "i don\u0027t think swap lineage hosted package with random github one...",
+      "revId": "5baa940ebb113348c932b763419dd10c27c09067",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
