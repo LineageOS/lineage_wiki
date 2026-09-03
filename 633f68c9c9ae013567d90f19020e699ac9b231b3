@@ -39,6 +39,30 @@
       },
       "revId": "633f68c9c9ae013567d90f19020e699ac9b231b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "683df6fa_69eb0153",
+        "filename": "_data/devices/eqs.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 14010
+      },
+      "writtenOn": "2026-09-03T20:39:09Z",
+      "side": 1,
+      "message": "Yes, you are right. I\u0027ll push a change tomorrow",
+      "parentUuid": "d74e423e_bfe5adde",
+      "range": {
+        "startLine": 3,
+        "startChar": 109,
+        "endLine": 3,
+        "endChar": 111
+      },
+      "revId": "633f68c9c9ae013567d90f19020e699ac9b231b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
