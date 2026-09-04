@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8a01db72_7228068f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-09-04T19:43:42Z",
+      "side": 1,
+      "message": "Surprisingly, even though Moto X40 wasn\u0027t on the A16 roster, it did eventually receive it. XT2301-5_RTWO_RETCN_16_W1TR36H.1-33_subsidy-DEFAULT_regulatory-DEFAULT_CFC is the version",
+      "revId": "d6fb7938278e48b5661481e4cdb347932f7b1a79",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
