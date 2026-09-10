@@ -11,8 +11,8 @@ permalink: libvirt-qemu.html
 
 Please note the following list of known issues with the `virtio_*` targets:
 
-* Display color (only with Swiftshader graphics selected)
-* Video playback (by default with Mesa graphics, which is the most common use case)
+* Display color (only with Swiftshader graphics selected) (Workaround exists in `sf-pixel-format-prop` topic on our Gerrit)
+* Video playback (by default with Mesa graphics, which is the most common use case) (Workaround exists in `c2-rgb` topic on our Gerrit)
 
 ## Introduction
 
