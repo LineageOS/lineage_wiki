@@ -11,7 +11,7 @@ permalink: libvirt-qemu.html
 
 Please note the following list of known issues with the `virtio_*` targets:
 
-* Display color (only with Swiftshader graphics selected) (Workaround exists in `sf-pixel-format-prop` topic on our Gerrit)
+* Display color (only with Swiftshader graphics selected) (Workaround exists in `sf-pixel-format-prop` topic on our Gerrit for pre `lineage-24.0` branches)
 * Video playback (by default with Mesa graphics, which is the most common use case) (Workaround exists in `c2-rgb` topic on our Gerrit)
 
 ## Introduction
@@ -35,6 +35,7 @@ The following branches are currently supported for building image for libvirt QE
 * lineage-23.0
 * lineage-23.1
 * lineage-23.2
+* lineage-24.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
