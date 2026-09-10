@@ -255,7 +255,9 @@ A keyboard is always needed. Ensure there is a keyboard included in the virtual 
 
 ### Configure virtual machine sound
 
-Sound card model `AC97` (which is the default) is recommended. Other models might work too but may have issues.
+Prior to `lineage-24.0` branch, sound card model `AC97` (which is the default) is recommended. Other models might work too but may have issues.
+
+Since `lineage-24.0` branch, all the Intel models on the sound card list are supported.
 
 {% include alerts/important.html content="The `aarch64` architecture does not have a sound card added by default. You will have to add it manually." %}
 
