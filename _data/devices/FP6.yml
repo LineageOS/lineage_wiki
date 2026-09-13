@@ -37,5 +37,5 @@ tree: android_device_fairphone_FP6
 type: phone
 vendor: Fairphone
 vendor_short: fairphone
-versions: [23.2]
+versions: [23.2, 24.0, 23.2]
 wifi: 802.11 a/b/g/n/ac/ax
