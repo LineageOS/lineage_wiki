@@ -9,7 +9,7 @@ codename: ohm
 cpu: Cortex-A55
 cpu_cores: '4'
 cpu_freq: 2.0 GHz
-current_branch: 23.2
+current_branch: 24.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 127, height: 50.8, width: 177.8}
 download_boot: With the device unplugged, connect USB-C to your host machine, then connect power to the device while holding the <kbd>Reset Button</kbd> (rear of device) until the DroidLogic logo appears on screen, then on your host run "fastboot reboot bootloader".
@@ -33,5 +33,5 @@ type: Set top box
 variant: 2
 vendor: DroidLogic
 vendor_short: amlogic
-versions: [23.2]
+versions: [23.2, 24.0]
 wifi: 802.11 a/b/g/n/ac
