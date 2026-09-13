@@ -18,6 +18,8 @@ gpu: ARM Mali-G72 MP3
 image: kane.png
 install_method: fastboot_motorola
 is_ab_device: true
+is_ab_rdap: true
+is_ab_rdap_version: 24.0
 kernel: {repo: android_kernel_motorola_exynos9610, version: '4.14'}
 maintainers: [Stricted, npjohnson, DaemonMCR]
 models: [XT1970-5]
