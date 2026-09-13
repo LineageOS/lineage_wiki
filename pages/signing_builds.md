@@ -230,6 +230,11 @@ on all packages at every boot. Install them for as little time as possible." %}
 
 You can set up your own migration builds by running:
 
+LineageOS 23.2:
+```
+repopick -f 471209
+```
+
 LineageOS 23.0:
 ```
 repopick -f 452269
