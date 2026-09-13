@@ -9,7 +9,7 @@ codename: Q25
 cpu: Cortex-A76 & Cortex-A55
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 2.0 GHz
-current_branch: 23.2
+current_branch: 24.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 10.2, height: 131, width: 72.4}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. When the boot menu text appears, release the buttons and choose fastboot.
@@ -35,5 +35,5 @@ tree: android_device_xelex_Q25
 type: phone
 vendor: Zinwa
 vendor_short: xelex
-versions: [23.2]
+versions: [23.2, 24.0]
 wifi: 802.11 a/b/g/n/ac/ax
