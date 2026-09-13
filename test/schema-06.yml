@@ -472,6 +472,7 @@ definitions:
       - 22.2
       - 23.0
       - 23.2
+      - 24.0
     type: number
   valid_kernel_versions:
     enum:
