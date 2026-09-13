@@ -35,6 +35,7 @@ The following branches are currently supported for building image for libvirt QE
 * lineage-23.0
 * lineage-23.1
 * lineage-23.2
+* lineage-24.0
 
 {% include snippets/branches.md %}
 {% include templates/device_build_init_sync.md %}
