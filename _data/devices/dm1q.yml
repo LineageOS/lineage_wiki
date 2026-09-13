@@ -12,7 +12,7 @@ codename: dm1q
 cpu: Cortex-X3 & Cortex-A715 & Cortex-A710 & Cortex-A510
 cpu_cores: '8'
 cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
-current_branch: 23.2
+current_branch: 24.0
 dimensions: {depth: 7.6, height: 146.3, width: 70.9}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
 gpu: Qualcomm Adreno 740
@@ -37,5 +37,5 @@ tree: android_device_samsung_dm1q
 type: phone
 vendor: Samsung
 vendor_short: samsung
-versions: [23.2]
+versions: [23.2, 24.0]
 wifi: 802.11 a/b/g/n/ac/ax
