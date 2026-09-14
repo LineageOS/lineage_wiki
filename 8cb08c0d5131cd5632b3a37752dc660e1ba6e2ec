@@ -159,6 +159,24 @@
       "parentUuid": "c836253e_e9edd732",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "99025da2_364155bf",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2026-09-14T12:46:23Z",
+      "side": 1,
+      "message": "Removed.",
+      "parentUuid": "b7cbc8e3_dff3d771",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
