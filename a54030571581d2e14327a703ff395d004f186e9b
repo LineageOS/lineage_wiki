@@ -16,6 +16,24 @@
       "message": "can you use less trippy device photo?",
       "revId": "a54030571581d2e14327a703ff395d004f186e9b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4af48ea8_3cd58472",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2026-09-14T11:37:17Z",
+      "side": 1,
+      "message": "Changed to custom image of black color model, where I have full resolution images of front and back seperately, so was able to put screen in front of the back.",
+      "parentUuid": "e1755ae4_57344e59",
+      "revId": "a54030571581d2e14327a703ff395d004f186e9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
