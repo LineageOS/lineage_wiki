@@ -8,7 +8,6 @@ cameras:
   - {flash: 'LED', info: '10 MP (telephoto)'}
   - {flash: 'LED', info: '10 MP (periscope telephoto)'}
   - {flash: 'LED', info: '12 MP (ultrawide)'}
-  - {flash: None, info: '0 MP (Laser AF)'}
   - {flash: None, info: '40 MP (front)'}
 codename: b0s
 cpu: Cortex-X2 & Cortex-A710 & Cortex-A510
