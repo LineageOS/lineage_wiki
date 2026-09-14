@@ -123,6 +123,24 @@
       "parentUuid": "c5f054b2_ade3443b",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c836253e_e9edd732",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 36094
+      },
+      "writtenOn": "2026-09-14T12:42:28Z",
+      "side": 1,
+      "message": "Maybe Laser AF should be moved from Cameras to Peripherals?",
+      "parentUuid": "38be5882_67edce3d",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
