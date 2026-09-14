@@ -16,6 +16,24 @@
       "message": "really? what\u0027s the point of adding that",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5b8ff493_6dd031b9",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-09-14T12:35:47Z",
+      "side": 1,
+      "message": "It is kind of a camera after all",
+      "parentUuid": "ce222a6a_068d7cb0",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
