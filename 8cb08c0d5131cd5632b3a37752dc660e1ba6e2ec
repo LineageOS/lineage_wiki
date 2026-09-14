@@ -141,6 +141,24 @@
       "parentUuid": "38be5882_67edce3d",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b7cbc8e3_dff3d771",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-14T12:43:32Z",
+      "side": 1,
+      "message": "unless someone wants to update 10 years of devices, I would advise otherwise.",
+      "parentUuid": "c836253e_e9edd732",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
