@@ -87,6 +87,24 @@
       "parentUuid": "190bc827_bec085be",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c5f054b2_ade3443b",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-09-14T12:38:56Z",
+      "side": 1,
+      "message": "Ish, slightly different but does basically the same thing, helps with camera autofocusing. If we remove it from here it should also be removed from b0s wiki page.",
+      "parentUuid": "ae618ad1_577f76bf",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
