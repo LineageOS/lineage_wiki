@@ -34,6 +34,24 @@
       "parentUuid": "ce222a6a_068d7cb0",
       "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "190bc827_bec085be",
+        "filename": "_data/devices/c2s.yml",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-14T12:36:17Z",
+      "side": 1,
+      "message": "isn\u0027t it a ToF sensor?",
+      "parentUuid": "5b8ff493_6dd031b9",
+      "revId": "8cb08c0d5131cd5632b3a37752dc660e1ba6e2ec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
