@@ -1,9 +1,9 @@
 ---
 sidebar: home_sidebar
-title: Update firmware on oscar
+title: Update firmware on oscarru
 folder: fw_update
-permalink: /devices/oscar/fw_update/variant2/
-device: oscar_variant2
+permalink: /devices/oscarru/fw_update/
+device: oscarru
 ---
 {% assign device = site.data.devices[page.device] %}
 {% capture path %}templates/device_specific/{{ device.firmware_update }}.md{% endcapture %}
