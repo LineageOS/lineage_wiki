@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Upgrade LineageOS on oscar
+title: Upgrade LineageOS on oscarc
 folder: upgrade
-permalink: /devices/oscar/upgrade/
-device: oscar
+permalink: /devices/oscarc/upgrade/
+device: oscarc
 ---
 {% include templates/device_upgrade.md %}
