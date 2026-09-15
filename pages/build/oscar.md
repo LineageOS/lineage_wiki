@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Build for oscar
 folder: build
-permalink: /devices/oscar/build/variant2/
-device: oscar_variant2
+permalink: /devices/oscar/build/
+device: oscar
 ---
 {% include templates/device_build.md %}
