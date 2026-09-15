@@ -9,7 +9,6 @@ cpu: Cortex-A53
 cpu_cores: '4'
 cpu_freq: 1.8 GHz
 current_branch: 22.2
-custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 17, height: 56, width: 85}
 download_boot: With the device unplugged, plug in the device while holding the <kbd>SW3 Button</kbd> on the board until you see a logo on screen. At this point you can communicate with the device by utilizing Amlogic's [update](https://github.com/khadas/utils/blob/master/aml-flash-tool/tools/linux-x86/update) tool, and run 'sudo ./update bulkcmd fastboot' to enter fastboot mode.
 gpu: ARM Mali-G31 MP2
