@@ -1,8 +1,8 @@
 ---
 sidebar: home_sidebar
-title: Info about oscar
+title: Info about oscarru
 layout: deviceinfo
-permalink: /devices/oscar/variant2/
-device: oscar_variant2
+permalink: /devices/oscarru/
+device: oscarru
 ---
 {% include templates/device_info.md %}

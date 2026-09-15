@@ -2,7 +2,7 @@
 sidebar: home_sidebar
 title: Update LineageOS on oscar
 folder: update
-permalink: /devices/oscar/update/variant2/
-device: oscar_variant2
+permalink: /devices/oscar/update/
+device: oscar
 ---
 {% include templates/device_update.md %}
