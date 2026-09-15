@@ -9,15 +9,17 @@ codename: X00TD
 cpu: Kryo 260
 cpu_cores: '8'
 cpu_freq: 1.8 GHz
-current_branch: 20
+current_branch: 24.0
 dimensions: {depth: 8.5, height: 159, width: 76}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>. Keep holding both buttons until the word "FASTBOOT" appears on the screen, then release.
 gpu: Qualcomm Adreno 509
 image: X00TD.png
 install_method: fastboot_zenfone
+is_ab_rdap: true
+is_ab_rdap_version: 24.0
 is_unlockable: false
-kernel: {repo: android_kernel_asus_sdm660, version: '4.4'}
-maintainers: []
+kernel: {repo: android_kernel_asus_sdm660, version: '4.19'}
+maintainers: [Vivekachooz]
 name: Zenfone Max Pro M1
 network: [2G GSM, 3G UMTS, 4G LTE]
 peripherals: [3.5mm jack, Accelerometer, Compass, FM radio, Fingerprint reader, GPS, Proximity sensor]
@@ -33,5 +35,5 @@ tree: android_device_asus_X00TD
 type: phone
 vendor: ASUS
 vendor_short: asus
-versions: [15.1, 16.0, 18.1, 19.1, 20]
+versions: [15.1, 16.0, 18.1, 19.1, 20, 24.0]
 wifi: 802.11 b/g/n
