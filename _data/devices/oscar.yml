@@ -1,45 +1,44 @@
 architecture: arm64
 battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 21, ships_fw: true, version: '14'}
-before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, boot]}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.1'}
 cameras:
-  - {flash: 'LED', info: '50 MP (main)'}
+  - {flash: 'LED', info: '64 MP (main)'}
+  - {flash: 'LED', info: '8 MP (ultrawide)'}
   - {flash: 'LED', info: '2 MP (macro)'}
-  - {flash: 'LED', info: '2 MP (depth)'}
   - {flash: None, info: '16 MP'}
 codename: oscar
 cpu: Kryo 660
 cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
-current_branch: 23.2
+current_branch: 24.0
 dimensions: {depth: 8.5, height: 164.3, width: 75.6}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 firmware_update: firmware_update_realme_sm6375
 gpu: Qualcomm Adreno 619
-image: oscar_variant2.png
+image: oscar.png
 install_method: fastboot_realme
 is_ab_device: true
 is_unlockable: false
 kernel: {repo: android_kernel_realme_sm6375, version: '5.4'}
 maintainers: [Vivekachooz]
-models: [RMX3474]
-name: 9 5G
+models: [RMX3471, RMX3472]
+name: 9 Pro 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, USB OTG]
-ram: 4 GB LPDDR4X
+ram: 6/8 GB LPDDR4X
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
 recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
-release: 2022-06-09
+release: 2022-02-23
 screen: {refresh_rate: 120, resolution: '1080x2412', size: 6.6, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB'}
 soc: Qualcomm SM6375 Snapdragon 695
 storage: 128 GB UFS2.2
 tree: android_device_realme_oscar
 type: phone
-variant: 2
 vendor: Realme
 vendor_short: realme
-versions: [21, 22.1, 22.2, 23.0, 23.2]
+versions: [21, 22.1, 22.2, 23.0, 23.2, 24.0]
 wifi: 802.11 a/b/g/n/ac
