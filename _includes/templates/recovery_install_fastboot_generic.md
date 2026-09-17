@@ -75,7 +75,7 @@ fastboot flash {{ device.recovery_partition_name }} {{ device.recovery_partition
     Do **not** reboot into the existing OS, since it will overwrite the recovery you just installed!
     * {{ device.recovery_boot }}
 
-      {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above" %}
+      {% include alerts/note.html content="If you can't power down the device, try long-pressing the key-combination (if any was used in the instructions above) until the device reboots and follow the instructions above." %}
     {%- endif %}
 {%- include snippets/recovery_logo_note.md %}
 {%- endif %}
