@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 7500, removable: false, tech: 'Si/C Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '16'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '6.0'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (telephoto)'}
+  - {flash: None, info: '16 MP'}
+codename: fairlady
+cpu: Oryon
+cpu_cores: '8'
+cpu_freq: 2 x 4.6 GHz + 6 x 3.62 GHz
+current_branch: 24.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.4, height: 150.6, width: 71.8}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oplus_sm8850
+gpu: Qualcomm Adreno 840
+image: fairlady.png
+install_method: fastboot_oplus
+is_ab_device: true
+kernel: {version: '6.12'}
+maintainers: [LuK1337]
+models: [PLZ110]
+name: '15T'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, Dual SIM, Dual-frequency GNSS, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NavIC, SBAS, QZSS, Google Assist Button, Gyroscope, IR blaster, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, USB OTG]
+ram: 12/16 GB LPDDR5X
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2025-01
+screen: {refresh_rate: 165, resolution: '1216x2640', size: 6.32, technology: 'AMOLED'}
+soc: Qualcomm SM8750 Snapdragon 8 Elite
+storage: 256/512/1 TB UFS4.1
+tree: android_device_oneplus_fairlady
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac/ax/be
