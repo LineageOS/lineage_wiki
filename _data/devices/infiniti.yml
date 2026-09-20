@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 7300, removable: false, tech: 'Si/C Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '16'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '6.0'}
+cameras:
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (wide)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (telephoto)'}
+  - {flash: 'Dual LED (dual tone)', info: '50 MP (ultrawide)'}
+  - {flash: None, info: '32 MP'}
+codename: infiniti
+cpu: Oryon
+cpu_cores: '8'
+cpu_freq: 2 x 4.6 GHz + 6 x 3.62 GHz
+current_branch: 24.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 8.1, height: 161.4, width: 76.7}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+firmware_update: firmware_update_oplus_sm8850
+gpu: Qualcomm Adreno 840
+image: infiniti.png
+install_method: fastboot_oplus
+is_ab_device: true
+kernel: {version: '6.12'}
+maintainers: [chandu078]
+models: [CPH2745, CPH2747, CPH2749, PLK110]
+name: '15'
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Color spectrum sensor, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NavIC, SBAS, QZSS, Google Assist Button, Gyroscope, IR blaster, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, USB OTG]
+ram: 12/16 GB LPDDR5X
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2025-10
+screen: {refresh_rate: 165, resolution: '1272x2772', size: 6.78, technology: 'AMOLED'}
+soc: Qualcomm SM8850 Snapdragon 8 Elite Gen 5
+storage: 256/512/1 TB UFS4.1
+tree: android_device_oneplus_infiniti
+type: phone
+vendor: OnePlus
+vendor_short: oneplus
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac/ax/be
