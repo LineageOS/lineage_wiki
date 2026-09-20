@@ -27,6 +27,8 @@ definitions:
         enum:
           - Li-Ion
           - Li-Po
+          - Si/C Li-Ion
+          - Si/C Li-Po
     required:
       - capacity
       - removable
@@ -194,6 +196,7 @@ definitions:
       - Qualcomm Adreno 810
       - Qualcomm Adreno 825
       - Qualcomm Adreno 830
+      - Qualcomm Adreno 840
   iso8601_reduced_precision_date:
     description: Date in ISO8601 reduced precision format
     examples:
@@ -427,6 +430,7 @@ definitions:
       - Qualcomm SM8650 Snapdragon 8 Gen3
       - Qualcomm SM8735 Snapdragon 8s Gen4
       - Qualcomm SM8750 Snapdragon 8 Elite
+      - Qualcomm SM8850 Snapdragon 8 Elite Gen 5
       - Samsung Exynos 2200
       - Samsung Exynos 1280
       - Samsung Exynos 850
@@ -491,6 +495,7 @@ definitions:
       - '5.15'
       - '6.1'
       - '6.6'
+      - '6.12'
     type: string
   valid_networks:
     description: All valid networks a device can support
@@ -667,6 +672,7 @@ properties:
           - '5.2'
           - '5.3'
           - '5.4'
+          - '6.0'
         type: string
     required:
       - spec
@@ -833,6 +839,7 @@ properties:
       - fastboot_nokia
       - fastboot_nubia
       - fastboot_oneplus_tmo
+      - fastboot_oplus
       - fastboot_oppo
       - fastboot_sony
       - fastboot_realme
