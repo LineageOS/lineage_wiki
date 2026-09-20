@@ -27,6 +27,8 @@ definitions:
         enum:
           - Li-Ion
           - Li-Po
+          - Si/C Li-Ion
+          - Si/C Li-Po
     required:
       - capacity
       - removable
