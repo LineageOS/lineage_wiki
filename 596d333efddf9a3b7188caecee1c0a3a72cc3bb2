@@ -16,6 +16,24 @@
       "message": "i think we can extend this to old ones too? i tried 2013 sony and it\u0027s the same.",
       "revId": "596d333efddf9a3b7188caecee1c0a3a72cc3bb2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c03dfe81_82dbbfad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-22T18:41:38Z",
+      "side": 1,
+      "message": "actually mine doesn\u0027t even have a recovery key combo...",
+      "parentUuid": "212a659f_edc42127",
+      "revId": "596d333efddf9a3b7188caecee1c0a3a72cc3bb2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
