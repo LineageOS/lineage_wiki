@@ -15,7 +15,7 @@ cpu_cores: '8'
 cpu_freq: 2 x 2.2 GHz + 6 x 1.7 GHz
 current_branch: 23.2
 dimensions: {depth: 8.3, height: 155, width: 68}
-download_boot: With the device powered off, hold <kbd>Volume Up</kbd> and connect the USB cable. The screen should show a blue star.
+download_boot: With the device powered off and the USB cable unplugged, hold <kbd>Volume Up</kbd> and connect the USB cable. The screen should show a blue star.
 gpu: Qualcomm Adreno 619
 image: pdx235.png
 install_method: fastboot_sony
@@ -27,7 +27,7 @@ name: Xperia 10 V
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Compass, Dual SIM, Dual-frequency GNSS, eSIM, FM radio, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Light sensor, NFC, Pedometer, Proximity sensor, Stereo front speakers, USB OTG]
 ram: 6/8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off and the USB cable unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: boot
 recovery_reboot: fastboot_reboot
 release: 2023-06-21
