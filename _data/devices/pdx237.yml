@@ -26,7 +26,7 @@ name: 'Xperia 5 V'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [3.5mm jack, A-GPS, Accelerometer, Barometer, Compass, Dual SIM, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Stereo speakers, USB OTG]
 ram: 8 GB
-recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+recovery_boot: With the device powered off and the USB cable unplugged, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
 release: 2023-09
 screen: {refresh_rate: 120, resolution: '2520x1080', size: 6.1, technology: 'OLED'}
