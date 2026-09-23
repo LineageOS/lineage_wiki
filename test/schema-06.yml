@@ -102,6 +102,7 @@ definitions:
       - ARM Mali-450 MP3
       - ARM Mali-G31 MP2
       - ARM Mali-G52 MC2
+      - ARM Mali-G52 MP4
       - ARM Mali-G57 MC2
       - ARM Mali-G68 MP4
       - ARM Mali-G71 MP2
