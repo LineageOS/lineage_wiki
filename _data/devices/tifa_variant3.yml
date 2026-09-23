@@ -1,0 +1,37 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+before_install: {instructions: 'ir_remote', ships_fw: true, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
+bluetooth: {spec: '5.0'}
+burn_boot: With the device unplugged, connect USB-C to your host machine, then connect power to the device while holding the <kbd>USB Boot Button</kbd> (bottom of device) until the device enumerates on your host machine.
+cameras: []
+codename: tifa
+cpu: Cortex-A35
+cpu_cores: '4'
+cpu_freq: 2.0 GHz
+current_branch: 24.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 127, height: 50.8, width: 177.8}
+download_boot: With the device unplugged, connect USB-C to your host machine, then connect power to the device while holding the <kbd>Reset Button</kbd> (rear of device) until the DroidLogic logo appears on screen, then on your host run "fastboot reboot bootloader".
+gpu: ARM Mali-G31 MP2
+image: tifa_variant3.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_amlogic_kernel-5.15, version: '5.15'}
+maintainers: [Tuan Anh]
+name: KION OTT Box (2023) (DV9135-KRM)
+network: None
+peripherals: [3.5mm jack, HDMI, IR blaster, RJ45 Ethernet port, USB OTG]
+ram: 2 GB
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_reboot
+release: 2022
+screen: None
+soc: Amlogic S905Y4
+storage: 8 GB
+tree: android_device_sdmc_tifa
+type: Set top box
+variant: 3
+vendor: SDMC
+vendor_short: sdmc
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac

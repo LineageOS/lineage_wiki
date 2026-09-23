@@ -299,6 +299,7 @@ definitions:
       - Amlogic S905Y2
       - Amlogic S905X3
       - Amlogic S905X4
+      - Amlogic S905Y4
       - Google Tensor GS101
       - Google Tensor GS201
       - Google Tensor G3
@@ -692,6 +693,7 @@ properties:
     enum:
       - Cortex-A15
       - Cortex-A15 & Cortex-A7
+      - Cortex-A35
       - Cortex-A53
       - Cortex-A53 & Cortex-A53
       - Cortex-A53 & Cortex-A57
@@ -1035,6 +1037,7 @@ properties:
       - Realme
       - Retroid Pocket
       - Samsung
+      - SDMC
       - SHIFT
       - Smartisan
       - Solana
@@ -1087,6 +1090,7 @@ properties:
       - realme
       - retroidpocket
       - samsung
+      - sdmc
       - shift
       - smartisan
       - sony
