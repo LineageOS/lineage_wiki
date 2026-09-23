@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b89fc17_83fa2518",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-23T04:40:25Z",
+      "side": 1,
+      "message": "needs vendor manifest + Hudson change associated, but looks good.",
+      "revId": "bec7de4e4bea99be1a860f6f5016030a26739fee",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
