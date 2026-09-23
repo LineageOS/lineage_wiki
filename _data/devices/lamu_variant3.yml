@@ -17,7 +17,7 @@ gpu: ARM Mali-G52 MC2
 image: lamul.png
 install_method: fastboot_custom
 is_ab_device: true
-kernel: {version: '6.6'}
+kernel: {repo: android_kernel_motorola_lamu_manifest, version: '6.6'}
 maintainers: [R0rt1z2, surblazer]
 models: [XT2523-2, XT2523-3, XT2523-4, XT2523-5, XT2523-9, XT2523-10, XT2523-11]
 name: moto g05
