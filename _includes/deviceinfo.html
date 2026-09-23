@@ -273,6 +273,8 @@
                     {{ device.kernel.version }}
                     {%- if device.kernel.repo %}
                     (<a href="https://github.com/LineageOS/{{ device.kernel.repo }}">source code</a>)
+                    {%- else %}
+                    (<a href="https://android.googlesource.com/kernel/common">source code</a>)
                     {%- endif %}
                 </li>
             </ul>
