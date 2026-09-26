@@ -2,11 +2,9 @@ source "https://rubygems.org"
 
 gem "jekyll", "4.4.1"
 
-group :test do
-   gem "json-schema", "= 2.8.0"
-   gem "yalphabetize", "~> 0.7.0"
-   gem "parallel", "~> 1.27"
-end
+gem "json-schema", "= 2.8.0"
+gem "yalphabetize", "~> 0.7.0"
+gem "parallel", "~> 1.27"
 
 group :jekyll_plugins do
    gem "jekyll-redirect-from", "= 0.16.0"
