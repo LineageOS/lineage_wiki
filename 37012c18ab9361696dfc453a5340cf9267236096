@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7955567e_ebf72ba0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 31496
+      },
+      "writtenOn": "2026-09-26T21:17:38Z",
+      "side": 1,
+      "message": "Tested 3.2, 3.3, 3.4 using rbenv",
+      "revId": "37012c18ab9361696dfc453a5340cf9267236096",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
