@@ -245,6 +245,7 @@ definitions:
   screen_technologies:
     enum:
       - OLED
+      - G-OLED
       - P-OLED
       - AMOLED
       - Dynamic AMOLED
