@@ -148,6 +148,8 @@ At this point you should be able to view the [local Jekyll server](http://127.0.
 
 ### Preview locally using rvm and jekyll
 
+The wiki can also be built locally on your computer using Ruby 3.4. The following steps describe one way to install this version of Ruby, but other methods may be supported.
+
 #### Install `rvm`
 
 `rvm` is a great tool to isolate different usages of ruby from each other. During this setup, you will install `ruby` and a set of ruby modules (gems) which will be isolated from any other ruby use on the machine (now and in the future).
@@ -161,13 +163,13 @@ curl -sSL https://get.rvm.io | bash -s stable
 
 #### Configure `ruby` for editing the wiki
 
-These steps will configure and install the latest version of ruby MRI via `rvm`. All gems (modules) are stored in the namespace `lineage_wiki` and the environment will be configured to allow remote access to GitHub. Once configured, `ruby` will be installed and the required gems downloaded:
+These steps will configure and install the latest version of Ruby 3.4 MRI via `rvm`. All gems (modules) are stored in the namespace `lineage_wiki` and the environment will be configured to allow remote access to GitHub. Once configured, `ruby` will be installed and the required gems downloaded:
 
 ```
 cd $LINEAGE_SRC/lineage/wiki
 echo ruby > .ruby-version
 echo lineage_wiki > .ruby-gemset
-rvm install ruby
+rvm install ruby-3.4
 gem install bundler rails
 bundle install
 ```
