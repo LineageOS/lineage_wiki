@@ -13,5 +13,5 @@ group :jekyll_plugins do
    gem "jekyll-relative-links", "= 0.7.0"
    gem "jekyll-seo-tag", "= 2.8.0"
    gem "jekyll-sitemap", "= 1.4.0"
-   gem "listen", "= 3.8.0"
+   gem "listen", "= 3.10.0"
 end
