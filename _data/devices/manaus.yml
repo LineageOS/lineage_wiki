@@ -19,7 +19,7 @@ image: manaus.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_mt6879, version: '5.10'}
-maintainers: [rexix01]
+maintainers: []
 models: [XT2307-1, XT2307-2, XT2307-3]
 name: edge 40 neo
 network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
