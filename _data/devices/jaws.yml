@@ -1,0 +1,35 @@
+architecture: {cpu: 'arm64', userspace: 'arm'}
+battery: None
+before_install: {instructions: 'usb_keyboard', ships_fw: true, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo]}
+bluetooth: {spec: '5.2'}
+cameras: []
+codename: jaws
+cpu: Cortex-A55
+cpu_cores: '4'
+cpu_freq: 2.0 GHz
+current_branch: 24.0
+custom_unlock_cmd: 'fastboot flashing unlock'
+dimensions: {depth: 95, height: 16, width: 95}
+download_boot: With the device plugged in, run "adb reboot bootloader" on your host machine.
+gpu: ARM Mali-G31 MP2
+image: jaws.png
+install_method: fastboot_nexus
+kernel: {repo: android_kernel_amlogic_kernel-5.15, version: '5.15'}
+maintainers: [bgcngm]
+name: Xiaomi TV Box S (2nd gen)
+network: None
+peripherals: [3.5mm jack, HDMI, USB OTG]
+ram: 2 GB
+recovery_partition_name: vendor_boot
+recovery_reboot: fastboot_reboot
+release: 2023-04
+screen: None
+soc: Amlogic S905X4
+storage: 8 GB
+tree: android_device_xiaomi_jaws
+type: Set top box
+vendor: Xiaomi
+vendor_short: xiaomi
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac
