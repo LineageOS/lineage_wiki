@@ -15,7 +15,7 @@ image: odin2portal.png
 install_method: fastboot_unlocked
 is_ab_device: true
 kernel: {repo: android_kernel_ayn_qcs8550, version: '5.15'}
-maintainers: [AnierinBliss, balika011]
+maintainers: [AnierinBliss, balika011, bgcngm]
 models: [Odin2Portal]
 name: 'Odin2 Portal'
 network: None
