@@ -132,6 +132,7 @@ definitions:
       - NVIDIA Kepler DX1 192-core
       - NVIDIA Maxwell 256-core
       - NVIDIA Tegra 4
+      - PowerVR DXT-48-1536
       - PowerVR G6430
       - PowerVR SGX540
       - PowerVR SGX544MP2
@@ -304,6 +305,7 @@ definitions:
       - Google Tensor GS201
       - Google Tensor G3
       - Google Tensor G4
+      - Google Tensor G5
       - HiSilicon Kirin 659
       - HiSilicon Kirin 970
       - Intel Atom Z2560
@@ -668,6 +670,7 @@ properties:
           - '5.2'
           - '5.3'
           - '5.4'
+          - '6.0'
         type: string
     required:
       - spec
@@ -712,6 +715,7 @@ properties:
       - Cortex-X3 & Cortex-A715 & Cortex-A510
       - Cortex-X3 & Cortex-A715 & Cortex-A710 & Cortex-A510
       - Cortex-X4 & Cortex-A720 & Cortex-A520
+      - Cortex-X4 & Cortex-A725 & Cortex-A520
       - Denver
       - Denver 2 & Cortex-A57
       - Exynos M1 & Cortex-A53
