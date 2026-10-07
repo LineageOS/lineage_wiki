@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '15'}
+before_recovery_install: samsung_qcom
+bluetooth: {profiles: [A2DP], spec: '5.3'}
+cameras:
+  - {flash: 'LED', info: '200 MP (wide)'}
+  - {flash: 'LED', info: '10 MP (telephoto)'}
+  - {flash: 'LED', info: '10 MP (periscope telephoto)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: 'LED', info: '12 MP (front)'}
+codename: dm3q
+cpu: Cortex-X3 & Cortex-A715 & Cortex-A710 & Cortex-A510
+cpu_cores: '8'
+cpu_freq: 1 x 3.36 GHz + 4 x 2.8 GHz + 3 x 2.0 GHz
+current_branch: 23.2
+dimensions: {depth: 8.9, height: 163.4, width: 78.1}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
+gpu: Qualcomm Adreno 740
+image: dm3q.png
+install_method: samloader_rs
+is_unlockable: false
+kernel: {repo: android_kernel_samsung_sm8550, version: '5.15'}
+maintainers: [programminghoch10]
+models: [SM-S918B, SM-S918B/DS]
+name: Galaxy S23 Ultra
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [Accelerometer, Barometer, Compass, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, Gyroscope, Hall effect sensor, Light sensor, NFC, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, USB OTG]
+quirks: [esim, ims]
+ram: 8/12 GB
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2023-02-17
+screen: {refresh_rate: 120, resolution: '1440x3088', size: 6.8, technology: 'AMOLED'}
+soc: Qualcomm SM8550 Snapdragon 8 Gen2
+storage: 256/512/1024 GB
+tree: android_device_samsung_dm3q
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [23.2]
+wifi: 802.11 a/b/g/n/ac/ax
