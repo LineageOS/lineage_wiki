@@ -16,6 +16,23 @@
       "message": "Balázs, do you still have this device?",
       "revId": "4394a3028c883adb946c3466abb8d963b799c9c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6f07f659_0d04be26",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-07T10:22:36Z",
+      "side": 1,
+      "message": "Bump?",
+      "revId": "4394a3028c883adb946c3466abb8d963b799c9c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
