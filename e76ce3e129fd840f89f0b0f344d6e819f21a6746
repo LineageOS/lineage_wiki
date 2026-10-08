@@ -1,0 +1,106 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30b9c74a_10b286cb",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "opensource -\u003e open-source",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "8447ed03_82eeeafb",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "\"free replacement for the non-free [...]\" could be shortened to \"free replacement for the proprietary [...]\"\n\np.s. not sure whether i\u0027d call microG a \"powerful tool to reclaim privacy\"",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7beca25d_55c66a0b",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "\"In Most cases, You dont need it but if you want to install it.\" would change it to\n\"It is unneeded in most cases, however if you need to use legacy applications that require it, note that installing it directly [...]\"\n\nMay also be worth splitting into a warning block?",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4b7f1ac_d19a799b",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "needed -\u003e need",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "400a30ca_a2b89429",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "\"helps apps to not run all time\" -\u003e \"enables apps to push notifications without running in the background\"",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ff0d467a_26140449",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-08T19:12:31Z",
+      "side": 1,
+      "message": "remove space before gcm",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
