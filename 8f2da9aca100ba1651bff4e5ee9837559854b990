@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "cb9f11fc_a727d73b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-08T18:51:55Z",
+      "side": 1,
+      "message": "i manually retried deploy - https://blob.lineageos.org/preview/wiki/507056/",
+      "revId": "8f2da9aca100ba1651bff4e5ee9837559854b990",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
