@@ -165,7 +165,10 @@ There are no recovery installation instructions for this discontinued device.
 
 {%- capture gapps_note %}
 If you want to install Google Apps add-on package (use the `{{ userspace_architecture }}` architecture), you can download it from [here]({{ "gapps" | relative_url }}).
+
 This add-on needs to be installed **before** booting into LineageOS for the first time!
+
+Alternatively, you can install microG (a free and open source alternative to the Google Apps package) and set it up as a user app from our [microG guide]({{ "microg/" | relative_url }}).
 {%- endcapture %}
 {% include alerts/warning.html content=gapps_note %}
 
