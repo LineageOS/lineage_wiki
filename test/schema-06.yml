@@ -1007,6 +1007,7 @@ properties:
       - AYN
       - Banana Pi
       - BQ
+      - Daylight
       - DroidLogic
       - Dynalink
       - Essential
@@ -1060,6 +1061,7 @@ properties:
       - ayn
       - bananapi
       - bq
+      - daylight
       - essential
       - fairphone
       - freebox
