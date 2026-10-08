@@ -13,6 +13,8 @@ a "backup" of the Google Apps on your device and then "restore" them, but this d
 
 The Google Apps packages are **not supported** in any way by LineageOS.
 
+Looking for an open-source alternative? See our [microG guide]({{ "microg/" | relative_url }}).
+
 
 ## Installation
 
