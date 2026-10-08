@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {capacity: 7500, removable: false, tech: 'Li-Ion'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vendor_boot]}
+bluetooth: {profiles: [A2DP], spec: '5.3'}
+cameras:
+  - {flash: None, info: '8 MP (main)'}
+  - {flash: None, info: '8 MP (front)'}
+codename: sunstone
+cpu: Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.2 GHz + 6 x 2.0 GHz
+current_branch: 24.0
+dimensions: {depth: 7.5, height: 259.1, width: 163.7}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> to boot into recovery, then select "Reboot to bootloader".
+gpu: ARM Mali-G57 MC2
+image: sunstone.png
+install_method: fastboot_custom
+kernel: {repo: android_kernel_amazon_mt8188, version: '5.10'}
+maintainers: [R0rt1z2]
+models: [KFSNWI]
+name: Fire Max 11
+network: None
+peripherals: [Accelerometer, Fingerprint reader, Hall effect sensor, Light sensor, Stereo speakers, USB OTG]
+ram: 4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2023-06
+screen: {resolution: '2000x1200', size: 11, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB', slot: dedicated}
+soc: Mediatek MT8188J
+storage: 64/128 GB
+tree: android_device_amazon_sunstone
+type: tablet
+unlock_bootloader_guide: https://xdaforums.com/t/unlock-root-twrp-unbrick-fire-max-11-2023-sunstone.4800303
+vendor: Amazon
+vendor_short: amazon
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac/ax
