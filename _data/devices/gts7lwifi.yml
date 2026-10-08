@@ -22,7 +22,7 @@ maintainers: [bgcngm]
 models: [SM-T870]
 name: Galaxy Tab S7 (Wi-Fi)
 network: None
-peripherals: [Accelerometer, Compass, Fingerprint reader, GPS, Gyroscope]
+peripherals: [Accelerometer, Compass, DP over USB-C, Fingerprint reader, GPS, Gyroscope]
 ram: 6/8 GB
 recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
 recovery_partition_name: recovery
