@@ -10,7 +10,11 @@
 {%- for partition in device.before_recovery_install.partitions %}
   * {{ partition }}.img
 {%- endfor %}
+{%- if device.no_fastboot %}
+2. Reboot into fastbootd mode:
+{%- else %}
 2. Power off the device, and boot it into bootloader mode:
+{%- endif %}
   * {{ device.download_boot }}
 3. Flash the downloaded image files to your device by typing:
   ```
@@ -22,7 +26,9 @@ fastboot flash {{ partition }} {{ partition }}.img
   {%- endfor %}
   ```
     {% include snippets/fastboot_path.md %}
+{%- unless device.no_fastboot %}
 4. Reboot to bootloader mode:
 ```
 fastboot reboot bootloader
 ```
+{%- endunless %}
