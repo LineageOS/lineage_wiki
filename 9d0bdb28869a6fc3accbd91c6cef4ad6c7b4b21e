@@ -48,6 +48,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4f9ced94_db954793",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "2d9e11f6_ea52c6d8",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 186
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "4dc5f4da_7d195c37",
@@ -377,6 +401,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3caacdca_7d576c69",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "b47c99dd_7e309235",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 73
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "05e029e7_483eb810",
@@ -484,6 +532,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "I am confused by this, does it or doesn\u0027t it send requests to Google\u0027s location servers.",
+      "range": {
+        "startLine": 51,
+        "startChar": 0,
+        "endLine": 52,
+        "endChar": 145
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7fb0d5df_b9df17b8",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:37:00Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1fdd2cea_4e5ae0d5",
       "range": {
         "startLine": 51,
         "startChar": 0,
