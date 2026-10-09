@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "695f70bb_e24373da",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-09T01:48:37Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "30b9c74a_10b286cb",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "8447ed03_82eeeafb",
@@ -31,6 +49,29 @@
       "writtenOn": "2026-10-08T19:12:31Z",
       "side": 1,
       "message": "\"free replacement for the non-free [...]\" could be shortened to \"free replacement for the proprietary [...]\"\n\np.s. not sure whether i\u0027d call microG a \"powerful tool to reclaim privacy\"",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "6b5733b2_675b88a8",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-09T01:48:37Z",
+      "side": 1,
+      "message": "Too complicated, the reader doesn\u0027t need to know support was added.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 95
+      },
       "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -65,6 +106,24 @@
       "writtenOn": "2026-10-08T19:12:31Z",
       "side": 1,
       "message": "needed -\u003e need",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "27fdbaab_44b09767",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-09T01:48:37Z",
+      "side": 1,
+      "message": "I would prefer this wording instead, seems a bit more natural.\n```suggestion\nGoogle Cloud Messaging delivers push notifications from app servers to the device without the app needing to run in the background.\n```",
+      "parentUuid": "a4b7f1ac_d19a799b",
       "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
