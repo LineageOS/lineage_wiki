@@ -963,6 +963,9 @@ properties:
     "$id": "/properties/required_bootloader"
     minItems: 1
     type: array
+  requires_fastbootd:
+    "$id": "/properties/requires_fastbootd"
+    type: boolean
   screen:
     "$id": "/properties/screen"
     oneOf:
