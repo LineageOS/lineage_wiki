@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a1ca355e_062c1d1a",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-10-09T03:05:22Z",
+      "side": 1,
+      "message": "```suggestion\nTo install microG Services Framework Proxy on LineageOS:\n```\n\nidk but I think this looks better.",
+      "range": {
+        "startLine": 24,
+        "startChar": 11,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47d3c865_9b880968",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-10-09T03:05:22Z",
+      "side": 1,
+      "message": "```suggestion\n### Why enable Google Cloud Messaging (GCM)\n```\n\nNo idea why the E has to be capitalized here.",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b286c03_142bdfeb",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-10-09T03:05:22Z",
+      "side": 1,
+      "message": "```suggestion\n### How to enable GCM\n```\n\nSame as the suggestion above.",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a5f8abeb_7534e741",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-10-09T03:05:22Z",
+      "side": 1,
+      "message": "```suggestion\n### How to enable NLP\n```\n\nSame as the suggestion above.",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
