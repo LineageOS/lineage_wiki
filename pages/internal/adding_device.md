@@ -172,6 +172,7 @@ There are some optional properties which you might not need, but in case you do,
 * `is_ab_rdap`: Used if the device utilizes a retrofitted dynamic A/B partition scheme.
  - `is_ab_rdap_version`: Used to define the version on which dynamic partitions were retrofitted to the device.
 * `is_unlockable`: Set to false if there is no official method to unlock the bootloader. A hint will appear on the device's overview and install page. If this property is not set, it defaults to `true`
+* `requires_fastbootd`: Set to true if the device does not have a functional bootloader fastboot mode (e.g. only fastbootd in userspace is available).
 * `quirks`: List of known quirks (make sure they aren't violating the [charter](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md) or are exempted!). An array of one or more of the following (if unclear, click the links):
 
   {%- for item in definitions.valid_quirks.enum %}
