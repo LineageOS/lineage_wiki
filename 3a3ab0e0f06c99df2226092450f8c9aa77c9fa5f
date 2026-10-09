@@ -16,6 +16,24 @@
       "message": "BTW, if you don\u0027t want to deal with users whining that the exploit doesn\u0027t work or something in #issues, just mark the device as \"does not have an official unlock guide\" - that\u0027s what LG did; users have to find out about the exploit themselves. Just a suggestion.",
       "revId": "3a3ab0e0f06c99df2226092450f8c9aa77c9fa5f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f9bb20c_51fbc234",
+        "filename": "_data/devices/sunstone.yml",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 32620
+      },
+      "writtenOn": "2026-10-09T16:46:44Z",
+      "side": 1,
+      "message": "Appreciate the heads up, but I don\u0027t really mind, to be fair.\n\nThe exploit has been thoroughly tested, it\u0027s been published for a while now, and people haven\u0027t had any issues with it so I\u0027ll leave the guide here.",
+      "parentUuid": "3066c3d1_761f83b1",
+      "revId": "3a3ab0e0f06c99df2226092450f8c9aa77c9fa5f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
