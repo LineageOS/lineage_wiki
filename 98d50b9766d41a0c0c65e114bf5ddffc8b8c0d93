@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "94d1634c_961dc687",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "I think we should prefer writing official apk name for",
+      "parentUuid": "a1ca355e_062c1d1a",
+      "range": {
+        "startLine": 24,
+        "startChar": 11,
+        "endLine": 24,
+        "endChar": 20
+      },
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "47d3c865_9b880968",
@@ -37,6 +61,24 @@
       "writtenOn": "2026-10-09T03:05:22Z",
       "side": 1,
       "message": "```suggestion\n### Why enable Google Cloud Messaging (GCM)\n```\n\nNo idea why the E has to be capitalized here.",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "bc1bf419_610f631e",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "47d3c865_9b880968",
       "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -58,6 +100,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9bd8d35d_da624835",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 42,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b286c03_142bdfeb",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a5f8abeb_7534e741",
@@ -71,6 +131,24 @@
       "writtenOn": "2026-10-09T03:05:22Z",
       "side": 1,
       "message": "```suggestion\n### How to enable NLP\n```\n\nSame as the suggestion above.",
+      "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea4d9a01_b86d22f5",
+        "filename": "pages/microg.md",
+        "patchSetId": 4
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a5f8abeb_7534e741",
       "revId": "98d50b9766d41a0c0c65e114bf5ddffc8b8c0d93",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }

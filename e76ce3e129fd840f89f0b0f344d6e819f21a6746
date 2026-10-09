@@ -55,6 +55,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e5c5deb8_627312cf",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "yeah i can this part is copy paste from microg wiki",
+      "parentUuid": "8447ed03_82eeeafb",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "6b5733b2_675b88a8",
         "filename": "pages/microg.md",
         "patchSetId": 2
@@ -66,6 +84,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "Too complicated, the reader doesn\u0027t need to know support was added.",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 14,
+        "endChar": 95
+      },
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4920334c_4f7fafe0",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "6b5733b2_675b88a8",
       "range": {
         "startLine": 14,
         "startChar": 0,
@@ -124,6 +166,24 @@
       "side": 1,
       "message": "I would prefer this wording instead, seems a bit more natural.\n```suggestion\nGoogle Cloud Messaging delivers push notifications from app servers to the device without the app needing to run in the background.\n```",
       "parentUuid": "a4b7f1ac_d19a799b",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ab36a27_bb77b624",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "27fdbaab_44b09767",
       "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },

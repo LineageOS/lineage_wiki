@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "2d9e11f6_ea52c6d8",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 171,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Alternatively, you can follow our instructions [here]({{ \"microg/\" | relative_url }}) to install microG (a free and open-source alternative to the Google Apps) and set it up as a user app. maybe this?",
+      "parentUuid": "ebb97535_0a821dac",
+      "range": {
+        "startLine": 171,
+        "startChar": 0,
+        "endLine": 171,
+        "endChar": 186
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "4dc5f4da_7d195c37",
         "filename": "pages/microg.md",
         "patchSetId": 3
@@ -70,6 +94,54 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "922e2f58_ac1373d7",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4dc5f4da_7d195c37",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 634
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "41448b55_b20eb3bd",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "921adf94_71be85ec",
+      "range": {
+        "startLine": 9,
+        "startChar": 194,
+        "endLine": 9,
+        "endChar": 216
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "975931fd_76753e00",
@@ -83,6 +155,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "No need to say this, as we have just instructed the reader to enable all permissions.",
+      "range": {
+        "startLine": 18,
+        "startChar": 105,
+        "endLine": 18,
+        "endChar": 155
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6204f356_2e2a4333",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "975931fd_76753e00",
       "range": {
         "startLine": 18,
         "startChar": 105,
@@ -116,6 +212,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "98adbc5c_43da6552",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "60b57f17_4a977c48",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 20,
+        "endChar": 46
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bc928adc_4d2e0ad4",
@@ -139,6 +259,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d7c45bc_5e9f6686",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bc928adc_4d2e0ad4",
+      "range": {
+        "startLine": 22,
+        "startChar": 50,
+        "endLine": 22,
+        "endChar": 73
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c7759714_99f517be",
@@ -152,6 +296,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "A step should be added, instructing the user to check if adb is installed and linking to the instruction page for installing it.",
+      "range": {
+        "startLine": 26,
+        "startChar": 0,
+        "endLine": 32,
+        "endChar": 6
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51a17dc8_1a2af5d0",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c7759714_99f517be",
       "range": {
         "startLine": 26,
         "startChar": 0,
@@ -187,6 +355,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "b47c99dd_7e309235",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e90cc238_b51423fc",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 73
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "05e029e7_483eb810",
         "filename": "pages/microg.md",
         "patchSetId": 3
@@ -198,6 +390,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "Shouldn\u0027t be italicized.",
+      "range": {
+        "startLine": 46,
+        "startChar": 28,
+        "endLine": 46,
+        "endChar": 67
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "198a52d0_3f6a7646",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "05e029e7_483eb810",
       "range": {
         "startLine": 46,
         "startChar": 28,
@@ -221,6 +437,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "```suggestion\n5. GCM is now enabled and it will be used automatically for all installed apps.\n```",
+      "range": {
+        "startLine": 47,
+        "startChar": 3,
+        "endLine": 47,
+        "endChar": 91
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d39206e6_1c9c56d0",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7b5c75d4_c099fb9b",
       "range": {
         "startLine": 47,
         "startChar": 3,
@@ -267,6 +507,30 @@
       "writtenOn": "2026-10-09T01:48:37Z",
       "side": 1,
       "message": "Should be merged into the previous section.",
+      "range": {
+        "startLine": 53,
+        "startChar": 0,
+        "endLine": 55,
+        "endChar": 145
+      },
+      "revId": "9d0bdb28869a6fc3accbd91c6cef4ad6c7b4b21e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6bbd5d0f_b0a10afd",
+        "filename": "pages/microg.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-09T14:35:15Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1a4dad14_75cfa0fd",
       "range": {
         "startLine": 53,
         "startChar": 0,
