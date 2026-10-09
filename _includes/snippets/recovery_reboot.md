@@ -21,5 +21,7 @@ fastboot flash misc boot-recovery-misc.img
 ```
 fastboot reboot
 ```
+{%- when 'no_fastboot' %}
+* {{ device.recovery_boot }}
 {%- else %}
 {%- endcase %}
