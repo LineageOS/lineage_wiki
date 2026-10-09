@@ -909,6 +909,9 @@ properties:
         type: array
       - enum:
           - None
+  no_fastboot:
+    "$id": "/properties/no_fastboot"
+    type: boolean
   peripherals:
     "$id": /properties/peripherals
     oneOf:
