@@ -16,6 +16,24 @@
       "message": "use a device image similar to the one added for erhai",
       "revId": "fb7aa16693c46b5962592029d4db82401a39e94a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f245a184_1737c23f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-09T09:13:29Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e9fc31fb_a4c42ebd",
+      "revId": "fb7aa16693c46b5962592029d4db82401a39e94a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
