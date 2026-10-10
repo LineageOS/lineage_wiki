@@ -52,6 +52,24 @@
       "parentUuid": "aa8350ef_2df199d0",
       "revId": "271558644bf43b29c08011fb555829581c4387d8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23f1ced7_75e03895",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35850
+      },
+      "writtenOn": "2026-10-10T06:32:07Z",
+      "side": 1,
+      "message": "Samsung should also use it.",
+      "parentUuid": "1fb39dac_d7e22738",
+      "revId": "271558644bf43b29c08011fb555829581c4387d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
