@@ -16,6 +16,24 @@
       "message": "Add to other devices that it applies to?",
       "revId": "271558644bf43b29c08011fb555829581c4387d8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "aa8350ef_2df199d0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2026-10-10T00:56:39Z",
+      "side": 1,
+      "message": "ATM this is only Amlogic devices that has broken fastboot (they disabled all commands except getvar and reboot).",
+      "parentUuid": "b0612f46_55fa8dff",
+      "revId": "271558644bf43b29c08011fb555829581c4387d8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
