@@ -26,7 +26,7 @@ models: [SM-S908B, SM-S908B/DS]
 name: Galaxy S22 Ultra
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [A-GPS, Accelerometer, Barometer, Compass, DP over USB-C, Dual SIM, Dual-frequency GNSS, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, SBAS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Qi wireless charging, Qi reverse wireless charging, Stereo speakers, Ultra Wideband (UWB), USB OTG]
-quirks: [esim, ims]
+quirks: [esim]
 ram: 8/12 GB
 recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
 recovery_partition_name: recovery
