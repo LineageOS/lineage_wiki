@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d159dbb2_36f92377",
+        "filename": "pages/microg.md",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "Should be more detailed, such as `How to Install microG`. Looks kind of odd when searching for it.",
+      "range": {
+        "startLine": 3,
+        "startChar": 7,
+        "endLine": 3,
+        "endChar": 13
+      },
+      "revId": "a3563a6c619527ff047e6486baf91a27c489bd44",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

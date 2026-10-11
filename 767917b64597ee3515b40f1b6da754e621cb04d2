@@ -1,0 +1,119 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ead3d930_8735cdda",
+        "filename": "pages/microg.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "Having `Google Cloud Messaging (GCM)` twice is a bit redundant. At this point we can either say `Why enable GCM` or consider merging this section with the one above it. That way we don\u0027t have heading followed by sentence, over and over.",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 43
+      },
+      "revId": "767917b64597ee3515b40f1b6da754e621cb04d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38c85c01_67489997",
+        "filename": "pages/microg.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "Is `microG Settings` something the user will see in the UI of microG, or does this mean that they should open microG and navigate to settings. We should be clear if the latter is what is meant. For example: Open microG and navigate to settings.",
+      "range": {
+        "startLine": 27,
+        "startChar": 3,
+        "endLine": 27,
+        "endChar": 27
+      },
+      "revId": "767917b64597ee3515b40f1b6da754e621cb04d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "17dcafcc_7d66f048",
+        "filename": "pages/microg.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "Is there more information on these \"alternative location services\"? It should at the very least be linked where users data is going when using NLP.",
+      "range": {
+        "startLine": 35,
+        "startChar": 285,
+        "endLine": 35,
+        "endChar": 315
+      },
+      "revId": "767917b64597ee3515b40f1b6da754e621cb04d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "67eb057a_1b1b08f1",
+        "filename": "pages/microg.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "Same thing as above (as in what does `microG settings` refer to)",
+      "range": {
+        "startLine": 38,
+        "startChar": 3,
+        "endLine": 38,
+        "endChar": 43
+      },
+      "revId": "767917b64597ee3515b40f1b6da754e621cb04d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1be7b704_a0872779",
+        "filename": "pages/microg.md",
+        "patchSetId": 6
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 35350
+      },
+      "writtenOn": "2026-10-11T01:32:00Z",
+      "side": 1,
+      "message": "```suggestion\n1. Make sure you have [`adb` installed and set up]({{ \"adb_fastboot_guide\" | relative_url }}) on your computer.\n```",
+      "range": {
+        "startLine": 51,
+        "startChar": 23,
+        "endLine": 51,
+        "endChar": 35
+      },
+      "revId": "767917b64597ee3515b40f1b6da754e621cb04d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
