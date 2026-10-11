@@ -18,7 +18,7 @@ gpu: Qualcomm Adreno 650
 image: gts7l.png
 install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_sm8250, version: '4.19'}
-maintainers: [bgcngm]
+maintainers: [bgcngm, programminghoch10]
 models: [SM-T975, SM-T976B]
 name: Galaxy Tab S7+ (LTE/5G)
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
