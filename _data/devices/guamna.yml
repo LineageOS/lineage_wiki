@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 24.0, ships_fw: true, version: '11'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo]}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
+cameras:
+  - {flash: 'LED', info: '13 MP (Primary)'}
+  - {flash: None, info: '2 MP (Depth)'}
+  - {flash: None, info: '5 MP (Front Facing)'}
+codename: guamna
+cpu: Kryo 240
+cpu_cores: '8'
+cpu_freq: 4 x 1.8 GHz & 4 x 1.6 GHz
+current_branch: 24.0
+dimensions: {depth: 9.4, height: 166.6, width: 76}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: Qualcomm Adreno 610
+image: guamna.png
+install_method: fastboot_motorola
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_sm6225, version: '4.19'}
+maintainers: [Deivid Ignacio Parra (Deivid21)]
+models: [XT2093-3, XT2093-4, XT2093-7]
+name: moto g play 2021
+network: [2G GSM, 2G CDMA, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Dual SIM, Fingerprint reader, Galileo, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
+ram: 3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: recovery
+recovery_reboot: fastboot_menu
+release: 2021-01-08
+screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB'}
+soc: Qualcomm SM4250 Snapdragon 460
+storage: 32 GB eMMC 5.1
+tree: android_device_motorola_guamna
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [24.0]
+wifi: 802.11 b/g/n
