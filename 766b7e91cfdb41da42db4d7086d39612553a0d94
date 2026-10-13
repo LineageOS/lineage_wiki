@@ -16,6 +16,24 @@
       "message": "@jvillaltamatos3007@gmail.com please confirm if the two variants of `vermeer` are correct",
       "revId": "766b7e91cfdb41da42db4d7086d39612553a0d94",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a51a98a1_07bb58bb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35546
+      },
+      "writtenOn": "2026-10-13T14:57:36Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "caa19c4c_a1667248",
+      "revId": "766b7e91cfdb41da42db4d7086d39612553a0d94",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
