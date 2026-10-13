@@ -1,8 +1,8 @@
 architecture: arm64
 battery: {capacity: 4500, removable: false, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.2, ships_fw: true}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 24.0, ships_fw: true}
 before_install_device_variants:
-  - {device: 'Xiaomi 13', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.2.0.WMCCNXM/fuxi-ota_full-OS3.0.2.0.WMCCNXM-user-16.0-88aad63558.zip', firmware: 'OS3.0.2.0.WMCCNXM'}
+  - {device: 'Xiaomi 13', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.307.0.WMCCNXM/fuxi-ota_full-OS3.0.307.0.WMCCNXM-user-16.0-dfdca9894e.zip', firmware: 'OS3.0.307.0.WMCCNXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:

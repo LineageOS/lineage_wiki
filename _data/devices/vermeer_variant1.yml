@@ -1,8 +1,8 @@
 architecture: arm64
 battery: {capacity: 5000, removable: false, tech: 'Li-Po'}
-before_install: {instructions: 'needs_specific_android_fw', lineage_version: 23.2, ships_fw: true}
+before_install: {instructions: 'needs_specific_android_fw', lineage_version: 24.0, ships_fw: true}
 before_install_device_variants:
-  - {device: 'POCO F6 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.6.0.WNKMIXM/vermeer_global-ota_full-OS3.0.6.0.WNKMIXM-user-16.0-65da0845a6.zip', firmware: 'OS3.0.6.0.WNKMIXM'}
+  - {device: 'POCO F6 Pro', download_link: 'https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.304.0.WNKMIXM/vermeer_global-ota_full-OS3.0.304.0.WNKMIXM-user-16.0-ea3932c8f8.zip', firmware: 'OS3.0.304.0.WNKMIXM'}
 before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, init_boot, vbmeta, vendor_boot]}
 bluetooth: {profiles: [A2DP + aptX HD], spec: '5.3'}
 cameras:
