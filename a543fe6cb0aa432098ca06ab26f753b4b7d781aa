@@ -22,6 +22,30 @@
       },
       "revId": "a543fe6cb0aa432098ca06ab26f753b4b7d781aa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "94e61152_3ee3c5f0",
+        "filename": "_data/devices/guamna.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 27312
+      },
+      "writtenOn": "2026-10-13T03:30:43Z",
+      "side": 1,
+      "message": "done",
+      "parentUuid": "9d8eca70_b169e117",
+      "range": {
+        "startLine": 24,
+        "startChar": 18,
+        "endLine": 24,
+        "endChar": 22
+      },
+      "revId": "a543fe6cb0aa432098ca06ab26f753b4b7d781aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
