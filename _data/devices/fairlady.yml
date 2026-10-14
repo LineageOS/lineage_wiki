@@ -15,7 +15,7 @@ current_branch: 24.0
 custom_unlock_cmd: 'fastboot flashing unlock'
 dimensions: {depth: 8.4, height: 150.6, width: 71.8}
 download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
-firmware_update: firmware_update_oplus_sm8850_fairlady
+firmware_update: firmware_update_oplus_sm8850
 gpu: Qualcomm Adreno 840
 image: fairlady.png
 install_method: fastboot_oplus

@@ -6,6 +6,7 @@ fastboot flash --slot=all bluetooth bluetooth.img
 fastboot flash --slot=all cpucp cpucp.img
 fastboot flash --slot=all cpucp_dtb cpucp_dtb.img
 fastboot flash --slot=all devcfg devcfg.img
+fastboot flash --slot=all dcp dcp.img
 fastboot flash --slot=all dsp dsp.img
 fastboot flash --slot=all engineering_cdt engineering_cdt.img
 fastboot flash --slot=all featenabler featenabler.img
