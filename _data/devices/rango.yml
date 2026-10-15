@@ -24,7 +24,7 @@ image: rango.png
 install_method: fastboot_nexus
 is_ab_device: true
 kernel: {repo: android_kernel_google_gs-6.6_manifest, version: '6.6'}
-maintainers: [mikeioannina]
+maintainers: []
 name: Pixel 10 Pro Fold
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
 peripherals: [Accelerometer, Barometer, Compass, DP over USB-C, eSIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, NavIC, QZSS, Gyroscope, Light sensor, NFC, Proximity sensor, Qi wireless charging, Ultra Wideband (UWB), USB OTG]
