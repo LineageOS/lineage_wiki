@@ -137,6 +137,7 @@ definitions:
       - NVIDIA Tegra 4
       - PowerVR DXT-48-1536
       - PowerVR G6430
+      - PowerVR GE8320
       - PowerVR SGX540
       - PowerVR SGX544MP2
       - Samsung Xclipse 920
@@ -318,6 +319,7 @@ definitions:
       - Intel Atom Z3580
       - MediaTek Dimensity 7030
       - MediaTek Dimensity 8100
+      - MediaTek Helio G25
       - MediaTek Helio G80
       - MediaTek Helio G81 Extreme
       - MediaTek Helio G85
