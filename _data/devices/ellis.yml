@@ -1,0 +1,41 @@
+architecture: arm64
+battery: {capacity: 4000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '12'}
+before_recovery_install: {instructions: 'ellis', partitions: [dtbo, vbmeta]}
+bluetooth: {profiles: [A2DP], spec: '5.0'}
+cameras:
+  - {flash: 'LED', info: '13 MP (Primary)'}
+  - {flash: None, info: '2 MP (depth)'}
+  - {flash: None, info: '5 MP (Front Facing)'}
+codename: ellis
+cpu: Cortex-A53
+cpu_cores: '8'
+cpu_freq: 4 x 2.0 GHz & 4 x 1.5 GHz
+current_branch: 24.0
+dimensions: {depth: 8.8, height: 167.4, width: 75.6}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: PowerVR GE8320
+image: ellis.png
+install_method: fastboot_unlocked
+is_ab_device: true
+kernel: {repo: android_kernel_motorola_mt6765, version: '4.19'}
+maintainers: [bengris32]
+models: [XT2163-1, XT2163-2, XT2163-4, XT2163-6, XT2163-7, XT2163DL]
+name: moto g pure
+network: [2G GSM, 3G UMTS, 4G LTE]
+peripherals: [3.5mm jack, A-GPS, Accelerometer, Fingerprint reader, GLONASS, GPS, Light sensor, Proximity sensor, USB OTG]
+ram: 2/3 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>, then select "Recovery mode" using Volume keys.
+recovery_partition_name: boot
+recovery_reboot: fastboot_menu
+release: 2021-10-14
+screen: {resolution: '720x1600', size: 6.5, technology: 'IPS LCD'}
+sdcard: {size_max: '512 GB'}
+soc: MediaTek Helio G25
+storage: 32 GB eMMC 5.1
+tree: android_device_motorola_ellis
+type: phone
+vendor: Motorola
+vendor_short: motorola
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac
