@@ -27,7 +27,7 @@ recovery_partition_name: recovery
 release: 2023-06
 screen: {resolution: '2000x1200', size: 11, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB', slot: dedicated}
-soc: Mediatek MT8188J
+soc: MediaTek MT8188J
 storage: 64/128 GB
 tree: android_device_amazon_sunstone
 type: tablet

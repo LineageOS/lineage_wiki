@@ -29,7 +29,7 @@ recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Pow
 recovery_partition_name: vendor_boot
 release: 2022-07
 screen: {refresh_rate: 144, resolution: '1080x2460', size: 6.6, technology: 'IPS LCD'}
-soc: Mediatek Dimensity 8100
+soc: MediaTek Dimensity 8100
 storage: 128/256 GB
 tree: android_device_xiaomi_xaga
 type: phone

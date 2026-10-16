@@ -30,7 +30,7 @@ recovery_partition_name: vendor_boot
 recovery_reboot: fastboot_menu
 release: 2023-09
 screen: {refresh_rate: 144, resolution: '1080x2400', size: 6.55, technology: 'P-OLED'}
-soc: Mediatek Dimensity 7030
+soc: MediaTek Dimensity 7030
 storage: 128/256 GB uMCP
 tree: android_device_motorola_manaus
 type: phone

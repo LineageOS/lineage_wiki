@@ -31,7 +31,7 @@ recovery_reboot: fastboot_menu
 release: 2024-12
 screen: {refresh_rate: 60, resolution: '1080x2400', size: 6.72, technology: 'IPS LCD'}
 sdcard: {size_max: '1 TB', slot: dedicated}
-soc: Mediatek Helio G81 Extreme
+soc: MediaTek Helio G81 Extreme
 storage: 256/512 GB
 tree: android_device_motorola_lamu
 type: phone

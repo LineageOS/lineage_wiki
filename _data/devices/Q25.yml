@@ -29,7 +29,7 @@ recovery_reboot: fastboot_menu
 release: 2025-11
 screen: {resolution: '720x720', size: 3.5, technology: 'LCD'}
 sdcard: {size_max: '2 TB'}
-soc: Mediatek Helio G99
+soc: MediaTek Helio G99
 storage: 256 GB UFS2.1
 tree: android_device_xelex_Q25
 type: phone

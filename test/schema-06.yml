@@ -316,14 +316,14 @@ definitions:
       - Intel Atom Z2560
       - Intel Atom Z3560
       - Intel Atom Z3580
-      - Mediatek Dimensity 7030
-      - Mediatek Dimensity 8100
-      - Mediatek Helio G80
-      - Mediatek Helio G81 Extreme
-      - Mediatek Helio G85
-      - Mediatek Helio G95
-      - Mediatek Helio G99
-      - Mediatek MT8188J
+      - MediaTek Dimensity 7030
+      - MediaTek Dimensity 8100
+      - MediaTek Helio G80
+      - MediaTek Helio G81 Extreme
+      - MediaTek Helio G85
+      - MediaTek Helio G95
+      - MediaTek Helio G99
+      - MediaTek MT8188J
       - NVIDIA Tegra 4 (T114)
       - NVIDIA Tegra K1 (T124)
       - NVIDIA Tegra X1 (T210)
