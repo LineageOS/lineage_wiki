@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6af23c5c_417e3e06",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36366
+      },
+      "writtenOn": "2026-10-16T12:26:47Z",
+      "side": 1,
+      "message": "garnet might also need this",
+      "revId": "4edbf1aabad1ed98ab265ced65788a47c1c9e2bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
