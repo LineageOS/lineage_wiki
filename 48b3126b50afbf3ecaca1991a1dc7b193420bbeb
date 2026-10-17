@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f763cd5_2feb0255",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 9
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29242
+      },
+      "writtenOn": "2026-10-17T23:05:17Z",
+      "side": 1,
+      "message": "I would prefer that this not be shipped until Launcher3 and fan issues have been resolved.",
+      "revId": "48b3126b50afbf3ecaca1991a1dc7b193420bbeb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
