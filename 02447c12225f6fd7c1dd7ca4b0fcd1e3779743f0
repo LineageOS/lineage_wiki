@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ca95666_38bbd5b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32222
+      },
+      "writtenOn": "2026-10-17T00:48:34Z",
+      "side": 1,
+      "message": "Waiting on interface changes in hardware/mediatek to be merged.",
+      "revId": "02447c12225f6fd7c1dd7ca4b0fcd1e3779743f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
