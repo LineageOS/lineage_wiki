@@ -16,6 +16,23 @@
       "message": "Waiting on interface changes in hardware/mediatek to be merged.",
       "revId": "02447c12225f6fd7c1dd7ca4b0fcd1e3779743f0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea42d1c4_6907dff5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-10-17T00:57:01Z",
+      "side": 1,
+      "message": "image is too small.  please follow steps here: https://wiki.lineageos.org/addingdevice-howto#adding-the-devices-image",
+      "revId": "02447c12225f6fd7c1dd7ca4b0fcd1e3779743f0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
