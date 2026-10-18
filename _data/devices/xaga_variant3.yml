@@ -1,6 +1,7 @@
 architecture: arm64
 battery: {capacity: 4400, removable: false, tech: 'Li-Po'}
 before_install: {instructions: 'needs_specific_android_fw', lineage_version: 24.0, version: '14'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot]}
 bluetooth: {spec: '5.3'}
 cameras:
   - {flash: 'LED', info: '64 MP (main)'}
