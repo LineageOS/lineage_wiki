@@ -70,6 +70,8 @@ To build LineageOS, you'll need:
 
 * `bc bison build-essential ccache curl erofs-utils flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick kmod protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev libgnutls28-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc xxd {% if cpu_architecture contains 'x86' %}yasm {% endif %}zip zlib1g-dev`
 
+For Ubuntu 26.04 (resolute) or newer, replace `libxml2` with `libxml2-16`.
+
 {% if device.versions contains 13.0
    or device.versions contains 14.1
    or device.versions contains 15.1
