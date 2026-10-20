@@ -15,7 +15,7 @@ image: odin3.png
 install_method: fastboot_unlocked
 is_ab_device: true
 kernel: {repo: android_kernel_ayn_cq8725s, version: '6.6'}
-maintainers: [AnierinBliss, balika011, djchittoor, log1cs, npjohnson]
+maintainers: [AnierinBliss, Tuan Anh, balika011, djchittoor, npjohnson]
 models: [Odin 3]
 name: 'Odin 3'
 network: None
