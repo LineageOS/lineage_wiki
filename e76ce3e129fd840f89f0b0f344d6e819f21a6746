@@ -153,6 +153,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "631631b9_7fa84c96",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-20T18:40:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7beca25d_55c66a0b",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4b7f1ac_d19a799b",
@@ -219,6 +237,24 @@
       "writtenOn": "2026-10-08T19:12:31Z",
       "side": 1,
       "message": "\"helps apps to not run all time\" -\u003e \"enables apps to push notifications without running in the background\"",
+      "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d41ab9d_8ed4c803",
+        "filename": "pages/microg.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 35436
+      },
+      "writtenOn": "2026-10-20T18:40:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "400a30ca_a2b89429",
       "revId": "e76ce3e129fd840f89f0b0f344d6e819f21a6746",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
