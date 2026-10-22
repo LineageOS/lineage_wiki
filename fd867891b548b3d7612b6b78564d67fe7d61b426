@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "27424163_f4ea2039",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35591
+      },
+      "writtenOn": "2026-10-22T12:32:13Z",
+      "side": 1,
+      "message": "Waiting for the proper recovery\u0027s touchscreen fix first.",
+      "revId": "fd867891b548b3d7612b6b78564d67fe7d61b426",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
