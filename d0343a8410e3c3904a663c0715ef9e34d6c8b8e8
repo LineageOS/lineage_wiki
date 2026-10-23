@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a9fd4619_feb17cd6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37990
+      },
+      "writtenOn": "2026-10-23T15:59:58Z",
+      "side": 1,
+      "message": "My 6+ has been locked to iodéOS since launch and works as expected since 491812 disabled PASR. While I can\u0027t verify on lineage, iodéOS is a fork with no relevant changes. Hope someone else can properly verify.",
+      "revId": "d0343a8410e3c3904a663c0715ef9e34d6c8b8e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
