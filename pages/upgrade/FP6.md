@@ -4,5 +4,6 @@ title: Upgrade LineageOS on FP6
 folder: upgrade
 permalink: /devices/FP6/upgrade/
 device: FP6
+toc: false
 ---
-{% include templates/device_upgrade.md %}
+{% include templates/device_variants.md %}
