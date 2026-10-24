@@ -6,29 +6,11 @@
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 
-1. Connect the device to your PC via USB.
-2. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-```
-adb -d reboot bootloader
-```
-    {% if device.download_boot %}
-    You can also boot into fastboot mode via a key combination:
-
-    * {{ device.download_boot }}
-    {% endif %}
-3. Once the device is in fastboot mode, verify your PC finds it by typing:
-```
-fastboot devices
-```
-  If you don't get any output or an error:
-   * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
-
-4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
-
+1. Enable OEM unlock in the Developer options under device Settings, if present.
     {% include alerts/note.html content="Some newer Motorola devices have a waiting period before you can enable `OEM Unlock` option in the developer options. It can sometimes take up to one week." %}
-
-5. Since the device resets completely, you will need to re-enable USB debugging to continue.
+2. Power off your device.
+3. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
+4. Since the device resets completely, you will need to re-enable USB debugging to continue.
 
 {% include snippets/before_recovery_install.md %}
 
