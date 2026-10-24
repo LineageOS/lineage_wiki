@@ -6,29 +6,14 @@
 {% include alerts/warning.html content="Unlocking the bootloader will erase all data on your device!
 Before proceeding, ensure the data you would like to retain is backed up to your PC and/or your Google account, or equivalent. Please note that OEM backup solutions like Samsung and Motorola backup may not be accessible from LineageOS once installed." %}
 
-1. Connect the device to your PC via USB.
-2. On the computer, open a command prompt (on Windows) or terminal (on Linux or macOS) window, and type:
-```
-adb -d reboot bootloader
-```
-    {% if device.download_boot %}
-    You can also boot into fastboot mode via a key combination:
-
-    * {{ device.download_boot }}
-    {% endif %}
-3. Once the device is in fastboot mode, verify your PC finds it by typing:
-```
-fastboot devices
-```
-  If you don't get any output or an error:
-   * on Windows: make sure the device appears in the device manager without a triangle. Try other drivers until the command above works!
-   * on Linux or macOS: If you see `no permissions fastboot` try running `fastboot` as root. When the output is empty, check your USB cable and port!
-
-4. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
-
-    {% include alerts/note.html content="Some newer Motorola devices have a waiting period before you can enable `OEM Unlock` option in the developer options. It can sometimes take up to one week." %}
-
-5. Since the device resets completely, you will need to re-enable USB debugging to continue.
+{% unless device.no_oem_unlock_switch %}
+1. If not already enabled, enable Developer Options by pressing the "Build Number" option at least 7 times, in the "Settings" app within the "About" menu.
+ * From within the Developer options menu, enable OEM unlock.
+    {% include alerts/note.html content="Some newer Motorola devices must be connected to the internet for up to 7 days in order to toggle the `OEM Unlock` option in the developer options." %}
+{% endunless %}
+2. Power off your device.
+3. Follow the instructions at [Motorola Support](http://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a) to unlock your bootloader.
+4. As the device was factory reset, you will need to re-enable [USB debugging]({{ "adb_fastboot_guide.html#setting-up-adb" | relative_url }}).
 
 {% include snippets/before_recovery_install.md %}
 
