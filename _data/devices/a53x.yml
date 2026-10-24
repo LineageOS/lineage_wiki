@@ -1,0 +1,42 @@
+architecture: arm64
+battery: {capacity: 5000, removable: false, tech: 'Li-Ion'}
+before_install: {instructions: 'needs_specific_android_fw', version: '15'}
+before_recovery_install: samsung_exynos9xxx
+bluetooth: {profiles: [A2DP], spec: '5.1'}
+cameras:
+  - {flash: 'LED', info: '64 MP (main)'}
+  - {flash: 'LED', info: '12 MP (ultrawide)'}
+  - {flash: 'LED', info: '5 MP (macro)'}
+  - {flash: None, info: '32 MP (front)'}
+codename: a53x
+cpu: Cortex-A78 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.4 GHz + 6 x 2.0 GHz
+current_branch: 24.0
+dimensions: {depth: 8.1, height: 159.6, width: 74.6}
+download_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Volume Down</kbd> then connect USB cable to PC.
+gpu: ARM Mali-G68 MP4
+image: a53x.png
+install_method: samloader_rs
+is_unlockable: false
+kernel: {repo: android_kernel_samsung_s5e8825, version: '5.10'}
+maintainers: [majaahh]
+models: [SM-A5360, SM-A536B, SM-A536B/DS, SM-A536E, SM-A536E/DS, SM-A536N]
+name: Galaxy A53 5G
+network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
+peripherals: [A-GPS, Accelerometer, Barometer, Compass, Dual SIM, Fingerprint reader, BeiDou, Galileo, GLONASS, GPS, QZSS, Gyroscope, Hall effect sensor, Light sensor, NFC, Pedometer, Proximity sensor, Stereo speakers, USB OTG]
+ram: 4/6/8 GB
+recovery_boot: Reboot and immediately hold <kbd>Volume Up</kbd> + <kbd>Power</kbd> while the device is connected to a PC via USB cable.
+recovery_partition_name: recovery
+release: 2022-03-24
+required_bootloader: ['SM-A5360 = A5360ZCSHFYH1/A5360ZHSHFYI1', 'SM-A536B = A536BXXSHFYI1', 'SM-A536E = A536EXXSHFYI4', 'SM-A536N = A536NKSSCFYH1']
+screen: {resolution: '1080x2400', size: 6.5, technology: 'Dynamic AMOLED'}
+sdcard: {size_max: '1 TB'}
+soc: Samsung Exynos 1280
+storage: 128/256 GB
+tree: android_device_samsung_a53x
+type: phone
+vendor: Samsung
+vendor_short: samsung
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac
