@@ -20,7 +20,7 @@ gpu: ARM Mali-G77 MP11
 image: z3s.png
 install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
-maintainers: [ExtremeXT, fcuzzocrea]
+maintainers: [ExtremeXT, fcuzzocrea, rocky7842]
 models: [SM-G988B, SM-G988B/DS]
 name: Galaxy S20 Ultra (5G)
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

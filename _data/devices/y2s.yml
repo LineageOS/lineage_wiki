@@ -20,7 +20,7 @@ gpu: ARM Mali-G77 MP11
 image: y2s.png
 install_method: samloader_rs
 kernel: {repo: android_kernel_samsung_universal9830, version: '4.19'}
-maintainers: [ExtremeXT, fcuzzocrea]
+maintainers: [ExtremeXT, fcuzzocrea, CmdCtrlDevic3]
 models: [SM-G985F, SM-G985F/DS, SM-G986B, SM-G986B/DS]
 name: Galaxy S20+ (4G/5G)
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
