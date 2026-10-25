@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {capacity: 6000, removable: false, tech: 'Li-Po'}
+before_install: {instructions: 'needs_specific_android_fw', ships_fw: true, version: '16'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [boot, dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP + aptX HD], spec: '5.4'}
+codename: RPDuo
+cpu: Kryo
+cpu_cores: '8'
+cpu_freq: 1 x 2.6 GHz + 4 x 2.4 GHz + 3 x 1.8 GHz
+current_branch: 24.0
+dimensions: {depth: 22.4, height: 95.5, width: 162}
+download_boot: With the device powered off, press <kbd>Volume Down</kbd> while plugging it into a PC.
+gpu: Qualcomm Adreno 722
+image: RPDuo.png
+install_method: fastboot_unlocked
+is_ab_device: true
+kernel: {repo: android_kernel_retroidpocket_cq7790, version: '6.6'}
+maintainers: [AnierinBliss, balika011, luk1337]
+models: [RPDuo]
+name: 'Retroid Pocket Duo'
+network: None
+peripherals: [3.5mm jack, Accelerometer, Dock, Gamepad, Gyroscope, Stereo speakers, USB OTG]
+ram: 8 GB LPDDR4X
+recovery_boot: With the device powered off, press <kbd>Volume Down</kbd> while plugging it into a PC, then select "Recovery mode" using Volume keys and press <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2026-10
+screen:
+- Primary: {refresh_rate: 120, resolution: '1920x1080', size: 5.5, technology: 'AMOLED'}
+- Secondary: {refresh_rate: 120, resolution: '1280x960', size: 4.5, technology: 'AMOLED'}
+sdcard: {size_max: '2 TB'}
+soc: Qualcomm Dragonwing™ Q-7790 (CQ7790)
+storage: 128 GB UFS2.1
+tree: android_device_retroidpocket_RPDuo
+type: Handheld game console
+vendor: Retroid Pocket
+vendor_short: retroidpocket
+versions: [23.2, 24.0]
+wifi: 802.11 a/b/g/n/ac/ax/be
