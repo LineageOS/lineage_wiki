@@ -20,6 +20,24 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "8b557ae8_6251ff80",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-26T08:26:07Z",
+      "side": 1,
+      "message": "Not sure whether this is correct as we\u0027ve already enabled USB debugging previously?",
+      "parentUuid": "183cf7a5_d5267a81",
+      "revId": "3cd2b218241a5a38cb1610e61964f478fa9870f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d3545705_22240be0",
         "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
         "patchSetId": 2
