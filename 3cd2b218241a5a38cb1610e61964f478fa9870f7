@@ -36,6 +36,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "29c22bec_75b29ada",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-27T18:40:14Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "8b557ae8_6251ff80",
+      "revId": "3cd2b218241a5a38cb1610e61964f478fa9870f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d3545705_22240be0",
@@ -71,6 +89,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3b8e3ab_28efe240",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-27T18:40:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "42430302_720bea89",
+      "revId": "3cd2b218241a5a38cb1610e61964f478fa9870f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "1141b418_154409db",
@@ -84,6 +120,24 @@
       "writtenOn": "2026-10-26T04:08:55Z",
       "side": 1,
       "message": "just include the adb snippet here.",
+      "revId": "3cd2b218241a5a38cb1610e61964f478fa9870f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f15bb4cc_f78918e7",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-10-27T18:40:14Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "1141b418_154409db",
       "revId": "3cd2b218241a5a38cb1610e61964f478fa9870f7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
