@@ -62,6 +62,29 @@
       },
       "revId": "f96042d010417230de0a2874ae2958dd45376c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93295e5c_0aec32f5",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-10-28T05:24:11Z",
+      "side": 1,
+      "message": "i think a noob will be completely lost here.  should specify when/how the waiting time starts, if the option is missing for them.",
+      "range": {
+        "startLine": 12,
+        "startChar": 159,
+        "endLine": 12,
+        "endChar": 195
+      },
+      "revId": "f96042d010417230de0a2874ae2958dd45376c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
