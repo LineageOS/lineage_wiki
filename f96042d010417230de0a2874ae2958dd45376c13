@@ -16,6 +16,52 @@
       "message": "Ack. Thanks Nolen.",
       "revId": "f96042d010417230de0a2874ae2958dd45376c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3a229680_9e44d882",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-10-28T00:04:44Z",
+      "side": 1,
+      "message": "isn\u0027t this missing \"7 times\" after option?",
+      "range": {
+        "startLine": 10,
+        "startChar": 89,
+        "endLine": 10,
+        "endChar": 90
+      },
+      "revId": "f96042d010417230de0a2874ae2958dd45376c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "92fd28a5_88fa258a",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 7118
+      },
+      "writtenOn": "2026-10-28T00:04:44Z",
+      "side": 1,
+      "message": "missing period or colon at the end?",
+      "range": {
+        "startLine": 10,
+        "startChar": 131,
+        "endLine": 10,
+        "endChar": 135
+      },
+      "revId": "f96042d010417230de0a2874ae2958dd45376c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
