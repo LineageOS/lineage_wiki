@@ -21,7 +21,7 @@ image: denver.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
-maintainers: [Vivekachooz]
+maintainers: [Vivekachooz, Deivid Ignacio Parra (Deivid21)]
 models: [XT2131-1]
 name: moto g stylus 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

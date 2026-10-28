@@ -19,7 +19,7 @@ image: miami.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
-maintainers: [marcost2]
+maintainers: [marcost2, Deivid Ignacio Parra (Deivid21)]
 models: [XT2245-1]
 name: edge 30 neo
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]

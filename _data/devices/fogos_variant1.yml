@@ -19,7 +19,7 @@ image: fogos.png
 install_method: fastboot_motorola
 is_ab_device: true
 kernel: {repo: android_kernel_motorola_sm6375, version: '5.4'}
-maintainers: [mikeioannina]
+maintainers: [mikeioannina, Deivid Ignacio Parra (Deivid21)]
 models: [XT2363-1, XT2363-2, XT2363-3, XT2363-4, XT2363-5]
 name: moto g34 5G
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
