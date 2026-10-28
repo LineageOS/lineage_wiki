@@ -181,6 +181,30 @@
       },
       "revId": "f96042d010417230de0a2874ae2958dd45376c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "78d701d1_ee0a114e",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-28T14:45:51Z",
+      "side": 1,
+      "message": "Yes, that\u0027s what happens. If you\u0027re connected to the internet then nothing else has to be done.",
+      "parentUuid": "ed43706e_401d5755",
+      "range": {
+        "startLine": 12,
+        "startChar": 159,
+        "endLine": 12,
+        "endChar": 195
+      },
+      "revId": "f96042d010417230de0a2874ae2958dd45376c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
