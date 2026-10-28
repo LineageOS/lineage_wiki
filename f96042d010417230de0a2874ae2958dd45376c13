@@ -157,6 +157,30 @@
       },
       "revId": "f96042d010417230de0a2874ae2958dd45376c13",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ed43706e_401d5755",
+        "filename": "_includes/templates/recovery_install_fastboot_motorola.md",
+        "patchSetId": 3
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-10-28T12:05:36Z",
+      "side": 1,
+      "message": "In my experience you set up the device and simply get online, then after a week the option gets enabled",
+      "parentUuid": "41cdfe46_2e8c5c7a",
+      "range": {
+        "startLine": 12,
+        "startChar": 159,
+        "endLine": 12,
+        "endChar": 195
+      },
+      "revId": "f96042d010417230de0a2874ae2958dd45376c13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
