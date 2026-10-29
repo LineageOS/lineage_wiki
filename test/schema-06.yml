@@ -604,7 +604,6 @@ definitions:
       - dolby_vision
       - esim
       - external_cameras
-      - face_unlock
       - fde
       - hardware_encryption
       - ims
