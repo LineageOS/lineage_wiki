@@ -141,6 +141,7 @@ definitions:
       - PowerVR GE8320
       - PowerVR SGX540
       - PowerVR SGX544MP2
+      - Samsung Xclipse 530
       - Samsung Xclipse 920
       - Qualcomm Adreno 225
       - Qualcomm Adreno 302
@@ -449,6 +450,7 @@ definitions:
       - Qualcomm SM8850 Snapdragon 8 Elite Gen 5
       - Samsung Exynos 2200
       - Samsung Exynos 1280
+      - Samsung Exynos 1480
       - Samsung Exynos 850
       - Samsung Exynos 4210
       - Samsung Exynos 4412

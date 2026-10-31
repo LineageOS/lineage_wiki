@@ -56,9 +56,15 @@ samloader print-pit
     * {{ device.download_boot }}
     * Now, click the button that the on screen instructions correlate to "Continue", and insert the USB cable into the device.
 3. On your machine, open a Command Prompt or PowerShell (Windows) window, or Terminal (Linux or macOS) window, and type:
+{%- if device.is_ab_device %}
+```
+samloader flash --partition {{ device.recovery_partition_name | upcase }}_A {{ device.recovery_partition_name }}.img --partition {{ device.recovery_partition_name | upcase }}_B {{ device.recovery_partition_name }}.img --no-reboot
+```
+{%- else %}
 ```
 samloader flash --partition {{ device.recovery_partition_name | upcase }} {{ device.recovery_partition_name }}.img --no-reboot
 ```
+{%- endif %}
     {% include alerts/tip.html content="The file may not be named identically to what stands in this command, so adjust accordingly. If the file is wrapped in a zip or tar file, extract the file first, because samloader-rs is not going to do it for you." %}
 4. A transfer bar will appear on the device showing the recovery image being flashed.
     {% include alerts/note.html content="The device will continue to display `Downloading... Do not turn off target!!` even after the process is complete." %}
