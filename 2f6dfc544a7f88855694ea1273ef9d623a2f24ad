@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "65465429_0d7e00ce",
+        "filename": "_includes/templates/device_install.md",
+        "patchSetId": 7
+      },
+      "lineNbr": 167,
+      "author": {
+        "id": 36773
+      },
+      "writtenOn": "2026-10-31T20:39:23Z",
+      "side": 1,
+      "message": "extra space.",
+      "revId": "2f6dfc544a7f88855694ea1273ef9d623a2f24ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
