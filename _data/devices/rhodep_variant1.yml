@@ -36,6 +36,7 @@ soc: Qualcomm SM6375 Snapdragon 695
 storage: 128 GB UFS2.2
 tree: android_device_motorola_rhodep
 type: phone
+variant: 1
 vendor: Motorola
 vendor_short: motorola
 versions: [22.2, 23.0, 23.2, 24.0]
