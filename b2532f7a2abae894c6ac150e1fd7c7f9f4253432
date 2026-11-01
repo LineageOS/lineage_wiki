@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "00ce2f65_8de6ebf6",
+        "filename": "_data/devices/gts9wifi.yml",
+        "patchSetId": 16
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 36296
+      },
+      "writtenOn": "2026-11-01T19:32:59Z",
+      "side": 1,
+      "message": "Remove this",
+      "range": {
+        "startLine": 22,
+        "startChar": 6,
+        "endLine": 22,
+        "endChar": 14
+      },
+      "revId": "b2532f7a2abae894c6ac150e1fd7c7f9f4253432",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
