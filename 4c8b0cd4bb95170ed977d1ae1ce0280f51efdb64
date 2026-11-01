@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9a49cc58_0b9ee056",
+        "filename": "_data/devices/rhodep_variant2.yml",
+        "patchSetId": 2
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2026-11-01T21:26:43Z",
+      "side": 1,
+      "message": "Please remove me from XT2225-2/g71s, I only support XT2225-1/g82.",
+      "range": {
+        "startLine": 23,
+        "startChar": 29,
+        "endLine": 23,
+        "endChar": 38
+      },
+      "revId": "4c8b0cd4bb95170ed977d1ae1ce0280f51efdb64",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
