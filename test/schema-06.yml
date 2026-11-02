@@ -113,6 +113,7 @@ definitions:
       - ARM Mali-G76 MC4
       - ARM Mali-G76 MP12
       - ARM Mali-G77 MP11
+      - ARM Mali-G77 MC9
       - ARM Mali-G78 MP20
       - ARM Mali-G610 MC3
       - ARM Mali-G610 MC6
@@ -322,6 +323,7 @@ definitions:
       - Intel Atom Z3560
       - Intel Atom Z3580
       - MediaTek Dimensity 7030
+      - MediaTek Dimensity 8020
       - MediaTek Dimensity 8100
       - MediaTek Helio G25
       - MediaTek Helio G80
