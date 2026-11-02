@@ -13,5 +13,5 @@ You have been redirected here because LineageOS builds for your device do not su
 
 ### Why is that?
 
-Face unlock was poorly standardized, with this device's implementation being proprietary, and broken on newer Android versions.
-This might or might not affect you, depending on your usecase.
+Face unlock was poorly standardized, resulting in each individual device having a unique proprietary implementation, which often is broken on newer Android versions.
+This may or may not affect you, depending on your usecase.
