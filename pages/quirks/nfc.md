@@ -12,7 +12,7 @@ toc: false
 To read about NFC in general, see [here](https://en.wikipedia.org/wiki/Near-field_communication).
 You have been redirected here because LineageOS builds for your device do not support NFC functions.
 
-### Why is that?
+### Why Is That?
 
 While it is certainly standardized, some NFC chipsets have no implemnetation available.
 Some chipsets have their own implementation, which is not open-sourced and can therefore not be integrated into LineageOS' code.

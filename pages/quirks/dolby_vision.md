@@ -11,7 +11,7 @@ toc: false
 
 You have been redirected here because LineageOS builds for your device do not support Dolby Vision, or local Dolby content decoding.
 
-### Why is that?
+### Why Is That?
 
 This feature is heavily proprietary and guarded to only function on devices running the stock ROM with the bootloader locked.
 

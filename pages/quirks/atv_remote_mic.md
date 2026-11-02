@@ -11,7 +11,7 @@ toc: false
 
 You have been redirected here because LineageOS builds for your device do not support the in-remote microphone(s) on the remote that was included with your device.
 
-### Why is that?
+### Why Is That?
 
 Previous to roughly 2018, there was no standardized implementation available for in-remote microphone audio routing.
 Some vendors created their own implementation, which is not open-source and can therefore not be integrated into LineageOS' code.

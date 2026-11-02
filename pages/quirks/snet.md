@@ -1,11 +1,11 @@
 ---
 sidebar: home_sidebar
-title: Quirks - Device integrity
+title: Quirks - Device Integrity
 permalink: quirks/snet/
 toc: false
 ---
 
-## Device integrity
+## Device Integrity
 
 By design LineageOS [does not intentionally circumvent](https://github.com/LineageOS/charter/blob/main/device-support-requirements.md#play-integrity) any integrity checks that app developers might use, such as:
 * [Play Integrity](https://developer.android.com/google/play/integrity/overview)
