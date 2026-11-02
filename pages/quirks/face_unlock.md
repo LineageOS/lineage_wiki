@@ -11,7 +11,7 @@ toc: false
 
 You have been redirected here because LineageOS builds for your device do not support face unlock biometric functions.
 
-### Why is that?
+### Why Is That?
 
 Face unlock was poorly standardized, with this device's implementation being proprietary, and broken on newer Android versions.
 This might or might not affect you, depending on your usecase.

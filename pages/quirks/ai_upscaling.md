@@ -15,7 +15,7 @@ AI upscaling utilizing DLSS amongst other components to take lower resolution co
 
 For more information on this feature see [here](https://www.nvidia.com/en-us/shield/support/shield-tv/ai-upscaling/).
 
-### Why is that?
+### Why Is That?
 
 This is a proprietary feature implemented in the closed-source NVIDIA frameworks.
 
