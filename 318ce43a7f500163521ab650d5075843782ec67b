@@ -16,6 +16,23 @@
       "message": "Waiting for few gerrit changes to be merged",
       "revId": "318ce43a7f500163521ab650d5075843782ec67b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e8fed71_978a7b75",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37184
+      },
+      "writtenOn": "2026-11-09T16:54:50Z",
+      "side": 1,
+      "message": "Ready",
+      "revId": "318ce43a7f500163521ab650d5075843782ec67b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
