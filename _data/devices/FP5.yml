@@ -19,7 +19,7 @@ image: FP5.png
 install_method: fastboot_fairphone
 is_ab_device: true
 kernel: {repo: android_kernel_fairphone_qcm6490, version: '5.4'}
-maintainers: [mikeioannina]
+maintainers: [mikeioannina, elginsk8r]
 models: [FP5]
 name: '5'
 network: [2G GSM, 3G UMTS, 4G LTE, 5G NR]
