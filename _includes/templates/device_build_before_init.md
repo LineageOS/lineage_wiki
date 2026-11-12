@@ -5,16 +5,17 @@
 * A {{ display_name }}.
 {%- endif %}
 * A relatively recent x86_64 computer:
-  * Linux, macOS, or Windows - these build instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
+  * {% if device.current_branch >= 24 %}Linux{% else %}Linux, macOS, or Windows{% endif %} - these build instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
   * A reasonable amount of RAM (16 GB to build up to `lineage-17.1`, 32 GB or more for `lineage-18.1`, and 64 GB for `lineage-21` and up). The less RAM you have, the longer the build will take. Enabling ZRAM can be helpful.
   * A reasonable amount of Storage (200 GB to build up to `lineage-17.1`, 300 GB for `lineage-18.1`, and 400 GB for `lineage-21` and up). You might require more free space for enabling `ccache` or building for multiple devices. Using SSDs results in considerably faster build times than traditional hard drives.
 * A decent internet connection and reliable electricity. :)
 * Some familiarity with basic Android operation and terminology.
  It may be useful to know some basic command line concepts such as `cd`, which stands for “change directory”, the concept of directory hierarchies, and that in Linux they are separated by `/`, etc.
 
-{% include alerts/tip.html content="If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
+{% capture vm_tip %}If you are not accustomed to using Linux, this is an excellent chance to learn. It’s free -- just download and run a virtual machine (VM) such as
 [VirtualBox](https://www.virtualbox.org), then install a Linux distribution such as [Ubuntu](https://www.ubuntu.com) ([AOSP vets Ubuntu as well](https://source.android.com/source/initializing.html)).
-Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you. Though it is worth noting, if you already use either a Linux distro or macOS, you can just proceed." %}
+Any recent 64-bit version should work great, but the latest Long Term Support (LTS) version is recommended. There are plenty of instructions on setting up VirtualBox to run Ubuntu, so we'll leave that to you. Though it is worth noting, if you already use {% if device.current_branch >= 24 %}a Linux distro{% else %}either a Linux distro or macOS{% endif %}, you can just proceed.{% endcapture %}
+{% include alerts/tip.html content=vm_tip %}
 
 Let's begin!
 
