@@ -43,6 +43,9 @@ Google hosts zips including only `adb` and `fastboot`. You can set these up for 
 3. Install `android-platform-tools` by running the following command: `brew install --cask android-platform-tools`.
 
 ### On Linux
+* x86_64: follow the steps below.
+* arm64: install your distribution's `adb` and `fastboot` packages, then continue with step 5.
+
 1. Download the [Linux zip](https://dl.google.com/android/repository/platform-tools-latest-linux.zip) from Google.
 2. Extract it somewhere - for example, `~/adb-fastboot`.
 3. Add the following to `~/.profile`:

@@ -2,10 +2,24 @@ Enter the following to initialize the repository:
 
 {% include alerts/note.html content="Make sure the branch you enter here is the one you wish to build!" %}
 
+{% capture repo_init %}repo init -u https://github.com/LineageOS/android.git -b {% if current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ current_branch | precision: 1 }} --git-lfs --no-clone-bundle{% endcapture %}
+{% if device.current_branch >= 24 %}
+* x86_64:
+  ```
+  cd ~/android/lineage
+  {{ repo_init }}
+  ```
+* arm64:
+  ```
+  cd ~/android/lineage
+  {{ repo_init }} -g default,platform-linux-arm64
+  ```
+{% else %}
 ```
 cd ~/android/lineage
-repo init -u https://github.com/LineageOS/android.git -b {% if current_branch < 15 %}cm{% else %}lineage{% endif %}-{{ current_branch | precision: 1 }} --git-lfs --no-clone-bundle
+{{ repo_init }}
 ```
+{% endif %}
 
 ### Download the source code
 

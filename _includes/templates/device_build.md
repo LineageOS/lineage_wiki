@@ -91,10 +91,25 @@ need to be placed in `~/bin`.
 
 Time to start building! Now, type:
 
+{% if device.current_branch >= 24 %}
+* x86_64:
+  ```
+  croot
+  brunch {{device.codename}}
+  ```
+* arm64:
+  ```
+  croot
+  export THINLTO_USE_MLGO=false
+  export LLVM_BINDGEN_PREBUILTS_VERSION=clang-r596125
+  brunch {{device.codename}}
+  ```
+{% else %}
 ```
 croot
 brunch {{device.codename}}
 ```
+{% endif %}
 
 The build should begin.
 

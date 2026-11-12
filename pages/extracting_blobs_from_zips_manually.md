@@ -85,9 +85,15 @@ git clone https://github.com/LineageOS/android_system_update_engine.git android/
 ```
 
 Now, extract the the `.img` files from payload.bin:
-```
-android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
-```
+
+* x86_64:
+  ```
+  android/prebuilts/extract-tools/linux-x86/bin/ota_extractor --payload payload.bin
+  ```
+* arm64:
+  ```
+  android/prebuilts/extract-tools/linux-arm64/bin/ota_extractor --payload payload.bin
+  ```
 
 It will take a few moments. Once it's done, you will need to mount all images. First, mount `system.img`:
 ```

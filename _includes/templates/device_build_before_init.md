@@ -4,8 +4,11 @@
 {%- include snippets/get_displayname.md device=device %}
 * A {{ display_name }}.
 {%- endif %}
-* A relatively recent x86_64 computer:
-  * {% if device.current_branch >= 24 %}Linux{% else %}Linux, macOS, or Windows{% endif %} - these build instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
+* A relatively recent x86_64{% if device.current_branch >= 24 %} or arm64{% endif %} computer:
+  * {% if device.current_branch >= 24 %}x86_64: Linux{% else %}Linux, macOS, or Windows{% endif %} - these build instructions are only tested using Ubuntu 20.04 LTS, so we recommend going with that.
+{%- if device.current_branch >= 24 %}
+  * arm64: Linux - these build instructions are only tested using Ubuntu 26.04 LTS.
+{%- endif %}
   * A reasonable amount of RAM (16 GB to build up to `lineage-17.1`, 32 GB or more for `lineage-18.1`, and 64 GB for `lineage-21` and up). The less RAM you have, the longer the build will take. Enabling ZRAM can be helpful.
   * A reasonable amount of Storage (200 GB to build up to `lineage-17.1`, 300 GB for `lineage-18.1`, and 400 GB for `lineage-21` and up). You might require more free space for enabling `ccache` or building for multiple devices. Using SSDs results in considerably faster build times than traditional hard drives.
 * A decent internet connection and reliable electricity. :)
@@ -30,6 +33,11 @@ skip to [Start the build](#start-the-build)" %}
 {% endif %}
 
 ### Install the platform-tools
+
+{% if device.current_branch >= 24 %}
+* x86_64: follow the steps below.
+* arm64: install your distribution's `adb` and `fastboot` packages.
+{% endif %}
 
 If you haven't previously installed `adb` and `fastboot`, you can [download them from Google](https://dl.google.com/android/repository/platform-tools-latest-linux.zip).
 Extract it running:
@@ -69,7 +77,10 @@ command directly in the Terminal." %}
 
 To build LineageOS, you'll need:
 
-* `bc bison build-essential ccache curl erofs-utils flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick kmod protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev libgnutls28-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc xxd {% if cpu_architecture contains 'x86' %}yasm {% endif %}zip zlib1g-dev`
+* {% if device.current_branch >= 24 %}x86_64: {% endif %}`bc bison build-essential ccache curl erofs-utils flex g++-multilib gcc-multilib git git-lfs gnupg gperf imagemagick kmod protobuf-compiler python3-protobuf lib32readline-dev lib32z1-dev libdw-dev libelf-dev libgnutls28-dev lz4 libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc xxd {% if cpu_architecture contains 'x86' %}yasm {% endif %}zip zlib1g-dev`
+{%- if device.current_branch >= 24 %}
+* arm64: `bc curl git git-lfs gnupg kmod libxml2 lzop rsync squashfs-tools xxd zip`
+{%- endif %}
 
 For Ubuntu 26.04 (resolute) or newer, replace `libxml2` with `libxml2-16`.
 
@@ -117,7 +128,10 @@ While for Ubuntu versions older than 16.04 (xenial), install:
 
 Different versions of LineageOS require different JDK (Java Development Kit) versions.
 
-* LineageOS 18.1+: OpenJDK 11 (included in source download)
+{% if device.current_branch >= 24 -%}
+* LineageOS 24.0: OpenJDK 25 (included in source download)
+{% endif -%}
+* LineageOS 18.1{% if device.current_branch >= 24 %}-23.2{% else %}+{% endif %}: OpenJDK 11 (included in source download)
 * LineageOS 16.0-17.1: OpenJDK 1.9 (included in source download)
 * LineageOS 14.1-15.1: OpenJDK 1.8 (install `openjdk-8-jdk`)
   * NOTE: For building these versions you'll need to remove `TLSv1` and `TLSv1.1` from `jdk.tls.disabledAlgorithms` in `/etc/java-8-openjdk/security/java.security`.
