@@ -19,7 +19,7 @@ tags:
 
 Before you submit a bug, please search to verify that someone else hasn't reported it already.
 
-Please do not:
+**DON'T**:
 - Post "Me too" or "+1" messages on existing reports
 - Comment your device as affected on a report for a different device - different devices have different maintainers, and different reasons for bugs to exist
 - Ask if it is fixed already - if the report is still open it probably is still present!
