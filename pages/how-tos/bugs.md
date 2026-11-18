@@ -19,15 +19,15 @@ tags:
 
 Before you submit a bug, please search to verify that someone else hasn't reported it already.
 
-Please do not:
-- Post "Me too" or "+1" messages on existing reports
-- Comment your device as affected on a report for a different device - different devices have different maintainers, and different reasons for bugs to exist
-- Ask if it is fixed already - if the report is still open it probably is still present!
-- Ask for status updates - we can't provide them (no ["ETA"]({{ "glossary/#eta" | absolute_url }}){: .glossary}!)
-- Ping people/maintainers - most of them already check the tracker
-- Post bugs on modified devices (e.g., devices with many add-ons, or rooted devices) -  as those modifications are potentially causes for your issue
-- Post AI output - if we needed educated guesses, we can/will prompt the models ourselves. Other than that, it really provides no value having to filter through even more text that may be completely unhelpful
-- Update the post with every affected build - if the report is still open, the issue likely still exists
+**WHAT NOT TO DO:**
+- **DON'T:** Post "Me too" or "+1" messages on existing reports
+- **DON'T:** Comment your device as affected on a report for a different device - different devices have different maintainers, and different reasons for bugs to exist
+- **DON'T:** Ask if it is fixed already - if the report is still open it probably is still present!
+- **DON'T:** Ask for status updates - we can't provide them (no ["ETA"]({{ "glossary/#eta" | absolute_url }}){: .glossary}!)
+- **DON'T:** Ping people/maintainers - most of them already check the tracker
+- **DON'T:** Post bugs on modified devices (e.g., devices with many add-ons, or rooted devices) -  as those modifications are potentially causes for your issue
+- **DON'T:** Post AI output - if we needed educated guesses, we can/will prompt the models ourselves. Other than that, it really provides no value having to filter through even more text that may be completely unhelpful
+- **DON'T:** Update the post with every affected build - if the report is still open, the issue likely still exists
 
 All bugreports have to be posted in **english only**. Please also skip reporting in your native language in addition to english - plain, simple english only is enough!
 
