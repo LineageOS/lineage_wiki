@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "da52d838_80ce44d9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-11-19T14:17:07Z",
+      "side": 1,
+      "message": "Ppl with lack reading skills won\u0027t read another version of the same either.\nWe keep the current version",
+      "revId": "74ca790f93d43a40135ccf81d2603fb967792f9b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
