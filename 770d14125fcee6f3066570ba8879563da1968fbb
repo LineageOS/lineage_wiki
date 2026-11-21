@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "23385596_d10fdc22",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37990
+      },
+      "writtenOn": "2026-11-21T12:19:13Z",
+      "side": 1,
+      "message": "Someone with a Fairphone (Gen. 6+) was able to help out. They installed lineage as per current wiki instructions, with no gapps or other modifications. They reported no issues and ran the following to confirm SoC clock and memory working as expected:\n\n```bash\nFP6:/ $ getprop ro.lineage.version\n23.2-20261116-NIGHTLY-FP6\nFP6:/ $ grep MemTotal /proc/meminfo\nMemTotal:       11652288 kB\nFP6:/ $ cat /sys/devices/system/cpu/cpufreq/policy*/cpuinfo_max_freq\n1804800\n2400000\n2707200\nFP6:/ $ cat /sys/devices/soc0/sku\nVOLCANO-1-AC\nFP6:/ $\n```",
+      "revId": "770d14125fcee6f3066570ba8879563da1968fbb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
