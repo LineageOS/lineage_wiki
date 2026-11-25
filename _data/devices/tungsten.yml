@@ -1,0 +1,38 @@
+architecture: arm64
+battery: {capacity: 6500, removable: false, tech: 'Li-Ion'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP], spec: '5.3'}
+cameras:
+  - {flash: None, info: '5 MP (main)'}
+  - {flash: None, info: '5 MP (front)'}
+codename: tungsten
+cpu: Cortex-A76 & Cortex-A55
+cpu_cores: '8'
+cpu_freq: 2 x 2.05 GHz + 6 x 2.0 GHz
+current_branch: 24.0
+dimensions: {depth: 8.6, height: 246, width: 164.8}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G52 MC2
+image: tungsten.png
+install_method: fastboot_custom
+kernel: {repo: android_kernel_amazon_mt8169, version: '5.4'}
+maintainers: [R0rt1z2]
+models: [KFTUWI]
+name: Fire HD 10 (2023)
+network: None
+peripherals: [3.5mm jack, Accelerometer, Hall effect sensor, Light sensor, Stereo speakers, USB OTG]
+ram: 3/4 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2023-10
+screen: {resolution: '1920x1200', size: 10.1, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB', slot: dedicated}
+soc: MediaTek MT8186A
+storage: 32/64 GB
+tree: android_device_amazon_tungsten
+type: tablet
+unlock_bootloader_guide: https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-fire-hd-10-13th-gen-2023-tungsten.4809028/
+vendor: Amazon
+vendor_short: amazon
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac
