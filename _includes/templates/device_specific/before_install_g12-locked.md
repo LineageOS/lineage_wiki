@@ -13,3 +13,5 @@ Downgrading to older builds is not a viable option.
 If you have not yet setup your device, **do not** set it up to check the version, or to toggle the OEM Unlock just proceed with the installation instructions, as the setup process forcibly updates the device. Instead proceed past this page and the next and proceed directly to [Forcibly unlocking the bootloader](https://wiki.lineageos.org/devices/{{ device.codename }}/install/#forcibly-unlocking-the-bootloader) and proceed from there.
 
 If your device is already past the setup screen, and on the April 2024 OTA or a build that preceeds it, you can proceed using the "Next Step" button below.
+
+If your device is already unlocked, or a method is discovered to unlock the bootloader on Android 14 firmwares, if fastboot reports "unlocked" to `fastboot getvar lock`, then you can proceed with the install.
