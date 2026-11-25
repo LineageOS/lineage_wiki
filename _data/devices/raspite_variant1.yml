@@ -1,0 +1,39 @@
+architecture: arm64
+battery: {capacity: 4850, removable: false, tech: 'Li-Ion'}
+before_recovery_install: {instructions: 'boot_stack', partitions: [dtbo, vbmeta, vendor_boot]}
+bluetooth: {profiles: [A2DP], spec: '5.2'}
+cameras:
+  - {flash: None, info: '2 MP (main)'}
+  - {flash: None, info: '2 MP (front)'}
+codename: raspite
+cpu: Cortex-A55
+cpu_cores: '6'
+cpu_freq: 6 x 2.0 GHz
+current_branch: 24.0
+dimensions: {depth: 9.6, height: 201.9, width: 137.34}
+download_boot: With the device powered off, hold <kbd>Volume Down</kbd> + <kbd>Power</kbd>.
+gpu: ARM Mali-G52 MC2
+image: raspite.png
+install_method: fastboot_custom
+kernel: {repo: android_kernel_amazon_mt8169, version: '5.4'}
+maintainers: [R0rt1z2]
+models: [KFRAWI]
+name: Fire HD 8 (2022)
+network: None
+peripherals: [3.5mm jack, Accelerometer, Hall effect sensor, Light sensor, Stereo speakers, USB OTG]
+ram: 2 GB
+recovery_boot: With the device powered off, hold <kbd>Volume Up</kbd> + <kbd>Power</kbd>.
+recovery_partition_name: recovery
+release: 2022-10
+screen: {resolution: '1280x800', size: 8, technology: 'IPS LCD'}
+sdcard: {size_max: '1 TB', slot: dedicated}
+soc: MediaTek MT8169A
+storage: 32/64 GB
+tree: android_device_amazon_raspite
+type: tablet
+unlock_bootloader_guide: https://xdaforums.com/t/unlock-root-twrp-unbrick-amazon-fire-hd-8-hd-8-plus-12th-gen-2022-2024-raspite.4808518/
+variant: 1
+vendor: Amazon
+vendor_short: amazon
+versions: [24.0]
+wifi: 802.11 a/b/g/n/ac
