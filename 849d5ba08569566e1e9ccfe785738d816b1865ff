@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "36a5d765_c79ecc40",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32620
+      },
+      "writtenOn": "2026-11-26T00:28:53Z",
+      "side": 1,
+      "message": "On hold until topic:mtk-wpa_supplicant_8 is merged.",
+      "revId": "849d5ba08569566e1e9ccfe785738d816b1865ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
