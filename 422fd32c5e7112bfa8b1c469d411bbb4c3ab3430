@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a47eef0_a9ce83ff",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2026-11-27T14:09:49Z",
+      "side": 1,
+      "message": "Same as before. The wiki is not made to be read in a hurry. Also we phrase everything in a polite way, even if it\u0027s a MUST.\nThis\u0027ll stay as-is, even if you create yet another change",
+      "revId": "422fd32c5e7112bfa8b1c469d411bbb4c3ab3430",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
